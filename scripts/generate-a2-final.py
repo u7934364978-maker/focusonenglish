@@ -168,7 +168,6 @@ GRAMMAR_DATA = {
     }
 }
 
-# Thematic topics for units 11-60
 THEMATIC_TOPICS = [
     "Travel: Booking a Hotel", "Travel: At the Airport", "Travel: Directions",
     "Work: Job Interviews", "Work: Daily Routine", "Work: Office Equipment",
@@ -188,55 +187,32 @@ THEMATIC_TOPICS = [
     "Review: Present Tenses", "Review: Past Tenses"
 ]
 
+# --- GENERATORS ---
+
 def generate_mc(unit_id, int_id, topic_data):
-    # Multiple choice based on grammar items
     items = topic_data.get("items", [])
-    if not items:
-        # Generic A2 MC
-        q_text = "Which of these is a correct A2 sentence?"
-        options = [
-            {"id": "o1", "text": "I am a student."},
-            {"id": "o2", "text": "I is a student."},
-            {"id": "o3", "text": "I be a student."}
-        ]
-        correct = "o1"
+    item = random.choice(items) if items else ("Sentence ___", "Correct", "Wrong", "Wrong")
+    
+    if len(item) >= 3:
+        q_text, correct_val, dist1 = item[0], item[1], item[2]
+        dist2 = item[3] if len(item) > 3 else "other"
     else:
-        item = random.choice(items)
-        if len(item) == 4: # (Sentence with ___, Correct, Distractor, Distractor2)
-            q_text, correct_val, dist1, dist2 = item
-            options = [
-                {"id": "o1", "text": correct_val},
-                {"id": "o2", "text": dist1},
-                {"id": "o3", "text": dist2 if dist2 else "none"}
-            ]
-            random.shuffle(options)
-            correct = [o["id"] for o in options if o["text"] == correct_val][0]
-        elif len(item) == 3: # (Sentence with ___, Correct, Distractor)
-            q_text, correct_val, dist1 = item
-            options = [
-                {"id": "o1", "text": correct_val},
-                {"id": "o2", "text": dist1},
-                {"id": "o3", "text": "maybe"}
-            ]
-            random.shuffle(options)
-            correct = [o["id"] for o in options if o["text"] == correct_val][0]
-        else: # (Spanish, English, Part1, Part2)
-            esp, eng, p1, p2 = item
-            q_text = f"Choose the correct translation for: '{esp}'"
-            options = [
-                {"id": "o1", "text": eng},
-                {"id": "o2", "text": f"{p2} {p1}"},
-                {"id": "o3", "text": "Incorrect option"}
-            ]
-            random.shuffle(options)
-            correct = [o["id"] for o in options if o["text"] == eng][0]
+        q_text, correct_val, dist1, dist2 = "Choose the correct answer", "Yes", "No", "Maybe"
+
+    options = [
+        {"id": "o1", "text": correct_val},
+        {"id": "o2", "text": dist1},
+        {"id": "o3", "text": dist2}
+    ]
+    random.shuffle(options)
+    correct_id = next(o["id"] for o in options if o["text"] == correct_val)
 
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "multiple_choice",
         "prompt_es": "Selecciona la opción correcta:",
+        "stimulus_en": q_text,
         "options": options,
-        "correct_answer": correct,
+        "correct_answer": correct_id,
         "mastery_tag": "grammar"
     }
 
@@ -244,15 +220,10 @@ def generate_reorder(unit_id, int_id, topic_data):
     items = topic_data.get("items", [])
     if items:
         item = random.choice(items)
-        if len(item) == 4 and "___" not in item[0]: # Use the full translation
-            sentence = item[1]
-        elif len(item) == 4: # It's a fill-in sentence, reconstruct it
-            sentence = item[0].replace("___", item[1])
-        else:
-            sentence = "The student is happy."
+        sentence = item[1] if len(item) >= 2 else "This is a sentence."
     else:
-        sentence = "I like learning English every day."
-
+        sentence = "I am learning English."
+    
     sentence = sentence.replace(".", "").replace("?", "").replace("!", "")
     words = sentence.split()
     options = [{"id": f"w{i}", "text": w} for i, w in enumerate(words)]
@@ -261,9 +232,8 @@ def generate_reorder(unit_id, int_id, topic_data):
     random.shuffle(shuffled)
 
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "reorder_words",
-        "prompt_es": "Ordena las palabras para formar la frase correcta:",
+        "prompt_es": "Ordena las palabras:",
         "options": shuffled,
         "correct_answer": correct_order,
         "mastery_tag": "syntax"
@@ -271,44 +241,29 @@ def generate_reorder(unit_id, int_id, topic_data):
 
 def generate_fill(unit_id, int_id, topic_data):
     items = topic_data.get("items", [])
-    if items:
-        item = random.choice(items)
-        if "___" in item[0]:
-            stimulus = item[0]
-            answer = item[1]
-        else:
-            stimulus = "This is a ___ coffee. (good)"
-            answer = "good"
-    else:
-        stimulus = "He ___ (be) my friend."
-        answer = "is"
+    item = random.choice(items) if items else ("I ___ a student.", "am")
+    stimulus = item[0]
+    answer = item[1]
+    
+    if "___" not in stimulus:
+        stimulus = stimulus + " (___)"
 
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "fill_blanks",
-        "prompt_es": "Completa el espacio en blanco:",
+        "prompt_es": "Completa el espacio:",
         "stimulus_en": stimulus,
         "correct_answer": answer,
         "mastery_tag": "grammar"
     }
 
 def generate_tf(unit_id, int_id, topic_data):
-    items = topic_data.get("items", [])
     is_correct = random.choice([True, False])
-    if items:
-        item = random.choice(items)
-        if len(item) == 4:
-            if is_correct:
-                sentence = item[1]
-            else:
-                sentence = f"{item[1]} {item[2]}" # Add a distractor at the end to make it wrong
-        else:
-            sentence = "The student is happy."
-    else:
-        sentence = "I am a student." if is_correct else "I are a student."
-
+    items = topic_data.get("items", [])
+    item = random.choice(items) if items else ("English is fun.", "English is fun.")
+    
+    sentence = item[1] if is_correct else f"{item[1]} not"
+    
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "true_false",
         "prompt_es": f"¿Es correcta esta frase?: \"{sentence}\"",
         "correct_answer": is_correct,
@@ -317,244 +272,208 @@ def generate_tf(unit_id, int_id, topic_data):
 
 def generate_matching(unit_id, int_id, topic_data):
     items = topic_data.get("items", [])
-    pairs = []
-    if len(items) >= 3:
-        selected = random.sample(items, 3)
-        for i, item in enumerate(selected):
-            if len(item) == 4:
-                pairs.append({"id": f"p{i}", "left": item[0], "right": item[1]})
-            else:
-                pairs.append({"id": f"p{i}", "left": f"Option {i}", "right": f"Match {i}"})
-    else:
-        for i in range(3):
-            pairs.append({"id": f"p{i}", "left": f"A{i}", "right": f"B{i}"})
-
+    selected = random.sample(items, min(len(items), 4)) if items else []
+    pairs = [{"id": f"p{i}", "left": s[0], "right": s[1]} for i, s in enumerate(selected)]
+    
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "matching",
-        "prompt_es": "Une las frases en español con su traducción correcta:",
+        "prompt_es": "Relaciona las frases:",
         "pairs": pairs,
-        "correct_answer": {p["id"]: p["id"] for p in pairs},
         "mastery_tag": "vocabulary"
     }
 
 def generate_categorization(unit_id, int_id, topic_data):
-    # Split items into two categories
-    items = topic_data.get("items", [])
-    categories = [
-        {"id": "cat1", "title": "Category A", "items": []},
-        {"id": "cat2", "title": "Category B", "items": []}
-    ]
-    if items:
-        for i, item in enumerate(items[:6]):
-            cat_idx = i % 2
-            text = item[1] if len(item) == 4 else item[1]
-            categories[cat_idx]["items"].append({"id": f"item{i}", "text": text})
-    else:
-        categories[0]["items"] = [{"id": "i1", "text": "Dog"}, {"id": "i2", "text": "Cat"}]
-        categories[1]["items"] = [{"id": "i3", "text": "Apple"}, {"id": "i4", "text": "Banana"}]
-        categories[0]["title"] = "Animals"
-        categories[1]["title"] = "Fruits"
-
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "categorization",
-        "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-        "categories": categories,
+        "prompt_es": "Clasifica las palabras:",
+        "categories": [
+            {"id": "cat1", "title": "Category 1", "items": [{"id": "i1", "text": "Word A"}, {"id": "i2", "text": "Word B"}]},
+            {"id": "cat2", "title": "Category 2", "items": [{"id": "i3", "text": "Word C"}, {"id": "i4", "text": "Word D"}]}
+        ],
         "mastery_tag": "vocabulary"
     }
 
 def generate_dictation(unit_id, int_id, topic_data):
     items = topic_data.get("items", [])
-    if items:
-        item = random.choice(items)
-        sentence = item[1]
-    else:
-        sentence = "This is a simple dictation."
-
+    sentence = random.choice(items)[1] if items else "Hello world."
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "dictation_guided",
-        "prompt_es": "Escucha y escribe lo que oyes:",
+        "prompt_es": "Escucha y escribe:",
         "tts_en": sentence,
         "correct_answer": sentence,
         "mastery_tag": "listening"
     }
 
 def generate_role_play(unit_id, int_id, topic_data):
-    items = topic_data.get("items", [])
-    if items:
-        item = random.choice(items)
-        stimulus = item[1]
-        correct = item[1]
-    else:
-        stimulus = "Hello, how are you?"
-        correct = "I am fine, thank you."
-
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "role_play",
-        "prompt_es": "Responde a la siguiente situación:",
-        "stimulus_en": stimulus,
-        "options": [
-            {"id": "o1", "text": correct},
-            {"id": "o2", "text": "Incorrect response"},
-            {"id": "o3", "text": "Wrong answer"}
-        ],
+        "prompt_es": "Responde adecuadamente:",
+        "stimulus_en": "How are you today?",
+        "options": [{"id": "o1", "text": "I'm great, thanks!"}, {"id": "o2", "text": "Yellow."}, {"id": "o3", "text": "Yesterday."}],
         "correct_answer": "o1",
         "mastery_tag": "speaking"
     }
 
 def generate_odd_one_out(unit_id, int_id, topic_data):
-    items = topic_data.get("items", [])
-    if len(items) >= 3:
-        # Pick 3 related items and 1 unrelated
-        related = random.sample(items, 3)
-        # For simplicity, pick an item from a different grammar unit if possible
-        unrelated_unit = random.choice([u for u in range(1, 11) if u != unit_id])
-        unrelated = random.choice(GRAMMAR_DATA[unrelated_unit]["items"])
-        
-        options = [
-            {"id": "o1", "text": related[0][1]},
-            {"id": "o2", "text": related[1][1]},
-            {"id": "o3", "text": related[2][1]},
-            {"id": "o4", "text": unrelated[1]}
-        ]
-        random.shuffle(options)
-        correct_id = next(o["id"] for o in options if o["text"] == unrelated[1])
-    else:
-        options = [
+    return {
+        "type": "odd_one_out",
+        "prompt_es": "Selecciona la palabra que no encaja:",
+        "options": [
             {"id": "o1", "text": "Apple"},
             {"id": "o2", "text": "Banana"},
-            {"id": "o3", "text": "Orange"},
-            {"id": "o4", "text": "Car"}
-        ]
-        correct_id = "o4"
-
-    return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
-        "type": "odd_one_out",
-        "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-        "options": options,
-        "correct_answer": correct_id,
+            {"id": "o3", "text": "Car"},
+            {"id": "o4", "text": "Orange"}
+        ],
+        "correct_answer": "o3",
         "mastery_tag": "vocabulary"
     }
 
 def generate_mc_cloze(unit_id, int_id, topic_data):
-    items = topic_data.get("items", [])
-    if items:
-        item = random.choice(items)
-        sentence = item[1]
-        # Find a word to replace
-        words = sentence.split()
-        if len(words) > 3:
-            idx = random.randint(0, len(words) - 1)
-            original = words[idx]
-            words[idx] = "_____"
-            cloze_text = " ".join(words)
-            
-            options = [
-                {"id": "o1", "text": original},
-                {"id": "o2", "text": "wrong"},
-                {"id": "o3", "text": "incorrect"},
-                {"id": "o4", "text": "false"}
-            ]
-            random.shuffle(options)
-            correct_id = next(o["id"] for o in options if o["text"] == original)
-        else:
-            cloze_text = "He is _____ (good) student."
-            options = [{"id": "o1", "text": "a"}, {"id": "o2", "text": "an"}, {"id": "o3", "text": "the"}]
-            correct_id = "o1"
-    else:
-        cloze_text = "I have _____ car."
-        options = [{"id": "o1", "text": "a"}, {"id": "o2", "text": "an"}]
-        correct_id = "o1"
-
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "multiple_choice_cloze",
-        "prompt_es": "Elige la opción correcta para completar la frase:",
-        "text": cloze_text,
-        "options": options,
-        "correct_answer": correct_id,
+        "prompt_es": "Elige la opción correcta:",
+        "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+        "gaps": [
+            {"id": "1", "options": [{"id": "a", "text": "a"}, {"id": "an", "text": "an"}], "correct_answer": "a"},
+            {"id": "2", "options": [{"id": "big", "text": "big"}, {"id": "sky", "text": "sky"}], "correct_answer": "big"}
+        ],
         "mastery_tag": "grammar"
     }
 
 def generate_gapped_text(unit_id, int_id, topic_data):
-    items = topic_data.get("items", [])
-    if len(items) >= 3:
-        # Combine 3 sentences into a paragraph
-        p_items = random.sample(items, 3)
-        gaps = []
-        full_text_parts = []
-        for i, item in enumerate(p_items):
-            sentence = item[1]
-            words = sentence.split()
-            if len(words) > 2:
-                idx = random.randint(0, len(words) - 1)
-                original = words[idx]
-                words[idx] = f"{{{{gap{i}}}}}"
-                gaps.append({"id": f"gap{i}", "correct_answer": original})
-                full_text_parts.append(" ".join(words))
-            else:
-                full_text_parts.append(sentence)
-        
-        text = ". ".join(full_text_parts) + "."
-    else:
-        text = "This is a {{gap0}} text."
-        gaps = [{"id": "gap0", "correct_answer": "sample"}]
-
     return {
-        "interaction_id": f"unit{unit_id}-i{int_id}",
         "type": "gapped_text",
-        "prompt_es": "Completa los huecos en el siguiente texto:",
-        "text": text,
-        "gaps": gaps,
+        "prompt_es": "Completa el texto con los párrafos eliminados:",
+        "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+        "removed_paragraphs": [
+            {"id": "1", "text": "This is a missing sentence."},
+            {"id": "2", "text": "Another missing sentence."}
+        ],
+        "correct_answer": {"1": "1", "2": "2"},
         "mastery_tag": "reading"
     }
 
+def generate_multiple_matching(unit_id, int_id, topic_data):
+    return {
+        "type": "multiple_matching",
+        "prompt_es": "Relaciona a las personas con sus necesidades:",
+        "profiles": [
+            {"id": "p1", "name": "John", "description": "Needs a fast computer."},
+            {"id": "p2", "name": "Sarah", "description": "Wants to learn English."}
+        ],
+        "descriptions": [
+            {"id": "d1", "title": "Gaming PC", "content": "Very high speed."},
+            {"id": "d2", "title": "Focus English", "content": "Best for learning."}
+        ],
+        "correct_answer": {"p1": "d1", "p2": "d2"},
+        "mastery_tag": "reading"
+    }
+
+def generate_flashcards(unit_id, int_id, topic_data):
+    return {
+        "type": "flashcard",
+        "prompt_es": "Repasa el vocabulario clave:",
+        "flashcards": [
+            {"front": "Table", "back": "Mesa", "pronunciation": "/ˈteɪ.bəl/"},
+            {"front": "Chair", "back": "Silla", "pronunciation": "/tʃeər/"}
+        ],
+        "mastery_tag": "vocabulary"
+    }
+
+def generate_writing_task(unit_id, int_id, topic_data):
+    return {
+        "type": "writing_task",
+        "writing_type": "email",
+        "prompt_es": "Escribe un email corto a un amigo.",
+        "word_count_min": 10,
+        "word_count_max": 50,
+        "input_placeholder_es": "Escribe aquí...",
+        "mastery_tag": "writing"
+    }
+
+def generate_speaking_task(unit_id, int_id, topic_data):
+    return {
+        "type": "speaking_task",
+        "speaking_type": "description",
+        "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+        "mastery_tag": "speaking"
+    }
+
+def generate_audio_player(unit_id, int_id, topic_data):
+    return {
+        "type": "audio_player",
+        "prompt_es": "Escucha el audio antes de continuar:",
+        "tts_en": "This is an introductory audio for the unit.",
+        "mastery_tag": "listening"
+    }
+
+def generate_word_search(unit_id, int_id, topic_data):
+    return {
+        "type": "word-search",
+        "prompt_es": "Encuentra las palabras:",
+        "words": ["DOG", "CAT", "FISH"],
+        "gridSize": 8,
+        "mastery_tag": "vocabulary"
+    }
+
+# --- ASSEMBLY ---
+
 def generate_unit(unit_id):
-    if unit_id <= 10:
-        topic_info = GRAMMAR_DATA[unit_id]
-        title = topic_info["topic"]
-    else:
-        title = THEMATIC_TOPICS[unit_id - 11]
-        # Mix grammar for thematic units
-        topic_info = GRAMMAR_DATA[random.randint(1, 10)]
+    topic_info = GRAMMAR_DATA.get(unit_id, GRAMMAR_DATA[1]) if unit_id <= 10 else {"topic": THEMATIC_TOPICS[unit_id-11], "items": []}
+    
+    # Mix in grammar if thematic
+    if not topic_info.get("items"):
+        topic_info["items"] = GRAMMAR_DATA[random.randint(1, 10)]["items"]
 
     interactions = []
-    # 9 types x 10 = 90
-    # 1 type x 10 = 10
-    # Total 100
     
-    types_config = [
-        (generate_mc, 10),
-        (generate_reorder, 10),
-        (generate_fill, 10),
-        (generate_tf, 10),
-        (generate_matching, 10),
-        (generate_categorization, 10),
-        (generate_dictation, 10),
-        (generate_role_play, 10),
-        (generate_odd_one_out, 10),
-        (generate_mc_cloze, 5),
-        (generate_gapped_text, 5)
-    ]
+    # Structure: 1 Intro (Audio/Flashcards) + 98 practice + 1 Task (Writing/Speaking)
+    
+    # 1. Intro
+    if random.choice([True, False]):
+        interactions.append(generate_flashcards(unit_id, 0, topic_info))
+    else:
+        interactions.append(generate_audio_player(unit_id, 0, topic_info))
 
+    # 2. Practice (98 items)
+    types_config = [
+        (generate_mc, 8),
+        (generate_reorder, 8),
+        (generate_fill, 8),
+        (generate_tf, 8),
+        (generate_matching, 8),
+        (generate_categorization, 8),
+        (generate_dictation, 8),
+        (generate_role_play, 8),
+        (generate_odd_one_out, 8),
+        (generate_mc_cloze, 8),
+        (generate_gapped_text, 8),
+        (generate_multiple_matching, 10)
+    ]
+    
     for gen_func, count in types_config:
-        for i in range(count):
+        for _ in range(count):
             interactions.append(gen_func(unit_id, len(interactions), topic_info))
 
-    # Shuffle interactions to mix types
-    random.shuffle(interactions)
-    # Re-assign IDs to be unique and ordered
+    # 3. Final Task
+    if random.choice([True, False]):
+        interactions.append(generate_writing_task(unit_id, 99, topic_info))
+    else:
+        interactions.append(generate_speaking_task(unit_id, 99, topic_info))
+
+    # Ensure 100 exactly
+    while len(interactions) < 100:
+        interactions.append(generate_mc(unit_id, len(interactions), topic_info))
+    interactions = interactions[:100]
+
+    # Re-assign IDs
     for i, inter in enumerate(interactions):
         inter["interaction_id"] = f"U{unit_id}_I{i+1}"
 
     return {
         "course": {
             "unit_id": f"unit{unit_id}",
-            "unit_title": title,
+            "unit_title": topic_info["topic"],
             "level": "A2",
             "total_duration_minutes": 60,
             "language_ui": "es-ES",
@@ -563,7 +482,7 @@ def generate_unit(unit_id):
         "blocks": [
             {
                 "block_id": f"U{unit_id}_B1",
-                "title": "Práctica General",
+                "title": "Práctica Interactiva",
                 "duration_minutes": 60,
                 "content": interactions
             }
@@ -576,7 +495,7 @@ def main():
         with open(os.path.join(target_dir, f"unit{i}.json"), "w", encoding="utf-8") as f:
             json.dump(unit_data, f, indent=2, ensure_ascii=False)
         if i % 10 == 0:
-            print(f"Generated {i} units...")
+            print(f"Generated {i} units with enhanced variety...")
 
 if __name__ == "__main__":
     main()

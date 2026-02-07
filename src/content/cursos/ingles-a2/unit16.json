@@ -10,2088 +10,2340 @@
   "blocks": [
     {
       "block_id": "U16_B1",
-      "title": "Práctica General",
+      "title": "Práctica Interactiva",
       "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U16_I1",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "flashcard",
+          "prompt_es": "Repasa el vocabulario clave:",
+          "flashcards": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "front": "Table",
+              "back": "Mesa",
+              "pronunciation": "/ˈteɪ.bəl/"
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "front": "Chair",
+              "back": "Silla",
+              "pronunciation": "/tʃeər/"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I1"
         },
         {
-          "interaction_id": "U16_I2",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Un cuaderno pequeño.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A small notebook."
+            },
+            {
+              "id": "o2",
+              "text": "small notebook"
+            },
+            {
+              "id": "o3",
+              "text": "notebook small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I2"
         },
         {
-          "interaction_id": "U16_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Un hombre viejo.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "old man"
+            },
+            {
+              "id": "o1",
+              "text": "An old man."
+            },
+            {
+              "id": "o3",
+              "text": "man old"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I3"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Una botella grande.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A big bottle."
+            },
+            {
+              "id": "o2",
+              "text": "big bottle"
+            },
+            {
+              "id": "o3",
+              "text": "bottle big"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I4"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "La chica joven es guapa también.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The young lady is beautiful too."
+            },
+            {
+              "id": "o2",
+              "text": "young lady"
+            },
+            {
+              "id": "o3",
+              "text": "lady young"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I5"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Una botella grande.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "bottle big"
+            },
+            {
+              "id": "o2",
+              "text": "big bottle"
+            },
+            {
+              "id": "o1",
+              "text": "A big bottle."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I6"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "El hotel nuevo es bonito.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "hotel new"
+            },
+            {
+              "id": "o2",
+              "text": "new hotel"
+            },
+            {
+              "id": "o1",
+              "text": "The new hotel is nice."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I7"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "El hotel nuevo es bonito.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The new hotel is nice."
+            },
+            {
+              "id": "o2",
+              "text": "new hotel"
+            },
+            {
+              "id": "o3",
+              "text": "hotel new"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I8"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la opción correcta:",
+          "stimulus_en": "Una mujer alta.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "tall woman"
+            },
+            {
+              "id": "o1",
+              "text": "A tall woman."
+            },
+            {
+              "id": "o3",
+              "text": "woman tall"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I9"
+        },
+        {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "prompt_es": "Ordena las palabras:",
           "options": [
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w1",
-              "text": "student"
+              "id": "w3",
+              "text": "tomato"
             },
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w1",
+              "text": "cheese"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "sandwich"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "and"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5",
+            "w6"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I10"
         },
         {
-          "interaction_id": "U16_I4",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "well",
-          "correct_answer": "well",
-          "mastery_tag": "listening"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "cheese"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "and"
+            },
+            {
+              "id": "w3",
+              "text": "tomato"
+            },
+            {
+              "id": "w4",
+              "text": "sandwich"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I11"
         },
         {
-          "interaction_id": "U16_I5",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "easy",
-          "correct_answer": "easy",
-          "mastery_tag": "listening"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "man"
+            },
+            {
+              "id": "w0",
+              "text": "An"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I12"
         },
         {
-          "interaction_id": "U16_I6",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "small"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "notebook"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I13"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "woman"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "tall"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I14"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "small"
+            },
+            {
+              "id": "w2",
+              "text": "notebook"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I15"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "woman"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "tall"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I16"
+        },
+        {
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "lady"
+            },
+            {
+              "id": "w1",
+              "text": "young"
+            },
+            {
+              "id": "w5",
+              "text": "too"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U16_I17"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Éste es un café bueno. (___)",
+          "correct_answer": "This is a good coffee.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I18"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "El hotel nuevo es bonito. (___)",
+          "correct_answer": "The new hotel is nice.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I19"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Éste es un café bueno. (___)",
+          "correct_answer": "This is a good coffee.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I20"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "El hotel nuevo es bonito. (___)",
+          "correct_answer": "The new hotel is nice.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I21"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Éste es un café bueno. (___)",
+          "correct_answer": "This is a good coffee.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I22"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Éste es un café bueno. (___)",
+          "correct_answer": "This is a good coffee.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I23"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Un cuaderno pequeño. (___)",
+          "correct_answer": "A small notebook.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I24"
+        },
+        {
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio:",
+          "stimulus_en": "Un cuaderno pequeño. (___)",
+          "correct_answer": "A small notebook.",
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I25"
+        },
+        {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"It’s a cheap restaurant.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I26"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The young lady is beautiful too. not\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I27"
         },
         {
-          "interaction_id": "U16_I7",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "interestingly",
-          "correct_answer": "interestingly",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I8",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "wonderful"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "wonderfully"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A big bottle.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I28"
         },
         {
-          "interaction_id": "U16_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "quickly"
-            },
-            {
-              "id": "o1",
-              "text": "quick"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "wonderful"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "wonderfully"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I12",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "This is a ___ train.",
-          "correct_answer": "slow",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I14",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I15",
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar la frase:",
-          "text": "He is _____ (good) student.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "an"
-            },
-            {
-              "id": "o3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I16",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I29"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The new hotel is nice.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I30"
+        },
+        {
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A small notebook. not\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I31"
         },
         {
-          "interaction_id": "U16_I17",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I18",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I19",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I20",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I21",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "dangerous",
-          "correct_answer": "dangerous",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I22",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "slowly"
-            },
-            {
-              "id": "o2",
-              "text": "slow"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I23",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "dangerously"
-            },
-            {
-              "id": "o4",
-              "text": "visited"
-            },
-            {
-              "id": "o2",
-              "text": "perfect"
-            },
-            {
-              "id": "o1",
-              "text": "well"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I24",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "easy"
-            },
-            {
-              "id": "o4",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "well"
-            },
-            {
-              "id": "o1",
-              "text": "quick"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I25",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I26",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I27",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "slow"
-            },
-            {
-              "id": "o2",
-              "text": "slowly"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I29",
-          "type": "gapped_text",
-          "prompt_es": "Completa los huecos en el siguiente texto:",
-          "text": "dangerous. well. quick.",
-          "gaps": [],
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U16_I30",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I31",
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar la frase:",
-          "text": "He is _____ (good) student.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "an"
-            },
-            {
-              "id": "o3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I32",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "perfect"
-            },
-            {
-              "id": "o1",
-              "text": "interestingly"
-            },
-            {
-              "id": "o4",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "dangerous"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I33",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "quietly"
-            },
-            {
-              "id": "o3",
-              "text": "dangerous"
-            },
-            {
-              "id": "o1",
-              "text": "quick"
-            },
-            {
-              "id": "o4",
-              "text": "always"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I34",
-          "type": "gapped_text",
-          "prompt_es": "Completa los huecos en el siguiente texto:",
-          "text": "interestingly. dangerous. quick.",
-          "gaps": [],
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U16_I35",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "wonderfully",
-          "options": [
-            {
-              "id": "o1",
-              "text": "wonderfully"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I36",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I37",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "well",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I38",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "easily"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "easy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I39",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "interestingly",
-          "correct_answer": "interestingly",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I40",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I41",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"It’s a cheap restaurant. not\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I32"
         },
         {
-          "interaction_id": "U16_I42",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "slow",
-          "correct_answer": "slow",
-          "mastery_tag": "listening"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A big bottle. not\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I33"
         },
         {
-          "interaction_id": "U16_I43",
           "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "prompt_es": "Relaciona las frases:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
             },
             {
               "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
             },
             {
               "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            },
+            {
+              "id": "p3",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I34"
         },
         {
-          "interaction_id": "U16_I44",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "slow"
-            },
-            {
-              "id": "o3",
-              "text": "quietly"
-            },
-            {
-              "id": "o4",
-              "text": "As a consequence"
-            },
-            {
-              "id": "o1",
-              "text": "dangerously"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I45",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "quietly"
-            },
-            {
-              "id": "o2",
-              "text": "quiet"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I46",
           "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
+          "prompt_es": "Relaciona las frases:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
             },
             {
               "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
+              "left": "Una habitación llena.",
+              "right": "A full room."
             },
             {
               "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "perfectly"
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
             },
             {
-              "id": "o1",
-              "text": "perfect"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
+              "id": "p3",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I35"
         },
         {
-          "interaction_id": "U16_I48",
-          "type": "gapped_text",
-          "prompt_es": "Completa los huecos en el siguiente texto:",
-          "text": "quick. slowly. slow.",
-          "gaps": [],
-          "mastery_tag": "reading"
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
+            },
+            {
+              "id": "p1",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            },
+            {
+              "id": "p2",
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            },
+            {
+              "id": "p3",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I36"
         },
         {
-          "interaction_id": "U16_I49",
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            },
+            {
+              "id": "p1",
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
+            },
+            {
+              "id": "p2",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            },
+            {
+              "id": "p3",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I37"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            },
+            {
+              "id": "p1",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            },
+            {
+              "id": "p2",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            },
+            {
+              "id": "p3",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I38"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            },
+            {
+              "id": "p1",
+              "left": "El hotel nuevo es bonito.",
+              "right": "The new hotel is nice."
+            },
+            {
+              "id": "p2",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            },
+            {
+              "id": "p3",
+              "left": "Una mujer alta.",
+              "right": "A tall woman."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I39"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "El sandwich de queso y tomate es caro.",
+              "right": "The cheese and tomato sandwich is expensive."
+            },
+            {
+              "id": "p1",
+              "left": "La chica joven es guapa también.",
+              "right": "The young lady is beautiful too."
+            },
+            {
+              "id": "p2",
+              "left": "Es un restaurante barato.",
+              "right": "It’s a cheap restaurant."
+            },
+            {
+              "id": "p3",
+              "left": "Un hombre viejo.",
+              "right": "An old man."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I40"
+        },
+        {
+          "type": "matching",
+          "prompt_es": "Relaciona las frases:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Una botella grande.",
+              "right": "A big bottle."
+            },
+            {
+              "id": "p1",
+              "left": "Un cuaderno pequeño.",
+              "right": "A small notebook."
+            },
+            {
+              "id": "p2",
+              "left": "Una habitación llena.",
+              "right": "A full room."
+            },
+            {
+              "id": "p3",
+              "left": "Éste es un café bueno.",
+              "right": "This is a good coffee."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I41"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
+          "prompt_es": "Clasifica las palabras:",
           "categories": [
             {
               "id": "cat1",
-              "title": "Category A",
+              "title": "Category 1",
               "items": [
                 {
-                  "id": "item0",
-                  "text": "quick"
+                  "id": "i1",
+                  "text": "Word A"
                 },
                 {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
+                  "id": "i2",
+                  "text": "Word B"
                 }
               ]
             },
             {
               "id": "cat2",
-              "title": "Category B",
+              "title": "Category 2",
               "items": [
                 {
-                  "id": "item1",
-                  "text": "slow"
+                  "id": "i3",
+                  "text": "Word C"
                 },
                 {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
+                  "id": "i4",
+                  "text": "Word D"
                 }
               ]
             }
           ],
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I42"
         },
         {
-          "interaction_id": "U16_I50",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
             {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I43"
         },
         {
-          "interaction_id": "U16_I51",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She sings very ___.",
-          "correct_answer": "well",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I44"
         },
         {
-          "interaction_id": "U16_I52",
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I45"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I46"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I47"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I48"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica las palabras:",
+          "categories": [
+            {
+              "id": "cat1",
+              "title": "Category 1",
+              "items": [
+                {
+                  "id": "i1",
+                  "text": "Word A"
+                },
+                {
+                  "id": "i2",
+                  "text": "Word B"
+                }
+              ]
+            },
+            {
+              "id": "cat2",
+              "title": "Category 2",
+              "items": [
+                {
+                  "id": "i3",
+                  "text": "Word C"
+                },
+                {
+                  "id": "i4",
+                  "text": "Word D"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I49"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "It’s a cheap restaurant.",
+          "correct_answer": "It’s a cheap restaurant.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I50"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "A big bottle.",
+          "correct_answer": "A big bottle.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I51"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "The cheese and tomato sandwich is expensive.",
+          "correct_answer": "The cheese and tomato sandwich is expensive.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I52"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "This is a good coffee.",
+          "correct_answer": "This is a good coffee.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I53"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "It’s a cheap restaurant.",
+          "correct_answer": "It’s a cheap restaurant.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I54"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "The new hotel is nice.",
+          "correct_answer": "The new hotel is nice.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I55"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "A tall woman.",
+          "correct_answer": "A tall woman.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I56"
+        },
+        {
+          "type": "dictation_guided",
+          "prompt_es": "Escucha y escribe:",
+          "tts_en": "A full room.",
+          "correct_answer": "A full room.",
+          "mastery_tag": "listening",
+          "interaction_id": "U16_I57"
+        },
+        {
           "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "dangerous",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
           "options": [
             {
               "id": "o1",
-              "text": "dangerous"
+              "text": "I'm great, thanks!"
             },
             {
               "id": "o2",
-              "text": "Incorrect response"
+              "text": "Yellow."
             },
             {
               "id": "o3",
-              "text": "Wrong answer"
+              "text": "Yesterday."
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I58"
         },
         {
-          "interaction_id": "U16_I53",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
           "options": [
             {
-              "id": "w1",
-              "text": "student"
+              "id": "o1",
+              "text": "I'm great, thanks!"
             },
             {
-              "id": "w3",
-              "text": "happy"
+              "id": "o2",
+              "text": "Yellow."
             },
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "id": "o3",
+              "text": "Yesterday."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I59"
+        },
+        {
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
           ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I60"
         },
         {
-          "interaction_id": "U16_I54",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He is a ___ driver.",
-          "correct_answer": "dangerous",
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I61"
         },
         {
-          "interaction_id": "U16_I55",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I62"
         },
         {
-          "interaction_id": "U16_I56",
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I63"
+        },
+        {
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I64"
+        },
+        {
+          "type": "role_play",
+          "prompt_es": "Responde adecuadamente:",
+          "stimulus_en": "How are you today?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow."
+            },
+            {
+              "id": "o3",
+              "text": "Yesterday."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I65"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I66"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I67"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I68"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I69"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I70"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I71"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I72"
+        },
+        {
+          "type": "odd_one_out",
+          "prompt_es": "Selecciona la palabra que no encaja:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
+            },
+            {
+              "id": "o3",
+              "text": "Car"
+            },
+            {
+              "id": "o4",
+              "text": "Orange"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U16_I73"
+        },
+        {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar la frase:",
-          "text": "He is _____ (good) student.",
-          "options": [
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "an"
-            },
-            {
-              "id": "o3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I57",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
+              "id": "1",
+              "options": [
                 {
-                  "id": "item0",
-                  "text": "quick"
+                  "id": "a",
+                  "text": "a"
                 },
                 {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
+                  "id": "an",
+                  "text": "an"
                 }
-              ]
+              ],
+              "correct_answer": "a"
             },
             {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
+              "id": "2",
+              "options": [
                 {
-                  "id": "item1",
-                  "text": "slow"
+                  "id": "big",
+                  "text": "big"
                 },
                 {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
+                  "id": "sky",
+                  "text": "sky"
                 }
-              ]
+              ],
+              "correct_answer": "big"
             }
           ],
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I74"
         },
         {
-          "interaction_id": "U16_I58",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "well",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I59",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She sings very ___.",
-          "correct_answer": "well",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I60",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "well",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I61",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "quietly"
-            },
-            {
-              "id": "o4",
-              "text": "dangerous"
-            },
-            {
-              "id": "o3",
-              "text": "slowly"
-            },
-            {
-              "id": "o1",
-              "text": "perfect"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I62",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "slowly",
-          "correct_answer": "slowly",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I63",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I64",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "interestingly"
-            },
-            {
-              "id": "o4",
-              "text": "Fortunately"
-            },
-            {
-              "id": "o3",
-              "text": "quietly"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I65",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She sings very ___.",
-          "correct_answer": "well",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I66",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "slow"
-            },
-            {
-              "id": "o3",
-              "text": "well"
-            },
-            {
-              "id": "o4",
-              "text": "as well as"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I67",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Could I have a ___ word with you?",
-          "correct_answer": "quick",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I68",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He talked very ___ about his work.",
-          "correct_answer": "interestingly",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I69",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "maybe"
-            },
-            {
-              "id": "o1",
-              "text": "quietly"
-            },
-            {
-              "id": "o2",
-              "text": "quiet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I70",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "dangerously",
-          "options": [
-            {
-              "id": "o1",
-              "text": "dangerously"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I71",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I speak English ___.",
-          "correct_answer": "well",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I72",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I74",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "dangerous",
-          "options": [
-            {
-              "id": "o1",
-              "text": "dangerous"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I75",
-          "type": "gapped_text",
-          "prompt_es": "Completa los huecos en el siguiente texto:",
-          "text": "easy. perfect. dangerously.",
-          "gaps": [],
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U16_I76",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "good"
-            },
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o3",
-              "text": "maybe"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I77",
-          "type": "gapped_text",
-          "prompt_es": "Completa los huecos en el siguiente texto:",
-          "text": "well. interestingly. well.",
-          "gaps": [],
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U16_I78",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I79",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I80",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I81",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "student"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I83",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "quietly",
-          "correct_answer": "quietly",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I84",
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar la frase:",
-          "text": "He is _____ (good) student.",
-          "options": [
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "a"
-            },
-            {
-              "id": "o2",
-              "text": "an"
-            },
-            {
-              "id": "o3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I85",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
+              "id": "1",
+              "options": [
                 {
-                  "id": "item0",
-                  "text": "quick"
+                  "id": "a",
+                  "text": "a"
                 },
                 {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
+                  "id": "an",
+                  "text": "an"
                 }
-              ]
+              ],
+              "correct_answer": "a"
             },
             {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
+              "id": "2",
+              "options": [
                 {
-                  "id": "item1",
-                  "text": "slow"
+                  "id": "big",
+                  "text": "big"
                 },
                 {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
+                  "id": "sky",
+                  "text": "sky"
                 }
-              ]
+              ],
+              "correct_answer": "big"
             }
           ],
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I75"
         },
         {
-          "interaction_id": "U16_I86",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "well",
-          "options": [
-            {
-              "id": "o1",
-              "text": "well"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I87",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He drives ___.",
-          "correct_answer": "dangerously",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I88",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I89",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar la frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "student"
-            },
-            {
-              "id": "w3",
-              "text": "happy"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U16_I90",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "quietly",
-          "options": [
-            {
-              "id": "o1",
-              "text": "quietly"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I91",
-          "type": "role_play",
-          "prompt_es": "Responde a la siguiente situación:",
-          "stimulus_en": "interestingly",
-          "options": [
-            {
-              "id": "o1",
-              "text": "interestingly"
-            },
-            {
-              "id": "o2",
-              "text": "Incorrect response"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong answer"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U16_I92",
-          "type": "matching",
-          "prompt_es": "Une las frases en español con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Option 0",
-              "right": "Match 0"
-            },
-            {
-              "id": "p1",
-              "left": "Option 1",
-              "right": "Match 1"
-            },
-            {
-              "id": "p2",
-              "left": "Option 2",
-              "right": "Match 2"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The student is happy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I94",
-          "type": "categorization",
-          "prompt_es": "Clasifica los siguientes elementos en la categoría correcta:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category A",
-              "items": [
-                {
-                  "id": "item0",
-                  "text": "quick"
-                },
-                {
-                  "id": "item2",
-                  "text": "interestingly"
-                },
-                {
-                  "id": "item4",
-                  "text": "easy"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category B",
-              "items": [
-                {
-                  "id": "item1",
-                  "text": "slow"
-                },
-                {
-                  "id": "item3",
-                  "text": "wonderfully"
-                },
-                {
-                  "id": "item5",
-                  "text": "perfect"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I95",
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar la frase:",
-          "text": "He is _____ (good) student.",
-          "options": [
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "a"
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
             },
             {
-              "id": "o2",
-              "text": "an"
-            },
-            {
-              "id": "o3",
-              "text": "the"
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I76"
         },
         {
-          "interaction_id": "U16_I96",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
             {
-              "id": "o4",
-              "text": "been"
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
             },
             {
-              "id": "o2",
-              "text": "slowly"
-            },
-            {
-              "id": "o3",
-              "text": "quietly"
-            },
-            {
-              "id": "o1",
-              "text": "wonderfully"
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I77"
         },
         {
-          "interaction_id": "U16_I97",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "easy",
-          "correct_answer": "easy",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I98",
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "tts_en": "dangerous",
-          "correct_answer": "dangerous",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I99",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He is a ___ driver.",
-          "correct_answer": "dangerous",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I100",
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no pertenece al grupo:",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
             {
-              "id": "o3",
-              "text": "slowly"
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
             },
             {
-              "id": "o2",
-              "text": "wonderfully"
-            },
-            {
-              "id": "o4",
-              "text": "interestingly"
-            },
-            {
-              "id": "o1",
-              "text": "well"
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I78"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
+            }
+          ],
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I79"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
+            }
+          ],
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I80"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Elige la opción correcta:",
+          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "a",
+                  "text": "a"
+                },
+                {
+                  "id": "an",
+                  "text": "an"
+                }
+              ],
+              "correct_answer": "a"
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "big",
+                  "text": "big"
+                },
+                {
+                  "id": "sky",
+                  "text": "sky"
+                }
+              ],
+              "correct_answer": "big"
+            }
+          ],
+          "mastery_tag": "grammar",
+          "interaction_id": "U16_I81"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I82"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I83"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I84"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I85"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I86"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I87"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I88"
+        },
+        {
+          "type": "gapped_text",
+          "prompt_es": "Completa el texto con los párrafos eliminados:",
+          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
+          "removed_paragraphs": [
+            {
+              "id": "1",
+              "text": "This is a missing sentence."
+            },
+            {
+              "id": "2",
+              "text": "Another missing sentence."
+            }
+          ],
+          "correct_answer": {
+            "1": "1",
+            "2": "2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I89"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I90"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I91"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I92"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I93"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I94"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I95"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I96"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I97"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I98"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona a las personas con sus necesidades:",
+          "profiles": [
+            {
+              "id": "p1",
+              "name": "John",
+              "description": "Needs a fast computer."
+            },
+            {
+              "id": "p2",
+              "name": "Sarah",
+              "description": "Wants to learn English."
+            }
+          ],
+          "descriptions": [
+            {
+              "id": "d1",
+              "title": "Gaming PC",
+              "content": "Very high speed."
+            },
+            {
+              "id": "d2",
+              "title": "Focus English",
+              "content": "Best for learning."
+            }
+          ],
+          "correct_answer": {
+            "p1": "d1",
+            "p2": "d2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U16_I99"
+        },
+        {
+          "type": "speaking_task",
+          "speaking_type": "description",
+          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "mastery_tag": "speaking",
+          "interaction_id": "U16_I100"
         }
       ]
     }
