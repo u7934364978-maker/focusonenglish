@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit15",
-    "unit_title": "Work: Daily Routine",
+    "unit_title": "Present Perfect basics - Social: Hobbies",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1516 +10,1721 @@
   "blocks": [
     {
       "block_id": "U15_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
           "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
+          "prompt_es": "Introducci\u00f3n a la unidad 15",
+          "tts_en": "Starting unit 15. Topic: Social: Hobbies. Focus: Present Perfect basics.",
           "mastery_tag": "listening",
           "interaction_id": "U15_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "visited"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "visit"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "The pilot has ___ started music in the beach (today).",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "taste"
-            },
-            {
-              "id": "o1",
-              "text": "tasted"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "My sister has yet called a gift in school (now).",
+          "stimulus_es": "Ref: My sister ya ha called a gift en school (now).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the highest building you’ve ever ___?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
             {
-              "id": "o2",
-              "text": "visit"
+              "id": "p0",
+              "left": "A colleague ya ha taught English en school (today).",
+              "right": "A colleague has already taught English in school (today)."
             },
             {
-              "id": "o1",
-              "text": "visited"
+              "id": "p1",
+              "left": "The chef ya ha read a letter en the kitchen - 622.",
+              "right": "The chef has already read a letter in the kitchen - 622."
             },
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p2",
+              "left": "She ya ha started a ticket en the street....",
+              "right": "She has already started a ticket in the street...."
+            },
+            {
+              "id": "p3",
+              "left": "The nurse ya ha watched English en the street....",
+              "right": "The nurse has already watched English in the street...."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "told"
-            },
-            {
-              "id": "o2",
-              "text": "tell"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "The chef has already stopped a cat in the restaurant....",
+          "correct_answer": "The chef has already stopped a cat in the restaurant....",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the happiest day you’ve ever ___?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o1",
-              "text": "had"
+              "text": "banana"
             },
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o2",
-              "text": "have"
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike4672"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 113 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "told"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "tell"
+              "id": "c1",
+              "front": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material.",
+              "back": "preguntas en ingl\u00e9s."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the longest beach you’ve ever ___ to?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "go"
-            },
-            {
-              "id": "o1",
-              "text": "been"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 113 (Social: Hobbies):",
+          "instruction_en": "List 3 facts about Social: Hobbies. [Ref: 81]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I8"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "options": [
+          "type": "speaking_task",
+          "prompt_es": "Habla 113 (Social: Hobbies):",
+          "stimulus_en": "I like Social: Hobbies. (826)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U15_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 3892",
+          "items": [
             {
-              "id": "o2",
-              "text": "was"
+              "id": "i0",
+              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect...",
+              "match_id": "m0"
             },
             {
+              "id": "i1",
+              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tyre (Am Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "tire) Neum\u00e1tico."
+            },
+            {
+              "id": "m0",
+              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil...."
+            },
+            {
+              "id": "m1",
+              "text": "Who\u2019s the shyest person you\u2019ve ever met (now)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U15_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "my cousin\u2019s husband is German and his mother Irish...."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "\u2018m/ \u2018s, etc) - interesting"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U15_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (8253), The chef [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "visited"
+                },
+                {
+                  "id": "o2",
+                  "text": "visit"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U15_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "The police officer has already spoken a radio in school!.",
+          "stimulus_es": "The police officer ya ha spoken a radio en school!.",
+          "options": [
+            {
               "id": "o3",
-              "text": "other"
+              "text": "Other 122"
             },
             {
               "id": "o1",
-              "text": "been"
+              "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U15_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "listened"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U15_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "had"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U15_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "visited"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U15_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "tasted"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U15_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
           "options": [
             {
+              "id": "w4",
+              "text": "planned"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "newspaper"
+            },
+            {
               "id": "w0",
-              "text": "told"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "hotel"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "nurse"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U15_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "told"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "The architect has ___ created a laptop in the airport - amazing.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "had"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The student has yet eaten a sandwich in the museum....",
+          "stimulus_es": "Ref: The student ya ha eaten a sandwich en the museum....",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "visited"
+              "id": "p0",
+              "left": "The artist ya ha visited a bag en the shop - interesting.",
+              "right": "The artist has already visited a bag in the shop - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "The police officer ya ha organized a house en the garden (today).",
+              "right": "The police officer has already organized a house in the garden (today)."
+            },
+            {
+              "id": "p2",
+              "left": "The player ya ha walked a gift en the hotel - interesting.",
+              "right": "The player has already walked a gift in the hotel - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "The singer ya ha started a chair en the stadium (today).",
+              "right": "The singer has already started a chair in the stadium (today)."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the most delicious food you’ve ever ___?",
-          "correct_answer": "tasted",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "I has already visited a letter in the country..",
+          "correct_answer": "I has already visited a letter in the country..",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the funniest joke you’ve ever been ___?",
-          "correct_answer": "told",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o4",
+              "text": "cat2106"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the coldest country you’ve ever ___ to?",
-          "correct_answer": "been",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 114 - Social: Hobbies:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? (now)",
+              "back": "What\u2019s the happiest day you\u2019ve ever had (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
-          "correct_answer": "listened",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 114 (Social: Hobbies):",
+          "instruction_en": "Review Social: Hobbies from last week. [Ref: 37]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the happiest day you’ve ever ___?",
-          "correct_answer": "had",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 114 (Social: Hobbies):",
+          "stimulus_en": "Talk about Social: Hobbies. (683)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the saddest song you’ve ever ___ to?",
-          "correct_answer": "listened",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 1040",
+          "items": [
+            {
+              "id": "i0",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir (today)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Crees que bajar\u00e1 el paro este a\u00f1o? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "I can to speak English. (today)"
+            },
+            {
+              "id": "m2",
+              "text": "Do you think that unemployment will go down this year - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "have you ever seen a film in original version - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the happiest day you’ve ever ___?",
-          "correct_answer": "had",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "she never drinks coffee in the evening - 642"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I don\u2019t know that I will do...."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "What’s the most difficult language you’ve ever ___?",
-          "correct_answer": "studied",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (3287), I [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened"
+                },
+                {
+                  "id": "o2",
+                  "text": "listen"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"been not\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "The manager has already walked a pizza in the country (now).",
+          "stimulus_es": "The manager ya ha walked a pizza en the country (now).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8276"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "(today)"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "office"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "window"
+            },
+            {
+              "id": "w4",
+              "text": "taught"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "The artist has ___ received a chair in the beach - 225.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"been\"",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The baker has yet listened a door in the stadium!.",
+          "stimulus_es": "Ref: The baker ya ha listened a door en the stadium!.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sarah ya ha organized a laptop en the kitchen - amazing.",
+              "right": "Sarah has already organized a laptop in the kitchen - amazing."
+            },
+            {
+              "id": "p1",
+              "left": "Sarah ya ha listened English en the bank (today).",
+              "right": "Sarah has already listened English in the bank (today)."
+            },
+            {
+              "id": "p2",
+              "left": "He ya ha prepared a gift en school - 318.",
+              "right": "He has already prepared a gift in school - 318."
+            },
+            {
+              "id": "p3",
+              "left": "The coach ya ha planned a watch en the restaurant - amazing.",
+              "right": "The coach has already planned a watch in the restaurant - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "The chef has already created a movie in the balcony (now).",
+          "correct_answer": "The chef has already created a movie in the balcony (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"visited\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen373"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"been\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 115 - Social: Hobbies:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca...",
+              "back": "I hardly ever go to the cinema = casi nunca voy al cine...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the longest beach you’ve ever ___ to?",
-              "right": "been"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 115 (Social: Hobbies):",
+          "instruction_en": "A small story about Social: Hobbies. [Ref: 33]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the happiest day you’ve ever ___?",
-              "right": "had"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 115 (Social: Hobbies):",
+          "stimulus_en": "Improve Social: Hobbies. (843)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 4318",
+          "items": [
             {
-              "id": "p0",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
+              "id": "i0",
+              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - 369",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
+              "id": "i1",
+              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "What’s the coldest country you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the longest beach you’ve ever ___ to?",
-              "right": "been"
+              "id": "i2",
+              "text": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca?!",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What\u2019s the longest beach you\u2019ve ever been to!"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the coldest country you\u2019ve ever been to - 369"
+            },
+            {
+              "id": "m1",
+              "text": "Can I have your ID/ passport/ credit card?.."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "What’s the funniest joke you’ve ever been ___?",
-              "right": "told"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Spain\u2018s monuments are very nice.."
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the coldest country you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "film) Pel\u00edcula..."
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (1170), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "What’s the saddest song you’ve ever ___ to?",
-              "right": "listened"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the happiest day you’ve ever ___?",
-              "right": "had"
-            },
-            {
-              "id": "p3",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "called"
+                },
+                {
+                  "id": "o2",
+                  "text": "call"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "The nurse has already walked a bag in the garage (today).",
+          "stimulus_es": "The nurse ya ha walked a bag en the garage (today).",
+          "options": [
             {
-              "id": "p0",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "p1",
-              "left": "What’s the longest beach you’ve ever ___ to?",
-              "right": "been"
+              "id": "o3",
+              "text": "Other 2696"
             },
             {
-              "id": "p2",
-              "left": "What’s the most difficult language you’ve ever ___?",
-              "right": "studied"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the coldest country you’ve ever ___ to?",
-              "right": "been"
+              "id": "o1",
+              "text": "already"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Who’s the shyest person you’ve ever ___?",
-              "right": "met"
+              "id": "w6",
+              "text": "a"
             },
             {
-              "id": "p1",
-              "left": "What’s the most delicious food you’ve ever ___?",
-              "right": "tasted"
+              "id": "w9",
+              "text": "the"
             },
             {
-              "id": "p2",
-              "left": "What’s the highest building you’ve ever ___?",
-              "right": "visited"
+              "id": "w7",
+              "text": "gift"
             },
             {
-              "id": "p3",
-              "left": "What’s the coldest country you’ve ever ___ to?",
-              "right": "been"
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "already"
+            },
+            {
+              "id": "w11",
+              "text": "(today)"
+            },
+            {
+              "id": "w10",
+              "text": "bank"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "read"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "What’s the coldest country you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p1",
-              "left": "What’s the highest building you’ve ever ___?",
-              "right": "visited"
-            },
-            {
-              "id": "p2",
-              "left": "What’s the hottest place you’ve ever ___ to?",
-              "right": "been"
-            },
-            {
-              "id": "p3",
-              "left": "What’s the happiest day you’ve ever ___?",
-              "right": "had"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "A colleague has ___ visited a watch in the museum!.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The nurse has yet stopped a bag in the bank - interesting.",
+          "stimulus_es": "Ref: The nurse ya ha stopped a bag en the bank - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "I ya ha eaten a book en the airport....",
+              "right": "I has already eaten a book in the airport...."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "The player ya ha sold an email en the woods - 761.",
+              "right": "The player has already sold an email in the woods - 761."
+            },
+            {
+              "id": "p2",
+              "left": "The police officer ya ha driven a television en London!.",
+              "right": "The police officer has already driven a television in London!."
+            },
+            {
+              "id": "p3",
+              "left": "The nurse ya ha learned football en the garden (now).",
+              "right": "The nurse has already learned football in the garden (now)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "The lawyer has already sold a ticket in the mountains (today).",
+          "correct_answer": "The lawyer has already sold a ticket in the mountains (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o2",
+              "text": "Berlin"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o4",
+              "text": "Slow901"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o0",
+              "text": "London"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 116 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "De qui\u00e9n ese coche?...",
+              "back": "Whose car is that..."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 116 (Social: Hobbies):",
+          "instruction_en": "Your daily routine in Social: Hobbies. [Ref: 82]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 116 (Social: Hobbies):",
+          "stimulus_en": "Study Social: Hobbies now. (721)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 2781",
+          "items": [
+            {
+              "id": "i0",
+              "text": "D\u00f3nde te lo dijo? - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Indirect questions en ingl\u00e9s.."
+            },
+            {
+              "id": "m2",
+              "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos...."
+            },
+            {
+              "id": "m0",
+              "text": "Where did he/she tell you - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U15_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Social: Hobbies):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. (now)"
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "she doesn\u2019t often write to me."
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U15_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tasted",
-          "correct_answer": "tasted",
-          "mastery_tag": "listening",
           "interaction_id": "U15_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "met",
-          "correct_answer": "met",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (2313), John [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "called"
+                },
+                {
+                  "id": "o2",
+                  "text": "call"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created"
+                },
+                {
+                  "id": "o2",
+                  "text": "create"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "visited",
-          "correct_answer": "visited",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "The manager has already designed a book in the library (today).",
+          "stimulus_es": "The manager ya ha designed a book en the library (today).",
+          "options": [
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8623"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "been",
-          "correct_answer": "been",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "school"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "taught"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "clock"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "studied",
-          "correct_answer": "studied",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "The baker has ___ walked a letter in the university..",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "told",
-          "correct_answer": "told",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The chef has already prepared a letter in the stadium....",
+          "stimulus_es": "Ref: The chef ya ha prepared a letter en the stadium....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "been",
-          "correct_answer": "been",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The actress ya ha traveled a watch en the office - interesting.",
+              "right": "The actress has already traveled a watch in the office - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "The student ya ha sold English en the garage - amazing.",
+              "right": "The student has already sold English in the garage - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "The lawyer ya ha started a laptop en the cinema....",
+              "right": "The lawyer has already started a laptop in the cinema...."
+            },
+            {
+              "id": "p3",
+              "left": "The baker ya ha organized a camera en the university..",
+              "right": "The baker has already organized a camera in the university.."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "visited",
-          "correct_answer": "visited",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "The driver has already visited a dog in the stadium (now).",
+          "correct_answer": "The driver has already visited a dog in the stadium (now).",
           "mastery_tag": "listening",
           "interaction_id": "U15_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o3",
+              "text": "soup"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "salad"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o4",
+              "text": "rain734"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 117 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "En espa\u00f1ol dir\u00edamos!",
+              "back": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest).!"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 117 (Social: Hobbies):",
+          "instruction_en": "A small story about Social: Hobbies. [Ref: 88]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 117 (Social: Hobbies):",
+          "stimulus_en": "I like Social: Hobbies. (658)",
           "mastery_tag": "speaking",
           "interaction_id": "U15_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 4707",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "Movie theater (Br Eng (today)",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "\u2013 Con partes del d\u00eda!",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "Hay muchos bares cerca de mi casa!",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "cinema) Cine (today)"
+            },
+            {
+              "id": "m1",
+              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)!"
+            },
+            {
+              "id": "m2",
+              "text": "There are a lot of bars near my house.!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - interesting"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I have 3 children.!"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (5766), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked"
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U15_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "The singer has already finished a car in the bank (now).",
+          "stimulus_es": "The singer ya ha finished a car en the bank (now).",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
+              "text": "already"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 3737"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w0",
+              "text": "John"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w1",
+              "text": "has"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w2",
+              "text": "already"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "English"
+            },
+            {
+              "id": "w8",
+              "text": "(now)"
+            },
+            {
+              "id": "w3",
+              "text": "driven"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "city"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "The baker has ___ sold a bike in the museum (today).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "We has yet written a computer in the supermarket..",
+          "stimulus_es": "Ref: We ya ha written a computer en the supermarket..",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "The waiter ya ha watched a dog en the bank (today).",
+              "right": "The waiter has already watched a dog in the bank (today)."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "The police officer ya ha finished an apple en school - interesting.",
+              "right": "The police officer has already finished an apple in school - interesting."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "Sarah ya ha built a chair en the kitchen....",
+              "right": "Sarah has already built a chair in the kitchen...."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "The artist ya ha planned an email en the museum!.",
+              "right": "The artist has already planned an email in the museum!."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "Our neighbors has already bought a table in the bank - interesting.",
+          "correct_answer": "Our neighbors has already bought a table in the bank - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o1",
-              "text": "Apple"
+              "text": "bus"
             },
             {
               "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
+              "text": "train"
             },
             {
               "id": "o4",
-              "text": "Orange"
+              "text": "cat5962"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 118 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba!",
+              "back": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U15_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 118 (Social: Hobbies):",
+          "instruction_en": "Your daily routine in Social: Hobbies. [Ref: 15]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 118 (Social: Hobbies):",
+          "stimulus_en": "Improve Social: Hobbies. (857)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 6846",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "Tienes zapatos para la boda? (today)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Cookie (Br Eng.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Funciona ese ordenador?...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Does that computer work..."
+            },
+            {
+              "id": "m1",
+              "text": "biscuit) Galleta."
+            },
+            {
+              "id": "m0",
+              "text": "do you have any shoes for the wedding (today)"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U15_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on.."
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "Go straight on and in front of the church there is a supermarket...."
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (8695), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "write"
                 }
               ]
             },
@@ -1528,11 +1733,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "cooked"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "cook"
                 }
               ]
             }
@@ -1541,681 +1746,501 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U15_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "She has already called a letter in the office - amazing.",
+          "stimulus_es": "She ya ha called a letter en the office - amazing.",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o3",
+              "text": "Other 2926"
+            },
+            {
+              "id": "o1",
+              "text": "already"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w4",
+              "text": "walked"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w1",
+              "text": "teacher"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "street"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "radio"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "My sister has ___ planned a movie in the hospital!.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U15_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The baker has already met a television in the country....",
+          "stimulus_es": "Ref: The baker ya ha met a television en the country....",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U15_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Maria ya ha watched an email en the library!.",
+              "right": "Maria has already watched an email in the library!."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "The singer ya ha played a report en the park!.",
+              "right": "The singer has already played a report in the park!."
+            },
+            {
+              "id": "p2",
+              "left": "The police officer ya ha organized music en London - amazing.",
+              "right": "The police officer has already organized music in London - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "We ya ha spoken a watch en the station - interesting.",
+              "right": "We has already spoken a watch in the station - interesting."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "I has already watched tennis in the restaurant....",
+          "correct_answer": "I has already watched tennis in the restaurant....",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o3",
+              "text": "pink"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o4",
+              "text": "run9520"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o2",
+              "text": "green"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 119 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "Eraser (Br Eng...",
+              "back": "rubber) Goma de borrar..."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 119 (Social: Hobbies):",
+          "instruction_en": "Compare Social: Hobbies with another topic. [Ref: 83]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 119 (Social: Hobbies):",
+          "stimulus_en": "Look at Social: Hobbies. (959)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "stimulus": "Matching set 9311",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "my / My / spoils / neighbour / holidays / always (today)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Qu\u00e9 tiempo verbal utilizamos? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "present continuous, porque lo est\u00e1s buscando en este momento. - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.!"
+            },
+            {
+              "id": "m0",
+              "text": "My neighbour always spoils my holidays (today)"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U15_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Hobbies):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "have you ever studied a foreign laguage apart from English..."
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - 885"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "main_text": "In Social: Hobbies (7902), The lawyer [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "bought"
+                },
+                {
+                  "id": "o2",
+                  "text": "buy"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U15_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Hobbies:",
+          "stimulus_en": "You has already designed a car in the station - interesting.",
+          "stimulus_es": "You ya ha designed a car en the station - interesting.",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o1",
+              "text": "already"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o3",
+              "text": "Other 9929"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "yet"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Hobbies:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w6",
+              "text": "in"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "amazing"
+            },
+            {
+              "id": "w1",
+              "text": "artist"
+            },
+            {
+              "id": "w8",
+              "text": "woods"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "football"
+            },
+            {
+              "id": "w4",
+              "text": "organized"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U15_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Hobbies):",
+          "stimulus_en": "Our neighbors has ___ fixed a house in the office - amazing.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Hobbies)",
+          "stimulus_en": "The manager has already watched a phone in the stadium!.",
+          "stimulus_es": "Ref: The manager ya ha watched a phone en the stadium!.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U15_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Hobbies):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He ya ha organized a television en the woods - interesting.",
+              "right": "He has already organized a television in the woods - interesting."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "The driver ya ha read a clock en the restaurant (today).",
+              "right": "The driver has already read a clock in the restaurant (today)."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "We ya ha stopped tennis en the hospital - amazing.",
+              "right": "We has already stopped tennis in the hospital - amazing."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "She ya ha organized music en the restaurant!.",
+              "right": "She has already organized music in the restaurant!."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Hobbies):",
+          "tts_en": "My sister has already fixed a letter in the city - 225.",
+          "correct_answer": "My sister has already fixed a letter in the city - 225.",
+          "mastery_tag": "listening",
           "interaction_id": "U15_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o4",
+              "text": "rain1262"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o0",
+              "text": "pizza"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 120 - Social: Hobbies:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "Countable nouns - amazing",
+              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - amazing"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U15_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 120 (Social: Hobbies):",
+          "instruction_en": "Review Social: Hobbies from last week. [Ref: 22]",
+          "mastery_tag": "writing",
           "interaction_id": "U15_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "prompt_es": "Habla 120 (Social: Hobbies):",
+          "stimulus_en": "Repeat Social: Hobbies. (112)",
+          "mastery_tag": "speaking",
           "interaction_id": "U15_I100"
         }
       ]

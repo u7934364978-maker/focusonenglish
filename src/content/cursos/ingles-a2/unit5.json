@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit5",
-    "unit_title": "Connectors: as well as, whereas, while, since...",
+    "unit_title": "Connectors - Work: Daily Routine",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1547 +10,1771 @@
   "blocks": [
     {
       "block_id": "U5_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Introducci\u00f3n a la unidad 5",
+          "tts_en": "Starting unit 5. Topic: Work: Daily Routine. Focus: Connectors.",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "___, she didn't hurt herself.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Unfortunately"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "Fortunately"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "The pilot likes a house, ___ The pilot prefers a car....",
+          "correct_answer": "while",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "___, she didn't hurt herself.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fortunately"
-            },
-            {
-              "id": "o2",
-              "text": "Unfortunately"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "The student likes a book, but The student prefers a cat - amazing.",
+          "stimulus_es": "Ref: A The student le gusta a book, as a consequence The student prefiere a cat - amazing.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p0",
+              "left": "A The chef le gusta a gift, furthermore The chef prefiere a book - interesting.",
+              "right": "The chef likes a gift, furthermore The chef prefers a book - interesting."
             },
             {
-              "id": "o2",
-              "text": "Nonetheless"
+              "id": "p1",
+              "left": "A The baker le gusta a letter, meanwhile The baker prefiere a window - interesting.",
+              "right": "The baker likes a letter, meanwhile The baker prefers a window - interesting."
             },
             {
-              "id": "o1",
-              "text": "In contrast"
+              "id": "p2",
+              "left": "A Sarah le gusta English, whereas Sarah prefiere a watch (today).",
+              "right": "Sarah likes English, whereas Sarah prefers a watch (today)."
+            },
+            {
+              "id": "p3",
+              "left": "A The boss le gusta a bike, unfortunately The boss prefiere a ticket (now).",
+              "right": "The boss likes a bike, unfortunately The boss prefers a ticket (now)."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I like football. I like it ___.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "too"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "as well"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The coach likes a report, furthermore The coach prefers a book..",
+          "correct_answer": "The coach likes a report, furthermore The coach prefers a book..",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He didn't study. ___, he failed.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o2",
+              "text": "Star"
             },
             {
-              "id": "o2",
-              "text": "Since"
+              "id": "o4",
+              "text": "Hot8418"
             },
             {
               "id": "o1",
-              "text": "As a consequence"
+              "text": "Moon"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I like football. I like it ___.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 33 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "as well"
-            },
-            {
-              "id": "o2",
-              "text": "too"
+              "id": "c1",
+              "front": "De qui\u00e9n son esos libros?.",
+              "back": "Whose books are those= or Whose are those books."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nonetheless"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "However"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 33 (Work: Daily Routine):",
+          "instruction_en": "Describe Work: Daily Routine in 5 words. [Ref: 63]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I8"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
-          "options": [
+          "type": "speaking_task",
+          "prompt_es": "Habla 33 (Work: Daily Routine):",
+          "stimulus_en": "Improve Work: Daily Routine. (208)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U5_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 3673",
+          "items": [
             {
-              "id": "o1",
-              "text": "while"
+              "id": "i0",
+              "text": "Qu\u00e9 tiempo verbal utilizamos? - interesting",
+              "match_id": "m0"
             },
             {
+              "id": "i1",
+              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. el primer elemento es un animal. Ejemplo (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "the bird\u2018s legs = las piernas del p\u00e1jaro. (now)"
+            },
+            {
+              "id": "m0",
+              "text": "present continuous, porque lo est\u00e1s buscando en este momento. - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U5_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I haven\u2019t a car. (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "in summer, in winter...."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U5_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (4291), The driver [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U5_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "Our neighbors likes a gift, consequently Our neighbors prefers a phone - interesting.",
+          "stimulus_es": "A Our neighbors le gusta a gift, consequently Our neighbors prefiere a phone - interesting.",
+          "options": [
+            {
               "id": "o2",
-              "text": "whereas"
+              "text": "but"
+            },
+            {
+              "id": "o1",
+              "text": "consequently"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "Other 1265"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U5_I9"
+          "interaction_id": "U5_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "w1",
-              "text": "a"
+              "id": "w9",
+              "text": "coffee"
             },
             {
-              "id": "w2",
-              "text": "consequence"
+              "id": "w7",
+              "text": "chef"
+            },
+            {
+              "id": "w4",
+              "text": "ticket"
+            },
+            {
+              "id": "w8",
+              "text": "prefers"
             },
             {
               "id": "w0",
-              "text": "As"
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w5",
+              "text": "unfortunately"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "chef"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U5_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Since"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U5_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "well"
-            },
-            {
-              "id": "w0",
-              "text": "as"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U5_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "In"
-            },
-            {
-              "id": "w1",
-              "text": "contrast"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U5_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Since"
-            }
-          ],
-          "correct_answer": [
-            "w0"
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U5_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Nonetheless"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "My friend likes a dog, ___ My friend prefers a table - interesting.",
+          "correct_answer": "despite",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "whereas"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "You likes an apple, but You prefers a chair - interesting.",
+          "stimulus_es": "Ref: A You le gusta an apple, unfortunately You prefiere a chair - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "Unfortunately"
+              "id": "p0",
+              "left": "A The pilot le gusta a camera, since The pilot prefiere a house - 773.",
+              "right": "The pilot likes a camera, since The pilot prefers a house - 773."
+            },
+            {
+              "id": "p1",
+              "left": "A The driver le gusta an apple, otherwise The driver prefiere a pen - amazing.",
+              "right": "The driver likes an apple, otherwise The driver prefers a pen - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "A The waiter le gusta a pen, despite The waiter prefiere English - 829.",
+              "right": "The waiter likes a pen, despite The waiter prefers English - 829."
+            },
+            {
+              "id": "p3",
+              "left": "A My friend le gusta tennis, otherwise My friend prefiere a newspaper (today).",
+              "right": "My friend likes tennis, otherwise My friend prefers a newspaper (today)."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The lawyer likes coffee, otherwise The lawyer prefers a laptop....",
+          "correct_answer": "The lawyer likes coffee, otherwise The lawyer prefers a laptop....",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My brother is blond, ___ our youngest brother has black hair.",
-          "correct_answer": "in contrast with",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o4",
+              "text": "Fast4081"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain shops close late. ___, in France they close early.",
-          "correct_answer": "In contrast",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 34 - Work: Daily Routine:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Qu\u00e9 hora es? - 666",
+              "back": "What time is it - 666"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I like football. I like it ___.",
-          "correct_answer": "as well",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 34 (Work: Daily Routine):",
+          "instruction_en": "Describe Work: Daily Routine in 5 words. [Ref: 38]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "In Spain it's hot, ___ in England it rains.",
-          "correct_answer": "while",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 34 (Work: Daily Routine):",
+          "stimulus_en": "Where is Work: Daily Routine? (634)",
+          "mastery_tag": "speaking",
           "interaction_id": "U5_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___ you're working, I won't cook.",
-          "correct_answer": "Since",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 7602",
+          "items": [
+            {
+              "id": "i0",
+              "text": "in + car/ taxi (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Hay muchos bares cerca de mi casa!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "D\u00f3nde te lo dijo? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "There are a lot of bars near my house.!"
+            },
+            {
+              "id": "m0",
+              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now)"
+            },
+            {
+              "id": "m2",
+              "text": "Where did he/she tell you - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is raining. ___, it is not cold.",
-          "correct_answer": "Nonetheless",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Can I have your ID/ passport/ credit card?. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "how often do you have Italian classes? = I have every Tuesday.!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "___, I didn't pass.",
-          "correct_answer": "Unfortunately",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (5955), They [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "stopped"
+                },
+                {
+                  "id": "o2",
+                  "text": "stop"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"whereas\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "The singer likes a radio, nevertheless The singer prefers a book....",
+          "stimulus_es": "A The singer le gusta a radio, nevertheless The singer prefiere a book....",
+          "options": [
+            {
+              "id": "o2",
+              "text": "but"
+            },
+            {
+              "id": "o1",
+              "text": "nevertheless"
+            },
+            {
+              "id": "o3",
+              "text": "Other 9620"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Nonetheless not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "697"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w10",
+              "text": "watch"
+            },
+            {
+              "id": "w8",
+              "text": "prefers"
+            },
+            {
+              "id": "w7",
+              "text": "chef"
+            },
+            {
+              "id": "w5",
+              "text": "whereas"
+            },
+            {
+              "id": "w4",
+              "text": "camera"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "chef"
+            },
+            {
+              "id": "w6",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Unfortunately not\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "The architect likes a newspaper, ___ The architect prefers a laptop....",
+          "correct_answer": "although",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"In contrast\"",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "The actress likes a ticket, furthermore The actress prefers music!.",
+          "stimulus_es": "Ref: A The actress le gusta a ticket, furthermore The actress prefiere music!.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Fortunately\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The singer le gusta a clock, besides The singer prefiere a chair....",
+              "right": "The singer likes a clock, besides The singer prefers a chair...."
+            },
+            {
+              "id": "p1",
+              "left": "A The boss le gusta a ticket, while The boss prefiere a printer!.",
+              "right": "The boss likes a ticket, while The boss prefers a printer!."
+            },
+            {
+              "id": "p2",
+              "left": "A The boss le gusta a car, moreover The boss prefiere a radio - interesting.",
+              "right": "The boss likes a car, moreover The boss prefers a radio - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "A My friend le gusta a window, moreover My friend prefiere a ticket!.",
+              "right": "My friend likes a window, moreover My friend prefers a ticket!."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"whereas\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The student likes a table, since The student prefers a movie..",
+          "correct_answer": "The student likes a table, since The student prefers a movie..",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Since\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June2451"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in contrast with\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 35 - Work: Daily Routine:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing.",
+              "back": "on the Internet."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
-            },
-            {
-              "id": "p1",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
-            },
-            {
-              "id": "p2",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
-            },
-            {
-              "id": "p3",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 35 (Work: Daily Routine):",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 45]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
-            },
-            {
-              "id": "p1",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
-            },
-            {
-              "id": "p2",
-              "left": "The teacher bought sweets ___ cookies.",
-              "right": "as well as"
-            },
-            {
-              "id": "p3",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 35 (Work: Daily Routine):",
+          "stimulus_en": "I like Work: Daily Routine. (836)",
+          "mastery_tag": "speaking",
           "interaction_id": "U5_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 7776",
+          "items": [
             {
-              "id": "p0",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "id": "i0",
+              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - interesting",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "id": "i1",
+              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed...",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
-            },
-            {
-              "id": "p3",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "id": "i2",
+              "text": "Movie (Br Eng!",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m2",
+              "text": "film) Pel\u00edcula!"
+            },
+            {
+              "id": "m1",
+              "text": "Do you have any friends who live near your house? = al ser interrogativa, any...."
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the funniest joke you\u2019ve ever been told - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.."
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
-            },
-            {
-              "id": "p2",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
-            },
-            {
-              "id": "p3",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "information, homework, work.."
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (6424), The baker [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
-            },
-            {
-              "id": "p2",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
-            },
-            {
-              "id": "p3",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "The singer likes a house, whereas The singer prefers football (now).",
+          "stimulus_es": "A The singer le gusta a house, whereas The singer prefiere football (now).",
+          "options": [
             {
-              "id": "p0",
-              "left": "I love the beach ___ my partner hates it.",
-              "right": "whereas"
+              "id": "o3",
+              "text": "Other 5946"
             },
             {
-              "id": "p1",
-              "left": "___ you're working, I won't cook.",
-              "right": "Since"
+              "id": "o2",
+              "text": "but"
             },
             {
-              "id": "p2",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
-            },
-            {
-              "id": "p3",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "id": "o1",
+              "text": "whereas"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "options": [
             {
-              "id": "p0",
-              "left": "He didn't study. ___, he failed.",
-              "right": "As a consequence"
+              "id": "w8",
+              "text": "The"
             },
             {
-              "id": "p1",
-              "left": "I like football. I like it ___.",
-              "right": "as well"
+              "id": "w5",
+              "text": "as"
             },
             {
-              "id": "p2",
-              "left": "___, she didn't hurt herself.",
-              "right": "Fortunately"
+              "id": "w11",
+              "text": "a"
             },
             {
-              "id": "p3",
-              "left": "In Spain shops close late. ___, in France they close early.",
-              "right": "In contrast"
+              "id": "w4",
+              "text": "ticket"
+            },
+            {
+              "id": "w2",
+              "text": "likes"
+            },
+            {
+              "id": "w12",
+              "text": "laptop"
+            },
+            {
+              "id": "w9",
+              "text": "artist"
+            },
+            {
+              "id": "w10",
+              "text": "prefers"
+            },
+            {
+              "id": "w1",
+              "text": "artist"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "consequence"
+            },
+            {
+              "id": "w3",
+              "text": "a"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "___, I didn't pass.",
-              "right": "Unfortunately"
-            },
-            {
-              "id": "p1",
-              "left": "In Spain it's hot, ___ in England it rains.",
-              "right": "while"
-            },
-            {
-              "id": "p2",
-              "left": "My brother is blond, ___ our youngest brother has black hair.",
-              "right": "in contrast with"
-            },
-            {
-              "id": "p3",
-              "left": "It is raining. ___, it is not cold.",
-              "right": "Nonetheless"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "I likes a report, ___ I prefers tennis - interesting.",
+          "correct_answer": "fortunately",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "The police officer likes a printer, moreover The police officer prefers English (now).",
+          "stimulus_es": "Ref: A The police officer le gusta a printer, moreover The police officer prefiere English (now).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "A The police officer le gusta a report, whereas The police officer prefiere a house - amazing.",
+              "right": "The police officer likes a report, whereas The police officer prefers a house - amazing."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "A They le gusta a pen, whereas They prefiere a newspaper (now).",
+              "right": "They likes a pen, whereas They prefers a newspaper (now)."
+            },
+            {
+              "id": "p2",
+              "left": "A The teacher le gusta a table, consequently The teacher prefiere a window..",
+              "right": "The teacher likes a table, consequently The teacher prefers a window.."
+            },
+            {
+              "id": "p3",
+              "left": "A John le gusta music, nevertheless John prefiere a movie - interesting.",
+              "right": "John likes music, nevertheless John prefers a movie - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The waiter likes a bike, despite The waiter prefers a computer..",
+          "correct_answer": "The waiter likes a bike, despite The waiter prefers a computer..",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o2",
+              "text": "Angry"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o4",
+              "text": "Fast5250"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 36 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "3. Las hermanas de Pedro...",
+              "back": "Peter\u2019s sisters..."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 36 (Work: Daily Routine):",
+          "instruction_en": "Draft an email regarding Work: Daily Routine. [Ref: 35]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 36 (Work: Daily Routine):",
+          "stimulus_en": "Where is Work: Daily Routine? (187)",
+          "mastery_tag": "speaking",
           "interaction_id": "U5_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 9973",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Al lado de mi casa hay una guarder\u00eda (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2022in the fall (Br Eng.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "puedo abrir la ventana, por favor? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "Next to my house there is a nursery school. (now)"
+            },
+            {
+              "id": "m1",
+              "text": "autumn) En oto\u00f1o."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U5_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.."
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "Go straight on and in front of the church there is a supermarket.."
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U5_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "while",
-          "correct_answer": "while",
-          "mastery_tag": "listening",
           "interaction_id": "U5_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "As a consequence",
-          "correct_answer": "As a consequence",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (4129), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "visited"
+                },
+                {
+                  "id": "o2",
+                  "text": "visit"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "planned"
+                },
+                {
+                  "id": "o2",
+                  "text": "plan"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "while",
-          "correct_answer": "while",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "Maria likes a dog, fortunately Maria prefers a report (now).",
+          "stimulus_es": "A Maria le gusta a dog, fortunately Maria prefiere a report (now).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 7416"
+            },
+            {
+              "id": "o1",
+              "text": "fortunately"
+            },
+            {
+              "id": "o2",
+              "text": "but"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "As a consequence",
-          "correct_answer": "As a consequence",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "as"
+            },
+            {
+              "id": "w12",
+              "text": "prefers"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "police"
+            },
+            {
+              "id": "w8",
+              "text": "consequence"
+            },
+            {
+              "id": "w5",
+              "text": "window"
+            },
+            {
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w11",
+              "text": "officer"
+            },
+            {
+              "id": "w13",
+              "text": "a"
+            },
+            {
+              "id": "w14",
+              "text": "phone"
+            },
+            {
+              "id": "w3",
+              "text": "likes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "Unfortunately",
-          "correct_answer": "Unfortunately",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "The actress likes a clock, ___ The actress prefers a ticket (today).",
+          "correct_answer": "otherwise",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "while",
-          "correct_answer": "while",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "He likes a report, but He prefers music (now).",
+          "stimulus_es": "Ref: A He le gusta a report, since He prefiere music (now).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "Unfortunately",
-          "correct_answer": "Unfortunately",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A She le gusta a window, since She prefiere an email (now).",
+              "right": "She likes a window, since She prefers an email (now)."
+            },
+            {
+              "id": "p1",
+              "left": "A John le gusta a printer, fortunately John prefiere a house (now).",
+              "right": "John likes a printer, fortunately John prefers a house (now)."
+            },
+            {
+              "id": "p2",
+              "left": "A They le gusta a book, since They prefiere a dog..",
+              "right": "They likes a book, since They prefers a dog.."
+            },
+            {
+              "id": "p3",
+              "left": "A The waiter le gusta a pen, besides The waiter prefiere a ticket (now).",
+              "right": "The waiter likes a pen, besides The waiter prefers a ticket (now)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "Since",
-          "correct_answer": "Since",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The scientist likes a window, moreover The scientist prefers a door (now).",
+          "correct_answer": "The scientist likes a window, moreover The scientist prefers a door (now).",
           "mastery_tag": "listening",
           "interaction_id": "U5_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o0",
+              "text": "Guitar"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "Flute"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book7732"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 37 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "The correct thing - interesting",
+              "back": "I went to a state school. - interesting"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 37 (Work: Daily Routine):",
+          "instruction_en": "Write a note about Work: Daily Routine. [Ref: 45]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 37 (Work: Daily Routine):",
+          "stimulus_en": "The Connectors is here. (823)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 1321",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "2. La hamburguesa de Harry (today)",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "Uncountable nouns (today)",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "car / I / drink / never / if / drive / I / alcohol / a (now)",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m2",
+              "text": "I never drink alcohol if I drive a car (now)"
+            },
+            {
+              "id": "m0",
+              "text": "Harry\u2019s burger (today)"
+            },
+            {
+              "id": "m1",
+              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I don\u2019t have many friends (friends is countable).!"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - 504"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (3247), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U5_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "He likes a house, otherwise He prefers a pen..",
+          "stimulus_es": "A He le gusta a house, otherwise He prefiere a pen..",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
               "id": "o2",
-              "text": "Yellow."
+              "text": "but"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 8060"
+            },
+            {
+              "id": "o1",
+              "text": "otherwise"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w5",
+              "text": "We"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w3",
+              "text": "cat"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w8",
+              "text": "(today)"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w7",
+              "text": "tennis"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
+            },
+            {
+              "id": "w4",
+              "text": "moreover"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "prefers"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "John likes a gift, ___ John prefers football!.",
+          "correct_answer": "while",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "My friend likes a dog, but My friend prefers a movie....",
+          "stimulus_es": "Ref: A My friend le gusta a dog, consequently My friend prefiere a movie....",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "A The architect le gusta a dog, consequently The architect prefiere a bag - 297.",
+              "right": "The architect likes a dog, consequently The architect prefers a bag - 297."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "A The artist le gusta a clock, fortunately The artist prefiere a cat..",
+              "right": "The artist likes a clock, fortunately The artist prefers a cat.."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "A The police officer le gusta a camera, unfortunately The police officer prefiere coffee - interesting.",
+              "right": "The police officer likes a camera, unfortunately The police officer prefers coffee - interesting."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "A They le gusta a printer, whereas They prefiere a phone (today).",
+              "right": "They likes a printer, whereas They prefers a phone (today)."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The architect likes a gift, although The architect prefers a house (today).",
+          "correct_answer": "The architect likes a gift, although The architect prefers a house (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "o0",
+              "text": "apple"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "o1",
+              "text": "banana"
             },
             {
               "id": "o3",
-              "text": "Car"
+              "text": "mango"
             },
             {
               "id": "o4",
-              "text": "Orange"
+              "text": "bike3895"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 38 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "2. Siempre van antes del sustantivo, la regla es - interesting",
+              "back": "ADJECTIVE + NOUN - interesting"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U5_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 38 (Work: Daily Routine):",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 53]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 38 (Work: Daily Routine):",
+          "stimulus_en": "Focus on Work: Daily Routine. (410)",
+          "mastery_tag": "speaking",
           "interaction_id": "U5_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 2837",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "A qu\u00e9 hora sale el autob\u00fas?...",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "M\u00e1s plurales irregulares que nos podemos encontrar son...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "De qui\u00e9n ese coche?.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What time does the bus leave..."
+            },
+            {
+              "id": "m1",
+              "text": "men, women, people, etc...."
+            },
+            {
+              "id": "m2",
+              "text": "Whose car is that."
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U5_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar.."
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "Whose mobile is that!"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (452), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "drink"
                 }
               ]
             },
@@ -1559,11 +1783,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "sell"
                 }
               ]
             }
@@ -1572,677 +1796,490 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U5_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "The nurse likes a movie, fortunately The nurse prefers a cat!.",
+          "stimulus_es": "A The nurse le gusta a movie, fortunately The nurse prefiere a cat!.",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o2",
+              "text": "but"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o1",
+              "text": "fortunately"
+            },
+            {
+              "id": "o3",
+              "text": "Other 2350"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w3",
+              "text": "apple"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w4",
+              "text": "despite"
+            },
+            {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w8",
+              "text": "radio"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w6",
+              "text": "prefers"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
+            },
+            {
+              "id": "w5",
+              "text": "He"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "The teacher likes a chair, ___ The teacher prefers a clock (now).",
+          "correct_answer": "furthermore",
           "mastery_tag": "grammar",
           "interaction_id": "U5_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "They likes a house, but They prefers an email - 846.",
+          "stimulus_es": "Ref: A They le gusta a house, moreover They prefiere an email - 846.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U5_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "A The scientist le gusta a table, fortunately The scientist prefiere a gift!.",
+              "right": "The scientist likes a table, fortunately The scientist prefers a gift!."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "A John le gusta a clock, while John prefiere an email..",
+              "right": "John likes a clock, while John prefers an email.."
+            },
+            {
+              "id": "p2",
+              "left": "A The nurse le gusta tennis, meanwhile The nurse prefiere a watch - interesting.",
+              "right": "The nurse likes tennis, meanwhile The nurse prefers a watch - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "A The player le gusta a report, since The player prefiere a chair..",
+              "right": "The player likes a report, since The player prefers a chair.."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "The teacher likes a newspaper, since The teacher prefers a watch (now).",
+          "correct_answer": "The teacher likes a newspaper, since The teacher prefers a watch (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o4",
+              "text": "cat6002"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 39 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "TV / ever / hardly / I / in / watch / evenings / the - 429",
+              "back": "I hardly ever watch TV in the evenings - 429"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 39 (Work: Daily Routine):",
+          "instruction_en": "A small story about Work: Daily Routine. [Ref: 22]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 39 (Work: Daily Routine):",
+          "stimulus_en": "Improve Work: Daily Routine. (796)",
+          "mastery_tag": "speaking",
           "interaction_id": "U5_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "stimulus": "Matching set 3502",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 732",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. Let\u2019s do the same with the first example.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
+            },
+            {
+              "id": "m1",
+              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 732"
+            },
+            {
+              "id": "m2",
+              "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!."
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U5_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Daily Routine):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "my father usually goes to work by bus - interesting"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "biscuit) Patatas fritas (today)"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "main_text": "In Work: Daily Routine (5409), The doctor [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "wrote"
+                },
+                {
+                  "id": "o2",
+                  "text": "write"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "organized"
+                },
+                {
+                  "id": "o2",
+                  "text": "organize"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U5_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Daily Routine:",
+          "stimulus_en": "The student likes a bag, furthermore The student prefers tennis - 343.",
+          "stimulus_es": "A The student le gusta a bag, furthermore The student prefiere tennis - 343.",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o2",
+              "text": "but"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o3",
+              "text": "Other 1935"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "furthermore"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Daily Routine:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w7",
+              "text": "football"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w1",
+              "text": "likes"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w3",
+              "text": "pizza"
+            },
+            {
+              "id": "w6",
+              "text": "prefers"
+            },
+            {
+              "id": "w4",
+              "text": "since"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "John"
+            },
+            {
+              "id": "w0",
+              "text": "John"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U5_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Daily Routine):",
+          "stimulus_en": "The actress likes a clock, ___ The actress prefers a newspaper - interesting.",
+          "correct_answer": "however",
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Daily Routine)",
+          "stimulus_en": "She likes a ticket, although She prefers a laptop!.",
+          "stimulus_es": "Ref: A She le gusta a ticket, although She prefiere a laptop!.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U5_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Daily Routine):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A The coach le gusta music, furthermore The coach prefiere a pen!.",
+              "right": "The coach likes music, furthermore The coach prefers a pen!."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "A The player le gusta a television, furthermore The player prefiere a letter - interesting.",
+              "right": "The player likes a television, furthermore The player prefers a letter - interesting."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "A She le gusta a watch, consequently She prefiere a pen - 753.",
+              "right": "She likes a watch, consequently She prefers a pen - 753."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "A The teacher le gusta a camera, unfortunately The teacher prefiere a pizza (today).",
+              "right": "The teacher likes a camera, unfortunately The teacher prefers a pizza (today)."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Daily Routine):",
+          "tts_en": "He likes a dog, otherwise He prefers a phone..",
+          "correct_answer": "He likes a dog, otherwise He prefers a phone..",
+          "mastery_tag": "listening",
           "interaction_id": "U5_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o4",
+              "text": "Hot7036"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o2",
+              "text": "Star"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 40 - Work: Daily Routine:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales.",
+              "back": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.."
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U5_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 40 (Work: Daily Routine):",
+          "instruction_en": "Why is Work: Daily Routine important? [Ref: 41]",
+          "mastery_tag": "writing",
           "interaction_id": "U5_I99"
         },
         {
           "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "prompt_es": "Habla 40 (Work: Daily Routine):",
+          "stimulus_en": "Study Work: Daily Routine now. (914)",
           "mastery_tag": "speaking",
           "interaction_id": "U5_I100"
         }

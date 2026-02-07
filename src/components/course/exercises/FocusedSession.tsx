@@ -59,13 +59,18 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
 
     try {
       if (url) {
-        const audio = new Audio(url);
-        currentAudioRef.current = audio;
-        if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
-          audio.playbackRate = 1.1;
+        try {
+          const audio = new Audio(url);
+          currentAudioRef.current = audio;
+          if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
+            audio.playbackRate = 1.1;
+          }
+          await audio.play();
+          return;
+        } catch (error) {
+          console.warn('Failed to play static audio, falling back to TTS:', error);
+          if (!text) return;
         }
-        await audio.play();
-        return;
       }
 
       if (text) {

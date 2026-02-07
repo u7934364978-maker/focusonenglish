@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit52",
-    "unit_title": "Phone: Making Calls",
+    "unit_title": "Can/Can't - Social: Parties",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1527 +10,1601 @@
   "blocks": [
     {
       "block_id": "U52_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Introducci\u00f3n a la unidad 52",
+          "tts_en": "Starting unit 52. Topic: Social: Parties. Focus: Can/Can't.",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is a ___ driver.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "dangerous"
-            },
-            {
-              "id": "o2",
-              "text": "dangerously"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "Where did he/she tell you (now) (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U52_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "She sings very ___.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "good"
-            },
-            {
-              "id": "o1",
-              "text": "well"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "present continuous, porque lo est\u00e1s buscando en este momento. (today)",
+          "stimulus_es": "Ref: Qu\u00e9 tiempo verbal utilizamos? (today)",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U52_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "She sings very ___.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p0",
+              "left": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales!",
+              "right": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.!"
             },
             {
-              "id": "o1",
-              "text": "well"
+              "id": "p1",
+              "left": "I / fish / often / hours / for / catching / anything / without!",
+              "right": "I often fish for hours without catching anything!"
             },
             {
-              "id": "o2",
-              "text": "good"
+              "id": "p2",
+              "left": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo - 450",
+              "right": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. - 450"
+            },
+            {
+              "id": "p3",
+              "left": "El marido de mi prima es alem\u00e1n y su madre irlandesa (today)",
+              "right": "my cousin\u2019s husband is German and his mother Irish. (today)"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "You’ve cooked that meat ___.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "wonderfully"
-            },
-            {
-              "id": "o2",
-              "text": "wonderful"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "biscuit) Patatas fritas - amazing",
+          "correct_answer": "biscuit) Patatas fritas - amazing",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He drives ___.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "dangerously"
-            },
-            {
-              "id": "o2",
-              "text": "dangerous"
+              "id": "o4",
+              "text": "Book8506"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I speak English ___.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 409 - Social: Parties:",
+          "cards": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "good"
-            },
-            {
-              "id": "o1",
-              "text": "well"
+              "id": "c1",
+              "front": "A qu\u00e9 hora tenemos el examen?.",
+              "back": "What time do we have our exam."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Could I have a ___ word with you?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "quick"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "quickly"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 409 (Social: Parties):",
+          "instruction_en": "Draft an email regarding Social: Parties. [Ref: 15]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I8"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This is a ___ train.",
-          "options": [
+          "type": "speaking_task",
+          "prompt_es": "Habla 409 (Social: Parties):",
+          "stimulus_en": "Focus on Social: Parties. (375)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U52_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 5391",
+          "items": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "i0",
+              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - interesting",
+              "match_id": "m0"
             },
             {
+              "id": "i1",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Puedo abrir la ventana, por favor? (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "I can to speak English. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "may I open the window, please (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U52_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you ever seen a film in original version!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U52_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (4572), The manager [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked"
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U52_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "What\u2019s the most difficult language you\u2019ve ever studied.",
+          "stimulus_es": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?.",
+          "options": [
+            {
               "id": "o2",
-              "text": "slowly"
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 9426"
             },
             {
               "id": "o1",
-              "text": "slow"
+              "text": "Option A"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U52_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "well"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U52_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "wonderfully"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U52_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "dangerously"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U52_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "dangerously"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U52_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Social: Parties:",
           "options": [
             {
               "id": "w0",
-              "text": "well"
+              "text": "Peter\u2019s"
+            },
+            {
+              "id": "w1",
+              "text": "sisters"
+            },
+            {
+              "id": "w2",
+              "text": "amazing"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U52_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "well"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "Indirect questions en ingl\u00e9s. - 407 (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "perfect"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (today)",
+          "stimulus_es": "Ref: puedo abrir la ventana, por favor? (today)",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "well"
+              "id": "p0",
+              "left": "Sigue recto y delante de la iglesia hay un supermercado - amazing",
+              "right": "Go straight on and in front of the church there is a supermarket. - amazing"
+            },
+            {
+              "id": "p1",
+              "left": "\u2022in the fall (Br Eng (now)",
+              "right": "autumn) En oto\u00f1o (now)"
+            },
+            {
+              "id": "p2",
+              "left": "Eraser (Br Eng - amazing",
+              "right": "rubber) Goma de borrar - amazing"
+            },
+            {
+              "id": "p3",
+              "left": "\u2013 D\u00edas de la semana!",
+              "right": "on Monday, on Wednesday, etc.!"
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He talked very ___ about his work.",
-          "correct_answer": "interestingly",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "What time is it!",
+          "correct_answer": "What time is it!",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Speak more ___, please.",
-          "correct_answer": "quietly",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o4",
+              "text": "Hot1980"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’ve got an ___ job for you.",
-          "correct_answer": "easy",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 410 - Social: Parties:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example (now)",
+              "back": "may come, might go. (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "You’ve cooked that meat ___.",
-          "correct_answer": "wonderfully",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 410 (Social: Parties):",
+          "instruction_en": "Review Social: Parties from last week. [Ref: 52]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This is a ___ train.",
-          "correct_answer": "slow",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 410 (Social: Parties):",
+          "stimulus_en": "Where is Social: Parties? (448)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He drives ___.",
-          "correct_answer": "dangerously",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 6669",
+          "items": [
+            {
+              "id": "i0",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "try / police / keep / The / order / always / to / the.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "The police always try to keep the order."
+            },
+            {
+              "id": "m1",
+              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle.."
+            },
+            {
+              "id": "m0",
+              "text": "Sometimes I have lunch in a restaurant. - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is a ___ driver.",
-          "correct_answer": "dangerous",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - amazing"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - amazing"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She writes in ___ English.",
-          "correct_answer": "perfect",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (5146), A colleague [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"well not\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday. (today)",
+          "stimulus_es": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo (today)",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 9318"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U52_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"well not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "interesting"
+            },
+            {
+              "id": "w2",
+              "text": "toys"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "children\u2019s"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"slowly not\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "Why didn\u2019t you tell me (now) (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U52_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"interestingly\"",
-          "correct_answer": true,
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "Can I have your ID/ passport/ credit card?..",
+          "stimulus_es": "Ref: Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U52_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"easy not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "C\u00f3mo se llama \u00e9l?.",
+              "right": "What\u2019s his name."
+            },
+            {
+              "id": "p1",
+              "left": "2. Let\u2019s do the same with the first example (now)",
+              "right": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! (now)"
+            },
+            {
+              "id": "p2",
+              "left": "No me quiero sentar enfrente de \u00e9l!",
+              "right": "I don\u2019t want to sit opposite him.!"
+            },
+            {
+              "id": "p3",
+              "left": "Otro common mistake - amazing",
+              "right": "Have you a car? - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"well\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "bookshop) Librer\u00eda (now)",
+          "correct_answer": "bookshop) Librer\u00eda (now)",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"dangerous not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast9423"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"well not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 411 - Social: Parties:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "\u2013 Meses del a\u00f1o...",
+              "back": "in May, in August, etc...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I speak English ___.",
-              "right": "well"
-            },
-            {
-              "id": "p1",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
-            },
-            {
-              "id": "p2",
-              "left": "You’ve cooked that meat ___.",
-              "right": "wonderfully"
-            },
-            {
-              "id": "p3",
-              "left": "This is a ___ train.",
-              "right": "slow"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 411 (Social: Parties):",
+          "instruction_en": "Write a note about Social: Parties. [Ref: 72]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I speak English ___.",
-              "right": "well"
-            },
-            {
-              "id": "p1",
-              "left": "He drives ___.",
-              "right": "slowly"
-            },
-            {
-              "id": "p2",
-              "left": "Speak more ___, please.",
-              "right": "quietly"
-            },
-            {
-              "id": "p3",
-              "left": "She writes in ___ English.",
-              "right": "perfect"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 411 (Social: Parties):",
+          "stimulus_en": "Look at Social: Parties. (447)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 8604",
+          "items": [
             {
-              "id": "p0",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
+              "id": "i0",
+              "text": "Y en negativa!",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "This is a ___ train.",
-              "right": "slow"
+              "id": "i1",
+              "text": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo (today)",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "He talked very ___ about his work.",
-              "right": "interestingly"
-            },
-            {
-              "id": "p3",
-              "left": "He drives ___.",
-              "right": "slowly"
+              "id": "i2",
+              "text": "The correct thing - 414",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "I don\u2019t have any friends who live near my house.!"
+            },
+            {
+              "id": "m2",
+              "text": "I went to a state school. - 414"
+            },
+            {
+              "id": "m1",
+              "text": "John\u2018s job is boring. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "This is a ___ train.",
-              "right": "slow"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "information, homework, work. - interesting"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
-            },
-            {
-              "id": "p2",
-              "left": "He drives ___.",
-              "right": "slowly"
-            },
-            {
-              "id": "p3",
-              "left": "He talked very ___ about his work.",
-              "right": "interestingly"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "liter) Litro (now)"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (6051), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "He drives ___.",
-              "right": "slowly"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Could I have a ___ word with you?",
-              "right": "quick"
-            },
-            {
-              "id": "p2",
-              "left": "She writes in ___ English.",
-              "right": "perfect"
-            },
-            {
-              "id": "p3",
-              "left": "He is a ___ driver.",
-              "right": "dangerous"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "I have 3 children. - interesting",
+          "stimulus_es": "The correct thing - interesting",
+          "options": [
             {
-              "id": "p0",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
+              "id": "o3",
+              "text": "Other 989"
             },
             {
-              "id": "p1",
-              "left": "She sings very ___.",
-              "right": "well"
+              "id": "o1",
+              "text": "Option A"
             },
             {
-              "id": "p2",
-              "left": "He is a ___ driver.",
-              "right": "dangerous"
-            },
-            {
-              "id": "p3",
-              "left": "He drives ___.",
-              "right": "dangerously"
+              "id": "o2",
+              "text": "Option B"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
+          "options": [
             {
-              "id": "p0",
-              "left": "This is a ___ train.",
-              "right": "slow"
+              "id": "w4",
+              "text": "puede"
             },
             {
-              "id": "p1",
-              "left": "I speak English ___.",
-              "right": "well"
+              "id": "w0",
+              "text": "la"
             },
             {
-              "id": "p2",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
+              "id": "w2",
+              "text": "es"
             },
             {
-              "id": "p3",
-              "left": "He drives ___.",
-              "right": "slowly"
+              "id": "w6",
+              "text": "cualquier"
+            },
+            {
+              "id": "w5",
+              "text": "ser"
+            },
+            {
+              "id": "w1",
+              "text": "respuesta"
+            },
+            {
+              "id": "w7",
+              "text": "cosa"
+            },
+            {
+              "id": "w3",
+              "text": "ilimitada"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "He talked very ___ about his work.",
-              "right": "interestingly"
-            },
-            {
-              "id": "p1",
-              "left": "He is a ___ driver.",
-              "right": "dangerous"
-            },
-            {
-              "id": "p2",
-              "left": "I’ve got an ___ job for you.",
-              "right": "easy"
-            },
-            {
-              "id": "p3",
-              "left": "He drives ___.",
-              "right": "dangerously"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) - 469 (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "What\u2019s the most delicious food you\u2019ve ever tasted (now)",
+          "stimulus_es": "Ref: Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? (now)",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "Common mistake!",
+              "right": "I hadn\u2019t got a mobile.!"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "Otro ejemplo!",
+              "right": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big.!"
+            },
+            {
+              "id": "p2",
+              "left": "Otro common mistake - 960",
+              "right": "I haven\u2019t a car. - 960"
+            },
+            {
+              "id": "p3",
+              "left": "En espa\u00f1ol dir\u00edamos - 672",
+              "right": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - 672"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "\u00bfDe d\u00f3nde eres? - amazing",
+          "correct_answer": "\u00bfDe d\u00f3nde eres? - amazing",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o1",
+              "text": "Tuesday"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o4",
+              "text": "June5827"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 412 - Social: Parties:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "5. never / drinks coffee in the evening / she - amazing",
+              "back": "she never drinks coffee in the evening - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 412 (Social: Parties):",
+          "instruction_en": "A small story about Social: Parties. [Ref: 66]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 412 (Social: Parties):",
+          "stimulus_en": "Improve Social: Parties. (447)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 944",
+          "items": [
+            {
+              "id": "i0",
+              "text": "visits / Jonathan / usually / dentist / the (now)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Metre (Br Eng) (Am Eng - 734",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "Jonathan usually visits the dentist (now)"
+            },
+            {
+              "id": "m1",
+              "text": "meter) Metro - 734"
+            },
+            {
+              "id": "m2",
+              "text": "Spain\u2018s monuments are very nice. - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U52_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Social: Parties):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "the boys always play football on Saturday afternoons..."
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "I\u2019ll see you on Saturday (now)"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U52_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "wonderfully",
-          "correct_answer": "wonderfully",
-          "mastery_tag": "listening",
           "interaction_id": "U52_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "easy",
-          "correct_answer": "easy",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (4661), The teacher [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "slow",
-          "correct_answer": "slow",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (today)",
+          "stimulus_es": "Por ejemplo (today)",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 3729"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "well",
-          "correct_answer": "well",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "bus"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "does"
+            },
+            {
+              "id": "w5",
+              "text": "leave"
+            },
+            {
+              "id": "w1",
+              "text": "time"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "well",
-          "correct_answer": "well",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "I hardly ever watch TV in the evenings - interesting (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "dangerously",
-          "correct_answer": "dangerously",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - interesting",
+          "stimulus_es": "Ref: Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - interesting",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "perfect",
-          "correct_answer": "perfect",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "En qu\u00e9 trabaja Juan? (today)",
+              "right": "What does Juan do (today)"
+            },
+            {
+              "id": "p1",
+              "left": "Al lado de mi casa hay una guarder\u00eda - amazing",
+              "right": "Next to my house there is a nursery school. - amazing"
+            },
+            {
+              "id": "p2",
+              "left": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - 501",
+              "right": "read, write, eat, run, sleep, etc - 501"
+            },
+            {
+              "id": "p3",
+              "left": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? (now)",
+              "right": "What\u2019s the coldest country you\u2019ve ever been to (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "slowly",
-          "correct_answer": "slowly",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "she doesn\u2019t often write to me (now)",
+          "correct_answer": "she doesn\u2019t often write to me (now)",
           "mastery_tag": "listening",
           "interaction_id": "U52_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o0",
+              "text": "London"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "Berlin"
+            },
+            {
+              "id": "o4",
+              "text": "Slow8310"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 413 - Social: Parties:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? (today)",
+              "back": "What\u2019s the longest beach you\u2019ve ever been to (today)"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 413 (Social: Parties):",
+          "instruction_en": "Your daily routine in Social: Parties. [Ref: 89]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 413 (Social: Parties):",
+          "stimulus_en": "Focus on Social: Parties. (900)",
           "mastery_tag": "speaking",
           "interaction_id": "U52_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 4115",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "\u2013 Seasons (estaciones)!",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "7. La casa de mis primos es muy grande - 309",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (now)",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "in summer, in winter.!"
+            },
+            {
+              "id": "m2",
+              "text": "How old is Mar\u00eda (now)"
+            },
+            {
+              "id": "m1",
+              "text": "My cousins\u2019 house is very big - 309"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Does that computer work - amazing"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). (now)"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (2675), My cousin [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "planned"
+                },
+                {
+                  "id": "o2",
+                  "text": "plan"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U52_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto..",
+          "stimulus_es": "Otro ejemplo.",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o2",
+              "text": "Option B"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "o1",
+              "text": "Option A"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 9515"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w3",
+              "text": "arrives"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w0",
+              "text": "the"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w4",
+              "text": "late"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w1",
+              "text": "bus"
+            },
+            {
+              "id": "w2",
+              "text": "usually"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "Do you have any friends who live near your house? = al ser interrogativa, any.. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "preguntas en ingl\u00e9s.",
+          "stimulus_es": "Ref: Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "La podemos contestar de la seguiente manera (today)",
+              "right": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) (today)"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - 251",
+              "right": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - 251"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son...",
+              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar...."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "Many, para countable, decimos.",
+              "right": "I don\u2019t have many friends (friends is countable).."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "Is she studying English - amazing",
+          "correct_answer": "Is she studying English - amazing",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "o4",
+              "text": "Book5687"
             },
             {
               "id": "o2",
-              "text": "Banana"
+              "text": "Flute"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "text": "Drums"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 414 - Social: Parties:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "Encontraste algo ah\u00ed? - amazing",
+              "back": "any + thing = en oraci\u00f3n INTERROGATIVA. - amazing"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U52_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 414 (Social: Parties):",
+          "instruction_en": "Why is Social: Parties important? [Ref: 90]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 414 (Social: Parties):",
+          "stimulus_en": "The Can/Can't is here. (793)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 3896",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "The correct thing.",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Movie star (Br Eng!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "film star) Estrella de cine!"
+            },
+            {
+              "id": "m0",
+              "text": "I haven\u2019t got a car.."
+            },
+            {
+              "id": "m2",
+              "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. (today)"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U52_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "My friend has a lot of money.."
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "There are a lot of bars near my house...."
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (961), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "checked"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "check"
                 }
               ]
             },
@@ -1539,11 +1613,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "prepare"
                 }
               ]
             }
@@ -1552,681 +1626,506 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U52_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "would you like some more!",
+          "stimulus_es": "Quieres m\u00e1s?!",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o1",
+              "text": "Option A"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o3",
+              "text": "Other 4671"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U52_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w1",
+              "text": "Farmacia"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w0",
+              "text": "chemist)"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost! (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U52_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "durante o desde hace - interesting",
+          "stimulus_es": "Ref: \u2013 For + period of time (not defined) - interesting",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U52_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - interesting",
+              "right": "What\u2019s the happiest day you\u2019ve ever had - interesting"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "2. Siempre van antes del sustantivo, la regla es - amazing",
+              "right": "ADJECTIVE + NOUN - amazing"
+            },
+            {
+              "id": "p2",
+              "left": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - interesting",
+              "right": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - interesting"
+            },
+            {
+              "id": "p3",
+              "left": "Alguien dijo mi nombre? - interesting",
+              "right": "Did anybody say my name - interesting"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "What\u2019s that - interesting",
+          "correct_answer": "What\u2019s that - interesting",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o2",
+              "text": "Berlin"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o0",
+              "text": "London"
+            },
+            {
+              "id": "o4",
+              "text": "Slow5954"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 415 - Social: Parties:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "Tienes zapatos para la boda?!",
+              "back": "do you have any shoes for the wedding!"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 415 (Social: Parties):",
+          "instruction_en": "Why is Social: Parties important? [Ref: 35]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 415 (Social: Parties):",
+          "stimulus_en": "Look at Social: Parties. (785)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "stimulus": "Matching set 2092",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Movie theater (Br Eng (now)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "every days o every Tuesdays.!"
+            },
+            {
+              "id": "m1",
+              "text": "verb patters...."
+            },
+            {
+              "id": "m0",
+              "text": "cinema) Cine (now)"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U52_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Social: Parties):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "my birthday is in February...."
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - interesting"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Social: Parties):",
+          "main_text": "In Social: Parties (6757), The manager [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U52_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Social: Parties:",
+          "stimulus_en": "What\u2019s the funniest joke you\u2019ve ever been told - amazing",
+          "stimulus_es": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - amazing",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o1",
+              "text": "Option A"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o2",
+              "text": "Option B"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o3",
+              "text": "Other 2293"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Social: Parties:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w12",
+              "text": "lo"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w4",
+              "text": "forma"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w5",
+              "text": "comparativa"
+            },
+            {
+              "id": "w7",
+              "text": "la"
+            },
+            {
+              "id": "w14",
+              "text": "\u00abgrados\u00bb"
+            },
+            {
+              "id": "w10",
+              "text": "En"
+            },
+            {
+              "id": "w3",
+              "text": "la"
+            },
+            {
+              "id": "w8",
+              "text": "forma"
+            },
+            {
+              "id": "w6",
+              "text": "y"
+            },
+            {
+              "id": "w0",
+              "text": "la"
+            },
+            {
+              "id": "w11",
+              "text": "lengua"
+            },
+            {
+              "id": "w2",
+              "text": "base"
+            },
+            {
+              "id": "w9",
+              "text": "superlativa"
+            },
+            {
+              "id": "w17",
+              "text": "superlativo"
+            },
+            {
+              "id": "w16",
+              "text": "y"
+            },
+            {
+              "id": "w18",
+              "text": "interesting"
+            },
+            {
+              "id": "w13",
+              "text": "llamamos"
+            },
+            {
+              "id": "w15",
+              "text": "comparativo"
+            },
+            {
+              "id": "w1",
+              "text": "forma"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U52_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Social: Parties):",
+          "stimulus_en": "Our English teacher is usually angry. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Social: Parties)",
+          "stimulus_en": "Paul\u2019s birthday is on 8th May - 362",
+          "stimulus_es": "Ref: El cumplea\u00f1os de Pablo es el 8 de mayo - 362",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U52_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Social: Parties):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "C\u00f3mo se siente tu madre? (today)",
+              "right": "How is your mum feeling (today)"
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "7. read books slowly / I / always (now)",
+              "right": "I always read books slowly (now)"
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "4. go to bed before 11 / often / I - amazing",
+              "right": "I often go to bed before 11 - amazing"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba...",
+              "right": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM..."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Social: Parties):",
+          "tts_en": "have you seen my keys anywhere (now)",
+          "correct_answer": "have you seen my keys anywhere (now)",
+          "mastery_tag": "listening",
           "interaction_id": "U52_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o3",
+              "text": "Planet"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o1",
+              "text": "Moon"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o4",
+              "text": "Hot5457"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 416 - Social: Parties:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "This is another translation.",
+              "back": "igual hago algo\u2026 (but I\u2019m not sure\u2026).."
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U52_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 416 (Social: Parties):",
+          "instruction_en": "Draft an email regarding Social: Parties. [Ref: 86]",
+          "mastery_tag": "writing",
           "interaction_id": "U52_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "prompt_es": "Habla 416 (Social: Parties):",
+          "stimulus_en": "Where is Social: Parties? (120)",
+          "mastery_tag": "speaking",
           "interaction_id": "U52_I100"
         }
       ]

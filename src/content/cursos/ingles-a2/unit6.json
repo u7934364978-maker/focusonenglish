@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit6",
-    "unit_title": "Comparative and Superlative Adjectives",
+    "unit_title": "Comparatives - Work: Office Equipment",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1516 +10,1706 @@
   "blocks": [
     {
       "block_id": "U6_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
           "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
+          "prompt_es": "Introducci\u00f3n a la unidad 6",
+          "tts_en": "Starting unit 6. Topic: Work: Office Equipment. Focus: Comparatives.",
           "mastery_tag": "listening",
           "interaction_id": "U6_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "tallest"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a dog is ___ than a a computer (now).",
+          "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U6_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "more beautiful"
-            },
-            {
-              "id": "o1",
-              "text": "most beautiful"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A English is useful than a a newspaper (today).",
+          "stimulus_es": "Ref: Un English es m\u00e1s \u00fatil que un a newspaper (today).",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U6_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "most beautiful"
+              "id": "p0",
+              "left": "Un a radio es m\u00e1s \u00fatil que un a movie - interesting.",
+              "right": "A a radio is more useful than a a movie - interesting."
             },
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p1",
+              "left": "Un a computer es m\u00e1s \u00fatil que un a dog (now).",
+              "right": "A a computer is more useful than a a dog (now)."
             },
             {
-              "id": "o2",
-              "text": "more beautiful"
+              "id": "p2",
+              "left": "Un a ticket es m\u00e1s \u00fatil que un an apple..",
+              "right": "A a ticket is more useful than a an apple.."
+            },
+            {
+              "id": "p3",
+              "left": "Un a chair es m\u00e1s \u00fatil que un a clock....",
+              "right": "A a chair is more useful than a a clock...."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "more beautiful"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "most beautiful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a letter is more useful than a music..",
+          "correct_answer": "A a letter is more useful than a music..",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the ___ student in the group.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o2",
-              "text": "goodest"
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Book9227"
             },
             {
               "id": "o1",
-              "text": "best"
+              "text": "Piano"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 41 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "hotter"
-            },
-            {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o3",
-              "text": "other"
+              "id": "c1",
+              "front": "Los adjetivos tienen tres formas!",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.!"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "tallest"
-            },
-            {
-              "id": "o2",
-              "text": "taller"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 41 (Work: Office Equipment):",
+          "instruction_en": "A small story about Work: Office Equipment. [Ref: 42]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I8"
         },
         {
+          "type": "speaking_task",
+          "prompt_es": "Habla 41 (Work: Office Equipment):",
+          "stimulus_en": "Look at Work: Office Equipment. (556)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U6_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 4725",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Algunos ejemplos!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Has visto mis llaves en alg\u00fan sitio? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "have you seen my keys anywhere (today)"
+            },
+            {
+              "id": "m0",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without!"
+            },
+            {
+              "id": "m2",
+              "text": "I can to speak English. - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U6_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "may come, might go...."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "My neighbour always spoils my holidays!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U6_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (1704), The artist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U6_I12"
+        },
+        {
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a gift is more useful than a a radio - amazing.",
+          "stimulus_es": "Un a gift es m\u00e1s \u00fatil que un a radio - amazing.",
           "options": [
             {
+              "id": "o1",
+              "text": "more useful"
+            },
+            {
               "id": "o3",
-              "text": "other"
+              "text": "Other 4732"
             },
             {
               "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o1",
-              "text": "tallest"
+              "text": "useful"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U6_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U6_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U6_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "best"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U6_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U6_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
           "options": [
             {
+              "id": "w3",
+              "text": "is"
+            },
+            {
               "id": "w0",
-              "text": "best"
+              "text": "A"
+            },
+            {
+              "id": "w8",
+              "text": "tennis"
+            },
+            {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "letter"
+            },
+            {
+              "id": "w6",
+              "text": "than"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U6_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A music is ___ than a a bike - 492.",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A a ticket is useful than a music..",
+          "stimulus_es": "Ref: Un a ticket es m\u00e1s \u00fatil que un music..",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "bigger"
+              "id": "p0",
+              "left": "Un a laptop es m\u00e1s \u00fatil que un a printer....",
+              "right": "A a laptop is more useful than a a printer...."
+            },
+            {
+              "id": "p1",
+              "left": "Un tennis es m\u00e1s \u00fatil que un a pen - interesting.",
+              "right": "A tennis is more useful than a a pen - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "Un a pen es m\u00e1s \u00fatil que un a television (today).",
+              "right": "A a pen is more useful than a a television (today)."
+            },
+            {
+              "id": "p3",
+              "left": "Un a bike es m\u00e1s \u00fatil que un a television - interesting.",
+              "right": "A a bike is more useful than a a television - interesting."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a movie is more useful than a football - interesting.",
+          "correct_answer": "A a movie is more useful than a football - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast5846"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 42 - Work: Office Equipment:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "back": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 42 (Work: Office Equipment):",
+          "instruction_en": "Review Work: Office Equipment from last week. [Ref: 58]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 42 (Work: Office Equipment):",
+          "stimulus_en": "Where is Work: Office Equipment? (836)",
+          "mastery_tag": "speaking",
           "interaction_id": "U6_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 6738",
+          "items": [
+            {
+              "id": "i0",
+              "text": "on + train/ bus/ plane/ bike/ motorbike.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Verbos irregulares - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica.."
+            },
+            {
+              "id": "m1",
+              "text": "What\u2019s the saddest song you\u2019ve ever listened to - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "verb patters. (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (4044), Maria [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a ticket is more useful than a a computer - amazing.",
+          "stimulus_es": "Un a ticket es m\u00e1s \u00fatil que un a computer - amazing.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "useful"
+            },
+            {
+              "id": "o3",
+              "text": "Other 5696"
+            },
+            {
+              "id": "o1",
+              "text": "more useful"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U6_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w2",
+              "text": "bag"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "318"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w9",
+              "text": "report"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter not\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a camera is ___ than a a ticket (now).",
+          "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U6_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A coffee is more useful than a a computer!.",
+          "stimulus_es": "Ref: Un coffee es m\u00e1s \u00fatil que un a computer!.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U6_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un an apple es m\u00e1s \u00fatil que un a letter....",
+              "right": "A an apple is more useful than a a letter...."
+            },
+            {
+              "id": "p1",
+              "left": "Un a sandwich es m\u00e1s \u00fatil que un a pizza..",
+              "right": "A a sandwich is more useful than a a pizza.."
+            },
+            {
+              "id": "p2",
+              "left": "Un a computer es m\u00e1s \u00fatil que un an email..",
+              "right": "A a computer is more useful than a an email.."
+            },
+            {
+              "id": "p3",
+              "left": "Un an email es m\u00e1s \u00fatil que un a cat - interesting.",
+              "right": "A an email is more useful than a a cat - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a book is more useful than a a window - 310.",
+          "correct_answer": "A a book is more useful than a a window - 310.",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book3017"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 43 - Work: Office Equipment:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar - amazing",
+              "back": "Indirect questions en ingl\u00e9s. - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 43 (Work: Office Equipment):",
+          "instruction_en": "A small story about Work: Office Equipment. [Ref: 13]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 43 (Work: Office Equipment):",
+          "stimulus_en": "This is Work: Office Equipment. (284)",
+          "mastery_tag": "speaking",
           "interaction_id": "U6_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 9776",
+          "items": [
             {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "i0",
+              "text": "Much, como se utiliza con uncountable, decimos (today)",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "i1",
+              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material!",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p3",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "i2",
+              "text": "try / police / keep / The / order / always / to / the...",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "I haven\u2019t got much money (remember, money is uncountable). (today)"
+            },
+            {
+              "id": "m1",
+              "text": "preguntas en ingl\u00e9s!"
+            },
+            {
+              "id": "m2",
+              "text": "The police always try to keep the order..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What\u2019s the coldest country you\u2019ve ever been to..."
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What time does the train leave - interesting"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (6222), Maria [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A an apple is more useful than a a gift..",
+          "stimulus_es": "Un an apple es m\u00e1s \u00fatil que un a gift..",
+          "options": [
             {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "o1",
+              "text": "more useful"
             },
             {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "o2",
+              "text": "useful"
             },
             {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "o3",
+              "text": "Other 5036"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
+          "options": [
             {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "w4",
+              "text": "useful"
             },
             {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "w1",
+              "text": "football"
             },
             {
-              "id": "p3",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w3",
+              "text": "more"
+            },
+            {
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "book"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p1",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a watch is ___ than a an email (now).",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A football is useful than a a report..",
+          "stimulus_es": "Ref: Un football es m\u00e1s \u00fatil que un a report..",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "Un a radio es m\u00e1s \u00fatil que un tennis!.",
+              "right": "A a radio is more useful than a tennis!."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "Un a television es m\u00e1s \u00fatil que un a sandwich - interesting.",
+              "right": "A a television is more useful than a a sandwich - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "Un a newspaper es m\u00e1s \u00fatil que un a laptop (today).",
+              "right": "A a newspaper is more useful than a a laptop (today)."
+            },
+            {
+              "id": "p3",
+              "left": "Un a printer es m\u00e1s \u00fatil que un a phone - interesting.",
+              "right": "A a printer is more useful than a a phone - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A an apple is more useful than a a sandwich (today).",
+          "correct_answer": "A an apple is more useful than a a sandwich (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o0",
+              "text": "Guitar"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o4",
+              "text": "Book9950"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 44 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
+              "back": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 44 (Work: Office Equipment):",
+          "instruction_en": "Draft an email regarding Work: Office Equipment. [Ref: 47]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 44 (Work: Office Equipment):",
+          "stimulus_en": "I like Work: Office Equipment. (843)",
+          "mastery_tag": "speaking",
           "interaction_id": "U6_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 1895",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Otro ejemplo!",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "El cumplea\u00f1os de Pablo es el 8 de mayo (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.!"
+            },
+            {
+              "id": "m1",
+              "text": "What\u2019s the happiest day you\u2019ve ever had - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "Paul\u2019s birthday is on 8th May (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U6_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "any + thing = en oraci\u00f3n INTERROGATIVA.."
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (today)"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U6_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
           "interaction_id": "U6_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (9057), My friend [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked"
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "best",
-          "correct_answer": "best",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a letter is more useful than a music..",
+          "stimulus_es": "Un a letter es m\u00e1s \u00fatil que un music..",
+          "options": [
+            {
+              "id": "o2",
+              "text": "useful"
+            },
+            {
+              "id": "o1",
+              "text": "more useful"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4875"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "bigger",
-          "correct_answer": "bigger",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w8",
+              "text": "clock"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "useful"
+            },
+            {
+              "id": "w3",
+              "text": "more"
+            },
+            {
+              "id": "w1",
+              "text": "English"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "best",
-          "correct_answer": "best",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a gift is ___ than a music!.",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A a newspaper is more useful than a a printer..",
+          "stimulus_es": "Ref: Un a newspaper es m\u00e1s \u00fatil que un a printer..",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un a pizza es m\u00e1s \u00fatil que un a window!.",
+              "right": "A a pizza is more useful than a a window!."
+            },
+            {
+              "id": "p1",
+              "left": "Un a camera es m\u00e1s \u00fatil que un a dog (now).",
+              "right": "A a camera is more useful than a a dog (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Un music es m\u00e1s \u00fatil que un football - 376.",
+              "right": "A music is more useful than a football - 376."
+            },
+            {
+              "id": "p3",
+              "left": "Un a letter es m\u00e1s \u00fatil que un a dog - amazing.",
+              "right": "A a letter is more useful than a a dog - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a printer is more useful than a a bike - interesting.",
+          "correct_answer": "A a printer is more useful than a a bike - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U6_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o3",
+              "text": "mango"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "pear"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o4",
+              "text": "bike4442"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 45 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? - interesting",
+              "back": "have you ever spoken English on the phone - interesting"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 45 (Work: Office Equipment):",
+          "instruction_en": "Compare Work: Office Equipment with another topic. [Ref: 18]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 45 (Work: Office Equipment):",
+          "stimulus_en": "This is Work: Office Equipment. (122)",
           "mastery_tag": "speaking",
           "interaction_id": "U6_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 6552",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "Empecemos analizando el siguiente ejemplo (today)",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca?.",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "The correct thing!",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Who\u2019s the shyest person you\u2019ve ever met."
+            },
+            {
+              "id": "m2",
+              "text": "I have 3 children.!"
+            },
+            {
+              "id": "m0",
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I always read books slowly - 176"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Next to my school there aren\u2019t any apartment blocks.."
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (9398), The singer [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U6_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a sandwich is more useful than a a camera - 235.",
+          "stimulus_es": "Un a sandwich es m\u00e1s \u00fatil que un a camera - 235.",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
               "id": "o2",
-              "text": "Yellow."
+              "text": "useful"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 6707"
+            },
+            {
+              "id": "o1",
+              "text": "more useful"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w5",
+              "text": "than"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w0",
+              "text": "A"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w7",
+              "text": "music"
+            },
+            {
+              "id": "w4",
+              "text": "useful"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "more"
+            },
+            {
+              "id": "w1",
+              "text": "coffee"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A English is ___ than a a letter..",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A a laptop is useful than a a television - interesting.",
+          "stimulus_es": "Ref: Un a laptop es m\u00e1s \u00fatil que un a television - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "Un a book es m\u00e1s \u00fatil que un a phone!.",
+              "right": "A a book is more useful than a a phone!."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "Un a ticket es m\u00e1s \u00fatil que un a dog!.",
+              "right": "A a ticket is more useful than a a dog!."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "Un a window es m\u00e1s \u00fatil que un tennis (today).",
+              "right": "A a window is more useful than a tennis (today)."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "Un a report es m\u00e1s \u00fatil que un a radio - amazing.",
+              "right": "A a report is more useful than a a radio - amazing."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a table is more useful than a an apple - amazing.",
+          "correct_answer": "A a table is more useful than a an apple - amazing.",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "o4",
+              "text": "run745"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             },
             {
               "id": "o3",
-              "text": "Car"
+              "text": "pink"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "o2",
+              "text": "green"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 46 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "2. Play football on Saturday afternoons / the boys / always - amazing",
+              "back": "the boys always play football on Saturday afternoons - amazing"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U6_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 46 (Work: Office Equipment):",
+          "instruction_en": "Compare Work: Office Equipment with another topic. [Ref: 67]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 46 (Work: Office Equipment):",
+          "stimulus_en": "The Comparatives is here. (558)",
+          "mastery_tag": "speaking",
           "interaction_id": "U6_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 4874",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "French fries (Br Eng - interesting",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "A qu\u00e9 hora tenemos el examen? (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019...."
+            },
+            {
+              "id": "m1",
+              "text": "What time do we have our exam (now)"
+            },
+            {
+              "id": "m0",
+              "text": "chips) Patatas fritas - interesting"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U6_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.."
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (today)"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (6066), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "drink"
                 }
               ]
             },
@@ -1528,11 +1718,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "prepare"
                 }
               ]
             }
@@ -1541,677 +1731,505 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U6_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a bag is more useful than a a book!.",
+          "stimulus_es": "Un a bag es m\u00e1s \u00fatil que un a book!.",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o2",
+              "text": "useful"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o1",
+              "text": "more useful"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6245"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U6_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w3",
+              "text": "is"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w2",
+              "text": "sandwich"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w5",
+              "text": "useful"
+            },
+            {
+              "id": "w10",
+              "text": "369"
+            },
+            {
+              "id": "w9",
+              "text": "ticket"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a car is ___ than a a computer..",
+          "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U6_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A a pen is more useful than a a movie - amazing.",
+          "stimulus_es": "Ref: Un a pen es m\u00e1s \u00fatil que un a movie - amazing.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U6_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Un music es m\u00e1s \u00fatil que un a dog....",
+              "right": "A music is more useful than a a dog...."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "Un an apple es m\u00e1s \u00fatil que un a newspaper - amazing.",
+              "right": "A an apple is more useful than a a newspaper - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "Un football es m\u00e1s \u00fatil que un a pen..",
+              "right": "A football is more useful than a a pen.."
+            },
+            {
+              "id": "p3",
+              "left": "Un a window es m\u00e1s \u00fatil que un music - amazing.",
+              "right": "A a window is more useful than a music - amazing."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A a door is more useful than a a car....",
+          "correct_answer": "A a door is more useful than a a car....",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o1",
+              "text": "Sad"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o4",
+              "text": "Fast2411"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 47 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar...",
+              "back": "Indirect questions en ingl\u00e9s...."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 47 (Work: Office Equipment):",
+          "instruction_en": "Review Work: Office Equipment from last week. [Ref: 55]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 47 (Work: Office Equipment):",
+          "stimulus_en": "Where is Work: Office Equipment? (978)",
+          "mastery_tag": "speaking",
           "interaction_id": "U6_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "stimulus": "Matching set 6650",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Por ejemplo - amazing",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "Algunos ejemplos - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Puedo abrir la ventana, por favor? - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "may I open the window, please - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - amazing"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U6_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Office Equipment):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "\u2018m/ \u2018s, etc) (today)"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "How is your mum feeling - amazing"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "main_text": "In Work: Office Equipment (8661), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U6_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Office Equipment:",
+          "stimulus_en": "A a bike is more useful than a a clock - amazing.",
+          "stimulus_es": "Un a bike es m\u00e1s \u00fatil que un a clock - amazing.",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o3",
+              "text": "Other 6750"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o2",
+              "text": "useful"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "more useful"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Office Equipment:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w2",
+              "text": "laptop"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w5",
+              "text": "useful"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w6",
+              "text": "than"
+            },
+            {
+              "id": "w9",
+              "text": "report"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w8",
+              "text": "a"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U6_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Office Equipment):",
+          "stimulus_en": "A a ticket is ___ than a a television (today).",
+          "correct_answer": "more useful",
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Office Equipment)",
+          "stimulus_en": "A English is useful than a a camera - interesting.",
+          "stimulus_es": "Ref: Un English es m\u00e1s \u00fatil que un a camera - interesting.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U6_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Office Equipment):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Un a letter es m\u00e1s \u00fatil que un an email!.",
+              "right": "A a letter is more useful than a an email!."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "Un a bike es m\u00e1s \u00fatil que un a cat..",
+              "right": "A a bike is more useful than a a cat.."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "Un a newspaper es m\u00e1s \u00fatil que un a clock - amazing.",
+              "right": "A a newspaper is more useful than a a clock - amazing."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "Un a bike es m\u00e1s \u00fatil que un coffee - interesting.",
+              "right": "A a bike is more useful than a coffee - interesting."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Office Equipment):",
+          "tts_en": "A English is more useful than a an email - interesting.",
+          "correct_answer": "A English is more useful than a an email - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U6_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o4",
+              "text": "rain3544"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o0",
+              "text": "pizza"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 48 - Work: Office Equipment:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n (today)",
+              "back": "Sometimes I have lunch in a restaurant. (today)"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U6_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 48 (Work: Office Equipment):",
+          "instruction_en": "Compare Work: Office Equipment with another topic. [Ref: 80]",
+          "mastery_tag": "writing",
           "interaction_id": "U6_I99"
         },
         {
           "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "prompt_es": "Habla 48 (Work: Office Equipment):",
+          "stimulus_en": "This is Work: Office Equipment. (671)",
           "mastery_tag": "speaking",
           "interaction_id": "U6_I100"
         }

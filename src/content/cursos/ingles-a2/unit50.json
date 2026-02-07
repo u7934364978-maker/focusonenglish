@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit50",
-    "unit_title": "Services: Bank",
+    "unit_title": "Enough - Work: Salaries",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1527 +10,1756 @@
   "blocks": [
     {
       "block_id": "U50_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Introducci\u00f3n a la unidad 50",
+          "tts_en": "Starting unit 50. Topic: Work: Salaries. Focus: Enough.",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the tallest ___ the class.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "in"
-            },
-            {
-              "id": "o2",
-              "text": "of"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "liter) Litro - amazing (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U50_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the tallest ___ the class.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "in"
-            },
-            {
-              "id": "o2",
-              "text": "of"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "There are a lot of bars near my house. - interesting",
+          "stimulus_es": "Ref: Hay muchos bares cerca de mi casa - interesting",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U50_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is the biggest city ___ the country.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p0",
+              "left": "Alguna vez has probado la comida tailandesa? - 224",
+              "right": "Have you ever tried Thai food - 224"
             },
             {
-              "id": "o1",
-              "text": "in"
+              "id": "p1",
+              "left": "The correct thing (now)",
+              "right": "on the Internet (now)"
             },
             {
-              "id": "o2",
-              "text": "of"
+              "id": "p2",
+              "left": "in + car/ taxi!",
+              "right": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a).!"
+            },
+            {
+              "id": "p3",
+              "left": "TV / ever / hardly / I / in / watch / evenings / the (today)",
+              "right": "I hardly ever watch TV in the evenings (today)"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "She is the smartest person ___ the world.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "in"
-            },
-            {
-              "id": "o2",
-              "text": "of"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "igual hago algo\u2026 (but I\u2019m not sure\u2026).!",
+          "correct_answer": "igual hago algo\u2026 (but I\u2019m not sure\u2026).!",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the tallest ___ the class.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o1",
-              "text": "in"
+              "text": "bus"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             },
             {
               "id": "o2",
-              "text": "of"
+              "text": "train"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "plane"
+            },
+            {
+              "id": "o4",
+              "text": "cat5827"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the tallest ___ the class.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 393 - Work: Salaries:",
+          "cards": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "of"
-            },
-            {
-              "id": "o1",
-              "text": "in"
+              "id": "c1",
+              "front": "Verbos irregulares - interesting",
+              "back": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - interesting"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This is the best restaurant ___ town.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "in"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "of"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 393 (Work: Salaries):",
+          "instruction_en": "Write a note about Work: Salaries. [Ref: 53]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I8"
         },
         {
+          "type": "speaking_task",
+          "prompt_es": "Habla 393 (Work: Salaries):",
+          "stimulus_en": "Where is Work: Salaries? (318)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U50_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 6114",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Movie theater (Br Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2022in the fall (Br Eng - 755",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Est\u00e1 estudiando ella ingl\u00e9s? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "cinema) Cine."
+            },
+            {
+              "id": "m1",
+              "text": "autumn) En oto\u00f1o - 755"
+            },
+            {
+              "id": "m2",
+              "text": "Is she studying English - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U50_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I have a lot of money and I have a lot of friends. - 277"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Have you finished the project yet - interesting"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U50_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (6285), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sold"
+                },
+                {
+                  "id": "o2",
+                  "text": "sell"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U50_I12"
+        },
+        {
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It is the biggest city ___ the country.",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "Jonathan usually visits the dentist - 220",
+          "stimulus_es": "visits / Jonathan / usually / dentist / the - 220",
           "options": [
             {
+              "id": "o3",
+              "text": "Other 8125"
+            },
+            {
               "id": "o1",
-              "text": "in"
+              "text": "Option A"
             },
             {
               "id": "o2",
-              "text": "of"
-            },
-            {
-              "id": "o3",
-              "text": "other"
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U50_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U50_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U50_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U50_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U50_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Work: Salaries:",
           "options": [
             {
+              "id": "w2",
+              "text": "got"
+            },
+            {
+              "id": "w4",
+              "text": "mobile"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "hadn\u2019t"
+            },
+            {
               "id": "w0",
-              "text": "in"
+              "text": "I"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U50_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "Does that computer work (today) (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - 925",
+          "stimulus_es": "Ref: Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir - 925",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "in"
+              "id": "p0",
+              "left": "4. La pelota de las ni\u00f1as (today)",
+              "right": "The girls\u2019 ball (today)"
+            },
+            {
+              "id": "p1",
+              "left": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? - interesting",
+              "right": "What\u2019s the most delicious food you\u2019ve ever tasted - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "De qui\u00e9n es ese m\u00f3vil? - 174",
+              "right": "Whose mobile is that - 174"
+            },
+            {
+              "id": "p3",
+              "left": "Mi cumplea\u00f1os es en febrero!",
+              "right": "my birthday is in February.!"
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is the biggest city ___ the country.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without...",
+          "correct_answer": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without...",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She is the smartest person ___ the world.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen2089"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the tallest ___ the class.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 394 - Work: Salaries:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?...",
+              "back": "What\u2019s the saddest song you\u2019ve ever listened to..."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "She is the smartest person ___ the world.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 394 (Work: Salaries):",
+          "instruction_en": "Draft an email regarding Work: Salaries. [Ref: 40]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is the biggest city ___ the country.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 394 (Work: Salaries):",
+          "stimulus_en": "Focus on Work: Salaries. (103)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This is the best restaurant ___ town.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 1325",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1ndo iremos a la playa? - 816",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "try / police / keep / The / order / always / to / the.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "The police always try to keep the order."
+            },
+            {
+              "id": "m0",
+              "text": "When are we going to the beach - 816"
+            },
+            {
+              "id": "m2",
+              "text": "What\u2019s the happiest day you\u2019ve ever had - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This is the best restaurant ___ town.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "it doesn\u2019t often rain in the summer."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It is the biggest city ___ the country.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (9063), He [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio...",
+          "stimulus_es": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales...",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 2026"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U50_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "4"
+            },
+            {
+              "id": "w14",
+              "text": "children"
+            },
+            {
+              "id": "w8",
+              "text": "2"
+            },
+            {
+              "id": "w11",
+              "text": "/"
+            },
+            {
+              "id": "w5",
+              "text": "mil"
+            },
+            {
+              "id": "w15",
+              "text": "(now)"
+            },
+            {
+              "id": "w4",
+              "text": "tres"
+            },
+            {
+              "id": "w2",
+              "text": "people"
+            },
+            {
+              "id": "w3",
+              "text": "="
+            },
+            {
+              "id": "w1",
+              "text": "thousand"
+            },
+            {
+              "id": "w13",
+              "text": "hundred"
+            },
+            {
+              "id": "w10",
+              "text": "cars"
+            },
+            {
+              "id": "w6",
+              "text": "personas"
+            },
+            {
+              "id": "w9",
+              "text": "million"
+            },
+            {
+              "id": "w7",
+              "text": "/"
+            },
+            {
+              "id": "w0",
+              "text": "3"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "My friend has a lot of money.. (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U50_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "Can I have your ID/ passport/ credit card?. - interesting",
+          "stimulus_es": "Ref: Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 - interesting",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U50_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "No me quiero sentar enfrente de \u00e9l - 730",
+              "right": "I don\u2019t want to sit opposite him. - 730"
+            },
+            {
+              "id": "p1",
+              "left": "Para responder en plural, dir\u00edamos - amazing",
+              "right": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - amazing"
+            },
+            {
+              "id": "p2",
+              "left": "Otro ejemplo (today)",
+              "right": "My partner is the most beautiful woman in the world (today)"
+            },
+            {
+              "id": "p3",
+              "left": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? - 871",
+              "right": "have you ever studied a foreign laguage apart from English - 871"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "What\u2019s his name!",
+          "correct_answer": "What\u2019s his name!",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o4",
+              "text": "June7339"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"in not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 395 - Work: Salaries:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "\u2013 Con partes del d\u00eda (today)",
+              "back": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (today)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
-            },
-            {
-              "id": "p1",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
-            },
-            {
-              "id": "p2",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 395 (Work: Salaries):",
+          "instruction_en": "Draft an email regarding Work: Salaries. [Ref: 71]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
-            },
-            {
-              "id": "p1",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            },
-            {
-              "id": "p2",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 395 (Work: Salaries):",
+          "stimulus_en": "This is Work: Salaries. (351)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 6114",
+          "items": [
             {
-              "id": "p0",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
+              "id": "i0",
+              "text": "dictionary / often / use / The / the / students...",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
+              "id": "i1",
+              "text": "French fries (Br Eng - 264",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
+              "id": "i2",
+              "text": "Y en negativa - amazing",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m2",
+              "text": "I don\u2019t have any friends who live near my house. - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "the students often use the dictionary..."
+            },
+            {
+              "id": "m1",
+              "text": "chips) Patatas fritas - 264"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "do you have any brothers or sisters - amazing"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            },
-            {
-              "id": "p2",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.!"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (5784), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "taught"
+                },
+                {
+                  "id": "o2",
+                  "text": "teach"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
-            },
-            {
-              "id": "p2",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "Why didn\u2019t you tell me - 465",
+          "stimulus_es": "Por qu\u00e9 no me lo dijiste? - 465",
+          "options": [
             {
-              "id": "p0",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
+              "id": "o2",
+              "text": "Option B"
             },
             {
-              "id": "p1",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
+              "id": "o3",
+              "text": "Other 2005"
             },
             {
-              "id": "p2",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
+              "id": "o1",
+              "text": "Option A"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
+          "options": [
             {
-              "id": "p0",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
+              "id": "w4",
+              "text": "car?"
             },
             {
-              "id": "p1",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
+              "id": "w5",
+              "text": "amazing"
             },
             {
-              "id": "p2",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
+              "id": "w0",
+              "text": "Have"
             },
             {
-              "id": "p3",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "got"
+            },
+            {
+              "id": "w3",
+              "text": "a"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "This is the best restaurant ___ town.",
-              "right": "in"
-            },
-            {
-              "id": "p1",
-              "left": "It is the biggest city ___ the country.",
-              "right": "in"
-            },
-            {
-              "id": "p2",
-              "left": "She is the smartest person ___ the world.",
-              "right": "in"
-            },
-            {
-              "id": "p3",
-              "left": "He is the tallest ___ the class.",
-              "right": "in"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "Indirect questions en ingl\u00e9s.... (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "She drives carefully.!",
+          "stimulus_es": "Ref: For example!",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "De qui\u00e9n son esos libros? - interesting",
+              "right": "Whose books are those= or Whose are those books - interesting"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "often / money / Sally / her / borrows / friends / from (today)",
+              "right": "Sally often borrows money from her friends (today)"
+            },
+            {
+              "id": "p2",
+              "left": "7. La casa de mis primos es muy grande (today)",
+              "right": "My cousins\u2019 house is very big (today)"
+            },
+            {
+              "id": "p3",
+              "left": "Has jugado alguna vez al ajedrez? (now)",
+              "right": "have you ever played chess (now)"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "on Monday, on Wednesday, etc....",
+          "correct_answer": "on Monday, on Wednesday, etc....",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o2",
+              "text": "Star"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o4",
+              "text": "Hot6133"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 396 - Work: Salaries:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "Common mistake - interesting",
+              "back": "I don\u2019t know that I will do. - interesting"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 396 (Work: Salaries):",
+          "instruction_en": "Your daily routine in Work: Salaries. [Ref: 45]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 396 (Work: Salaries):",
+          "stimulus_en": "Where is Work: Salaries? (742)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 7436",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Eraser (Br Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "puedo abrir la ventana, por favor? (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "\u2013 Seasons (estaciones) (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "rubber) Goma de borrar."
+            },
+            {
+              "id": "m2",
+              "text": "in summer, in winter. (now)"
+            },
+            {
+              "id": "m1",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U50_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Work: Salaries):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "read, write, eat, run, sleep, etc - 987"
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "I never drink alcohol if I drive a car..."
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U50_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
           "interaction_id": "U50_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (4371), You [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "worked"
+                },
+                {
+                  "id": "o2",
+                  "text": "work"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "the bird\u2018s legs = las piernas del p\u00e1jaro..",
+          "stimulus_es": "2. el primer elemento es un animal. Ejemplo.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B"
+            },
+            {
+              "id": "o3",
+              "text": "Other 5024"
+            },
+            {
+              "id": "o1",
+              "text": "Option A"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "no"
+            },
+            {
+              "id": "w7",
+              "text": "on"
+            },
+            {
+              "id": "w20",
+              "text": "lluviosos"
+            },
+            {
+              "id": "w11",
+              "text": "="
+            },
+            {
+              "id": "w16",
+              "text": "hijos"
+            },
+            {
+              "id": "w4",
+              "text": "children"
+            },
+            {
+              "id": "w15",
+              "text": "mis"
+            },
+            {
+              "id": "w10",
+              "text": "day"
+            },
+            {
+              "id": "w9",
+              "text": "rainy"
+            },
+            {
+              "id": "w19",
+              "text": "d\u00edas"
+            },
+            {
+              "id": "w3",
+              "text": "my"
+            },
+            {
+              "id": "w17",
+              "text": "salir"
+            },
+            {
+              "id": "w6",
+              "text": "out"
+            },
+            {
+              "id": "w14",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "don\u2019t"
+            },
+            {
+              "id": "w13",
+              "text": "dejo"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "let"
+            },
+            {
+              "id": "w18",
+              "text": "en"
+            },
+            {
+              "id": "w5",
+              "text": "go"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19",
+            "w20"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "do you have a car - amazing (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - amazing",
+          "stimulus_es": "Ref: Empecemos analizando el siguiente ejemplo - amazing",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cu\u00e1ndo la ayudaste? - amazing",
+              "right": "When did you help him/her - amazing"
+            },
+            {
+              "id": "p1",
+              "left": "2. Siempre van antes del sustantivo, la regla es - interesting",
+              "right": "ADJECTIVE + NOUN - interesting"
+            },
+            {
+              "id": "p2",
+              "left": "my / My / spoils / neighbour / holidays / always!",
+              "right": "My neighbour always spoils my holidays!"
+            },
+            {
+              "id": "p3",
+              "left": "5. El zumo de tu abuela (now)",
+              "right": "Your grandmother\u2019s juice (now)"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "in",
-          "correct_answer": "in",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "Spain\u2018s monuments are very nice. - interesting",
+          "correct_answer": "Spain\u2018s monuments are very nice. - interesting",
           "mastery_tag": "listening",
           "interaction_id": "U50_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o2",
+              "text": "Sofa"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen9105"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Bed"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 397 - Work: Salaries:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "Otro ejemplo - 593",
+              "back": "when I was at primary school, I didn\u2019t wear uniform. - 593"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 397 (Work: Salaries):",
+          "instruction_en": "Compare Work: Salaries with another topic. [Ref: 31]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 397 (Work: Salaries):",
+          "stimulus_en": "Repeat Work: Salaries. (825)",
           "mastery_tag": "speaking",
           "interaction_id": "U50_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 4372",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "Encontraste algo ah\u00ed?!",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - 340",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "Metre (Br Eng) (Am Eng - 139",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Sometimes I have lunch in a restaurant. - 340"
+            },
+            {
+              "id": "m0",
+              "text": "any + thing = en oraci\u00f3n INTERROGATIVA.!"
+            },
+            {
+              "id": "m2",
+              "text": "meter) Metro - 139"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I haven\u2019t got much money (remember, money is uncountable)...."
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "would you like some coke? (now)"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (9164), The scientist [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U50_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "Jennifer usually goes out to see a concert!",
+          "stimulus_es": "see / usually / Jennifer / out / goes / a / to / concert!",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
+              "text": "Option A"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 535"
+            },
+            {
+              "id": "o2",
+              "text": "Option B"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w1",
+              "text": "often"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w6",
+              "text": "catching"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w8",
+              "text": "409"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w5",
+              "text": "without"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "hours"
+            },
+            {
+              "id": "w2",
+              "text": "fish"
+            },
+            {
+              "id": "w7",
+              "text": "anything"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "How is your mum feeling - 954 (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb....",
+          "stimulus_es": "Ref: Uncountable nouns...",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo (today)",
+              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "Litre (Br Eng) (Am Eng - amazing",
+              "right": "liter) Litro - amazing"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo (now)",
+              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. (now)"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto...",
+              "right": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019...."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "do you have any shoes for the wedding (today)",
+          "correct_answer": "do you have any shoes for the wedding (today)",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
+              "id": "o4",
+              "text": "cat2227"
+            },
+            {
               "id": "o1",
-              "text": "Apple"
+              "text": "bus"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             },
             {
               "id": "o2",
-              "text": "Banana"
+              "text": "train"
             },
             {
               "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "text": "plane"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 398 - Work: Salaries:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "The correct thing...",
+              "back": "I have 3 children...."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U50_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 398 (Work: Salaries):",
+          "instruction_en": "Draft an email regarding Work: Salaries. [Ref: 16]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 398 (Work: Salaries):",
+          "stimulus_en": "Talk about Work: Salaries. (652)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 5116",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "7. read books slowly / I / always.",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "3. usually/ arrives late / the bus - 174",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "the bus usually arrives late - 174"
+            },
+            {
+              "id": "m0",
+              "text": "I always read books slowly."
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U50_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. - amazing"
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "What time do we have our exam (today)"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (685), Sarah [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "cleaned"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "clean"
                 }
               ]
             },
@@ -1539,11 +1768,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "received"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "receive"
                 }
               ]
             }
@@ -1552,681 +1781,581 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U50_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "What\u2019s the longest beach you\u2019ve ever been to!",
+          "stimulus_es": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca?!",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o2",
+              "text": "Option B"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o1",
+              "text": "Option A"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1801"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U50_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w25",
+              "text": "d\u00eda"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w1",
+              "text": "5th"
+            },
+            {
+              "id": "w27",
+              "text": "no"
+            },
+            {
+              "id": "w9",
+              "text": "Eve"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w19",
+              "text": "que"
+            },
+            {
+              "id": "w8",
+              "text": "Year\u2019s"
+            },
+            {
+              "id": "w12",
+              "text": "Valentine\u2019s"
+            },
+            {
+              "id": "w16",
+              "text": "birthday"
+            },
+            {
+              "id": "w28",
+              "text": "otro"
+            },
+            {
+              "id": "w29",
+              "text": "utilizamos"
+            },
+            {
+              "id": "w13",
+              "text": "Day"
+            },
+            {
+              "id": "w26",
+              "text": "y"
+            },
+            {
+              "id": "w24",
+              "text": "ese"
+            },
+            {
+              "id": "w20",
+              "text": "sea"
+            },
+            {
+              "id": "w23",
+              "text": "concreta"
+            },
+            {
+              "id": "w5",
+              "text": "Day"
+            },
+            {
+              "id": "w17",
+              "text": "="
+            },
+            {
+              "id": "w32",
+              "text": "on"
+            },
+            {
+              "id": "w14",
+              "text": "on"
+            },
+            {
+              "id": "w11",
+              "text": "St"
+            },
+            {
+              "id": "w22",
+              "text": "fecha"
+            },
+            {
+              "id": "w4",
+              "text": "Christmas"
+            },
+            {
+              "id": "w2",
+              "text": "May"
+            },
+            {
+              "id": "w10",
+              "text": "on"
+            },
+            {
+              "id": "w18",
+              "text": "siempre"
+            },
+            {
+              "id": "w21",
+              "text": "una"
+            },
+            {
+              "id": "w31",
+              "text": "preposici\u00f3n"
+            },
+            {
+              "id": "w0",
+              "text": "on"
+            },
+            {
+              "id": "w15",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "New"
+            },
+            {
+              "id": "w30",
+              "text": "la"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12",
+            "w13",
+            "w14",
+            "w15",
+            "w16",
+            "w17",
+            "w18",
+            "w19",
+            "w20",
+            "w21",
+            "w22",
+            "w23",
+            "w24",
+            "w25",
+            "w26",
+            "w27",
+            "w28",
+            "w29",
+            "w30",
+            "w31",
+            "w32"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "What time does the bus leave (today) (___)",
+          "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U50_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "the boys always play football on Saturday afternoons!",
+          "stimulus_es": "Ref: 2. Play football on Saturday afternoons / the boys / always!",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U50_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Te veo el s\u00e1bado - 251",
+              "right": "I\u2019ll see you on Saturday - 251"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "on + train/ bus/ plane/ bike/ motorbike (now)",
+              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica. (now)"
+            },
+            {
+              "id": "p2",
+              "left": "Hay muchos bares cerca de mi casa...",
+              "right": "There are a lot of bars near my house...."
+            },
+            {
+              "id": "p3",
+              "left": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (today)",
+              "right": "Were you having a beer when you saw Peter (today)"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "she doesn\u2019t often write to me (today)",
+          "correct_answer": "she doesn\u2019t often write to me (today)",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o3",
+              "text": "Calm"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast6861"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 399 - Work: Salaries:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "El adjetivo dice una cualidad de algo, por ejemplo (today)",
+              "back": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (today)"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 399 (Work: Salaries):",
+          "instruction_en": "Write a note about Work: Salaries. [Ref: 50]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 399 (Work: Salaries):",
+          "stimulus_en": "Talk about Work: Salaries. (708)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "stimulus": "Matching set 8257",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "The correct thing - interesting",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "Otro common mistake...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What\u2019s the hottest place you\u2019ve ever been to."
+            },
+            {
+              "id": "m1",
+              "text": "I haven\u2019t a car...."
+            },
+            {
+              "id": "m0",
+              "text": "I went to a state school. - interesting"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U50_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Work: Salaries):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - amazing"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I often go to bed before 11."
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Work: Salaries):",
+          "main_text": "In Work: Salaries (268), The nurse [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "traveled"
+                },
+                {
+                  "id": "o2",
+                  "text": "travel"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U50_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Work: Salaries:",
+          "stimulus_en": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables....",
+          "stimulus_es": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo...",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o2",
+              "text": "Option B"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o1",
+              "text": "Option A"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o3",
+              "text": "Other 4265"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Work: Salaries:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w1",
+              "text": "sisters"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w2",
+              "text": "amazing"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w0",
+              "text": "Peter\u2019s"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U50_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Work: Salaries):",
+          "stimulus_en": "may come, might go. - interesting (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Work: Salaries)",
+          "stimulus_en": "may I open the window, please (today)",
+          "stimulus_es": "Ref: Puedo abrir la ventana, por favor? (today)",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U50_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Work: Salaries):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bookstore (Br Eng (today)",
+              "right": "bookshop) Librer\u00eda (today)"
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "En qu\u00e9 trabaja Juan? - interesting",
+              "right": "What does Juan do - interesting"
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "Qu\u00e9 es \u00e9so? - 324",
+              "right": "What\u2019s that - 324"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - interesting",
+              "right": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - interesting"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Work: Salaries):",
+          "tts_en": "film star) Estrella de cine...",
+          "correct_answer": "film star) Estrella de cine...",
+          "mastery_tag": "listening",
           "interaction_id": "U50_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o2",
+              "text": "Sofa"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o4",
+              "text": "Pen6383"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 400 - Work: Salaries:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "Countable nouns - amazing",
+              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. - amazing"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U50_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 400 (Work: Salaries):",
+          "instruction_en": "Explain Enough using Work: Salaries. [Ref: 25]",
+          "mastery_tag": "writing",
           "interaction_id": "U50_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "prompt_es": "Habla 400 (Work: Salaries):",
+          "stimulus_en": "Talk about Work: Salaries. (787)",
+          "mastery_tag": "speaking",
           "interaction_id": "U50_I100"
         }
       ]

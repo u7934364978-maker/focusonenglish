@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit49",
-    "unit_title": "Animals: Pets",
+    "unit_title": "Superlatives + Present Perfect - Travel: Public Transport",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1526 +10,1711 @@
   "blocks": [
     {
       "block_id": "U49_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
           "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
+          "prompt_es": "Introducci\u00f3n a la unidad 49",
+          "tts_en": "Starting unit 49. Topic: Travel: Public Transport. Focus: Superlatives + Present Perfect.",
           "mastery_tag": "listening",
           "interaction_id": "U49_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "bigger"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "the biggest"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a gift is ___ in the library....",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U49_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o1",
-              "text": "hotter"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a book is expensive in the library....",
+          "stimulus_es": "Ref: Este a book es el m\u00e1s caro en the library....",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U49_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p0",
+              "left": "Este a dog es el m\u00e1s caro en the mountains - amazing.",
+              "right": "This a dog is the most expensive in the mountains - amazing."
             },
             {
-              "id": "o1",
-              "text": "most beautiful"
+              "id": "p1",
+              "left": "Este a door es el m\u00e1s caro en the shop (now).",
+              "right": "This a door is the most expensive in the shop (now)."
             },
             {
-              "id": "o2",
-              "text": "more beautiful"
+              "id": "p2",
+              "left": "Este a house es el m\u00e1s caro en the office....",
+              "right": "This a house is the most expensive in the office...."
+            },
+            {
+              "id": "p3",
+              "left": "Este a dog es el m\u00e1s caro en London..",
+              "right": "This a dog is the most expensive in London.."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o1",
-              "text": "tallest"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This music is the most expensive in the office..",
+          "correct_answer": "This music is the most expensive in the office..",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o2",
+              "text": "Angry"
             },
             {
-              "id": "o2",
-              "text": "more beautiful"
+              "id": "o4",
+              "text": "Fast3392"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
             },
             {
               "id": "o1",
-              "text": "most beautiful"
+              "text": "Sad"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 385 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "hotter"
+              "id": "c1",
+              "front": "The correct thing - 858",
+              "back": "information, homework, work. - 858"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "tallest"
-            },
-            {
-              "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 385 (Travel: Public Transport):",
+          "instruction_en": "Why is Travel: Public Transport important? [Ref: 31]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I8"
         },
         {
+          "type": "speaking_task",
+          "prompt_es": "Habla 385 (Travel: Public Transport):",
+          "stimulus_en": "Look at Travel: Public Transport. (703)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U49_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 5033",
+          "items": [
+            {
+              "id": "i0",
+              "text": "El cumplea\u00f1os de Pablo es el 8 de mayo - interesting",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2022in the fall (Br Eng - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "my cousin\u2019s husband is German and his mother Irish...."
+            },
+            {
+              "id": "m1",
+              "text": "autumn) En oto\u00f1o - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "Paul\u2019s birthday is on 8th May - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U49_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Next to my house there is a nursery school. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you seen my keys anywhere - amazing"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U49_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (3424), The artist [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created"
+                },
+                {
+                  "id": "o2",
+                  "text": "create"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U49_I12"
+        },
+        {
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a door is the most expensive in the hospital - interesting.",
+          "stimulus_es": "Este a door es el m\u00e1s caro en the hospital - interesting.",
           "options": [
             {
               "id": "o3",
-              "text": "other"
+              "text": "Other 7520"
             },
             {
               "id": "o1",
-              "text": "hotter"
+              "text": "the most expensive"
             },
             {
               "id": "o2",
-              "text": "more hot"
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U49_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "best"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U49_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "tallest"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U49_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "beautiful"
-            },
-            {
-              "id": "w0",
-              "text": "most"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U49_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "most"
-            },
-            {
-              "id": "w1",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U49_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
           "options": [
             {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "garden"
+            },
+            {
               "id": "w0",
-              "text": "best"
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "football"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "expensive"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U49_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "tallest"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a dog is ___ in the bedroom - amazing.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a door is expensive in school!.",
+          "stimulus_es": "Ref: Este a door es el m\u00e1s caro en school!.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "hotter"
+              "id": "p0",
+              "left": "Este a bike es el m\u00e1s caro en the supermarket (now).",
+              "right": "This a bike is the most expensive in the supermarket (now)."
+            },
+            {
+              "id": "p1",
+              "left": "Este a laptop es el m\u00e1s caro en the station..",
+              "right": "This a laptop is the most expensive in the station.."
+            },
+            {
+              "id": "p2",
+              "left": "Este a pen es el m\u00e1s caro en the library (now).",
+              "right": "This a pen is the most expensive in the library (now)."
+            },
+            {
+              "id": "p3",
+              "left": "Este a watch es el m\u00e1s caro en the museum....",
+              "right": "This a watch is the most expensive in the museum...."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a cat is the most expensive in the bank (today).",
+          "correct_answer": "This a cat is the most expensive in the bank (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o4",
+              "text": "June4228"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 386 - Travel: Public Transport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Metre (Br Eng) (Am Eng - amazing",
+              "back": "meter) Metro - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 386 (Travel: Public Transport):",
+          "instruction_en": "List 3 facts about Travel: Public Transport. [Ref: 79]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 386 (Travel: Public Transport):",
+          "stimulus_en": "Improve Travel: Public Transport. (295)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 1918",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Quieres m\u00e1s? - 433",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the..."
+            },
+            {
+              "id": "m0",
+              "text": "would you like some more - 433"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Whose car is that!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (7019), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened"
+                },
+                {
+                  "id": "o2",
+                  "text": "listen"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "organized"
+                },
+                {
+                  "id": "o2",
+                  "text": "organize"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a report is the most expensive in school..",
+          "stimulus_es": "Este a report es el m\u00e1s caro en school..",
+          "options": [
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 4109"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U49_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "report"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "woods"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This an email is ___ in the office (today).",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U49_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a letter is the most expensive in the street!.",
+          "stimulus_es": "Ref: Este a letter es el m\u00e1s caro en the street!.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U49_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a gift es el m\u00e1s caro en the street (today).",
+              "right": "This a gift is the most expensive in the street (today)."
+            },
+            {
+              "id": "p1",
+              "left": "Este a car es el m\u00e1s caro en the park..",
+              "right": "This a car is the most expensive in the park.."
+            },
+            {
+              "id": "p2",
+              "left": "Este a newspaper es el m\u00e1s caro en the balcony..",
+              "right": "This a newspaper is the most expensive in the balcony.."
+            },
+            {
+              "id": "p3",
+              "left": "Este a letter es el m\u00e1s caro en school - amazing.",
+              "right": "This a letter is the most expensive in school - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a printer is the most expensive in the station - amazing.",
+          "correct_answer": "This a printer is the most expensive in the station - amazing.",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o4",
+              "text": "June6597"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 387 - Travel: Public Transport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect...",
+              "back": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil...."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 387 (Travel: Public Transport):",
+          "instruction_en": "Your daily routine in Travel: Public Transport. [Ref: 46]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 387 (Travel: Public Transport):",
+          "stimulus_en": "Where is Travel: Public Transport? (743)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 3277",
+          "items": [
             {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "i0",
+              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo (today)",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "i1",
+              "text": "\u2013 Seasons (estaciones) - 647",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "i2",
+              "text": "6. Los juguetes de mis hijos - amazing",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "in summer, in winter. - 647"
+            },
+            {
+              "id": "m0",
+              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
+            },
+            {
+              "id": "m2",
+              "text": "My children\u2019s toys - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "How old is Mar\u00eda..."
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - amazing"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (76), The manager [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a chair is the most expensive in Paris - interesting.",
+          "stimulus_es": "Este a chair es el m\u00e1s caro en Paris - interesting.",
+          "options": [
             {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "o3",
+              "text": "Other 2485"
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "o2",
+              "text": "expensive"
             },
             {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
+          "options": [
             {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "w6",
+              "text": "expensive"
             },
             {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "w4",
+              "text": "the"
             },
             {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "w7",
+              "text": "in"
             },
             {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w2",
+              "text": "door"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "street"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a laptop is ___ in the beach (today).",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a report is the most expensive in the garage....",
+          "stimulus_es": "Ref: Este a report es el m\u00e1s caro en the garage....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "Este a report es el m\u00e1s caro en the museum (today).",
+              "right": "This a report is the most expensive in the museum (today)."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "Este a chair es el m\u00e1s caro en the library (now).",
+              "right": "This a chair is the most expensive in the library (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Este a cat es el m\u00e1s caro en the kitchen (now).",
+              "right": "This a cat is the most expensive in the kitchen (now)."
+            },
+            {
+              "id": "p3",
+              "left": "Este a report es el m\u00e1s caro en the shop!.",
+              "right": "This a report is the most expensive in the shop!."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a ticket is the most expensive in the gym!.",
+          "correct_answer": "This a ticket is the most expensive in the gym!.",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o3",
+              "text": "pink"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run1376"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 388 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "Bookstore (Br Eng...",
+              "back": "bookshop) Librer\u00eda..."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 388 (Travel: Public Transport):",
+          "instruction_en": "Your daily routine in Travel: Public Transport. [Ref: 71]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 388 (Travel: Public Transport):",
+          "stimulus_en": "Improve Travel: Public Transport. (701)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 7065",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Un ejemplo de to seguido de infinitivo es...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Tienes hermanos? - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tienes zapatos para la boda? - 110",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "do you have any shoes for the wedding - 110"
+            },
+            {
+              "id": "m1",
+              "text": "do you have any brothers or sisters - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n!..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U49_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. (today)"
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "I don\u2019t have many friends (friends is countable). (today)"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U49_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
           "interaction_id": "U49_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (9826), The police officer [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a chair is the most expensive in the office - amazing.",
+          "stimulus_es": "Este a chair es el m\u00e1s caro en the office - amazing.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 5094"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "window"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "garden"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a television is ___ in the stadium....",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This an apple is the most expensive in Paris....",
+          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en Paris....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a pen es el m\u00e1s caro en the park (today).",
+              "right": "This a pen is the most expensive in the park (today)."
+            },
+            {
+              "id": "p1",
+              "left": "Este football es el m\u00e1s caro en the shop (today).",
+              "right": "This football is the most expensive in the shop (today)."
+            },
+            {
+              "id": "p2",
+              "left": "Este music es el m\u00e1s caro en the shop....",
+              "right": "This music is the most expensive in the shop...."
+            },
+            {
+              "id": "p3",
+              "left": "Este a bag es el m\u00e1s caro en Paris - interesting.",
+              "right": "This a bag is the most expensive in Paris - interesting."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a window is the most expensive in the supermarket (today).",
+          "correct_answer": "This a window is the most expensive in the supermarket (today).",
           "mastery_tag": "listening",
           "interaction_id": "U49_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o4",
+              "text": "June711"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "Sunday"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "o1",
+              "text": "Tuesday"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 389 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "Tyre (Am Eng!",
+              "back": "tire) Neum\u00e1tico!"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 389 (Travel: Public Transport):",
+          "instruction_en": "Describe Travel: Public Transport in 5 words. [Ref: 32]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 389 (Travel: Public Transport):",
+          "stimulus_en": "Repeat Travel: Public Transport. (814)",
           "mastery_tag": "speaking",
           "interaction_id": "U49_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 1038",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "Los adjetivos tienen tres formas!",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "2. La hamburguesa de Harry - interesting",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.!"
+            },
+            {
+              "id": "m0",
+              "text": "Sometimes I have lunch in a restaurant.!"
+            },
+            {
+              "id": "m2",
+              "text": "Harry\u2019s burger - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - 759"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Jennifer usually goes out to see a concert - amazing"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (5913), The coach [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "planned"
+                },
+                {
+                  "id": "o2",
+                  "text": "plan"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U49_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This an apple is the most expensive in the museum - amazing.",
+          "stimulus_es": "Este an apple es el m\u00e1s caro en the museum - amazing.",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
+              "text": "the most expensive"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "expensive"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 863"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w5",
+              "text": "expensive"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w4",
+              "text": "most"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "Paris"
+            },
+            {
+              "id": "w1",
+              "text": "coffee"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This English is ___ in the mountains - interesting.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a cat is expensive in the country - amazing.",
+          "stimulus_es": "Ref: Este a cat es el m\u00e1s caro en the country - amazing.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "Este English es el m\u00e1s caro en the garden!.",
+              "right": "This English is the most expensive in the garden!."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "Este a book es el m\u00e1s caro en the office - 803.",
+              "right": "This a book is the most expensive in the office - 803."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "Este a book es el m\u00e1s caro en the library!.",
+              "right": "This a book is the most expensive in the library!."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "Este a television es el m\u00e1s caro en the bedroom..",
+              "right": "This a television is the most expensive in the bedroom.."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a laptop is the most expensive in the museum - 561.",
+          "correct_answer": "This a laptop is the most expensive in the museum - 561.",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
               "id": "o3",
-              "text": "Car"
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o0",
+              "text": "London"
             },
             {
               "id": "o4",
-              "text": "Orange"
+              "text": "Slow1016"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 390 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir (now)",
+              "back": "I can to speak English. (now)"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U49_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 390 (Travel: Public Transport):",
+          "instruction_en": "Draft an email regarding Travel: Public Transport. [Ref: 89]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 390 (Travel: Public Transport):",
+          "stimulus_en": "Improve Travel: Public Transport. (217)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 4018",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "Common mistake.",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Cu\u00e1ndo iremos a la playa? - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "When are we going to the beach - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "I hadn\u2019t got a mobile.."
+            },
+            {
+              "id": "m2",
+              "text": "would you like some coke?."
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U49_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "John\u2018s job is boring. (now)"
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "What\u2019s the most delicious food you\u2019ve ever tasted!"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (9822), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "drive"
                 }
               ]
             },
@@ -1538,11 +1723,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "prepared"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "prepare"
                 }
               ]
             }
@@ -1551,681 +1736,501 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U49_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a clock is the most expensive in the hospital - amazing.",
+          "stimulus_es": "Este a clock es el m\u00e1s caro en the hospital - amazing.",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o1",
+              "text": "the most expensive"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 1722"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U49_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w4",
+              "text": "the"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w9",
+              "text": "supermarket"
+            },
+            {
+              "id": "w2",
+              "text": "sandwich"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a watch is ___ in the hospital - amazing.",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U49_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a gift is expensive in the kitchen..",
+          "stimulus_es": "Ref: Este a gift es el m\u00e1s caro en the kitchen..",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U49_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Este a television es el m\u00e1s caro en the bedroom (today).",
+              "right": "This a television is the most expensive in the bedroom (today)."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "Este a movie es el m\u00e1s caro en the street (now).",
+              "right": "This a movie is the most expensive in the street (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Este a newspaper es el m\u00e1s caro en the city....",
+              "right": "This a newspaper is the most expensive in the city...."
+            },
+            {
+              "id": "p3",
+              "left": "Este a sandwich es el m\u00e1s caro en the station..",
+              "right": "This a sandwich is the most expensive in the station.."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This music is the most expensive in the street (now).",
+          "correct_answer": "This music is the most expensive in the street (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o2",
+              "text": "Star"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o4",
+              "text": "Hot5690"
+            },
+            {
+              "id": "o3",
+              "text": "Planet"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 391 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "try / police / keep / The / order / always / to / the (now)",
+              "back": "The police always try to keep the order (now)"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 391 (Travel: Public Transport):",
+          "instruction_en": "A small story about Travel: Public Transport. [Ref: 53]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 391 (Travel: Public Transport):",
+          "stimulus_en": "Where is Travel: Public Transport? (403)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "stimulus": "Matching set 7510",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? - amazing",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "dictionary / often / use / The / the / students - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "TV / ever / hardly / I / in / watch / evenings / the - amazing",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What\u2019s the longest beach you\u2019ve ever been to - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "the students often use the dictionary - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "I hardly ever watch TV in the evenings - amazing"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U49_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Travel: Public Transport):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - interesting"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What\u2019s the funniest joke you\u2019ve ever been told (now)"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "main_text": "In Travel: Public Transport (4207), A colleague [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied"
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed"
+                },
+                {
+                  "id": "o2",
+                  "text": "design"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U49_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Travel: Public Transport:",
+          "stimulus_en": "This a radio is the most expensive in the cinema....",
+          "stimulus_es": "Este a radio es el m\u00e1s caro en the cinema....",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o2",
+              "text": "expensive"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o3",
+              "text": "Other 4499"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Travel: Public Transport:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w2",
+              "text": "pen"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w1",
+              "text": "a"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "kitchen"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U49_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Travel: Public Transport):",
+          "stimulus_en": "This a movie is ___ in the supermarket..",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Travel: Public Transport)",
+          "stimulus_en": "This a newspaper is the most expensive in the stadium - 485.",
+          "stimulus_es": "Ref: Este a newspaper es el m\u00e1s caro en the stadium - 485.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U49_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Travel: Public Transport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a door es el m\u00e1s caro en the bedroom - amazing.",
+              "right": "This a door is the most expensive in the bedroom - amazing."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "Este a dog es el m\u00e1s caro en the hotel!.",
+              "right": "This a dog is the most expensive in the hotel!."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "Este a book es el m\u00e1s caro en the station - 577.",
+              "right": "This a book is the most expensive in the station - 577."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "Este football es el m\u00e1s caro en the mountains..",
+              "right": "This football is the most expensive in the mountains.."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Travel: Public Transport):",
+          "tts_en": "This a pen is the most expensive in Paris - amazing.",
+          "correct_answer": "This a pen is the most expensive in Paris - amazing.",
+          "mastery_tag": "listening",
           "interaction_id": "U49_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o0",
+              "text": "pizza"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o4",
+              "text": "rain9334"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "burger"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 392 - Travel: Public Transport:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (now)",
+              "back": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (now)"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U49_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 392 (Travel: Public Transport):",
+          "instruction_en": "Explain Superlatives + Present Perfect using Travel: Public Transport. [Ref: 73]",
+          "mastery_tag": "writing",
           "interaction_id": "U49_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "prompt_es": "Habla 392 (Travel: Public Transport):",
+          "stimulus_en": "Talk about Travel: Public Transport. (880)",
+          "mastery_tag": "speaking",
           "interaction_id": "U49_I100"
         }
       ]

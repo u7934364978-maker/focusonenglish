@@ -179,14 +179,19 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
     try {
       if (url) {
-        const audio = new Audio(url);
-        currentAudioRef.current = audio;
-        // No acelerar sonidos de sistema
-        if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
-          audio.playbackRate = 1.1;
+        try {
+          const audio = new Audio(url);
+          currentAudioRef.current = audio;
+          // No acelerar sonidos de sistema
+          if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
+            audio.playbackRate = 1.1;
+          }
+          await audio.play();
+          return;
+        } catch (error) {
+          console.warn('Failed to play static audio, falling back to TTS:', error);
+          if (!text) return;
         }
-        await audio.play();
-        return;
       }
       
       if (text) {
@@ -674,7 +679,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             
             <div className="flex flex-col items-center gap-4 w-full">
               <button
-                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url)}
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.text || interaction.tts_en)}
                 className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-black text-xl hover:bg-blue-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
               >
                 <Volume2 className="w-6 h-6" />

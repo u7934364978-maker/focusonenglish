@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const CONTENT_DIR = path.join(__dirname, '../src/content/cursos/ingles-a1');
+const CONTENT_DIR = path.join(__dirname, '../src/content/cursos/ingles-a2');
 const PUBLIC_DIR = path.join(__dirname, '../public');
 
 /**
@@ -37,43 +37,26 @@ async function verifyAudio() {
 
   const allAudioUrls = new Set();
   const fileToAudioMap = new Map();
-  const missingUrlsInInteractions = [];
 
   for (const file of files) {
     const filePath = path.join(CONTENT_DIR, file);
     try {
       const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const urls = findValues(content, 'audioUrl');
       
-      const findInteractions = (obj) => {
-        if (!obj || typeof obj !== 'object') return;
-        
-        if (obj.audioUrl) {
-          allAudioUrls.add(obj.audioUrl);
-          if (!fileToAudioMap.has(obj.audioUrl)) {
-            fileToAudioMap.set(obj.audioUrl, []);
-          }
-          fileToAudioMap.get(obj.audioUrl).push(file);
-        } else if (obj.type === 'audio_player' || obj.type === 'dictation_guided') {
-          missingUrlsInInteractions.push({
-            file,
-            id: obj.interaction_id || obj.id || 'unknown',
-            text: obj.text || obj.tts_en || obj.stimulus_en || '(no text)'
-          });
+      urls.forEach(url => {
+        allAudioUrls.add(url);
+        if (!fileToAudioMap.has(url)) {
+          fileToAudioMap.set(url, []);
         }
-        
-        Object.values(obj).forEach(findInteractions);
-      };
-
-      findInteractions(content);
+        fileToAudioMap.get(url).push(file);
+      });
     } catch (e) {
       console.error(`❌ Error parsing ${file}: ${e.message}`);
     }
   }
 
   console.log(`Found ${allAudioUrls.size} unique audio references.`);
-  if (missingUrlsInInteractions.length > 0) {
-    console.log(`⚠️ Found ${missingUrlsInInteractions.length} interactions missing audioUrl field!`);
-  }
 
   const missing = [];
   const found = [];
@@ -97,27 +80,11 @@ async function verifyAudio() {
   console.log(`✅ Found: ${found.length}`);
   console.log(`❌ Missing: ${missing.length}`);
 
-  if (found.length > 0) {
-    console.log('\n✅ Found Audio Files:');
-    found.sort().forEach((url, idx) => {
-        console.log(`${idx + 1}. ${url} (Used in: ${[...new Set(fileToAudioMap.get(url))].join(', ')})`);
+  if (missing.length > 0) {
+    console.log('\n❌ Missing Audio Files:');
+    missing.sort((a, b) => a.url.localeCompare(b.url)).forEach((item, idx) => {
+      console.log(`${idx + 1}. ${item.url} (Used in: ${[...new Set(item.referencedIn)].join(', ')})`);
     });
-  }
-
-  if (missing.length > 0 || missingUrlsInInteractions.length > 0) {
-    if (missing.length > 0) {
-      console.log('\n❌ Missing Audio Files on Disk:');
-      missing.sort((a, b) => a.url.localeCompare(b.url)).forEach((item, idx) => {
-        console.log(`${idx + 1}. ${item.url} (Used in: ${[...new Set(item.referencedIn)].join(', ')})`);
-      });
-    }
-
-    if (missingUrlsInInteractions.length > 0) {
-      console.log('\n❌ Interactions missing audioUrl field:');
-      missingUrlsInInteractions.forEach((item, idx) => {
-        console.log(`${idx + 1}. [${item.file}] ${item.id}: "${item.text}"`);
-      });
-    }
   } else {
     console.log('\n✨ All audio files are present!');
   }

@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit56",
-    "unit_title": "Daily Life: Morning Routine",
+    "unit_title": "Present Perfect with Yet/Already - Entertainment: Theater",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1532 +10,1721 @@
   "blocks": [
     {
       "block_id": "U56_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Introducci\u00f3n a la unidad 56",
+          "tts_en": "Starting unit 56. Topic: Entertainment: Theater. Focus: Present Perfect with Yet/Already.",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o1",
-              "text": "tallest"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "Our neighbors has ___ written a house in the cinema - amazing.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "the biggest"
-            },
-            {
-              "id": "o1",
-              "text": "bigger"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "My friend has yet driven a camera in the woods - 893.",
+          "stimulus_es": "Ref: My friend ya ha driven a camera en the woods - 893.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p0",
+              "left": "The baker ya ha played a car en school - 303.",
+              "right": "The baker has already played a car in school - 303."
             },
             {
-              "id": "o2",
-              "text": "more beautiful"
+              "id": "p1",
+              "left": "She ya ha created a laptop en the airport....",
+              "right": "She has already created a laptop in the airport...."
             },
             {
-              "id": "o1",
-              "text": "most beautiful"
+              "id": "p2",
+              "left": "My brother ya ha fixed a bag en London (now).",
+              "right": "My brother has already fixed a bag in London (now)."
+            },
+            {
+              "id": "p3",
+              "left": "He ya ha called a newspaper en Paris..",
+              "right": "He has already called a newspaper in Paris.."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "goodest"
-            },
-            {
-              "id": "o1",
-              "text": "best"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "My sister has already studied a letter in the station (now).",
+          "correct_answer": "My sister has already studied a letter in the station (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             },
             {
               "id": "o2",
-              "text": "the biggest"
+              "text": "Sofa"
             },
             {
-              "id": "o1",
-              "text": "bigger"
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o4",
+              "text": "Pen5884"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 441 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "tallest"
-            },
-            {
-              "id": "o2",
-              "text": "taller"
-            },
-            {
-              "id": "o3",
-              "text": "other"
+              "id": "c1",
+              "front": "Movie theater (Br Eng.",
+              "back": "cinema) Cine."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 441 (Entertainment: Theater):",
+          "instruction_en": "A small story about Entertainment: Theater. [Ref: 32]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I8"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
-          "options": [
+          "type": "speaking_task",
+          "prompt_es": "Habla 441 (Entertainment: Theater):",
+          "stimulus_en": "This is Entertainment: Theater. (429)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U56_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 7897",
+          "items": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "i0",
+              "text": "De qui\u00e9n es ese m\u00f3vil? (now)",
+              "match_id": "m0"
             },
             {
+              "id": "i1",
+              "text": "Encontraste algo ah\u00ed?...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Al lado de mi colegio no hay bloques de pisos - 570",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "any + thing = en oraci\u00f3n INTERROGATIVA...."
+            },
+            {
+              "id": "m2",
+              "text": "Next to my school there aren\u2019t any apartment blocks. - 570"
+            },
+            {
+              "id": "m0",
+              "text": "Whose mobile is that (now)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U56_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I often go to bed before 11 - 999"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "biscuit) Galleta!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U56_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (3933), They [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received"
+                },
+                {
+                  "id": "o2",
+                  "text": "receive"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U56_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "They has already studied a radio in the city - interesting.",
+          "stimulus_es": "They ya ha studied a radio en the city - interesting.",
+          "options": [
+            {
               "id": "o1",
-              "text": "bigger"
+              "text": "already"
             },
             {
               "id": "o2",
-              "text": "the biggest"
+              "text": "yet"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8609"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U56_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U56_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "most"
-            },
-            {
-              "id": "w1",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U56_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U56_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U56_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
           "options": [
             {
               "id": "w0",
-              "text": "hotter"
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w9",
+              "text": "gym"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "474"
+            },
+            {
+              "id": "w4",
+              "text": "drunk"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w6",
+              "text": "window"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "student"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U56_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "Maria has ___ walked a sandwich in the country - amazing.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "best"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "Maria has already studied a television in the country (today).",
+          "stimulus_es": "Ref: Maria ya ha studied a television en the country (today).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "tallest"
+              "id": "p0",
+              "left": "The manager ya ha called a ticket en London!.",
+              "right": "The manager has already called a ticket in London!."
+            },
+            {
+              "id": "p1",
+              "left": "Maria ya ha stopped a door en the woods!.",
+              "right": "Maria has already stopped a door in the woods!."
+            },
+            {
+              "id": "p2",
+              "left": "The manager ya ha called a house en school..",
+              "right": "The manager has already called a house in school.."
+            },
+            {
+              "id": "p3",
+              "left": "The waiter ya ha planned a laptop en the garage!.",
+              "right": "The waiter has already planned a laptop in the garage!."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The nurse has already studied football in the balcony (today).",
+          "correct_answer": "The nurse has already studied football in the balcony (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain9539"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o1",
+              "text": "burger"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 442 - Entertainment: Theater:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "3. usually/ arrives late / the bus!",
+              "back": "the bus usually arrives late!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 442 (Entertainment: Theater):",
+          "instruction_en": "Describe Entertainment: Theater in 5 words. [Ref: 68]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 442 (Entertainment: Theater):",
+          "stimulus_en": "This is Entertainment: Theater. (471)",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 6169",
+          "items": [
+            {
+              "id": "i0",
+              "text": "puedo abrir la ventana, por favor? - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "angry / Our / teacher / English / usually / is - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "The correct thing - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - amazing"
+            },
+            {
+              "id": "m1",
+              "text": "Our English teacher is usually angry - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "My friend has a lot of money. - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Spain\u2018s monuments are very nice. (today)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "When are we going to the beach!"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (6243), The chef [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cleaned"
+                },
+                {
+                  "id": "o2",
+                  "text": "clean"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "My sister has already visited a camera in the museum!.",
+          "stimulus_es": "My sister ya ha visited a camera en the museum!.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8202"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "tennis"
+            },
+            {
+              "id": "w7",
+              "text": "Paris"
+            },
+            {
+              "id": "w1",
+              "text": "friend"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "worked"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "He has ___ walked football in London - amazing.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "Our neighbors has yet read English in the cinema - interesting.",
+          "stimulus_es": "Ref: Our neighbors ya ha read English en the cinema - interesting.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The driver ya ha planned music en Paris (today).",
+              "right": "The driver has already planned music in Paris (today)."
+            },
+            {
+              "id": "p1",
+              "left": "The boss ya ha written a printer en the hospital (today).",
+              "right": "The boss has already written a printer in the hospital (today)."
+            },
+            {
+              "id": "p2",
+              "left": "A colleague ya ha eaten a clock en the hospital - amazing.",
+              "right": "A colleague has already eaten a clock in the hospital - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "The manager ya ha played a gift en the shop - amazing.",
+              "right": "The manager has already played a gift in the shop - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "I has already met a printer in the garden (now).",
+          "correct_answer": "I has already met a printer in the garden (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat4204"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 443 - Entertainment: Theater:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Qu\u00e9 hora es? - interesting",
+              "back": "What time is it - interesting"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p1",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 443 (Entertainment: Theater):",
+          "instruction_en": "Write a note about Entertainment: Theater. [Ref: 34]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 443 (Entertainment: Theater):",
+          "stimulus_en": "The Present Perfect with Yet/Already is here. (908)",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 9702",
+          "items": [
             {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "i0",
+              "text": "Quieres m\u00e1s? (now)",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "i1",
+              "text": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? - amazing",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "i2",
+              "text": "Common mistake (today)",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "would you like some more (now)"
+            },
+            {
+              "id": "m2",
+              "text": "I don\u2019t know that I will do. (today)"
+            },
+            {
+              "id": "m1",
+              "text": "What\u2019s the most difficult language you\u2019ve ever studied - amazing"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you ever tried Thai food - 247"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "\u00bfDe d\u00f3nde eres? - 142"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (1472), The manager [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked"
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "He has already called a printer in the shop..",
+          "stimulus_es": "He ya ha called a printer en the shop..",
+          "options": [
             {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "o1",
+              "text": "already"
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "o3",
+              "text": "Other 5281"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
+          "options": [
             {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "w9",
+              "text": "interesting"
             },
             {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "w7",
+              "text": "the"
             },
             {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "w0",
+              "text": "You"
             },
             {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "cinema"
+            },
+            {
+              "id": "w3",
+              "text": "studied"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "cat"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p2",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p3",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "We has ___ met a gift in the library - 122.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "The baker has already started a book in the bedroom (today).",
+          "stimulus_es": "Ref: The baker ya ha started a book en the bedroom (today).",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "The manager ya ha read a chair en the office!.",
+              "right": "The manager has already read a chair in the office!."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "The architect ya ha created an email en the university..",
+              "right": "The architect has already created an email in the university.."
+            },
+            {
+              "id": "p2",
+              "left": "She ya ha spoken coffee en the restaurant - amazing.",
+              "right": "She has already spoken coffee in the restaurant - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "The singer ya ha created a newspaper en the bank (now).",
+              "right": "The singer has already created a newspaper in the bank (now)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The architect has already taught a television in the mountains..",
+          "correct_answer": "The architect has already taught a television in the mountains..",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o4",
+              "text": "Pen2089"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 444 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "El adjetivo dice una cualidad de algo, por ejemplo (today)",
+              "back": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (today)"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 444 (Entertainment: Theater):",
+          "instruction_en": "Describe Entertainment: Theater in 5 words. [Ref: 69]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 444 (Entertainment: Theater):",
+          "stimulus_en": "This is Entertainment: Theater. (644)",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 4320",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Otro common mistake...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Uncountable nouns - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "Have you a car?..."
+            },
+            {
+              "id": "m1",
+              "text": "how often do you have Italian classes? = I have every Tuesday. (today)"
+            },
+            {
+              "id": "m2",
+              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - interesting"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U56_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "I hardly ever watch TV in the evenings..."
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "John\u2018s job is boring. - amazing"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U56_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "best",
-          "correct_answer": "best",
-          "mastery_tag": "listening",
           "interaction_id": "U56_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (1135), We [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sold"
+                },
+                {
+                  "id": "o2",
+                  "text": "sell"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "The manager has already fixed a laptop in the park..",
+          "stimulus_es": "The manager ya ha fixed a laptop en the park..",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 5261"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "sandwich"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w8",
+              "text": "station"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "eaten"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "The coach has ___ worked a dog in the museum - interesting.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "The singer has yet drunk a dog in the gym - 654.",
+          "stimulus_es": "Ref: The singer ya ha drunk a dog en the gym - 654.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Our neighbors ya ha visited a book en the garage (now).",
+              "right": "Our neighbors has already visited a book in the garage (now)."
+            },
+            {
+              "id": "p1",
+              "left": "Sarah ya ha bought a book en the park!.",
+              "right": "Sarah has already bought a book in the park!."
+            },
+            {
+              "id": "p2",
+              "left": "The police officer ya ha bought music en the park - interesting.",
+              "right": "The police officer has already bought music in the park - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "Our neighbors ya ha played a phone en the restaurant (today).",
+              "right": "Our neighbors has already played a phone in the restaurant (today)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "bigger",
-          "correct_answer": "bigger",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The chef has already planned a dog in the office - interesting.",
+          "correct_answer": "The chef has already planned a dog in the office - interesting.",
           "mastery_tag": "listening",
           "interaction_id": "U56_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book5410"
+            },
+            {
               "id": "o1",
-              "text": "I'm great, thanks!"
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
             },
             {
               "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "text": "Flute"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 445 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "\u2022in the fall (Br Eng!",
+              "back": "autumn) En oto\u00f1o!"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 445 (Entertainment: Theater):",
+          "instruction_en": "Describe Entertainment: Theater in 5 words. [Ref: 75]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 445 (Entertainment: Theater):",
+          "stimulus_en": "Where is Entertainment: Theater? (560)",
           "mastery_tag": "speaking",
           "interaction_id": "U56_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 2751",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir.",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "De qui\u00e9n ese coche? - 462",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? - interesting",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m2",
+              "text": "have you ever studied a foreign laguage apart from English - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "Whose car is that - 462"
+            },
+            {
+              "id": "m0",
+              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n.."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "have you ever seen a film in original version - 231"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (4989), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "called"
+                },
+                {
+                  "id": "o2",
+                  "text": "call"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U56_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "The player has already bought a newspaper in the woods!.",
+          "stimulus_es": "The player ya ha bought a newspaper en the woods!.",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o3",
+              "text": "Other 2488"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "yet"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "o1",
+              "text": "already"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w2",
+              "text": "officer"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w4",
+              "text": "already"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w7",
+              "text": "table"
+            },
+            {
+              "id": "w5",
+              "text": "driven"
+            },
+            {
+              "id": "w10",
+              "text": "country"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w11",
+              "text": "(today)"
+            },
+            {
+              "id": "w6",
+              "text": "a"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "Sarah has ___ eaten a camera in the office (today).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "Sarah has yet cleaned an email in the station....",
+          "stimulus_es": "Ref: Sarah ya ha cleaned an email en the station....",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "John ya ha built a dog en the restaurant (now).",
+              "right": "John has already built a dog in the restaurant (now)."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "The police officer ya ha received English en the hotel (now).",
+              "right": "The police officer has already received English in the hotel (now)."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "My sister ya ha drunk a table en the shop (now).",
+              "right": "My sister has already drunk a table in the shop (now)."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "I ya ha started tennis en the office - interesting.",
+              "right": "I has already started tennis in the office - interesting."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The student has already cooked an email in the shop - 628.",
+          "correct_answer": "The student has already cooked an email in the shop - 628.",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
               "id": "o3",
-              "text": "Car"
+              "text": "mango"
             },
             {
               "id": "o4",
-              "text": "Orange"
+              "text": "bike7852"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 446 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "The correct thing - amazing",
+              "back": "on the Internet - amazing"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U56_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 446 (Entertainment: Theater):",
+          "instruction_en": "List 3 facts about Entertainment: Theater. [Ref: 73]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 446 (Entertainment: Theater):",
+          "stimulus_en": "Look at Entertainment: Theater. (164)",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 612",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "car / I / drink / never / if / drive / I / alcohol / a.",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Otro ejemplo...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Were you having a beer when you saw Peter - interesting"
+            },
+            {
+              "id": "m0",
+              "text": "I never drink alcohol if I drive a car."
+            },
+            {
+              "id": "m1",
+              "text": "when I was at primary school, I didn\u2019t wear uniform...."
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U56_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "tire) Neum\u00e1tico (now)"
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO.!"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (2123), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "checked"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "check"
                 }
               ]
             },
@@ -1544,11 +1733,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "bought"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "buy"
                 }
               ]
             }
@@ -1557,677 +1746,505 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U56_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "My cousin has already taught a letter in the supermarket (today).",
+          "stimulus_es": "My cousin ya ha taught a letter en the supermarket (today).",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o3",
+              "text": "Other 5501"
+            },
+            {
+              "id": "o1",
+              "text": "already"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w7",
+              "text": "in"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "colleague"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "movie"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "helped"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "hospital"
+            },
+            {
+              "id": "w5",
+              "text": "a"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "The manager has ___ driven a letter in the hospital - amazing.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U56_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "She has already walked a window in the university!.",
+          "stimulus_es": "Ref: She ya ha walked a window en the university!.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U56_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "The player ya ha studied a sandwich en the library!.",
+              "right": "The player has already studied a sandwich in the library!."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "She ya ha read a gift en the gym..",
+              "right": "She has already read a gift in the gym.."
+            },
+            {
+              "id": "p2",
+              "left": "The doctor ya ha visited a letter en the airport (today).",
+              "right": "The doctor has already visited a letter in the airport (today)."
+            },
+            {
+              "id": "p3",
+              "left": "My friend ya ha organized a newspaper en the garden!.",
+              "right": "My friend has already organized a newspaper in the garden!."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The manager has already finished a radio in the mountains - 654.",
+          "correct_answer": "The manager has already finished a radio in the mountains - 654.",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o4",
+              "text": "June5034"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 447 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "2. Play football on Saturday afternoons / the boys / always!",
+              "back": "the boys always play football on Saturday afternoons!"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 447 (Entertainment: Theater):",
+          "instruction_en": "Your daily routine in Entertainment: Theater. [Ref: 23]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 447 (Entertainment: Theater):",
+          "stimulus_en": "I like Entertainment: Theater. (272)",
+          "mastery_tag": "speaking",
           "interaction_id": "U56_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "stimulus": "Matching set 4204",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?...",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "The correct thing (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Algunos ejemplos - 934",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - 934"
+            },
+            {
+              "id": "m1",
+              "text": "Have you got a car? (now)"
+            },
+            {
+              "id": "m0",
+              "text": "What\u2019s the funniest joke you\u2019ve ever been told..."
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U56_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Entertainment: Theater):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What\u2019s the hottest place you\u2019ve ever been to - 906"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "There are a lot of bars near my house.."
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "main_text": "In Entertainment: Theater (8123), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "prepared"
+                },
+                {
+                  "id": "o2",
+                  "text": "prepare"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned"
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U56_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Entertainment: Theater:",
+          "stimulus_en": "You has already traveled music in the kitchen - amazing.",
+          "stimulus_es": "You ya ha traveled music en the kitchen - amazing.",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o3",
+              "text": "Other 9906"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o1",
+              "text": "already"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Entertainment: Theater:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w6",
+              "text": "apple"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w9",
+              "text": "balcony"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "boss"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "learned"
+            },
+            {
+              "id": "w5",
+              "text": "an"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w10",
+              "text": "interesting"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U56_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Entertainment: Theater):",
+          "stimulus_en": "My cousin has ___ created a door in the stadium..",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Entertainment: Theater)",
+          "stimulus_en": "Sarah has yet met a phone in the kitchen (today).",
+          "stimulus_es": "Ref: Sarah ya ha met a phone en the kitchen (today).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U56_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Entertainment: Theater):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "John ya ha checked an email en the cinema!.",
+              "right": "John has already checked an email in the cinema!."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "I ya ha organized a house en the city....",
+              "right": "I has already organized a house in the city...."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "I ya ha prepared a clock en the woods (now).",
+              "right": "I has already prepared a clock in the woods (now)."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "The manager ya ha read music en the supermarket (today).",
+              "right": "The manager has already read music in the supermarket (today)."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Entertainment: Theater):",
+          "tts_en": "The player has already met a computer in the museum!.",
+          "correct_answer": "The player has already met a computer in the museum!.",
+          "mastery_tag": "listening",
           "interaction_id": "U56_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o1",
+              "text": "bus"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o4",
+              "text": "cat92"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 448 - Entertainment: Theater:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "Qu\u00e9 es \u00e9so? (now)",
+              "back": "What\u2019s that (now)"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U56_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 448 (Entertainment: Theater):",
+          "instruction_en": "Draft an email regarding Entertainment: Theater. [Ref: 11]",
+          "mastery_tag": "writing",
           "interaction_id": "U56_I99"
         },
         {
           "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "prompt_es": "Habla 448 (Entertainment: Theater):",
+          "stimulus_en": "Talk about Entertainment: Theater. (723)",
           "mastery_tag": "speaking",
           "interaction_id": "U56_I100"
         }

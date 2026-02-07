@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit37",
-    "unit_title": "Home: Chores",
+    "unit_title": "Past Simple vs Present Perfect - Sports: Team Sports",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1542 +10,1721 @@
   "blocks": [
     {
       "block_id": "U37_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "flashcard",
-          "prompt_es": "Repasa el vocabulario clave:",
-          "flashcards": [
-            {
-              "front": "Table",
-              "back": "Mesa",
-              "pronunciation": "/ˈteɪ.bəl/"
-            },
-            {
-              "front": "Chair",
-              "back": "Silla",
-              "pronunciation": "/tʃeər/"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "audio_player",
+          "prompt_es": "Introducci\u00f3n a la unidad 37",
+          "tts_en": "Starting unit 37. Topic: Sports: Team Sports. Focus: Past Simple vs Present Perfect.",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "hotter"
-            },
-            {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "Maria has ___ checked football in the mountains - amazing.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U37_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "tallest"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "taller"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "Sarah has already called a sandwich in the hotel....",
+          "stimulus_es": "Ref: Sarah ya ha called a sandwich en the hotel....",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U37_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
             {
-              "id": "o2",
-              "text": "more beautiful"
+              "id": "p0",
+              "left": "The nurse ya ha played a dog en the hotel....",
+              "right": "The nurse has already played a dog in the hotel...."
             },
             {
-              "id": "o1",
-              "text": "most beautiful"
+              "id": "p1",
+              "left": "The manager ya ha cooked English en the city - amazing.",
+              "right": "The manager has already cooked English in the city - amazing."
             },
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p2",
+              "left": "The coach ya ha cleaned a camera en the country - amazing.",
+              "right": "The coach has already cleaned a camera in the country - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "My sister ya ha finished a car en the country (today).",
+              "right": "My sister has already finished a car in the country (today)."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "bigger"
-            },
-            {
-              "id": "o2",
-              "text": "the biggest"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "My sister has already prepared a radio in the country - interesting.",
+          "correct_answer": "My sister has already prepared a radio in the country - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "This house is ___ than that one.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
+              "id": "o2",
+              "text": "pear"
             },
             {
-              "id": "o2",
-              "text": "the biggest"
+              "id": "o0",
+              "text": "apple"
             },
             {
               "id": "o1",
-              "text": "bigger"
+              "text": "banana"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o4",
+              "text": "bike3309"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 289 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "o2",
-              "text": "more hot"
-            },
-            {
-              "id": "o1",
-              "text": "hotter"
-            },
-            {
-              "id": "o3",
-              "text": "other"
+              "id": "c1",
+              "front": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material (today)",
+              "back": "preguntas en ingl\u00e9s (today)"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "goodest"
-            },
-            {
-              "id": "o1",
-              "text": "best"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 289 (Sports: Team Sports):",
+          "instruction_en": "Compare Sports: Team Sports with another topic. [Ref: 14]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I8"
         },
         {
+          "type": "speaking_task",
+          "prompt_es": "Habla 289 (Sports: Team Sports):",
+          "stimulus_en": "Where is Sports: Team Sports? (996)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U37_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 9313",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cookie (Br Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "De qui\u00e9n son esos libros?...",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Whose books are those= or Whose are those books..."
+            },
+            {
+              "id": "m1",
+              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "biscuit) Galleta."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U37_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Have you got a car? - amazing"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "When did you help him/her."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U37_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (8685), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U37_I12"
+        },
+        {
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "He is the ___ student in the group.",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The artist has already created a door in the country (now).",
+          "stimulus_es": "The artist ya ha created a door en the country (now).",
           "options": [
             {
-              "id": "o2",
-              "text": "goodest"
+              "id": "o1",
+              "text": "already"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "Other 4249"
             },
             {
-              "id": "o1",
-              "text": "best"
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U37_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "beautiful"
-            },
-            {
-              "id": "w0",
-              "text": "most"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U37_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U37_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U37_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "most"
-            },
-            {
-              "id": "w1",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U37_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
           "options": [
             {
               "id": "w0",
-              "text": "best"
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "worked"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "gift"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "scientist"
+            },
+            {
+              "id": "w9",
+              "text": "mountains"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U37_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "most"
-            },
-            {
-              "id": "w1",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "The scientist has ___ visited a book in the university!.",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "hotter"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "The manager has yet watched coffee in the library - amazing.",
+          "stimulus_es": "Ref: The manager ya ha watched coffee en the library - amazing.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "hotter"
+              "id": "p0",
+              "left": "He ya ha spoken a newspaper en the beach..",
+              "right": "He has already spoken a newspaper in the beach.."
+            },
+            {
+              "id": "p1",
+              "left": "Our neighbors ya ha built coffee en the balcony..",
+              "right": "Our neighbors has already built coffee in the balcony.."
+            },
+            {
+              "id": "p2",
+              "left": "You ya ha played a phone en the cinema - 975.",
+              "right": "You has already played a phone in the cinema - 975."
+            },
+            {
+              "id": "p3",
+              "left": "The boss ya ha learned a house en the city - 535.",
+              "right": "The boss has already learned a house in the city - 535."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "The teacher has already driven a movie in London - interesting.",
+          "correct_answer": "The teacher has already driven a movie in London - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o4",
+              "text": "Pen9786"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "This house is ___ than that one.",
-          "correct_answer": "bigger",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 290 - Sports: Team Sports:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Al lado de mi casa hay una guarder\u00eda!",
+              "back": "Next to my house there is a nursery school.!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "My partner is the ___ woman in the world.",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 290 (Sports: Team Sports):",
+          "instruction_en": "Write a note about Sports: Team Sports. [Ref: 35]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 290 (Sports: Team Sports):",
+          "stimulus_en": "Look at Sports: Team Sports. (161)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It's ___ today than yesterday.",
-          "correct_answer": "hotter",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 8649",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Tyre (Am Eng - 156",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Otro ejemplo - 495",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019.!"
+            },
+            {
+              "id": "m0",
+              "text": "tire) Neum\u00e1tico - 156"
+            },
+            {
+              "id": "m2",
+              "text": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. - 495"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "He is the ___ student in the group.",
-          "correct_answer": "best",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "rubber) Goma de borrar - amazing"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Sharon is the ___ girl in her class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (5116), A colleague [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drank"
+                },
+                {
+                  "id": "o2",
+                  "text": "drink"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked"
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"bigger\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The driver has already planned a gift in the library (now).",
+          "stimulus_es": "The driver ya ha planned a gift en the library (now).",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 9470"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U37_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "tennis"
+            },
+            {
+              "id": "w3",
+              "text": "fixed"
+            },
+            {
+              "id": "w8",
+              "text": "385"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "stadium"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w0",
+              "text": "John"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"most beautiful\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "My friend has ___ written coffee in the museum - interesting.",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U37_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
-          "correct_answer": false,
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "I has already received English in the university - 556.",
+          "stimulus_es": "Ref: I ya ha received English en the university - 556.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U37_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"best not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The police officer ya ha stopped a bike en the library - interesting.",
+              "right": "The police officer has already stopped a bike in the library - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "The teacher ya ha played a computer en the bank - interesting.",
+              "right": "The teacher has already played a computer in the bank - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "The nurse ya ha started a dog en the cinema....",
+              "right": "The nurse has already started a dog in the cinema...."
+            },
+            {
+              "id": "p3",
+              "left": "The scientist ya ha designed a laptop en the kitchen - amazing.",
+              "right": "The scientist has already designed a laptop in the kitchen - amazing."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "The singer has already planned a book in the mountains..",
+          "correct_answer": "The singer has already planned a book in the mountains..",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"tallest not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat8997"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"hotter\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 291 - Sports: Team Sports:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "5. never / drinks coffee in the evening / she.",
+              "back": "she never drinks coffee in the evening."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 291 (Sports: Team Sports):",
+          "instruction_en": "Your daily routine in Sports: Team Sports. [Ref: 98]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p3",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 291 (Sports: Team Sports):",
+          "stimulus_en": "Talk about Sports: Team Sports. (219)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 570",
+          "items": [
             {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "i0",
+              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar...",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "i1",
+              "text": "Chips (Br Eng) (Am Eng - 447",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p3",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "i2",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar!",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "biscuit) Patatas fritas - 447"
+            },
+            {
+              "id": "m2",
+              "text": "Indirect questions en ingl\u00e9s.!"
+            },
+            {
+              "id": "m0",
+              "text": "read, write, eat, run, sleep, etc..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "information, homework, work. (today)"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "John\u2018s job is boring. - amazing"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (3683), John [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "watched"
+                },
+                {
+                  "id": "o2",
+                  "text": "watch"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p2",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "My friend has already fixed a computer in the gym - interesting.",
+          "stimulus_es": "My friend ya ha fixed a computer en the gym - interesting.",
+          "options": [
             {
-              "id": "p0",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "o2",
+              "text": "yet"
             },
             {
-              "id": "p1",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "o1",
+              "text": "already"
             },
             {
-              "id": "p2",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
-            },
-            {
-              "id": "p3",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "o3",
+              "text": "Other 9109"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
+          "options": [
             {
-              "id": "p0",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
+              "id": "w7",
+              "text": "in"
             },
             {
-              "id": "p1",
-              "left": "Sharon is the ___ girl in her class.",
-              "right": "tallest"
+              "id": "w5",
+              "text": "a"
             },
             {
-              "id": "p2",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
+              "id": "w3",
+              "text": "already"
             },
             {
-              "id": "p3",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
+              "id": "w1",
+              "text": "sister"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w9",
+              "text": "(now)"
+            },
+            {
+              "id": "w4",
+              "text": "read"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "camera"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "My partner is the ___ woman in the world.",
-              "right": "most beautiful"
-            },
-            {
-              "id": "p1",
-              "left": "He is the ___ student in the group.",
-              "right": "best"
-            },
-            {
-              "id": "p2",
-              "left": "It's ___ today than yesterday.",
-              "right": "hotter"
-            },
-            {
-              "id": "p3",
-              "left": "This house is ___ than that one.",
-              "right": "bigger"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "Sarah has ___ helped an apple in the stadium (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "The pilot has yet drunk a printer in the beach....",
+          "stimulus_es": "Ref: The pilot ya ha drunk a printer en the beach....",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "The lawyer ya ha organized a door en the university (now).",
+              "right": "The lawyer has already organized a door in the university (now)."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "The player ya ha called a pizza en the stadium (now).",
+              "right": "The player has already called a pizza in the stadium (now)."
+            },
+            {
+              "id": "p2",
+              "left": "You ya ha visited coffee en the bank - 111.",
+              "right": "You has already visited coffee in the bank - 111."
+            },
+            {
+              "id": "p3",
+              "left": "Maria ya ha stopped a computer en London (today).",
+              "right": "Maria has already stopped a computer in London (today)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "The scientist has already fixed a television in the park (now).",
+          "correct_answer": "The scientist has already fixed a television in the park (now).",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o3",
+              "text": "Bed"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen7925"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 292 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "No me quiero sentar enfrente de \u00e9l - amazing",
+              "back": "I don\u2019t want to sit opposite him. - amazing"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 292 (Sports: Team Sports):",
+          "instruction_en": "Describe Sports: Team Sports in 5 words. [Ref: 71]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 292 (Sports: Team Sports):",
+          "stimulus_en": "Focus on Sports: Team Sports. (538)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 1634",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - amazing",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?!",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "De qui\u00e9n es ese m\u00f3vil?.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What\u2019s the happiest day you\u2019ve ever had - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "Whose mobile is that."
+            },
+            {
+              "id": "m1",
+              "text": "What\u2019s the hottest place you\u2019ve ever been to!"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U37_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular.!"
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "I don\u2019t know that I will do. (today)"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U37_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "best",
-          "correct_answer": "best",
-          "mastery_tag": "listening",
           "interaction_id": "U37_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "hotter",
-          "correct_answer": "hotter",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (2550), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped"
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "tallest",
-          "correct_answer": "tallest",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The lawyer has already bought music in the station..",
+          "stimulus_es": "The lawyer ya ha bought music en the station..",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 4447"
+            },
+            {
+              "id": "o1",
+              "text": "already"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "bigger",
-          "correct_answer": "bigger",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w4",
+              "text": "football"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "museum"
+            },
+            {
+              "id": "w3",
+              "text": "drunk"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "bigger",
-          "correct_answer": "bigger",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "A colleague has ___ called a window in the station (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "bigger",
-          "correct_answer": "bigger",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "My brother has yet checked English in Paris - 838.",
+          "stimulus_es": "Ref: My brother ya ha checked English en Paris - 838.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The actress ya ha learned a letter en school (today).",
+              "right": "The actress has already learned a letter in school (today)."
+            },
+            {
+              "id": "p1",
+              "left": "The artist ya ha read coffee en the shop..",
+              "right": "The artist has already read coffee in the shop.."
+            },
+            {
+              "id": "p2",
+              "left": "They ya ha helped a newspaper en the beach - amazing.",
+              "right": "They has already helped a newspaper in the beach - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "The singer ya ha prepared a computer en the country!.",
+              "right": "The singer has already prepared a computer in the country!."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "most beautiful",
-          "correct_answer": "most beautiful",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "The scientist has already watched a door in the kitchen - 161.",
+          "correct_answer": "The scientist has already watched a door in the kitchen - 161.",
           "mastery_tag": "listening",
           "interaction_id": "U37_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o4",
+              "text": "bike5123"
             },
             {
               "id": "o2",
-              "text": "Yellow."
+              "text": "pear"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 293 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "\u2013 Fechas concretas.",
+              "back": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on.."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 293 (Sports: Team Sports):",
+          "instruction_en": "A small story about Sports: Team Sports. [Ref: 88]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 293 (Sports: Team Sports):",
+          "stimulus_en": "Study Sports: Team Sports now. (907)",
           "mastery_tag": "speaking",
           "interaction_id": "U37_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 877",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "Est\u00e1 estudiando ella ingl\u00e9s?...",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo (today)",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio...",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "Is she studying English..."
+            },
+            {
+              "id": "m2",
+              "text": "\u00bfDe d\u00f3nde eres?..."
+            },
+            {
+              "id": "m1",
+              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. (today)"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "in summer, in winter.."
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I went to a state school...."
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (4752), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked"
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U37_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The player has already spoken a window in the shop....",
+          "stimulus_es": "The player ya ha spoken a window en the shop....",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
+              "text": "already"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 264"
+            },
+            {
+              "id": "o2",
+              "text": "yet"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w3",
+              "text": "has"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w6",
+              "text": "a"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w7",
+              "text": "television"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w1",
+              "text": "police"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "already"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "officer"
+            },
+            {
+              "id": "w5",
+              "text": "eaten"
+            },
+            {
+              "id": "w11",
+              "text": "interesting"
+            },
+            {
+              "id": "w10",
+              "text": "museum"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "My sister has ___ checked a ticket in London (now).",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "A colleague has yet fixed a radio in the supermarket..",
+          "stimulus_es": "Ref: A colleague ya ha fixed a radio en the supermarket..",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "Our neighbors ya ha designed a newspaper en the street (today).",
+              "right": "Our neighbors has already designed a newspaper in the street (today)."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "A colleague ya ha drunk a pen en the garden (now).",
+              "right": "A colleague has already drunk a pen in the garden (now)."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "The chef ya ha driven a pizza en the airport - 929.",
+              "right": "The chef has already driven a pizza in the airport - 929."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "My brother ya ha walked a printer en the station....",
+              "right": "My brother has already walked a printer in the station...."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "My brother has already helped a letter in the city..",
+          "correct_answer": "My brother has already helped a letter in the city..",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
+              "text": "bus"
             },
             {
               "id": "o4",
-              "text": "Orange"
+              "text": "cat2088"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 294 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "in + car/ taxi...",
+              "back": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a)...."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U37_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 294 (Sports: Team Sports):",
+          "instruction_en": "A small story about Sports: Team Sports. [Ref: 23]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 294 (Sports: Team Sports):",
+          "stimulus_en": "Improve Sports: Team Sports. (473)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 5702",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "Sigue recto y delante de la iglesia hay un supermercado (now)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? (now)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Encontraste algo ah\u00ed? - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Who\u2019s the shyest person you\u2019ve ever met (now)"
+            },
+            {
+              "id": "m0",
+              "text": "Go straight on and in front of the church there is a supermarket. (now)"
+            },
+            {
+              "id": "m2",
+              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. - interesting"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U37_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (now)"
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "What\u2019s his name - 362"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (5825), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "write"
                 }
               ]
             },
@@ -1554,11 +1733,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "organized"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "organize"
                 }
               ]
             }
@@ -1567,681 +1746,486 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U37_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The doctor has already listened a report in school..",
+          "stimulus_es": "The doctor ya ha listened a report en school..",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o3",
+              "text": "Other 828"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o2",
+              "text": "yet"
+            },
+            {
+              "id": "o1",
+              "text": "already"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U37_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w3",
+              "text": "worked"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w4",
+              "text": "football"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "already"
+            },
+            {
+              "id": "w6",
+              "text": "Paris"
+            },
+            {
+              "id": "w0",
+              "text": "You"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "Our neighbors has ___ cooked an apple in the bedroom (today).",
+          "correct_answer": "already",
           "mastery_tag": "grammar",
           "interaction_id": "U37_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "The pilot has yet fixed a radio in the airport - interesting.",
+          "stimulus_es": "Ref: The pilot ya ha fixed a radio en the airport - interesting.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U37_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "My cousin ya ha taught a newspaper en the street....",
+              "right": "My cousin has already taught a newspaper in the street...."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "I ya ha stopped a dog en the garage..",
+              "right": "I has already stopped a dog in the garage.."
+            },
+            {
+              "id": "p2",
+              "left": "A colleague ya ha traveled music en the beach - interesting.",
+              "right": "A colleague has already traveled music in the beach - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "My brother ya ha fixed a clock en the bank (now).",
+              "right": "My brother has already fixed a clock in the bank (now)."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "We has already started a sandwich in the bedroom - amazing.",
+          "correct_answer": "We has already started a sandwich in the bedroom - amazing.",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o0",
+              "text": "London"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o2",
+              "text": "Berlin"
+            },
+            {
+              "id": "o4",
+              "text": "Slow6204"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 295 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "see / usually / Jennifer / out / goes / a / to / concert (today)",
+              "back": "Jennifer usually goes out to see a concert (today)"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 295 (Sports: Team Sports):",
+          "instruction_en": "List 3 facts about Sports: Team Sports. [Ref: 62]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 295 (Sports: Team Sports):",
+          "stimulus_en": "Talk about Sports: Team Sports. (149)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "stimulus": "Matching set 7370",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Movie theater (Br Eng...",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos - 667",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "verb patters. - amazing"
+            },
+            {
+              "id": "m2",
+              "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - 667"
+            },
+            {
+              "id": "m0",
+              "text": "cinema) Cine..."
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U37_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Sports: Team Sports):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I have 3 children.."
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What\u2019s the coldest country you\u2019ve ever been to (today)"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "main_text": "In Sports: Team Sports (435), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U37_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Sports: Team Sports:",
+          "stimulus_en": "The doctor has already finished a dog in the restaurant (today).",
+          "stimulus_es": "The doctor ya ha finished a dog en the restaurant (today).",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o1",
+              "text": "already"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o3",
+              "text": "Other 3527"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "yet"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Sports: Team Sports:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w6",
+              "text": "in"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w8",
+              "text": "street"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w9",
+              "text": "interesting"
+            },
+            {
+              "id": "w4",
+              "text": "watched"
+            },
+            {
+              "id": "w1",
+              "text": "scientist"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "coffee"
+            },
+            {
+              "id": "w3",
+              "text": "already"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U37_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Sports: Team Sports):",
+          "stimulus_en": "The police officer has ___ worked a chair in the university....",
+          "correct_answer": "already",
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Sports: Team Sports)",
+          "stimulus_en": "He has yet watched a bag in the beach - amazing.",
+          "stimulus_es": "Ref: He ya ha watched a bag en the beach - amazing.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U37_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Sports: Team Sports):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The coach ya ha taught a house en the library - interesting.",
+              "right": "The coach has already taught a house in the library - interesting."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "I ya ha finished a movie en the kitchen - 929.",
+              "right": "I has already finished a movie in the kitchen - 929."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "The lawyer ya ha cleaned a car en the garden - 570.",
+              "right": "The lawyer has already cleaned a car in the garden - 570."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "My cousin ya ha started football en the airport - interesting.",
+              "right": "My cousin has already started football in the airport - interesting."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Sports: Team Sports):",
+          "tts_en": "John has already sent a bike in the hospital (today).",
+          "correct_answer": "John has already sent a bike in the hospital (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U37_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o0",
+              "text": "pizza"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o1",
+              "text": "burger"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain1012"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 296 - Sports: Team Sports:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "3. Las hermanas de Pedro.",
+              "back": "Peter\u2019s sisters."
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U37_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 296 (Sports: Team Sports):",
+          "instruction_en": "Describe Sports: Team Sports in 5 words. [Ref: 99]",
+          "mastery_tag": "writing",
           "interaction_id": "U37_I99"
         },
         {
-          "type": "writing_task",
-          "writing_type": "email",
-          "prompt_es": "Escribe un email corto a un amigo.",
-          "word_count_min": 10,
-          "word_count_max": 50,
-          "input_placeholder_es": "Escribe aquí...",
-          "mastery_tag": "writing",
+          "type": "speaking_task",
+          "prompt_es": "Habla 296 (Sports: Team Sports):",
+          "stimulus_en": "Study Sports: Team Sports now. (215)",
+          "mastery_tag": "speaking",
           "interaction_id": "U37_I100"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit28",
-    "unit_title": "Education: University Life",
+    "unit_title": "Superlatives with 'in' - Past: My Childhood",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,1516 +10,1716 @@
   "blocks": [
     {
       "block_id": "U28_B1",
-      "title": "Práctica Interactiva",
+      "title": "Unit Practice",
       "duration_minutes": 60,
       "content": [
         {
           "type": "audio_player",
-          "prompt_es": "Escucha el audio antes de continuar:",
-          "tts_en": "This is an introductory audio for the unit.",
+          "prompt_es": "Introducci\u00f3n a la unidad 28",
+          "tts_en": "Starting unit 28. Topic: Past: My Childhood. Focus: Superlatives with 'in'.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I1"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "enough of"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a printer is ___ in the cinema - 326.",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I2"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "enough of"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a book is the most expensive in the hospital....",
+          "stimulus_es": "Ref: Este a book es el m\u00e1s caro en the hospital....",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I3"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "enough"
+              "id": "p0",
+              "left": "Este a radio es el m\u00e1s caro en the office (today).",
+              "right": "This a radio is the most expensive in the office (today)."
             },
             {
-              "id": "o2",
-              "text": "milk enough"
+              "id": "p1",
+              "left": "Este football es el m\u00e1s caro en the station - interesting.",
+              "right": "This football is the most expensive in the station - interesting."
             },
             {
-              "id": "o3",
-              "text": "other"
+              "id": "p2",
+              "left": "Este a sandwich es el m\u00e1s caro en the garage - 754.",
+              "right": "This a sandwich is the most expensive in the garage - 754."
+            },
+            {
+              "id": "p3",
+              "left": "Este a window es el m\u00e1s caro en the cinema - 726.",
+              "right": "This a window is the most expensive in the cinema - 726."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I4"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "Do you have ___ flour?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "enough of"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a gift is the most expensive in the country (today).",
+          "correct_answer": "This a gift is the most expensive in the country (today).",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I5"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o2",
-              "text": "enough of"
+              "id": "o4",
+              "text": "June3142"
             },
             {
               "id": "o1",
-              "text": "enough"
+              "text": "Tuesday"
+            },
+            {
+              "id": "o0",
+              "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I6"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 217 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "o2",
-              "text": "milk enough"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            },
-            {
-              "id": "o1",
-              "text": "enough"
+              "id": "c1",
+              "front": "Al lado de mi colegio no hay bloques de pisos!",
+              "back": "Next to my school there aren\u2019t any apartment blocks.!"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I7"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enough"
-            },
-            {
-              "id": "o2",
-              "text": "enough of"
-            },
-            {
-              "id": "o3",
-              "text": "other"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 217 (Past: My Childhood):",
+          "instruction_en": "Draft an email regarding Past: My Childhood. [Ref: 57]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I8"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "It’s not hot ___.",
-          "options": [
+          "type": "speaking_task",
+          "prompt_es": "Habla 217 (Past: My Childhood):",
+          "stimulus_en": "Talk about Past: My Childhood. (953)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U28_I9"
+        },
+        {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 7125",
+          "items": [
             {
-              "id": "o2",
-              "text": "enough hot"
+              "id": "i0",
+              "text": "A lot of, countable y uncountable.",
+              "match_id": "m0"
             },
             {
+              "id": "i1",
+              "text": "The correct thing (today)",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "me / Paul / helps / sometimes / my / with / homework (now)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I have 3 children. (today)"
+            },
+            {
+              "id": "m2",
+              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (now)"
+            },
+            {
+              "id": "m0",
+              "text": "I have a lot of money and I have a lot of friends.."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I10"
+        },
+        {
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I\u2019ll see you on Saturday - interesting"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "preguntas en ingl\u00e9s..."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U28_I11"
+        },
+        {
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (3263), The waiter [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked"
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I12"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a computer is the most expensive in the hotel - amazing.",
+          "stimulus_es": "Este a computer es el m\u00e1s caro en the hotel - amazing.",
+          "options": [
+            {
               "id": "o1",
-              "text": "enough"
+              "text": "the most expensive"
             },
             {
               "id": "o3",
-              "text": "other"
+              "text": "Other 9166"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U28_I9"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I10"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I11"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I12"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
           "interaction_id": "U28_I13"
         },
         {
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
           "options": [
             {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
               "id": "w0",
-              "text": "enough"
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "dog"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "a"
             }
           ],
           "correct_answer": [
-            "w0"
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U28_I14"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a dog is ___ in the office - 666.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I15"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "enough"
-            }
-          ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This English is expensive in the hospital (today).",
+          "stimulus_es": "Ref: Este English es el m\u00e1s caro en the hospital (today).",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I16"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
             {
-              "id": "w0",
-              "text": "enough"
+              "id": "p0",
+              "left": "Este a printer es el m\u00e1s caro en the garage - interesting.",
+              "right": "This a printer is the most expensive in the garage - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "Este a television es el m\u00e1s caro en the park - interesting.",
+              "right": "This a television is the most expensive in the park - interesting."
+            },
+            {
+              "id": "p2",
+              "left": "Este a phone es el m\u00e1s caro en the restaurant - 816.",
+              "right": "This a phone is the most expensive in the restaurant - 816."
+            },
+            {
+              "id": "p3",
+              "left": "Este a bike es el m\u00e1s caro en the gym..",
+              "right": "This a bike is the most expensive in the gym.."
             }
           ],
-          "correct_answer": [
-            "w0"
-          ],
-          "mastery_tag": "syntax",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I17"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a table is the most expensive in the supermarket!.",
+          "correct_answer": "This a table is the most expensive in the supermarket!.",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I18"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o4",
+              "text": "Fast3977"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I19"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 218 - Past: My Childhood:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "2. La hamburguesa de Harry - amazing",
+              "back": "Harry\u2019s burger - amazing"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I20"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "It’s not hot ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "writing_task",
+          "prompt_es": "Escribe 218 (Past: My Childhood):",
+          "instruction_en": "Describe Past: My Childhood in 5 words. [Ref: 22]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I21"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "There isn’t ___ milk.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 218 (Past: My Childhood):",
+          "stimulus_en": "Look at Past: My Childhood. (991)",
+          "mastery_tag": "speaking",
           "interaction_id": "U28_I22"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "Do you have ___ flour?",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 3174",
+          "items": [
+            {
+              "id": "i0",
+              "text": "I / fish / often / hours / for / catching / anything / without...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "I often fish for hours without catching anything..."
+            },
+            {
+              "id": "m2",
+              "text": "What\u2019s the funniest joke you\u2019ve ever been told."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I23"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I’m not tall ___.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Jonathan usually visits the dentist (now)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "My friend has a lot of money. (now)"
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I24"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio:",
-          "stimulus_en": "I don’t have ___ warm clothes.",
-          "correct_answer": "enough",
-          "mastery_tag": "grammar",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (1860), The player [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked"
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "visited"
+                },
+                {
+                  "id": "o2",
+                  "text": "visit"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I25"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a movie is the most expensive in the museum - interesting.",
+          "stimulus_es": "Este a movie es el m\u00e1s caro en the museum - interesting.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 3396"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I26"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "university"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w2",
+              "text": "printer"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I27"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a letter is ___ in the country!.",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I28"
         },
         {
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a letter is expensive in the bedroom - interesting.",
+          "stimulus_es": "Ref: Este a letter es el m\u00e1s caro en the bedroom - interesting.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I29"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a movie es el m\u00e1s caro en the restaurant - interesting.",
+              "right": "This a movie is the most expensive in the restaurant - interesting."
+            },
+            {
+              "id": "p1",
+              "left": "Este a television es el m\u00e1s caro en the mountains (now).",
+              "right": "This a television is the most expensive in the mountains (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Este a bike es el m\u00e1s caro en the supermarket - amazing.",
+              "right": "This a bike is the most expensive in the supermarket - amazing."
+            },
+            {
+              "id": "p3",
+              "left": "Este a pen es el m\u00e1s caro en the museum (today).",
+              "right": "This a pen is the most expensive in the museum (today)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I30"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a television is the most expensive in the office!.",
+          "correct_answer": "This a television is the most expensive in the office!.",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I31"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o4",
+              "text": "bike9197"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I32"
         },
         {
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"enough not\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
+          "type": "flashcards",
+          "prompt_es": "Flashcard 219 - Past: My Childhood:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "back": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I33"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
-            },
-            {
-              "id": "p1",
-              "left": "It’s not hot ___.",
-              "right": "enough"
-            },
-            {
-              "id": "p2",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 219 (Past: My Childhood):",
+          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 38]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I34"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
-            },
-            {
-              "id": "p1",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
-            },
-            {
-              "id": "p2",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 219 (Past: My Childhood):",
+          "stimulus_en": "Where is Past: My Childhood? (772)",
+          "mastery_tag": "speaking",
           "interaction_id": "U28_I35"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 1567",
+          "items": [
             {
-              "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "id": "i0",
+              "text": "Verbos irregulares - 618",
+              "match_id": "m0"
             },
             {
-              "id": "p1",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "id": "i1",
+              "text": "Encontraste algo ah\u00ed?!",
+              "match_id": "m1"
             },
             {
-              "id": "p2",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "id": "i2",
+              "text": "\u2013 For + period of time (not defined).",
+              "match_id": "m2"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "matches": [
+            {
+              "id": "m0",
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - 618"
+            },
+            {
+              "id": "m1",
+              "text": "any + thing = en oraci\u00f3n INTERROGATIVA.!"
+            },
+            {
+              "id": "m2",
+              "text": "durante o desde hace."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I36"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
             {
-              "id": "p0",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I don\u2019t have many friends (friends is countable). - 883"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
-            },
-            {
-              "id": "p2",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "in summer, in winter. (today)"
+                }
+              ]
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I37"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (7477), The architect [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p0",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
             },
             {
-              "id": "p1",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
-            },
-            {
-              "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished"
+                },
+                {
+                  "id": "o2",
+                  "text": "finish"
+                }
+              ]
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I38"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This coffee is the most expensive in the supermarket - amazing.",
+          "stimulus_es": "Este coffee es el m\u00e1s caro en the supermarket - amazing.",
+          "options": [
             {
-              "id": "p0",
-              "left": "I’m not tall ___.",
-              "right": "enough"
+              "id": "o3",
+              "text": "Other 7502"
             },
             {
-              "id": "p1",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "id": "o1",
+              "text": "the most expensive"
             },
             {
-              "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "id": "o2",
+              "text": "expensive"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I39"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "options": [
             {
-              "id": "p0",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
+              "id": "w5",
+              "text": "most"
             },
             {
-              "id": "p1",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
+              "id": "w7",
+              "text": "in"
             },
             {
-              "id": "p2",
-              "left": "It’s not hot ___.",
-              "right": "enough"
+              "id": "w3",
+              "text": "is"
             },
             {
-              "id": "p3",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "table"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w9",
+              "text": "office"
+            },
+            {
+              "id": "w4",
+              "text": "the"
             }
           ],
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I40"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona las frases:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "There isn’t ___ milk.",
-              "right": "enough"
-            },
-            {
-              "id": "p1",
-              "left": "Do you have ___ flour?",
-              "right": "enough"
-            },
-            {
-              "id": "p2",
-              "left": "I don’t have ___ warm clothes.",
-              "right": "enough"
-            },
-            {
-              "id": "p3",
-              "left": "It’s not hot ___.",
-              "right": "enough"
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a pen is ___ in the city..",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I41"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This an apple is expensive in the park!.",
+          "stimulus_es": "Ref: Este an apple es el m\u00e1s caro en the park!.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I42"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "p0",
+              "left": "Este a laptop es el m\u00e1s caro en the museum!.",
+              "right": "This a laptop is the most expensive in the museum!."
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "p1",
+              "left": "Este a table es el m\u00e1s caro en the supermarket (now).",
+              "right": "This a table is the most expensive in the supermarket (now)."
+            },
+            {
+              "id": "p2",
+              "left": "Este a house es el m\u00e1s caro en the park - 319.",
+              "right": "This a house is the most expensive in the park - 319."
+            },
+            {
+              "id": "p3",
+              "left": "Este a car es el m\u00e1s caro en the library - interesting.",
+              "right": "This a car is the most expensive in the library - interesting."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I43"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a bag is the most expensive in the shop..",
+          "correct_answer": "This a bag is the most expensive in the shop..",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I44"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
+              "id": "o1",
+              "text": "banana"
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike2523"
             }
           ],
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I45"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 220 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
+              "id": "c1",
+              "front": "A qu\u00e9 hora sale el autob\u00fas?...",
+              "back": "What time does the bus leave..."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I46"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 220 (Past: My Childhood):",
+          "instruction_en": "Compare Past: My Childhood with another topic. [Ref: 19]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I47"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
-          "categories": [
-            {
-              "id": "cat1",
-              "title": "Category 1",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
-                }
-              ]
-            },
-            {
-              "id": "cat2",
-              "title": "Category 2",
-              "items": [
-                {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
+          "type": "speaking_task",
+          "prompt_es": "Habla 220 (Past: My Childhood):",
+          "stimulus_en": "Where is Past: My Childhood? (585)",
+          "mastery_tag": "speaking",
           "interaction_id": "U28_I48"
         },
         {
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 3428",
+          "items": [
+            {
+              "id": "i0",
+              "text": "5. El zumo de tu abuela...",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "on + train/ bus/ plane/ bike/ motorbike - interesting",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Hay muchos bares cerca de mi casa (today)",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. - interesting"
+            },
+            {
+              "id": "m2",
+              "text": "There are a lot of bars near my house. (today)"
+            },
+            {
+              "id": "m0",
+              "text": "Your grandmother\u2019s juice..."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U28_I49"
+        },
+        {
           "type": "categorization",
-          "prompt_es": "Clasifica las palabras:",
+          "prompt_es": "Clasifica (Past: My Childhood):",
           "categories": [
             {
-              "id": "cat1",
-              "title": "Category 1",
+              "id": "c1",
+              "title": "Group 1",
               "items": [
                 {
-                  "id": "i1",
-                  "text": "Word A"
-                },
-                {
-                  "id": "i2",
-                  "text": "Word B"
+                  "id": "t1",
+                  "text": "lift) Ascensor - amazing"
                 }
               ]
             },
             {
-              "id": "cat2",
-              "title": "Category 2",
+              "id": "c2",
+              "title": "Group 2",
               "items": [
                 {
-                  "id": "i3",
-                  "text": "Word C"
-                },
-                {
-                  "id": "i4",
-                  "text": "Word D"
+                  "id": "t2",
+                  "text": "\u00bfDe d\u00f3nde eres? (now)"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I49"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
           "interaction_id": "U28_I50"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (5640), The coach [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sent"
+                },
+                {
+                  "id": "o2",
+                  "text": "send"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created"
+                },
+                {
+                  "id": "o2",
+                  "text": "create"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I51"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a bike is the most expensive in the library (now).",
+          "stimulus_es": "Este a bike es el m\u00e1s caro en the library (now).",
+          "options": [
+            {
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6039"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I52"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "(now)"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w2",
+              "text": "cat"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w9",
+              "text": "shop"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I53"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a pizza is ___ in the office!.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I54"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a table is the most expensive in the bank - amazing.",
+          "stimulus_es": "Ref: Este a table es el m\u00e1s caro en the bank - amazing.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I55"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
-          "mastery_tag": "listening",
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a laptop es el m\u00e1s caro en the country....",
+              "right": "This a laptop is the most expensive in the country...."
+            },
+            {
+              "id": "p1",
+              "left": "Este English es el m\u00e1s caro en the airport - amazing.",
+              "right": "This English is the most expensive in the airport - amazing."
+            },
+            {
+              "id": "p2",
+              "left": "Este a window es el m\u00e1s caro en the country - interesting.",
+              "right": "This a window is the most expensive in the country - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "Este a movie es el m\u00e1s caro en the bank - 616.",
+              "right": "This a movie is the most expensive in the bank - 616."
+            }
+          ],
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I56"
         },
         {
           "type": "dictation_guided",
-          "prompt_es": "Escucha y escribe:",
-          "tts_en": "enough",
-          "correct_answer": "enough",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a pizza is the most expensive in the garage - 797.",
+          "correct_answer": "This a pizza is the most expensive in the garage - 797.",
           "mastery_tag": "listening",
           "interaction_id": "U28_I57"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
+              "text": "Piano"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Book2398"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I58"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 221 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c1",
+              "front": "Bookstore (Br Eng (today)",
+              "back": "bookshop) Librer\u00eda (today)"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I59"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "type": "writing_task",
+          "prompt_es": "Escribe 221 (Past: My Childhood):",
+          "instruction_en": "A small story about Past: My Childhood. [Ref: 51]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I60"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "speaking_task",
+          "prompt_es": "Habla 221 (Past: My Childhood):",
+          "stimulus_en": "I like Past: My Childhood. (273)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I61"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 1278",
+          "items": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "i0",
+              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
+              "match_id": "m0"
             },
             {
-              "id": "o2",
-              "text": "Yellow."
+              "id": "i1",
+              "text": "Alguien dijo mi nombre? - 858",
+              "match_id": "m1"
             },
             {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "i2",
+              "text": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo...",
+              "match_id": "m2"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Did anybody say my name - 858"
+            },
+            {
+              "id": "m2",
+              "text": "John\u2018s job is boring...."
+            },
+            {
+              "id": "m0",
+              "text": "my cousin\u2019s husband is German and his mother Irish...."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I62"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I hadn\u2019t got a mobile. - interesting"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/.!"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I63"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (2811), The student [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "I'm great, thanks!"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "Yellow."
-            },
-            {
-              "id": "o3",
-              "text": "Yesterday."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "met"
+                },
+                {
+                  "id": "o2",
+                  "text": "meet"
+                }
+              ]
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
           "interaction_id": "U28_I64"
         },
         {
-          "type": "role_play",
-          "prompt_es": "Responde adecuadamente:",
-          "stimulus_en": "How are you today?",
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a cat is the most expensive in the beach!.",
+          "stimulus_es": "Este a cat es el m\u00e1s caro en the beach!.",
           "options": [
             {
               "id": "o1",
-              "text": "I'm great, thanks!"
-            },
-            {
-              "id": "o2",
-              "text": "Yellow."
+              "text": "the most expensive"
             },
             {
               "id": "o3",
-              "text": "Yesterday."
+              "text": "Other 6164"
+            },
+            {
+              "id": "o2",
+              "text": "expensive"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I65"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
           "options": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "w0",
+              "text": "This"
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "w1",
+              "text": "coffee"
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "w6",
+              "text": "in"
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "w5",
+              "text": "expensive"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "London"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I66"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a clock is ___ in Paris....",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I67"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a phone is the most expensive in the supermarket - 257.",
+          "stimulus_es": "Ref: Este a phone es el m\u00e1s caro en the supermarket - 257.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I68"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "p0",
+              "left": "Este a printer es el m\u00e1s caro en school....",
+              "right": "This a printer is the most expensive in school...."
             },
             {
-              "id": "o2",
-              "text": "Banana"
+              "id": "p1",
+              "left": "Este a bike es el m\u00e1s caro en the hotel (now).",
+              "right": "This a bike is the most expensive in the hotel (now)."
             },
             {
-              "id": "o3",
-              "text": "Car"
+              "id": "p2",
+              "left": "Este a gift es el m\u00e1s caro en the woods (today).",
+              "right": "This a gift is the most expensive in the woods (today)."
             },
             {
-              "id": "o4",
-              "text": "Orange"
+              "id": "p3",
+              "left": "Este a house es el m\u00e1s caro en the cinema....",
+              "right": "This a house is the most expensive in the cinema...."
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I69"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This an apple is the most expensive in the hospital..",
+          "correct_answer": "This an apple is the most expensive in the hospital..",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I70"
         },
         {
           "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
+          "prompt_es": "Intruso:",
           "options": [
             {
+              "id": "o4",
+              "text": "rain7648"
+            },
+            {
               "id": "o1",
-              "text": "Apple"
+              "text": "burger"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
             },
             {
               "id": "o2",
-              "text": "Banana"
+              "text": "salad"
             },
             {
               "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "text": "soup"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I71"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 222 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
+              "id": "c1",
+              "front": "A qu\u00e9 hora sale el tren?!",
+              "back": "What time does the train leave!"
             }
           ],
-          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "interaction_id": "U28_I72"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona la palabra que no encaja:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apple"
-            },
-            {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o3",
-              "text": "Car"
-            },
-            {
-              "id": "o4",
-              "text": "Orange"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
+          "type": "writing_task",
+          "prompt_es": "Escribe 222 (Past: My Childhood):",
+          "instruction_en": "Review Past: My Childhood from last week. [Ref: 62]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I73"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "type": "speaking_task",
+          "prompt_es": "Habla 222 (Past: My Childhood):",
+          "stimulus_en": "Repeat Past: My Childhood. (396)",
+          "mastery_tag": "speaking",
           "interaction_id": "U28_I74"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 4639",
+          "items": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "i0",
+              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (today)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "i1",
+              "text": "Algunos ejemplos...",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "car / I / drink / never / if / drive / I / alcohol / a!",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "I never drink alcohol if I drive a car!"
+            },
+            {
+              "id": "m1",
+              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without..."
+            },
+            {
+              "id": "m0",
+              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (today)"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U28_I75"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
             {
-              "id": "1",
-              "options": [
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
+                  "id": "t1",
+                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - amazing"
                 }
               ]
             },
             {
-              "id": "2",
-              "options": [
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
                 {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
+                  "id": "t2",
+                  "text": "\u2018m/ \u2018s, etc) (today)"
                 }
               ]
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I76"
         },
         {
           "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (1835), The teacher [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "a"
+                  "text": "helped"
                 },
                 {
                   "id": "o2",
-                  "text": "an"
+                  "text": "help"
                 }
               ]
             },
@@ -1528,11 +1728,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "big"
+                  "text": "started"
                 },
                 {
                   "id": "o2",
-                  "text": "sky"
+                  "text": "start"
                 }
               ]
             }
@@ -1541,677 +1741,505 @@
             "1": "o1",
             "2": "o1"
           },
-          "mastery_tag": "grammar",
+          "mastery_tag": "reading",
           "interaction_id": "U28_I77"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a movie is the most expensive in the balcony!.",
+          "stimulus_es": "Este a movie es el m\u00e1s caro en the balcony!.",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "o3",
+              "text": "Other 2022"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "o2",
+              "text": "expensive"
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I78"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "options": [
             {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
+              "id": "w8",
+              "text": "the"
             },
             {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "radio"
+            },
+            {
+              "id": "w9",
+              "text": "stadium"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w10",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "a"
             }
           ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I79"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This English is ___ in the street - amazing.",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U28_I80"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta:",
-          "main_text": "I have [GAP 1] cat. It is very [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "a"
-                },
-                {
-                  "id": "o2",
-                  "text": "an"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "big"
-                },
-                {
-                  "id": "o2",
-                  "text": "sky"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a pen is the most expensive in the kitchen (today).",
+          "stimulus_es": "Ref: Este a pen es el m\u00e1s caro en the kitchen (today).",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U28_I81"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "p0",
+              "left": "Este tennis es el m\u00e1s caro en the beach....",
+              "right": "This tennis is the most expensive in the beach...."
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "p1",
+              "left": "Este a bag es el m\u00e1s caro en the office..",
+              "right": "This a bag is the most expensive in the office.."
+            },
+            {
+              "id": "p2",
+              "left": "Este a gift es el m\u00e1s caro en the university - interesting.",
+              "right": "This a gift is the most expensive in the university - interesting."
+            },
+            {
+              "id": "p3",
+              "left": "Este a gift es el m\u00e1s caro en the city (now).",
+              "right": "This a gift is the most expensive in the city (now)."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I82"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a camera is the most expensive in the university - interesting.",
+          "correct_answer": "This a camera is the most expensive in the university - interesting.",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I83"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "o2",
+              "text": "Flute"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Book2832"
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I84"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 223 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c1",
+              "front": "TV / ever / hardly / I / in / watch / evenings / the.",
+              "back": "I hardly ever watch TV in the evenings."
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I85"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 223 (Past: My Childhood):",
+          "instruction_en": "List 3 facts about Past: My Childhood. [Ref: 57]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I86"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
-            {
-              "id": "1",
-              "text": "This is a missing sentence."
-            },
-            {
-              "id": "2",
-              "text": "Another missing sentence."
-            }
-          ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "type": "speaking_task",
+          "prompt_es": "Habla 223 (Past: My Childhood):",
+          "stimulus_en": "Study Past: My Childhood now. (193)",
+          "mastery_tag": "speaking",
           "interaction_id": "U28_I87"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "multiple_matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "stimulus": "Matching set 2086",
+          "items": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "i0",
+              "text": "Un ejemplo de to seguido de infinitivo es (today)",
+              "match_id": "m0"
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "i1",
+              "text": "The correct thing - amazing",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. Let\u2019s do the same with the first example - interesting",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - interesting"
+            },
+            {
+              "id": "m1",
+              "text": "on the Internet - amazing"
+            },
+            {
+              "id": "m0",
+              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (today)"
             }
           ],
           "correct_answer": {
-            "1": "1",
-            "2": "2"
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
           },
           "mastery_tag": "reading",
           "interaction_id": "U28_I88"
         },
         {
-          "type": "gapped_text",
-          "prompt_es": "Completa el texto con los párrafos eliminados:",
-          "main_text": "First part of the story. [GAP 1] Second part. [GAP 2] End.",
-          "removed_paragraphs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica (Past: My Childhood):",
+          "categories": [
             {
-              "id": "1",
-              "text": "This is a missing sentence."
+              "id": "c1",
+              "title": "Group 1",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. (now)"
+                }
+              ]
             },
             {
-              "id": "2",
-              "text": "Another missing sentence."
+              "id": "c2",
+              "title": "Group 2",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What\u2019s the most difficult language you\u2019ve ever studied!"
+                }
+              ]
             }
           ],
-          "correct_answer": {
-            "1": "1",
-            "2": "2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I89"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "main_text": "In Past: My Childhood (8825), The artist [GAP 1] and [GAP 2].",
+          "gaps": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created"
+                },
+                {
+                  "id": "o2",
+                  "text": "create"
+                }
+              ]
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "traveled"
+                },
+                {
+                  "id": "o2",
+                  "text": "travel"
+                }
+              ]
             }
           ],
           "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
+            "1": "o1",
+            "2": "o1"
           },
           "mastery_tag": "reading",
           "interaction_id": "U28_I90"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "multiple_choice",
+          "prompt_es": "Elige para Past: My Childhood:",
+          "stimulus_en": "This a computer is the most expensive in the city - amazing.",
+          "stimulus_es": "Este a computer es el m\u00e1s caro en the city - amazing.",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o3",
+              "text": "Other 1624"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o1",
+              "text": "the most expensive"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "expensive"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I91"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena sobre Past: My Childhood:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "w7",
+              "text": "in"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "w0",
+              "text": "This"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "cat"
+            },
+            {
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w9",
+              "text": "(today)"
+            },
+            {
+              "id": "w6",
+              "text": "expensive"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax",
           "interaction_id": "U28_I92"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Past: My Childhood):",
+          "stimulus_en": "This a report is ___ in the supermarket - 280.",
+          "correct_answer": "the most expensive",
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I93"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "true_false",
+          "prompt_es": "\u00bfCorrecto? (Past: My Childhood)",
+          "stimulus_en": "This a pizza is the most expensive in the cinema....",
+          "stimulus_es": "Ref: Este a pizza es el m\u00e1s caro en the cinema....",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
           "interaction_id": "U28_I94"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "matching",
+          "prompt_es": "Relaciona (Past: My Childhood):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Este a door es el m\u00e1s caro en the bank (now).",
+              "right": "This a door is the most expensive in the bank (now)."
+            },
             {
               "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "left": "Este a newspaper es el m\u00e1s caro en London - interesting.",
+              "right": "This a newspaper is the most expensive in London - interesting."
             },
             {
               "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "left": "Este a phone es el m\u00e1s caro en the stadium - amazing.",
+              "right": "This a phone is the most expensive in the stadium - amazing."
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "p3",
+              "left": "Este a laptop es el m\u00e1s caro en the mountains - 786.",
+              "right": "This a laptop is the most expensive in the mountains - 786."
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I95"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "dictation_guided",
+          "prompt_es": "Escribe (Past: My Childhood):",
+          "tts_en": "This a computer is the most expensive in the hotel - 648.",
+          "correct_answer": "This a computer is the most expensive in the hotel - 648.",
+          "mastery_tag": "listening",
           "interaction_id": "U28_I96"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "odd_one_out",
+          "prompt_es": "Intruso:",
+          "options": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
+              "id": "o0",
+              "text": "apple"
             },
             {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
+              "id": "o3",
+              "text": "mango"
             },
             {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana"
+            },
+            {
+              "id": "o4",
+              "text": "bike1722"
             }
           ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I97"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
+          "type": "flashcards",
+          "prompt_es": "Flashcard 224 - Past: My Childhood:",
+          "cards": [
             {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
+              "id": "c1",
+              "front": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n - interesting",
+              "back": "Sometimes I have lunch in a restaurant. - interesting"
             }
           ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "mastery_tag": "vocabulary",
           "interaction_id": "U28_I98"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Relaciona a las personas con sus necesidades:",
-          "profiles": [
-            {
-              "id": "p1",
-              "name": "John",
-              "description": "Needs a fast computer."
-            },
-            {
-              "id": "p2",
-              "name": "Sarah",
-              "description": "Wants to learn English."
-            }
-          ],
-          "descriptions": [
-            {
-              "id": "d1",
-              "title": "Gaming PC",
-              "content": "Very high speed."
-            },
-            {
-              "id": "d2",
-              "title": "Focus English",
-              "content": "Best for learning."
-            }
-          ],
-          "correct_answer": {
-            "p1": "d1",
-            "p2": "d2"
-          },
-          "mastery_tag": "reading",
+          "type": "writing_task",
+          "prompt_es": "Escribe 224 (Past: My Childhood):",
+          "instruction_en": "Describe Past: My Childhood in 5 words. [Ref: 56]",
+          "mastery_tag": "writing",
           "interaction_id": "U28_I99"
         },
         {
           "type": "speaking_task",
-          "speaking_type": "description",
-          "prompt_es": "Describe lo que hiciste ayer en voz alta.",
+          "prompt_es": "Habla 224 (Past: My Childhood):",
+          "stimulus_en": "The Superlatives with 'in' is here. (580)",
           "mastery_tag": "speaking",
           "interaction_id": "U28_I100"
         }
