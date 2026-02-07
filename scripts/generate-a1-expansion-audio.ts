@@ -9,6 +9,20 @@ const A1_CONTENT_PATH = 'src/content/cursos/ingles-a1';
 const AUDIO_OUTPUT_DIR = 'public/audio/courses/ingles-a1/expansion';
 
 async function run() {
+  // Generate system audios first
+  const systemAudios = [
+    { text: 'Correct!', fileName: 'correct.mp3' },
+    { text: 'Wrong answer, try again.', fileName: 'wrong.mp3' }
+  ];
+
+  for (const sys of systemAudios) {
+    const outputPath = path.join(process.cwd(), 'public/audio', sys.fileName);
+    if (!fs.existsSync(outputPath)) {
+      console.log(`Generating system audio: ${sys.fileName}`);
+      await generateOpenAISpeech(sys.text, 'alloy', outputPath);
+    }
+  }
+
   const files = fs.readdirSync(A1_CONTENT_PATH).filter(f => f.endsWith('.json'));
   
   let totalGenerated = 0;

@@ -65,6 +65,8 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/a7
 
 ### [ ] Step: Audio Generation
 - [x] Task 9: Create script `scripts/generate-a1-expansion-audio.ts` to generate static audio files for new exercises.
+  - *Updated: Also generates missing system audios (`correct.mp3`, `wrong.mp3`).*
 - [ ] Task 10: Run the script to generate and save `.mp3` files to `public/audio/courses/ingles-a1/expansion/`.
   - *Note: This requires a valid `OPENAI_API_KEY` in `.env.local`.*
 - [ ] Task 11: Update JSON files with the new `audioUrl` paths (automated by the script).
+- [ ] Task 12: Verify `public/audio/correct.mp3` and `public/audio/wrong.mp3` are generated.
