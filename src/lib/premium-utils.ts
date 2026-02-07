@@ -30,12 +30,14 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'writing-analysis':
     case 'listening_image_mc':
     case 'fill-blanks-mc':
+    case 'multiple-choice':
+    case 'speaking-analysis':
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
         ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
         : interaction;
       
       const options = q.options || interaction.options;
-      const correctAnswer = q.correct_answer || q.correctAnswer || interaction.correct_answer;
+      const correctAnswer = q.correct_answer || q.correctAnswer || interaction.correct_answer || interaction.answer;
 
       if (options && (correctAnswer !== undefined && correctAnswer !== null)) {
         const correctOption = options.find((opt: any) => 
@@ -83,8 +85,9 @@ export function getSolutionText(interaction: PremiumInteraction): string {
     case 'fill_blank':
     case 'fill-blank':
     case 'fill-blanks':
-      if (interaction.correct_answer) {
-        return `${prefix}${Array.isArray(interaction.correct_answer) ? interaction.correct_answer.join(' / ') : interaction.correct_answer}`;
+      const solutionText = interaction.correct_answer || interaction.correctAnswer || interaction.answer;
+      if (solutionText) {
+        return `${prefix}${Array.isArray(solutionText) ? solutionText.join(' / ') : solutionText}`;
       }
       break;
 
@@ -99,16 +102,16 @@ export function getSolutionText(interaction: PremiumInteraction): string {
 
     case 'short_writing':
     case 'dictation_guided':
-      if (interaction.correct_answer_es) {
-        return `${prefix}${interaction.correct_answer_es}`;
-      } else if (typeof interaction.correct_answer === 'string') {
-        return `${prefix}${interaction.correct_answer}`;
+      const shortAns = interaction.correct_answer || interaction.correctAnswer || interaction.answer || interaction.correct_answer_es;
+      if (shortAns) {
+        return `${prefix}${shortAns}`;
       }
       break;
 
     default:
-      if (typeof interaction.correct_answer === 'string') {
-        return `${prefix}${interaction.correct_answer}`;
+      const fallbackAns = interaction.correct_answer || interaction.correctAnswer || interaction.answer;
+      if (fallbackAns) {
+        return `${prefix}${fallbackAns}`;
       }
   }
 

@@ -65,7 +65,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Standardize correct_answer
       if (!normalized.correct_answer) {
-        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution;
+        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en;
       }
 
       // Normalize type (handle camelCase from migrations)
@@ -83,7 +83,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         'matching': 'matching',
         'flashcard': 'flashcard',
         'audio-player': 'audio_player',
-        'short-answer': 'fill_blanks'
+        'short-answer': 'fill_blanks',
+        'fill-blanks-mc': 'fill_blanks'
       };
       if (typeMap[normalized.type]) {
         normalized.type = typeMap[normalized.type];
@@ -143,7 +144,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Normalize options (handle array of strings from migrations)
       if (Array.isArray(normalized.options) && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
-        const ans = normalized.correctAnswer || normalized.answer || normalized.correct_answer;
+        const ans = normalized.correctAnswer || normalized.answer || normalized.correct_answer || normalized.correct_answer_en;
         const hasLetterAnswer = typeof ans === 'string' && /^[A-E]$/.test(ans);
         normalized.options = normalized.options.map((opt: string, idx: number) => ({
           id: hasLetterAnswer ? String.fromCharCode(65 + idx) : idx.toString(),
@@ -178,8 +179,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           // 1. Remove parenthesized/bracketed text that matches the correct answer
           if (normalized.correct_answer) {
             const ans = String(normalized.correct_answer).toLowerCase().trim();
+            // Escapar caracteres especiales para regex
             const escapedAns = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const ansRegex = new RegExp(`\\s*[\\(\\[]${escapedAns}[\\)\\]]\\s*`, 'gi');
+            // Regex que busca la respuesta entre paréntesis o corchetes, con posibles espacios alrededor
+            const ansRegex = new RegExp(`\\s*[\\(\\[]\\s*${escapedAns}\\s*[\\)\\]]\\s*`, 'gi');
             cleaned = cleaned.replace(ansRegex, ' ');
           }
 
@@ -187,9 +190,21 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           cleaned = cleaned.replace(/_{2,}\s*[\(\[][^\]\)]+[\)\]]/g, '______');
           cleaned = cleaned.replace(/[\(\[][^\]\)]+[\)\]]\s*_{2,}/g, '______');
           
-          // 3. Remove standalone parenthesized words if they look like answers (1-3 words)
-          // This is riskier but often necessary for AI generated content
-          cleaned = cleaned.replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s*\[[^\]]+\]\s*/g, ' ');
+          // 3. Strip any parentheses that contain exactly one word which matches any of the answers
+          if (normalized.correct_answer) {
+            const answers = String(normalized.correct_answer).toLowerCase().split(/[/\s,]+/).filter(Boolean);
+            answers.forEach(a => {
+              const esc = a.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              const r = new RegExp(`\\s*[\\(\\[]\\s*${esc}\\s*[\\)\\]]\\s*`, 'gi');
+              cleaned = cleaned.replace(r, ' ');
+            });
+          }
+
+          // 4. Remove standalone parenthesized words if they look like answers (1-3 words)
+          // Solo si hay guiones bajos cerca, para no romper explicaciones legítimas
+          if (cleaned.includes('___')) {
+            cleaned = cleaned.replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s*\[[^\]]+\]\s*/g, ' ');
+          }
 
           return cleaned.trim().replace(/\s+/g, ' ');
         };
@@ -2228,7 +2243,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             exit={{ opacity: 0, x: -50 }}
             className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
           >
-            {currentItem?.main_instructions && (
+            {currentItem?.main_instructions && 
+             currentItem.main_instructions !== "Lesson Exercises" && 
+             currentItem.main_instructions !== currentItem.prompt_es && (
                <div className="mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-2 border-indigo-100 shadow-sm max-w-2xl mx-auto w-full">
                   <div className="flex items-center gap-3 mb-2">
                     <div className="bg-indigo-100 p-2 rounded-xl">
