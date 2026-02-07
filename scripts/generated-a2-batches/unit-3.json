@@ -1279,7 +1279,7 @@
           "explanation": "En el texto se menciona que la mamá llevó un pastel delicioso."
         },
         {
-          "question": "What did Lucy do at Tom’s house?",
+          "question": "What did Lucy do at Tom's house?",
           "options": [
             "She cooked the barbecue",
             "She watched TV",
@@ -1976,7 +1976,7 @@
     "level": "A2",
     "content": {
       "title": "Family Connections: A Simple Introduction",
-      "textPassage": "Hello! My name is Laura, and I want to tell you about my family. I have a big family, and we all live in the same city. My father’s name is Peter, and he is married to my mother, Jane. They have been together for 30 years! My brother, Tom, is younger than me, and he is still studying at university. Then, there is my sister, Anna. She is older than me and has two children. Her husband’s name is Mike. They have a lovely home and often invite us for dinner on weekends. My grandparents, who are my mother’s parents, live nearby. We visit them every Sunday. My grandfather loves to tell stories from the past, and my grandmother always makes delicious cakes. I love my family very much, and we enjoy spending time together. What about your family? Do you have a big family too?",
+      "textPassage": "Hello! My name is Laura, and I want to tell you about my family. I have a big family, and we all live in the same city. My father's name is Peter, and he is married to my mother, Jane. They have been together for 30 years! My brother, Tom, is younger than me, and he is still studying at university. Then, there is my sister, Anna. She is older than me and has two children. Her husband's name is Mike. They have a lovely home and often invite us for dinner on weekends. My grandparents, who are my mother's parents, live nearby. We visit them every Sunday. My grandfather loves to tell stories from the past, and my grandmother always makes delicious cakes. I love my family very much, and we enjoy spending time together. What about your family? Do you have a big family too?",
       "wordCount": 154,
       "estimatedReadingTime": 2,
       "questions": [
@@ -2014,7 +2014,7 @@
           "explanation": "La pregunta busca un detalle específico sobre la familia. Tom es el hermano que todavía está estudiando en la universidad."
         },
         {
-          "question": "True or False: Laura’s grandparents live far away.",
+          "question": "True or False: Laura's grandparents live far away.",
           "options": [
             "True",
             "False"
@@ -2034,7 +2034,7 @@
           "explanation": "La pregunta se centra en un detalle específico. La abuela de Laura siempre hace pasteles deliciosos, según el texto."
         },
         {
-          "question": "What can be inferred about Laura’s family?",
+          "question": "What can be inferred about Laura's family?",
           "options": [
             "They are not very close.",
             "They enjoy spending time together.",

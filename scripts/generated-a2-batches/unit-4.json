@@ -617,7 +617,7 @@
           "commonMistakes": "Confundir 'has' con 'is'."
         },
         {
-          "english": "He’s got a small red car.",
+          "english": "He's got a small red car.",
           "spanish": "Él tiene un coche pequeño y rojo.",
           "phonetic": "/hiːz ɡɒt ə smɔːl rɛd kɑː(r)/",
           "audioModelUrl": "https://example.com/audio3",
@@ -3067,7 +3067,7 @@
         {
           "id": "q4",
           "type": "multiple-choice",
-          "scenario": "You are talking about a friend’s new hair color.",
+          "scenario": "You are talking about a friend's new hair color.",
           "question": "Which sentence is correct?",
           "options": [
             "A. He has got blond new hair.",

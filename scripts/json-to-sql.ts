@@ -6,7 +6,8 @@ const OUTPUT_DIR = 'supabase/migrations';
 
 function escapeSql(str: string): string {
   if (!str) return 'NULL';
-  return `'${str.replace(/'/g, "''")}'`;
+  // Use dollar quoting for safer SQL insertion of JSON content
+  return `$JSON$${str}$JSON$`;
 }
 
 async function main() {
