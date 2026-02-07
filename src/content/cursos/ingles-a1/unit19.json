@@ -1,265 +1,369 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit19",
+    "unit_title": "Months & Dates",
     "level": "A1",
-    "unit_id": "U19",
-    "unit_title": "My City",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Months & Dates"
+  ],
   "blocks": [
     {
       "block_id": "B19",
-      "title": "Places and Locations",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U19_I1",
-          "type": "matching",
-          "prompt_es": "Une cada lugar con su traducción:",
-          "pairs": [
-            { "id": "p1", "left": "Hospital", "right": "Hospital" },
-            { "id": "p2", "left": "School", "right": "Escuela" },
-            { "id": "p3", "left": "Park", "right": "Parque" },
-            { "id": "p4", "left": "Library", "right": "Biblioteca" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Marzo'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "March"
+            },
+            {
+              "id": "o2",
+              "text": "July"
+            },
+            {
+              "id": "o3",
+              "text": "April"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde puedes comprar comida?",
-          "options": [
-            { "id": "o1", "text": "Supermarket" },
-            { "id": "o2", "text": "Cinema" },
-            { "id": "o3", "text": "Bank" }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "January",
+              "right": "Enero"
+            },
+            {
+              "id": "p1",
+              "left": "July",
+              "right": "Julio"
+            },
+            {
+              "id": "p2",
+              "left": "April",
+              "right": "Abril"
+            },
+            {
+              "id": "p3",
+              "left": "August",
+              "right": "Agosto"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está el banco?'",
-          "stimulus_es": "¿Dónde está el banco?",
-          "correct_answer": "Where is the bank?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "year"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "months"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "twelve"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U19_I4",
-          "type": "matching",
-          "prompt_es": "Lugares de ocio:",
-          "pairs": [
-            { "id": "p1", "left": "Cinema", "right": "Cine" },
-            { "id": "p2", "left": "Restaurant", "right": "Restaurante" },
-            { "id": "p3", "left": "Museum", "right": "Museo" },
-            { "id": "p4", "left": "Hotel", "right": "Hotel" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My favorite month are August.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I5",
-          "type": "transformation",
-          "prompt_es": "Completa con 'Next to' (Al lado de):",
-          "stimulus_en": "The bank is ________ the park.",
-          "correct_answer": "next to",
-          "mastery_tag": "prepositions"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "My birthday (ser/estar - ello) ________ in June.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay un gran parque'",
-          "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "big" },
-            { "id": "w4", "text": "park" },
-            { "id": "w0", "text": "There" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diciembre",
+          "correct_answer": "December",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Bus station'?",
-          "options": [
-            { "id": "o1", "text": "Estación de autobuses" },
-            { "id": "o2", "text": "Estación de tren" },
-            { "id": "o3", "text": "Parada de taxis" }
-          ],
-          "correct_answer": "o1",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "October",
+          "correct_answer": "Octubre",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I8",
-          "type": "true_false",
-          "prompt_es": "'Near' significa 'Lejos'.",
-          "correct_answer": false,
-          "mastery_tag": "prepositions"
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "July"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "February"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I9",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Vivo en una ciudad'",
-          "stimulus_es": "Vivo en una ciudad",
-          "correct_answer": "I live in a city",
-          "mastery_tag": "syntax"
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "There are twelve months in a year. July and August are very hot. February is the shortest month.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Months & Dates"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U19_I10",
-          "type": "transformation",
-          "prompt_es": "Completa: '________ (Hay) a lot of shops.'",
-          "stimulus_en": "________ a lot of shops.",
-          "correct_answer": "There are",
-          "mastery_tag": "grammar"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/199ed48523dcabe28895bc75d5c8c05b.mp3",
+          "text": "My favorite month is August.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U19_I11",
-          "type": "matching",
-          "prompt_es": "Preposiciones de lugar:",
-          "pairs": [
-            { "id": "p1", "left": "Opposite", "right": "Enfrente de" },
-            { "id": "p2", "left": "Between", "right": "Entre" },
-            { "id": "p3", "left": "Behind", "right": "Detrás de" },
-            { "id": "p4", "left": "In front of", "right": "Delante de" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "prepositions"
+          "type": "word-search",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U19_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde puedes leer libros gratis?",
+          "prompt_es": "¿Cómo se dice 'Noviembre'?",
           "options": [
-            { "id": "o1", "text": "Library" },
-            { "id": "o2", "text": "Cinema" },
-            { "id": "o3", "text": "Bank" }
+            {
+              "id": "o1",
+              "text": "November"
+            },
+            {
+              "id": "o2",
+              "text": "May"
+            },
+            {
+              "id": "o3",
+              "text": "June"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'La escuela está cerca'",
-          "options": [
-            { "id": "w1", "text": "school" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "near" },
-            { "id": "w0", "text": "The" }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "February",
+              "right": "Febrero"
+            },
+            {
+              "id": "p1",
+              "left": "May",
+              "right": "Mayo"
+            },
+            {
+              "id": "p2",
+              "left": "March",
+              "right": "Marzo"
+            },
+            {
+              "id": "p3",
+              "left": "November",
+              "right": "Noviembre"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I14",
-          "type": "true_false",
-          "prompt_es": "'Town' es más grande que 'City'.",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "month"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "August"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U19_I15",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Estación de tren'",
-          "stimulus_es": "Estación de tren",
-          "correct_answer": "Train station",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"July and August are very hot.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I16",
-          "type": "matching",
-          "prompt_es": "Verbos de movimiento:",
-          "pairs": [
-            { "id": "p1", "left": "Go", "right": "Ir" },
-            { "id": "p2", "left": "Visit", "right": "Visitar" },
-            { "id": "p3", "left": "Walk", "right": "Caminar" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Christmas (ser/estar - ello) ________ on December 25th.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Between'?",
-          "options": [
-            { "id": "o1", "text": "Entre (dos cosas)" },
-            { "id": "o2", "text": "Encima" },
-            { "id": "o3", "text": "Debajo" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "prepositions"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Marzo",
+          "correct_answer": "March",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I18",
-          "type": "transformation",
-          "prompt_es": "Completa: 'I go to ________ (la escuela) every day.'",
-          "stimulus_en": "I go to ________ every day.",
-          "correct_answer": "school",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "July",
+          "correct_answer": "Julio",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I19",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cómo llego allí?'",
-          "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "get" },
-            { "id": "w4", "text": "there?" },
-            { "id": "w0", "text": "How" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "April"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "May"
+              ]
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I20",
-          "type": "true_false",
-          "prompt_es": "En inglés, decimos 'I am in the street'.",
-          "correct_answer": true,
-          "mastery_tag": "prepositions"
-        },
-        {
-          "interaction_id": "U19_I21",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'Biblioteca' en inglés:",
-          "stimulus_es": "Biblioteca",
-          "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U19_I22",
-          "type": "matching",
-          "prompt_es": "Servicios públicos:",
-          "pairs": [
-            { "id": "p1", "left": "Police station", "right": "Comisaría" },
-            { "id": "p2", "left": "Post office", "right": "Oficina de correos" },
-            { "id": "p3", "left": "Pharmacy", "right": "Farmacia" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U19_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pueblo'?",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "July and August are very hot. February is the shortest month. There are twelve months in a year.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "o1", "text": "Town" },
-            { "id": "o2", "text": "Tower" },
-            { "id": "o3", "text": "Total" }
+            {
+              "id": "o1",
+              "text": "Months & Dates"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U19_I24",
-          "type": "transformation",
-          "prompt_es": "Completa: 'The ________ (cine) is big.'",
-          "stimulus_en": "The ________ is big.",
-          "correct_answer": "cinema",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "reading"
         }
       ]
     }

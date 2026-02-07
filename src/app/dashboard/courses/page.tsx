@@ -74,7 +74,7 @@ export default function CourseCatalogPage() {
                       {line.levels.map((level) => (
                         <Link
                           key={level}
-                          href={`/dashboard/${line.goal}/${level.toLowerCase()}`}
+                          href={line.id === 'traveler' && level === 'A1' ? '/curso/ingles-a1' : `/dashboard/${line.goal}/${level.toLowerCase()}`}
                           className="px-6 py-2 bg-slate-100 hover:bg-coral-500 hover:text-white rounded-full font-bold transition-all"
                         >
                           Nivel {level}

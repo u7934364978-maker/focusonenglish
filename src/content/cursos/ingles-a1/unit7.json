@@ -1,272 +1,359 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U7",
+    "unit_id": "unit7",
     "unit_title": "Colors & Describing Things",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Colors & Describing Things"
+  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Basic Colors",
+      "block_id": "B7",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U7_I1",
-          "type": "matching",
-          "prompt_es": "Asocia los colores:",
-          "pairs": [
-            { "id": "p1", "left": "Red", "right": "Rojo" },
-            { "id": "p2", "left": "Blue", "right": "Azul" },
-            { "id": "p3", "left": "Green", "right": "Verde" },
-            { "id": "p4", "left": "Yellow", "right": "Amarillo" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azul'?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "White"
+            },
+            {
+              "id": "o1",
+              "text": "Blue"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con el color: 'The sky is ________'",
-          "stimulus_en": "The sky is ________.",
-          "correct_answer": "blue",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p3",
+              "left": "Big",
+              "right": "Grande"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Blanco'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "o1", "text": "White" },
-            { "id": "o2", "text": "Black" },
-            { "id": "o3", "text": "Wait" }
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Una manzana roja'",
-          "stimulus_es": "Una manzana roja",
-          "correct_answer": "A red apple",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The white house is beautiful.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I5",
-          "type": "true_false",
-          "prompt_es": "¿En inglés el adjetivo va después del sustantivo?",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "grass" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "green" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I7",
-          "type": "matching",
-          "prompt_es": "Más colores:",
-          "pairs": [
-            { "id": "p1", "left": "Black", "right": "Negro" },
-            { "id": "p2", "left": "White", "right": "Blanco" },
-            { "id": "p3", "left": "Orange", "right": "Naranja" },
-            { "id": "p4", "left": "Purple", "right": "Morado" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Small",
+          "correct_answer": "Pequeño",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I8",
-          "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
-          "stimulus_en": "What ________ is your car? It is black.",
-          "correct_answer": "color",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Small"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "White"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Descriptive Adjectives",
-      "content": [
+        },
         {
           "interaction_id": "U7_I9",
-          "type": "matching",
-          "prompt_es": "Adjetivos opuestos:",
-          "pairs": [
-            { "id": "p1", "left": "Big", "right": "Grande" },
-            { "id": "p2", "left": "Small", "right": "Pequeño" },
-            { "id": "p3", "left": "New", "right": "Nuevo" },
-            { "id": "p4", "left": "Old", "right": "Viejo" }
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "That is a very small dog. The grass is green. My favorite color is yellow.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Colors & Describing Things"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U7_I10",
-          "type": "transformation",
-          "prompt_es": "Completa con el adjetivo correcto: 'A giraffe is ________'",
-          "stimulus_en": "A giraffe is ________.",
-          "correct_answer": "tall",
-          "mastery_tag": "vocabulary"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/3f538d34cc98e091100385c404474d25.mp3",
+          "text": "I have a new computer.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U7_I11",
+          "type": "word-search",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
+        },
+        {
+          "interaction_id": "U7_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hermoso'?",
+          "prompt_es": "¿Cómo se dice 'Verde'?",
           "options": [
-            { "id": "o1", "text": "Beautiful" },
-            { "id": "o2", "text": "Ugly" },
-            { "id": "o3", "text": "Better" }
+            {
+              "id": "o1",
+              "text": "Green"
+            },
+            {
+              "id": "o3",
+              "text": "Big"
+            },
+            {
+              "id": "o2",
+              "text": "Blue"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I12",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi casa es pequeña'",
-          "stimulus_es": "Mi casa es pequeña",
-          "correct_answer": "My house is small",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U7_I13",
-          "type": "true_false",
-          "prompt_es": "¿Los adjetivos en inglés tienen forma plural? (Ej: 'Bigs')",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p3",
+              "left": "Yellow",
+              "right": "Amarillo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I14",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "These" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "expensive" },
-            { "id": "w4", "text": "shoes" }
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I15",
-          "type": "matching",
-          "pairs": [
-            { "id": "p1", "left": "Hot", "right": "Caliente" },
-            { "id": "p2", "left": "Cold", "right": "Frío" },
-            { "id": "p3", "left": "Fast", "right": "Rápido" },
-            { "id": "p4", "left": "Slow", "right": "Lento" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I16",
-          "type": "transformation",
-          "prompt_es": "Completa con el opuesto de 'cold':",
-          "stimulus_en": "The coffee is ________.",
-          "correct_answer": "hot",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Practice Describing",
-      "content": [
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "It is an (antiguo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
         {
           "interaction_id": "U7_I17",
-          "type": "matching",
-          "pairs": [
-            { "id": "p1", "left": "Brown", "right": "Marrón" },
-            { "id": "p2", "left": "Pink", "right": "Rosa" },
-            { "id": "p3", "left": "Grey", "right": "Gris" },
-            { "id": "p4", "left": "Dark", "right": "Oscuro" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Blanco",
+          "correct_answer": "White",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la frase correcta?",
-          "options": [
-            { "id": "o1", "text": "A blue pen" },
-            { "id": "o2", "text": "A pen blue" },
-            { "id": "o3", "text": "Blue a pen" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Red",
+          "correct_answer": "Rojo",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I19",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo un coche viejo'",
-          "stimulus_es": "Tengo un coche viejo",
-          "correct_answer": "I have an old car",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Big"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Old"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I20",
-          "type": "true_false",
-          "prompt_es": "¿'Tall' significa 'Bajo'?",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I21",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The white house is beautiful. My favorite color is yellow. The grass is green.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "it" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "new" },
-            { "id": "w5", "text": "computer?" }
+            {
+              "id": "o1",
+              "text": "Colors & Describing Things"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U7_I22",
-          "type": "transformation",
-          "prompt_es": "Escribe el color: 'The banana is ________'",
-          "stimulus_en": "The banana is ________.",
-          "correct_answer": "yellow",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I23",
-          "type": "matching",
-          "pairs": [
-            { "id": "p1", "left": "Strong", "right": "Fuerte" },
-            { "id": "p2", "left": "Weak", "right": "Débil" },
-            { "id": "p3", "left": "Easy", "right": "Fácil" },
-            { "id": "p4", "left": "Difficult", "right": "Difícil" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I24",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Este ejercicio es fácil'",
-          "stimulus_es": "Este ejercicio es fácil",
-          "correct_answer": "This exercise is easy",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         }
       ]
     }

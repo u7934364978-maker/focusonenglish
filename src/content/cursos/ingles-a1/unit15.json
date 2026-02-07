@@ -1,263 +1,364 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U15",
+    "unit_id": "unit15",
     "unit_title": "Present Simple: He, She, It",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Present Simple: He, She, It"
+  ],
   "blocks": [
     {
       "block_id": "B15",
-      "title": "The 3rd Person Singular Rule",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U15_I1",
-          "type": "matching",
-          "prompt_es": "Une el verbo base con su forma de 3ª persona (he/she/it):",
-          "pairs": [
-            { "id": "p1", "left": "Work", "right": "Works" },
-            { "id": "p2", "left": "Go", "right": "Goes" },
-            { "id": "p3", "left": "Study", "right": "Studies" },
-            { "id": "p4", "left": "Have", "right": "Has" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estudia'?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Plays"
+            },
+            {
+              "id": "o1",
+              "text": "Studies"
+            },
+            {
+              "id": "o3",
+              "text": "Sees"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase correcta:",
-          "options": [
-            { "id": "o1", "text": "She play the guitar." },
-            { "id": "o2", "text": "She plays the guitar." },
-            { "id": "o3", "text": "She playes the guitar." }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sees",
+              "right": "Ve"
+            },
+            {
+              "id": "p1",
+              "left": "Wants",
+              "right": "Quiere"
+            },
+            {
+              "id": "p2",
+              "left": "Works",
+              "right": "Trabaja"
+            },
+            {
+              "id": "p3",
+              "left": "Has",
+              "right": "Tiene"
+            }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Él trabaja en una oficina'",
-          "stimulus_es": "Él trabaja en una oficina",
-          "correct_answer": "He works in an office",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "day"
+            },
+            {
+              "id": "w5",
+              "text": "every"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "gym"
+            },
+            {
+              "id": "w1",
+              "text": "goes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U15_I4",
-          "type": "transformation",
-          "prompt_es": "Cambia a 3ª persona: 'I go to school' -> 'He ________ to school'",
-          "stimulus_en": "He ________ to school.",
-          "correct_answer": "goes",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"She speaks three languages.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
-          "options": [
-            { "id": "o1", "text": "He doesn't works here." },
-            { "id": "o2", "text": "He doesn't work here." },
-            { "id": "o3", "text": "He don't work here." }
-          ],
-          "correct_answer": "o2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He (no - gustar) ________ coffee.",
+          "correct_answer": "doesn't like",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella no vive en Madrid'",
-          "options": [
-            { "id": "w1", "text": "doesn't" },
-            { "id": "w2", "text": "live" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "Madrid" },
-            { "id": "w0", "text": "She" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Estudia",
+          "correct_answer": "Studies",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I7",
-          "type": "true_false",
-          "prompt_es": "En las frases negativas con 'doesn't', el verbo principal NO lleva 's'.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Goes",
+          "correct_answer": "Va",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se pregunta '¿Ella habla inglés?'?",
-          "options": [
-            { "id": "o1", "text": "Does she speaks English?" },
-            { "id": "o2", "text": "Does she speak English?" },
-            { "id": "o3", "text": "Do she speak English?" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Wants"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Studies"
+              ]
+            }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I9",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Él tiene un perro'",
-          "stimulus_es": "Él tiene un perro",
-          "correct_answer": "He has a dog",
-          "mastery_tag": "syntax"
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "My brother works in London. She wants a new computer. He goes to the gym every day.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Present Simple: He, She, It"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U15_I10",
-          "type": "matching",
-          "prompt_es": "Une el sujeto con el auxiliar negativo:",
-          "pairs": [
-            { "id": "p1", "left": "I / You / We / They", "right": "Don't" },
-            { "id": "p2", "left": "He / She / It", "right": "Doesn't" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "grammar"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f859c87effe99aef5d563fa198972e42.mp3",
+          "text": "She speaks three languages.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U15_I11",
-          "type": "transformation",
-          "prompt_es": "Completa con 's', 'es' o 'ies' (She ________ TV):",
-          "stimulus_en": "She watch________ TV every night.",
-          "correct_answer": "es",
-          "mastery_tag": "grammar"
+          "type": "word-search",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U15_I12",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Le gusta a él el café?'",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ve'?",
           "options": [
-            { "id": "w1", "text": "he" },
-            { "id": "w2", "text": "like" },
-            { "id": "w3", "text": "coffee" },
-            { "id": "w0", "text": "Does" }
+            {
+              "id": "o1",
+              "text": "Sees"
+            },
+            {
+              "id": "o3",
+              "text": "Works"
+            },
+            {
+              "id": "o2",
+              "text": "Plays"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta para 'it'?",
-          "options": [
-            { "id": "o1", "text": "The cat drink milk." },
-            { "id": "o2", "text": "The cat drinks milk." },
-            { "id": "o3", "text": "The cat drinkes milk." }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Plays",
+              "right": "Juega"
+            },
+            {
+              "id": "p1",
+              "left": "Studies",
+              "right": "Estudia"
+            },
+            {
+              "id": "p2",
+              "left": "Likes",
+              "right": "Le gusta"
+            },
+            {
+              "id": "p3",
+              "left": "Sees",
+              "right": "Ve"
+            }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I14",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "speaks"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "languages"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U15_I15",
           "type": "true_false",
-          "prompt_es": "El verbo 'Have' es irregular y cambia a 'Has' en 3ª persona.",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He goes to the gym every day.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U15_I15",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella estudia medicina'",
-          "stimulus_es": "Ella estudia medicina",
-          "correct_answer": "She studies medicine",
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U15_I16",
-          "type": "matching",
-          "prompt_es": "Reglas de ortografía (añadir...):",
-          "pairs": [
-            { "id": "p1", "left": "Play", "right": "+ s (Plays)" },
-            { "id": "p2", "left": "Watch", "right": "+ es (Watches)" },
-            { "id": "p3", "left": "Fly", "right": "-y + ies (Flies)" },
-            { "id": "p4", "left": "Do", "right": "+ es (Does)" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She (estudiar) ________ history.",
+          "correct_answer": "studies",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I17",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase negativa correcta:",
-          "options": [
-            { "id": "o1", "text": "It doesn't rain much here." },
-            { "id": "o2", "text": "It don't rain much here." },
-            { "id": "o3", "text": "It doesn't rains much here." }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ve",
+          "correct_answer": "Sees",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I18",
-          "type": "transformation",
-          "prompt_es": "Completa la pregunta: '________ he play tennis?'",
-          "stimulus_en": "________ he play tennis?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Studies",
+          "correct_answer": "Estudia",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I19",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi padre cocina muy bien'",
-          "options": [
-            { "id": "w1", "text": "father" },
-            { "id": "w2", "text": "cooks" },
-            { "id": "w3", "text": "very" },
-            { "id": "w4", "text": "well" },
-            { "id": "w0", "text": "My" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Goes"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Sees"
+              ]
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I20",
-          "type": "true_false",
-          "prompt_es": "Usamos 'Does' para hacer preguntas en 3ª persona singular.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I21",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella va al gimnasio'",
-          "stimulus_es": "Ella va al gimnasio",
-          "correct_answer": "She goes to the gym",
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U15_I22",
-          "type": "matching",
-          "prompt_es": "Relaciona sujeto y verbo:",
-          "pairs": [
-            { "id": "p1", "left": "He", "right": "Wants" },
-            { "id": "p2", "left": "She", "right": "Needs" },
-            { "id": "p3", "left": "It", "right": "Works" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la 3ª persona de 'Finish'?",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "He goes to the gym every day. She speaks three languages. My brother works in London.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "o1", "text": "Finishs" },
-            { "id": "o2", "text": "Finishes" },
-            { "id": "o3", "text": "Finishies" }
+            {
+              "id": "o1",
+              "text": "Present Simple: He, She, It"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I24",
-          "type": "transformation",
-          "prompt_es": "Completa: 'A mi hermana le gusta la pizza'",
-          "stimulus_en": "My sister ________ pizza.",
-          "correct_answer": "likes",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         }
       ]
     }

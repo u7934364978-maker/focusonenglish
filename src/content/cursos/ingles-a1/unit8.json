@@ -1,136 +1,219 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U8",
+    "unit_id": "unit8",
     "unit_title": "Numbers 20-100",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Numbers 20-100"
+  ],
   "blocks": [
     {
       "block_id": "B8",
-      "title": "Numbers 20-100",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U8_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            { "id": "p0", "left": "Ninety", "right": "Noventa" },
-            { "id": "p1", "left": "Twenty", "right": "Veinte" },
-            { "id": "p2", "left": "Fifty", "right": "Cincuenta" },
-            { "id": "p3", "left": "One hundred", "right": "Cien" }
-          ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The number is (cuarenta y cinco) ________.",
-          "correct_answer": "forty-five",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He is forty-two years old.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "Seventy" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "big" },
-            { "id": "w4", "text": "number" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Treinta y tres",
-          "correct_answer": "Thirty-three",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sesenta' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Sesenta'?",
           "options": [
-            { "id": "o1", "text": "Sixty" },
-            { "id": "o2", "text": "Sixteen" },
-            { "id": "o3", "text": "Six" }
+            {
+              "id": "o3",
+              "text": "Forty"
+            },
+            {
+              "id": "o2",
+              "text": "Fifty"
+            },
+            {
+              "id": "o1",
+              "text": "Sixty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I7",
+          "interaction_id": "U8_I2",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Price", "right": "Precio" },
-            { "id": "p1", "left": "Age", "right": "Edad" },
-            { "id": "p2", "left": "Quantity", "right": "Cantidad" },
-            { "id": "p3", "left": "Total", "right": "Total" }
+            {
+              "id": "p0",
+              "left": "Forty",
+              "right": "Cuarenta"
+            },
+            {
+              "id": "p1",
+              "left": "Fifty",
+              "right": "Cincuenta"
+            },
+            {
+              "id": "p2",
+              "left": "One hundred",
+              "right": "Cien"
+            },
+            {
+              "id": "p3",
+              "left": "Thirty",
+              "right": "Treinta"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "hundred"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w1",
+              "text": "book"
+            },
+            {
+              "id": "w5",
+              "text": "pages"
+            },
+            {
+              "id": "w3",
+              "text": "one"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U8_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Seventy are a big number.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "The number is (cuarenta y cinco) ________.",
+          "correct_answer": "forty-five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Noventa",
+          "correct_answer": "Ninety",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Eighty",
+          "correct_answer": "Ochenta",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I have (ochenta) ________ books.",
-          "correct_answer": "eighty",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Thirty"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "One hundred"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The price is twenty-five dollars.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "I have fifty dollars in my wallet. There are thirty students here. He is forty-two years old.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Numbers 20-100"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U14_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "There" },
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "fifty" },
-            { "id": "w3", "text": "students" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "interaction_id": "U8_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/e3bbc671a0cfdd01daf6b178de622fc3.mp3",
+          "text": "He is forty-two years old.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U8_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Setenta y ocho",
-          "correct_answer": "Seventy-eight",
-          "mastery_tag": "vocabulary"
+          "type": "crossword",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U8_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ochenta' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Setenta'?",
           "options": [
-            { "id": "o1", "text": "Eighty" },
-            { "id": "o2", "text": "Eighteen" },
-            { "id": "o3", "text": "Eight" }
+            {
+              "id": "o2",
+              "text": "Twenty"
+            },
+            {
+              "id": "o1",
+              "text": "Seventy"
+            },
+            {
+              "id": "o3",
+              "text": "Eighty"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -138,63 +221,144 @@
         {
           "interaction_id": "U8_I13",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Forty", "right": "Cuarenta" },
-            { "id": "p1", "left": "Sixty", "right": "Sesenta" },
-            { "id": "p2", "left": "Seventy", "right": "Setenta" },
-            { "id": "p3", "left": "Eighty", "right": "Ochenta" }
+            {
+              "id": "p0",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p1",
+              "left": "Seventy",
+              "right": "Setenta"
+            },
+            {
+              "id": "p2",
+              "left": "Sixty",
+              "right": "Sesenta"
+            },
+            {
+              "id": "p3",
+              "left": "Fifty",
+              "right": "Cincuenta"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I14",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The bus has (treinta) ________ seats.",
-          "correct_answer": "thirty",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "big"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Seventy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I have sixty-one euros.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I have fifty dollars in my wallet.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "We" },
-            { "id": "w1", "text": "need" },
-            { "id": "w2", "text": "ninety" },
-            { "id": "w3", "text": "pages" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "The number is (cuarenta y cinco) ________.",
+          "correct_answer": "forty-five",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cien por cien",
-          "correct_answer": "One hundred percent",
+          "stimulus_es": "Sesenta",
+          "correct_answer": "Sixty",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cincuenta' en inglés?",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Twenty",
+          "correct_answer": "Veinte",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I19",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Fifty"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Price"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I20",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The book has one hundred pages. He is forty-two years old. There are thirty students here.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "o1", "text": "Fifty" },
-            { "id": "o2", "text": "Fifteen" },
-            { "id": "o3", "text": "Five" }
+            {
+              "id": "o1",
+              "text": "Numbers 20-100"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "reading"
         }
       ]
     }

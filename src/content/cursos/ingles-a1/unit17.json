@@ -1,263 +1,364 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U17",
+    "unit_id": "unit17",
     "unit_title": "Breakfast, Lunch & Dinner",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Breakfast, Lunch & Dinner"
+  ],
   "blocks": [
     {
       "block_id": "B17",
-      "title": "Meals and Food",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U17_I1",
-          "type": "matching",
-          "prompt_es": "Une cada comida con su traducción:",
-          "pairs": [
-            { "id": "p1", "left": "Breakfast", "right": "Desayuno" },
-            { "id": "p2", "left": "Lunch", "right": "Almuerzo/Comida" },
-            { "id": "p3", "left": "Dinner", "right": "Cena" },
-            { "id": "p4", "left": "Snack", "right": "Merienda/Tentempié" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fruta'?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Chicken"
+            },
+            {
+              "id": "o2",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o1",
+              "text": "Fruit"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el alimento típico del desayuno?",
-          "options": [
-            { "id": "o1", "text": "Cereal" },
-            { "id": "o2", "text": "Pizza" },
-            { "id": "o3", "text": "Steak" }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p1",
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p2",
+              "left": "Soup",
+              "right": "Sopa"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Como una manzana'",
-          "stimulus_es": "Como una manzana",
-          "correct_answer": "I eat an apple",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "important"
+            },
+            {
+              "id": "w0",
+              "text": "Breakfast"
+            },
+            {
+              "id": "w5",
+              "text": "meal"
+            },
+            {
+              "id": "w3",
+              "text": "most"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U17_I4",
-          "type": "matching",
-          "prompt_es": "Alimentos básicos:",
-          "pairs": [
-            { "id": "p1", "left": "Bread", "right": "Pan" },
-            { "id": "p2", "left": "Egg", "right": "Huevo" },
-            { "id": "p3", "left": "Rice", "right": "Arroz" },
-            { "id": "p4", "left": "Fish", "right": "Pescado" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I5",
-          "type": "transformation",
-          "prompt_es": "Completa con el verbo 'tener/tomar' para comidas:",
-          "stimulus_en": "I ________ chicken for dinner.",
-          "correct_answer": "have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U17_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Bebo zumo de naranja'",
-          "options": [
-            { "id": "w1", "text": "orange" },
-            { "id": "w2", "text": "juice" },
-            { "id": "w0", "text": "I drink" }
-          ],
-          "correct_answer": ["w0", "w1", "w2"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U17_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Vegetables'?",
-          "options": [
-            { "id": "o1", "text": "Verduras" },
-            { "id": "o2", "text": "Frutas" },
-            { "id": "o3", "text": "Carne" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I8",
           "type": "true_false",
-          "prompt_es": "En inglés, es común usar el verbo 'have' para decir que comes o bebes algo.",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Breakfast is the most important meal.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U17_I9",
+          "interaction_id": "U17_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She (no - gustar) ________ fish.",
+          "correct_answer": "doesn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I6",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Pollo y arroz'",
-          "stimulus_es": "Pollo y arroz",
-          "correct_answer": "Chicken and rice",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cereal",
+          "correct_answer": "Cereal",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Cereal",
+          "correct_answer": "Cereal",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Cereal"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Soup"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "We eat a lot of fruit. They eat dinner at 8 o'clock. Breakfast is the most important meal.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Breakfast, Lunch & Dinner"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U17_I10",
-          "type": "transformation",
-          "prompt_es": "Completa: '________ you have breakfast?' (¿Desayunas?)",
-          "stimulus_en": "Do ________?",
-          "correct_answer": "you have breakfast",
-          "mastery_tag": "phrases"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4dc684fbfa925e9270ed63a1494f7271.mp3",
+          "text": "He likes eggs and toast.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U17_I11",
-          "type": "matching",
-          "prompt_es": "Ingredientes comunes:",
-          "pairs": [
-            { "id": "p1", "left": "Cheese", "right": "Queso" },
-            { "id": "p2", "left": "Tomato", "right": "Tomate" },
-            { "id": "p3", "left": "Potato", "right": "Patata" },
-            { "id": "p4", "left": "Meat", "right": "Carne" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "word-search",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U17_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ensalada'?",
+          "prompt_es": "¿Cómo se dice 'Pan'?",
           "options": [
-            { "id": "o1", "text": "Salad" },
-            { "id": "o2", "text": "Salt" },
-            { "id": "o3", "text": "Soup" }
+            {
+              "id": "o3",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o2",
+              "text": "Fish"
+            },
+            {
+              "id": "o1",
+              "text": "Bread"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Cenamos a las ocho'",
-          "options": [
-            { "id": "w1", "text": "have" },
-            { "id": "w2", "text": "dinner" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "8" },
-            { "id": "w0", "text": "We" }
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cereal",
+              "right": "Cereal"
+            },
+            {
+              "id": "p1",
+              "left": "Soup",
+              "right": "Sopa"
+            },
+            {
+              "id": "p2",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p3",
+              "left": "Chicken",
+              "right": "Pollo"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I14",
-          "type": "true_false",
-          "prompt_es": "'Healthy food' significa 'Comida basura'.",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I15",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Pasta con tomate'",
-          "stimulus_es": "Pasta con tomate",
-          "correct_answer": "Pasta with tomato",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "eggs"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "toast"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U17_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"They eat dinner at 8 o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
           "interaction_id": "U17_I16",
-          "type": "matching",
-          "prompt_es": "Relaciona:",
-          "pairs": [
-            { "id": "p1", "left": "Eat", "right": "Comer" },
-            { "id": "p2", "left": "Drink", "right": "Beber" },
-            { "id": "p3", "left": "Cook", "right": "Cocinar" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "They (beber) ________ water with lunch.",
+          "correct_answer": "drink",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U17_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es una fruta?",
-          "options": [
-            { "id": "o1", "text": "Banana" },
-            { "id": "o2", "text": "Carrot" },
-            { "id": "o3", "text": "Onion" }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I18",
-          "type": "transformation",
-          "prompt_es": "Completa: 'Tomo ________ (té) para desayunar'",
-          "stimulus_en": "I have ________ for breakfast.",
-          "correct_answer": "tea",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Egg",
+          "correct_answer": "Huevo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I19",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Qué comes tú?'",
-          "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "eat?" },
-            { "id": "w0", "text": "What" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Egg"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Soup"
+              ]
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I20",
-          "type": "true_false",
-          "prompt_es": "'Milk' es un tipo de carne.",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I21",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'Pan' en inglés:",
-          "stimulus_es": "Pan",
-          "correct_answer": "Bread",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I22",
-          "type": "matching",
-          "prompt_es": "Combos comunes:",
-          "pairs": [
-            { "id": "p1", "left": "Fish", "right": "Chips" },
-            { "id": "p2", "left": "Ham", "right": "Cheese" },
-            { "id": "p3", "left": "Bread", "right": "Butter" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Huevo'?",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "He likes eggs and toast. They eat dinner at 8 o'clock. I usually have a sandwich for lunch.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "o1", "text": "Egg" },
-            { "id": "o2", "text": "Eye" },
-            { "id": "o3", "text": "Ear" }
+            {
+              "id": "o1",
+              "text": "Breakfast, Lunch & Dinner"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I24",
-          "type": "transformation",
-          "prompt_es": "Completa: 'Mi plato favorito es ________ (pizza)'",
-          "stimulus_en": "My favorite dish is ________.",
-          "correct_answer": "pizza",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "reading"
         }
       ]
     }

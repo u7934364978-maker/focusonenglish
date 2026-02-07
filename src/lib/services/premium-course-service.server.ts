@@ -123,6 +123,14 @@ export const premiumCourseServerService = {
 
   async getUnitData(courseId: string, unitId: string): Promise<UnitData | null> {
     try {
+      // First try in src/content/cursos/ (modern path)
+      const contentPath = path.join(process.cwd(), 'src', 'content', 'cursos', courseId, `${unitId}.json`);
+      if (fs.existsSync(contentPath)) {
+        const fileContent = fs.readFileSync(contentPath, 'utf8');
+        return JSON.parse(fileContent);
+      }
+
+      // Then try in src/data/courses/ (legacy path)
       const filePath = path.join(process.cwd(), 'src', 'data', 'courses', courseId, `${unitId}.json`);
       if (fs.existsSync(filePath)) {
         const fileContent = fs.readFileSync(filePath, 'utf8');

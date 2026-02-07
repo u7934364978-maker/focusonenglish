@@ -4,7 +4,7 @@ import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { createClient } from '@/lib/supabase/client';
 import Link from 'next/link';
-import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
+import { Trophy, Play, CheckCircle2, LayoutGrid, Target } from 'lucide-react';
 
 export default async function A1CoursePage() {
   const supabase = await createClient();

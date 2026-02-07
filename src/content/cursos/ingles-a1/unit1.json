@@ -1,135 +1,209 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U1",
+    "unit_id": "unit1",
     "unit_title": "Hello! Introductions",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Hello! Introductions"
+  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Hello! Introductions",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U1_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            { "id": "p0", "left": "Good afternoon", "right": "Buenas tardes" },
-            { "id": "p1", "left": "Good morning", "right": "Buenos días" },
-            { "id": "p2", "left": "Good evening", "right": "Buenas noches (saludo)" },
-            { "id": "p3", "left": "Goodbye", "right": "Adiós" }
-          ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (ser/estar - yo) ________ from Spain.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am from London.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "today?" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Profesor/a",
-          "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hola (informal)' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Buenas tardes'?",
           "options": [
-            { "id": "o1", "text": "Hi" },
-            { "id": "o2", "text": "Hello" },
-            { "id": "o3", "text": "Bye" }
+            {
+              "id": "o3",
+              "text": "Teacher"
+            },
+            {
+              "id": "o1",
+              "text": "Good afternoon"
+            },
+            {
+              "id": "o2",
+              "text": "Good evening"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I7",
+          "interaction_id": "U1_I2",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Student", "right": "Estudiante" },
-            { "id": "p1", "left": "Name", "right": "Nombre" },
-            { "id": "p2", "left": "Friend", "right": "Amigo/a" },
-            { "id": "p3", "left": "Classmate", "right": "Compañero/a de clase" }
+            {
+              "id": "p0",
+              "left": "Goodbye",
+              "right": "Adiós"
+            },
+            {
+              "id": "p1",
+              "left": "Hi",
+              "right": "Hola (informal)"
+            },
+            {
+              "id": "p2",
+              "left": "Good morning",
+              "right": "Buenos días"
+            },
+            {
+              "id": "p3",
+              "left": "Bye",
+              "right": "Chao"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "name"
+            },
+            {
+              "id": "w3",
+              "text": "Carlos"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U1_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My nise are Carlos.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "You (ser/estar - tú) ________ my teacher.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Buenas noches (despedida)",
+          "correct_answer": "Good night",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U1_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Bye",
+          "correct_answer": "Chao",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (ser/estar - él) ________ my friend.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Teacher"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Hi"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Nice to meet you.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "Good morning, class. I am a student. Nice to meet you.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hello! Introductions"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U1_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "My" },
-            { "id": "w1", "text": "name" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "John" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/b2f0053ade578fcb50d2297290531a4e.mp3",
+          "text": "I am from London.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U1_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Encantado/a de conocerte",
-          "correct_answer": "Pleased to meet you",
-          "mastery_tag": "vocabulary"
+          "type": "word-search",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U1_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Adiós' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Chao'?",
           "options": [
-            { "id": "o1", "text": "Goodbye" },
-            { "id": "o2", "text": "Welcome" },
-            { "id": "o3", "text": "Please" }
+            {
+              "id": "o1",
+              "text": "Bye"
+            },
+            {
+              "id": "o2",
+              "text": "Good afternoon"
+            },
+            {
+              "id": "o3",
+              "text": "Hi"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -137,127 +211,139 @@
         {
           "interaction_id": "U1_I13",
           "type": "matching",
-          "prompt_es": "Une el país con su nombre en inglés:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Spain", "right": "España" },
-            { "id": "p1", "left": "England", "right": "Inglaterra" },
-            { "id": "p2", "left": "France", "right": "Francia" },
-            { "id": "p3", "left": "Germany", "right": "Alemania" }
+            {
+              "id": "p0",
+              "left": "Goodbye",
+              "right": "Adiós"
+            },
+            {
+              "id": "p1",
+              "left": "Good night",
+              "right": "Buenas noches (despedida)"
+            },
+            {
+              "id": "p2",
+              "left": "Name",
+              "right": "Nombre"
+            },
+            {
+              "id": "p3",
+              "left": "Student",
+              "right": "Estudiante"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I14",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar - ellos) ________ from Mexico.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "teacher"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U1_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Where are you from?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"She is my teacher.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U1_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            { "id": "w0", "text": "She" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "new" },
-            { "id": "w4", "text": "student" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "What (ser/estar - ello) ________ your name?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U1_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "¿Cuál es tu nombre?",
-          "correct_answer": "What is your name?",
+          "stimulus_es": "Hola",
+          "correct_answer": "Hello",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bienvenido/a' en inglés?",
-          "options": [
-            { "id": "o1", "text": "Welcome" },
-            { "id": "o2", "text": "Hello" },
-            { "id": "o3", "text": "Thanks" }
-          ],
-          "correct_answer": "o1",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Name",
+          "correct_answer": "Nombre",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I19",
-          "type": "matching",
-          "prompt_es": "Une el saludo con el momento del día:",
-          "pairs": [
-            { "id": "p0", "left": "Good morning", "right": "Morning" },
-            { "id": "p1", "left": "Good afternoon", "right": "Afternoon" },
-            { "id": "p2", "left": "Good evening", "right": "Evening" },
-            { "id": "p3", "left": "Good night", "right": "Night (bedtime)" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Good afternoon"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Good night"
+              ]
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I20",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "You (ser/estar - tú) ________ very kind.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am fine, thank you.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "My name is Carlos. He is my best friend. I am a student.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "w0", "text": "It" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "nice" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "be" },
-            { "id": "w5", "text": "here" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I23",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "¿De dónde eres?",
-          "correct_answer": "Where are you from?",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mucho gusto' en inglés?",
-          "options": [
-            { "id": "o1", "text": "Nice to meet you" },
-            { "id": "o2", "text": "See you later" },
-            { "id": "o3", "text": "Good luck" }
+            {
+              "id": "o1",
+              "text": "Hello! Introductions"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "reading"
         }
       ]
     }

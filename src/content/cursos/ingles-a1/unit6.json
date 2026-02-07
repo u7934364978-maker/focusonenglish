@@ -1,276 +1,369 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U6",
+    "unit_id": "unit6",
     "unit_title": "Family Members",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Family Members"
+  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Immediate Family",
+      "block_id": "B6",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U6_I1",
-          "type": "matching",
-          "prompt_es": "Asocia los miembros de la familia:",
-          "pairs": [
-            { "id": "p1", "left": "Father", "right": "Padre" },
-            { "id": "p2", "left": "Mother", "right": "Madre" },
-            { "id": "p3", "left": "Brother", "right": "Hermano" },
-            { "id": "p4", "left": "Sister", "right": "Hermana" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hija'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Daughter"
+            },
+            {
+              "id": "o2",
+              "text": "Son"
+            },
+            {
+              "id": "o3",
+              "text": "Sister"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con el posesivo (My, Your, His, Her):",
-          "stimulus_en": "She is a doctor. ________ name is Elena.",
-          "correct_answer": "Her",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Father",
+              "right": "Padre"
+            },
+            {
+              "id": "p1",
+              "left": "Brother",
+              "right": "Hermano"
+            },
+            {
+              "id": "p2",
+              "left": "Grandmother",
+              "right": "Abuela"
+            },
+            {
+              "id": "p3",
+              "left": "Mother",
+              "right": "Madre"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hijo'?",
-          "options": [
-            { "id": "o1", "text": "Son" },
-            { "id": "o2", "text": "Sun" },
-            { "id": "o3", "text": "Daughter" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi hermano es alto'",
-          "stimulus_es": "Mi hermano es alto",
-          "correct_answer": "My brother is tall",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I5",
-          "type": "true_false",
-          "prompt_es": "¿'Parents' significa 'Parientes'?",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I6",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "His" },
-            { "id": "w2", "text": "father" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "work" }
+            {
+              "id": "w5",
+              "text": "or"
+            },
+            {
+              "id": "w4",
+              "text": "brothers"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "sisters"
+            },
+            {
+              "id": "w3",
+              "text": "any"
+            },
+            {
+              "id": "w0",
+              "text": "Do"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U6_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My fisily are very small.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "They are (su - de ellos) ________ children.",
+          "correct_answer": "their",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Madre",
+          "correct_answer": "Mother",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U6_I7",
-          "type": "matching",
-          "prompt_es": "Más familia:",
-          "pairs": [
-            { "id": "p1", "left": "Son", "right": "Hijo" },
-            { "id": "p2", "left": "Daughter", "right": "Hija" },
-            { "id": "p3", "left": "Baby", "right": "Bebé" },
-            { "id": "p4", "left": "Parents", "right": "Padres" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Son",
+          "correct_answer": "Hijo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con el posesivo (He -> His):",
-          "stimulus_en": "Mark is here. ________ brother is here too.",
-          "correct_answer": "His",
-          "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Extended Family",
-      "content": [
-        {
-          "interaction_id": "U6_I9",
-          "type": "matching",
-          "pairs": [
-            { "id": "p1", "left": "Grandfather", "right": "Abuelo" },
-            { "id": "p2", "left": "Grandmother", "right": "Abuela" },
-            { "id": "p3", "left": "Uncle", "right": "Tío" },
-            { "id": "p4", "left": "Aunt", "right": "Tía" }
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Grandfather"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Mother"
+              ]
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U6_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "His father is a doctor. Our grandmother is eighty years old. My family is very small.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Family Members"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
           "interaction_id": "U6_I10",
-          "type": "transformation",
-          "prompt_es": "Completa con 'Our' o 'Their':",
-          "stimulus_en": "We are a big family. ________ house is small.",
-          "correct_answer": "Our",
-          "mastery_tag": "grammar"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/c3941fab4505d06c436dda8d6137de54.mp3",
+          "text": "Do you have any brothers or sisters?",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U6_I11",
+          "type": "crossword",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
+        },
+        {
+          "interaction_id": "U6_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Primos'?",
+          "prompt_es": "¿Cómo se dice 'Hijo'?",
           "options": [
-            { "id": "o1", "text": "Cousins" },
-            { "id": "o2", "text": "Children" },
-            { "id": "o3", "text": "Friends" }
+            {
+              "id": "o1",
+              "text": "Son"
+            },
+            {
+              "id": "o3",
+              "text": "Family"
+            },
+            {
+              "id": "o2",
+              "text": "Grandmother"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I12",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi abuela es muy amable'",
-          "stimulus_es": "Mi abuela es muy amable",
-          "correct_answer": "My grandmother is very kind",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U6_I13",
-          "type": "true_false",
-          "prompt_es": "¿'Aunt' es el masculino de 'Uncle'?",
-          "correct_answer": false,
-          "mastery_tag": "logic"
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Daughter",
+              "right": "Hija"
+            },
+            {
+              "id": "p1",
+              "left": "Mother",
+              "right": "Madre"
+            },
+            {
+              "id": "p2",
+              "left": "Son",
+              "right": "Hijo"
+            },
+            {
+              "id": "p3",
+              "left": "Grandmother",
+              "right": "Abuela"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I14",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "Who" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "that" },
-            { "id": "w4", "text": "man?" }
+            {
+              "id": "w1",
+              "text": "sister"
+            },
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "student"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U6_I15",
-          "type": "matching",
-          "prompt_es": "Más parientes:",
-          "pairs": [
-            { "id": "p1", "left": "Cousin", "right": "Primo/a" },
-            { "id": "p2", "left": "Children", "right": "Hijos/Niños" },
-            { "id": "p3", "left": "Grandparents", "right": "Abuelos" },
-            { "id": "p4", "left": "Family", "right": "Familia" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Do you have any brothers or sareters?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U6_I16",
-          "type": "transformation",
-          "prompt_es": "Completa con el posesivo: 'They have a dog. ________ dog is big.'",
-          "stimulus_en": "They have a dog. ________ dog is big.",
-          "correct_answer": "Their",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "They are (su - de ellos) ________ children.",
+          "correct_answer": "their",
           "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Practice and Posessives",
-      "content": [
+        },
         {
           "interaction_id": "U6_I17",
-          "type": "matching",
-          "prompt_es": "Posesivos:",
-          "pairs": [
-            { "id": "p1", "left": "I", "right": "My" },
-            { "id": "p2", "left": "You", "right": "Your" },
-            { "id": "p3", "left": "We", "right": "Our" },
-            { "id": "p4", "left": "They", "right": "Their" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hermana",
+          "correct_answer": "Sister",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el posesivo de 'She'?",
-          "options": [
-            { "id": "o1", "text": "Her" },
-            { "id": "o2", "text": "His" },
-            { "id": "o3", "text": "Hers" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Grandmother",
+          "correct_answer": "Abuela",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I19",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está tu hermano?'",
-          "stimulus_es": "¿Dónde está tu hermano?",
-          "correct_answer": "Where is your brother?",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Baby"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Sister"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I20",
-          "type": "true_false",
-          "prompt_es": "¿'Our' significa 'Nuestro/a'?",
-          "correct_answer": true,
-          "mastery_tag": "translation"
-        },
-        {
-          "interaction_id": "U6_I21",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "His father is a doctor. My family is very small. Our grandmother is eighty years old.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "w1", "text": "Her" },
-            { "id": "w2", "text": "sister" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "ten" },
-            { "id": "w5", "text": "years" },
-            { "id": "w6", "text": "old" }
+            {
+              "id": "o1",
+              "text": "Family Members"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U6_I22",
-          "type": "transformation",
-          "prompt_es": "Completa con 'His' o 'Her': (de él)",
-          "stimulus_en": "John is happy. ________ car is new.",
-          "correct_answer": "His",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I23",
-          "type": "matching",
-          "prompt_es": "Más familia 2:",
-          "pairs": [
-            { "id": "p1", "left": "Husband", "right": "Esposo" },
-            { "id": "p2", "left": "Wife", "right": "Esposa" },
-            { "id": "p3", "left": "Man", "right": "Hombre" },
-            { "id": "p4", "left": "Woman", "right": "Mujer" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U6_I24",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella es mi madre'",
-          "stimulus_es": "Ella es mi madre",
-          "correct_answer": "She is my mother",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         }
       ]
     }

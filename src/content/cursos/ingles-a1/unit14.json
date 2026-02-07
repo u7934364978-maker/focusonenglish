@@ -1,136 +1,209 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U14",
+    "unit_id": "unit14",
     "unit_title": "Present Simple: I, You, We, They",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 120,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Master vocabulary and grammar of Present Simple: I, You, We, They"
+  ],
   "blocks": [
     {
       "block_id": "B14",
-      "title": "Present Simple: I, You, We, They",
+      "title": "Lección Principal",
       "content": [
         {
           "interaction_id": "U14_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            { "id": "p0", "left": "Understand", "right": "Entender" },
-            { "id": "p1", "left": "Speak", "right": "Hablar" },
-            { "id": "p2", "left": "Write", "right": "Escribir" },
-            { "id": "p3", "left": "Read", "right": "Leer" }
-          ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English every day.",
-          "correct_answer": "learn",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You write very well.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ellos estudian en la universidad'",
-          "options": [
-            { "id": "w0", "text": "They" },
-            { "id": "w1", "text": "study" },
-            { "id": "w2", "text": "at" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "university" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Escuchar'",
-          "stimulus_es": "Escuchar",
-          "correct_answer": "Listen",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aprender' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leer'?",
           "options": [
-            { "id": "o1", "text": "Learn" },
-            { "id": "o2", "text": "Read" },
-            { "id": "o3", "text": "Speak" }
+            {
+              "id": "o3",
+              "text": "Learn"
+            },
+            {
+              "id": "o1",
+              "text": "Read"
+            },
+            {
+              "id": "o2",
+              "text": "Study"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U14_I7",
+          "interaction_id": "U14_I2",
           "type": "matching",
-          "prompt_es": "Acciones comunes:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Work", "right": "Trabajar" },
-            { "id": "p1", "left": "Live", "right": "Vivir" },
-            { "id": "p2", "left": "Eat", "right": "Comer" },
-            { "id": "p3", "left": "Drink", "right": "Beber" }
+            {
+              "id": "p0",
+              "left": "Study",
+              "right": "Estudiar"
+            },
+            {
+              "id": "p1",
+              "left": "Play",
+              "right": "Jugar"
+            },
+            {
+              "id": "p2",
+              "left": "Understand",
+              "right": "Entender"
+            },
+            {
+              "id": "p3",
+              "left": "Read",
+              "right": "Leer"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "write"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w3",
+              "text": "well"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"They play music in the evening.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I (hablar) ________ English.",
+          "correct_answer": "speak",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Escribir",
+          "correct_answer": "Write",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Write",
+          "correct_answer": "Escribir",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I8",
-          "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (practicar) basketball.'",
-          "stimulus_en": "We ________ basketball.",
-          "correct_answer": "practice",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Like"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Write"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We drinks water.\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "We read books in the library. They play music in the evening. I study English at home.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Present Simple: I, You, We, They"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         },
         {
           "interaction_id": "U14_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Uso mi ordenador'",
-          "options": [
-            { "id": "w1", "text": "use" },
-            { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "computer" },
-            { "id": "w0", "text": "I" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/1108f67453d7abf92503f8d45cf92a8a.mp3",
+          "text": "We read books in the library.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U14_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Necesitar'",
-          "stimulus_es": "Necesitar",
-          "correct_answer": "Need",
-          "mastery_tag": "vocabulary"
+          "type": "crossword",
+          "prompt_es": "¡Reto especial!",
+          "mastery_tag": "fun"
         },
         {
           "interaction_id": "U14_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Vivir' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leer'?",
           "options": [
-            { "id": "o1", "text": "Live" },
-            { "id": "o2", "text": "Like" },
-            { "id": "o3", "text": "Look" }
+            {
+              "id": "o1",
+              "text": "Read"
+            },
+            {
+              "id": "o3",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Like"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -138,120 +211,139 @@
         {
           "interaction_id": "U14_I13",
           "type": "matching",
-          "prompt_es": "Más verbos:",
+          "prompt_es": "Une las parejas correctamente:",
           "pairs": [
-            { "id": "p0", "left": "Help", "right": "Ayudar" },
-            { "id": "p1", "left": "Visit", "right": "Visitar" },
-            { "id": "p2", "left": "Watch", "right": "Mirar" },
-            { "id": "p3", "left": "Study", "right": "Estudiar" }
+            {
+              "id": "p0",
+              "left": "Play",
+              "right": "Jugar"
+            },
+            {
+              "id": "p1",
+              "left": "Like",
+              "right": "Gustar"
+            },
+            {
+              "id": "p2",
+              "left": "Write",
+              "right": "Escribir"
+            },
+            {
+              "id": "p3",
+              "left": "Read",
+              "right": "Leer"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I14",
-          "type": "transformation",
-          "prompt_es": "Completa: 'They ________ (visitar) their grandparents.'",
-          "stimulus_en": "They ________ their grandparents.",
-          "correct_answer": "visit",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w1",
+              "text": "write"
+            },
+            {
+              "id": "w3",
+              "text": "well"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You play the guitar well.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "prompt_es": "¿Es gramaticalmente correcta?: \"You write very well.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Comemos a la una'",
-          "options": [
-            { "id": "w1", "text": "eat" },
-            { "id": "w2", "text": "at" },
-            { "id": "w3", "text": "one" },
-            { "id": "w4", "text": "o'clock" },
-            { "id": "w0", "text": "We" }
-          ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I (no - hablar) ________ French.",
+          "correct_answer": "don't speak",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hablar'",
-          "stimulus_es": "Hablar",
-          "correct_answer": "Speak",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Entender",
+          "correct_answer": "Understand",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Comer' en inglés?",
-          "options": [
-            { "id": "o1", "text": "Eat" },
-            { "id": "o2", "text": "Drink" },
-            { "id": "o3", "text": "Sleep" }
-          ],
-          "correct_answer": "o1",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Read",
+          "correct_answer": "Leer",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I19",
-          "type": "transformation",
-          "prompt_es": "Completa: 'I ________ (beber) coffee.'",
-          "stimulus_en": "I ________ coffee.",
-          "correct_answer": "drink",
-          "mastery_tag": "grammar"
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Play"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Like"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I20",
-          "type": "true_false",
-          "prompt_es": "En el presente simple con 'I, You, We, They', el verbo no cambia.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I21",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ellos viven en Madrid'",
-          "stimulus_es": "Ellos viven en Madrid",
-          "correct_answer": "They live in Madrid",
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I22",
-          "type": "matching",
-          "prompt_es": "Sujetos y verbos:",
-          "pairs": [
-            { "id": "p1", "left": "I", "right": "Yo" },
-            { "id": "p2", "left": "You", "right": "Tú/Vosotros" },
-            { "id": "p3", "left": "We", "right": "Nosotros" },
-            { "id": "p4", "left": "They", "right": "Ellos" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "We read books in the library. You write very well. I don't understand the question.",
+          "question": "¿De qué trata este texto?",
           "options": [
-            { "id": "o1", "text": "I don't know" },
-            { "id": "o2", "text": "I no know" },
-            { "id": "o3", "text": "I not know" }
+            {
+              "id": "o1",
+              "text": "Present Simple: I, You, We, They"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I24",
-          "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (estudiar) English.'",
-          "stimulus_en": "We ________ English.",
-          "correct_answer": "study",
-          "mastery_tag": "grammar"
+          "mastery_tag": "reading"
         }
       ]
     }
