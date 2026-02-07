@@ -14,7 +14,7 @@ canonical: "https://www.focus-on-english.com/blog/metodos/mejor-app-aprender-ing
 
 En la tienda de aplicaciones hay miles de opciones, pero **no todas las apps sirven para lo mismo**. Si buscas la **[mejor app para aprender inglés](/blog/metodos/mejor-app-aprender-ingles)**, primero debes definir tu objetivo: ¿Quieres jugar un rato o necesitas hablar inglés en tu próximo viaje o reunión?
 
-Consulta nuestro **[hub de habilidades](/blog/habilidades)** para ejercicios complementarios de listening y speaking.
+Consulta nuestro **[hub de habilidades](/blog/metodos)** para ejercicios complementarios de listening y speaking.
 
 ## 1. Duolingo vs Babbel: ¿Cuál elegir en 2026?
 

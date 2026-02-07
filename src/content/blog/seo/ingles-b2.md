@@ -26,8 +26,8 @@ En **Focus English**, hemos diseñado este curso para llevarte más allá de la 
 
 Al completar este curso, habrás desarrollado habilidades críticas para tu éxito:
 
-*   **Fluidez Natural**: Habla sobre temas técnicos y abstractos sin esfuerzo aparente. Consulta nuestro **[hub de habilidades](/blog/habilidades)**.
-*   **Gramática Avanzada**: Domina estructuras complejas en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Fluidez Natural**: Habla sobre temas técnicos y abstractos sin esfuerzo aparente. Consulta nuestro **[hub de habilidades](/blog/metodos)**.
+*   **Gramática Avanzada**: Domina estructuras complejas en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Vocabulario Especializado**: Amplía tu léxico profesional en nuestro **[hub de vocabulario](/blog/vocabulario)**.
 *   **Preparación para el FCE**: Estrategias reales para aprobar el Cambridge First Certificate.
 

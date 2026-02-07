@@ -26,8 +26,8 @@ En **Focus English**, acompañamos a los estudiantes más ambiciosos en este úl
 
 A este nivel, el inglés deja de ser una herramienta para convertirse en una forma de expresión total:
 
-*   **Maestría en Habilidades**: Comprende cualquier registro, desde el coloquial hasta el técnico. Consulta nuestro **[hub de habilidades](/blog/habilidades)**.
-*   **Gramática Infalible**: Uso perfecto de las estructuras más oscuras y sofisticadas en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Maestría en Habilidades**: Comprende cualquier registro, desde el coloquial hasta el técnico. Consulta nuestro **[hub de habilidades](/blog/metodos)**.
+*   **Gramática Infalible**: Uso perfecto de las estructuras más oscuras y sofisticadas en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Léxico Ilimitado**: Domina la sutileza, el doble sentido y las referencias culturales. Visita el **[hub de vocabulario](/blog/vocabulario)**.
 *   **Certificación CPE**: Prepárate para el examen más prestigioso de Cambridge.
 

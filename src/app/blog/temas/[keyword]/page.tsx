@@ -2,33 +2,39 @@ import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getArticlesByKeyword, getAllKeywords } from "@/lib/blog";
+import { getArticlesByKeyword, getAllKeywords, slugify } from "@/lib/blog";
 import { Metadata } from "next";
 
 export async function generateStaticParams() {
   const keywords = getAllKeywords();
   return keywords.map(keyword => ({
-    keyword: encodeURIComponent(keyword),
+    keyword: slugify(keyword),
   }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ keyword: string }> }): Promise<Metadata> {
   const { keyword } = await params;
-  const decodedKeyword = decodeURIComponent(keyword);
+  const keywords = getAllKeywords();
+  const originalKeyword = keywords.find(k => slugify(k) === keyword) || keyword;
   
   return {
-    title: `Artículos sobre ${decodedKeyword} | Focus English Blog`,
-    description: `Explora todas nuestras guías y recursos gratuitos sobre ${decodedKeyword} para mejorar tu nivel de inglés.`,
+    title: `Artículos sobre ${originalKeyword} | Focus English Blog`,
+    description: `Explora todas nuestras guías y recursos gratuitos sobre ${originalKeyword} para mejorar tu nivel de inglés.`,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/temas/${keyword}`,
     },
+    robots: {
+      index: true,
+      follow: true,
+    }
   };
 }
 
 export default async function KeywordHubPage({ params }: { params: Promise<{ keyword: string }> }) {
   const { keyword } = await params;
-  const decodedKeyword = decodeURIComponent(keyword);
-  const articles = getArticlesByKeyword(decodedKeyword);
+  const keywords = getAllKeywords();
+  const originalKeyword = keywords.find(k => slugify(k) === keyword) || keyword;
+  const articles = getArticlesByKeyword(originalKeyword);
 
   if (articles.length === 0) {
     notFound();
@@ -54,7 +60,7 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
                 <li>›</li>
                 <li>Temas</li>
                 <li>›</li>
-                <li className="font-semibold text-white capitalize">{decodedKeyword}</li>
+                <li className="font-semibold text-white capitalize">{originalKeyword}</li>
               </ol>
             </nav>
             
@@ -67,10 +73,10 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
                   <span>🎯 Topic Cluster Hub</span>
                 </div>
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-none capitalize">
-                  {decodedKeyword}
+                  {originalKeyword}
                 </h1>
                 <p className="text-xl sm:text-2xl text-white/90 max-w-3xl leading-relaxed font-medium">
-                  Recopilación de guías, consejos y materiales de estudio especializados en <span className="text-white font-bold underline decoration-indigo-400">{decodedKeyword}</span>.
+                  Recopilación de guías, consejos y materiales de estudio especializados en <span className="text-white font-bold underline decoration-indigo-400">{originalKeyword}</span>.
                 </p>
               </div>
             </div>

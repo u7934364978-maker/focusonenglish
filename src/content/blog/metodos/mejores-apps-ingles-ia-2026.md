@@ -14,7 +14,7 @@ canonical: "https://www.focus-on-english.com/blog/metodos/mejores-apps-ingles-ia
 
 En 2026, el aprendizaje de idiomas ha dado un salto evolutivo. Ya no basta con completar huecos en una pantalla; la **[inteligencia artificial para idiomas](/blog/metodos/mejores-apps-ingles-ia-2026)** ha permitido que cualquier estudiante tenga un **ai english tutor** personal disponible las 24 horas del día.
 
-Si quieres complementar tu uso de apps con una base sólida, visita nuestro **[hub de gramática](/blog/gramatica)** o el **[hub de habilidades](/blog/habilidades)**.
+Si quieres complementar tu uso de apps con una base sólida, visita nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)** o el **[hub de habilidades](/blog/metodos)**.
 
 ## 1. Focus English: El Simulador de Inmersión con IA
 

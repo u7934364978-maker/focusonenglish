@@ -14,7 +14,7 @@ canonical: "https://www.focus-on-english.com/blog/metodos/apps-ingles-gratuitas-
 
 A todos nos gusta lo gratuito. En el mundo del aprendizaje de idiomas, la oferta de **[aplicaciones para aprender inglés gratis](/blog/metodos/apps-ingles-gratuitas-vs-pago)** es abrumadora. Sin embargo, cuando los objetivos son serios —como conseguir un ascenso o mudarse al extranjero— surge la gran duda: ¿Es suficiente con la versión gratuita de una app?
 
-Consulta nuestro **[hub de habilidades](/blog/habilidades)** para ver cómo mejorar tu listening y speaking de forma efectiva.
+Consulta nuestro **[hub de habilidades](/blog/metodos)** para ver cómo mejorar tu listening y speaking de forma efectiva.
 
 ## 1. Aplicaciones Gratuitas: El Gancho de la Gamificación
 

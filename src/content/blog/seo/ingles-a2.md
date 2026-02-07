@@ -26,7 +26,7 @@ En **Focus English**, te ayudamos a conectar los conocimientos básicos para que
 
 Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos:
 
-*   **Narrar en el Pasado**: Domina los tiempos verbales en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Narrar en el Pasado**: Domina los tiempos verbales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Expresar Planes Futuros**: Aprenderás a hablar de tus próximos proyectos, viajes y metas personales con seguridad.
 *   **Vocabulario del Día a Día**: Amplía tu léxico en nuestro **[hub de vocabulario](/blog/vocabulario)**.
 *   **Autonomía en el Extranjero**: Tendrás la capacidad de resolver situaciones habituales en tiendas, bancos y turismo.

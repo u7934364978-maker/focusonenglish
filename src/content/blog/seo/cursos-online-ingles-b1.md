@@ -35,7 +35,7 @@ A diferencia de otros cursos generalistas, nosotros nos enfocamos en lo que real
 Nuestro programa se divide en módulos clave para asegurar tu dominio de las cuatro destrezas:
 
 ### Gramática B1
-Domina la **[gramática de inglés B1](/blog/seo/gramatica-ingles-b1-guia)** en nuestro **[hub de gramática](/blog/gramatica)**.
+Domina la **[gramática de inglés B1](/blog/seo/gramatica-ingles-b1-guia)** en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Tiempos Verbales**: Present Perfect vs Past Simple, voz pasiva básica.
 *   **Condicionales**: Type 0, 1 & 2. Consulta nuestra guía de **[condicionales en inglés](/blog/metodos/condicionales-ingles-guia-completa)**.
 *   **Modales**: Dominio de *should, must, have to* y *might*.

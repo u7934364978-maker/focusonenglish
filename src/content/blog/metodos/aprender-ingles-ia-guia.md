@@ -14,7 +14,7 @@ canonical: "https://www.focus-on-english.com/blog/metodos/aprender-ingles-ia-gui
 
 Estamos viviendo la mayor transformación en la enseñanza de idiomas de la historia. **[Aprender inglés con IA](/blog/metodos/aprender-ingles-ia-guia)** ya no es una promesa de futuro, sino la forma más eficiente y personalizada de alcanzar la fluidez hoy mismo.
 
-Para entender las bases sobre las que trabaja la IA, te recomendamos visitar nuestro **[hub de gramática](/blog/gramatica)** y el **[hub de habilidades](/blog/habilidades)**.
+Para entender las bases sobre las que trabaja la IA, te recomendamos visitar nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)** y el **[hub de habilidades](/blog/metodos)**.
 
 ## 1. El concepto del AI English Tutor
 

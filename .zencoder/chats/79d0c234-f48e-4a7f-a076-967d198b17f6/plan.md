@@ -13,6 +13,7 @@
 - [x] **Verification**: Run `npm run lint` and manually check sample exercises.
 - [x] Push Units 1-10 to repository and inform user of Supabase steps.
 - [x] Fix 404 error by updating `premiumCourseServerService` to support database-only units.
+- [x] Troubleshoot and fix SQL syntax errors by using safer `$_$` delimiters.
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).

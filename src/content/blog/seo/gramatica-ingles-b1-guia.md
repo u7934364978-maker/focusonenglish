@@ -62,4 +62,4 @@ La teoría es solo el principio. Para consolidar estos conocimientos, necesitas 
 
 [**¡Prueba gratis nuestro método y domina la gramática B1!**](/cuenta/registro)
 
-Explora más recursos en nuestro **[hub de gramática](/blog/gramatica)**.
+Explora más recursos en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.

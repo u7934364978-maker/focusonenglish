@@ -151,6 +151,16 @@ const nextConfig = {
         destination: '/blog/seo/ingles-para-ingenieros',
         statusCode: 301,
       },
+      {
+        source: '/blog/gramatica',
+        destination: '/blog/temas/gramatica-inglesa',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/habilidades',
+        destination: '/blog/metodos',
+        statusCode: 301,
+      },
       
       // AUTENTICACIÓN - Unificar rutas duplicadas
       {

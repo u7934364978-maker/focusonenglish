@@ -27,7 +27,7 @@ Si estás buscando un **[curso de inglés para principiantes](/blog/seo/ingles-a
 Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de:
 
 *   **Comprender y usar expresiones cotidianas**: Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
-*   **Dominar la gramática básica**: Aprende las estructuras fundamentales en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Dominar la gramática básica**: Aprende las estructuras fundamentales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, nacionalidad, profesión y familia.
 *   **Interactuar de forma sencilla**: Hacer preguntas básicas y entender respuestas si se dan de forma pausada.
 *   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo y el tiempo libre.

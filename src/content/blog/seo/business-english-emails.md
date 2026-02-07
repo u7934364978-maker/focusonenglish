@@ -13,7 +13,7 @@ related_routes: ["ingles-para-trabajo", "cv-ingles-guia"]
 
 En el mundo corporativo actual, la redacción de **[correos en inglés](/blog/seo/business-english-emails)** es una competencia básica. Un email bien estructurado no solo transmite información, sino que proyecta una imagen de profesionalismo y competencia.
 
-Si quieres mejorar tus habilidades de comunicación, visita nuestro **[hub de inglés profesional](/blog/trabajo)** o el **[hub de gramática](/blog/gramatica)** para repasar conectores.
+Si quieres mejorar tus habilidades de comunicación, visita nuestro **[hub de inglés profesional](/blog/trabajo)** o el **[hub de gramática](/blog/temas/gramatica-inglesa)** para repasar conectores.
 
 ## 1. Estructura de un Email Profesional
 

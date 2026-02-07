@@ -26,8 +26,8 @@ En **Focus English**, te proporcionamos las herramientas para que tu inglés no 
 
 Este programa está diseñado para perfeccionar los matices más sutiles del idioma:
 
-*   **Fluidez Total**: Exprésate con espontaneidad en cualquier contexto. Consulta nuestro **[hub de habilidades](/blog/habilidades)**.
-*   **Estructuras Complejas**: Domina la inversión, los condicionales mixtos y el énfasis en nuestro **[hub de gramática](/blog/gramatica)**.
+*   **Fluidez Total**: Exprésate con espontaneidad en cualquier contexto. Consulta nuestro **[hub de habilidades](/blog/metodos)**.
+*   **Estructuras Complejas**: Domina la inversión, los condicionales mixtos y el énfasis en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Léxico de Alto Nivel**: Usa expresiones idiomáticas y vocabulario académico con propiedad. Visita el **[hub de vocabulario](/blog/vocabulario)**.
 *   **Estrategias para el CAE**: Supera con éxito el *Cambridge C1 Advanced*.
 

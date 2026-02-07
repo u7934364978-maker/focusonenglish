@@ -7,7 +7,8 @@ import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } fr
 import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { SEOInterlinking } from "@/components/blog/SEOInterlinking";
-import { getBlogArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog";
+import { TopicClusterLinks } from "@/components/blog/TopicClusterLinks";
+import { getBlogArticles, getArticleBySlug, getRelatedArticles, getRelatedByKeywords, normalizeCategory, slugify } from "@/lib/blog";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { optimizeSEOTitle } from "@/utils/seo-utils";
 import ReactMarkdown from 'react-markdown';
@@ -16,7 +17,7 @@ import remarkGfm from 'remark-gfm';
 export async function generateStaticParams() {
   const articles = getBlogArticles();
   return articles.map(article => ({
-    category: article.category,
+    category: normalizeCategory(article.category),
     slug: article.slug,
   }));
 }
@@ -65,14 +66,14 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       images: [ogImage.startsWith('http') ? ogImage : `https://www.focus-on-english.com${ogImage}`],
     },
     alternates: {
-      canonical: `https://www.focus-on-english.com/blog/${article.category}/${slug}`,
+      canonical: `https://www.focus-on-english.com/blog/${normalizeCategory(article.category)}/${slug}`,
     },
   };
 }
 
 export default async function BlogArticle({ params }: { params: Promise<{ category: string, slug: string }> }) {
   try {
-  const { category, slug } = await params;
+  const { slug } = await params;
   const article = getArticleBySlug(slug);
 
   if (!article) {
@@ -91,7 +92,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     seo: "Cursos y Guías de Inglés",
   };
 
-  const normalizedCategory = article.category.toLowerCase();
+  const normalizedCategory = normalizeCategory(article.category);
   const categoryLabel = categoryLabels[normalizedCategory] || article.category;
 
   const articleSchema = generateArticleSchema({
@@ -101,7 +102,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     datePublished: article.date,
     dateModified: article.date,
     slug,
-    category: article.category,
+    category: normalizedCategory,
     keywords: article.keywords,
     wordCount,
   });
@@ -110,8 +111,8 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Inicio", url: "https://www.focus-on-english.com" },
     { name: "Blog", url: "https://www.focus-on-english.com/blog" },
-    { name: categoryLabel, url: `https://www.focus-on-english.com/blog/${category}` },
-    { name: article.title, url: `https://www.focus-on-english.com/blog/${category}/${slug}` },
+    { name: categoryLabel, url: `https://www.focus-on-english.com/blog/${normalizedCategory}` },
+    { name: article.title, url: `https://www.focus-on-english.com/blog/${normalizedCategory}/${slug}` },
   ]);
 
   // Generate FAQ Schema if FAQs exist
@@ -223,6 +224,8 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
   const categoryColor = categoryColors[normalizedCategory] || "bg-slate-100 text-slate-800";
 
   const relatedArticles = getRelatedArticles(slug, article.category);
+  const clusterArticles = getRelatedByKeywords(slug, article.keywords || [], 3);
+  const mainKeyword = article.keywords?.[0];
 
     return (
       <>
@@ -241,7 +244,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
               <span className="mx-2 text-slate-300">/</span>
               <Link href="/blog" className="hover:text-coral-600 transition-colors">Blog</Link>
               <span className="mx-2 text-slate-300">/</span>
-              <Link href={`/blog/${category}`} className="hover:text-coral-600 transition-colors capitalize">{categoryLabel}</Link>
+              <Link href={`/blog/${normalizedCategory}`} className="hover:text-coral-600 transition-colors capitalize">{categoryLabel}</Link>
               <span className="mx-2 text-slate-300">/</span>
               <span className="text-slate-900 truncate">{article.title}</span>
             </nav>
@@ -324,7 +327,10 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                     </ReactMarkdown>
 
                     {/* SEO Interlinking Block */}
-                    <SEOInterlinking category={article.category} />
+                    <SEOInterlinking category={normalizedCategory} />
+                    
+                    {/* Dynamic Topic Cluster */}
+                    <TopicClusterLinks articles={clusterArticles} mainKeyword={mainKeyword} />
                   </div>
 
                   {/* Post Footer */}
@@ -333,7 +339,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                       {article.keywords?.filter(Boolean).map((keyword, i) => (
                         <Link 
                           key={i} 
-                          href={`/blog/temas/${encodeURIComponent(keyword.toLowerCase())}`}
+                          href={`/blog/temas/${slugify(keyword)}`}
                           className="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-medium text-slate-600 hover:border-coral-300 hover:text-coral-600 transition-all hover:shadow-sm"
                         >
                           #{keyword?.toString().replace(/\s+/g, '')}

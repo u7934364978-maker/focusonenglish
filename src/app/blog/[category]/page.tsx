@@ -2,11 +2,11 @@ import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getArticlesByCategory, getBlogArticles } from "@/lib/blog";
+import { getArticlesByCategory, getBlogArticles, normalizeCategory } from "@/lib/blog";
 
 export async function generateStaticParams() {
   const articles = getBlogArticles();
-  const categories = Array.from(new Set(articles.map(a => a.category)));
+  const categories = Array.from(new Set(articles.map(a => normalizeCategory(a.category))));
   return categories.map(category => ({
     category,
   }));
@@ -65,10 +65,7 @@ const categoryMetadata: Record<string, { name: string, description: string, icon
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: rawCategory } = await params;
-  const category = decodeURIComponent(rawCategory)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+  const category = normalizeCategory(decodeURIComponent(rawCategory));
     
   const meta = categoryMetadata[category];
   
@@ -87,10 +84,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const { category: rawCategory } = await params;
   
   // Normalize category to handle accents (e.g., gramática -> gramatica)
-  const category = decodeURIComponent(rawCategory)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+  const category = normalizeCategory(decodeURIComponent(rawCategory));
 
   const articles = getArticlesByCategory(category);
   const meta = categoryMetadata[category] || {

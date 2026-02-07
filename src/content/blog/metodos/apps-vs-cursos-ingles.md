@@ -14,7 +14,7 @@ canonical: "https://www.focus-on-english.com/blog/metodos/apps-vs-cursos-ingles"
 
 Cuando decides que es hora de mejorar tu nivel, la primera pregunta suele ser: *¿Me descargo una app o me busco un curso?* En 2026, la respuesta no es tan binaria. La tecnología ha evolucionado tanto que la línea entre las **[aplicaciones para aprender inglés](/blog/metodos/mejor-app-aprender-ingles)** y los cursos completos se ha difuminado.
 
-Si quieres avanzar por tu cuenta, visita nuestro **[hub de gramática](/blog/gramatica)** y el **[hub de habilidades](/blog/habilidades)** para recursos estructurados.
+Si quieres avanzar por tu cuenta, visita nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)** y el **[hub de habilidades](/blog/metodos)** para recursos estructurados.
 
 ## 1. Las Apps: Flexibilidad y Micro-aprendizaje
 

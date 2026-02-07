@@ -67,6 +67,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
         'multiple-choice': 'multiple_choice',
+        'speaking-analysis': 'multiple_choice',
+        'pronunciation-practice': 'audio_player',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
         'drag-drop': 'reorder_words',
@@ -151,7 +153,73 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     const items: any[] = [];
     unitData.blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: PremiumContent) => {
-        items.push(normalizeInteraction({ ...content, blockTitle: block.title }));
+        // Handle multi-question exercises from A2 generation
+        if (content.questions && Array.isArray(content.questions)) {
+          content.questions.forEach((q: any, qIdx: number) => {
+            const flattened = {
+              ...content,
+              ...q,
+              interaction_id: `${content.interaction_id || 'ex'}-q${qIdx}`,
+              // Ensure we don't lose the main instructions
+              main_instructions: content.instructions || content.prompt_es,
+              blockTitle: block.title
+            };
+            
+            // Map question-specific fields to standard fields
+            if (q.question && !flattened.prompt_es) {
+              flattened.prompt_es = q.question;
+            }
+            if (q.scenario && !flattened.stimulus_en) {
+              flattened.stimulus_en = q.scenario;
+            }
+            if (q.options && typeof q.options[0] === 'string') {
+              flattened.options = q.options.map((opt: string, idx: number) => ({
+                id: String.fromCharCode(65 + idx), // A, B, C...
+                text: opt
+              }));
+            }
+            if (q.correctAnswer && !flattened.correct_answer) {
+              flattened.correct_answer = q.correctAnswer;
+            }
+            if (q.explanation && !flattened.feedback_correct_es) {
+              flattened.feedback_correct_es = q.explanation;
+            }
+
+            items.push(normalizeInteraction(flattened));
+          });
+        } 
+        else if (content.sentences && Array.isArray(content.sentences) && content.type === 'sentence-building') {
+          content.sentences.forEach((s: any, sIdx: number) => {
+            items.push(normalizeInteraction({
+              ...content,
+              ...s,
+              type: 'reorder_words',
+              interaction_id: `${content.interaction_id || 'ex'}-s${sIdx}`,
+              prompt_es: content.instructions || "Ordena la oración:",
+              correctSentence: s.correctOrder.join(' '),
+              options: s.words.map((w: string, idx: number) => ({ id: idx.toString(), text: w })),
+              blockTitle: block.title
+            }));
+          });
+        }
+        else if (content.targetSentences && Array.isArray(content.targetSentences) && content.type === 'pronunciation-practice') {
+          content.targetSentences.forEach((s: any, sIdx: number) => {
+            items.push(normalizeInteraction({
+              ...content,
+              ...s,
+              type: 'audio_player',
+              interaction_id: `${content.interaction_id || 'ex'}-p${sIdx}`,
+              prompt_es: s.spanish,
+              stimulus_en: s.english,
+              audioUrl: s.audioModelURL || s.audioModelUrl,
+              tts_en: s.english,
+              blockTitle: block.title
+            }));
+          });
+        }
+        else {
+          items.push(normalizeInteraction({ ...content, blockTitle: block.title }));
+        }
       });
     });
     return items;
@@ -1991,6 +2059,19 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             exit={{ opacity: 0, x: -50 }}
             className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
           >
+            {currentItem?.main_instructions && (
+               <div className="mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-2 border-indigo-100 shadow-sm max-w-2xl mx-auto w-full">
+                  <div className="flex items-center gap-3 mb-2">
+                    <div className="bg-indigo-100 p-2 rounded-xl">
+                      <Sparkles className="w-5 h-5 text-indigo-600" />
+                    </div>
+                    <span className="text-xs font-black text-indigo-400 uppercase tracking-widest">Instrucciones</span>
+                  </div>
+                  <p className="text-lg font-bold text-slate-700 leading-tight">
+                    {currentItem.main_instructions}
+                  </p>
+               </div>
+            )}
             {currentItem?.type === 'transition' 
               ? renderTransition(currentItem) 
               : (isVideoMode ? renderVideoScene(currentItem.video) : renderInteraction(currentItem))

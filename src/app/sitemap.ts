@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getBlogArticles, getAllKeywords } from "@/lib/blog";
+import { getBlogArticles, getAllKeywords, slugify, normalizeCategory } from "@/lib/blog";
 
 import { phraseService } from "@/lib/phrases";
 
@@ -96,10 +96,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const articles = getBlogArticles();
   
   // Categorías del blog
-  const categories = Array.from(new Set(articles.map(a => a.category)));
+  const categories = Array.from(new Set(articles.map(a => normalizeCategory(a.category))));
   urls.push(
     ...categories.map((category) => {
-      const categoryArticles = articles.filter(a => a.category === category);
+      const categoryArticles = articles.filter(a => normalizeCategory(a.category) === category);
       const latestDate = categoryArticles.length > 0 
         ? new Date(categoryArticles[0].date) 
         : now;
@@ -116,7 +116,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Artículos individuales
   urls.push(
     ...articles.map((article) => ({
-      url: `${baseUrl}/blog/${article.category}/${article.slug}`,
+      url: `${baseUrl}/blog/${normalizeCategory(article.category)}/${article.slug}`,
       lastModified: new Date(article.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
@@ -127,7 +127,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const keywords = getAllKeywords();
   urls.push(
     ...keywords.map((keyword) => ({
-      url: `${baseUrl}/blog/temas/${encodeURIComponent(keyword)}`,
+      url: `${baseUrl}/blog/temas/${slugify(keyword)}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,

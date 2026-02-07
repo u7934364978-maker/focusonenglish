@@ -39,6 +39,15 @@ function getAllFiles(dirPath: string, arrayOfFiles: string[] = []): string[] {
   return arrayOfFiles;
 }
 
+export function normalizeCategory(category: string): string {
+  return category
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/[^\w-]/g, "");
+}
+
 export function getBlogArticles(): BlogPost[] {
   const allFiles = getAllFiles(BLOG_DIR);
   
@@ -58,7 +67,7 @@ export function getBlogArticles(): BlogPost[] {
       date: data.date || new Date().toISOString(),
       author: data.author || "Focus English",
       excerpt: data.excerpt || "",
-      category: data.category || "General",
+      category: normalizeCategory(data.category || "General"),
       readTime: data.readTime || "5 min",
       image: data.image,
       alt: data.alt,
@@ -93,7 +102,7 @@ export function getArticleBySlug(slug: string): BlogPost | null {
     date: data.date || new Date().toISOString(),
     author: data.author || "Focus English",
     excerpt: data.excerpt || "",
-    category: data.category || "General",
+    category: normalizeCategory(data.category || "General"),
     readTime: data.readTime || "5 min",
     image: data.image,
     alt: data.alt,
@@ -105,7 +114,8 @@ export function getArticleBySlug(slug: string): BlogPost | null {
 }
 
 export function getArticlesByCategory(category: string): BlogPost[] {
-  return getBlogArticles().filter(article => article.category === category);
+  const normalizedSearch = normalizeCategory(category);
+  return getBlogArticles().filter(article => normalizeCategory(article.category) === normalizedSearch);
 }
 
 export function getRelatedArticles(currentSlug: string, category: string, limit: number = 3): BlogPost[] {
@@ -115,10 +125,37 @@ export function getRelatedArticles(currentSlug: string, category: string, limit:
     .slice(0, limit);
 }
 
+export function getRelatedByKeywords(currentSlug: string, keywords: string[], limit: number = 3): BlogPost[] {
+  if (!keywords || keywords.length === 0) return [];
+  
+  const allArticles = getBlogArticles();
+  const normalizedKeywords = keywords.map(k => slugify(k));
+  
+  return allArticles
+    .filter(article => {
+      if (article.slug === currentSlug) return false;
+      return article.keywords?.some(k => normalizedKeywords.includes(slugify(k)));
+    })
+    .slice(0, limit);
+}
+
+export function slugify(text: string): string {
+  return text
+    .toString()
+    .toLowerCase()
+    .normalize('NFD') // normalize accents
+    .replace(/[\u0300-\u036f]/g, '') // remove accents
+    .replace(/\s+/g, '-') // replace spaces with -
+    .replace(/[^\w-]+/g, '') // remove all non-word chars
+    .replace(/--+/g, '-') // replace multiple - with single -
+    .replace(/^-+/, '') // trim - from start of text
+    .replace(/-+$/, ''); // trim - from end of text
+}
+
 export function getArticlesByKeyword(keyword: string): BlogPost[] {
   const allArticles = getBlogArticles();
   return allArticles.filter(article => 
-    article.keywords?.some(k => k.toLowerCase() === keyword.toLowerCase())
+    article.keywords?.some(k => slugify(k) === slugify(keyword))
   );
 }
 
