@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Cursos Online de Inglés B1: Consigue tu Título Oficial | Focus English"
 description: "Prepara tu examen B1 de inglés con nuestro curso online. Temario completo de gramática, vocabulario y simulacros de examen para Cambridge, Aptis y Oxford."
 keywords: ["cursos online ingles b1", "preparacion examen b1 ingles", "ingles b1 online gratis", "título b1 ingles online", "ejercicios b1 ingles"]

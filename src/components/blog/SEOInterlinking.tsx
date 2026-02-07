@@ -17,7 +17,17 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
 
   const finalRoute = relatedRoute || (category ? routeMap[category] : "aprender-ingles") || "aprender-ingles";
   const isHub = finalRoute === "aprender-ingles";
-  const href = isHub ? "/aprender-ingles" : `/curso-ingles-${finalRoute.replace(/^ingles-/, "")}`;
+  
+  let href = "/aprender-ingles";
+  if (!isHub) {
+    const slug = finalRoute.replace(/^ingles-/, "");
+    // Special case for B1
+    if (slug === "b1") {
+      href = "/blog/seo/cursos-online-ingles-b1";
+    } else {
+      href = `/blog/seo/ingles-${slug}`;
+    }
+  }
   
   const routeNameMap: Record<string, string> = {
     "ingles-a1": "Curso de Inglés A1",

@@ -1,8 +1,11 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés Nivel C2 Proficiency | Focus English"
 description: "Alcanza la cumbre del dominio del inglés. Prepárate para el nivel C2 con un enfoque en la perfección lingüística, matices culturales y comunicación profesional al más alto nivel."
 keywords: ["curso ingles c2", "ingles proficiency", "preparacion cpe cambridge", "maestria ingles online", "focus english c2"]
-canonical: "https://www.focus-on-english.com/curso-ingles-c2"
+canonical: "https://www.focus-on-english.com/blog/seo/ingles-c2"
 related_routes: ["ingles-c1", "ingles-para-trabajo", "ingles-para-ingenieros"]
 ---
 

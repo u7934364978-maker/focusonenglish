@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getBlogArticles } from "@/lib/blog";
-import { getAllSEORoutes } from "@/lib/seo";
+import { getBlogArticles, getAllKeywords } from "@/lib/blog";
 
 import { phraseService } from "@/lib/phrases";
 
@@ -93,18 +92,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  // 1. Añadir las nuevas Rutas SEO (Artículos comerciales)
-  const seoRoutes = getAllSEORoutes();
-  urls.push(
-    ...seoRoutes.map((slug) => ({
-      url: `${baseUrl}/curso-ingles-${slug.replace(/^ingles-/, "")}`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.85, // Prioridad alta para captar leads
-    }))
-  );
-
-  // 2. Añadir artículos del blog dinámicamente
+  // 1. Añadir artículos del blog dinámicamente
   const articles = getBlogArticles();
   
   // Categorías del blog
@@ -132,6 +120,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(article.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    }))
+  );
+
+  // 2. Añadir Keyword Hubs dinámicamente
+  const keywords = getAllKeywords();
+  urls.push(
+    ...keywords.map((keyword) => ({
+      url: `${baseUrl}/blog/temas/${encodeURIComponent(keyword)}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
     }))
   );
 

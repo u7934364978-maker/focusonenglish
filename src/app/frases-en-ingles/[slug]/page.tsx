@@ -55,12 +55,12 @@ export default async function PhraseCategoryPage({ params }: Props) {
   const recommendations: Record<string, { title: string, href: string, description: string }> = {
     viajes: {
       title: "Curso de Inglés para Viajar",
-      href: "/curso-ingles-para-viajar",
+      href: "/blog/seo/ingles-para-viajar",
       description: "Domina todas las situaciones de tu próximo viaje con nuestro curso especializado."
     },
     gramatica: {
       title: "Inglés A1: Desde Cero",
-      href: "/curso-ingles-a1",
+      href: "/blog/seo/ingles-a1",
       description: "Aprende las bases del inglés de forma estructurada y divertida."
     },
     default: {

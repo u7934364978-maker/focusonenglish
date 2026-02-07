@@ -114,3 +114,19 @@ export function getRelatedArticles(currentSlug: string, category: string, limit:
     .filter(article => article.slug !== currentSlug && article.category === category)
     .slice(0, limit);
 }
+
+export function getArticlesByKeyword(keyword: string): BlogPost[] {
+  const allArticles = getBlogArticles();
+  return allArticles.filter(article => 
+    article.keywords?.some(k => k.toLowerCase() === keyword.toLowerCase())
+  );
+}
+
+export function getAllKeywords(): string[] {
+  const allArticles = getBlogArticles();
+  const keywords = new Set<string>();
+  allArticles.forEach(article => {
+    article.keywords?.forEach(k => keywords.add(k.toLowerCase()));
+  });
+  return Array.from(keywords);
+}

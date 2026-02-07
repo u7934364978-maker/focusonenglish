@@ -1,8 +1,11 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés A1: Aprende desde Cero | Focus English"
 description: "Empieza tu camino en el inglés hoy mismo. Curso de nivel A1 para principiantes absolutos. Lecciones interactivas, tutor de IA y certificación oficial."
 keywords: ["curso inglés a1", "aprender inglés desde cero", "inglés para principiantes", "nivel a1 inglés", "gramática básica inglés", "inglés básico online"]
-canonical: "https://www.focus-on-english.com/curso-ingles-a1"
+canonical: "https://www.focus-on-english.com/blog/seo/ingles-a1"
 related_routes: ["ingles-a2", "aprender-ingles"]
 faqs:
   - question: "¿Qué se aprende en el nivel A1 de inglés?"

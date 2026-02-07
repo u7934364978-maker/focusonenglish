@@ -54,4 +54,4 @@ Recuerda que ambos certificados tienen una **validez de 2 años**. No te recomen
 
 Sea cual sea tu elección, en Focus English te ayudamos a dominar el **inglés profesional** necesario para superar ambos con éxito. Nuestra plataforma se adapta a los contextos laborales reales que encontrarás en estos exámenes.
 
-[**Explora nuestros cursos de inglés para el trabajo y empieza tu camino internacional hoy mismo.**](/curso-ingles-para-trabajo)
+[**Explora nuestros cursos de inglés para el trabajo y empieza tu camino internacional hoy mismo.**](/blog/seo/ingles-para-trabajo)

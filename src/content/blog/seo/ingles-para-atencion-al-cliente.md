@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés para Atención al Cliente (Customer Service) | Focus English"
 description: "Domina el inglés para soporte y atención al cliente. Aprende a gestionar llamadas, resolver problemas y ofrecer un servicio excelente en inglés."
 keywords: ["inglés para atención al cliente", "inglés para soporte", "customer service english", "frases atención al cliente inglés", "soporte técnico inglés"]

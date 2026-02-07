@@ -15,7 +15,7 @@ const nextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
-      // SEO - Redirecciones de Cluster
+      // SEO - Redirecciones de Cluster a Blog
       {
         source: '/curso-ingles-aprender-ingles',
         destination: '/aprender-ingles',
@@ -23,12 +23,92 @@ const nextConfig = {
       },
       {
         source: '/curso-ingles-trabajo',
-        destination: '/curso-ingles-para-trabajo',
+        destination: '/blog/seo/ingles-para-trabajo',
         statusCode: 301,
       },
       {
         source: '/curso-ingles-viajar',
-        destination: '/curso-ingles-para-viajar',
+        destination: '/blog/seo/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-trabajo',
+        destination: '/blog/seo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-viajar',
+        destination: '/blog/seo/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-a1',
+        destination: '/blog/seo/ingles-a1',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-a2',
+        destination: '/blog/seo/ingles-a2',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-b1',
+        destination: '/blog/seo/cursos-online-ingles-b1',
+        statusCode: 301,
+      },
+      {
+        source: '/cursos-online-ingles-b1',
+        destination: '/blog/seo/cursos-online-ingles-b1',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-b2',
+        destination: '/blog/seo/ingles-b2',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-c1',
+        destination: '/blog/seo/ingles-c1',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-c2',
+        destination: '/blog/seo/ingles-c2',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-preparacion-examen-b1-cambridge',
+        destination: '/blog/seo/preparacion-examen-b1-cambridge',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-gramatica-ingles-b1-guia',
+        destination: '/blog/seo/gramatica-ingles-b1-guia',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-vocabulario-b1-ingles-trabajo',
+        destination: '/blog/seo/vocabulario-b1-ingles-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-hosteleria',
+        destination: '/blog/seo/ingles-para-hosteleria',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-atencion-al-cliente',
+        destination: '/blog/seo/ingles-para-atencion-al-cliente',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-salud',
+        destination: '/blog/seo/ingles-para-salud',
+        statusCode: 301,
+      },
+      {
+        source: '/curso-ingles-para-ingenieros',
+        destination: '/blog/seo/ingles-para-ingenieros',
         statusCode: 301,
       },
       

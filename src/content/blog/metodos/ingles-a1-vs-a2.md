@@ -50,7 +50,7 @@ Si sientes que te has estancado en el nivel principiante, aquí tienes tres clav
 
 ## El papel de Focus English en tu progreso
 
-En nuestra plataforma, las rutas [**Inglés A1**](/curso-ingles-a1) y [**Inglés A2**](/curso-ingles-a2) están diseñadas para que la transición sea fluida. Nuestra IA detecta cuándo dominas las estructuras del A1 y te propone retos del A2 de forma progresiva, evitando la frustración de saltar a contenidos demasiado difíciles.
+En nuestra plataforma, las rutas [**Inglés A1**](/blog/seo/ingles-a1) y [**Inglés A2**](/blog/seo/ingles-a2) están diseñadas para que la transición sea fluida. Nuestra IA detecta cuándo dominas las estructuras del A1 y te propone retos del A2 de forma progresiva, evitando la frustración de saltar a contenidos demasiado difíciles.
 
 ---
 

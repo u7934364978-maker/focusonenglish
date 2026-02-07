@@ -1,8 +1,11 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés Nivel C1 Advanced | Focus English"
 description: "Domina el inglés profesional y académico. Prepárate para el nivel C1 con nuestro método inmersivo basado en IA. Vocabulario avanzado, gramática compleja y fluidez total."
 keywords: ["curso ingles c1", "ingles avanzado", "preparacion cae cambridge", "ingles nivel avanzado online", "focus english c1"]
-canonical: "https://www.focus-on-english.com/curso-ingles-c1"
+canonical: "https://www.focus-on-english.com/blog/seo/ingles-c1"
 related_routes: ["ingles-b2", "ingles-c2", "ingles-para-trabajo"]
 ---
 

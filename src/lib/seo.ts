@@ -15,9 +15,8 @@ export interface SEOPage {
   related_routes?: string[];
 }
 
-export function getSEOPageBySlug(slug: string, isRoute: boolean = false): SEOPage | null {
-  const dir = isRoute ? path.join(SEO_DIR, "rutas") : SEO_DIR;
-  const filePath = path.join(dir, `${slug}.md`);
+export function getSEOPageBySlug(slug: string): SEOPage | null {
+  const filePath = path.join(SEO_DIR, `${slug}.md`);
 
   if (!fs.existsSync(filePath)) {
     return null;
@@ -36,13 +35,4 @@ export function getSEOPageBySlug(slug: string, isRoute: boolean = false): SEOPag
     related_routes: data.related_routes || [],
     content,
   } as SEOPage;
-}
-
-export function getAllSEORoutes(): string[] {
-  const rutasDir = path.join(SEO_DIR, "rutas");
-  if (!fs.existsSync(rutasDir)) return [];
-  
-  return fs.readdirSync(rutasDir)
-    .filter(file => file.endsWith(".md"))
-    .map(file => file.replace(/\.md$/, ""));
 }

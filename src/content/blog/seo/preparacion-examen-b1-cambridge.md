@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Preparación Examen B1 Inglés: Guía Cambridge y Aptis | Focus English"
 description: "Todo lo que necesitas saber para aprobar el examen B1 de inglés. Estrategias para Cambridge PET y Aptis General. Simulacros y consejos de expertos."
 keywords: ["preparacion examen b1 ingles", "cambridge pet b1", "aptis general b1", "examen b1 ingles consejos"]
@@ -23,7 +26,7 @@ El Preliminary English Test (PET) evalúa tu capacidad para manejar situaciones 
 
 ## Domina el Examen Aptis General
 
-Aptis se ha vuelto muy popular debido a su flexibilidad. En nuestro [curso online de inglés B1](/curso-ingles-b1), dedicamos módulos específicos a:
+Aptis se ha vuelto muy popular debido a su flexibilidad. En nuestro [curso online de inglés B1](/blog/seo/cursos-online-ingles-b1), dedicamos módulos específicos a:
 
 1.  **Grammar & Vocabulary**: La base del examen Aptis.
 2.  **Speaking interactivo**: Cómo hablarle a un ordenador de forma natural.
@@ -34,4 +37,4 @@ Aptis se ha vuelto muy popular debido a su flexibilidad. En nuestro [curso onlin
 
 ---
 
-*¿Quieres una preparación garantizada?* Explora nuestro [Curso Online de Inglés B1 completo](/curso-ingles-b1) y empieza hoy mismo.
+*¿Quieres una preparación garantizada?* Explora nuestro [Curso Online de Inglés B1 completo](/blog/seo/cursos-online-ingles-b1) y empieza hoy mismo.

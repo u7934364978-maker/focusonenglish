@@ -1,8 +1,11 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés para Viajar: Guía Completa de Supervivencia | Focus English"
 description: "Domina las frases y el vocabulario esencial para tus viajes. Desde el aeropuerto hasta situaciones de emergencia. Viaja sin miedos con Focus English."
 keywords: ["inglés para viajar", "frases básicas inglés viaje", "vocabulario aeropuerto inglés", "inglés para hoteles", "conversación inglés turismo", "guía inglés viajeros"]
-canonical: "https://www.focus-on-english.com/curso-ingles-para-viajar"
+canonical: "https://www.focus-on-english.com/blog/seo/ingles-para-viajar"
 related_routes: ["ingles-a1", "ingles-a2", "ingles-b1"]
 faqs:
   - question: "¿Qué nivel de inglés necesito para viajar?"

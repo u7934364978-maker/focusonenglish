@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Gramática Inglés B1: Guía Completa de Temas y Ejercicios | Focus English"
 description: "Domina la gramática del nivel B1 de inglés. Tiempos verbales, condicionales, voz pasiva y más. La guía definitiva para preparar tu certificado oficial."
 keywords: ["gramatica ingles b1", "tiempos verbales b1", "condicionales ingles b1", "ejercicios gramatica b1"]
@@ -8,7 +11,7 @@ related_routes: ["ingles-b1"]
 
 # Guía de Gramática Inglés B1: Lo que Necesitas Saber
 
-Para alcanzar el nivel intermedio (B1), es fundamental dejar atrás las estructuras básicas y empezar a usar construcciones más complejas que den fluidez a tu discurso. Aquí tienes los puntos clave que cubrimos en nuestro [curso online de inglés B1](/curso-ingles-b1).
+Para alcanzar el nivel intermedio (B1), es fundamental dejar atrás las estructuras básicas y empezar a usar construcciones más complejas que den fluidez a tu discurso. Aquí tienes los puntos clave que cubrimos en nuestro [curso online de inglés B1](/blog/seo/cursos-online-ingles-b1).
 
 ## 1. Tiempos Verbales Avanzados
 A diferencia del A2, en el B1 debes dominar la relación entre el pasado y el presente.
@@ -32,4 +35,4 @@ Une frases para que tu inglés suene más natural utilizando *who, which, that* 
 
 En la plataforma de **Focus English**, no solo lees teoría; practicas cada punto gramatical con nuestra IA que te corrige en tiempo real.
 
-[Explora el temario completo en nuestro Curso B1](/curso-ingles-b1)
+[Explora el temario completo en nuestro Curso B1](/blog/seo/cursos-online-ingles-b1)

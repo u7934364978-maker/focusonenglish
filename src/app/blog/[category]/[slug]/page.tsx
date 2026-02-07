@@ -328,9 +328,13 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                   <div className="p-8 lg:p-12 bg-slate-50/50 border-t border-slate-100">
                     <div className="flex flex-wrap gap-2 mb-8">
                       {article.keywords?.filter(Boolean).map((keyword, i) => (
-                        <span key={i} className="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-medium text-slate-600">
+                        <Link 
+                          key={i} 
+                          href={`/blog/temas/${encodeURIComponent(keyword.toLowerCase())}`}
+                          className="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-medium text-slate-600 hover:border-coral-300 hover:text-coral-600 transition-all hover:shadow-sm"
+                        >
                           #{keyword?.toString().replace(/\s+/g, '')}
-                        </span>
+                        </Link>
                       ))}
                     </div>
                     

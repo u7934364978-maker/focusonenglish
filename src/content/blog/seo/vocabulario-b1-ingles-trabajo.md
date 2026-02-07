@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana | Focus English"
 description: "Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras y expresiones clave para el trabajo, viajar y situaciones sociales."
 keywords: ["vocabulario ingles b1", "palabras ingles b1", "expresiones ingles b1", "vocabulario trabajo ingles b1"]
@@ -12,7 +15,7 @@ Tener una buena base de vocabulario es lo que te permite pasar de "entender" a "
 
 ## Temas Clave de Vocabulario B1
 
-En nuestro [curso online de inglés B1](/curso-ingles-b1), priorizamos el vocabulario que realmente vas a usar:
+En nuestro [curso online de inglés B1](/blog/seo/cursos-online-ingles-b1), priorizamos el vocabulario que realmente vas a usar:
 
 ### 1. El Mundo del Trabajo
 No se trata solo de nombres de profesiones, sino de describir tareas y entornos:
@@ -46,4 +49,4 @@ Un tema recurrente en los exámenes oficiales de B1:
 
 Regístrate en **Focus English** y accede a nuestras listas interactivas y ejercicios de audio.
 
-[Ir al Curso Online de Inglés B1](/curso-ingles-b1)
+[Ir al Curso Online de Inglés B1](/blog/seo/cursos-online-ingles-b1)

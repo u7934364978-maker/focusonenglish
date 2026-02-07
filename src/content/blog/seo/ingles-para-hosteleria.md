@@ -1,4 +1,7 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés para Hostelería y Turismo | Focus English"
 description: "Mejora tu atención al cliente en hoteles y restaurantes. Domina el inglés para hostelería, desde la recepción hasta el servicio de mesa y gestión de reservas."
 keywords: ["inglés para hostelería", "inglés para hoteles", "inglés para camareros", "inglés para recepción", "vocabulario turismo inglés"]

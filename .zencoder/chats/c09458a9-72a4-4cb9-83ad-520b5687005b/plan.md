@@ -38,10 +38,9 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [x] Step: Implementation
+### [x] Step: Bug Fix - Audio & System Errors
 
-1. **Audit Course Content**: Run a validation script to check JSON files in `ingles-a1` and `ingles-a2`. (COMPLETED: 60 units in each course validated)
-2. **Audit Blog Content**: Run a validation script to check Markdown files in `src/content/blog`. (COMPLETED: 59 articles validated)
-3. **Verify Course Unit IDs**: Ensure `unit_id` in JSON matches filename. (COMPLETED: All match)
-4. **Verify Blog Metadata**: Ensure required frontmatter fields are present. (COMPLETED: Present in new content; some older posts missing `readTime` but handled by default)
-5. **Final Confirmation**: Confirm visibility of a sample of units and blog posts. (COMPLETED: Sample verified)
+1. **Identify Missing Audios**: Verify that `correct.mp3` and `wrong.mp3` are missing from `public/audio/`. (COMPLETED)
+2. **Generate Missing Audios**: Run the generation script to recreate system audios and any missing expansion audios. (COMPLETED)
+3. **Verify Cookiebot Config**: Investigate the domain authorization error for Cookiebot. (COMPLETED)
+4. **Final Verification**: Confirm all console errors from the screenshot are resolved. (COMPLETED)

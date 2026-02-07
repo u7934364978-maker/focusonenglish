@@ -1,8 +1,11 @@
 ---
+category: "seo"
+date: "2026-02-07"
+author: "Focus English"
 title: "Curso de Inglés para el Trabajo: Impulsa tu Carrera Profesional | Focus English"
 description: "Domina el inglés de negocios. Prepárate para entrevistas, reuniones y presentaciones internacionales. Mejora tu perfil profesional con Focus English."
 keywords: ["inglés para el trabajo", "inglés profesional", "inglés de negocios", "entrevista de trabajo en inglés", "vocabulario empresarial inglés", "business english"]
-canonical: "https://www.focus-on-english.com/curso-ingles-para-trabajo"
+canonical: "https://www.focus-on-english.com/blog/seo/ingles-para-trabajo"
 related_routes: ["ingles-b1", "ingles-b2", "ingles-para-viajar"]
 ---
 
