@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit44",
-    "unit_title": "Adverbs of Frequency - Descriptions: Personality",
+    "unit_title": "Adverbs of Frequency - Descriptions: Personality.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U44_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 44",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 44.",
           "tts_en": "Starting unit 44. Topic: Descriptions: Personality. Focus: Adverbs of Frequency.",
           "mastery_tag": "listening",
           "interaction_id": "U44_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 345 (Descriptions: Personality):",
-          "stimulus_en": "My brother ___ design a report at the restaurant - amazing.",
+          "stimulus_en": "My friend ___ sell window at school.",
           "correct_answer": "periodically",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 345 (Descriptions: Personality)",
-          "stimulus_en": "The waiter never listen a door at the park - amazing.",
-          "stimulus_es": "Ref: The waiter sometimes listen a door en the park - amazing.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 345 (Descriptions: Personality)",
+          "stimulus_en": "You never watch email at the city.",
+          "stimulus_es": "Ref: You sometimes watch email en the city.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 345 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The artist always sell a car en the station (today).",
-              "right": "The artist always sell a car at the station (today)."
+              "left": "The nurse rarely fix camera en the airport.",
+              "right": "The nurse rarely fix camera at the airport."
             },
             {
               "id": "p1",
-              "left": "The manager periodically eat music en school (today).",
-              "right": "The manager periodically eat music at school (today)."
+              "left": "The manager always travel computer en the garden.",
+              "right": "The manager always travel computer at the garden."
             },
             {
               "id": "p2",
-              "left": "My cousin normally start an apple en the supermarket!.",
-              "right": "My cousin normally start an apple at the supermarket!."
+              "left": "The lawyer usually visit phone en the station.",
+              "right": "The lawyer usually visit phone at the station."
             },
             {
               "id": "p3",
-              "left": "The driver periodically receive a report en the woods - interesting.",
-              "right": "The driver periodically receive a report at the woods - interesting."
+              "left": "The student frequently finish music en the university.",
+              "right": "The student frequently finish music at the university."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 345 (Descriptions: Personality):",
-          "tts_en": "They occasionally fix a table at the country..",
-          "correct_answer": "They occasionally fix a table at the country..",
+          "tts_en": "John often design printer at the gym.",
+          "correct_answer": "John often design printer at the gym",
           "mastery_tag": "listening",
           "interaction_id": "U44_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 345:",
           "options": [
             {
               "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
+              "text": "car"
             },
             {
               "id": "o4",
-              "text": "rain4127"
+              "text": "cat"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "plane"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U44_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 345 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - interesting",
-              "back": "Were you having a beer when you saw Peter - interesting"
+              "front": "La podemos contestar de la seguiente manera.",
+              "back": "It’s mine (es mía) o it’s his (es suya – de él)"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 345 (Descriptions: Personality):",
-          "instruction_en": "Compare Descriptions: Personality with another topic. [Ref: 96]",
+          "instruction_en": "Review Descriptions: Personality from last week. [Ref: 24]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 345 (Descriptions: Personality):",
-          "stimulus_en": "The Adverbs of Frequency is here. (901)",
+          "stimulus_en": "Study Descriptions: Personality now. (893)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 302 (Descriptions: Personality):",
-          "stimulus": "Matching set 1091",
+          "stimulus": "Matching set 5269.",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo...",
+              "text": "Un ejemplo de to seguido de infinitivo es.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? (today)",
+              "text": "Otro ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. usually/ arrives late / the bus (today)",
+              "text": "Cuál es la canción más triste que has escuchado nunca?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "have you ever seen a film in original version (today)"
-            },
-            {
-              "id": "m2",
-              "text": "the bus usually arrives late (today)"
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
             },
             {
               "id": "m0",
-              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos...."
+              "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
+            },
+            {
+              "id": "m2",
+              "text": "What’s the saddest song you’ve ever listened to."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U44_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 302 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "in May, in August, etc.!"
+                  "text": "¿De dónde eres?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - amazing"
+                  "text": "information, homework, work."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U44_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 302 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (3843), Maria [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (5577), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "stop"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drove"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "drive"
+                  "text": "read"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U44_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 302 para Descriptions: Personality:",
-          "stimulus_en": "The waiter always listen tennis at the garden..",
-          "stimulus_es": "The waiter always listen tennis en the garden..",
+          "stimulus_en": "She seldom drive bike at the kitchen.",
+          "stimulus_es": "She seldom drive bike en the kitchen.",
           "options": [
             {
-              "id": "o1",
-              "text": "always"
-            },
-            {
               "id": "o3",
-              "text": "Other 4816"
+              "text": "Other 1420."
             },
             {
               "id": "o2",
               "text": "never"
+            },
+            {
+              "id": "o1",
+              "text": "seldom."
             }
           ],
           "correct_answer": "o1",
@@ -263,141 +263,126 @@
           "interaction_id": "U44_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 302 sobre Descriptions: Personality:",
           "options": [
             {
-              "id": "w9",
-              "text": "amazing"
-            },
-            {
-              "id": "w5",
-              "text": "clock"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "the"
+              "id": "w3",
+              "text": "ticket."
             },
             {
               "id": "w4",
-              "text": "a"
+              "text": "at"
             },
             {
               "id": "w0",
-              "text": "My"
+              "text": "They"
             },
             {
-              "id": "w1",
-              "text": "friend"
+              "id": "w6",
+              "text": "stadium."
             },
             {
               "id": "w2",
-              "text": "sometimes"
+              "text": "drive"
             },
             {
-              "id": "w8",
-              "text": "station"
+              "id": "w1",
+              "text": "regularly."
             },
             {
-              "id": "w3",
-              "text": "meet"
+              "id": "w5",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 346 (Descriptions: Personality):",
-          "stimulus_en": "My sister ___ help a pizza at the bank..",
-          "correct_answer": "sometimes",
+          "stimulus_en": "The actress ___ listen music at the restaurant.",
+          "correct_answer": "often",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 346 (Descriptions: Personality)",
-          "stimulus_en": "The architect never help a letter at the station - amazing.",
-          "stimulus_es": "Ref: The architect sometimes help a letter en the station - amazing.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 346 (Descriptions: Personality)",
+          "stimulus_en": "The manager never fix email at the city.",
+          "stimulus_es": "Ref: The manager never fix email en the city.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 346 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Our neighbors constantly send a movie en the bedroom - 595.",
-              "right": "Our neighbors constantly send a movie at the bedroom - 595."
+              "left": "The nurse occasionally design bag en the park.",
+              "right": "The nurse occasionally design bag at the park."
             },
             {
               "id": "p1",
-              "left": "A colleague seldom call music en the garden (now).",
-              "right": "A colleague seldom call music at the garden (now)."
+              "left": "The doctor seldom read movie en the bedroom.",
+              "right": "The doctor seldom read movie at the bedroom."
             },
             {
               "id": "p2",
-              "left": "The nurse regularly prepare a pen en the balcony....",
-              "right": "The nurse regularly prepare a pen at the balcony...."
+              "left": "I periodically walk watch en the university.",
+              "right": "I periodically walk watch at the university."
             },
             {
               "id": "p3",
-              "left": "The police officer normally teach a table en the airport - amazing.",
-              "right": "The police officer normally teach a table at the airport - amazing."
+              "left": "Sarah periodically help phone en the country.",
+              "right": "Sarah periodically help phone at the country."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 346 (Descriptions: Personality):",
-          "tts_en": "She seldom teach a clock at the city (now).",
-          "correct_answer": "She seldom teach a clock at the city (now).",
+          "tts_en": "The artist usually watch chair at the library.",
+          "correct_answer": "The artist usually watch chair at the library",
           "mastery_tag": "listening",
           "interaction_id": "U44_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 346:",
           "options": [
             {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
               "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o2",
-              "text": "train"
+              "text": "Chair"
             },
             {
               "id": "o4",
-              "text": "cat6766"
+              "text": "Pen"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
           "correct_answer": "o4",
@@ -405,65 +390,65 @@
           "interaction_id": "U44_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 346 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 For + period of time (not defined).",
-              "back": "durante o desde hace."
+              "front": "1. La puerta de mi casa.",
+              "back": "the door of my house."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 346 (Descriptions: Personality):",
-          "instruction_en": "Review Descriptions: Personality from last week. [Ref: 97]",
+          "instruction_en": "Write a note about Descriptions: Personality. [Ref: 55]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 346 (Descriptions: Personality):",
-          "stimulus_en": "Focus on Descriptions: Personality. (346)",
+          "stimulus_en": "Where is Descriptions: Personality? (703)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 303 (Descriptions: Personality):",
-          "stimulus": "Matching set 7257",
+          "stimulus": "Matching set 4958.",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 D\u00edas de la semana...",
+              "text": "Los tiempos verbales en inglés son muy importantes cuando nos disponemos an aprender inglés, es por ello que se empiezan an estudiar desde los primeros días. Digo que son importantísimos porque sin tiempos verbales no se puede hablar un inglés correcto, sino que hablaríamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducción para practicar los tiempos verbales en inglés de un nivel A. Tendrás que saber para este ejercicio los siguientes tiempos verbales.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "TV / ever / hardly / I / in / watch / evenings / the - 689",
+              "text": "Countable nouns.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir - amazing",
+              "text": "1. el primer elemento (de esos tres que decíamos antes) es una persona. Ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc."
+            },
+            {
               "id": "m2",
-              "text": "every days o every Tuesdays. - amazing"
+              "text": "John‘s job is boring."
             },
             {
               "id": "m0",
-              "text": "on Monday, on Wednesday, etc...."
-            },
-            {
-              "id": "m1",
-              "text": "I hardly ever watch TV in the evenings - 689"
+              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la sección NIVEL A (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio."
             }
           ],
           "correct_answer": {
@@ -475,26 +460,26 @@
           "interaction_id": "U44_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 303 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Do you have any friends who live near your house? = al ser interrogativa, any. - interesting"
+                  "text": "What’s the most difficult language you’ve ever studied."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t have many friends (friends is countable).."
+                  "text": "What time does the train leave."
                 }
               ]
             }
@@ -503,20 +488,20 @@
           "interaction_id": "U44_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 303 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (5943), The pilot [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (8769), Our neighbors [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "plan"
                 }
               ]
             },
@@ -525,304 +510,7 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
-                },
-                {
-                  "id": "o2",
-                  "text": "organize"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U44_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 303 para Descriptions: Personality:",
-          "stimulus_en": "The pilot sometimes plan coffee at the kitchen (now).",
-          "stimulus_es": "The pilot sometimes plan coffee en the kitchen (now).",
-          "options": [
-            {
-              "id": "o2",
-              "text": "never"
-            },
-            {
-              "id": "o1",
-              "text": "sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Other 9346"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U44_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 303 sobre Descriptions: Personality:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "house"
-            },
-            {
-              "id": "w2",
-              "text": "work"
-            },
-            {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "often"
-            },
-            {
-              "id": "w8",
-              "text": "(now)"
-            },
-            {
-              "id": "w7",
-              "text": "station"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U44_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 347 (Descriptions: Personality):",
-          "stimulus_en": "The boss ___ stop a window at the shop....",
-          "correct_answer": "occasionally",
-          "mastery_tag": "grammar",
-          "interaction_id": "U44_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 347 (Descriptions: Personality)",
-          "stimulus_en": "Our neighbors occasionally work a clock at London....",
-          "stimulus_es": "Ref: Our neighbors occasionally work a clock en London....",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U44_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 347 (Descriptions: Personality):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The nurse seldom receive an email en the hospital....",
-              "right": "The nurse seldom receive an email at the hospital...."
-            },
-            {
-              "id": "p1",
-              "left": "The player never organize a book en Paris!.",
-              "right": "The player never organize a book at Paris!."
-            },
-            {
-              "id": "p2",
-              "left": "The driver normally play a chair en the bedroom - 938.",
-              "right": "The driver normally play a chair at the bedroom - 938."
-            },
-            {
-              "id": "p3",
-              "left": "The baker hardly ever walk music en the kitchen - interesting.",
-              "right": "The baker hardly ever walk music at the kitchen - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U44_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 347 (Descriptions: Personality):",
-          "tts_en": "My brother usually listen a phone at the supermarket!.",
-          "correct_answer": "My brother usually listen a phone at the supermarket!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U44_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 347:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o4",
-              "text": "Hot1611"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U44_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 347 - Descriptions: Personality:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Chips (Br Eng) (Am Eng - amazing",
-              "back": "biscuit) Patatas fritas - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U44_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 347 (Descriptions: Personality):",
-          "instruction_en": "Review Descriptions: Personality from last week. [Ref: 58]",
-          "mastery_tag": "writing",
-          "interaction_id": "U44_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 347 (Descriptions: Personality):",
-          "stimulus_en": "I like Descriptions: Personality. (875)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U44_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 304 (Descriptions: Personality):",
-          "stimulus": "Matching set 6848",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Quieres m\u00e1s? - interesting",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "on + train/ bus/ plane/ bike/ motorbike (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "car / I / drink / never / if / drive / I / alcohol / a - 266",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "would you like some more - interesting"
-            },
-            {
-              "id": "m1",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "I never drink alcohol if I drive a car - 266"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U44_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 304 (Descriptions: Personality):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I haven\u2019t got a car. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U44_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 304 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (9215), The coach [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "built"
-                },
-                {
-                  "id": "o2",
-                  "text": "build"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "called"
+                  "text": "called."
                 },
                 {
                   "id": "o2",
@@ -836,25 +524,317 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U44_I38"
+          "interaction_id": "U44_I25"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 304 para Descriptions: Personality:",
-          "stimulus_en": "The student sometimes clean a bike at the mountains - amazing.",
-          "stimulus_es": "The student sometimes clean a bike en the mountains - amazing.",
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 303 para Descriptions: Personality:",
+          "stimulus_en": "I periodically drive English at the museum.",
+          "stimulus_es": "I periodically drive English en the museum.",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 3316"
-            },
-            {
-              "id": "o1",
-              "text": "sometimes"
-            },
             {
               "id": "o2",
               "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "Other 6527."
+            },
+            {
+              "id": "o1",
+              "text": "periodically."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U44_I26"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 303 sobre Descriptions: Personality:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "occasionally."
+            },
+            {
+              "id": "w4",
+              "text": "watch"
+            },
+            {
+              "id": "w3",
+              "text": "receive."
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "sister."
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "mountains."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U44_I27"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 347 (Descriptions: Personality):",
+          "stimulus_en": "The manager ___ speak English at the office.",
+          "correct_answer": "rarely",
+          "mastery_tag": "grammar",
+          "interaction_id": "U44_I28"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 347 (Descriptions: Personality)",
+          "stimulus_en": "The actress never work report at the stadium.",
+          "stimulus_es": "Ref: The actress seldom work report en the stadium.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U44_I29"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 347 (Descriptions: Personality):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The boss sometimes send radio en the shop.",
+              "right": "The boss sometimes send radio at the shop."
+            },
+            {
+              "id": "p1",
+              "left": "The scientist frequently check camera en the woods.",
+              "right": "The scientist frequently check camera at the woods."
+            },
+            {
+              "id": "p2",
+              "left": "Maria occasionally walk book en the bank.",
+              "right": "Maria occasionally walk book at the bank."
+            },
+            {
+              "id": "p3",
+              "left": "The architect rarely stop television en the country.",
+              "right": "The architect rarely stop television at the country."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U44_I30"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 347 (Descriptions: Personality):",
+          "tts_en": "A colleague normally help ticket at the hospital.",
+          "correct_answer": "A colleague normally help ticket at the hospital",
+          "mastery_tag": "listening",
+          "interaction_id": "U44_I31"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 347:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
+            },
+            {
+              "id": "o4",
+              "text": "Hot"
+            },
+            {
+              "id": "o3",
+              "text": "Planet."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U44_I32"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 347 - Descriptions: Personality:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "El adjetivo dice una cualidad de algo, por ejemplo.",
+              "back": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U44_I33"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 347 (Descriptions: Personality):",
+          "instruction_en": "A small story about Descriptions: Personality. [Ref: 43]",
+          "mastery_tag": "writing",
+          "interaction_id": "U44_I34"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 347 (Descriptions: Personality):",
+          "stimulus_en": "Talk about Descriptions: Personality. (678)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U44_I35"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 304 (Descriptions: Personality):",
+          "stimulus": "Matching set 5898.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Para responder en plural, diríamos.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Más plurales irregulares que nos podemos encontrar son.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Empecemos analizando el siguiente ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
+            },
+            {
+              "id": "m1",
+              "text": "men, women, people, etc."
+            },
+            {
+              "id": "m2",
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U44_I36"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 304 (Descriptions: Personality):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "have you ever studied a foreign laguage apart from English."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "When did you help him/her."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U44_I37"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 304 (Descriptions: Personality):",
+          "main_text": "In Descriptions: Personality (4020), The actress [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U44_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 304 para Descriptions: Personality:",
+          "stimulus_en": "My brother occasionally receive chair at the kitchen.",
+          "stimulus_es": "My brother occasionally receive chair en the kitchen.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "Other 8494."
+            },
+            {
+              "id": "o1",
+              "text": "occasionally."
             }
           ],
           "correct_answer": "o1",
@@ -862,136 +842,136 @@
           "interaction_id": "U44_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 304 sobre Descriptions: Personality:",
           "options": [
             {
-              "id": "w7",
-              "text": "the"
+              "id": "w2",
+              "text": "hardly."
             },
             {
               "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w2",
-              "text": "constantly"
+              "text": "build"
             },
             {
               "id": "w8",
-              "text": "park"
+              "text": "bedroom."
             },
             {
               "id": "w1",
-              "text": "boss"
+              "text": "artist."
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
+              "id": "w6",
+              "text": "at"
+            },
+            {
               "id": "w3",
-              "text": "start"
+              "text": "ever"
             },
             {
               "id": "w5",
-              "text": "report"
+              "text": "bike"
+            },
+            {
+              "id": "w7",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 348 (Descriptions: Personality):",
-          "stimulus_en": "My cousin ___ start English at the bank....",
-          "correct_answer": "always",
+          "stimulus_en": "A colleague ___ play book at the restaurant.",
+          "correct_answer": "occasionally",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 348 (Descriptions: Personality)",
-          "stimulus_en": "He never play a radio at the kitchen (today).",
-          "stimulus_es": "Ref: He periodically play a radio en the kitchen (today).",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 348 (Descriptions: Personality)",
+          "stimulus_en": "The driver constantly check gift at the hospital.",
+          "stimulus_es": "Ref: The driver constantly check gift en the hospital.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 348 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The baker hardly ever drink tennis en the museum (today).",
-              "right": "The baker hardly ever drink tennis at the museum (today)."
+              "left": "The scientist hardly ever clean ticket en the bedroom.",
+              "right": "The scientist hardly ever clean ticket at the bedroom."
             },
             {
               "id": "p1",
-              "left": "The architect regularly plan English en the hotel - 113.",
-              "right": "The architect regularly plan English at the hotel - 113."
+              "left": "The singer occasionally study bag en the hospital.",
+              "right": "The singer occasionally study bag at the hospital."
             },
             {
               "id": "p2",
-              "left": "Sarah seldom teach a sandwich en London!.",
-              "right": "Sarah seldom teach a sandwich at London!."
+              "left": "Maria often travel book en London.",
+              "right": "Maria often travel book at London."
             },
             {
               "id": "p3",
-              "left": "The police officer normally finish a dog en the garden....",
-              "right": "The police officer normally finish a dog at the garden...."
+              "left": "My brother sometimes send gift en the museum.",
+              "right": "My brother sometimes send gift at the museum."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 348 (Descriptions: Personality):",
-          "tts_en": "The manager constantly organize a computer at London....",
-          "correct_answer": "The manager constantly organize a computer at London....",
+          "tts_en": "My sister seldom play football at the cinema.",
+          "correct_answer": "My sister seldom play football at the cinema",
           "mastery_tag": "listening",
           "interaction_id": "U44_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 348:",
           "options": [
             {
-              "id": "o4",
-              "text": "run8225"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
               "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
+              "text": "Sunday."
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "Monday."
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
+            },
+            {
+              "id": "o4",
+              "text": "June"
+            },
+            {
+              "id": "o3",
+              "text": "Friday."
             }
           ],
           "correct_answer": "o4",
@@ -999,65 +979,65 @@
           "interaction_id": "U44_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 348 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? (today)",
-              "back": "What\u2019s the longest beach you\u2019ve ever been to (today)"
+              "front": "Otro ejemplo.",
+              "back": "My partner is the most beautiful woman in the world."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 348 (Descriptions: Personality):",
-          "instruction_en": "List 3 facts about Descriptions: Personality. [Ref: 19]",
+          "instruction_en": "Explain Adverbs of Frequency using Descriptions: Personality. [Ref: 58]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 348 (Descriptions: Personality):",
-          "stimulus_en": "Study Descriptions: Personality now. (407)",
+          "stimulus_en": "Look at Descriptions: Personality. (376)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 305 (Descriptions: Personality):",
-          "stimulus": "Matching set 5677",
+          "stimulus": "Matching set 7798.",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 Fechas concretas (now)",
+              "text": "on + train/ bus/ plane/ bike/ motorbike.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Escribir ingl\u00e9s correctamente - 505",
+              "text": "This is another translation.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. Las hermanas de Pedro (today)",
+              "text": "¿Cómo saber que «the film» es el sujeto? Preguntamos al verbo SIEMPRE «quién» o «qué». Hacemos la prueba.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "uso de las may\u00fasculas - 505"
+              "id": "m0",
+              "text": "cuando hablamos de forma más específica."
             },
             {
               "id": "m2",
-              "text": "Peter\u2019s sisters (today)"
+              "text": "¿Qué es lo que empieza? = la película, entonces SUBJECT = THE FILM."
             },
             {
-              "id": "m0",
-              "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (now)"
+              "id": "m1",
+              "text": "igual hago algo… (but I’m not sure…)."
             }
           ],
           "correct_answer": {
@@ -1069,26 +1049,26 @@
           "interaction_id": "U44_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 305 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "The police always try to keep the order..."
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "in summer, in winter...."
+                  "text": "Indirect questions en inglés."
                 }
               ]
             }
@@ -1097,20 +1077,20 @@
           "interaction_id": "U44_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 305 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (9635), A colleague [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (5740), The boss [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "learn"
                 }
               ]
             },
@@ -1119,11 +1099,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "played."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "play"
                 }
               ]
             }
@@ -1136,10 +1116,10 @@
           "interaction_id": "U44_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 305 para Descriptions: Personality:",
-          "stimulus_en": "The actress normally organize a gift at the cinema - 470.",
-          "stimulus_es": "The actress normally organize a gift en the cinema - 470.",
+          "stimulus_en": "The chef seldom read door at the park.",
+          "stimulus_es": "The chef seldom read door en the park.",
           "options": [
             {
               "id": "o2",
@@ -1147,11 +1127,11 @@
             },
             {
               "id": "o3",
-              "text": "Other 1522"
+              "text": "Other 2900."
             },
             {
               "id": "o1",
-              "text": "normally"
+              "text": "seldom."
             }
           ],
           "correct_answer": "o1",
@@ -1159,141 +1139,126 @@
           "interaction_id": "U44_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 305 sobre Descriptions: Personality:",
           "options": [
             {
-              "id": "w9",
-              "text": "(today)"
-            },
-            {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "shop"
-            },
-            {
-              "id": "w2",
-              "text": "normally"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "scientist"
-            },
-            {
-              "id": "w5",
-              "text": "sandwich"
-            },
-            {
-              "id": "w7",
-              "text": "the"
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "meet"
+              "text": "dog"
+            },
+            {
+              "id": "w1",
+              "text": "seldom."
+            },
+            {
+              "id": "w2",
+              "text": "travel."
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w6",
+              "text": "balcony."
+            },
+            {
+              "id": "w5",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 349 (Descriptions: Personality):",
-          "stimulus_en": "The nurse ___ send a printer at the office - 344.",
-          "correct_answer": "sometimes",
+          "stimulus_en": "A colleague ___ learn ticket at the garden.",
+          "correct_answer": "always",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 349 (Descriptions: Personality)",
-          "stimulus_en": "We occasionally teach a television at Paris (today).",
-          "stimulus_es": "Ref: We occasionally teach a television en Paris (today).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 349 (Descriptions: Personality)",
+          "stimulus_en": "The pilot never walk apple at the kitchen.",
+          "stimulus_es": "Ref: The pilot sometimes walk apple en the kitchen.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 349 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "They frequently send a car en the office - 887.",
-              "right": "They frequently send a car at the office - 887."
+              "left": "The lawyer regularly teach dog en the beach.",
+              "right": "The lawyer regularly teach dog at the beach."
             },
             {
               "id": "p1",
-              "left": "The nurse always finish a pen en London - 857.",
-              "right": "The nurse always finish a pen at London - 857."
+              "left": "The artist usually fix letter en Paris.",
+              "right": "The artist usually fix letter at Paris."
             },
             {
               "id": "p2",
-              "left": "The actress sometimes study music en the garage!.",
-              "right": "The actress sometimes study music at the garage!."
+              "left": "My friend frequently call dog en the university.",
+              "right": "My friend frequently call dog at the university."
             },
             {
               "id": "p3",
-              "left": "The artist sometimes cook a house en the woods..",
-              "right": "The artist sometimes cook a house at the woods.."
+              "left": "Our neighbors always play table en the balcony.",
+              "right": "Our neighbors always play table at the balcony."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 349 (Descriptions: Personality):",
-          "tts_en": "My cousin frequently call a table at the kitchen (today).",
-          "correct_answer": "My cousin frequently call a table at the kitchen (today).",
+          "tts_en": "A colleague often build door at the city.",
+          "correct_answer": "A colleague often build door at the city",
           "mastery_tag": "listening",
           "interaction_id": "U44_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 349:",
           "options": [
             {
               "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
+              "text": "Calm"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Sad"
             },
             {
-              "id": "o4",
-              "text": "bike2801"
+              "id": "o0",
+              "text": "Happy"
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast"
             }
           ],
           "correct_answer": "o4",
@@ -1301,65 +1266,65 @@
           "interaction_id": "U44_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 349 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca?...",
-              "back": "What\u2019s the happiest day you\u2019ve ever had..."
+              "front": "1. Often / she / write to me/ doesn’t.",
+              "back": "she doesn’t often write to me."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 349 (Descriptions: Personality):",
-          "instruction_en": "Draft an email regarding Descriptions: Personality. [Ref: 43]",
+          "instruction_en": "Compare Descriptions: Personality with another topic. [Ref: 67]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 349 (Descriptions: Personality):",
-          "stimulus_en": "Study Descriptions: Personality now. (745)",
+          "stimulus_en": "The Adverbs of Frequency is here. (368)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 306 (Descriptions: Personality):",
-          "stimulus": "Matching set 5304",
+          "stimulus": "Matching set 9942.",
           "items": [
             {
               "id": "i0",
-              "text": "dictionary / often / use / The / the / students - amazing",
+              "text": "dictionary / often / use / The / the / students.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Metre (Br Eng) (Am Eng (today)",
+              "text": "Has visto an alguien?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Much, como se utiliza con uncountable, decimos (today)",
+              "text": "A qué hora tenemos el examen?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "the students often use the dictionary - amazing"
-            },
-            {
               "id": "m1",
-              "text": "meter) Metro (today)"
+              "text": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien»."
             },
             {
               "id": "m2",
-              "text": "I haven\u2019t got much money (remember, money is uncountable). (today)"
+              "text": "What time do we have our exam."
+            },
+            {
+              "id": "m0",
+              "text": "the students often use the dictionary."
             }
           ],
           "correct_answer": {
@@ -1371,26 +1336,26 @@
           "interaction_id": "U44_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 306 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "What does Juan do - interesting"
+                  "text": "How is your mum feeling."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - 312"
+                  "text": "I have a lot of money and I have a lot of friends."
                 }
               ]
             }
@@ -1399,20 +1364,20 @@
           "interaction_id": "U44_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 306 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (1906), The actress [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (1574), John [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "started"
+                  "text": "worked."
                 },
                 {
                   "id": "o2",
-                  "text": "start"
+                  "text": "work"
                 }
               ]
             },
@@ -1421,11 +1386,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "speak"
                 }
               ]
             }
@@ -1438,22 +1403,22 @@
           "interaction_id": "U44_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 306 para Descriptions: Personality:",
-          "stimulus_en": "The boss often learn a bike at the shop (today).",
-          "stimulus_es": "The boss often learn a bike en the shop (today).",
+          "stimulus_en": "The artist hardly ever walk table at the museum.",
+          "stimulus_es": "The artist hardly ever walk table en the museum.",
           "options": [
-            {
-              "id": "o3",
-              "text": "Other 5218"
-            },
-            {
-              "id": "o1",
-              "text": "often"
-            },
             {
               "id": "o2",
               "text": "never"
+            },
+            {
+              "id": "o3",
+              "text": "Other 82."
+            },
+            {
+              "id": "o1",
+              "text": "hardly ever."
             }
           ],
           "correct_answer": "o1",
@@ -1461,131 +1426,126 @@
           "interaction_id": "U44_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 306 sobre Descriptions: Personality:",
           "options": [
             {
+              "id": "w6",
+              "text": "shop"
+            },
+            {
+              "id": "w0",
+              "text": "John"
+            },
+            {
+              "id": "w1",
+              "text": "periodically."
+            },
+            {
               "id": "w3",
-              "text": "a"
+              "text": "printer."
             },
             {
               "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "airport"
-            },
-            {
-              "id": "w6",
               "text": "the"
             },
             {
               "id": "w2",
-              "text": "study"
+              "text": "build"
             },
             {
               "id": "w4",
-              "text": "printer"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "often"
+              "text": "at"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 350 (Descriptions: Personality):",
-          "stimulus_en": "The waiter ___ write a pen at the city..",
-          "correct_answer": "never",
+          "stimulus_en": "I ___ stop watch at the mountains.",
+          "correct_answer": "hardly ever",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 350 (Descriptions: Personality)",
-          "stimulus_en": "The driver constantly write an apple at the gym - 204.",
-          "stimulus_es": "Ref: The driver constantly write an apple en the gym - 204.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 350 (Descriptions: Personality)",
+          "stimulus_en": "The manager frequently build laptop at the balcony.",
+          "stimulus_es": "Ref: The manager frequently build laptop en the balcony.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 350 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "They frequently finish a dog en the bedroom - amazing.",
-              "right": "They frequently finish a dog at the bedroom - amazing."
+              "left": "The teacher never prepare tennis en school.",
+              "right": "The teacher never prepare tennis at school."
             },
             {
               "id": "p1",
-              "left": "The doctor normally organize a newspaper en the kitchen (today).",
-              "right": "The doctor normally organize a newspaper at the kitchen (today)."
+              "left": "I regularly work chair en school.",
+              "right": "I regularly work chair at school."
             },
             {
               "id": "p2",
-              "left": "My cousin constantly play a computer en the garage - 244.",
-              "right": "My cousin constantly play a computer at the garage - 244."
+              "left": "The pilot seldom watch laptop en London.",
+              "right": "The pilot seldom watch laptop at London."
             },
             {
               "id": "p3",
-              "left": "Sarah occasionally start a bag en the supermarket....",
-              "right": "Sarah occasionally start a bag at the supermarket...."
+              "left": "The pilot sometimes design report en the country.",
+              "right": "The pilot sometimes design report at the country."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 350 (Descriptions: Personality):",
-          "tts_en": "The scientist occasionally start a chair at the mountains - interesting.",
-          "correct_answer": "The scientist occasionally start a chair at the mountains - interesting.",
+          "tts_en": "The singer usually walk pen at the office.",
+          "correct_answer": "The singer usually walk pen at the office",
           "mastery_tag": "listening",
           "interaction_id": "U44_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 350:",
           "options": [
             {
               "id": "o4",
-              "text": "June3353"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
+              "text": "June"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "Friday."
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "Monday."
+            },
+            {
+              "id": "o2",
+              "text": "Sunday."
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
             }
           ],
           "correct_answer": "o4",
@@ -1593,65 +1553,65 @@
           "interaction_id": "U44_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 350 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?...",
-              "back": "have you ever spoken English on the phone..."
+              "front": "Está estudiando ella inglés?",
+              "back": "Is she studying English."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 350 (Descriptions: Personality):",
-          "instruction_en": "Why is Descriptions: Personality important? [Ref: 23]",
+          "instruction_en": "Why is Descriptions: Personality important? [Ref: 92]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 350 (Descriptions: Personality):",
-          "stimulus_en": "Repeat Descriptions: Personality. (235)",
+          "stimulus_en": "The Adverbs of Frequency is here. (993)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 307 (Descriptions: Personality):",
-          "stimulus": "Matching set 9270",
+          "stimulus": "Matching set 8128.",
           "items": [
             {
               "id": "i0",
-              "text": "4. go to bed before 11 / often / I - amazing",
+              "text": "Otro common mistake.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (now)",
+              "text": "Has terminado ya el proyecto?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
+              "text": "Al lado de mi colegio no hay bloques de pisos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "I often go to bed before 11 - amazing"
+              "id": "m2",
+              "text": "Next to my school there aren’t any apartment blocks."
             },
             {
-              "id": "m2",
-              "text": "Sometimes I have lunch in a restaurant.!"
+              "id": "m0",
+              "text": "Have you a car?"
             },
             {
               "id": "m1",
-              "text": "read, write, eat, run, sleep, etc (now)"
+              "text": "Have you finished the project yet."
             }
           ],
           "correct_answer": {
@@ -1663,26 +1623,26 @@
           "interaction_id": "U44_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 307 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Do you have any children."
+                  "text": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Jonathan usually visits the dentist - 962"
+                  "text": "What will the weather be like tomorrow? It’ll be sunny."
                 }
               ]
             }
@@ -1691,20 +1651,20 @@
           "interaction_id": "U44_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 307 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (4833), Sarah [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (2256), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "listened."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "listen."
                 }
               ]
             },
@@ -1713,11 +1673,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "started"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "start"
+                  "text": "meet"
                 }
               ]
             }
@@ -1730,14 +1690,14 @@
           "interaction_id": "U44_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 307 para Descriptions: Personality:",
-          "stimulus_en": "The student usually receive a bag at London!.",
-          "stimulus_es": "The student usually receive a bag en London!.",
+          "stimulus_en": "They hardly ever listen football at the city.",
+          "stimulus_es": "They hardly ever listen football en the city.",
           "options": [
             {
               "id": "o1",
-              "text": "usually"
+              "text": "hardly ever."
             },
             {
               "id": "o2",
@@ -1745,7 +1705,7 @@
             },
             {
               "id": "o3",
-              "text": "Other 2631"
+              "text": "Other 2100."
             }
           ],
           "correct_answer": "o1",
@@ -1753,141 +1713,136 @@
           "interaction_id": "U44_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 307 sobre Descriptions: Personality:",
           "options": [
-            {
-              "id": "w5",
-              "text": "gift"
-            },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w4",
-              "text": "a"
+              "id": "w5",
+              "text": "tennis."
             },
             {
-              "id": "w8",
-              "text": "cinema"
+              "id": "w2",
+              "text": "officer."
             },
             {
-              "id": "w1",
-              "text": "actress"
-            },
-            {
-              "id": "w6",
-              "text": "at"
+              "id": "w3",
+              "text": "occasionally."
             },
             {
               "id": "w7",
               "text": "the"
             },
             {
-              "id": "w3",
-              "text": "visit"
+              "id": "w1",
+              "text": "police."
             },
             {
-              "id": "w9",
-              "text": "(today)"
+              "id": "w6",
+              "text": "at"
             },
             {
-              "id": "w2",
-              "text": "never"
+              "id": "w4",
+              "text": "learn"
+            },
+            {
+              "id": "w8",
+              "text": "kitchen."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 351 (Descriptions: Personality):",
-          "stimulus_en": "You ___ design tennis at the museum (now).",
-          "correct_answer": "frequently",
+          "stimulus_en": "The teacher ___ drink football at the garage.",
+          "correct_answer": "regularly",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 351 (Descriptions: Personality)",
-          "stimulus_en": "We never walk a gift at the garden..",
-          "stimulus_es": "Ref: We periodically walk a gift en the garden..",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 351 (Descriptions: Personality)",
+          "stimulus_en": "My sister never sell music at the city.",
+          "stimulus_es": "Ref: My sister never sell music en the city.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 351 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "My sister normally stop a watch en the kitchen - amazing.",
-              "right": "My sister normally stop a watch at the kitchen - amazing."
+              "left": "We never travel gift en the shop.",
+              "right": "We never travel gift at the shop."
             },
             {
               "id": "p1",
-              "left": "The pilot often cook a gift en the shop (today).",
-              "right": "The pilot often cook a gift at the shop (today)."
+              "left": "The architect often stop English en the supermarket.",
+              "right": "The architect often stop English at the supermarket."
             },
             {
               "id": "p2",
-              "left": "My sister often walk a watch en the balcony - 106.",
-              "right": "My sister often walk a watch at the balcony - 106."
+              "left": "The pilot always check chair en the woods.",
+              "right": "The pilot always check chair at the woods."
             },
             {
               "id": "p3",
-              "left": "The artist constantly prepare football en the airport....",
-              "right": "The artist constantly prepare football at the airport...."
+              "left": "The singer frequently watch music en the office.",
+              "right": "The singer frequently watch music at the office."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 351 (Descriptions: Personality):",
-          "tts_en": "The player sometimes sell a bike at the restaurant....",
-          "correct_answer": "The player sometimes sell a bike at the restaurant....",
+          "tts_en": "The teacher hardly ever write letter at the country.",
+          "correct_answer": "The teacher hardly ever write letter at the country",
           "mastery_tag": "listening",
           "interaction_id": "U44_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 351:",
           "options": [
             {
               "id": "o4",
-              "text": "bike345"
+              "text": "Hot"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "Star"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "Sun"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Planet."
             }
           ],
           "correct_answer": "o4",
@@ -1895,65 +1850,65 @@
           "interaction_id": "U44_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 351 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1ndo la ayudaste?!",
-              "back": "When did you help him/her!"
+              "front": "En matématicas, por ejemplo, con número decimales.",
+              "back": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 351 (Descriptions: Personality):",
-          "instruction_en": "Describe Descriptions: Personality in 5 words. [Ref: 24]",
+          "instruction_en": "List 3 facts about Descriptions: Personality. [Ref: 70]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 351 (Descriptions: Personality):",
-          "stimulus_en": "This is Descriptions: Personality. (314)",
+          "stimulus_en": "The Adverbs of Frequency is here. (152)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 308 (Descriptions: Personality):",
-          "stimulus": "Matching set 8956",
+          "stimulus": "Matching set 1563.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing - interesting",
+              "text": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 Con partes del d\u00eda (now)",
+              "text": "Cuál es el país más frío en el que has estado nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?.",
+              "text": "6. Los juguetes de mis hijos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "on the Internet - interesting"
-            },
-            {
-              "id": "m2",
-              "text": "What\u2019s the hottest place you\u2019ve ever been to."
+              "text": "would you like some coke?"
             },
             {
               "id": "m1",
-              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) (now)"
+              "text": "What’s the coldest country you’ve ever been to."
+            },
+            {
+              "id": "m2",
+              "text": "My children’s toys."
             }
           ],
           "correct_answer": {
@@ -1965,26 +1920,26 @@
           "interaction_id": "U44_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 308 (Descriptions: Personality):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. - amazing"
+                  "text": "What’s the funniest joke you’ve ever been told."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Spain\u2018s monuments are very nice. - 175"
+                  "text": "There are a lot of bars near my house."
                 }
               ]
             }
@@ -1993,20 +1948,20 @@
           "interaction_id": "U44_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 308 (Descriptions: Personality):",
-          "main_text": "In Descriptions: Personality (9151), A colleague [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Personality (8602), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "speak"
                 }
               ]
             },
@@ -2015,11 +1970,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "meet"
                 }
               ]
             }
@@ -2032,22 +1987,22 @@
           "interaction_id": "U44_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 308 para Descriptions: Personality:",
-          "stimulus_en": "The teacher usually help tennis at the kitchen - interesting.",
-          "stimulus_es": "The teacher usually help tennis en the kitchen - interesting.",
+          "stimulus_en": "The boss seldom buy letter at the bedroom.",
+          "stimulus_es": "The boss seldom buy letter en the bedroom.",
           "options": [
+            {
+              "id": "o1",
+              "text": "seldom."
+            },
             {
               "id": "o2",
               "text": "never"
             },
             {
               "id": "o3",
-              "text": "Other 141"
-            },
-            {
-              "id": "o1",
-              "text": "usually"
+              "text": "Other 4376."
             }
           ],
           "correct_answer": "o1",
@@ -2055,141 +2010,131 @@
           "interaction_id": "U44_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 308 sobre Descriptions: Personality:",
           "options": [
             {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
               "id": "w3",
-              "text": "build"
+              "text": "ever"
+            },
+            {
+              "id": "w4",
+              "text": "sell"
             },
             {
               "id": "w6",
               "text": "at"
             },
             {
-              "id": "w8",
-              "text": "park"
-            },
-            {
-              "id": "w4",
-              "text": "a"
+              "id": "w7",
+              "text": "school."
             },
             {
               "id": "w2",
-              "text": "always"
-            },
-            {
-              "id": "w1",
-              "text": "cousin"
+              "text": "hardly."
             },
             {
               "id": "w5",
-              "text": "television"
+              "text": "computer."
             },
             {
-              "id": "w9",
-              "text": "614"
+              "id": "w1",
+              "text": "coach"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U44_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 352 (Descriptions: Personality):",
-          "stimulus_en": "The teacher ___ buy a clock at the museum....",
-          "correct_answer": "never",
+          "stimulus_en": "The doctor ___ read radio at the park.",
+          "correct_answer": "regularly",
           "mastery_tag": "grammar",
           "interaction_id": "U44_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 352 (Descriptions: Personality)",
-          "stimulus_en": "He periodically teach a door at the city - amazing.",
-          "stimulus_es": "Ref: He periodically teach a door en the city - amazing.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 352 (Descriptions: Personality)",
+          "stimulus_en": "The teacher usually play apple at the office.",
+          "stimulus_es": "Ref: The teacher usually play apple en the office.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U44_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 352 (Descriptions: Personality):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Maria often stop tennis en the library (now).",
-              "right": "Maria often stop tennis at the library (now)."
+              "left": "The boss sometimes stop football en the street.",
+              "right": "The boss sometimes stop football at the street."
             },
             {
               "id": "p1",
-              "left": "The lawyer periodically play a television en the university..",
-              "right": "The lawyer periodically play a television at the university.."
+              "left": "My brother never sell bike en the balcony.",
+              "right": "My brother never sell bike at the balcony."
             },
             {
               "id": "p2",
-              "left": "My brother constantly buy a pizza en school - 480.",
-              "right": "My brother constantly buy a pizza at school - 480."
+              "left": "The coach sometimes build television en Paris.",
+              "right": "The coach sometimes build television at Paris."
             },
             {
               "id": "p3",
-              "left": "The driver hardly ever plan an apple en the bedroom - amazing.",
-              "right": "The driver hardly ever plan an apple at the bedroom - amazing."
+              "left": "A colleague usually travel bag en London.",
+              "right": "A colleague usually travel bag at London."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 352 (Descriptions: Personality):",
-          "tts_en": "My sister normally buy a pizza at the hospital - amazing.",
-          "correct_answer": "My sister normally buy a pizza at the hospital - amazing.",
+          "tts_en": "Our neighbors always play computer at the kitchen.",
+          "correct_answer": "Our neighbors always play computer at the kitchen",
           "mastery_tag": "listening",
           "interaction_id": "U44_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 352:",
           "options": [
             {
-              "id": "o0",
-              "text": "Table"
+              "id": "o1",
+              "text": "bus"
             },
             {
-              "id": "o1",
-              "text": "Chair"
+              "id": "o0",
+              "text": "car"
             },
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "train"
             },
             {
               "id": "o4",
-              "text": "Pen1400"
+              "text": "cat"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "plane"
             }
           ],
           "correct_answer": "o4",
@@ -2197,29 +2142,29 @@
           "interaction_id": "U44_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 352 - Descriptions: Personality:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing - amazing",
-              "back": "My friend has a lot of money. - amazing"
+              "front": "– Seasons (estaciones)",
+              "back": "in summer, in winter."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U44_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 352 (Descriptions: Personality):",
-          "instruction_en": "Describe Descriptions: Personality in 5 words. [Ref: 58]",
+          "instruction_en": "Explain Adverbs of Frequency using Descriptions: Personality. [Ref: 19]",
           "mastery_tag": "writing",
           "interaction_id": "U44_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 352 (Descriptions: Personality):",
-          "stimulus_en": "Where is Descriptions: Personality? (843)",
+          "stimulus_en": "Look at Descriptions: Personality. (251)",
           "mastery_tag": "speaking",
           "interaction_id": "U44_I100"
         }

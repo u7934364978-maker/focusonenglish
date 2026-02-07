@@ -5,7 +5,7 @@ import { getSEOPageBySlug, getAllSEORoutes } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
-import { CourseSchema, BreadcrumbSchema } from "@/app/schema";
+import { CourseSchema, BreadcrumbSchema, FAQSchema } from "@/app/schema";
 
 export async function generateStaticParams() {
   const routes = getAllSEORoutes();
@@ -66,7 +66,9 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
     "ingles-aprender-ingles": "hub",
     "ingles-c1": "ingles-c1",
     "ingles-c2": "ingles-c2",
-    "ingles-b1": "ingles-b1",
+    "ingles-b1": "cursos-online-ingles-b1",
+    "curso-ingles-b1": "cursos-online-ingles-b1",
+    "cursos-online-ingles-b1": "cursos-online-ingles-b1",
     "ingles-b2": "ingles-b2",
     "ingles-a1": "ingles-a1",
     "ingles-a2": "ingles-a2",
@@ -96,14 +98,14 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
   }
 
   const MarkdownComponents = {
-    h1: ({ ...props }: any) => <h1 className="font-display text-4xl lg:text-5xl font-black text-slate-900 mb-8 leading-tight" {...props} />,
-    h2: ({ ...props }: any) => <h2 className="font-display text-3xl font-black text-slate-900 mt-12 mb-6 border-b border-slate-100 pb-4" {...props} />,
-    h3: ({ ...props }: any) => <h3 className="font-display text-2xl font-bold text-slate-900 mt-8 mb-4" {...props} />,
-    p: ({ ...props }: any) => <p className="text-slate-700 text-lg leading-relaxed mb-6" {...props} />,
-    ul: ({ ...props }: any) => <ul className="list-disc ml-6 mb-6 space-y-3 text-slate-700 text-lg" {...props} />,
-    li: ({ ...props }: any) => <li className="pl-2" {...props} />,
-    strong: ({ ...props }: any) => <strong className="font-bold text-slate-900" {...props} />,
-    a: ({ ...props }: any) => <a className="text-coral-600 font-bold hover:underline" {...props} />,
+    h1: ({ ...props }: React.ComponentPropsWithoutRef<'h1'>) => <h1 className="font-display text-4xl lg:text-5xl font-black text-slate-900 mb-8 leading-tight" {...props} />,
+    h2: ({ ...props }: React.ComponentPropsWithoutRef<'h2'>) => <h2 className="font-display text-3xl font-black text-slate-900 mt-12 mb-6 border-b border-slate-100 pb-4" {...props} />,
+    h3: ({ ...props }: React.ComponentPropsWithoutRef<'h3'>) => <h3 className="font-display text-2xl font-bold text-slate-900 mt-8 mb-4" {...props} />,
+    p: ({ ...props }: React.ComponentPropsWithoutRef<'p'>) => <p className="text-slate-700 text-lg leading-relaxed mb-6" {...props} />,
+    ul: ({ ...props }: React.ComponentPropsWithoutRef<'ul'>) => <ul className="list-disc ml-6 mb-6 space-y-3 text-slate-700 text-lg" {...props} />,
+    li: ({ ...props }: React.ComponentPropsWithoutRef<'li'>) => <li className="pl-2" {...props} />,
+    strong: ({ ...props }: React.ComponentPropsWithoutRef<'strong'>) => <strong className="font-bold text-slate-900" {...props} />,
+    a: ({ ...props }: React.ComponentPropsWithoutRef<'a'>) => <a className="text-coral-600 font-bold hover:underline" {...props} />,
   };
 
   return (
@@ -189,6 +191,9 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
           { name: page.title, url: `/${slug}` }
         ]}
       />
+      {page.faqs && page.faqs.length > 0 && (
+        <FAQSchema questions={page.faqs} />
+      )}
     </>
   );
 }

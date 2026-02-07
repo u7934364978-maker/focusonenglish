@@ -25,7 +25,7 @@ VOCAB = {
     "verbs_past": ["ate", "worked", "studied", "played", "drank", "wrote", "read", "spoke", "cooked", "cleaned", "listened", "watched", "drove", "walked", "bought", "sold", "sent", "received", "created", "designed", "built", "fixed", "learned", "taught", "traveled", "visited", "called", "met", "helped", "organized", "planned", "prepared", "checked", "finished", "started", "stopped"],
     "verbs_pp": ["eaten", "worked", "studied", "played", "drunk", "written", "read", "spoken", "cooked", "cleaned", "listened", "watched", "driven", "walked", "bought", "sold", "sent", "received", "created", "designed", "built", "fixed", "learned", "taught", "traveled", "visited", "called", "met", "helped", "organized", "planned", "prepared", "checked", "finished", "started", "stopped"],
     "places": ["London", "Paris", "the office", "the supermarket", "the gym", "school", "the cinema", "the park", "the hospital", "the beach", "the library", "the airport", "the station", "the restaurant", "the bank", "the museum", "the garden", "the hotel", "the shop", "the stadium", "the university", "the street", "the country", "the city", "the mountains", "the woods", "the kitchen", "the bedroom", "the balcony", "the garage"],
-    "objects": ["an apple", "a book", "coffee", "English", "football", "a letter", "a pizza", "a car", "a sandwich", "a movie", "music", "tennis", "a newspaper", "a report", "an email", "a gift", "a phone", "a laptop", "a bike", "a ticket", "a dog", "a cat", "a house", "a table", "a chair", "a pen", "a bag", "a watch", "a clock", "a camera", "a radio", "a television", "a computer", "a printer", "a window", "a door"],
+    "objects": ["apple", "book", "coffee", "English", "football", "letter", "pizza", "car", "sandwich", "movie", "music", "tennis", "newspaper", "report", "email", "gift", "phone", "laptop", "bike", "ticket", "dog", "cat", "house", "table", "chair", "pen", "bag", "watch", "clock", "camera", "radio", "television", "computer", "printer", "window", "door"],
     "adjectives_ed": ["bored", "excited", "surprised", "interested", "confused", "tired", "amused", "satisfied", "disappointed", "frightened", "annoyed", "worried", "exhausted", "amazed", "relaxed", "depressed", "shocked", "pleased", "exhausted", "thrilled", "inspired", "overwhelmed", "embarrassed", "puzzled"],
     "adjectives_ing": ["boring", "exciting", "surprising", "interesting", "confusing", "tiring", "amusing", "satisfying", "disappointing", "frightening", "annoying", "worrying", "exhausting", "amazing", "relaxing", "depressing", "shocked", "pleasing", "exhausting", "thrilling", "inspiring", "overwhelming", "embarrassing", "puzzling"],
     "frequency": ["always", "usually", "often", "sometimes", "never", "hardly ever", "rarely", "frequently", "seldom", "occasionally", "normally", "constantly", "regularly", "periodically"],
@@ -125,7 +125,7 @@ class ExerciseGenerator:
 
     def get_sentence(self, grammar, theme):
         s = random.choice(VOCAB["subjects"]); vp = random.choice(VOCAB["verbs_present"]); va = random.choice(VOCAB["verbs_past"]); vpp = random.choice(VOCAB["verbs_pp"]); pl = random.choice(VOCAB["places"]); obj = random.choice(VOCAB["objects"]); obj2 = random.choice([o for o in VOCAB["objects"] if o != obj]); adj_ed = random.choice(VOCAB["adjectives_ed"]); adj_ing = random.choice(VOCAB["adjectives_ing"]); f = random.choice(VOCAB["frequency"]); c = random.choice(VOCAB["connectors"])
-        v = random.choice([" - " + str(random.randint(100, 999)), " (today)", " (now)", "!", ".", "...", " - interesting", " - amazing"])
+        v = ""
         if "Position" in grammar: adj = random.choice(["beautiful", "expensive", "modern", "wonderful", "small", "large", "new", "old", "nice"])
         elif "ed vs -ing" in grammar: return f"The {theme} was {adj_ing}, so {s} was {adj_ed}{v}.", f"La {theme} fue {adj_ing}, así que {s} estuvo {adj_ed}{v}.", adj_ed, adj_ing
         elif "Frequency" in grammar: return f"{s} {f} {vp} {obj} at {pl}{v}.", f"{s} {f} {vp} {obj} en {pl}{v}.", f, "never"
@@ -182,7 +182,7 @@ class ExerciseGenerator:
 
     def gen_odd(self, int_id):
         c = [["apple", "banana", "pear", "mango", "bike"], ["blue", "red", "green", "pink", "run"], ["car", "bus", "train", "plane", "cat"], ["pizza", "burger", "salad", "soup", "rain"], ["Monday", "Tuesday", "Sunday", "Friday", "June"], ["London", "Tokyo", "Berlin", "Paris", "Slow"], ["Guitar", "Piano", "Flute", "Drums", "Book"], ["Table", "Chair", "Sofa", "Bed", "Pen"], ["Sun", "Moon", "Star", "Planet", "Hot"], ["Happy", "Sad", "Angry", "Calm", "Fast"]]
-        ch = random.choice(c); w = ch[:4]; o = ch[4] + str(random.randint(1,9999)); pl = w + [o]; opts = [{"id": f"o{j}", "text": x} for j, x in enumerate(pl)]; random.shuffle(opts)
+        ch = random.choice(c); w = ch[:4]; o = ch[4]; pl = w + [o]; opts = [{"id": f"o{j}", "text": x} for j, x in enumerate(pl)]; random.shuffle(opts)
         ex = {"type": "odd_one_out", "prompt_es": f"Intruso {self.counters['odd_one_out']}:", "options": opts, "correct_answer": next(x["id"] for x in opts if x["text"] == o), "mastery_tag": "vocabulary", "interaction_id": int_id}
         self.counters['odd_one_out'] += 1
         return ex

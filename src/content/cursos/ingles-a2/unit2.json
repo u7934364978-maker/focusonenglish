@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit2",
-    "unit_title": "Adjectives -ed vs -ing - Travel: At the Airport",
+    "unit_title": "Adjectives -ed vs -ing - Travel: At the Airport.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U2_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 2",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 2.",
           "tts_en": "Starting unit 2. Topic: Travel: At the Airport. Focus: Adjectives -ed vs -ing.",
           "mastery_tag": "listening",
           "interaction_id": "U2_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 9 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was interesting, so The police officer was ___....",
-          "correct_answer": "worried",
+          "stimulus_en": "The Travel: At the Airport was satisfying, so She was ___.",
+          "correct_answer": "embarrassed",
           "mastery_tag": "grammar",
           "interaction_id": "U2_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 9 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was overwhelming, so She was overwhelming - interesting.",
-          "stimulus_es": "Ref: La Travel: At the Airport fue overwhelming, as\u00ed que She estuvo pleased - interesting.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 9 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was overwhelming, so My friend was puzzled.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue overwhelming, así que My friend estuvo puzzled.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U2_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 9 (Travel: At the Airport):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Travel: At the Airport fue exciting, as\u00ed que They estuvo excited (today).",
-              "right": "The Travel: At the Airport was exciting, so They was excited (today)."
+              "left": "La Travel: At the Airport fue tiring, así que We estuvo bored.",
+              "right": "The Travel: At the Airport was tiring, so We was bored."
             },
             {
               "id": "p1",
-              "left": "La Travel: At the Airport fue amazing, as\u00ed que A colleague estuvo worried - amazing.",
-              "right": "The Travel: At the Airport was amazing, so A colleague was worried - amazing."
+              "left": "La Travel: At the Airport fue shocked, así que A colleague estuvo tired.",
+              "right": "The Travel: At the Airport was shocked, so A colleague was tired."
             },
             {
               "id": "p2",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The architect estuvo amused (now).",
-              "right": "The Travel: At the Airport was exhausting, so The architect was amused (now)."
+              "left": "La Travel: At the Airport fue shocked, así que The police officer estuvo frightened.",
+              "right": "The Travel: At the Airport was shocked, so The police officer was frightened."
             },
             {
               "id": "p3",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The pilot estuvo frightened - amazing.",
-              "right": "The Travel: At the Airport was exhausting, so The pilot was frightened - amazing."
+              "left": "La Travel: At the Airport fue confusing, así que The baker estuvo depressed.",
+              "right": "The Travel: At the Airport was confusing, so The baker was depressed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 9 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was exciting, so We was thrilled!.",
-          "correct_answer": "The Travel: At the Airport was exciting, so We was thrilled!.",
+          "tts_en": "The Travel: At the Airport was satisfying, so The driver was tired.",
+          "correct_answer": "The Travel: At the Airport was satisfying, so The driver was tired",
           "mastery_tag": "listening",
           "interaction_id": "U2_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 9:",
           "options": [
             {
+              "id": "o4",
+              "text": "Book"
+            },
+            {
               "id": "o0",
-              "text": "apple"
+              "text": "Guitar."
             },
             {
               "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o4",
-              "text": "bike3418"
+              "text": "Flute"
             },
             {
               "id": "o1",
-              "text": "banana"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Drums"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U2_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 9 - Travel: At the Airport:",
           "cards": [
             {
               "id": "c1",
-              "front": "2. Let\u2019s do the same with the first example - amazing",
-              "back": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject! - amazing"
+              "front": "car / I / drink / never / if / drive / I / alcohol / a.",
+              "back": "I never drink alcohol if I drive a car."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 9 (Travel: At the Airport):",
-          "instruction_en": "A small story about Travel: At the Airport. [Ref: 71]",
+          "instruction_en": "Why is Travel: At the Airport important? [Ref: 77]",
           "mastery_tag": "writing",
           "interaction_id": "U2_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 9 (Travel: At the Airport):",
-          "stimulus_en": "Where is Travel: At the Airport? (972)",
+          "stimulus_en": "Focus on Travel: At the Airport. (321)",
           "mastery_tag": "speaking",
           "interaction_id": "U2_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 8 (Travel: At the Airport):",
-          "stimulus": "Matching set 8718",
+          "stimulus": "Matching set 3759.",
           "items": [
             {
               "id": "i0",
-              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo - interesting",
+              "text": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces también utilizamos -ing para personas, y ¿cuándo? Debes tener en cuenta que la terminación -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Un ejemplo de to seguido de infinitivo es (now)",
+              "text": "Quieres más?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar (now)",
+              "text": "En qué trabaja Juan?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Indirect questions en ingl\u00e9s. (now)"
+              "text": "What does Juan do."
             },
             {
               "id": "m0",
-              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - interesting"
+              "text": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora."
             },
             {
               "id": "m1",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (now)"
+              "text": "would you like some more."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U2_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 8 (Travel: At the Airport):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "read, write, eat, run, sleep, etc (today)"
+                  "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What time does the bus leave - interesting"
+                  "text": "What time do we have our exam."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U2_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 8 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (1445), The player [GAP 1] and [GAP 2].",
+          "main_text": "In Travel: At the Airport (5654), The driver [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "studied."
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "study"
                 }
               ]
             },
@@ -223,7 +223,1250 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "created."
+                },
+                {
+                  "id": "o2",
+                  "text": "create."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I12"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 8 para Travel: At the Airport:",
+          "stimulus_en": "The Travel: At the Airport was embarrassing, so Sarah was annoyed.",
+          "stimulus_es": "La Travel: At the Airport fue embarrassing, así que Sarah estuvo annoyed.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 3930."
+            },
+            {
+              "id": "o1",
+              "text": "annoyed."
+            },
+            {
+              "id": "o2",
+              "text": "embarrassing."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I13"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 8 sobre Travel: At the Airport:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "was"
+            },
+            {
+              "id": "w11",
+              "text": "exhausted."
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "artist."
+            },
+            {
+              "id": "w6",
+              "text": "frightening."
+            },
+            {
+              "id": "w1",
+              "text": "Travel:"
+            },
+            {
+              "id": "w7",
+              "text": "so"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U2_I14"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 10 (Travel: At the Airport):",
+          "stimulus_en": "The Travel: At the Airport was thrilling, so The singer was ___.",
+          "correct_answer": "interested",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I15"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 10 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was pleasing, so Our neighbors was pleasing.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue pleasing, así que Our neighbors estuvo frightened.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I16"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 10 (Travel: At the Airport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La Travel: At the Airport fue thrilling, así que They estuvo bored.",
+              "right": "The Travel: At the Airport was thrilling, so They was bored."
+            },
+            {
+              "id": "p1",
+              "left": "La Travel: At the Airport fue tiring, así que A colleague estuvo pleased.",
+              "right": "The Travel: At the Airport was tiring, so A colleague was pleased."
+            },
+            {
+              "id": "p2",
+              "left": "La Travel: At the Airport fue annoying, así que You estuvo pleased.",
+              "right": "The Travel: At the Airport was annoying, so You was pleased."
+            },
+            {
+              "id": "p3",
+              "left": "La Travel: At the Airport fue embarrassing, así que Our neighbors estuvo overwhelmed.",
+              "right": "The Travel: At the Airport was embarrassing, so Our neighbors was overwhelmed."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I17"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 10 (Travel: At the Airport):",
+          "tts_en": "The Travel: At the Airport was puzzling, so My brother was relaxed.",
+          "correct_answer": "The Travel: At the Airport was puzzling, so My brother was relaxed",
+          "mastery_tag": "listening",
+          "interaction_id": "U2_I18"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 10:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "cat"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I19"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 10 - Travel: At the Airport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "3. usually/ arrives late / the bus.",
+              "back": "the bus usually arrives late."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I20"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 10 (Travel: At the Airport):",
+          "instruction_en": "Compare Travel: At the Airport with another topic. [Ref: 13]",
+          "mastery_tag": "writing",
+          "interaction_id": "U2_I21"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 10 (Travel: At the Airport):",
+          "stimulus_en": "Talk about Travel: At the Airport. (681)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U2_I22"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 9 (Travel: At the Airport):",
+          "stimulus": "Matching set 2893.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Dónde te lo dijo?",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qué el from al final, quizá la aprendiste así en su día y la tienes ya tan asimilada que no te planteas por qué la preposición está al final, cuando en español, decimos la preposición de (from) al principio.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "– On + adjective + day = on a rainy day, on a sunny day. Ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "¿De dónde eres?"
+            },
+            {
+              "id": "m2",
+              "text": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos."
+            },
+            {
+              "id": "m0",
+              "text": "Where did he/she tell you."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I23"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 9 (Travel: At the Airport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "biscuit) Galleta."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you ever played chess."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I24"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 9 (Travel: At the Airport):",
+          "main_text": "In Travel: At the Airport (3597), My cousin [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished."
+                },
+                {
+                  "id": "o2",
+                  "text": "finish."
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished."
+                },
+                {
+                  "id": "o2",
+                  "text": "finish."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I25"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 9 para Travel: At the Airport:",
+          "stimulus_en": "The Travel: At the Airport was tiring, so The baker was pleased.",
+          "stimulus_es": "La Travel: At the Airport fue tiring, así que The baker estuvo pleased.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "pleased."
+            },
+            {
+              "id": "o3",
+              "text": "Other 971."
+            },
+            {
+              "id": "o2",
+              "text": "tiring."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I26"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 9 sobre Travel: At the Airport:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "so"
+            },
+            {
+              "id": "w11",
+              "text": "amused."
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w8",
+              "text": "My"
+            },
+            {
+              "id": "w6",
+              "text": "boring."
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            },
+            {
+              "id": "w9",
+              "text": "friend."
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "Travel:"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U2_I27"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 11 (Travel: At the Airport):",
+          "stimulus_en": "The Travel: At the Airport was tiring, so The baker was ___.",
+          "correct_answer": "confused",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I28"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 11 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was satisfying, so The student was satisfying.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue satisfying, así que The student estuvo exhausted.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I29"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 11 (Travel: At the Airport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La Travel: At the Airport fue depressing, así que We estuvo worried.",
+              "right": "The Travel: At the Airport was depressing, so We was worried."
+            },
+            {
+              "id": "p1",
+              "left": "La Travel: At the Airport fue exhausting, así que The doctor estuvo relaxed.",
+              "right": "The Travel: At the Airport was exhausting, so The doctor was relaxed."
+            },
+            {
+              "id": "p2",
+              "left": "La Travel: At the Airport fue annoying, así que The student estuvo bored.",
+              "right": "The Travel: At the Airport was annoying, so The student was bored."
+            },
+            {
+              "id": "p3",
+              "left": "La Travel: At the Airport fue tiring, así que The pilot estuvo tired.",
+              "right": "The Travel: At the Airport was tiring, so The pilot was tired."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I30"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 11 (Travel: At the Airport):",
+          "tts_en": "The Travel: At the Airport was disappointing, so He was worried.",
+          "correct_answer": "The Travel: At the Airport was disappointing, so He was worried",
+          "mastery_tag": "listening",
+          "interaction_id": "U2_I31"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 11:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I32"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 11 - Travel: At the Airport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Common mistake.",
+              "back": "I hadn’t got a mobile."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I33"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 11 (Travel: At the Airport):",
+          "instruction_en": "Draft an email regarding Travel: At the Airport. [Ref: 41]",
+          "mastery_tag": "writing",
+          "interaction_id": "U2_I34"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 11 (Travel: At the Airport):",
+          "stimulus_en": "Focus on Travel: At the Airport. (995)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U2_I35"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 10 (Travel: At the Airport):",
+          "stimulus": "Matching set 2463.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Otro ejemplo.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "often, usually y sometimes también se pueden escribir al principio de oración.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. el primer elemento es un animal. Ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
+            },
+            {
+              "id": "m2",
+              "text": "the bird‘s legs = las piernas del pájaro."
+            },
+            {
+              "id": "m1",
+              "text": "Sometimes I have lunch in a restaurant."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I36"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 10 (Travel: At the Airport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What’s the most delicious food you’ve ever tasted."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What’s the highest building you’ve ever visited."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I37"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 10 (Travel: At the Airport):",
+          "main_text": "In Travel: At the Airport (5612), John [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sold"
+                },
+                {
+                  "id": "o2",
+                  "text": "sell"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "bought."
+                },
+                {
+                  "id": "o2",
+                  "text": "buy"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 10 para Travel: At the Airport:",
+          "stimulus_en": "The Travel: At the Airport was amazing, so The architect was amused.",
+          "stimulus_es": "La Travel: At the Airport fue amazing, así que The architect estuvo amused.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "amused."
+            },
+            {
+              "id": "o3",
+              "text": "Other 9993."
+            },
+            {
+              "id": "o2",
+              "text": "amazing."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 10 sobre Travel: At the Airport:",
+          "options": [
+            {
+              "id": "w11",
+              "text": "amused."
+            },
+            {
+              "id": "w9",
+              "text": "architect."
+            },
+            {
+              "id": "w1",
+              "text": "Travel:"
+            },
+            {
+              "id": "w10",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "so"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w6",
+              "text": "satisfying."
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U2_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 12 (Travel: At the Airport):",
+          "stimulus_en": "The Travel: At the Airport was puzzling, so A colleague was ___.",
+          "correct_answer": "surprised",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 12 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was disappointing, so The student was puzzled.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue disappointing, así que The student estuvo puzzled.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 12 (Travel: At the Airport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La Travel: At the Airport fue boring, así que The teacher estuvo satisfied.",
+              "right": "The Travel: At the Airport was boring, so The teacher was satisfied."
+            },
+            {
+              "id": "p1",
+              "left": "La Travel: At the Airport fue overwhelming, así que The doctor estuvo satisfied.",
+              "right": "The Travel: At the Airport was overwhelming, so The doctor was satisfied."
+            },
+            {
+              "id": "p2",
+              "left": "La Travel: At the Airport fue depressing, así que John estuvo puzzled.",
+              "right": "The Travel: At the Airport was depressing, so John was puzzled."
+            },
+            {
+              "id": "p3",
+              "left": "La Travel: At the Airport fue inspiring, así que You estuvo disappointed.",
+              "right": "The Travel: At the Airport was inspiring, so You was disappointed."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 12 (Travel: At the Airport):",
+          "tts_en": "The Travel: At the Airport was inspiring, so She was inspired.",
+          "correct_answer": "The Travel: At the Airport was inspiring, so She was inspired",
+          "mastery_tag": "listening",
+          "interaction_id": "U2_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 12:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 12 - Travel: At the Airport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Algunos ejemplos.",
+              "back": "at in on for to of without."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 12 (Travel: At the Airport):",
+          "instruction_en": "Compare Travel: At the Airport with another topic. [Ref: 73]",
+          "mastery_tag": "writing",
+          "interaction_id": "U2_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 12 (Travel: At the Airport):",
+          "stimulus_en": "Where is Travel: At the Airport? (783)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U2_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 11 (Travel: At the Airport):",
+          "stimulus": "Matching set 3995.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "angry / Our / teacher / English / usually / is.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Has visto mis llaves en algún sitio?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tienes hijos?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Do you have any children."
+            },
+            {
+              "id": "m1",
+              "text": "have you seen my keys anywhere."
+            },
+            {
+              "id": "m0",
+              "text": "Our English teacher is usually angry."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 11 (Travel: At the Airport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "have you ever been to Canada."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "film star) Estrella de cine."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 11 (Travel: At the Airport):",
+          "main_text": "In Travel: At the Airport (537), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "learned."
+                },
+                {
+                  "id": "o2",
+                  "text": "learn"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I51"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 11 para Travel: At the Airport:",
+          "stimulus_en": "The Travel: At the Airport was exhausting, so The teacher was annoyed.",
+          "stimulus_es": "La Travel: At the Airport fue exhausting, así que The teacher estuvo annoyed.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "exhausting."
+            },
+            {
+              "id": "o1",
+              "text": "annoyed."
+            },
+            {
+              "id": "o3",
+              "text": "Other 5290."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I52"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 11 sobre Travel: At the Airport:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            },
+            {
+              "id": "w1",
+              "text": "Travel:"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "so"
+            },
+            {
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w6",
+              "text": "frightening."
+            },
+            {
+              "id": "w10",
+              "text": "depressed."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U2_I53"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 13 (Travel: At the Airport):",
+          "stimulus_en": "The Travel: At the Airport was overwhelming, so Maria was ___.",
+          "correct_answer": "bored",
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I54"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 13 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was interesting, so The teacher was interesting.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue interesting, así que The teacher estuvo thrilled.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U2_I55"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 13 (Travel: At the Airport):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "La Travel: At the Airport fue relaxing, así que The singer estuvo inspired.",
+              "right": "The Travel: At the Airport was relaxing, so The singer was inspired."
+            },
+            {
+              "id": "p1",
+              "left": "La Travel: At the Airport fue exhausting, así que The architect estuvo exhausted.",
+              "right": "The Travel: At the Airport was exhausting, so The architect was exhausted."
+            },
+            {
+              "id": "p2",
+              "left": "La Travel: At the Airport fue shocked, así que Maria estuvo depressed.",
+              "right": "The Travel: At the Airport was shocked, so Maria was depressed."
+            },
+            {
+              "id": "p3",
+              "left": "La Travel: At the Airport fue disappointing, así que The coach estuvo amused.",
+              "right": "The Travel: At the Airport was disappointing, so The coach was amused."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I56"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 13 (Travel: At the Airport):",
+          "tts_en": "The Travel: At the Airport was boring, so The manager was satisfied.",
+          "correct_answer": "The Travel: At the Airport was boring, so The manager was satisfied",
+          "mastery_tag": "listening",
+          "interaction_id": "U2_I57"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 13:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar."
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I58"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 13 - Travel: At the Airport:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "3. Las hermanas de Pedro.",
+              "back": "Peter’s sisters."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I59"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 13 (Travel: At the Airport):",
+          "instruction_en": "List 3 facts about Travel: At the Airport. [Ref: 16]",
+          "mastery_tag": "writing",
+          "interaction_id": "U2_I60"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 13 (Travel: At the Airport):",
+          "stimulus_en": "Repeat Travel: At the Airport. (231)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U2_I61"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 12 (Travel: At the Airport):",
+          "stimulus": "Matching set 1108.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Alguna vez has probado la comida tailandesa?",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "1. Often / she / write to me/ doesn’t.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "A qué hora sale el autobús?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "What time does the bus leave."
+            },
+            {
+              "id": "m1",
+              "text": "she doesn’t often write to me."
+            },
+            {
+              "id": "m0",
+              "text": "Have you ever tried Thai food."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U2_I62"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 12 (Travel: At the Airport):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "on Monday, on Wednesday, etc."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U2_I63"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 12 (Travel: At the Airport):",
+          "main_text": "In Travel: At the Airport (1630), The player [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened."
+                },
+                {
+                  "id": "o2",
+                  "text": "listen."
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked."
                 },
                 {
                   "id": "o2",
@@ -237,1283 +1480,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U2_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 8 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was exhausting, so The police officer was puzzled (now).",
-          "stimulus_es": "La Travel: At the Airport fue exhausting, as\u00ed que The police officer estuvo puzzled (now).",
-          "options": [
-            {
-              "id": "o2",
-              "text": "exhausting"
-            },
-            {
-              "id": "o1",
-              "text": "puzzled"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2635"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 8 sobre Travel: At the Airport:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "Airport"
-            },
-            {
-              "id": "w7",
-              "text": "so"
-            },
-            {
-              "id": "w1",
-              "text": "Travel:"
-            },
-            {
-              "id": "w9",
-              "text": "chef"
-            },
-            {
-              "id": "w8",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "depressing"
-            },
-            {
-              "id": "w2",
-              "text": "At"
-            },
-            {
-              "id": "w12",
-              "text": "interesting"
-            },
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "was"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w11",
-              "text": "satisfied"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U2_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 10 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was pleasing, so The student was ___ (now).",
-          "correct_answer": "tired",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 10 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was tiring, so The pilot was inspired - amazing.",
-          "stimulus_es": "Ref: La Travel: At the Airport fue tiring, as\u00ed que The pilot estuvo inspired - amazing.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 10 (Travel: At the Airport):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "La Travel: At the Airport fue puzzling, as\u00ed que The artist estuvo embarrassed....",
-              "right": "The Travel: At the Airport was puzzling, so The artist was embarrassed...."
-            },
-            {
-              "id": "p1",
-              "left": "La Travel: At the Airport fue exciting, as\u00ed que The boss estuvo bored - 608.",
-              "right": "The Travel: At the Airport was exciting, so The boss was bored - 608."
-            },
-            {
-              "id": "p2",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The boss estuvo depressed - interesting.",
-              "right": "The Travel: At the Airport was exhausting, so The boss was depressed - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "La Travel: At the Airport fue disappointing, as\u00ed que My brother estuvo confused - interesting.",
-              "right": "The Travel: At the Airport was disappointing, so My brother was confused - interesting."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 10 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was worrying, so The police officer was worried....",
-          "correct_answer": "The Travel: At the Airport was worrying, so The police officer was worried....",
-          "mastery_tag": "listening",
-          "interaction_id": "U2_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 10:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o4",
-              "text": "Pen7023"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 10 - Travel: At the Airport:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "De qui\u00e9n es ese m\u00f3vil? - 405",
-              "back": "Whose mobile is that - 405"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 10 (Travel: At the Airport):",
-          "instruction_en": "Why is Travel: At the Airport important? [Ref: 75]",
-          "mastery_tag": "writing",
-          "interaction_id": "U2_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 10 (Travel: At the Airport):",
-          "stimulus_en": "Talk about Travel: At the Airport. (999)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U2_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 9 (Travel: At the Airport):",
-          "stimulus": "Matching set 1989",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "Can I have your ID/ passport/ credit card?.."
-            },
-            {
-              "id": "m2",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "What\u2019s the highest building you\u2019ve ever visited..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 9 (Travel: At the Airport):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I hadn\u2019t got a mobile. (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "in May, in August, etc.!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 9 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (94), The chef [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "played"
-                },
-                {
-                  "id": "o2",
-                  "text": "play"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I25"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 9 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was disappointing, so You was confused!.",
-          "stimulus_es": "La Travel: At the Airport fue disappointing, as\u00ed que You estuvo confused!.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "disappointing"
-            },
-            {
-              "id": "o1",
-              "text": "confused"
-            },
-            {
-              "id": "o3",
-              "text": "Other 4755"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I26"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 9 sobre Travel: At the Airport:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "Airport"
-            },
-            {
-              "id": "w11",
-              "text": "surprised"
-            },
-            {
-              "id": "w7",
-              "text": "so"
-            },
-            {
-              "id": "w9",
-              "text": "architect"
-            },
-            {
-              "id": "w10",
-              "text": "was"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w12",
-              "text": "(today)"
-            },
-            {
-              "id": "w2",
-              "text": "At"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "Travel:"
-            },
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w6",
-              "text": "satisfying"
-            },
-            {
-              "id": "w8",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U2_I27"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 11 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was confusing, so The actress was ___ (today).",
-          "correct_answer": "bored",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I28"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 11 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was satisfying, so The doctor was pleased....",
-          "stimulus_es": "Ref: La Travel: At the Airport fue satisfying, as\u00ed que The doctor estuvo pleased....",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I29"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 11 (Travel: At the Airport):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "La Travel: At the Airport fue amazing, as\u00ed que You estuvo puzzled..",
-              "right": "The Travel: At the Airport was amazing, so You was puzzled.."
-            },
-            {
-              "id": "p1",
-              "left": "La Travel: At the Airport fue boring, as\u00ed que They estuvo excited..",
-              "right": "The Travel: At the Airport was boring, so They was excited.."
-            },
-            {
-              "id": "p2",
-              "left": "La Travel: At the Airport fue exciting, as\u00ed que Sarah estuvo interested - amazing.",
-              "right": "The Travel: At the Airport was exciting, so Sarah was interested - amazing."
-            },
-            {
-              "id": "p3",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The architect estuvo amused....",
-              "right": "The Travel: At the Airport was exhausting, so The architect was amused...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I30"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 11 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was confusing, so The baker was overwhelmed!.",
-          "correct_answer": "The Travel: At the Airport was confusing, so The baker was overwhelmed!.",
-          "mastery_tag": "listening",
-          "interaction_id": "U2_I31"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 11:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Fast181"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I32"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 11 - Travel: At the Airport:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "in + car/ taxi!",
-              "back": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a).!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I33"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 11 (Travel: At the Airport):",
-          "instruction_en": "Compare Travel: At the Airport with another topic. [Ref: 11]",
-          "mastery_tag": "writing",
-          "interaction_id": "U2_I34"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 11 (Travel: At the Airport):",
-          "stimulus_en": "Repeat Travel: At the Airport. (463)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U2_I35"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 10 (Travel: At the Airport):",
-          "stimulus": "Matching set 9308",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tienes hijos? (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Tyre (Am Eng - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "5. never / drinks coffee in the evening / she...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "tire) Neum\u00e1tico - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "Do you have any children (today)"
-            },
-            {
-              "id": "m2",
-              "text": "she never drinks coffee in the evening..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I36"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 10 (Travel: At the Airport):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "uso de las may\u00fasculas!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I37"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 10 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (9630), The boss [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "learned"
-                },
-                {
-                  "id": "o2",
-                  "text": "learn"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 10 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was exciting, so The waiter was confused (today).",
-          "stimulus_es": "La Travel: At the Airport fue exciting, as\u00ed que The waiter estuvo confused (today).",
-          "options": [
-            {
-              "id": "o1",
-              "text": "confused"
-            },
-            {
-              "id": "o2",
-              "text": "exciting"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7786"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 10 sobre Travel: At the Airport:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w8",
-              "text": "The"
-            },
-            {
-              "id": "w9",
-              "text": "chef"
-            },
-            {
-              "id": "w6",
-              "text": "boring"
-            },
-            {
-              "id": "w4",
-              "text": "Airport"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "was"
-            },
-            {
-              "id": "w11",
-              "text": "confused"
-            },
-            {
-              "id": "w1",
-              "text": "Travel:"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "so"
-            },
-            {
-              "id": "w2",
-              "text": "At"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U2_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 12 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was depressing, so Our neighbors was ___ (now).",
-          "correct_answer": "puzzled",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 12 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was shocked, so Maria was shocked - interesting.",
-          "stimulus_es": "Ref: La Travel: At the Airport fue shocked, as\u00ed que Maria estuvo exhausted - interesting.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 12 (Travel: At the Airport):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "La Travel: At the Airport fue worrying, as\u00ed que The architect estuvo amazed..",
-              "right": "The Travel: At the Airport was worrying, so The architect was amazed.."
-            },
-            {
-              "id": "p1",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The pilot estuvo satisfied - 478.",
-              "right": "The Travel: At the Airport was exhausting, so The pilot was satisfied - 478."
-            },
-            {
-              "id": "p2",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The coach estuvo relaxed - interesting.",
-              "right": "The Travel: At the Airport was exhausting, so The coach was relaxed - interesting."
-            },
-            {
-              "id": "p3",
-              "left": "La Travel: At the Airport fue exciting, as\u00ed que My sister estuvo annoyed (today).",
-              "right": "The Travel: At the Airport was exciting, so My sister was annoyed (today)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 12 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was overwhelming, so The player was excited....",
-          "correct_answer": "The Travel: At the Airport was overwhelming, so The player was excited....",
-          "mastery_tag": "listening",
-          "interaction_id": "U2_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 12:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o4",
-              "text": "Pen4568"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 12 - Travel: At the Airport:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Empecemos analizando el siguiente ejemplo - amazing",
-              "back": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 12 (Travel: At the Airport):",
-          "instruction_en": "Draft an email regarding Travel: At the Airport. [Ref: 51]",
-          "mastery_tag": "writing",
-          "interaction_id": "U2_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 12 (Travel: At the Airport):",
-          "stimulus_en": "Study Travel: At the Airport now. (700)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U2_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 11 (Travel: At the Airport):",
-          "stimulus": "Matching set 9493",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tienes zapatos para la boda? (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Funciona ese ordenador? (now)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Does that computer work (now)"
-            },
-            {
-              "id": "m0",
-              "text": "do you have any shoes for the wedding (today)"
-            },
-            {
-              "id": "m1",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta...."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 11 (Travel: At the Airport):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "biscuit) Galleta!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 11 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (2657), A colleague [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "planned"
-                },
-                {
-                  "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "stopped"
-                },
-                {
-                  "id": "o2",
-                  "text": "stop"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 11 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was satisfying, so The lawyer was frightened (today).",
-          "stimulus_es": "La Travel: At the Airport fue satisfying, as\u00ed que The lawyer estuvo frightened (today).",
-          "options": [
-            {
-              "id": "o1",
-              "text": "frightened"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2821"
-            },
-            {
-              "id": "o2",
-              "text": "satisfying"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 11 sobre Travel: At the Airport:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "teacher"
-            },
-            {
-              "id": "w11",
-              "text": "annoyed"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "Travel:"
-            },
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w4",
-              "text": "Airport"
-            },
-            {
-              "id": "w7",
-              "text": "so"
-            },
-            {
-              "id": "w8",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "satisfying"
-            },
-            {
-              "id": "w10",
-              "text": "was"
-            },
-            {
-              "id": "w2",
-              "text": "At"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U2_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 13 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was confusing, so The actress was ___ (now).",
-          "correct_answer": "thrilled",
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 13 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was thrilling, so The driver was thrilling..",
-          "stimulus_es": "Ref: La Travel: At the Airport fue thrilling, as\u00ed que The driver estuvo annoyed..",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U2_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 13 (Travel: At the Airport):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "La Travel: At the Airport fue amazing, as\u00ed que The teacher estuvo worried!.",
-              "right": "The Travel: At the Airport was amazing, so The teacher was worried!."
-            },
-            {
-              "id": "p1",
-              "left": "La Travel: At the Airport fue depressing, as\u00ed que The scientist estuvo disappointed (today).",
-              "right": "The Travel: At the Airport was depressing, so The scientist was disappointed (today)."
-            },
-            {
-              "id": "p2",
-              "left": "La Travel: At the Airport fue puzzling, as\u00ed que A colleague estuvo interested....",
-              "right": "The Travel: At the Airport was puzzling, so A colleague was interested...."
-            },
-            {
-              "id": "p3",
-              "left": "La Travel: At the Airport fue interesting, as\u00ed que Our neighbors estuvo tired (now).",
-              "right": "The Travel: At the Airport was interesting, so Our neighbors was tired (now)."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 13 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was interesting, so The police officer was excited - 284.",
-          "correct_answer": "The Travel: At the Airport was interesting, so The police officer was excited - 284.",
-          "mastery_tag": "listening",
-          "interaction_id": "U2_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 13:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o4",
-              "text": "cat2937"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o2",
-              "text": "train"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 13 - Travel: At the Airport:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example (now)",
-              "back": "may come, might go. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 13 (Travel: At the Airport):",
-          "instruction_en": "Draft an email regarding Travel: At the Airport. [Ref: 32]",
-          "mastery_tag": "writing",
-          "interaction_id": "U2_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 13 (Travel: At the Airport):",
-          "stimulus_en": "Focus on Travel: At the Airport. (377)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U2_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 12 (Travel: At the Airport):",
-          "stimulus": "Matching set 2022",
-          "items": [
-            {
-              "id": "i0",
-              "text": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Litre (Br Eng) (Am Eng!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "En espa\u00f1ol dir\u00edamos!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest).!"
-            },
-            {
-              "id": "m0",
-              "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
-            },
-            {
-              "id": "m1",
-              "text": "liter) Litro!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U2_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 12 (Travel: At the Airport):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "I often fish for hours without catching anything (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "My children\u2019s toys."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U2_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 12 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (2319), The manager [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "designed"
-                },
-                {
-                  "id": "o2",
-                  "text": "design"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "spoke"
-                },
-                {
-                  "id": "o2",
-                  "text": "speak"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U2_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 12 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was exhausting, so The nurse was pleased - 917.",
-          "stimulus_es": "La Travel: At the Airport fue exhausting, as\u00ed que The nurse estuvo pleased - 917.",
+          "stimulus_en": "The Travel: At the Airport was satisfying, so The police officer was tired.",
+          "stimulus_es": "La Travel: At the Airport fue satisfying, así que The police officer estuvo tired.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 1556"
+              "text": "Other 3409."
             },
             {
               "id": "o2",
-              "text": "exhausting"
+              "text": "satisfying."
             },
             {
               "id": "o1",
-              "text": "pleased"
+              "text": "tired"
             }
           ],
           "correct_answer": "o1",
@@ -1521,44 +1506,48 @@
           "interaction_id": "U2_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 12 sobre Travel: At the Airport:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "shocked"
-            },
-            {
-              "id": "w11",
-              "text": "interesting"
-            },
-            {
-              "id": "w8",
-              "text": "Sarah"
-            },
-            {
-              "id": "w4",
-              "text": "Airport"
+              "id": "w9",
+              "text": "chef"
             },
             {
               "id": "w1",
               "text": "Travel:"
             },
             {
+              "id": "w10",
+              "text": "was"
+            },
+            {
               "id": "w2",
               "text": "At"
             },
             {
-              "id": "w9",
-              "text": "was"
+              "id": "w7",
+              "text": "so"
+            },
+            {
+              "id": "w8",
+              "text": "The"
             },
             {
               "id": "w3",
               "text": "the"
+            },
+            {
+              "id": "w11",
+              "text": "surprised."
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w5",
@@ -1566,106 +1555,102 @@
             },
             {
               "id": "w6",
-              "text": "confusing"
-            },
-            {
-              "id": "w7",
-              "text": "so"
+              "text": "exhausting."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U2_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 14 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was surprising, so The teacher was ___ - amazing.",
-          "correct_answer": "confused",
+          "stimulus_en": "The Travel: At the Airport was inspiring, so The actress was ___.",
+          "correct_answer": "interested",
           "mastery_tag": "grammar",
           "interaction_id": "U2_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 14 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was worrying, so A colleague was worrying (now).",
-          "stimulus_es": "Ref: La Travel: At the Airport fue worrying, as\u00ed que A colleague estuvo pleased (now).",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 14 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was exhausting, so We was exhausting.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue exhausting, así que We estuvo exhausted.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U2_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 14 (Travel: At the Airport):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Travel: At the Airport fue amusing, as\u00ed que Our neighbors estuvo overwhelmed - amazing.",
-              "right": "The Travel: At the Airport was amusing, so Our neighbors was overwhelmed - amazing."
+              "left": "La Travel: At the Airport fue tiring, así que The artist estuvo tired.",
+              "right": "The Travel: At the Airport was tiring, so The artist was tired."
             },
             {
               "id": "p1",
-              "left": "La Travel: At the Airport fue shocked, as\u00ed que The coach estuvo pleased..",
-              "right": "The Travel: At the Airport was shocked, so The coach was pleased.."
+              "left": "La Travel: At the Airport fue exhausting, así que The coach estuvo amused.",
+              "right": "The Travel: At the Airport was exhausting, so The coach was amused."
             },
             {
               "id": "p2",
-              "left": "La Travel: At the Airport fue satisfying, as\u00ed que The singer estuvo tired!.",
-              "right": "The Travel: At the Airport was satisfying, so The singer was tired!."
+              "left": "La Travel: At the Airport fue thrilling, así que The baker estuvo excited.",
+              "right": "The Travel: At the Airport was thrilling, so The baker was excited."
             },
             {
               "id": "p3",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The police officer estuvo satisfied - amazing.",
-              "right": "The Travel: At the Airport was exhausting, so The police officer was satisfied - amazing."
+              "left": "La Travel: At the Airport fue satisfying, así que Our neighbors estuvo thrilled.",
+              "right": "The Travel: At the Airport was satisfying, so Our neighbors was thrilled."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 14 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was interesting, so They was interested....",
-          "correct_answer": "The Travel: At the Airport was interesting, so They was interested....",
+          "tts_en": "The Travel: At the Airport was interesting, so The architect was depressed.",
+          "correct_answer": "The Travel: At the Airport was interesting, so The architect was depressed",
           "mastery_tag": "listening",
           "interaction_id": "U2_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 14:",
           "options": [
             {
               "id": "o1",
-              "text": "bus"
+              "text": "Moon"
             },
             {
               "id": "o0",
-              "text": "car"
+              "text": "Sun"
             },
             {
               "id": "o4",
-              "text": "cat3650"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
+              "text": "Hot"
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "Star"
+            },
+            {
+              "id": "o3",
+              "text": "Planet."
             }
           ],
           "correct_answer": "o4",
@@ -1673,65 +1658,65 @@
           "interaction_id": "U2_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 14 - Travel: At the Airport:",
           "cards": [
             {
               "id": "c1",
-              "front": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng (now)",
-              "back": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the (now)"
+              "front": "2. La hamburguesa de Harry.",
+              "back": "Harry’s burger."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 14 (Travel: At the Airport):",
-          "instruction_en": "Explain Adjectives -ed vs -ing using Travel: At the Airport. [Ref: 37]",
+          "instruction_en": "Explain Adjectives -ed vs -ing using Travel: At the Airport. [Ref: 23]",
           "mastery_tag": "writing",
           "interaction_id": "U2_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 14 (Travel: At the Airport):",
-          "stimulus_en": "Study Travel: At the Airport now. (534)",
+          "stimulus_en": "I like Travel: At the Airport. (696)",
           "mastery_tag": "speaking",
           "interaction_id": "U2_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 13 (Travel: At the Airport):",
-          "stimulus": "Matching set 7711",
+          "stimulus": "Matching set 6439.",
           "items": [
             {
               "id": "i0",
-              "text": "Por ejemplo...",
+              "text": "El adjetivo dice una cualidad de algo, por ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo (now)",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s? (today)",
+              "text": "Has hablado alguna vez inglés por teléfono?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "are you learning French? (today)"
-            },
-            {
               "id": "m0",
-              "text": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO...."
+              "text": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
             },
             {
               "id": "m1",
-              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. (now)"
+              "text": "Jennifer usually goes out to see a concert."
+            },
+            {
+              "id": "m2",
+              "text": "have you ever spoken English on the phone."
             }
           ],
           "correct_answer": {
@@ -1743,26 +1728,26 @@
           "interaction_id": "U2_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 13 (Travel: At the Airport):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "meter) Metro - interesting"
+                  "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Sally often borrows money from her friends - 473"
+                  "text": "Whose car is that."
                 }
               ]
             }
@@ -1771,20 +1756,20 @@
           "interaction_id": "U2_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 13 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (9806), A colleague [GAP 1] and [GAP 2].",
+          "main_text": "In Travel: At the Airport (8585), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "called."
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "call"
                 }
               ]
             },
@@ -1793,11 +1778,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "start"
                 }
               ]
             }
@@ -1810,22 +1795,22 @@
           "interaction_id": "U2_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 13 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was amazing, so My brother was excited!.",
-          "stimulus_es": "La Travel: At the Airport fue amazing, as\u00ed que My brother estuvo excited!.",
+          "stimulus_en": "The Travel: At the Airport was disappointing, so Our neighbors was exhausted.",
+          "stimulus_es": "La Travel: At the Airport fue disappointing, así que Our neighbors estuvo exhausted.",
           "options": [
             {
-              "id": "o1",
-              "text": "excited"
+              "id": "o3",
+              "text": "Other 9795."
             },
             {
               "id": "o2",
-              "text": "amazing"
+              "text": "disappointing."
             },
             {
-              "id": "o3",
-              "text": "Other 5049"
+              "id": "o1",
+              "text": "exhausted."
             }
           ],
           "correct_answer": "o1",
@@ -1833,11 +1818,35 @@
           "interaction_id": "U2_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 13 sobre Travel: At the Airport:",
           "options": [
             {
-              "id": "w9",
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w8",
+              "text": "The"
+            },
+            {
+              "id": "w11",
+              "text": "amazed."
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "Travel:"
+            },
+            {
+              "id": "w4",
+              "text": "Airport."
+            },
+            {
+              "id": "w10",
               "text": "was"
             },
             {
@@ -1845,134 +1854,115 @@
               "text": "the"
             },
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "annoyed"
-            },
-            {
-              "id": "w6",
-              "text": "amazing"
-            },
-            {
-              "id": "w2",
-              "text": "At"
+              "id": "w9",
+              "text": "nurse"
             },
             {
               "id": "w7",
               "text": "so"
             },
             {
-              "id": "w5",
-              "text": "was"
+              "id": "w6",
+              "text": "surprising."
             },
             {
-              "id": "w4",
-              "text": "Airport"
-            },
-            {
-              "id": "w8",
-              "text": "Maria"
-            },
-            {
-              "id": "w1",
-              "text": "Travel:"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U2_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 15 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was amazing, so The nurse was ___ - 195.",
-          "correct_answer": "embarrassed",
+          "stimulus_en": "The Travel: At the Airport was embarrassing, so The waiter was ___.",
+          "correct_answer": "depressed",
           "mastery_tag": "grammar",
           "interaction_id": "U2_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 15 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was puzzling, so The coach was puzzling (today).",
-          "stimulus_es": "Ref: La Travel: At the Airport fue puzzling, as\u00ed que The coach estuvo pleased (today).",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 15 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was annoying, so The singer was tired.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue annoying, así que The singer estuvo tired.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U2_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 15 (Travel: At the Airport):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Travel: At the Airport fue frightening, as\u00ed que The teacher estuvo inspired (today).",
-              "right": "The Travel: At the Airport was frightening, so The teacher was inspired (today)."
+              "left": "La Travel: At the Airport fue exhausting, así que Our neighbors estuvo depressed.",
+              "right": "The Travel: At the Airport was exhausting, so Our neighbors was depressed."
             },
             {
               "id": "p1",
-              "left": "La Travel: At the Airport fue pleasing, as\u00ed que The scientist estuvo frightened!.",
-              "right": "The Travel: At the Airport was pleasing, so The scientist was frightened!."
+              "left": "La Travel: At the Airport fue boring, así que He estuvo surprised.",
+              "right": "The Travel: At the Airport was boring, so He was surprised."
             },
             {
               "id": "p2",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que Our neighbors estuvo shocked..",
-              "right": "The Travel: At the Airport was exhausting, so Our neighbors was shocked.."
+              "left": "La Travel: At the Airport fue overwhelming, así que The actress estuvo annoyed.",
+              "right": "The Travel: At the Airport was overwhelming, so The actress was annoyed."
             },
             {
               "id": "p3",
-              "left": "La Travel: At the Airport fue thrilling, as\u00ed que The singer estuvo satisfied!.",
-              "right": "The Travel: At the Airport was thrilling, so The singer was satisfied!."
+              "left": "La Travel: At the Airport fue shocked, así que The actress estuvo puzzled.",
+              "right": "The Travel: At the Airport was shocked, so The actress was puzzled."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 15 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was disappointing, so The waiter was satisfied....",
-          "correct_answer": "The Travel: At the Airport was disappointing, so The waiter was satisfied....",
+          "tts_en": "The Travel: At the Airport was amusing, so The coach was satisfied.",
+          "correct_answer": "The Travel: At the Airport was amusing, so The coach was satisfied",
           "mastery_tag": "listening",
           "interaction_id": "U2_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 15:",
           "options": [
             {
               "id": "o4",
-              "text": "run969"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o1",
-              "text": "red"
+              "text": "Hot"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "Sun"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o3",
+              "text": "Planet."
             }
           ],
           "correct_answer": "o4",
@@ -1980,65 +1970,65 @@
           "interaction_id": "U2_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 15 - Travel: At the Airport:",
           "cards": [
             {
               "id": "c1",
-              "front": "8. \u00a0usually / my father / goes to work by bus.",
-              "back": "my father usually goes to work by bus."
+              "front": "– Seasons (estaciones)",
+              "back": "in summer, in winter."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 15 (Travel: At the Airport):",
-          "instruction_en": "Explain Adjectives -ed vs -ing using Travel: At the Airport. [Ref: 41]",
+          "instruction_en": "Review Travel: At the Airport from last week. [Ref: 53]",
           "mastery_tag": "writing",
           "interaction_id": "U2_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 15 (Travel: At the Airport):",
-          "stimulus_en": "Where is Travel: At the Airport? (574)",
+          "stimulus_en": "Talk about Travel: At the Airport. (761)",
           "mastery_tag": "speaking",
           "interaction_id": "U2_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 14 (Travel: At the Airport):",
-          "stimulus": "Matching set 1252",
+          "stimulus": "Matching set 7288.",
           "items": [
             {
               "id": "i0",
-              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (now)",
+              "text": "Movie theater (Br Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has visto mis llaves en alg\u00fan sitio? (today)",
+              "text": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Drugstore (Br Eng.",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que leáis la explicación y aprendáis, o repaséis, qué es y cómo se forman las indirect questions (preguntas indirectas). Aquí lo puedes revisar.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "chemist) Farmacia."
+              "id": "m1",
+              "text": "have you ever studied a foreign laguage apart from English."
             },
             {
-              "id": "m1",
-              "text": "have you seen my keys anywhere (today)"
+              "id": "m2",
+              "text": "Indirect questions en inglés."
             },
             {
               "id": "m0",
-              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (now)"
+              "text": "cinema) Cine."
             }
           ],
           "correct_answer": {
@@ -2050,26 +2040,26 @@
           "interaction_id": "U2_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 14 (Travel: At the Airport):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever seen a film in original version - interesting"
+                  "text": "Were you having a beer when you saw Peter."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Your grandmother\u2019s juice - amazing"
+                  "text": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»."
                 }
               ]
             }
@@ -2078,20 +2068,20 @@
           "interaction_id": "U2_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 14 (Travel: At the Airport):",
-          "main_text": "In Travel: At the Airport (7462), We [GAP 1] and [GAP 2].",
+          "main_text": "In Travel: At the Airport (3341), John [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "played"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "play"
+                  "text": "finish."
                 }
               ]
             },
@@ -2100,11 +2090,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "learn"
                 }
               ]
             }
@@ -2117,22 +2107,22 @@
           "interaction_id": "U2_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 14 para Travel: At the Airport:",
-          "stimulus_en": "The Travel: At the Airport was embarrassing, so The baker was thrilled..",
-          "stimulus_es": "La Travel: At the Airport fue embarrassing, as\u00ed que The baker estuvo thrilled..",
+          "stimulus_en": "The Travel: At the Airport was annoying, so The scientist was amused.",
+          "stimulus_es": "La Travel: At the Airport fue annoying, así que The scientist estuvo amused.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 8248"
-            },
-            {
-              "id": "o2",
-              "text": "embarrassing"
+              "text": "Other 5443."
             },
             {
               "id": "o1",
-              "text": "thrilled"
+              "text": "amused."
+            },
+            {
+              "id": "o2",
+              "text": "annoying."
             }
           ],
           "correct_answer": "o1",
@@ -2140,156 +2130,151 @@
           "interaction_id": "U2_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 14 sobre Travel: At the Airport:",
           "options": [
             {
-              "id": "w1",
-              "text": "Travel:"
-            },
-            {
-              "id": "w5",
-              "text": "was"
-            },
-            {
-              "id": "w6",
-              "text": "thrilling"
+              "id": "w4",
+              "text": "Airport."
             },
             {
               "id": "w0",
               "text": "The"
             },
             {
-              "id": "w9",
-              "text": "scientist"
+              "id": "w1",
+              "text": "Travel:"
             },
             {
               "id": "w7",
               "text": "so"
             },
             {
-              "id": "w12",
-              "text": "interesting"
-            },
-            {
-              "id": "w8",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "At"
-            },
-            {
-              "id": "w3",
-              "text": "the"
+              "id": "w5",
+              "text": "was"
             },
             {
               "id": "w10",
               "text": "was"
             },
             {
-              "id": "w4",
-              "text": "Airport"
+              "id": "w9",
+              "text": "colleague."
             },
             {
               "id": "w11",
-              "text": "amused"
+              "text": "tired"
+            },
+            {
+              "id": "w8",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "At"
+            },
+            {
+              "id": "w6",
+              "text": "exciting."
+            },
+            {
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U2_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 16 (Travel: At the Airport):",
-          "stimulus_en": "The Travel: At the Airport was thrilling, so My cousin was ___!.",
-          "correct_answer": "pleased",
+          "stimulus_en": "The Travel: At the Airport was exhausting, so Sarah was ___.",
+          "correct_answer": "amazed",
           "mastery_tag": "grammar",
           "interaction_id": "U2_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 16 (Travel: At the Airport)",
-          "stimulus_en": "The Travel: At the Airport was exhausting, so The nurse was exhausted!.",
-          "stimulus_es": "Ref: La Travel: At the Airport fue exhausting, as\u00ed que The nurse estuvo exhausted!.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 16 (Travel: At the Airport)",
+          "stimulus_en": "The Travel: At the Airport was tiring, so The artist was confused.",
+          "stimulus_es": "Ref: La Travel: At the Airport fue tiring, así que The artist estuvo confused.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U2_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 16 (Travel: At the Airport):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Travel: At the Airport fue amusing, as\u00ed que Sarah estuvo thrilled - 353.",
-              "right": "The Travel: At the Airport was amusing, so Sarah was thrilled - 353."
+              "left": "La Travel: At the Airport fue exciting, así que My friend estuvo embarrassed.",
+              "right": "The Travel: At the Airport was exciting, so My friend was embarrassed."
             },
             {
               "id": "p1",
-              "left": "La Travel: At the Airport fue exhausting, as\u00ed que The player estuvo embarrassed..",
-              "right": "The Travel: At the Airport was exhausting, so The player was embarrassed.."
+              "left": "La Travel: At the Airport fue pleasing, así que My cousin estuvo excited.",
+              "right": "The Travel: At the Airport was pleasing, so My cousin was excited."
             },
             {
               "id": "p2",
-              "left": "La Travel: At the Airport fue tiring, as\u00ed que Sarah estuvo annoyed....",
-              "right": "The Travel: At the Airport was tiring, so Sarah was annoyed...."
+              "left": "La Travel: At the Airport fue disappointing, así que The nurse estuvo annoyed.",
+              "right": "The Travel: At the Airport was disappointing, so The nurse was annoyed."
             },
             {
               "id": "p3",
-              "left": "La Travel: At the Airport fue embarrassing, as\u00ed que They estuvo tired..",
-              "right": "The Travel: At the Airport was embarrassing, so They was tired.."
+              "left": "La Travel: At the Airport fue pleasing, así que The police officer estuvo inspired.",
+              "right": "The Travel: At the Airport was pleasing, so The police officer was inspired."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 16 (Travel: At the Airport):",
-          "tts_en": "The Travel: At the Airport was satisfying, so My cousin was depressed - interesting.",
-          "correct_answer": "The Travel: At the Airport was satisfying, so My cousin was depressed - interesting.",
+          "tts_en": "The Travel: At the Airport was depressing, so She was pleased.",
+          "correct_answer": "The Travel: At the Airport was depressing, so She was pleased",
           "mastery_tag": "listening",
           "interaction_id": "U2_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 16:",
           "options": [
             {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
               "id": "o4",
-              "text": "rain2945"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
+              "text": "Book"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "Drums"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar."
             }
           ],
           "correct_answer": "o4",
@@ -2297,29 +2282,29 @@
           "interaction_id": "U2_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 16 - Travel: At the Airport:",
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake!",
-              "back": "I haven\u2019t a car.!"
+              "front": "puedo abrir la ventana, por favor?",
+              "back": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U2_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 16 (Travel: At the Airport):",
-          "instruction_en": "Explain Adjectives -ed vs -ing using Travel: At the Airport. [Ref: 78]",
+          "instruction_en": "Review Travel: At the Airport from last week. [Ref: 21]",
           "mastery_tag": "writing",
           "interaction_id": "U2_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 16 (Travel: At the Airport):",
-          "stimulus_en": "Talk about Travel: At the Airport. (542)",
+          "stimulus_en": "Look at Travel: At the Airport. (830)",
           "mastery_tag": "speaking",
           "interaction_id": "U2_I100"
         }

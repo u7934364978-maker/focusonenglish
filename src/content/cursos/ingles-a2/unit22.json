@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit22",
-    "unit_title": "Adjectives -ed vs -ing - Technology: Social Media",
+    "unit_title": "Adjectives -ed vs -ing - Technology: Social Media.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U22_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 22",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 22.",
           "tts_en": "Starting unit 22. Topic: Technology: Social Media. Focus: Adjectives -ed vs -ing.",
           "mastery_tag": "listening",
           "interaction_id": "U22_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 169 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was worrying, so The player was ___....",
-          "correct_answer": "amused",
+          "stimulus_en": "The Technology: Social Media was confusing, so My sister was ___.",
+          "correct_answer": "depressed",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 169 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was frightening, so She was frightening!.",
-          "stimulus_es": "Ref: La Technology: Social Media fue frightening, as\u00ed que She estuvo puzzled!.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 169 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was inspiring, so They was shocked.",
+          "stimulus_es": "Ref: La Technology: Social Media fue inspiring, así que They estuvo shocked.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 169 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue exhausting, as\u00ed que The teacher estuvo embarrassed....",
-              "right": "The Technology: Social Media was exhausting, so The teacher was embarrassed...."
+              "left": "La Technology: Social Media fue interesting, así que We estuvo overwhelmed.",
+              "right": "The Technology: Social Media was interesting, so We was overwhelmed."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue amusing, as\u00ed que The actress estuvo surprised..",
-              "right": "The Technology: Social Media was amusing, so The actress was surprised.."
+              "left": "La Technology: Social Media fue worrying, así que John estuvo confused.",
+              "right": "The Technology: Social Media was worrying, so John was confused."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue inspiring, as\u00ed que The police officer estuvo bored (now).",
-              "right": "The Technology: Social Media was inspiring, so The police officer was bored (now)."
+              "left": "La Technology: Social Media fue interesting, así que The chef estuvo annoyed.",
+              "right": "The Technology: Social Media was interesting, so The chef was annoyed."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue surprising, as\u00ed que She estuvo depressed (today).",
-              "right": "The Technology: Social Media was surprising, so She was depressed (today)."
+              "left": "La Technology: Social Media fue confusing, así que The artist estuvo overwhelmed.",
+              "right": "The Technology: Social Media was confusing, so The artist was overwhelmed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 169 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was exhausting, so The chef was annoyed!.",
-          "correct_answer": "The Technology: Social Media was exhausting, so The chef was annoyed!.",
+          "tts_en": "The Technology: Social Media was amusing, so The baker was exhausted.",
+          "correct_answer": "The Technology: Social Media was amusing, so The baker was exhausted",
           "mastery_tag": "listening",
           "interaction_id": "U22_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 169:",
           "options": [
             {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
               "id": "o4",
-              "text": "June3630"
+              "text": "Hot"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "Planet."
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o1",
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U22_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 169 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "me / Paul / helps / sometimes / my / with / homework - interesting",
-              "back": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework - interesting"
+              "front": "4. go to bed before 11 / often / I.",
+              "back": "I often go to bed before 11."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 169 (Technology: Social Media):",
-          "instruction_en": "List 3 facts about Technology: Social Media. [Ref: 51]",
+          "instruction_en": "Why is Technology: Social Media important? [Ref: 57]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 169 (Technology: Social Media):",
-          "stimulus_en": "Look at Technology: Social Media. (102)",
+          "stimulus_en": "Focus on Technology: Social Media. (295)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 148 (Technology: Social Media):",
-          "stimulus": "Matching set 7669",
+          "stimulus": "Matching set 647.",
           "items": [
             {
               "id": "i0",
-              "text": "2. Siempre van antes del sustantivo, la regla es - interesting",
+              "text": "Verbos irregulares.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "A lot of, countable y uncountable - amazing",
+              "text": "Has hablado alguna vez inglés por teléfono?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - 186",
+              "text": "Bookstore (Br Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "ADJECTIVE + NOUN - interesting"
-            },
-            {
-              "id": "m2",
-              "text": "have you ever seen a film in original version - 186"
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
             },
             {
               "id": "m1",
-              "text": "I have a lot of money and I have a lot of friends. - amazing"
+              "text": "have you ever spoken English on the phone."
+            },
+            {
+              "id": "m2",
+              "text": "bookshop) Librería."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U22_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 148 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Jonathan usually visits the dentist."
+                  "text": "How is your mum feeling."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Is she studying English."
+                  "text": "uso de las mayúsculas."
                 }
               ]
             }
@@ -201,9 +201,9 @@
           "interaction_id": "U22_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 148 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (3805), John [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (8385), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "watched."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "watch"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U22_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 148 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was surprising, so The police officer was surprised - interesting.",
-          "stimulus_es": "La Technology: Social Media fue surprising, as\u00ed que The police officer estuvo surprised - interesting.",
+          "stimulus_en": "The Technology: Social Media was disappointing, so Sarah was embarrassed.",
+          "stimulus_es": "La Technology: Social Media fue disappointing, así que Sarah estuvo embarrassed.",
           "options": [
             {
-              "id": "o2",
-              "text": "surprising"
+              "id": "o3",
+              "text": "Other 7074."
             },
             {
               "id": "o1",
-              "text": "surprised"
+              "text": "embarrassed."
             },
             {
-              "id": "o3",
-              "text": "Other 151"
+              "id": "o2",
+              "text": "disappointing."
             }
           ],
           "correct_answer": "o1",
@@ -263,36 +263,12 @@
           "interaction_id": "U22_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 148 sobre Technology: Social Media:",
           "options": [
             {
-              "id": "w8",
-              "text": "was"
-            },
-            {
-              "id": "w4",
-              "text": "was"
-            },
-            {
-              "id": "w3",
-              "text": "Media"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "Social"
-            },
-            {
-              "id": "w6",
-              "text": "so"
-            },
-            {
-              "id": "w7",
-              "text": "She"
+              "id": "w9",
+              "text": "puzzled."
             },
             {
               "id": "w1",
@@ -300,104 +276,128 @@
             },
             {
               "id": "w5",
-              "text": "exhausting"
+              "text": "embarrassing."
             },
             {
-              "id": "w9",
-              "text": "disappointed"
+              "id": "w8",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "Sarah"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "Media"
+            },
+            {
+              "id": "w6",
+              "text": "so"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "Social."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 170 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was frightening, so The doctor was ___!.",
-          "correct_answer": "exhausted",
+          "stimulus_en": "The Technology: Social Media was thrilling, so Our neighbors was ___.",
+          "correct_answer": "surprised",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 170 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was puzzling, so We was excited (today).",
-          "stimulus_es": "Ref: La Technology: Social Media fue puzzling, as\u00ed que We estuvo excited (today).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 170 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was exciting, so The teacher was exciting.",
+          "stimulus_es": "Ref: La Technology: Social Media fue exciting, así que The teacher estuvo interested.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 170 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue worrying, as\u00ed que The actress estuvo overwhelmed....",
-              "right": "The Technology: Social Media was worrying, so The actress was overwhelmed...."
+              "left": "La Technology: Social Media fue exhausting, así que The waiter estuvo puzzled.",
+              "right": "The Technology: Social Media was exhausting, so The waiter was puzzled."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue amazing, as\u00ed que The boss estuvo amazed (now).",
-              "right": "The Technology: Social Media was amazing, so The boss was amazed (now)."
+              "left": "La Technology: Social Media fue exhausting, así que The scientist estuvo exhausted.",
+              "right": "The Technology: Social Media was exhausting, so The scientist was exhausted."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue boring, as\u00ed que My friend estuvo exhausted (today).",
-              "right": "The Technology: Social Media was boring, so My friend was exhausted (today)."
+              "left": "La Technology: Social Media fue exciting, así que The police officer estuvo puzzled.",
+              "right": "The Technology: Social Media was exciting, so The police officer was puzzled."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue worrying, as\u00ed que My friend estuvo thrilled..",
-              "right": "The Technology: Social Media was worrying, so My friend was thrilled.."
+              "left": "La Technology: Social Media fue puzzling, así que The boss estuvo disappointed.",
+              "right": "The Technology: Social Media was puzzling, so The boss was disappointed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 170 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was pleasing, so They was interested (today).",
-          "correct_answer": "The Technology: Social Media was pleasing, so They was interested (today).",
+          "tts_en": "The Technology: Social Media was pleasing, so He was frightened.",
+          "correct_answer": "The Technology: Social Media was pleasing, so He was frightened",
           "mastery_tag": "listening",
           "interaction_id": "U22_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 170:",
           "options": [
             {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o4",
-              "text": "bike5573"
+              "id": "o1",
+              "text": "burger."
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "pizza"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "soup"
             },
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o4",
+              "text": "rain"
             }
           ],
           "correct_answer": "o4",
@@ -405,65 +405,65 @@
           "interaction_id": "U22_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 170 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing (today)",
-              "back": "My friend has a lot of money. (today)"
+              "front": "Los adjetivos tienen tres formas.",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 170 (Technology: Social Media):",
-          "instruction_en": "Write a note about Technology: Social Media. [Ref: 20]",
+          "instruction_en": "Compare Technology: Social Media with another topic. [Ref: 64]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 170 (Technology: Social Media):",
-          "stimulus_en": "Focus on Technology: Social Media. (507)",
+          "stimulus_en": "Study Technology: Social Media now. (719)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 149 (Technology: Social Media):",
-          "stimulus": "Matching set 5544",
+          "stimulus": "Matching set 736.",
           "items": [
             {
               "id": "i0",
-              "text": "my / My / spoils / neighbour / holidays / always (now)",
+              "text": "La podemos contestar de la seguiente manera.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 D\u00edas de la semana!",
+              "text": "Por qué no me lo dijiste?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar - interesting",
+              "text": "The correct thing.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "It’s mine (es mía) o it’s his (es suya – de él)"
+            },
+            {
               "id": "m2",
-              "text": "read, write, eat, run, sleep, etc - interesting"
+              "text": "Have you got a car?"
             },
             {
               "id": "m1",
-              "text": "on Monday, on Wednesday, etc.!"
-            },
-            {
-              "id": "m0",
-              "text": "My neighbour always spoils my holidays (now)"
+              "text": "Why didn’t you tell me."
             }
           ],
           "correct_answer": {
@@ -475,26 +475,26 @@
           "interaction_id": "U22_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 149 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "What\u2019s the happiest day you\u2019ve ever had (today)"
+                  "text": "when I was at primary school, I didn’t wear uniform."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I have 3 children...."
+                  "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepción)"
                 }
               ]
             }
@@ -503,20 +503,20 @@
           "interaction_id": "U22_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 149 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (230), Our neighbors [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (4110), My brother [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "travel."
                 }
               ]
             },
@@ -525,11 +525,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "speak"
                 }
               ]
             }
@@ -542,22 +542,22 @@
           "interaction_id": "U22_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 149 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was amusing, so You was frightened (today).",
-          "stimulus_es": "La Technology: Social Media fue amusing, as\u00ed que You estuvo frightened (today).",
+          "stimulus_en": "The Technology: Social Media was pleasing, so My sister was inspired.",
+          "stimulus_es": "La Technology: Social Media fue pleasing, así que My sister estuvo inspired.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 9095"
+              "id": "o1",
+              "text": "inspired."
             },
             {
-              "id": "o1",
-              "text": "frightened"
+              "id": "o3",
+              "text": "Other 8647."
             },
             {
               "id": "o2",
-              "text": "amusing"
+              "text": "pleasing."
             }
           ],
           "correct_answer": "o1",
@@ -565,16 +565,12 @@
           "interaction_id": "U22_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 149 sobre Technology: Social Media:",
           "options": [
             {
               "id": "w5",
-              "text": "overwhelming"
-            },
-            {
-              "id": "w7",
-              "text": "They"
+              "text": "thrilling."
             },
             {
               "id": "w0",
@@ -582,7 +578,15 @@
             },
             {
               "id": "w2",
-              "text": "Social"
+              "text": "Social."
+            },
+            {
+              "id": "w7",
+              "text": "My"
+            },
+            {
+              "id": "w10",
+              "text": "frightened."
             },
             {
               "id": "w3",
@@ -593,99 +597,107 @@
               "text": "was"
             },
             {
-              "id": "w9",
-              "text": "pleased"
+              "id": "w8",
+              "text": "brother."
             },
             {
-              "id": "w8",
+              "id": "w1",
+              "text": "Technology:"
+            },
+            {
+              "id": "w9",
               "text": "was"
             },
             {
               "id": "w6",
               "text": "so"
-            },
-            {
-              "id": "w10",
-              "text": "interesting"
-            },
-            {
-              "id": "w1",
-              "text": "Technology:"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 171 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was disappointing, so The driver was ___ - 118.",
-          "correct_answer": "tired",
+          "stimulus_en": "The Technology: Social Media was inspiring, so The singer was ___.",
+          "correct_answer": "pleased",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 171 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was confusing, so My brother was thrilled (now).",
-          "stimulus_es": "Ref: La Technology: Social Media fue confusing, as\u00ed que My brother estuvo thrilled (now).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 171 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was surprising, so The waiter was surprising.",
+          "stimulus_es": "Ref: La Technology: Social Media fue surprising, así que The waiter estuvo overwhelmed.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 171 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue annoying, as\u00ed que The architect estuvo worried (today).",
-              "right": "The Technology: Social Media was annoying, so The architect was worried (today)."
+              "left": "La Technology: Social Media fue exhausting, así que The chef estuvo tired.",
+              "right": "The Technology: Social Media was exhausting, so The chef was tired."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue interesting, as\u00ed que The driver estuvo exhausted!.",
-              "right": "The Technology: Social Media was interesting, so The driver was exhausted!."
+              "left": "La Technology: Social Media fue annoying, así que My friend estuvo interested.",
+              "right": "The Technology: Social Media was annoying, so My friend was interested."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue tiring, as\u00ed que The player estuvo overwhelmed (today).",
-              "right": "The Technology: Social Media was tiring, so The player was overwhelmed (today)."
+              "left": "La Technology: Social Media fue amazing, así que The scientist estuvo annoyed.",
+              "right": "The Technology: Social Media was amazing, so The scientist was annoyed."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue overwhelming, as\u00ed que The player estuvo inspired..",
-              "right": "The Technology: Social Media was overwhelming, so The player was inspired.."
+              "left": "La Technology: Social Media fue satisfying, así que The manager estuvo thrilled.",
+              "right": "The Technology: Social Media was satisfying, so The manager was thrilled."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 171 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was worrying, so The waiter was interested....",
-          "correct_answer": "The Technology: Social Media was worrying, so The waiter was interested....",
+          "tts_en": "The Technology: Social Media was depressing, so The waiter was shocked.",
+          "correct_answer": "The Technology: Social Media was depressing, so The waiter was shocked",
           "mastery_tag": "listening",
           "interaction_id": "U22_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 171:",
           "options": [
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o4",
+              "text": "cat"
+            },
             {
               "id": "o3",
               "text": "plane"
@@ -693,18 +705,6 @@
             {
               "id": "o2",
               "text": "train"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o4",
-              "text": "cat9617"
             }
           ],
           "correct_answer": "o4",
@@ -712,65 +712,65 @@
           "interaction_id": "U22_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 171 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "Y en negativa (now)",
-              "back": "I don\u2019t have any friends who live near my house. (now)"
+              "front": "A lot of, countable y uncountable.",
+              "back": "I have a lot of money and I have a lot of friends."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 171 (Technology: Social Media):",
-          "instruction_en": "Draft an email regarding Technology: Social Media. [Ref: 29]",
+          "instruction_en": "List 3 facts about Technology: Social Media. [Ref: 90]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 171 (Technology: Social Media):",
-          "stimulus_en": "I like Technology: Social Media. (851)",
+          "stimulus_en": "I like Technology: Social Media. (339)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 150 (Technology: Social Media):",
-          "stimulus": "Matching set 1033",
+          "stimulus": "Matching set 3871.",
           "items": [
             {
               "id": "i0",
-              "text": "in + car/ taxi - 819",
+              "text": "The correct thing.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo!",
+              "text": "Common mistake.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Tienes hijos? (today)",
+              "text": "Y en negativa.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - 819"
+              "id": "m2",
+              "text": "I don’t have any friends who live near my house."
             },
             {
               "id": "m1",
-              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is.!"
+              "text": "Had you got a motorbike…?"
             },
             {
-              "id": "m2",
-              "text": "Do you have any children (today)"
+              "id": "m0",
+              "text": "My friend has a lot of money."
             }
           ],
           "correct_answer": {
@@ -782,26 +782,26 @@
           "interaction_id": "U22_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 150 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "meter) Metro!"
+                  "text": "I don’t want to sit opposite him."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I often fish for hours without catching anything."
+                  "text": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos."
                 }
               ]
             }
@@ -810,20 +810,20 @@
           "interaction_id": "U22_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 150 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (7055), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (256), John [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "write"
                 }
               ]
             },
@@ -832,11 +832,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "learn"
                 }
               ]
             }
@@ -849,22 +849,22 @@
           "interaction_id": "U22_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 150 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was exhausting, so They was interested (today).",
-          "stimulus_es": "La Technology: Social Media fue exhausting, as\u00ed que They estuvo interested (today).",
+          "stimulus_en": "The Technology: Social Media was inspiring, so The manager was overwhelmed.",
+          "stimulus_es": "La Technology: Social Media fue inspiring, así que The manager estuvo overwhelmed.",
           "options": [
             {
-              "id": "o2",
-              "text": "exhausting"
-            },
-            {
               "id": "o3",
-              "text": "Other 9647"
+              "text": "Other 5011."
             },
             {
               "id": "o1",
-              "text": "interested"
+              "text": "overwhelmed."
+            },
+            {
+              "id": "o2",
+              "text": "inspiring."
             }
           ],
           "correct_answer": "o1",
@@ -872,151 +872,146 @@
           "interaction_id": "U22_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 150 sobre Technology: Social Media:",
           "options": [
-            {
-              "id": "w9",
-              "text": "was"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "Social"
-            },
-            {
-              "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "Media"
-            },
             {
               "id": "w1",
               "text": "Technology:"
             },
             {
-              "id": "w11",
-              "text": "interesting"
+              "id": "w2",
+              "text": "Social."
+            },
+            {
+              "id": "w8",
+              "text": "lawyer."
             },
             {
               "id": "w6",
               "text": "so"
             },
             {
-              "id": "w8",
-              "text": "lawyer"
-            },
-            {
-              "id": "w5",
-              "text": "overwhelming"
-            },
-            {
               "id": "w4",
               "text": "was"
             },
             {
+              "id": "w9",
+              "text": "was"
+            },
+            {
               "id": "w10",
-              "text": "pleased"
+              "text": "annoyed."
+            },
+            {
+              "id": "w3",
+              "text": "Media"
+            },
+            {
+              "id": "w5",
+              "text": "relaxing."
+            },
+            {
+              "id": "w7",
+              "text": "The"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 172 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was confusing, so The pilot was ___ - 444.",
-          "correct_answer": "shocked",
+          "stimulus_en": "The Technology: Social Media was relaxing, so The artist was ___.",
+          "correct_answer": "pleased",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 172 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was pleasing, so The chef was pleasing (today).",
-          "stimulus_es": "Ref: La Technology: Social Media fue pleasing, as\u00ed que The chef estuvo excited (today).",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 172 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was confusing, so The driver was confusing.",
+          "stimulus_es": "Ref: La Technology: Social Media fue confusing, así que The driver estuvo frightened.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 172 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue thrilling, as\u00ed que The architect estuvo thrilled (today).",
-              "right": "The Technology: Social Media was thrilling, so The architect was thrilled (today)."
+              "left": "La Technology: Social Media fue worrying, así que The singer estuvo surprised.",
+              "right": "The Technology: Social Media was worrying, so The singer was surprised."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue shocked, as\u00ed que The artist estuvo thrilled - interesting.",
-              "right": "The Technology: Social Media was shocked, so The artist was thrilled - interesting."
+              "left": "La Technology: Social Media fue surprising, así que The architect estuvo surprised.",
+              "right": "The Technology: Social Media was surprising, so The architect was surprised."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue thrilling, as\u00ed que The student estuvo exhausted - interesting.",
-              "right": "The Technology: Social Media was thrilling, so The student was exhausted - interesting."
+              "left": "La Technology: Social Media fue frightening, así que She estuvo confused.",
+              "right": "The Technology: Social Media was frightening, so She was confused."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue shocked, as\u00ed que The police officer estuvo frightened - interesting.",
-              "right": "The Technology: Social Media was shocked, so The police officer was frightened - interesting."
+              "left": "La Technology: Social Media fue depressing, así que He estuvo confused.",
+              "right": "The Technology: Social Media was depressing, so He was confused."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 172 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was puzzling, so The waiter was annoyed!.",
-          "correct_answer": "The Technology: Social Media was puzzling, so The waiter was annoyed!.",
+          "tts_en": "The Technology: Social Media was tiring, so My brother was inspired.",
+          "correct_answer": "The Technology: Social Media was tiring, so My brother was inspired",
           "mastery_tag": "listening",
           "interaction_id": "U22_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 172:",
           "options": [
             {
-              "id": "o1",
-              "text": "red"
-            },
-            {
               "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o4",
-              "text": "run1936"
+              "text": "soup"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "pizza"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
             }
           ],
           "correct_answer": "o4",
@@ -1024,65 +1019,65 @@
           "interaction_id": "U22_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 172 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "Funciona ese ordenador? - 748",
-              "back": "Does that computer work - 748"
+              "front": "De quién ese coche?",
+              "back": "Whose car is that."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 172 (Technology: Social Media):",
-          "instruction_en": "Review Technology: Social Media from last week. [Ref: 33]",
+          "instruction_en": "Compare Technology: Social Media with another topic. [Ref: 98]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 172 (Technology: Social Media):",
-          "stimulus_en": "I like Technology: Social Media. (202)",
+          "stimulus_en": "Look at Technology: Social Media. (513)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 151 (Technology: Social Media):",
-          "stimulus": "Matching set 5940",
+          "stimulus": "Matching set 456.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1ndo la ayudaste? - amazing",
+              "text": "Bien, debes saber que siempre que tengas una preposición en una pregunta, y esa preposición no tenga su complemento en dicha pregunta, la preposición se dice y se escribe al final, de ahí que en ‘Where are you from?’ el ‘from’ aparece al final. Si yo pregunto ‘¿de qué tienes miedo?’, que es en inglés What are you afraid of?, ¿ verdad que no estoy diciendo a qué cosa tengo miedo? Pues an eso me refiero cuando digo que la preposición ‘of’ no tiene a su complemento en esta pregunta. Sin embargo, si digo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? - amazing",
+              "text": "Has visto mis llaves en algún sitio?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Qu\u00e9 quieres? (now)",
+              "text": "Eraser (Br Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "Were you having a beer when you saw Peter - amazing"
+              "id": "m0",
+              "text": "¿Tienes miedo a los perros?, en inglés ‘Are you afraid of dogs?’, la preposición ‘of’ tiene su complemento que es ‘dogs’."
             },
             {
               "id": "m2",
-              "text": "la respuesta es ilimitada, puede ser cualquier cosa. (now)"
+              "text": "rubber) Goma de borrar."
             },
             {
-              "id": "m0",
-              "text": "When did you help him/her - amazing"
+              "id": "m1",
+              "text": "have you seen my keys anywhere."
             }
           ],
           "correct_answer": {
@@ -1094,26 +1089,26 @@
           "interaction_id": "U22_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 151 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.!"
+                  "text": "I have my English classes on Tuesdays and Thursdays puedo poner los días en plural, ya que es todos los martes y todos los jueves, no sólo uno."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I\u2019ll see you on Saturday - interesting"
+                  "text": "do you have any brothers or sisters."
                 }
               ]
             }
@@ -1122,20 +1117,20 @@
           "interaction_id": "U22_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 151 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (1058), The artist [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (1956), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "receive."
                 }
               ]
             },
@@ -1144,11 +1139,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "sell"
                 }
               ]
             }
@@ -1161,22 +1156,22 @@
           "interaction_id": "U22_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 151 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was exciting, so John was exhausted - interesting.",
-          "stimulus_es": "La Technology: Social Media fue exciting, as\u00ed que John estuvo exhausted - interesting.",
+          "stimulus_en": "The Technology: Social Media was puzzling, so You was amazed.",
+          "stimulus_es": "La Technology: Social Media fue puzzling, así que You estuvo amazed.",
           "options": [
             {
-              "id": "o2",
-              "text": "exciting"
+              "id": "o3",
+              "text": "Other 9526."
             },
             {
               "id": "o1",
-              "text": "exhausted"
+              "text": "amazed."
             },
             {
-              "id": "o3",
-              "text": "Other 5350"
+              "id": "o2",
+              "text": "puzzling."
             }
           ],
           "correct_answer": "o1",
@@ -1184,146 +1179,146 @@
           "interaction_id": "U22_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 151 sobre Technology: Social Media:",
           "options": [
             {
-              "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "disappointing"
-            },
-            {
               "id": "w6",
               "text": "so"
-            },
-            {
-              "id": "w3",
-              "text": "Media"
-            },
-            {
-              "id": "w2",
-              "text": "Social"
-            },
-            {
-              "id": "w10",
-              "text": "shocked"
-            },
-            {
-              "id": "w1",
-              "text": "Technology:"
             },
             {
               "id": "w9",
               "text": "was"
             },
             {
+              "id": "w2",
+              "text": "Social."
+            },
+            {
+              "id": "w1",
+              "text": "Technology:"
+            },
+            {
+              "id": "w8",
+              "text": "neighbors."
+            },
+            {
+              "id": "w5",
+              "text": "pleasing."
+            },
+            {
               "id": "w0",
               "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "Our"
             },
             {
               "id": "w4",
               "text": "was"
             },
             {
-              "id": "w8",
-              "text": "artist"
+              "id": "w3",
+              "text": "Media"
+            },
+            {
+              "id": "w10",
+              "text": "exhausted."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 173 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was amazing, so John was ___..",
-          "correct_answer": "puzzled",
+          "stimulus_en": "The Technology: Social Media was surprising, so My friend was ___.",
+          "correct_answer": "amazed",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 173 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was exhausting, so The student was thrilled (now).",
-          "stimulus_es": "Ref: La Technology: Social Media fue exhausting, as\u00ed que The student estuvo thrilled (now).",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 173 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was pleasing, so My brother was frightened.",
+          "stimulus_es": "Ref: La Technology: Social Media fue pleasing, así que My brother estuvo frightened.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 173 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue pleasing, as\u00ed que We estuvo overwhelmed....",
-              "right": "The Technology: Social Media was pleasing, so We was overwhelmed...."
+              "left": "La Technology: Social Media fue depressing, así que The student estuvo overwhelmed.",
+              "right": "The Technology: Social Media was depressing, so The student was overwhelmed."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue thrilling, as\u00ed que My friend estuvo thrilled - interesting.",
-              "right": "The Technology: Social Media was thrilling, so My friend was thrilled - interesting."
+              "left": "La Technology: Social Media fue exciting, así que Sarah estuvo tired.",
+              "right": "The Technology: Social Media was exciting, so Sarah was tired."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue frightening, as\u00ed que My brother estuvo shocked - amazing.",
-              "right": "The Technology: Social Media was frightening, so My brother was shocked - amazing."
+              "left": "La Technology: Social Media fue embarrassing, así que The actress estuvo excited.",
+              "right": "The Technology: Social Media was embarrassing, so The actress was excited."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue amusing, as\u00ed que The teacher estuvo shocked - 470.",
-              "right": "The Technology: Social Media was amusing, so The teacher was shocked - 470."
+              "left": "La Technology: Social Media fue puzzling, así que Sarah estuvo bored.",
+              "right": "The Technology: Social Media was puzzling, so Sarah was bored."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 173 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was puzzling, so The driver was amazed (now).",
-          "correct_answer": "The Technology: Social Media was puzzling, so The driver was amazed (now).",
+          "tts_en": "The Technology: Social Media was inspiring, so The player was puzzled.",
+          "correct_answer": "The Technology: Social Media was inspiring, so The player was puzzled",
           "mastery_tag": "listening",
           "interaction_id": "U22_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 173:",
           "options": [
             {
-              "id": "o4",
-              "text": "rain9364"
-            },
-            {
               "id": "o2",
-              "text": "salad"
+              "text": "green"
             },
             {
-              "id": "o1",
-              "text": "burger"
+              "id": "o4",
+              "text": "run"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "blue"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "pink"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -1331,65 +1326,65 @@
           "interaction_id": "U22_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 173 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda - 834",
-              "back": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - 834"
+              "front": "Empecemos analizando el siguiente ejemplo.",
+              "back": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 173 (Technology: Social Media):",
-          "instruction_en": "List 3 facts about Technology: Social Media. [Ref: 26]",
+          "instruction_en": "Draft an email regarding Technology: Social Media. [Ref: 80]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 173 (Technology: Social Media):",
-          "stimulus_en": "Talk about Technology: Social Media. (587)",
+          "stimulus_en": "Where is Technology: Social Media? (733)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 152 (Technology: Social Media):",
-          "stimulus": "Matching set 7632",
+          "stimulus": "Matching set 3715.",
           "items": [
             {
               "id": "i0",
-              "text": "No me quiero sentar enfrente de \u00e9l - amazing",
+              "text": "The correct thing.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa...",
+              "text": "French fries (Br Eng.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto (today)",
+              "text": "on + train/ bus/ plane/ bike/ motorbike.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "I don\u2019t want to sit opposite him. - amazing"
+              "text": "on the Internet."
             },
             {
               "id": "m1",
-              "text": "my cousin\u2019s husband is German and his mother Irish...."
+              "text": "chips) Patatas fritas."
             },
             {
               "id": "m2",
-              "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (today)"
+              "text": "cuando hablamos de forma más específica."
             }
           ],
           "correct_answer": {
@@ -1401,26 +1396,26 @@
           "interaction_id": "U22_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 152 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I always read books slowly - amazing"
+                  "text": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What will the weather be like tomorrow? It\u2019ll be sunny. - amazing"
+                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
                 }
               ]
             }
@@ -1429,20 +1424,20 @@
           "interaction_id": "U22_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 152 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (1421), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (9726), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "visited."
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "visit"
                 }
               ]
             },
@@ -1451,11 +1446,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "prepared."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "prepare."
                 }
               ]
             }
@@ -1468,22 +1463,22 @@
           "interaction_id": "U22_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 152 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was inspiring, so The player was embarrassed (today).",
-          "stimulus_es": "La Technology: Social Media fue inspiring, as\u00ed que The player estuvo embarrassed (today).",
+          "stimulus_en": "The Technology: Social Media was embarrassing, so Maria was bored.",
+          "stimulus_es": "La Technology: Social Media fue embarrassing, así que Maria estuvo bored.",
           "options": [
             {
-              "id": "o2",
-              "text": "inspiring"
+              "id": "o3",
+              "text": "Other 1517."
             },
             {
-              "id": "o3",
-              "text": "Other 1126"
+              "id": "o2",
+              "text": "embarrassing."
             },
             {
               "id": "o1",
-              "text": "embarrassed"
+              "text": "bored"
             }
           ],
           "correct_answer": "o1",
@@ -1491,44 +1486,24 @@
           "interaction_id": "U22_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 152 sobre Technology: Social Media:",
           "options": [
+            {
+              "id": "w10",
+              "text": "exhausted."
+            },
+            {
+              "id": "w7",
+              "text": "The"
+            },
             {
               "id": "w4",
               "text": "was"
             },
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w10",
-              "text": "annoyed"
-            },
-            {
-              "id": "w1",
-              "text": "Technology:"
-            },
-            {
               "id": "w2",
-              "text": "Social"
-            },
-            {
-              "id": "w5",
-              "text": "annoying"
-            },
-            {
-              "id": "w7",
-              "text": "My"
-            },
-            {
-              "id": "w8",
-              "text": "sister"
-            },
-            {
-              "id": "w9",
-              "text": "was"
+              "text": "Social."
             },
             {
               "id": "w6",
@@ -1537,100 +1512,120 @@
             {
               "id": "w3",
               "text": "Media"
+            },
+            {
+              "id": "w8",
+              "text": "chef"
+            },
+            {
+              "id": "w1",
+              "text": "Technology:"
+            },
+            {
+              "id": "w5",
+              "text": "embarrassing."
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "was"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 174 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was tiring, so My brother was ___ - interesting.",
-          "correct_answer": "inspired",
+          "stimulus_en": "The Technology: Social Media was inspiring, so My cousin was ___.",
+          "correct_answer": "relaxed",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 174 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was thrilling, so The pilot was embarrassed - amazing.",
-          "stimulus_es": "Ref: La Technology: Social Media fue thrilling, as\u00ed que The pilot estuvo embarrassed - amazing.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 174 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was amazing, so The doctor was embarrassed.",
+          "stimulus_es": "Ref: La Technology: Social Media fue amazing, así que The doctor estuvo embarrassed.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 174 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue inspiring, as\u00ed que The player estuvo annoyed..",
-              "right": "The Technology: Social Media was inspiring, so The player was annoyed.."
+              "left": "La Technology: Social Media fue disappointing, así que My cousin estuvo tired.",
+              "right": "The Technology: Social Media was disappointing, so My cousin was tired."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue frightening, as\u00ed que The scientist estuvo pleased!.",
-              "right": "The Technology: Social Media was frightening, so The scientist was pleased!."
+              "left": "La Technology: Social Media fue exhausting, así que The boss estuvo embarrassed.",
+              "right": "The Technology: Social Media was exhausting, so The boss was embarrassed."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue tiring, as\u00ed que The architect estuvo exhausted - amazing.",
-              "right": "The Technology: Social Media was tiring, so The architect was exhausted - amazing."
+              "left": "La Technology: Social Media fue disappointing, así que The architect estuvo amused.",
+              "right": "The Technology: Social Media was disappointing, so The architect was amused."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue pleasing, as\u00ed que Sarah estuvo surprised (today).",
-              "right": "The Technology: Social Media was pleasing, so Sarah was surprised (today)."
+              "left": "La Technology: Social Media fue thrilling, así que We estuvo relaxed.",
+              "right": "The Technology: Social Media was thrilling, so We was relaxed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 174 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was surprising, so They was exhausted..",
-          "correct_answer": "The Technology: Social Media was surprising, so They was exhausted..",
+          "tts_en": "The Technology: Social Media was confusing, so My brother was shocked.",
+          "correct_answer": "The Technology: Social Media was confusing, so My brother was shocked",
           "mastery_tag": "listening",
           "interaction_id": "U22_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 174:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o4",
-              "text": "Hot3595"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
+              "id": "o3",
+              "text": "Calm"
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "Angry"
             },
             {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o4",
+              "text": "Fast"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
             }
           ],
           "correct_answer": "o4",
@@ -1638,65 +1633,65 @@
           "interaction_id": "U22_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 174 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "Por ejemplo (today)",
-              "back": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (today)"
+              "front": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "back": "Can I have your ID/ passport/ credit card?."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 174 (Technology: Social Media):",
-          "instruction_en": "List 3 facts about Technology: Social Media. [Ref: 23]",
+          "instruction_en": "Why is Technology: Social Media important? [Ref: 48]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 174 (Technology: Social Media):",
-          "stimulus_en": "Look at Technology: Social Media. (202)",
+          "stimulus_en": "Repeat Technology: Social Media. (430)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 153 (Technology: Social Media):",
-          "stimulus": "Matching set 6086",
+          "stimulus": "Matching set 901.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?...",
+              "text": "Cuál es el país más frío en el que has estado nunca?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "A qu\u00e9 hora tenemos el examen?.",
+              "text": "¿Estás estudiando francés?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca!",
+              "text": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "I hardly ever go to the cinema = casi nunca voy al cine.!"
+              "id": "m1",
+              "text": "are you learning French?"
             },
             {
               "id": "m0",
-              "text": "What\u2019s the funniest joke you\u2019ve ever been told..."
+              "text": "What’s the coldest country you’ve ever been to."
             },
             {
-              "id": "m1",
-              "text": "What time do we have our exam."
+              "id": "m2",
+              "text": "‘m/ ‘s, etc)"
             }
           ],
           "correct_answer": {
@@ -1708,26 +1703,26 @@
           "interaction_id": "U22_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 153 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "in summer, in winter. - interesting"
+                  "text": "I never drink alcohol if I drive a car."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
+                  "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural."
                 }
               ]
             }
@@ -1736,20 +1731,20 @@
           "interaction_id": "U22_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 153 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (7363), A colleague [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (6535), The police officer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "visited."
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "visit"
                 }
               ]
             },
@@ -1758,11 +1753,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "write"
                 }
               ]
             }
@@ -1775,22 +1770,22 @@
           "interaction_id": "U22_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 153 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was amazing, so The scientist was excited (today).",
-          "stimulus_es": "La Technology: Social Media fue amazing, as\u00ed que The scientist estuvo excited (today).",
+          "stimulus_en": "The Technology: Social Media was exhausting, so She was puzzled.",
+          "stimulus_es": "La Technology: Social Media fue exhausting, así que She estuvo puzzled.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 6691"
-            },
-            {
               "id": "o2",
-              "text": "amazing"
+              "text": "exhausting."
             },
             {
               "id": "o1",
-              "text": "excited"
+              "text": "puzzled."
+            },
+            {
+              "id": "o3",
+              "text": "Other 5071."
             }
           ],
           "correct_answer": "o1",
@@ -1798,20 +1793,36 @@
           "interaction_id": "U22_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 153 sobre Technology: Social Media:",
           "options": [
             {
-              "id": "w2",
-              "text": "Social"
+              "id": "w8",
+              "text": "friend."
             },
             {
-              "id": "w1",
-              "text": "Technology:"
+              "id": "w5",
+              "text": "exhausting."
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "Social."
+            },
+            {
+              "id": "w3",
+              "text": "Media"
             },
             {
               "id": "w6",
               "text": "so"
+            },
+            {
+              "id": "w9",
+              "text": "was"
             },
             {
               "id": "w0",
@@ -1819,125 +1830,109 @@
             },
             {
               "id": "w10",
-              "text": "relaxed"
+              "text": "embarrassed."
             },
             {
-              "id": "w5",
-              "text": "exhausting"
-            },
-            {
-              "id": "w8",
-              "text": "teacher"
+              "id": "w1",
+              "text": "Technology:"
             },
             {
               "id": "w7",
-              "text": "The"
-            },
-            {
-              "id": "w9",
-              "text": "was"
-            },
-            {
-              "id": "w4",
-              "text": "was"
-            },
-            {
-              "id": "w3",
-              "text": "Media"
+              "text": "My"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 175 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was amusing, so The coach was ___ (now).",
-          "correct_answer": "disappointed",
+          "stimulus_en": "The Technology: Social Media was tiring, so You was ___.",
+          "correct_answer": "exhausted",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 175 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was amusing, so Sarah was amusing....",
-          "stimulus_es": "Ref: La Technology: Social Media fue amusing, as\u00ed que Sarah estuvo surprised....",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 175 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was annoying, so The player was overwhelmed.",
+          "stimulus_es": "Ref: La Technology: Social Media fue annoying, así que The player estuvo overwhelmed.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 175 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue relaxing, as\u00ed que The player estuvo frightened..",
-              "right": "The Technology: Social Media was relaxing, so The player was frightened.."
+              "left": "La Technology: Social Media fue interesting, así que My friend estuvo satisfied.",
+              "right": "The Technology: Social Media was interesting, so My friend was satisfied."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue disappointing, as\u00ed que The boss estuvo pleased - interesting.",
-              "right": "The Technology: Social Media was disappointing, so The boss was pleased - interesting."
+              "left": "La Technology: Social Media fue amazing, así que You estuvo inspired.",
+              "right": "The Technology: Social Media was amazing, so You was inspired."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue boring, as\u00ed que The architect estuvo interested - 451.",
-              "right": "The Technology: Social Media was boring, so The architect was interested - 451."
+              "left": "La Technology: Social Media fue pleasing, así que We estuvo inspired.",
+              "right": "The Technology: Social Media was pleasing, so We was inspired."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue embarrassing, as\u00ed que My brother estuvo relaxed (now).",
-              "right": "The Technology: Social Media was embarrassing, so My brother was relaxed (now)."
+              "left": "La Technology: Social Media fue worrying, así que The boss estuvo relaxed.",
+              "right": "The Technology: Social Media was worrying, so The boss was relaxed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 175 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was overwhelming, so A colleague was confused - interesting.",
-          "correct_answer": "The Technology: Social Media was overwhelming, so A colleague was confused - interesting.",
+          "tts_en": "The Technology: Social Media was depressing, so The teacher was thrilled.",
+          "correct_answer": "The Technology: Social Media was depressing, so The teacher was thrilled",
           "mastery_tag": "listening",
           "interaction_id": "U22_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 175:",
           "options": [
             {
-              "id": "o4",
-              "text": "cat8557"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
               "id": "o3",
-              "text": "plane"
+              "text": "soup"
             },
             {
-              "id": "o1",
-              "text": "bus"
+              "id": "o4",
+              "text": "rain"
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "salad"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
             }
           ],
           "correct_answer": "o4",
@@ -1945,65 +1940,65 @@
           "interaction_id": "U22_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 175 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "De qui\u00e9n son esos libros? - interesting",
-              "back": "Whose books are those= or Whose are those books - interesting"
+              "front": "La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
+              "back": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 175 (Technology: Social Media):",
-          "instruction_en": "A small story about Technology: Social Media. [Ref: 72]",
+          "instruction_en": "Review Technology: Social Media from last week. [Ref: 30]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 175 (Technology: Social Media):",
-          "stimulus_en": "Where is Technology: Social Media? (566)",
+          "stimulus_en": "I like Technology: Social Media. (935)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 154 (Technology: Social Media):",
-          "stimulus": "Matching set 3527",
+          "stimulus": "Matching set 9825.",
           "items": [
             {
               "id": "i0",
-              "text": "Para responder en plural, dir\u00edamos - amazing",
+              "text": "Movie (Br Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
+              "text": "3. Las hermanas de Pedro.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo!",
+              "text": "Funciona ese ordenador?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - amazing"
+              "text": "film) Película."
             },
             {
               "id": "m1",
-              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno.."
+              "text": "Peter’s sisters."
             },
             {
               "id": "m2",
-              "text": "would you like some coke?!"
+              "text": "Does that computer work."
             }
           ],
           "correct_answer": {
@@ -2015,26 +2010,26 @@
           "interaction_id": "U22_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 154 (Technology: Social Media):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "\u00bfDe d\u00f3nde eres? (today)"
+                  "text": "on Monday, on Wednesday, etc."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I haven\u2019t got much money (remember, money is uncountable).."
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
                 }
               ]
             }
@@ -2043,20 +2038,20 @@
           "interaction_id": "U22_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 154 (Technology: Social Media):",
-          "main_text": "In Technology: Social Media (1541), The lawyer [GAP 1] and [GAP 2].",
+          "main_text": "In Technology: Social Media (7531), My cousin [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "worked."
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "work"
                 }
               ]
             },
@@ -2065,11 +2060,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "travel."
                 }
               ]
             }
@@ -2082,22 +2077,22 @@
           "interaction_id": "U22_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 154 para Technology: Social Media:",
-          "stimulus_en": "The Technology: Social Media was frightening, so My cousin was pleased - amazing.",
-          "stimulus_es": "La Technology: Social Media fue frightening, as\u00ed que My cousin estuvo pleased - amazing.",
+          "stimulus_en": "The Technology: Social Media was embarrassing, so The scientist was relaxed.",
+          "stimulus_es": "La Technology: Social Media fue embarrassing, así que The scientist estuvo relaxed.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 2765"
-            },
-            {
-              "id": "o2",
-              "text": "frightening"
+              "text": "Other 5829."
             },
             {
               "id": "o1",
-              "text": "pleased"
+              "text": "relaxed."
+            },
+            {
+              "id": "o2",
+              "text": "embarrassing."
             }
           ],
           "correct_answer": "o1",
@@ -2105,146 +2100,146 @@
           "interaction_id": "U22_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 154 sobre Technology: Social Media:",
           "options": [
-            {
-              "id": "w8",
-              "text": "brother"
-            },
-            {
-              "id": "w2",
-              "text": "Social"
-            },
             {
               "id": "w4",
               "text": "was"
             },
             {
-              "id": "w3",
-              "text": "Media"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "amazing"
-            },
-            {
-              "id": "w1",
-              "text": "Technology:"
-            },
-            {
               "id": "w7",
-              "text": "My"
-            },
-            {
-              "id": "w10",
-              "text": "embarrassed"
+              "text": "Our"
             },
             {
               "id": "w6",
               "text": "so"
             },
             {
+              "id": "w10",
+              "text": "exhausted."
+            },
+            {
+              "id": "w3",
+              "text": "Media"
+            },
+            {
               "id": "w9",
               "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "interesting."
+            },
+            {
+              "id": "w8",
+              "text": "neighbors."
+            },
+            {
+              "id": "w1",
+              "text": "Technology:"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "Social."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U22_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 176 (Technology: Social Media):",
-          "stimulus_en": "The Technology: Social Media was relaxing, so I was ___!.",
-          "correct_answer": "confused",
+          "stimulus_en": "The Technology: Social Media was satisfying, so The pilot was ___.",
+          "correct_answer": "annoyed",
           "mastery_tag": "grammar",
           "interaction_id": "U22_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 176 (Technology: Social Media)",
-          "stimulus_en": "The Technology: Social Media was tiring, so They was tiring!.",
-          "stimulus_es": "Ref: La Technology: Social Media fue tiring, as\u00ed que They estuvo embarrassed!.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 176 (Technology: Social Media)",
+          "stimulus_en": "The Technology: Social Media was amusing, so I was surprised.",
+          "stimulus_es": "Ref: La Technology: Social Media fue amusing, así que I estuvo surprised.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U22_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 176 (Technology: Social Media):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La Technology: Social Media fue boring, as\u00ed que They estuvo shocked!.",
-              "right": "The Technology: Social Media was boring, so They was shocked!."
+              "left": "La Technology: Social Media fue puzzling, así que The architect estuvo frightened.",
+              "right": "The Technology: Social Media was puzzling, so The architect was frightened."
             },
             {
               "id": "p1",
-              "left": "La Technology: Social Media fue relaxing, as\u00ed que The artist estuvo inspired..",
-              "right": "The Technology: Social Media was relaxing, so The artist was inspired.."
+              "left": "La Technology: Social Media fue overwhelming, así que Our neighbors estuvo annoyed.",
+              "right": "The Technology: Social Media was overwhelming, so Our neighbors was annoyed."
             },
             {
               "id": "p2",
-              "left": "La Technology: Social Media fue satisfying, as\u00ed que Maria estuvo tired - amazing.",
-              "right": "The Technology: Social Media was satisfying, so Maria was tired - amazing."
+              "left": "La Technology: Social Media fue tiring, así que The student estuvo worried.",
+              "right": "The Technology: Social Media was tiring, so The student was worried."
             },
             {
               "id": "p3",
-              "left": "La Technology: Social Media fue inspiring, as\u00ed que John estuvo excited (now).",
-              "right": "The Technology: Social Media was inspiring, so John was excited (now)."
+              "left": "La Technology: Social Media fue interesting, así que We estuvo relaxed.",
+              "right": "The Technology: Social Media was interesting, so We was relaxed."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 176 (Technology: Social Media):",
-          "tts_en": "The Technology: Social Media was amusing, so The chef was puzzled - amazing.",
-          "correct_answer": "The Technology: Social Media was amusing, so The chef was puzzled - amazing.",
+          "tts_en": "The Technology: Social Media was depressing, so My friend was pleased.",
+          "correct_answer": "The Technology: Social Media was depressing, so My friend was pleased",
           "mastery_tag": "listening",
           "interaction_id": "U22_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 176:",
           "options": [
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "Star"
             },
             {
               "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
+              "text": "Planet."
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o4",
-              "text": "Pen2625"
+              "text": "Hot"
             }
           ],
           "correct_answer": "o4",
@@ -2252,29 +2247,29 @@
           "interaction_id": "U22_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 176 - Technology: Social Media:",
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 es \u00e9so? - interesting",
-              "back": "What\u2019s that - interesting"
+              "front": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "back": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U22_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 176 (Technology: Social Media):",
-          "instruction_en": "Your daily routine in Technology: Social Media. [Ref: 37]",
+          "instruction_en": "Draft an email regarding Technology: Social Media. [Ref: 35]",
           "mastery_tag": "writing",
           "interaction_id": "U22_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 176 (Technology: Social Media):",
-          "stimulus_en": "Where is Technology: Social Media? (314)",
+          "stimulus_en": "Look at Technology: Social Media. (650)",
           "mastery_tag": "speaking",
           "interaction_id": "U22_I100"
         }

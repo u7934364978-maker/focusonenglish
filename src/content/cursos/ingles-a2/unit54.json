@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit54",
-    "unit_title": "Whose / Possessives - Environment: Pollution",
+    "unit_title": "Whose / Possessives - Environment: Pollution.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U54_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 54",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 54.",
           "tts_en": "Starting unit 54. Topic: Environment: Pollution. Focus: Whose / Possessives.",
           "mastery_tag": "listening",
           "interaction_id": "U54_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 425 (Environment: Pollution):",
-          "stimulus_en": "What\u2019s the longest beach you\u2019ve ever been to - interesting (___)",
+          "stimulus_en": "What’s the highest building you’ve ever visited (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 425 (Environment: Pollution)",
-          "stimulus_en": "in May, in August, etc. - interesting",
-          "stimulus_es": "Ref: \u2013 Meses del a\u00f1o - interesting",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 425 (Environment: Pollution)",
+          "stimulus_en": "My partner is the most beautiful woman in the world.",
+          "stimulus_es": "Ref: Otro ejemplo.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 425 (Environment: Pollution):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Eraser (Br Eng...",
-              "right": "rubber) Goma de borrar..."
+              "left": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "right": "would you like some coke?"
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? - amazing",
-              "right": "Who\u2019s the shyest person you\u2019ve ever met - amazing"
+              "left": "Acción en el pasado que está en progreso, ¿qué quiere decir esto? Bien, una acción en progreso quiere decir que no está acabada, pero tú te preguntarás, si es pasada, ¿cómo que no está acabada? Quiere decir que cuando tú piensas en esa acción pasada estás al recordarla como viviéndola de nuevo, y en ese sentido decimos que está en progreso. Ejemplo.",
+              "right": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
             },
             {
               "id": "p2",
-              "left": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir - interesting",
-              "right": "every days o every Tuesdays. - interesting"
+              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversión de Have, como en nuestro ejemplo.",
+              "right": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
             },
             {
               "id": "p3",
-              "left": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be - interesting",
-              "right": "\u2018m/ \u2018s, etc) - interesting"
+              "left": "El cumpleaños de Pablo es el 8 de mayo.",
+              "right": "Paul’s birthday is on 8th May."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 425 (Environment: Pollution):",
-          "tts_en": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children....",
-          "correct_answer": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children....",
+          "tts_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo.",
+          "correct_answer": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo",
           "mastery_tag": "listening",
           "interaction_id": "U54_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 425:",
           "options": [
             {
               "id": "o1",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "Drums"
             },
             {
               "id": "o4",
-              "text": "June4179"
+              "text": "Book"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar."
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U54_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 425 - Environment: Pollution:",
           "cards": [
             {
               "id": "c1",
-              "front": "Has estado alguna vez en Canad\u00e1? (now)",
-              "back": "have you ever been to Canada (now)"
+              "front": "A lot of, countable y uncountable.",
+              "back": "I have a lot of money and I have a lot of friends."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 425 (Environment: Pollution):",
-          "instruction_en": "Draft an email regarding Environment: Pollution. [Ref: 98]",
+          "instruction_en": "Compare Environment: Pollution with another topic. [Ref: 11]",
           "mastery_tag": "writing",
           "interaction_id": "U54_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 425 (Environment: Pollution):",
-          "stimulus_en": "Look at Environment: Pollution. (756)",
+          "stimulus_en": "This is Environment: Pollution. (964)",
           "mastery_tag": "speaking",
           "interaction_id": "U54_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 372 (Environment: Pollution):",
-          "stimulus": "Matching set 3937",
+          "stimulus": "Matching set 2537.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing.",
+              "text": "4. go to bed before 11 / often / I.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "in + car/ taxi...",
+              "text": "Sigue recto y delante de la iglesia hay un supermercado.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos...",
+              "text": "I / fish / often / hours / for / catching / anything / without.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a)...."
+              "id": "m2",
+              "text": "I often fish for hours without catching anything."
             },
             {
               "id": "m0",
-              "text": "My friend has a lot of money.."
+              "text": "I often go to bed before 11."
             },
             {
-              "id": "m2",
-              "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle...."
+              "id": "m1",
+              "text": "Go straight on and in front of the church there is a supermarket."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U54_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 372 (Environment: Pollution):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "tire) Neum\u00e1tico - interesting"
+                  "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oración positiva, ya sea con sustantivos contables o incontables."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb.."
+                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón."
                 }
               ]
             }
@@ -201,298 +201,16 @@
           "interaction_id": "U54_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 372 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (7487), The architect [GAP 1] and [GAP 2].",
+          "main_text": "In Environment: Pollution (4927), My brother [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 372 para Environment: Pollution:",
-          "stimulus_en": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). - 784",
-          "stimulus_es": "En espa\u00f1ol dir\u00edamos - 784",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5774"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 372 sobre Environment: Pollution:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "door"
-            },
-            {
-              "id": "w0",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "my"
-            },
-            {
-              "id": "w5",
-              "text": "516"
-            },
-            {
-              "id": "w4",
-              "text": "house"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U54_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 426 (Environment: Pollution):",
-          "stimulus_en": "I have 3 children.... (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 426 (Environment: Pollution)",
-          "stimulus_en": "have you ever spoken English on the phone.",
-          "stimulus_es": "Ref: Has hablado alguna vez ingl\u00e9s por tel\u00e9fono?.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 426 (Environment: Pollution):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Otro ejemplo...",
-              "right": "My partner is the most beautiful woman in the world..."
-            },
-            {
-              "id": "p1",
-              "left": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - 535",
-              "right": "What\u2019s the funniest joke you\u2019ve ever been told - 535"
-            },
-            {
-              "id": "p2",
-              "left": "El cumplea\u00f1os de Pablo es el 8 de mayo!",
-              "right": "Paul\u2019s birthday is on 8th May!"
-            },
-            {
-              "id": "p3",
-              "left": "El adjetivo dice una cualidad de algo, por ejemplo - 624",
-              "right": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - 624"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 426 (Environment: Pollution):",
-          "tts_en": "I often fish for hours without catching anything (now)",
-          "correct_answer": "I often fish for hours without catching anything (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U54_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 426:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o4",
-              "text": "Fast6848"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 426 - Environment: Pollution:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo - interesting",
-              "back": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 426 (Environment: Pollution):",
-          "instruction_en": "Write a note about Environment: Pollution. [Ref: 58]",
-          "mastery_tag": "writing",
-          "interaction_id": "U54_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 426 (Environment: Pollution):",
-          "stimulus_en": "This is Environment: Pollution. (931)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U54_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 373 (Environment: Pollution):",
-          "stimulus": "Matching set 4339",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Chips (Br Eng) (Am Eng - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda - 885",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - 885"
-            },
-            {
-              "id": "m1",
-              "text": "biscuit) Patatas fritas - interesting"
-            },
-            {
-              "id": "m0",
-              "text": "Do you have any friends who live near your house? = al ser interrogativa, any. (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 373 (Environment: Pollution):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos.."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 373 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (6), The pilot [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "started"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
@@ -505,11 +223,273 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "studied."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "study"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I12"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 372 para Environment: Pollution:",
+          "stimulus_en": "film star) Estrella de cine.",
+          "stimulus_es": "Movie star (Br Eng.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 7782."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I13"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 372 sobre Environment: Pollution:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "that"
+            },
+            {
+              "id": "w0",
+              "text": "What’s."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U54_I14"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 426 (Environment: Pollution):",
+          "stimulus_en": "present continuous, porque lo estás buscando en este momento. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I15"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 426 (Environment: Pollution)",
+          "stimulus_en": "liter) Litro.",
+          "stimulus_es": "Ref: Litre (Br Eng) (Am Eng.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I16"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 426 (Environment: Pollution):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "8. usually / my father / goes to work by bus.",
+              "right": "my father usually goes to work by bus."
+            },
+            {
+              "id": "p1",
+              "left": "No me quiero sentar enfrente de él.",
+              "right": "I don’t want to sit opposite him."
+            },
+            {
+              "id": "p2",
+              "left": "Movie theater (Br Eng.",
+              "right": "cinema) Cine."
+            },
+            {
+              "id": "p3",
+              "left": "Cuánto cuesta?",
+              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I17"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 426 (Environment: Pollution):",
+          "tts_en": "have you ever seen a film in original version.",
+          "correct_answer": "have you ever seen a film in original version",
+          "mastery_tag": "listening",
+          "interaction_id": "U54_I18"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 426:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I19"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 426 - Environment: Pollution:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Veamos una oración con futuro.",
+              "back": "What will the weather be like tomorrow? It’ll be sunny."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I20"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 426 (Environment: Pollution):",
+          "instruction_en": "Explain Whose / Possessives using Environment: Pollution. [Ref: 30]",
+          "mastery_tag": "writing",
+          "interaction_id": "U54_I21"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 426 (Environment: Pollution):",
+          "stimulus_en": "Improve Environment: Pollution. (693)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U54_I22"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 373 (Environment: Pollution):",
+          "stimulus": "Matching set 3163.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Si el número lleva un 0 por en medio, 1903, decimos.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Tienes coche?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "A qué hora abre el supermercado?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "nineteen oh three. Ten encuenta que el número cero lo decimos aquí «oh». El número cero se puede expresar de muchas formas distintas en inglés, según de cómo se esté utilizando. Ahora después lo veremos en detalle."
+            },
+            {
+              "id": "m1",
+              "text": "do you have a car."
+            },
+            {
+              "id": "m2",
+              "text": "What time does the supermarket open."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I23"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 373 (Environment: Pollution):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "She drives carefully."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I24"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 373 (Environment: Pollution):",
+          "main_text": "In Environment: Pollution (7964), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "planned."
+                },
+                {
+                  "id": "o2",
+                  "text": "plan"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "checked."
+                },
+                {
+                  "id": "o2",
+                  "text": "check"
                 }
               ]
             }
@@ -522,22 +502,22 @@
           "interaction_id": "U54_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 373 para Environment: Pollution:",
-          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet (today)",
-          "stimulus_es": "puedo abrir la ventana, por favor? (today)",
+          "stimulus_en": "ADJECTIVE + NOUN.",
+          "stimulus_es": "2. Siempre van antes del sustantivo, la regla es.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o3",
-              "text": "Other 3617"
+              "text": "Other 3288."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -545,136 +525,191 @@
           "interaction_id": "U54_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 373 sobre Environment: Pollution:",
           "options": [
             {
+              "id": "w1",
+              "text": "pueden."
+            },
+            {
               "id": "w2",
-              "text": "goes"
+              "text": "contar."
             },
             {
-              "id": "w8",
-              "text": "(now)"
+              "id": "w12",
+              "text": "mesa"
             },
             {
-              "id": "w3",
-              "text": "out"
+              "id": "w15",
+              "text": "tres"
             },
             {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Jennifer"
-            },
-            {
-              "id": "w5",
-              "text": "see"
+              "id": "w18",
+              "text": "mesas"
             },
             {
               "id": "w7",
-              "text": "concert"
+              "text": "mesa"
             },
             {
-              "id": "w1",
-              "text": "usually"
+              "id": "w10",
+              "text": "decir"
+            },
+            {
+              "id": "w4",
+              "text": "decir"
+            },
+            {
+              "id": "w6",
+              "text": "palabra."
+            },
+            {
+              "id": "w13",
+              "text": "dos"
+            },
+            {
+              "id": "w0",
+              "text": "se"
+            },
+            {
+              "id": "w9",
+              "text": "puedo"
+            },
+            {
+              "id": "w3",
+              "text": "Es"
+            },
+            {
+              "id": "w16",
+              "text": "mesas"
+            },
+            {
+              "id": "w17",
+              "text": "500"
+            },
+            {
+              "id": "w5",
+              "text": "la"
+            },
+            {
+              "id": "w19",
+              "text": "etc"
+            },
+            {
+              "id": "w14",
+              "text": "mesas"
+            },
+            {
+              "id": "w8",
+              "text": "yo"
+            },
+            {
+              "id": "w11",
+              "text": "una"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 427 (Environment: Pollution):",
-          "stimulus_en": "film star) Estrella de cine! (___)",
+          "stimulus_en": "There are a lot of bars near my house. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 427 (Environment: Pollution)",
-          "stimulus_en": "I hardly ever go to the cinema = casi nunca voy al cine....",
-          "stimulus_es": "Ref: 3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca...",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 427 (Environment: Pollution)",
+          "stimulus_en": "My neighbour always spoils my holidays.",
+          "stimulus_es": "Ref: my / My / spoils / neighbour / holidays / always.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 427 (Environment: Pollution):",
           "pairs": [
             {
               "id": "p0",
-              "left": "2. Siempre van antes del sustantivo, la regla es - amazing",
-              "right": "ADJECTIVE + NOUN - amazing"
+              "left": "6. it / rain in the summer / often / doesn’t.",
+              "right": "it doesn’t often rain in the summer."
             },
             {
               "id": "p1",
-              "left": "Qu\u00e9 tiempo verbal utilizamos? - 838",
-              "right": "present continuous, porque lo est\u00e1s buscando en este momento. - 838"
+              "left": "Cuál es la canción más triste que has escuchado nunca?",
+              "right": "What’s the saddest song you’ve ever listened to."
             },
             {
               "id": "p2",
-              "left": "Movie (Br Eng!",
-              "right": "film) Pel\u00edcula!"
+              "left": "Uncountable nouns.",
+              "right": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
             },
             {
               "id": "p3",
-              "left": "my / My / spoils / neighbour / holidays / always (today)",
-              "right": "My neighbour always spoils my holidays (today)"
+              "left": "Otro common mistake.",
+              "right": "I haven’t a car."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 427 (Environment: Pollution):",
-          "tts_en": "la pel\u00edcula, entonces SUBJECT = THE FILM!",
-          "correct_answer": "la pel\u00edcula, entonces SUBJECT = THE FILM!",
+          "tts_en": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.",
+          "correct_answer": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto",
           "mastery_tag": "listening",
           "interaction_id": "U54_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 427:",
           "options": [
             {
-              "id": "o1",
-              "text": "bus"
+              "id": "o4",
+              "text": "Book"
             },
             {
               "id": "o0",
-              "text": "car"
+              "text": "Guitar."
             },
             {
-              "id": "o3",
-              "text": "plane"
+              "id": "o1",
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "Flute"
             },
             {
-              "id": "o4",
-              "text": "cat6658"
+              "id": "o3",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o4",
@@ -682,65 +717,65 @@
           "interaction_id": "U54_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 427 - Environment: Pollution:",
           "cards": [
             {
               "id": "c1",
-              "front": "Algunos ejemplos - amazing",
-              "back": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - amazing"
+              "front": "Common mistake.",
+              "back": "I don’t know that I will do."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 427 (Environment: Pollution):",
-          "instruction_en": "Describe Environment: Pollution in 5 words. [Ref: 88]",
+          "instruction_en": "List 3 facts about Environment: Pollution. [Ref: 59]",
           "mastery_tag": "writing",
           "interaction_id": "U54_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 427 (Environment: Pollution):",
-          "stimulus_en": "This is Environment: Pollution. (497)",
+          "stimulus_en": "Improve Environment: Pollution. (868)",
           "mastery_tag": "speaking",
           "interaction_id": "U54_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 374 (Environment: Pollution):",
-          "stimulus": "Matching set 7751",
+          "stimulus": "Matching set 5730.",
           "items": [
             {
               "id": "i0",
-              "text": "8. \u00a0usually / my father / goes to work by bus - interesting",
+              "text": "Qué quieres?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Qu\u00e9 es \u00e9so?!",
+              "text": "La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y en negativa (today)",
+              "text": "Common mistake.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "What\u2019s that!"
-            },
-            {
-              "id": "m0",
-              "text": "my father usually goes to work by bus - interesting"
+              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
             },
             {
               "id": "m2",
-              "text": "I don\u2019t have any friends who live near my house. (today)"
+              "text": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele."
+            },
+            {
+              "id": "m0",
+              "text": "la respuesta es ilimitada, puede ser cualquier cosa."
             }
           ],
           "correct_answer": {
@@ -752,26 +787,26 @@
           "interaction_id": "U54_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 374 (Environment: Pollution):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Where did he/she tell you (now)"
+                  "text": "Had you got a motorbike…?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "do you have any shoes for the wedding - amazing"
+                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
                 }
               ]
             }
@@ -780,20 +815,20 @@
           "interaction_id": "U54_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 374 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (9308), I [GAP 1] and [GAP 2].",
+          "main_text": "In Environment: Pollution (7204), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "create."
                 }
               ]
             },
@@ -802,11 +837,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drove"
+                  "text": "designed."
                 },
                 {
                   "id": "o2",
-                  "text": "drive"
+                  "text": "design."
                 }
               ]
             }
@@ -819,22 +854,22 @@
           "interaction_id": "U54_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 374 para Environment: Pollution:",
-          "stimulus_en": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno..",
-          "stimulus_es": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
+          "stimulus_en": "Were you having a beer when you saw Peter.",
+          "stimulus_es": "Estabas tomándote una cerveza cuando viste a Pedro?",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 8241"
+              "id": "o2",
+              "text": "Option B."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o3",
+              "text": "Other 3956."
             }
           ],
           "correct_answer": "o1",
@@ -842,116 +877,111 @@
           "interaction_id": "U54_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 374 sobre Environment: Pollution:",
           "options": [
             {
-              "id": "w3",
-              "text": "that"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w0",
+              "text": "in"
             },
             {
               "id": "w1",
-              "text": "mobile"
+              "text": "summer."
             },
             {
-              "id": "w0",
-              "text": "Whose"
+              "id": "w2",
+              "text": "in"
             },
             {
-              "id": "w4",
-              "text": "(today)"
+              "id": "w3",
+              "text": "winter."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 428 (Environment: Pollution):",
-          "stimulus_en": "I don\u2019t want to sit opposite him.. (___)",
+          "stimulus_en": "What does Juan do (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 428 (Environment: Pollution)",
-          "stimulus_en": "My cousins\u2019 house is very big (today)",
-          "stimulus_es": "Ref: 7. La casa de mis primos es muy grande (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 428 (Environment: Pollution)",
+          "stimulus_en": "How is your mum feeling.",
+          "stimulus_es": "Ref: Cómo se siente tu madre?",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 428 (Environment: Pollution):",
           "pairs": [
             {
               "id": "p0",
-              "left": "En qu\u00e9 trabaja Juan? - amazing",
-              "right": "What does Juan do - amazing"
+              "left": "¿Estás estudiando francés?",
+              "right": "are you learning French?"
             },
             {
               "id": "p1",
-              "left": "Tienes hijos?...",
-              "right": "Do you have any children..."
+              "left": "2. el primer elemento es un animal. Ejemplo.",
+              "right": "the bird‘s legs = las piernas del pájaro."
             },
             {
               "id": "p2",
-              "left": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar!",
-              "right": "read, write, eat, run, sleep, etc!"
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             },
             {
               "id": "p3",
-              "left": "Drugstore (Br Eng - 337",
-              "right": "chemist) Farmacia - 337"
+              "left": "Has estado alguna vez en Canadá?",
+              "right": "have you ever been to Canada."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 428 (Environment: Pollution):",
-          "tts_en": "I hardly ever watch TV in the evenings - amazing",
-          "correct_answer": "I hardly ever watch TV in the evenings - amazing",
+          "tts_en": "What time do we have our exam.",
+          "correct_answer": "What time do we have our exam",
           "mastery_tag": "listening",
           "interaction_id": "U54_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 428:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
+              "id": "o2",
+              "text": "green"
             },
             {
-              "id": "o2",
-              "text": "Berlin"
+              "id": "o0",
+              "text": "blue"
             },
             {
               "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
+              "text": "pink"
             },
             {
               "id": "o4",
-              "text": "Slow5627"
+              "text": "run"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -959,65 +989,65 @@
           "interaction_id": "U54_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 428 - Environment: Pollution:",
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 hora es? - amazing",
-              "back": "What time is it - amazing"
+              "front": "Deciros que sólo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. Éstas son.",
+              "back": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 428 (Environment: Pollution):",
-          "instruction_en": "Explain Whose / Possessives using Environment: Pollution. [Ref: 20]",
+          "instruction_en": "Draft an email regarding Environment: Pollution. [Ref: 59]",
           "mastery_tag": "writing",
           "interaction_id": "U54_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 428 (Environment: Pollution):",
-          "stimulus_en": "Look at Environment: Pollution. (440)",
+          "stimulus_en": "Where is Environment: Pollution? (273)",
           "mastery_tag": "speaking",
           "interaction_id": "U54_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 375 (Environment: Pollution):",
-          "stimulus": "Matching set 4803",
+          "stimulus": "Matching set 8967.",
           "items": [
             {
               "id": "i0",
-              "text": "Common mistake - interesting",
+              "text": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces también utilizamos -ing para personas, y ¿cuándo? Debes tener en cuenta que la terminación -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Empecemos analizando el siguiente ejemplo!",
+              "text": "Más plurales irregulares que nos podemos encontrar son.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. Las hermanas de Pedro - interesting",
+              "text": "Has visto mis llaves en algún sitio?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE).!"
-            },
-            {
-              "id": "m2",
-              "text": "Peter\u2019s sisters - interesting"
+              "text": "men, women, people, etc."
             },
             {
               "id": "m0",
-              "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - interesting"
+              "text": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora."
+            },
+            {
+              "id": "m2",
+              "text": "have you seen my keys anywhere."
             }
           ],
           "correct_answer": {
@@ -1029,26 +1059,26 @@
           "interaction_id": "U54_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 375 (Environment: Pollution):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)."
+                  "text": "Have you a car?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "She drives carefully. (today)"
+                  "text": "chips) Patatas fritas."
                 }
               ]
             }
@@ -1057,9 +1087,286 @@
           "interaction_id": "U54_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 375 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (567), My friend [GAP 1] and [GAP 2].",
+          "main_text": "In Environment: Pollution (1334), The architect [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked."
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "helped."
+                },
+                {
+                  "id": "o2",
+                  "text": "help"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I51"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 375 para Environment: Pollution:",
+          "stimulus_en": "I haven’t got a car.",
+          "stimulus_es": "The correct thing.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 9345."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I52"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 375 sobre Environment: Pollution:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "February."
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "birthday."
+            },
+            {
+              "id": "w0",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U54_I53"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 429 (Environment: Pollution):",
+          "stimulus_en": "the bus usually arrives late (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I54"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 429 (Environment: Pollution)",
+          "stimulus_en": "tire) Neumático.",
+          "stimulus_es": "Ref: Tyre (Am Eng.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I55"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 429 (Environment: Pollution):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cuántos años tiene María?",
+              "right": "How old is María."
+            },
+            {
+              "id": "p1",
+              "left": "Funciona ese ordenador?",
+              "right": "Does that computer work."
+            },
+            {
+              "id": "p2",
+              "left": "Common mistake.",
+              "right": "I hadn’t got a mobile."
+            },
+            {
+              "id": "p3",
+              "left": "The correct thing.",
+              "right": "information, homework, work."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I56"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 429 (Environment: Pollution):",
+          "tts_en": "¿Tienes miedo a los perros?, en inglés ‘Are you afraid of dogs?’, la preposición ‘of’ tiene su complemento que es ‘dogs’.",
+          "correct_answer": "¿Tienes miedo a los perros?, en inglés ‘Are you afraid of dogs?’, la preposición ‘of’ tiene su complemento que es ‘dogs’",
+          "mastery_tag": "listening",
+          "interaction_id": "U54_I57"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 429:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I58"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 429 - Environment: Pollution:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "En español diríamos.",
+              "back": "Sharon es la chica más alta de su clase = mientras que en español utilizo la preposición ‘de’ con el superlativo (más alta), en inglés la preposición es ‘in’ y el superlativo (the tallest)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I59"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 429 (Environment: Pollution):",
+          "instruction_en": "Review Environment: Pollution from last week. [Ref: 59]",
+          "mastery_tag": "writing",
+          "interaction_id": "U54_I60"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 429 (Environment: Pollution):",
+          "stimulus_en": "Improve Environment: Pollution. (570)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U54_I61"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 376 (Environment: Pollution):",
+          "stimulus": "Matching set 6084.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Algunos ejemplos.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Verbos irregulares.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "7. read books slowly / I / always.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
+            },
+            {
+              "id": "m0",
+              "text": "at in on for to of without."
+            },
+            {
+              "id": "m2",
+              "text": "I always read books slowly."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I62"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 376 (Environment: Pollution):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Spain‘s monuments are very nice."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "have you ever spoken English on the phone."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I63"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 376 (Environment: Pollution):",
+          "main_text": "In Environment: Pollution (3925), Our neighbors [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -1071,6 +1378,570 @@
                 {
                   "id": "o2",
                   "text": "fix"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied."
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I64"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 376 para Environment: Pollution:",
+          "stimulus_en": "I never drink alcohol if I drive a car.",
+          "stimulus_es": "car / I / drink / never / if / drive / I / alcohol / a.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 6264."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I65"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 376 sobre Environment: Pollution:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "money"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "friend."
+            },
+            {
+              "id": "w4",
+              "text": "lot"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U54_I66"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 430 (Environment: Pollution):",
+          "stimulus_en": "lift) Ascensor (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I67"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 430 (Environment: Pollution)",
+          "stimulus_en": "What’s the hottest place you’ve ever been to.",
+          "stimulus_es": "Ref: Cuál es el sitio más caluroso en el que has estado nunca?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I68"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 430 (Environment: Pollution):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "– Meses del año.",
+              "right": "in May, in August, etc."
+            },
+            {
+              "id": "p1",
+              "left": "5. never / drinks coffee in the evening / she.",
+              "right": "she never drinks coffee in the evening."
+            },
+            {
+              "id": "p2",
+              "left": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
+              "right": "‘m/ ‘s, etc)"
+            },
+            {
+              "id": "p3",
+              "left": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
+              "right": "have you ever studied a foreign laguage apart from English."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I69"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 430 (Environment: Pollution):",
+          "tts_en": "Next to my house there is a nursery school.",
+          "correct_answer": "Next to my house there is a nursery school",
+          "mastery_tag": "listening",
+          "interaction_id": "U54_I70"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 430:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I71"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 430 - Environment: Pollution:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Escribir inglés correctamente.",
+              "back": "uso de las mayúsculas."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I72"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 430 (Environment: Pollution):",
+          "instruction_en": "A small story about Environment: Pollution. [Ref: 20]",
+          "mastery_tag": "writing",
+          "interaction_id": "U54_I73"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 430 (Environment: Pollution):",
+          "stimulus_en": "Study Environment: Pollution now. (295)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U54_I74"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 377 (Environment: Pollution):",
+          "stimulus": "Matching set 2575.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "A qué hora sale el autobús?",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Chips (Br Eng) (Am Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "What time does the bus leave."
+            },
+            {
+              "id": "m1",
+              "text": "Can I have your ID/ passport/ credit card?."
+            },
+            {
+              "id": "m2",
+              "text": "biscuit) Patatas fritas."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I75"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 377 (Environment: Pollution):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Is she studying English."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "the door of my house."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I76"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 377 (Environment: Pollution):",
+          "main_text": "In Environment: Pollution (2712), The doctor [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "started."
+                },
+                {
+                  "id": "o2",
+                  "text": "start"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created."
+                },
+                {
+                  "id": "o2",
+                  "text": "create."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I77"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 377 para Environment: Pollution:",
+          "stimulus_en": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien».",
+          "stimulus_es": "Has visto an alguien?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 6706."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I78"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 377 sobre Environment: Pollution:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "visits."
+            },
+            {
+              "id": "w1",
+              "text": "usually."
+            },
+            {
+              "id": "w4",
+              "text": "dentist."
+            },
+            {
+              "id": "w0",
+              "text": "Jonathan."
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U54_I79"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 431 (Environment: Pollution):",
+          "stimulus_en": "are there any peas in the fridge (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I80"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 431 (Environment: Pollution)",
+          "stimulus_en": "Whose car is that.",
+          "stimulus_es": "Ref: De quién ese coche?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U54_I81"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 431 (Environment: Pollution):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cabe destacar que la palabra every es singular en inglés, por tanto, tanto «day» como cualquiera de los días que pongamos, deben ir en singular. Es incorrecto decir.",
+              "right": "every days o every Tuesdays."
+            },
+            {
+              "id": "p1",
+              "left": "‘Much’ se utiliza con uncountable nouns, bien, porque ‘money’ lo es, pero en oraciones negativas, por tanto.",
+              "right": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’."
+            },
+            {
+              "id": "p2",
+              "left": "De quién es ese móvil?",
+              "right": "Whose mobile is that."
+            },
+            {
+              "id": "p3",
+              "left": "El adjetivo dice una cualidad de algo, por ejemplo.",
+              "right": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I82"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 431 (Environment: Pollution):",
+          "tts_en": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la sección NIVEL A (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio.",
+          "correct_answer": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la sección NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio",
+          "mastery_tag": "listening",
+          "interaction_id": "U54_I83"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 431:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "Pen"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I84"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 431 - Environment: Pollution:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Tienes hijos?",
+              "back": "Do you have any children."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I85"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 431 (Environment: Pollution):",
+          "instruction_en": "Why is Environment: Pollution important? [Ref: 32]",
+          "mastery_tag": "writing",
+          "interaction_id": "U54_I86"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 431 (Environment: Pollution):",
+          "stimulus_en": "Repeat Environment: Pollution. (359)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U54_I87"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 378 (Environment: Pollution):",
+          "stimulus": "Matching set 6090.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "•in the fall (Br Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "The correct thing.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "2. Let’s do the same with the first example.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
+            },
+            {
+              "id": "m1",
+              "text": "Have you got a car?"
+            },
+            {
+              "id": "m0",
+              "text": "autumn) En otoño."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U54_I88"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 378 (Environment: Pollution):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What’s the coldest country you’ve ever been to."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What’s the most difficult language you’ve ever studied."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U54_I89"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 378 (Environment: Pollution):",
+          "main_text": "In Environment: Pollution (4804), She [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked."
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
                 }
               ]
             },
@@ -1093,966 +1964,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U54_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 375 para Environment: Pollution:",
-          "stimulus_en": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. - interesting",
-          "stimulus_es": "Verbos irregulares - interesting",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 5963"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 375 sobre Environment: Pollution:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "interesting"
-            },
-            {
-              "id": "w3",
-              "text": "going"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "we"
-            },
-            {
-              "id": "w6",
-              "text": "beach"
-            },
-            {
-              "id": "w0",
-              "text": "When"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U54_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 429 (Environment: Pollution):",
-          "stimulus_en": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - interesting (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 429 (Environment: Pollution)",
-          "stimulus_en": "she never drinks coffee in the evening - interesting",
-          "stimulus_es": "Ref: 5. never / drinks coffee in the evening / she - interesting",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 429 (Environment: Pollution):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - amazing",
-              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - amazing"
-            },
-            {
-              "id": "p1",
-              "left": "Hay guisantes en el frigo? (now)",
-              "right": "are there any peas in the fridge (now)"
-            },
-            {
-              "id": "p2",
-              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio (today)",
-              "right": "\u00bfDe d\u00f3nde eres? (today)"
-            },
-            {
-              "id": "p3",
-              "left": "\u2013 D\u00edas de la semana - 856",
-              "right": "on Monday, on Wednesday, etc. - 856"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 429 (Environment: Pollution):",
-          "tts_en": "What will the weather be like tomorrow? It\u2019ll be sunny. - interesting",
-          "correct_answer": "What will the weather be like tomorrow? It\u2019ll be sunny. - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U54_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 429:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "run2240"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 429 - Environment: Pollution:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
-              "back": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 429 (Environment: Pollution):",
-          "instruction_en": "Your daily routine in Environment: Pollution. [Ref: 11]",
-          "mastery_tag": "writing",
-          "interaction_id": "U54_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 429 (Environment: Pollution):",
-          "stimulus_en": "Look at Environment: Pollution. (905)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U54_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 376 (Environment: Pollution):",
-          "stimulus": "Matching set 4046",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Otro ejemplo.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Crees que bajar\u00e1 el paro este a\u00f1o? - 625",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "C\u00f3mo se siente tu madre?!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "How is your mum feeling!"
-            },
-            {
-              "id": "m1",
-              "text": "Do you think that unemployment will go down this year - 625"
-            },
-            {
-              "id": "m0",
-              "text": "when I was at primary school, I didn\u2019t wear uniform.."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 376 (Environment: Pollution):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "cinema) Cine."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "are you learning French? - 349"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 376 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (2600), The waiter [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "finished"
-                },
-                {
-                  "id": "o2",
-                  "text": "finish"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "traveled"
-                },
-                {
-                  "id": "o2",
-                  "text": "travel"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 376 para Environment: Pollution:",
-          "stimulus_en": "do you have any brothers or sisters.",
-          "stimulus_es": "Tienes hermanos?.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 3743"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 376 sobre Environment: Pollution:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w15",
-              "text": "amazing"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "afternoon"
-            },
-            {
-              "id": "w2",
-              "text": "morning"
-            },
-            {
-              "id": "w9",
-              "text": "pero"
-            },
-            {
-              "id": "w13",
-              "text": "una"
-            },
-            {
-              "id": "w8",
-              "text": "evening"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w10",
-              "text": "at"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "in"
-            },
-            {
-              "id": "w12",
-              "text": "(es"
-            },
-            {
-              "id": "w14",
-              "text": "excepci\u00f3n)"
-            },
-            {
-              "id": "w11",
-              "text": "night"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U54_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 430 (Environment: Pollution):",
-          "stimulus_en": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. - 979 (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 430 (Environment: Pollution)",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. (now)",
-          "stimulus_es": "Ref: Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo (now)",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 430 (Environment: Pollution):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sigue recto y delante de la iglesia hay un supermercado - amazing",
-              "right": "Go straight on and in front of the church there is a supermarket. - amazing"
-            },
-            {
-              "id": "p1",
-              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?...",
-              "right": "What\u2019s the hottest place you\u2019ve ever been to..."
-            },
-            {
-              "id": "p2",
-              "left": "2. Let\u2019s do the same with the first example!",
-              "right": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!!"
-            },
-            {
-              "id": "p3",
-              "left": "Qu\u00e9 quieres? - amazing",
-              "right": "la respuesta es ilimitada, puede ser cualquier cosa. - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 430 (Environment: Pollution):",
-          "tts_en": "would you like some more (now)",
-          "correct_answer": "would you like some more (now)",
-          "mastery_tag": "listening",
-          "interaction_id": "U54_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 430:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Book4196"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 430 - Environment: Pollution:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Has visto a alguien? (now)",
-              "back": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 430 (Environment: Pollution):",
-          "instruction_en": "List 3 facts about Environment: Pollution. [Ref: 39]",
-          "mastery_tag": "writing",
-          "interaction_id": "U54_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 430 (Environment: Pollution):",
-          "stimulus_en": "Improve Environment: Pollution. (293)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U54_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 377 (Environment: Pollution):",
-          "stimulus": "Matching set 6599",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Has visto mis llaves en alg\u00fan sitio?.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (now)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Mi cumplea\u00f1os es en febrero (today)",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "What\u2019s the saddest song you\u2019ve ever listened to (now)"
-            },
-            {
-              "id": "m2",
-              "text": "my birthday is in February. (today)"
-            },
-            {
-              "id": "m0",
-              "text": "have you seen my keys anywhere."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 377 (Environment: Pollution):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Spain\u2018s monuments are very nice.!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "meter) Metro..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 377 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (9475), The player [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "ate"
-                },
-                {
-                  "id": "o2",
-                  "text": "eat"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 377 para Environment: Pollution:",
-          "stimulus_en": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO..",
-          "stimulus_es": "Por ejemplo.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 8991"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 377 sobre Environment: Pollution:",
-          "options": [
-            {
-              "id": "w12",
-              "text": "cost"
-            },
-            {
-              "id": "w8",
-              "text": "alumnos"
-            },
-            {
-              "id": "w7",
-              "text": "los"
-            },
-            {
-              "id": "w10",
-              "text": "\u00abhow"
-            },
-            {
-              "id": "w9",
-              "text": "dicen:"
-            },
-            {
-              "id": "w6",
-              "text": "menudo"
-            },
-            {
-              "id": "w11",
-              "text": "much"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "pregunta"
-            },
-            {
-              "id": "w1",
-              "text": "con"
-            },
-            {
-              "id": "w4",
-              "text": "porque"
-            },
-            {
-              "id": "w0",
-              "text": "cuidado"
-            },
-            {
-              "id": "w2",
-              "text": "esta"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U54_I79"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 431 (Environment: Pollution):",
-          "stimulus_en": "biscuit) Galleta. (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I80"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 431 (Environment: Pollution)",
-          "stimulus_en": "may I open the window, please!",
-          "stimulus_es": "Ref: Puedo abrir la ventana, por favor?!",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U54_I81"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 431 (Environment: Pollution):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Est\u00e1 estudiando ella ingl\u00e9s? (now)",
-              "right": "Is she studying English (now)"
-            },
-            {
-              "id": "p1",
-              "left": "This is another translation...",
-              "right": "igual hago algo\u2026 (but I\u2019m not sure\u2026)...."
-            },
-            {
-              "id": "p2",
-              "left": "Many, para countable, decimos...",
-              "right": "I don\u2019t have many friends (friends is countable)...."
-            },
-            {
-              "id": "p3",
-              "left": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar - 780",
-              "right": "Indirect questions en ingl\u00e9s. - 780"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I82"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 431 (Environment: Pollution):",
-          "tts_en": "There are a lot of bars near my house. (today)",
-          "correct_answer": "There are a lot of bars near my house. (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U54_I83"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 431:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o4",
-              "text": "cat4433"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I84"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 431 - Environment: Pollution:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "2. Play football on Saturday afternoons / the boys / always.",
-              "back": "the boys always play football on Saturday afternoons."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I85"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 431 (Environment: Pollution):",
-          "instruction_en": "Your daily routine in Environment: Pollution. [Ref: 90]",
-          "mastery_tag": "writing",
-          "interaction_id": "U54_I86"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 431 (Environment: Pollution):",
-          "stimulus_en": "Study Environment: Pollution now. (480)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U54_I87"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 378 (Environment: Pollution):",
-          "stimulus": "Matching set 9529",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Escribir ingl\u00e9s correctamente - interesting",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa.",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "my cousin\u2019s husband is German and his mother Irish.."
-            },
-            {
-              "id": "m1",
-              "text": "Sometimes I have lunch in a restaurant. (today)"
-            },
-            {
-              "id": "m0",
-              "text": "uso de las may\u00fasculas - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U54_I88"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 378 (Environment: Pollution):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What\u2019s the coldest country you\u2019ve ever been to - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "Had you got a motorbike\u2026?..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U54_I89"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 378 (Environment: Pollution):",
-          "main_text": "In Environment: Pollution (2989), The pilot [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "visited"
-                },
-                {
-                  "id": "o2",
-                  "text": "visit"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "walked"
-                },
-                {
-                  "id": "o2",
-                  "text": "walk"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U54_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 378 para Environment: Pollution:",
-          "stimulus_en": "What\u2019s his name.",
-          "stimulus_es": "C\u00f3mo se llama \u00e9l?.",
+          "stimulus_en": "verb patters.",
+          "stimulus_es": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 2256"
+              "text": "Other 1742."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -2060,196 +1990,101 @@
           "interaction_id": "U54_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 378 sobre Environment: Pollution:",
           "options": [
             {
-              "id": "w4",
-              "text": "decir"
-            },
-            {
-              "id": "w20",
-              "text": "interesting"
-            },
-            {
-              "id": "w12",
-              "text": "mesa"
-            },
-            {
-              "id": "w17",
-              "text": "500"
-            },
-            {
-              "id": "w13",
-              "text": "dos"
-            },
-            {
-              "id": "w11",
-              "text": "una"
-            },
-            {
-              "id": "w19",
-              "text": "etc"
-            },
-            {
-              "id": "w3",
-              "text": "Es"
-            },
-            {
-              "id": "w7",
-              "text": "mesa"
-            },
-            {
-              "id": "w6",
-              "text": "palabra"
-            },
-            {
-              "id": "w14",
-              "text": "mesas"
-            },
-            {
-              "id": "w5",
-              "text": "la"
-            },
-            {
-              "id": "w15",
-              "text": "tres"
-            },
-            {
-              "id": "w16",
-              "text": "mesas"
-            },
-            {
               "id": "w1",
-              "text": "pueden"
+              "text": "Película."
             },
             {
               "id": "w0",
-              "text": "se"
-            },
-            {
-              "id": "w9",
-              "text": "puedo"
-            },
-            {
-              "id": "w10",
-              "text": "decir"
-            },
-            {
-              "id": "w2",
-              "text": "contar"
-            },
-            {
-              "id": "w18",
-              "text": "mesas"
-            },
-            {
-              "id": "w8",
-              "text": "yo"
+              "text": "film)"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20"
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U54_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 432 (Environment: Pollution):",
-          "stimulus_en": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the! (___)",
+          "stimulus_en": "biscuit) Galleta (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U54_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 432 (Environment: Pollution)",
-          "stimulus_en": "How old is Mar\u00eda - 609",
-          "stimulus_es": "Ref: Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? - 609",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 432 (Environment: Pollution)",
+          "stimulus_en": "read, write, eat, run, sleep, etc.",
+          "stimulus_es": "Ref: También que llamamos infinitivo al verbo tal cual, sin conjugar.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U54_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 432 (Environment: Pollution):",
           "pairs": [
             {
               "id": "p0",
-              "left": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (now)",
-              "right": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (now)"
+              "left": "Alguna vez has probado la comida tailandesa?",
+              "right": "Have you ever tried Thai food."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1ndo la ayudaste? (today)",
-              "right": "When did you help him/her (today)"
+              "left": "2. La hamburguesa de Harry.",
+              "right": "Harry’s burger."
             },
             {
               "id": "p2",
-              "left": "2. La hamburguesa de Harry - interesting",
-              "right": "Harry\u2019s burger - interesting"
+              "left": "TV / ever / hardly / I / in / watch / evenings / the.",
+              "right": "I hardly ever watch TV in the evenings."
             },
             {
               "id": "p3",
-              "left": "Para responder en plural, dir\u00edamos...",
-              "right": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l)...."
+              "left": "Encontraste algo ahí?",
+              "right": "any + thing = en oración INTERROGATIVA."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 432 (Environment: Pollution):",
-          "tts_en": "bookshop) Librer\u00eda.",
-          "correct_answer": "bookshop) Librer\u00eda.",
+          "tts_en": "John‘s job is boring.",
+          "correct_answer": "John‘s job is boring",
           "mastery_tag": "listening",
           "interaction_id": "U54_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 432:",
           "options": [
             {
-              "id": "o4",
-              "text": "run2688"
+              "id": "o1",
+              "text": "banana."
             },
             {
               "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
+              "text": "pear"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "apple"
             },
             {
-              "id": "o1",
-              "text": "red"
+              "id": "o4",
+              "text": "bike"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             }
           ],
           "correct_answer": "o4",
@@ -2257,29 +2092,29 @@
           "interaction_id": "U54_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 432 - Environment: Pollution:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? (today)",
-              "back": "What\u2019s the highest building you\u2019ve ever visited (today)"
+              "front": "Cuándo iremos a la playa?",
+              "back": "When are we going to the beach."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U54_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 432 (Environment: Pollution):",
-          "instruction_en": "Draft an email regarding Environment: Pollution. [Ref: 50]",
+          "instruction_en": "Your daily routine in Environment: Pollution. [Ref: 58]",
           "mastery_tag": "writing",
           "interaction_id": "U54_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 432 (Environment: Pollution):",
-          "stimulus_en": "Talk about Environment: Pollution. (713)",
+          "stimulus_en": "I like Environment: Pollution. (515)",
           "mastery_tag": "speaking",
           "interaction_id": "U54_I100"
         }

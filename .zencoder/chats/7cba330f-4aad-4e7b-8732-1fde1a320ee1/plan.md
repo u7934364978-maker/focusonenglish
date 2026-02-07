@@ -46,3 +46,12 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 4. [x] **Validation**: Run `python3 scripts/validate-a2-course.py` and verify the `/curso/ingles-a2` route.
 5. [x] **Logic Verification**: Run `python3 scripts/verify-exercise-logic.py` to ensure correct/incorrect answer detection.
 6. [x] **Exhaustive Audit**: Perform a duplication audit across all 6000 exercises and implement combinatorial generation to ensure zero repetitions.
+
+### [ ] Step: Typographical Cleanup
+
+1. [ ] **Cleanup Script**: Implement `scripts/cleanup-a2-typos.py` to fix:
+    - Double articles ("a a", "an an", "un a", "una a").
+    - "a" vs "an" before vowels.
+    - Removal of trailing placeholders/ids (e.g., "- 926", "- amazing").
+2. [ ] **Verification**: Run the cleanup script and verify with logic tests.
+3. [ ] **PR Update**: Commit and push the clean content.

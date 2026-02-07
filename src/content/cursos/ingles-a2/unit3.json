@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit3",
-    "unit_title": "Adjectives vs Adverbs - Travel: Directions",
+    "unit_title": "Adjectives vs Adverbs - Travel: Directions.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U3_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 3",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 3.",
           "tts_en": "Starting unit 3. Topic: Travel: Directions. Focus: Adjectives vs Adverbs.",
           "mastery_tag": "listening",
           "interaction_id": "U3_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 17 (Travel: Directions):",
-          "stimulus_en": "\u2018m/ \u2018s, etc) - interesting (___)",
+          "stimulus_en": "Spain‘s monuments are very nice. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U3_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 17 (Travel: Directions)",
-          "stimulus_en": "I don\u2019t want to sit opposite him. (today)",
-          "stimulus_es": "Ref: No me quiero sentar enfrente de \u00e9l (today)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 17 (Travel: Directions)",
+          "stimulus_en": "would you like some coke?",
+          "stimulus_es": "Ref: Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U3_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 17 (Travel: Directions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Crees que bajar\u00e1 el paro este a\u00f1o?.",
-              "right": "Do you think that unemployment will go down this year."
+              "left": "Si pasamos la oración an interrogativa, quedaría así.",
+              "right": "Do you have any friends who live near your house? = al ser interrogativa, any."
             },
             {
               "id": "p1",
-              "left": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos - interesting",
-              "right": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - interesting"
+              "left": "Tienes hermanos?",
+              "right": "do you have any brothers or sisters."
             },
             {
               "id": "p2",
-              "left": "Has estado alguna vez en Canad\u00e1?!",
-              "right": "have you ever been to Canada!"
+              "left": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
+              "right": "‘m/ ‘s, etc)"
             },
             {
               "id": "p3",
-              "left": "TV / ever / hardly / I / in / watch / evenings / the!",
-              "right": "I hardly ever watch TV in the evenings!"
+              "left": "Verbos irregulares.",
+              "right": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 17 (Travel: Directions):",
-          "tts_en": "When are we going to the beach - amazing",
-          "correct_answer": "When are we going to the beach - amazing",
+          "tts_en": "every days o every Tuesdays.",
+          "correct_answer": "every days o every Tuesdays",
           "mastery_tag": "listening",
           "interaction_id": "U3_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 17:",
           "options": [
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "o1",
+              "text": "red"
             },
             {
               "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o4",
-              "text": "Slow9858"
+              "text": "blue"
             },
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "green"
             },
             {
-              "id": "o1",
-              "text": "Tokyo"
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o4",
+              "text": "run"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U3_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 17 - Travel: Directions:",
           "cards": [
             {
               "id": "c1",
-              "front": "Qu\u00e9 es lo que empieza? - 133",
-              "back": "la pel\u00edcula, entonces SUBJECT = THE FILM - 133"
+              "front": "Common mistake.",
+              "back": "I don’t know that I will do."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 17 (Travel: Directions):",
-          "instruction_en": "Draft an email regarding Travel: Directions. [Ref: 10]",
+          "instruction_en": "Compare Travel: Directions with another topic. [Ref: 25]",
           "mastery_tag": "writing",
           "interaction_id": "U3_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 17 (Travel: Directions):",
-          "stimulus_en": "The Adjectives vs Adverbs is here. (442)",
+          "stimulus_en": "Improve Travel: Directions. (291)",
           "mastery_tag": "speaking",
           "interaction_id": "U3_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 15 (Travel: Directions):",
-          "stimulus": "Matching set 134",
+          "stimulus": "Matching set 9180.",
           "items": [
             {
               "id": "i0",
-              "text": "Mi cumplea\u00f1os es en febrero - amazing",
+              "text": "Otro ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "De qui\u00e9n ese coche? (today)",
+              "text": "La podemos contestar de la seguiente manera.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo!",
+              "text": "– Fechas concretas.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "on 5th May, on Christmas Day, on New Year’s Eve, on St. Valentine’s Day, on my birthday = siempre que sea una fecha concreta, ese día y no otro, utilizamos la preposición on."
+            },
+            {
               "id": "m0",
-              "text": "my birthday is in February. - amazing"
+              "text": "when I was at primary school, I didn’t wear uniform."
             },
             {
               "id": "m1",
-              "text": "Whose car is that (today)"
-            },
-            {
-              "id": "m2",
-              "text": "would you like some coke?!"
+              "text": "It’s mine (es mía) o it’s his (es suya – de él)"
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U3_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 15 (Travel: Directions):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - amazing"
+                  "text": "My neighbour always spoils my holidays."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "have you ever played chess..."
+                  "text": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
                 }
               ]
             }
@@ -201,298 +201,16 @@
           "interaction_id": "U3_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 15 (Travel: Directions):",
-          "main_text": "In Travel: Directions (1534), The chef [GAP 1] and [GAP 2].",
+          "main_text": "In Travel: Directions (7157), The doctor [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
-                },
-                {
-                  "id": "o2",
-                  "text": "organize"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "called"
-                },
-                {
-                  "id": "o2",
-                  "text": "call"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I12"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 15 para Travel: Directions:",
-          "stimulus_en": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!.",
-          "stimulus_es": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 1324"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I13"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 15 sobre Travel: Directions:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "etc"
-            },
-            {
-              "id": "w1",
-              "text": "Monday"
-            },
-            {
-              "id": "w5",
-              "text": "(now)"
-            },
-            {
-              "id": "w2",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "Wednesday"
-            },
-            {
-              "id": "w0",
-              "text": "on"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U3_I14"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 18 (Travel: Directions):",
-          "stimulus_en": "I have a lot of money and I have a lot of friends. (today) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I15"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 18 (Travel: Directions)",
-          "stimulus_en": "I have 3 children..",
-          "stimulus_es": "Ref: The correct thing.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I16"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 18 (Travel: Directions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The correct thing!",
-              "right": "I went to a state school.!"
-            },
-            {
-              "id": "p1",
-              "left": "try / police / keep / The / order / always / to / the - 907",
-              "right": "The police always try to keep the order - 907"
-            },
-            {
-              "id": "p2",
-              "left": "C\u00f3mo se siente tu madre?.",
-              "right": "How is your mum feeling."
-            },
-            {
-              "id": "p3",
-              "left": "Sigue recto y delante de la iglesia hay un supermercado - 646",
-              "right": "Go straight on and in front of the church there is a supermarket. - 646"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I17"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 18 (Travel: Directions):",
-          "tts_en": "Is she studying English - amazing",
-          "correct_answer": "Is she studying English - amazing",
-          "mastery_tag": "listening",
-          "interaction_id": "U3_I18"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 18:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "bike2612"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I19"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 18 - Travel: Directions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Veamos una oraci\u00f3n con futuro (today)",
-              "back": "What will the weather be like tomorrow? It\u2019ll be sunny. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I20"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 18 (Travel: Directions):",
-          "instruction_en": "Review Travel: Directions from last week. [Ref: 24]",
-          "mastery_tag": "writing",
-          "interaction_id": "U3_I21"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 18 (Travel: Directions):",
-          "stimulus_en": "This is Travel: Directions. (131)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U3_I22"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 16 (Travel: Directions):",
-          "stimulus": "Matching set 233",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Otro common mistake!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "El marido de mi prima es alem\u00e1n y su madre irlandesa (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Tienes coche?!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "my cousin\u2019s husband is German and his mother Irish. (today)"
-            },
-            {
-              "id": "m2",
-              "text": "do you have a car!"
-            },
-            {
-              "id": "m0",
-              "text": "Have you a car?!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I23"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 16 (Travel: Directions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "men, women, people, etc. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I24"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 16 (Travel: Directions):",
-          "main_text": "In Travel: Directions (7535), The player [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "planned"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
@@ -505,11 +223,298 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sent"
+                  "text": "cooked."
                 },
                 {
                   "id": "o2",
-                  "text": "send"
+                  "text": "cook"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I12"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 15 para Travel: Directions:",
+          "stimulus_en": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!",
+          "stimulus_es": "2. Let’s do the same with the first example.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 6969."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I13"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 15 sobre Travel: Directions:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "often"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "rain"
+            },
+            {
+              "id": "w6",
+              "text": "summer."
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "doesn’t."
+            },
+            {
+              "id": "w0",
+              "text": "it"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U3_I14"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 18 (Travel: Directions):",
+          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I15"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 18 (Travel: Directions)",
+          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa.",
+          "stimulus_es": "Ref: Qué quieres?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I16"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 18 (Travel: Directions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "For example.",
+              "right": "She drives carefully."
+            },
+            {
+              "id": "p1",
+              "left": "Cuál es el sitio más caluroso en el que has estado nunca?",
+              "right": "What’s the hottest place you’ve ever been to."
+            },
+            {
+              "id": "p2",
+              "left": "A lot of, countable y uncountable.",
+              "right": "I have a lot of money and I have a lot of friends."
+            },
+            {
+              "id": "p3",
+              "left": "Y en negativa.",
+              "right": "I don’t have any friends who live near my house."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I17"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 18 (Travel: Directions):",
+          "tts_en": "What will the weather be like tomorrow? It’ll be sunny.",
+          "correct_answer": "What will the weather be like tomorrow? It’ll be sunny",
+          "mastery_tag": "listening",
+          "interaction_id": "U3_I18"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 18:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I19"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 18 - Travel: Directions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Uncountable nouns.",
+              "back": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I20"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 18 (Travel: Directions):",
+          "instruction_en": "Review Travel: Directions from last week. [Ref: 59]",
+          "mastery_tag": "writing",
+          "interaction_id": "U3_I21"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 18 (Travel: Directions):",
+          "stimulus_en": "Talk about Travel: Directions. (431)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U3_I22"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 16 (Travel: Directions):",
+          "stimulus": "Matching set 9783.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "De quién es ese móvil?",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "1. La puerta de mi casa.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "French fries (Br Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "chips) Patatas fritas."
+            },
+            {
+              "id": "m0",
+              "text": "Whose mobile is that."
+            },
+            {
+              "id": "m1",
+              "text": "the door of my house."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I23"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 16 (Travel: Directions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Did anybody say my name."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "I went to a state school."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I24"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 16 (Travel: Directions):",
+          "main_text": "In Travel: Directions (3134), Our neighbors [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "studied."
+                },
+                {
+                  "id": "o2",
+                  "text": "study"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "ate"
+                },
+                {
+                  "id": "o2",
+                  "text": "eat"
                 }
               ]
             }
@@ -522,22 +527,22 @@
           "interaction_id": "U3_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 16 para Travel: Directions:",
-          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. (today)",
-          "stimulus_es": "Los adjetivos tienen tres formas (today)",
+          "stimulus_en": "Sally often borrows money from her friends.",
+          "stimulus_es": "often / money / Sally / her / borrows / friends / from.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o3",
-              "text": "Other 601"
+              "text": "Other 9726."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -545,136 +550,116 @@
           "interaction_id": "U3_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 16 sobre Travel: Directions:",
           "options": [
             {
-              "id": "w5",
-              "text": "ever"
-            },
-            {
-              "id": "w7",
-              "text": "told"
-            },
-            {
               "id": "w2",
-              "text": "funniest"
-            },
-            {
-              "id": "w1",
-              "text": "the"
+              "text": "have"
             },
             {
               "id": "w4",
-              "text": "you\u2019ve"
+              "text": "car"
             },
             {
               "id": "w3",
-              "text": "joke"
+              "text": "a"
             },
             {
-              "id": "w6",
-              "text": "been"
-            },
-            {
-              "id": "w8",
-              "text": "amazing"
+              "id": "w1",
+              "text": "you"
             },
             {
               "id": "w0",
-              "text": "What\u2019s"
+              "text": "do"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U3_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 19 (Travel: Directions):",
-          "stimulus_en": "What time do we have our exam (now) (___)",
+          "stimulus_en": "car park) Parrot Part •The best part of the day Partner Party Pass •You pass the station on the (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U3_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 19 (Travel: Directions)",
-          "stimulus_en": "What\u2019s that.",
-          "stimulus_es": "Ref: Qu\u00e9 es \u00e9so?.",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 19 (Travel: Directions)",
+          "stimulus_en": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis.",
+          "stimulus_es": "Ref: La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U3_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 19 (Travel: Directions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? (today)",
-              "right": "What\u2019s the most difficult language you\u2019ve ever studied (today)"
+              "left": "This is another translation.",
+              "right": "igual hago algo… (but I’m not sure…)."
             },
             {
               "id": "p1",
-              "left": "Qu\u00e9 tiempo verbal utilizamos?...",
-              "right": "present continuous, porque lo est\u00e1s buscando en este momento...."
+              "left": "Hay muchos bares cerca de mi casa.",
+              "right": "There are a lot of bars near my house."
             },
             {
               "id": "p2",
-              "left": "Alguien dijo mi nombre? (now)",
-              "right": "Did anybody say my name (now)"
+              "left": "Puedo abrir la ventana, por favor?",
+              "right": "may I open the window, please."
             },
             {
               "id": "p3",
-              "left": "Tienes hermanos?!",
-              "right": "do you have any brothers or sisters!"
+              "left": "No me quiero sentar enfrente de él.",
+              "right": "I don’t want to sit opposite him."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 19 (Travel: Directions):",
-          "tts_en": "I can to speak English....",
-          "correct_answer": "I can to speak English....",
+          "tts_en": "my father usually goes to work by bus.",
+          "correct_answer": "my father usually goes to work by bus",
           "mastery_tag": "listening",
           "interaction_id": "U3_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 19:",
           "options": [
             {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
               "id": "o1",
-              "text": "burger"
+              "text": "bus"
             },
             {
               "id": "o3",
-              "text": "soup"
-            },
-            {
-              "id": "o4",
-              "text": "rain2220"
+              "text": "plane"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat"
             }
           ],
           "correct_answer": "o4",
@@ -682,65 +667,65 @@
           "interaction_id": "U3_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 19 - Travel: Directions:",
           "cards": [
             {
               "id": "c1",
-              "front": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - interesting",
-              "back": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - interesting"
+              "front": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversión de Have, como en nuestro ejemplo.",
+              "back": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 19 (Travel: Directions):",
-          "instruction_en": "Review Travel: Directions from last week. [Ref: 72]",
+          "instruction_en": "Draft an email regarding Travel: Directions. [Ref: 30]",
           "mastery_tag": "writing",
           "interaction_id": "U3_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 19 (Travel: Directions):",
-          "stimulus_en": "Talk about Travel: Directions. (634)",
+          "stimulus_en": "Look at Travel: Directions. (388)",
           "mastery_tag": "speaking",
           "interaction_id": "U3_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 17 (Travel: Directions):",
-          "stimulus": "Matching set 5312",
+          "stimulus": "Matching set 3606.",
           "items": [
             {
               "id": "i0",
-              "text": "Cookie (Br Eng!",
+              "text": "A qué hora sale el tren?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has visto mis llaves en alg\u00fan sitio?!",
+              "text": "Has visto mis llaves en algún sitio?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Quieres m\u00e1s? (today)",
+              "text": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "have you seen my keys anywhere!"
-            },
-            {
               "id": "m2",
-              "text": "would you like some more (today)"
+              "text": "Can I have your ID/ passport/ credit card?."
             },
             {
               "id": "m0",
-              "text": "biscuit) Galleta!"
+              "text": "What time does the train leave."
+            },
+            {
+              "id": "m1",
+              "text": "have you seen my keys anywhere."
             }
           ],
           "correct_answer": {
@@ -752,26 +737,26 @@
           "interaction_id": "U3_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 17 (Travel: Directions):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "film star) Estrella de cine..."
+                  "text": "Have you got a car?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Were you having a beer when you saw Peter - 733"
+                  "text": "present continuous, porque lo estás buscando en este momento."
                 }
               ]
             }
@@ -780,9 +765,1217 @@
           "interaction_id": "U3_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 17 (Travel: Directions):",
-          "main_text": "In Travel: Directions (1797), The scientist [GAP 1] and [GAP 2].",
+          "main_text": "In Travel: Directions (3928), You [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked."
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received."
+                },
+                {
+                  "id": "o2",
+                  "text": "receive."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 17 para Travel: Directions:",
+          "stimulus_en": "I never drink alcohol if I drive a car.",
+          "stimulus_es": "car / I / drink / never / if / drive / I / alcohol / a.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 3441."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 17 sobre Travel: Directions:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "exam"
+            },
+            {
+              "id": "w3",
+              "text": "we"
+            },
+            {
+              "id": "w5",
+              "text": "our"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "time"
+            },
+            {
+              "id": "w2",
+              "text": "do"
+            },
+            {
+              "id": "w4",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U3_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 20 (Travel: Directions):",
+          "stimulus_en": "Paul’s birthday is on 8th May (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 20 (Travel: Directions)",
+          "stimulus_en": "What’s the saddest song you’ve ever listened to.",
+          "stimulus_es": "Ref: Cuál es la canción más triste que has escuchado nunca?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 20 (Travel: Directions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "No me quiero sentar enfrente de él.",
+              "right": "I don’t want to sit opposite him."
+            },
+            {
+              "id": "p1",
+              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
+              "right": "I hardly ever go to the cinema = casi nunca voy al cine."
+            },
+            {
+              "id": "p2",
+              "left": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que leáis la explicación y aprendáis, o repaséis, qué es y cómo se forman las indirect questions (preguntas indirectas). Aquí lo puedes revisar.",
+              "right": "Indirect questions en inglés."
+            },
+            {
+              "id": "p3",
+              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 20 (Travel: Directions):",
+          "tts_en": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele.",
+          "correct_answer": "– What do you do?  – I’m watching TV. = – ¿Cuál es tu profesión?  – Estoy viendo la tele",
+          "mastery_tag": "listening",
+          "interaction_id": "U3_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 20:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 20 - Travel: Directions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qué el from al final, quizá la aprendiste así en su día y la tienes ya tan asimilada que no te planteas por qué la preposición está al final, cuando en español, decimos la preposición de (from) al principio.",
+              "back": "¿De dónde eres?"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 20 (Travel: Directions):",
+          "instruction_en": "A small story about Travel: Directions. [Ref: 58]",
+          "mastery_tag": "writing",
+          "interaction_id": "U3_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 20 (Travel: Directions):",
+          "stimulus_en": "Look at Travel: Directions. (441)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U3_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 18 (Travel: Directions):",
+          "stimulus": "Matching set 4000.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Otro ejemplo.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "El marido de mi prima es alemán y su madre irlandesa.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "This is another translation.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
+            },
+            {
+              "id": "m1",
+              "text": "my cousin’s husband is German and his mother Irish."
+            },
+            {
+              "id": "m2",
+              "text": "igual hago algo… (but I’m not sure…)."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 18 (Travel: Directions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 18 (Travel: Directions):",
+          "main_text": "In Travel: Directions (1904), The architect [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "stopped."
+                },
+                {
+                  "id": "o2",
+                  "text": "stop"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "read"
+                },
+                {
+                  "id": "o2",
+                  "text": "read"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I51"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 18 para Travel: Directions:",
+          "stimulus_en": "I don’t have any friends who live near my house.",
+          "stimulus_es": "Y en negativa.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 2253."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I52"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 18 sobre Travel: Directions:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w6",
+              "text": "without."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U3_I53"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 21 (Travel: Directions):",
+          "stimulus_en": "Spain‘s monuments are very nice. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I54"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 21 (Travel: Directions)",
+          "stimulus_en": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural.",
+          "stimulus_es": "Ref: Ahora bien, si estas palabras no llevan un número delante, se les pone la -s de plural, por ejemplo.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I55"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 21 (Travel: Directions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
+              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciación y además perfectamente entendible para los alumnos que no conocen los símbolos fonéticos. Espero que te sea útil."
+            },
+            {
+              "id": "p1",
+              "left": "visits / Jonathan / usually / dentist / the.",
+              "right": "Jonathan usually visits the dentist."
+            },
+            {
+              "id": "p2",
+              "left": "Mi cumpleaños es en febrero.",
+              "right": "my birthday is in February."
+            },
+            {
+              "id": "p3",
+              "left": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "right": "would you like some coke?"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I56"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 21 (Travel: Directions):",
+          "tts_en": "Do you think that unemployment will go down this year.",
+          "correct_answer": "Do you think that unemployment will go down this year",
+          "mastery_tag": "listening",
+          "interaction_id": "U3_I57"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 21:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o4",
+              "text": "Fast"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I58"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 21 - Travel: Directions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "6. Los juguetes de mis hijos.",
+              "back": "My children’s toys."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I59"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 21 (Travel: Directions):",
+          "instruction_en": "Describe Travel: Directions in 5 words. [Ref: 84]",
+          "mastery_tag": "writing",
+          "interaction_id": "U3_I60"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 21 (Travel: Directions):",
+          "stimulus_en": "Repeat Travel: Directions. (629)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U3_I61"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 19 (Travel: Directions):",
+          "stimulus": "Matching set 2062.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Elevator (Br Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Dónde te lo dijo?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Movie theater (Br Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Where did he/she tell you."
+            },
+            {
+              "id": "m0",
+              "text": "lift) Ascensor."
+            },
+            {
+              "id": "m2",
+              "text": "cinema) Cine."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I62"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 19 (Travel: Directions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "durante o desde hace."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I63"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 19 (Travel: Directions):",
+          "main_text": "In Travel: Directions (3074), The nurse [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "cooked."
+                },
+                {
+                  "id": "o2",
+                  "text": "cook"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I64"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 19 para Travel: Directions:",
+          "stimulus_en": "What’s the coldest country you’ve ever been to.",
+          "stimulus_es": "Cuál es el país más frío en el que has estado nunca?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 261."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I65"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 19 sobre Travel: Directions:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "Farmacia."
+            },
+            {
+              "id": "w0",
+              "text": "chemist)"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U3_I66"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 22 (Travel: Directions):",
+          "stimulus_en": "I haven’t got much money (remember, money is uncountable). (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I67"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 22 (Travel: Directions)",
+          "stimulus_en": "may come, might go.",
+          "stimulus_es": "Ref: As any modal verb, they are followed by an infinitive without ‘to’, for example.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I68"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 22 (Travel: Directions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "2. El infinitivo no lleva delante to. Un error típico es decir.",
+              "right": "I can to speak English."
+            },
+            {
+              "id": "p1",
+              "left": "Te veo el sábado.",
+              "right": "I’ll see you on Saturday."
+            },
+            {
+              "id": "p2",
+              "left": "Otro ejemplo.",
+              "right": "la casa de María es grande = María’s house is big."
+            },
+            {
+              "id": "p3",
+              "left": "For example.",
+              "right": "She drives carefully."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I69"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 22 (Travel: Directions):",
+          "tts_en": "Had you got a motorbike…?",
+          "correct_answer": "Had you got a motorbike…?",
+          "mastery_tag": "listening",
+          "interaction_id": "U3_I70"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 22:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bus"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o4",
+              "text": "cat"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I71"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 22 - Travel: Directions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing.",
+              "back": "My friend has a lot of money."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I72"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 22 (Travel: Directions):",
+          "instruction_en": "Why is Travel: Directions important? [Ref: 94]",
+          "mastery_tag": "writing",
+          "interaction_id": "U3_I73"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 22 (Travel: Directions):",
+          "stimulus_en": "Improve Travel: Directions. (234)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U3_I74"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 20 (Travel: Directions):",
+          "stimulus": "Matching set 1867.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "on + train/ bus/ plane/ bike/ motorbike.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Tyre (Am Eng.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "cuando hablamos de forma más específica."
+            },
+            {
+              "id": "m0",
+              "text": "Jennifer usually goes out to see a concert."
+            },
+            {
+              "id": "m2",
+              "text": "tire) Neumático."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I75"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 20 (Travel: Directions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "rubber) Goma de borrar."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I76"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 20 (Travel: Directions):",
+          "main_text": "In Travel: Directions (5181), I [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "received."
+                },
+                {
+                  "id": "o2",
+                  "text": "receive."
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I77"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 20 para Travel: Directions:",
+          "stimulus_en": "I don’t know that I will do.",
+          "stimulus_es": "Common mistake.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 3475."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I78"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 20 sobre Travel: Directions:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "caso"
+            },
+            {
+              "id": "w7",
+              "text": "hacer"
+            },
+            {
+              "id": "w4",
+              "text": "pidiendo."
+            },
+            {
+              "id": "w14",
+              "text": "ejemplo."
+            },
+            {
+              "id": "w9",
+              "text": "al"
+            },
+            {
+              "id": "w12",
+              "text": "en"
+            },
+            {
+              "id": "w18",
+              "text": "‘Can"
+            },
+            {
+              "id": "w19",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "este"
+            },
+            {
+              "id": "w3",
+              "text": "estoy"
+            },
+            {
+              "id": "w11",
+              "text": "que"
+            },
+            {
+              "id": "w6",
+              "text": "para"
+            },
+            {
+              "id": "w16",
+              "text": "arriba."
+            },
+            {
+              "id": "w5",
+              "text": "permiso."
+            },
+            {
+              "id": "w13",
+              "text": "el"
+            },
+            {
+              "id": "w10",
+              "text": "igual"
+            },
+            {
+              "id": "w0",
+              "text": "en"
+            },
+            {
+              "id": "w21",
+              "text": "to"
+            },
+            {
+              "id": "w15",
+              "text": "de"
+            },
+            {
+              "id": "w8",
+              "text": "algo"
+            },
+            {
+              "id": "w22",
+              "text": "the"
+            },
+            {
+              "id": "w17",
+              "text": "de"
+            },
+            {
+              "id": "w23",
+              "text": "toilet."
+            },
+            {
+              "id": "w20",
+              "text": "go"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U3_I79"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 23 (Travel: Directions):",
+          "stimulus_en": "What’s the most delicious food you’ve ever tasted (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I80"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 23 (Travel: Directions)",
+          "stimulus_en": "every days o every Tuesdays.",
+          "stimulus_es": "Ref: Cabe destacar que la palabra every es singular en inglés, por tanto, tanto «day» como cualquiera de los días que pongamos, deben ir en singular. Es incorrecto decir.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U3_I81"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 23 (Travel: Directions):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "The correct thing.",
+              "right": "I went to a state school."
+            },
+            {
+              "id": "p1",
+              "left": "Cookie (Br Eng.",
+              "right": "biscuit) Galleta."
+            },
+            {
+              "id": "p2",
+              "left": "De quién es ese móvil?",
+              "right": "Whose mobile is that."
+            },
+            {
+              "id": "p3",
+              "left": "¿Estás estudiando francés?",
+              "right": "are you learning French?"
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I82"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 23 (Travel: Directions):",
+          "tts_en": "in summer, in winter.",
+          "correct_answer": "in summer, in winter",
+          "mastery_tag": "listening",
+          "interaction_id": "U3_I83"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 23:",
+          "options": [
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I84"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 23 - Travel: Directions:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "7. read books slowly / I / always.",
+              "back": "I always read books slowly."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I85"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 23 (Travel: Directions):",
+          "instruction_en": "Write a note about Travel: Directions. [Ref: 18]",
+          "mastery_tag": "writing",
+          "interaction_id": "U3_I86"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 23 (Travel: Directions):",
+          "stimulus_en": "Look at Travel: Directions. (848)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U3_I87"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 21 (Travel: Directions):",
+          "stimulus": "Matching set 6617.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "2. La hamburguesa de Harry.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cuándo iremos a la playa?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "I / fish / often / hours / for / catching / anything / without.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "I often fish for hours without catching anything."
+            },
+            {
+              "id": "m0",
+              "text": "Harry’s burger."
+            },
+            {
+              "id": "m1",
+              "text": "When are we going to the beach."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U3_I88"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 21 (Travel: Directions):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "How is your mum feeling."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "John‘s job is boring."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U3_I89"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 21 (Travel: Directions):",
+          "main_text": "In Travel: Directions (5642), My cousin [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -802,1209 +1995,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "designed"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "design"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 17 para Travel: Directions:",
-          "stimulus_en": "chips) Patatas fritas - interesting",
-          "stimulus_es": "French fries (Br Eng - interesting",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 487"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 17 sobre Travel: Directions:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "world"
-            },
-            {
-              "id": "w10",
-              "text": "213"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "woman"
-            },
-            {
-              "id": "w1",
-              "text": "partner"
-            },
-            {
-              "id": "w4",
-              "text": "most"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w5",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U3_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 20 (Travel: Directions):",
-          "stimulus_en": "Sometimes I have lunch in a restaurant. (now) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 20 (Travel: Directions)",
-          "stimulus_en": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (today)",
-          "stimulus_es": "Ref: Has visto a alguien? (today)",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 20 (Travel: Directions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "D\u00f3nde te lo dijo?.",
-              "right": "Where did he/she tell you."
-            },
-            {
-              "id": "p1",
-              "left": "C\u00f3mo se siente tu madre? - amazing",
-              "right": "How is your mum feeling - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "Est\u00e1 estudiando ella ingl\u00e9s?...",
-              "right": "Is she studying English..."
-            },
-            {
-              "id": "p3",
-              "left": "Tienes coche? (now)",
-              "right": "do you have a car (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 20 (Travel: Directions):",
-          "tts_en": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)",
-          "correct_answer": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U3_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 20:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o4",
-              "text": "run5007"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 20 - Travel: Directions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Por ejemplo (today)",
-              "back": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 20 (Travel: Directions):",
-          "instruction_en": "Explain Adjectives vs Adverbs using Travel: Directions. [Ref: 52]",
-          "mastery_tag": "writing",
-          "interaction_id": "U3_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 20 (Travel: Directions):",
-          "stimulus_en": "Repeat Travel: Directions. (871)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U3_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 18 (Travel: Directions):",
-          "stimulus": "Matching set 1236",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Funciona ese ordenador?.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "8. \u00a0usually / my father / goes to work by bus.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1nto cuesta? - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "my father usually goes to work by bus."
-            },
-            {
-              "id": "m0",
-              "text": "Does that computer work."
-            },
-            {
-              "id": "m2",
-              "text": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - amazing"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 18 (Travel: Directions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019.!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "have you ever been to Canada - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 18 (Travel: Directions):",
-          "main_text": "In Travel: Directions (516), The coach [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "traveled"
-                },
-                {
-                  "id": "o2",
-                  "text": "travel"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cleaned"
-                },
-                {
-                  "id": "o2",
-                  "text": "clean"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 18 para Travel: Directions:",
-          "stimulus_en": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. (now)",
-          "stimulus_es": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo (now)",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 7222"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 18 sobre Travel: Directions:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "amazing"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "near"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "my"
-            },
-            {
-              "id": "w5",
-              "text": "bars"
-            },
-            {
-              "id": "w8",
-              "text": "house"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U3_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 21 (Travel: Directions):",
-          "stimulus_en": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - interesting (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 21 (Travel: Directions)",
-          "stimulus_en": "What time does the bus leave - interesting",
-          "stimulus_es": "Ref: A qu\u00e9 hora sale el autob\u00fas? - interesting",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 21 (Travel: Directions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? (now)",
-              "right": "What\u2019s the saddest song you\u2019ve ever listened to (now)"
-            },
-            {
-              "id": "p1",
-              "left": "I / fish / often / hours / for / catching / anything / without (today)",
-              "right": "I often fish for hours without catching anything (today)"
-            },
-            {
-              "id": "p2",
-              "left": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let!",
-              "right": "verb patters.!"
-            },
-            {
-              "id": "p3",
-              "left": "Cu\u00e1ndo iremos a la playa? - amazing",
-              "right": "When are we going to the beach - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 21 (Travel: Directions):",
-          "tts_en": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a)....",
-          "correct_answer": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a)....",
-          "mastery_tag": "listening",
-          "interaction_id": "U3_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 21:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o4",
-              "text": "bike8739"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 21 - Travel: Directions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "El cumplea\u00f1os de Pablo es el 8 de mayo!",
-              "back": "Paul\u2019s birthday is on 8th May!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 21 (Travel: Directions):",
-          "instruction_en": "Write a note about Travel: Directions. [Ref: 59]",
-          "mastery_tag": "writing",
-          "interaction_id": "U3_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 21 (Travel: Directions):",
-          "stimulus_en": "Where is Travel: Directions? (588)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U3_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 19 (Travel: Directions):",
-          "stimulus": "Matching set 1137",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Qu\u00e9 hora es? - interesting",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "En qu\u00e9 trabaja Juan? - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Has terminado ya el proyecto? - 147",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "What time is it - interesting"
-            },
-            {
-              "id": "m1",
-              "text": "What does Juan do - amazing"
-            },
-            {
-              "id": "m2",
-              "text": "Have you finished the project yet - 147"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 19 (Travel: Directions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "My children\u2019s toys (today)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I don\u2019t want to sit opposite him. (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 19 (Travel: Directions):",
-          "main_text": "In Travel: Directions (6307), The baker [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "stopped"
-                },
-                {
-                  "id": "o2",
-                  "text": "stop"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "received"
-                },
-                {
-                  "id": "o2",
-                  "text": "receive"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 19 para Travel: Directions:",
-          "stimulus_en": "What will the weather be like tomorrow? It\u2019ll be sunny. (now)",
-          "stimulus_es": "Veamos una oraci\u00f3n con futuro (now)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5525"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 19 sobre Travel: Directions:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Who\u2019s"
-            },
-            {
-              "id": "w7",
-              "text": "(now)"
-            },
-            {
-              "id": "w6",
-              "text": "met"
-            },
-            {
-              "id": "w5",
-              "text": "ever"
-            },
-            {
-              "id": "w4",
-              "text": "you\u2019ve"
-            },
-            {
-              "id": "w2",
-              "text": "shyest"
-            },
-            {
-              "id": "w3",
-              "text": "person"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U3_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 22 (Travel: Directions):",
-          "stimulus_en": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb.. (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 22 (Travel: Directions)",
-          "stimulus_en": "What\u2019s that (now)",
-          "stimulus_es": "Ref: Qu\u00e9 es \u00e9so? (now)",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 22 (Travel: Directions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Common mistake...",
-              "right": "I hadn\u2019t got a mobile...."
-            },
-            {
-              "id": "p1",
-              "left": "Countable nouns (today)",
-              "right": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. (today)"
-            },
-            {
-              "id": "p2",
-              "left": "Common mistake!",
-              "right": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele.!"
-            },
-            {
-              "id": "p3",
-              "left": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - interesting",
-              "right": "Spain\u2018s monuments are very nice. - interesting"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 22 (Travel: Directions):",
-          "tts_en": "Our English teacher is usually angry - interesting",
-          "correct_answer": "Our English teacher is usually angry - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U3_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 22:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o4",
-              "text": "run4086"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o0",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 22 - Travel: Directions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Otro common mistake (today)",
-              "back": "I haven\u2019t a car. (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 22 (Travel: Directions):",
-          "instruction_en": "Explain Adjectives vs Adverbs using Travel: Directions. [Ref: 17]",
-          "mastery_tag": "writing",
-          "interaction_id": "U3_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 22 (Travel: Directions):",
-          "stimulus_en": "Focus on Travel: Directions. (813)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U3_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 20 (Travel: Directions):",
-          "stimulus": "Matching set 4636",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Te veo el s\u00e1bado (today)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "\u2022in the fall (Br Eng.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "4. La pelota de las ni\u00f1as - 158",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "autumn) En oto\u00f1o."
-            },
-            {
-              "id": "m2",
-              "text": "The girls\u2019 ball - 158"
-            },
-            {
-              "id": "m0",
-              "text": "I\u2019ll see you on Saturday (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 20 (Travel: Directions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "\u2018m/ \u2018s, etc) - interesting"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I went to a state school. - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 20 (Travel: Directions):",
-          "main_text": "In Travel: Directions (3305), The nurse [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "called"
-                },
-                {
-                  "id": "o2",
-                  "text": "call"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 20 para Travel: Directions:",
-          "stimulus_en": "are there any peas in the fridge - interesting",
-          "stimulus_es": "Hay guisantes en el frigo? - interesting",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2157"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 20 sobre Travel: Directions:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "original"
-            },
-            {
-              "id": "w0",
-              "text": "have"
-            },
-            {
-              "id": "w5",
-              "text": "film"
-            },
-            {
-              "id": "w3",
-              "text": "seen"
-            },
-            {
-              "id": "w8",
-              "text": "version"
-            },
-            {
-              "id": "w2",
-              "text": "ever"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U3_I79"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 23 (Travel: Directions):",
-          "stimulus_en": "What\u2019s the highest building you\u2019ve ever visited! (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I80"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 23 (Travel: Directions)",
-          "stimulus_en": "do you have any shoes for the wedding (today)",
-          "stimulus_es": "Ref: Tienes zapatos para la boda? (today)",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U3_I81"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 23 (Travel: Directions):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Otro ejemplo (now)",
-              "right": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (now)"
-            },
-            {
-              "id": "p1",
-              "left": "De qui\u00e9n son esos libros? (today)",
-              "right": "Whose books are those= or Whose are those books (today)"
-            },
-            {
-              "id": "p2",
-              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo!",
-              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural.!"
-            },
-            {
-              "id": "p3",
-              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos (now)",
-              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I82"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 23 (Travel: Directions):",
-          "tts_en": "I have 3 children. (today)",
-          "correct_answer": "I have 3 children. (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U3_I83"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 23:",
-          "options": [
-            {
-              "id": "o0",
-              "text": "blue"
-            },
-            {
-              "id": "o4",
-              "text": "run9141"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o3",
-              "text": "pink"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I84"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 23 - Travel: Directions:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "7. La casa de mis primos es muy grande...",
-              "back": "My cousins\u2019 house is very big..."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I85"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 23 (Travel: Directions):",
-          "instruction_en": "Explain Adjectives vs Adverbs using Travel: Directions. [Ref: 59]",
-          "mastery_tag": "writing",
-          "interaction_id": "U3_I86"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 23 (Travel: Directions):",
-          "stimulus_en": "Where is Travel: Directions? (623)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U3_I87"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 21 (Travel: Directions):",
-          "stimulus": "Matching set 6437",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Movie theater (Br Eng...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Cu\u00e1ndo la ayudaste? - interesting",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Alguna vez has probado la comida tailandesa? - 971",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "cinema) Cine..."
-            },
-            {
-              "id": "m2",
-              "text": "Have you ever tried Thai food - 971"
-            },
-            {
-              "id": "m1",
-              "text": "When did you help him/her - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U3_I88"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 21 (Travel: Directions):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "she never drinks coffee in the evening..."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "meter) Metro - 474"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U3_I89"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 21 (Travel: Directions):",
-          "main_text": "In Travel: Directions (3765), The chef [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drank"
-                },
-                {
-                  "id": "o2",
-                  "text": "drink"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "visited"
-                },
-                {
-                  "id": "o2",
-                  "text": "visit"
+                  "text": "read"
                 }
               ]
             }
@@ -2017,22 +2012,22 @@
           "interaction_id": "U3_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 21 para Travel: Directions:",
-          "stimulus_en": "I have a lot of money and I have a lot of friends. - 166",
-          "stimulus_es": "A lot of, countable y uncountable - 166",
+          "stimulus_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo.",
+          "stimulus_es": "Dos acciones en el pasado que ocurren al mismo tiempo. Aquí podemos utilizar when y while. Ejemplo.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o3",
-              "text": "Other 9740"
+              "text": "Other 1301."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -2040,141 +2035,156 @@
           "interaction_id": "U3_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 21 sobre Travel: Directions:",
           "options": [
             {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "school"
-            },
-            {
-              "id": "w7",
-              "text": "nursery"
-            },
-            {
-              "id": "w3",
-              "text": "house"
-            },
-            {
-              "id": "w0",
-              "text": "Next"
+              "id": "w11",
+              "text": "THE"
             },
             {
               "id": "w9",
-              "text": "amazing"
+              "text": "SUBJECT."
+            },
+            {
+              "id": "w0",
+              "text": "¿Qué"
+            },
+            {
+              "id": "w6",
+              "text": "la"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "es"
             },
             {
-              "id": "w4",
-              "text": "there"
+              "id": "w3",
+              "text": "que"
+            },
+            {
+              "id": "w8",
+              "text": "entonces."
             },
             {
               "id": "w2",
-              "text": "my"
+              "text": "lo"
             },
             {
               "id": "w5",
-              "text": "is"
+              "text": "="
+            },
+            {
+              "id": "w10",
+              "text": "="
+            },
+            {
+              "id": "w7",
+              "text": "película."
+            },
+            {
+              "id": "w12",
+              "text": "FILM"
+            },
+            {
+              "id": "w4",
+              "text": "empieza?"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U3_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 24 (Travel: Directions):",
-          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - 177 (___)",
+          "stimulus_en": "any + thing = en oración INTERROGATIVA. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U3_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 24 (Travel: Directions)",
-          "stimulus_en": "read, write, eat, run, sleep, etc (now)",
-          "stimulus_es": "Ref: Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (now)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 24 (Travel: Directions)",
+          "stimulus_en": "it doesn’t often rain in the summer.",
+          "stimulus_es": "Ref: 6. it / rain in the summer / often / doesn’t.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U3_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 24 (Travel: Directions):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Escribir ingl\u00e9s correctamente (now)",
-              "right": "uso de las may\u00fasculas (now)"
+              "left": "Cuál es el idioma más difícil que has estudiado nunca?",
+              "right": "What’s the most difficult language you’ve ever studied."
             },
             {
               "id": "p1",
-              "left": "5. El zumo de tu abuela - 973",
-              "right": "Your grandmother\u2019s juice - 973"
+              "left": "Tienes hermanos?",
+              "right": "do you have any brothers or sisters."
             },
             {
               "id": "p2",
-              "left": "Bookstore (Br Eng.",
-              "right": "bookshop) Librer\u00eda."
+              "left": "Hay guisantes en el frigo?",
+              "right": "are there any peas in the fridge."
             },
             {
               "id": "p3",
-              "left": "Al lado de mi colegio no hay bloques de pisos!",
-              "right": "Next to my school there aren\u2019t any apartment blocks.!"
+              "left": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, también va en oraciones negativas, como en el ejemplo de arriba (I don’t have many friends), pero también en positivas, por ejemplo.",
+              "right": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oración positiva, ya sea con sustantivos contables o incontables."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 24 (Travel: Directions):",
-          "tts_en": "film) Pel\u00edcula (now)",
-          "correct_answer": "film) Pel\u00edcula (now)",
+          "tts_en": "Have you finished the project yet.",
+          "correct_answer": "Have you finished the project yet",
           "mastery_tag": "listening",
           "interaction_id": "U3_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 24:",
           "options": [
             {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
               "id": "o4",
-              "text": "Hot3045"
+              "text": "June"
+            },
+            {
+              "id": "o0",
+              "text": "Monday."
             },
             {
               "id": "o1",
-              "text": "Moon"
+              "text": "Tuesday."
+            },
+            {
+              "id": "o2",
+              "text": "Sunday."
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "Friday."
             }
           ],
           "correct_answer": "o4",
@@ -2182,29 +2192,29 @@
           "interaction_id": "U3_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 24 - Travel: Directions:",
           "cards": [
             {
               "id": "c1",
-              "front": "2. La hamburguesa de Harry.",
-              "back": "Harry\u2019s burger."
+              "front": "También que llamamos infinitivo al verbo tal cual, sin conjugar.",
+              "back": "read, write, eat, run, sleep, etc."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U3_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 24 (Travel: Directions):",
-          "instruction_en": "Write a note about Travel: Directions. [Ref: 42]",
+          "instruction_en": "Explain Adjectives vs Adverbs using Travel: Directions. [Ref: 79]",
           "mastery_tag": "writing",
           "interaction_id": "U3_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 24 (Travel: Directions):",
-          "stimulus_en": "Where is Travel: Directions? (643)",
+          "stimulus_en": "Look at Travel: Directions. (546)",
           "mastery_tag": "speaking",
           "interaction_id": "U3_I100"
         }

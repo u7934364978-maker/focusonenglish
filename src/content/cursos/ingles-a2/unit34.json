@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit34",
-    "unit_title": "Whose / Possessives - Culture: Holidays",
+    "unit_title": "Whose / Possessives - Culture: Holidays.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U34_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 34",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 34.",
           "tts_en": "Starting unit 34. Topic: Culture: Holidays. Focus: Whose / Possessives.",
           "mastery_tag": "listening",
           "interaction_id": "U34_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 265 (Culture: Holidays):",
-          "stimulus_en": "the bus usually arrives late (today) (___)",
+          "stimulus_en": "do you have a car (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U34_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 265 (Culture: Holidays)",
-          "stimulus_en": "I don\u2019t want to sit opposite him....",
-          "stimulus_es": "Ref: No me quiero sentar enfrente de \u00e9l...",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 265 (Culture: Holidays)",
+          "stimulus_en": "Your grandmother’s juice.",
+          "stimulus_es": "Ref: 5. El zumo de tu abuela.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U34_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 265 (Culture: Holidays):",
           "pairs": [
             {
               "id": "p0",
-              "left": "\u2013 Meses del a\u00f1o!",
-              "right": "in May, in August, etc.!"
+              "left": "Por qué no me lo dijiste?",
+              "right": "Why didn’t you tell me."
             },
             {
               "id": "p1",
-              "left": "Common mistake - interesting",
-              "right": "I hadn\u2019t got a mobile. - interesting"
+              "left": "Verbos irregulares.",
+              "right": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
             },
             {
               "id": "p2",
-              "left": "7. La casa de mis primos es muy grande!",
-              "right": "My cousins\u2019 house is very big!"
+              "left": "Pack Empaquetar •Pack a suitcase Page Pain Paint Painter Painting Pale Pair •A pair of shoes Panda Paper Paragraph Pardon •Pardon? Parent Park Parking lot (Br Eng.",
+              "right": "car park) Parrot Part •The best part of the day Partner Party Pass •You pass the station on the."
             },
             {
               "id": "p3",
-              "left": "car / I / drink / never / if / drive / I / alcohol / a - amazing",
-              "right": "I never drink alcohol if I drive a car - amazing"
+              "left": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
+              "right": "have you ever studied a foreign laguage apart from English."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 265 (Culture: Holidays):",
-          "tts_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (today)",
-          "correct_answer": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (today)",
+          "tts_en": "Who’s the shyest person you’ve ever met.",
+          "correct_answer": "Who’s the shyest person you’ve ever met",
           "mastery_tag": "listening",
           "interaction_id": "U34_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 265:",
           "options": [
             {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
               "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o4",
-              "text": "Book6217"
+              "text": "soup"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "salad"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U34_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 265 - Culture: Holidays:",
           "cards": [
             {
               "id": "c1",
-              "front": "in + car/ taxi (now)",
-              "back": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now)"
+              "front": "Cuál es el edificio más alto que has visitado nunca?",
+              "back": "What’s the highest building you’ve ever visited."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 265 (Culture: Holidays):",
-          "instruction_en": "Draft an email regarding Culture: Holidays. [Ref: 20]",
+          "instruction_en": "List 3 facts about Culture: Holidays. [Ref: 45]",
           "mastery_tag": "writing",
           "interaction_id": "U34_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 265 (Culture: Holidays):",
-          "stimulus_en": "I like Culture: Holidays. (312)",
+          "stimulus_en": "Study Culture: Holidays now. (893)",
           "mastery_tag": "speaking",
           "interaction_id": "U34_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 232 (Culture: Holidays):",
-          "stimulus": "Matching set 2888",
+          "stimulus": "Matching set 733.",
           "items": [
             {
               "id": "i0",
-              "text": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir...",
+              "text": "8. usually / my father / goes to work by bus.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng!",
+              "text": "For example.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Verbos irregulares.",
+              "text": "The correct thing.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna.."
+              "id": "m0",
+              "text": "my father usually goes to work by bus."
             },
             {
-              "id": "m0",
-              "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n...."
+              "id": "m2",
+              "text": "information, homework, work."
             },
             {
               "id": "m1",
-              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the!"
+              "text": "She drives carefully."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U34_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 232 (Culture: Holidays):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "read, write, eat, run, sleep, etc..."
+                  "text": "What’s the most delicious food you’ve ever tasted."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "on the Internet..."
+                  "text": "How is your mum feeling."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U34_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 232 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (1799), The police officer [GAP 1] and [GAP 2].",
+          "main_text": "In Culture: Holidays (8558), The coach [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "helped."
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "help"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "receive."
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U34_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 232 para Culture: Holidays:",
-          "stimulus_en": "are there any peas in the fridge (today)",
-          "stimulus_es": "Hay guisantes en el frigo? (today)",
+          "stimulus_en": "liter) Litro.",
+          "stimulus_es": "Litre (Br Eng) (Am Eng.",
           "options": [
             {
               "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 9834"
+              "text": "Other 1364."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -263,98 +263,85 @@
           "interaction_id": "U34_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 232 sobre Culture: Holidays:",
           "options": [
             {
-              "id": "w0",
-              "text": "cinema)"
-            },
-            {
-              "id": "w2",
-              "text": "amazing"
-            },
-            {
               "id": "w1",
-              "text": "Cine"
+              "text": "sisters."
+            },
+            {
+              "id": "w0",
+              "text": "Peter’s."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U34_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 266 (Culture: Holidays):",
-          "stimulus_en": "What\u2019s the happiest day you\u2019ve ever had - 686 (___)",
+          "stimulus_en": "have you ever played chess (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U34_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 266 (Culture: Holidays)",
-          "stimulus_en": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - interesting",
-          "stimulus_es": "Ref: Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - interesting",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 266 (Culture: Holidays)",
+          "stimulus_en": "lift) Ascensor.",
+          "stimulus_es": "Ref: Elevator (Br Eng.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U34_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 266 (Culture: Holidays):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca? - interesting",
-              "right": "What\u2019s the funniest joke you\u2019ve ever been told - interesting"
+              "left": "A qué hora sale el tren?",
+              "right": "What time does the train leave."
             },
             {
               "id": "p1",
-              "left": "Por ejemplo - 965",
-              "right": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - 965"
+              "left": "The correct thing.",
+              "right": "on the Internet."
             },
             {
               "id": "p2",
-              "left": "Empecemos analizando el siguiente ejemplo...",
-              "right": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)...."
+              "left": "– For + period of time (not defined)",
+              "right": "durante o desde hace."
             },
             {
               "id": "p3",
-              "left": "often / money / Sally / her / borrows / friends / from - amazing",
-              "right": "Sally often borrows money from her friends - amazing"
+              "left": "try / police / keep / The / order / always / to / the.",
+              "right": "The police always try to keep the order."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 266 (Culture: Holidays):",
-          "tts_en": "What time do we have our exam...",
-          "correct_answer": "What time do we have our exam...",
+          "tts_en": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón.",
+          "correct_answer": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón",
           "mastery_tag": "listening",
           "interaction_id": "U34_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 266:",
           "options": [
             {
               "id": "o3",
               "text": "pink"
-            },
-            {
-              "id": "o4",
-              "text": "run4867"
-            },
-            {
-              "id": "o2",
-              "text": "green"
             },
             {
               "id": "o1",
@@ -363,6 +350,14 @@
             {
               "id": "o0",
               "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o2",
+              "text": "green"
             }
           ],
           "correct_answer": "o4",
@@ -370,65 +365,65 @@
           "interaction_id": "U34_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 266 - Culture: Holidays:",
           "cards": [
             {
               "id": "c1",
-              "front": "Funciona ese ordenador?!",
-              "back": "Does that computer work!"
+              "front": "puedo abrir la ventana, por favor?",
+              "back": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 266 (Culture: Holidays):",
-          "instruction_en": "Write a note about Culture: Holidays. [Ref: 41]",
+          "instruction_en": "Draft an email regarding Culture: Holidays. [Ref: 76]",
           "mastery_tag": "writing",
           "interaction_id": "U34_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 266 (Culture: Holidays):",
-          "stimulus_en": "Study Culture: Holidays now. (362)",
+          "stimulus_en": "Where is Culture: Holidays? (511)",
           "mastery_tag": "speaking",
           "interaction_id": "U34_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 233 (Culture: Holidays):",
-          "stimulus": "Matching set 4693",
+          "stimulus": "Matching set 839.",
           "items": [
             {
               "id": "i0",
-              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - interesting",
+              "text": "Countable nouns.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 For + period of time (not defined) - amazing",
+              "text": "De quién es ese móvil?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Hay muchos bares cerca de mi casa - 584",
+              "text": "The correct thing.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "There are a lot of bars near my house. - 584"
+              "text": "I went to a state school."
             },
             {
               "id": "m1",
-              "text": "durante o desde hace - amazing"
+              "text": "Whose mobile is that."
             },
             {
               "id": "m0",
-              "text": "how often do you have Italian classes? = I have every Tuesday. - interesting"
+              "text": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc."
             }
           ],
           "correct_answer": {
@@ -440,26 +435,26 @@
           "interaction_id": "U34_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 233 (Culture: Holidays):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Have you a car?..."
+                  "text": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - interesting"
+                  "text": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele."
                 }
               ]
             }
@@ -468,9 +463,603 @@
           "interaction_id": "U34_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 233 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (2514), Sarah [GAP 1] and [GAP 2].",
+          "main_text": "In Culture: Holidays (1052), My sister [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "created."
+                },
+                {
+                  "id": "o2",
+                  "text": "create."
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played."
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I25"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 233 para Culture: Holidays:",
+          "stimulus_en": "when I was at primary school, I didn’t wear uniform.",
+          "stimulus_es": "Otro ejemplo.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 7316."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I26"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 233 sobre Culture: Holidays:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "first"
+            },
+            {
+              "id": "w8",
+              "text": "escuchéis."
+            },
+            {
+              "id": "w1",
+              "text": "shirt"
+            },
+            {
+              "id": "w13",
+              "text": "practiquéis."
+            },
+            {
+              "id": "w11",
+              "text": "audio"
+            },
+            {
+              "id": "w10",
+              "text": "siguiente."
+            },
+            {
+              "id": "w0",
+              "text": "skirt"
+            },
+            {
+              "id": "w3",
+              "text": "firm"
+            },
+            {
+              "id": "w9",
+              "text": "el"
+            },
+            {
+              "id": "w4",
+              "text": "etc"
+            },
+            {
+              "id": "w12",
+              "text": "y"
+            },
+            {
+              "id": "w7",
+              "text": "que"
+            },
+            {
+              "id": "w6",
+              "text": "aconsejo."
+            },
+            {
+              "id": "w5",
+              "text": "Os"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U34_I27"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 267 (Culture: Holidays):",
+          "stimulus_en": "have you ever seen a film in original version (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I28"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 267 (Culture: Holidays)",
+          "stimulus_en": "Have you finished the project yet.",
+          "stimulus_es": "Ref: Has terminado ya el proyecto?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I29"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 267 (Culture: Holidays):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "A qué hora tenemos el examen?",
+              "right": "What time do we have our exam."
+            },
+            {
+              "id": "p1",
+              "left": "Hay guisantes en el frigo?",
+              "right": "are there any peas in the fridge."
+            },
+            {
+              "id": "p2",
+              "left": "El marido de mi prima es alemán y su madre irlandesa.",
+              "right": "my cousin’s husband is German and his mother Irish."
+            },
+            {
+              "id": "p3",
+              "left": "Acción en el pasado que está en progreso, ¿qué quiere decir esto? Bien, una acción en progreso quiere decir que no está acabada, pero tú te preguntarás, si es pasada, ¿cómo que no está acabada? Quiere decir que cuando tú piensas en esa acción pasada estás al recordarla como viviéndola de nuevo, y en ese sentido decimos que está en progreso. Ejemplo.",
+              "right": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I30"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 267 (Culture: Holidays):",
+          "tts_en": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents».",
+          "correct_answer": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»",
+          "mastery_tag": "listening",
+          "interaction_id": "U34_I31"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 267:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Guitar."
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I32"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 267 - Culture: Holidays:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Los adjetivos tienen tres formas.",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I33"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 267 (Culture: Holidays):",
+          "instruction_en": "Draft an email regarding Culture: Holidays. [Ref: 88]",
+          "mastery_tag": "writing",
+          "interaction_id": "U34_I34"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 267 (Culture: Holidays):",
+          "stimulus_en": "I like Culture: Holidays. (215)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U34_I35"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 234 (Culture: Holidays):",
+          "stimulus": "Matching set 3333.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "1. La puerta de mi casa.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Cómo se llama él?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Uncountable nouns.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "the door of my house."
+            },
+            {
+              "id": "m2",
+              "text": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
+            },
+            {
+              "id": "m1",
+              "text": "What’s his name."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I36"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 234 (Culture: Holidays):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "What time does the bus leave."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "on Monday, on Wednesday, etc."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I37"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 234 (Culture: Holidays):",
+          "main_text": "In Culture: Holidays (1314), The actress [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "played."
+                },
+                {
+                  "id": "o2",
+                  "text": "play"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "designed."
+                },
+                {
+                  "id": "o2",
+                  "text": "design."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 234 para Culture: Holidays:",
+          "stimulus_en": "What does Juan do.",
+          "stimulus_es": "En qué trabaja Juan?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 5412."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 234 sobre Culture: Holidays:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "de"
+            },
+            {
+              "id": "w3",
+              "text": "mayúsculas."
+            },
+            {
+              "id": "w2",
+              "text": "las"
+            },
+            {
+              "id": "w0",
+              "text": "uso"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U34_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 268 (Culture: Holidays):",
+          "stimulus_en": "would you like some coke? (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 268 (Culture: Holidays)",
+          "stimulus_en": "chemist) Farmacia.",
+          "stimulus_es": "Ref: Drugstore (Br Eng.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 268 (Culture: Holidays):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "2. Let’s do the same with the first example.",
+              "right": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
+            },
+            {
+              "id": "p1",
+              "left": "3. usually/ arrives late / the bus.",
+              "right": "the bus usually arrives late."
+            },
+            {
+              "id": "p2",
+              "left": "3. el primer elemento es un país/ciudad/pueblo… Ejemplo.",
+              "right": "Spain‘s monuments are very nice."
+            },
+            {
+              "id": "p3",
+              "left": "2. Play football on Saturday afternoons / the boys / always.",
+              "right": "the boys always play football on Saturday afternoons."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 268 (Culture: Holidays):",
+          "tts_en": "Our English teacher is usually angry.",
+          "correct_answer": "Our English teacher is usually angry",
+          "mastery_tag": "listening",
+          "interaction_id": "U34_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 268:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "June"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday."
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
+            },
+            {
+              "id": "o0",
+              "text": "Monday."
+            },
+            {
+              "id": "o3",
+              "text": "Friday."
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 268 - Culture: Holidays:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "back": "Jennifer usually goes out to see a concert."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 268 (Culture: Holidays):",
+          "instruction_en": "Explain Whose / Possessives using Culture: Holidays. [Ref: 34]",
+          "mastery_tag": "writing",
+          "interaction_id": "U34_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 268 (Culture: Holidays):",
+          "stimulus_en": "This is Culture: Holidays. (331)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U34_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 235 (Culture: Holidays):",
+          "stimulus": "Matching set 8366.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "2. Siempre van antes del sustantivo, la regla es.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Encontraste algo ahí?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "any + thing = en oración INTERROGATIVA."
+            },
+            {
+              "id": "m1",
+              "text": "how often do you have Italian classes? = I have every Tuesday."
+            },
+            {
+              "id": "m0",
+              "text": "ADJECTIVE + NOUN."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 235 (Culture: Holidays):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Does that computer work."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 235 (Culture: Holidays):",
+          "main_text": "In Culture: Holidays (1415), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -490,11 +1079,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "create."
                 }
               ]
             }
@@ -504,223 +1093,233 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U34_I25"
+          "interaction_id": "U34_I51"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 233 para Culture: Holidays:",
-          "stimulus_en": "uso de las may\u00fasculas!",
-          "stimulus_es": "Escribir ingl\u00e9s correctamente!",
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 235 para Culture: Holidays:",
+          "stimulus_en": "¿De dónde eres?",
+          "stimulus_es": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qué el from al final, quizá la aprendiste así en su día y la tienes ya tan asimilada que no te planteas por qué la preposición está al final, cuando en español, decimos la preposición de (from) al principio.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 3174"
+              "text": "Other 9258."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I26"
+          "interaction_id": "U34_I52"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 233 sobre Culture: Holidays:",
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 235 sobre Culture: Holidays:",
           "options": [
             {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w7",
-              "text": "interesting"
+              "id": "w5",
+              "text": "like"
             },
             {
               "id": "w0",
-              "text": "Sometimes"
+              "text": "What"
             },
             {
               "id": "w6",
-              "text": "restaurant"
+              "text": "tomorrow?"
+            },
+            {
+              "id": "w9",
+              "text": "sunny"
             },
             {
               "id": "w2",
-              "text": "have"
+              "text": "the"
             },
             {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "a"
+              "id": "w7",
+              "text": "It’ll"
             },
             {
               "id": "w3",
-              "text": "lunch"
+              "text": "weather."
+            },
+            {
+              "id": "w8",
+              "text": "be"
+            },
+            {
+              "id": "w4",
+              "text": "be"
+            },
+            {
+              "id": "w1",
+              "text": "will"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U34_I27"
+          "interaction_id": "U34_I53"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 267 (Culture: Holidays):",
-          "stimulus_en": "liter) Litro... (___)",
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 269 (Culture: Holidays):",
+          "stimulus_en": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I28"
+          "interaction_id": "U34_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 267 (Culture: Holidays)",
-          "stimulus_en": "my cousin\u2019s husband is German and his mother Irish....",
-          "stimulus_es": "Ref: El marido de mi prima es alem\u00e1n y su madre irlandesa...",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 269 (Culture: Holidays)",
+          "stimulus_en": "Sometimes I have lunch in a restaurant.",
+          "stimulus_es": "Ref: often, usually y sometimes también se pueden escribir al principio de oración.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I29"
+          "interaction_id": "U34_I55"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona 267 (Culture: Holidays):",
+          "type": "matching.",
+          "prompt_es": "Relaciona 269 (Culture: Holidays):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1ndo la ayudaste?...",
-              "right": "When did you help him/her..."
+              "left": "Eraser (Br Eng.",
+              "right": "rubber) Goma de borrar."
             },
             {
               "id": "p1",
-              "left": "For example (now)",
-              "right": "She drives carefully. (now)"
+              "left": "Te veo el sábado.",
+              "right": "I’ll see you on Saturday."
             },
             {
               "id": "p2",
-              "left": "on + train/ bus/ plane/ bike/ motorbike - interesting",
-              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica. - interesting"
+              "left": "Por ejemplo.",
+              "right": "Él es guapo. ¿»Guapo» es adjetivo o adverbio? ¿A quién se refiere? A él, por tanto, ADJETIVO."
             },
             {
               "id": "p3",
-              "left": "Encontraste algo ah\u00ed? - 385",
-              "right": "any + thing = en oraci\u00f3n INTERROGATIVA. - 385"
+              "left": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que leáis la explicación y aprendáis, o repaséis, qué es y cómo se forman las indirect questions (preguntas indirectas). Aquí lo puedes revisar.",
+              "right": "Indirect questions en inglés."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I30"
+          "interaction_id": "U34_I56"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 267 (Culture: Holidays):",
-          "tts_en": "I went to a state school.!",
-          "correct_answer": "I went to a state school.!",
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 269 (Culture: Holidays):",
+          "tts_en": "Do you think that unemployment will go down this year.",
+          "correct_answer": "Do you think that unemployment will go down this year",
           "mastery_tag": "listening",
-          "interaction_id": "U34_I31"
+          "interaction_id": "U34_I57"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 267:",
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 269:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
+              "id": "o4",
+              "text": "Slow"
             },
             {
               "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o4",
-              "text": "Hot7711"
+              "text": "London."
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "Paris"
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "Berlin."
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
             }
           ],
           "correct_answer": "o4",
           "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I32"
+          "interaction_id": "U34_I58"
         },
         {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 267 - Culture: Holidays:",
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 269 - Culture: Holidays:",
           "cards": [
             {
               "id": "c1",
-              "front": "Otro ejemplo - interesting",
-              "back": "when I was at primary school, I didn\u2019t wear uniform. - interesting"
+              "front": "Cuál es la playa más larga en la que has estado nunca?",
+              "back": "What’s the longest beach you’ve ever been to."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I33"
+          "interaction_id": "U34_I59"
         },
         {
-          "type": "writing_task",
-          "prompt_es": "Escribe 267 (Culture: Holidays):",
-          "instruction_en": "Write a note about Culture: Holidays. [Ref: 68]",
+          "type": "writing_task.",
+          "prompt_es": "Escribe 269 (Culture: Holidays):",
+          "instruction_en": "Explain Whose / Possessives using Culture: Holidays. [Ref: 50]",
           "mastery_tag": "writing",
-          "interaction_id": "U34_I34"
+          "interaction_id": "U34_I60"
         },
         {
-          "type": "speaking_task",
-          "prompt_es": "Habla 267 (Culture: Holidays):",
-          "stimulus_en": "Talk about Culture: Holidays. (920)",
+          "type": "speaking_task.",
+          "prompt_es": "Habla 269 (Culture: Holidays):",
+          "stimulus_en": "Look at Culture: Holidays. (951)",
           "mastery_tag": "speaking",
-          "interaction_id": "U34_I35"
+          "interaction_id": "U34_I61"
         },
         {
-          "type": "multiple_matching",
-          "prompt_es": "Une 234 (Culture: Holidays):",
-          "stimulus": "Matching set 8598",
+          "type": "multiple_matching.",
+          "prompt_es": "Une 236 (Culture: Holidays):",
+          "stimulus": "Matching set 3653.",
           "items": [
             {
               "id": "i0",
-              "text": "Metre (Br Eng) (Am Eng!",
+              "text": "As any modal verb, they are followed by an infinitive without ‘to’, for example.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales - amazing",
+              "text": "Otro common mistake.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "TV / ever / hardly / I / in / watch / evenings / the!",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, también va en oraciones negativas, como en el ejemplo de arriba (I don’t have many friends), pero también en positivas, por ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "may come, might go."
+            },
+            {
               "id": "m2",
-              "text": "I hardly ever watch TV in the evenings!"
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oración positiva, ya sea con sustantivos contables o incontables."
             },
             {
               "id": "m1",
-              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "meter) Metro!"
+              "text": "I haven’t a car."
             }
           ],
           "correct_answer": {
@@ -729,51 +1328,51 @@
             "i2": "m2"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U34_I36"
+          "interaction_id": "U34_I62"
         },
         {
-          "type": "categorization",
-          "prompt_es": "Clasifica 234 (Culture: Holidays):",
+          "type": "categorization.",
+          "prompt_es": "Clasifica 236 (Culture: Holidays):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - interesting"
+                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019...."
+                  "text": "Had you got a motorbike…?"
                 }
               ]
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I37"
+          "interaction_id": "U34_I63"
         },
         {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 234 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (3769), The police officer [GAP 1] and [GAP 2].",
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 236 (Culture: Holidays):",
+          "main_text": "In Culture: Holidays (5417), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "build"
                 }
               ]
             },
@@ -782,11 +1381,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "create."
                 }
               ]
             }
@@ -796,172 +1395,430 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U34_I38"
+          "interaction_id": "U34_I64"
         },
         {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 234 para Culture: Holidays:",
-          "stimulus_en": "What\u2019s the coldest country you\u2019ve ever been to.",
-          "stimulus_es": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca?.",
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 236 para Culture: Holidays:",
+          "stimulus_en": "I hardly ever go to the cinema = casi nunca voy al cine.",
+          "stimulus_es": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o3",
+              "text": "Other 5968."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
-              "id": "o3",
-              "text": "Other 2199"
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I39"
+          "interaction_id": "U34_I65"
         },
         {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 234 sobre Culture: Holidays:",
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 236 sobre Culture: Holidays:",
           "options": [
             {
-              "id": "w6",
-              "text": "aconsejo"
-            },
-            {
-              "id": "w12",
-              "text": "y"
+              "id": "w1",
+              "text": "bird‘s."
             },
             {
               "id": "w5",
-              "text": "Os"
-            },
-            {
-              "id": "w1",
-              "text": "shirt"
-            },
-            {
-              "id": "w10",
-              "text": "siguiente"
-            },
-            {
-              "id": "w11",
-              "text": "audio"
-            },
-            {
-              "id": "w0",
-              "text": "skirt"
-            },
-            {
-              "id": "w8",
-              "text": "escuch\u00e9is"
+              "text": "piernas."
             },
             {
               "id": "w4",
-              "text": "etc"
-            },
-            {
-              "id": "w13",
-              "text": "practiqu\u00e9is"
-            },
-            {
-              "id": "w9",
-              "text": "el"
-            },
-            {
-              "id": "w2",
-              "text": "first"
-            },
-            {
-              "id": "w7",
-              "text": "que"
+              "text": "las"
             },
             {
               "id": "w3",
-              "text": "firm"
+              "text": "="
+            },
+            {
+              "id": "w7",
+              "text": "pájaro."
+            },
+            {
+              "id": "w0",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "del"
+            },
+            {
+              "id": "w2",
+              "text": "legs"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
-          "interaction_id": "U34_I40"
+          "interaction_id": "U34_I66"
         },
         {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 268 (Culture: Holidays):",
-          "stimulus_en": "Spain\u2018s monuments are very nice. - amazing (___)",
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 270 (Culture: Holidays):",
+          "stimulus_en": "I often go to bed before 11 (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I41"
+          "interaction_id": "U34_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 268 (Culture: Holidays)",
-          "stimulus_en": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (today)",
-          "stimulus_es": "Ref: Has visto a alguien? (today)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 270 (Culture: Holidays)",
+          "stimulus_en": "in the morning, in the afternoon, in the evening, pero at night (es una excepción)",
+          "stimulus_es": "Ref: – Con partes del día.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
-          "interaction_id": "U34_I42"
+          "interaction_id": "U34_I68"
         },
         {
-          "type": "matching",
-          "prompt_es": "Relaciona 268 (Culture: Holidays):",
+          "type": "matching.",
+          "prompt_es": "Relaciona 270 (Culture: Holidays):",
           "pairs": [
             {
               "id": "p0",
-              "left": "7. read books slowly / I / always - 292",
-              "right": "I always read books slowly - 292"
+              "left": "Puedo abrir la ventana, por favor?",
+              "right": "may I open the window, please."
             },
             {
               "id": "p1",
-              "left": "Tyre (Am Eng...",
-              "right": "tire) Neum\u00e1tico..."
+              "left": "Mi cumpleaños es en febrero.",
+              "right": "my birthday is in February."
             },
             {
               "id": "p2",
-              "left": "Alguien dijo mi nombre? - amazing",
-              "right": "Did anybody say my name - amazing"
+              "left": "Cuánto cuesta?",
+              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost."
             },
             {
               "id": "p3",
-              "left": "En espa\u00f1ol dir\u00edamos...",
-              "right": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest)...."
+              "left": "¿Cómo saber que «the film» es el sujeto? Preguntamos al verbo SIEMPRE «quién» o «qué». Hacemos la prueba.",
+              "right": "¿Qué es lo que empieza? = la película, entonces SUBJECT = THE FILM."
             }
           ],
           "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I43"
+          "interaction_id": "U34_I69"
         },
         {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 268 (Culture: Holidays):",
-          "tts_en": "rubber) Goma de borrar.",
-          "correct_answer": "rubber) Goma de borrar.",
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 270 (Culture: Holidays):",
+          "tts_en": "la película, entonces SUBJECT = THE FILM.",
+          "correct_answer": "la película, entonces SUBJECT = THE FILM",
           "mastery_tag": "listening",
-          "interaction_id": "U34_I44"
+          "interaction_id": "U34_I70"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 268:",
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 270:",
           "options": [
             {
-              "id": "o4",
-              "text": "Pen7170"
+              "id": "o1",
+              "text": "Sad"
             },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o4",
+              "text": "Fast"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I71"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 270 - Culture: Holidays:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "This is another translation.",
+              "back": "igual hago algo… (but I’m not sure…)."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I72"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 270 (Culture: Holidays):",
+          "instruction_en": "A small story about Culture: Holidays. [Ref: 91]",
+          "mastery_tag": "writing",
+          "interaction_id": "U34_I73"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 270 (Culture: Holidays):",
+          "stimulus_en": "Repeat Culture: Holidays. (174)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U34_I74"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 237 (Culture: Holidays):",
+          "stimulus": "Matching set 8213.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Y en negativa.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Quieres más?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "I don’t have any friends who live near my house."
+            },
+            {
+              "id": "m0",
+              "text": "‘m/ ‘s, etc)"
+            },
+            {
+              "id": "m2",
+              "text": "would you like some more."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I75"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 237 (Culture: Holidays):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "she doesn’t often write to me."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "My partner is the most beautiful woman in the world."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I76"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 237 (Culture: Holidays):",
+          "main_text": "In Culture: Holidays (9507), Sarah [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished."
+                },
+                {
+                  "id": "o2",
+                  "text": "finish."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U34_I77"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 237 para Culture: Holidays:",
+          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa.",
+          "stimulus_es": "Qué quieres?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 6303."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I78"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 237 sobre Culture: Holidays:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "phone"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "English."
+            },
+            {
+              "id": "w3",
+              "text": "spoken."
+            },
+            {
+              "id": "w2",
+              "text": "ever"
+            },
+            {
+              "id": "w0",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U34_I79"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 271 (Culture: Holidays):",
+          "stimulus_en": "I haven’t got a car. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I80"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 271 (Culture: Holidays)",
+          "stimulus_en": "How old is María.",
+          "stimulus_es": "Ref: Cuántos años tiene María?",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U34_I81"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 271 (Culture: Holidays):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bookstore (Br Eng.",
+              "right": "bookshop) Librería."
+            },
+            {
+              "id": "p1",
+              "left": "in + car/ taxi.",
+              "right": "situación específica = ésta opción siempre lleva un possessive adjective (my, your, his, her, our, their) o un artículo indefinido (a)."
+            },
+            {
+              "id": "p2",
+              "left": "Otro ejemplo.",
+              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
+            },
+            {
+              "id": "p3",
+              "left": "Cuando «nada», «nadie» o «ningún sitio» NO va en primera posición (no es el sujeto, sino el objeto), podemos utilizar «any» o «no», dependiendo de cómo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos «any» y si lo pongo sin negar (es positivo), entonces utilizamos «no». Esto es así porque en inglés sólo es posible poner una palabra negativa en una oración, nunca dos, como sucede en español. Yo es español puedo decir.",
+              "right": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U34_I82"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 271 (Culture: Holidays):",
+          "tts_en": "What’s the coldest country you’ve ever been to.",
+          "correct_answer": "What’s the coldest country you’ve ever been to",
+          "mastery_tag": "listening",
+          "interaction_id": "U34_I83"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 271:",
+          "options": [
             {
               "id": "o2",
               "text": "Sofa"
@@ -977,902 +1834,10 @@
             {
               "id": "o0",
               "text": "Table"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 268 - Culture: Holidays:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "\u2022in the fall (Br Eng - amazing",
-              "back": "autumn) En oto\u00f1o - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 268 (Culture: Holidays):",
-          "instruction_en": "Compare Culture: Holidays with another topic. [Ref: 56]",
-          "mastery_tag": "writing",
-          "interaction_id": "U34_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 268 (Culture: Holidays):",
-          "stimulus_en": "The Whose / Possessives is here. (365)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U34_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 235 (Culture: Holidays):",
-          "stimulus": "Matching set 5926",
-          "items": [
-            {
-              "id": "i0",
-              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "De qui\u00e9n son esos libros?...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Si pasamos la oraci\u00f3n a interrogativa, quedar\u00eda as\u00ed - 301",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "Do you have any friends who live near your house? = al ser interrogativa, any. - 301"
-            },
-            {
-              "id": "m0",
-              "text": "I can to speak English.!"
-            },
-            {
-              "id": "m1",
-              "text": "Whose books are those= or Whose are those books..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 235 (Culture: Holidays):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Have you finished the project yet!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 235 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (3247), She [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "learned"
-                },
-                {
-                  "id": "o2",
-                  "text": "learn"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "created"
-                },
-                {
-                  "id": "o2",
-                  "text": "create"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 235 para Culture: Holidays:",
-          "stimulus_en": "Whose car is that - interesting",
-          "stimulus_es": "De qui\u00e9n ese coche? - interesting",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 2000"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 235 sobre Culture: Holidays:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "anything"
-            },
-            {
-              "id": "w3",
-              "text": "for"
-            },
-            {
-              "id": "w4",
-              "text": "hours"
-            },
-            {
-              "id": "w5",
-              "text": "without"
-            },
-            {
-              "id": "w2",
-              "text": "fish"
-            },
-            {
-              "id": "w1",
-              "text": "often"
-            },
-            {
-              "id": "w6",
-              "text": "catching"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U34_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 269 (Culture: Holidays):",
-          "stimulus_en": "biscuit) Galleta... (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 269 (Culture: Holidays)",
-          "stimulus_en": "Why didn\u2019t you tell me (today)",
-          "stimulus_es": "Ref: Por qu\u00e9 no me lo dijiste? (today)",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 269 (Culture: Holidays):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The correct thing (today)",
-              "right": "I have 3 children. (today)"
-            },
-            {
-              "id": "p1",
-              "left": "Te veo el s\u00e1bado (today)",
-              "right": "I\u2019ll see you on Saturday (today)"
-            },
-            {
-              "id": "p2",
-              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca?.",
-              "right": "What\u2019s the hottest place you\u2019ve ever been to."
-            },
-            {
-              "id": "p3",
-              "left": "Chips (Br Eng) (Am Eng - amazing",
-              "right": "biscuit) Patatas fritas - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 269 (Culture: Holidays):",
-          "tts_en": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables..",
-          "correct_answer": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables..",
-          "mastery_tag": "listening",
-          "interaction_id": "U34_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 269:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "mango"
             },
             {
               "id": "o4",
-              "text": "bike4980"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 269 - Culture: Holidays:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example.",
-              "back": "may come, might go.."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 269 (Culture: Holidays):",
-          "instruction_en": "List 3 facts about Culture: Holidays. [Ref: 55]",
-          "mastery_tag": "writing",
-          "interaction_id": "U34_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 269 (Culture: Holidays):",
-          "stimulus_en": "Talk about Culture: Holidays. (182)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U34_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 236 (Culture: Holidays):",
-          "stimulus": "Matching set 2056",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Has visto mis llaves en alg\u00fan sitio? (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "This is another translation!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Movie (Br Eng - 385",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026).!"
-            },
-            {
-              "id": "m2",
-              "text": "film) Pel\u00edcula - 385"
-            },
-            {
-              "id": "m0",
-              "text": "have you seen my keys anywhere (now)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 236 (Culture: Holidays):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Where did he/she tell you."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "The girls\u2019 ball - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 236 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (3911), He [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "spoke"
-                },
-                {
-                  "id": "o2",
-                  "text": "speak"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "called"
-                },
-                {
-                  "id": "o2",
-                  "text": "call"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 236 para Culture: Holidays:",
-          "stimulus_en": "I hardly ever go to the cinema = casi nunca voy al cine. - 893",
-          "stimulus_es": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - 893",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6916"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 236 sobre Culture: Holidays:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "mil"
-            },
-            {
-              "id": "w10",
-              "text": "cars"
-            },
-            {
-              "id": "w9",
-              "text": "million"
-            },
-            {
-              "id": "w8",
-              "text": "2"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
-            },
-            {
-              "id": "w1",
-              "text": "thousand"
-            },
-            {
-              "id": "w14",
-              "text": "children"
-            },
-            {
-              "id": "w13",
-              "text": "hundred"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w4",
-              "text": "tres"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w0",
-              "text": "3"
-            },
-            {
-              "id": "w11",
-              "text": "/"
-            },
-            {
-              "id": "w12",
-              "text": "4"
-            },
-            {
-              "id": "w2",
-              "text": "people"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U34_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 270 (Culture: Holidays):",
-          "stimulus_en": "present continuous, porque lo est\u00e1s buscando en este momento.... (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 270 (Culture: Holidays)",
-          "stimulus_en": "the boys always play football on Saturday afternoons!",
-          "stimulus_es": "Ref: 2. Play football on Saturday afternoons / the boys / always!",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 270 (Culture: Holidays):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio (now)",
-              "right": "\u00bfDe d\u00f3nde eres? (now)"
-            },
-            {
-              "id": "p1",
-              "left": "Otro ejemplo - amazing",
-              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material - amazing",
-              "right": "preguntas en ingl\u00e9s - amazing"
-            },
-            {
-              "id": "p3",
-              "left": "Los adjetivos tienen tres formas!",
-              "right": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 270 (Culture: Holidays):",
-          "tts_en": "Jonathan usually visits the dentist - 850",
-          "correct_answer": "Jonathan usually visits the dentist - 850",
-          "mastery_tag": "listening",
-          "interaction_id": "U34_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 270:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "Book2357"
-            },
-            {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 270 - Culture: Holidays:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "C\u00f3mo se siente tu madre? (now)",
-              "back": "How is your mum feeling (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 270 (Culture: Holidays):",
-          "instruction_en": "Why is Culture: Holidays important? [Ref: 32]",
-          "mastery_tag": "writing",
-          "interaction_id": "U34_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 270 (Culture: Holidays):",
-          "stimulus_en": "Where is Culture: Holidays? (313)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U34_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 237 (Culture: Holidays):",
-          "stimulus": "Matching set 3517",
-          "items": [
-            {
-              "id": "i0",
-              "text": "6. it / rain in the summer / often / doesn\u2019t...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca?!",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "Who\u2019s the shyest person you\u2019ve ever met!"
-            },
-            {
-              "id": "m0",
-              "text": "it doesn\u2019t often rain in the summer..."
-            },
-            {
-              "id": "m2",
-              "text": "What\u2019s the most delicious food you\u2019ve ever tasted!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 237 (Culture: Holidays):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019...."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "chemist) Farmacia."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 237 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (2434), My cousin [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "planned"
-                },
-                {
-                  "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U34_I77"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 237 para Culture: Holidays:",
-          "stimulus_en": "my birthday is in February. - interesting",
-          "stimulus_es": "Mi cumplea\u00f1os es en febrero - interesting",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 6035"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I78"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 237 sobre Culture: Holidays:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "more"
-            },
-            {
-              "id": "w0",
-              "text": "would"
-            },
-            {
-              "id": "w3",
-              "text": "some"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U34_I79"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 271 (Culture: Holidays):",
-          "stimulus_en": "I have a lot of money and I have a lot of friends.! (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I80"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 271 (Culture: Holidays)",
-          "stimulus_en": "I often go to bed before 11 - interesting",
-          "stimulus_es": "Ref: 4. go to bed before 11 / often / I - interesting",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U34_I81"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 271 (Culture: Holidays):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - 499",
-              "right": "have you ever seen a film in original version - 499"
-            },
-            {
-              "id": "p1",
-              "left": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que le\u00e1is la explicaci\u00f3n y aprend\u00e1is, o repas\u00e9is, qu\u00e9 es y c\u00f3mo se forman las indirect questions (preguntas indirectas). Aqu\u00ed lo puedes revisar - 334",
-              "right": "Indirect questions en ingl\u00e9s. - 334"
-            },
-            {
-              "id": "p2",
-              "left": "Has jugado alguna vez al ajedrez?...",
-              "right": "have you ever played chess..."
-            },
-            {
-              "id": "p3",
-              "left": "Crees que bajar\u00e1 el paro este a\u00f1o? - 540",
-              "right": "Do you think that unemployment will go down this year - 540"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U34_I82"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 271 (Culture: Holidays):",
-          "tts_en": "the door of my house - interesting",
-          "correct_answer": "the door of my house - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U34_I83"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 271:",
-          "options": [
-            {
-              "id": "o4",
-              "text": "cat8535"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
+              "text": "Pen"
             }
           ],
           "correct_answer": "o4",
@@ -1880,65 +1845,65 @@
           "interaction_id": "U34_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 271 - Culture: Holidays:",
           "cards": [
             {
               "id": "c1",
-              "front": "M\u00e1s plurales irregulares que nos podemos encontrar son.",
-              "back": "men, women, people, etc.."
+              "front": "A lot of, countable y uncountable.",
+              "back": "I have a lot of money and I have a lot of friends."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 271 (Culture: Holidays):",
-          "instruction_en": "Write a note about Culture: Holidays. [Ref: 19]",
+          "instruction_en": "Describe Culture: Holidays in 5 words. [Ref: 75]",
           "mastery_tag": "writing",
           "interaction_id": "U34_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 271 (Culture: Holidays):",
-          "stimulus_en": "Look at Culture: Holidays. (898)",
+          "stimulus_en": "Focus on Culture: Holidays. (513)",
           "mastery_tag": "speaking",
           "interaction_id": "U34_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 238 (Culture: Holidays):",
-          "stimulus": "Matching set 2572",
+          "stimulus": "Matching set 5345.",
           "items": [
             {
               "id": "i0",
-              "text": "Un ejemplo de to seguido de infinitivo es - amazing",
+              "text": "Much, como se utiliza con uncountable, decimos.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Many, para countable, decimos - amazing",
+              "text": "Para responder en plural, diríamos.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "A qu\u00e9 hora sale el autob\u00fas? (today)",
+              "text": "La podemos contestar de la seguiente manera.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - amazing"
+              "text": "I haven’t got much money (remember, money is uncountable)."
             },
             {
               "id": "m2",
-              "text": "What time does the bus leave (today)"
+              "text": "It’s mine (es mía) o it’s his (es suya – de él)"
             },
             {
               "id": "m1",
-              "text": "I don\u2019t have many friends (friends is countable). - amazing"
+              "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
             }
           ],
           "correct_answer": {
@@ -1950,26 +1915,26 @@
           "interaction_id": "U34_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 238 (Culture: Holidays):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "John\u2018s job is boring...."
+                  "text": "have you ever been to Canada."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Next to my school there aren\u2019t any apartment blocks...."
+                  "text": "at in on for to of without."
                 }
               ]
             }
@@ -1978,20 +1943,20 @@
           "interaction_id": "U34_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 238 (Culture: Holidays):",
-          "main_text": "In Culture: Holidays (7624), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Culture: Holidays (8176), He [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "taught"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "teach"
+                  "text": "finish."
                 }
               ]
             },
@@ -2000,11 +1965,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "helped."
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "help"
                 }
               ]
             }
@@ -2017,22 +1982,22 @@
           "interaction_id": "U34_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 238 para Culture: Holidays:",
-          "stimulus_en": "she doesn\u2019t often write to me - 744",
-          "stimulus_es": "1. Often / she / write to me/ doesn\u2019t - 744",
+          "stimulus_en": "cinema) Cine.",
+          "stimulus_es": "Movie theater (Br Eng.",
           "options": [
             {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 1541"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Other 7475."
             }
           ],
           "correct_answer": "o1",
@@ -2040,106 +2005,121 @@
           "interaction_id": "U34_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 238 sobre Culture: Holidays:",
           "options": [
             {
-              "id": "w0",
-              "text": "What\u2019s"
+              "id": "w4",
+              "text": "very"
             },
             {
               "id": "w1",
-              "text": "that"
+              "text": "cousins’"
+            },
+            {
+              "id": "w0",
+              "text": "My"
             },
             {
               "id": "w2",
-              "text": "(today)"
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "big"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U34_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 272 (Culture: Holidays):",
-          "stimulus_en": "Had you got a motorbike\u2026?! (___)",
+          "stimulus_en": "she never drinks coffee in the evening (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U34_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 272 (Culture: Holidays)",
-          "stimulus_en": "would you like some coke? (now)",
-          "stimulus_es": "Ref: Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo (now)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 272 (Culture: Holidays)",
+          "stimulus_en": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciación y además perfectamente entendible para los alumnos que no conocen los símbolos fonéticos. Espero que te sea útil.",
+          "stimulus_es": "Ref: Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U34_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 272 (Culture: Holidays):",
           "pairs": [
             {
               "id": "p0",
-              "left": "2. el primer elemento es un animal. Ejemplo.",
-              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro.."
+              "left": "Tyre (Am Eng.",
+              "right": "tire) Neumático."
             },
             {
               "id": "p1",
-              "left": "The correct thing (now)",
-              "right": "Have you got a car? (now)"
+              "left": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "right": "Can I have your ID/ passport/ credit card?."
             },
             {
               "id": "p2",
-              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - 420",
-              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - 420"
+              "left": "Cabe destacar que la palabra every es singular en inglés, por tanto, tanto «day» como cualquiera de los días que pongamos, deben ir en singular. Es incorrecto decir.",
+              "right": "every days o every Tuesdays."
             },
             {
               "id": "p3",
-              "left": "Puedo abrir la ventana, por favor?...",
-              "right": "may I open the window, please..."
+              "left": "2. El infinitivo no lleva delante to. Un error típico es decir.",
+              "right": "I can to speak English."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 272 (Culture: Holidays):",
-          "tts_en": "What\u2019s the longest beach you\u2019ve ever been to!",
-          "correct_answer": "What\u2019s the longest beach you\u2019ve ever been to!",
+          "tts_en": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/.",
+          "correct_answer": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/",
           "mastery_tag": "listening",
           "interaction_id": "U34_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 272:",
           "options": [
             {
-              "id": "o4",
-              "text": "rain1505"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
+              "id": "o0",
+              "text": "Guitar."
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "Flute"
             },
             {
-              "id": "o0",
-              "text": "pizza"
+              "id": "o4",
+              "text": "Book"
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             }
           ],
           "correct_answer": "o4",
@@ -2147,29 +2127,29 @@
           "interaction_id": "U34_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 272 - Culture: Holidays:",
           "cards": [
             {
               "id": "c1",
-              "front": "Countable nouns...",
-              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc...."
+              "front": "Tienes zapatos para la boda?",
+              "back": "do you have any shoes for the wedding."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U34_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 272 (Culture: Holidays):",
-          "instruction_en": "A small story about Culture: Holidays. [Ref: 91]",
+          "instruction_en": "Describe Culture: Holidays in 5 words. [Ref: 73]",
           "mastery_tag": "writing",
           "interaction_id": "U34_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 272 (Culture: Holidays):",
-          "stimulus_en": "This is Culture: Holidays. (398)",
+          "stimulus_en": "The Whose / Possessives is here. (512)",
           "mastery_tag": "speaking",
           "interaction_id": "U34_I100"
         }

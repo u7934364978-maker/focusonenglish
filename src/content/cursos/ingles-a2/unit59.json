@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit59",
-    "unit_title": "Countable/Uncountable - Future: Space Travel",
+    "unit_title": "Countable/Uncountable - Future: Space Travel.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U59_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 59",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 59.",
           "tts_en": "Starting unit 59. Topic: Future: Space Travel. Focus: Countable/Uncountable.",
           "mastery_tag": "listening",
           "interaction_id": "U59_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 465 (Future: Space Travel):",
-          "stimulus_en": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without (now) (___)",
+          "stimulus_en": "rubber) Goma de borrar (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U59_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 465 (Future: Space Travel)",
-          "stimulus_en": "\u2018m/ \u2018s, etc) - 919",
-          "stimulus_es": "Ref: Se pueden contraer = \u2018ve got/ haven\u2019t got (to be - 919",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 465 (Future: Space Travel)",
+          "stimulus_en": "la casa de María es grande = María’s house is big.",
+          "stimulus_es": "Ref: Otro ejemplo.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U59_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 465 (Future: Space Travel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Common mistake - interesting",
-              "right": "Had you got a motorbike\u2026? - interesting"
+              "left": "Cómo se siente tu madre?",
+              "right": "How is your mum feeling."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? - 650",
-              "right": "How old is Mar\u00eda - 650"
+              "left": "on + train/ bus/ plane/ bike/ motorbike.",
+              "right": "cuando hablamos de forma más específica."
             },
             {
               "id": "p2",
-              "left": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
-              "right": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
+              "left": "Common mistake.",
+              "right": "I hadn’t got a mobile."
             },
             {
               "id": "p3",
-              "left": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo!",
-              "right": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.!"
+              "left": "often / money / Sally / her / borrows / friends / from.",
+              "right": "Sally often borrows money from her friends."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 465 (Future: Space Travel):",
-          "tts_en": "information, homework, work.!",
-          "correct_answer": "information, homework, work.!",
+          "tts_en": "Whose mobile is that.",
+          "correct_answer": "Whose mobile is that",
           "mastery_tag": "listening",
           "interaction_id": "U59_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 465:",
           "options": [
             {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
               "id": "o2",
-              "text": "train"
+              "text": "pear"
             },
             {
               "id": "o3",
-              "text": "plane"
-            },
-            {
-              "id": "o0",
-              "text": "car"
+              "text": "mango"
             },
             {
               "id": "o4",
-              "text": "cat4041"
+              "text": "bike"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
+            },
+            {
+              "id": "o0",
+              "text": "apple"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U59_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 465 - Future: Space Travel:",
           "cards": [
             {
               "id": "c1",
-              "front": "A qu\u00e9 hora sale el tren? (now)",
-              "back": "What time does the train leave (now)"
+              "front": "Cuál es el edificio más alto que has visitado nunca?",
+              "back": "What’s the highest building you’ve ever visited."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 465 (Future: Space Travel):",
-          "instruction_en": "List 3 facts about Future: Space Travel. [Ref: 51]",
+          "instruction_en": "Why is Future: Space Travel important? [Ref: 66]",
           "mastery_tag": "writing",
           "interaction_id": "U59_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 465 (Future: Space Travel):",
-          "stimulus_en": "Where is Future: Space Travel? (237)",
+          "stimulus_en": "This is Future: Space Travel. (425)",
           "mastery_tag": "speaking",
           "interaction_id": "U59_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 407 (Future: Space Travel):",
-          "stimulus": "Matching set 1734",
+          "stimulus": "Matching set 8804.",
           "items": [
             {
               "id": "i0",
-              "text": "3. usually/ arrives late / the bus - amazing",
+              "text": "Otro common mistake.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Chips (Br Eng) (Am Eng (today)",
+              "text": "8. usually / my father / goes to work by bus.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales - amazing",
+              "text": "5. El zumo de tu abuela.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "biscuit) Patatas fritas (today)"
+              "text": "my father usually goes to work by bus."
             },
             {
               "id": "m2",
-              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. - amazing"
+              "text": "Your grandmother’s juice."
             },
             {
               "id": "m0",
-              "text": "the bus usually arrives late - amazing"
+              "text": "I haven’t a car."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U59_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 407 (Future: Space Travel):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "every days o every Tuesdays. (today)"
+                  "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "my cousin\u2019s husband is German and his mother Irish.."
+                  "text": "tire) Neumático."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U59_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 407 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (6490), The teacher [GAP 1] and [GAP 2].",
+          "main_text": "In Future: Space Travel (5958), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "walked."
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "walk"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "create."
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U59_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 407 para Future: Space Travel:",
-          "stimulus_en": "cuando hablamos de forma m\u00e1s espec\u00edfica. - amazing",
-          "stimulus_es": "on + train/ bus/ plane/ bike/ motorbike - amazing",
+          "stimulus_en": "present continuous, porque lo estás buscando en este momento.",
+          "stimulus_es": "Qué tiempo verbal utilizamos?",
           "options": [
             {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
               "id": "o3",
-              "text": "Other 6595"
+              "text": "Other 3263."
             },
             {
               "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -263,141 +263,106 @@
           "interaction_id": "U59_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 407 sobre Future: Space Travel:",
           "options": [
             {
-              "id": "w0",
-              "text": "Do"
-            },
-            {
-              "id": "w3",
-              "text": "that"
-            },
-            {
-              "id": "w7",
-              "text": "down"
-            },
-            {
-              "id": "w8",
-              "text": "this"
-            },
-            {
               "id": "w2",
-              "text": "think"
-            },
-            {
-              "id": "w5",
-              "text": "will"
-            },
-            {
-              "id": "w6",
-              "text": "go"
+              "text": "fritas."
             },
             {
               "id": "w1",
-              "text": "you"
+              "text": "Patatas."
             },
             {
-              "id": "w4",
-              "text": "unemployment"
-            },
-            {
-              "id": "w9",
-              "text": "year"
+              "id": "w0",
+              "text": "biscuit)"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U59_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 466 (Future: Space Travel):",
-          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa. - interesting (___)",
+          "stimulus_en": "How old is María (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U59_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 466 (Future: Space Travel)",
-          "stimulus_en": "How old is Mar\u00eda (today)",
-          "stimulus_es": "Ref: Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? (today)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 466 (Future: Space Travel)",
+          "stimulus_en": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos.",
+          "stimulus_es": "Ref: – On + adjective + day = on a rainy day, on a sunny day. Ejemplo.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U59_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 466 (Future: Space Travel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales.",
-              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio."
+              "left": "A qué hora sale el autobús?",
+              "right": "What time does the bus leave."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1ndo la ayudaste?...",
-              "right": "When did you help him/her..."
+              "left": "Acción en el pasado que está en progreso, ¿qué quiere decir esto? Bien, una acción en progreso quiere decir que no está acabada, pero tú te preguntarás, si es pasada, ¿cómo que no está acabada? Quiere decir que cuando tú piensas en esa acción pasada estás al recordarla como viviéndola de nuevo, y en ese sentido decimos que está en progreso. Ejemplo.",
+              "right": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
             },
             {
               "id": "p2",
-              "left": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir - 152",
-              "right": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - 152"
+              "left": "Hay guisantes en el frigo?",
+              "right": "are there any peas in the fridge."
             },
             {
               "id": "p3",
-              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
-              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children.."
+              "left": "Sin embargo, si queremos expresar la familia de «cualquier» y éste aparece a principo de oración, debemos utilizar la «any», ejemplo.",
+              "right": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 466 (Future: Space Travel):",
-          "tts_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc.!",
-          "correct_answer": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc.!",
+          "tts_en": "rubber) Goma de borrar.",
+          "correct_answer": "rubber) Goma de borrar",
           "mastery_tag": "listening",
           "interaction_id": "U59_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 466:",
           "options": [
             {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
               "id": "o4",
-              "text": "Fast7382"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
+              "text": "cat"
             },
             {
               "id": "o1",
-              "text": "Sad"
+              "text": "bus"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             }
           ],
           "correct_answer": "o4",
@@ -405,65 +370,65 @@
           "interaction_id": "U59_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 466 - Future: Space Travel:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing - amazing",
-              "back": "My friend has a lot of money. - amazing"
+              "front": "3. el primer elemento es un país/ciudad/pueblo… Ejemplo.",
+              "back": "Spain‘s monuments are very nice."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 466 (Future: Space Travel):",
-          "instruction_en": "Explain Countable/Uncountable using Future: Space Travel. [Ref: 31]",
+          "instruction_en": "Your daily routine in Future: Space Travel. [Ref: 38]",
           "mastery_tag": "writing",
           "interaction_id": "U59_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 466 (Future: Space Travel):",
-          "stimulus_en": "Look at Future: Space Travel. (222)",
+          "stimulus_en": "Study Future: Space Travel now. (466)",
           "mastery_tag": "speaking",
           "interaction_id": "U59_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 408 (Future: Space Travel):",
-          "stimulus": "Matching set 9213",
+          "stimulus": "Matching set 7085.",
           "items": [
             {
               "id": "i0",
-              "text": "car / I / drink / never / if / drive / I / alcohol / a - amazing",
+              "text": "For example.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Many, para countable, decimos (now)",
+              "text": "This is another translation.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s?!",
+              "text": "– Días de la semana.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "are you learning French?!"
-            },
-            {
               "id": "m1",
-              "text": "I don\u2019t have many friends (friends is countable). (now)"
+              "text": "igual hago algo… (but I’m not sure…)."
             },
             {
               "id": "m0",
-              "text": "I never drink alcohol if I drive a car - amazing"
+              "text": "She drives carefully."
+            },
+            {
+              "id": "m2",
+              "text": "on Monday, on Wednesday, etc."
             }
           ],
           "correct_answer": {
@@ -475,26 +440,26 @@
           "interaction_id": "U59_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 408 (Future: Space Travel):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "men, women, people, etc.."
+                  "text": "I hadn’t got a mobile."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (today)"
+                  "text": "Next to my school there aren’t any apartment blocks."
                 }
               ]
             }
@@ -503,20 +468,20 @@
           "interaction_id": "U59_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 408 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (1679), The police officer [GAP 1] and [GAP 2].",
+          "main_text": "In Future: Space Travel (3123), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "start"
                 }
               ]
             },
@@ -525,11 +490,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "designed."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "design."
                 }
               ]
             }
@@ -542,22 +507,22 @@
           "interaction_id": "U59_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 408 para Future: Space Travel:",
-          "stimulus_en": "What\u2019s the coldest country you\u2019ve ever been to - amazing",
-          "stimulus_es": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - amazing",
+          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet.",
+          "stimulus_es": "puedo abrir la ventana, por favor?",
           "options": [
             {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 3499"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Other 2250."
             }
           ],
           "correct_answer": "o1",
@@ -565,156 +530,101 @@
           "interaction_id": "U59_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 408 sobre Future: Space Travel:",
           "options": [
             {
-              "id": "w11",
-              "text": "\u00e9l)"
+              "id": "w0",
+              "text": "Harry’s."
             },
             {
               "id": "w1",
-              "text": "mine"
-            },
-            {
-              "id": "w3",
-              "text": "m\u00edos)"
-            },
-            {
-              "id": "w5",
-              "text": "they\u2019re"
-            },
-            {
-              "id": "w12",
-              "text": "interesting"
-            },
-            {
-              "id": "w4",
-              "text": "OR"
-            },
-            {
-              "id": "w0",
-              "text": "They\u2019re"
-            },
-            {
-              "id": "w8",
-              "text": "suyos"
-            },
-            {
-              "id": "w10",
-              "text": "de"
-            },
-            {
-              "id": "w2",
-              "text": "(son"
-            },
-            {
-              "id": "w9",
-              "text": "\u2013"
-            },
-            {
-              "id": "w7",
-              "text": "(son"
-            },
-            {
-              "id": "w6",
-              "text": "his"
+              "text": "burger."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U59_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 467 (Future: Space Travel):",
-          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - interesting (___)",
+          "stimulus_en": "Our English teacher is usually angry (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U59_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 467 (Future: Space Travel)",
-          "stimulus_en": "have you ever seen a film in original version - 235",
-          "stimulus_es": "Ref: Has visto alguna vez una pel\u00edcula en versi\u00f3n original? - 235",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 467 (Future: Space Travel)",
+          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos.",
+          "stimulus_es": "Ref: Cuando «nada», «nadie» o «ningún sitio» NO va en primera posición (no es el sujeto, sino el objeto), podemos utilizar «any» o «no», dependiendo de cómo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos «any» y si lo pongo sin negar (es positivo), entonces utilizamos «no». Esto es así porque en inglés sólo es posible poner una palabra negativa en una oración, nunca dos, como sucede en español. Yo es español puedo decir.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U59_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 467 (Future: Space Travel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The correct thing!",
-              "right": "on the Internet!"
+              "left": "Por ejemplo.",
+              "right": "Él es guapo. ¿»Guapo» es adjetivo o adverbio? ¿A quién se refiere? A él, por tanto, ADJETIVO."
             },
             {
               "id": "p1",
-              "left": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example (now)",
-              "right": "may come, might go. (now)"
+              "left": "2. Siempre van antes del sustantivo, la regla es.",
+              "right": "ADJECTIVE + NOUN."
             },
             {
               "id": "p2",
-              "left": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo.",
-              "right": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta.."
+              "left": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let.",
+              "right": "verb patters."
             },
             {
               "id": "p3",
-              "left": "Otro common mistake.",
-              "right": "Have you a car?."
+              "left": "Movie theater (Br Eng.",
+              "right": "cinema) Cine."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 467 (Future: Space Travel):",
-          "tts_en": "ADJECTIVE + NOUN (today)",
-          "correct_answer": "ADJECTIVE + NOUN (today)",
+          "tts_en": "Whose mobile is that.",
+          "correct_answer": "Whose mobile is that",
           "mastery_tag": "listening",
           "interaction_id": "U59_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 467:",
           "options": [
             {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
               "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o4",
-              "text": "Fast1054"
+              "text": "London."
             },
             {
               "id": "o3",
-              "text": "Calm"
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin."
+            },
+            {
+              "id": "o4",
+              "text": "Slow"
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
             }
           ],
           "correct_answer": "o4",
@@ -722,65 +632,65 @@
           "interaction_id": "U59_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 467 - Future: Space Travel:",
           "cards": [
             {
               "id": "c1",
-              "front": "Funciona ese ordenador? - amazing",
-              "back": "Does that computer work - amazing"
+              "front": "Cookie (Br Eng.",
+              "back": "biscuit) Galleta."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 467 (Future: Space Travel):",
-          "instruction_en": "A small story about Future: Space Travel. [Ref: 69]",
+          "instruction_en": "List 3 facts about Future: Space Travel. [Ref: 29]",
           "mastery_tag": "writing",
           "interaction_id": "U59_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 467 (Future: Space Travel):",
-          "stimulus_en": "Study Future: Space Travel now. (831)",
+          "stimulus_en": "Look at Future: Space Travel. (165)",
           "mastery_tag": "speaking",
           "interaction_id": "U59_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 409 (Future: Space Travel):",
-          "stimulus": "Matching set 4426",
+          "stimulus": "Matching set 2629.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing (now)",
+              "text": "Quieres más?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - 194",
+              "text": "5. never / drinks coffee in the evening / she.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Movie star (Br Eng - 627",
+              "text": "Veamos una oración con futuro.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "What\u2019s the happiest day you\u2019ve ever had - 194"
+              "id": "m0",
+              "text": "would you like some more."
             },
             {
               "id": "m2",
-              "text": "film star) Estrella de cine - 627"
+              "text": "What will the weather be like tomorrow? It’ll be sunny."
             },
             {
-              "id": "m0",
-              "text": "information, homework, work. (now)"
+              "id": "m1",
+              "text": "she never drinks coffee in the evening."
             }
           ],
           "correct_answer": {
@@ -792,26 +702,26 @@
           "interaction_id": "U59_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 409 (Future: Space Travel):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "John\u2018s job is boring. (today)"
+                  "text": "on the Internet."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s the hottest place you\u2019ve ever been to!"
+                  "text": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien»."
                 }
               ]
             }
@@ -820,9 +730,920 @@
           "interaction_id": "U59_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 409 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (5243), The actress [GAP 1] and [GAP 2].",
+          "main_text": "In Future: Space Travel (7872), My sister [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked."
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 409 para Future: Space Travel:",
+          "stimulus_en": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciación y además perfectamente entendible para los alumnos que no conocen los símbolos fonéticos. Espero que te sea útil.",
+          "stimulus_es": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 2983."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 409 sobre Future: Space Travel:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "Juan"
+            },
+            {
+              "id": "w1",
+              "text": "does"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U59_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 468 (Future: Space Travel):",
+          "stimulus_en": "sólo una inversión por oración! (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 468 (Future: Space Travel)",
+          "stimulus_en": "autumn) En otoño.",
+          "stimulus_es": "Ref: •in the fall (Br Eng.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 468 (Future: Space Travel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Por qué no me lo dijiste?",
+              "right": "Why didn’t you tell me."
+            },
+            {
+              "id": "p1",
+              "left": "car / I / drink / never / if / drive / I / alcohol / a.",
+              "right": "I never drink alcohol if I drive a car."
+            },
+            {
+              "id": "p2",
+              "left": "Many, para countable, decimos.",
+              "right": "I don’t have many friends (friends is countable)."
+            },
+            {
+              "id": "p3",
+              "left": "Cuál es el día más feliz que has tenido nunca?",
+              "right": "What’s the happiest day you’ve ever had."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 468 (Future: Space Travel):",
+          "tts_en": "What’s the coldest country you’ve ever been to.",
+          "correct_answer": "What’s the coldest country you’ve ever been to",
+          "mastery_tag": "listening",
+          "interaction_id": "U59_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 468:",
+          "options": [
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 468 - Future: Space Travel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Ahora bien, si estas palabras no llevan un número delante, se les pone la -s de plural, por ejemplo.",
+              "back": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 468 (Future: Space Travel):",
+          "instruction_en": "Your daily routine in Future: Space Travel. [Ref: 54]",
+          "mastery_tag": "writing",
+          "interaction_id": "U59_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 468 (Future: Space Travel):",
+          "stimulus_en": "Focus on Future: Space Travel. (525)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U59_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 410 (Future: Space Travel):",
+          "stimulus": "Matching set 7130.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "– Seasons (estaciones)",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "A qué hora sale el tren?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cuándo la ayudaste?",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "in summer, in winter."
+            },
+            {
+              "id": "m1",
+              "text": "What time does the train leave."
+            },
+            {
+              "id": "m2",
+              "text": "When did you help him/her."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 410 (Future: Space Travel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "What’s the highest building you’ve ever visited."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 410 (Future: Space Travel):",
+          "main_text": "In Future: Space Travel (6349), My friend [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "finished."
+                },
+                {
+                  "id": "o2",
+                  "text": "finish."
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "drove"
+                },
+                {
+                  "id": "o2",
+                  "text": "drive"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I51"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 410 para Future: Space Travel:",
+          "stimulus_en": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework.",
+          "stimulus_es": "me / Paul / helps / sometimes / my / with / homework.",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 1764."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I52"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 410 sobre Future: Space Travel:",
+          "options": [
+            {
+              "id": "w15",
+              "text": "comparativo."
+            },
+            {
+              "id": "w8",
+              "text": "forma"
+            },
+            {
+              "id": "w3",
+              "text": "la"
+            },
+            {
+              "id": "w14",
+              "text": "«grados»"
+            },
+            {
+              "id": "w5",
+              "text": "comparativa."
+            },
+            {
+              "id": "w10",
+              "text": "En"
+            },
+            {
+              "id": "w12",
+              "text": "lo"
+            },
+            {
+              "id": "w9",
+              "text": "superlativa."
+            },
+            {
+              "id": "w1",
+              "text": "forma"
+            },
+            {
+              "id": "w7",
+              "text": "la"
+            },
+            {
+              "id": "w16",
+              "text": "y"
+            },
+            {
+              "id": "w2",
+              "text": "base"
+            },
+            {
+              "id": "w17",
+              "text": "superlativo."
+            },
+            {
+              "id": "w13",
+              "text": "llamamos."
+            },
+            {
+              "id": "w6",
+              "text": "y"
+            },
+            {
+              "id": "w4",
+              "text": "forma"
+            },
+            {
+              "id": "w0",
+              "text": "la"
+            },
+            {
+              "id": "w11",
+              "text": "lengua."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U59_I53"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 469 (Future: Space Travel):",
+          "stimulus_en": "Have you ever tried Thai food (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I54"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 469 (Future: Space Travel)",
+          "stimulus_en": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele.",
+          "stimulus_es": "Ref: Common mistake.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I55"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 469 (Future: Space Travel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dos acciones en el pasado que ocurren al mismo tiempo. Aquí podemos utilizar when y while. Ejemplo.",
+              "right": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo."
+            },
+            {
+              "id": "p1",
+              "left": "The correct thing.",
+              "right": "I have 3 children."
+            },
+            {
+              "id": "p2",
+              "left": "try / police / keep / The / order / always / to / the.",
+              "right": "The police always try to keep the order."
+            },
+            {
+              "id": "p3",
+              "left": "Cuál es el sitio más caluroso en el que has estado nunca?",
+              "right": "What’s the hottest place you’ve ever been to."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I56"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 469 (Future: Space Travel):",
+          "tts_en": "cuando hablamos de forma más específica.",
+          "correct_answer": "cuando hablamos de forma más específica",
+          "mastery_tag": "listening",
+          "interaction_id": "U59_I57"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 469:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I58"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 469 - Future: Space Travel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "2. Play football on Saturday afternoons / the boys / always.",
+              "back": "the boys always play football on Saturday afternoons."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I59"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 469 (Future: Space Travel):",
+          "instruction_en": "Describe Future: Space Travel in 5 words. [Ref: 17]",
+          "mastery_tag": "writing",
+          "interaction_id": "U59_I60"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 469 (Future: Space Travel):",
+          "stimulus_en": "Improve Future: Space Travel. (419)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U59_I61"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 411 (Future: Space Travel):",
+          "stimulus": "Matching set 5151.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Si pasamos la oración an interrogativa, quedaría así.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, también va en oraciones negativas, como en el ejemplo de arriba (I don’t have many friends), pero también en positivas, por ejemplo.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "Do you have any friends who live near your house? = al ser interrogativa, any."
+            },
+            {
+              "id": "m2",
+              "text": "Jennifer usually goes out to see a concert."
+            },
+            {
+              "id": "m1",
+              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oración positiva, ya sea con sustantivos contables o incontables."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I62"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 411 (Future: Space Travel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "¿De dónde eres?"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "There are a lot of bars near my house."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I63"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 411 (Future: Space Travel):",
+          "main_text": "In Future: Space Travel (8946), My brother [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked."
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "wrote"
+                },
+                {
+                  "id": "o2",
+                  "text": "write"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I64"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 411 para Future: Space Travel:",
+          "stimulus_en": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/.",
+          "stimulus_es": "En matématicas, por ejemplo, con número decimales.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 8789."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I65"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 411 sobre Future: Space Travel:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "or"
+            },
+            {
+              "id": "w3",
+              "text": "those="
+            },
+            {
+              "id": "w7",
+              "text": "those"
+            },
+            {
+              "id": "w1",
+              "text": "books"
+            },
+            {
+              "id": "w6",
+              "text": "are"
+            },
+            {
+              "id": "w8",
+              "text": "books"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "Whose"
+            },
+            {
+              "id": "w5",
+              "text": "Whose"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U59_I66"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 470 (Future: Space Travel):",
+          "stimulus_en": "What time do we have our exam (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I67"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 470 (Future: Space Travel)",
+          "stimulus_en": "any + thing = en oración INTERROGATIVA.",
+          "stimulus_es": "Ref: Encontraste algo ahí?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U59_I68"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 470 (Future: Space Travel):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
+            },
+            {
+              "id": "p1",
+              "left": "Algunos ejemplos.",
+              "right": "at in on for to of without."
+            },
+            {
+              "id": "p2",
+              "left": "Movie (Br Eng.",
+              "right": "film) Película."
+            },
+            {
+              "id": "p3",
+              "left": "Bookstore (Br Eng.",
+              "right": "bookshop) Librería."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I69"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 470 (Future: Space Travel):",
+          "tts_en": "Did anybody say my name.",
+          "correct_answer": "Did anybody say my name",
+          "mastery_tag": "listening",
+          "interaction_id": "U59_I70"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 470:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I71"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 470 - Future: Space Travel:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "The correct thing.",
+              "back": "information, homework, work."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I72"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 470 (Future: Space Travel):",
+          "instruction_en": "List 3 facts about Future: Space Travel. [Ref: 30]",
+          "mastery_tag": "writing",
+          "interaction_id": "U59_I73"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 470 (Future: Space Travel):",
+          "stimulus_en": "Talk about Future: Space Travel. (854)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U59_I74"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 412 (Future: Space Travel):",
+          "stimulus": "Matching set 3937.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "4. La pelota de las niñas.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Has estado alguna vez en Canadá?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "1. el primer elemento (de esos tres que decíamos antes) es una persona. Ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m0",
+              "text": "The girls’ ball."
+            },
+            {
+              "id": "m2",
+              "text": "John‘s job is boring."
+            },
+            {
+              "id": "m1",
+              "text": "have you ever been to Canada."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U59_I75"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 412 (Future: Space Travel):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "I can to speak English."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "la casa de María es grande = María’s house is big."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U59_I76"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 412 (Future: Space Travel):",
+          "main_text": "In Future: Space Travel (559), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -842,907 +1663,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "work"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 409 para Future: Space Travel:",
-          "stimulus_en": "Have you ever tried Thai food (now)",
-          "stimulus_es": "Alguna vez has probado la comida tailandesa? (now)",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 7274"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 409 sobre Future: Space Travel:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "inversi\u00f3n"
-            },
-            {
-              "id": "w0",
-              "text": "s\u00f3lo"
-            },
-            {
-              "id": "w5",
-              "text": "(now)"
-            },
-            {
-              "id": "w3",
-              "text": "por"
-            },
-            {
-              "id": "w4",
-              "text": "oraci\u00f3n"
-            },
-            {
-              "id": "w1",
-              "text": "una"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U59_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 468 (Future: Space Travel):",
-          "stimulus_en": "I haven\u2019t a car.... (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 468 (Future: Space Travel)",
-          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday. - interesting",
-          "stimulus_es": "Ref: Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - interesting",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 468 (Future: Space Travel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Te veo el s\u00e1bado!",
-              "right": "I\u2019ll see you on Saturday!"
-            },
-            {
-              "id": "p1",
-              "left": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo.",
-              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural.."
-            },
-            {
-              "id": "p2",
-              "left": "\u2022in the fall (Br Eng!",
-              "right": "autumn) En oto\u00f1o!"
-            },
-            {
-              "id": "p3",
-              "left": "5. never / drinks coffee in the evening / she - 767",
-              "right": "she never drinks coffee in the evening - 767"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 468 (Future: Space Travel):",
-          "tts_en": "may I open the window, please (today)",
-          "correct_answer": "may I open the window, please (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U59_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 468:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o4",
-              "text": "Fast3241"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 468 - Future: Space Travel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Deciros que s\u00f3lo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. \u00c9stas son - 372",
-              "back": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar. - 372"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 468 (Future: Space Travel):",
-          "instruction_en": "Draft an email regarding Future: Space Travel. [Ref: 75]",
-          "mastery_tag": "writing",
-          "interaction_id": "U59_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 468 (Future: Space Travel):",
-          "stimulus_en": "Improve Future: Space Travel. (483)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U59_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 410 (Future: Space Travel):",
-          "stimulus": "Matching set 9481",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo - 364",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "This is another translation - amazing",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m2",
-              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "Can I have your ID/ passport/ credit card?.."
-            },
-            {
-              "id": "m1",
-              "text": "Spain\u2018s monuments are very nice. - 364"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 410 (Future: Space Travel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "Your grandmother\u2019s juice - 691"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "My cousins\u2019 house is very big."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 410 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (6264), The manager [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "checked"
-                },
-                {
-                  "id": "o2",
-                  "text": "check"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I51"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 410 para Future: Space Travel:",
-          "stimulus_en": "film) Pel\u00edcula - interesting",
-          "stimulus_es": "Movie (Br Eng - interesting",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 4433"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I52"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 410 sobre Future: Space Travel:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "for"
-            },
-            {
-              "id": "w1",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "without"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "at"
-            },
-            {
-              "id": "w7",
-              "text": "(now)"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U59_I53"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 469 (Future: Space Travel):",
-          "stimulus_en": "Peter\u2019s sisters - 575 (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I54"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 469 (Future: Space Travel)",
-          "stimulus_en": "My neighbour always spoils my holidays...",
-          "stimulus_es": "Ref: my / My / spoils / neighbour / holidays / always...",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I55"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 469 (Future: Space Travel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos.",
-              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle.."
-            },
-            {
-              "id": "p1",
-              "left": "2. La hamburguesa de Harry - interesting",
-              "right": "Harry\u2019s burger - interesting"
-            },
-            {
-              "id": "p2",
-              "left": "Otro ejemplo (now)",
-              "right": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. (now)"
-            },
-            {
-              "id": "p3",
-              "left": "En qu\u00e9 trabaja Juan?!",
-              "right": "What does Juan do!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I56"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 469 (Future: Space Travel):",
-          "tts_en": "Where did he/she tell you (today)",
-          "correct_answer": "Where did he/she tell you (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U59_I57"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 469:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o4",
-              "text": "bike5540"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o2",
-              "text": "pear"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I58"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 469 - Future: Space Travel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "The correct thing.",
-              "back": "I haven\u2019t got a car.."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I59"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 469 (Future: Space Travel):",
-          "instruction_en": "Write a note about Future: Space Travel. [Ref: 46]",
-          "mastery_tag": "writing",
-          "interaction_id": "U59_I60"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 469 (Future: Space Travel):",
-          "stimulus_en": "Focus on Future: Space Travel. (752)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U59_I61"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 411 (Future: Space Travel):",
-          "stimulus": "Matching set 1798",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Veamos una oraci\u00f3n con futuro (now)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca?!",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
-            },
-            {
-              "id": "m1",
-              "text": "What will the weather be like tomorrow? It\u2019ll be sunny. (now)"
-            },
-            {
-              "id": "m2",
-              "text": "Who\u2019s the shyest person you\u2019ve ever met!"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I62"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 411 (Future: Space Travel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n.."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "What time does the bus leave - interesting"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I63"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 411 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (6340), They [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "finished"
-                },
-                {
-                  "id": "o2",
-                  "text": "finish"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 411 para Future: Space Travel:",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora..",
-          "stimulus_es": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces tambi\u00e9n utilizamos -ing para personas, y \u00bfcu\u00e1ndo? Debes tener en cuenta que la terminaci\u00f3n -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Other 4838"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 411 sobre Future: Space Travel:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w11",
-              "text": "of"
-            },
-            {
-              "id": "w13",
-              "text": "interesting"
-            },
-            {
-              "id": "w8",
-              "text": "have"
-            },
-            {
-              "id": "w10",
-              "text": "lot"
-            },
-            {
-              "id": "w7",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "money"
-            },
-            {
-              "id": "w12",
-              "text": "friends"
-            },
-            {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U59_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 470 (Future: Space Travel):",
-          "stimulus_en": "do you have any shoes for the wedding (now) (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 470 (Future: Space Travel)",
-          "stimulus_en": "Had you got a motorbike\u2026? - interesting",
-          "stimulus_es": "Ref: Common mistake - interesting",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U59_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 470 (Future: Space Travel):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "The correct thing - interesting",
-              "right": "Have you got a car? - interesting"
-            },
-            {
-              "id": "p1",
-              "left": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar.",
-              "right": "read, write, eat, run, sleep, etc."
-            },
-            {
-              "id": "p2",
-              "left": "2. Play football on Saturday afternoons / the boys / always (now)",
-              "right": "the boys always play football on Saturday afternoons (now)"
-            },
-            {
-              "id": "p3",
-              "left": "4. go to bed before 11 / often / I!",
-              "right": "I often go to bed before 11!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 470 (Future: Space Travel):",
-          "tts_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!",
-          "correct_answer": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!",
-          "mastery_tag": "listening",
-          "interaction_id": "U59_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 470:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o4",
-              "text": "rain6285"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 470 - Future: Space Travel:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Tyre (Am Eng (now)",
-              "back": "tire) Neum\u00e1tico (now)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 470 (Future: Space Travel):",
-          "instruction_en": "Write a note about Future: Space Travel. [Ref: 65]",
-          "mastery_tag": "writing",
-          "interaction_id": "U59_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 470 (Future: Space Travel):",
-          "stimulus_en": "Repeat Future: Space Travel. (781)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U59_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 412 (Future: Space Travel):",
-          "stimulus": "Matching set 6779",
-          "items": [
-            {
-              "id": "i0",
-              "text": "Tienes hijos? - amazing",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Escribir ingl\u00e9s correctamente...",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s? - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "Do you have any children - amazing"
-            },
-            {
-              "id": "m1",
-              "text": "uso de las may\u00fasculas..."
-            },
-            {
-              "id": "m2",
-              "text": "Is she studying English - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U59_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 412 (Future: Space Travel):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "What\u2019s the funniest joke you\u2019ve ever been told!"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "preguntas en ingl\u00e9s (today)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U59_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 412 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (5216), John [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "finished"
-                },
-                {
-                  "id": "o2",
-                  "text": "finish"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
+                  "text": "meet"
                 }
               ]
             }
@@ -1755,22 +1680,22 @@
           "interaction_id": "U59_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 412 para Future: Space Travel:",
-          "stimulus_en": "are there any peas in the fridge...",
-          "stimulus_es": "Hay guisantes en el frigo?...",
+          "stimulus_en": "on 5th May, on Christmas Day, on New Year’s Eve, on St. Valentine’s Day, on my birthday = siempre que sea una fecha concreta, ese día y no otro, utilizamos la preposición on.",
+          "stimulus_es": "– Fechas concretas.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 3610"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 7740."
             }
           ],
           "correct_answer": "o1",
@@ -1778,126 +1703,141 @@
           "interaction_id": "U59_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 412 sobre Future: Space Travel:",
           "options": [
             {
-              "id": "w0",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "been"
-            },
-            {
               "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "ever"
-            },
-            {
-              "id": "w6",
-              "text": "696"
-            },
-            {
-              "id": "w5",
-              "text": "Canada"
+              "text": "partner."
             },
             {
               "id": "w4",
-              "text": "to"
+              "text": "most"
+            },
+            {
+              "id": "w5",
+              "text": "beautiful."
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "woman"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U59_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 471 (Future: Space Travel):",
-          "stimulus_en": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna.! (___)",
+          "stimulus_en": "What time is it (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U59_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 471 (Future: Space Travel)",
-          "stimulus_en": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing",
-          "stimulus_es": "Ref: Otro ejemplo - amazing",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 471 (Future: Space Travel)",
+          "stimulus_en": "have you seen my keys anywhere.",
+          "stimulus_es": "Ref: Has visto mis llaves en algún sitio?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U59_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 471 (Future: Space Travel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "see / usually / Jennifer / out / goes / a / to / concert...",
-              "right": "Jennifer usually goes out to see a concert..."
+              "left": "Mi cumpleaños es en febrero.",
+              "right": "my birthday is in February."
             },
             {
               "id": "p1",
-              "left": "Mi cumplea\u00f1os es en febrero (today)",
-              "right": "my birthday is in February. (today)"
+              "left": "Common mistake.",
+              "right": "Had you got a motorbike…?"
             },
             {
               "id": "p2",
-              "left": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo - interesting",
-              "right": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - interesting"
+              "left": "2. el primer elemento es un animal. Ejemplo.",
+              "right": "the bird‘s legs = las piernas del pájaro."
             },
             {
               "id": "p3",
-              "left": "Empecemos analizando el siguiente ejemplo - interesting",
-              "right": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
+              "left": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "right": "how often do you have Italian classes? = I have every Tuesday."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 471 (Future: Space Travel):",
-          "tts_en": "Next to my house there is a nursery school.!",
-          "correct_answer": "Next to my house there is a nursery school.!",
+          "tts_en": "It’s mine (es mía) o it’s his (es suya – de él)",
+          "correct_answer": "It’s mine (es mía) o it’s his (es suya – de él)",
           "mastery_tag": "listening",
           "interaction_id": "U59_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 471:",
           "options": [
             {
-              "id": "o3",
-              "text": "soup"
-            },
-            {
               "id": "o4",
-              "text": "rain4645"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
+              "text": "Book"
             },
             {
               "id": "o1",
-              "text": "burger"
+              "text": "Piano"
+            },
+            {
+              "id": "o0",
+              "text": "Guitar."
+            },
+            {
+              "id": "o3",
+              "text": "Drums"
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "Flute"
             }
           ],
           "correct_answer": "o4",
@@ -1905,65 +1845,65 @@
           "interaction_id": "U59_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 471 - Future: Space Travel:",
           "cards": [
             {
               "id": "c1",
-              "front": "I / fish / often / hours / for / catching / anything / without - interesting",
-              "back": "I often fish for hours without catching anything - interesting"
+              "front": "7. La casa de mis primos es muy grande.",
+              "back": "My cousins’ house is very big."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 471 (Future: Space Travel):",
-          "instruction_en": "Write a note about Future: Space Travel. [Ref: 91]",
+          "instruction_en": "Your daily routine in Future: Space Travel. [Ref: 59]",
           "mastery_tag": "writing",
           "interaction_id": "U59_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 471 (Future: Space Travel):",
-          "stimulus_en": "Where is Future: Space Travel? (914)",
+          "stimulus_en": "Look at Future: Space Travel. (145)",
           "mastery_tag": "speaking",
           "interaction_id": "U59_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 413 (Future: Space Travel):",
-          "stimulus": "Matching set 280",
+          "stimulus": "Matching set 1212.",
           "items": [
             {
               "id": "i0",
-              "text": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo.",
+              "text": "Movie star (Br Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?...",
+              "text": "Al lado de mi casa hay una guardería.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "A qu\u00e9 hora sale el tren?...",
+              "text": "Otro ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "What time does the train leave..."
+              "id": "m1",
+              "text": "Next to my house there is a nursery school."
             },
             {
               "id": "m0",
-              "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019.."
+              "text": "film star) Estrella de cine."
             },
             {
-              "id": "m1",
-              "text": "What\u2019s the saddest song you\u2019ve ever listened to..."
+              "id": "m2",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
             }
           ],
           "correct_answer": {
@@ -1975,26 +1915,26 @@
           "interaction_id": "U59_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 413 (Future: Space Travel):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Why didn\u2019t you tell me."
+                  "text": "Have you a car?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "would you like some coke? - 922"
+                  "text": "my cousin’s husband is German and his mother Irish."
                 }
               ]
             }
@@ -2003,20 +1943,20 @@
           "interaction_id": "U59_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 413 (Future: Space Travel):",
-          "main_text": "In Future: Space Travel (3034), The chef [GAP 1] and [GAP 2].",
+          "main_text": "In Future: Space Travel (5459), The teacher [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "cooked."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "cook"
                 }
               ]
             },
@@ -2025,11 +1965,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "travel."
                 }
               ]
             }
@@ -2042,22 +1982,22 @@
           "interaction_id": "U59_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 413 para Future: Space Travel:",
-          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet...",
-          "stimulus_es": "puedo abrir la ventana, por favor?...",
+          "stimulus_en": "What’s the most delicious food you’ve ever tasted.",
+          "stimulus_es": "Cuál es la comida más buena que has probado nunca?",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 2701"
+              "text": "Other 8646."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -2065,106 +2005,196 @@
           "interaction_id": "U59_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 413 sobre Future: Space Travel:",
           "options": [
             {
-              "id": "w0",
-              "text": "verb"
+              "id": "w19",
+              "text": "indefinido."
             },
             {
-              "id": "w2",
-              "text": "interesting"
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w6",
+              "text": "lleva"
+            },
+            {
+              "id": "w17",
+              "text": "un"
+            },
+            {
+              "id": "w14",
+              "text": "our"
             },
             {
               "id": "w1",
-              "text": "patters"
+              "text": "específica."
+            },
+            {
+              "id": "w7",
+              "text": "un"
+            },
+            {
+              "id": "w16",
+              "text": "o"
+            },
+            {
+              "id": "w10",
+              "text": "(my"
+            },
+            {
+              "id": "w20",
+              "text": "(a)"
+            },
+            {
+              "id": "w8",
+              "text": "possessive."
+            },
+            {
+              "id": "w15",
+              "text": "their)"
+            },
+            {
+              "id": "w13",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "ésta"
+            },
+            {
+              "id": "w9",
+              "text": "adjective."
+            },
+            {
+              "id": "w5",
+              "text": "siempre."
+            },
+            {
+              "id": "w0",
+              "text": "situación."
+            },
+            {
+              "id": "w2",
+              "text": "="
+            },
+            {
+              "id": "w18",
+              "text": "artículo."
+            },
+            {
+              "id": "w12",
+              "text": "his"
+            },
+            {
+              "id": "w4",
+              "text": "opción."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U59_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 472 (Future: Space Travel):",
-          "stimulus_en": "She drives carefully. - interesting (___)",
+          "stimulus_en": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents». (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U59_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 472 (Future: Space Travel)",
-          "stimulus_en": "durante o desde hace.",
-          "stimulus_es": "Ref: \u2013 For + period of time (not defined).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 472 (Future: Space Travel)",
+          "stimulus_en": "chemist) Farmacia.",
+          "stimulus_es": "Ref: Drugstore (Br Eng.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U59_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 472 (Future: Space Travel):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Por ejemplo (now)",
-              "right": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (now)"
+              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
+              "right": "I hardly ever go to the cinema = casi nunca voy al cine."
             },
             {
               "id": "p1",
-              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
-              "right": "Sometimes I have lunch in a restaurant.!"
+              "left": "Cuál es la playa más larga en la que has estado nunca?",
+              "right": "What’s the longest beach you’ve ever been to."
             },
             {
               "id": "p2",
-              "left": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo...",
-              "right": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado...."
+              "left": "Tienes hermanos?",
+              "right": "do you have any brothers or sisters."
             },
             {
               "id": "p3",
-              "left": "Un ejemplo de to seguido de infinitivo es (now)",
-              "right": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (now)"
+              "left": "Pack Empaquetar •Pack a suitcase Page Pain Paint Painter Painting Pale Pair •A pair of shoes Panda Paper Paragraph Pardon •Pardon? Parent Park Parking lot (Br Eng.",
+              "right": "car park) Parrot Part •The best part of the day Partner Party Pass •You pass the station on the."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 472 (Future: Space Travel):",
-          "tts_en": "What\u2019s the most difficult language you\u2019ve ever studied - 681",
-          "correct_answer": "What\u2019s the most difficult language you\u2019ve ever studied - 681",
+          "tts_en": "What time does the supermarket open.",
+          "correct_answer": "What time does the supermarket open",
           "mastery_tag": "listening",
           "interaction_id": "U59_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 472:",
           "options": [
             {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o4",
-              "text": "Pen3913"
-            },
-            {
               "id": "o3",
-              "text": "Bed"
+              "text": "pink"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
             },
             {
               "id": "o2",
-              "text": "Sofa"
+              "text": "green"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o4",
+              "text": "run"
             }
           ],
           "correct_answer": "o4",
@@ -2172,29 +2202,29 @@
           "interaction_id": "U59_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 472 - Future: Space Travel:",
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake (today)",
-              "back": "I don\u2019t know that I will do. (today)"
+              "front": "Qué es lo que empieza?",
+              "back": "la película, entonces SUBJECT = THE FILM."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U59_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 472 (Future: Space Travel):",
-          "instruction_en": "Explain Countable/Uncountable using Future: Space Travel. [Ref: 61]",
+          "instruction_en": "Draft an email regarding Future: Space Travel. [Ref: 60]",
           "mastery_tag": "writing",
           "interaction_id": "U59_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 472 (Future: Space Travel):",
-          "stimulus_en": "Look at Future: Space Travel. (270)",
+          "stimulus_en": "Repeat Future: Space Travel. (679)",
           "mastery_tag": "speaking",
           "interaction_id": "U59_I100"
         }

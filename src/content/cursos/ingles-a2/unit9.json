@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit9",
-    "unit_title": "Superlatives + Present Perfect - Food: At a Restaurant",
+    "unit_title": "Superlatives + Present Perfect - Food: At a Restaurant.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U9_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 9",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 9.",
           "tts_en": "Starting unit 9. Topic: Food: At a Restaurant. Focus: Superlatives + Present Perfect.",
           "mastery_tag": "listening",
           "interaction_id": "U9_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 65 (Food: At a Restaurant):",
-          "stimulus_en": "This a gift is ___ in the shop..",
+          "stimulus_en": "This computer is ___ in the balcony.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 65 (Food: At a Restaurant)",
-          "stimulus_en": "This English is the most expensive in the mountains..",
-          "stimulus_es": "Ref: Este English es el m\u00e1s caro en the mountains..",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 65 (Food: At a Restaurant)",
+          "stimulus_en": "This football is expensive in the stadium.",
+          "stimulus_es": "Ref: Este football es el más caro en the stadium.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 65 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a bag es el m\u00e1s caro en the country - 332.",
-              "right": "This a bag is the most expensive in the country - 332."
+              "left": "Este book es el más caro en the hotel.",
+              "right": "This book is the most expensive in the hotel."
             },
             {
               "id": "p1",
-              "left": "Este an apple es el m\u00e1s caro en Paris....",
-              "right": "This an apple is the most expensive in Paris...."
+              "left": "Este television es el más caro en the hospital.",
+              "right": "This television is the most expensive in the hospital."
             },
             {
               "id": "p2",
-              "left": "Este a laptop es el m\u00e1s caro en the cinema (today).",
-              "right": "This a laptop is the most expensive in the cinema (today)."
+              "left": "Este sandwich es el más caro en the bedroom.",
+              "right": "This sandwich is the most expensive in the bedroom."
             },
             {
               "id": "p3",
-              "left": "Este a clock es el m\u00e1s caro en the street..",
-              "right": "This a clock is the most expensive in the street.."
+              "left": "Este television es el más caro en the park.",
+              "right": "This television is the most expensive in the park."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 65 (Food: At a Restaurant):",
-          "tts_en": "This a computer is the most expensive in the street!.",
-          "correct_answer": "This a computer is the most expensive in the street!.",
+          "tts_en": "This computer is the most expensive in school.",
+          "correct_answer": "This computer is the most expensive in school",
           "mastery_tag": "listening",
           "interaction_id": "U9_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 65:",
           "options": [
             {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o1",
+              "text": "burger."
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "salad"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
             },
             {
               "id": "o4",
-              "text": "Hot4736"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
+              "text": "rain"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U9_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 65 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing...",
-              "back": "I went to a state school...."
+              "front": "Eraser (Br Eng.",
+              "back": "rubber) Goma de borrar."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 65 (Food: At a Restaurant):",
-          "instruction_en": "Compare Food: At a Restaurant with another topic. [Ref: 97]",
+          "instruction_en": "Draft an email regarding Food: At a Restaurant. [Ref: 15]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 65 (Food: At a Restaurant):",
-          "stimulus_en": "Where is Food: At a Restaurant? (187)",
+          "stimulus_en": "Focus on Food: At a Restaurant. (898)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 57 (Food: At a Restaurant):",
-          "stimulus": "Matching set 5558",
+          "stimulus": "Matching set 8833.",
           "items": [
             {
               "id": "i0",
-              "text": "Los adjetivos tienen tres formas!",
+              "text": "3. el primer elemento es un país/ciudad/pueblo… Ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "C\u00f3mo se llama \u00e9l? (now)",
+              "text": "4. La pelota de las niñas.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar (today)",
+              "text": "Si el número lleva un 0 por en medio, 1903, decimos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "Spain‘s monuments are very nice."
+            },
+            {
               "id": "m2",
-              "text": "read, write, eat, run, sleep, etc (today)"
+              "text": "nineteen oh three. Ten encuenta que el número cero lo decimos aquí «oh». El número cero se puede expresar de muchas formas distintas en inglés, según de cómo se esté utilizando. Ahora después lo veremos en detalle."
             },
             {
               "id": "m1",
-              "text": "What\u2019s his name (now)"
-            },
-            {
-              "id": "m0",
-              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.!"
+              "text": "The girls’ ball."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U9_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 57 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil.."
+                  "text": "she never drinks coffee in the evening."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - amazing"
+                  "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U9_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 57 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (289), The architect [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (8320), The singer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "finish."
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "read"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U9_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 57 para Food: At a Restaurant:",
-          "stimulus_en": "This a window is the most expensive in London - 600.",
-          "stimulus_es": "Este a window es el m\u00e1s caro en London - 600.",
+          "stimulus_en": "This bike is the most expensive in the library.",
+          "stimulus_es": "Este bike es el más caro en the library.",
           "options": [
             {
               "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 7144"
+              "text": "Other 6398."
+            },
+            {
+              "id": "o2",
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -263,32 +263,24 @@
           "interaction_id": "U9_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 57 sobre Food: At a Restaurant:",
           "options": [
             {
-              "id": "w7",
-              "text": "Paris"
-            },
-            {
               "id": "w1",
-              "text": "football"
-            },
-            {
-              "id": "w6",
-              "text": "in"
+              "text": "music"
             },
             {
               "id": "w4",
               "text": "most"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w6",
+              "text": "in"
             },
             {
-              "id": "w5",
-              "text": "expensive"
+              "id": "w7",
+              "text": "the"
             },
             {
               "id": "w2",
@@ -297,97 +289,110 @@
             {
               "id": "w3",
               "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w8",
+              "text": "beach"
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 66 (Food: At a Restaurant):",
-          "stimulus_en": "This coffee is ___ in the beach - interesting.",
+          "stimulus_en": "This watch is ___ in the shop.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 66 (Food: At a Restaurant)",
-          "stimulus_en": "This a computer is the most expensive in the university..",
-          "stimulus_es": "Ref: Este a computer es el m\u00e1s caro en the university..",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 66 (Food: At a Restaurant)",
+          "stimulus_en": "This ticket is expensive in the university.",
+          "stimulus_es": "Ref: Este ticket es el más caro en the university.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 66 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a television es el m\u00e1s caro en the station (now).",
-              "right": "This a television is the most expensive in the station (now)."
+              "left": "Este table es el más caro en the balcony.",
+              "right": "This table is the most expensive in the balcony."
             },
             {
               "id": "p1",
-              "left": "Este a clock es el m\u00e1s caro en the library - 677.",
-              "right": "This a clock is the most expensive in the library - 677."
+              "left": "Este television es el más caro en the garden.",
+              "right": "This television is the most expensive in the garden."
             },
             {
               "id": "p2",
-              "left": "Este a sandwich es el m\u00e1s caro en the airport (today).",
-              "right": "This a sandwich is the most expensive in the airport (today)."
+              "left": "Este television es el más caro en London.",
+              "right": "This television is the most expensive in London."
             },
             {
               "id": "p3",
-              "left": "Este a house es el m\u00e1s caro en the cinema - amazing.",
-              "right": "This a house is the most expensive in the cinema - amazing."
+              "left": "Este bike es el más caro en the mountains.",
+              "right": "This bike is the most expensive in the mountains."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 66 (Food: At a Restaurant):",
-          "tts_en": "This a house is the most expensive in the restaurant - interesting.",
-          "correct_answer": "This a house is the most expensive in the restaurant - interesting.",
+          "tts_en": "This watch is the most expensive in the balcony.",
+          "correct_answer": "This watch is the most expensive in the balcony",
           "mastery_tag": "listening",
           "interaction_id": "U9_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 66:",
           "options": [
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Friday."
             },
             {
               "id": "o0",
-              "text": "apple"
-            },
-            {
-              "id": "o4",
-              "text": "bike7505"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
+              "text": "Monday."
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "Sunday."
+            },
+            {
+              "id": "o4",
+              "text": "June"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
             }
           ],
           "correct_answer": "o4",
@@ -395,65 +400,65 @@
           "interaction_id": "U9_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 66 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "2. Play football on Saturday afternoons / the boys / always - amazing",
-              "back": "the boys always play football on Saturday afternoons - amazing"
+              "front": "Al lado de mi colegio no hay bloques de pisos.",
+              "back": "Next to my school there aren’t any apartment blocks."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 66 (Food: At a Restaurant):",
-          "instruction_en": "Why is Food: At a Restaurant important? [Ref: 40]",
+          "instruction_en": "Review Food: At a Restaurant from last week. [Ref: 53]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 66 (Food: At a Restaurant):",
-          "stimulus_en": "Study Food: At a Restaurant now. (565)",
+          "stimulus_en": "Repeat Food: At a Restaurant. (289)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 58 (Food: At a Restaurant):",
-          "stimulus": "Matching set 8466",
+          "stimulus": "Matching set 2583.",
           "items": [
             {
               "id": "i0",
-              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example.",
+              "text": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "C\u00f3mo se siente tu madre? - interesting",
+              "text": "Has visto mis llaves en algún sitio?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo.",
+              "text": "Algunos ejemplos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.."
+              "id": "m0",
+              "text": "how often do you have Italian classes? = I have every Tuesday."
             },
             {
               "id": "m1",
-              "text": "How is your mum feeling - interesting"
+              "text": "have you seen my keys anywhere."
             },
             {
-              "id": "m0",
-              "text": "may come, might go.."
+              "id": "m2",
+              "text": "at in on for to of without."
             }
           ],
           "correct_answer": {
@@ -465,26 +470,26 @@
           "interaction_id": "U9_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 58 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "She drives carefully. - interesting"
+                  "text": "I went to a state school."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Do you have any children - amazing"
+                  "text": "What’s the funniest joke you’ve ever been told."
                 }
               ]
             }
@@ -493,20 +498,20 @@
           "interaction_id": "U9_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 58 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (9471), The manager [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (7833), The police officer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "visited."
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "visit"
                 }
               ]
             },
@@ -515,11 +520,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "plan"
                 }
               ]
             }
@@ -532,22 +537,22 @@
           "interaction_id": "U9_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 58 para Food: At a Restaurant:",
-          "stimulus_en": "This a camera is the most expensive in the restaurant....",
-          "stimulus_es": "Este a camera es el m\u00e1s caro en the restaurant....",
+          "stimulus_en": "This newspaper is the most expensive in the university.",
+          "stimulus_es": "Este newspaper es el más caro en the university.",
           "options": [
             {
               "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 2366"
+              "text": "Other 933."
+            },
+            {
+              "id": "o2",
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -555,141 +560,131 @@
           "interaction_id": "U9_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 58 sobre Food: At a Restaurant:",
           "options": [
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
               "id": "w6",
-              "text": "expensive"
+              "text": "in"
             },
             {
-              "id": "w2",
-              "text": "gift"
-            },
-            {
-              "id": "w9",
-              "text": "library"
+              "id": "w1",
+              "text": "bag"
             },
             {
               "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w4",
               "text": "most"
             },
             {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
               "id": "w7",
-              "text": "in"
+              "text": "school."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 67 (Food: At a Restaurant):",
-          "stimulus_en": "This a table is ___ in the airport (now).",
+          "stimulus_en": "This bag is ___ in the balcony.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 67 (Food: At a Restaurant)",
-          "stimulus_en": "This a house is expensive in the beach!.",
-          "stimulus_es": "Ref: Este a house es el m\u00e1s caro en the beach!.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 67 (Food: At a Restaurant)",
+          "stimulus_en": "This television is expensive in school.",
+          "stimulus_es": "Ref: Este television es el más caro en school.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 67 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este tennis es el m\u00e1s caro en the station!.",
-              "right": "This tennis is the most expensive in the station!."
+              "left": "Este computer es el más caro en the bank.",
+              "right": "This computer is the most expensive in the bank."
             },
             {
               "id": "p1",
-              "left": "Este a sandwich es el m\u00e1s caro en the gym (today).",
-              "right": "This a sandwich is the most expensive in the gym (today)."
+              "left": "Este music es el más caro en Paris.",
+              "right": "This music is the most expensive in Paris."
             },
             {
               "id": "p2",
-              "left": "Este football es el m\u00e1s caro en the beach - interesting.",
-              "right": "This football is the most expensive in the beach - interesting."
+              "left": "Este music es el más caro en the garage.",
+              "right": "This music is the most expensive in the garage."
             },
             {
               "id": "p3",
-              "left": "Este a chair es el m\u00e1s caro en the garage!.",
-              "right": "This a chair is the most expensive in the garage!."
+              "left": "Este printer es el más caro en the city.",
+              "right": "This printer is the most expensive in the city."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 67 (Food: At a Restaurant):",
-          "tts_en": "This a letter is the most expensive in the balcony!.",
-          "correct_answer": "This a letter is the most expensive in the balcony!.",
+          "tts_en": "This apple is the most expensive in the museum.",
+          "correct_answer": "This apple is the most expensive in the museum",
           "mastery_tag": "listening",
           "interaction_id": "U9_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 67:",
           "options": [
             {
-              "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o3",
-              "text": "plane"
-            },
-            {
               "id": "o2",
-              "text": "train"
+              "text": "Angry"
             },
             {
               "id": "o4",
-              "text": "cat9038"
+              "text": "Fast"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
             }
           ],
           "correct_answer": "o4",
@@ -697,65 +692,65 @@
           "interaction_id": "U9_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 67 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "Has jugado alguna vez al ajedrez? - amazing",
-              "back": "have you ever played chess - amazing"
+              "front": "The correct thing.",
+              "back": "Have you got a car?"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 67 (Food: At a Restaurant):",
-          "instruction_en": "List 3 facts about Food: At a Restaurant. [Ref: 34]",
+          "instruction_en": "Write a note about Food: At a Restaurant. [Ref: 49]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 67 (Food: At a Restaurant):",
-          "stimulus_en": "Talk about Food: At a Restaurant. (762)",
+          "stimulus_en": "Study Food: At a Restaurant now. (231)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 59 (Food: At a Restaurant):",
-          "stimulus": "Matching set 5094",
+          "stimulus": "Matching set 8078.",
           "items": [
             {
               "id": "i0",
-              "text": "Bookstore (Br Eng (today)",
+              "text": "Has estado alguna vez en Canadá?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo!",
+              "text": "Otro ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo (now)",
+              "text": "Chips (Br Eng) (Am Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural.!"
+              "id": "m2",
+              "text": "biscuit) Patatas fritas."
             },
             {
               "id": "m0",
-              "text": "bookshop) Librer\u00eda (today)"
+              "text": "have you ever been to Canada."
             },
             {
-              "id": "m2",
-              "text": "John\u2018s job is boring. (now)"
+              "id": "m1",
+              "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
             }
           ],
           "correct_answer": {
@@ -767,26 +762,26 @@
           "interaction_id": "U9_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 59 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Indirect questions en ingl\u00e9s.!"
+                  "text": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework..."
+                  "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
                 }
               ]
             }
@@ -795,20 +790,20 @@
           "interaction_id": "U9_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 59 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (2898), The police officer [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (2261), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "travel."
                 }
               ]
             },
@@ -817,11 +812,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "receive."
                 }
               ]
             }
@@ -834,22 +829,22 @@
           "interaction_id": "U9_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 59 para Food: At a Restaurant:",
-          "stimulus_en": "This a table is the most expensive in the hospital....",
-          "stimulus_es": "Este a table es el m\u00e1s caro en the hospital....",
+          "stimulus_en": "This door is the most expensive in the park.",
+          "stimulus_es": "Este door es el más caro en the park.",
           "options": [
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o3",
+              "text": "Other 6143."
             },
             {
-              "id": "o3",
-              "text": "Other 846"
+              "id": "o1",
+              "text": "the most expensive."
             },
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -857,146 +852,136 @@
           "interaction_id": "U9_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 59 sobre Food: At a Restaurant:",
           "options": [
             {
-              "id": "w9",
-              "text": "restaurant"
+              "id": "w5",
+              "text": "expensive."
             },
             {
-              "id": "w6",
-              "text": "expensive"
+              "id": "w1",
+              "text": "newspaper."
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "window"
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "balcony."
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w5",
+              "id": "w4",
               "text": "most"
             },
             {
-              "id": "w4",
-              "text": "the"
+              "id": "w6",
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 68 (Food: At a Restaurant):",
-          "stimulus_en": "This a dog is ___ in the library..",
+          "stimulus_en": "This dog is ___ in the garden.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 68 (Food: At a Restaurant)",
-          "stimulus_en": "This music is expensive in the cinema - interesting.",
-          "stimulus_es": "Ref: Este music es el m\u00e1s caro en the cinema - interesting.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 68 (Food: At a Restaurant)",
+          "stimulus_en": "This English is the most expensive in Paris.",
+          "stimulus_es": "Ref: Este English es el más caro en Paris.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 68 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a phone es el m\u00e1s caro en the restaurant..",
-              "right": "This a phone is the most expensive in the restaurant.."
+              "left": "Este bike es el más caro en London.",
+              "right": "This bike is the most expensive in London."
             },
             {
               "id": "p1",
-              "left": "Este a television es el m\u00e1s caro en the restaurant - amazing.",
-              "right": "This a television is the most expensive in the restaurant - amazing."
+              "left": "Este bag es el más caro en the kitchen.",
+              "right": "This bag is the most expensive in the kitchen."
             },
             {
               "id": "p2",
-              "left": "Este a letter es el m\u00e1s caro en the woods....",
-              "right": "This a letter is the most expensive in the woods...."
+              "left": "Este ticket es el más caro en the museum.",
+              "right": "This ticket is the most expensive in the museum."
             },
             {
               "id": "p3",
-              "left": "Este a camera es el m\u00e1s caro en the balcony - interesting.",
-              "right": "This a camera is the most expensive in the balcony - interesting."
+              "left": "Este clock es el más caro en the beach.",
+              "right": "This clock is the most expensive in the beach."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 68 (Food: At a Restaurant):",
-          "tts_en": "This a chair is the most expensive in the street....",
-          "correct_answer": "This a chair is the most expensive in the street....",
+          "tts_en": "This sandwich is the most expensive in the office.",
+          "correct_answer": "This sandwich is the most expensive in the office",
           "mastery_tag": "listening",
           "interaction_id": "U9_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 68:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
-              "id": "o4",
-              "text": "June3206"
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "Sun"
             },
             {
-              "id": "o1",
-              "text": "Tuesday"
+              "id": "o3",
+              "text": "Planet."
+            },
+            {
+              "id": "o2",
+              "text": "Star"
+            },
+            {
+              "id": "o4",
+              "text": "Hot"
             }
           ],
           "correct_answer": "o4",
@@ -1004,65 +989,65 @@
           "interaction_id": "U9_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 68 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "my / My / spoils / neighbour / holidays / always.",
-              "back": "My neighbour always spoils my holidays."
+              "front": "me / Paul / helps / sometimes / my / with / homework.",
+              "back": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 68 (Food: At a Restaurant):",
-          "instruction_en": "Compare Food: At a Restaurant with another topic. [Ref: 71]",
+          "instruction_en": "A small story about Food: At a Restaurant. [Ref: 51]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 68 (Food: At a Restaurant):",
-          "stimulus_en": "Talk about Food: At a Restaurant. (598)",
+          "stimulus_en": "This is Food: At a Restaurant. (138)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 60 (Food: At a Restaurant):",
-          "stimulus": "Matching set 1717",
+          "stimulus": "Matching set 757.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - 253",
+              "text": "Los adjetivos tienen tres formas.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir - 799",
+              "text": "Cuál es la playa más larga en la que has estado nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Sigue recto y delante de la iglesia hay un supermercado - interesting",
+              "text": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "What\u2019s the coldest country you\u2019ve ever been to - 253"
+              "id": "m1",
+              "text": "What’s the longest beach you’ve ever been to."
             },
             {
-              "id": "m1",
-              "text": "every days o every Tuesdays. - 799"
+              "id": "m0",
+              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
             },
             {
               "id": "m2",
-              "text": "Go straight on and in front of the church there is a supermarket. - interesting"
+              "text": "‘m/ ‘s, etc)"
             }
           ],
           "correct_answer": {
@@ -1074,26 +1059,26 @@
           "interaction_id": "U9_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 60 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. (today)"
+                  "text": "my birthday is in February."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s the hottest place you\u2019ve ever been to (now)"
+                  "text": "I haven’t got much money (remember, money is uncountable)."
                 }
               ]
             }
@@ -1102,20 +1087,20 @@
           "interaction_id": "U9_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 60 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (3678), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (6301), They [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "finish."
                 }
               ]
             },
@@ -1124,11 +1109,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "finished"
+                  "text": "helped."
                 },
                 {
                   "id": "o2",
-                  "text": "finish"
+                  "text": "help"
                 }
               ]
             }
@@ -1141,22 +1126,22 @@
           "interaction_id": "U9_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 60 para Food: At a Restaurant:",
-          "stimulus_en": "This a movie is the most expensive in the stadium (now).",
-          "stimulus_es": "Este a movie es el m\u00e1s caro en the stadium (now).",
+          "stimulus_en": "This movie is the most expensive in the kitchen.",
+          "stimulus_es": "Este movie es el más caro en the kitchen.",
           "options": [
             {
+              "id": "o2",
+              "text": "expensive."
+            },
+            {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 9711"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "Other 1966."
             }
           ],
           "correct_answer": "o1",
@@ -1164,136 +1149,136 @@
           "interaction_id": "U9_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 60 sobre Food: At a Restaurant:",
           "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
             {
               "id": "w3",
               "text": "the"
             },
             {
-              "id": "w8",
-              "text": "beach"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "expensive"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "table"
             },
             {
               "id": "w4",
               "text": "most"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w8",
+              "text": "country."
             },
             {
-              "id": "w1",
-              "text": "tennis"
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w6",
+              "text": "in"
             },
             {
               "id": "w7",
               "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 69 (Food: At a Restaurant):",
-          "stimulus_en": "This a television is ___ in the university - amazing.",
+          "stimulus_en": "This computer is ___ in the garden.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 69 (Food: At a Restaurant)",
-          "stimulus_en": "This a pen is the most expensive in the restaurant..",
-          "stimulus_es": "Ref: Este a pen es el m\u00e1s caro en the restaurant..",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 69 (Food: At a Restaurant)",
+          "stimulus_en": "This ticket is the most expensive in the gym.",
+          "stimulus_es": "Ref: Este ticket es el más caro en the gym.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 69 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a gift es el m\u00e1s caro en the stadium - interesting.",
-              "right": "This a gift is the most expensive in the stadium - interesting."
+              "left": "Este music es el más caro en the woods.",
+              "right": "This music is the most expensive in the woods."
             },
             {
               "id": "p1",
-              "left": "Este a car es el m\u00e1s caro en the university - 261.",
-              "right": "This a car is the most expensive in the university - 261."
+              "left": "Este house es el más caro en the country.",
+              "right": "This house is the most expensive in the country."
             },
             {
               "id": "p2",
-              "left": "Este a ticket es el m\u00e1s caro en the bedroom (today).",
-              "right": "This a ticket is the most expensive in the bedroom (today)."
+              "left": "Este sandwich es el más caro en the hospital.",
+              "right": "This sandwich is the most expensive in the hospital."
             },
             {
               "id": "p3",
-              "left": "Este a gift es el m\u00e1s caro en the stadium - interesting.",
-              "right": "This a gift is the most expensive in the stadium - interesting."
+              "left": "Este door es el más caro en the balcony.",
+              "right": "This door is the most expensive in the balcony."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 69 (Food: At a Restaurant):",
-          "tts_en": "This a pen is the most expensive in the beach....",
-          "correct_answer": "This a pen is the most expensive in the beach....",
+          "tts_en": "This dog is the most expensive in the office.",
+          "correct_answer": "This dog is the most expensive in the office",
           "mastery_tag": "listening",
           "interaction_id": "U9_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 69:",
           "options": [
             {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
               "id": "o4",
-              "text": "Pen3284"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
+              "text": "Hot"
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Moon"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "Planet."
+            },
+            {
+              "id": "o2",
+              "text": "Star"
             }
           ],
           "correct_answer": "o4",
@@ -1301,65 +1286,65 @@
           "interaction_id": "U9_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 69 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 Meses del a\u00f1o - interesting",
-              "back": "in May, in August, etc. - interesting"
+              "front": "As any modal verb, they are followed by an infinitive without ‘to’, for example.",
+              "back": "may come, might go."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 69 (Food: At a Restaurant):",
-          "instruction_en": "Review Food: At a Restaurant from last week. [Ref: 15]",
+          "instruction_en": "Compare Food: At a Restaurant with another topic. [Ref: 77]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 69 (Food: At a Restaurant):",
-          "stimulus_en": "Study Food: At a Restaurant now. (955)",
+          "stimulus_en": "Look at Food: At a Restaurant. (860)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 61 (Food: At a Restaurant):",
-          "stimulus": "Matching set 3193",
+          "stimulus": "Matching set 9546.",
           "items": [
             {
               "id": "i0",
-              "text": "3. usually/ arrives late / the bus (today)",
+              "text": "– Días de la semana.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "visits / Jonathan / usually / dentist / the (now)",
+              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aquí podemos utilizar when y while. Ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales!",
+              "text": "puedo abrir la ventana, por favor?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio!"
-            },
-            {
               "id": "m0",
-              "text": "the bus usually arrives late (today)"
+              "text": "on Monday, on Wednesday, etc."
             },
             {
               "id": "m1",
-              "text": "Jonathan usually visits the dentist (now)"
+              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo."
+            },
+            {
+              "id": "m2",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             }
           ],
           "correct_answer": {
@@ -1371,26 +1356,26 @@
           "interaction_id": "U9_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 61 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "in summer, in winter. - 630"
+                  "text": "Who’s the shyest person you’ve ever met."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "do you have any shoes for the wedding..."
+                  "text": "film) Película."
                 }
               ]
             }
@@ -1399,20 +1384,20 @@
           "interaction_id": "U9_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 61 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (6104), My cousin [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (4475), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "drink"
                 }
               ]
             },
@@ -1421,11 +1406,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "checked."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "check"
                 }
               ]
             }
@@ -1438,22 +1423,22 @@
           "interaction_id": "U9_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 61 para Food: At a Restaurant:",
-          "stimulus_en": "This a book is the most expensive in the airport..",
-          "stimulus_es": "Este a book es el m\u00e1s caro en the airport..",
+          "stimulus_en": "This house is the most expensive in the city.",
+          "stimulus_es": "Este house es el más caro en the city.",
           "options": [
             {
               "id": "o1",
-              "text": "the most expensive"
-            },
-            {
-              "id": "o2",
-              "text": "expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 9149"
+              "text": "Other 5149."
+            },
+            {
+              "id": "o2",
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -1461,146 +1446,136 @@
           "interaction_id": "U9_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 61 sobre Food: At a Restaurant:",
           "options": [
             {
-              "id": "w3",
-              "text": "is"
+              "id": "w7",
+              "text": "the"
             },
             {
               "id": "w1",
-              "text": "a"
+              "text": "cat"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w8",
-              "text": "the"
+              "text": "in"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w10",
-              "text": "amazing"
-            },
-            {
               "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w9",
-              "text": "restaurant"
+              "text": "expensive."
             },
             {
               "id": "w2",
-              "text": "table"
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w8",
+              "text": "bank"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 70 (Food: At a Restaurant):",
-          "stimulus_en": "This a clock is ___ in the beach - amazing.",
+          "stimulus_en": "This pizza is ___ in the bank.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 70 (Food: At a Restaurant)",
-          "stimulus_en": "This a phone is the most expensive in London - interesting.",
-          "stimulus_es": "Ref: Este a phone es el m\u00e1s caro en London - interesting.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 70 (Food: At a Restaurant)",
+          "stimulus_en": "This ticket is the most expensive in the balcony.",
+          "stimulus_es": "Ref: Este ticket es el más caro en the balcony.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 70 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a book es el m\u00e1s caro en the bedroom....",
-              "right": "This a book is the most expensive in the bedroom...."
+              "left": "Este book es el más caro en the mountains.",
+              "right": "This book is the most expensive in the mountains."
             },
             {
               "id": "p1",
-              "left": "Este a car es el m\u00e1s caro en the museum - interesting.",
-              "right": "This a car is the most expensive in the museum - interesting."
+              "left": "Este laptop es el más caro en the bedroom.",
+              "right": "This laptop is the most expensive in the bedroom."
             },
             {
               "id": "p2",
-              "left": "Este a sandwich es el m\u00e1s caro en the woods!.",
-              "right": "This a sandwich is the most expensive in the woods!."
+              "left": "Este computer es el más caro en the stadium.",
+              "right": "This computer is the most expensive in the stadium."
             },
             {
               "id": "p3",
-              "left": "Este football es el m\u00e1s caro en the city (today).",
-              "right": "This football is the most expensive in the city (today)."
+              "left": "Este ticket es el más caro en the supermarket.",
+              "right": "This ticket is the most expensive in the supermarket."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 70 (Food: At a Restaurant):",
-          "tts_en": "This a bag is the most expensive in the beach!.",
-          "correct_answer": "This a bag is the most expensive in the beach!.",
+          "tts_en": "This printer is the most expensive in London.",
+          "correct_answer": "This printer is the most expensive in London",
           "mastery_tag": "listening",
           "interaction_id": "U9_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 70:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
+              "id": "o2",
+              "text": "Berlin."
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "London."
             },
             {
               "id": "o4",
-              "text": "June3631"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
+              "text": "Slow"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "Tokyo"
+            },
+            {
+              "id": "o3",
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
@@ -1608,65 +1583,65 @@
           "interaction_id": "U9_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 70 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "car / I / drink / never / if / drive / I / alcohol / a (now)",
-              "back": "I never drink alcohol if I drive a car (now)"
+              "front": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
+              "back": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciación y además perfectamente entendible para los alumnos que no conocen los símbolos fonéticos. Espero que te sea útil."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 70 (Food: At a Restaurant):",
-          "instruction_en": "Describe Food: At a Restaurant in 5 words. [Ref: 93]",
+          "instruction_en": "Describe Food: At a Restaurant in 5 words. [Ref: 11]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 70 (Food: At a Restaurant):",
-          "stimulus_en": "Where is Food: At a Restaurant? (921)",
+          "stimulus_en": "Where is Food: At a Restaurant? (183)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 62 (Food: At a Restaurant):",
-          "stimulus": "Matching set 6420",
+          "stimulus": "Matching set 3566.",
           "items": [
             {
               "id": "i0",
-              "text": "5. El zumo de tu abuela...",
+              "text": "Alguna vez has probado la comida tailandesa?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Hay guisantes en el frigo? (now)",
+              "text": "1. Often / she / write to me/ doesn’t.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca - 822",
+              "text": "En matématicas, por ejemplo, con número decimales.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
+            },
+            {
               "id": "m1",
-              "text": "are there any peas in the fridge (now)"
+              "text": "she doesn’t often write to me."
             },
             {
               "id": "m0",
-              "text": "Your grandmother\u2019s juice..."
-            },
-            {
-              "id": "m2",
-              "text": "I hardly ever go to the cinema = casi nunca voy al cine. - 822"
+              "text": "Have you ever tried Thai food."
             }
           ],
           "correct_answer": {
@@ -1678,26 +1653,26 @@
           "interaction_id": "U9_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 62 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "the bird\u2018s legs = las piernas del p\u00e1jaro.."
+                  "text": "– What do you do? – I’m watching TV. = – ¿Cuál es tu profesión? – Estoy viendo la tele."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Does that computer work (today)"
+                  "text": "Sally often borrows money from her friends."
                 }
               ]
             }
@@ -1706,20 +1681,20 @@
           "interaction_id": "U9_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 62 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (3967), The boss [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (8215), The driver [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "stop"
                 }
               ]
             },
@@ -1728,11 +1703,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "taught."
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "teach"
                 }
               ]
             }
@@ -1745,22 +1720,22 @@
           "interaction_id": "U9_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 62 para Food: At a Restaurant:",
-          "stimulus_en": "This a letter is the most expensive in the country (now).",
-          "stimulus_es": "Este a letter es el m\u00e1s caro en the country (now).",
+          "stimulus_en": "This ticket is the most expensive in the stadium.",
+          "stimulus_es": "Este ticket es el más caro en the stadium.",
           "options": [
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o2",
+              "text": "expensive."
             },
             {
-              "id": "o2",
-              "text": "expensive"
+              "id": "o1",
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 3352"
+              "text": "Other 3803."
             }
           ],
           "correct_answer": "o1",
@@ -1768,141 +1743,136 @@
           "interaction_id": "U9_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 62 sobre Food: At a Restaurant:",
           "options": [
             {
-              "id": "w9",
-              "text": "library"
-            },
-            {
               "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "gift"
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w8",
+              "text": "hotel"
+            },
+            {
+              "id": "w1",
+              "text": "coffee."
+            },
+            {
+              "id": "w6",
+              "text": "in"
             },
             {
               "id": "w5",
-              "text": "most"
+              "text": "expensive."
+            },
+            {
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 71 (Food: At a Restaurant):",
-          "stimulus_en": "This tennis is ___ in the station..",
+          "stimulus_en": "This English is ___ in the balcony.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 71 (Food: At a Restaurant)",
-          "stimulus_en": "This a clock is the most expensive in the woods (now).",
-          "stimulus_es": "Ref: Este a clock es el m\u00e1s caro en the woods (now).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 71 (Food: At a Restaurant)",
+          "stimulus_en": "This English is expensive in the supermarket.",
+          "stimulus_es": "Ref: Este English es el más caro en the supermarket.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 71 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a laptop es el m\u00e1s caro en the mountains - 143.",
-              "right": "This a laptop is the most expensive in the mountains - 143."
+              "left": "Este letter es el más caro en the hotel.",
+              "right": "This letter is the most expensive in the hotel."
             },
             {
               "id": "p1",
-              "left": "Este a door es el m\u00e1s caro en school....",
-              "right": "This a door is the most expensive in school...."
+              "left": "Este door es el más caro en the balcony.",
+              "right": "This door is the most expensive in the balcony."
             },
             {
               "id": "p2",
-              "left": "Este a camera es el m\u00e1s caro en the balcony - amazing.",
-              "right": "This a camera is the most expensive in the balcony - amazing."
+              "left": "Este watch es el más caro en the woods.",
+              "right": "This watch is the most expensive in the woods."
             },
             {
               "id": "p3",
-              "left": "Este a ticket es el m\u00e1s caro en the country - 306.",
-              "right": "This a ticket is the most expensive in the country - 306."
+              "left": "Este printer es el más caro en the shop.",
+              "right": "This printer is the most expensive in the shop."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 71 (Food: At a Restaurant):",
-          "tts_en": "This a printer is the most expensive in the city!.",
-          "correct_answer": "This a printer is the most expensive in the city!.",
+          "tts_en": "This door is the most expensive in the library.",
+          "correct_answer": "This door is the most expensive in the library",
           "mastery_tag": "listening",
           "interaction_id": "U9_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 71:",
           "options": [
             {
-              "id": "o3",
-              "text": "Planet"
+              "id": "o1",
+              "text": "red"
             },
             {
               "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot4786"
+              "text": "green"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "blue"
             },
             {
-              "id": "o1",
-              "text": "Moon"
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
             }
           ],
           "correct_answer": "o4",
@@ -1910,65 +1880,65 @@
           "interaction_id": "U9_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 71 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 Con partes del d\u00eda - 555",
-              "back": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n) - 555"
+              "front": "Encontraste algo ahí?",
+              "back": "any + thing = en oración INTERROGATIVA."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 71 (Food: At a Restaurant):",
-          "instruction_en": "Write a note about Food: At a Restaurant. [Ref: 33]",
+          "instruction_en": "Compare Food: At a Restaurant with another topic. [Ref: 65]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 71 (Food: At a Restaurant):",
-          "stimulus_en": "Talk about Food: At a Restaurant. (470)",
+          "stimulus_en": "This is Food: At a Restaurant. (761)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 63 (Food: At a Restaurant):",
-          "stimulus": "Matching set 7207",
+          "stimulus": "Matching set 8572.",
           "items": [
             {
               "id": "i0",
-              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1 - 949",
+              "text": "dictionary / often / use / The / the / students.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Common mistake.",
+              "text": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Movie star (Br Eng (now)",
+              "text": "Te veo el sábado.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "Can I have your ID/ passport/ credit card?. - 949"
-            },
-            {
-              "id": "m1",
-              "text": "Had you got a motorbike\u2026?."
+              "text": "the students often use the dictionary."
             },
             {
               "id": "m2",
-              "text": "film star) Estrella de cine (now)"
+              "text": "I’ll see you on Saturday."
+            },
+            {
+              "id": "m1",
+              "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
             }
           ],
           "correct_answer": {
@@ -1980,26 +1950,26 @@
           "interaction_id": "U9_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 63 (Food: At a Restaurant):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.!"
+                  "text": "chemist) Farmacia."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. - 965"
+                  "text": "Peter’s sisters."
                 }
               ]
             }
@@ -2008,20 +1978,20 @@
           "interaction_id": "U9_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 63 (Food: At a Restaurant):",
-          "main_text": "In Food: At a Restaurant (8248), You [GAP 1] and [GAP 2].",
+          "main_text": "In Food: At a Restaurant (70), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "called."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "call"
                 }
               ]
             },
@@ -2030,11 +2000,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "plan"
                 }
               ]
             }
@@ -2047,22 +2017,22 @@
           "interaction_id": "U9_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 63 para Food: At a Restaurant:",
-          "stimulus_en": "This a television is the most expensive in the stadium..",
-          "stimulus_es": "Este a television es el m\u00e1s caro en the stadium..",
+          "stimulus_en": "This printer is the most expensive in London.",
+          "stimulus_es": "Este printer es el más caro en London.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 5817"
+              "text": "Other 2919."
             },
             {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -2070,7 +2040,7 @@
           "interaction_id": "U9_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 63 sobre Food: At a Restaurant:",
           "options": [
             {
@@ -2078,8 +2048,12 @@
               "text": "is"
             },
             {
-              "id": "w5",
-              "text": "expensive"
+              "id": "w1",
+              "text": "football."
+            },
+            {
+              "id": "w0",
+              "text": "This"
             },
             {
               "id": "w8",
@@ -2090,121 +2064,112 @@
               "text": "most"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "the"
+              "id": "w5",
+              "text": "expensive."
             },
             {
               "id": "w6",
               "text": "in"
             },
             {
-              "id": "w9",
-              "text": "interesting"
-            },
-            {
               "id": "w7",
               "text": "the"
             },
             {
-              "id": "w1",
-              "text": "tennis"
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U9_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 72 (Food: At a Restaurant):",
-          "stimulus_en": "This a chair is ___ in the mountains (today).",
+          "stimulus_en": "This television is ___ in the cinema.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U9_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 72 (Food: At a Restaurant)",
-          "stimulus_en": "This a ticket is expensive in the museum - 430.",
-          "stimulus_es": "Ref: Este a ticket es el m\u00e1s caro en the museum - 430.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 72 (Food: At a Restaurant)",
+          "stimulus_en": "This dog is the most expensive in the balcony.",
+          "stimulus_es": "Ref: Este dog es el más caro en the balcony.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U9_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 72 (Food: At a Restaurant):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este music es el m\u00e1s caro en the hotel - 514.",
-              "right": "This music is the most expensive in the hotel - 514."
+              "left": "Este watch es el más caro en the balcony.",
+              "right": "This watch is the most expensive in the balcony."
             },
             {
               "id": "p1",
-              "left": "Este a window es el m\u00e1s caro en the airport - amazing.",
-              "right": "This a window is the most expensive in the airport - amazing."
+              "left": "Este newspaper es el más caro en the beach.",
+              "right": "This newspaper is the most expensive in the beach."
             },
             {
               "id": "p2",
-              "left": "Este a bag es el m\u00e1s caro en the cinema - amazing.",
-              "right": "This a bag is the most expensive in the cinema - amazing."
+              "left": "Este dog es el más caro en the airport.",
+              "right": "This dog is the most expensive in the airport."
             },
             {
               "id": "p3",
-              "left": "Este a watch es el m\u00e1s caro en the shop..",
-              "right": "This a watch is the most expensive in the shop.."
+              "left": "Este window es el más caro en the airport.",
+              "right": "This window is the most expensive in the airport."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 72 (Food: At a Restaurant):",
-          "tts_en": "This a report is the most expensive in the airport..",
-          "correct_answer": "This a report is the most expensive in the airport..",
+          "tts_en": "This sandwich is the most expensive in Paris.",
+          "correct_answer": "This sandwich is the most expensive in Paris",
           "mastery_tag": "listening",
           "interaction_id": "U9_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 72:",
           "options": [
             {
-              "id": "o0",
-              "text": "blue"
+              "id": "o1",
+              "text": "Tokyo"
             },
             {
               "id": "o4",
-              "text": "run1834"
-            },
-            {
-              "id": "o1",
-              "text": "red"
-            },
-            {
-              "id": "o2",
-              "text": "green"
+              "text": "Slow"
             },
             {
               "id": "o3",
-              "text": "pink"
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin."
+            },
+            {
+              "id": "o0",
+              "text": "London."
             }
           ],
           "correct_answer": "o4",
@@ -2212,29 +2177,29 @@
           "interaction_id": "U9_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 72 - Food: At a Restaurant:",
           "cards": [
             {
               "id": "c1",
-              "front": "Has estado alguna vez en Canad\u00e1? (today)",
-              "back": "have you ever been to Canada (today)"
+              "front": "The correct thing.",
+              "back": "I haven’t got a car."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U9_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 72 (Food: At a Restaurant):",
-          "instruction_en": "Why is Food: At a Restaurant important? [Ref: 19]",
+          "instruction_en": "Compare Food: At a Restaurant with another topic. [Ref: 70]",
           "mastery_tag": "writing",
           "interaction_id": "U9_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 72 (Food: At a Restaurant):",
-          "stimulus_en": "Improve Food: At a Restaurant. (916)",
+          "stimulus_en": "Focus on Food: At a Restaurant. (515)",
           "mastery_tag": "speaking",
           "interaction_id": "U9_I100"
         }

@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit7",
-    "unit_title": "Superlatives - Health: At the Doctor",
+    "unit_title": "Superlatives - Health: At the Doctor.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U7_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 7",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 7.",
           "tts_en": "Starting unit 7. Topic: Health: At the Doctor. Focus: Superlatives.",
           "mastery_tag": "listening",
           "interaction_id": "U7_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 49 (Health: At the Doctor):",
-          "stimulus_en": "This a gift is ___ in London (today).",
+          "stimulus_en": "This television is ___ in the garage.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 49 (Health: At the Doctor)",
-          "stimulus_en": "This a watch is the most expensive in the kitchen!.",
-          "stimulus_es": "Ref: Este a watch es el m\u00e1s caro en the kitchen!.",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 49 (Health: At the Doctor)",
+          "stimulus_en": "This newspaper is expensive in the bedroom.",
+          "stimulus_es": "Ref: Este newspaper es el más caro en the bedroom.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 49 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a cat es el m\u00e1s caro en the woods....",
-              "right": "This a cat is the most expensive in the woods...."
+              "left": "Este ticket es el más caro en the airport.",
+              "right": "This ticket is the most expensive in the airport."
             },
             {
               "id": "p1",
-              "left": "Este a ticket es el m\u00e1s caro en the hospital - interesting.",
-              "right": "This a ticket is the most expensive in the hospital - interesting."
+              "left": "Este laptop es el más caro en school.",
+              "right": "This laptop is the most expensive in school."
             },
             {
               "id": "p2",
-              "left": "Este a laptop es el m\u00e1s caro en the street..",
-              "right": "This a laptop is the most expensive in the street.."
+              "left": "Este cat es el más caro en the cinema.",
+              "right": "This cat is the most expensive in the cinema."
             },
             {
               "id": "p3",
-              "left": "Este a ticket es el m\u00e1s caro en the woods!.",
-              "right": "This a ticket is the most expensive in the woods!."
+              "left": "Este table es el más caro en the bedroom.",
+              "right": "This table is the most expensive in the bedroom."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 49 (Health: At the Doctor):",
-          "tts_en": "This an email is the most expensive in the balcony - amazing.",
-          "correct_answer": "This an email is the most expensive in the balcony - amazing.",
+          "tts_en": "This clock is the most expensive in the airport.",
+          "correct_answer": "This clock is the most expensive in the airport",
           "mastery_tag": "listening",
           "interaction_id": "U7_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 49:",
           "options": [
             {
-              "id": "o3",
-              "text": "Paris"
-            },
-            {
-              "id": "o2",
-              "text": "Berlin"
-            },
-            {
               "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o4",
-              "text": "Slow631"
+              "text": "Table"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o4",
+              "text": "Pen"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U7_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 49 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "TV / ever / hardly / I / in / watch / evenings / the!",
-              "back": "I hardly ever watch TV in the evenings!"
+              "front": "Sin embargo, si queremos expresar la familia de «cualquier» y éste aparece a principo de oración, debemos utilizar la «any», ejemplo.",
+              "back": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 49 (Health: At the Doctor):",
-          "instruction_en": "Write a note about Health: At the Doctor. [Ref: 97]",
+          "instruction_en": "A small story about Health: At the Doctor. [Ref: 78]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 49 (Health: At the Doctor):",
-          "stimulus_en": "Where is Health: At the Doctor? (867)",
+          "stimulus_en": "I like Health: At the Doctor. (313)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 43 (Health: At the Doctor):",
-          "stimulus": "Matching set 5511",
+          "stimulus": "Matching set 3327.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing (today)",
+              "text": "Cuándo iremos a la playa?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Por qu\u00e9 no me lo dijiste?.",
+              "text": "Deciros que sólo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. Éstas son.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Veamos una oraci\u00f3n con futuro.",
+              "text": "Cuál es el edificio más alto que has visitado nunca?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "When are we going to the beach."
+            },
+            {
               "id": "m2",
-              "text": "What will the weather be like tomorrow? It\u2019ll be sunny.."
+              "text": "What’s the highest building you’ve ever visited."
             },
             {
               "id": "m1",
-              "text": "Why didn\u2019t you tell me."
-            },
-            {
-              "id": "m0",
-              "text": "information, homework, work. (today)"
+              "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U7_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 43 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I can to speak English. (now)"
+                  "text": "chips) Patatas fritas."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM."
+                  "text": "I haven’t a car."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U7_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 43 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (860), The artist [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (1642), I [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "speak"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "prepared."
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "prepare."
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U7_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 43 para Health: At the Doctor:",
-          "stimulus_en": "This tennis is the most expensive in the museum....",
-          "stimulus_es": "Este tennis es el m\u00e1s caro en the museum....",
+          "stimulus_en": "This window is the most expensive in school.",
+          "stimulus_es": "Este window es el más caro en school.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 1763"
-            },
-            {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
+            },
+            {
+              "id": "o3",
+              "text": "Other 9725."
             }
           ],
           "correct_answer": "o1",
@@ -263,146 +263,136 @@
           "interaction_id": "U7_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 43 sobre Health: At the Doctor:",
           "options": [
             {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
               "id": "w2",
-              "text": "letter"
-            },
-            {
-              "id": "w9",
-              "text": "cinema"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w3",
               "text": "is"
             },
             {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "701"
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
+              "id": "w8",
+              "text": "cinema."
+            },
+            {
               "id": "w6",
-              "text": "expensive"
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "letter."
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w7",
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 50 (Health: At the Doctor):",
-          "stimulus_en": "This a gift is ___ in Paris - interesting.",
+          "stimulus_en": "This house is ___ in the office.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 50 (Health: At the Doctor)",
-          "stimulus_en": "This a table is expensive in London (today).",
-          "stimulus_es": "Ref: Este a table es el m\u00e1s caro en London (today).",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 50 (Health: At the Doctor)",
+          "stimulus_en": "This movie is expensive in the shop.",
+          "stimulus_es": "Ref: Este movie es el más caro en the shop.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 50 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a watch es el m\u00e1s caro en the museum (today).",
-              "right": "This a watch is the most expensive in the museum (today)."
+              "left": "Este watch es el más caro en the mountains.",
+              "right": "This watch is the most expensive in the mountains."
             },
             {
               "id": "p1",
-              "left": "Este music es el m\u00e1s caro en Paris - amazing.",
-              "right": "This music is the most expensive in Paris - amazing."
+              "left": "Este music es el más caro en the airport.",
+              "right": "This music is the most expensive in the airport."
             },
             {
               "id": "p2",
-              "left": "Este a computer es el m\u00e1s caro en the station!.",
-              "right": "This a computer is the most expensive in the station!."
+              "left": "Este apple es el más caro en the bedroom.",
+              "right": "This apple is the most expensive in the bedroom."
             },
             {
               "id": "p3",
-              "left": "Este a table es el m\u00e1s caro en the bank....",
-              "right": "This a table is the most expensive in the bank...."
+              "left": "Este radio es el más caro en the stadium.",
+              "right": "This radio is the most expensive in the stadium."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 50 (Health: At the Doctor):",
-          "tts_en": "This a television is the most expensive in the shop..",
-          "correct_answer": "This a television is the most expensive in the shop..",
+          "tts_en": "This ticket is the most expensive in the bedroom.",
+          "correct_answer": "This ticket is the most expensive in the bedroom",
           "mastery_tag": "listening",
           "interaction_id": "U7_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 50:",
           "options": [
             {
               "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
+              "text": "Chair"
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "Sofa"
             },
             {
-              "id": "o4",
-              "text": "rain8051"
+              "id": "o3",
+              "text": "Bed"
             },
             {
               "id": "o0",
-              "text": "pizza"
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen"
             }
           ],
           "correct_answer": "o4",
@@ -410,65 +400,65 @@
           "interaction_id": "U7_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 50 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "Uncountable nouns!",
-              "back": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb.!"
+              "front": "1. La puerta de mi casa.",
+              "back": "the door of my house."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 50 (Health: At the Doctor):",
-          "instruction_en": "Write a note about Health: At the Doctor. [Ref: 85]",
+          "instruction_en": "A small story about Health: At the Doctor. [Ref: 10]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 50 (Health: At the Doctor):",
-          "stimulus_en": "Look at Health: At the Doctor. (783)",
+          "stimulus_en": "Repeat Health: At the Doctor. (605)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 44 (Health: At the Doctor):",
-          "stimulus": "Matching set 9197",
+          "stimulus": "Matching set 684.",
           "items": [
             {
               "id": "i0",
-              "text": "dictionary / often / use / The / the / students - 458",
+              "text": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1ndo iremos a la playa?.",
+              "text": "Uncountable nouns.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo (now)",
+              "text": "Qué es éso?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "verb patters."
+            },
+            {
               "id": "m2",
-              "text": "how often do you have Italian classes? = I have every Tuesday. (now)"
+              "text": "What’s that."
             },
             {
               "id": "m1",
-              "text": "When are we going to the beach."
-            },
-            {
-              "id": "m0",
-              "text": "the students often use the dictionary - 458"
+              "text": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
             }
           ],
           "correct_answer": {
@@ -480,26 +470,26 @@
           "interaction_id": "U7_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 44 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "would you like some coke? (today)"
+                  "text": "would you like some more."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t want to sit opposite him. (today)"
+                  "text": "film star) Estrella de cine."
                 }
               ]
             }
@@ -508,20 +498,20 @@
           "interaction_id": "U7_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 44 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (8624), My cousin [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (3906), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "drink"
                 }
               ]
             },
@@ -530,11 +520,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "spoke"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "speak"
+                  "text": "plan"
                 }
               ]
             }
@@ -547,22 +537,22 @@
           "interaction_id": "U7_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 44 para Health: At the Doctor:",
-          "stimulus_en": "This a sandwich is the most expensive in the station!.",
-          "stimulus_es": "Este a sandwich es el m\u00e1s caro en the station!.",
+          "stimulus_en": "This tennis is the most expensive in the station.",
+          "stimulus_es": "Este tennis es el más caro en the station.",
           "options": [
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             },
             {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 5218"
+              "text": "Other 1734."
             }
           ],
           "correct_answer": "o1",
@@ -570,146 +560,136 @@
           "interaction_id": "U7_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 44 sobre Health: At the Doctor:",
           "options": [
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "email"
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w8",
+              "text": "supermarket."
+            },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w5",
+              "id": "w4",
               "text": "most"
             },
             {
-              "id": "w3",
+              "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w10",
-              "text": "interesting"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "printer"
-            },
-            {
               "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w9",
-              "text": "station"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w8",
               "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 51 (Health: At the Doctor):",
-          "stimulus_en": "This a door is ___ in Paris..",
+          "stimulus_en": "This door is ___ in the airport.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 51 (Health: At the Doctor)",
-          "stimulus_en": "This a chair is the most expensive in the street - 571.",
-          "stimulus_es": "Ref: Este a chair es el m\u00e1s caro en the street - 571.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 51 (Health: At the Doctor)",
+          "stimulus_en": "This watch is the most expensive in the office.",
+          "stimulus_es": "Ref: Este watch es el más caro en the office.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 51 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a chair es el m\u00e1s caro en school..",
-              "right": "This a chair is the most expensive in school.."
+              "left": "Este car es el más caro en the hotel.",
+              "right": "This car is the most expensive in the hotel."
             },
             {
               "id": "p1",
-              "left": "Este a door es el m\u00e1s caro en the stadium - 613.",
-              "right": "This a door is the most expensive in the stadium - 613."
+              "left": "Este television es el más caro en the garage.",
+              "right": "This television is the most expensive in the garage."
             },
             {
               "id": "p2",
-              "left": "Este a movie es el m\u00e1s caro en the balcony (today).",
-              "right": "This a movie is the most expensive in the balcony (today)."
+              "left": "Este ticket es el más caro en the supermarket.",
+              "right": "This ticket is the most expensive in the supermarket."
             },
             {
               "id": "p3",
-              "left": "Este a pen es el m\u00e1s caro en the street....",
-              "right": "This a pen is the most expensive in the street...."
+              "left": "Este chair es el más caro en London.",
+              "right": "This chair is the most expensive in London."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 51 (Health: At the Doctor):",
-          "tts_en": "This a watch is the most expensive in the office - amazing.",
-          "correct_answer": "This a watch is the most expensive in the office - amazing.",
+          "tts_en": "This apple is the most expensive in the airport.",
+          "correct_answer": "This apple is the most expensive in the airport",
           "mastery_tag": "listening",
           "interaction_id": "U7_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 51:",
           "options": [
             {
-              "id": "o4",
-              "text": "bike8905"
-            },
-            {
               "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
+              "text": "Berlin."
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "London."
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
@@ -717,65 +697,65 @@
           "interaction_id": "U7_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 51 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "Crees que bajar\u00e1 el paro este a\u00f1o? - 244",
-              "back": "Do you think that unemployment will go down this year - 244"
+              "front": "Hay muchos bares cerca de mi casa.",
+              "back": "There are a lot of bars near my house."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 51 (Health: At the Doctor):",
-          "instruction_en": "Explain Superlatives using Health: At the Doctor. [Ref: 30]",
+          "instruction_en": "Write a note about Health: At the Doctor. [Ref: 64]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 51 (Health: At the Doctor):",
-          "stimulus_en": "Focus on Health: At the Doctor. (241)",
+          "stimulus_en": "Look at Health: At the Doctor. (306)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 45 (Health: At the Doctor):",
-          "stimulus": "Matching set 348",
+          "stimulus": "Matching set 8671.",
           "items": [
             {
               "id": "i0",
-              "text": "Cookie (Br Eng - 935",
+              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question ten\u00edamos la inversi\u00f3n entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet?\u00a0), en la indirect question, ya no hay inversi\u00f3n, sino que tenemos question word + subject + verb. Si te das cuenta, la inversi\u00f3n la tenemos en \u2018Can you tell me\u2026\u2019. Como ya tenemos una inversi\u00f3n al comenzar la pregunta, ya no podemos hacer otra inversi\u00f3n. Recuerda!",
+              "text": "Pack Empaquetar •Pack a suitcase Page Pain Paint Painter Painting Pale Pair •A pair of shoes Panda Paper Paragraph Pardon •Pardon? Parent Park Parking lot (Br Eng.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "on + train/ bus/ plane/ bike/ motorbike!",
+              "text": "Common mistake.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!!"
+              "id": "m2",
+              "text": "I hadn’t got a mobile."
             },
             {
-              "id": "m2",
-              "text": "cuando hablamos de forma m\u00e1s espec\u00edfica.!"
+              "id": "m1",
+              "text": "car park) Parrot Part •The best part of the day Partner Party Pass •You pass the station on the."
             },
             {
               "id": "m0",
-              "text": "biscuit) Galleta - 935"
+              "text": "I hardly ever go to the cinema = casi nunca voy al cine."
             }
           ],
           "correct_answer": {
@@ -787,26 +767,26 @@
           "interaction_id": "U7_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 45 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Our English teacher is usually angry - interesting"
+                  "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "tire) Neum\u00e1tico!"
+                  "text": "may I open the window, please."
                 }
               ]
             }
@@ -815,20 +795,20 @@
           "interaction_id": "U7_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 45 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (1029), The artist [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (1764), The pilot [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "worked"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "work"
+                  "text": "stop"
                 }
               ]
             },
@@ -837,11 +817,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "wrote"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "write"
+                  "text": "start"
                 }
               ]
             }
@@ -854,22 +834,22 @@
           "interaction_id": "U7_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 45 para Health: At the Doctor:",
-          "stimulus_en": "This a window is the most expensive in the supermarket!.",
-          "stimulus_es": "Este a window es el m\u00e1s caro en the supermarket!.",
+          "stimulus_en": "This music is the most expensive in London.",
+          "stimulus_es": "Este music es el más caro en London.",
           "options": [
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o3",
+              "text": "Other 7956."
             },
             {
-              "id": "o3",
-              "text": "Other 6099"
+              "id": "o1",
+              "text": "the most expensive."
             },
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -877,146 +857,136 @@
           "interaction_id": "U7_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 45 sobre Health: At the Doctor:",
           "options": [
             {
-              "id": "w5",
+              "id": "w4",
               "text": "most"
             },
             {
-              "id": "w3",
+              "id": "w2",
               "text": "is"
             },
             {
               "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
               "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "chair"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w10",
-              "text": "(today)"
+              "id": "w1",
+              "text": "tennis."
             },
             {
-              "id": "w9",
-              "text": "woods"
+              "id": "w8",
+              "text": "city"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w6",
+              "text": "in"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 52 (Health: At the Doctor):",
-          "stimulus_en": "This tennis is ___ in the station (now).",
+          "stimulus_en": "This apple is ___ in the gym.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 52 (Health: At the Doctor)",
-          "stimulus_en": "This a camera is expensive in the city - interesting.",
-          "stimulus_es": "Ref: Este a camera es el m\u00e1s caro en the city - interesting.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 52 (Health: At the Doctor)",
+          "stimulus_en": "This house is the most expensive in London.",
+          "stimulus_es": "Ref: Este house es el más caro en London.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 52 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este music es el m\u00e1s caro en the office - 185.",
-              "right": "This music is the most expensive in the office - 185."
+              "left": "Este letter es el más caro en the museum.",
+              "right": "This letter is the most expensive in the museum."
             },
             {
               "id": "p1",
-              "left": "Este an email es el m\u00e1s caro en London - amazing.",
-              "right": "This an email is the most expensive in London - amazing."
+              "left": "Este phone es el más caro en the beach.",
+              "right": "This phone is the most expensive in the beach."
             },
             {
               "id": "p2",
-              "left": "Este a dog es el m\u00e1s caro en the library - interesting.",
-              "right": "This a dog is the most expensive in the library - interesting."
+              "left": "Este computer es el más caro en the mountains.",
+              "right": "This computer is the most expensive in the mountains."
             },
             {
               "id": "p3",
-              "left": "Este a clock es el m\u00e1s caro en London - 980.",
-              "right": "This a clock is the most expensive in London - 980."
+              "left": "Este camera es el más caro en the library.",
+              "right": "This camera is the most expensive in the library."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 52 (Health: At the Doctor):",
-          "tts_en": "This a chair is the most expensive in the woods....",
-          "correct_answer": "This a chair is the most expensive in the woods....",
+          "tts_en": "This tennis is the most expensive in the university.",
+          "correct_answer": "This tennis is the most expensive in the university",
           "mastery_tag": "listening",
           "interaction_id": "U7_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 52:",
           "options": [
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "pear"
             },
             {
               "id": "o4",
-              "text": "June1098"
+              "text": "bike"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "mango"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "banana."
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "apple"
             }
           ],
           "correct_answer": "o4",
@@ -1024,65 +994,65 @@
           "interaction_id": "U7_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 52 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1ndo la ayudaste?.",
-              "back": "When did you help him/her."
+              "front": "Has visto alguna vez una película en versión original?",
+              "back": "have you ever seen a film in original version."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 52 (Health: At the Doctor):",
-          "instruction_en": "Explain Superlatives using Health: At the Doctor. [Ref: 15]",
+          "instruction_en": "Draft an email regarding Health: At the Doctor. [Ref: 84]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 52 (Health: At the Doctor):",
-          "stimulus_en": "Repeat Health: At the Doctor. (758)",
+          "stimulus_en": "Where is Health: At the Doctor? (590)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 46 (Health: At the Doctor):",
-          "stimulus": "Matching set 293",
+          "stimulus": "Matching set 4293.",
           "items": [
             {
               "id": "i0",
-              "text": "Est\u00e1 estudiando ella ingl\u00e9s? - amazing",
+              "text": "Otro ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2022in the fall (Br Eng - interesting",
+              "text": "Cuál es la canción más triste que has escuchado nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Otro common mistake.",
+              "text": "TV / ever / hardly / I / in / watch / evenings / the.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "autumn) En oto\u00f1o - interesting"
+              "id": "m2",
+              "text": "I hardly ever watch TV in the evenings."
             },
             {
               "id": "m0",
-              "text": "Is she studying English - amazing"
+              "text": "My partner is the most beautiful woman in the world."
             },
             {
-              "id": "m2",
-              "text": "Have you a car?."
+              "id": "m1",
+              "text": "What’s the saddest song you’ve ever listened to."
             }
           ],
           "correct_answer": {
@@ -1094,26 +1064,26 @@
           "interaction_id": "U7_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 46 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Whose mobile is that - 635"
+                  "text": "la película, entonces SUBJECT = THE FILM."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "chemist) Farmacia (today)"
+                  "text": "igual hago algo… (but I’m not sure…)."
                 }
               ]
             }
@@ -1122,20 +1092,20 @@
           "interaction_id": "U7_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 46 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (160), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (7256), The waiter [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "bought."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "buy"
                 }
               ]
             },
@@ -1144,11 +1114,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "start"
                 }
               ]
             }
@@ -1161,22 +1131,22 @@
           "interaction_id": "U7_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 46 para Health: At the Doctor:",
-          "stimulus_en": "This a watch is the most expensive in the beach....",
-          "stimulus_es": "Este a watch es el m\u00e1s caro en the beach....",
+          "stimulus_en": "This pizza is the most expensive in the bedroom.",
+          "stimulus_es": "Este pizza es el más caro en the bedroom.",
           "options": [
             {
-              "id": "o1",
-              "text": "the most expensive"
-            },
-            {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             },
             {
               "id": "o3",
-              "text": "Other 618"
+              "text": "Other 3343."
+            },
+            {
+              "id": "o1",
+              "text": "the most expensive."
             }
           ],
           "correct_answer": "o1",
@@ -1184,141 +1154,136 @@
           "interaction_id": "U7_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 46 sobre Health: At the Doctor:",
           "options": [
             {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w9",
-              "text": "stadium"
-            },
-            {
               "id": "w2",
-              "text": "dog"
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "most"
+            },
+            {
               "id": "w8",
+              "text": "mountains."
+            },
+            {
+              "id": "w7",
               "text": "the"
             },
             {
+              "id": "w1",
+              "text": "football."
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
               "id": "w3",
-              "text": "is"
+              "text": "the"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 53 (Health: At the Doctor):",
-          "stimulus_en": "This a pen is ___ in the garden!.",
+          "stimulus_en": "This television is ___ in the restaurant.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 53 (Health: At the Doctor)",
-          "stimulus_en": "This a car is expensive in the museum - amazing.",
-          "stimulus_es": "Ref: Este a car es el m\u00e1s caro en the museum - amazing.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 53 (Health: At the Doctor)",
+          "stimulus_en": "This cat is the most expensive in the beach.",
+          "stimulus_es": "Ref: Este cat es el más caro en the beach.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 53 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a pizza es el m\u00e1s caro en the airport!.",
-              "right": "This a pizza is the most expensive in the airport!."
+              "left": "Este apple es el más caro en the shop.",
+              "right": "This apple is the most expensive in the shop."
             },
             {
               "id": "p1",
-              "left": "Este a ticket es el m\u00e1s caro en the beach (today).",
-              "right": "This a ticket is the most expensive in the beach (today)."
+              "left": "Este gift es el más caro en the shop.",
+              "right": "This gift is the most expensive in the shop."
             },
             {
               "id": "p2",
-              "left": "Este a ticket es el m\u00e1s caro en the mountains (today).",
-              "right": "This a ticket is the most expensive in the mountains (today)."
+              "left": "Este laptop es el más caro en the cinema.",
+              "right": "This laptop is the most expensive in the cinema."
             },
             {
               "id": "p3",
-              "left": "Este a movie es el m\u00e1s caro en the station....",
-              "right": "This a movie is the most expensive in the station...."
+              "left": "Este book es el más caro en the country.",
+              "right": "This book is the most expensive in the country."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 53 (Health: At the Doctor):",
-          "tts_en": "This a dog is the most expensive in the garage - amazing.",
-          "correct_answer": "This a dog is the most expensive in the garage - amazing.",
+          "tts_en": "This tennis is the most expensive in the shop.",
+          "correct_answer": "This tennis is the most expensive in the shop",
           "mastery_tag": "listening",
           "interaction_id": "U7_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 53:",
           "options": [
             {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
               "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o4",
-              "text": "Book574"
+              "text": "Sad"
             },
             {
               "id": "o0",
-              "text": "Guitar"
+              "text": "Happy"
             },
             {
-              "id": "o3",
-              "text": "Drums"
+              "id": "o4",
+              "text": "Fast"
+            },
+            {
+              "id": "o2",
+              "text": "Angry"
             }
           ],
           "correct_answer": "o4",
@@ -1326,65 +1291,65 @@
           "interaction_id": "U7_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 53 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "D\u00f3nde te lo dijo? - interesting",
-              "back": "Where did he/she tell you - interesting"
+              "front": "6. it / rain in the summer / often / doesn’t.",
+              "back": "it doesn’t often rain in the summer."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 53 (Health: At the Doctor):",
-          "instruction_en": "Describe Health: At the Doctor in 5 words. [Ref: 96]",
+          "instruction_en": "Explain Superlatives using Health: At the Doctor. [Ref: 86]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 53 (Health: At the Doctor):",
-          "stimulus_en": "Where is Health: At the Doctor? (787)",
+          "stimulus_en": "Improve Health: At the Doctor. (166)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 47 (Health: At the Doctor):",
-          "stimulus": "Matching set 337",
+          "stimulus": "Matching set 6966.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing (today)",
+              "text": "Por qué no me lo dijiste?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "French fries (Br Eng - interesting",
+              "text": "The correct thing.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "6. it / rain in the summer / often / doesn\u2019t.",
+              "text": "7. La casa de mis primos es muy grande.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "Why didn’t you tell me."
+            },
+            {
               "id": "m1",
-              "text": "chips) Patatas fritas - interesting"
+              "text": "My friend has a lot of money."
             },
             {
               "id": "m2",
-              "text": "it doesn\u2019t often rain in the summer."
-            },
-            {
-              "id": "m0",
-              "text": "I have 3 children. (today)"
+              "text": "My cousins’ house is very big."
             }
           ],
           "correct_answer": {
@@ -1396,26 +1361,26 @@
           "interaction_id": "U7_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 47 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - 831"
+                  "text": "do you have a car."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb.!"
+                  "text": "in summer, in winter."
                 }
               ]
             }
@@ -1424,20 +1389,20 @@
           "interaction_id": "U7_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 47 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (7727), The boss [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (3306), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "prepared."
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "prepare."
                 }
               ]
             },
@@ -1446,11 +1411,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "built"
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "build"
                 }
               ]
             }
@@ -1463,22 +1428,22 @@
           "interaction_id": "U7_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 47 para Health: At the Doctor:",
-          "stimulus_en": "This an apple is the most expensive in the supermarket - 824.",
-          "stimulus_es": "Este an apple es el m\u00e1s caro en the supermarket - 824.",
+          "stimulus_en": "This football is the most expensive in the woods.",
+          "stimulus_es": "Este football es el más caro en the woods.",
           "options": [
             {
-              "id": "o2",
-              "text": "expensive"
+              "id": "o1",
+              "text": "the most expensive."
             },
             {
               "id": "o3",
-              "text": "Other 3246"
+              "text": "Other 9193."
             },
             {
-              "id": "o1",
-              "text": "the most expensive"
+              "id": "o2",
+              "text": "expensive."
             }
           ],
           "correct_answer": "o1",
@@ -1486,141 +1451,136 @@
           "interaction_id": "U7_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 47 sobre Health: At the Doctor:",
           "options": [
             {
-              "id": "w5",
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "hospital."
+            },
+            {
+              "id": "w1",
+              "text": "English."
+            },
+            {
+              "id": "w4",
               "text": "most"
+            },
+            {
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w9",
-              "text": "park"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "book"
+              "id": "w5",
+              "text": "expensive."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 54 (Health: At the Doctor):",
-          "stimulus_en": "This a printer is ___ in the beach..",
+          "stimulus_en": "This camera is ___ in the airport.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 54 (Health: At the Doctor)",
-          "stimulus_en": "This tennis is expensive in the office - amazing.",
-          "stimulus_es": "Ref: Este tennis es el m\u00e1s caro en the office - amazing.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 54 (Health: At the Doctor)",
+          "stimulus_en": "This movie is the most expensive in the kitchen.",
+          "stimulus_es": "Ref: Este movie es el más caro en the kitchen.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 54 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este football es el m\u00e1s caro en the cinema (now).",
-              "right": "This football is the most expensive in the cinema (now)."
+              "left": "Este dog es el más caro en the woods.",
+              "right": "This dog is the most expensive in the woods."
             },
             {
               "id": "p1",
-              "left": "Este a pen es el m\u00e1s caro en the restaurant - 259.",
-              "right": "This a pen is the most expensive in the restaurant - 259."
+              "left": "Este computer es el más caro en school.",
+              "right": "This computer is the most expensive in school."
             },
             {
               "id": "p2",
-              "left": "Este music es el m\u00e1s caro en the library!.",
-              "right": "This music is the most expensive in the library!."
+              "left": "Este email es el más caro en the park.",
+              "right": "This email is the most expensive in the park."
             },
             {
               "id": "p3",
-              "left": "Este a camera es el m\u00e1s caro en the stadium!.",
-              "right": "This a camera is the most expensive in the stadium!."
+              "left": "Este book es el más caro en the city.",
+              "right": "This book is the most expensive in the city."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 54 (Health: At the Doctor):",
-          "tts_en": "This an apple is the most expensive in the office!.",
-          "correct_answer": "This an apple is the most expensive in the office!.",
+          "tts_en": "This bike is the most expensive in the bedroom.",
+          "correct_answer": "This bike is the most expensive in the bedroom",
           "mastery_tag": "listening",
           "interaction_id": "U7_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 54:",
           "options": [
             {
               "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o3",
-              "text": "Friday"
+              "text": "Table"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "Chair"
             },
             {
               "id": "o4",
-              "text": "June340"
+              "text": "Pen"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Sofa"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
             }
           ],
           "correct_answer": "o4",
@@ -1628,65 +1588,65 @@
           "interaction_id": "U7_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 54 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "Eraser (Br Eng!",
-              "back": "rubber) Goma de borrar!"
+              "front": "2. Let’s do the same with the first example.",
+              "back": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 54 (Health: At the Doctor):",
-          "instruction_en": "Write a note about Health: At the Doctor. [Ref: 34]",
+          "instruction_en": "Draft an email regarding Health: At the Doctor. [Ref: 36]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 54 (Health: At the Doctor):",
-          "stimulus_en": "Focus on Health: At the Doctor. (559)",
+          "stimulus_en": "Study Health: At the Doctor now. (920)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 48 (Health: At the Doctor):",
-          "stimulus": "Matching set 7696",
+          "stimulus": "Matching set 15.",
           "items": [
             {
               "id": "i0",
-              "text": "Al lado de mi colegio no hay bloques de pisos - interesting",
+              "text": "angry / Our / teacher / English / usually / is.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "A qu\u00e9 hora sale el autob\u00fas? - 692",
+              "text": "Common mistake.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Otro ejemplo.",
+              "text": "Litre (Br Eng) (Am Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "Next to my school there aren\u2019t any apartment blocks. - interesting"
+              "id": "m1",
+              "text": "Had you got a motorbike…?"
             },
             {
               "id": "m2",
-              "text": "when I was at primary school, I didn\u2019t wear uniform.."
+              "text": "liter) Litro."
             },
             {
-              "id": "m1",
-              "text": "What time does the bus leave - 692"
+              "id": "m0",
+              "text": "Our English teacher is usually angry."
             }
           ],
           "correct_answer": {
@@ -1698,26 +1658,26 @@
           "interaction_id": "U7_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 48 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Whose books are those= or Whose are those books..."
+                  "text": "bookshop) Librería."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "present continuous, porque lo est\u00e1s buscando en este momento. - 714"
+                  "text": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos."
                 }
               ]
             }
@@ -1726,20 +1686,20 @@
           "interaction_id": "U7_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 48 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (4060), My cousin [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (7596), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "designed"
+                  "text": "watched."
                 },
                 {
                   "id": "o2",
-                  "text": "design"
+                  "text": "watch"
                 }
               ]
             },
@@ -1748,11 +1708,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "bought."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "buy"
                 }
               ]
             }
@@ -1765,22 +1725,22 @@
           "interaction_id": "U7_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 48 para Health: At the Doctor:",
-          "stimulus_en": "This a watch is the most expensive in the mountains....",
-          "stimulus_es": "Este a watch es el m\u00e1s caro en the mountains....",
+          "stimulus_en": "This report is the most expensive in Paris.",
+          "stimulus_es": "Este report es el más caro en Paris.",
           "options": [
             {
               "id": "o3",
-              "text": "Other 5889"
+              "text": "Other 6985."
             },
             {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             },
             {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
             }
           ],
           "correct_answer": "o1",
@@ -1788,141 +1748,131 @@
           "interaction_id": "U7_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 48 sobre Health: At the Doctor:",
           "options": [
-            {
-              "id": "w8",
-              "text": "city"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w9",
-              "text": "(now)"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "most"
-            },
-            {
               "id": "w1",
-              "text": "tennis"
+              "text": "bag"
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
             },
             {
               "id": "w6",
               "text": "in"
             },
             {
-              "id": "w5",
-              "text": "expensive"
+              "id": "w4",
+              "text": "most"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "Paris"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 55 (Health: At the Doctor):",
-          "stimulus_en": "This a door is ___ in the balcony..",
+          "stimulus_en": "This book is ___ in the hotel.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 55 (Health: At the Doctor)",
-          "stimulus_en": "This a sandwich is expensive in the library - 937.",
-          "stimulus_es": "Ref: Este a sandwich es el m\u00e1s caro en the library - 937.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 55 (Health: At the Doctor)",
+          "stimulus_en": "This window is expensive in the library.",
+          "stimulus_es": "Ref: Este window es el más caro en the library.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 55 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este a cat es el m\u00e1s caro en the street (today).",
-              "right": "This a cat is the most expensive in the street (today)."
+              "left": "Este car es el más caro en the bank.",
+              "right": "This car is the most expensive in the bank."
             },
             {
               "id": "p1",
-              "left": "Este a house es el m\u00e1s caro en the office - amazing.",
-              "right": "This a house is the most expensive in the office - amazing."
+              "left": "Este pen es el más caro en the garage.",
+              "right": "This pen is the most expensive in the garage."
             },
             {
               "id": "p2",
-              "left": "Este a gift es el m\u00e1s caro en the museum!.",
-              "right": "This a gift is the most expensive in the museum!."
+              "left": "Este chair es el más caro en the station.",
+              "right": "This chair is the most expensive in the station."
             },
             {
               "id": "p3",
-              "left": "Este a phone es el m\u00e1s caro en the hospital....",
-              "right": "This a phone is the most expensive in the hospital...."
+              "left": "Este television es el más caro en the country.",
+              "right": "This television is the most expensive in the country."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 55 (Health: At the Doctor):",
-          "tts_en": "This a bag is the most expensive in the kitchen....",
-          "correct_answer": "This a bag is the most expensive in the kitchen....",
+          "tts_en": "This laptop is the most expensive in the library.",
+          "correct_answer": "This laptop is the most expensive in the library",
           "mastery_tag": "listening",
           "interaction_id": "U7_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 55:",
           "options": [
             {
               "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o4",
-              "text": "cat3754"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o2",
-              "text": "train"
+              "text": "apple"
             },
             {
               "id": "o3",
-              "text": "plane"
+              "text": "mango"
+            },
+            {
+              "id": "o4",
+              "text": "bike"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
             }
           ],
           "correct_answer": "o4",
@@ -1930,65 +1880,65 @@
           "interaction_id": "U7_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 55 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
-              "back": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
+              "front": "2. el primer elemento es un animal. Ejemplo.",
+              "back": "the bird‘s legs = las piernas del pájaro."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 55 (Health: At the Doctor):",
-          "instruction_en": "A small story about Health: At the Doctor. [Ref: 30]",
+          "instruction_en": "Explain Superlatives using Health: At the Doctor. [Ref: 28]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 55 (Health: At the Doctor):",
-          "stimulus_en": "Focus on Health: At the Doctor. (533)",
+          "stimulus_en": "Talk about Health: At the Doctor. (475)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 49 (Health: At the Doctor):",
-          "stimulus": "Matching set 9452",
+          "stimulus": "Matching set 1401.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?!",
+              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversión de Have, como en nuestro ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "7. read books slowly / I / always.",
+              "text": "Common mistake.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Common mistake (now)",
+              "text": "A qué hora sale el autobús?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "What\u2019s the funniest joke you\u2019ve ever been told!"
+              "text": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
             },
             {
               "id": "m1",
-              "text": "I always read books slowly."
+              "text": "I don’t know that I will do."
             },
             {
               "id": "m2",
-              "text": "I don\u2019t know that I will do. (now)"
+              "text": "What time does the bus leave."
             }
           ],
           "correct_answer": {
@@ -2000,26 +1950,26 @@
           "interaction_id": "U7_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 49 (Health: At the Doctor):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "My children\u2019s toys."
+                  "text": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - amazing"
+                  "text": "sólo una inversión por oración!"
                 }
               ]
             }
@@ -2028,20 +1978,20 @@
           "interaction_id": "U7_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 49 (Health: At the Doctor):",
-          "main_text": "In Health: At the Doctor (2274), The coach [GAP 1] and [GAP 2].",
+          "main_text": "In Health: At the Doctor (1892), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "send"
                 }
               ]
             },
@@ -2050,11 +2000,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "finish."
                 }
               ]
             }
@@ -2067,22 +2017,22 @@
           "interaction_id": "U7_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 49 para Health: At the Doctor:",
-          "stimulus_en": "This a camera is the most expensive in the garden!.",
-          "stimulus_es": "Este a camera es el m\u00e1s caro en the garden!.",
+          "stimulus_en": "This cat is the most expensive in the gym.",
+          "stimulus_es": "Este cat es el más caro en the gym.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 1124"
-            },
-            {
               "id": "o2",
-              "text": "expensive"
+              "text": "expensive."
             },
             {
               "id": "o1",
-              "text": "the most expensive"
+              "text": "the most expensive."
+            },
+            {
+              "id": "o3",
+              "text": "Other 7255."
             }
           ],
           "correct_answer": "o1",
@@ -2090,146 +2040,136 @@
           "interaction_id": "U7_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 49 sobre Health: At the Doctor:",
           "options": [
-            {
-              "id": "w5",
-              "text": "most"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "kitchen"
-            },
-            {
-              "id": "w8",
-              "text": "the"
-            },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w4",
+              "id": "w3",
               "text": "the"
             },
             {
-              "id": "w3",
-              "text": "is"
+              "id": "w7",
+              "text": "the"
             },
             {
-              "id": "w10",
-              "text": "interesting"
+              "id": "w4",
+              "text": "most"
             },
             {
               "id": "w2",
-              "text": "clock"
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "expensive."
+            },
+            {
+              "id": "w8",
+              "text": "stadium."
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "dog"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U7_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 56 (Health: At the Doctor):",
-          "stimulus_en": "This a book is ___ in the park....",
+          "stimulus_en": "This music is ___ in the library.",
           "correct_answer": "the most expensive",
           "mastery_tag": "grammar",
           "interaction_id": "U7_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 56 (Health: At the Doctor)",
-          "stimulus_en": "This a book is expensive in the cinema....",
-          "stimulus_es": "Ref: Este a book es el m\u00e1s caro en the cinema....",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 56 (Health: At the Doctor)",
+          "stimulus_en": "This radio is expensive in the mountains.",
+          "stimulus_es": "Ref: Este radio es el más caro en the mountains.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U7_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 56 (Health: At the Doctor):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Este coffee es el m\u00e1s caro en the city - amazing.",
-              "right": "This coffee is the most expensive in the city - amazing."
+              "left": "Este door es el más caro en the stadium.",
+              "right": "This door is the most expensive in the stadium."
             },
             {
               "id": "p1",
-              "left": "Este music es el m\u00e1s caro en the airport - amazing.",
-              "right": "This music is the most expensive in the airport - amazing."
+              "left": "Este phone es el más caro en the balcony.",
+              "right": "This phone is the most expensive in the balcony."
             },
             {
               "id": "p2",
-              "left": "Este a computer es el m\u00e1s caro en the street!.",
-              "right": "This a computer is the most expensive in the street!."
+              "left": "Este apple es el más caro en the hospital.",
+              "right": "This apple is the most expensive in the hospital."
             },
             {
               "id": "p3",
-              "left": "Este English es el m\u00e1s caro en the stadium (today).",
-              "right": "This English is the most expensive in the stadium (today)."
+              "left": "Este bike es el más caro en the mountains.",
+              "right": "This bike is the most expensive in the mountains."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 56 (Health: At the Doctor):",
-          "tts_en": "This a newspaper is the most expensive in the balcony - interesting.",
-          "correct_answer": "This a newspaper is the most expensive in the balcony - interesting.",
+          "tts_en": "This cat is the most expensive in the hospital.",
+          "correct_answer": "This cat is the most expensive in the hospital",
           "mastery_tag": "listening",
           "interaction_id": "U7_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 56:",
           "options": [
             {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
               "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot8909"
+              "text": "salad"
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "soup"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
             }
           ],
           "correct_answer": "o4",
@@ -2237,29 +2177,29 @@
           "interaction_id": "U7_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 56 - Health: At the Doctor:",
           "cards": [
             {
               "id": "c1",
-              "front": "3. Las hermanas de Pedro - interesting",
-              "back": "Peter\u2019s sisters - interesting"
+              "front": "car / I / drink / never / if / drive / I / alcohol / a.",
+              "back": "I never drink alcohol if I drive a car."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U7_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 56 (Health: At the Doctor):",
-          "instruction_en": "Your daily routine in Health: At the Doctor. [Ref: 18]",
+          "instruction_en": "Write a note about Health: At the Doctor. [Ref: 80]",
           "mastery_tag": "writing",
           "interaction_id": "U7_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 56 (Health: At the Doctor):",
-          "stimulus_en": "I like Health: At the Doctor. (707)",
+          "stimulus_en": "Talk about Health: At the Doctor. (254)",
           "mastery_tag": "speaking",
           "interaction_id": "U7_I100"
         }

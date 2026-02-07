@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit38",
-    "unit_title": "Genitive Saxon - Animals: Wild Animals",
+    "unit_title": "Genitive Saxon - Animals: Wild Animals.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U38_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 38",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 38.",
           "tts_en": "Starting unit 38. Topic: Animals: Wild Animals. Focus: Genitive Saxon.",
           "mastery_tag": "listening",
           "interaction_id": "U38_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 297 (Animals: Wild Animals):",
-          "stimulus_en": "When did you help him/her! (___)",
+          "stimulus_en": "Jonathan usually visits the dentist (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 297 (Animals: Wild Animals)",
-          "stimulus_en": "Have you a car?...",
-          "stimulus_es": "Ref: Otro common mistake...",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 297 (Animals: Wild Animals)",
+          "stimulus_en": "Whose car is that.",
+          "stimulus_es": "Ref: De quién ese coche?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 297 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Tienes hijos? - amazing",
-              "right": "Do you have any children - amazing"
+              "left": "El genitivo sajón se utiliza para expresar posesión. Por ejemplo, si quiero decir.",
+              "right": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón."
             },
             {
               "id": "p1",
-              "left": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be - 361",
-              "right": "\u2018m/ \u2018s, etc) - 361"
+              "left": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qué el from al final, quizá la aprendiste así en su día y la tienes ya tan asimilada que no te planteas por qué la preposición está al final, cuando en español, decimos la preposición de (from) al principio.",
+              "right": "¿De dónde eres?"
             },
             {
               "id": "p2",
-              "left": "me / Paul / helps / sometimes / my / with / homework (today)",
-              "right": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (today)"
+              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversión de Have, como en nuestro ejemplo.",
+              "right": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
             },
             {
               "id": "p3",
-              "left": "\u2022in the fall (Br Eng!",
-              "right": "autumn) En oto\u00f1o!"
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 297 (Animals: Wild Animals):",
-          "tts_en": "do you have a car - amazing",
-          "correct_answer": "do you have a car - amazing",
+          "tts_en": "the bus usually arrives late.",
+          "correct_answer": "the bus usually arrives late",
           "mastery_tag": "listening",
           "interaction_id": "U38_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 297:",
           "options": [
             {
-              "id": "o2",
-              "text": "pear"
-            },
-            {
-              "id": "o3",
-              "text": "mango"
+              "id": "o1",
+              "text": "Tuesday."
             },
             {
               "id": "o4",
-              "text": "bike8341"
+              "text": "June"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "Monday."
             },
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o2",
+              "text": "Sunday."
+            },
+            {
+              "id": "o3",
+              "text": "Friday."
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U38_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 297 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "Empecemos analizando el siguiente ejemplo - amazing",
-              "back": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - amazing"
+              "front": "Cuando «nada», «nadie» o «ningún sitio» NO va en primera posición (no es el sujeto, sino el objeto), podemos utilizar «any» o «no», dependiendo de cómo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos «any» y si lo pongo sin negar (es positivo), entonces utilizamos «no». Esto es así porque en inglés sólo es posible poner una palabra negativa en una oración, nunca dos, como sucede en español. Yo es español puedo decir.",
+              "back": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 297 (Animals: Wild Animals):",
-          "instruction_en": "Write a note about Animals: Wild Animals. [Ref: 87]",
+          "instruction_en": "Describe Animals: Wild Animals in 5 words. [Ref: 25]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 297 (Animals: Wild Animals):",
-          "stimulus_en": "I like Animals: Wild Animals. (382)",
+          "stimulus_en": "Focus on Animals: Wild Animals. (865)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 260 (Animals: Wild Animals):",
-          "stimulus": "Matching set 7082",
+          "stimulus": "Matching set 1823.",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 es \u00e9so? (now)",
+              "text": "Sigue recto y delante de la iglesia hay un supermercado.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tyre (Am Eng (now)",
+              "text": "puedo abrir la ventana, por favor?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "D\u00f3nde te lo dijo? - amazing",
+              "text": "Alguna vez has probado la comida tailandesa?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "What\u2019s that (now)"
-            },
-            {
               "id": "m1",
-              "text": "tire) Neum\u00e1tico (now)"
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             },
             {
               "id": "m2",
-              "text": "Where did he/she tell you - amazing"
+              "text": "Have you ever tried Thai food."
+            },
+            {
+              "id": "m0",
+              "text": "Go straight on and in front of the church there is a supermarket."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U38_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 260 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. (today)"
+                  "text": "my father usually goes to work by bus."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Were you having a beer when you saw Peter (today)"
+                  "text": "Is she studying English."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U38_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 260 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (7014), Sarah [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (2530), You [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "walked."
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "walk"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "speak"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U38_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 260 para Animals: Wild Animals:",
-          "stimulus_en": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on. (today)",
-          "stimulus_es": "\u2013 Fechas concretas (today)",
+          "stimulus_en": "Have you got a car?",
+          "stimulus_es": "The correct thing.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 9549"
+              "text": "Other 9919."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -263,116 +263,121 @@
           "interaction_id": "U38_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 260 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w2",
-              "text": "like"
+              "id": "w3",
+              "text": "forma"
             },
             {
-              "id": "w3",
-              "text": "some"
+              "id": "w2",
+              "text": "de"
+            },
+            {
+              "id": "w5",
+              "text": "específica."
             },
             {
               "id": "w4",
-              "text": "coke?"
+              "text": "más"
             },
             {
               "id": "w0",
-              "text": "would"
+              "text": "cuando."
             },
             {
               "id": "w1",
-              "text": "you"
+              "text": "hablamos."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 298 (Animals: Wild Animals):",
-          "stimulus_en": "ADJECTIVE + NOUN. (___)",
+          "stimulus_en": "Whose mobile is that (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 298 (Animals: Wild Animals)",
-          "stimulus_en": "lift) Ascensor (now)",
-          "stimulus_es": "Ref: Elevator (Br Eng (now)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 298 (Animals: Wild Animals)",
+          "stimulus_en": "meter) Metro.",
+          "stimulus_es": "Ref: Metre (Br Eng) (Am Eng.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 298 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Uncountable nouns - interesting",
-              "right": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - interesting"
+              "left": "Ahora bien, si estas palabras no llevan un número delante, se les pone la -s de plural, por ejemplo.",
+              "right": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural."
             },
             {
               "id": "p1",
-              "left": "The correct thing.",
-              "right": "I went to a state school.."
+              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question teníamos la inversión entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet? ), en la indirect question, ya no hay inversión, sino que tenemos question word + subject + verb. Si te das cuenta, la inversión la tenemos en ‘Can you tell me…’. Como ya tenemos una inversión al comenzar la pregunta, ya no podemos hacer otra inversión. Recuerda.",
+              "right": "sólo una inversión por oración!"
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?!",
-              "right": "What\u2019s the saddest song you\u2019ve ever listened to!"
+              "left": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "right": "would you like some coke?"
             },
             {
               "id": "p3",
-              "left": "Otro ejemplo - 480",
-              "right": "My partner is the most beautiful woman in the world - 480"
+              "left": "El cumpleaños de Pablo es el 8 de mayo.",
+              "right": "Paul’s birthday is on 8th May."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 298 (Animals: Wild Animals):",
-          "tts_en": "What time is it!",
-          "correct_answer": "What time is it!",
+          "tts_en": "film) Película.",
+          "correct_answer": "film) Película",
           "mastery_tag": "listening",
           "interaction_id": "U38_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 298:",
           "options": [
             {
-              "id": "o4",
-              "text": "Hot8894"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
               "id": "o1",
-              "text": "Moon"
+              "text": "burger."
+            },
+            {
+              "id": "o4",
+              "text": "rain"
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "soup"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "pizza"
+            },
+            {
+              "id": "o2",
+              "text": "salad"
             }
           ],
           "correct_answer": "o4",
@@ -380,65 +385,65 @@
           "interaction_id": "U38_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 298 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "Verbos irregulares!",
-              "back": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna.!"
+              "front": "– Meses del año.",
+              "back": "in May, in August, etc."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 298 (Animals: Wild Animals):",
-          "instruction_en": "Review Animals: Wild Animals from last week. [Ref: 25]",
+          "instruction_en": "Write a note about Animals: Wild Animals. [Ref: 18]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 298 (Animals: Wild Animals):",
-          "stimulus_en": "Where is Animals: Wild Animals? (329)",
+          "stimulus_en": "Improve Animals: Wild Animals. (856)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 261 (Animals: Wild Animals):",
-          "stimulus": "Matching set 7653",
+          "stimulus": "Matching set 2611.",
           "items": [
             {
               "id": "i0",
-              "text": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example!",
+              "text": "A qué hora sale el autobús?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "3. Las hermanas de Pedro...",
+              "text": "Tienes coche?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cabe destacar que la palabra every es singular en ingl\u00e9s, por tanto, tanto \u00abday\u00bb como cualquiera de los d\u00edas que pongamos, deben ir en singular. Es incorrecto decir (now)",
+              "text": "Alguien dijo mi nombre?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "may come, might go.!"
-            },
-            {
-              "id": "m2",
-              "text": "every days o every Tuesdays. (now)"
+              "text": "What time does the bus leave."
             },
             {
               "id": "m1",
-              "text": "Peter\u2019s sisters..."
+              "text": "do you have a car."
+            },
+            {
+              "id": "m2",
+              "text": "Did anybody say my name."
             }
           ],
           "correct_answer": {
@@ -450,26 +455,26 @@
           "interaction_id": "U38_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 261 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Whose books are those= or Whose are those books (today)"
+                  "text": "I often go to bed before 11."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - 842"
+                  "text": "What’s his name."
                 }
               ]
             }
@@ -478,20 +483,20 @@
           "interaction_id": "U38_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 261 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (8096), The manager [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (3331), The driver [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "drink"
                 }
               ]
             },
@@ -500,11 +505,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "designed"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
-                  "text": "design"
+                  "text": "learn"
                 }
               ]
             }
@@ -517,22 +522,22 @@
           "interaction_id": "U38_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 261 para Animals: Wild Animals:",
-          "stimulus_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. - interesting",
-          "stimulus_es": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo - interesting",
+          "stimulus_en": "la película, entonces SUBJECT = THE FILM.",
+          "stimulus_es": "Qué es lo que empieza?",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 547"
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 1688."
             }
           ],
           "correct_answer": "o1",
@@ -540,166 +545,286 @@
           "interaction_id": "U38_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 261 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w6",
-              "text": "zero"
+              "id": "w33",
+              "text": "un"
             },
             {
-              "id": "w2",
-              "text": "tambi\u00e9n"
-            },
-            {
-              "id": "w9",
-              "text": "la"
-            },
-            {
-              "id": "w4",
-              "text": "puede"
-            },
-            {
-              "id": "w12",
-              "text": "nought"
-            },
-            {
-              "id": "w11",
-              "text": "de"
-            },
-            {
-              "id": "w1",
+              "id": "w24",
               "text": "pero"
             },
             {
-              "id": "w10",
-              "text": "pronunciaci\u00f3n"
+              "id": "w32",
+              "text": "expresamos."
             },
             {
-              "id": "w8",
-              "text": "importante"
+              "id": "w37",
+              "text": "omitir."
             },
             {
-              "id": "w7",
-              "text": "Muy"
+              "id": "w35",
+              "text": "También."
             },
             {
-              "id": "w3",
-              "text": "se"
-            },
-            {
-              "id": "w14",
-              "text": "/nooot/"
-            },
-            {
-              "id": "w0",
-              "text": "nought"
+              "id": "w34",
+              "text": "precio."
             },
             {
               "id": "w5",
-              "text": "utilizar"
+              "text": "cents"
+            },
+            {
+              "id": "w21",
+              "text": "no"
+            },
+            {
+              "id": "w14",
+              "text": "ponemos."
+            },
+            {
+              "id": "w30",
+              "text": "decirlo."
+            },
+            {
+              "id": "w2",
+              "text": "euros"
+            },
+            {
+              "id": "w7",
+              "text": "="
+            },
+            {
+              "id": "w15",
+              "text": "un"
+            },
+            {
+              "id": "w12",
+              "text": "en"
+            },
+            {
+              "id": "w19",
+              "text": "decimales."
+            },
+            {
+              "id": "w20",
+              "text": "y"
+            },
+            {
+              "id": "w9",
+              "text": "importante."
+            },
+            {
+              "id": "w26",
+              "text": "punto"
+            },
+            {
+              "id": "w18",
+              "text": "los"
+            },
+            {
+              "id": "w11",
+              "text": "que"
+            },
+            {
+              "id": "w17",
+              "text": "para"
             },
             {
               "id": "w13",
+              "text": "inglés."
+            },
+            {
+              "id": "w36",
+              "text": "podemos."
+            },
+            {
+              "id": "w16",
+              "text": "punto"
+            },
+            {
+              "id": "w4",
+              "text": "2"
+            },
+            {
+              "id": "w22",
+              "text": "una"
+            },
+            {
+              "id": "w0",
+              "text": "it’s"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w27",
+              "text": "no"
+            },
+            {
+              "id": "w10",
+              "text": "recordar."
+            },
+            {
+              "id": "w25",
+              "text": "el"
+            },
+            {
+              "id": "w31",
+              "text": "cuando."
+            },
+            {
+              "id": "w28",
+              "text": "hay"
+            },
+            {
+              "id": "w1",
+              "text": "5"
+            },
+            {
+              "id": "w8",
               "text": "es"
+            },
+            {
+              "id": "w38",
+              "text": "«cents»"
+            },
+            {
+              "id": "w29",
+              "text": "que"
+            },
+            {
+              "id": "w23",
+              "text": "coma"
+            },
+            {
+              "id": "w6",
+              "text": "(52)"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 299 (Animals: Wild Animals):",
-          "stimulus_en": "I often fish for hours without catching anything (today) (___)",
+          "stimulus_en": "I often fish for hours without catching anything (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 299 (Animals: Wild Animals)",
-          "stimulus_en": "I don\u2019t have any friends who live near my house. (today)",
-          "stimulus_es": "Ref: Y en negativa (today)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 299 (Animals: Wild Animals)",
+          "stimulus_en": "What’s the most difficult language you’ve ever studied.",
+          "stimulus_es": "Ref: Cuál es el idioma más difícil que has estudiado nunca?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 299 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Alguna vez has probado la comida tailandesa? - 378",
-              "right": "Have you ever tried Thai food - 378"
+              "left": "Dos acciones en el pasado que ocurren al mismo tiempo. Aquí podemos utilizar when y while. Ejemplo.",
+              "right": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo."
             },
             {
               "id": "p1",
-              "left": "For example (today)",
-              "right": "She drives carefully. (today)"
+              "left": "Otro ejemplo.",
+              "right": "la casa de María es grande = María’s house is big."
             },
             {
               "id": "p2",
-              "left": "\u2013 Meses del a\u00f1o...",
-              "right": "in May, in August, etc...."
+              "left": "A qué hora abre el supermercado?",
+              "right": "What time does the supermarket open."
             },
             {
               "id": "p3",
-              "left": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo...",
-              "right": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta...."
+              "left": "Qué hora es?",
+              "right": "What time is it."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 299 (Animals: Wild Animals):",
-          "tts_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - 895",
-          "correct_answer": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. - 895",
+          "tts_en": "biscuit) Galleta.",
+          "correct_answer": "biscuit) Galleta",
           "mastery_tag": "listening",
           "interaction_id": "U38_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 299:",
           "options": [
             {
               "id": "o4",
-              "text": "Book9335"
-            },
-            {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
+              "text": "cat"
             },
             {
               "id": "o0",
-              "text": "Guitar"
+              "text": "car"
             },
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "bus"
+            },
+            {
+              "id": "o3",
+              "text": "plane"
+            },
+            {
+              "id": "o2",
+              "text": "train"
             }
           ],
           "correct_answer": "o4",
@@ -707,65 +832,65 @@
           "interaction_id": "U38_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 299 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "Alguien dijo mi nombre? - interesting",
-              "back": "Did anybody say my name - interesting"
+              "front": "Otro common mistake.",
+              "back": "Have you a car?"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 299 (Animals: Wild Animals):",
-          "instruction_en": "Your daily routine in Animals: Wild Animals. [Ref: 78]",
+          "instruction_en": "Explain Genitive Saxon using Animals: Wild Animals. [Ref: 69]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 299 (Animals: Wild Animals):",
-          "stimulus_en": "Improve Animals: Wild Animals. (163)",
+          "stimulus_en": "Focus on Animals: Wild Animals. (417)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 262 (Animals: Wild Animals):",
-          "stimulus": "Matching set 5765",
+          "stimulus": "Matching set 4077.",
           "items": [
             {
               "id": "i0",
-              "text": "Por qu\u00e9 no me lo dijiste? - 415",
+              "text": "Escribir inglés correctamente.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. Play football on Saturday afternoons / the boys / always.",
+              "text": "– Fechas concretas.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Un ejemplo de to seguido de infinitivo es - amazing",
+              "text": "Qué es éso?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - amazing"
+              "id": "m0",
+              "text": "uso de las mayúsculas."
             },
             {
-              "id": "m0",
-              "text": "Why didn\u2019t you tell me - 415"
+              "id": "m2",
+              "text": "What’s that."
             },
             {
               "id": "m1",
-              "text": "the boys always play football on Saturday afternoons."
+              "text": "on 5th May, on Christmas Day, on New Year’s Eve, on St. Valentine’s Day, on my birthday = siempre que sea una fecha concreta, ese día y no otro, utilizamos la preposición on."
             }
           ],
           "correct_answer": {
@@ -777,26 +902,26 @@
           "interaction_id": "U38_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 262 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. - 125"
+                  "text": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "la respuesta es ilimitada, puede ser cualquier cosa.!"
+                  "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta."
                 }
               ]
             }
@@ -805,9 +930,291 @@
           "interaction_id": "U38_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 262 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (6216), The scientist [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (868), The doctor [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "walked."
+                },
+                {
+                  "id": "o2",
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "fixed"
+                },
+                {
+                  "id": "o2",
+                  "text": "fix"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U38_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 262 para Animals: Wild Animals:",
+          "stimulus_en": "have you ever played chess.",
+          "stimulus_es": "Has jugado alguna vez al ajedrez?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 8785."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U38_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 262 sobre Animals: Wild Animals:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "window."
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "please."
+            },
+            {
+              "id": "w0",
+              "text": "may"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "open"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U38_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 300 (Animals: Wild Animals):",
+          "stimulus_en": "igual hago algo… (but I’m not sure…). (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U38_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 300 (Animals: Wild Animals)",
+          "stimulus_en": "I hardly ever watch TV in the evenings.",
+          "stimulus_es": "Ref: TV / ever / hardly / I / in / watch / evenings / the.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U38_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 300 (Animals: Wild Animals):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
+              "right": "have you ever studied a foreign laguage apart from English."
+            },
+            {
+              "id": "p1",
+              "left": "El marido de mi prima es alemán y su madre irlandesa.",
+              "right": "my cousin’s husband is German and his mother Irish."
+            },
+            {
+              "id": "p2",
+              "left": "1. La puerta de mi casa.",
+              "right": "the door of my house."
+            },
+            {
+              "id": "p3",
+              "left": "Cuánto cuesta?",
+              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U38_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 300 (Animals: Wild Animals):",
+          "tts_en": "have you ever spoken English on the phone.",
+          "correct_answer": "have you ever spoken English on the phone",
+          "mastery_tag": "listening",
+          "interaction_id": "U38_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 300:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
+            },
+            {
+              "id": "o0",
+              "text": "pizza"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U38_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 300 - Animals: Wild Animals:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "back": "Can I have your ID/ passport/ credit card?."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U38_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 300 (Animals: Wild Animals):",
+          "instruction_en": "Why is Animals: Wild Animals important? [Ref: 75]",
+          "mastery_tag": "writing",
+          "interaction_id": "U38_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 300 (Animals: Wild Animals):",
+          "stimulus_en": "Focus on Animals: Wild Animals. (589)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U38_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 263 (Animals: Wild Animals):",
+          "stimulus": "Matching set 483.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "Litre (Br Eng) (Am Eng.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Common mistake.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "‘Much’ se utiliza con uncountable nouns, bien, porque ‘money’ lo es, pero en oraciones negativas, por tanto.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m1",
+              "text": "Had you got a motorbike…?"
+            },
+            {
+              "id": "m2",
+              "text": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’."
+            },
+            {
+              "id": "m0",
+              "text": "liter) Litro."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U38_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 263 (Animals: Wild Animals):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "durante o desde hace."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "chemist) Farmacia."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U38_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 263 (Animals: Wild Animals):",
+          "main_text": "In Animals: Wild Animals (9694), The lawyer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
@@ -827,278 +1234,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "called."
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U38_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 262 para Animals: Wild Animals:",
-          "stimulus_en": "Who\u2019s the shyest person you\u2019ve ever met - amazing",
-          "stimulus_es": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? - amazing",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o3",
-              "text": "Other 6386"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U38_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 262 sobre Animals: Wild Animals:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Librer\u00eda"
-            },
-            {
-              "id": "w0",
-              "text": "bookshop)"
-            },
-            {
-              "id": "w2",
-              "text": "(now)"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U38_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 300 (Animals: Wild Animals):",
-          "stimulus_en": "What time does the supermarket open - amazing (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U38_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 300 (Animals: Wild Animals)",
-          "stimulus_en": "What\u2019s the hottest place you\u2019ve ever been to - interesting",
-          "stimulus_es": "Ref: Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? - interesting",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U38_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 300 (Animals: Wild Animals):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cu\u00e1ndo iremos a la playa?...",
-              "right": "When are we going to the beach..."
-            },
-            {
-              "id": "p1",
-              "left": "8. \u00a0usually / my father / goes to work by bus!",
-              "right": "my father usually goes to work by bus!"
-            },
-            {
-              "id": "p2",
-              "left": "Otro ejemplo - interesting",
-              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - interesting"
-            },
-            {
-              "id": "p3",
-              "left": "Esto si es un precio exacto, pero \u00bfy si hay c\u00e9ntimos? Entonces dir\u00edamos!",
-              "right": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb.!"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U38_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 300 (Animals: Wild Animals):",
-          "tts_en": "information, homework, work..",
-          "correct_answer": "information, homework, work..",
-          "mastery_tag": "listening",
-          "interaction_id": "U38_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 300:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o4",
-              "text": "Hot8512"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U38_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 300 - Animals: Wild Animals:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto...",
-              "back": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019...."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U38_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 300 (Animals: Wild Animals):",
-          "instruction_en": "A small story about Animals: Wild Animals. [Ref: 75]",
-          "mastery_tag": "writing",
-          "interaction_id": "U38_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 300 (Animals: Wild Animals):",
-          "stimulus_en": "I like Animals: Wild Animals. (858)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U38_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 263 (Animals: Wild Animals):",
-          "stimulus": "Matching set 8328",
-          "items": [
-            {
-              "id": "i0",
-              "text": "\u2013 D\u00edas de la semana (now)",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "Much, como se utiliza con uncountable, decimos.",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "French fries (Br Eng - interesting",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "on Monday, on Wednesday, etc. (now)"
-            },
-            {
-              "id": "m1",
-              "text": "I haven\u2019t got much money (remember, money is uncountable).."
-            },
-            {
-              "id": "m2",
-              "text": "chips) Patatas fritas - interesting"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U38_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 263 (Animals: Wild Animals):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is...."
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "do you have any brothers or sisters (now)"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U38_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 263 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (9174), My cousin [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "met"
-                },
-                {
-                  "id": "o2",
-                  "text": "meet"
+                  "text": "call"
                 }
               ]
             }
@@ -1111,22 +1251,22 @@
           "interaction_id": "U38_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 263 para Animals: Wild Animals:",
-          "stimulus_en": "la pel\u00edcula, entonces SUBJECT = THE FILM!",
-          "stimulus_es": "Qu\u00e9 es lo que empieza?!",
+          "stimulus_en": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework.",
+          "stimulus_es": "me / Paul / helps / sometimes / my / with / homework.",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 9925."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
-              "id": "o3",
-              "text": "Other 6538"
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1134,126 +1274,106 @@
           "interaction_id": "U38_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 263 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w6",
-              "text": "(today)"
-            },
-            {
-              "id": "w1",
-              "text": "neighbour"
+              "id": "w2",
+              "text": "ball"
             },
             {
               "id": "w0",
-              "text": "My"
+              "text": "The"
             },
             {
-              "id": "w5",
-              "text": "holidays"
-            },
-            {
-              "id": "w3",
-              "text": "spoils"
-            },
-            {
-              "id": "w4",
-              "text": "my"
-            },
-            {
-              "id": "w2",
-              "text": "always"
+              "id": "w1",
+              "text": "girls’"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 301 (Animals: Wild Animals):",
-          "stimulus_en": "What does Juan do - interesting (___)",
+          "stimulus_en": "How is your mum feeling (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 301 (Animals: Wild Animals)",
-          "stimulus_en": "I hardly ever watch TV in the evenings - amazing",
-          "stimulus_es": "Ref: TV / ever / hardly / I / in / watch / evenings / the - amazing",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 301 (Animals: Wild Animals)",
+          "stimulus_en": "Were you having a beer when you saw Peter.",
+          "stimulus_es": "Ref: Estabas tomándote una cerveza cuando viste a Pedro?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 301 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "This is another translation - amazing",
-              "right": "igual hago algo\u2026 (but I\u2019m not sure\u2026). - amazing"
+              "left": "Cuándo iremos a la playa?",
+              "right": "When are we going to the beach."
             },
             {
               "id": "p1",
-              "left": "\u2013 For + period of time (not defined) - interesting",
-              "right": "durante o desde hace - interesting"
+              "left": "¿Cómo saber que «the film» es el sujeto? Preguntamos al verbo SIEMPRE «quién» o «qué». Hacemos la prueba.",
+              "right": "¿Qué es lo que empieza? = la película, entonces SUBJECT = THE FILM."
             },
             {
               "id": "p2",
-              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo (now)",
-              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children. (now)"
+              "left": "Los tiempos verbales en inglés son muy importantes cuando nos disponemos an aprender inglés, es por ello que se empiezan an estudiar desde los primeros días. Digo que son importantísimos porque sin tiempos verbales no se puede hablar un inglés correcto, sino que hablaríamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducción para practicar los tiempos verbales en inglés de un nivel A. Tendrás que saber para este ejercicio los siguientes tiempos verbales.",
+              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la sección NIVEL A (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio."
             },
             {
               "id": "p3",
-              "left": "4. go to bed before 11 / often / I (now)",
-              "right": "I often go to bed before 11 (now)"
+              "left": "– Días de la semana.",
+              "right": "on Monday, on Wednesday, etc."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 301 (Animals: Wild Animals):",
-          "tts_en": "I always read books slowly - 492",
-          "correct_answer": "I always read books slowly - 492",
+          "tts_en": "how often do you have Italian classes? = I have every Tuesday.",
+          "correct_answer": "how often do you have Italian classes? = I have every Tuesday",
           "mastery_tag": "listening",
           "interaction_id": "U38_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 301:",
           "options": [
             {
-              "id": "o4",
-              "text": "Pen6610"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
               "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
+              "text": "banana."
             },
             {
               "id": "o0",
-              "text": "Table"
+              "text": "apple"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike"
+            },
+            {
+              "id": "o3",
+              "text": "mango"
             }
           ],
           "correct_answer": "o4",
@@ -1261,65 +1381,65 @@
           "interaction_id": "U38_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 301 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "see / usually / Jennifer / out / goes / a / to / concert...",
-              "back": "Jennifer usually goes out to see a concert..."
+              "front": "Has terminado ya el proyecto?",
+              "back": "Have you finished the project yet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 301 (Animals: Wild Animals):",
-          "instruction_en": "Why is Animals: Wild Animals important? [Ref: 93]",
+          "instruction_en": "A small story about Animals: Wild Animals. [Ref: 47]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 301 (Animals: Wild Animals):",
-          "stimulus_en": "Where is Animals: Wild Animals? (541)",
+          "stimulus_en": "Study Animals: Wild Animals now. (852)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 264 (Animals: Wild Animals):",
-          "stimulus": "Matching set 7557",
+          "stimulus": "Matching set 6167.",
           "items": [
             {
               "id": "i0",
-              "text": "Al lado de mi colegio no hay bloques de pisos - interesting",
+              "text": "– Con partes del día.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? (today)",
+              "text": "– Seasons (estaciones)",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Many, para countable, decimos - interesting",
+              "text": "2. Let’s do the same with the first example.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "Next to my school there aren\u2019t any apartment blocks. - interesting"
+              "id": "m2",
+              "text": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
             },
             {
-              "id": "m2",
-              "text": "I don\u2019t have many friends (friends is countable). - interesting"
+              "id": "m0",
+              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepción)"
             },
             {
               "id": "m1",
-              "text": "have you ever studied a foreign laguage apart from English (today)"
+              "text": "in summer, in winter."
             }
           ],
           "correct_answer": {
@@ -1331,26 +1451,26 @@
           "interaction_id": "U38_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 264 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "film star) Estrella de cine (today)"
+                  "text": "Do you have any friends who live near your house? = al ser interrogativa, any."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What\u2019s the most difficult language you\u2019ve ever studied - amazing"
+                  "text": "What’s the hottest place you’ve ever been to."
                 }
               ]
             }
@@ -1359,20 +1479,20 @@
           "interaction_id": "U38_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 264 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (7813), The actress [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (8913), She [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "received"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "receive"
+                  "text": "create."
                 }
               ]
             },
@@ -1381,11 +1501,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "receive."
                 }
               ]
             }
@@ -1398,22 +1518,22 @@
           "interaction_id": "U38_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 264 para Animals: Wild Animals:",
-          "stimulus_en": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM!",
-          "stimulus_es": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba!",
+          "stimulus_en": "I’ll see you on Saturday.",
+          "stimulus_es": "Te veo el sábado.",
           "options": [
             {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
               "id": "o3",
-              "text": "Other 5826"
+              "text": "Other 4447."
             },
             {
               "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -1421,121 +1541,121 @@
           "interaction_id": "U38_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 264 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w2",
-              "text": "got"
+              "id": "w0",
+              "text": "she"
             },
             {
-              "id": "w0",
-              "text": "Had"
+              "id": "w2",
+              "text": "often"
             },
             {
               "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "you"
+              "text": "write"
             },
             {
               "id": "w4",
-              "text": "motorbike\u2026?"
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "doesn’t."
             },
             {
               "id": "w5",
-              "text": "interesting"
+              "text": "me"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 302 (Animals: Wild Animals):",
-          "stimulus_en": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the. (___)",
+          "stimulus_en": "cinema) Cine (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 302 (Animals: Wild Animals)",
-          "stimulus_en": "have you ever seen a film in original version!",
-          "stimulus_es": "Ref: Has visto alguna vez una pel\u00edcula en versi\u00f3n original?!",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 302 (Animals: Wild Animals)",
+          "stimulus_en": "autumn) En otoño.",
+          "stimulus_es": "Ref: •in the fall (Br Eng.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 302 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?.",
-              "right": "What\u2019s the most delicious food you\u2019ve ever tasted."
+              "left": "Encontraste algo ahí?",
+              "right": "any + thing = en oración INTERROGATIVA."
             },
             {
               "id": "p1",
-              "left": "Otro ejemplo...",
-              "right": "when I was at primary school, I didn\u2019t wear uniform...."
+              "left": "3. Las hermanas de Pedro.",
+              "right": "Peter’s sisters."
             },
             {
               "id": "p2",
-              "left": "Has estado alguna vez en Canad\u00e1?.",
+              "left": "Has estado alguna vez en Canadá?",
               "right": "have you ever been to Canada."
             },
             {
               "id": "p3",
-              "left": "The correct thing (today)",
-              "right": "Have you got a car? (today)"
+              "left": "Tyre (Am Eng.",
+              "right": "tire) Neumático."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 302 (Animals: Wild Animals):",
-          "tts_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - 718",
-          "correct_answer": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - 718",
+          "tts_en": "chips) Patatas fritas.",
+          "correct_answer": "chips) Patatas fritas",
           "mastery_tag": "listening",
           "interaction_id": "U38_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 302:",
           "options": [
             {
-              "id": "o4",
-              "text": "bike7011"
+              "id": "o1",
+              "text": "Tuesday."
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Friday."
             },
             {
-              "id": "o2",
-              "text": "pear"
+              "id": "o4",
+              "text": "June"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "Monday."
             },
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o2",
+              "text": "Sunday."
             }
           ],
           "correct_answer": "o4",
@@ -1543,65 +1663,65 @@
           "interaction_id": "U38_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 302 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? (today)",
-              "back": "What\u2019s the highest building you\u2019ve ever visited (today)"
+              "front": "Elevator (Br Eng.",
+              "back": "lift) Ascensor."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 302 (Animals: Wild Animals):",
-          "instruction_en": "Compare Animals: Wild Animals with another topic. [Ref: 25]",
+          "instruction_en": "Why is Animals: Wild Animals important? [Ref: 42]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 302 (Animals: Wild Animals):",
-          "stimulus_en": "Look at Animals: Wild Animals. (477)",
+          "stimulus_en": "Study Animals: Wild Animals now. (192)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 265 (Animals: Wild Animals):",
-          "stimulus": "Matching set 9437",
+          "stimulus": "Matching set 2446.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? (today)",
+              "text": "Cuál es el día más feliz que has tenido nunca?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "The correct thing.",
+              "text": "2. Los días de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Has terminado ya el proyecto? - 576",
+              "text": "The correct thing.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "What’s the happiest day you’ve ever had."
+            },
+            {
               "id": "m2",
-              "text": "Have you finished the project yet - 576"
+              "text": "information, homework, work."
             },
             {
               "id": "m1",
-              "text": "My friend has a lot of money.."
-            },
-            {
-              "id": "m0",
-              "text": "What\u2019s the longest beach you\u2019ve ever been to (today)"
+              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los días en plural, ya que es todos los martes y todos los jueves, no sólo uno."
             }
           ],
           "correct_answer": {
@@ -1613,26 +1733,26 @@
           "interaction_id": "U38_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 265 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). - amazing"
+                  "text": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Paul\u2019s birthday is on 8th May - interesting"
+                  "text": "Next to my house there is a nursery school."
                 }
               ]
             }
@@ -1641,20 +1761,20 @@
           "interaction_id": "U38_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 265 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (2734), The nurse [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (1541), She [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "speak"
                 }
               ]
             },
@@ -1663,11 +1783,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "bought."
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "buy"
                 }
               ]
             }
@@ -1680,22 +1800,22 @@
           "interaction_id": "U38_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 265 para Animals: Wild Animals:",
-          "stimulus_en": "Whose mobile is that...",
-          "stimulus_es": "De qui\u00e9n es ese m\u00f3vil?...",
+          "stimulus_en": "I don’t want to sit opposite him.",
+          "stimulus_es": "No me quiero sentar enfrente de él.",
           "options": [
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 9135"
+              "text": "Other 9593."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1703,136 +1823,131 @@
           "interaction_id": "U38_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 265 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w6",
-              "text": "been"
-            },
-            {
               "id": "w0",
-              "text": "What\u2019s"
-            },
-            {
-              "id": "w2",
-              "text": "funniest"
-            },
-            {
-              "id": "w5",
-              "text": "ever"
-            },
-            {
-              "id": "w3",
-              "text": "joke"
+              "text": "la"
             },
             {
               "id": "w4",
-              "text": "you\u2019ve"
+              "text": "puede"
             },
             {
-              "id": "w8",
-              "text": "(now)"
+              "id": "w3",
+              "text": "ilimitada."
             },
             {
-              "id": "w7",
-              "text": "told"
+              "id": "w5",
+              "text": "ser"
             },
             {
               "id": "w1",
-              "text": "the"
+              "text": "respuesta."
+            },
+            {
+              "id": "w7",
+              "text": "cosa"
+            },
+            {
+              "id": "w2",
+              "text": "es"
+            },
+            {
+              "id": "w6",
+              "text": "cualquier."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 303 (Animals: Wild Animals):",
-          "stimulus_en": "rubber) Goma de borrar - interesting (___)",
+          "stimulus_en": "would you like some more (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 303 (Animals: Wild Animals)",
-          "stimulus_en": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)!",
-          "stimulus_es": "Ref: La podemos contestar de la seguiente manera!",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 303 (Animals: Wild Animals)",
+          "stimulus_en": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!",
+          "stimulus_es": "Ref: Un ejemplo de to seguido de infinitivo es.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 303 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "4. La pelota de las ni\u00f1as - interesting",
-              "right": "The girls\u2019 ball - interesting"
+              "left": "Cuál es la playa más larga en la que has estado nunca?",
+              "right": "What’s the longest beach you’ve ever been to."
             },
             {
               "id": "p1",
-              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca!",
-              "right": "I hardly ever go to the cinema = casi nunca voy al cine.!"
+              "left": "Al lado de mi colegio no hay bloques de pisos.",
+              "right": "Next to my school there aren’t any apartment blocks."
             },
             {
               "id": "p2",
-              "left": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect!",
-              "right": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil.!"
+              "left": "En qué trabaja Juan?",
+              "right": "What does Juan do."
             },
             {
               "id": "p3",
-              "left": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo (today)",
-              "right": "how often do you have Italian classes? = I have every Tuesday. (today)"
+              "left": "Much, como se utiliza con uncountable, decimos.",
+              "right": "I haven’t got much money (remember, money is uncountable)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 303 (Animals: Wild Animals):",
-          "tts_en": "I haven\u2019t got a car. - amazing",
-          "correct_answer": "I haven\u2019t got a car. - amazing",
+          "tts_en": "What time do we have our exam.",
+          "correct_answer": "What time do we have our exam",
           "mastery_tag": "listening",
           "interaction_id": "U38_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 303:",
           "options": [
             {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
               "id": "o4",
-              "text": "rain9839"
+              "text": "Slow"
             },
             {
               "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
+              "text": "London."
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "Berlin."
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "Paris"
             }
           ],
           "correct_answer": "o4",
@@ -1840,65 +1955,65 @@
           "interaction_id": "U38_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 303 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "try / police / keep / The / order / always / to / the - 891",
-              "back": "The police always try to keep the order - 891"
+              "front": "Veamos una oración con futuro.",
+              "back": "What will the weather be like tomorrow? It’ll be sunny."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 303 (Animals: Wild Animals):",
-          "instruction_en": "List 3 facts about Animals: Wild Animals. [Ref: 93]",
+          "instruction_en": "Explain Genitive Saxon using Animals: Wild Animals. [Ref: 93]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 303 (Animals: Wild Animals):",
-          "stimulus_en": "The Genitive Saxon is here. (833)",
+          "stimulus_en": "Look at Animals: Wild Animals. (389)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 266 (Animals: Wild Animals):",
-          "stimulus": "Matching set 5347",
+          "stimulus": "Matching set 8073.",
           "items": [
             {
               "id": "i0",
-              "text": "Algunos ejemplos!",
+              "text": "The correct thing.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has jugado alguna vez al ajedrez? - 816",
+              "text": "Empecemos analizando el siguiente ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo - amazing",
+              "text": "Cuál es el chiste más gracioso que te han contado nunca?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. - amazing"
+              "id": "m0",
+              "text": "I have 3 children."
             },
             {
               "id": "m1",
-              "text": "have you ever played chess - 816"
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
             },
             {
-              "id": "m0",
-              "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without!"
+              "id": "m2",
+              "text": "What’s the funniest joke you’ve ever been told."
             }
           ],
           "correct_answer": {
@@ -1910,26 +2025,26 @@
           "interaction_id": "U38_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 266 (Animals: Wild Animals):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - 567"
+                  "text": "I can to speak English."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "she doesn\u2019t often write to me - amazing"
+                  "text": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien»."
                 }
               ]
             }
@@ -1938,20 +2053,20 @@
           "interaction_id": "U38_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 266 (Animals: Wild Animals):",
-          "main_text": "In Animals: Wild Animals (3762), My sister [GAP 1] and [GAP 2].",
+          "main_text": "In Animals: Wild Animals (4298), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "called."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "call"
                 }
               ]
             },
@@ -1960,11 +2075,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "create."
                 }
               ]
             }
@@ -1977,22 +2092,22 @@
           "interaction_id": "U38_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 266 para Animals: Wild Animals:",
-          "stimulus_en": "the bird\u2018s legs = las piernas del p\u00e1jaro. - 491",
-          "stimulus_es": "2. el primer elemento es un animal. Ejemplo - 491",
+          "stimulus_en": "What’s the saddest song you’ve ever listened to.",
+          "stimulus_es": "Cuál es la canción más triste que has escuchado nunca?",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 788"
-            },
-            {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 3310."
             }
           ],
           "correct_answer": "o1",
@@ -2000,156 +2115,196 @@
           "interaction_id": "U38_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 266 sobre Animals: Wild Animals:",
           "options": [
             {
-              "id": "w7",
-              "text": "los"
+              "id": "w2",
+              "text": "let"
+            },
+            {
+              "id": "w13",
+              "text": "dejo"
             },
             {
               "id": "w3",
-              "text": "pregunta"
-            },
-            {
-              "id": "w4",
-              "text": "porque"
-            },
-            {
-              "id": "w12",
-              "text": "cost"
-            },
-            {
-              "id": "w10",
-              "text": "\u00abhow"
-            },
-            {
-              "id": "w6",
-              "text": "menudo"
-            },
-            {
-              "id": "w1",
-              "text": "con"
-            },
-            {
-              "id": "w8",
-              "text": "alumnos"
-            },
-            {
-              "id": "w2",
-              "text": "esta"
+              "text": "my"
             },
             {
               "id": "w0",
-              "text": "cuidado"
-            },
-            {
-              "id": "w11",
-              "text": "much"
-            },
-            {
-              "id": "w9",
-              "text": "dicen:"
+              "text": "I"
             },
             {
               "id": "w5",
+              "text": "go"
+            },
+            {
+              "id": "w8",
               "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "don’t"
+            },
+            {
+              "id": "w19",
+              "text": "días"
+            },
+            {
+              "id": "w17",
+              "text": "salir"
+            },
+            {
+              "id": "w15",
+              "text": "mis"
+            },
+            {
+              "id": "w11",
+              "text": "="
+            },
+            {
+              "id": "w9",
+              "text": "rainy"
+            },
+            {
+              "id": "w20",
+              "text": "lluviosos."
+            },
+            {
+              "id": "w7",
+              "text": "on"
+            },
+            {
+              "id": "w18",
+              "text": "en"
+            },
+            {
+              "id": "w12",
+              "text": "no"
+            },
+            {
+              "id": "w14",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "out"
+            },
+            {
+              "id": "w4",
+              "text": "children."
+            },
+            {
+              "id": "w16",
+              "text": "hijos"
+            },
+            {
+              "id": "w10",
+              "text": "day"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U38_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 304 (Animals: Wild Animals):",
-          "stimulus_en": "\u00bfDe d\u00f3nde eres?... (___)",
+          "stimulus_en": "Our English teacher is usually angry (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U38_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 304 (Animals: Wild Animals)",
-          "stimulus_en": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (today)",
-          "stimulus_es": "Ref: 2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (today)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 304 (Animals: Wild Animals)",
+          "stimulus_en": "They’re mine (son míos) OR they’re his (son suyos – de él).",
+          "stimulus_es": "Ref: Para responder en plural, diríamos.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U38_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 304 (Animals: Wild Animals):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Common mistake!",
-              "right": "I don\u2019t know that I will do.!"
+              "left": "Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, también va en oraciones negativas, como en el ejemplo de arriba (I don’t have many friends), pero también en positivas, por ejemplo.",
+              "right": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oración positiva, ya sea con sustantivos contables o incontables."
             },
             {
               "id": "p1",
-              "left": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir...",
-              "right": "I can to speak English...."
+              "left": "Common mistake.",
+              "right": "I hadn’t got a mobile."
             },
             {
               "id": "p2",
-              "left": "El marido de mi prima es alem\u00e1n y su madre irlandesa (now)",
-              "right": "my cousin\u2019s husband is German and his mother Irish. (now)"
+              "left": "Cuántos años tiene María?",
+              "right": "How old is María."
             },
             {
               "id": "p3",
-              "left": "on + train/ bus/ plane/ bike/ motorbike - 289",
-              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica. - 289"
+              "left": "Si por cierto necesitas ayuda con la formación de preguntas, aquí tienes material.",
+              "right": "preguntas en inglés."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 304 (Animals: Wild Animals):",
-          "tts_en": "My cousins\u2019 house is very big - amazing",
-          "correct_answer": "My cousins\u2019 house is very big - amazing",
+          "tts_en": "the boys always play football on Saturday afternoons.",
+          "correct_answer": "the boys always play football on Saturday afternoons",
           "mastery_tag": "listening",
           "interaction_id": "U38_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 304:",
           "options": [
             {
-              "id": "o4",
-              "text": "Hot2747"
-            },
-            {
               "id": "o2",
-              "text": "Star"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
+              "text": "salad"
             },
             {
               "id": "o1",
-              "text": "Moon"
+              "text": "burger."
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o4",
+              "text": "rain"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "pizza"
             }
           ],
           "correct_answer": "o4",
@@ -2157,29 +2312,29 @@
           "interaction_id": "U38_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 304 - Animals: Wild Animals:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir (now)",
-              "back": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. (now)"
+              "front": "Cuándo la ayudaste?",
+              "back": "When did you help him/her."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U38_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 304 (Animals: Wild Animals):",
-          "instruction_en": "A small story about Animals: Wild Animals. [Ref: 57]",
+          "instruction_en": "A small story about Animals: Wild Animals. [Ref: 68]",
           "mastery_tag": "writing",
           "interaction_id": "U38_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 304 (Animals: Wild Animals):",
-          "stimulus_en": "Focus on Animals: Wild Animals. (363)",
+          "stimulus_en": "Study Animals: Wild Animals now. (121)",
           "mastery_tag": "speaking",
           "interaction_id": "U38_I100"
         }

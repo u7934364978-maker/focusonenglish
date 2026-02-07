@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit53",
-    "unit_title": "May/Might - Education: History",
+    "unit_title": "May/Might - Education: History.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U53_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 53",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 53.",
           "tts_en": "Starting unit 53. Topic: Education: History. Focus: May/Might.",
           "mastery_tag": "listening",
           "interaction_id": "U53_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 417 (Education: History):",
-          "stimulus_en": "Harry\u2019s burger (today) (___)",
+          "stimulus_en": "¿Qué es lo que empieza? = la película, entonces SUBJECT = THE FILM (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 417 (Education: History)",
-          "stimulus_en": "I often fish for hours without catching anything (today)",
-          "stimulus_es": "Ref: I / fish / often / hours / for / catching / anything / without (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 417 (Education: History)",
+          "stimulus_en": "bookshop) Librería.",
+          "stimulus_es": "Ref: Bookstore (Br Eng.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 417 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "En espa\u00f1ol dir\u00edamos...",
-              "right": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest)...."
+              "left": "A qué hora sale el tren?",
+              "right": "What time does the train leave."
             },
             {
               "id": "p1",
-              "left": "The correct thing - 246",
-              "right": "Have you got a car? - 246"
+              "left": "2. El infinitivo no lleva delante to. Un error típico es decir.",
+              "right": "I can to speak English."
             },
             {
               "id": "p2",
-              "left": "Quieres m\u00e1s?.",
-              "right": "would you like some more."
+              "left": "Cómo se llama él?",
+              "right": "What’s his name."
             },
             {
               "id": "p3",
-              "left": "3. el primer elemento es un pa\u00eds/ciudad/pueblo\u2026 Ejemplo!",
-              "right": "Spain\u2018s monuments are very nice.!"
+              "left": "try / police / keep / The / order / always / to / the.",
+              "right": "The police always try to keep the order."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 417 (Education: History):",
-          "tts_en": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. (now)",
-          "correct_answer": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. (now)",
+          "tts_en": "autumn) En otoño.",
+          "correct_answer": "autumn) En otoño",
           "mastery_tag": "listening",
           "interaction_id": "U53_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 417:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
               "id": "o4",
-              "text": "Hot3292"
+              "text": "rain"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
             },
             {
               "id": "o2",
-              "text": "Star"
+              "text": "salad"
             },
             {
               "id": "o0",
-              "text": "Sun"
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U53_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 417 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Est\u00e1 estudiando ella ingl\u00e9s?!",
-              "back": "Is she studying English!"
+              "front": "Has visto an alguien?",
+              "back": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien»."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 417 (Education: History):",
-          "instruction_en": "Explain May/Might using Education: History. [Ref: 75]",
+          "instruction_en": "Write a note about Education: History. [Ref: 50]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 417 (Education: History):",
-          "stimulus_en": "I like Education: History. (742)",
+          "stimulus_en": "Study Education: History now. (208)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 365 (Education: History):",
-          "stimulus": "Matching set 5992",
+          "stimulus": "Matching set 8049.",
           "items": [
             {
               "id": "i0",
-              "text": "\u2022in the fall (Br Eng!",
+              "text": "Much, como se utiliza con uncountable, decimos.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Tambi\u00e9n utilizamos en Can I have\u2026? para pedirle a alguien que nos d\u00e9 algo, que nos deje ver algo, que nos ense\u00f1e algo, por ejemplo, en la recepci\u00f3n de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de cr\u00e9dito nos dir\u00e1.",
+              "text": "The correct thing.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "La podemos contestar de la seguiente manera - interesting",
+              "text": "Cuál es el día más feliz que has tenido nunca?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "autumn) En oto\u00f1o!"
-            },
-            {
               "id": "m2",
-              "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - interesting"
+              "text": "What’s the happiest day you’ve ever had."
             },
             {
               "id": "m1",
-              "text": "Can I have your ID/ passport/ credit card?.."
+              "text": "I have 3 children."
+            },
+            {
+              "id": "m0",
+              "text": "I haven’t got much money (remember, money is uncountable)."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U53_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 365 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Sometimes I have lunch in a restaurant. - amazing"
+                  "text": "My cousins’ house is very big."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What time is it (now)"
+                  "text": "I haven’t got a car."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U53_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 365 (Education: History):",
-          "main_text": "In Education: History (1141), She [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (8407), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "bought."
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "buy"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "walked."
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "walk"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U53_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 365 para Education: History:",
-          "stimulus_en": "What\u2019s the most delicious food you\u2019ve ever tasted...",
-          "stimulus_es": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca?...",
+          "stimulus_en": "have you ever seen a film in original version.",
+          "stimulus_es": "Has visto alguna vez una película en versión original?",
           "options": [
             {
               "id": "o3",
-              "text": "Other 2973"
+              "text": "Other 8249."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -263,136 +263,131 @@
           "interaction_id": "U53_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 365 sobre Education: History:",
           "options": [
             {
-              "id": "w8",
-              "text": "(today)"
+              "id": "w1",
+              "text": "the"
             },
             {
               "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "goes"
-            },
-            {
-              "id": "w6",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Jennifer"
-            },
-            {
-              "id": "w3",
-              "text": "out"
+              "text": "food"
             },
             {
               "id": "w5",
-              "text": "see"
+              "text": "you’ve."
             },
             {
-              "id": "w1",
-              "text": "usually"
+              "id": "w3",
+              "text": "delicious."
+            },
+            {
+              "id": "w2",
+              "text": "most"
             },
             {
               "id": "w7",
-              "text": "concert"
+              "text": "tasted."
+            },
+            {
+              "id": "w0",
+              "text": "What’s."
+            },
+            {
+              "id": "w6",
+              "text": "ever"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 418 (Education: History):",
-          "stimulus_en": "I\u2019ll see you on Saturday! (___)",
+          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 418 (Education: History)",
-          "stimulus_en": "What time do we have our exam - amazing",
-          "stimulus_es": "Ref: A qu\u00e9 hora tenemos el examen? - amazing",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 418 (Education: History)",
+          "stimulus_en": "I don’t have many friends (friends is countable).",
+          "stimulus_es": "Ref: Many, para countable, decimos.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 418 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "2. Play football on Saturday afternoons / the boys / always!",
-              "right": "the boys always play football on Saturday afternoons!"
+              "left": "Cuál es la persona más tímida que has conocido nunca?",
+              "right": "Who’s the shyest person you’ve ever met."
             },
             {
               "id": "p1",
-              "left": "Has visto a alguien?...",
-              "right": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb...."
+              "left": "3. Las hermanas de Pedro.",
+              "right": "Peter’s sisters."
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?.",
-              "right": "What\u2019s the most difficult language you\u2019ve ever studied."
+              "left": "Has visto mis llaves en algún sitio?",
+              "right": "have you seen my keys anywhere."
             },
             {
               "id": "p3",
-              "left": "Common mistake - amazing",
-              "right": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. - amazing"
+              "left": "Has terminado ya el proyecto?",
+              "right": "Have you finished the project yet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 418 (Education: History):",
-          "tts_en": "are there any peas in the fridge - 836",
-          "correct_answer": "are there any peas in the fridge - 836",
+          "tts_en": "My neighbour always spoils my holidays.",
+          "correct_answer": "My neighbour always spoils my holidays",
           "mastery_tag": "listening",
           "interaction_id": "U53_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 418:",
           "options": [
             {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o0",
-              "text": "car"
+              "id": "o3",
+              "text": "mango"
             },
             {
               "id": "o4",
-              "text": "cat5930"
+              "text": "bike"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
             },
             {
               "id": "o1",
-              "text": "bus"
+              "text": "banana."
             },
             {
-              "id": "o3",
-              "text": "plane"
+              "id": "o0",
+              "text": "apple"
             }
           ],
           "correct_answer": "o4",
@@ -400,65 +395,65 @@
           "interaction_id": "U53_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 418 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Ahora bien, si estas palabras no llevan un n\u00famero delante, se les pone la -s de plural, por ejemplo - 660",
-              "back": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de d\u00f3lares. Como ves, en todos los casos decimos la preposici\u00f3n of y la -s de plural. - 660"
+              "front": "Qué quieres?",
+              "back": "la respuesta es ilimitada, puede ser cualquier cosa."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 418 (Education: History):",
-          "instruction_en": "Review Education: History from last week. [Ref: 40]",
+          "instruction_en": "Your daily routine in Education: History. [Ref: 20]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 418 (Education: History):",
-          "stimulus_en": "This is Education: History. (822)",
+          "stimulus_en": "Where is Education: History? (183)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 366 (Education: History):",
-          "stimulus": "Matching set 6468",
+          "stimulus": "Matching set 1953.",
           "items": [
             {
               "id": "i0",
-              "text": "Tienes zapatos para la boda? - interesting",
+              "text": "2. Play football on Saturday afternoons / the boys / always.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "De qui\u00e9n es ese m\u00f3vil? - amazing",
+              "text": "La podemos contestar de la seguiente manera.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "TV / ever / hardly / I / in / watch / evenings / the - interesting",
+              "text": "A lot of, countable y uncountable.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m1",
-              "text": "Whose mobile is that - amazing"
+              "text": "It’s mine (es mía) o it’s his (es suya – de él)"
             },
             {
               "id": "m0",
-              "text": "do you have any shoes for the wedding - interesting"
+              "text": "the boys always play football on Saturday afternoons."
             },
             {
               "id": "m2",
-              "text": "I hardly ever watch TV in the evenings - interesting"
+              "text": "I have a lot of money and I have a lot of friends."
             }
           ],
           "correct_answer": {
@@ -470,26 +465,26 @@
           "interaction_id": "U53_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 366 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever studied a foreign laguage apart from English (today)"
+                  "text": "would you like some more."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "in summer, in winter. - 943"
+                  "text": "lift) Ascensor."
                 }
               ]
             }
@@ -498,20 +493,20 @@
           "interaction_id": "U53_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 366 (Education: History):",
-          "main_text": "In Education: History (6166), My friend [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (6398), She [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "helped."
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "help"
                 }
               ]
             },
@@ -520,11 +515,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "start"
                 }
               ]
             }
@@ -537,22 +532,22 @@
           "interaction_id": "U53_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 366 para Education: History:",
-          "stimulus_en": "What\u2019s his name - 374",
-          "stimulus_es": "C\u00f3mo se llama \u00e9l? - 374",
+          "stimulus_en": "Where did he/she tell you.",
+          "stimulus_es": "Dónde te lo dijo?",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 3469."
             },
             {
-              "id": "o3",
-              "text": "Other 8091"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -560,111 +555,131 @@
           "interaction_id": "U53_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 366 sobre Education: History:",
           "options": [
             {
-              "id": "w3",
-              "text": "etc"
+              "id": "w6",
+              "text": "by"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "bus"
             },
             {
               "id": "w1",
-              "text": "women"
+              "text": "father."
+            },
+            {
+              "id": "w5",
+              "text": "work"
+            },
+            {
+              "id": "w3",
+              "text": "goes"
             },
             {
               "id": "w0",
-              "text": "men"
+              "text": "my"
             },
             {
               "id": "w2",
-              "text": "people"
+              "text": "usually."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 419 (Education: History):",
-          "stimulus_en": "on the Internet (now) (___)",
+          "stimulus_en": "do you have any brothers or sisters (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 419 (Education: History)",
-          "stimulus_en": "the students often use the dictionary (today)",
-          "stimulus_es": "Ref: dictionary / often / use / The / the / students (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 419 (Education: History)",
+          "stimulus_en": "I always read books slowly.",
+          "stimulus_es": "Ref: 7. read books slowly / I / always.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 419 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Otro ejemplo - amazing",
-              "right": "when I was at primary school, I didn\u2019t wear uniform. - amazing"
+              "left": "Al lado de mi casa hay una guardería.",
+              "right": "Next to my house there is a nursery school."
             },
             {
               "id": "p1",
-              "left": "Y en negativa - amazing",
-              "right": "I don\u2019t have any friends who live near my house. - amazing"
+              "left": "Algunos ejemplos.",
+              "right": "at in on for to of without."
             },
             {
               "id": "p2",
-              "left": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
-              "right": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
+              "left": "2. el primer elemento es un animal. Ejemplo.",
+              "right": "the bird‘s legs = las piernas del pájaro."
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? (now)",
-              "right": "What\u2019s the highest building you\u2019ve ever visited (now)"
+              "left": "Deciros que sólo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. Éstas son.",
+              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 419 (Education: History):",
-          "tts_en": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (now)",
-          "correct_answer": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. (now)",
+          "tts_en": "she doesn’t often write to me.",
+          "correct_answer": "she doesn’t often write to me",
           "mastery_tag": "listening",
           "interaction_id": "U53_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 419:",
           "options": [
             {
-              "id": "o0",
-              "text": "Monday"
+              "id": "o4",
+              "text": "Pen"
             },
             {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o4",
-              "text": "June4278"
+              "text": "Bed"
             },
             {
               "id": "o1",
-              "text": "Tuesday"
+              "text": "Chair"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Sofa"
             }
           ],
           "correct_answer": "o4",
@@ -672,65 +687,65 @@
           "interaction_id": "U53_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 419 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "car / I / drink / never / if / drive / I / alcohol / a...",
-              "back": "I never drink alcohol if I drive a car..."
+              "front": "Cuándo la ayudaste?",
+              "back": "When did you help him/her."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 419 (Education: History):",
-          "instruction_en": "Write a note about Education: History. [Ref: 69]",
+          "instruction_en": "Explain May/Might using Education: History. [Ref: 17]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 419 (Education: History):",
-          "stimulus_en": "Look at Education: History. (291)",
+          "stimulus_en": "Repeat Education: History. (308)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 367 (Education: History):",
-          "stimulus": "Matching set 9324",
+          "stimulus": "Matching set 8935.",
           "items": [
             {
               "id": "i0",
-              "text": "Chips (Br Eng) (Am Eng - 249",
+              "text": "A qué hora tenemos el examen?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Has hablado alguna vez ingl\u00e9s por tel\u00e9fono? (today)",
+              "text": "Por qué no me lo dijiste?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. La puerta de mi casa (today)",
+              "text": "Cuál es el idioma más difícil que has estudiado nunca?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "have you ever spoken English on the phone (today)"
+              "id": "m2",
+              "text": "What’s the most difficult language you’ve ever studied."
             },
             {
               "id": "m0",
-              "text": "biscuit) Patatas fritas - 249"
+              "text": "What time do we have our exam."
             },
             {
-              "id": "m2",
-              "text": "the door of my house (today)"
+              "id": "m1",
+              "text": "Why didn’t you tell me."
             }
           ],
           "correct_answer": {
@@ -742,26 +757,26 @@
           "interaction_id": "U53_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 367 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "la pel\u00edcula, entonces SUBJECT = THE FILM - 956"
+                  "text": "Harry’s burger."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "would you like some coke?!"
+                  "text": "chips) Patatas fritas."
                 }
               ]
             }
@@ -770,20 +785,20 @@
           "interaction_id": "U53_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 367 (Education: History):",
-          "main_text": "In Education: History (709), The student [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (8020), The baker [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "cooked."
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "cook"
                 }
               ]
             },
@@ -792,11 +807,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "organized."
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "organize."
                 }
               ]
             }
@@ -809,22 +824,22 @@
           "interaction_id": "U53_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 367 para Education: History:",
-          "stimulus_en": "She drives carefully. - amazing",
-          "stimulus_es": "For example - amazing",
+          "stimulus_en": "My friend has a lot of money.",
+          "stimulus_es": "The correct thing.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o3",
+              "text": "Other 969."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
-              "id": "o3",
-              "text": "Other 7048"
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -832,126 +847,131 @@
           "interaction_id": "U53_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 367 sobre Education: History:",
           "options": [
             {
+              "id": "w5",
+              "text": "in"
+            },
+            {
               "id": "w1",
-              "text": "often"
+              "text": "hardly."
             },
             {
               "id": "w0",
-              "text": "Sally"
-            },
-            {
-              "id": "w2",
-              "text": "borrows"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w3",
-              "text": "money"
-            },
-            {
-              "id": "w6",
-              "text": "friends"
+              "text": "I"
             },
             {
               "id": "w4",
-              "text": "from"
+              "text": "TV"
+            },
+            {
+              "id": "w3",
+              "text": "watch"
+            },
+            {
+              "id": "w2",
+              "text": "ever"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "evenings."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 420 (Education: History):",
-          "stimulus_en": "How is your mum feeling... (___)",
+          "stimulus_en": "I don’t know that I will do. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 420 (Education: History)",
-          "stimulus_en": "in May, in August, etc..",
-          "stimulus_es": "Ref: \u2013 Meses del a\u00f1o.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 420 (Education: History)",
+          "stimulus_en": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’.",
+          "stimulus_es": "Ref: ‘Much’ se utiliza con uncountable nouns, bien, porque ‘money’ lo es, pero en oraciones negativas, por tanto.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 420 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A qu\u00e9 hora sale el tren?!",
-              "right": "What time does the train leave!"
+              "left": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "right": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
             },
             {
               "id": "p1",
-              "left": "7. La casa de mis primos es muy grande - amazing",
-              "right": "My cousins\u2019 house is very big - amazing"
+              "left": "2. Let’s do the same with the first example.",
+              "right": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
             },
             {
               "id": "p2",
-              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo - interesting",
-              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. - interesting"
+              "left": "Sin embargo, si queremos expresar la familia de «cualquier» y éste aparece a principo de oración, debemos utilizar la «any», ejemplo.",
+              "right": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta."
             },
             {
               "id": "p3",
-              "left": "3. usually/ arrives late / the bus - amazing",
-              "right": "the bus usually arrives late - amazing"
+              "left": "Qué tiempo verbal utilizamos?",
+              "right": "present continuous, porque lo estás buscando en este momento."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 420 (Education: History):",
-          "tts_en": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.!",
-          "correct_answer": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.!",
+          "tts_en": "ADJECTIVE + NOUN.",
+          "correct_answer": "ADJECTIVE + NOUN",
           "mastery_tag": "listening",
           "interaction_id": "U53_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 420:",
           "options": [
             {
-              "id": "o0",
-              "text": "apple"
-            },
-            {
               "id": "o1",
-              "text": "banana"
+              "text": "Moon"
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "Star"
             },
             {
               "id": "o4",
-              "text": "bike6506"
+              "text": "Hot"
             },
             {
               "id": "o3",
-              "text": "mango"
+              "text": "Planet."
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -959,65 +979,65 @@
           "interaction_id": "U53_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 420 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Movie theater (Br Eng (today)",
-              "back": "cinema) Cine (today)"
+              "front": "This is another translation.",
+              "back": "igual hago algo… (but I’m not sure…)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 420 (Education: History):",
-          "instruction_en": "Review Education: History from last week. [Ref: 24]",
+          "instruction_en": "Compare Education: History with another topic. [Ref: 78]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 420 (Education: History):",
-          "stimulus_en": "I like Education: History. (780)",
+          "stimulus_en": "The May/Might is here. (546)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 368 (Education: History):",
-          "stimulus": "Matching set 4691",
+          "stimulus": "Matching set 6158.",
           "items": [
             {
               "id": "i0",
-              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca (today)",
+              "text": "Qué hora es?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect (now)",
+              "text": "Funciona ese ordenador?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "me / Paul / helps / sometimes / my / with / homework (now)",
+              "text": "¿Estás estudiando francés?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Paul sometimes helps me with my homework o sometimes Paul\u00a0helps me with my homework (now)"
+              "text": "are you learning French?"
             },
             {
               "id": "m1",
-              "text": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. (now)"
+              "text": "Does that computer work."
             },
             {
               "id": "m0",
-              "text": "I hardly ever go to the cinema = casi nunca voy al cine. (today)"
+              "text": "What time is it."
             }
           ],
           "correct_answer": {
@@ -1029,26 +1049,26 @@
           "interaction_id": "U53_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 368 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "have you ever seen a film in original version - interesting"
+                  "text": "information, homework, work."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Have you ever tried Thai food..."
+                  "text": "have you ever spoken English on the phone."
                 }
               ]
             }
@@ -1057,20 +1077,20 @@
           "interaction_id": "U53_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 368 (Education: History):",
-          "main_text": "In Education: History (2366), The doctor [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (7083), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "designed."
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "design."
                 }
               ]
             },
@@ -1079,11 +1099,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "listened."
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "listen."
                 }
               ]
             }
@@ -1096,22 +1116,22 @@
           "interaction_id": "U53_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 368 para Education: History:",
-          "stimulus_en": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. - amazing",
-          "stimulus_es": "\u2018Much\u2019 se utiliza con uncountable nouns, bien, porque \u2018money\u2019 lo es, pero en oraciones negativas, por tanto - amazing",
+          "stimulus_en": "do you have a car.",
+          "stimulus_es": "Tienes coche?",
           "options": [
             {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
               "id": "o3",
-              "text": "Other 5068"
+              "text": "Other 278."
             },
             {
               "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1119,116 +1139,121 @@
           "interaction_id": "U53_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 368 sobre Education: History:",
           "options": [
             {
-              "id": "w0",
-              "text": "rubber)"
+              "id": "w3",
+              "text": "the"
             },
             {
-              "id": "w1",
-              "text": "Goma"
+              "id": "w5",
+              "text": "leave"
+            },
+            {
+              "id": "w0",
+              "text": "What"
             },
             {
               "id": "w2",
-              "text": "de"
-            },
-            {
-              "id": "w3",
-              "text": "borrar"
+              "text": "does"
             },
             {
               "id": "w4",
-              "text": "277"
+              "text": "bus"
+            },
+            {
+              "id": "w1",
+              "text": "time"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 421 (Education: History):",
-          "stimulus_en": "Does that computer work. (___)",
+          "stimulus_en": "biscuit) Patatas fritas (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 421 (Education: History)",
-          "stimulus_en": "\u00bfDe d\u00f3nde eres?!",
-          "stimulus_es": "Ref: Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio!",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 421 (Education: History)",
+          "stimulus_en": "What time does the supermarket open.",
+          "stimulus_es": "Ref: A qué hora abre el supermercado?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 421 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be (now)",
-              "right": "\u2018m/ \u2018s, etc) (now)"
+              "left": "Bien, debes saber que siempre que tengas una preposición en una pregunta, y esa preposición no tenga su complemento en dicha pregunta, la preposición se dice y se escribe al final, de ahí que en ‘Where are you from?’ el ‘from’ aparece al final. Si yo pregunto ‘¿de qué tienes miedo?’, que es en inglés What are you afraid of?, ¿ verdad que no estoy diciendo a qué cosa tengo miedo? Pues an eso me refiero cuando digo que la preposición ‘of’ no tiene a su complemento en esta pregunta. Sin embargo, si digo.",
+              "right": "¿Tienes miedo a los perros?, en inglés ‘Are you afraid of dogs?’, la preposición ‘of’ tiene su complemento que es ‘dogs’."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca? - interesting",
-              "right": "What\u2019s the saddest song you\u2019ve ever listened to - interesting"
+              "left": "Qué es lo que empieza?",
+              "right": "la película, entonces SUBJECT = THE FILM."
             },
             {
               "id": "p2",
-              "left": "Has terminado ya el proyecto?!",
-              "right": "Have you finished the project yet!"
+              "left": "Un ejemplo de to seguido de infinitivo es.",
+              "right": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1l es la persona m\u00e1s t\u00edmida que has conocido nunca? - interesting",
-              "right": "Who\u2019s the shyest person you\u2019ve ever met - interesting"
+              "left": "De quién es ese móvil?",
+              "right": "Whose mobile is that."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 421 (Education: History):",
-          "tts_en": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc....",
-          "correct_answer": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc....",
+          "tts_en": "rubber) Goma de borrar.",
+          "correct_answer": "rubber) Goma de borrar",
           "mastery_tag": "listening",
           "interaction_id": "U53_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 421:",
           "options": [
             {
               "id": "o0",
-              "text": "car"
-            },
-            {
-              "id": "o4",
-              "text": "cat8788"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
+              "text": "apple"
             },
             {
               "id": "o3",
-              "text": "plane"
+              "text": "mango"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "pear"
+            },
+            {
+              "id": "o4",
+              "text": "bike"
             }
           ],
           "correct_answer": "o4",
@@ -1236,65 +1261,65 @@
           "interaction_id": "U53_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 421 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Los adjetivos tienen tres formas...",
-              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo...."
+              "front": "Common mistake.",
+              "back": "I hadn’t got a mobile."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 421 (Education: History):",
-          "instruction_en": "A small story about Education: History. [Ref: 90]",
+          "instruction_en": "Draft an email regarding Education: History. [Ref: 36]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 421 (Education: History):",
-          "stimulus_en": "The May/Might is here. (432)",
+          "stimulus_en": "This is Education: History. (744)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 369 (Education: History):",
-          "stimulus": "Matching set 635",
+          "stimulus": "Matching set 8593.",
           "items": [
             {
               "id": "i0",
-              "text": "Un ejemplo de to seguido de infinitivo es (today)",
+              "text": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que leáis la explicación y aprendáis, o repaséis, qué es y cómo se forman las indirect questions (preguntas indirectas). Aquí lo puedes revisar.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Many, para countable, decimos - 488",
+              "text": "Uncountable nouns.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "puedo abrir la ventana, por favor?...",
+              "text": "Empecemos analizando el siguiente ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "I don\u2019t have many friends (friends is countable). - 488"
+              "id": "m0",
+              "text": "Indirect questions en inglés."
             },
             {
               "id": "m2",
-              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet..."
+              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
             },
             {
-              "id": "m0",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! (today)"
+              "id": "m1",
+              "text": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
             }
           ],
           "correct_answer": {
@@ -1306,26 +1331,26 @@
           "interaction_id": "U53_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 369 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Next to my school there aren\u2019t any apartment blocks. - interesting"
+                  "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Your grandmother\u2019s juice!"
+                  "text": "uso de las mayúsculas."
                 }
               ]
             }
@@ -1334,20 +1359,20 @@
           "interaction_id": "U53_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 369 (Education: History):",
-          "main_text": "In Education: History (7454), The artist [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (587), The artist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "walked"
+                  "text": "listened."
                 },
                 {
                   "id": "o2",
-                  "text": "walk"
+                  "text": "listen."
                 }
               ]
             },
@@ -1356,11 +1381,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "travel."
                 }
               ]
             }
@@ -1373,22 +1398,22 @@
           "interaction_id": "U53_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 369 para Education: History:",
-          "stimulus_en": "have you seen my keys anywhere - amazing",
-          "stimulus_es": "Has visto mis llaves en alg\u00fan sitio? - amazing",
+          "stimulus_en": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.",
+          "stimulus_es": "Otro ejemplo.",
           "options": [
             {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
               "id": "o3",
-              "text": "Other 8685"
+              "text": "Other 6888."
             },
             {
               "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -1396,146 +1421,136 @@
           "interaction_id": "U53_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 369 sobre Education: History:",
           "options": [
             {
-              "id": "w7",
-              "text": "Mar\u00eda\u2019s"
-            },
-            {
-              "id": "w9",
-              "text": "is"
-            },
-            {
               "id": "w6",
-              "text": "="
-            },
-            {
-              "id": "w5",
-              "text": "grande"
-            },
-            {
-              "id": "w2",
-              "text": "de"
-            },
-            {
-              "id": "w8",
-              "text": "house"
+              "text": "his"
             },
             {
               "id": "w4",
-              "text": "es"
+              "text": "German."
             },
             {
-              "id": "w10",
-              "text": "big"
-            },
-            {
-              "id": "w0",
-              "text": "la"
-            },
-            {
-              "id": "w1",
-              "text": "casa"
+              "id": "w5",
+              "text": "and"
             },
             {
               "id": "w3",
-              "text": "Mar\u00eda"
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "cousin’s."
+            },
+            {
+              "id": "w7",
+              "text": "mother."
+            },
+            {
+              "id": "w2",
+              "text": "husband."
+            },
+            {
+              "id": "w0",
+              "text": "my"
+            },
+            {
+              "id": "w8",
+              "text": "Irish"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 422 (Education: History):",
-          "stimulus_en": "are you learning French?. (___)",
+          "stimulus_en": "chemist) Farmacia (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 422 (Education: History)",
-          "stimulus_en": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/..",
-          "stimulus_es": "Ref: En mat\u00e9maticas, por ejemplo, con n\u00famero decimales.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 422 (Education: History)",
+          "stimulus_en": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework.",
+          "stimulus_es": "Ref: me / Paul / helps / sometimes / my / with / homework.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 422 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Algunos ejemplos...",
-              "right": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without..."
+              "left": "Cuál es el sitio más caluroso en el que has estado nunca?",
+              "right": "What’s the hottest place you’ve ever been to."
             },
             {
               "id": "p1",
-              "left": "Otro ejemplo - amazing",
-              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
+              "left": "Cuál es el edificio más alto que has visitado nunca?",
+              "right": "What’s the highest building you’ve ever visited."
             },
             {
               "id": "p2",
-              "left": "Hay muchos bares cerca de mi casa!",
-              "right": "There are a lot of bars near my house.!"
+              "left": "Cuál es la playa más larga en la que has estado nunca?",
+              "right": "What’s the longest beach you’ve ever been to."
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? (now)",
-              "right": "What\u2019s the coldest country you\u2019ve ever been to (now)"
+              "left": "– Con partes del día.",
+              "right": "in the morning, in the afternoon, in the evening, pero at night (es una excepción)"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 422 (Education: History):",
-          "tts_en": "Do you have any children - interesting",
-          "correct_answer": "Do you have any children - interesting",
+          "tts_en": "it doesn’t often rain in the summer.",
+          "correct_answer": "it doesn’t often rain in the summer",
           "mastery_tag": "listening",
           "interaction_id": "U53_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 422:",
           "options": [
             {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
               "id": "o0",
-              "text": "Guitar"
+              "text": "blue"
             },
             {
               "id": "o4",
-              "text": "Book805"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
+              "text": "run"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "green"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o1",
+              "text": "red"
             }
           ],
           "correct_answer": "o4",
@@ -1543,65 +1558,65 @@
           "interaction_id": "U53_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 422 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo (today)",
-              "back": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. (today)"
+              "front": "Movie star (Br Eng.",
+              "back": "film star) Estrella de cine."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 422 (Education: History):",
-          "instruction_en": "Write a note about Education: History. [Ref: 82]",
+          "instruction_en": "Write a note about Education: History. [Ref: 63]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 422 (Education: History):",
-          "stimulus_en": "Study Education: History now. (194)",
+          "stimulus_en": "Look at Education: History. (302)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 370 (Education: History):",
-          "stimulus": "Matching set 17",
+          "stimulus": "Matching set 5629.",
           "items": [
             {
               "id": "i0",
-              "text": "4. go to bed before 11 / often / I!",
+              "text": "Estabas tomándote una cerveza cuando viste a Pedro?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "text": "Si por cierto necesitas ayuda con la formación de preguntas, aquí tienes material.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo.",
+              "text": "1. el primer elemento (de esos tres que decíamos antes) es una persona. Ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos.."
+              "text": "John‘s job is boring."
             },
             {
               "id": "m0",
-              "text": "I often go to bed before 11!"
+              "text": "Were you having a beer when you saw Peter."
             },
             {
               "id": "m1",
-              "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children.."
+              "text": "preguntas en inglés."
             }
           ],
           "correct_answer": {
@@ -1613,26 +1628,26 @@
           "interaction_id": "U53_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 370 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Peter\u2019s sisters!"
+                  "text": "I often fish for hours without catching anything."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora. - amazing"
+                  "text": "I hardly ever go to the cinema = casi nunca voy al cine."
                 }
               ]
             }
@@ -1641,20 +1656,20 @@
           "interaction_id": "U53_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 370 (Education: History):",
-          "main_text": "In Education: History (3480), The boss [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (5011), My sister [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "played."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "play"
                 }
               ]
             },
@@ -1663,11 +1678,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "helped."
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "help"
                 }
               ]
             }
@@ -1680,22 +1695,22 @@
           "interaction_id": "U53_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 370 para Education: History:",
-          "stimulus_en": "Whose car is that - 531",
-          "stimulus_es": "De qui\u00e9n ese coche? - 531",
+          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo.",
+          "stimulus_es": "Los adjetivos tienen tres formas.",
           "options": [
             {
               "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 5312"
+              "text": "Other 7242."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1703,106 +1718,136 @@
           "interaction_id": "U53_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 370 sobre Education: History:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w4",
+              "text": "or"
             },
             {
-              "id": "w1",
-              "text": "girls\u2019"
+              "id": "w8",
+              "text": "books"
+            },
+            {
+              "id": "w7",
+              "text": "those"
             },
             {
               "id": "w2",
-              "text": "ball"
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "Whose"
+            },
+            {
+              "id": "w0",
+              "text": "Whose"
+            },
+            {
+              "id": "w1",
+              "text": "books"
+            },
+            {
+              "id": "w3",
+              "text": "those="
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 423 (Education: History):",
-          "stimulus_en": "Have you a car? - amazing (___)",
+          "stimulus_en": "What’s the happiest day you’ve ever had (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 423 (Education: History)",
-          "stimulus_en": "What time do we have our exam.",
-          "stimulus_es": "Ref: A qu\u00e9 hora tenemos el examen?.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 423 (Education: History)",
+          "stimulus_en": "may I open the window, please.",
+          "stimulus_es": "Ref: Puedo abrir la ventana, por favor?",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 423 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Te veo el s\u00e1bado (today)",
-              "right": "I\u2019ll see you on Saturday (today)"
+              "left": "Cuándo la ayudaste?",
+              "right": "When did you help him/her."
             },
             {
               "id": "p1",
-              "left": "Uncountable nouns (now)",
-              "right": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (now)"
+              "left": "Drugstore (Br Eng.",
+              "right": "chemist) Farmacia."
             },
             {
               "id": "p2",
-              "left": "5. El zumo de tu abuela...",
-              "right": "Your grandmother\u2019s juice..."
+              "left": "En matématicas, por ejemplo, con número decimales.",
+              "right": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
             },
             {
               "id": "p3",
-              "left": "7. read books slowly / I / always...",
-              "right": "I always read books slowly..."
+              "left": "Crees que bajará el paro este año?",
+              "right": "Do you think that unemployment will go down this year."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 423 (Education: History):",
-          "tts_en": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019.!",
-          "correct_answer": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019.!",
+          "tts_en": "would you like some more.",
+          "correct_answer": "would you like some more",
           "mastery_tag": "listening",
           "interaction_id": "U53_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 423:",
           "options": [
             {
+              "id": "o0",
+              "text": "Monday."
+            },
+            {
               "id": "o3",
-              "text": "Bed"
+              "text": "Friday."
             },
             {
               "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o4",
-              "text": "Pen745"
+              "text": "Sunday."
             },
             {
               "id": "o1",
-              "text": "Chair"
+              "text": "Tuesday."
             },
             {
-              "id": "o0",
-              "text": "Table"
+              "id": "o4",
+              "text": "June"
             }
           ],
           "correct_answer": "o4",
@@ -1810,65 +1855,65 @@
           "interaction_id": "U53_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 423 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "French fries (Br Eng (today)",
-              "back": "chips) Patatas fritas (today)"
+              "front": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "back": "how often do you have Italian classes? = I have every Tuesday."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 423 (Education: History):",
-          "instruction_en": "Compare Education: History with another topic. [Ref: 37]",
+          "instruction_en": "Why is Education: History important? [Ref: 56]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 423 (Education: History):",
-          "stimulus_en": "Talk about Education: History. (976)",
+          "stimulus_en": "Look at Education: History. (291)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 371 (Education: History):",
-          "stimulus": "Matching set 3425",
+          "stimulus": "Matching set 7627.",
           "items": [
             {
               "id": "i0",
-              "text": "A lot of, countable y uncountable (today)",
+              "text": "2. Play football on Saturday afternoons / the boys / always.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Alguien dijo mi nombre?...",
+              "text": "Cómo se llama él?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Un ejemplo de to seguido de infinitivo es - amazing",
+              "text": "puedo abrir la ventana, por favor?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - amazing"
-            },
-            {
               "id": "m0",
-              "text": "I have a lot of money and I have a lot of friends. (today)"
+              "text": "the boys always play football on Saturday afternoons."
             },
             {
               "id": "m1",
-              "text": "Did anybody say my name..."
+              "text": "What’s his name."
+            },
+            {
+              "id": "m2",
+              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             }
           ],
           "correct_answer": {
@@ -1880,26 +1925,26 @@
           "interaction_id": "U53_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 371 (Education: History):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I often go to bed before 11!"
+                  "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (today)"
+                  "text": "¿De dónde eres?"
                 }
               ]
             }
@@ -1908,20 +1953,20 @@
           "interaction_id": "U53_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 371 (Education: History):",
-          "main_text": "In Education: History (1578), Maria [GAP 1] and [GAP 2].",
+          "main_text": "In Education: History (2342), The manager [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "stop"
                 }
               ]
             },
@@ -1930,11 +1975,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "planned"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "plan"
+                  "text": "travel."
                 }
               ]
             }
@@ -1947,22 +1992,22 @@
           "interaction_id": "U53_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 371 para Education: History:",
-          "stimulus_en": "may come, might go. (today)",
-          "stimulus_es": "As any modal verb, they are followed by an infinitive without \u2018to\u2019, for example (today)",
+          "stimulus_en": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciación y además perfectamente entendible para los alumnos que no conocen los símbolos fonéticos. Espero que te sea útil.",
+          "stimulus_es": "Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect.",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 2673"
+              "text": "Other 4546."
             }
           ],
           "correct_answer": "o1",
@@ -1970,116 +2015,141 @@
           "interaction_id": "U53_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 371 sobre Education: History:",
           "options": [
             {
-              "id": "w3",
-              "text": "etc"
-            },
-            {
-              "id": "w4",
-              "text": "(now)"
-            },
-            {
-              "id": "w2",
-              "text": "people"
+              "id": "w6",
+              "text": "live"
             },
             {
               "id": "w0",
-              "text": "men"
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "friends."
+            },
+            {
+              "id": "w5",
+              "text": "who"
+            },
+            {
+              "id": "w8",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "near"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "any"
+            },
+            {
+              "id": "w9",
+              "text": "house"
             },
             {
               "id": "w1",
-              "text": "women"
+              "text": "don’t"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U53_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 424 (Education: History):",
-          "stimulus_en": "verb patters. - interesting (___)",
+          "stimulus_en": "cuando hablamos de forma más específica. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U53_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 424 (Education: History)",
-          "stimulus_en": "What\u2019s the most difficult language you\u2019ve ever studied!",
-          "stimulus_es": "Ref: Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca?!",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 424 (Education: History)",
+          "stimulus_en": "Sally often borrows money from her friends.",
+          "stimulus_es": "Ref: often / money / Sally / her / borrows / friends / from.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U53_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 424 (Education: History):",
           "pairs": [
             {
               "id": "p0",
-              "left": "2. el primer elemento es un animal. Ejemplo.",
-              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro.."
+              "left": "El marido de mi prima es alemán y su madre irlandesa.",
+              "right": "my cousin’s husband is German and his mother Irish."
             },
             {
               "id": "p1",
-              "left": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo...",
-              "right": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo...."
+              "left": "– Días de la semana.",
+              "right": "on Monday, on Wednesday, etc."
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca?!",
-              "right": "What\u2019s the happiest day you\u2019ve ever had!"
+              "left": "4. La pelota de las niñas.",
+              "right": "The girls’ ball."
             },
             {
               "id": "p3",
-              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (now)",
-              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now)"
+              "left": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "right": "Jennifer usually goes out to see a concert."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 424 (Education: History):",
-          "tts_en": "do you have a car - interesting",
-          "correct_answer": "do you have a car - interesting",
+          "tts_en": "la casa de María es grande = María’s house is big.",
+          "correct_answer": "la casa de María es grande = María’s house is big",
           "mastery_tag": "listening",
           "interaction_id": "U53_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 424:",
           "options": [
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "Angry"
             },
             {
               "id": "o0",
-              "text": "London"
+              "text": "Happy"
             },
             {
               "id": "o4",
-              "text": "Slow4274"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
+              "text": "Fast"
             },
             {
               "id": "o1",
-              "text": "Tokyo"
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
             }
           ],
           "correct_answer": "o4",
@@ -2087,29 +2157,29 @@
           "interaction_id": "U53_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 424 - Education: History:",
           "cards": [
             {
               "id": "c1",
-              "front": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro?.",
-              "back": "Were you having a beer when you saw Peter."
+              "front": "often, usually y sometimes también se pueden escribir al principio de oración.",
+              "back": "Sometimes I have lunch in a restaurant."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U53_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 424 (Education: History):",
-          "instruction_en": "List 3 facts about Education: History. [Ref: 73]",
+          "instruction_en": "Review Education: History from last week. [Ref: 18]",
           "mastery_tag": "writing",
           "interaction_id": "U53_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 424 (Education: History):",
-          "stimulus_en": "Talk about Education: History. (560)",
+          "stimulus_en": "Where is Education: History? (952)",
           "mastery_tag": "speaking",
           "interaction_id": "U53_I100"
         }

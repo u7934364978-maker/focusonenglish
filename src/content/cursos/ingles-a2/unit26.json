@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit26",
-    "unit_title": "Comparatives - Home: House Tour",
+    "unit_title": "Comparatives - Home: House Tour.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U26_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 26",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 26.",
           "tts_en": "Starting unit 26. Topic: Home: House Tour. Focus: Comparatives.",
           "mastery_tag": "listening",
           "interaction_id": "U26_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 201 (Home: House Tour):",
-          "stimulus_en": "A a gift is ___ than a a clock - interesting.",
+          "stimulus_en": "A newspaper is ___ than a bike.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 201 (Home: House Tour)",
-          "stimulus_en": "A a chair is useful than a English....",
-          "stimulus_es": "Ref: Un a chair es m\u00e1s \u00fatil que un English....",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 201 (Home: House Tour)",
+          "stimulus_en": "A clock is more useful than a television.",
+          "stimulus_es": "Ref: Un clock es más útil que un television.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 201 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a radio es m\u00e1s \u00fatil que un a car....",
-              "right": "A a radio is more useful than a a car...."
+              "left": "Un pizza es más útil que un camera.",
+              "right": "A pizza is more useful than a camera."
             },
             {
               "id": "p1",
-              "left": "Un a movie es m\u00e1s \u00fatil que un English - 575.",
-              "right": "A a movie is more useful than a English - 575."
+              "left": "Un table es más útil que un window.",
+              "right": "A table is more useful than a window."
             },
             {
               "id": "p2",
-              "left": "Un a radio es m\u00e1s \u00fatil que un a cat - 926.",
-              "right": "A a radio is more useful than a a cat - 926."
+              "left": "Un watch es más útil que un sandwich.",
+              "right": "A watch is more useful than a sandwich."
             },
             {
               "id": "p3",
-              "left": "Un a clock es m\u00e1s \u00fatil que un a table - amazing.",
-              "right": "A a clock is more useful than a a table - amazing."
+              "left": "Un gift es más útil que un ticket.",
+              "right": "A gift is more useful than a ticket."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 201 (Home: House Tour):",
-          "tts_en": "A a letter is more useful than a a bag - interesting.",
-          "correct_answer": "A a letter is more useful than a a bag - interesting.",
+          "tts_en": "A dog is more useful than a window.",
+          "correct_answer": "A dog is more useful than a window",
           "mastery_tag": "listening",
           "interaction_id": "U26_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 201:",
           "options": [
             {
-              "id": "o4",
-              "text": "June8946"
-            },
-            {
               "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
+              "text": "Guitar."
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Book"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "Drums"
+            },
+            {
+              "id": "o1",
+              "text": "Piano"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U26_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 201 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "Movie (Br Eng (today)",
-              "back": "film) Pel\u00edcula (today)"
+              "front": "Si el número lleva un 0 por en medio, 1903, decimos.",
+              "back": "nineteen oh three. Ten encuenta que el número cero lo decimos aquí «oh». El número cero se puede expresar de muchas formas distintas en inglés, según de cómo se esté utilizando. Ahora después lo veremos en detalle."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 201 (Home: House Tour):",
-          "instruction_en": "Compare Home: House Tour with another topic. [Ref: 96]",
+          "instruction_en": "Write a note about Home: House Tour. [Ref: 60]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 201 (Home: House Tour):",
-          "stimulus_en": "Look at Home: House Tour. (210)",
+          "stimulus_en": "Repeat Home: House Tour. (940)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 176 (Home: House Tour):",
-          "stimulus": "Matching set 1085",
+          "stimulus": "Matching set 4622.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing - amazing",
+              "text": "1. el primer elemento (de esos tres que decíamos antes) es una persona. Ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. La hamburguesa de Harry (now)",
+              "text": "Cuál es la persona más tímida que has conocido nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo - amazing",
+              "text": "8. usually / my father / goes to work by bus.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "on the Internet - amazing"
-            },
-            {
               "id": "m2",
-              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - amazing"
+              "text": "my father usually goes to work by bus."
             },
             {
               "id": "m1",
-              "text": "Harry\u2019s burger (now)"
+              "text": "Who’s the shyest person you’ve ever met."
+            },
+            {
+              "id": "m0",
+              "text": "John‘s job is boring."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U26_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 176 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I often fish for hours without catching anything (now)"
+                  "text": "Can I have your ID/ passport/ credit card?."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). (today)"
+                  "text": "present continuous, porque lo estás buscando en este momento."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U26_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 176 (Home: House Tour):",
-          "main_text": "In Home: House Tour (9105), The player [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (4346), The actress [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "listened."
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "listen."
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "fix"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U26_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 176 para Home: House Tour:",
-          "stimulus_en": "A a movie is more useful than a a sandwich..",
-          "stimulus_es": "Un a movie es m\u00e1s \u00fatil que un a sandwich..",
+          "stimulus_en": "A football is more useful than a bike.",
+          "stimulus_es": "Un football es más útil que un bike.",
           "options": [
             {
-              "id": "o2",
-              "text": "useful"
-            },
-            {
               "id": "o3",
-              "text": "Other 6560"
+              "text": "Other 6157."
             },
             {
               "id": "o1",
-              "text": "more useful"
+              "text": "more useful."
+            },
+            {
+              "id": "o2",
+              "text": "useful."
             }
           ],
           "correct_answer": "o1",
@@ -263,12 +263,20 @@
           "interaction_id": "U26_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 176 sobre Home: House Tour:",
           "options": [
             {
+              "id": "w2",
+              "text": "is"
+            },
+            {
               "id": "w6",
-              "text": "than"
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "useful."
             },
             {
               "id": "w0",
@@ -276,128 +284,110 @@
             },
             {
               "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "car"
-            },
-            {
-              "id": "w2",
-              "text": "camera"
-            },
-            {
-              "id": "w8",
-              "text": "a"
+              "text": "tennis."
             },
             {
               "id": "w3",
-              "text": "is"
+              "text": "more"
             },
             {
               "id": "w5",
-              "text": "useful"
+              "text": "than"
             },
             {
               "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "more"
+              "text": "watch"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 202 (Home: House Tour):",
-          "stimulus_en": "A a window is ___ than a a report..",
+          "stimulus_en": "A football is ___ than a letter.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 202 (Home: House Tour)",
-          "stimulus_en": "A a sandwich is more useful than a a house - interesting.",
-          "stimulus_es": "Ref: Un a sandwich es m\u00e1s \u00fatil que un a house - interesting.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 202 (Home: House Tour)",
+          "stimulus_en": "A pizza is more useful than a movie.",
+          "stimulus_es": "Ref: Un pizza es más útil que un movie.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 202 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a newspaper es m\u00e1s \u00fatil que un coffee - amazing.",
-              "right": "A a newspaper is more useful than a coffee - amazing."
+              "left": "Un football es más útil que un coffee.",
+              "right": "A football is more useful than a coffee."
             },
             {
               "id": "p1",
-              "left": "Un a television es m\u00e1s \u00fatil que un a clock - amazing.",
-              "right": "A a television is more useful than a a clock - amazing."
+              "left": "Un door es más útil que un letter.",
+              "right": "A door is more useful than a letter."
             },
             {
               "id": "p2",
-              "left": "Un an email es m\u00e1s \u00fatil que un a laptop!.",
-              "right": "A an email is more useful than a a laptop!."
+              "left": "Un table es más útil que un letter.",
+              "right": "A table is more useful than a letter."
             },
             {
               "id": "p3",
-              "left": "Un a movie es m\u00e1s \u00fatil que un a sandwich..",
-              "right": "A a movie is more useful than a a sandwich.."
+              "left": "Un letter es más útil que un table.",
+              "right": "A letter is more useful than a table."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 202 (Home: House Tour):",
-          "tts_en": "A a pen is more useful than a English (today).",
-          "correct_answer": "A a pen is more useful than a English (today).",
+          "tts_en": "A gift is more useful than a house.",
+          "correct_answer": "A gift is more useful than a house",
           "mastery_tag": "listening",
           "interaction_id": "U26_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 202:",
           "options": [
             {
               "id": "o1",
-              "text": "bus"
-            },
-            {
-              "id": "o4",
-              "text": "cat9733"
+              "text": "Sad"
             },
             {
               "id": "o2",
-              "text": "train"
+              "text": "Angry"
+            },
+            {
+              "id": "o4",
+              "text": "Fast"
             },
             {
               "id": "o3",
-              "text": "plane"
+              "text": "Calm"
             },
             {
               "id": "o0",
-              "text": "car"
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -405,65 +395,65 @@
           "interaction_id": "U26_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 202 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "Uncountable nouns (today)",
-              "back": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (today)"
+              "front": "Los adjetivos tienen tres formas.",
+              "back": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 202 (Home: House Tour):",
-          "instruction_en": "Describe Home: House Tour in 5 words. [Ref: 26]",
+          "instruction_en": "Describe Home: House Tour in 5 words. [Ref: 92]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 202 (Home: House Tour):",
-          "stimulus_en": "Improve Home: House Tour. (730)",
+          "stimulus_en": "Repeat Home: House Tour. (278)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 177 (Home: House Tour):",
-          "stimulus": "Matching set 7836",
+          "stimulus": "Matching set 2137.",
           "items": [
             {
               "id": "i0",
-              "text": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material (today)",
+              "text": "Tienes hijos?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "6. it / rain in the summer / often / doesn\u2019t (today)",
+              "text": "Qué es lo que empieza?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y en negativa - interesting",
+              "text": "2. Play football on Saturday afternoons / the boys / always.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "preguntas en ingl\u00e9s (today)"
+              "id": "m2",
+              "text": "the boys always play football on Saturday afternoons."
             },
             {
               "id": "m1",
-              "text": "it doesn\u2019t often rain in the summer (today)"
+              "text": "la película, entonces SUBJECT = THE FILM."
             },
             {
-              "id": "m2",
-              "text": "I don\u2019t have any friends who live near my house. - interesting"
+              "id": "m0",
+              "text": "Do you have any children."
             }
           ],
           "correct_answer": {
@@ -475,26 +465,26 @@
           "interaction_id": "U26_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 177 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. - interesting"
+                  "text": "My partner is the most beautiful woman in the world."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "There are a lot of bars near my house. - amazing"
+                  "text": "Do you think that unemployment will go down this year."
                 }
               ]
             }
@@ -503,20 +493,20 @@
           "interaction_id": "U26_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 177 (Home: House Tour):",
-          "main_text": "In Home: House Tour (1108), The chef [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (1218), The pilot [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "played"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "play"
+                  "text": "meet"
                 }
               ]
             },
@@ -525,11 +515,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "sold"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "sell"
+                  "text": "create."
                 }
               ]
             }
@@ -542,22 +532,22 @@
           "interaction_id": "U26_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 177 para Home: House Tour:",
-          "stimulus_en": "A a chair is more useful than a a computer..",
-          "stimulus_es": "Un a chair es m\u00e1s \u00fatil que un a computer..",
+          "stimulus_en": "A newspaper is more useful than a house.",
+          "stimulus_es": "Un newspaper es más útil que un house.",
           "options": [
             {
-              "id": "o1",
-              "text": "more useful"
+              "id": "o2",
+              "text": "useful."
             },
             {
-              "id": "o2",
-              "text": "useful"
+              "id": "o1",
+              "text": "more useful."
             },
             {
               "id": "o3",
-              "text": "Other 4221"
+              "text": "Other 8370."
             }
           ],
           "correct_answer": "o1",
@@ -565,136 +555,131 @@
           "interaction_id": "U26_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 177 sobre Home: House Tour:",
           "options": [
             {
-              "id": "w4",
-              "text": "useful"
-            },
-            {
-              "id": "w5",
-              "text": "than"
-            },
-            {
-              "id": "w1",
-              "text": "football"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "dog"
             },
             {
               "id": "w3",
               "text": "more"
             },
             {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "laptop."
+            },
+            {
               "id": "w6",
               "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "useful."
+            },
+            {
+              "id": "w7",
+              "text": "cat"
+            },
+            {
+              "id": "w5",
+              "text": "than"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 203 (Home: House Tour):",
-          "stimulus_en": "A a report is ___ than a coffee (now).",
+          "stimulus_en": "A table is ___ than a laptop.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 203 (Home: House Tour)",
-          "stimulus_en": "A a cat is more useful than a a gift (today).",
-          "stimulus_es": "Ref: Un a cat es m\u00e1s \u00fatil que un a gift (today).",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 203 (Home: House Tour)",
+          "stimulus_en": "A house is useful than an English.",
+          "stimulus_es": "Ref: Un house es más útil que un English.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 203 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a computer es m\u00e1s \u00fatil que un a sandwich (today).",
-              "right": "A a computer is more useful than a a sandwich (today)."
+              "left": "Un television es más útil que un clock.",
+              "right": "A television is more useful than a clock."
             },
             {
               "id": "p1",
-              "left": "Un a ticket es m\u00e1s \u00fatil que un a gift - 531.",
-              "right": "A a ticket is more useful than a a gift - 531."
+              "left": "Un dog es más útil que un ticket.",
+              "right": "A dog is more useful than a ticket."
             },
             {
               "id": "p2",
-              "left": "Un a camera es m\u00e1s \u00fatil que un a book....",
-              "right": "A a camera is more useful than a a book...."
+              "left": "Un ticket es más útil que un music.",
+              "right": "A ticket is more useful than a music."
             },
             {
               "id": "p3",
-              "left": "Un a ticket es m\u00e1s \u00fatil que un an email - amazing.",
-              "right": "A a ticket is more useful than a an email - amazing."
+              "left": "Un pizza es más útil que un clock.",
+              "right": "A pizza is more useful than a clock."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 203 (Home: House Tour):",
-          "tts_en": "A a report is more useful than a a movie!.",
-          "correct_answer": "A a report is more useful than a a movie!.",
+          "tts_en": "A clock is more useful than an apple.",
+          "correct_answer": "A clock is more useful than a apple",
           "mastery_tag": "listening",
           "interaction_id": "U26_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 203:",
           "options": [
             {
-              "id": "o3",
-              "text": "mango"
-            },
-            {
-              "id": "o1",
-              "text": "banana"
-            },
-            {
               "id": "o0",
-              "text": "apple"
+              "text": "Monday."
             },
             {
               "id": "o4",
-              "text": "bike7811"
+              "text": "June"
+            },
+            {
+              "id": "o3",
+              "text": "Friday."
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "Sunday."
             }
           ],
           "correct_answer": "o4",
@@ -702,65 +687,65 @@
           "interaction_id": "U26_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 203 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 D\u00edas de la semana - amazing",
-              "back": "on Monday, on Wednesday, etc. - amazing"
+              "front": "Eraser (Br Eng.",
+              "back": "rubber) Goma de borrar."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 203 (Home: House Tour):",
-          "instruction_en": "Draft an email regarding Home: House Tour. [Ref: 66]",
+          "instruction_en": "A small story about Home: House Tour. [Ref: 94]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 203 (Home: House Tour):",
-          "stimulus_en": "Improve Home: House Tour. (371)",
+          "stimulus_en": "Focus on Home: House Tour. (563)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 178 (Home: House Tour):",
-          "stimulus": "Matching set 776",
+          "stimulus": "Matching set 5500.",
           "items": [
             {
               "id": "i0",
-              "text": "\u2013 Fechas concretas.",
+              "text": "Quieres más?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Escribir ingl\u00e9s correctamente - amazing",
+              "text": "Has terminado ya el proyecto?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Encontraste algo ah\u00ed? - interesting",
+              "text": "Otro common mistake.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "Have you a car?"
+            },
+            {
               "id": "m1",
-              "text": "uso de las may\u00fasculas - amazing"
+              "text": "Have you finished the project yet."
             },
             {
               "id": "m0",
-              "text": "on 5th May, on Christmas Day, on New Year\u2019s Eve, on St. Valentine\u2019s Day, on my birthday = siempre que sea una fecha concreta, ese d\u00eda y no otro, utilizamos la preposici\u00f3n on.."
-            },
-            {
-              "id": "m2",
-              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. - interesting"
+              "text": "would you like some more."
             }
           ],
           "correct_answer": {
@@ -772,26 +757,26 @@
           "interaction_id": "U26_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 178 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet - 722"
+                  "text": "when I was at primary school, I didn’t wear uniform."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "chips) Patatas fritas - amazing"
+                  "text": "bookshop) Librería."
                 }
               ]
             }
@@ -800,20 +785,20 @@
           "interaction_id": "U26_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 178 (Home: House Tour):",
-          "main_text": "In Home: House Tour (4431), My friend [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (148), The driver [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "meet"
                 }
               ]
             },
@@ -822,11 +807,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "drive"
                 }
               ]
             }
@@ -839,22 +824,22 @@
           "interaction_id": "U26_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 178 para Home: House Tour:",
-          "stimulus_en": "A a sandwich is more useful than a a pen - amazing.",
-          "stimulus_es": "Un a sandwich es m\u00e1s \u00fatil que un a pen - amazing.",
+          "stimulus_en": "A camera is more useful than an apple.",
+          "stimulus_es": "Un camera es más útil que un apple.",
           "options": [
             {
+              "id": "o1",
+              "text": "more useful."
+            },
+            {
               "id": "o2",
-              "text": "useful"
+              "text": "useful."
             },
             {
               "id": "o3",
-              "text": "Other 865"
-            },
-            {
-              "id": "o1",
-              "text": "more useful"
+              "text": "Other 8353."
             }
           ],
           "correct_answer": "o1",
@@ -862,146 +847,131 @@
           "interaction_id": "U26_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 178 sobre Home: House Tour:",
           "options": [
             {
-              "id": "w3",
-              "text": "is"
+              "id": "w6",
+              "text": "a"
             },
             {
               "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "than"
-            },
-            {
-              "id": "w2",
-              "text": "camera"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "car"
-            },
-            {
-              "id": "w10",
-              "text": "756"
+              "text": "laptop."
             },
             {
               "id": "w0",
               "text": "A"
             },
             {
-              "id": "w5",
-              "text": "useful"
+              "id": "w4",
+              "text": "useful."
             },
             {
-              "id": "w4",
+              "id": "w1",
+              "text": "gift"
+            },
+            {
+              "id": "w3",
               "text": "more"
+            },
+            {
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 204 (Home: House Tour):",
-          "stimulus_en": "A a window is ___ than a a table..",
+          "stimulus_en": "A tennis is ___ than a computer.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 204 (Home: House Tour)",
-          "stimulus_en": "A a door is more useful than a music....",
-          "stimulus_es": "Ref: Un a door es m\u00e1s \u00fatil que un music....",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 204 (Home: House Tour)",
+          "stimulus_en": "A sandwich is useful than an English.",
+          "stimulus_es": "Ref: Un sandwich es más útil que un English.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 204 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un coffee es m\u00e1s \u00fatil que un a phone (now).",
-              "right": "A coffee is more useful than a a phone (now)."
+              "left": "Un phone es más útil que un house.",
+              "right": "A phone is more useful than a house."
             },
             {
               "id": "p1",
-              "left": "Un a window es m\u00e1s \u00fatil que un English!.",
-              "right": "A a window is more useful than a English!."
+              "left": "Un movie es más útil que un apple.",
+              "right": "A movie is more useful than an apple."
             },
             {
               "id": "p2",
-              "left": "Un a door es m\u00e1s \u00fatil que un a phone - interesting.",
-              "right": "A a door is more useful than a a phone - interesting."
+              "left": "Un English es más útil que un table.",
+              "right": "an English is more useful than a table."
             },
             {
               "id": "p3",
-              "left": "Un a clock es m\u00e1s \u00fatil que un a laptop - amazing.",
-              "right": "A a clock is more useful than a a laptop - amazing."
+              "left": "Un email es más útil que un camera.",
+              "right": "an email is more useful than a camera."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 204 (Home: House Tour):",
-          "tts_en": "A an email is more useful than a a house (now).",
-          "correct_answer": "A an email is more useful than a a house (now).",
+          "tts_en": "A ticket is more useful than an email.",
+          "correct_answer": "A ticket is more useful than a email",
           "mastery_tag": "listening",
           "interaction_id": "U26_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 204:",
           "options": [
             {
-              "id": "o3",
-              "text": "pink"
-            },
-            {
               "id": "o4",
-              "text": "run2404"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o1",
-              "text": "red"
+              "text": "rain"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "pizza"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o2",
+              "text": "salad"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
             }
           ],
           "correct_answer": "o4",
@@ -1009,65 +979,65 @@
           "interaction_id": "U26_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 204 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba.",
-              "back": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM."
+              "front": "Movie star (Br Eng.",
+              "back": "film star) Estrella de cine."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 204 (Home: House Tour):",
-          "instruction_en": "Compare Home: House Tour with another topic. [Ref: 68]",
+          "instruction_en": "Why is Home: House Tour important? [Ref: 58]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 204 (Home: House Tour):",
-          "stimulus_en": "Study Home: House Tour now. (692)",
+          "stimulus_en": "Talk about Home: House Tour. (534)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 179 (Home: House Tour):",
-          "stimulus": "Matching set 3525",
+          "stimulus": "Matching set 7550.",
           "items": [
             {
               "id": "i0",
-              "text": "3. Las hermanas de Pedro...",
+              "text": "Esto si es un precio exacto, pero ¿y si hay céntimos? Entonces diríamos.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Alguna vez has probado la comida tailandesa? - interesting",
+              "text": "Verbos irregulares.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Al lado de mi colegio no hay bloques de pisos (now)",
+              "text": "Common mistake.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "Next to my school there aren\u2019t any apartment blocks. (now)"
-            },
-            {
               "id": "m1",
-              "text": "Have you ever tried Thai food - interesting"
+              "text": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
             },
             {
               "id": "m0",
-              "text": "Peter\u2019s sisters..."
+              "text": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»."
+            },
+            {
+              "id": "m2",
+              "text": "I hadn’t got a mobile."
             }
           ],
           "correct_answer": {
@@ -1079,26 +1049,26 @@
           "interaction_id": "U26_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 179 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Who is celebrating dad\u2019s birthday? = the answer is My family and I, so subject!..."
+                  "text": "What’s the longest beach you’ve ever been to."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "film star) Estrella de cine - interesting"
+                  "text": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
                 }
               ]
             }
@@ -1107,20 +1077,20 @@
           "interaction_id": "U26_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 179 (Home: House Tour):",
-          "main_text": "In Home: House Tour (1600), The artist [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (4856), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "stopped"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "stop"
+                  "text": "plan"
                 }
               ]
             },
@@ -1129,11 +1099,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "taught"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "teach"
+                  "text": "send"
                 }
               ]
             }
@@ -1146,22 +1116,22 @@
           "interaction_id": "U26_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 179 para Home: House Tour:",
-          "stimulus_en": "A English is more useful than a a laptop - interesting.",
-          "stimulus_es": "Un English es m\u00e1s \u00fatil que un a laptop - interesting.",
+          "stimulus_en": "A clock is more useful than a pizza.",
+          "stimulus_es": "Un clock es más útil que un pizza.",
           "options": [
             {
               "id": "o1",
-              "text": "more useful"
+              "text": "more useful."
             },
             {
               "id": "o2",
-              "text": "useful"
+              "text": "useful."
             },
             {
               "id": "o3",
-              "text": "Other 7365"
+              "text": "Other 6866."
             }
           ],
           "correct_answer": "o1",
@@ -1169,136 +1139,131 @@
           "interaction_id": "U26_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 179 sobre Home: House Tour:",
           "options": [
             {
-              "id": "w4",
+              "id": "w3",
               "text": "more"
             },
             {
-              "id": "w5",
-              "text": "useful"
-            },
-            {
-              "id": "w3",
-              "text": "is"
+              "id": "w4",
+              "text": "useful."
             },
             {
               "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "music"
+              "text": "window."
             },
             {
               "id": "w7",
+              "text": "email"
+            },
+            {
+              "id": "w6",
               "text": "a"
             },
             {
+              "id": "w5",
+              "text": "than"
+            },
+            {
               "id": "w2",
-              "text": "chair"
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "A"
-            },
-            {
-              "id": "w6",
-              "text": "than"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 205 (Home: House Tour):",
-          "stimulus_en": "A a chair is ___ than a a watch (today).",
+          "stimulus_en": "A bike is ___ than a dog.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 205 (Home: House Tour)",
-          "stimulus_en": "A a bike is useful than a an apple (today).",
-          "stimulus_es": "Ref: Un a bike es m\u00e1s \u00fatil que un an apple (today).",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 205 (Home: House Tour)",
+          "stimulus_en": "A bag is useful than a radio.",
+          "stimulus_es": "Ref: Un bag es más útil que un radio.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 205 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a bike es m\u00e1s \u00fatil que un a car (now).",
-              "right": "A a bike is more useful than a a car (now)."
+              "left": "Un house es más útil que un gift.",
+              "right": "A house is more useful than a gift."
             },
             {
               "id": "p1",
-              "left": "Un tennis es m\u00e1s \u00fatil que un a cat (now).",
-              "right": "A tennis is more useful than a a cat (now)."
+              "left": "Un clock es más útil que un phone.",
+              "right": "A clock is more useful than a phone."
             },
             {
               "id": "p2",
-              "left": "Un an apple es m\u00e1s \u00fatil que un a phone - 323.",
-              "right": "A an apple is more useful than a a phone - 323."
+              "left": "Un laptop es más útil que un clock.",
+              "right": "A laptop is more useful than a clock."
             },
             {
               "id": "p3",
-              "left": "Un music es m\u00e1s \u00fatil que un a clock - amazing.",
-              "right": "A music is more useful than a a clock - amazing."
+              "left": "Un printer es más útil que un laptop.",
+              "right": "A printer is more useful than a laptop."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 205 (Home: House Tour):",
-          "tts_en": "A a letter is more useful than a a dog (today).",
-          "correct_answer": "A a letter is more useful than a a dog (today).",
+          "tts_en": "A watch is more useful than an apple.",
+          "correct_answer": "A watch is more useful than a apple",
           "mastery_tag": "listening",
           "interaction_id": "U26_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 205:",
           "options": [
             {
-              "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
               "id": "o4",
-              "text": "June4483"
+              "text": "run"
             },
             {
               "id": "o0",
-              "text": "Monday"
+              "text": "blue"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o2",
+              "text": "green"
             }
           ],
           "correct_answer": "o4",
@@ -1306,65 +1271,65 @@
           "interaction_id": "U26_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 205 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo...",
-              "back": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo...."
+              "front": "Cuál es el sitio más caluroso en el que has estado nunca?",
+              "back": "What’s the hottest place you’ve ever been to."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 205 (Home: House Tour):",
-          "instruction_en": "Write a note about Home: House Tour. [Ref: 33]",
+          "instruction_en": "Explain Comparatives using Home: House Tour. [Ref: 53]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 205 (Home: House Tour):",
-          "stimulus_en": "Focus on Home: House Tour. (511)",
+          "stimulus_en": "Improve Home: House Tour. (211)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 180 (Home: House Tour):",
-          "stimulus": "Matching set 7662",
+          "stimulus": "Matching set 1291.",
           "items": [
             {
               "id": "i0",
-              "text": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (today)",
+              "text": "Encontraste algo ahí?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Funciona ese ordenador?...",
+              "text": "Metre (Br Eng) (Am Eng.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Mi cumplea\u00f1os es en febrero!",
+              "text": "Algunos ejemplos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "Were you having a beer when you saw Peter (today)"
+              "text": "any + thing = en oración INTERROGATIVA."
             },
             {
               "id": "m1",
-              "text": "Does that computer work..."
+              "text": "meter) Metro."
             },
             {
               "id": "m2",
-              "text": "my birthday is in February.!"
+              "text": "at in on for to of without."
             }
           ],
           "correct_answer": {
@@ -1376,26 +1341,26 @@
           "interaction_id": "U26_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 180 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "in May, in August, etc. (now)"
+                  "text": "Have you finished the project yet."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "My neighbour always spoils my holidays..."
+                  "text": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
                 }
               ]
             }
@@ -1404,20 +1369,20 @@
           "interaction_id": "U26_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 180 (Home: House Tour):",
-          "main_text": "In Home: House Tour (9967), The waiter [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (1797), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "traveled."
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "travel."
                 }
               ]
             },
@@ -1426,11 +1391,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "plan"
                 }
               ]
             }
@@ -1443,22 +1408,22 @@
           "interaction_id": "U26_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 180 para Home: House Tour:",
-          "stimulus_en": "A a cat is more useful than a an apple (today).",
-          "stimulus_es": "Un a cat es m\u00e1s \u00fatil que un an apple (today).",
+          "stimulus_en": "A chair is more useful than a pizza.",
+          "stimulus_es": "Un chair es más útil que un pizza.",
           "options": [
             {
-              "id": "o2",
-              "text": "useful"
+              "id": "o1",
+              "text": "more useful."
             },
             {
               "id": "o3",
-              "text": "Other 7910"
+              "text": "Other 2203."
             },
             {
-              "id": "o1",
-              "text": "more useful"
+              "id": "o2",
+              "text": "useful."
             }
           ],
           "correct_answer": "o1",
@@ -1466,136 +1431,131 @@
           "interaction_id": "U26_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 180 sobre Home: House Tour:",
           "options": [
             {
+              "id": "w3",
+              "text": "more"
+            },
+            {
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w7",
+              "text": "television."
+            },
+            {
+              "id": "w4",
+              "text": "useful."
+            },
+            {
               "id": "w1",
-              "text": "a"
+              "text": "cat"
             },
             {
               "id": "w2",
-              "text": "report"
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "a"
             },
             {
               "id": "w0",
               "text": "A"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "more"
-            },
-            {
-              "id": "w6",
-              "text": "than"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "English"
-            },
-            {
-              "id": "w5",
-              "text": "useful"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 206 (Home: House Tour):",
-          "stimulus_en": "A football is ___ than a a bag - interesting.",
+          "stimulus_en": "A watch is ___ than a bike.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 206 (Home: House Tour)",
-          "stimulus_en": "A a printer is useful than a a phone - 656.",
-          "stimulus_es": "Ref: Un a printer es m\u00e1s \u00fatil que un a phone - 656.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 206 (Home: House Tour)",
+          "stimulus_en": "A tennis is more useful than an email.",
+          "stimulus_es": "Ref: Un tennis es más útil que un email.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 206 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a laptop es m\u00e1s \u00fatil que un football - interesting.",
-              "right": "A a laptop is more useful than a football - interesting."
+              "left": "Un printer es más útil que un tennis.",
+              "right": "A printer is more useful than a tennis."
             },
             {
               "id": "p1",
-              "left": "Un a table es m\u00e1s \u00fatil que un a bike - amazing.",
-              "right": "A a table is more useful than a a bike - amazing."
+              "left": "Un English es más útil que un report.",
+              "right": "an English is more useful than a report."
             },
             {
               "id": "p2",
-              "left": "Un a clock es m\u00e1s \u00fatil que un a pen (now).",
-              "right": "A a clock is more useful than a a pen (now)."
+              "left": "Un chair es más útil que un football.",
+              "right": "A chair is more useful than a football."
             },
             {
               "id": "p3",
-              "left": "Un a laptop es m\u00e1s \u00fatil que un a door..",
-              "right": "A a laptop is more useful than a a door.."
+              "left": "Un computer es más útil que un table.",
+              "right": "A computer is more useful than a table."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 206 (Home: House Tour):",
-          "tts_en": "A a radio is more useful than a a pen..",
-          "correct_answer": "A a radio is more useful than a a pen..",
+          "tts_en": "A clock is more useful than a pizza.",
+          "correct_answer": "A clock is more useful than a pizza",
           "mastery_tag": "listening",
           "interaction_id": "U26_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 206:",
           "options": [
             {
-              "id": "o2",
-              "text": "Berlin"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o0",
-              "text": "London"
+              "id": "o3",
+              "text": "Calm"
             },
             {
               "id": "o4",
-              "text": "Slow1626"
+              "text": "Fast"
             },
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -1603,65 +1563,65 @@
           "interaction_id": "U26_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 206 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing (now)",
-              "back": "I went to a state school. (now)"
+              "front": "El genitivo sajón se utiliza para expresar posesión. Por ejemplo, si quiero decir.",
+              "back": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 206 (Home: House Tour):",
-          "instruction_en": "Compare Home: House Tour with another topic. [Ref: 67]",
+          "instruction_en": "Explain Comparatives using Home: House Tour. [Ref: 26]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 206 (Home: House Tour):",
-          "stimulus_en": "Improve Home: House Tour. (827)",
+          "stimulus_en": "This is Home: House Tour. (602)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 181 (Home: House Tour):",
-          "stimulus": "Matching set 6601",
+          "stimulus": "Matching set 7307.",
           "items": [
             {
               "id": "i0",
-              "text": "Qu\u00e9 hora es?!",
+              "text": "– Meses del año.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - 315",
+              "text": "A qué hora abre el supermercado?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Encontraste algo ah\u00ed? (now)",
+              "text": "Para responder en plural, diríamos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "What time is it!"
+              "text": "in May, in August, etc."
             },
             {
               "id": "m2",
-              "text": "any + thing = en oraci\u00f3n INTERROGATIVA. (now)"
+              "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
             },
             {
               "id": "m1",
-              "text": "how often do you have Italian classes? = I have every Tuesday. - 315"
+              "text": "What time does the supermarket open."
             }
           ],
           "correct_answer": {
@@ -1673,26 +1633,26 @@
           "interaction_id": "U26_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 181 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "she never drinks coffee in the evening (today)"
+                  "text": "do you have a car."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "in summer, in winter. (now)"
+                  "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE)."
                 }
               ]
             }
@@ -1701,20 +1661,20 @@
           "interaction_id": "U26_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 181 (Home: House Tour):",
-          "main_text": "In Home: House Tour (8049), Our neighbors [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (4323), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "write"
                 }
               ]
             },
@@ -1723,11 +1683,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "fixed"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "fix"
+                  "text": "start"
                 }
               ]
             }
@@ -1740,22 +1700,22 @@
           "interaction_id": "U26_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 181 para Home: House Tour:",
-          "stimulus_en": "A a door is more useful than a a printer....",
-          "stimulus_es": "Un a door es m\u00e1s \u00fatil que un a printer....",
+          "stimulus_en": "A chair is more useful than a report.",
+          "stimulus_es": "Un chair es más útil que un report.",
           "options": [
             {
+              "id": "o2",
+              "text": "useful."
+            },
+            {
               "id": "o3",
-              "text": "Other 4128"
+              "text": "Other 1788."
             },
             {
               "id": "o1",
-              "text": "more useful"
-            },
-            {
-              "id": "o2",
-              "text": "useful"
+              "text": "more useful."
             }
           ],
           "correct_answer": "o1",
@@ -1763,146 +1723,131 @@
           "interaction_id": "U26_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 181 sobre Home: House Tour:",
           "options": [
             {
-              "id": "w4",
+              "id": "w5",
+              "text": "than"
+            },
+            {
+              "id": "w1",
+              "text": "ticket."
+            },
+            {
+              "id": "w7",
+              "text": "movie"
+            },
+            {
+              "id": "w3",
               "text": "more"
             },
             {
-              "id": "w8",
+              "id": "w6",
               "text": "a"
             },
             {
-              "id": "w9",
-              "text": "house"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w0",
               "text": "A"
             },
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "report"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "useful"
-            },
-            {
-              "id": "w10",
-              "text": "(today)"
-            },
-            {
-              "id": "w6",
-              "text": "than"
+              "id": "w4",
+              "text": "useful."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 207 (Home: House Tour):",
-          "stimulus_en": "A coffee is ___ than a a report - 259.",
+          "stimulus_en": "A radio is ___ than a tennis.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 207 (Home: House Tour)",
-          "stimulus_en": "A a pizza is more useful than a a letter..",
-          "stimulus_es": "Ref: Un a pizza es m\u00e1s \u00fatil que un a letter..",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 207 (Home: House Tour)",
+          "stimulus_en": "A ticket is more useful than a cat.",
+          "stimulus_es": "Ref: Un ticket es más útil que un cat.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 207 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a window es m\u00e1s \u00fatil que un a gift..",
-              "right": "A a window is more useful than a a gift.."
+              "left": "Un pizza es más útil que un television.",
+              "right": "A pizza is more useful than a television."
             },
             {
               "id": "p1",
-              "left": "Un coffee es m\u00e1s \u00fatil que un a window!.",
-              "right": "A coffee is more useful than a a window!."
+              "left": "Un computer es más útil que un radio.",
+              "right": "A computer is more useful than a radio."
             },
             {
               "id": "p2",
-              "left": "Un football es m\u00e1s \u00fatil que un a ticket!.",
-              "right": "A football is more useful than a a ticket!."
+              "left": "Un music es más útil que un letter.",
+              "right": "A music is more useful than a letter."
             },
             {
               "id": "p3",
-              "left": "Un English es m\u00e1s \u00fatil que un a car - amazing.",
-              "right": "A English is more useful than a a car - amazing."
+              "left": "Un clock es más útil que un car.",
+              "right": "A clock is more useful than a car."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 207 (Home: House Tour):",
-          "tts_en": "A an email is more useful than a a dog - interesting.",
-          "correct_answer": "A an email is more useful than a a dog - interesting.",
+          "tts_en": "an apple is more useful than an email.",
+          "correct_answer": "A apple is more useful than a email",
           "mastery_tag": "listening",
           "interaction_id": "U26_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 207:",
           "options": [
             {
-              "id": "o1",
-              "text": "banana"
+              "id": "o3",
+              "text": "soup"
             },
             {
               "id": "o2",
-              "text": "pear"
+              "text": "salad"
             },
             {
-              "id": "o3",
-              "text": "mango"
+              "id": "o1",
+              "text": "burger."
             },
             {
               "id": "o4",
-              "text": "bike7820"
+              "text": "rain"
             },
             {
               "id": "o0",
-              "text": "apple"
+              "text": "pizza"
             }
           ],
           "correct_answer": "o4",
@@ -1910,65 +1855,65 @@
           "interaction_id": "U26_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 207 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake...",
-              "back": "I haven\u2019t a car...."
+              "front": "Has jugado alguna vez al ajedrez?",
+              "back": "have you ever played chess."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 207 (Home: House Tour):",
-          "instruction_en": "Why is Home: House Tour important? [Ref: 73]",
+          "instruction_en": "Describe Home: House Tour in 5 words. [Ref: 32]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 207 (Home: House Tour):",
-          "stimulus_en": "Look at Home: House Tour. (599)",
+          "stimulus_en": "I like Home: House Tour. (655)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 182 (Home: House Tour):",
-          "stimulus": "Matching set 8406",
+          "stimulus": "Matching set 7270.",
           "items": [
             {
               "id": "i0",
-              "text": "Has visto mis llaves en alg\u00fan sitio? (today)",
+              "text": "Está estudiando ella inglés?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Many, para countable, decimos - interesting",
+              "text": "También que llamamos infinitivo al verbo tal cual, sin conjugar.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing (now)",
+              "text": "Movie theater (Br Eng.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Have you got a car? (now)"
+              "text": "cinema) Cine."
             },
             {
               "id": "m1",
-              "text": "I don\u2019t have many friends (friends is countable). - interesting"
+              "text": "read, write, eat, run, sleep, etc."
             },
             {
               "id": "m0",
-              "text": "have you seen my keys anywhere (today)"
+              "text": "Is she studying English."
             }
           ],
           "correct_answer": {
@@ -1980,26 +1925,26 @@
           "interaction_id": "U26_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 182 (Home: House Tour):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now)"
+                  "text": "Sometimes I have lunch in a restaurant."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "My partner is the most beautiful woman in the world (today)"
+                  "text": "biscuit) Galleta."
                 }
               ]
             }
@@ -2008,20 +1953,20 @@
           "interaction_id": "U26_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 182 (Home: House Tour):",
-          "main_text": "In Home: House Tour (7762), The boss [GAP 1] and [GAP 2].",
+          "main_text": "In Home: House Tour (7965), My friend [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "ate"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "eat"
+                  "text": "sell"
                 }
               ]
             },
@@ -2030,11 +1975,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "visited."
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "visit"
                 }
               ]
             }
@@ -2047,22 +1992,22 @@
           "interaction_id": "U26_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 182 para Home: House Tour:",
-          "stimulus_en": "A English is more useful than a a watch (today).",
-          "stimulus_es": "Un English es m\u00e1s \u00fatil que un a watch (today).",
+          "stimulus_en": "A gift is more useful than a television.",
+          "stimulus_es": "Un gift es más útil que un television.",
           "options": [
             {
-              "id": "o1",
-              "text": "more useful"
+              "id": "o3",
+              "text": "Other 5253."
             },
             {
               "id": "o2",
-              "text": "useful"
+              "text": "useful."
             },
             {
-              "id": "o3",
-              "text": "Other 1974"
+              "id": "o1",
+              "text": "more useful."
             }
           ],
           "correct_answer": "o1",
@@ -2070,146 +2015,131 @@
           "interaction_id": "U26_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 182 sobre Home: House Tour:",
           "options": [
             {
-              "id": "w10",
-              "text": "amazing"
+              "id": "w1",
+              "text": "newspaper."
             },
             {
-              "id": "w6",
+              "id": "w5",
               "text": "than"
             },
             {
               "id": "w4",
-              "text": "more"
+              "text": "useful."
             },
             {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w7",
+              "id": "w6",
               "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "window"
             },
             {
               "id": "w0",
               "text": "A"
             },
             {
-              "id": "w9",
-              "text": "door"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "w5",
-              "text": "useful"
+              "id": "w3",
+              "text": "more"
             },
             {
-              "id": "w8",
-              "text": "a"
+              "id": "w7",
+              "text": "car"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U26_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 208 (Home: House Tour):",
-          "stimulus_en": "A a radio is ___ than a a bike..",
+          "stimulus_en": "A door is ___ than a pen.",
           "correct_answer": "more useful",
           "mastery_tag": "grammar",
           "interaction_id": "U26_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 208 (Home: House Tour)",
-          "stimulus_en": "A English is useful than a a door - amazing.",
-          "stimulus_es": "Ref: Un English es m\u00e1s \u00fatil que un a door - amazing.",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 208 (Home: House Tour)",
+          "stimulus_en": "A newspaper is useful than a printer.",
+          "stimulus_es": "Ref: Un newspaper es más útil que un printer.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U26_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 208 (Home: House Tour):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Un a clock es m\u00e1s \u00fatil que un a car....",
-              "right": "A a clock is more useful than a a car...."
+              "left": "Un gift es más útil que un clock.",
+              "right": "A gift is more useful than a clock."
             },
             {
               "id": "p1",
-              "left": "Un a dog es m\u00e1s \u00fatil que un a newspaper..",
-              "right": "A a dog is more useful than a a newspaper.."
+              "left": "Un watch es más útil que un tennis.",
+              "right": "A watch is more useful than a tennis."
             },
             {
               "id": "p2",
-              "left": "Un a watch es m\u00e1s \u00fatil que un a sandwich (today).",
-              "right": "A a watch is more useful than a a sandwich (today)."
+              "left": "Un table es más útil que un clock.",
+              "right": "A table is more useful than a clock."
             },
             {
               "id": "p3",
-              "left": "Un a door es m\u00e1s \u00fatil que un a dog - 868.",
-              "right": "A a door is more useful than a a dog - 868."
+              "left": "Un clock es más útil que un football.",
+              "right": "A clock is more useful than a football."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 208 (Home: House Tour):",
-          "tts_en": "A a computer is more useful than a English....",
-          "correct_answer": "A a computer is more useful than a English....",
+          "tts_en": "A pizza is more useful than a computer.",
+          "correct_answer": "A pizza is more useful than a computer",
           "mastery_tag": "listening",
           "interaction_id": "U26_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 208:",
           "options": [
             {
-              "id": "o2",
-              "text": "Star"
+              "id": "o1",
+              "text": "Tokyo"
             },
             {
               "id": "o0",
-              "text": "Sun"
-            },
-            {
-              "id": "o1",
-              "text": "Moon"
+              "text": "London."
             },
             {
               "id": "o3",
-              "text": "Planet"
+              "text": "Paris"
             },
             {
               "id": "o4",
-              "text": "Hot860"
+              "text": "Slow"
+            },
+            {
+              "id": "o2",
+              "text": "Berlin."
             }
           ],
           "correct_answer": "o4",
@@ -2217,29 +2147,29 @@
           "interaction_id": "U26_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 208 - Home: House Tour:",
           "cards": [
             {
               "id": "c1",
-              "front": "1. La puerta de mi casa - interesting",
-              "back": "the door of my house - interesting"
+              "front": "Cuál es el país más frío en el que has estado nunca?",
+              "back": "What’s the coldest country you’ve ever been to."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U26_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 208 (Home: House Tour):",
-          "instruction_en": "Why is Home: House Tour important? [Ref: 36]",
+          "instruction_en": "Explain Comparatives using Home: House Tour. [Ref: 77]",
           "mastery_tag": "writing",
           "interaction_id": "U26_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 208 (Home: House Tour):",
-          "stimulus_en": "Where is Home: House Tour? (675)",
+          "stimulus_en": "Repeat Home: House Tour. (447)",
           "mastery_tag": "speaking",
           "interaction_id": "U26_I100"
         }

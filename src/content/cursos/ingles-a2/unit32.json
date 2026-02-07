@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit32",
-    "unit_title": "Can/Can't - Transport: Driving",
+    "unit_title": "Can/Can't - Transport: Driving.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U32_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 32",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 32.",
           "tts_en": "Starting unit 32. Topic: Transport: Driving. Focus: Can/Can't.",
           "mastery_tag": "listening",
           "interaction_id": "U32_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 249 (Transport: Driving):",
-          "stimulus_en": "Next to my school there aren\u2019t any apartment blocks. - 153 (___)",
+          "stimulus_en": "I don’t know that I will do. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 249 (Transport: Driving)",
-          "stimulus_en": "\u00bfDe d\u00f3nde eres? (today)",
-          "stimulus_es": "Ref: Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio (today)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 249 (Transport: Driving)",
+          "stimulus_en": "What’s the most delicious food you’ve ever tasted.",
+          "stimulus_es": "Ref: Cuál es la comida más buena que has probado nunca?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 249 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "This is another translation.",
-              "right": "igual hago algo\u2026 (but I\u2019m not sure\u2026).."
+              "left": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
+              "right": "have you ever studied a foreign laguage apart from English."
             },
             {
               "id": "p1",
-              "left": "Many, para countable, decimos - amazing",
-              "right": "I don\u2019t have many friends (friends is countable). - amazing"
+              "left": "A qué hora tenemos el examen?",
+              "right": "What time do we have our exam."
             },
             {
               "id": "p2",
-              "left": "Hay guisantes en el frigo? - interesting",
-              "right": "are there any peas in the fridge - interesting"
+              "left": "French fries (Br Eng.",
+              "right": "chips) Patatas fritas."
             },
             {
               "id": "p3",
-              "left": "Bien, debes saber que siempre que tengas una preposici\u00f3n en una pregunta, y esa preposici\u00f3n no tenga su complemento en dicha pregunta, la preposici\u00f3n se dice y se escribe al final, de ah\u00ed que en \u2018Where are you from?\u2019 el \u2018from\u2019 aparece al final. Si yo pregunto \u2018\u00bfde qu\u00e9 tienes miedo?\u2019, que es en ingl\u00e9s What are you afraid of?, \u00bf verdad que no estoy diciendo a qu\u00e9 \u00a0cosa tengo miedo? Pues a eso me refiero cuando digo que la preposici\u00f3n \u2018of\u2019 no tiene a su complemento en esta pregunta. Sin embargo, si digo.",
-              "right": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019.."
+              "left": "5. never / drinks coffee in the evening / she.",
+              "right": "she never drinks coffee in the evening."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 249 (Transport: Driving):",
-          "tts_en": "I don\u2019t know that I will do.!",
-          "correct_answer": "I don\u2019t know that I will do.!",
+          "tts_en": "She drives carefully.",
+          "correct_answer": "She drives carefully",
           "mastery_tag": "listening",
           "interaction_id": "U32_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 249:",
           "options": [
             {
-              "id": "o2",
-              "text": "Flute"
-            },
-            {
               "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o4",
-              "text": "Book7786"
+              "text": "red"
             },
             {
               "id": "o3",
-              "text": "Drums"
+              "text": "pink"
+            },
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U32_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 249 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "Tienes coche? - interesting",
-              "back": "do you have a car - interesting"
+              "front": "Cuando «nada», «nadie» o «ningún sitio» NO va en primera posición (no es el sujeto, sino el objeto), podemos utilizar «any» o «no», dependiendo de cómo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos «any» y si lo pongo sin negar (es positivo), entonces utilizamos «no». Esto es así porque en inglés sólo es posible poner una palabra negativa en una oración, nunca dos, como sucede en español. Yo es español puedo decir.",
+              "back": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 249 (Transport: Driving):",
-          "instruction_en": "Why is Transport: Driving important? [Ref: 20]",
+          "instruction_en": "Compare Transport: Driving with another topic. [Ref: 27]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 249 (Transport: Driving):",
-          "stimulus_en": "Talk about Transport: Driving. (814)",
+          "stimulus_en": "Talk about Transport: Driving. (483)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 218 (Transport: Driving):",
-          "stimulus": "Matching set 4756",
+          "stimulus": "Matching set 2819.",
           "items": [
             {
               "id": "i0",
-              "text": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?!",
+              "text": "Puedo abrir la ventana, por favor?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "visits / Jonathan / usually / dentist / the!",
+              "text": "Un ejemplo de to seguido de infinitivo es.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Y por \u00faltimo, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo - 155",
+              "text": "Al lado de mi casa hay una guardería.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "What\u2019s the saddest song you\u2019ve ever listened to!"
-            },
-            {
-              "id": "m2",
-              "text": "would you like some coke? - 155"
+              "text": "may I open the window, please."
             },
             {
               "id": "m1",
-              "text": "Jonathan usually visits the dentist!"
+              "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
+            },
+            {
+              "id": "m2",
+              "text": "Next to my house there is a nursery school."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U32_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 218 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto.!"
+                  "text": "how often do you have Italian classes? = I have every Tuesday."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l)!"
+                  "text": "My friend has a lot of money."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U32_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 218 (Transport: Driving):",
-          "main_text": "In Transport: Driving (9382), John [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (6782), The student [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "created."
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "create."
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "checked"
+                  "text": "bought."
                 },
                 {
                   "id": "o2",
-                  "text": "check"
+                  "text": "buy"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U32_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 218 para Transport: Driving:",
-          "stimulus_en": "My cousins\u2019 house is very big...",
-          "stimulus_es": "7. La casa de mis primos es muy grande...",
+          "stimulus_en": "I always read books slowly.",
+          "stimulus_es": "7. read books slowly / I / always.",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
               "id": "o3",
-              "text": "Other 888"
+              "text": "Other 2044."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -263,126 +263,121 @@
           "interaction_id": "U32_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 218 sobre Transport: Driving:",
           "options": [
             {
-              "id": "w5",
-              "text": "espec\u00edfica"
-            },
-            {
-              "id": "w4",
-              "text": "m\u00e1s"
-            },
-            {
-              "id": "w0",
-              "text": "cuando"
-            },
-            {
               "id": "w1",
-              "text": "hablamos"
-            },
-            {
-              "id": "w3",
-              "text": "forma"
+              "text": "time"
             },
             {
               "id": "w2",
-              "text": "de"
+              "text": "does"
             },
             {
-              "id": "w6",
-              "text": "(today)"
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "bus"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "leave"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 250 (Transport: Driving):",
-          "stimulus_en": "would you like some more (today) (___)",
+          "stimulus_en": "are there any peas in the fridge (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 250 (Transport: Driving)",
-          "stimulus_en": "Paul\u2019s birthday is on 8th May (now)",
-          "stimulus_es": "Ref: El cumplea\u00f1os de Pablo es el 8 de mayo (now)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 250 (Transport: Driving)",
+          "stimulus_en": "durante o desde hace.",
+          "stimulus_es": "Ref: – For + period of time (not defined)",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 250 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Drugstore (Br Eng - interesting",
-              "right": "chemist) Farmacia - interesting"
+              "left": "No me quiero sentar enfrente de él.",
+              "right": "I don’t want to sit opposite him."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1l es la canci\u00f3n m\u00e1s triste que has escuchado nunca?...",
-              "right": "What\u2019s the saddest song you\u2019ve ever listened to..."
+              "left": "Cuál es la canción más triste que has escuchado nunca?",
+              "right": "What’s the saddest song you’ve ever listened to."
             },
             {
               "id": "p2",
-              "left": "2. el primer elemento es un animal. Ejemplo - amazing",
-              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro. - amazing"
+              "left": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "right": "would you like some coke?"
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda? - 707",
-              "right": "How old is Mar\u00eda - 707"
+              "left": "Está estudiando ella inglés?",
+              "right": "Is she studying English."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 250 (Transport: Driving):",
-          "tts_en": "ADJECTIVE + NOUN.",
-          "correct_answer": "ADJECTIVE + NOUN.",
+          "tts_en": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents».",
+          "correct_answer": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»",
           "mastery_tag": "listening",
           "interaction_id": "U32_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 250:",
           "options": [
             {
-              "id": "o4",
-              "text": "run4816"
-            },
-            {
-              "id": "o2",
-              "text": "green"
-            },
-            {
-              "id": "o1",
-              "text": "red"
+              "id": "o3",
+              "text": "Paris"
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "London."
             },
             {
-              "id": "o3",
-              "text": "pink"
+              "id": "o2",
+              "text": "Berlin."
+            },
+            {
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o4",
+              "text": "Slow"
             }
           ],
           "correct_answer": "o4",
@@ -390,65 +385,65 @@
           "interaction_id": "U32_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 250 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "Puedo abrir la ventana, por favor?...",
-              "back": "may I open the window, please..."
+              "front": "Chips (Br Eng) (Am Eng.",
+              "back": "biscuit) Patatas fritas."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 250 (Transport: Driving):",
-          "instruction_en": "Describe Transport: Driving in 5 words. [Ref: 87]",
+          "instruction_en": "Explain Can/Can't using Transport: Driving. [Ref: 78]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 250 (Transport: Driving):",
-          "stimulus_en": "The Can/Can't is here. (373)",
+          "stimulus_en": "Look at Transport: Driving. (673)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 219 (Transport: Driving):",
-          "stimulus": "Matching set 3855",
+          "stimulus": "Matching set 9752.",
           "items": [
             {
               "id": "i0",
-              "text": "The correct thing...",
+              "text": "2. Siempre van antes del sustantivo, la regla es.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "1. Often / she / write to me/ doesn\u2019t!",
+              "text": "La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Movie (Br Eng - interesting",
+              "text": "2. El infinitivo no lleva delante to. Un error típico es decir.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "information, homework, work...."
-            },
-            {
-              "id": "m1",
-              "text": "she doesn\u2019t often write to me!"
+              "text": "ADJECTIVE + NOUN."
             },
             {
               "id": "m2",
-              "text": "film) Pel\u00edcula - interesting"
+              "text": "I can to speak English."
+            },
+            {
+              "id": "m1",
+              "text": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
             }
           ],
           "correct_answer": {
@@ -460,26 +455,26 @@
           "interaction_id": "U32_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 219 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Did anybody say my name!"
+                  "text": "The girls’ ball."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019.."
+                  "text": "the students often use the dictionary."
                 }
               ]
             }
@@ -488,20 +483,20 @@
           "interaction_id": "U32_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 219 (Transport: Driving):",
-          "main_text": "In Transport: Driving (2369), The student [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (6182), The coach [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "spoke"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "speak"
+                  "text": "write"
                 }
               ]
             },
@@ -510,11 +505,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "started."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "start"
                 }
               ]
             }
@@ -527,22 +522,22 @@
           "interaction_id": "U32_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 219 para Transport: Driving:",
-          "stimulus_en": "What\u2019s the highest building you\u2019ve ever visited - interesting",
-          "stimulus_es": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? - interesting",
+          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE).",
+          "stimulus_es": "Empecemos analizando el siguiente ejemplo.",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 7865"
+              "text": "Other 391."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -550,246 +545,126 @@
           "interaction_id": "U32_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 219 sobre Transport: Driving:",
           "options": [
             {
-              "id": "w12",
-              "text": "es"
-            },
-            {
-              "id": "w19",
-              "text": "digo"
-            },
-            {
-              "id": "w24",
-              "text": "aburrido"
-            },
-            {
-              "id": "w4",
-              "text": "="
-            },
-            {
-              "id": "w22",
-              "text": "="
-            },
-            {
-              "id": "w16",
-              "text": "ing"
-            },
-            {
-              "id": "w10",
-              "text": "soy"
-            },
-            {
-              "id": "w13",
-              "text": "permanente"
-            },
-            {
-              "id": "w8",
-              "text": "aburrida"
-            },
-            {
-              "id": "w25",
-              "text": "es"
-            },
-            {
-              "id": "w26",
-              "text": "temporal"
-            },
-            {
-              "id": "w9",
-              "text": "lo"
-            },
-            {
-              "id": "w11",
-              "text": "siempre"
-            },
-            {
-              "id": "w7",
-              "text": "persona"
-            },
-            {
-              "id": "w20",
-              "text": "I\u2019m"
-            },
-            {
-              "id": "w21",
-              "text": "bored"
-            },
-            {
-              "id": "w23",
-              "text": "estoy"
+              "id": "w1",
+              "text": "time"
             },
             {
               "id": "w3",
-              "text": "person"
-            },
-            {
-              "id": "w15",
-              "text": "eso"
-            },
-            {
-              "id": "w0",
-              "text": "I\u2019m"
-            },
-            {
-              "id": "w18",
-              "text": "si"
+              "text": "we"
             },
             {
               "id": "w6",
-              "text": "una"
-            },
-            {
-              "id": "w27",
-              "text": "es"
-            },
-            {
-              "id": "w28",
-              "text": "s\u00f3lo"
-            },
-            {
-              "id": "w5",
-              "text": "soy"
-            },
-            {
-              "id": "w14",
-              "text": "por"
+              "text": "exam"
             },
             {
               "id": "w2",
-              "text": "boring"
+              "text": "do"
             },
             {
-              "id": "w29",
-              "text": "ahora"
+              "id": "w0",
+              "text": "What"
             },
             {
-              "id": "w17",
-              "text": "Pero"
+              "id": "w5",
+              "text": "our"
             },
             {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w30",
-              "text": "477"
+              "id": "w4",
+              "text": "have"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 251 (Transport: Driving):",
-          "stimulus_en": "may come, might go. (now) (___)",
+          "stimulus_en": "Have you ever tried Thai food (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 251 (Transport: Driving)",
-          "stimulus_en": "many people think that he behaved badly. Por otro lado, a lot of va seguido de oraci\u00f3n positiva, ya sea con sustantivos contables o incontables. (today)",
-          "stimulus_es": "Ref: Si te das cuenta, el ejemplo con much es negativo, porque much va con oraciones negativas. Many, por su parte, tambi\u00e9n va en oraciones negativas, como en el ejemplo de arriba (I don\u2019t have many friends), pero tambi\u00e9n en positivas, por ejemplo (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 251 (Transport: Driving)",
+          "stimulus_en": "chemist) Farmacia.",
+          "stimulus_es": "Ref: Drugstore (Br Eng.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 251 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Tambi\u00e9n que llamamos\u00a0infinitivo\u00a0al verbo tal cual, sin conjugar.",
-              "right": "read, write, eat, run, sleep, etc."
+              "left": "As any modal verb, they are followed by an infinitive without ‘to’, for example.",
+              "right": "may come, might go."
             },
             {
               "id": "p1",
-              "left": "Se pueden contraer = \u2018ve got/ haven\u2019t got (to be.",
-              "right": "\u2018m/ \u2018s, etc)."
+              "left": "Cuántos años tiene María?",
+              "right": "How old is María."
             },
             {
               "id": "p2",
-              "left": "TV / ever / hardly / I / in / watch / evenings / the (today)",
-              "right": "I hardly ever watch TV in the evenings (today)"
+              "left": "Cuál es la persona más tímida que has conocido nunca?",
+              "right": "Who’s the shyest person you’ve ever met."
             },
             {
               "id": "p3",
-              "left": "\u2013 Seasons (estaciones).",
-              "right": "in summer, in winter.."
+              "left": "Much, como se utiliza con uncountable, decimos.",
+              "right": "I haven’t got much money (remember, money is uncountable)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 251 (Transport: Driving):",
-          "tts_en": "Have you ever tried Thai food - amazing",
-          "correct_answer": "Have you ever tried Thai food - amazing",
+          "tts_en": "What’s the highest building you’ve ever visited.",
+          "correct_answer": "What’s the highest building you’ve ever visited",
           "mastery_tag": "listening",
           "interaction_id": "U32_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 251:",
           "options": [
             {
-              "id": "o1",
-              "text": "Tuesday"
-            },
-            {
               "id": "o0",
-              "text": "Monday"
+              "text": "apple"
             },
             {
               "id": "o4",
-              "text": "June5388"
-            },
-            {
-              "id": "o2",
-              "text": "Sunday"
+              "text": "bike"
             },
             {
               "id": "o3",
-              "text": "Friday"
+              "text": "mango"
+            },
+            {
+              "id": "o2",
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
             }
           ],
           "correct_answer": "o4",
@@ -797,65 +672,65 @@
           "interaction_id": "U32_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 251 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "De qui\u00e9n es ese m\u00f3vil? (now)",
-              "back": "Whose mobile is that (now)"
+              "front": "Cuál es el país más frío en el que has estado nunca?",
+              "back": "What’s the coldest country you’ve ever been to."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 251 (Transport: Driving):",
-          "instruction_en": "Explain Can/Can't using Transport: Driving. [Ref: 97]",
+          "instruction_en": "Review Transport: Driving from last week. [Ref: 52]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 251 (Transport: Driving):",
-          "stimulus_en": "Repeat Transport: Driving. (772)",
+          "stimulus_en": "Improve Transport: Driving. (358)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 220 (Transport: Driving):",
-          "stimulus": "Matching set 6014",
+          "stimulus": "Matching set 9462.",
           "items": [
             {
               "id": "i0",
-              "text": "puedo abrir la ventana, por favor?.",
+              "text": "Quieres más?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "dictionary / often / use / The / the / students - 351",
+              "text": "A qué hora sale el tren?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Cu\u00e1ndo iremos a la playa?.",
+              "text": "Los adjetivos tienen tres formas.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m2",
+              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo."
+            },
+            {
               "id": "m1",
-              "text": "the students often use the dictionary - 351"
+              "text": "What time does the train leave."
             },
             {
               "id": "m0",
-              "text": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet."
-            },
-            {
-              "id": "m2",
-              "text": "When are we going to the beach."
+              "text": "would you like some more."
             }
           ],
           "correct_answer": {
@@ -867,26 +742,26 @@
           "interaction_id": "U32_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 220 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "liter) Litro."
+                  "text": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What time is it - 476"
+                  "text": "meter) Metro."
                 }
               ]
             }
@@ -895,20 +770,20 @@
           "interaction_id": "U32_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 220 (Transport: Driving):",
-          "main_text": "In Transport: Driving (6164), My friend [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (4122), The player [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "send"
                 }
               ]
             },
@@ -917,11 +792,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "read"
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "read"
                 }
               ]
             }
@@ -934,22 +809,22 @@
           "interaction_id": "U32_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 220 para Transport: Driving:",
-          "stimulus_en": "Your grandmother\u2019s juice!",
-          "stimulus_es": "5. El zumo de tu abuela!",
+          "stimulus_en": "at in on for to of without.",
+          "stimulus_es": "Algunos ejemplos.",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
               "id": "o3",
-              "text": "Other 6833"
+              "text": "Other 5540."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -957,116 +832,141 @@
           "interaction_id": "U32_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 220 sobre Transport: Driving:",
           "options": [
             {
-              "id": "w0",
-              "text": "Where"
+              "id": "w5",
+              "text": "foreign."
             },
             {
               "id": "w2",
-              "text": "he/she"
+              "text": "ever"
             },
             {
-              "id": "w4",
-              "text": "you"
-            },
-            {
-              "id": "w1",
-              "text": "did"
+              "id": "w9",
+              "text": "English."
             },
             {
               "id": "w3",
-              "text": "tell"
+              "text": "studied."
+            },
+            {
+              "id": "w8",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "apart"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "laguage."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 252 (Transport: Driving):",
-          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo.! (___)",
+          "stimulus_en": "biscuit) Galleta (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 252 (Transport: Driving)",
-          "stimulus_en": "Do you think that unemployment will go down this year (now)",
-          "stimulus_es": "Ref: Crees que bajar\u00e1 el paro este a\u00f1o? (now)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 252 (Transport: Driving)",
+          "stimulus_en": "she never drinks coffee in the evening.",
+          "stimulus_es": "Ref: 5. never / drinks coffee in the evening / she.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 252 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Otro ejemplo - 744",
-              "right": "when I was at primary school, I didn\u2019t wear uniform. - 744"
+              "left": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "right": "Can I have your ID/ passport/ credit card?."
             },
             {
               "id": "p1",
-              "left": "The correct thing (today)",
-              "right": "I have 3 children. (today)"
+              "left": "Deciros que sólo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. Éstas son.",
+              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
             },
             {
               "id": "p2",
-              "left": "Uncountable nouns (now)",
-              "right": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. (now)"
+              "left": "También que llamamos infinitivo al verbo tal cual, sin conjugar.",
+              "right": "read, write, eat, run, sleep, etc."
             },
             {
               "id": "p3",
-              "left": "Common mistake...",
-              "right": "I hadn\u2019t got a mobile...."
+              "left": "try / police / keep / The / order / always / to / the.",
+              "right": "The police always try to keep the order."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 252 (Transport: Driving):",
-          "tts_en": "meter) Metro (today)",
-          "correct_answer": "meter) Metro (today)",
+          "tts_en": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos.",
+          "correct_answer": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos",
           "mastery_tag": "listening",
           "interaction_id": "U32_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 252:",
           "options": [
             {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o4",
-              "text": "rain7249"
-            },
-            {
               "id": "o0",
-              "text": "pizza"
+              "text": "Guitar."
             },
             {
               "id": "o1",
-              "text": "burger"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o4",
@@ -1074,65 +974,65 @@
           "interaction_id": "U32_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 252 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "often / money / Sally / her / borrows / friends / from - amazing",
-              "back": "Sally often borrows money from her friends - amazing"
+              "front": "Si pasamos la oración an interrogativa, quedaría así.",
+              "back": "Do you have any friends who live near your house? = al ser interrogativa, any."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 252 (Transport: Driving):",
-          "instruction_en": "List 3 facts about Transport: Driving. [Ref: 44]",
+          "instruction_en": "Write a note about Transport: Driving. [Ref: 91]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 252 (Transport: Driving):",
-          "stimulus_en": "Look at Transport: Driving. (122)",
+          "stimulus_en": "Talk about Transport: Driving. (997)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 221 (Transport: Driving):",
-          "stimulus": "Matching set 9784",
+          "stimulus": "Matching set 6718.",
           "items": [
             {
               "id": "i0",
-              "text": "Elevator (Br Eng - interesting",
+              "text": "En matématicas, por ejemplo, con número decimales.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1l es el pa\u00eds m\u00e1s fr\u00edo en el que has estado nunca? - amazing",
+              "text": "TV / ever / hardly / I / in / watch / evenings / the.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Empecemos analizando el siguiente ejemplo - interesting",
+              "text": "Funciona ese ordenador?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE). - interesting"
+              "text": "Does that computer work."
             },
             {
               "id": "m1",
-              "text": "What\u2019s the coldest country you\u2019ve ever been to - amazing"
+              "text": "I hardly ever watch TV in the evenings."
             },
             {
               "id": "m0",
-              "text": "lift) Ascensor - interesting"
+              "text": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
             }
           ],
           "correct_answer": {
@@ -1144,26 +1044,26 @@
           "interaction_id": "U32_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 221 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "every days o every Tuesdays. (now)"
+                  "text": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "my father usually goes to work by bus (today)"
+                  "text": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
                 }
               ]
             }
@@ -1172,20 +1072,20 @@
           "interaction_id": "U32_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 221 (Transport: Driving):",
-          "main_text": "In Transport: Driving (6161), The manager [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (3434), The chef [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "sent"
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "send"
                 }
               ]
             },
@@ -1194,11 +1094,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "plan"
                 }
               ]
             }
@@ -1211,22 +1111,22 @@
           "interaction_id": "U32_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 221 para Transport: Driving:",
-          "stimulus_en": "Sometimes I have lunch in a restaurant..",
-          "stimulus_es": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n.",
+          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet.",
+          "stimulus_es": "puedo abrir la ventana, por favor?",
           "options": [
             {
               "id": "o3",
-              "text": "Other 2109"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
+              "text": "Other 1303."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1234,121 +1134,106 @@
           "interaction_id": "U32_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 221 sobre Transport: Driving:",
           "options": [
             {
-              "id": "w5",
-              "text": "big"
-            },
-            {
               "id": "w2",
-              "text": "house"
+              "text": "juice"
             },
             {
               "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "very"
+              "text": "Your"
             },
             {
               "id": "w1",
-              "text": "cousins\u2019"
+              "text": "grandmother’s."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 253 (Transport: Driving):",
-          "stimulus_en": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (now) (___)",
+          "stimulus_en": "Sally often borrows money from her friends (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 253 (Transport: Driving)",
-          "stimulus_en": "I haven\u2019t got much money (remember, money is uncountable). (today)",
-          "stimulus_es": "Ref: Much, como se utiliza con uncountable, decimos (today)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 253 (Transport: Driving)",
+          "stimulus_en": "Peter’s sisters.",
+          "stimulus_es": "Ref: 3. Las hermanas de Pedro.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 253 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca?!",
-              "right": "What\u2019s the longest beach you\u2019ve ever been to!"
+              "left": "French fries (Br Eng.",
+              "right": "chips) Patatas fritas."
             },
             {
               "id": "p1",
-              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos (today)",
-              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. (today)"
+              "left": "Qué quieres?",
+              "right": "la respuesta es ilimitada, puede ser cualquier cosa."
             },
             {
               "id": "p2",
-              "left": "Qu\u00e9 es \u00e9so?...",
-              "right": "What\u2019s that..."
+              "left": "Veamos una oración con futuro.",
+              "right": "What will the weather be like tomorrow? It’ll be sunny."
             },
             {
               "id": "p3",
-              "left": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir (today)",
-              "right": "I can to speak English. (today)"
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 253 (Transport: Driving):",
-          "tts_en": "on the Internet.",
-          "correct_answer": "on the Internet.",
+          "tts_en": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora.",
+          "correct_answer": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora",
           "mastery_tag": "listening",
           "interaction_id": "U32_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 253:",
           "options": [
             {
-              "id": "o0",
-              "text": "London"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            },
-            {
               "id": "o4",
-              "text": "Slow5908"
-            },
-            {
-              "id": "o3",
-              "text": "Paris"
+              "text": "Pen"
             },
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o0",
+              "text": "Table"
             }
           ],
           "correct_answer": "o4",
@@ -1356,65 +1241,65 @@
           "interaction_id": "U32_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 253 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir - amazing",
-              "back": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos. - amazing"
+              "front": "Has visto alguna vez una película en versión original?",
+              "back": "have you ever seen a film in original version."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 253 (Transport: Driving):",
-          "instruction_en": "Draft an email regarding Transport: Driving. [Ref: 81]",
+          "instruction_en": "Compare Transport: Driving with another topic. [Ref: 22]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 253 (Transport: Driving):",
-          "stimulus_en": "Focus on Transport: Driving. (237)",
+          "stimulus_en": "Improve Transport: Driving. (506)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 222 (Transport: Driving):",
-          "stimulus": "Matching set 1833",
+          "stimulus": "Matching set 1243.",
           "items": [
             {
               "id": "i0",
-              "text": "Eraser (Br Eng!",
+              "text": "Otro ejemplo.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cu\u00e1ndo la ayudaste?...",
+              "text": "Uncountable nouns.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "The correct thing - interesting",
+              "text": "Encontraste algo ahí?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "rubber) Goma de borrar!"
+              "id": "m2",
+              "text": "any + thing = en oración INTERROGATIVA."
             },
             {
-              "id": "m2",
-              "text": "I haven\u2019t got a car. - interesting"
+              "id": "m0",
+              "text": "My partner is the most beautiful woman in the world."
             },
             {
               "id": "m1",
-              "text": "When did you help him/her..."
+              "text": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
             }
           ],
           "correct_answer": {
@@ -1426,26 +1311,26 @@
           "interaction_id": "U32_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 222 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Have you got a car?..."
+                  "text": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "have you ever been to Canada (today)"
+                  "text": "What’s the longest beach you’ve ever been to."
                 }
               ]
             }
@@ -1454,20 +1339,20 @@
           "interaction_id": "U32_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 222 (Transport: Driving):",
-          "main_text": "In Transport: Driving (4336), My brother [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (5913), The doctor [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "read"
+                  "text": "prepared."
                 },
                 {
                   "id": "o2",
-                  "text": "read"
+                  "text": "prepare."
                 }
               ]
             },
@@ -1476,11 +1361,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "cleaned"
+                  "text": "drank"
                 },
                 {
                   "id": "o2",
-                  "text": "clean"
+                  "text": "drink"
                 }
               ]
             }
@@ -1493,22 +1378,22 @@
           "interaction_id": "U32_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 222 para Transport: Driving:",
-          "stimulus_en": "la respuesta es ilimitada, puede ser cualquier cosa. (now)",
-          "stimulus_es": "Qu\u00e9 quieres? (now)",
+          "stimulus_en": "I have my English classes on Tuesdays and Thursdays puedo poner los días en plural, ya que es todos los martes y todos los jueves, no sólo uno.",
+          "stimulus_es": "2. Los días de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 9938"
+              "text": "Other 1348."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -1516,106 +1401,126 @@
           "interaction_id": "U32_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 222 sobre Transport: Driving:",
           "options": [
             {
-              "id": "w1",
-              "text": "burger"
-            },
-            {
-              "id": "w2",
-              "text": "726"
+              "id": "w4",
+              "text": "in"
             },
             {
               "id": "w0",
-              "text": "Harry\u2019s"
+              "text": "Sometimes."
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "lunch"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "restaurant."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 254 (Transport: Driving):",
-          "stimulus_en": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big.. (___)",
+          "stimulus_en": "What time is it (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 254 (Transport: Driving)",
-          "stimulus_en": "What time does the bus leave - interesting",
-          "stimulus_es": "Ref: A qu\u00e9 hora sale el autob\u00fas? - interesting",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 254 (Transport: Driving)",
+          "stimulus_en": "lift) Ascensor.",
+          "stimulus_es": "Ref: Elevator (Br Eng.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 254 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A qu\u00e9 hora tenemos el examen?.",
-              "right": "What time do we have our exam."
+              "left": "Los tiempos verbales en inglés son muy importantes cuando nos disponemos an aprender inglés, es por ello que se empiezan an estudiar desde los primeros días. Digo que son importantísimos porque sin tiempos verbales no se puede hablar un inglés correcto, sino que hablaríamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducción para practicar los tiempos verbales en inglés de un nivel A. Tendrás que saber para este ejercicio los siguientes tiempos verbales.",
+              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la sección NIVEL A (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio."
             },
             {
               "id": "p1",
-              "left": "\u00bfEst\u00e1s estudiando franc\u00e9s? - interesting",
-              "right": "are you learning French? - interesting"
+              "left": "Tienes hermanos?",
+              "right": "do you have any brothers or sisters."
             },
             {
               "id": "p2",
-              "left": "Hay muchos bares cerca de mi casa.",
-              "right": "There are a lot of bars near my house.."
+              "left": "Y en negativa.",
+              "right": "I don’t have any friends who live near my house."
             },
             {
               "id": "p3",
-              "left": "1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo.",
-              "right": "John\u2018s job is boring.."
+              "left": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "right": "how often do you have Italian classes? = I have every Tuesday."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 254 (Transport: Driving):",
-          "tts_en": "biscuit) Patatas fritas (today)",
-          "correct_answer": "biscuit) Patatas fritas (today)",
+          "tts_en": "My children’s toys.",
+          "correct_answer": "My children’s toys",
           "mastery_tag": "listening",
           "interaction_id": "U32_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 254:",
           "options": [
             {
               "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o4",
-              "text": "Fast7993"
+              "text": "mango"
             },
             {
               "id": "o2",
-              "text": "Angry"
+              "text": "pear"
+            },
+            {
+              "id": "o1",
+              "text": "banana."
+            },
+            {
+              "id": "o0",
+              "text": "apple"
+            },
+            {
+              "id": "o4",
+              "text": "bike"
             }
           ],
           "correct_answer": "o4",
@@ -1623,65 +1528,65 @@
           "interaction_id": "U32_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 254 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "3. Las hermanas de Pedro (now)",
-              "back": "Peter\u2019s sisters (now)"
+              "front": "Ahora bien, si estas palabras no llevan un número delante, se les pone la -s de plural, por ejemplo.",
+              "back": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 254 (Transport: Driving):",
-          "instruction_en": "Your daily routine in Transport: Driving. [Ref: 42]",
+          "instruction_en": "A small story about Transport: Driving. [Ref: 41]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 254 (Transport: Driving):",
-          "stimulus_en": "Study Transport: Driving now. (706)",
+          "stimulus_en": "Study Transport: Driving now. (952)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 223 (Transport: Driving):",
-          "stimulus": "Matching set 1433",
+          "stimulus": "Matching set 6398.",
           "items": [
             {
               "id": "i0",
-              "text": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales (today)",
+              "text": "Puedo abrir la ventana, por favor?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "2. Play football on Saturday afternoons / the boys / always - interesting",
+              "text": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Sigue recto y delante de la iglesia hay un supermercado.",
+              "text": "2. el primer elemento es un animal. Ejemplo.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "I hardly ever go to the cinema = casi nunca voy al cine."
+            },
+            {
               "id": "m2",
-              "text": "Go straight on and in front of the church there is a supermarket.."
+              "text": "the bird‘s legs = las piernas del pájaro."
             },
             {
               "id": "m0",
-              "text": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. (today)"
-            },
-            {
-              "id": "m1",
-              "text": "the boys always play football on Saturday afternoons - interesting"
+              "text": "may I open the window, please."
             }
           ],
           "correct_answer": {
@@ -1693,26 +1598,26 @@
           "interaction_id": "U32_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 223 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "My friend doesn\u2019t have much money y my friend has a lot of money. Con oraciones positivas utilizamos \u2018a lot of\u2019. (today)"
+                  "text": "cinema) Cine."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Had you got a motorbike\u2026? - interesting"
+                  "text": "igual hago algo… (but I’m not sure…)."
                 }
               ]
             }
@@ -1721,20 +1626,20 @@
           "interaction_id": "U32_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 223 (Transport: Driving):",
-          "main_text": "In Transport: Driving (5824), John [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (1524), The artist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "finished"
+                  "text": "organized."
                 },
                 {
                   "id": "o2",
-                  "text": "finish"
+                  "text": "organize."
                 }
               ]
             },
@@ -1743,11 +1648,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "played."
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "play"
                 }
               ]
             }
@@ -1760,22 +1665,22 @@
           "interaction_id": "U32_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 223 para Transport: Driving:",
-          "stimulus_en": "do you have any shoes for the wedding...",
-          "stimulus_es": "Tienes zapatos para la boda?...",
+          "stimulus_en": "the bus usually arrives late.",
+          "stimulus_es": "3. usually/ arrives late / the bus.",
           "options": [
             {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
               "id": "o3",
-              "text": "Other 2641"
+              "text": "Other 1677."
             },
             {
               "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1783,111 +1688,116 @@
           "interaction_id": "U32_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 223 sobre Transport: Driving:",
           "options": [
             {
               "id": "w3",
-              "text": "that"
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "Saturday."
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Whose"
+              "text": "you"
             },
             {
               "id": "w1",
-              "text": "car"
+              "text": "see"
+            },
+            {
+              "id": "w0",
+              "text": "I’ll"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 255 (Transport: Driving):",
-          "stimulus_en": "I often fish for hours without catching anything - interesting (___)",
+          "stimulus_en": "present continuous, porque lo estás buscando en este momento. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 255 (Transport: Driving)",
-          "stimulus_en": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. (today)",
-          "stimulus_es": "Ref: Verbos irregulares (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 255 (Transport: Driving)",
+          "stimulus_en": "have you ever spoken English on the phone.",
+          "stimulus_es": "Ref: Has hablado alguna vez inglés por teléfono?",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 255 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Para responder en plural, dir\u00edamos (today)",
-              "right": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)"
+              "left": "El cumpleaños de Pablo es el 8 de mayo.",
+              "right": "Paul’s birthday is on 8th May."
             },
             {
               "id": "p1",
-              "left": "5. never / drinks coffee in the evening / she - 703",
-              "right": "she never drinks coffee in the evening - 703"
+              "left": "2. Play football on Saturday afternoons / the boys / always.",
+              "right": "the boys always play football on Saturday afternoons."
             },
             {
               "id": "p2",
-              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
-              "right": "I hardly ever go to the cinema = casi nunca voy al cine.."
+              "left": "6. it / rain in the summer / often / doesn’t.",
+              "right": "it doesn’t often rain in the summer."
             },
             {
               "id": "p3",
-              "left": "Bookstore (Br Eng...",
-              "right": "bookshop) Librer\u00eda..."
+              "left": "Al lado de mi colegio no hay bloques de pisos.",
+              "right": "Next to my school there aren’t any apartment blocks."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 255 (Transport: Driving):",
-          "tts_en": "it doesn\u2019t often rain in the summer...",
-          "correct_answer": "it doesn\u2019t often rain in the summer...",
+          "tts_en": "film) Película.",
+          "correct_answer": "film) Película",
           "mastery_tag": "listening",
           "interaction_id": "U32_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 255:",
           "options": [
             {
-              "id": "o0",
-              "text": "Table"
-            },
-            {
-              "id": "o2",
-              "text": "Sofa"
+              "id": "o1",
+              "text": "Sad"
             },
             {
               "id": "o4",
-              "text": "Pen7339"
+              "text": "Fast"
             },
             {
-              "id": "o1",
-              "text": "Chair"
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "Calm"
             }
           ],
           "correct_answer": "o4",
@@ -1895,65 +1805,65 @@
           "interaction_id": "U32_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 255 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "Countable nouns (now)",
-              "back": "se pueden contar. Es decir, la palabra mesa, yo puedo decir, una mesa, dos mesas, tres mesas, 500 mesas, etc. (now)"
+              "front": "Otro ejemplo.",
+              "back": "la casa de María es grande = María’s house is big."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 255 (Transport: Driving):",
-          "instruction_en": "Write a note about Transport: Driving. [Ref: 52]",
+          "instruction_en": "Write a note about Transport: Driving. [Ref: 15]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 255 (Transport: Driving):",
-          "stimulus_en": "Focus on Transport: Driving. (850)",
+          "stimulus_en": "Look at Transport: Driving. (812)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 224 (Transport: Driving):",
-          "stimulus": "Matching set 8752",
+          "stimulus": "Matching set 938.",
           "items": [
             {
               "id": "i0",
-              "text": "4. La pelota de las ni\u00f1as (today)",
+              "text": "A qué hora sale el autobús?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "6. Los juguetes de mis hijos...",
+              "text": "Cuándo iremos a la playa?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "De qui\u00e9n son esos libros? (now)",
+              "text": "Dónde te lo dijo?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "What time does the bus leave."
+            },
+            {
               "id": "m1",
-              "text": "My children\u2019s toys..."
+              "text": "When are we going to the beach."
             },
             {
               "id": "m2",
-              "text": "Whose books are those= or Whose are those books (now)"
-            },
-            {
-              "id": "m0",
-              "text": "The girls\u2019 ball (today)"
+              "text": "Where did he/she tell you."
             }
           ],
           "correct_answer": {
@@ -1965,26 +1875,26 @@
           "interaction_id": "U32_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 224 (Transport: Driving):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "tire) Neum\u00e1tico (now)"
+                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n! - amazing"
+                  "text": "Do you think that unemployment will go down this year."
                 }
               ]
             }
@@ -1993,20 +1903,20 @@
           "interaction_id": "U32_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 224 (Transport: Driving):",
-          "main_text": "In Transport: Driving (1199), The actress [GAP 1] and [GAP 2].",
+          "main_text": "In Transport: Driving (8030), The police officer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "bought"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "buy"
+                  "text": "stop"
                 }
               ]
             },
@@ -2015,11 +1925,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "met"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "meet"
+                  "text": "finish."
                 }
               ]
             }
@@ -2032,22 +1942,22 @@
           "interaction_id": "U32_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 224 para Transport: Driving:",
-          "stimulus_en": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - interesting",
-          "stimulus_es": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo - interesting",
+          "stimulus_en": "Go straight on and in front of the church there is a supermarket.",
+          "stimulus_es": "Sigue recto y delante de la iglesia hay un supermercado.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o3",
-              "text": "Other 4302"
+              "text": "Other 4359."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -2055,121 +1965,116 @@
           "interaction_id": "U32_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 224 sobre Transport: Driving:",
           "options": [
-            {
-              "id": "w3",
-              "text": "my"
-            },
             {
               "id": "w0",
               "text": "the"
             },
             {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "house"
+              "id": "w3",
+              "text": "my"
             },
             {
               "id": "w1",
               "text": "door"
             },
             {
-              "id": "w5",
-              "text": "(today)"
+              "id": "w4",
+              "text": "house"
+            },
+            {
+              "id": "w2",
+              "text": "of"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U32_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 256 (Transport: Driving):",
-          "stimulus_en": "I went to a state school. (now) (___)",
+          "stimulus_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acción, pero están ocurriendo las dos acciones al mismo tiempo. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U32_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 256 (Transport: Driving)",
-          "stimulus_en": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost (today)",
-          "stimulus_es": "Ref: Cu\u00e1nto cuesta? (today)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 256 (Transport: Driving)",
+          "stimulus_en": "Were you having a beer when you saw Peter.",
+          "stimulus_es": "Ref: Estabas tomándote una cerveza cuando viste a Pedro?",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U32_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 256 (Transport: Driving):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (now)",
-              "right": "Were you having a beer when you saw Peter (now)"
+              "left": "Cuándo la ayudaste?",
+              "right": "When did you help him/her."
             },
             {
               "id": "p1",
-              "left": "Al lado de mi casa hay una guarder\u00eda.",
-              "right": "Next to my house there is a nursery school.."
+              "left": "Antes de poneros a hacer el ejercicio que os propongo hoy de indirect questions, os animo a que leáis la explicación y aprendáis, o repaséis, qué es y cómo se forman las indirect questions (preguntas indirectas). Aquí lo puedes revisar.",
+              "right": "Indirect questions en inglés."
             },
             {
               "id": "p2",
-              "left": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo (today)",
-              "right": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. (today)"
+              "left": "¿Cómo saber que «the film» es el sujeto? Preguntamos al verbo SIEMPRE «quién» o «qué». Hacemos la prueba.",
+              "right": "¿Qué es lo que empieza? = la película, entonces SUBJECT = THE FILM."
             },
             {
               "id": "p3",
-              "left": "Otro common mistake (today)",
-              "right": "Have you a car? (today)"
+              "left": "The correct thing.",
+              "right": "My friend has a lot of money."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 256 (Transport: Driving):",
-          "tts_en": "\u00bfDe d\u00f3nde eres? - 250",
-          "correct_answer": "\u00bfDe d\u00f3nde eres? - 250",
+          "tts_en": "Did anybody say my name.",
+          "correct_answer": "Did anybody say my name",
           "mastery_tag": "listening",
           "interaction_id": "U32_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 256:",
           "options": [
             {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
               "id": "o3",
-              "text": "soup"
+              "text": "Planet."
             },
             {
-              "id": "o4",
-              "text": "rain2879"
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o2",
-              "text": "salad"
+              "text": "Star"
+            },
+            {
+              "id": "o4",
+              "text": "Hot"
+            },
+            {
+              "id": "o0",
+              "text": "Sun"
             }
           ],
           "correct_answer": "o4",
@@ -2177,29 +2082,29 @@
           "interaction_id": "U32_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 256 - Transport: Driving:",
           "cards": [
             {
               "id": "c1",
-              "front": "4. go to bed before 11 / often / I...",
-              "back": "I often go to bed before 11..."
+              "front": "Al lado de mi casa hay una guardería.",
+              "back": "Next to my house there is a nursery school."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U32_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 256 (Transport: Driving):",
-          "instruction_en": "Your daily routine in Transport: Driving. [Ref: 85]",
+          "instruction_en": "Review Transport: Driving from last week. [Ref: 56]",
           "mastery_tag": "writing",
           "interaction_id": "U32_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 256 (Transport: Driving):",
-          "stimulus_en": "I like Transport: Driving. (501)",
+          "stimulus_en": "I like Transport: Driving. (102)",
           "mastery_tag": "speaking",
           "interaction_id": "U32_I100"
         }

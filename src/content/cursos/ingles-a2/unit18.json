@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit18",
-    "unit_title": "Genitive Saxon - Education: University Life",
+    "unit_title": "Genitive Saxon - Education: University Life.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U18_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 18",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 18.",
           "tts_en": "Starting unit 18. Topic: Education: University Life. Focus: Genitive Saxon.",
           "mastery_tag": "listening",
           "interaction_id": "U18_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 137 (Education: University Life):",
-          "stimulus_en": "preguntas en ingl\u00e9s - interesting (___)",
+          "stimulus_en": "I went to a state school. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 137 (Education: University Life)",
-          "stimulus_en": "irregular verbs. Lo bueno de esta lista es que incluye la pronunciaci\u00f3n y adem\u00e1s perfectamente entendible para los alumnos que no conocen los s\u00edmbolos fon\u00e9ticos. Espero que te sea \u00fatil. - amazing",
-          "stimulus_es": "Ref: Si no recuerdas los verbos irregulares, te propongo la siguiente lista para que compruebes esa tercera columna que necesitas para formar el present perfect - amazing",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 137 (Education: University Life)",
+          "stimulus_en": "Have you ever tried Thai food.",
+          "stimulus_es": "Ref: Alguna vez has probado la comida tailandesa?",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 137 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos - interesting",
-              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - interesting"
+              "left": "Hay guisantes en el frigo?",
+              "right": "are there any peas in the fridge."
             },
             {
               "id": "p1",
-              "left": "En mat\u00e9maticas, por ejemplo, con n\u00famero decimales (today)",
-              "right": "nought, pero tambi\u00e9n se puede utilizar zero. Muy importante, la pronunciaci\u00f3n de nought es /nooot/. (today)"
+              "left": "puedo abrir la ventana, por favor?",
+              "right": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             },
             {
               "id": "p2",
-              "left": "often / money / Sally / her / borrows / friends / from - amazing",
-              "right": "Sally often borrows money from her friends - amazing"
+              "left": "Has visto an alguien?",
+              "right": "igual que la oración anterior, con la única diferencia que esta oración es INTERROGATIVA. La traducción en este caso es «alguien»."
             },
             {
               "id": "p3",
-              "left": "Cookie (Br Eng...",
-              "right": "biscuit) Galleta..."
+              "left": "Algunos ejemplos.",
+              "right": "at in on for to of without."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 137 (Education: University Life):",
-          "tts_en": "may come, might go. - 327",
-          "correct_answer": "may come, might go. - 327",
+          "tts_en": "in May, in August, etc.",
+          "correct_answer": "in May, in August, etc",
           "mastery_tag": "listening",
           "interaction_id": "U18_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 137:",
           "options": [
             {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
               "id": "o0",
-              "text": "Guitar"
-            },
-            {
-              "id": "o3",
-              "text": "Drums"
-            },
-            {
-              "id": "o4",
-              "text": "Book5566"
+              "text": "Monday."
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Sunday."
+            },
+            {
+              "id": "o3",
+              "text": "Friday."
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
+            },
+            {
+              "id": "o4",
+              "text": "June"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U18_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 137 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo - interesting",
-              "back": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. - interesting"
+              "front": "Has terminado ya el proyecto?",
+              "back": "Have you finished the project yet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 137 (Education: University Life):",
-          "instruction_en": "Your daily routine in Education: University Life. [Ref: 53]",
+          "instruction_en": "Draft an email regarding Education: University Life. [Ref: 94]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 137 (Education: University Life):",
-          "stimulus_en": "Improve Education: University Life. (667)",
+          "stimulus_en": "Focus on Education: University Life. (254)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 120 (Education: University Life):",
-          "stimulus": "Matching set 2807",
+          "stimulus": "Matching set 479.",
           "items": [
             {
               "id": "i0",
-              "text": "Common mistake (now)",
+              "text": "– Días de la semana.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio.",
+              "text": "Has estudiado alguna vez un idioma extranjero diferente al inglés?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "5. never / drinks coffee in the evening / she (now)",
+              "text": "Estabas tomándote una cerveza cuando viste a Pedro?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "she never drinks coffee in the evening (now)"
-            },
-            {
-              "id": "m1",
-              "text": "\u00bfDe d\u00f3nde eres?."
+              "text": "Were you having a beer when you saw Peter."
             },
             {
               "id": "m0",
-              "text": "I don\u2019t know that I will do. (now)"
+              "text": "on Monday, on Wednesday, etc."
+            },
+            {
+              "id": "m1",
+              "text": "have you ever studied a foreign laguage apart from English."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U18_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 120 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Do you think that unemployment will go down this year - interesting"
+                  "text": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "What does Juan do - interesting"
+                  "text": "Indirect questions en inglés."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U18_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 120 (Education: University Life):",
-          "main_text": "In Education: University Life (6446), You [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (6475), The teacher [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "wrote"
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "write"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "created"
+                  "text": "drove"
                 },
                 {
                   "id": "o2",
-                  "text": "create"
+                  "text": "drive"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U18_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 120 para Education: University Life:",
-          "stimulus_en": "When are we going to the beach - amazing",
-          "stimulus_es": "Cu\u00e1ndo iremos a la playa? - amazing",
+          "stimulus_en": "Why didn’t you tell me.",
+          "stimulus_es": "Por qué no me lo dijiste?",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 7786"
+              "text": "Other 6807."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -263,116 +263,111 @@
           "interaction_id": "U18_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 120 sobre Education: University Life:",
           "options": [
             {
-              "id": "w4",
-              "text": "(now)"
-            },
-            {
-              "id": "w1",
-              "text": "that"
-            },
-            {
-              "id": "w3",
-              "text": "work"
+              "id": "w2",
+              "text": "computer."
             },
             {
               "id": "w0",
               "text": "Does"
             },
             {
-              "id": "w2",
-              "text": "computer"
+              "id": "w3",
+              "text": "work"
+            },
+            {
+              "id": "w1",
+              "text": "that"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 138 (Education: University Life):",
-          "stimulus_en": "What\u2019s that (today) (___)",
+          "stimulus_en": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 138 (Education: University Life)",
-          "stimulus_en": "chips) Patatas fritas (today)",
-          "stimulus_es": "Ref: French fries (Br Eng (today)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 138 (Education: University Life)",
+          "stimulus_en": "Who’s the shyest person you’ve ever met.",
+          "stimulus_es": "Ref: Cuál es la persona más tímida que has conocido nunca?",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 138 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Hay muchos bares cerca de mi casa!",
-              "right": "There are a lot of bars near my house.!"
+              "left": "Esto si es un precio exacto, pero ¿y si hay céntimos? Entonces diríamos.",
+              "right": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents»."
             },
             {
               "id": "p1",
-              "left": "Verbos irregulares (now)",
-              "right": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Ver\u00e1s que esta lista est\u00e1 dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendr\u00e1s que utilizar por tanto, la segunda columna. (now)"
+              "left": "Has visto alguna vez una película en versión original?",
+              "right": "have you ever seen a film in original version."
             },
             {
               "id": "p2",
-              "left": "De qui\u00e9n es ese m\u00f3vil? - interesting",
-              "right": "Whose mobile is that - interesting"
+              "left": "1. Often / she / write to me/ doesn’t.",
+              "right": "she doesn’t often write to me."
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1l es el sitio m\u00e1s caluroso en el que has estado nunca? - 303",
-              "right": "What\u2019s the hottest place you\u2019ve ever been to - 303"
+              "left": "En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let.",
+              "right": "verb patters."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 138 (Education: University Life):",
-          "tts_en": "do you have any shoes for the wedding!",
-          "correct_answer": "do you have any shoes for the wedding!",
+          "tts_en": "lift) Ascensor.",
+          "correct_answer": "lift) Ascensor",
           "mastery_tag": "listening",
           "interaction_id": "U18_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 138:",
           "options": [
             {
+              "id": "o2",
+              "text": "Flute"
+            },
+            {
               "id": "o0",
-              "text": "pizza"
+              "text": "Guitar."
             },
             {
               "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o2",
-              "text": "salad"
+              "text": "Piano"
             },
             {
               "id": "o4",
-              "text": "rain6951"
+              "text": "Book"
             },
             {
               "id": "o3",
-              "text": "soup"
+              "text": "Drums"
             }
           ],
           "correct_answer": "o4",
@@ -380,65 +375,65 @@
           "interaction_id": "U18_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 138 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "see / usually / Jennifer / out / goes / a / to / concert - 593",
-              "back": "Jennifer usually goes out to see a concert - 593"
+              "front": "Chips (Br Eng) (Am Eng.",
+              "back": "biscuit) Patatas fritas."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 138 (Education: University Life):",
-          "instruction_en": "Write a note about Education: University Life. [Ref: 73]",
+          "instruction_en": "Explain Genitive Saxon using Education: University Life. [Ref: 23]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 138 (Education: University Life):",
-          "stimulus_en": "Study Education: University Life now. (531)",
+          "stimulus_en": "Improve Education: University Life. (163)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 121 (Education: University Life):",
-          "stimulus": "Matching set 8427",
+          "stimulus": "Matching set 7630.",
           "items": [
             {
               "id": "i0",
-              "text": "Elevator (Br Eng!",
+              "text": "Para responder en plural, diríamos.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "\u2013 On + adjective + day = on a rainy day, on a sunny day. Ejemplo - amazing",
+              "text": "Qué es éso?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "1. La puerta de mi casa!",
+              "text": "I / fish / often / hours / for / catching / anything / without.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "the door of my house!"
+              "id": "m1",
+              "text": "What’s that."
             },
             {
               "id": "m0",
-              "text": "lift) Ascensor!"
+              "text": "They’re mine (son míos) OR they’re his (son suyos – de él)."
             },
             {
-              "id": "m1",
-              "text": "I don\u2019t let my children go out on a rainy day = no dejo a mis hijos salir en d\u00edas lluviosos. - amazing"
+              "id": "m2",
+              "text": "I often fish for hours without catching anything."
             }
           ],
           "correct_answer": {
@@ -450,26 +445,26 @@
           "interaction_id": "U18_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 121 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "John\u2018s job is boring. - amazing"
+                  "text": "It’s mine (es mía) o it’s his (es suya – de él)"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "the bus usually arrives late - amazing"
+                  "text": "la película, entonces SUBJECT = THE FILM."
                 }
               ]
             }
@@ -478,20 +473,20 @@
           "interaction_id": "U18_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 121 (Education: University Life):",
-          "main_text": "In Education: University Life (3088), You [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (3449), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "receive."
                 }
               ]
             },
@@ -500,11 +495,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "prepared."
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "prepare."
                 }
               ]
             }
@@ -517,22 +512,22 @@
           "interaction_id": "U18_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 121 para Education: University Life:",
-          "stimulus_en": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l).",
-          "stimulus_es": "La podemos contestar de la seguiente manera.",
+          "stimulus_en": "do you have a car.",
+          "stimulus_es": "Tienes coche?",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 7707"
-            },
-            {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
+            },
+            {
+              "id": "o3",
+              "text": "Other 7280."
             }
           ],
           "correct_answer": "o1",
@@ -540,116 +535,106 @@
           "interaction_id": "U18_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 121 sobre Education: University Life:",
           "options": [
             {
               "id": "w1",
-              "text": "summer"
+              "text": "Patatas."
             },
             {
               "id": "w0",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "390"
-            },
-            {
-              "id": "w3",
-              "text": "winter"
+              "text": "chips)"
             },
             {
               "id": "w2",
-              "text": "in"
+              "text": "fritas."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 139 (Education: University Life):",
-          "stimulus_en": "any + thing = en oraci\u00f3n INTERROGATIVA. (today) (___)",
+          "stimulus_en": "bookshop) Librería (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 139 (Education: University Life)",
-          "stimulus_en": "how often do you have Italian classes? = I have every Tuesday. (today)",
-          "stimulus_es": "Ref: Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 139 (Education: University Life)",
+          "stimulus_en": "may I open the window, please.",
+          "stimulus_es": "Ref: Puedo abrir la ventana, por favor?",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 139 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "8. \u00a0usually / my father / goes to work by bus.",
-              "right": "my father usually goes to work by bus."
+              "left": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "right": "how often do you have Italian classes? = I have every Tuesday."
             },
             {
               "id": "p1",
-              "left": "Qu\u00e9 quieres?!",
-              "right": "la respuesta es ilimitada, puede ser cualquier cosa.!"
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             },
             {
               "id": "p2",
-              "left": "Litre (Br Eng) (Am Eng - amazing",
-              "right": "liter) Litro - amazing"
+              "left": "Otro ejemplo.",
+              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto."
             },
             {
               "id": "p3",
-              "left": "De qui\u00e9n son esos libros?!",
-              "right": "Whose books are those= or Whose are those books!"
+              "left": "Qué quieres?",
+              "right": "la respuesta es ilimitada, puede ser cualquier cosa."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 139 (Education: University Life):",
-          "tts_en": "igual hago algo\u2026 (but I\u2019m not sure\u2026).!",
-          "correct_answer": "igual hago algo\u2026 (but I\u2019m not sure\u2026).!",
+          "tts_en": "may come, might go.",
+          "correct_answer": "may come, might go",
           "mastery_tag": "listening",
           "interaction_id": "U18_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 139:",
           "options": [
             {
-              "id": "o2",
-              "text": "train"
+              "id": "o1",
+              "text": "Chair"
             },
             {
               "id": "o3",
-              "text": "plane"
+              "text": "Bed"
             },
             {
-              "id": "o4",
-              "text": "cat8492"
-            },
-            {
-              "id": "o1",
-              "text": "bus"
+              "id": "o2",
+              "text": "Sofa"
             },
             {
               "id": "o0",
-              "text": "car"
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen"
             }
           ],
           "correct_answer": "o4",
@@ -657,65 +642,65 @@
           "interaction_id": "U18_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 139 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "Para responder en plural, dir\u00edamos - amazing",
-              "back": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). - amazing"
+              "front": "Un ejemplo de to seguido de infinitivo es.",
+              "back": "I want to go to the cinema. En este caso to no es una preposición, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ahí un to seguido de un -ing ya sabes que el to es preposición!"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 139 (Education: University Life):",
-          "instruction_en": "A small story about Education: University Life. [Ref: 32]",
+          "instruction_en": "Review Education: University Life from last week. [Ref: 46]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 139 (Education: University Life):",
-          "stimulus_en": "Improve Education: University Life. (439)",
+          "stimulus_en": "Repeat Education: University Life. (485)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 122 (Education: University Life):",
-          "stimulus": "Matching set 6582",
+          "stimulus": "Matching set 659.",
           "items": [
             {
               "id": "i0",
-              "text": "A lot of, countable y uncountable - 619",
+              "text": "6. it / rain in the summer / often / doesn’t.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "C\u00f3mo se llama \u00e9l? - interesting",
+              "text": "Alguien dijo mi nombre?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - interesting",
+              "text": "Cuántos años tiene María?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m0",
-              "text": "I have a lot of money and I have a lot of friends. - 619"
+              "text": "it doesn’t often rain in the summer."
             },
             {
               "id": "m2",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - interesting"
+              "text": "How old is María."
             },
             {
               "id": "m1",
-              "text": "What\u2019s his name - interesting"
+              "text": "Did anybody say my name."
             }
           ],
           "correct_answer": {
@@ -727,26 +712,26 @@
           "interaction_id": "U18_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 122 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "Who\u2019s the shyest person you\u2019ve ever met (today)"
+                  "text": "The girls’ ball."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "are there any peas in the fridge (now)"
+                  "text": "What time is it."
                 }
               ]
             }
@@ -755,20 +740,20 @@
           "interaction_id": "U18_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 122 (Education: University Life):",
-          "main_text": "In Education: University Life (4330), The baker [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (6298), The nurse [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "cooked"
+                  "text": "received."
                 },
                 {
                   "id": "o2",
-                  "text": "cook"
+                  "text": "receive."
                 }
               ]
             },
@@ -777,11 +762,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "prepared"
+                  "text": "stopped."
                 },
                 {
                   "id": "o2",
-                  "text": "prepare"
+                  "text": "stop"
                 }
               ]
             }
@@ -794,22 +779,22 @@
           "interaction_id": "U18_I38"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 122 para Education: University Life:",
-          "stimulus_en": "do you have any brothers or sisters - interesting",
-          "stimulus_es": "Tienes hermanos? - interesting",
+          "stimulus_en": "I haven’t got a car.",
+          "stimulus_es": "The correct thing.",
           "options": [
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 3669"
+              "text": "Other 8046."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -817,136 +802,196 @@
           "interaction_id": "U18_I39"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 122 sobre Education: University Life:",
           "options": [
             {
-              "id": "w5",
-              "text": "on"
+              "id": "w10",
+              "text": "(my"
             },
             {
-              "id": "w8",
-              "text": "(today)"
-            },
-            {
-              "id": "w0",
-              "text": "have"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w7",
-              "text": "phone"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "spoken"
-            },
-            {
-              "id": "w2",
-              "text": "ever"
+              "id": "w13",
+              "text": "her"
             },
             {
               "id": "w6",
-              "text": "the"
+              "text": "lleva"
+            },
+            {
+              "id": "w2",
+              "text": "="
+            },
+            {
+              "id": "w17",
+              "text": "un"
+            },
+            {
+              "id": "w1",
+              "text": "específica."
+            },
+            {
+              "id": "w3",
+              "text": "ésta"
+            },
+            {
+              "id": "w11",
+              "text": "your"
+            },
+            {
+              "id": "w18",
+              "text": "artículo."
+            },
+            {
+              "id": "w15",
+              "text": "their)"
+            },
+            {
+              "id": "w19",
+              "text": "indefinido."
+            },
+            {
+              "id": "w0",
+              "text": "situación."
+            },
+            {
+              "id": "w14",
+              "text": "our"
+            },
+            {
+              "id": "w12",
+              "text": "his"
+            },
+            {
+              "id": "w5",
+              "text": "siempre."
+            },
+            {
+              "id": "w4",
+              "text": "opción."
+            },
+            {
+              "id": "w7",
+              "text": "un"
+            },
+            {
+              "id": "w8",
+              "text": "possessive."
+            },
+            {
+              "id": "w16",
+              "text": "o"
+            },
+            {
+              "id": "w9",
+              "text": "adjective."
+            },
+            {
+              "id": "w20",
+              "text": "(a)"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I40"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 140 (Education: University Life):",
-          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE).. (___)",
+          "stimulus_en": "¿De dónde eres? (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I41"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 140 (Education: University Life)",
-          "stimulus_en": "men, women, people, etc. (now)",
-          "stimulus_es": "Ref: M\u00e1s plurales irregulares que nos podemos encontrar son (now)",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 140 (Education: University Life)",
+          "stimulus_en": "Have you ever written a poem? Como vemos, formulamos la pregunta con HAVE + SUBJECT + EVER + WRITTEN (PAST PARTICIPLE).",
+          "stimulus_es": "Ref: Empecemos analizando el siguiente ejemplo.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I42"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 140 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es la playa m\u00e1s larga en la que has estado nunca? - 638",
-              "right": "What\u2019s the longest beach you\u2019ve ever been to - 638"
+              "left": "The correct thing.",
+              "right": "information, homework, work."
             },
             {
               "id": "p1",
-              "left": "6. Los juguetes de mis hijos - interesting",
-              "right": "My children\u2019s toys - interesting"
+              "left": "Si el número lleva un 0 por en medio, 1903, decimos.",
+              "right": "nineteen oh three. Ten encuenta que el número cero lo decimos aquí «oh». El número cero se puede expresar de muchas formas distintas en inglés, según de cómo se esté utilizando. Ahora después lo veremos en detalle."
             },
             {
               "id": "p2",
-              "left": "Veamos una oraci\u00f3n con futuro - 453",
-              "right": "What will the weather be like tomorrow? It\u2019ll be sunny. - 453"
+              "left": "Cuál es la canción más triste que has escuchado nunca?",
+              "right": "What’s the saddest song you’ve ever listened to."
             },
             {
               "id": "p3",
-              "left": "Many, para countable, decimos - amazing",
-              "right": "I don\u2019t have many friends (friends is countable). - amazing"
+              "left": "Cuál es el sitio más caluroso en el que has estado nunca?",
+              "right": "What’s the hottest place you’ve ever been to."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I43"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 140 (Education: University Life):",
-          "tts_en": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (now)",
-          "correct_answer": "grande, peque\u00f1o, bonito, feo, alargado, estrecho, etc. (now)",
+          "tts_en": "I don’t know that I will do.",
+          "correct_answer": "I don’t know that I will do",
           "mastery_tag": "listening",
           "interaction_id": "U18_I44"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 140:",
           "options": [
             {
-              "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o3",
-              "text": "Bed"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
+              "id": "o4",
+              "text": "Fast"
             },
             {
               "id": "o0",
-              "text": "Table"
+              "text": "Happy"
             },
             {
-              "id": "o4",
-              "text": "Pen4055"
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
             }
           ],
           "correct_answer": "o4",
@@ -954,65 +999,65 @@
           "interaction_id": "U18_I45"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 140 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "\u2013 D\u00edas de la semana (now)",
-              "back": "on Monday, on Wednesday, etc. (now)"
+              "front": "The correct thing.",
+              "back": "on the Internet."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I46"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 140 (Education: University Life):",
-          "instruction_en": "Explain Genitive Saxon using Education: University Life. [Ref: 60]",
+          "instruction_en": "A small story about Education: University Life. [Ref: 23]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I47"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 140 (Education: University Life):",
-          "stimulus_en": "Look at Education: University Life. (226)",
+          "stimulus_en": "I like Education: University Life. (191)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I48"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 123 (Education: University Life):",
-          "stimulus": "Matching set 2982",
+          "stimulus": "Matching set 2509.",
           "items": [
             {
               "id": "i0",
-              "text": "Los adjetivos tienen tres formas - amazing",
+              "text": "Se pueden contraer = ‘ve got/ haven’t got (to be.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Al lado de mi colegio no hay bloques de pisos.",
+              "text": "Cuál es el día más feliz que has tenido nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Acci\u00f3n en el pasado que est\u00e1 en progreso, \u00bfqu\u00e9 quiere decir esto? Bien, una acci\u00f3n en progreso quiere decir que no est\u00e1 acabada, pero t\u00fa te preguntar\u00e1s, si es pasada, \u00bfc\u00f3mo que no est\u00e1 acabada? Quiere decir que cuando t\u00fa piensas en esa acci\u00f3n pasada est\u00e1s al recordarla como vivi\u00e9ndola de nuevo, y en ese sentido decimos que est\u00e1 en progreso. Ejemplo - amazing",
+              "text": "2. Play football on Saturday afternoons / the boys / always.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "Next to my school there aren\u2019t any apartment blocks.."
+              "id": "m0",
+              "text": "‘m/ ‘s, etc)"
             },
             {
               "id": "m2",
-              "text": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado. - amazing"
+              "text": "the boys always play football on Saturday afternoons."
             },
             {
-              "id": "m0",
-              "text": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo. - amazing"
+              "id": "m1",
+              "text": "What’s the happiest day you’ve ever had."
             }
           ],
           "correct_answer": {
@@ -1024,26 +1069,26 @@
           "interaction_id": "U18_I49"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 123 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I always read books slowly (today)"
+                  "text": "are you learning French?"
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "\u00bfTienes miedo a los perros?, en ingl\u00e9s \u2018Are you afraid of dogs?\u2019, la preposici\u00f3n \u2018of\u2019 tiene su complemento que es \u2018dogs\u2019. - amazing"
+                  "text": "I haven’t got much money (remember, money is uncountable)."
                 }
               ]
             }
@@ -1052,20 +1097,20 @@
           "interaction_id": "U18_I50"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 123 (Education: University Life):",
-          "main_text": "In Education: University Life (3536), They [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (3775), A colleague [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "called"
+                  "text": "studied."
                 },
                 {
                   "id": "o2",
-                  "text": "call"
+                  "text": "study"
                 }
               ]
             },
@@ -1074,11 +1119,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "fixed"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "fix"
                 }
               ]
             }
@@ -1091,22 +1136,22 @@
           "interaction_id": "U18_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 123 para Education: University Life:",
-          "stimulus_en": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n. (now)",
-          "stimulus_es": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir (now)",
+          "stimulus_en": "cinema) Cine.",
+          "stimulus_es": "Movie theater (Br Eng.",
           "options": [
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 1511"
+              "text": "Other 3872."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -1114,121 +1159,126 @@
           "interaction_id": "U18_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 123 sobre Education: University Life:",
           "options": [
             {
-              "id": "w1",
-              "text": "star)"
+              "id": "w6",
+              "text": "evening."
             },
             {
               "id": "w5",
-              "text": "(today)"
-            },
-            {
-              "id": "w3",
-              "text": "de"
-            },
-            {
-              "id": "w4",
-              "text": "cine"
-            },
-            {
-              "id": "w0",
-              "text": "film"
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "Estrella"
+              "text": "drinks."
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "coffee."
+            },
+            {
+              "id": "w0",
+              "text": "she"
+            },
+            {
+              "id": "w1",
+              "text": "never"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 141 (Education: University Life):",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora.... (___)",
+          "stimulus_en": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 141 (Education: University Life)",
-          "stimulus_en": "I can to speak English. - 176",
-          "stimulus_es": "Ref: 2. El infinitivo no lleva delante to. Un error t\u00edpico es decir - 176",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 141 (Education: University Life)",
+          "stimulus_en": "have you ever spoken English on the phone.",
+          "stimulus_es": "Ref: Has hablado alguna vez inglés por teléfono?",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 141 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? - 830",
-              "right": "have you ever studied a foreign laguage apart from English - 830"
+              "left": "La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
+              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
             },
             {
               "id": "p1",
-              "left": "Estabas tom\u00e1ndote una cerveza cuando viste a Pedro? (now)",
-              "right": "Were you having a beer when you saw Peter (now)"
+              "left": "me / Paul / helps / sometimes / my / with / homework.",
+              "right": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework."
             },
             {
               "id": "p2",
-              "left": "Y en negativa - amazing",
-              "right": "I don\u2019t have any friends who live near my house. - amazing"
+              "left": "– Seasons (estaciones)",
+              "right": "in summer, in winter."
             },
             {
               "id": "p3",
-              "left": "on + train/ bus/ plane/ bike/ motorbike...",
-              "right": "cuando hablamos de forma m\u00e1s espec\u00edfica...."
+              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question teníamos la inversión entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet? ), en la indirect question, ya no hay inversión, sino que tenemos question word + subject + verb. Si te das cuenta, la inversión la tenemos en ‘Can you tell me…’. Como ya tenemos una inversión al comenzar la pregunta, ya no podemos hacer otra inversión. Recuerda.",
+              "right": "sólo una inversión por oración!"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 141 (Education: University Life):",
-          "tts_en": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is..",
-          "correct_answer": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is..",
+          "tts_en": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost.",
+          "correct_answer": "cuidado con esta pregunta porque a menudo los alumnos dicen: «how much cost",
           "mastery_tag": "listening",
           "interaction_id": "U18_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 141:",
           "options": [
             {
-              "id": "o2",
-              "text": "green"
+              "id": "o3",
+              "text": "Friday."
             },
             {
               "id": "o0",
-              "text": "blue"
+              "text": "Monday."
             },
             {
               "id": "o4",
-              "text": "run385"
+              "text": "June"
             },
             {
               "id": "o1",
-              "text": "red"
+              "text": "Tuesday."
             },
             {
-              "id": "o3",
-              "text": "pink"
+              "id": "o2",
+              "text": "Sunday."
             }
           ],
           "correct_answer": "o4",
@@ -1236,65 +1286,65 @@
           "interaction_id": "U18_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 141 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? (now)",
-              "back": "What\u2019s the most delicious food you\u2019ve ever tasted (now)"
+              "front": "Has estado alguna vez en Canadá?",
+              "back": "have you ever been to Canada."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 141 (Education: University Life):",
-          "instruction_en": "Draft an email regarding Education: University Life. [Ref: 21]",
+          "instruction_en": "Your daily routine in Education: University Life. [Ref: 51]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 141 (Education: University Life):",
-          "stimulus_en": "Look at Education: University Life. (873)",
+          "stimulus_en": "Study Education: University Life now. (295)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 124 (Education: University Life):",
-          "stimulus": "Matching set 3461",
+          "stimulus": "Matching set 5074.",
           "items": [
             {
               "id": "i0",
-              "text": "2. Play football on Saturday afternoons / the boys / always!",
+              "text": "Veamos una oración con futuro.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un n\u00famero delante y detr\u00e1s un sustantivo, entonces no ponemos la -s de plural, por ejemplo...",
+              "text": "For example.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "A qu\u00e9 hora sale el tren? - 461",
+              "text": "4. go to bed before 11 / often / I.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m1",
-              "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children...."
+              "id": "m0",
+              "text": "What will the weather be like tomorrow? It’ll be sunny."
             },
             {
               "id": "m2",
-              "text": "What time does the train leave - 461"
+              "text": "I often go to bed before 11."
             },
             {
-              "id": "m0",
-              "text": "the boys always play football on Saturday afternoons!"
+              "id": "m1",
+              "text": "She drives carefully."
             }
           ],
           "correct_answer": {
@@ -1306,26 +1356,26 @@
           "interaction_id": "U18_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 124 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "My cousins\u2019 house is very big!"
+                  "text": "my birthday is in February."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Our English teacher is usually angry..."
+                  "text": "chemist) Farmacia."
                 }
               ]
             }
@@ -1334,20 +1384,382 @@
           "interaction_id": "U18_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 124 (Education: University Life):",
-          "main_text": "In Education: University Life (8604), My friend [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (2248), We [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "visited"
+                  "text": "watched."
                 },
                 {
                   "id": "o2",
-                  "text": "visit"
+                  "text": "watch"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "listened."
+                },
+                {
+                  "id": "o2",
+                  "text": "listen."
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U18_I64"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 124 para Education: University Life:",
+          "stimulus_en": "What’s the most difficult language you’ve ever studied.",
+          "stimulus_es": "Cuál es el idioma más difícil que has estudiado nunca?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Other 4207."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U18_I65"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 124 sobre Education: University Life:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "seguido."
+            },
+            {
+              "id": "w20",
+              "text": "es"
+            },
+            {
+              "id": "w18",
+              "text": "written."
+            },
+            {
+              "id": "w0",
+              "text": "Have"
+            },
+            {
+              "id": "w16",
+              "text": "el"
+            },
+            {
+              "id": "w15",
+              "text": "más"
+            },
+            {
+              "id": "w3",
+              "text": "written."
+            },
+            {
+              "id": "w6",
+              "text": "="
+            },
+            {
+              "id": "w7",
+              "text": "tenemos."
+            },
+            {
+              "id": "w5",
+              "text": "poem?"
+            },
+            {
+              "id": "w9",
+              "text": "inversión."
+            },
+            {
+              "id": "w14",
+              "text": "sujeto."
+            },
+            {
+              "id": "w8",
+              "text": "la"
+            },
+            {
+              "id": "w19",
+              "text": "que"
+            },
+            {
+              "id": "w11",
+              "text": "have"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w21",
+              "text": "irregular."
+            },
+            {
+              "id": "w13",
+              "text": "del"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "de"
+            },
+            {
+              "id": "w2",
+              "text": "ever"
+            },
+            {
+              "id": "w17",
+              "text": "participio."
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U18_I66"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 142 (Education: University Life):",
+          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos «grados», comparativo y superlativo. (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U18_I67"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 142 (Education: University Life)",
+          "stimulus_en": "tire) Neumático.",
+          "stimulus_es": "Ref: Tyre (Am Eng.",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "interaction_id": "U18_I68"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 142 (Education: University Life):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "6. Los juguetes de mis hijos.",
+              "right": "My children’s toys."
+            },
+            {
+              "id": "p1",
+              "left": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces también utilizamos -ing para personas, y ¿cuándo? Debes tener en cuenta que la terminación -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
+              "right": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora."
+            },
+            {
+              "id": "p2",
+              "left": "De quién es ese móvil?",
+              "right": "Whose mobile is that."
+            },
+            {
+              "id": "p3",
+              "left": "Otro ejemplo.",
+              "right": "when I was at primary school, I didn’t wear uniform."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U18_I69"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 142 (Education: University Life):",
+          "tts_en": "My friend has a lot of money.",
+          "correct_answer": "My friend has a lot of money",
+          "mastery_tag": "listening",
+          "interaction_id": "U18_I70"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 142:",
+          "options": [
+            {
+              "id": "o0",
+              "text": "Table"
+            },
+            {
+              "id": "o4",
+              "text": "Pen"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U18_I71"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 142 - Education: University Life:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
+              "back": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U18_I72"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 142 (Education: University Life):",
+          "instruction_en": "Explain Genitive Saxon using Education: University Life. [Ref: 58]",
+          "mastery_tag": "writing",
+          "interaction_id": "U18_I73"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 142 (Education: University Life):",
+          "stimulus_en": "Study Education: University Life now. (134)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U18_I74"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 125 (Education: University Life):",
+          "stimulus": "Matching set 9490.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "En matématicas, por ejemplo, con número decimales.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "2. Los días de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "3. Las hermanas de Pedro.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Peter’s sisters."
+            },
+            {
+              "id": "m0",
+              "text": "nought, pero también se puede utilizar zero. Muy importante, la pronunciación de nought es /nooot/."
+            },
+            {
+              "id": "m1",
+              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los días en plural, ya que es todos los martes y todos los jueves, no sólo uno."
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U18_I75"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 125 (Education: University Life):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "How is your mum feeling."
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "Sally often borrows money from her friends."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U18_I76"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 125 (Education: University Life):",
+          "main_text": "In Education: University Life (9659), I [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "built"
+                },
+                {
+                  "id": "o2",
+                  "text": "build"
                 }
               ]
             },
@@ -1370,292 +1782,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U18_I64"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 124 para Education: University Life:",
-          "stimulus_en": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo. (now)",
-          "stimulus_es": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo (now)",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 9478"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U18_I65"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 124 sobre Education: University Life:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "cinema)"
-            },
-            {
-              "id": "w1",
-              "text": "Cine"
-            },
-            {
-              "id": "w2",
-              "text": "interesting"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U18_I66"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 142 (Education: University Life):",
-          "stimulus_en": "Do you have any friends who live near your house? = al ser interrogativa, any. - amazing (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U18_I67"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 142 (Education: University Life)",
-          "stimulus_en": "the bird\u2018s legs = las piernas del p\u00e1jaro.!",
-          "stimulus_es": "Ref: 2. el primer elemento es un animal. Ejemplo!",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U18_I68"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 142 (Education: University Life):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Por ejemplo - 687",
-              "right": "\u00c9l es guapo. \u00bf\u00bbGuapo\u00bb es adjetivo o adverbio? \u00bfA qui\u00e9n se refiere? A \u00e9l, por tanto, ADJETIVO. - 687"
-            },
-            {
-              "id": "p1",
-              "left": "En espa\u00f1ol dir\u00edamos (today)",
-              "right": "Sharon es la chica m\u00e1s alta de su clase = mientras que en espa\u00f1ol utilizo la preposici\u00f3n \u2018de\u2019 con el superlativo (m\u00e1s alta), en ingl\u00e9s la preposici\u00f3n es \u2018in\u2019 y el superlativo (the tallest). (today)"
-            },
-            {
-              "id": "p2",
-              "left": "Los tiempos verbales en ingl\u00e9s son muy importantes cuando nos disponemos a aprender ingl\u00e9s, es por ello que se empiezan a estudiar desde los primeros d\u00edas. Digo que son important\u00edsimos porque sin tiempos verbales no se puede hablar un ingl\u00e9s correcto, sino que hablar\u00edamos como se suele decir, como los indios. Hoy os propongo un ejercicio de traducci\u00f3n para practicar los tiempos verbales en ingl\u00e9s de un nivel A2. Tendr\u00e1s que saber para este ejercicio los siguientes tiempos verbales - interesting",
-              "right": "present simple, past simple, present continuous, past continuous, present perfect, future. Te recuerdo que en la secci\u00f3n NIVEL A2 (pre-intermediate) puedes repasar dichos tiempos verbales. Vamos al ejercicio - interesting"
-            },
-            {
-              "id": "p3",
-              "left": "Un ejemplo de to seguido de infinitivo es - amazing",
-              "right": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n! - amazing"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U18_I69"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 142 (Education: University Life):",
-          "tts_en": "When did you help him/her - interesting",
-          "correct_answer": "When did you help him/her - interesting",
-          "mastery_tag": "listening",
-          "interaction_id": "U18_I70"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 142:",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o0",
-              "text": "Happy"
-            },
-            {
-              "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o4",
-              "text": "Fast7523"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U18_I71"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 142 - Education: University Life:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Has terminado ya el proyecto? (today)",
-              "back": "Have you finished the project yet (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U18_I72"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 142 (Education: University Life):",
-          "instruction_en": "Describe Education: University Life in 5 words. [Ref: 87]",
-          "mastery_tag": "writing",
-          "interaction_id": "U18_I73"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 142 (Education: University Life):",
-          "stimulus_en": "Focus on Education: University Life. (353)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U18_I74"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 125 (Education: University Life):",
-          "stimulus": "Matching set 7217",
-          "items": [
-            {
-              "id": "i0",
-              "text": "\u2013 Con partes del d\u00eda...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "4. go to bed before 11 / often / I (today)",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "3. Las hermanas de Pedro - 362",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m0",
-              "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepci\u00f3n)..."
-            },
-            {
-              "id": "m2",
-              "text": "Peter\u2019s sisters - 362"
-            },
-            {
-              "id": "m1",
-              "text": "I often go to bed before 11 (today)"
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U18_I75"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 125 (Education: University Life):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - amazing"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "durante o desde hace..."
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U18_I76"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 125 (Education: University Life):",
-          "main_text": "In Education: University Life (9587), Sarah [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "drove"
-                },
-                {
-                  "id": "o2",
-                  "text": "drive"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "cooked"
-                },
-                {
-                  "id": "o2",
-                  "text": "cook"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U18_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 125 para Education: University Life:",
-          "stimulus_en": "when I was at primary school, I didn\u2019t wear uniform..",
+          "stimulus_en": "My partner is the most beautiful woman in the world.",
           "stimulus_es": "Otro ejemplo.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 5918"
-            },
-            {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 7478."
             }
           ],
           "correct_answer": "o1",
@@ -1663,196 +1808,476 @@
           "interaction_id": "U18_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 125 sobre Education: University Life:",
           "options": [
             {
-              "id": "w10",
-              "text": "\u2013"
-            },
-            {
-              "id": "w8",
-              "text": "TV"
-            },
-            {
-              "id": "w4",
-              "text": "do?"
-            },
-            {
-              "id": "w20",
-              "text": "interesting"
-            },
-            {
-              "id": "w0",
-              "text": "\u2013"
-            },
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w18",
-              "text": "la"
+              "id": "w12",
+              "text": "comentada."
             },
             {
               "id": "w6",
-              "text": "I\u2019m"
-            },
-            {
-              "id": "w5",
-              "text": "\u2013"
-            },
-            {
-              "id": "w9",
-              "text": "="
-            },
-            {
-              "id": "w13",
-              "text": "tu"
-            },
-            {
-              "id": "w7",
-              "text": "watching"
-            },
-            {
-              "id": "w15",
-              "text": "\u2013"
+              "text": "forma"
             },
             {
               "id": "w17",
-              "text": "viendo"
+              "text": "y"
             },
             {
-              "id": "w2",
-              "text": "do"
+              "id": "w58",
+              "text": "past"
             },
             {
-              "id": "w19",
-              "text": "tele"
+              "id": "w38",
+              "text": "en"
             },
             {
-              "id": "w1",
-              "text": "What"
+              "id": "w47",
+              "text": "esta"
+            },
+            {
+              "id": "w75",
+              "text": "segunda."
+            },
+            {
+              "id": "w56",
+              "text": "simple."
+            },
+            {
+              "id": "w23",
+              "text": "Te"
+            },
+            {
+              "id": "w62",
+              "text": "el"
+            },
+            {
+              "id": "w5",
+              "text": "una"
+            },
+            {
+              "id": "w72",
+              "text": "por"
+            },
+            {
+              "id": "w48",
+              "text": "lista"
+            },
+            {
+              "id": "w54",
+              "text": "infinitivo."
+            },
+            {
+              "id": "w45",
+              "text": "Verás"
+            },
+            {
+              "id": "w51",
+              "text": "en"
+            },
+            {
+              "id": "w20",
+              "text": "aprender."
+            },
+            {
+              "id": "w13",
+              "text": "en"
+            },
+            {
+              "id": "w53",
+              "text": "columnas."
+            },
+            {
+              "id": "w40",
+              "text": "web"
+            },
+            {
+              "id": "w21",
+              "text": "de"
             },
             {
               "id": "w16",
-              "text": "Estoy"
+              "text": "1"
             },
             {
-              "id": "w12",
-              "text": "es"
+              "id": "w55",
+              "text": "past"
             },
             {
-              "id": "w11",
-              "text": "\u00bfCu\u00e1l"
+              "id": "w9",
+              "text": "la"
+            },
+            {
+              "id": "w46",
+              "text": "que"
+            },
+            {
+              "id": "w50",
+              "text": "dividida."
             },
             {
               "id": "w14",
-              "text": "profesi\u00f3n?"
+              "text": "el"
+            },
+            {
+              "id": "w11",
+              "text": "regular."
+            },
+            {
+              "id": "w60",
+              "text": "Para"
+            },
+            {
+              "id": "w4",
+              "text": "tienen."
+            },
+            {
+              "id": "w37",
+              "text": "encontrar."
+            },
+            {
+              "id": "w43",
+              "text": "verbos."
+            },
+            {
+              "id": "w57",
+              "text": "y"
+            },
+            {
+              "id": "w31",
+              "text": "de"
+            },
+            {
+              "id": "w61",
+              "text": "formar."
+            },
+            {
+              "id": "w69",
+              "text": "tendrás."
+            },
+            {
+              "id": "w3",
+              "text": "son"
+            },
+            {
+              "id": "w64",
+              "text": "simple."
+            },
+            {
+              "id": "w44",
+              "text": "irregulares)"
+            },
+            {
+              "id": "w74",
+              "text": "la"
+            },
+            {
+              "id": "w2",
+              "text": "que"
+            },
+            {
+              "id": "w73",
+              "text": "tanto"
+            },
+            {
+              "id": "w27",
+              "text": "hagas"
+            },
+            {
+              "id": "w10",
+              "text": "forma"
+            },
+            {
+              "id": "w59",
+              "text": "participle."
+            },
+            {
+              "id": "w19",
+              "text": "deben"
+            },
+            {
+              "id": "w30",
+              "text": "lista"
+            },
+            {
+              "id": "w33",
+              "text": "irregulares."
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w26",
+              "text": "te"
+            },
+            {
+              "id": "w65",
+              "text": "de"
+            },
+            {
+              "id": "w67",
+              "text": "verbo"
+            },
+            {
+              "id": "w25",
+              "text": "que"
+            },
+            {
+              "id": "w39",
+              "text": "nuestra."
+            },
+            {
+              "id": "w34",
+              "text": "que"
+            },
+            {
+              "id": "w18",
+              "text": "se"
+            },
+            {
+              "id": "w0",
+              "text": "como"
+            },
+            {
+              "id": "w32",
+              "text": "verbos."
+            },
+            {
+              "id": "w1",
+              "text": "irregulares."
+            },
+            {
+              "id": "w52",
+              "text": "tres"
+            },
+            {
+              "id": "w28",
+              "text": "con"
+            },
+            {
+              "id": "w42",
+              "text": "de"
+            },
+            {
+              "id": "w36",
+              "text": "puedes."
+            },
+            {
+              "id": "w71",
+              "text": "utilizar."
+            },
+            {
+              "id": "w7",
+              "text": "distinta."
+            },
+            {
+              "id": "w70",
+              "text": "que"
+            },
+            {
+              "id": "w29",
+              "text": "una"
+            },
+            {
+              "id": "w66",
+              "text": "un"
+            },
+            {
+              "id": "w35",
+              "text": "la"
+            },
+            {
+              "id": "w49",
+              "text": "está"
+            },
+            {
+              "id": "w76",
+              "text": "columna."
+            },
+            {
+              "id": "w22",
+              "text": "memoria."
+            },
+            {
+              "id": "w15",
+              "text": "punto"
+            },
+            {
+              "id": "w63",
+              "text": "past"
+            },
+            {
+              "id": "w24",
+              "text": "recomiendo."
+            },
+            {
+              "id": "w41",
+              "text": "(lista."
+            },
+            {
+              "id": "w68",
+              "text": "irregular."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 143 (Education: University Life):",
-          "stimulus_en": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without - amazing (___)",
+          "stimulus_en": "Whose books are those= or Whose are those books (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 143 (Education: University Life)",
-          "stimulus_en": "My neighbour always spoils my holidays (now)",
-          "stimulus_es": "Ref: my / My / spoils / neighbour / holidays / always (now)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 143 (Education: University Life)",
+          "stimulus_en": "ADJECTIVE + NOUN.",
+          "stimulus_es": "Ref: 2. Siempre van antes del sustantivo, la regla es.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 143 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es el d\u00eda m\u00e1s feliz que has tenido nunca? - interesting",
-              "right": "What\u2019s the happiest day you\u2019ve ever had - interesting"
+              "left": "angry / Our / teacher / English / usually / is.",
+              "right": "Our English teacher is usually angry."
             },
             {
               "id": "p1",
-              "left": "often, usually y sometimes tambi\u00e9n se pueden escribir al principio de oraci\u00f3n!",
-              "right": "Sometimes I have lunch in a restaurant.!"
+              "left": "Common mistake.",
+              "right": "I hadn’t got a mobile."
             },
             {
               "id": "p2",
-              "left": "The correct thing (today)",
-              "right": "on the Internet (today)"
+              "left": "– Fechas concretas.",
+              "right": "on 5th May, on Christmas Day, on New Year’s Eve, on St. Valentine’s Day, on my birthday = siempre que sea una fecha concreta, ese día y no otro, utilizamos la preposición on."
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca? (now)",
-              "right": "What\u2019s the highest building you\u2019ve ever visited (now)"
+              "left": "No me quiero sentar enfrente de él.",
+              "right": "I don’t want to sit opposite him."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 143 (Education: University Life):",
-          "tts_en": "do you have a car - 222",
-          "correct_answer": "do you have a car - 222",
+          "tts_en": "I hardly ever go to the cinema = casi nunca voy al cine.",
+          "correct_answer": "I hardly ever go to the cinema = casi nunca voy al cine",
           "mastery_tag": "listening",
           "interaction_id": "U18_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 143:",
           "options": [
             {
-              "id": "o1",
-              "text": "Moon"
-            },
-            {
-              "id": "o3",
-              "text": "Planet"
-            },
-            {
-              "id": "o0",
-              "text": "Sun"
+              "id": "o2",
+              "text": "green"
             },
             {
               "id": "o4",
-              "text": "Hot7969"
+              "text": "run"
             },
             {
-              "id": "o2",
-              "text": "Star"
+              "id": "o3",
+              "text": "pink"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
             }
           ],
           "correct_answer": "o4",
@@ -1860,65 +2285,65 @@
           "interaction_id": "U18_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 143 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "Otro common mistake (today)",
-              "back": "I haven\u2019t a car. (today)"
+              "front": "También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
+              "back": "Can I have your ID/ passport/ credit card?."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 143 (Education: University Life):",
-          "instruction_en": "Explain Genitive Saxon using Education: University Life. [Ref: 59]",
+          "instruction_en": "Review Education: University Life from last week. [Ref: 23]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 143 (Education: University Life):",
-          "stimulus_en": "This is Education: University Life. (606)",
+          "stimulus_en": "Focus on Education: University Life. (708)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 126 (Education: University Life):",
-          "stimulus": "Matching set 5273",
+          "stimulus": "Matching set 2011.",
           "items": [
             {
               "id": "i0",
-              "text": "Pack Empaquetar\f\u2022Pack a suitcase Page Pain Paint Painter Painting Pale Pair \u2022A pair of shoes Panda Paper Paragraph Pardon \u2022Pardon? Parent Park Parking lot (Br Eng.",
+              "text": "Metre (Br Eng) (Am Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Common mistake (now)",
+              "text": "El adjetivo dice una cualidad de algo, por ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Uncountable nouns - amazing",
+              "text": "Many, para countable, decimos.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - amazing"
-            },
-            {
               "id": "m1",
-              "text": "I hadn\u2019t got a mobile. (now)"
+              "text": "grande, pequeño, bonito, feo, alargado, estrecho, etc."
             },
             {
               "id": "m0",
-              "text": "car park) Parrot Part \u2022The best part of the day Partner Party Pass \u2022You pass the station on the."
+              "text": "meter) Metro."
+            },
+            {
+              "id": "m2",
+              "text": "I don’t have many friends (friends is countable)."
             }
           ],
           "correct_answer": {
@@ -1930,26 +2355,26 @@
           "interaction_id": "U18_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 126 (Education: University Life):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "would you like some more (now)"
+                  "text": "Yesterday at 8 p.m. I was watching TV = está acción ocurrió en el pasado, pero cuando tú lo dices, es como si te trasladaras an ayer a las 8 y la vivieras de nuevo, y an eso nos referimos cuando decimos «en progreso». Como ves, se trata de una acción larga en el pasado."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "s\u00f3lo una inversi\u00f3n por oraci\u00f3n!!"
+                  "text": "Next to my school there aren’t any apartment blocks."
                 }
               ]
             }
@@ -1958,20 +2383,20 @@
           "interaction_id": "U18_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 126 (Education: University Life):",
-          "main_text": "In Education: University Life (599), Our neighbors [GAP 1] and [GAP 2].",
+          "main_text": "In Education: University Life (5385), The scientist [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "meet"
                 }
               ]
             },
@@ -1980,11 +2405,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "sold"
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "sell"
                 }
               ]
             }
@@ -1997,22 +2422,22 @@
           "interaction_id": "U18_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 126 para Education: University Life:",
-          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en ingl\u00e9s, o niego el verbo o niego el pronombre indefinido, pero nunca ambos..",
-          "stimulus_es": "Cuando \u00abnada\u00bb, \u00abnadie\u00bb o \u00abning\u00fan sitio\u00bb NO va en primera posici\u00f3n (no es el sujeto, sino el objeto), podemos utilizar \u00abany\u00bb o \u00abno\u00bb, dependiendo de c\u00f3mo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos \u00abany\u00bb y si lo pongo sin negar (es positivo), entonces utilizamos \u00abno\u00bb. Esto es as\u00ed porque en ingl\u00e9s s\u00f3lo es posible poner una palabra negativa en una oraci\u00f3n, nunca dos, como sucede en espa\u00f1ol. Yo es espa\u00f1ol puedo decir.",
+          "stimulus_en": "Do you have any children.",
+          "stimulus_es": "Tienes hijos?",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o2",
+              "text": "Option B."
             },
             {
-              "id": "o2",
-              "text": "Option B"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 4980"
+              "text": "Other 3494."
             }
           ],
           "correct_answer": "o1",
@@ -2020,95 +2445,103 @@
           "interaction_id": "U18_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 126 sobre Education: University Life:",
           "options": [
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w0",
+              "text": "What"
             },
             {
-              "id": "w0",
-              "text": "Have"
+              "id": "w2",
+              "text": "Juan"
             },
             {
               "id": "w3",
-              "text": "car?"
+              "text": "do"
             },
             {
               "id": "w1",
-              "text": "you"
+              "text": "does"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U18_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 144 (Education: University Life):",
-          "stimulus_en": "How is your mum feeling... (___)",
+          "stimulus_en": "igual hago algo… (but I’m not sure…). (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U18_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 144 (Education: University Life)",
-          "stimulus_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de \u2018Can I go to the toilet...",
-          "stimulus_es": "Ref: puedo abrir la ventana, por favor?...",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 144 (Education: University Life)",
+          "stimulus_en": "Whose car is that.",
+          "stimulus_es": "Ref: De quién ese coche?",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U18_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 144 (Education: University Life):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversi\u00f3n de Have, como en nuestro ejemplo (today)",
-              "right": "Have you ever written a poem? = tenemos la inversi\u00f3n de have, seguido del sujeto\u00a0 m\u00e1s el participio written, que es irregular. (today)"
+              "left": "Cuál es el edificio más alto que has visitado nunca?",
+              "right": "What’s the highest building you’ve ever visited."
             },
             {
               "id": "p1",
-              "left": "\u00bfEst\u00e1s estudiando franc\u00e9s?!",
-              "right": "are you learning French?!"
+              "left": "2. El infinitivo no lleva delante to. Un error típico es decir.",
+              "right": "I can to speak English."
             },
             {
               "id": "p2",
-              "left": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba (now)",
-              "right": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
+              "left": "2. Let’s do the same with the first example.",
+              "right": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
             },
             {
               "id": "p3",
-              "left": "Cu\u00e1nto cuesta? - amazing",
-              "right": "cuidado con esta pregunta porque a menudo los alumnos dicen: \u00abhow much cost - amazing"
+              "left": "3. usually/ arrives late / the bus.",
+              "right": "the bus usually arrives late."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 144 (Education: University Life):",
-          "tts_en": "I often fish for hours without catching anything - amazing",
-          "correct_answer": "I often fish for hours without catching anything - amazing",
+          "tts_en": "I haven’t a car.",
+          "correct_answer": "I haven’t a car",
           "mastery_tag": "listening",
           "interaction_id": "U18_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 144:",
           "options": [
             {
               "id": "o0",
               "text": "car"
+            },
+            {
+              "id": "o2",
+              "text": "train"
+            },
+            {
+              "id": "o4",
+              "text": "cat"
             },
             {
               "id": "o1",
@@ -2117,14 +2550,6 @@
             {
               "id": "o3",
               "text": "plane"
-            },
-            {
-              "id": "o2",
-              "text": "train"
-            },
-            {
-              "id": "o4",
-              "text": "cat6042"
             }
           ],
           "correct_answer": "o4",
@@ -2132,29 +2557,29 @@
           "interaction_id": "U18_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 144 - Education: University Life:",
           "cards": [
             {
               "id": "c1",
-              "front": "Otro ejemplo - 448",
-              "back": "My partner is the most beautiful woman in the world - 448"
+              "front": "Otro ejemplo.",
+              "back": "la casa de María es grande = María’s house is big."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U18_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 144 (Education: University Life):",
-          "instruction_en": "Write a note about Education: University Life. [Ref: 46]",
+          "instruction_en": "Write a note about Education: University Life. [Ref: 23]",
           "mastery_tag": "writing",
           "interaction_id": "U18_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 144 (Education: University Life):",
-          "stimulus_en": "Talk about Education: University Life. (474)",
+          "stimulus_en": "Focus on Education: University Life. (843)",
           "mastery_tag": "speaking",
           "interaction_id": "U18_I100"
         }

@@ -1,7 +1,7 @@
 {
   "course": {
     "unit_id": "unit43",
-    "unit_title": "Adjectives vs Adverbs - Descriptions: Appearance",
+    "unit_title": "Adjectives vs Adverbs - Descriptions: Appearance.",
     "level": "A2",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
@@ -10,92 +10,92 @@
   "blocks": [
     {
       "block_id": "U43_B1",
-      "title": "Unit Practice",
+      "title": "Unit Practice.",
       "duration_minutes": 60,
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducci\u00f3n a la unidad 43",
+          "type": "audio_player.",
+          "prompt_es": "Introducción a la unidad 43.",
           "tts_en": "Starting unit 43. Topic: Descriptions: Appearance. Focus: Adjectives vs Adverbs.",
           "mastery_tag": "listening",
           "interaction_id": "U43_I1"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 337 (Descriptions: Appearance):",
-          "stimulus_en": "Do you have any children (now) (___)",
+          "stimulus_en": "Indirect questions en inglés. (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I2"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 337 (Descriptions: Appearance)",
-          "stimulus_en": "Next to my house there is a nursery school. - interesting",
-          "stimulus_es": "Ref: Al lado de mi casa hay una guarder\u00eda - interesting",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 337 (Descriptions: Appearance)",
+          "stimulus_en": "The police always try to keep the order.",
+          "stimulus_es": "Ref: try / police / keep / The / order / always / to / the.",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I3"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 337 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "\u2013 D\u00edas de la semana (today)",
-              "right": "on Monday, on Wednesday, etc. (today)"
+              "left": "Por ejemplo.",
+              "right": "Él es guapo. ¿»Guapo» es adjetivo o adverbio? ¿A quién se refiere? A él, por tanto, ADJETIVO."
             },
             {
               "id": "p1",
-              "left": "Cu\u00e1ndo la ayudaste? (today)",
-              "right": "When did you help him/her (today)"
+              "left": "Y por último, deciros que hay un caso en el que some se utiliza con preguntas, en lugar de any. Cuando nos encontramos con ofrecimientos, por ejemplo.",
+              "right": "would you like some coke?"
             },
             {
               "id": "p2",
-              "left": "La pronunciaci\u00f3n de thirty, important\u00edsimo porque es un t\u00edpico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no s\u00f3lo sucede con el n\u00famero thirty, sino siempre que tenemos ir, por ejemplo - amazing",
-              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuch\u00e9is el siguiente audio y practiqu\u00e9is. - amazing"
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             },
             {
               "id": "p3",
-              "left": "5. never / drinks coffee in the evening / she - amazing",
-              "right": "she never drinks coffee in the evening - amazing"
+              "left": "often, usually y sometimes también se pueden escribir al principio de oración.",
+              "right": "Sometimes I have lunch in a restaurant."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I4"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 337 (Descriptions: Appearance):",
-          "tts_en": "Is she studying English...",
-          "correct_answer": "Is she studying English...",
+          "tts_en": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet.",
+          "correct_answer": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet",
           "mastery_tag": "listening",
           "interaction_id": "U43_I5"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 337:",
           "options": [
             {
-              "id": "o3",
-              "text": "Drums"
+              "id": "o1",
+              "text": "Sad"
             },
             {
               "id": "o4",
-              "text": "Book6388"
+              "text": "Fast"
             },
             {
-              "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o0",
-              "text": "Guitar"
+              "id": "o3",
+              "text": "Calm"
             },
             {
               "id": "o2",
-              "text": "Flute"
+              "text": "Angry"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -103,65 +103,65 @@
           "interaction_id": "U43_I6"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 337 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "The correct thing - amazing",
-              "back": "Have you got a car? - amazing"
+              "front": "Está estudiando ella inglés?",
+              "back": "Is she studying English."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I7"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 337 (Descriptions: Appearance):",
-          "instruction_en": "Explain Adjectives vs Adverbs using Descriptions: Appearance. [Ref: 35]",
+          "instruction_en": "Why is Descriptions: Appearance important? [Ref: 77]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I8"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 337 (Descriptions: Appearance):",
-          "stimulus_en": "Talk about Descriptions: Appearance. (254)",
+          "stimulus_en": "Look at Descriptions: Appearance. (178)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I9"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 295 (Descriptions: Appearance):",
-          "stimulus": "Matching set 5776",
+          "stimulus": "Matching set 3790.",
           "items": [
             {
               "id": "i0",
-              "text": "Por qu\u00e9 no me lo dijiste?.",
+              "text": "Litre (Br Eng) (Am Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "TV / ever / hardly / I / in / watch / evenings / the...",
+              "text": "Has visto mis llaves en algún sitio?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Uncountable nouns - 972",
+              "text": "Cómo se siente tu madre?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m2",
-              "text": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - 972"
+              "id": "m0",
+              "text": "liter) Litro."
             },
             {
-              "id": "m0",
-              "text": "Why didn\u2019t you tell me."
+              "id": "m2",
+              "text": "How is your mum feeling."
             },
             {
               "id": "m1",
-              "text": "I hardly ever watch TV in the evenings..."
+              "text": "have you seen my keys anywhere."
             }
           ],
           "correct_answer": {
@@ -173,26 +173,26 @@
           "interaction_id": "U43_I10"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 295 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l)...."
+                  "text": "I can to speak English."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I haven\u2019t a car.."
+                  "text": "have you ever played chess."
                 }
               ]
             }
@@ -201,20 +201,20 @@
           "interaction_id": "U43_I11"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 295 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (7726), The boss [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (2334), The singer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "drank"
+                  "text": "cooked."
                 },
                 {
                   "id": "o2",
-                  "text": "drink"
+                  "text": "cook"
                 }
               ]
             },
@@ -223,11 +223,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "built"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
-                  "text": "build"
+                  "text": "learn"
                 }
               ]
             }
@@ -240,22 +240,22 @@
           "interaction_id": "U43_I12"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 295 para Descriptions: Appearance:",
-          "stimulus_en": "are you learning French? (now)",
-          "stimulus_es": "\u00bfEst\u00e1s estudiando franc\u00e9s? (now)",
+          "stimulus_en": "Spain‘s monuments are very nice.",
+          "stimulus_es": "3. el primer elemento es un país/ciudad/pueblo… Ejemplo.",
           "options": [
             {
-              "id": "o2",
-              "text": "Option B"
-            },
-            {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             },
             {
               "id": "o3",
-              "text": "Other 2493"
+              "text": "Other 1402."
+            },
+            {
+              "id": "o2",
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -263,126 +263,136 @@
           "interaction_id": "U43_I13"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 295 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w4",
-              "text": "bed"
-            },
-            {
               "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "11"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "often"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "go"
+              "text": "cousin’s."
             },
             {
               "id": "w5",
-              "text": "before"
+              "text": "and"
+            },
+            {
+              "id": "w7",
+              "text": "mother."
+            },
+            {
+              "id": "w0",
+              "text": "my"
+            },
+            {
+              "id": "w2",
+              "text": "husband."
+            },
+            {
+              "id": "w8",
+              "text": "Irish"
+            },
+            {
+              "id": "w6",
+              "text": "his"
+            },
+            {
+              "id": "w4",
+              "text": "German."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I14"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 338 (Descriptions: Appearance):",
-          "stimulus_en": "have you ever played chess... (___)",
+          "stimulus_en": "What’s the highest building you’ve ever visited (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I15"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 338 (Descriptions: Appearance)",
-          "stimulus_en": "chemist) Farmacia (today)",
-          "stimulus_es": "Ref: Drugstore (Br Eng (today)",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 338 (Descriptions: Appearance)",
+          "stimulus_en": "situación específica = ésta opción siempre lleva un possessive adjective (my, your, his, her, our, their) o un artículo indefinido (a).",
+          "stimulus_es": "Ref: in + car/ taxi.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I16"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 338 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Si el n\u00famero lleva un 0 por en medio, 1903, decimos - interesting",
-              "right": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - interesting"
+              "left": "often / money / Sally / her / borrows / friends / from.",
+              "right": "Sally often borrows money from her friends."
             },
             {
               "id": "p1",
-              "left": "Hay muchos bares cerca de mi casa...",
-              "right": "There are a lot of bars near my house...."
+              "left": "Al lado de mi casa hay una guardería.",
+              "right": "Next to my house there is a nursery school."
             },
             {
               "id": "p2",
-              "left": "El genitivo saj\u00f3n se utiliza para expresar posesi\u00f3n. Por ejemplo, si quiero decir...",
-              "right": "el coche de Pedro es rojo, como estamos hablando de una posesi\u00f3n (coche de Pedro), aqu\u00ed necesitamos el genitivo saj\u00f3n...."
+              "left": "Uncountable nouns.",
+              "right": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano»."
             },
             {
               "id": "p3",
-              "left": "\u2013 For + period of time (not defined) (today)",
-              "right": "durante o desde hace (today)"
+              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question teníamos la inversión entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet? ), en la indirect question, ya no hay inversión, sino que tenemos question word + subject + verb. Si te das cuenta, la inversión la tenemos en ‘Can you tell me…’. Como ya tenemos una inversión al comenzar la pregunta, ya no podemos hacer otra inversión. Recuerda.",
+              "right": "sólo una inversión por oración!"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I17"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 338 (Descriptions: Appearance):",
-          "tts_en": "have you ever studied a foreign laguage apart from English - interesting",
-          "correct_answer": "have you ever studied a foreign laguage apart from English - interesting",
+          "tts_en": "It’s mine (es mía) o it’s his (es suya – de él)",
+          "correct_answer": "It’s mine (es mía) o it’s his (es suya – de él)",
           "mastery_tag": "listening",
           "interaction_id": "U43_I18"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 338:",
           "options": [
             {
+              "id": "o4",
+              "text": "Slow"
+            },
+            {
               "id": "o3",
-              "text": "Friday"
-            },
-            {
-              "id": "o0",
-              "text": "Monday"
-            },
-            {
-              "id": "o1",
-              "text": "Tuesday"
+              "text": "Paris"
             },
             {
               "id": "o2",
-              "text": "Sunday"
+              "text": "Berlin."
             },
             {
-              "id": "o4",
-              "text": "June1758"
+              "id": "o1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "o0",
+              "text": "London."
             }
           ],
           "correct_answer": "o4",
@@ -390,65 +400,65 @@
           "interaction_id": "U43_I19"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 338 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "Uncountable nouns - 761",
-              "back": "no se pueden contar. Por ejemplo, az\u00facar, no puedo decir dos az\u00facares, 7 az\u00facares, simplemente, az\u00facar como tal, como sustancia \u00aben grano\u00bb. - 761"
+              "front": "Verbos irregulares.",
+              "back": "como irregulares que son, tienen una forma distinta a la forma regular comentada en el punto 1, y se deben aprender de memoria. Te recomiendo que te hagas con una lista de verbos irregulares, que la puedes encontrar en nuestra web (lista de verbos irregulares). Verás que esta lista está dividida en tres columnas, infinitivo, past simple y past participle. Para formar el past simple de un verbo irregular tendrás que utilizar por tanto, la segunda columna."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I20"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 338 (Descriptions: Appearance):",
-          "instruction_en": "Why is Descriptions: Appearance important? [Ref: 19]",
+          "instruction_en": "Explain Adjectives vs Adverbs using Descriptions: Appearance. [Ref: 52]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I21"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 338 (Descriptions: Appearance):",
-          "stimulus_en": "Study Descriptions: Appearance now. (142)",
+          "stimulus_en": "Where is Descriptions: Appearance? (580)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I22"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 296 (Descriptions: Appearance):",
-          "stimulus": "Matching set 8996",
+          "stimulus": "Matching set 7932.",
           "items": [
             {
               "id": "i0",
-              "text": "Sin embargo, si queremos expresar la familia de \u00abcualquier\u00bb y \u00e9ste aparece a principo de oraci\u00f3n, debemos utilizar la \u00abany\u00bb, ejemplo - 833",
+              "text": "De quién es ese móvil?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Seguramente, esta pregunta la conoces ya de hace tiempo y nunca te hayas planteado por qu\u00e9 el from al final, quiz\u00e1 la aprendiste as\u00ed en su d\u00eda y la tienes ya tan asimilada que no te planteas por qu\u00e9 la preposici\u00f3n est\u00e1 al final, cuando en espa\u00f1ol, decimos la preposici\u00f3n de (from) al principio (now)",
+              "text": "Cuando hablamos de hundred, thousand y million, podemos encontrarlo con y sin -s de plural. Te explico la diferencia. Si la palabra hundred, thousand y million lleva un número delante y detrás un sustantivo, entonces no ponemos la -s de plural, por ejemplo.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Mi cumplea\u00f1os es en febrero...",
+              "text": "Cabe destacar que la palabra every es singular en inglés, por tanto, tanto «day» como cualquiera de los días que pongamos, deben ir en singular. Es incorrecto decir.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
-              "id": "m0",
-              "text": "anybody can answer = cualquiera puede contestar / anything affects her = cualquier cosa le afecta. - 833"
+              "id": "m2",
+              "text": "every days o every Tuesdays."
             },
             {
               "id": "m1",
-              "text": "\u00bfDe d\u00f3nde eres? (now)"
+              "text": "3 thousand people = tres mil personas / 2 million cars / 4 hundred children."
             },
             {
-              "id": "m2",
-              "text": "my birthday is in February...."
+              "id": "m0",
+              "text": "Whose mobile is that."
             }
           ],
           "correct_answer": {
@@ -460,26 +470,26 @@
           "interaction_id": "U43_I23"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 296 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "my cousin\u2019s husband is German and his mother Irish. (now)"
+                  "text": "on the Internet."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "la pel\u00edcula, entonces SUBJECT = THE FILM (now)"
+                  "text": "my cousin’s husband is German and his mother Irish."
                 }
               ]
             }
@@ -488,20 +498,20 @@
           "interaction_id": "U43_I24"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 296 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (7949), The actress [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (5123), The police officer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "finished."
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "finish."
                 }
               ]
             },
@@ -510,11 +520,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "organized"
+                  "text": "organized."
                 },
                 {
                   "id": "o2",
-                  "text": "organize"
+                  "text": "organize."
                 }
               ]
             }
@@ -527,22 +537,22 @@
           "interaction_id": "U43_I25"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 296 para Descriptions: Appearance:",
-          "stimulus_en": "la forma base, la forma comparativa y la forma superlativa. En lengua lo llamamos \u00abgrados\u00bb, comparativo y superlativo....",
-          "stimulus_es": "Los adjetivos tienen tres formas...",
+          "stimulus_en": "Does that computer work.",
+          "stimulus_es": "Funciona ese ordenador?",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 301."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
-              "id": "o3",
-              "text": "Other 5155"
+              "id": "o1",
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -550,281 +560,101 @@
           "interaction_id": "U43_I26"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 296 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w8",
-              "text": "hundreds"
-            },
-            {
-              "id": "w35",
-              "text": "s"
-            },
-            {
-              "id": "w30",
-              "text": "la"
-            },
-            {
-              "id": "w12",
-              "text": "cientos"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w23",
-              "text": "Como"
-            },
-            {
-              "id": "w21",
-              "text": "de"
-            },
-            {
-              "id": "w33",
-              "text": "y"
-            },
-            {
-              "id": "w34",
-              "text": "la"
-            },
-            {
-              "id": "w11",
-              "text": "="
+              "id": "w1",
+              "text": "Librería."
             },
             {
               "id": "w0",
-              "text": "thousands"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w27",
-              "text": "los"
-            },
-            {
-              "id": "w26",
-              "text": "todos"
-            },
-            {
-              "id": "w2",
-              "text": "people"
-            },
-            {
-              "id": "w20",
-              "text": "millones"
-            },
-            {
-              "id": "w4",
-              "text": "miles"
-            },
-            {
-              "id": "w14",
-              "text": "profesores"
-            },
-            {
-              "id": "w10",
-              "text": "teachers"
-            },
-            {
-              "id": "w24",
-              "text": "ves"
-            },
-            {
-              "id": "w19",
-              "text": "="
-            },
-            {
-              "id": "w32",
-              "text": "of"
-            },
-            {
-              "id": "w15",
-              "text": "/"
-            },
-            {
-              "id": "w17",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "de"
-            },
-            {
-              "id": "w9",
-              "text": "of"
-            },
-            {
-              "id": "w13",
-              "text": "de"
-            },
-            {
-              "id": "w29",
-              "text": "decimos"
-            },
-            {
-              "id": "w25",
-              "text": "en"
-            },
-            {
-              "id": "w36",
-              "text": "de"
-            },
-            {
-              "id": "w37",
-              "text": "plural"
-            },
-            {
-              "id": "w18",
-              "text": "dollars"
-            },
-            {
-              "id": "w1",
-              "text": "of"
-            },
-            {
-              "id": "w22",
-              "text": "d\u00f3lares"
-            },
-            {
-              "id": "w16",
-              "text": "millions"
-            },
-            {
-              "id": "w28",
-              "text": "casos"
-            },
-            {
-              "id": "w31",
-              "text": "preposici\u00f3n"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
+              "text": "bookshop)"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15",
-            "w16",
-            "w17",
-            "w18",
-            "w19",
-            "w20",
-            "w21",
-            "w22",
-            "w23",
-            "w24",
-            "w25",
-            "w26",
-            "w27",
-            "w28",
-            "w29",
-            "w30",
-            "w31",
-            "w32",
-            "w33",
-            "w34",
-            "w35",
-            "w36",
-            "w37"
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I27"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 339 (Descriptions: Appearance):",
-          "stimulus_en": "\u2013 What do you do? \u00a0\u2013 I\u2019m watching TV. = \u2013 \u00bfCu\u00e1l es tu profesi\u00f3n? \u00a0\u2013 Estoy viendo la tele. (today) (___)",
+          "stimulus_en": "no se pueden contar. Por ejemplo, azúcar, no puedo decir dos azúcares, 7 azúcares, simplemente, azúcar como tal, como sustancia «en grano». (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I28"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 339 (Descriptions: Appearance)",
-          "stimulus_en": "I always read books slowly - amazing",
-          "stimulus_es": "Ref: 7. read books slowly / I / always - amazing",
-          "correct_answer": true,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 339 (Descriptions: Appearance)",
+          "stimulus_en": "Spain‘s monuments are very nice.",
+          "stimulus_es": "Ref: 3. el primer elemento es un país/ciudad/pueblo… Ejemplo.",
+          "correct_answer": false,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I29"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 339 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "The correct thing (now)",
-              "right": "Have you got a car? (now)"
+              "left": "4. La pelota de las niñas.",
+              "right": "The girls’ ball."
             },
             {
               "id": "p1",
-              "left": "Has visto mis llaves en alg\u00fan sitio? (today)",
-              "right": "have you seen my keys anywhere (today)"
+              "left": "Qué quieres?",
+              "right": "la respuesta es ilimitada, puede ser cualquier cosa."
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el chiste m\u00e1s gracioso que te han contado nunca?.",
-              "right": "What\u2019s the funniest joke you\u2019ve ever been told."
+              "left": "Tienes coche?",
+              "right": "do you have a car."
             },
             {
               "id": "p3",
-              "left": "2. el primer elemento es un animal. Ejemplo!",
-              "right": "the bird\u2018s legs = las piernas del p\u00e1jaro.!"
+              "left": "Many, para countable, decimos.",
+              "right": "I don’t have many friends (friends is countable)."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I30"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 339 (Descriptions: Appearance):",
-          "tts_en": "Whose car is that - amazing",
-          "correct_answer": "Whose car is that - amazing",
+          "tts_en": "What time is it.",
+          "correct_answer": "What time is it",
           "mastery_tag": "listening",
           "interaction_id": "U43_I31"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 339:",
           "options": [
             {
               "id": "o2",
-              "text": "Berlin"
+              "text": "Angry"
             },
             {
               "id": "o4",
-              "text": "Slow1120"
-            },
-            {
-              "id": "o1",
-              "text": "Tokyo"
-            },
-            {
-              "id": "o0",
-              "text": "London"
+              "text": "Fast"
             },
             {
               "id": "o3",
-              "text": "Paris"
+              "text": "Calm"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o0",
+              "text": "Happy"
             }
           ],
           "correct_answer": "o4",
@@ -832,65 +662,65 @@
           "interaction_id": "U43_I32"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 339 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "Y en negativa...",
-              "back": "I don\u2019t have any friends who live near my house...."
+              "front": "Cuál es el edificio más alto que has visitado nunca?",
+              "back": "What’s the highest building you’ve ever visited."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I33"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 339 (Descriptions: Appearance):",
-          "instruction_en": "List 3 facts about Descriptions: Appearance. [Ref: 72]",
+          "instruction_en": "Describe Descriptions: Appearance in 5 words. [Ref: 67]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I34"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 339 (Descriptions: Appearance):",
-          "stimulus_en": "Talk about Descriptions: Appearance. (907)",
+          "stimulus_en": "Improve Descriptions: Appearance. (760)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I35"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 297 (Descriptions: Appearance):",
-          "stimulus": "Matching set 6203",
+          "stimulus": "Matching set 8076.",
           "items": [
             {
               "id": "i0",
-              "text": "2. El infinitivo no lleva delante to. Un error t\u00edpico es decir!",
+              "text": "Tienes hermanos?",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Cookie (Br Eng (today)",
+              "text": "Si el número lleva un 0 por en medio, 1903, decimos.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "C\u00f3mo se llama \u00e9l?!",
+              "text": "Por qué no me lo dijiste?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "What\u2019s his name!"
+              "text": "Why didn’t you tell me."
             },
             {
               "id": "m0",
-              "text": "I can to speak English.!"
+              "text": "do you have any brothers or sisters."
             },
             {
               "id": "m1",
-              "text": "biscuit) Galleta (today)"
+              "text": "nineteen oh three. Ten encuenta que el número cero lo decimos aquí «oh». El número cero se puede expresar de muchas formas distintas en inglés, según de cómo se esté utilizando. Ahora después lo veremos en detalle."
             }
           ],
           "correct_answer": {
@@ -902,26 +732,26 @@
           "interaction_id": "U43_I36"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 297 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "nineteen oh three. Ten encuenta que el n\u00famero cero lo decimos aqu\u00ed \u00aboh\u00bb. El n\u00famero cero se puede expresar de muchas formas distintas en ingl\u00e9s, seg\u00fan de c\u00f3mo se est\u00e9 utilizando. Ahora despu\u00e9s lo veremos en detalle. - interesting"
+                  "text": "have you ever played chess."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "at \u00a0in \u00a0on \u00a0for \u00a0to \u00a0of \u00a0without (now)"
+                  "text": "Do you have any friends who live near your house? = al ser interrogativa, any."
                 }
               ]
             }
@@ -930,20 +760,327 @@
           "interaction_id": "U43_I37"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 297 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (9610), A colleague [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (6525), Maria [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "watched"
+                  "text": "walked."
                 },
                 {
                   "id": "o2",
-                  "text": "watch"
+                  "text": "walk"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "sold"
+                },
+                {
+                  "id": "o2",
+                  "text": "sell"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o1"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U43_I38"
+        },
+        {
+          "type": "multiple_choice.",
+          "prompt_es": "Elige 297 para Descriptions: Appearance:",
+          "stimulus_en": "I don’t let my children go out on a rainy day = no dejo a mis hijos salir en días lluviosos.",
+          "stimulus_es": "– On + adjective + day = on a rainy day, on a sunny day. Ejemplo.",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Option B."
+            },
+            {
+              "id": "o3",
+              "text": "Other 6846."
+            },
+            {
+              "id": "o1",
+              "text": "Option A."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "interaction_id": "U43_I39"
+        },
+        {
+          "type": "reorder_words.",
+          "prompt_es": "Ordena 297 sobre Descriptions: Appearance:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "de"
+            },
+            {
+              "id": "w4",
+              "text": "es"
+            },
+            {
+              "id": "w5",
+              "text": "grande."
+            },
+            {
+              "id": "w8",
+              "text": "house"
+            },
+            {
+              "id": "w7",
+              "text": "María’s."
+            },
+            {
+              "id": "w6",
+              "text": "="
+            },
+            {
+              "id": "w0",
+              "text": "la"
+            },
+            {
+              "id": "w10",
+              "text": "big"
+            },
+            {
+              "id": "w3",
+              "text": "María"
+            },
+            {
+              "id": "w9",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "casa"
+            }
+          ],
+          "correct_answer": [
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
+          ],
+          "mastery_tag": "syntax",
+          "interaction_id": "U43_I40"
+        },
+        {
+          "type": "fill_blanks.",
+          "prompt_es": "Completa 340 (Descriptions: Appearance):",
+          "stimulus_en": "autumn) En otoño (___)",
+          "correct_answer": "Option A",
+          "mastery_tag": "grammar",
+          "interaction_id": "U43_I41"
+        },
+        {
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 340 (Descriptions: Appearance)",
+          "stimulus_en": "verb patters.",
+          "stimulus_es": "Ref: En un post anterior sobre verb patterns puedes revisar la diferencia entre allow y let.",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "interaction_id": "U43_I42"
+        },
+        {
+          "type": "matching.",
+          "prompt_es": "Relaciona 340 (Descriptions: Appearance):",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Algunos ejemplos.",
+              "right": "at in on for to of without."
+            },
+            {
+              "id": "p1",
+              "left": "The correct thing.",
+              "right": "My friend has a lot of money."
+            },
+            {
+              "id": "p2",
+              "left": "Qué es éso?",
+              "right": "What’s that."
+            },
+            {
+              "id": "p3",
+              "left": "Deciros que sólo hay unas cuantas QUESTION WORDS que pueden llevar auxiliar o no llevarlo. Éstas son.",
+              "right": "who, what, which y how many/much. Sin embargo, when, where, why y how siempre han de llevar auxiliar."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U43_I43"
+        },
+        {
+          "type": "dictation_guided.",
+          "prompt_es": "Dictado 340 (Descriptions: Appearance):",
+          "tts_en": "How old is María.",
+          "correct_answer": "How old is María",
+          "mastery_tag": "listening",
+          "interaction_id": "U43_I44"
+        },
+        {
+          "type": "odd_one_out.",
+          "prompt_es": "Intruso 340:",
+          "options": [
+            {
+              "id": "o2",
+              "text": "green"
+            },
+            {
+              "id": "o0",
+              "text": "blue"
+            },
+            {
+              "id": "o4",
+              "text": "run"
+            },
+            {
+              "id": "o1",
+              "text": "red"
+            },
+            {
+              "id": "o3",
+              "text": "pink"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U43_I45"
+        },
+        {
+          "type": "flashcards.",
+          "prompt_es": "Flashcard 340 - Descriptions: Appearance:",
+          "cards": [
+            {
+              "id": "c1",
+              "front": "Cuál es la persona más tímida que has conocido nunca?",
+              "back": "Who’s the shyest person you’ve ever met."
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U43_I46"
+        },
+        {
+          "type": "writing_task.",
+          "prompt_es": "Escribe 340 (Descriptions: Appearance):",
+          "instruction_en": "Describe Descriptions: Appearance in 5 words. [Ref: 74]",
+          "mastery_tag": "writing",
+          "interaction_id": "U43_I47"
+        },
+        {
+          "type": "speaking_task.",
+          "prompt_es": "Habla 340 (Descriptions: Appearance):",
+          "stimulus_en": "Focus on Descriptions: Appearance. (332)",
+          "mastery_tag": "speaking",
+          "interaction_id": "U43_I48"
+        },
+        {
+          "type": "multiple_matching.",
+          "prompt_es": "Une 298 (Descriptions: Appearance):",
+          "stimulus": "Matching set 4362.",
+          "items": [
+            {
+              "id": "i0",
+              "text": "The correct thing.",
+              "match_id": "m0"
+            },
+            {
+              "id": "i1",
+              "text": "Has hablado alguna vez inglés por teléfono?",
+              "match_id": "m1"
+            },
+            {
+              "id": "i2",
+              "text": "Cuando queremos hacer una pregunta con el Present Perfec, necesitamos una inversión de Have, como en nuestro ejemplo.",
+              "match_id": "m2"
+            }
+          ],
+          "matches": [
+            {
+              "id": "m2",
+              "text": "Have you ever written a poem? = tenemos la inversión de have, seguido del sujeto más el participio written, que es irregular."
+            },
+            {
+              "id": "m1",
+              "text": "have you ever spoken English on the phone."
+            },
+            {
+              "id": "m0",
+              "text": "Have you got a car?"
+            }
+          ],
+          "correct_answer": {
+            "i0": "m0",
+            "i1": "m1",
+            "i2": "m2"
+          },
+          "mastery_tag": "reading",
+          "interaction_id": "U43_I49"
+        },
+        {
+          "type": "categorization.",
+          "prompt_es": "Clasifica 298 (Descriptions: Appearance):",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Group 1.",
+              "items": [
+                {
+                  "id": "t1",
+                  "text": "in the morning, in the afternoon, in the evening, pero at night (es una excepción)"
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Group 2.",
+              "items": [
+                {
+                  "id": "t2",
+                  "text": "el coche de Pedro es rojo, como estamos hablando de una posesión (coche de Pedro), aquí necesitamos el genitivo sajón."
+                }
+              ]
+            }
+          ],
+          "mastery_tag": "vocabulary",
+          "interaction_id": "U43_I50"
+        },
+        {
+          "type": "multiple_choice_cloze.",
+          "prompt_es": "Rellena 298 (Descriptions: Appearance):",
+          "main_text": "In Descriptions: Appearance (536), The waiter [GAP 1] and [GAP 2].",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "spoke"
+                },
+                {
+                  "id": "o2",
+                  "text": "speak"
                 }
               ]
             },
@@ -966,357 +1103,25 @@
             "2": "o1"
           },
           "mastery_tag": "reading",
-          "interaction_id": "U43_I38"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Elige 297 para Descriptions: Appearance:",
-          "stimulus_en": "Go straight on and in front of the church there is a supermarket.!",
-          "stimulus_es": "Sigue recto y delante de la iglesia hay un supermercado!",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Option A"
-            },
-            {
-              "id": "o3",
-              "text": "Other 5615"
-            },
-            {
-              "id": "o2",
-              "text": "Option B"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U43_I39"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena 297 sobre Descriptions: Appearance:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "million"
-            },
-            {
-              "id": "w0",
-              "text": "3"
-            },
-            {
-              "id": "w12",
-              "text": "4"
-            },
-            {
-              "id": "w1",
-              "text": "thousand"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w14",
-              "text": "children"
-            },
-            {
-              "id": "w6",
-              "text": "personas"
-            },
-            {
-              "id": "w15",
-              "text": "interesting"
-            },
-            {
-              "id": "w2",
-              "text": "people"
-            },
-            {
-              "id": "w13",
-              "text": "hundred"
-            },
-            {
-              "id": "w11",
-              "text": "/"
-            },
-            {
-              "id": "w10",
-              "text": "cars"
-            },
-            {
-              "id": "w5",
-              "text": "mil"
-            },
-            {
-              "id": "w8",
-              "text": "2"
-            },
-            {
-              "id": "w7",
-              "text": "/"
-            },
-            {
-              "id": "w4",
-              "text": "tres"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13",
-            "w14",
-            "w15"
-          ],
-          "mastery_tag": "syntax",
-          "interaction_id": "U43_I40"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa 340 (Descriptions: Appearance):",
-          "stimulus_en": "What time do we have our exam. (___)",
-          "correct_answer": "Option A",
-          "mastery_tag": "grammar",
-          "interaction_id": "U43_I41"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 340 (Descriptions: Appearance)",
-          "stimulus_en": "I don\u2019t want to sit opposite him. (now)",
-          "stimulus_es": "Ref: No me quiero sentar enfrente de \u00e9l (now)",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U43_I42"
-        },
-        {
-          "type": "matching",
-          "prompt_es": "Relaciona 340 (Descriptions: Appearance):",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Al lado de mi casa hay una guarder\u00eda...",
-              "right": "Next to my house there is a nursery school...."
-            },
-            {
-              "id": "p1",
-              "left": "Si por cierto necesitas ayuda con la formaci\u00f3n de preguntas, aqu\u00ed tienes material - amazing",
-              "right": "preguntas en ingl\u00e9s - amazing"
-            },
-            {
-              "id": "p2",
-              "left": "1. Often / she / write to me/ doesn\u2019t - 817",
-              "right": "she doesn\u2019t often write to me - 817"
-            },
-            {
-              "id": "p3",
-              "left": "Cu\u00e1ntos a\u00f1os tiene Mar\u00eda?.",
-              "right": "How old is Mar\u00eda."
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U43_I43"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Dictado 340 (Descriptions: Appearance):",
-          "tts_en": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)",
-          "correct_answer": "They\u2019re mine (son m\u00edos) OR they\u2019re his (son suyos \u2013 de \u00e9l). (today)",
-          "mastery_tag": "listening",
-          "interaction_id": "U43_I44"
-        },
-        {
-          "type": "odd_one_out",
-          "prompt_es": "Intruso 340:",
-          "options": [
-            {
-              "id": "o2",
-              "text": "salad"
-            },
-            {
-              "id": "o0",
-              "text": "pizza"
-            },
-            {
-              "id": "o4",
-              "text": "rain4069"
-            },
-            {
-              "id": "o1",
-              "text": "burger"
-            },
-            {
-              "id": "o3",
-              "text": "soup"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U43_I45"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Flashcard 340 - Descriptions: Appearance:",
-          "cards": [
-            {
-              "id": "c1",
-              "front": "Alguien dijo mi nombre? (today)",
-              "back": "Did anybody say my name (today)"
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U43_I46"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe 340 (Descriptions: Appearance):",
-          "instruction_en": "Draft an email regarding Descriptions: Appearance. [Ref: 14]",
-          "mastery_tag": "writing",
-          "interaction_id": "U43_I47"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Habla 340 (Descriptions: Appearance):",
-          "stimulus_en": "Focus on Descriptions: Appearance. (769)",
-          "mastery_tag": "speaking",
-          "interaction_id": "U43_I48"
-        },
-        {
-          "type": "multiple_matching",
-          "prompt_es": "Une 298 (Descriptions: Appearance):",
-          "stimulus": "Matching set 6557",
-          "items": [
-            {
-              "id": "i0",
-              "text": "\u00bfEst\u00e1s estudiando franc\u00e9s?...",
-              "match_id": "m0"
-            },
-            {
-              "id": "i1",
-              "text": "The correct thing - amazing",
-              "match_id": "m1"
-            },
-            {
-              "id": "i2",
-              "text": "Crees que bajar\u00e1 el paro este a\u00f1o?...",
-              "match_id": "m2"
-            }
-          ],
-          "matches": [
-            {
-              "id": "m1",
-              "text": "information, homework, work. - amazing"
-            },
-            {
-              "id": "m0",
-              "text": "are you learning French?..."
-            },
-            {
-              "id": "m2",
-              "text": "Do you think that unemployment will go down this year..."
-            }
-          ],
-          "correct_answer": {
-            "i0": "m0",
-            "i1": "m1",
-            "i2": "m2"
-          },
-          "mastery_tag": "reading",
-          "interaction_id": "U43_I49"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica 298 (Descriptions: Appearance):",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Group 1",
-              "items": [
-                {
-                  "id": "t1",
-                  "text": "have you ever played chess (now)"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Group 2",
-              "items": [
-                {
-                  "id": "t2",
-                  "text": "How is your mum feeling - amazing"
-                }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U43_I50"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Rellena 298 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (1209), My cousin [GAP 1] and [GAP 2].",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "read"
-                },
-                {
-                  "id": "o2",
-                  "text": "read"
-                }
-              ]
-            },
-            {
-              "id": "2",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "prepared"
-                },
-                {
-                  "id": "o2",
-                  "text": "prepare"
-                }
-              ]
-            }
-          ],
-          "correct_answer": {
-            "1": "o1",
-            "2": "o1"
-          },
-          "mastery_tag": "reading",
           "interaction_id": "U43_I51"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 298 para Descriptions: Appearance:",
-          "stimulus_en": "What time does the supermarket open...",
-          "stimulus_es": "A qu\u00e9 hora abre el supermercado?...",
+          "stimulus_en": "have you ever seen a film in original version.",
+          "stimulus_es": "Has visto alguna vez una película en versión original?",
           "options": [
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 4132."
             },
             {
-              "id": "o3",
-              "text": "Other 7229"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             }
           ],
           "correct_answer": "o1",
@@ -1324,131 +1129,106 @@
           "interaction_id": "U43_I52"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 298 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w5",
-              "text": "oraci\u00f3n"
-            },
-            {
-              "id": "w3",
-              "text": "="
-            },
-            {
-              "id": "w6",
-              "text": "INTERROGATIVA"
-            },
-            {
-              "id": "w4",
+              "id": "w1",
               "text": "en"
             },
             {
-              "id": "w2",
-              "text": "thing"
-            },
-            {
-              "id": "w1",
-              "text": "+"
-            },
-            {
-              "id": "w7",
-              "text": "amazing"
-            },
-            {
               "id": "w0",
-              "text": "any"
+              "text": "preguntas."
+            },
+            {
+              "id": "w2",
+              "text": "inglés."
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I53"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 341 (Descriptions: Appearance):",
-          "stimulus_en": "situaci\u00f3n espec\u00edfica = \u00e9sta opci\u00f3n siempre lleva un possessive adjective (my, your, his, her, our, their) o un art\u00edculo indefinido (a). (now) (___)",
+          "stimulus_en": "I never drink alcohol if I drive a car (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I54"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 341 (Descriptions: Appearance)",
-          "stimulus_en": "tire) Neum\u00e1tico.",
-          "stimulus_es": "Ref: Tyre (Am Eng.",
-          "correct_answer": false,
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 341 (Descriptions: Appearance)",
+          "stimulus_en": "it’s 5 euros and 2 cents (5.2) = es importante recordar que en inglés ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. También podemos omitir «cents».",
+          "stimulus_es": "Ref: Esto si es un precio exacto, pero ¿y si hay céntimos? Entonces diríamos.",
+          "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I55"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 341 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "A lot of, countable y uncountable!",
-              "right": "I have a lot of money and I have a lot of friends.!"
+              "left": "Escribir inglés correctamente.",
+              "right": "uso de las mayúsculas."
             },
             {
               "id": "p1",
-              "left": "Otro ejemplo - 235",
-              "right": "My friend is 25 years old = who is 25 years old? = my friend, por tanto, my friend es el sujeto. - 235"
+              "left": "Normalmente se pregunta «How often» y se contesta con uno de estos adverbios, por ejemplo.",
+              "right": "how often do you have Italian classes? = I have every Tuesday."
             },
             {
               "id": "p2",
-              "left": "\u00bfC\u00f3mo saber que \u00abthe film\u00bb es el sujeto? Preguntamos al verbo SIEMPRE \u00abqui\u00e9n\u00bb o \u00abqu\u00e9\u00bb. Hacemos la prueba - 484",
-              "right": "\u00bfQu\u00e9 es lo que empieza? = la pel\u00edcula, entonces SUBJECT = THE FILM - 484"
+              "left": "3. Hardly ever es otro adverbio de frecuencia que se pone entre el sujeto y el verbo y signifca apenas, casi nunca.",
+              "right": "I hardly ever go to the cinema = casi nunca voy al cine."
             },
             {
               "id": "p3",
-              "left": "French fries (Br Eng.",
-              "right": "chips) Patatas fritas."
+              "left": "2. Let’s do the same with the first example.",
+              "right": "Who is celebrating dad’s birthday? = the answer is My family and I, so subject!"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I56"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 341 (Descriptions: Appearance):",
-          "tts_en": "What time does the bus leave - 727",
-          "correct_answer": "What time does the bus leave - 727",
+          "tts_en": "Have you ever tried Thai food.",
+          "correct_answer": "Have you ever tried Thai food",
           "mastery_tag": "listening",
           "interaction_id": "U43_I57"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 341:",
           "options": [
             {
               "id": "o2",
-              "text": "Sofa"
-            },
-            {
-              "id": "o1",
-              "text": "Chair"
-            },
-            {
-              "id": "o0",
-              "text": "Table"
+              "text": "train"
             },
             {
               "id": "o3",
-              "text": "Bed"
+              "text": "plane"
+            },
+            {
+              "id": "o0",
+              "text": "car"
             },
             {
               "id": "o4",
-              "text": "Pen9742"
+              "text": "cat"
+            },
+            {
+              "id": "o1",
+              "text": "bus"
             }
           ],
           "correct_answer": "o4",
@@ -1456,65 +1236,65 @@
           "interaction_id": "U43_I58"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 341 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "2. Siempre van antes del sustantivo, la regla es!",
-              "back": "ADJECTIVE + NOUN!"
+              "front": "¿Estás estudiando francés?",
+              "back": "are you learning French?"
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I59"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 341 (Descriptions: Appearance):",
-          "instruction_en": "Review Descriptions: Appearance from last week. [Ref: 46]",
+          "instruction_en": "Describe Descriptions: Appearance in 5 words. [Ref: 82]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I60"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 341 (Descriptions: Appearance):",
-          "stimulus_en": "The Adjectives vs Adverbs is here. (245)",
+          "stimulus_en": "Where is Descriptions: Appearance? (669)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I61"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 299 (Descriptions: Appearance):",
-          "stimulus": "Matching set 6959",
+          "stimulus": "Matching set 8761.",
           "items": [
             {
               "id": "i0",
-              "text": "Has visto a alguien? (now)",
+              "text": "7. read books slowly / I / always.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Por qu\u00e9 no me lo dijiste? - 353",
+              "text": "Alguien dijo mi nombre?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "Otro common mistake.",
+              "text": "2. El infinitivo no lleva delante to. Un error típico es decir.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
               "id": "m2",
-              "text": "I haven\u2019t a car.."
+              "text": "I can to speak English."
             },
             {
               "id": "m1",
-              "text": "Why didn\u2019t you tell me - 353"
+              "text": "Did anybody say my name."
             },
             {
               "id": "m0",
-              "text": "igual que la oraci\u00f3n anterior, con la \u00fanica diferencia que esta oraci\u00f3n es INTERROGATIVA. La traducci\u00f3n en este caso es \u00abalguien\u00bb. (now)"
+              "text": "I always read books slowly."
             }
           ],
           "correct_answer": {
@@ -1526,26 +1306,26 @@
           "interaction_id": "U43_I62"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 299 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "rubber) Goma de borrar (now)"
+                  "text": "What does Juan do."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "I hardly ever go to the cinema = casi nunca voy al cine. - interesting"
+                  "text": "read, write, eat, run, sleep, etc."
                 }
               ]
             }
@@ -1554,20 +1334,20 @@
           "interaction_id": "U43_I63"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 299 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (8661), Our neighbors [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (7406), She [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "listened"
+                  "text": "planned."
                 },
                 {
                   "id": "o2",
-                  "text": "listen"
+                  "text": "plan"
                 }
               ]
             },
@@ -1576,11 +1356,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "listened."
                 },
                 {
                   "id": "o2",
-                  "text": "learn"
+                  "text": "listen."
                 }
               ]
             }
@@ -1593,22 +1373,22 @@
           "interaction_id": "U43_I64"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 299 para Descriptions: Appearance:",
-          "stimulus_en": "have you ever studied a foreign laguage apart from English - interesting",
-          "stimulus_es": "Has estudiado alguna vez un idioma extranjero diferente al ingl\u00e9s? - interesting",
+          "stimulus_en": "Paul sometimes helps me with my homework o sometimes Paul helps me with my homework.",
+          "stimulus_es": "me / Paul / helps / sometimes / my / with / homework.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 879"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 3546."
             }
           ],
           "correct_answer": "o1",
@@ -1616,136 +1396,126 @@
           "interaction_id": "U43_I65"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 299 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w0",
-              "text": "What\u2019s"
-            },
-            {
-              "id": "w2",
-              "text": "coldest"
-            },
-            {
-              "id": "w8",
-              "text": "interesting"
-            },
-            {
               "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "country"
-            },
-            {
-              "id": "w4",
-              "text": "you\u2019ve"
-            },
-            {
-              "id": "w5",
-              "text": "ever"
+              "text": "don’t"
             },
             {
               "id": "w6",
-              "text": "been"
+              "text": "him"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "opposite."
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "sit"
+            },
+            {
+              "id": "w2",
+              "text": "want"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I66"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 342 (Descriptions: Appearance):",
-          "stimulus_en": "she never drinks coffee in the evening! (___)",
+          "stimulus_en": "Paul’s birthday is on 8th May (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I67"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 342 (Descriptions: Appearance)",
-          "stimulus_en": "John\u2018s job is boring. - interesting",
-          "stimulus_es": "Ref: 1. el primer elemento (de esos tres que dec\u00edamos antes) es una persona. Ejemplo - interesting",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 342 (Descriptions: Appearance)",
+          "stimulus_en": "I haven’t a car.",
+          "stimulus_es": "Ref: Otro common mistake.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I68"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 342 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "La podemos contestar de la seguiente manera - interesting",
-              "right": "It\u2019s mine (es m\u00eda) o it\u2019s his (es suya \u2013 de \u00e9l) - interesting"
+              "left": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "right": "Jennifer usually goes out to see a concert."
             },
             {
               "id": "p1",
-              "left": "Common mistake (today)",
-              "right": "I hadn\u2019t got a mobile. (today)"
+              "left": "6. it / rain in the summer / often / doesn’t.",
+              "right": "it doesn’t often rain in the summer."
             },
             {
               "id": "p2",
-              "left": "M\u00e1s plurales irregulares que nos podemos encontrar son - 687",
-              "right": "men, women, people, etc. - 687"
+              "left": "Encontraste algo ahí?",
+              "right": "any + thing = en oración INTERROGATIVA."
             },
             {
               "id": "p3",
-              "left": "Normalmente se pregunta \u00abHow often\u00bb y se contesta con uno de estos adverbios, por ejemplo - 704",
-              "right": "how often do you have Italian classes? = I have every Tuesday. - 704"
+              "left": "2. Los días de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo.",
+              "right": "I have my English classes on Tuesdays and Thursdays puedo poner los días en plural, ya que es todos los martes y todos los jueves, no sólo uno."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I69"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 342 (Descriptions: Appearance):",
-          "tts_en": "She drives carefully. (today)",
-          "correct_answer": "She drives carefully. (today)",
+          "tts_en": "Had you got a motorbike…?",
+          "correct_answer": "Had you got a motorbike…?",
           "mastery_tag": "listening",
           "interaction_id": "U43_I70"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 342:",
           "options": [
             {
-              "id": "o0",
-              "text": "Happy"
+              "id": "o2",
+              "text": "Sunday."
             },
             {
-              "id": "o2",
-              "text": "Angry"
+              "id": "o0",
+              "text": "Monday."
             },
             {
               "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
+              "text": "Friday."
             },
             {
               "id": "o4",
-              "text": "Fast4532"
+              "text": "June"
+            },
+            {
+              "id": "o1",
+              "text": "Tuesday."
             }
           ],
           "correct_answer": "o4",
@@ -1753,65 +1523,65 @@
           "interaction_id": "U43_I71"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 342 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "Common mistake.",
-              "back": "Had you got a motorbike\u2026?."
+              "front": "Bien, debes saber que siempre que tengas una preposición en una pregunta, y esa preposición no tenga su complemento en dicha pregunta, la preposición se dice y se escribe al final, de ahí que en ‘Where are you from?’ el ‘from’ aparece al final. Si yo pregunto ‘¿de qué tienes miedo?’, que es en inglés What are you afraid of?, ¿ verdad que no estoy diciendo a qué cosa tengo miedo? Pues an eso me refiero cuando digo que la preposición ‘of’ no tiene a su complemento en esta pregunta. Sin embargo, si digo.",
+              "back": "¿Tienes miedo a los perros?, en inglés ‘Are you afraid of dogs?’, la preposición ‘of’ tiene su complemento que es ‘dogs’."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I72"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 342 (Descriptions: Appearance):",
-          "instruction_en": "Explain Adjectives vs Adverbs using Descriptions: Appearance. [Ref: 50]",
+          "instruction_en": "Explain Adjectives vs Adverbs using Descriptions: Appearance. [Ref: 26]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I73"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 342 (Descriptions: Appearance):",
-          "stimulus_en": "Where is Descriptions: Appearance? (207)",
+          "stimulus_en": "Improve Descriptions: Appearance. (507)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I74"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 300 (Descriptions: Appearance):",
-          "stimulus": "Matching set 3251",
+          "stimulus": "Matching set 5809.",
           "items": [
             {
               "id": "i0",
-              "text": "Dos acciones en el pasado que ocurren al mismo tiempo. Aqu\u00ed podemos utilizar when y while. Ejemplo!",
+              "text": "Elevator (Br Eng.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Otro ejemplo - 933",
+              "text": "try / police / keep / The / order / always / to / the.",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "see / usually / Jennifer / out / goes / a / to / concert.",
+              "text": "Qué es lo que empieza?",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m1",
+              "text": "The police always try to keep the order."
+            },
+            {
               "id": "m0",
-              "text": "I was watching TV while my husband was reading a book = los dos estamos haciendo algo, cada uno una acci\u00f3n, pero est\u00e1n ocurriendo las dos acciones al mismo tiempo.!"
+              "text": "lift) Ascensor."
             },
             {
               "id": "m2",
-              "text": "Jennifer usually goes out to see a concert."
-            },
-            {
-              "id": "m1",
-              "text": "My partner is the most beautiful woman in the world - 933"
+              "text": "la película, entonces SUBJECT = THE FILM."
             }
           ],
           "correct_answer": {
@@ -1823,26 +1593,26 @@
           "interaction_id": "U43_I75"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 300 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "I want to go to the cinema. En este caso to \u00a0no es una preposici\u00f3n, sino la palabra que se utiliza para unir dos verbos, want y go, ya que el verbo want siempre va seguido de to infinitive. Por tanto, cuando veas por ah\u00ed un to seguido de un -ing ya sabes que el to es preposici\u00f3n!..."
+                  "text": "Do you think that unemployment will go down this year."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "verb patters.."
+                  "text": "may I open the window, please."
                 }
               ]
             }
@@ -1851,20 +1621,20 @@
           "interaction_id": "U43_I76"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 300 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (717), Sarah [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (27), I [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "traveled"
+                  "text": "spoke"
                 },
                 {
                   "id": "o2",
-                  "text": "travel"
+                  "text": "speak"
                 }
               ]
             },
@@ -1873,7 +1643,7 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "learned"
+                  "text": "learned."
                 },
                 {
                   "id": "o2",
@@ -1890,22 +1660,22 @@
           "interaction_id": "U43_I77"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 300 para Descriptions: Appearance:",
-          "stimulus_en": "What\u2019s the highest building you\u2019ve ever visited.",
-          "stimulus_es": "Cu\u00e1l es el edificio m\u00e1s alto que has visitado nunca?.",
+          "stimulus_en": "the bird‘s legs = las piernas del pájaro.",
+          "stimulus_es": "2. el primer elemento es un animal. Ejemplo.",
           "options": [
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
               "id": "o3",
-              "text": "Other 4394"
+              "text": "Other 284."
             },
             {
               "id": "o1",
-              "text": "Option A"
+              "text": "Option A."
             }
           ],
           "correct_answer": "o1",
@@ -1913,106 +1683,131 @@
           "interaction_id": "U43_I78"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 300 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w1",
-              "text": "that"
-            },
-            {
-              "id": "w2",
-              "text": "amazing"
+              "id": "w3",
+              "text": "goes"
             },
             {
               "id": "w0",
-              "text": "What\u2019s"
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "father."
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "bus"
+            },
+            {
+              "id": "w5",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "usually."
+            },
+            {
+              "id": "w6",
+              "text": "by"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I79"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 343 (Descriptions: Appearance):",
-          "stimulus_en": "I\u2019m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I\u2019m bored = estoy aburrido, es temporal, es s\u00f3lo ahora.! (___)",
+          "stimulus_en": "meter) Metro (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I80"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 343 (Descriptions: Appearance)",
-          "stimulus_en": "When are we going to the beach (now)",
-          "stimulus_es": "Ref: Cu\u00e1ndo iremos a la playa? (now)",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 343 (Descriptions: Appearance)",
+          "stimulus_en": "My cousins’ house is very big.",
+          "stimulus_es": "Ref: 7. La casa de mis primos es muy grande.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I81"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 343 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "angry / Our / teacher / English / usually / is - interesting",
-              "right": "Our English teacher is usually angry - interesting"
+              "left": "– Meses del año.",
+              "right": "in May, in August, etc."
             },
             {
               "id": "p1",
-              "left": "Otro ejemplo - interesting",
-              "right": "when I was at primary school, I didn\u2019t wear uniform. - interesting"
+              "left": "puedo abrir la ventana, por favor?",
+              "right": "en este caso estoy pidiendo permiso para hacer algo, al igual que en el ejemplo de arriba, de ‘Can I go to the toilet."
             },
             {
               "id": "p2",
-              "left": "Cu\u00e1l es el idioma m\u00e1s dif\u00edcil que has estudiado nunca? - amazing",
-              "right": "What\u2019s the most difficult language you\u2019ve ever studied - amazing"
+              "left": "Por tanto, podemos afirmar que -ed para personas y -ing para cosas o situaciones. Es cierto que a veces también utilizamos -ing para personas, y ¿cuándo? Debes tener en cuenta que la terminación -ing indica una cualidad permanente, mientras que -ed es temporal. Si yo digo.",
+              "right": "I’m a boring person = soy una persona aburrida, lo soy siempre, es permanente, por eso, ing. Pero si digo I’m bored = estoy aburrido, es temporal, es sólo ahora."
             },
             {
               "id": "p3",
-              "left": "De qui\u00e9n son esos libros? - 908",
-              "right": "Whose books are those= or Whose are those books - 908"
+              "left": "La pronunciación de thirty, importantísimo porque es un típico error del alumno hispanohablante. Ir no se pronuncia como se escribe, es decir, la i no es i, es como una e con la r. Esto no sólo sucede con el número thirty, sino siempre que tenemos ir, por ejemplo.",
+              "right": "skirt, shirt, first, firm, etc. Os aconsejo que escuchéis el siguiente audio y practiquéis."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I82"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 343 (Descriptions: Appearance):",
-          "tts_en": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.!",
-          "correct_answer": "Yesterday at 8 p.m. I was watching TV = est\u00e1 acci\u00f3n ocurri\u00f3 en el pasado, pero cuando t\u00fa lo dices, es como si te trasladaras a ayer a las 8 y la vivieras de nuevo, y a eso nos referimos cuando decimos \u00aben progreso\u00bb. Como ves, se trata de una acci\u00f3n larga en el pasado.!",
+          "tts_en": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural.",
+          "correct_answer": "thousands of people = miles de personas / hundreds of teachers = cientos de profesores / millions of dollars = millones de dólares. Como ves, en todos los casos decimos la preposición of y la -s de plural",
           "mastery_tag": "listening",
           "interaction_id": "U43_I83"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 343:",
           "options": [
             {
-              "id": "o0",
-              "text": "car"
+              "id": "o1",
+              "text": "Moon"
             },
             {
               "id": "o4",
-              "text": "cat9169"
+              "text": "Hot"
             },
             {
-              "id": "o2",
-              "text": "train"
+              "id": "o0",
+              "text": "Sun"
             },
             {
               "id": "o3",
-              "text": "plane"
+              "text": "Planet."
             },
             {
-              "id": "o1",
-              "text": "bus"
+              "id": "o2",
+              "text": "Star"
             }
           ],
           "correct_answer": "o4",
@@ -2020,65 +1815,65 @@
           "interaction_id": "U43_I84"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 343 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "8. \u00a0usually / my father / goes to work by bus - amazing",
-              "back": "my father usually goes to work by bus - amazing"
+              "front": "Sigue recto y delante de la iglesia hay un supermercado.",
+              "back": "Go straight on and in front of the church there is a supermarket."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I85"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 343 (Descriptions: Appearance):",
-          "instruction_en": "A small story about Descriptions: Appearance. [Ref: 41]",
+          "instruction_en": "List 3 facts about Descriptions: Appearance. [Ref: 54]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I86"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 343 (Descriptions: Appearance):",
-          "stimulus_en": "Talk about Descriptions: Appearance. (329)",
+          "stimulus_en": "Improve Descriptions: Appearance. (499)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I87"
         },
         {
-          "type": "multiple_matching",
+          "type": "multiple_matching.",
           "prompt_es": "Une 301 (Descriptions: Appearance):",
-          "stimulus": "Matching set 2167",
+          "stimulus": "Matching set 9672.",
           "items": [
             {
               "id": "i0",
-              "text": "This is another translation (today)",
+              "text": "– Fechas concretas.",
               "match_id": "m0"
             },
             {
               "id": "i1",
-              "text": "Movie (Br Eng!",
+              "text": "Cuál es el sitio más caluroso en el que has estado nunca?",
               "match_id": "m1"
             },
             {
               "id": "i2",
-              "text": "2. Los d\u00edas de la semana se pueden utilizar tanto en singular como en plural, es decir, si yo digo (now)",
+              "text": "I / fish / often / hours / for / catching / anything / without.",
               "match_id": "m2"
             }
           ],
           "matches": [
             {
+              "id": "m0",
+              "text": "on 5th May, on Christmas Day, on New Year’s Eve, on St. Valentine’s Day, on my birthday = siempre que sea una fecha concreta, ese día y no otro, utilizamos la preposición on."
+            },
+            {
               "id": "m2",
-              "text": "I have my English classes on Tuesdays and Thursdays puedo poner los d\u00edas en plural, ya que es todos los martes y todos los jueves, no s\u00f3lo uno. (now)"
+              "text": "I often fish for hours without catching anything."
             },
             {
               "id": "m1",
-              "text": "film) Pel\u00edcula!"
-            },
-            {
-              "id": "m0",
-              "text": "igual hago algo\u2026 (but I\u2019m not sure\u2026). (today)"
+              "text": "What’s the hottest place you’ve ever been to."
             }
           ],
           "correct_answer": {
@@ -2090,26 +1885,26 @@
           "interaction_id": "U43_I88"
         },
         {
-          "type": "categorization",
+          "type": "categorization.",
           "prompt_es": "Clasifica 301 (Descriptions: Appearance):",
           "categories": [
             {
               "id": "c1",
-              "title": "Group 1",
+              "title": "Group 1.",
               "items": [
                 {
                   "id": "t1",
-                  "text": "\u2018m/ \u2018s, etc) (today)"
+                  "text": "Jonathan usually visits the dentist."
                 }
               ]
             },
             {
               "id": "c2",
-              "title": "Group 2",
+              "title": "Group 2.",
               "items": [
                 {
                   "id": "t2",
-                  "text": "Next to my school there aren\u2019t any apartment blocks. - amazing"
+                  "text": "My friend doesn’t have much money y my friend has a lot of money. Con oraciones positivas utilizamos ‘a lot of’."
                 }
               ]
             }
@@ -2118,20 +1913,20 @@
           "interaction_id": "U43_I89"
         },
         {
-          "type": "multiple_choice_cloze",
+          "type": "multiple_choice_cloze.",
           "prompt_es": "Rellena 301 (Descriptions: Appearance):",
-          "main_text": "In Descriptions: Appearance (1154), The teacher [GAP 1] and [GAP 2].",
+          "main_text": "In Descriptions: Appearance (1252), The lawyer [GAP 1] and [GAP 2].",
           "gaps": [
             {
               "id": "1",
               "options": [
                 {
                   "id": "o1",
-                  "text": "helped"
+                  "text": "met"
                 },
                 {
                   "id": "o2",
-                  "text": "help"
+                  "text": "meet"
                 }
               ]
             },
@@ -2140,11 +1935,11 @@
               "options": [
                 {
                   "id": "o1",
-                  "text": "studied"
+                  "text": "played."
                 },
                 {
                   "id": "o2",
-                  "text": "study"
+                  "text": "play"
                 }
               ]
             }
@@ -2157,22 +1952,22 @@
           "interaction_id": "U43_I90"
         },
         {
-          "type": "multiple_choice",
+          "type": "multiple_choice.",
           "prompt_es": "Elige 301 para Descriptions: Appearance:",
-          "stimulus_en": "la casa de Mar\u00eda es grande = Mar\u00eda\u2019s house is big. - interesting",
-          "stimulus_es": "Otro ejemplo - interesting",
+          "stimulus_en": "no vi nada = no es una palabra negativa, y nada, otra. Esto es imposible en inglés, o niego el verbo o niego el pronombre indefinido, pero nunca ambos.",
+          "stimulus_es": "Cuando «nada», «nadie» o «ningún sitio» NO va en primera posición (no es el sujeto, sino el objeto), podemos utilizar «any» o «no», dependiendo de cómo pongamos el verbo, negado o sin negar. Si lo pongo negado, entonces utilizamos «any» y si lo pongo sin negar (es positivo), entonces utilizamos «no». Esto es así porque en inglés sólo es posible poner una palabra negativa en una oración, nunca dos, como sucede en español. Yo es español puedo decir.",
           "options": [
             {
-              "id": "o3",
-              "text": "Other 7883"
+              "id": "o1",
+              "text": "Option A."
             },
             {
               "id": "o2",
-              "text": "Option B"
+              "text": "Option B."
             },
             {
-              "id": "o1",
-              "text": "Option A"
+              "id": "o3",
+              "text": "Other 3264."
             }
           ],
           "correct_answer": "o1",
@@ -2180,121 +1975,121 @@
           "interaction_id": "U43_I91"
         },
         {
-          "type": "reorder_words",
+          "type": "reorder_words.",
           "prompt_es": "Ordena 301 sobre Descriptions: Appearance:",
           "options": [
             {
-              "id": "w3",
-              "text": "por"
-            },
-            {
-              "id": "w5",
-              "text": "amazing"
-            },
-            {
               "id": "w1",
-              "text": "una"
+              "text": "time"
             },
             {
-              "id": "w4",
-              "text": "oraci\u00f3n"
+              "id": "w3",
+              "text": "the"
             },
             {
               "id": "w0",
-              "text": "s\u00f3lo"
+              "text": "What"
             },
             {
               "id": "w2",
-              "text": "inversi\u00f3n"
+              "text": "does"
+            },
+            {
+              "id": "w5",
+              "text": "leave"
+            },
+            {
+              "id": "w4",
+              "text": "bus"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w",
+            "w",
+            "w",
+            "w",
+            "w",
+            "w"
           ],
           "mastery_tag": "syntax",
           "interaction_id": "U43_I92"
         },
         {
-          "type": "fill_blanks",
+          "type": "fill_blanks.",
           "prompt_es": "Completa 344 (Descriptions: Appearance):",
-          "stimulus_en": "I\u2019ll see you on Saturday (now) (___)",
+          "stimulus_en": "situación específica = ésta opción siempre lleva un possessive adjective (my, your, his, her, our, their) o un artículo indefinido (a). (___)",
           "correct_answer": "Option A",
           "mastery_tag": "grammar",
           "interaction_id": "U43_I93"
         },
         {
-          "type": "true_false",
-          "prompt_es": "\u00bfCorrecto? 344 (Descriptions: Appearance)",
-          "stimulus_en": "My cousins\u2019 house is very big!",
-          "stimulus_es": "Ref: 7. La casa de mis primos es muy grande!",
+          "type": "true_false.",
+          "prompt_es": "¿Correcto? 344 (Descriptions: Appearance)",
+          "stimulus_en": "Can I have your ID/ passport/ credit card?.",
+          "stimulus_es": "Ref: También utilizamos en Can I have…? para pedirle an alguien que nos dé algo, que nos deje ver algo, que nos enseñe algo, por ejemplo, en la recepción de un hotel, el recepcionista, cuando nos pida el DNI, o el pasaporte, o la tarjeta de crédito nos dirá.",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "interaction_id": "U43_I94"
         },
         {
-          "type": "matching",
+          "type": "matching.",
           "prompt_es": "Relaciona 344 (Descriptions: Appearance):",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cu\u00e1l es la comida m\u00e1s buena que has probado nunca? (today)",
-              "right": "What\u2019s the most delicious food you\u2019ve ever tasted (today)"
+              "left": "Si te das cuenta, el cambio que se ha producido entre la direct y la indirect question lo encontramos en el orden de los elementos. Mientras que en la direct question teníamos la inversión entre verb to be y sujeto, como hemos dicho en la regla (Question word + to be + subjet? ), en la indirect question, ya no hay inversión, sino que tenemos question word + subject + verb. Si te das cuenta, la inversión la tenemos en ‘Can you tell me…’. Como ya tenemos una inversión al comenzar la pregunta, ya no podemos hacer otra inversión. Recuerda.",
+              "right": "sólo una inversión por oración!"
             },
             {
               "id": "p1",
-              "left": "2. La hamburguesa de Harry (now)",
-              "right": "Harry\u2019s burger (now)"
+              "left": "often, usually y sometimes también se pueden escribir al principio de oración.",
+              "right": "Sometimes I have lunch in a restaurant."
             },
             {
               "id": "p2",
-              "left": "El cumplea\u00f1os de Pablo es el 8 de mayo (now)",
-              "right": "Paul\u2019s birthday is on 8th May (now)"
+              "left": "Has estado alguna vez en Canadá?",
+              "right": "have you ever been to Canada."
             },
             {
               "id": "p3",
-              "left": "Common mistake...",
-              "right": "I don\u2019t know that I will do...."
+              "left": "Tienes zapatos para la boda?",
+              "right": "do you have any shoes for the wedding."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I95"
         },
         {
-          "type": "dictation_guided",
+          "type": "dictation_guided.",
           "prompt_es": "Dictado 344 (Descriptions: Appearance):",
-          "tts_en": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (today)",
-          "correct_answer": "it\u2019s 5 euros and 2 cents (5.2) = es importante recordar que en ingl\u00e9s ponemos un punto para los decimales y no una coma, pero el punto no hay que decirlo cuando expresamos un precio. Tambi\u00e9n podemos omitir \u00abcents\u00bb. (today)",
+          "tts_en": "I don’t know that I will do.",
+          "correct_answer": "I don’t know that I will do",
           "mastery_tag": "listening",
           "interaction_id": "U43_I96"
         },
         {
-          "type": "odd_one_out",
+          "type": "odd_one_out.",
           "prompt_es": "Intruso 344:",
           "options": [
             {
               "id": "o2",
-              "text": "Angry"
-            },
-            {
-              "id": "o3",
-              "text": "Calm"
-            },
-            {
-              "id": "o1",
-              "text": "Sad"
-            },
-            {
-              "id": "o4",
-              "text": "Fast3404"
+              "text": "salad"
             },
             {
               "id": "o0",
-              "text": "Happy"
+              "text": "pizza"
+            },
+            {
+              "id": "o3",
+              "text": "soup"
+            },
+            {
+              "id": "o1",
+              "text": "burger."
+            },
+            {
+              "id": "o4",
+              "text": "rain"
             }
           ],
           "correct_answer": "o4",
@@ -2302,29 +2097,29 @@
           "interaction_id": "U43_I97"
         },
         {
-          "type": "flashcards",
+          "type": "flashcards.",
           "prompt_es": "Flashcard 344 - Descriptions: Appearance:",
           "cards": [
             {
               "id": "c1",
-              "front": "1. La puerta de mi casa - 613",
-              "back": "the door of my house - 613"
+              "front": "3. Las hermanas de Pedro.",
+              "back": "Peter’s sisters."
             }
           ],
           "mastery_tag": "vocabulary",
           "interaction_id": "U43_I98"
         },
         {
-          "type": "writing_task",
+          "type": "writing_task.",
           "prompt_es": "Escribe 344 (Descriptions: Appearance):",
-          "instruction_en": "Your daily routine in Descriptions: Appearance. [Ref: 37]",
+          "instruction_en": "Review Descriptions: Appearance from last week. [Ref: 42]",
           "mastery_tag": "writing",
           "interaction_id": "U43_I99"
         },
         {
-          "type": "speaking_task",
+          "type": "speaking_task.",
           "prompt_es": "Habla 344 (Descriptions: Appearance):",
-          "stimulus_en": "Focus on Descriptions: Appearance. (570)",
+          "stimulus_en": "Look at Descriptions: Appearance. (711)",
           "mastery_tag": "speaking",
           "interaction_id": "U43_I100"
         }
