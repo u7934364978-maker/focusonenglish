@@ -325,11 +325,27 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (q.sentence && !flattened.stimulus_en) {
               flattened.stimulus_en = q.sentence;
             }
+            if (q.context && !flattened.stimulus_en) {
+              flattened.stimulus_en = q.context;
+            }
             if (q.question && !flattened.stimulus_en) {
               flattened.stimulus_en = q.question;
             }
             if (content.textPassage && !flattened.stimulus_en) {
               flattened.stimulus_en = content.textPassage;
+            }
+
+            // Clean up stimulus for fill-blank exercises
+            if (flattened.stimulus_en && isFillBlankBlock) {
+              const answer = String(flattened.correct_answer || flattened.gap || q.answer || q.acceptableAnswers?.[0] || "");
+              if (answer) {
+                // Remove exact answer in parentheses: " (always)" -> ""
+                const escapedAnswer = answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const hintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*\\)`, 'gi');
+                flattened.stimulus_en = flattened.stimulus_en.replace(hintRegex, '');
+              }
+              // Also replace multiple underscores with a single standard gap marker
+              flattened.stimulus_en = flattened.stimulus_en.replace(/_{2,}/g, '___').replace(/\s{2,}/g, ' ').trim();
             }
             if (Array.isArray(q.options) && typeof q.options[0] === 'string') {
               flattened.options = q.options.map((opt: string, idx: number) => ({

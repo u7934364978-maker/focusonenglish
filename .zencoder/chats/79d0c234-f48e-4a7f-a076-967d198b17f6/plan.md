@@ -23,6 +23,7 @@
     - [x] Advanced stimulus cleanup to remove solutions hidden in parentheses like `(often)`.
     - [x] **Fix Comprobar Button**: Resolved issue where the "Check" button remained inactive in `fill_blanks` when using options.
     - [x] **Render Optimization**: Unified `fill_blanks` rendering to display selected options directly within the blanks, avoiding double text and improving clarity.
+    - [x] **Content Audit (Units 1-10)**: Performed an exhaustive review to remove ambiguities (e.g., interchangeable like/love/enjoy) and fixed critical grammar errors in `so...that` structures.
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).
