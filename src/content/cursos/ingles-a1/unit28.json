@@ -18,19 +18,19 @@
         {
           "interaction_id": "U28_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cabeza'?",
+          "prompt_es": "¿Cómo se dice 'Mano'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Head"
+              "id": "o3",
+              "text": "Foot"
             },
             {
-              "id": "o2",
+              "id": "o1",
               "text": "Hand"
             },
             {
-              "id": "o3",
-              "text": "Mouth"
+              "id": "o2",
+              "text": "Ear"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
+              "left": "Leg",
+              "right": "Pierna"
             },
             {
               "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
+              "left": "Head",
+              "right": "Cabeza"
             },
             {
               "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
+              "left": "Ear",
+              "right": "Oreja"
             },
             {
               "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
+              "left": "Mouth",
+              "right": "Boca"
             }
           ],
           "correct_answer": {
@@ -77,58 +77,53 @@
           "options": [
             {
               "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "small"
+              "text": "hands"
             },
             {
               "id": "w1",
-              "text": "ears"
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Wash"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Wash your hands.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My ears are small.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U28_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
+          "stimulus_en": "My (piernas) ________ are tired.",
+          "correct_answer": "legs",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U28_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
+          "stimulus_es": "Ojo",
+          "correct_answer": "Eye",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Mouth",
-          "correct_answer": "Boca",
+          "stimulus_en": "Shoulder",
+          "correct_answer": "Hombro",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +135,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Nose"
+                "Mouth"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Arm"
+                "Head"
               ]
             }
           ],
@@ -158,7 +153,7 @@
           "interaction_id": "U28_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Wash your hands. My ears are small. Her hair is blonde.",
+          "text": "My ears are small. He has blue eyes. Her hair is blonde.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,51 +172,45 @@
           "interaction_id": "U28_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/dfe26bf3f97d85ba9ac075d3849711e0.mp3",
-          "text": "He has blue eyes.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/b36091999bc3910515ac02f2a9ebc998.mp3",
+          "text": "Open your mouth, please.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U28_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U28_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pierna'?",
+          "prompt_es": "¿Cómo se dice 'Mano'?",
           "options": [
             {
-              "id": "o2",
+              "id": "o1",
               "text": "Hand"
             },
             {
-              "id": "o1",
-              "text": "Leg"
+              "id": "o3",
+              "text": "Mouth"
             },
             {
-              "id": "o3",
-              "text": "Foot"
+              "id": "o2",
+              "text": "Ear"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I13",
+          "interaction_id": "U28_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
+              "left": "Eye",
+              "right": "Ojo"
             },
             {
               "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
+              "left": "Shoulder",
+              "right": "Hombro"
             },
             {
               "id": "p2",
@@ -230,8 +219,8 @@
             },
             {
               "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
+              "left": "Head",
+              "right": "Cabeza"
             }
           ],
           "correct_answer": {
@@ -243,25 +232,25 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I14",
+          "interaction_id": "U28_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "eyes"
+              "id": "w0",
+              "text": "Her"
             },
             {
-              "id": "w0",
-              "text": "He"
+              "id": "w3",
+              "text": "blonde"
             },
             {
               "id": "w2",
-              "text": "blue"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "has"
+              "text": "hair"
             }
           ],
           "correct_answer": [
@@ -273,38 +262,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U28_I15",
+          "interaction_id": "U28_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Her hair are blonde.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U28_I16",
+          "interaction_id": "U28_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He has a (grande) ________ mouth.",
-          "correct_answer": "big",
+          "stimulus_en": "She has (largo) ________ hair.",
+          "correct_answer": "long",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U28_I17",
+          "interaction_id": "U28_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
+          "stimulus_es": "Brazo",
+          "correct_answer": "Arm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Head",
+          "correct_answer": "Cabeza",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Ear",
-          "correct_answer": "Oreja",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -312,14 +301,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Foot"
+                "Mouth"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Arm"
+                "Foot"
               ]
             }
           ],
@@ -327,10 +316,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I20",
+          "interaction_id": "U28_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Open your mouth, please. Her hair is blonde. My ears are small.",
+          "text": "Her hair is blonde. Open your mouth, please. My ears are small.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -344,6 +333,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U28_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/fc4128d2e21c765d1649502d3efdf7c2.mp3",
+          "text": "Wash your hands.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,18 +18,18 @@
         {
           "interaction_id": "U47_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Relajarse'?",
+          "prompt_es": "¿Cómo se dice 'Turismo'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Sightseeing"
-            },
-            {
-              "id": "o1",
+              "id": "o2",
               "text": "Relax"
             },
             {
-              "id": "o2",
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
               "text": "Adventure"
             }
           ],
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Beach",
-              "right": "Playa"
-            },
-            {
-              "id": "p1",
-              "left": "Adventure",
-              "right": "Aventura"
-            },
-            {
-              "id": "p2",
               "left": "Vacation",
               "right": "Vacaciones"
             },
             {
+              "id": "p1",
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p2",
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
               "id": "p3",
-              "left": "Mountains",
-              "right": "Montañas"
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
@@ -76,43 +76,53 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "holidays"
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
             },
             {
               "id": "w2",
-              "text": "summer"
-            },
-            {
-              "id": "w1",
-              "text": "love"
+              "text": "going"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"A holiday is for relaxing.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We are going sightseeing in Parare.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I am (en) ________ holiday.",
-          "correct_answer": "on",
+          "stimulus_en": "I want to (relajarse) ________.",
+          "correct_answer": "relax",
           "mastery_tag": "grammar"
         },
         {
@@ -127,7 +137,7 @@
           "interaction_id": "U47_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Vacation",
+          "stimulus_en": "Holiday",
           "correct_answer": "Vacaciones",
           "mastery_tag": "vocabulary"
         },
@@ -140,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Mountains"
+                "Adventure"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Holiday"
+                "Relax"
               ]
             }
           ],
@@ -158,7 +168,7 @@
           "interaction_id": "U47_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "A holiday is for relaxing. I love summer holidays. The beach is very crowded.",
+          "text": "He wants an adventure vacation. We are going sightseeing in Paris. The beach is very crowded.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,56 +187,50 @@
           "interaction_id": "U47_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/0fe201e69c1f31e09399c62766b614e7.mp3",
-          "text": "He wants an adventure vacation.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/21e01185a50bf9f097c1c81bcfd69e7c.mp3",
+          "text": "I love summer holidays.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U47_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U47_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Montañas'?",
+          "prompt_es": "¿Cómo se dice 'Playa'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Adventure"
+              "id": "o2",
+              "text": "Holiday"
             },
             {
-              "id": "o2",
-              "text": "Sightseeing"
+              "id": "o3",
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Mountains"
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U47_I13",
+          "interaction_id": "U47_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Holiday",
-              "right": "Vacaciones"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Adventure",
-              "right": "Aventura"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Mountains",
-              "right": "Montañas"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p3",
@@ -243,78 +247,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U47_I14",
+          "interaction_id": "U47_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "sightseeing"
-            },
-            {
-              "id": "w2",
-              "text": "going"
-            },
-            {
               "id": "w1",
-              "text": "are"
+              "text": "love"
             },
             {
               "id": "w0",
-              "text": "We"
+              "text": "I"
             },
             {
-              "id": "w5",
-              "text": "Paris"
+              "id": "w2",
+              "text": "summer"
+            },
+            {
+              "id": "w3",
+              "text": "holidays"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U47_I15",
+          "interaction_id": "U47_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"A holiday are for relaxing.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (disfrutar) ________ her vacation.",
-          "correct_answer": "enjoys",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Montañas",
-          "correct_answer": "Mountains",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Relax",
+          "correct_answer": "Relajarse",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Vacation",
-          "correct_answer": "Vacaciones",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Sightseeing"
+                "Adventure"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Beach"
+                "Mountains"
               ]
             }
           ],
@@ -337,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U47_I20",
+          "interaction_id": "U47_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "A holiday is for relaxing. He wants an adventure vacation. I love summer holidays.",
+          "text": "We are going sightseeing in Paris. I love summer holidays. The beach is very crowded.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U47_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a981e416a2aa27cd2e53c90242218deb.mp3",
+          "text": "We are going sightseeing in Paris.",
+          "mastery_tag": "listening"
         }
       ]
     }

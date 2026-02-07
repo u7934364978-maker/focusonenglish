@@ -18,19 +18,19 @@
         {
           "interaction_id": "U54_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mucho/s'?",
+          "prompt_es": "¿Cómo se dice 'Muchos (contable)'?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "A lot of"
             },
             {
-              "id": "o2",
-              "text": "A few"
+              "id": "o1",
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Many"
+              "text": "A few"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "A few",
-              "right": "Unos pocos"
+              "left": "A lot of",
+              "right": "Mucho/s"
             },
             {
               "id": "p1",
-              "left": "A lot of",
-              "right": "Mucho/s"
+              "left": "A little",
+              "right": "Un poco"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "A little",
-              "right": "Un poco"
+              "left": "Many",
+              "right": "Muchos (contable)"
             }
           ],
           "correct_answer": {
@@ -76,32 +76,28 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "in"
-            },
-            {
               "id": "w0",
-              "text": "There"
+              "text": "We"
             },
             {
-              "id": "w6",
-              "text": "park"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "many"
-            },
-            {
-              "id": "w3",
-              "text": "people"
+              "id": "w4",
+              "text": "of"
             },
             {
               "id": "w1",
-              "text": "are"
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "lot"
+            },
+            {
+              "id": "w5",
+              "text": "books"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -110,40 +106,39 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U54_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are many people in the park.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I only have a little sugar.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U54_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (un poco de) ________ coffee.",
-          "correct_answer": "a little",
+          "stimulus_en": "How (muchos) ________ eggs do we have?",
+          "correct_answer": "many",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U54_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Mucho (incontable)",
-          "correct_answer": "Much",
+          "stimulus_es": "Muchos (contable)",
+          "correct_answer": "Many",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U54_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "A few",
-          "correct_answer": "Unos pocos",
+          "stimulus_en": "Much",
+          "correct_answer": "Mucho (incontable)",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "A few"
+                "A little"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Much"
+                "Many"
               ]
             }
           ],
@@ -173,7 +168,7 @@
           "interaction_id": "U54_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "There are many people in the park. We have a lot of books. I only have a little sugar.",
+          "text": "I don't have much time. I only have a little sugar. We have a lot of books.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -192,56 +187,50 @@
           "interaction_id": "U54_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/72ad0545f61b5d9e5b3b6cee6d64a375.mp3",
-          "text": "We have a lot of books.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/9c26e4560504442e2ccb91e2e1594971.mp3",
+          "text": "There are many people in the park.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U54_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U54_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Un poco'?",
           "options": [
             {
-              "id": "o2",
-              "text": "A lot of"
+              "id": "o1",
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "Many"
+              "text": "Much"
             },
             {
-              "id": "o1",
-              "text": "A little"
+              "id": "o2",
+              "text": "A few"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U54_I13",
+          "interaction_id": "U54_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Many",
+              "right": "Muchos (contable)"
+            },
+            {
+              "id": "p1",
               "left": "A lot of",
               "right": "Mucho/s"
             },
             {
-              "id": "p1",
+              "id": "p2",
               "left": "A little",
               "right": "Un poco"
-            },
-            {
-              "id": "p2",
-              "left": "A few",
-              "right": "Unos pocos"
             },
             {
               "id": "p3",
@@ -258,29 +247,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U54_I14",
+          "interaction_id": "U54_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "few"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w4",
-              "text": "minutes"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w0",
               "text": "I"
             },
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "few"
+            },
+            {
+              "id": "w4",
+              "text": "minutes"
             }
           ],
           "correct_answer": [
@@ -293,14 +282,14 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U54_I15",
+          "interaction_id": "U54_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I need a few minutes.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We have a lot of books.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U54_I16",
+          "interaction_id": "U54_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "I have (mucho) ________ water.",
@@ -308,23 +297,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U54_I17",
+          "interaction_id": "U54_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Muchos (contable)",
-          "correct_answer": "Many",
+          "stimulus_es": "Mucho (incontable)",
+          "correct_answer": "Much",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "A little",
+          "correct_answer": "Un poco",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U54_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "A few",
-          "correct_answer": "Unos pocos",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -339,7 +328,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "A few"
+                "A little"
               ]
             }
           ],
@@ -347,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U54_I20",
+          "interaction_id": "U54_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "There are many people in the park. I need a few minutes. I only have a little sugar.",
+          "text": "We have a lot of books. I don't have much time. I only have a little sugar.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U54_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/0efa24a3a0597e865973367227217f93.mp3",
+          "text": "I don't have much time.",
+          "mastery_tag": "listening"
         }
       ]
     }

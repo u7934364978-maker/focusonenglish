@@ -18,19 +18,19 @@
         {
           "interaction_id": "U50_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tiempo'?",
+          "prompt_es": "¿Cómo se dice 'Aeropuerto'?",
           "options": [
             {
               "id": "o3",
-              "text": "Hotel"
-            },
-            {
-              "id": "o2",
-              "text": "Airport"
+              "text": "Season"
             },
             {
               "id": "o1",
-              "text": "Weather"
+              "text": "Airport"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
             }
           ],
           "correct_answer": "o1",
@@ -48,13 +48,13 @@
             },
             {
               "id": "p1",
-              "left": "Weather",
-              "right": "Tiempo"
+              "left": "Hotel",
+              "right": "Hotel"
             },
             {
               "id": "p2",
-              "left": "Hotel",
-              "right": "Hotel"
+              "left": "Airport",
+              "right": "Aeropuerto"
             },
             {
               "id": "p3",
@@ -80,38 +80,23 @@
               "text": "a"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "module"
-            },
-            {
-              "id": "w6",
-              "text": "five"
-            },
-            {
-              "id": "w4",
-              "text": "of"
+              "id": "w3",
+              "text": "holiday"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "for"
             },
             {
-              "id": "w3",
-              "text": "review"
+              "id": "w0",
+              "text": "Prepare"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -119,14 +104,14 @@
           "interaction_id": "U50_I4",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Prepare for a holiday.\"",
-          "correct_answer": false,
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U50_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ello) ________ my key?",
+          "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
@@ -134,16 +119,16 @@
           "interaction_id": "U50_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Hotel",
-          "correct_answer": "Hotel",
+          "stimulus_es": "Estación",
+          "correct_answer": "Season",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U50_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Airport",
-          "correct_answer": "Aeropuerto",
+          "stimulus_en": "Season",
+          "correct_answer": "Estación",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Season"
+                "Weather"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Hotel"
+                "Travel"
               ]
             }
           ],
@@ -173,7 +158,7 @@
           "interaction_id": "U50_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Book a hotel room. Prepare for a holiday. This is a review of module five.",
+          "text": "This is a review of module five. Prepare for a holiday. Describe the weather and seasons.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -192,46 +177,40 @@
           "interaction_id": "U50_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/bd63867c5eca737447ff80a5d4fe4339.mp3",
-          "text": "Prepare for a holiday.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cf48365ede3b01629dbbca6bfcfcda6c.mp3",
+          "text": "Talk about transport and travel.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U50_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U50_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aeropuerto'?",
+          "prompt_es": "¿Cómo se dice 'Estación'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Airport"
-            },
-            {
               "id": "o3",
-              "text": "Season"
+              "text": "Weather"
             },
             {
               "id": "o2",
-              "text": "Weather"
+              "text": "Travel"
+            },
+            {
+              "id": "o1",
+              "text": "Season"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I13",
+          "interaction_id": "U50_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Season",
-              "right": "Estación"
+              "left": "Airport",
+              "right": "Aeropuerto"
             },
             {
               "id": "p1",
@@ -240,13 +219,13 @@
             },
             {
               "id": "p2",
-              "left": "Airport",
-              "right": "Aeropuerto"
+              "left": "Hotel",
+              "right": "Hotel"
             },
             {
               "id": "p3",
-              "left": "Travel",
-              "right": "Viaje"
+              "left": "Season",
+              "right": "Estación"
             }
           ],
           "correct_answer": {
@@ -258,49 +237,44 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I14",
+          "interaction_id": "U50_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "travel"
-            },
-            {
-              "id": "w1",
-              "text": "about"
+              "id": "w2",
+              "text": "hotel"
             },
             {
               "id": "w0",
-              "text": "Talk"
+              "text": "Book"
             },
             {
-              "id": "w2",
-              "text": "transport"
+              "id": "w1",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "room"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U50_I15",
+          "interaction_id": "U50_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are a review of module five.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Prepare for a holiday.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I16",
+          "interaction_id": "U50_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "Where (ser/estar - ello) ________ my key?",
@@ -308,23 +282,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I17",
+          "interaction_id": "U50_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Aeropuerto",
-          "correct_answer": "Airport",
+          "stimulus_es": "Hotel",
+          "correct_answer": "Hotel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Hotel",
+          "correct_answer": "Hotel",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U50_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Weather",
-          "correct_answer": "Tiempo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U50_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +306,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Weather"
+                "Season"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Season"
+                "Travel"
               ]
             }
           ],
@@ -347,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I20",
+          "interaction_id": "U50_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Talk about transport and travel. This is a review of module five. Describe the weather and seasons.",
+          "text": "Talk about transport and travel. This is a review of module five. Book a hotel room.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U50_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/5a6268555a0d5ab2bb52e960e072bed4.mp3",
+          "text": "Book a hotel room.",
+          "mastery_tag": "listening"
         }
       ]
     }

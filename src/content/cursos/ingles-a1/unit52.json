@@ -22,7 +22,7 @@
           "options": [
             {
               "id": "o2",
-              "text": "Coffee"
+              "text": "Bread"
             },
             {
               "id": "o1",
@@ -30,7 +30,7 @@
             },
             {
               "id": "o3",
-              "text": "Bread"
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Coffee",
-              "right": "Café"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Water",
-              "right": "Agua"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Apple",
-              "right": "Manzana"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p3",
-              "left": "Bread",
-              "right": "Pan"
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
@@ -77,58 +77,53 @@
           "options": [
             {
               "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "bread"
+              "text": "are"
             },
             {
               "id": "w2",
-              "text": "some"
+              "text": "countable"
             },
             {
               "id": "w0",
-              "text": "We"
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are five eggs.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We have some bread.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (tres) ________ eggs.",
-          "correct_answer": "three",
+          "stimulus_en": "I have (algo de) ________ milk.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Café",
-          "correct_answer": "Coffee",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Milk",
-          "correct_answer": "Leche",
+          "stimulus_en": "Apple",
+          "correct_answer": "Manzana",
           "mastery_tag": "vocabulary"
         },
         {
@@ -147,7 +142,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Apple"
+                "Milk"
               ]
             }
           ],
@@ -158,7 +153,7 @@
           "interaction_id": "U52_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Apples are countable. There are five eggs. I need an orange.",
+          "text": "Apples are countable. There are five eggs. Water is uncountable.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,31 +172,25 @@
           "interaction_id": "U52_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/fc3f93b25309131cac82568627a0c8a9.mp3",
-          "text": "Apples are countable.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a019741d91d7c361dd1561f6641cfcbe.mp3",
+          "text": "Water is uncountable.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U52_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U52_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pan'?",
+          "prompt_es": "¿Cómo se dice 'Leche'?",
           "options": [
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Orange"
             },
             {
-              "id": "o1",
+              "id": "o3",
               "text": "Bread"
             },
             {
-              "id": "o2",
+              "id": "o1",
               "text": "Milk"
             }
           ],
@@ -209,29 +198,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I13",
+          "interaction_id": "U52_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p1",
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p2",
               "left": "Orange",
               "right": "Naranja"
             },
             {
-              "id": "p1",
-              "left": "Bread",
-              "right": "Pan"
-            },
-            {
-              "id": "p2",
-              "left": "Egg",
-              "right": "Huevo"
-            },
-            {
               "id": "p3",
-              "left": "Milk",
-              "right": "Leche"
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
@@ -243,21 +232,21 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I14",
+          "interaction_id": "U52_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w2",
-              "text": "uncountable"
-            },
-            {
-              "id": "w0",
-              "text": "Water"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "Apples"
             }
           ],
           "correct_answer": [
@@ -268,14 +257,14 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U52_I15",
+          "interaction_id": "U52_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Apples are countable.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"There are five eggs.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U52_I16",
+          "interaction_id": "U52_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "I have (tres) ________ eggs.",
@@ -283,7 +272,7 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U52_I17",
+          "interaction_id": "U52_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Café",
@@ -291,15 +280,15 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I18",
+          "interaction_id": "U52_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bread",
-          "correct_answer": "Pan",
+          "stimulus_en": "Orange",
+          "correct_answer": "Naranja",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I19",
+          "interaction_id": "U52_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -307,14 +296,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Bread"
+                "Apple"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Orange"
+                "Bread"
               ]
             }
           ],
@@ -322,10 +311,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I20",
+          "interaction_id": "U52_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We have some bread. There are five eggs. I need an orange.",
+          "text": "We have some bread. There are five eggs. Water is uncountable.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -339,6 +328,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U52_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/fc3f93b25309131cac82568627a0c8a9.mp3",
+          "text": "Apples are countable.",
+          "mastery_tag": "listening"
         }
       ]
     }

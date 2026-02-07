@@ -18,19 +18,19 @@
         {
           "interaction_id": "U41_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Billete/Ticket'?",
+          "prompt_es": "¿Cómo se dice 'Pasaporte'?",
           "options": [
             {
               "id": "o1",
-              "text": "Ticket"
-            },
-            {
-              "id": "o3",
-              "text": "Check-in"
+              "text": "Passport"
             },
             {
               "id": "o2",
-              "text": "Luggage"
+              "text": "Boarding pass"
+            },
+            {
+              "id": "o3",
+              "text": "Gate"
             }
           ],
           "correct_answer": "o1",
@@ -48,18 +48,18 @@
             },
             {
               "id": "p1",
-              "left": "Check-in",
-              "right": "Facturación"
-            },
-            {
-              "id": "p2",
               "left": "Boarding pass",
               "right": "Tarjeta de embarque"
             },
             {
+              "id": "p2",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
               "id": "p3",
-              "left": "Ticket",
-              "right": "Billete/Ticket"
+              "left": "Luggage",
+              "right": "Equipaje"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
+              "id": "w3",
+              "text": "check-in"
+            },
+            {
               "id": "w4",
-              "text": "heavy"
+              "text": "desk"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w1",
-              "text": "luggage"
+              "text": "the"
             },
             {
               "id": "w0",
-              "text": "My"
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -108,15 +108,15 @@
         {
           "interaction_id": "U41_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I have my boarding pass.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My luggage is very heavy.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U41_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ello) ________ my gate?",
+          "stimulus_en": "The flight (ser/estar - ello) ________ late.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
@@ -124,16 +124,16 @@
           "interaction_id": "U41_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Billete/Ticket",
-          "correct_answer": "Ticket",
+          "stimulus_es": "Facturación",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Flight",
-          "correct_answer": "Vuelo",
+          "stimulus_en": "Ticket",
+          "correct_answer": "Billete/Ticket",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Passport"
+                "Check-in"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Check-in"
+                "Flight"
               ]
             }
           ],
@@ -163,7 +163,7 @@
           "interaction_id": "U41_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Don't lose your ticket. My luggage is very heavy. I have my boarding pass.",
+          "text": "The gate is closing. My luggage is very heavy. Where is the check-in desk?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,39 +182,33 @@
           "interaction_id": "U41_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a94d866ccc6d2ce6f70cfa23f777c0c1.mp3",
-          "text": "I have my boarding pass.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
+          "text": "The gate is closing.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U41_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U41_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pasaporte'?",
+          "prompt_es": "¿Cómo se dice 'Equipaje'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Passport"
+              "id": "o2",
+              "text": "Check-in"
             },
             {
-              "id": "o2",
-              "text": "Flight"
+              "id": "o1",
+              "text": "Luggage"
             },
             {
               "id": "o3",
-              "text": "Ticket"
+              "text": "Flight"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I13",
+          "interaction_id": "U41_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
@@ -225,18 +219,18 @@
             },
             {
               "id": "p1",
-              "left": "Check-in",
-              "right": "Facturación"
+              "left": "Boarding pass",
+              "right": "Tarjeta de embarque"
             },
             {
               "id": "p2",
-              "left": "Luggage",
-              "right": "Equipaje"
+              "left": "Passport",
+              "right": "Pasaporte"
             },
             {
               "id": "p3",
-              "left": "Flight",
-              "right": "Vuelo"
+              "left": "Check-in",
+              "right": "Facturación"
             }
           ],
           "correct_answer": {
@@ -248,25 +242,25 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I14",
+          "interaction_id": "U41_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
             {
               "id": "w3",
               "text": "closing"
             },
             {
+              "id": "w0",
+              "text": "The"
+            },
+            {
               "id": "w1",
               "text": "gate"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -278,14 +272,14 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U41_I15",
+          "interaction_id": "U41_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Where are the check-in desk?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The gate are closing.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U41_I16",
+          "interaction_id": "U41_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "Where (ser/estar - ello) ________ my gate?",
@@ -293,23 +287,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U41_I17",
+          "interaction_id": "U41_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Equipaje",
-          "correct_answer": "Luggage",
+          "stimulus_es": "Billete/Ticket",
+          "correct_answer": "Ticket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Flight",
+          "correct_answer": "Vuelo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U41_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Gate",
-          "correct_answer": "Puerta de embarque",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U41_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -324,7 +318,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Luggage"
+                "Gate"
               ]
             }
           ],
@@ -332,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U41_I20",
+          "interaction_id": "U41_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Don't lose your ticket. My luggage is very heavy. Where is the check-in desk?",
+          "text": "I have my boarding pass. Don't lose your ticket. The gate is closing.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U41_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
+          "text": "The gate is closing.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U31_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinar'?",
+          "prompt_es": "¿Cómo se dice 'Nadar'?",
           "options": [
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Swim"
             },
             {
-              "id": "o2",
-              "text": "Sing"
+              "id": "o3",
+              "text": "Speak"
             },
             {
-              "id": "o1",
-              "text": "Cook"
+              "id": "o2",
+              "text": "Dance"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Speak",
-              "right": "Hablar"
+              "left": "Draw",
+              "right": "Dibujar"
             },
             {
               "id": "p1",
@@ -53,13 +53,13 @@
             },
             {
               "id": "p2",
-              "left": "Run",
-              "right": "Correr"
+              "left": "Sing",
+              "right": "Cantar"
             },
             {
               "id": "p3",
-              "left": "Sing",
-              "right": "Cantar"
+              "left": "Speak",
+              "right": "Hablar"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w2",
+              "id": "w1",
               "text": "can"
             },
             {
-              "id": "w5",
-              "text": "fast"
-            },
-            {
-              "id": "w0",
-              "text": "My"
+              "id": "w4",
+              "text": "pictures"
             },
             {
               "id": "w3",
-              "text": "run"
+              "text": "beautiful"
             },
             {
-              "id": "w1",
-              "text": "dog"
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "draw"
             }
           ],
           "correct_answer": [
@@ -105,16 +101,15 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U31_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My dog can run very fast.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"They can draw beautiful pictures.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
@@ -129,16 +124,16 @@
           "interaction_id": "U31_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Conducir",
-          "correct_answer": "Drive",
+          "stimulus_es": "Dibujar",
+          "correct_answer": "Draw",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Swim",
-          "correct_answer": "Nadar",
+          "stimulus_en": "Drive",
+          "correct_answer": "Conducir",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Cook"
+                "Run"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Swim"
+                "Drive"
               ]
             }
           ],
@@ -168,7 +163,7 @@
           "interaction_id": "U31_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She can play the guitar. They can draw beautiful pictures. I can't speak French.",
+          "text": "Can you help me, please? They can draw beautiful pictures. My dog can run very fast.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,39 +182,33 @@
           "interaction_id": "U31_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/fb4207fc911b5225b8f80fd970c01700.mp3",
-          "text": "Can you help me, please?",
+          "audioUrl": "/audio/courses/ingles-a1/shared/892c5213812d45ff26f8c99247d3bfbb.mp3",
+          "text": "She can play the guitar.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U31_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U31_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinar'?",
+          "prompt_es": "¿Cómo se dice 'Correr'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Draw"
-            },
-            {
               "id": "o1",
-              "text": "Cook"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Drive"
+              "text": "Swim"
+            },
+            {
+              "id": "o3",
+              "text": "Dance"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U31_I13",
+          "interaction_id": "U31_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
@@ -235,13 +224,13 @@
             },
             {
               "id": "p2",
-              "left": "Draw",
-              "right": "Dibujar"
+              "left": "Sing",
+              "right": "Cantar"
             },
             {
               "id": "p3",
-              "left": "Cook",
-              "right": "Cocinar"
+              "left": "Draw",
+              "right": "Dibujar"
             }
           ],
           "correct_answer": {
@@ -253,29 +242,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U31_I14",
+          "interaction_id": "U31_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w0",
-              "text": "They"
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "guitar"
             },
             {
               "id": "w1",
               "text": "can"
             },
             {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w4",
-              "text": "pictures"
-            },
-            {
               "id": "w2",
-              "text": "draw"
+              "text": "play"
             }
           ],
           "correct_answer": [
@@ -288,30 +277,30 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U31_I15",
+          "interaction_id": "U31_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"They can draw beautiful pictures.\"",
-          "correct_answer": false,
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He (no - poder) ________ drive.",
+          "correct_answer": "can't",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U31_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Poder? - tú) ________ you dance?",
-          "correct_answer": "Can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U31_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cantar",
-          "correct_answer": "Sing",
+          "stimulus_es": "Nadar",
+          "correct_answer": "Swim",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U31_I18",
+          "interaction_id": "U31_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
           "stimulus_en": "Sing",
@@ -319,7 +308,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U31_I19",
+          "interaction_id": "U31_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -327,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Drive"
+                "Run"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Run"
+                "Drive"
               ]
             }
           ],
@@ -342,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U31_I20",
+          "interaction_id": "U31_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Can you help me, please? I can't speak French. She can play the guitar.",
+          "text": "My dog can run very fast. Can you help me, please? They can draw beautiful pictures.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U31_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/06bf8adb93bb188fcac69af2d979f878.mp3",
+          "text": "I can't speak French.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U39_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Senderismo'?",
+          "prompt_es": "¿Cómo se dice 'Pesca'?",
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
+              "text": "Fishing"
             },
             {
               "id": "o2",
-              "text": "Fishing"
+              "text": "Camping"
+            },
+            {
+              "id": "o3",
+              "text": "Hiking"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Cycling",
-              "right": "Ciclismo"
+              "left": "Picnic",
+              "right": "Picnic"
             },
             {
               "id": "p1",
-              "left": "Hiking",
-              "right": "Senderismo"
-            },
-            {
-              "id": "p2",
               "left": "Walking",
               "right": "Caminar"
             },
             {
+              "id": "p2",
+              "left": "Fishing",
+              "right": "Pesca"
+            },
+            {
               "id": "p3",
-              "left": "Camping",
-              "right": "Camping"
+              "left": "Cycling",
+              "right": "Ciclismo"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "a"
+              "id": "w3",
+              "text": "than"
             },
             {
-              "id": "w5",
-              "text": "fun"
+              "id": "w2",
+              "text": "faster"
             },
             {
               "id": "w1",
               "text": "is"
             },
             {
-              "id": "w0",
-              "text": "Camping"
-            },
-            {
-              "id": "w3",
-              "text": "lot"
-            },
-            {
               "id": "w4",
-              "text": "of"
+              "text": "walking"
+            },
+            {
+              "id": "w0",
+              "text": "Cycling"
             }
           ],
           "correct_answer": [
@@ -105,16 +101,15 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U39_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Walking are very good for your heart.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Camping is a lot of fun.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
@@ -129,8 +124,8 @@
           "interaction_id": "U39_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Caminar",
-          "correct_answer": "Walking",
+          "stimulus_es": "Senderismo",
+          "correct_answer": "Hiking",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Cycling"
+                "Walking"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Picnic"
+                "Fishing"
               ]
             }
           ],
@@ -168,7 +163,7 @@
           "interaction_id": "U39_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Camping is a lot of fun. I have a picnic in the park. Walking is very good for your heart.",
+          "text": "Camping is a lot of fun. I have a picnic in the park. Cycling is faster than walking.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,31 +182,25 @@
           "interaction_id": "U39_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/afd7f7f9045324bc900b913e6e4e5be2.mp3",
-          "text": "We go fishing on the lake.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/5b0720de970a3a8fce35173b1a200071.mp3",
+          "text": "Cycling is faster than walking.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U39_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U39_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pesca'?",
+          "prompt_es": "¿Cómo se dice 'Caminar'?",
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
-            },
-            {
-              "id": "o2",
-              "text": "Camping"
+              "text": "Walking"
             },
             {
               "id": "o3",
+              "text": "Picnic"
+            },
+            {
+              "id": "o2",
               "text": "Cycling"
             }
           ],
@@ -219,24 +208,24 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U39_I13",
+          "interaction_id": "U39_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Hiking",
-              "right": "Senderismo"
+              "left": "Fishing",
+              "right": "Pesca"
             },
             {
               "id": "p1",
-              "left": "Picnic",
-              "right": "Picnic"
+              "left": "Cycling",
+              "right": "Ciclismo"
             },
             {
               "id": "p2",
-              "left": "Cycling",
-              "right": "Ciclismo"
+              "left": "Camping",
+              "right": "Camping"
             },
             {
               "id": "p3",
@@ -253,37 +242,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U39_I14",
+          "interaction_id": "U39_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w6",
-              "text": "heart"
-            },
-            {
-              "id": "w1",
-              "text": "is"
+              "id": "w2",
+              "text": "fishing"
             },
             {
               "id": "w0",
-              "text": "Walking"
-            },
-            {
-              "id": "w2",
-              "text": "very"
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "good"
+              "text": "on"
             },
             {
               "id": "w5",
-              "text": "your"
+              "text": "lake"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "go"
             }
           ],
           "correct_answer": [
@@ -292,44 +277,43 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U39_I15",
+          "interaction_id": "U39_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Cisping are a lot of fun.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Camping is a lot of fun.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U39_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I love (ir) ________ hiking.",
+          "correct_answer": "going",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U39_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (disfrutar) ________ cycling.",
-          "correct_answer": "enjoys",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pesca",
+          "correct_answer": "Fishing",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U39_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Senderismo",
-          "correct_answer": "Hiking",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Picnic",
+          "correct_answer": "Picnic",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U39_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Cycling",
-          "correct_answer": "Ciclismo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U39_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -344,7 +328,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Walking"
+                "Fishing"
               ]
             }
           ],
@@ -352,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U39_I20",
+          "interaction_id": "U39_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Walking is very good for your heart. Camping is a lot of fun. I have a picnic in the park.",
+          "text": "We go fishing on the lake. Walking is very good for your heart. Cycling is faster than walking.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -369,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U39_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/64da315b0e1cfd3376d56e62a9eff3f6.mp3",
+          "text": "I have a picnic in the park.",
+          "mastery_tag": "listening"
         }
       ]
     }

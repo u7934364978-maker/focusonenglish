@@ -18,19 +18,19 @@
         {
           "interaction_id": "U9_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinero/a'?",
+          "prompt_es": "¿Cómo se dice 'Oficinista'?",
           "options": [
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Office worker"
+            },
+            {
+              "id": "o3",
+              "text": "Chef"
             },
             {
               "id": "o2",
               "text": "Driver"
-            },
-            {
-              "id": "o1",
-              "text": "Chef"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Office worker",
-              "right": "Oficinista"
+              "left": "Engineer",
+              "right": "Ingeniero/a"
             },
             {
               "id": "p1",
-              "left": "Police officer",
-              "right": "Oficial de policía"
+              "left": "Farmer",
+              "right": "Granjero/a"
             },
             {
               "id": "p2",
-              "left": "Driver",
-              "right": "Conductor/a"
+              "left": "Office worker",
+              "right": "Oficinista"
             },
             {
               "id": "p3",
@@ -76,34 +76,44 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "officers"
-            },
-            {
-              "id": "w0",
-              "text": "Police"
-            },
-            {
               "id": "w3",
-              "text": "people"
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "works"
+            },
+            {
+              "id": "w4",
+              "text": "big"
             },
             {
               "id": "w2",
-              "text": "help"
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w5",
+              "text": "office"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He is a very good driver.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"She works in a big office.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -127,8 +137,8 @@
           "interaction_id": "U9_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Chef",
-          "correct_answer": "Cocinero/a",
+          "stimulus_en": "Pilot",
+          "correct_answer": "Piloto",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Pilot"
+                "Police officer"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Office worker"
+                "Engineer"
               ]
             }
           ],
@@ -158,7 +168,7 @@
           "interaction_id": "U9_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She works in a big office. My father is an engineer. Police officers help people.",
+          "text": "Police officers help people. My father is an engineer. The chef is in the kitchen.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,46 +187,40 @@
           "interaction_id": "U9_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/fe58dc9028401ae511f308efa117f448.mp3",
-          "text": "Police officers help people.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/b9bbfe6a882266c461c2079522ba812f.mp3",
+          "text": "The chef is in the kitchen.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U9_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U9_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinero/a'?",
+          "prompt_es": "¿Cómo se dice 'Conductor/a'?",
           "options": [
             {
               "id": "o2",
-              "text": "Farmer"
+              "text": "Police officer"
             },
             {
               "id": "o1",
-              "text": "Chef"
+              "text": "Driver"
             },
             {
               "id": "o3",
-              "text": "Police officer"
+              "text": "Chef"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I13",
+          "interaction_id": "U9_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Office worker",
-              "right": "Oficinista"
+              "left": "Engineer",
+              "right": "Ingeniero/a"
             },
             {
               "id": "p1",
@@ -225,13 +229,13 @@
             },
             {
               "id": "p2",
-              "left": "Nurse",
-              "right": "Enfermero/a"
+              "left": "Police officer",
+              "right": "Oficial de policía"
             },
             {
               "id": "p3",
-              "left": "Chef",
-              "right": "Cocinero/a"
+              "left": "Doctor",
+              "right": "Doctor/a"
             }
           ],
           "correct_answer": {
@@ -243,33 +247,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I14",
+          "interaction_id": "U9_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "the"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "chef"
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w5",
-              "text": "kitchen"
+              "text": "driver"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -283,38 +287,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U9_I15",
+          "interaction_id": "U9_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The chef are in the kitchen.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"She works in a big office.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I16",
+          "interaction_id": "U9_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Ser/Estar - tú) ________ you a nurse?",
-          "correct_answer": "Are",
+          "stimulus_en": "They (ser/estar - ellos) ________ students.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I17",
+          "interaction_id": "U9_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Granjero/a",
-          "correct_answer": "Farmer",
+          "stimulus_es": "Oficinista",
+          "correct_answer": "Office worker",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Farmer",
+          "correct_answer": "Granjero/a",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Doctor",
-          "correct_answer": "Doctor/a",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -329,7 +333,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Pilot"
+                "Police officer"
               ]
             }
           ],
@@ -337,10 +341,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I20",
+          "interaction_id": "U9_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She works in a big office. He is a very good driver. My father is an engineer.",
+          "text": "She works in a big office. My father is an engineer. Police officers help people.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +358,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U9_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/c7b8b4fe3959d63396c149a3a4cc71f9.mp3",
+          "text": "She works in a big office.",
+          "mastery_tag": "listening"
         }
       ]
     }

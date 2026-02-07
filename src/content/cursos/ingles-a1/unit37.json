@@ -21,16 +21,16 @@
           "prompt_es": "¿Cómo se dice 'Principiante'?",
           "options": [
             {
+              "id": "o1",
+              "text": "Beginner"
+            },
+            {
               "id": "o2",
-              "text": "Talent"
+              "text": "Practice"
             },
             {
               "id": "o3",
-              "text": "Bad at"
-            },
-            {
-              "id": "o1",
-              "text": "Beginner"
+              "text": "Expert"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Bad at",
-              "right": "Malo en"
+              "left": "Talent",
+              "right": "Talento"
             },
             {
               "id": "p1",
-              "left": "Expert",
-              "right": "Experto"
-            },
-            {
-              "id": "p2",
               "left": "Skill",
               "right": "Habilidad"
             },
             {
+              "id": "p2",
+              "left": "Practice",
+              "right": "Práctica"
+            },
+            {
               "id": "p3",
-              "left": "Good at",
-              "right": "Bueno en"
+              "left": "Beginner",
+              "right": "Principiante"
             }
           ],
           "correct_answer": {
@@ -76,44 +76,29 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "in"
+              "id": "w1",
+              "text": "makes"
             },
             {
               "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "expert"
-            },
-            {
-              "id": "w5",
-              "text": "computers"
+              "text": "perfect"
             },
             {
               "id": "w0",
-              "text": "He"
+              "text": "Practice"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U37_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He are an expert in computers.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I is a beginner in Englareh.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -121,24 +106,24 @@
           "interaction_id": "U37_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He is (malo en) ________ singing.",
-          "correct_answer": "bad at",
+          "stimulus_en": "She (tener) ________ a talent for music.",
+          "correct_answer": "has",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U37_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Bueno en",
-          "correct_answer": "Good at",
+          "stimulus_es": "Malo en",
+          "correct_answer": "Bad at",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Talent",
-          "correct_answer": "Talento",
+          "stimulus_en": "Expert",
+          "correct_answer": "Experto",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +135,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Practice"
+                "Beginner"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Bad at"
+                "Talent"
               ]
             }
           ],
@@ -168,7 +153,7 @@
           "interaction_id": "U37_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She is very good at cooking. He is an expert in computers. Practice makes perfect.",
+          "text": "Practice makes perfect. She is very good at cooking. I am a beginner in English.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,20 +172,14 @@
           "interaction_id": "U37_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/3e03dfd209d2b6cf4237c6e18c2fbee6.mp3",
-          "text": "She is very good at cooking.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/1111c7b6b8636cbf68949389f5986bc6.mp3",
+          "text": "I am bad at remembering names.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U37_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U37_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Malo en'?",
+          "prompt_es": "¿Cómo se dice 'Experto'?",
           "options": [
             {
               "id": "o2",
@@ -208,18 +187,18 @@
             },
             {
               "id": "o3",
-              "text": "Talent"
+              "text": "Skill"
             },
             {
               "id": "o1",
-              "text": "Bad at"
+              "text": "Expert"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U37_I13",
+          "interaction_id": "U37_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
@@ -230,13 +209,13 @@
             },
             {
               "id": "p1",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "Practice",
+              "right": "Práctica"
             },
             {
               "id": "p2",
-              "left": "Good at",
-              "right": "Bueno en"
+              "left": "Expert",
+              "right": "Experto"
             },
             {
               "id": "p3",
@@ -253,33 +232,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U37_I14",
+          "interaction_id": "U37_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w5",
-              "text": "names"
-            },
-            {
               "id": "w0",
               "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "at"
             },
             {
               "id": "w4",
               "text": "remembering"
             },
             {
-              "id": "w1",
-              "text": "am"
+              "id": "w3",
+              "text": "at"
             },
             {
               "id": "w2",
               "text": "bad"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w5",
+              "text": "names"
             }
           ],
           "correct_answer": [
@@ -293,38 +272,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U37_I15",
+          "interaction_id": "U37_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I am a beginner in English.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Practice makes perfect.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U37_I16",
+          "interaction_id": "U37_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He is (malo en) ________ singing.",
-          "correct_answer": "bad at",
+          "stimulus_en": "She (tener) ________ a talent for music.",
+          "correct_answer": "has",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U37_I17",
+          "interaction_id": "U37_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Principiante",
-          "correct_answer": "Beginner",
+          "stimulus_es": "Práctica",
+          "correct_answer": "Practice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Expert",
+          "correct_answer": "Experto",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bad at",
-          "correct_answer": "Malo en",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -339,7 +318,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Beginner"
+                "Bad at"
               ]
             }
           ],
@@ -347,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U37_I20",
+          "interaction_id": "U37_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I am a beginner in English. Practice makes perfect. She is very good at cooking.",
+          "text": "He is an expert in computers. She is very good at cooking. Practice makes perfect.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U37_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ddab4901a14f2fe615a2bf2229334312.mp3",
+          "text": "He is an expert in computers.",
+          "mastery_tag": "listening"
         }
       ]
     }

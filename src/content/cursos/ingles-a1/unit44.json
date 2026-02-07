@@ -18,19 +18,19 @@
         {
           "interaction_id": "U44_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nublado'?",
+          "prompt_es": "¿Cómo se dice 'Caluroso'?",
           "options": [
             {
               "id": "o1",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o3",
-              "text": "Snowy"
+              "text": "Hot"
             },
             {
               "id": "o2",
-              "text": "Warm"
+              "text": "Snowy"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Rainy",
-              "right": "Lluvioso"
+              "left": "Sunny",
+              "right": "Soleado"
             },
             {
               "id": "p1",
-              "left": "Cloudy",
-              "right": "Nublado"
+              "left": "Snowy",
+              "right": "Nevado"
             },
             {
               "id": "p2",
-              "left": "Hot",
-              "right": "Caluroso"
+              "left": "Warm",
+              "right": "Cálido"
             },
             {
               "id": "p3",
-              "left": "Warm",
-              "right": "Cálido"
+              "left": "Cloudy",
+              "right": "Nublado"
             }
           ],
           "correct_answer": {
@@ -76,12 +76,12 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "It's"
+              "id": "w1",
+              "text": "snowy"
             },
             {
-              "id": "w3",
-              "text": "the"
+              "id": "w0",
+              "text": "It's"
             },
             {
               "id": "w2",
@@ -92,8 +92,8 @@
               "text": "mountains"
             },
             {
-              "id": "w1",
-              "text": "snowy"
+              "id": "w3",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -108,7 +108,7 @@
         {
           "interaction_id": "U44_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"It's a warm afternoon.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Take an umbrella, it's rainy.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -116,8 +116,8 @@
           "interaction_id": "U44_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The weather (ser/estar - ello) ________ beautiful.",
-          "correct_answer": "is",
+          "stimulus_en": "(Está) ________ raining.",
+          "correct_answer": "It is",
           "mastery_tag": "grammar"
         },
         {
@@ -132,8 +132,8 @@
           "interaction_id": "U44_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Windy",
-          "correct_answer": "Ventoso",
+          "stimulus_en": "Sunny",
+          "correct_answer": "Soleado",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,7 +145,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Sunny"
+                "Rainy"
               ]
             },
             {
@@ -163,7 +163,7 @@
           "interaction_id": "U44_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Take an umbrella, it's rainy. It's snowy in the mountains. It's a warm afternoon.",
+          "text": "It's a warm afternoon. It's snowy in the mountains. I love sunny days.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,61 +182,55 @@
           "interaction_id": "U44_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/55d89d3079902f959e9efaeb7dec77b1.mp3",
-          "text": "I love sunny days.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/89b9cb3ce3b2e3c6b4a66130f4941448.mp3",
+          "text": "It's a warm afternoon.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U44_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U44_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ventoso'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Windy"
-            },
-            {
               "id": "o2",
-              "text": "Cold"
+              "text": "Warm"
             },
             {
               "id": "o3",
-              "text": "Warm"
+              "text": "Cloudy"
+            },
+            {
+              "id": "o1",
+              "text": "Windy"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U44_I13",
+          "interaction_id": "U44_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Windy",
-              "right": "Ventoso"
+              "left": "Sunny",
+              "right": "Soleado"
             },
             {
               "id": "p1",
-              "left": "Cold",
-              "right": "Frío"
-            },
-            {
-              "id": "p2",
               "left": "Snowy",
               "right": "Nevado"
             },
             {
+              "id": "p2",
+              "left": "Hot",
+              "right": "Caluroso"
+            },
+            {
               "id": "p3",
-              "left": "Warm",
-              "right": "Cálido"
+              "left": "Rainy",
+              "right": "Lluvioso"
             }
           ],
           "correct_answer": {
@@ -248,73 +242,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U44_I14",
+          "interaction_id": "U44_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w1",
-              "text": "wind"
-            },
-            {
-              "id": "w3",
-              "text": "very"
+              "text": "love"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "sunny"
+            },
+            {
+              "id": "w3",
+              "text": "days"
             },
             {
               "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "strong"
+              "text": "I"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U44_I15",
+          "interaction_id": "U44_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The wind are very strong.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The wind is very strong.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U44_I16",
+          "interaction_id": "U44_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It (ser/estar - ello) ________ very cold.",
+          "stimulus_en": "The weather (ser/estar - ello) ________ beautiful.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U44_I17",
+          "interaction_id": "U44_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Frío",
-          "correct_answer": "Cold",
+          "stimulus_es": "Nevado",
+          "correct_answer": "Snowy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Hot",
+          "correct_answer": "Caluroso",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U44_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Sunny",
-          "correct_answer": "Soleado",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,7 +311,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Cold"
+                "Warm"
               ]
             },
             {
@@ -337,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U44_I20",
+          "interaction_id": "U44_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "It's snowy in the mountains. Take an umbrella, it's rainy. The wind is very strong.",
+          "text": "The wind is very strong. It's snowy in the mountains. Take an umbrella, it's rainy.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U44_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/871bf5d6f04360be1aa019aa7cffdf66.mp3",
+          "text": "Take an umbrella, it's rainy.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U13_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Desayuno'?",
+          "prompt_es": "¿Cómo se dice 'Levantarse'?",
           "options": [
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Get up"
             },
             {
-              "id": "o1",
-              "text": "Breakfast"
+              "id": "o3",
+              "text": "Brush teeth"
             },
             {
               "id": "o2",
-              "text": "Shower"
+              "text": "Work"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Breakfast",
-              "right": "Desayuno"
+              "left": "Get up",
+              "right": "Levantarse"
             },
             {
               "id": "p1",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Get dressed",
-              "right": "Vestirse"
+              "left": "Shower",
+              "right": "Ducharse"
             }
           ],
           "correct_answer": {
@@ -80,24 +80,24 @@
               "text": "1"
             },
             {
-              "id": "w5",
-              "text": "PM"
+              "id": "w1",
+              "text": "have"
             },
             {
               "id": "w0",
               "text": "We"
             },
             {
-              "id": "w2",
-              "text": "lunch"
-            },
-            {
-              "id": "w1",
-              "text": "have"
+              "id": "w5",
+              "text": "PM"
             },
             {
               "id": "w3",
               "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "lunch"
             }
           ],
           "correct_answer": [
@@ -113,32 +113,32 @@
         {
           "interaction_id": "U13_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a very busy daily routine.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We have lunch at 1 PM.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U13_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (ir) ________ to school by bus.",
-          "correct_answer": "go",
+          "stimulus_en": "He (ducharse) ________ in the morning.",
+          "correct_answer": "showers",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U13_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Escuela",
-          "correct_answer": "School",
+          "stimulus_es": "Trabajo",
+          "correct_answer": "Work",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Go to bed",
-          "correct_answer": "Irse a la cama",
+          "stimulus_en": "Brush teeth",
+          "correct_answer": "Cepillarse los dientes",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Shower"
+                "Get up"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Get up"
+                "Shower"
               ]
             }
           ],
@@ -168,7 +168,7 @@
           "interaction_id": "U13_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She goes to bed at 10 PM. I brush my teeth every morning. He gets up early.",
+          "text": "She goes to bed at 10 PM. We have lunch at 1 PM. He gets up early.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -193,55 +193,49 @@
         },
         {
           "interaction_id": "U13_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U13_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Irse a la cama'?",
+          "prompt_es": "¿Cómo se dice 'Trabajo'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Brush teeth"
-            },
-            {
               "id": "o1",
-              "text": "Go to bed"
+              "text": "Work"
             },
             {
               "id": "o2",
-              "text": "Shower"
+              "text": "Wake up"
+            },
+            {
+              "id": "o3",
+              "text": "Brush teeth"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U13_I13",
+          "interaction_id": "U13_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Get up",
-              "right": "Levantarse"
+              "left": "Go to bed",
+              "right": "Irse a la cama"
             },
             {
               "id": "p1",
+              "left": "Brush teeth",
+              "right": "Cepillarse los dientes"
+            },
+            {
+              "id": "p2",
               "left": "Work",
               "right": "Trabajo"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "School",
               "right": "Escuela"
-            },
-            {
-              "id": "p3",
-              "left": "Get dressed",
-              "right": "Vestirse"
             }
           ],
           "correct_answer": {
@@ -253,33 +247,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U13_I14",
+          "interaction_id": "U13_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "at"
+              "id": "w4",
+              "text": "every"
             },
             {
               "id": "w2",
-              "text": "lunch"
-            },
-            {
-              "id": "w5",
-              "text": "PM"
-            },
-            {
-              "id": "w4",
-              "text": "1"
+              "text": "my"
             },
             {
               "id": "w0",
-              "text": "We"
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "morning"
+            },
+            {
+              "id": "w3",
+              "text": "teeth"
+            },
+            {
+              "id": "w1",
+              "text": "brush"
             }
           ],
           "correct_answer": [
@@ -293,38 +287,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U13_I15",
+          "interaction_id": "U13_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"We have lunch at 1 PM.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U13_I16",
+          "interaction_id": "U13_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (ducharse) ________ in the morning.",
-          "correct_answer": "showers",
+          "stimulus_en": "They (ir) ________ to school by bus.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U13_I17",
+          "interaction_id": "U13_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Trabajo",
-          "correct_answer": "Work",
+          "stimulus_es": "Levantarse",
+          "correct_answer": "Get up",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Brush teeth",
+          "correct_answer": "Cepillarse los dientes",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Shower",
-          "correct_answer": "Ducharse",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U13_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +326,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Go to bed"
+                "Get up"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Work"
+                "School"
               ]
             }
           ],
@@ -347,10 +341,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U13_I20",
+          "interaction_id": "U13_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I have a very busy daily routine. I brush my teeth every morning. She goes to bed at 10 PM.",
+          "text": "She goes to bed at 10 PM. I have a very busy daily routine. We have lunch at 1 PM.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +358,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U13_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f2f7ff653207169587ae5ff8d3f051ca.mp3",
+          "text": "We have lunch at 1 PM.",
+          "mastery_tag": "listening"
         }
       ]
     }

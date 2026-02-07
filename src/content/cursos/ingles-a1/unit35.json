@@ -18,19 +18,19 @@
         {
           "interaction_id": "U35_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Escuchar música'?",
+          "prompt_es": "¿Cómo se dice 'Navegar por internet'?",
           "options": [
             {
-              "id": "o1",
+              "id": "o3",
               "text": "Listen to music"
+            },
+            {
+              "id": "o1",
+              "text": "Surfing the internet"
             },
             {
               "id": "o2",
               "text": "Meet friends"
-            },
-            {
-              "id": "o3",
-              "text": "Play games"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Play games",
-              "right": "Jugar a juegos"
+              "left": "Listen to music",
+              "right": "Escuchar música"
             },
             {
               "id": "p1",
-              "left": "Meet friends",
-              "right": "Quedar con amigos"
+              "left": "Go out",
+              "right": "Salir"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Surfing the internet",
-              "right": "Navegar por internet"
+              "left": "Meet friends",
+              "right": "Quedar con amigos"
             }
           ],
           "correct_answer": {
@@ -76,68 +76,43 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w8",
-              "text": "internet"
-            },
-            {
-              "id": "w0",
-              "text": "We"
+              "id": "w1",
+              "text": "TV"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "is"
             },
             {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "time"
+              "id": "w0",
+              "text": "Watching"
             },
             {
               "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "spend"
+              "text": "relaxing"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U35_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She enjoys going out for dinner.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He plays video games every evening.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U35_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We (disfrutar) ________ surfing the internet.",
-          "correct_answer": "enjoy",
+          "stimulus_en": "He (escuchar música) ________ in his room.",
+          "correct_answer": "listens to music",
           "mastery_tag": "grammar"
         },
         {
@@ -152,8 +127,8 @@
           "interaction_id": "U35_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Meet friends",
-          "correct_answer": "Quedar con amigos",
+          "stimulus_en": "Listen to music",
+          "correct_answer": "Escuchar música",
           "mastery_tag": "vocabulary"
         },
         {
@@ -172,7 +147,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Meet friends"
+                "Go out"
               ]
             }
           ],
@@ -183,7 +158,7 @@
           "interaction_id": "U35_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "She enjoys going out for dinner. He plays video games every evening. Watching TV is relaxing.",
+          "text": "Watching TV is relaxing. I like meeting my friends in the park. He plays video games every evening.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -202,31 +177,25 @@
           "interaction_id": "U35_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cddeca88a17cf93b500734fa00418366.mp3",
-          "text": "I like meeting my friends in the park.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/fe522ee9cc71d3a6eb1c23fa3ba3cfe9.mp3",
+          "text": "We spend a lot of time on the internet.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U35_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U35_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Navegar por internet'?",
+          "prompt_es": "¿Cómo se dice 'Escuchar música'?",
           "options": [
             {
               "id": "o3",
-              "text": "Listen to music"
-            },
-            {
-              "id": "o2",
               "text": "Watch TV"
             },
             {
               "id": "o1",
+              "text": "Listen to music"
+            },
+            {
+              "id": "o2",
               "text": "Surfing the internet"
             }
           ],
@@ -234,29 +203,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U35_I13",
+          "interaction_id": "U35_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Surfing the internet",
+              "right": "Navegar por internet"
+            },
+            {
+              "id": "p1",
+              "left": "Play games",
+              "right": "Jugar a juegos"
+            },
+            {
+              "id": "p2",
               "left": "Listen to music",
               "right": "Escuchar música"
             },
             {
-              "id": "p1",
-              "left": "Meet friends",
-              "right": "Quedar con amigos"
-            },
-            {
-              "id": "p2",
-              "left": "Go out",
-              "right": "Salir"
-            },
-            {
               "id": "p3",
-              "left": "Surfing the internet",
-              "right": "Navegar por internet"
+              "left": "Watch TV",
+              "right": "Ver la tele"
             }
           ],
           "correct_answer": {
@@ -268,45 +237,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U35_I14",
+          "interaction_id": "U35_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "internet"
+              "id": "w0",
+              "text": "He"
             },
             {
               "id": "w3",
-              "text": "lot"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w5",
-              "text": "time"
-            },
-            {
-              "id": "w6",
-              "text": "on"
-            },
-            {
-              "id": "w1",
-              "text": "spend"
+              "text": "games"
             },
             {
               "id": "w4",
-              "text": "of"
+              "text": "every"
+            },
+            {
+              "id": "w5",
+              "text": "evening"
+            },
+            {
+              "id": "w2",
+              "text": "video"
+            },
+            {
+              "id": "w1",
+              "text": "plays"
             }
           ],
           "correct_answer": [
@@ -315,46 +272,43 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U35_I15",
+          "interaction_id": "U35_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I like meeting my friends in the park.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Watching TV is relaxing.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U35_I16",
+          "interaction_id": "U35_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We (disfrutar) ________ surfing the internet.",
-          "correct_answer": "enjoy",
+          "stimulus_en": "They (quedar con amigos) ________ on Saturdays.",
+          "correct_answer": "meet friends",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U35_I17",
+          "interaction_id": "U35_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Navegar por internet",
-          "correct_answer": "Surfing the internet",
+          "stimulus_es": "Jugar a juegos",
+          "correct_answer": "Play games",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Surfing the internet",
+          "correct_answer": "Navegar por internet",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Meet friends",
-          "correct_answer": "Quedar con amigos",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -362,7 +316,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Surfing the internet"
+                "Play games"
               ]
             },
             {
@@ -377,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U35_I20",
+          "interaction_id": "U35_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We spend a lot of time on the internet. I like meeting my friends in the park. She enjoys going out for dinner.",
+          "text": "I like meeting my friends in the park. She enjoys going out for dinner. Watching TV is relaxing.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -394,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U35_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cddeca88a17cf93b500734fa00418366.mp3",
+          "text": "I like meeting my friends in the park.",
+          "mastery_tag": "listening"
         }
       ]
     }

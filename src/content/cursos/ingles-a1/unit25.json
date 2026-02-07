@@ -21,16 +21,16 @@
           "prompt_es": "¿Cómo se dice 'Cine'?",
           "options": [
             {
+              "id": "o2",
+              "text": "Park"
+            },
+            {
               "id": "o1",
               "text": "Cinema"
             },
             {
               "id": "o3",
-              "text": "Hospital"
-            },
-            {
-              "id": "o2",
-              "text": "Supermarket"
+              "text": "Pharmacy"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Park",
-              "right": "Parque"
+              "left": "Street",
+              "right": "Calle"
             },
             {
               "id": "p1",
@@ -53,13 +53,13 @@
             },
             {
               "id": "p2",
-              "left": "Bank",
-              "right": "Banco"
+              "left": "Park",
+              "right": "Parque"
             },
             {
               "id": "p3",
-              "left": "Supermarket",
-              "right": "Supermercado"
+              "left": "Hospital",
+              "right": "Hospital"
             }
           ],
           "correct_answer": {
@@ -76,36 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "near"
-            },
-            {
-              "id": "w4",
-              "text": "pharmacy"
-            },
-            {
-              "id": "w7",
-              "text": "hospital"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
               "id": "w3",
-              "text": "small"
+              "text": "very"
             },
             {
               "id": "w0",
-              "text": "There"
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "quiet"
             }
           ],
           "correct_answer": [
@@ -113,17 +101,14 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U25_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I go to the park every day.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"There are a small pharmacy near the hospital.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -131,24 +116,24 @@
           "interaction_id": "U25_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My house (ser/estar - ello) ________ on Main Street.",
-          "correct_answer": "is",
+          "stimulus_en": "There (ser/estar - ellos) ________ three shops.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U25_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Supermercado",
-          "correct_answer": "Supermarket",
+          "stimulus_es": "Farmacia",
+          "correct_answer": "Pharmacy",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U25_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Hospital",
-          "correct_answer": "Hospital",
+          "stimulus_en": "Shop",
+          "correct_answer": "Tienda",
           "mastery_tag": "vocabulary"
         },
         {
@@ -167,7 +152,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Cinema"
+                "Shop"
               ]
             }
           ],
@@ -178,7 +163,7 @@
           "interaction_id": "U25_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "My neighborhood is very quiet. The supermarket is open on Sundays. I go to the park every day.",
+          "text": "I go to the park every day. The supermarket is open on Sundays. There is a small pharmacy near the hospital.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -197,61 +182,55 @@
           "interaction_id": "U25_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/6147a1bf9ba311aceafd2f3424ccb6d5.mp3",
-          "text": "The supermarket is open on Sundays.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cd24d0953ebfc60dce6ea329da3d7fc7.mp3",
+          "text": "I go to the park every day.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U25_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U25_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Calle'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Street"
-            },
-            {
               "id": "o2",
-              "text": "Park"
+              "text": "Shop"
             },
             {
               "id": "o3",
-              "text": "Cinema"
+              "text": "Pharmacy"
+            },
+            {
+              "id": "o1",
+              "text": "Street"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I13",
+          "interaction_id": "U25_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Supermarket",
-              "right": "Supermercado"
+              "left": "Hospital",
+              "right": "Hospital"
             },
             {
               "id": "p1",
-              "left": "Cinema",
-              "right": "Cine"
+              "left": "Park",
+              "right": "Parque"
             },
             {
               "id": "p2",
-              "left": "Street",
-              "right": "Calle"
+              "left": "Pharmacy",
+              "right": "Farmacia"
             },
             {
               "id": "p3",
-              "left": "Park",
-              "right": "Parque"
+              "left": "Shop",
+              "right": "Tienda"
             }
           ],
           "correct_answer": {
@@ -263,29 +242,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I14",
+          "interaction_id": "U25_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
+            {
+              "id": "w5",
+              "text": "Sundays"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w1",
-              "text": "neighborhood"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w4",
-              "text": "quiet"
-            },
-            {
               "id": "w0",
-              "text": "My"
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "supermarket"
             }
           ],
           "correct_answer": [
@@ -293,19 +276,20 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U25_I15",
+          "interaction_id": "U25_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"My neighborhood is very quiet.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I16",
+          "interaction_id": "U25_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "There (ser/estar - ello) ________ a big park.",
@@ -313,15 +297,15 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I17",
+          "interaction_id": "U25_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Parque",
-          "correct_answer": "Park",
+          "stimulus_es": "Cine",
+          "correct_answer": "Cinema",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I18",
+          "interaction_id": "U25_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
           "stimulus_en": "Supermarket",
@@ -329,7 +313,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I19",
+          "interaction_id": "U25_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -337,14 +321,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Street"
+                "Shop"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Bank"
+                "Pharmacy"
               ]
             }
           ],
@@ -352,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I20",
+          "interaction_id": "U25_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I go to the park every day. There are many trees in this street. There is a small pharmacy near the hospital.",
+          "text": "There is a small pharmacy near the hospital. My neighborhood is very quiet. The supermarket is open on Sundays.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -369,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U25_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cd24d0953ebfc60dce6ea329da3d7fc7.mp3",
+          "text": "I go to the park every day.",
+          "mastery_tag": "listening"
         }
       ]
     }

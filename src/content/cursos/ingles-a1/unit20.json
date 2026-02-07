@@ -18,19 +18,19 @@
         {
           "interaction_id": "U20_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Rutina'?",
+          "prompt_es": "¿Cómo se dice 'Preferencia'?",
           "options": [
             {
               "id": "o1",
-              "text": "Routine"
-            },
-            {
-              "id": "o2",
-              "text": "Month"
+              "text": "Preference"
             },
             {
               "id": "o3",
               "text": "Meal"
+            },
+            {
+              "id": "o2",
+              "text": "Routine"
             }
           ],
           "correct_answer": "o1",
@@ -76,28 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "dislikes"
+              "id": "w4",
+              "text": "time"
             },
             {
               "id": "w3",
-              "text": "likes"
+              "text": "the"
             },
             {
-              "id": "w2",
-              "text": "my"
+              "id": "w0",
+              "text": "Can"
             },
             {
               "id": "w1",
-              "text": "know"
+              "text": "you"
             },
             {
-              "id": "w4",
-              "text": "and"
+              "id": "w2",
+              "text": "tell"
             }
           ],
           "correct_answer": [
@@ -105,15 +101,14 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U20_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I know my likes and darelikes.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Can you tell the time?\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -121,24 +116,24 @@
           "interaction_id": "U20_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (no - gustar) ________ tea.",
-          "correct_answer": "doesn't like",
+          "stimulus_en": "Today (ser/estar - ello) ________ Tuesday.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U20_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Fecha",
-          "correct_answer": "Date",
+          "stimulus_es": "Preferencia",
+          "correct_answer": "Preference",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U20_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Month",
-          "correct_answer": "Mes",
+          "stimulus_en": "Routine",
+          "correct_answer": "Rutina",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Date"
+                "Meal"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Preference"
+                "Routine"
               ]
             }
           ],
@@ -168,7 +163,7 @@
           "interaction_id": "U20_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I know my likes and dislikes. This is a review of module two. Can you tell the time?",
+          "text": "I know my likes and dislikes. Practice your daily routine. Learn the months of the year.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,28 +182,22 @@
           "interaction_id": "U20_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/07d2a29c00846a6e77646db82c3c5b8e.mp3",
-          "text": "I know my likes and dislikes.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ccd246992286cdb43f8f9d9d2301e456.mp3",
+          "text": "This is a review of module two.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U20_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U20_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Mes'?",
           "options": [
             {
               "id": "o2",
-              "text": "Routine"
+              "text": "Meal"
             },
             {
               "id": "o3",
-              "text": "Meal"
+              "text": "Preference"
             },
             {
               "id": "o1",
@@ -219,29 +208,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I13",
+          "interaction_id": "U20_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Month",
-              "right": "Mes"
-            },
-            {
-              "id": "p1",
-              "left": "Preference",
-              "right": "Preferencia"
-            },
-            {
-              "id": "p2",
               "left": "Routine",
               "right": "Rutina"
             },
             {
+              "id": "p1",
+              "left": "Date",
+              "right": "Fecha"
+            },
+            {
+              "id": "p2",
+              "left": "Month",
+              "right": "Mes"
+            },
+            {
               "id": "p3",
-              "left": "Meal",
-              "right": "Comida"
+              "left": "Preference",
+              "right": "Preferencia"
             }
           ],
           "correct_answer": {
@@ -253,37 +242,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I14",
+          "interaction_id": "U20_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "module"
+              "text": "tell"
             },
             {
               "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "two"
+              "text": "you"
             },
             {
               "id": "w3",
-              "text": "review"
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "time"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Can"
             }
           ],
           "correct_answer": [
@@ -291,45 +272,43 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U20_I15",
+          "interaction_id": "U20_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Can you tell the time?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I know my likes and darelikes.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U20_I16",
+          "interaction_id": "U20_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (no - gustar) ________ tea.",
-          "correct_answer": "doesn't like",
+          "stimulus_en": "He (tener) ________ a car.",
+          "correct_answer": "has",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U20_I17",
+          "interaction_id": "U20_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Mes",
-          "correct_answer": "Month",
+          "stimulus_es": "Rutina",
+          "correct_answer": "Routine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Routine",
+          "correct_answer": "Rutina",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U20_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Month",
-          "correct_answer": "Mes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -337,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Preference"
+                "Meal"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Month"
+                "Preference"
               ]
             }
           ],
@@ -352,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I20",
+          "interaction_id": "U20_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Practice your daily routine. Learn the months of the year. I know my likes and dislikes.",
+          "text": "I know my likes and dislikes. Learn the months of the year. Can you tell the time?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -369,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U20_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/47826287034d0ebeef39d9565a9d0f6f.mp3",
+          "text": "Can you tell the time?",
+          "mastery_tag": "listening"
         }
       ]
     }

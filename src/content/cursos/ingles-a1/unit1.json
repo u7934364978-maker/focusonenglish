@@ -18,19 +18,19 @@
         {
           "interaction_id": "U1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Buenas tardes'?",
+          "prompt_es": "¿Cómo se dice 'Estudiante'?",
           "options": [
             {
+              "id": "o2",
+              "text": "Hello"
+            },
+            {
               "id": "o3",
-              "text": "Teacher"
+              "text": "Hi"
             },
             {
               "id": "o1",
-              "text": "Good afternoon"
-            },
-            {
-              "id": "o2",
-              "text": "Good evening"
+              "text": "Student"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Goodbye",
-              "right": "Adiós"
+              "left": "Good evening",
+              "right": "Buenas noches (saludo)"
             },
             {
               "id": "p1",
-              "left": "Hi",
-              "right": "Hola (informal)"
+              "left": "Teacher",
+              "right": "Profesor/a"
             },
             {
               "id": "p2",
-              "left": "Good morning",
-              "right": "Buenos días"
+              "left": "Good afternoon",
+              "right": "Buenas tardes"
             },
             {
               "id": "p3",
-              "left": "Bye",
-              "right": "Chao"
+              "left": "Student",
+              "right": "Estudiante"
             }
           ],
           "correct_answer": {
@@ -76,20 +76,20 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "name"
+              "id": "w2",
+              "text": "from"
             },
             {
               "id": "w3",
-              "text": "Carlos"
+              "text": "London"
+            },
+            {
+              "id": "w1",
+              "text": "am"
             },
             {
               "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -103,7 +103,7 @@
         {
           "interaction_id": "U1_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My nise are Carlos.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Nice to meet you.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -111,24 +111,24 @@
           "interaction_id": "U1_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "You (ser/estar - tú) ________ my teacher.",
-          "correct_answer": "are",
+          "stimulus_en": "My name (ser/estar - ello) ________ John.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U1_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Buenas noches (despedida)",
-          "correct_answer": "Good night",
+          "stimulus_es": "Hola",
+          "correct_answer": "Hello",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bye",
-          "correct_answer": "Chao",
+          "stimulus_en": "Good afternoon",
+          "correct_answer": "Buenas tardes",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Teacher"
+                "Hello"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Hi"
+                "Good evening"
               ]
             }
           ],
@@ -158,7 +158,7 @@
           "interaction_id": "U1_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Good morning, class. I am a student. Nice to meet you.",
+          "text": "Nice to meet you. He is my best friend. My name is Carlos.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -183,25 +183,19 @@
         },
         {
           "interaction_id": "U1_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U1_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Chao'?",
+          "prompt_es": "¿Cómo se dice 'Hola (informal)'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Bye"
+              "id": "o3",
+              "text": "Goodbye"
             },
             {
               "id": "o2",
-              "text": "Good afternoon"
+              "text": "Good evening"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Hi"
             }
           ],
@@ -209,29 +203,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I13",
+          "interaction_id": "U1_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Goodbye",
-              "right": "Adiós"
+              "left": "Bye",
+              "right": "Chao"
             },
             {
               "id": "p1",
-              "left": "Good night",
-              "right": "Buenas noches (despedida)"
+              "left": "Good morning",
+              "right": "Buenos días"
             },
             {
               "id": "p2",
-              "left": "Name",
-              "right": "Nombre"
+              "left": "Hi",
+              "right": "Hola (informal)"
             },
             {
               "id": "p3",
-              "left": "Student",
-              "right": "Estudiante"
+              "left": "Name",
+              "right": "Nombre"
             }
           ],
           "correct_answer": {
@@ -243,25 +237,25 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I14",
+          "interaction_id": "U1_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "my"
+              "id": "w3",
+              "text": "today"
             },
             {
               "id": "w1",
-              "text": "is"
+              "text": "are"
             },
             {
               "id": "w0",
-              "text": "She"
+              "text": "How"
             },
             {
-              "id": "w3",
-              "text": "teacher"
+              "id": "w2",
+              "text": "you"
             }
           ],
           "correct_answer": [
@@ -273,38 +267,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I15",
+          "interaction_id": "U1_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She is my teacher.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Nice to meet you.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U1_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I (ser/estar - yo) ________ from Spain.",
+          "correct_answer": "am",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U1_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "What (ser/estar - ello) ________ your name?",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Buenas tardes",
+          "correct_answer": "Good afternoon",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Hola",
-          "correct_answer": "Hello",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Hello",
+          "correct_answer": "Hola",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Name",
-          "correct_answer": "Nombre",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -312,14 +306,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Good afternoon"
+                "Good night"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Good night"
+                "Hello"
               ]
             }
           ],
@@ -327,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I20",
+          "interaction_id": "U1_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "My name is Carlos. He is my best friend. I am a student.",
+          "text": "He is my best friend. Nice to meet you. I am a student.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -344,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U1_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4b48a6e8879e7ea0c4de4ca33313cd57.mp3",
+          "text": "I am a student.",
+          "mastery_tag": "listening"
         }
       ]
     }

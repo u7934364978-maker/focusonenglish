@@ -18,19 +18,19 @@
         {
           "interaction_id": "U29_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Camisa'?",
+          "prompt_es": "¿Cómo se dice 'Abrigo'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Shirt"
-            },
-            {
               "id": "o3",
-              "text": "Shoes"
+              "text": "Trousers"
             },
             {
               "id": "o2",
-              "text": "Trousers"
+              "text": "Hat"
+            },
+            {
+              "id": "o1",
+              "text": "Coat"
             }
           ],
           "correct_answer": "o1",
@@ -38,6 +38,177 @@
         },
         {
           "interaction_id": "U29_I2",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Trousers",
+              "right": "Pantalones"
+            },
+            {
+              "id": "p1",
+              "left": "Dress",
+              "right": "Vestido"
+            },
+            {
+              "id": "p2",
+              "left": "Coat",
+              "right": "Abrigo"
+            },
+            {
+              "id": "p3",
+              "left": "T-shirt",
+              "right": "Camiseta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "warm"
+            },
+            {
+              "id": "w0",
+              "text": "These"
+            },
+            {
+              "id": "w1",
+              "text": "socks"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He are wearing a black hat.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "She (llevar puesto) ________ a red dress.",
+          "correct_answer": "is wearing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vestido",
+          "correct_answer": "Dress",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Hat",
+          "correct_answer": "Sombrero",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Hat"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Shoes"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "These socks are very warm. My shoes are very comfortable. He is wearing a black hat.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothes"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/c50b0d1163da5ccda3a9dc5a74e027d1.mp3",
+          "text": "I like your new dress.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Camiseta'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "T-shirt"
+            },
+            {
+              "id": "o3",
+              "text": "Trousers"
+            },
+            {
+              "id": "o2",
+              "text": "Hat"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
@@ -58,8 +229,8 @@
             },
             {
               "id": "p3",
-              "left": "Shoes",
-              "right": "Zapatos"
+              "left": "Dress",
+              "right": "Vestido"
             }
           ],
           "correct_answer": {
@@ -68,200 +239,28 @@
             "p2": "p2",
             "p3": "p3"
           },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w3",
-              "text": "trousers"
-            },
-            {
-              "id": "w2",
-              "text": "new"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He are wearing a black hat.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "These (ser/estar - ellos) ________ my shoes.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Camisa",
-          "correct_answer": "Shirt",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "T-shirt",
-          "correct_answer": "Camiseta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Skirt"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Dress"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I need new trousers. My shoes are very comfortable. He is wearing a black hat.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clothes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U29_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f1c8ff2ab65fbf1333a91a6249b34564.mp3",
-          "text": "I need new trousers.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U29_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sombrero'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Dress"
-            },
-            {
-              "id": "o1",
-              "text": "Hat"
-            },
-            {
-              "id": "o3",
-              "text": "Skirt"
-            }
-          ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Dress",
-              "right": "Vestido"
-            },
-            {
-              "id": "p1",
-              "left": "Trousers",
-              "right": "Pantalones"
-            },
-            {
-              "id": "p2",
-              "left": "Coat",
-              "right": "Abrigo"
-            },
-            {
-              "id": "p3",
-              "left": "Hat",
-              "right": "Sombrero"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I14",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            {
-              "id": "w2",
-              "text": "new"
-            },
             {
               "id": "w1",
               "text": "need"
             },
             {
-              "id": "w3",
-              "text": "trousers"
+              "id": "w2",
+              "text": "new"
             },
             {
               "id": "w0",
               "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "trousers"
             }
           ],
           "correct_answer": [
@@ -273,38 +272,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U29_I15",
+          "interaction_id": "U29_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"These socks are very warm.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He is wearing a black hat.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I16",
+          "interaction_id": "U29_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (llevar puesto) ________ a red dress.",
-          "correct_answer": "is wearing",
+          "stimulus_en": "I am (llevar puesto) ________ a blue shirt.",
+          "correct_answer": "wearing",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I17",
+          "interaction_id": "U29_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Sombrero",
-          "correct_answer": "Hat",
+          "stimulus_es": "Abrigo",
+          "correct_answer": "Coat",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Shirt",
+          "correct_answer": "Camisa",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "T-shirt",
-          "correct_answer": "Camiseta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -312,7 +311,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Skirt"
+                "Shoes"
               ]
             },
             {
@@ -327,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I20",
+          "interaction_id": "U29_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I like your new dress. These socks are very warm. I need new trousers.",
+          "text": "I like your new dress. My shoes are very comfortable. He is wearing a black hat.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -344,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cfc2b7d51eeff2e5d4b9f3c1401af12f.mp3",
+          "text": "These socks are very warm.",
+          "mastery_tag": "listening"
         }
       ]
     }

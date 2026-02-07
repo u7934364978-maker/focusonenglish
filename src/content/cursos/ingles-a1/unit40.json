@@ -18,19 +18,19 @@
         {
           "interaction_id": "U40_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Actividad'?",
+          "prompt_es": "¿Cómo se dice 'Talento'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Frequency"
-            },
-            {
               "id": "o2",
-              "text": "Ability"
+              "text": "Activity"
             },
             {
               "id": "o1",
-              "text": "Activity"
+              "text": "Talent"
+            },
+            {
+              "id": "o3",
+              "text": "Frequency"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Ability",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p1",
               "left": "Frequency",
               "right": "Frecuencia"
             },
             {
+              "id": "p1",
+              "left": "Talent",
+              "right": "Talento"
+            },
+            {
               "id": "p2",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "Ability",
+              "right": "Habilidad"
             },
             {
               "id": "p3",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "Activity",
+              "right": "Actividad"
             }
           ],
           "correct_answer": {
@@ -76,50 +76,35 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "module"
-            },
-            {
-              "id": "w4",
-              "text": "of"
+              "id": "w3",
+              "text": "politely"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Ask"
             },
             {
-              "id": "w3",
-              "text": "review"
-            },
-            {
-              "id": "w6",
-              "text": "four"
+              "id": "w1",
+              "text": "for"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "permission"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Talk about your abilities and skills.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are a review of module four.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
@@ -134,8 +119,8 @@
           "interaction_id": "U40_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
+          "stimulus_es": "Habilidad",
+          "correct_answer": "Ability",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Talent"
+                "Activity"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Ability"
+                "Frequency"
               ]
             }
           ],
@@ -173,7 +158,7 @@
           "interaction_id": "U40_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Talk about your abilities and skills. Connect sentences with 'and', 'but', and 'because'. Use adverbs of frequency.",
+          "text": "Connect sentences with 'and', 'but', and 'because'. This is a review of module four. Ask for permission politely.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -192,61 +177,55 @@
           "interaction_id": "U40_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/781806c741e1411c9fde5302ca2b4130.mp3",
-          "text": "This is a review of module four.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/10739cb43c9f91301caca061e0d5dfef.mp3",
+          "text": "Ask for permission politely.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U40_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U40_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Talento'?",
+          "prompt_es": "¿Cómo se dice 'Frecuencia'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Ability"
+              "id": "o1",
+              "text": "Frequency"
             },
             {
-              "id": "o1",
-              "text": "Talent"
+              "id": "o2",
+              "text": "Activity"
             },
             {
               "id": "o3",
-              "text": "Frequency"
+              "text": "Talent"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U40_I13",
+          "interaction_id": "U40_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Activity",
-              "right": "Actividad"
-            },
-            {
-              "id": "p1",
-              "left": "Talent",
-              "right": "Talento"
-            },
-            {
-              "id": "p2",
               "left": "Frequency",
               "right": "Frecuencia"
             },
             {
-              "id": "p3",
+              "id": "p1",
               "left": "Ability",
               "right": "Habilidad"
+            },
+            {
+              "id": "p2",
+              "left": "Activity",
+              "right": "Actividad"
+            },
+            {
+              "id": "p3",
+              "left": "Talent",
+              "right": "Talento"
             }
           ],
           "correct_answer": {
@@ -258,59 +237,44 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U40_I14",
+          "interaction_id": "U40_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w3",
-              "text": "review"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "is"
+              "text": "frequency"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Use"
             },
             {
-              "id": "w4",
+              "id": "w2",
               "text": "of"
             },
             {
-              "id": "w6",
-              "text": "four"
-            },
-            {
-              "id": "w5",
-              "text": "module"
+              "id": "w1",
+              "text": "adverbs"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U40_I15",
+          "interaction_id": "U40_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Talk about your abilities and skills.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Connect sentences with 'and', 'but', and 'because'.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U40_I16",
+          "interaction_id": "U40_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "I (siempre) ________ study.",
@@ -318,23 +282,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U40_I17",
+          "interaction_id": "U40_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Frecuencia",
-          "correct_answer": "Frequency",
+          "stimulus_es": "Talento",
+          "correct_answer": "Talent",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Activity",
+          "correct_answer": "Actividad",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U40_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Ability",
-          "correct_answer": "Habilidad",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -342,14 +306,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Ability"
+                "Activity"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Talent"
+                "Ability"
               ]
             }
           ],
@@ -357,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U40_I20",
+          "interaction_id": "U40_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Talk about your abilities and skills. Ask for permission politely. Use adverbs of frequency.",
+          "text": "Connect sentences with 'and', 'but', and 'because'. Talk about your abilities and skills. Ask for permission politely.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -374,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U40_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cd598ba0f940735f6a5ae51a43a902cb.mp3",
+          "text": "Talk about your abilities and skills.",
+          "mastery_tag": "listening"
         }
       ]
     }

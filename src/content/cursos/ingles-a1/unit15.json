@@ -18,19 +18,19 @@
         {
           "interaction_id": "U15_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estudia'?",
+          "prompt_es": "¿Cómo se dice 'Juega'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Plays"
-            },
-            {
               "id": "o1",
-              "text": "Studies"
+              "text": "Plays"
             },
             {
               "id": "o3",
               "text": "Sees"
+            },
+            {
+              "id": "o2",
+              "text": "Works"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Sees",
-              "right": "Ve"
+              "left": "Goes",
+              "right": "Va"
             },
             {
               "id": "p1",
-              "left": "Wants",
-              "right": "Quiere"
+              "left": "Plays",
+              "right": "Juega"
             },
             {
               "id": "p2",
-              "left": "Works",
-              "right": "Trabaja"
+              "left": "Studies",
+              "right": "Estudia"
             },
             {
               "id": "p3",
-              "left": "Has",
-              "right": "Tiene"
+              "left": "Likes",
+              "right": "Le gusta"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,200 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
+              "id": "w4",
               "text": "the"
             },
             {
-              "id": "w6",
-              "text": "day"
+              "id": "w3",
+              "text": "in"
             },
             {
               "id": "w5",
-              "text": "every"
+              "text": "garden"
+            },
+            {
+              "id": "w1",
+              "text": "dog"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U15_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My brother works in London.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "He (trabajar) ________ in a bank.",
+          "correct_answer": "works",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ve",
+          "correct_answer": "Sees",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Wants",
+          "correct_answer": "Quiere",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Works"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Wants"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The dog plays in the garden. She wants a new computer. He goes to the gym every day.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Present Simple: He, She, It"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U15_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4170e0be479adaad631bf3bd506f1c9b.mp3",
+          "text": "The dog plays in the garden.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U15_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estudia'?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Plays"
+            },
+            {
+              "id": "o2",
+              "text": "Works"
+            },
+            {
+              "id": "o1",
+              "text": "Studies"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Goes",
+              "right": "Va"
+            },
+            {
+              "id": "p1",
+              "left": "Sees",
+              "right": "Ve"
+            },
+            {
+              "id": "p2",
+              "left": "Wants",
+              "right": "Quiere"
+            },
+            {
+              "id": "p3",
+              "left": "Works",
+              "right": "Trabaja"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
             },
             {
               "id": "w0",
               "text": "He"
             },
             {
-              "id": "w2",
-              "text": "to"
+              "id": "w5",
+              "text": "every"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "day"
             },
             {
               "id": "w4",
@@ -116,30 +292,30 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U15_I4",
+          "interaction_id": "U15_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"She speaks three languages.\"",
-          "correct_answer": false,
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U15_I5",
+          "interaction_id": "U15_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (no - gustar) ________ coffee.",
-          "correct_answer": "doesn't like",
+          "stimulus_en": "It (jugar) ________ with the ball.",
+          "correct_answer": "plays",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U15_I6",
+          "interaction_id": "U15_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Estudia",
-          "correct_answer": "Studies",
+          "stimulus_es": "Va",
+          "correct_answer": "Goes",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U15_I7",
+          "interaction_id": "U15_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
           "stimulus_en": "Goes",
@@ -147,7 +323,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U15_I8",
+          "interaction_id": "U15_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -155,197 +331,25 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Wants"
+                "Sees"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Studies"
+                "Wants"
               ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "My brother works in London. She wants a new computer. He goes to the gym every day.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Present Simple: He, She, It"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U15_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f859c87effe99aef5d563fa198972e42.mp3",
-          "text": "She speaks three languages.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U15_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U15_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ve'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sees"
-            },
-            {
-              "id": "o3",
-              "text": "Works"
-            },
-            {
-              "id": "o2",
-              "text": "Plays"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Plays",
-              "right": "Juega"
-            },
-            {
-              "id": "p1",
-              "left": "Studies",
-              "right": "Estudia"
-            },
-            {
-              "id": "p2",
-              "left": "Likes",
-              "right": "Le gusta"
-            },
-            {
-              "id": "p3",
-              "left": "Sees",
-              "right": "Ve"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "speaks"
-            },
-            {
-              "id": "w2",
-              "text": "three"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w3",
-              "text": "languages"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U15_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He goes to the gym every day.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (estudiar) ________ history.",
-          "correct_answer": "studies",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ve",
-          "correct_answer": "Sees",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Studies",
-          "correct_answer": "Estudia",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I19",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Goes"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Sees"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I20",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He goes to the gym every day. She speaks three languages. My brother works in London.",
+          "text": "He goes to the gym every day. She wants a new computer. The dog plays in the garden.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +363,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U15_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4170e0be479adaad631bf3bd506f1c9b.mp3",
+          "text": "The dog plays in the garden.",
+          "mastery_tag": "listening"
         }
       ]
     }

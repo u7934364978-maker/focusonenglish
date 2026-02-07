@@ -18,19 +18,19 @@
         {
           "interaction_id": "U22_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Puerta'?",
+          "prompt_es": "¿Cómo se dice 'Silla'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Table"
-            },
-            {
               "id": "o1",
-              "text": "Door"
+              "text": "Chair"
             },
             {
               "id": "o2",
               "text": "Mirror"
+            },
+            {
+              "id": "o3",
+              "text": "Lamp"
             }
           ],
           "correct_answer": "o1",
@@ -43,185 +43,13 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
               "left": "Mirror",
               "right": "Espejo"
-            },
-            {
-              "id": "p1",
-              "left": "Lamp",
-              "right": "Lámpara"
-            },
-            {
-              "id": "p2",
-              "left": "Table",
-              "right": "Mesa"
-            },
-            {
-              "id": "p3",
-              "left": "Window",
-              "right": "Ventana"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Close"
-            },
-            {
-              "id": "w2",
-              "text": "door,"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U22_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The sofa is very big.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There (ser/estar - ellos) ________ four chairs.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cama",
-          "correct_answer": "Bed",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Mirror",
-          "correct_answer": "Espejo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Door"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Table"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Close the door, please. We have a new fridge. The windows are open.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Furniture & Household Items"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U22_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/4cd5f10cc44a4047486f41d6435be805.mp3",
-          "text": "The windows are open.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U22_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U22_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sofá'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Table"
-            },
-            {
-              "id": "o2",
-              "text": "Fridge"
-            },
-            {
-              "id": "o1",
-              "text": "Sofa"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Table",
-              "right": "Mesa"
-            },
-            {
-              "id": "p1",
-              "left": "Window",
-              "right": "Ventana"
             },
             {
               "id": "p2",
@@ -243,29 +71,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I14",
+          "interaction_id": "U22_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "the"
+              "id": "w5",
+              "text": "table"
             },
             {
               "id": "w2",
               "text": "book"
             },
             {
-              "id": "w0",
-              "text": "Put"
-            },
-            {
-              "id": "w5",
-              "text": "table"
-            },
-            {
               "id": "w1",
               "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
             },
             {
               "id": "w3",
@@ -283,38 +111,204 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U22_I15",
+          "interaction_id": "U22_I4",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Close the door, please.\"",
-          "correct_answer": false,
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There (ser/estar - ellos) ________ four chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I7",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Door",
+          "correct_answer": "Puerta",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Fridge"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Bed"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The windows are open. We have a new fridge. The sofa is very big.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture & Household Items"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U22_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/7e91036e73772ced064b8c768ced316a.mp3",
+          "text": "Put the book on the table.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U22_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Silla'?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            },
+            {
+              "id": "o1",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There (ser/estar - ellos) ________ four chairs.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U22_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nevera",
+          "correct_answer": "Fridge",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cama",
-          "correct_answer": "Bed",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Door",
+          "correct_answer": "Puerta",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Chair",
-          "correct_answer": "Silla",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -337,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I20",
+          "interaction_id": "U22_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The sofa is very big. Put the book on the table. We have a new fridge.",
+          "text": "We have a new fridge. The sofa is very big. Put the book on the table.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U22_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/03bb5471e1fb79828802ba760c5f60c2.mp3",
+          "text": "We have a new fridge.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U58_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Enfermo'?",
+          "prompt_es": "¿Cómo se dice 'Enfermero'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Cold"
+              "id": "o1",
+              "text": "Nurse"
             },
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Sick"
             },
             {
               "id": "o3",
-              "text": "Pharmacy"
+              "text": "Cold"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Doctor",
-              "right": "Doctor"
+              "left": "Pharmacy",
+              "right": "Farmacia"
             },
             {
               "id": "p1",
-              "left": "Nurse",
-              "right": "Enfermero"
+              "left": "Doctor",
+              "right": "Doctor"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Cold",
-              "right": "Resfriado"
+              "left": "Pain",
+              "right": "Dolor"
             }
           ],
           "correct_answer": {
@@ -76,34 +76,44 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "pharmacy"
-            },
-            {
-              "id": "w2",
+              "id": "w1",
               "text": "the"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w5",
+              "text": "day"
             },
             {
               "id": "w0",
-              "text": "Go"
+              "text": "Take"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "medicine"
+            },
+            {
+              "id": "w3",
+              "text": "twice"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U58_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Go to the pharmacy.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a sore throat.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -111,24 +121,24 @@
           "interaction_id": "U58_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Take this (medicina) ________.",
-          "correct_answer": "medicine",
+          "stimulus_en": "She (necesitar) ________ to see a doctor.",
+          "correct_answer": "needs",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U58_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Enfermo",
-          "correct_answer": "Sick",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U58_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Nurse",
-          "correct_answer": "Enfermero",
+          "stimulus_en": "Sick",
+          "correct_answer": "Enfermo",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Medicine"
+                "Pharmacy"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Pharmacy"
+                "Doctor"
               ]
             }
           ],
@@ -158,7 +168,7 @@
           "interaction_id": "U58_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I have a sore throat. I need to rest. The doctor is very kind.",
+          "text": "I need to rest. The doctor is very kind. I have a sore throat.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,56 +187,50 @@
           "interaction_id": "U58_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/0176e471c188a7c53f09bfeea75f774d.mp3",
-          "text": "Take the medicine twice a day.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/7c1168c1bbf5c4bf450a57fb90343f99.mp3",
+          "text": "I need to rest.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U58_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U58_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dolor'?",
+          "prompt_es": "¿Cómo se dice 'Resfriado'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Pharmacy"
-            },
-            {
-              "id": "o2",
+              "id": "o1",
               "text": "Cold"
             },
             {
-              "id": "o1",
-              "text": "Pain"
+              "id": "o2",
+              "text": "Nurse"
+            },
+            {
+              "id": "o3",
+              "text": "Pharmacy"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U58_I13",
+          "interaction_id": "U58_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Nurse",
+              "right": "Enfermero"
+            },
+            {
+              "id": "p1",
               "left": "Pharmacy",
               "right": "Farmacia"
             },
             {
-              "id": "p1",
-              "left": "Sick",
-              "right": "Enfermo"
-            },
-            {
               "id": "p2",
-              "left": "Cold",
-              "right": "Resfriado"
+              "left": "Pain",
+              "right": "Dolor"
             },
             {
               "id": "p3",
@@ -243,10 +247,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U58_I14",
+          "interaction_id": "U58_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
             {
               "id": "w3",
               "text": "sore"
@@ -256,16 +264,12 @@
               "text": "have"
             },
             {
-              "id": "w4",
-              "text": "throat"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
               "id": "w2",
               "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "throat"
             }
           ],
           "correct_answer": [
@@ -278,38 +282,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U58_I15",
+          "interaction_id": "U58_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I need to rest.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Go to the pharmacy.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U58_I16",
+          "interaction_id": "U58_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (tener) ________ a headache.",
-          "correct_answer": "have",
+          "stimulus_en": "Take this (medicina) ________.",
+          "correct_answer": "medicine",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U58_I17",
+          "interaction_id": "U58_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Resfriado",
-          "correct_answer": "Cold",
+          "stimulus_es": "Enfermo",
+          "correct_answer": "Sick",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Pain",
+          "correct_answer": "Dolor",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U58_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Medicine",
-          "correct_answer": "Medicina",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -317,14 +321,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Pharmacy"
+                "Nurse"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Medicine"
+                "Sick"
               ]
             }
           ],
@@ -332,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U58_I20",
+          "interaction_id": "U58_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I have a sore throat. The doctor is very kind. Go to the pharmacy.",
+          "text": "The doctor is very kind. I need to rest. I have a sore throat.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U58_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/568030cac7130187b03da7d9dc4f9cbc.mp3",
+          "text": "The doctor is very kind.",
+          "mastery_tag": "listening"
         }
       ]
     }

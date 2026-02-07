@@ -18,15 +18,15 @@
         {
           "interaction_id": "U48_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tour'?",
+          "prompt_es": "¿Cómo se dice 'Cámara'?",
           "options": [
             {
               "id": "o2",
-              "text": "Guide"
+              "text": "Museum"
             },
             {
               "id": "o1",
-              "text": "Tour"
+              "text": "Camera"
             },
             {
               "id": "o3",
@@ -43,185 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Tour",
-              "right": "Tour"
-            },
-            {
-              "id": "p1",
-              "left": "Guide",
-              "right": "Guía"
-            },
-            {
-              "id": "p2",
-              "left": "Map",
-              "right": "Mapa"
-            },
-            {
-              "id": "p3",
-              "left": "Camera",
-              "right": "Cámara"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U48_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "camera"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
-            },
-            {
-              "id": "w1",
-              "text": "forget"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U48_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The monuments are very old.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U48_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Look at the (monumentos) ________.",
-          "correct_answer": "monuments",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U48_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Museo",
-          "correct_answer": "Museum",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U48_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Museum",
-          "correct_answer": "Museo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U48_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Souvenir"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Camera"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U48_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The monuments are very old. I want to buy a souvenir. Don't forget your camera.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sightseeing"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U48_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/6453f0c781738edb75b25d827ec547c2.mp3",
-          "text": "Don't forget your camera.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U48_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U48_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Museo'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Camera"
-            },
-            {
-              "id": "o2",
-              "text": "Guide"
-            },
-            {
-              "id": "o1",
-              "text": "Museum"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U48_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
               "left": "Museum",
               "right": "Museo"
             },
             {
               "id": "p1",
-              "left": "Guide",
-              "right": "Guía"
+              "left": "Tour",
+              "right": "Tour"
             },
             {
               "id": "p2",
@@ -243,68 +71,78 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U48_I14",
+          "interaction_id": "U48_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "your"
+              "id": "w0",
+              "text": "I"
             },
             {
-              "id": "w3",
-              "text": "camera"
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "forget"
+              "text": "want"
             },
             {
-              "id": "w0",
-              "text": "Don't"
+              "id": "w5",
+              "text": "souvenir"
+            },
+            {
+              "id": "w3",
+              "text": "buy"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U48_I15",
+          "interaction_id": "U48_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The guide are very friendly.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The guide is very friendly.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U48_I16",
+          "interaction_id": "U48_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Look at the (monumentos) ________.",
-          "correct_answer": "monuments",
+          "stimulus_en": "We (tomar) ________ a lot of photos.",
+          "correct_answer": "take",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U48_I17",
+          "interaction_id": "U48_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Museo",
-          "correct_answer": "Museum",
+          "stimulus_es": "Cámara",
+          "correct_answer": "Camera",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U48_I18",
+          "interaction_id": "U48_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Tour",
-          "correct_answer": "Tour",
+          "stimulus_en": "Map",
+          "correct_answer": "Mapa",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U48_I19",
+          "interaction_id": "U48_I8",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -312,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Map"
+                "Guide"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Tour"
+                "Monuments"
               ]
             }
           ],
@@ -327,10 +165,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U48_I20",
+          "interaction_id": "U48_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The tour starts at 10 AM. Don't forget your camera. The monuments are very old.",
+          "text": "The guide is very friendly. The tour starts at 10 AM. I want to buy a souvenir.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -344,6 +182,185 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U48_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/2b5d162a6c2ddeadbe4b7a19b0b34f20.mp3",
+          "text": "The tour starts at 10 AM.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U48_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tour'?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Guide"
+            },
+            {
+              "id": "o1",
+              "text": "Tour"
+            },
+            {
+              "id": "o3",
+              "text": "Camera"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Souvenir",
+              "right": "Recuerdo"
+            },
+            {
+              "id": "p1",
+              "left": "Tour",
+              "right": "Tour"
+            },
+            {
+              "id": "p2",
+              "left": "Guide",
+              "right": "Guía"
+            },
+            {
+              "id": "p3",
+              "left": "Map",
+              "right": "Mapa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w1",
+              "text": "monuments"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U48_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Don't forget your cisera.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I want to (visitar) ________ the museum.",
+          "correct_answer": "visit",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U48_I16",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Monumentos",
+          "correct_answer": "Monuments",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Camera",
+          "correct_answer": "Cámara",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I18",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Guide"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Souvenir"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I19",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The tour starts at 10 AM. Don't forget your camera. The guide is very friendly.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U48_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/6453f0c781738edb75b25d827ec547c2.mp3",
+          "text": "Don't forget your camera.",
+          "mastery_tag": "listening"
         }
       ]
     }

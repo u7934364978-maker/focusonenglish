@@ -1198,12 +1198,25 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 {interaction.instructions || "Encuentra todas las palabras ocultas"}
               </p>
             </div>
-            <WordSearchExercise 
-              words={interaction.words} 
-              gridSize={interaction.gridSize || 10} 
-              clues={interaction.clues}
-              onComplete={() => handleCheckAnswer(true)} 
-            />
+            {interaction.words ? (
+              <WordSearchExercise 
+                words={interaction.words} 
+                gridSize={interaction.gridSize || 10} 
+                clues={interaction.clues}
+                onComplete={() => handleCheckAnswer(true)} 
+              />
+            ) : (
+              <div className="p-12 text-center bg-orange-50 rounded-3xl border-2 border-orange-100">
+                <p className="text-orange-600 font-bold text-xl mb-4">¡Reto especial!</p>
+                <p className="text-slate-600 mb-8">Esta actividad se está preparando. Puedes continuar con la siguiente.</p>
+                <Button 
+                  onClick={() => handleCheckAnswer(true)}
+                  className="bg-orange-600 hover:bg-orange-700 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-orange-800 active:translate-y-1 transition-all"
+                >
+                  CONTINUAR
+                </Button>
+              </div>
+            )}
           </div>
         );
 
@@ -1216,10 +1229,23 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 {interaction.instructions || "Completa el crucigrama usando las pistas"}
               </p>
             </div>
-            <CrosswordExercise 
-              items={interaction.items} 
-              onComplete={() => handleCheckAnswer(true)} 
-            />
+            {interaction.items ? (
+              <CrosswordExercise 
+                items={interaction.items} 
+                onComplete={() => handleCheckAnswer(true)} 
+              />
+            ) : (
+              <div className="p-12 text-center bg-blue-50 rounded-3xl border-2 border-blue-100">
+                <p className="text-blue-600 font-bold text-xl mb-4">¡Reto especial!</p>
+                <p className="text-slate-600 mb-8">Esta actividad se está preparando. Puedes continuar con la siguiente.</p>
+                <Button 
+                  onClick={() => handleCheckAnswer(true)}
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-blue-800 active:translate-y-1 transition-all"
+                >
+                  CONTINUAR
+                </Button>
+              </div>
+            )}
           </div>
         );
 

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U3_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ocho'?",
+          "prompt_es": "¿Cómo se dice 'Uno'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Three"
-            },
-            {
               "id": "o3",
-              "text": "Fifteen"
+              "text": "Twelve"
             },
             {
               "id": "o1",
-              "text": "Eight"
+              "text": "One"
+            },
+            {
+              "id": "o2",
+              "text": "Twenty"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Two",
-              "right": "Dos"
+              "left": "Three",
+              "right": "Tres"
             },
             {
               "id": "p1",
-              "left": "Ten",
-              "right": "Diez"
+              "left": "Sixteen",
+              "right": "Dieciséis"
             },
             {
               "id": "p2",
-              "left": "Thirteen",
-              "right": "Trece"
+              "left": "Fourteen",
+              "right": "Caturce"
             },
             {
               "id": "p3",
-              "left": "Sixteen",
-              "right": "Dieciséis"
+              "left": "Six",
+              "right": "Seis"
             }
           ],
           "correct_answer": {
@@ -76,182 +76,13 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "number"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
+              "id": "w6",
+              "text": "class"
             },
             {
               "id": "w2",
-              "text": "my"
+              "text": "twenty"
             },
-            {
-              "id": "w0",
-              "text": "Seven"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U3_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She are five years old.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (uno) ________ apple.",
-          "correct_answer": "one",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Uno",
-          "correct_answer": "One",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Thirteen",
-          "correct_answer": "Trece",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Ten"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Seven"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "There are twenty students in the class. Seven is my favorite number. She is five years old.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Numbers 1-20"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U3_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/8ce684a717d4d933e2e931f9a579c360.mp3",
-          "text": "Seven is my favorite number.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U3_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U3_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Diecisiete'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Thirteen"
-            },
-            {
-              "id": "o3",
-              "text": "Eighteen"
-            },
-            {
-              "id": "o1",
-              "text": "Seventeen"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Three",
-              "right": "Tres"
-            },
-            {
-              "id": "p1",
-              "left": "Seventeen",
-              "right": "Diecisiete"
-            },
-            {
-              "id": "p2",
-              "left": "Twenty",
-              "right": "Veinte"
-            },
-            {
-              "id": "p3",
-              "left": "Eight",
-              "right": "Ocho"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
             {
               "id": "w4",
               "text": "in"
@@ -259,14 +90,6 @@
             {
               "id": "w1",
               "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "twenty"
-            },
-            {
-              "id": "w6",
-              "text": "class"
             },
             {
               "id": "w5",
@@ -293,38 +116,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U3_I15",
+          "interaction_id": "U3_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I have three pencils.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I16",
+          "interaction_id": "U3_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (uno) ________ apple.",
-          "correct_answer": "one",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I17",
+          "interaction_id": "U3_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Diez",
-          "correct_answer": "Ten",
+          "stimulus_es": "Diecisiete",
+          "correct_answer": "Seventeen",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I18",
+          "interaction_id": "U3_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Twenty",
-          "correct_answer": "Veinte",
+          "stimulus_en": "Fourteen",
+          "correct_answer": "Caturce",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I19",
+          "interaction_id": "U3_I8",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +155,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Nine"
+                "Ten"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Eighteen"
+                "Twenty"
               ]
             }
           ],
@@ -347,10 +170,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I20",
+          "interaction_id": "U3_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I have one sister. She is five years old. Seven is my favorite number.",
+          "text": "I have three pencils. I have one sister. She is five years old.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +187,185 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U3_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/0a6033487a6e4012fe2e143a8903dcf8.mp3",
+          "text": "She is five years old.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U3_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diecisiete'?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nine"
+            },
+            {
+              "id": "o2",
+              "text": "One"
+            },
+            {
+              "id": "o1",
+              "text": "Seventeen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p1",
+              "left": "Three",
+              "right": "Tres"
+            },
+            {
+              "id": "p2",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p3",
+              "left": "Twelve",
+              "right": "Doce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I have one sareter.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I16",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tres",
+          "correct_answer": "Three",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "One",
+          "correct_answer": "Uno",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I18",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Eight"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Six"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I19",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "She is five years old. There are twenty students in the class. I have one sister.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Numbers 1-20"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U3_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/8ce684a717d4d933e2e931f9a579c360.mp3",
+          "text": "Seven is my favorite number.",
+          "mastery_tag": "listening"
         }
       ]
     }

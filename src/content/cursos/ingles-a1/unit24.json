@@ -18,19 +18,19 @@
         {
           "interaction_id": "U24_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Entre'?",
+          "prompt_es": "¿Cómo se dice 'Debajo'?",
           "options": [
             {
               "id": "o1",
-              "text": "Between"
-            },
-            {
-              "id": "o3",
               "text": "Under"
             },
             {
+              "id": "o3",
+              "text": "Next to"
+            },
+            {
               "id": "o2",
-              "text": "On"
+              "text": "Behind"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Next to",
-              "right": "Al lado de"
+              "left": "In front of",
+              "right": "Delante de"
             },
             {
               "id": "p1",
-              "left": "In front of",
-              "right": "Delante de"
+              "left": "In",
+              "right": "En/Dentro"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Behind",
-              "right": "Detrás"
+              "left": "On",
+              "right": "Sobre"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,32 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "ball"
-            },
-            {
-              "id": "w3",
-              "text": "under"
-            },
-            {
               "id": "w4",
-              "text": "the"
+              "text": "behind"
             },
             {
-              "id": "w2",
+              "id": "w6",
+              "text": "house"
+            },
+            {
+              "id": "w1",
               "text": "is"
             },
             {
+              "id": "w3",
+              "text": "garden"
+            },
+            {
               "id": "w0",
-              "text": "The"
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w5",
-              "text": "bed"
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -106,14 +110,15 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U24_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My house is next to the park.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The car is in front of the garage.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -121,16 +126,16 @@
           "interaction_id": "U24_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The keys are (al lado de) ________ the door.",
-          "correct_answer": "next to",
+          "stimulus_en": "The picture is (en) ________ the wall.",
+          "correct_answer": "on",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U24_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Entre",
-          "correct_answer": "Between",
+          "stimulus_es": "Debajo",
+          "correct_answer": "Under",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +155,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "In front of"
+                "Behind"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Under"
+                "Between"
               ]
             }
           ],
@@ -168,7 +173,7 @@
           "interaction_id": "U24_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The supermarket is between the bank and the pharmacy. The car is in front of the garage. There is a garden behind the house.",
+          "text": "My house is next to the park. The car is in front of the garage. There is a garden behind the house.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,61 +192,55 @@
           "interaction_id": "U24_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/bad65005e7ca4968561a292c1d265db6.mp3",
-          "text": "The car is in front of the garage.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/e93d0ce6a6d1cc6e07c83379a3f7980d.mp3",
+          "text": "The supermarket is between the bank and the pharmacy.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U24_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U24_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sobre'?",
+          "prompt_es": "¿Cómo se dice 'Debajo'?",
           "options": [
             {
+              "id": "o3",
+              "text": "Behind"
+            },
+            {
               "id": "o2",
-              "text": "In"
+              "text": "Next to"
             },
             {
               "id": "o1",
-              "text": "On"
-            },
-            {
-              "id": "o3",
-              "text": "Between"
+              "text": "Under"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U24_I13",
+          "interaction_id": "U24_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "On",
-              "right": "Sobre"
-            },
-            {
-              "id": "p1",
               "left": "Behind",
               "right": "Detrás"
             },
             {
+              "id": "p1",
+              "left": "In front of",
+              "right": "Delante de"
+            },
+            {
               "id": "p2",
-              "left": "Between",
-              "right": "Entre"
+              "left": "Next to",
+              "right": "Al lado de"
             },
             {
               "id": "p3",
-              "left": "In",
-              "right": "En/Dentro"
+              "left": "On",
+              "right": "Sobre"
             }
           ],
           "correct_answer": {
@@ -253,17 +252,21 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U24_I14",
+          "interaction_id": "U24_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w8",
-              "text": "pharmacy"
+              "id": "w4",
+              "text": "the"
             },
             {
               "id": "w1",
-              "text": "supermarket"
+              "text": "ball"
+            },
+            {
+              "id": "w5",
+              "text": "bed"
             },
             {
               "id": "w0",
@@ -271,27 +274,11 @@
             },
             {
               "id": "w3",
-              "text": "between"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "bank"
+              "text": "under"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "and"
             }
           ],
           "correct_answer": [
@@ -300,22 +287,19 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U24_I15",
+          "interaction_id": "U24_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are a garden behind the house.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"My house is next to the park.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U24_I16",
+          "interaction_id": "U24_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "The cat is (debajo) ________ the chair.",
@@ -323,23 +307,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U24_I17",
+          "interaction_id": "U24_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Sobre",
-          "correct_answer": "On",
+          "stimulus_es": "Detrás",
+          "correct_answer": "Behind",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Under",
+          "correct_answer": "Debajo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U24_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "In front of",
-          "correct_answer": "Delante de",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -347,14 +331,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "On"
+                "Between"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "In"
+                "Under"
               ]
             }
           ],
@@ -362,10 +346,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U24_I20",
+          "interaction_id": "U24_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The supermarket is between the bank and the pharmacy. There is a garden behind the house. My house is next to the park.",
+          "text": "There is a garden behind the house. My house is next to the park. The car is in front of the garage.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -379,6 +363,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U24_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f00a2065ac63aeca2b8b862ce3a2262a.mp3",
+          "text": "The ball is under the bed.",
+          "mastery_tag": "listening"
         }
       ]
     }

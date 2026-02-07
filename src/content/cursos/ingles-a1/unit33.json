@@ -18,19 +18,19 @@
         {
           "interaction_id": "U33_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cada día'?",
+          "prompt_es": "¿Cómo se dice 'Siempre'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Never"
+              "id": "o3",
+              "text": "Usually"
             },
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Every day"
             },
             {
-              "id": "o3",
-              "text": "Often"
+              "id": "o1",
+              "text": "Always"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Often",
-              "right": "A menudo"
-            },
-            {
-              "id": "p1",
               "left": "Always",
               "right": "Siempre"
             },
             {
+              "id": "p1",
+              "left": "Once a week",
+              "right": "Una vez por semana"
+            },
+            {
               "id": "p2",
-              "left": "Every day",
-              "right": "Cada día"
+              "left": "Never",
+              "right": "Nunca"
             },
             {
               "id": "p3",
-              "left": "Sometimes",
-              "right": "A veces"
+              "left": "Often",
+              "right": "A menudo"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "video"
+              "id": "w1",
+              "text": "often"
             },
             {
               "id": "w4",
-              "text": "games"
+              "text": "grandparents"
+            },
+            {
+              "id": "w3",
+              "text": "our"
             },
             {
               "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "sometimes"
+              "text": "We"
             },
             {
               "id": "w2",
-              "text": "play"
+              "text": "visit"
             }
           ],
           "correct_answer": [
@@ -108,7 +108,7 @@
         {
           "interaction_id": "U33_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I sometimes play video gises.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He usually goes to bed late.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -116,24 +116,24 @@
           "interaction_id": "U33_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (normalmente) ________ studies at night.",
-          "correct_answer": "usually",
+          "stimulus_en": "He (nunca) ________ eats breakfast.",
+          "correct_answer": "never",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U33_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Normalmente",
-          "correct_answer": "Usually",
+          "stimulus_es": "Nunca",
+          "correct_answer": "Never",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Every day",
-          "correct_answer": "Cada día",
+          "stimulus_en": "Once a week",
+          "correct_answer": "Una vez por semana",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Never"
+                "Usually"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Often"
+                "Never"
               ]
             }
           ],
@@ -163,7 +163,7 @@
           "interaction_id": "U33_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We often visit our grandparents. He usually goes to bed late. I sometimes play video games.",
+          "text": "He usually goes to bed late. I sometimes play video games. She always speaks English in class.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,61 +182,55 @@
           "interaction_id": "U33_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5a156747384571b360677a1eea95438e.mp3",
-          "text": "We often visit our grandparents.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/fc114060da144a334f3830f0dd5f5ac8.mp3",
+          "text": "I sometimes play video games.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U33_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U33_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Siempre'?",
+          "prompt_es": "¿Cómo se dice 'A veces'?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Always"
             },
             {
-              "id": "o3",
-              "text": "Often"
+              "id": "o1",
+              "text": "Sometimes"
             },
             {
-              "id": "o2",
-              "text": "Once a week"
+              "id": "o3",
+              "text": "Every day"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U33_I13",
+          "interaction_id": "U33_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Usually",
+              "right": "Normalmente"
+            },
+            {
+              "id": "p1",
+              "left": "Often",
+              "right": "A menudo"
+            },
+            {
+              "id": "p2",
               "left": "Always",
               "right": "Siempre"
             },
             {
-              "id": "p1",
-              "left": "Never",
-              "right": "Nunca"
-            },
-            {
-              "id": "p2",
+              "id": "p3",
               "left": "Sometimes",
               "right": "A veces"
-            },
-            {
-              "id": "p3",
-              "left": "Every day",
-              "right": "Cada día"
             }
           ],
           "correct_answer": {
@@ -248,68 +242,73 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U33_I14",
+          "interaction_id": "U33_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "never"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
               "id": "w3",
-              "text": "coffee"
+              "text": "our"
             },
             {
               "id": "w2",
-              "text": "drink"
+              "text": "visit"
+            },
+            {
+              "id": "w1",
+              "text": "often"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "grandparents"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U33_I15",
+          "interaction_id": "U33_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I never drink coffee.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I sometimes play video games.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U33_I16",
+          "interaction_id": "U33_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (normalmente) ________ studies at night.",
-          "correct_answer": "usually",
+          "stimulus_en": "He (nunca) ________ eats breakfast.",
+          "correct_answer": "never",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U33_I17",
+          "interaction_id": "U33_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Siempre",
-          "correct_answer": "Always",
+          "stimulus_es": "Cada día",
+          "correct_answer": "Every day",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Usually",
+          "correct_answer": "Normalmente",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Always",
-          "correct_answer": "Siempre",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -317,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Never"
+                "Every day"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Usually"
+                "Often"
               ]
             }
           ],
@@ -332,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U33_I20",
+          "interaction_id": "U33_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We often visit our grandparents. I never drink coffee. I sometimes play video games.",
+          "text": "She always speaks English in class. We often visit our grandparents. I never drink coffee.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U33_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/fc114060da144a334f3830f0dd5f5ac8.mp3",
+          "text": "I sometimes play video games.",
+          "mastery_tag": "listening"
         }
       ]
     }

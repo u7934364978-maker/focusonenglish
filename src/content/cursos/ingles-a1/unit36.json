@@ -22,15 +22,15 @@
           "options": [
             {
               "id": "o2",
-              "text": "Piano"
-            },
-            {
-              "id": "o3",
-              "text": "Guitar"
+              "text": "Violin"
             },
             {
               "id": "o1",
               "text": "Trumpet"
+            },
+            {
+              "id": "o3",
+              "text": "Guitar"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Drums",
-              "right": "Batería"
-            },
-            {
-              "id": "p1",
               "left": "Violin",
               "right": "Violín"
             },
             {
+              "id": "p1",
+              "left": "Drums",
+              "right": "Batería"
+            },
+            {
               "id": "p2",
-              "left": "Flute",
-              "right": "Flauta"
+              "left": "Trumpet",
+              "right": "Trompeta"
             },
             {
               "id": "p3",
@@ -76,53 +76,43 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "beautiful"
-            },
-            {
-              "id": "w3",
-              "text": "a"
+              "id": "w2",
+              "text": "very"
             },
             {
               "id": "w1",
-              "text": "piano"
+              "text": "are"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "Drums"
             },
             {
-              "id": "w5",
-              "text": "instrument"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w3",
+              "text": "loud"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U36_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He is learning to play the violin.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The piano are a beautiful instrument.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U36_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (tocar) ________ the guitar.",
-          "correct_answer": "plays",
+          "stimulus_en": "I can play the (piano) ________.",
+          "correct_answer": "piano",
           "mastery_tag": "grammar"
         },
         {
@@ -150,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Piano"
+                "Saxophone"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Violin"
+                "Guitar"
               ]
             }
           ],
@@ -168,7 +158,7 @@
           "interaction_id": "U36_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Drums are very loud. I want to buy a new guitar. She plays the flute in the orchestra.",
+          "text": "The piano is a beautiful instrument. I want to buy a new guitar. She plays the flute in the orchestra.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -193,55 +183,49 @@
         },
         {
           "interaction_id": "U36_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U36_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Saxofón'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Guitar"
+              "id": "o1",
+              "text": "Saxophone"
             },
             {
               "id": "o3",
-              "text": "Flute"
+              "text": "Piano"
             },
             {
-              "id": "o1",
-              "text": "Saxophone"
+              "id": "o2",
+              "text": "Guitar"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U36_I13",
+          "interaction_id": "U36_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Guitar",
+              "right": "Guitarra"
+            },
+            {
+              "id": "p1",
+              "left": "Violin",
+              "right": "Violín"
+            },
+            {
+              "id": "p2",
               "left": "Drums",
               "right": "Batería"
             },
             {
-              "id": "p1",
+              "id": "p3",
               "left": "Flute",
               "right": "Flauta"
-            },
-            {
-              "id": "p2",
-              "left": "Trumpet",
-              "right": "Trompeta"
-            },
-            {
-              "id": "p3",
-              "left": "Violin",
-              "right": "Violín"
             }
           ],
           "correct_answer": {
@@ -253,17 +237,21 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U36_I14",
+          "interaction_id": "U36_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "the"
+              "id": "w4",
+              "text": "in"
             },
             {
-              "id": "w0",
-              "text": "She"
+              "id": "w1",
+              "text": "plays"
+            },
+            {
+              "id": "w5",
+              "text": "the"
             },
             {
               "id": "w3",
@@ -274,16 +262,12 @@
               "text": "orchestra"
             },
             {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w5",
+              "id": "w2",
               "text": "the"
             },
             {
-              "id": "w1",
-              "text": "plays"
+              "id": "w0",
+              "text": "She"
             }
           ],
           "correct_answer": [
@@ -298,38 +282,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U36_I15",
+          "interaction_id": "U36_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"He is learning to play the violin.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U36_I16",
+          "interaction_id": "U36_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (tocar) ________ the guitar.",
-          "correct_answer": "plays",
+          "stimulus_en": "I can play the (piano) ________.",
+          "correct_answer": "piano",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U36_I17",
+          "interaction_id": "U36_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Guitarra",
-          "correct_answer": "Guitar",
+          "stimulus_es": "Trompeta",
+          "correct_answer": "Trumpet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U36_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Trumpet",
+          "correct_answer": "Trompeta",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Guitar",
-          "correct_answer": "Guitarra",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U36_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -337,7 +321,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Drums"
+                "Piano"
               ]
             },
             {
@@ -352,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U36_I20",
+          "interaction_id": "U36_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Drums are very loud. She plays the flute in the orchestra. He is learning to play the violin.",
+          "text": "Drums are very loud. The piano is a beautiful instrument. He is learning to play the violin.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -369,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U36_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/8514915833a9ebbecbd67bede4be82a8.mp3",
+          "text": "He is learning to play the violin.",
+          "mastery_tag": "listening"
         }
       ]
     }

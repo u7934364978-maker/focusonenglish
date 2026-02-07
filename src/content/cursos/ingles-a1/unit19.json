@@ -18,18 +18,18 @@
         {
           "interaction_id": "U19_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Marzo'?",
+          "prompt_es": "¿Cómo se dice 'Abril'?",
           "options": [
             {
-              "id": "o1",
-              "text": "March"
-            },
-            {
               "id": "o2",
-              "text": "July"
+              "text": "November"
             },
             {
               "id": "o3",
+              "text": "February"
+            },
+            {
+              "id": "o1",
               "text": "April"
             }
           ],
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "January",
-              "right": "Enero"
+              "left": "March",
+              "right": "Marzo"
             },
             {
               "id": "p1",
+              "left": "February",
+              "right": "Febrero"
+            },
+            {
+              "id": "p2",
               "left": "July",
               "right": "Julio"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "April",
               "right": "Abril"
-            },
-            {
-              "id": "p3",
-              "left": "August",
-              "right": "Agosto"
             }
           ],
           "correct_answer": {
@@ -76,32 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w6",
-              "text": "year"
-            },
-            {
               "id": "w1",
-              "text": "are"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "There"
+              "text": "February"
             },
             {
               "id": "w3",
-              "text": "months"
-            },
-            {
-              "id": "w5",
-              "text": "a"
+              "text": "shortest"
             },
             {
               "id": "w4",
-              "text": "in"
+              "text": "month"
             },
             {
               "id": "w2",
-              "text": "twelve"
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -109,24 +101,22 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U19_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My favorite month are August.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"There are twelve months in a year.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My birthday (ser/estar - ello) ________ in June.",
+          "stimulus_en": "Christmas (ser/estar - ello) ________ on December 25th.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
@@ -134,16 +124,16 @@
           "interaction_id": "U19_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Diciembre",
-          "correct_answer": "December",
+          "stimulus_es": "Enero",
+          "correct_answer": "January",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "October",
-          "correct_answer": "Octubre",
+          "stimulus_en": "January",
+          "correct_answer": "Enero",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "July"
+                "November"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "February"
+                "October"
               ]
             }
           ],
@@ -173,7 +163,7 @@
           "interaction_id": "U19_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "There are twelve months in a year. July and August are very hot. February is the shortest month.",
+          "text": "There are twelve months in a year. I am going on holiday in September. July and August are very hot.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -192,61 +182,55 @@
           "interaction_id": "U19_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/199ed48523dcabe28895bc75d5c8c05b.mp3",
-          "text": "My favorite month is August.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a7c3a369aacd6133a8f59a35c47c4bbe.mp3",
+          "text": "I am going on holiday in September.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U19_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U19_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Noviembre'?",
+          "prompt_es": "¿Cómo se dice 'Marzo'?",
           "options": [
             {
+              "id": "o3",
+              "text": "October"
+            },
+            {
               "id": "o1",
-              "text": "November"
+              "text": "March"
             },
             {
               "id": "o2",
               "text": "May"
-            },
-            {
-              "id": "o3",
-              "text": "June"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U19_I13",
+          "interaction_id": "U19_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "February",
-              "right": "Febrero"
-            },
-            {
-              "id": "p1",
               "left": "May",
               "right": "Mayo"
             },
             {
+              "id": "p1",
+              "left": "November",
+              "right": "Noviembre"
+            },
+            {
               "id": "p2",
-              "left": "March",
-              "right": "Marzo"
+              "left": "August",
+              "right": "Agosto"
             },
             {
               "id": "p3",
-              "left": "November",
-              "right": "Noviembre"
+              "left": "October",
+              "right": "Octubre"
             }
           ],
           "correct_answer": {
@@ -258,29 +242,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U19_I14",
+          "interaction_id": "U19_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "favorite"
-            },
-            {
-              "id": "w2",
-              "text": "month"
-            },
-            {
-              "id": "w0",
-              "text": "My"
+              "text": "are"
             },
             {
               "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w2",
               "text": "August"
+            },
+            {
+              "id": "w0",
+              "text": "July"
+            },
+            {
+              "id": "w1",
+              "text": "and"
             }
           ],
           "correct_answer": [
@@ -288,43 +276,44 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U19_I15",
+          "interaction_id": "U19_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"July and August are very hot.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I am going on holiday in September.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U19_I16",
+          "interaction_id": "U19_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Christmas (ser/estar - ello) ________ on December 25th.",
+          "stimulus_en": "The first month (ser/estar - ello) ________ January.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U19_I17",
+          "interaction_id": "U19_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Marzo",
-          "correct_answer": "March",
+          "stimulus_es": "Noviembre",
+          "correct_answer": "November",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "November",
+          "correct_answer": "Noviembre",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "July",
-          "correct_answer": "Julio",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U19_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +321,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "April"
+                "August"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "May"
+                "June"
               ]
             }
           ],
@@ -347,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U19_I20",
+          "interaction_id": "U19_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "July and August are very hot. February is the shortest month. There are twelve months in a year.",
+          "text": "My favorite month is August. February is the shortest month. There are twelve months in a year.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f191830a35f8ef2c36b074af412df872.mp3",
+          "text": "July and August are very hot.",
+          "mastery_tag": "listening"
         }
       ]
     }

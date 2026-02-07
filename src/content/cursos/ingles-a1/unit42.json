@@ -18,19 +18,19 @@
         {
           "interaction_id": "U42_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bicicleta'?",
+          "prompt_es": "¿Cómo se dice 'Moto'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Bus"
-            },
-            {
-              "id": "o1",
-              "text": "Bicycle"
-            },
             {
               "id": "o2",
               "text": "Boat"
+            },
+            {
+              "id": "o1",
+              "text": "Motorbike"
+            },
+            {
+              "id": "o3",
+              "text": "Bus"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Boat",
-              "right": "Barco"
+              "left": "Taxi",
+              "right": "Taxi"
             },
             {
               "id": "p1",
-              "left": "Train",
-              "right": "Tren"
+              "left": "Boat",
+              "right": "Barco"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Motorbike",
-              "right": "Moto"
+              "left": "Bicycle",
+              "right": "Bicicleta"
             }
           ],
           "correct_answer": {
@@ -76,44 +76,34 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "in"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "Let's"
             },
             {
-              "id": "w5",
-              "text": "harbor"
+              "id": "w3",
+              "text": "taxi"
             },
             {
               "id": "w1",
-              "text": "boat"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "take"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U42_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He rides a motorbike to work.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I don't like flying by plane.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -129,16 +119,16 @@
           "interaction_id": "U42_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tren",
-          "correct_answer": "Train",
+          "stimulus_es": "Taxi",
+          "correct_answer": "Taxi",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bicycle",
-          "correct_answer": "Bicicleta",
+          "stimulus_en": "Bus",
+          "correct_answer": "Autobús",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Car"
+                "Taxi"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Boat"
+                "Motorbike"
               ]
             }
           ],
@@ -168,7 +158,7 @@
           "interaction_id": "U42_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The train is faster than the bus. I don't like flying by plane. The boat is in the harbor.",
+          "text": "I don't like flying by plane. He rides a motorbike to work. The train is faster than the bus.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,61 +177,55 @@
           "interaction_id": "U42_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/1e68af48a7544f720acc6d92e1dc02f6.mp3",
-          "text": "Let's take a taxi.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/3581befa821d595e6f3b225813797c7f.mp3",
+          "text": "The train is faster than the bus.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U42_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U42_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tren'?",
           "options": [
             {
-              "id": "o2",
+              "id": "o3",
               "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Taxi"
             },
             {
               "id": "o1",
               "text": "Train"
-            },
-            {
-              "id": "o3",
-              "text": "Motorbike"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U42_I13",
+          "interaction_id": "U42_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Plane",
-              "right": "Avión"
-            },
-            {
-              "id": "p1",
               "left": "Train",
               "right": "Tren"
             },
             {
+              "id": "p1",
+              "left": "Taxi",
+              "right": "Taxi"
+            },
+            {
               "id": "p2",
-              "left": "Bicycle",
-              "right": "Bicicleta"
+              "left": "Boat",
+              "right": "Barco"
             },
             {
               "id": "p3",
-              "left": "Car",
-              "right": "Coche"
+              "left": "Motorbike",
+              "right": "Moto"
             }
           ],
           "correct_answer": {
@@ -253,37 +237,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U42_I14",
+          "interaction_id": "U42_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "faster"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w0",
+              "text": "He"
             },
             {
               "id": "w4",
-              "text": "than"
-            },
-            {
-              "id": "w6",
-              "text": "bus"
+              "text": "to"
             },
             {
               "id": "w5",
-              "text": "the"
+              "text": "work"
             },
             {
               "id": "w1",
-              "text": "train"
+              "text": "rides"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "motorbike"
             }
           ],
           "correct_answer": [
@@ -292,44 +272,43 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U42_I15",
+          "interaction_id": "U42_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The boat is in the harbor.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He rides a motorbike to work.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U42_I16",
+          "interaction_id": "U42_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (montar) ________ a bicycle.",
-          "correct_answer": "rides",
+          "stimulus_en": "The train (llegar) ________ at 9 AM.",
+          "correct_answer": "arrives",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U42_I17",
+          "interaction_id": "U42_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Taxi",
-          "correct_answer": "Taxi",
+          "stimulus_es": "Autobús",
+          "correct_answer": "Bus",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Plane",
+          "correct_answer": "Avión",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Train",
-          "correct_answer": "Tren",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -337,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Motorbike"
+                "Boat"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Boat"
+                "Bus"
               ]
             }
           ],
@@ -352,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U42_I20",
+          "interaction_id": "U42_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He rides a motorbike to work. Let's take a taxi. I don't like flying by plane.",
+          "text": "He rides a motorbike to work. The boat is in the harbor. I don't like flying by plane.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -369,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U42_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/595b23945ec6be999b3722c3791b9af9.mp3",
+          "text": "He rides a motorbike to work.",
+          "mastery_tag": "listening"
         }
       ]
     }

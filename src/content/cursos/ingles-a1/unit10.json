@@ -18,19 +18,19 @@
         {
           "interaction_id": "U10_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Prueba'?",
+          "prompt_es": "¿Cómo se dice 'Correcto'?",
           "options": [
             {
               "id": "o1",
-              "text": "Test"
-            },
-            {
-              "id": "o2",
-              "text": "Answer"
+              "text": "Correct"
             },
             {
               "id": "o3",
-              "text": "Correct"
+              "text": "Wrong"
+            },
+            {
+              "id": "o2",
+              "text": "Question"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Correct",
+              "right": "Correcto"
+            },
+            {
+              "id": "p1",
               "left": "Question",
               "right": "Pregunta"
             },
             {
-              "id": "p1",
-              "left": "Test",
-              "right": "Prueba"
-            },
-            {
               "id": "p2",
-              "left": "Correct",
-              "right": "Correcto"
+              "left": "Review",
+              "right": "Repaso"
             },
             {
               "id": "p3",
@@ -76,29 +76,49 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "your"
+              "id": "w3",
+              "text": "review"
             },
             {
               "id": "w2",
-              "text": "answers"
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w6",
+              "text": "one"
             },
             {
               "id": "w0",
-              "text": "Check"
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "of"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U10_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Check your answers.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Is this correct?\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -106,24 +126,24 @@
           "interaction_id": "U10_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "How (viejo/edad) ________ are you?",
-          "correct_answer": "old",
+          "stimulus_en": "(Dónde) ________ are you from?",
+          "correct_answer": "Where",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U10_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Incorrecto",
-          "correct_answer": "Wrong",
+          "stimulus_es": "Repaso",
+          "correct_answer": "Review",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Test",
-          "correct_answer": "Prueba",
+          "stimulus_en": "Wrong",
+          "correct_answer": "Incorrecto",
           "mastery_tag": "vocabulary"
         },
         {
@@ -135,14 +155,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Wrong"
+                "Question"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Question"
+                "Review"
               ]
             }
           ],
@@ -153,7 +173,7 @@
           "interaction_id": "U10_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Check your answers. I am ready for the test. This is a review of module one.",
+          "text": "Check your answers. This is a review of module one. Is this correct?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -172,27 +192,21 @@
           "interaction_id": "U10_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/6a1d92309321f7bc0d1f7e2d4fb7fd1d.mp3",
-          "text": "This is a review of module one.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a054d04bbf7e2cca87da7eb47f614610.mp3",
+          "text": "Answer the questions carefully.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U10_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U10_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Respuesta'?",
+          "prompt_es": "¿Cómo se dice 'Prueba'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Review"
+              "id": "o1",
+              "text": "Test"
             },
             {
-              "id": "o1",
+              "id": "o3",
               "text": "Answer"
             },
             {
@@ -204,24 +218,24 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I13",
+          "interaction_id": "U10_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Correct",
-              "right": "Correcto"
+              "left": "Test",
+              "right": "Prueba"
             },
             {
               "id": "p1",
-              "left": "Review",
-              "right": "Repaso"
+              "left": "Answer",
+              "right": "Respuesta"
             },
             {
               "id": "p2",
-              "left": "Question",
-              "right": "Pregunta"
+              "left": "Correct",
+              "right": "Correcto"
             },
             {
               "id": "p3",
@@ -238,68 +252,63 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I14",
+          "interaction_id": "U10_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "questions"
-            },
-            {
               "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "carefully"
+              "text": "this"
             },
             {
               "id": "w0",
-              "text": "Answer"
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "correct"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U10_I15",
+          "interaction_id": "U10_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Answer the questions carefully.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I16",
+          "interaction_id": "U10_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "How (viejo/edad) ________ are you?",
-          "correct_answer": "old",
+          "stimulus_en": "(Dónde) ________ are you from?",
+          "correct_answer": "Where",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I17",
+          "interaction_id": "U10_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Repaso",
-          "correct_answer": "Review",
+          "stimulus_es": "Correcto",
+          "correct_answer": "Correct",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Answer",
+          "correct_answer": "Respuesta",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Test",
-          "correct_answer": "Prueba",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -307,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Wrong"
+                "Review"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Question"
+                "Correct"
               ]
             }
           ],
@@ -322,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I20",
+          "interaction_id": "U10_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "This is a review of module one. Is this correct? I am ready for the test.",
+          "text": "Check your answers. Answer the questions carefully. This is a review of module one.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -339,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U10_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a054d04bbf7e2cca87da7eb47f614610.mp3",
+          "text": "Answer the questions carefully.",
+          "mastery_tag": "listening"
         }
       ]
     }

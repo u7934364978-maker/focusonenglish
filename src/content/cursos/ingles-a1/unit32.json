@@ -18,19 +18,19 @@
         {
           "interaction_id": "U32_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Música'?",
+          "prompt_es": "¿Cómo se dice 'Viajar'?",
           "options": [
             {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
               "id": "o3",
-              "text": "Reading"
+              "text": "Football"
             },
             {
               "id": "o2",
               "text": "Basketball"
-            },
-            {
-              "id": "o1",
-              "text": "Music"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Basketball",
-              "right": "Baloncesto"
+              "left": "Travel",
+              "right": "Viajar"
             },
             {
               "id": "p1",
@@ -53,13 +53,13 @@
             },
             {
               "id": "p2",
-              "left": "Swimming",
-              "right": "Natación"
+              "left": "Painting",
+              "right": "Pintura"
             },
             {
               "id": "p3",
-              "left": "Football",
-              "right": "Fútbol"
+              "left": "Reading",
+              "right": "Lectura"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,28 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "listening"
-            },
-            {
-              "id": "w1",
-              "text": "enjoys"
-            },
-            {
-              "id": "w3",
-              "text": "to"
+              "id": "w5",
+              "text": "friends"
             },
             {
               "id": "w0",
-              "text": "He"
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "with"
+            },
+            {
+              "id": "w1",
+              "text": "play"
             },
             {
               "id": "w4",
-              "text": "music"
+              "text": "my"
+            },
+            {
+              "id": "w2",
+              "text": "basketball"
             }
           ],
           "correct_answer": [
@@ -101,14 +105,15 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U32_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Swimming are good for your health.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I play basketball with my friends.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -124,8 +129,8 @@
           "interaction_id": "U32_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Fútbol",
-          "correct_answer": "Football",
+          "stimulus_es": "Lectura",
+          "correct_answer": "Reading",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Travel"
+                "Football"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Football"
+                "Painting"
               ]
             }
           ],
@@ -163,7 +168,7 @@
           "interaction_id": "U32_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I play basketball with my friends. We travel every summer. Reading is my favorite hobby.",
+          "text": "We travel every summer. I play basketball with my friends. He enjoys listening to music.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -188,45 +193,39 @@
         },
         {
           "interaction_id": "U32_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U32_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Música'?",
+          "prompt_es": "¿Cómo se dice 'Pintura'?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
-            },
-            {
-              "id": "o2",
-              "text": "Swimming"
+              "text": "Painting"
             },
             {
               "id": "o3",
-              "text": "Painting"
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Music"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U32_I13",
+          "interaction_id": "U32_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Travel",
-              "right": "Viajar"
+              "left": "Basketball",
+              "right": "Baloncesto"
             },
             {
               "id": "p1",
-              "left": "Music",
-              "right": "Música"
+              "left": "Swimming",
+              "right": "Natación"
             },
             {
               "id": "p2",
@@ -235,8 +234,8 @@
             },
             {
               "id": "p3",
-              "left": "Painting",
-              "right": "Pintura"
+              "left": "Travel",
+              "right": "Viajar"
             }
           ],
           "correct_answer": {
@@ -248,78 +247,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U32_I14",
+          "interaction_id": "U32_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "I"
-            },
-            {
               "id": "w3",
-              "text": "with"
-            },
-            {
-              "id": "w2",
-              "text": "basketball"
+              "text": "summer"
             },
             {
               "id": "w1",
-              "text": "play"
+              "text": "travel"
             },
             {
-              "id": "w4",
-              "text": "my"
+              "id": "w2",
+              "text": "every"
             },
             {
-              "id": "w5",
-              "text": "friends"
+              "id": "w0",
+              "text": "We"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U32_I15",
+          "interaction_id": "U32_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Reading is my favorite hobby.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We travel every summer.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U32_I16",
+          "interaction_id": "U32_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (gustar) ________ swimming.",
-          "correct_answer": "likes",
+          "stimulus_en": "They (no - gustar) ________ tennis.",
+          "correct_answer": "don't like",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U32_I17",
+          "interaction_id": "U32_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pintura",
-          "correct_answer": "Painting",
+          "stimulus_es": "Baloncesto",
+          "correct_answer": "Basketball",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Basketball",
+          "correct_answer": "Baloncesto",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U32_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Reading",
-          "correct_answer": "Lectura",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U32_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -327,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Football"
+                "Music"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Reading"
+                "Painting"
               ]
             }
           ],
@@ -342,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U32_I20",
+          "interaction_id": "U32_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Swimming is good for your health. We travel every summer. He enjoys listening to music.",
+          "text": "He enjoys listening to music. Reading is my favorite hobby. Swimming is good for your health.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U32_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f523e8f9fd77d2250efc54f439391ad3.mp3",
+          "text": "We travel every summer.",
+          "mastery_tag": "listening"
         }
       ]
     }

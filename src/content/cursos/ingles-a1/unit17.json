@@ -18,19 +18,19 @@
         {
           "interaction_id": "U17_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Fruta'?",
+          "prompt_es": "¿Cómo se dice 'Huevo'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Chicken"
+              "id": "o1",
+              "text": "Egg"
             },
             {
               "id": "o2",
               "text": "Vegetables"
             },
             {
-              "id": "o1",
-              "text": "Fruit"
+              "id": "o3",
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Fish",
-              "right": "Pescado"
-            },
-            {
-              "id": "p1",
-              "left": "Egg",
-              "right": "Huevo"
-            },
-            {
-              "id": "p2",
               "left": "Soup",
               "right": "Sopa"
             },
             {
-              "id": "p3",
+              "id": "p1",
               "left": "Rice",
               "right": "Arroz"
+            },
+            {
+              "id": "p2",
+              "left": "Cereal",
+              "right": "Cereal"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
               "id": "w4",
-              "text": "important"
-            },
-            {
-              "id": "w0",
-              "text": "Breakfast"
-            },
-            {
-              "id": "w5",
-              "text": "meal"
+              "text": "toast"
             },
             {
               "id": "w3",
-              "text": "most"
+              "text": "and"
+            },
+            {
+              "id": "w2",
+              "text": "eggs"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "likes"
             }
           ],
           "correct_answer": [
@@ -105,40 +101,39 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U17_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Breakfast is the most important meal.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He likes eggs and toast.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U17_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (no - gustar) ________ fish.",
-          "correct_answer": "doesn't like",
+          "stimulus_en": "We (tener) ________ chicken for dinner.",
+          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U17_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cereal",
-          "correct_answer": "Cereal",
+          "stimulus_es": "Verduras",
+          "correct_answer": "Vegetables",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Cereal",
-          "correct_answer": "Cereal",
+          "stimulus_en": "Fish",
+          "correct_answer": "Pescado",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Cereal"
+                "Chicken"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Soup"
+                "Vegetables"
               ]
             }
           ],
@@ -168,7 +163,7 @@
           "interaction_id": "U17_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We eat a lot of fruit. They eat dinner at 8 o'clock. Breakfast is the most important meal.",
+          "text": "They eat dinner at 8 o'clock. Breakfast is the most important meal. We eat a lot of fruit.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -193,55 +188,49 @@
         },
         {
           "interaction_id": "U17_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U17_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pan'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Vegetables"
+              "id": "o1",
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Fish"
+              "text": "Cereal"
             },
             {
-              "id": "o1",
-              "text": "Bread"
+              "id": "o3",
+              "text": "Fish"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I13",
+          "interaction_id": "U17_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Cereal",
-              "right": "Cereal"
+              "left": "Fruit",
+              "right": "Fruta"
             },
             {
               "id": "p1",
-              "left": "Soup",
-              "right": "Sopa"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Fish",
-              "right": "Pescado"
+              "left": "Chicken",
+              "right": "Pollo"
             },
             {
               "id": "p3",
-              "left": "Chicken",
-              "right": "Pollo"
+              "left": "Fish",
+              "right": "Pescado"
             }
           ],
           "correct_answer": {
@@ -253,21 +242,17 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I14",
+          "interaction_id": "U17_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            {
-              "id": "w2",
-              "text": "eggs"
-            },
             {
               "id": "w0",
               "text": "He"
             },
             {
-              "id": "w3",
-              "text": "and"
+              "id": "w2",
+              "text": "eggs"
             },
             {
               "id": "w4",
@@ -276,6 +261,10 @@
             {
               "id": "w1",
               "text": "likes"
+            },
+            {
+              "id": "w3",
+              "text": "and"
             }
           ],
           "correct_answer": [
@@ -288,38 +277,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U17_I15",
+          "interaction_id": "U17_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"They eat dinner at 8 o'clock.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He likes eggs and toast.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U17_I16",
+          "interaction_id": "U17_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (beber) ________ water with lunch.",
-          "correct_answer": "drink",
+          "stimulus_en": "We (tener) ________ chicken for dinner.",
+          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U17_I17",
+          "interaction_id": "U17_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Arroz",
-          "correct_answer": "Rice",
+          "stimulus_es": "Verduras",
+          "correct_answer": "Vegetables",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Chicken",
+          "correct_answer": "Pollo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Egg",
-          "correct_answer": "Huevo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -327,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Egg"
+                "Fish"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Soup"
+                "Egg"
               ]
             }
           ],
@@ -342,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I20",
+          "interaction_id": "U17_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He likes eggs and toast. They eat dinner at 8 o'clock. I usually have a sandwich for lunch.",
+          "text": "We eat a lot of fruit. He likes eggs and toast. They eat dinner at 8 o'clock.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U17_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f333d6ed3484a7e4615cfe67667dc9c3.mp3",
+          "text": "They eat dinner at 8 o'clock.",
+          "mastery_tag": "listening"
         }
       ]
     }

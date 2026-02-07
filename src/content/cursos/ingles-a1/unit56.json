@@ -18,19 +18,19 @@
         {
           "interaction_id": "U56_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cuenta'?",
+          "prompt_es": "¿Cómo se dice 'Propina'?",
           "options": [
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Tip"
             },
             {
-              "id": "o1",
-              "text": "Bill"
+              "id": "o2",
+              "text": "Reservation"
             },
             {
-              "id": "o2",
-              "text": "Drink"
+              "id": "o3",
+              "text": "Dessert"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Waiter",
-              "right": "Camarero"
+              "left": "Tip",
+              "right": "Propina"
             },
             {
               "id": "p1",
+              "left": "Drink",
+              "right": "Bebida"
+            },
+            {
+              "id": "p2",
               "left": "Bill",
               "right": "Cuenta"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "Dessert",
               "right": "Postre"
-            },
-            {
-              "id": "p3",
-              "left": "Tip",
-              "right": "Propina"
             }
           ],
           "correct_answer": {
@@ -76,34 +76,29 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "tip"
-            },
-            {
               "id": "w2",
-              "text": "the"
+              "text": "dessert"
             },
             {
               "id": "w0",
-              "text": "Don't"
+              "text": "What's"
             },
             {
               "id": "w1",
-              "text": "forget"
+              "text": "for"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U56_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I want to pay the bill.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Don't forget the tip.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -111,8 +106,8 @@
           "interaction_id": "U56_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (querer) ________ to order, please.",
-          "correct_answer": "want",
+          "stimulus_en": "(Nosotros) ________ have a reservation.",
+          "correct_answer": "We",
           "mastery_tag": "grammar"
         },
         {
@@ -127,8 +122,8 @@
           "interaction_id": "U56_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Waiter",
-          "correct_answer": "Camarero",
+          "stimulus_en": "Order",
+          "correct_answer": "Pedido",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +135,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Tip"
+                "Dessert"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Reservation"
+                "Bill"
               ]
             }
           ],
@@ -158,7 +153,7 @@
           "interaction_id": "U56_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "What's for dessert? The waiter is coming. I'd like a cold drink.",
+          "text": "The waiter is coming. Don't forget the tip. I want to pay the bill.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,46 +172,40 @@
           "interaction_id": "U56_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c1851e56fb3c767542664b3cdf690dd9.mp3",
-          "text": "I want to pay the bill.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4f03921dc1a88dbce2a594e647496ae4.mp3",
+          "text": "Don't forget the tip.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U56_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U56_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Postre'?",
+          "prompt_es": "¿Cómo se dice 'Cuenta'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Order"
+              "id": "o1",
+              "text": "Bill"
             },
             {
               "id": "o2",
-              "text": "Tip"
+              "text": "Waiter"
             },
             {
-              "id": "o1",
-              "text": "Dessert"
+              "id": "o3",
+              "text": "Tip"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I13",
+          "interaction_id": "U56_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Reservation",
-              "right": "Reserva"
+              "left": "Dessert",
+              "right": "Postre"
             },
             {
               "id": "p1",
@@ -225,13 +214,13 @@
             },
             {
               "id": "p2",
-              "left": "Dessert",
-              "right": "Postre"
+              "left": "Bill",
+              "right": "Cuenta"
             },
             {
               "id": "p3",
-              "left": "Drink",
-              "right": "Bebida"
+              "left": "Reservation",
+              "right": "Reserva"
             }
           ],
           "correct_answer": {
@@ -243,73 +232,63 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I14",
+          "interaction_id": "U56_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "drink"
-            },
-            {
-              "id": "w3",
-              "text": "cold"
-            },
-            {
-              "id": "w1",
-              "text": "like"
-            },
-            {
               "id": "w0",
-              "text": "I'd"
+              "text": "What's"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "dessert"
+            },
+            {
+              "id": "w1",
+              "text": "for"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U56_I15",
+          "interaction_id": "U56_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The waiter is coming.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The waiter are coming.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U56_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I (querer) ________ to order, please.",
+          "correct_answer": "want",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U56_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Would you like a (postre) ________?",
-          "correct_answer": "dessert",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Bebida",
+          "correct_answer": "Drink",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U56_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Camarero",
-          "correct_answer": "Waiter",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Reservation",
+          "correct_answer": "Reserva",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U56_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Drink",
-          "correct_answer": "Bebida",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -317,14 +296,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Order"
+                "Drink"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Bill"
+                "Reservation"
               ]
             }
           ],
@@ -332,10 +311,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I20",
+          "interaction_id": "U56_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I'd like a cold drink. What's for dessert? Don't forget the tip.",
+          "text": "I'd like a cold drink. The waiter is coming. I want to pay the bill.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +328,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U56_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/c1851e56fb3c767542664b3cdf690dd9.mp3",
+          "text": "I want to pay the bill.",
+          "mastery_tag": "listening"
         }
       ]
     }

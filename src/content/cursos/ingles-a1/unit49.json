@@ -18,19 +18,19 @@
         {
           "interaction_id": "U49_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Artículos de aseo'?",
+          "prompt_es": "¿Cómo se dice 'Gafas de sol'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Suitcase"
-            },
-            {
               "id": "o1",
-              "text": "Toiletries"
+              "text": "Sunglasses"
             },
             {
               "id": "o3",
               "text": "Adapter"
+            },
+            {
+              "id": "o2",
+              "text": "Sunscreen"
             }
           ],
           "correct_answer": "o1",
@@ -53,13 +53,13 @@
             },
             {
               "id": "p2",
-              "left": "Toiletries",
-              "right": "Artículos de aseo"
+              "left": "Suitcase",
+              "right": "Maleta"
             },
             {
               "id": "p3",
-              "left": "Charger",
-              "right": "Cargador"
+              "left": "Swimsuit",
+              "right": "Bañador"
             }
           ],
           "correct_answer": {
@@ -76,20 +76,20 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "your"
-            },
-            {
               "id": "w1",
-              "text": "forget"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
+              "text": "need"
             },
             {
               "id": "w3",
-              "text": "toiletries"
+              "text": "sunglasses"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -103,32 +103,32 @@
         {
           "interaction_id": "U49_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Where are my phone charger?\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Pack your swimsuit for the beach.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U49_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Don't forget your (protector solar) ________.",
-          "correct_answer": "sunscreen",
+          "stimulus_en": "Put your clothes (en) ________ the bag.",
+          "correct_answer": "in",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U49_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Artículos de aseo",
-          "correct_answer": "Toiletries",
+          "stimulus_es": "Maleta",
+          "correct_answer": "Suitcase",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U49_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Adapter",
-          "correct_answer": "Adaptador",
+          "stimulus_en": "Sunglasses",
+          "correct_answer": "Gafas de sol",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Toiletries"
+                "Swimsuit"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Sunglasses"
+                "Charger"
               ]
             }
           ],
@@ -158,7 +158,7 @@
           "interaction_id": "U49_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Don't forget your toiletries. My suitcase is too full. I need my sunglasses.",
+          "text": "Pack your swimsuit for the beach. Where is my phone charger? My suitcase is too full.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,46 +177,40 @@
           "interaction_id": "U49_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c25d7d0948408338c6568e425eb866b3.mp3",
-          "text": "Where is my phone charger?",
+          "audioUrl": "/audio/courses/ingles-a1/shared/edf0b0005b4a3356d1c338b0423dad4a.mp3",
+          "text": "My suitcase is too full.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U49_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U49_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cargador'?",
+          "prompt_es": "¿Cómo se dice 'Protector solar'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Charger"
+              "id": "o3",
+              "text": "Toiletries"
             },
             {
               "id": "o2",
-              "text": "Suitcase"
+              "text": "Charger"
             },
             {
-              "id": "o3",
-              "text": "Sunglasses"
+              "id": "o1",
+              "text": "Sunscreen"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U49_I13",
+          "interaction_id": "U49_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Toiletries",
-              "right": "Artículos de aseo"
+              "left": "Adapter",
+              "right": "Adaptador"
             },
             {
               "id": "p1",
@@ -243,25 +237,25 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U49_I14",
+          "interaction_id": "U49_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "forget"
-            },
-            {
-              "id": "w0",
-              "text": "Don't"
+              "id": "w2",
+              "text": "your"
             },
             {
               "id": "w3",
               "text": "toiletries"
             },
             {
-              "id": "w2",
-              "text": "your"
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w1",
+              "text": "forget"
             }
           ],
           "correct_answer": [
@@ -273,38 +267,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U49_I15",
+          "interaction_id": "U49_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"My suitcase is too full.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U49_I16",
+          "interaction_id": "U49_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Don't forget your (protector solar) ________.",
-          "correct_answer": "sunscreen",
+          "stimulus_en": "I (hacer la maleta) ________ my suitcase.",
+          "correct_answer": "pack",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U49_I17",
+          "interaction_id": "U49_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Protector solar",
-          "correct_answer": "Sunscreen",
+          "stimulus_es": "Cargador",
+          "correct_answer": "Charger",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Sunglasses",
+          "correct_answer": "Gafas de sol",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U49_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Toiletries",
-          "correct_answer": "Artículos de aseo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U49_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -312,14 +306,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Suitcase"
+                "Adapter"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Swimsuit"
+                "Suitcase"
               ]
             }
           ],
@@ -327,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U49_I20",
+          "interaction_id": "U49_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Don't forget your toiletries. My suitcase is too full. Pack your swimsuit for the beach.",
+          "text": "Pack your swimsuit for the beach. Where is my phone charger? Don't forget your toiletries.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -344,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U49_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/c25d7d0948408338c6568e425eb866b3.mp3",
+          "text": "Where is my phone charger?",
+          "mastery_tag": "listening"
         }
       ]
     }

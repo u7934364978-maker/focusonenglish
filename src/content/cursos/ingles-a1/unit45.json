@@ -22,15 +22,15 @@
           "options": [
             {
               "id": "o2",
+              "text": "Winter"
+            },
+            {
+              "id": "o3",
               "text": "Summer"
             },
             {
               "id": "o1",
               "text": "Autumn"
-            },
-            {
-              "id": "o3",
-              "text": "Spring"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Autumn",
-              "right": "Otoño"
-            },
-            {
-              "id": "p1",
-              "left": "Spring",
-              "right": "Primavera"
-            },
-            {
-              "id": "p2",
               "left": "Winter",
               "right": "Invierno"
             },
             {
-              "id": "p3",
+              "id": "p1",
+              "left": "Autumn",
+              "right": "Otoño"
+            },
+            {
+              "id": "p2",
               "left": "Summer",
               "right": "Verano"
+            },
+            {
+              "id": "p3",
+              "left": "Spring",
+              "right": "Primavera"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,28 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "autumn"
-            },
-            {
               "id": "w3",
-              "text": "in"
+              "text": "colors"
             },
             {
               "id": "w1",
-              "text": "leaves"
-            },
-            {
-              "id": "w2",
-              "text": "fall"
+              "text": "love"
             },
             {
               "id": "w0",
-              "text": "The"
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "autumn"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -101,14 +105,15 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U45_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I go to the beach in summer.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The leaves fall in autumn.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -116,24 +121,24 @@
           "interaction_id": "U45_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It is very cold (en) ________ winter.",
-          "correct_answer": "in",
+          "stimulus_en": "Summer (ser/estar - ello) ________ my favorite season.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U45_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Invierno",
-          "correct_answer": "Winter",
+          "stimulus_es": "Primavera",
+          "correct_answer": "Spring",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U45_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Winter",
-          "correct_answer": "Invierno",
+          "stimulus_en": "Summer",
+          "correct_answer": "Verano",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +150,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Winter"
+                "Summer"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Summer"
+                "Autumn"
               ]
             }
           ],
@@ -163,7 +168,7 @@
           "interaction_id": "U45_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The leaves fall in autumn. We go skiing in winter. Spring is a beautiful season.",
+          "text": "The leaves fall in autumn. I go to the beach in summer. I love the colors of autumn.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,39 +187,33 @@
           "interaction_id": "U45_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ffb159951b2d04e86af9a0aac9723ccb.mp3",
-          "text": "I love the colors of autumn.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/1acc7f0c360ed31b5ec7fbd11be7bb6b.mp3",
+          "text": "We go skiing in winter.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U45_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U45_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Invierno'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Autumn"
+              "id": "o3",
+              "text": "Summer"
             },
             {
               "id": "o1",
               "text": "Winter"
             },
             {
-              "id": "o3",
-              "text": "Spring"
+              "id": "o2",
+              "text": "Autumn"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U45_I13",
+          "interaction_id": "U45_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
@@ -225,18 +224,18 @@
             },
             {
               "id": "p1",
+              "left": "Autumn",
+              "right": "Otoño"
+            },
+            {
+              "id": "p2",
               "left": "Spring",
               "right": "Primavera"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "Summer",
               "right": "Verano"
-            },
-            {
-              "id": "p3",
-              "left": "Autumn",
-              "right": "Otoño"
             }
           ],
           "correct_answer": {
@@ -248,37 +247,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U45_I14",
+          "interaction_id": "U45_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "beach"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
               "id": "w0",
-              "text": "I"
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "go"
+              "text": "leaves"
             },
             {
-              "id": "w6",
-              "text": "summer"
-            },
-            {
-              "id": "w5",
+              "id": "w3",
               "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "autumn"
+            },
+            {
+              "id": "w2",
+              "text": "fall"
             }
           ],
           "correct_answer": [
@@ -286,45 +277,43 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U45_I15",
+          "interaction_id": "U45_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I go to the beach in summer.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Spring are a beautiful season.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U45_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "(En) ________ spring, the flowers grow.",
+          "correct_answer": "In",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U45_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Summer (ser/estar - ello) ________ my favorite season.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verano",
+          "correct_answer": "Summer",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U45_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Primavera",
-          "correct_answer": "Spring",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Summer",
+          "correct_answer": "Verano",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U45_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Spring",
-          "correct_answer": "Primavera",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U45_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +321,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Spring"
+                "Autumn"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Summer"
+                "Spring"
               ]
             }
           ],
@@ -347,10 +336,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U45_I20",
+          "interaction_id": "U45_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We go skiing in winter. Spring is a beautiful season. The leaves fall in autumn.",
+          "text": "I go to the beach in summer. Spring is a beautiful season. The leaves fall in autumn.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +353,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U45_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/1acc7f0c360ed31b5ec7fbd11be7bb6b.mp3",
+          "text": "We go skiing in winter.",
+          "mastery_tag": "listening"
         }
       ]
     }

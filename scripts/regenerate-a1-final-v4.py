@@ -53,7 +53,7 @@ def generate_varied_exercises(unit_id, unit_data):
     # 5: Translation, 6: Flashcard, 7: Categorization, 8: Reading, 9: Audio
     
     for i in range(EXERCISES_PER_UNIT):
-        etype = i % 11
+        etype = i % 10 # Changed from 11 to 10 to exclude word-search/crossword
         int_id = f"U{unit_id}_I{i+1}"
         
         # 1. Multiple Choice (Vocab/Comm)

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U53_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mantequilla'?",
+          "prompt_es": "¿Cómo se dice 'Galleta'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Banana"
-            },
-            {
-              "id": "o1",
+              "id": "o3",
               "text": "Butter"
             },
             {
-              "id": "o3",
-              "text": "Cheese"
+              "id": "o1",
+              "text": "Cookie"
+            },
+            {
+              "id": "o2",
+              "text": "Banana"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Cookie",
-              "right": "Galleta"
+              "left": "Salt",
+              "right": "Sal"
             },
             {
               "id": "p1",
-              "left": "Cheese",
-              "right": "Queso"
-            },
-            {
-              "id": "p2",
               "left": "Banana",
               "right": "Plátano"
             },
             {
+              "id": "p2",
+              "left": "Cheese",
+              "right": "Queso"
+            },
+            {
               "id": "p3",
-              "left": "Butter",
-              "right": "Mantequilla"
+              "left": "Sugar",
+              "right": "Azúcar"
             }
           ],
           "correct_answer": {
@@ -76,42 +76,27 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "fridge"
-            },
-            {
               "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "butter"
+              "text": "want"
             },
             {
               "id": "w2",
               "text": "some"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "bananas"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -119,7 +104,7 @@
           "interaction_id": "U53_I4",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Is there any salt on the table?\"",
-          "correct_answer": false,
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
@@ -134,16 +119,16 @@
           "interaction_id": "U53_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Queso",
-          "correct_answer": "Cheese",
+          "stimulus_es": "Plátano",
+          "correct_answer": "Banana",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U53_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Cheese",
-          "correct_answer": "Queso",
+          "stimulus_en": "Banana",
+          "correct_answer": "Plátano",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,7 +140,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Banana"
+                "Salt"
               ]
             },
             {
@@ -173,7 +158,7 @@
           "interaction_id": "U53_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I want some bananas. We need some sugar for the cake. There is some butter in the fridge.",
+          "text": "We need some sugar for the cake. I don't have any money. Is there any salt on the table?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -198,55 +183,49 @@
         },
         {
           "interaction_id": "U53_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U53_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sal'?",
+          "prompt_es": "¿Cómo se dice 'Plátano'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Salt"
+              "id": "o2",
+              "text": "Cookie"
             },
             {
-              "id": "o2",
-              "text": "Sugar"
+              "id": "o1",
+              "text": "Banana"
             },
             {
               "id": "o3",
-              "text": "Cheese"
+              "text": "Salt"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U53_I13",
+          "interaction_id": "U53_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Sugar",
-              "right": "Azúcar"
+              "left": "Banana",
+              "right": "Plátano"
             },
             {
               "id": "p1",
+              "left": "Cookie",
+              "right": "Galleta"
+            },
+            {
+              "id": "p2",
               "left": "Butter",
               "right": "Mantequilla"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "Salt",
               "right": "Sal"
-            },
-            {
-              "id": "p3",
-              "left": "Cheese",
-              "right": "Queso"
             }
           ],
           "correct_answer": {
@@ -258,10 +237,18 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U53_I14",
+          "interaction_id": "U53_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
+            {
+              "id": "w3",
+              "text": "bananas"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
             {
               "id": "w2",
               "text": "some"
@@ -269,14 +256,6 @@
             {
               "id": "w0",
               "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "want"
-            },
-            {
-              "id": "w3",
-              "text": "bananas"
             }
           ],
           "correct_answer": [
@@ -288,38 +267,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U53_I15",
+          "interaction_id": "U53_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We need some sugar for the cake.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Is there any salt on the table?\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U53_I16",
+          "interaction_id": "U53_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I don't have (nada de) ________ sugar.",
+          "stimulus_en": "Do you have (algo de) ________ salt?",
           "correct_answer": "any",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U53_I17",
+          "interaction_id": "U53_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Azúcar",
-          "correct_answer": "Sugar",
+          "stimulus_es": "Plátano",
+          "correct_answer": "Banana",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Butter",
+          "correct_answer": "Mantequilla",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U53_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Cookie",
-          "correct_answer": "Galleta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U53_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -334,7 +313,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Cookie"
+                "Butter"
               ]
             }
           ],
@@ -342,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U53_I20",
+          "interaction_id": "U53_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Is there any salt on the table? There is some butter in the fridge. I want some bananas.",
+          "text": "We need some sugar for the cake. There is some butter in the fridge. Is there any salt on the table?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U53_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/9ea1cde7fb0da10f8e12716ce6fbaf87.mp3",
+          "text": "We need some sugar for the cake.",
+          "mastery_tag": "listening"
         }
       ]
     }

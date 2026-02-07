@@ -18,19 +18,19 @@
         {
           "interaction_id": "U26_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Esquina'?",
+          "prompt_es": "¿Cómo se dice 'Pasa por'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Turn left"
-            },
-            {
-              "id": "o1",
+              "id": "o2",
               "text": "Corner"
             },
             {
-              "id": "o2",
-              "text": "Traffic lights"
+              "id": "o3",
+              "text": "Turn right"
+            },
+            {
+              "id": "o1",
+              "text": "Go past"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Traffic lights",
+              "right": "Semáforo"
+            },
+            {
+              "id": "p1",
+              "left": "Cross",
+              "right": "Cruza"
+            },
+            {
+              "id": "p2",
               "left": "Go straight",
               "right": "Sigue recto"
             },
             {
-              "id": "p1",
+              "id": "p3",
               "left": "Go past",
               "right": "Pasa por"
-            },
-            {
-              "id": "p2",
-              "left": "Turn left",
-              "right": "Gira a la izquierda"
-            },
-            {
-              "id": "p3",
-              "left": "Traffic lights",
-              "right": "Semáforo"
             }
           ],
           "correct_answer": {
@@ -72,188 +72,6 @@
         },
         {
           "interaction_id": "U26_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "on"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "hospital"
-            },
-            {
-              "id": "w4",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "right"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U26_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Cross the bridge.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The bank (ser/estar - ello) ________ on the left.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Gira a la izquierda",
-          "correct_answer": "Turn left",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Go past",
-          "correct_answer": "Pasa por",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Cross"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Turn right"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Turn right at the traffic lights. Go past the supermarket. Cross the bridge.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Giving Directions"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U26_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
-          "text": "The library is on the second floor.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U26_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U26_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cruza'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Traffic lights"
-            },
-            {
-              "id": "o2",
-              "text": "Turn right"
-            },
-            {
-              "id": "o1",
-              "text": "Cross"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Go straight",
-              "right": "Sigue recto"
-            },
-            {
-              "id": "p1",
-              "left": "Traffic lights",
-              "right": "Semáforo"
-            },
-            {
-              "id": "p2",
-              "left": "Corner",
-              "right": "Esquina"
-            },
-            {
-              "id": "p3",
-              "left": "Turn left",
-              "right": "Gira a la izquierda"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I14",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
@@ -283,38 +101,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U26_I15",
+          "interaction_id": "U26_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Go past the supermarket.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Turn right at the traffic lights.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I16",
+          "interaction_id": "U26_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The bank (ser/estar - ello) ________ on the left.",
-          "correct_answer": "is",
+          "stimulus_en": "(Sigue) ________ straight on.",
+          "correct_answer": "Go",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I17",
+          "interaction_id": "U26_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Gira a la izquierda",
-          "correct_answer": "Turn left",
+          "stimulus_es": "Pasa por",
+          "correct_answer": "Go past",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I18",
+          "interaction_id": "U26_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Turn right",
-          "correct_answer": "Gira a la derecha",
+          "stimulus_en": "Traffic lights",
+          "correct_answer": "Semáforo",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I19",
+          "interaction_id": "U26_I8",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Go straight"
+                "Traffic lights"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Corner"
+                "Cross"
               ]
             }
           ],
@@ -337,10 +155,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I20",
+          "interaction_id": "U26_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Go past the supermarket. Turn right at the traffic lights. The hospital is on your right.",
+          "text": "The library is on the second floor. Turn right at the traffic lights. The hospital is on your right.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +172,175 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U26_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
+          "text": "The library is on the second floor.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U26_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sigue recto'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go straight"
+            },
+            {
+              "id": "o3",
+              "text": "Turn right"
+            },
+            {
+              "id": "o2",
+              "text": "Turn left"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Go past",
+              "right": "Pasa por"
+            },
+            {
+              "id": "p1",
+              "left": "Go straight",
+              "right": "Sigue recto"
+            },
+            {
+              "id": "p2",
+              "left": "Cross",
+              "right": "Cruza"
+            },
+            {
+              "id": "p3",
+              "left": "Corner",
+              "right": "Esquina"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "bridge"
+            },
+            {
+              "id": "w0",
+              "text": "Cross"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Go past the supermarket.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "(Sigue) ________ straight on.",
+          "correct_answer": "Go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I16",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Esquina",
+          "correct_answer": "Corner",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Traffic lights",
+          "correct_answer": "Semáforo",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I18",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Turn left"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Turn right"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I19",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "The hospital is on your right. Turn right at the traffic lights. The library is on the second floor.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Giving Directions"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U26_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/10b15b3603d7866e305cc21aab964f26.mp3",
+          "text": "Turn right at the traffic lights.",
+          "mastery_tag": "listening"
         }
       ]
     }

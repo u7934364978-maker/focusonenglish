@@ -18,19 +18,19 @@
         {
           "interaction_id": "U30_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dirección'?",
+          "prompt_es": "¿Cómo se dice 'Mascota'?",
           "options": [
             {
               "id": "o3",
               "text": "Furniture"
             },
             {
-              "id": "o1",
-              "text": "Direction"
-            },
-            {
               "id": "o2",
               "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Pet"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Body",
-              "right": "Cuerpo"
-            },
-            {
-              "id": "p1",
               "left": "Furniture",
               "right": "Muebles"
             },
             {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
               "id": "p2",
-              "left": "Clothing",
-              "right": "Ropa"
+              "left": "Body",
+              "right": "Cuerpo"
             },
             {
               "id": "p3",
@@ -76,32 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
               "id": "w3",
               "text": "the"
             },
             {
               "id": "w1",
-              "text": "parts"
+              "text": "directions"
             },
             {
               "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Identify"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "body"
-            },
-            {
-              "id": "w6",
-              "text": "clothes"
+              "text": "to"
             }
           ],
           "correct_answer": [
@@ -109,16 +101,14 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Give directions to the station.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are a review of module three.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -142,8 +132,8 @@
           "interaction_id": "U30_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Furniture",
-          "correct_answer": "Muebles",
+          "stimulus_en": "Clothing",
+          "correct_answer": "Ropa",
           "mastery_tag": "vocabulary"
         },
         {
@@ -155,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Body"
+                "Pet"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Pet"
+                "Furniture"
               ]
             }
           ],
@@ -173,7 +163,7 @@
           "interaction_id": "U30_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "This is a review of module three. Identify parts of the body and clothes. Give directions to the station.",
+          "text": "Describe your house and neighborhood. Talk about your favorite animals. Identify parts of the body and clothes.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -192,31 +182,25 @@
           "interaction_id": "U30_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/77ebda12f40bf701adcb563cd1b935c3.mp3",
-          "text": "This is a review of module three.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/455892008edac0662cb920d8cfdb1dcf.mp3",
+          "text": "Identify parts of the body and clothes.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U30_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U30_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mascota'?",
+          "prompt_es": "¿Cómo se dice 'Muebles'?",
           "options": [
             {
               "id": "o1",
-              "text": "Pet"
-            },
-            {
-              "id": "o2",
-              "text": "Clothing"
+              "text": "Furniture"
             },
             {
               "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o2",
               "text": "Direction"
             }
           ],
@@ -224,29 +208,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I13",
+          "interaction_id": "U30_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Direction",
-              "right": "Dirección"
+              "left": "Pet",
+              "right": "Mascota"
             },
             {
               "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
               "left": "Body",
               "right": "Cuerpo"
             },
             {
-              "id": "p2",
+              "id": "p3",
               "left": "Furniture",
               "right": "Muebles"
-            },
-            {
-              "id": "p3",
-              "left": "Pet",
-              "right": "Mascota"
             }
           ],
           "correct_answer": {
@@ -258,37 +242,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I14",
+          "interaction_id": "U30_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w6",
-              "text": "clothes"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w3",
-              "text": "the"
+              "id": "w1",
+              "text": "your"
             },
             {
               "id": "w4",
-              "text": "body"
+              "text": "neighborhood"
+            },
+            {
+              "id": "w3",
+              "text": "and"
             },
             {
               "id": "w0",
-              "text": "Identify"
+              "text": "Describe"
             },
             {
-              "id": "w1",
-              "text": "parts"
+              "id": "w2",
+              "text": "house"
             }
           ],
           "correct_answer": [
@@ -296,29 +272,27 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U30_I15",
+          "interaction_id": "U30_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Identify parts of the body and clothes.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The cat is (debajo) ________ the table.",
-          "correct_answer": "under",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dirección",
@@ -326,15 +300,15 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I18",
+          "interaction_id": "U30_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Pet",
-          "correct_answer": "Mascota",
+          "stimulus_en": "Body",
+          "correct_answer": "Cuerpo",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I19",
+          "interaction_id": "U30_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -342,7 +316,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Pet"
+                "Body"
               ]
             },
             {
@@ -357,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I20",
+          "interaction_id": "U30_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Identify parts of the body and clothes. Talk about your favorite animals. This is a review of module three.",
+          "text": "Describe your house and neighborhood. Talk about your favorite animals. Identify parts of the body and clothes.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -374,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U30_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/455892008edac0662cb920d8cfdb1dcf.mp3",
+          "text": "Identify parts of the body and clothes.",
+          "mastery_tag": "listening"
         }
       ]
     }

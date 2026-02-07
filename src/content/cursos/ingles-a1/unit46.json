@@ -18,19 +18,19 @@
         {
           "interaction_id": "U46_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Entrada'?",
+          "prompt_es": "¿Cómo se dice 'Desayuno'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Reception"
+              "id": "o2",
+              "text": "Room"
             },
             {
-              "id": "o2",
-              "text": "Check-out"
+              "id": "o3",
+              "text": "Check-in"
             },
             {
               "id": "o1",
-              "text": "Check-in"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Reception",
-              "right": "Recepción"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p2",
               "left": "Elevator",
               "right": "Ascensor"
             },
             {
-              "id": "p2",
-              "left": "Check-out",
-              "right": "Salida"
-            },
-            {
               "id": "p3",
-              "left": "Breakfast",
-              "right": "Desayuno"
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
@@ -76,32 +76,22 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w0",
+              "text": "Is"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w2",
+              "text": "included"
             },
             {
               "id": "w1",
-              "text": "room"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w4",
-              "text": "clean"
+              "text": "breakfast"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -109,7 +99,7 @@
           "interaction_id": "U46_I4",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"Is breakfast included?\"",
-          "correct_answer": false,
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
@@ -124,16 +114,16 @@
           "interaction_id": "U46_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Entrada",
-          "correct_answer": "Check-in",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Key",
-          "correct_answer": "Llave",
+          "stimulus_en": "Check-out",
+          "correct_answer": "Salida",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +135,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Breakfast"
+                "Check-in"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Check-in"
+                "Check-out"
               ]
             }
           ],
@@ -163,7 +153,7 @@
           "interaction_id": "U46_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I need an extra towel. The reception is open 24 hours. The room is very clean.",
+          "text": "I want a double room. The room is very clean. The reception is open 24 hours.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,61 +172,55 @@
           "interaction_id": "U46_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/8227b8535d0a1ba499589495f9efb937.mp3",
-          "text": "I want a double room.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/6a60b2fb70220743314aa55b896467c8.mp3",
+          "text": "Is breakfast included?",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U46_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U46_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ascensor'?",
+          "prompt_es": "¿Cómo se dice 'Recepción'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Key"
+              "id": "o1",
+              "text": "Reception"
             },
             {
               "id": "o3",
-              "text": "Breakfast"
+              "text": "Elevator"
             },
             {
-              "id": "o1",
-              "text": "Elevator"
+              "id": "o2",
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U46_I13",
+          "interaction_id": "U46_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Room",
-              "right": "Habitación"
-            },
-            {
-              "id": "p1",
-              "left": "Reception",
-              "right": "Recepción"
-            },
-            {
-              "id": "p2",
               "left": "Elevator",
               "right": "Ascensor"
             },
             {
+              "id": "p1",
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p2",
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
               "id": "p3",
-              "left": "Check-out",
-              "right": "Salida"
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
@@ -248,73 +232,63 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U46_I14",
+          "interaction_id": "U46_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "double"
+              "id": "w1",
+              "text": "breakfast"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "included"
             },
             {
               "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "room"
-            },
-            {
-              "id": "w1",
-              "text": "want"
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U46_I15",
+          "interaction_id": "U46_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"I want a double room.\"",
-          "correct_answer": false,
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U46_I16",
+          "interaction_id": "U46_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My room (ser/estar - ello) ________ on the third floor.",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U46_I17",
+          "interaction_id": "U46_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Salida",
-          "correct_answer": "Check-out",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Key",
+          "correct_answer": "Llave",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Breakfast",
-          "correct_answer": "Desayuno",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +296,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Elevator"
+                "Key"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Check-out"
+                "Breakfast"
               ]
             }
           ],
@@ -337,10 +311,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U46_I20",
+          "interaction_id": "U46_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I need an extra towel. Is breakfast included? The reception is open 24 hours.",
+          "text": "I want a double room. The room is very clean. Is breakfast included?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +328,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U46_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/8227b8535d0a1ba499589495f9efb937.mp3",
+          "text": "I want a double room.",
+          "mastery_tag": "listening"
         }
       ]
     }

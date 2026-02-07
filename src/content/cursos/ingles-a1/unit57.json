@@ -18,19 +18,19 @@
         {
           "interaction_id": "U57_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hornear'?",
+          "prompt_es": "¿Cómo se dice 'Hervir'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Bake"
-            },
             {
               "id": "o3",
               "text": "Cut"
             },
             {
+              "id": "o1",
+              "text": "Boil"
+            },
+            {
               "id": "o2",
-              "text": "Fry"
+              "text": "Ingredients"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Bake",
-              "right": "Hornear"
+              "left": "Mix",
+              "right": "Mezclar"
             },
             {
               "id": "p1",
@@ -53,13 +53,13 @@
             },
             {
               "id": "p2",
-              "left": "Cook",
-              "right": "Cocinar"
+              "left": "Boil",
+              "right": "Hervir"
             },
             {
               "id": "p3",
-              "left": "Mix",
-              "right": "Mezclar"
+              "left": "Cook",
+              "right": "Cocinar"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,32 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "pieces"
-            },
-            {
-              "id": "w3",
-              "text": "into"
+              "id": "w0",
+              "text": "Don't"
             },
             {
               "id": "w4",
-              "text": "small"
+              "text": "for"
             },
             {
               "id": "w2",
-              "text": "vegetables"
+              "text": "the"
             },
             {
-              "id": "w0",
-              "text": "Cut"
+              "id": "w1",
+              "text": "fry"
+            },
+            {
+              "id": "w6",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "fish"
+            },
+            {
+              "id": "w5",
+              "text": "too"
             }
           ],
           "correct_answer": [
@@ -106,14 +110,15 @@
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U57_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Boil the pasta for ten minutes.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Cut the vegetables into small pieces.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -121,16 +126,16 @@
           "interaction_id": "U57_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Hierve) ________ the water.",
-          "correct_answer": "Boil",
+          "stimulus_en": "I (hornear) ________ a cake.",
+          "correct_answer": "bake",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U57_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cortar",
-          "correct_answer": "Cut",
+          "stimulus_es": "Ingredientes",
+          "correct_answer": "Ingredients",
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,14 +155,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Bake"
+                "Cut"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Cut"
+                "Ingredients"
               ]
             }
           ],
@@ -168,7 +173,7 @@
           "interaction_id": "U57_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Boil the pasta for ten minutes. Cut the vegetables into small pieces. Mix all the ingredients together.",
+          "text": "I'm baking a chocolate cake. Cut the vegetables into small pieces. Don't fry the fish for too long.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,61 +192,55 @@
           "interaction_id": "U57_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/7c9f85c305ccb6fbf8e1a13b1994f3d6.mp3",
-          "text": "Cut the vegetables into small pieces.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f87a6174dabcd42725495b642cdc80ea.mp3",
+          "text": "Boil the pasta for ten minutes.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U57_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U57_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinar'?",
+          "prompt_es": "¿Cómo se dice 'Freír'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Bake"
+              "id": "o1",
+              "text": "Fry"
             },
             {
               "id": "o3",
-              "text": "Boil"
+              "text": "Cut"
             },
             {
-              "id": "o1",
-              "text": "Cook"
+              "id": "o2",
+              "text": "Boil"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I13",
+          "interaction_id": "U57_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Ingredients",
+              "right": "Ingredientes"
+            },
+            {
+              "id": "p1",
               "left": "Bake",
               "right": "Hornear"
             },
             {
-              "id": "p1",
-              "left": "Fry",
-              "right": "Freír"
-            },
-            {
               "id": "p2",
-              "left": "Cook",
-              "right": "Cocinar"
+              "left": "Mix",
+              "right": "Mezclar"
             },
             {
               "id": "p3",
-              "left": "Boil",
-              "right": "Hervir"
+              "left": "Fry",
+              "right": "Freír"
             }
           ],
           "correct_answer": {
@@ -253,10 +252,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I14",
+          "interaction_id": "U57_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
+            {
+              "id": "w3",
+              "text": "into"
+            },
             {
               "id": "w5",
               "text": "pieces"
@@ -266,20 +269,16 @@
               "text": "Cut"
             },
             {
-              "id": "w2",
-              "text": "vegetables"
-            },
-            {
               "id": "w1",
               "text": "the"
             },
             {
-              "id": "w4",
-              "text": "small"
+              "id": "w2",
+              "text": "vegetables"
             },
             {
-              "id": "w3",
-              "text": "into"
+              "id": "w4",
+              "text": "small"
             }
           ],
           "correct_answer": [
@@ -293,38 +292,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U57_I15",
+          "interaction_id": "U57_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Boil the pasta for ten minutes.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I'm baking a chocolate cake.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U57_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I (hornear) ________ a cake.",
+          "correct_answer": "bake",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U57_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Corta) ________ the onions.",
-          "correct_answer": "Cut",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Freír",
+          "correct_answer": "Fry",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U57_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cortar",
-          "correct_answer": "Cut",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Ingredients",
+          "correct_answer": "Ingredientes",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U57_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bake",
-          "correct_answer": "Hornear",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,7 +331,7 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Cut"
+                "Ingredients"
               ]
             },
             {
@@ -347,10 +346,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I20",
+          "interaction_id": "U57_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Mix all the ingredients together. Don't fry the fish for too long. Boil the pasta for ten minutes.",
+          "text": "Boil the pasta for ten minutes. Cut the vegetables into small pieces. Don't fry the fish for too long.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +363,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U57_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/7c9f85c305ccb6fbf8e1a13b1994f3d6.mp3",
+          "text": "Cut the vegetables into small pieces.",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -21,16 +21,16 @@
           "prompt_es": "¿Cómo se dice 'Italiano/a'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Spain"
-            },
-            {
               "id": "o2",
-              "text": "Italy"
+              "text": "Mexico"
             },
             {
               "id": "o1",
               "text": "Italian"
+            },
+            {
+              "id": "o3",
+              "text": "France"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "French",
-              "right": "Francés/esa"
+              "left": "British",
+              "right": "Británico/a"
             },
             {
               "id": "p1",
-              "left": "Mexico",
-              "right": "México"
+              "left": "Italy",
+              "right": "Italia"
             },
             {
               "id": "p2",
-              "left": "Spain",
-              "right": "España"
+              "left": "The UK",
+              "right": "El Reino Unido"
             },
             {
               "id": "p3",
-              "left": "Italian",
-              "right": "Italiano/a"
+              "left": "France",
+              "right": "Francia"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "He"
+              "id": "w2",
+              "text": "from"
             },
             {
-              "id": "w2",
-              "text": "French"
+              "id": "w0",
+              "text": "Are"
             },
             {
               "id": "w1",
-              "text": "speaks"
+              "text": "they"
             },
             {
               "id": "w4",
-              "text": "English"
+              "text": "UK"
             },
             {
               "id": "w3",
-              "text": "and"
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -108,7 +108,7 @@
         {
           "interaction_id": "U5_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Are they from the UK?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"He speaks French and Englareh.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -116,24 +116,24 @@
           "interaction_id": "U5_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I am (de - origen) ________ Spain.",
-          "correct_answer": "from",
+          "stimulus_en": "Are you (americano) ________?",
+          "correct_answer": "American",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U5_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Francia",
-          "correct_answer": "France",
+          "stimulus_es": "Americano/a",
+          "correct_answer": "American",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Mexico",
-          "correct_answer": "México",
+          "stimulus_en": "The USA",
+          "correct_answer": "Los EE.UU.",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "French"
+                "France"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "American"
+                "The UK"
               ]
             }
           ],
@@ -163,7 +163,7 @@
           "interaction_id": "U5_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He speaks French and English. Are they from the UK? She is very proud to be Italian.",
+          "text": "She is very proud to be Italian. I am from Madrid, Spain. Mexico is a beautiful country.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,61 +182,55 @@
           "interaction_id": "U5_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/d4ce6343c7cbe457c986725dfef3a7a8.mp3",
-          "text": "Are they from the UK?",
+          "audioUrl": "/audio/courses/ingles-a1/shared/29f24172fda6b1172c49312426f6a903.mp3",
+          "text": "I am from Madrid, Spain.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U5_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U5_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Español/a'?",
+          "prompt_es": "¿Cómo se dice 'El Reino Unido'?",
           "options": [
             {
               "id": "o1",
-              "text": "Spanish"
+              "text": "The UK"
             },
             {
               "id": "o2",
-              "text": "Italian"
+              "text": "Italy"
             },
             {
               "id": "o3",
-              "text": "The UK"
+              "text": "France"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I13",
+          "interaction_id": "U5_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Mexico",
-              "right": "México"
+              "left": "British",
+              "right": "Británico/a"
             },
             {
               "id": "p1",
-              "left": "Spain",
-              "right": "España"
+              "left": "Spanish",
+              "right": "Español/a"
             },
             {
               "id": "p2",
-              "left": "American",
-              "right": "Americano/a"
+              "left": "Italian",
+              "right": "Italiano/a"
             },
             {
               "id": "p3",
-              "left": "France",
-              "right": "Francia"
+              "left": "The USA",
+              "right": "Los EE.UU."
             }
           ],
           "correct_answer": {
@@ -248,29 +242,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I14",
+          "interaction_id": "U5_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "UK"
-            },
-            {
               "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "they"
+              "text": "and"
             },
             {
               "id": "w2",
-              "text": "from"
+              "text": "French"
+            },
+            {
+              "id": "w4",
+              "text": "English"
+            },
+            {
+              "id": "w1",
+              "text": "speaks"
             },
             {
               "id": "w0",
-              "text": "Are"
+              "text": "He"
             }
           ],
           "correct_answer": [
@@ -283,14 +277,14 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U5_I15",
+          "interaction_id": "U5_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He speaks French and Englareh.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"She is very proud to be Italian.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U5_I16",
+          "interaction_id": "U5_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "They (ser/estar - ellos) ________ from Mexico.",
@@ -298,7 +292,7 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U5_I17",
+          "interaction_id": "U5_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Francia",
@@ -306,15 +300,15 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I18",
+          "interaction_id": "U5_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Italian",
-          "correct_answer": "Italiano/a",
+          "stimulus_en": "Spain",
+          "correct_answer": "España",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I19",
+          "interaction_id": "U5_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "French"
+                "British"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Spanish"
+                "French"
               ]
             }
           ],
@@ -337,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I20",
+          "interaction_id": "U5_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He speaks French and English. I am from Madrid, Spain. Mexico is a beautiful country.",
+          "text": "I am from Madrid, Spain. Are they from the UK? He speaks French and English.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U5_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/2322ef30abc1518f71204e51aa292434.mp3",
+          "text": "She is very proud to be Italian.",
+          "mastery_tag": "listening"
         }
       ]
     }

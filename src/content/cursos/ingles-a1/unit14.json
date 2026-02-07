@@ -18,19 +18,19 @@
         {
           "interaction_id": "U14_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Leer'?",
+          "prompt_es": "¿Cómo se dice 'Hablar'?",
           "options": [
             {
               "id": "o3",
-              "text": "Learn"
-            },
-            {
-              "id": "o1",
-              "text": "Read"
+              "text": "Understand"
             },
             {
               "id": "o2",
               "text": "Study"
+            },
+            {
+              "id": "o1",
+              "text": "Speak"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Study",
-              "right": "Estudiar"
+              "left": "Speak",
+              "right": "Hablar"
             },
             {
               "id": "p1",
-              "left": "Play",
-              "right": "Jugar"
+              "left": "Write",
+              "right": "Escribir"
             },
             {
               "id": "p2",
-              "left": "Understand",
-              "right": "Entender"
+              "left": "Study",
+              "right": "Estudiar"
             },
             {
               "id": "p3",
@@ -77,26 +77,36 @@
           "options": [
             {
               "id": "w2",
-              "text": "very"
-            },
-            {
-              "id": "w1",
-              "text": "write"
-            },
-            {
-              "id": "w0",
-              "text": "You"
+              "text": "music"
             },
             {
               "id": "w3",
-              "text": "well"
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "play"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "evening"
+            },
+            {
+              "id": "w0",
+              "text": "They"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -111,28 +121,204 @@
           "interaction_id": "U14_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (hablar) ________ English.",
-          "correct_answer": "speak",
+          "stimulus_en": "You (estudiar) ________ every day.",
+          "correct_answer": "study",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Escribir",
-          "correct_answer": "Write",
+          "stimulus_es": "Jugar",
+          "correct_answer": "Play",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Write",
-          "correct_answer": "Escribir",
+          "stimulus_en": "Understand",
+          "correct_answer": "Entender",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Study"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Speak"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "I don't understand the question. You write very well. We read books in the library.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Present Simple: I, You, We, They"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a3229559430eb434327b35dfb14a939f.mp3",
+          "text": "They play music in the evening.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U14_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aprender'?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Play"
+            },
+            {
+              "id": "o1",
+              "text": "Learn"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Read",
+              "right": "Leer"
+            },
+            {
+              "id": "p1",
+              "left": "Study",
+              "right": "Estudiar"
+            },
+            {
+              "id": "p2",
+              "left": "Play",
+              "right": "Jugar"
+            },
+            {
+              "id": "p3",
+              "left": "Learn",
+              "right": "Aprender"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "music"
+            },
+            {
+              "id": "w5",
+              "text": "evening"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w1",
+              "text": "play"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"They play music in the evening.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "You (estudiar) ________ every day.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I16",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aprender",
+          "correct_answer": "Learn",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Speak",
+          "correct_answer": "Hablar",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -155,10 +341,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U14_I9",
+          "interaction_id": "U14_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "We read books in the library. They play music in the evening. I study English at home.",
+          "text": "I study English at home. I don't understand the question. They play music in the evening.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -172,178 +358,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U14_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/1108f67453d7abf92503f8d45cf92a8a.mp3",
-          "text": "We read books in the library.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U14_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U14_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Leer'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Read"
-            },
-            {
-              "id": "o3",
-              "text": "Speak"
-            },
-            {
-              "id": "o2",
-              "text": "Like"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Play",
-              "right": "Jugar"
-            },
-            {
-              "id": "p1",
-              "left": "Like",
-              "right": "Gustar"
-            },
-            {
-              "id": "p2",
-              "left": "Write",
-              "right": "Escribir"
-            },
-            {
-              "id": "p3",
-              "left": "Read",
-              "right": "Leer"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "You"
-            },
-            {
-              "id": "w1",
-              "text": "write"
-            },
-            {
-              "id": "w3",
-              "text": "well"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U14_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"You write very well.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (no - hablar) ________ French.",
-          "correct_answer": "don't speak",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Entender",
-          "correct_answer": "Understand",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Read",
-          "correct_answer": "Leer",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I19",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Play"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Like"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I20",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We read books in the library. You write very well. I don't understand the question.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Present Simple: I, You, We, They"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ff7f603adc5eef827b64e97fc9365585.mp3",
+          "text": "I don't understand the question.",
+          "mastery_tag": "listening"
         }
       ]
     }

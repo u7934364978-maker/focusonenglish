@@ -18,19 +18,19 @@
         {
           "interaction_id": "U4_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Alfabeto'?",
+          "prompt_es": "¿Cómo se dice 'Deletrear'?",
           "options": [
             {
+              "id": "o2",
+              "text": "Letter"
+            },
+            {
               "id": "o1",
-              "text": "Alphabet"
+              "text": "Spell"
             },
             {
               "id": "o3",
-              "text": "Ball"
-            },
-            {
-              "id": "o2",
-              "text": "Cat"
+              "text": "Word"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Spell",
+              "right": "Deletrear"
+            },
+            {
+              "id": "p1",
+              "left": "Vowel",
+              "right": "Vocal"
+            },
+            {
+              "id": "p2",
               "left": "Letter",
               "right": "Letra"
             },
             {
-              "id": "p1",
+              "id": "p3",
               "left": "Consonant",
               "right": "Consonante"
-            },
-            {
-              "id": "p2",
-              "left": "Alphabet",
-              "right": "Alfabeto"
-            },
-            {
-              "id": "p3",
-              "left": "Ball",
-              "right": "Pelota"
             }
           ],
           "correct_answer": {
@@ -76,34 +76,49 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "starts"
+              "id": "w6",
+              "text": "word"
             },
             {
-              "id": "w3",
-              "text": "A"
+              "id": "w4",
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "with"
+              "text": "letters"
+            },
+            {
+              "id": "w3",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "many"
             },
             {
               "id": "w0",
-              "text": "Apple"
+              "text": "How"
+            },
+            {
+              "id": "w5",
+              "text": "this"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U4_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Can you spell that, please?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"How many letters are in thare word?\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -111,24 +126,24 @@
           "interaction_id": "U4_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "'A' is a (vocal) ________.",
-          "correct_answer": "vowel",
+          "stimulus_en": "There are 26 (letras) ________ in English.",
+          "correct_answer": "letters",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U4_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Deletrear",
-          "correct_answer": "Spell",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Consonant",
-          "correct_answer": "Consonante",
+          "stimulus_en": "Letter",
+          "correct_answer": "Letra",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +155,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Consonant"
+                "Cat"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Dog"
+                "Ball"
               ]
             }
           ],
@@ -158,7 +173,7 @@
           "interaction_id": "U4_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Apple starts with A. How many letters are in this word? Spell your name for me.",
+          "text": "Spell your name for me. Can you spell that, please? English has five vowels.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -177,61 +192,55 @@
           "interaction_id": "U4_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c5f843cc1629a2e1fac7d2f7939d1099.mp3",
-          "text": "How many letters are in this word?",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4c1c9813025aa9048e1f4050b948bfa0.mp3",
+          "text": "English has five vowels.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U4_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U4_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pelota'?",
+          "prompt_es": "¿Cómo se dice 'Palabra'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Cat"
+              "id": "o1",
+              "text": "Word"
             },
             {
               "id": "o2",
-              "text": "Apple"
+              "text": "Consonant"
             },
             {
-              "id": "o1",
-              "text": "Ball"
+              "id": "o3",
+              "text": "Cat"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I13",
+          "interaction_id": "U4_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Consonant",
-              "right": "Consonante"
-            },
-            {
-              "id": "p1",
               "left": "Ball",
               "right": "Pelota"
             },
             {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
               "id": "p2",
-              "left": "Cat",
-              "right": "Gato"
+              "left": "Spell",
+              "right": "Deletrear"
             },
             {
               "id": "p3",
-              "left": "Letter",
-              "right": "Letra"
+              "left": "Vowel",
+              "right": "Vocal"
             }
           ],
           "correct_answer": {
@@ -243,29 +252,37 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I14",
+          "interaction_id": "U4_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "Spell"
+              "id": "w6",
+              "text": "word"
             },
             {
               "id": "w4",
-              "text": "me"
+              "text": "in"
             },
             {
               "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "for"
+              "text": "many"
             },
             {
               "id": "w2",
-              "text": "name"
+              "text": "letters"
+            },
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w3",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "this"
             }
           ],
           "correct_answer": [
@@ -273,19 +290,21 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5",
+            "w6"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U4_I15",
+          "interaction_id": "U4_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"How many letters are in this word?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Spell your name for me.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I16",
+          "interaction_id": "U4_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "'A' is a (vocal) ________.",
@@ -293,23 +312,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I17",
+          "interaction_id": "U4_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Alfabeto",
-          "correct_answer": "Alphabet",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Letter",
+          "correct_answer": "Letra",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Consonant",
-          "correct_answer": "Consonante",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -317,14 +336,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Consonant"
+                "Ball"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Dog"
+                "Alphabet"
               ]
             }
           ],
@@ -332,10 +351,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I20",
+          "interaction_id": "U4_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Apple starts with A. Can you spell that, please? English has five vowels.",
+          "text": "How many letters are in this word? English has five vowels. Can you spell that, please?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +368,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U4_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/517a614223c4cdc2ff25e910dedf8273.mp3",
+          "text": "Can you spell that, please?",
+          "mastery_tag": "listening"
         }
       ]
     }

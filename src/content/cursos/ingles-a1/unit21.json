@@ -18,19 +18,19 @@
         {
           "interaction_id": "U21_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Baño'?",
+          "prompt_es": "¿Cómo se dice 'Salón'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Garden"
-            },
             {
               "id": "o3",
               "text": "Garage"
             },
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Bathroom"
+            },
+            {
+              "id": "o1",
+              "text": "Living room"
             }
           ],
           "correct_answer": "o1",
@@ -43,13 +43,13 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Kitchen",
-              "right": "Cocina"
+              "left": "Bathroom",
+              "right": "Baño"
             },
             {
               "id": "p1",
-              "left": "Bathroom",
-              "right": "Baño"
+              "left": "Kitchen",
+              "right": "Cocina"
             },
             {
               "id": "p2",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Dining room",
-              "right": "Comedor"
+              "left": "Attic",
+              "right": "Ático"
             }
           ],
           "correct_answer": {
@@ -76,39 +76,34 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "very"
-            },
-            {
               "id": "w0",
-              "text": "The"
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "my"
             },
             {
-              "id": "w4",
-              "text": "small"
+              "id": "w3",
+              "text": "bedroom"
             },
             {
               "id": "w1",
-              "text": "kitchen"
+              "text": "love"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U21_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I am in the bathroom.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We eat in the dining room.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -116,16 +111,16 @@
           "interaction_id": "U21_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I am (en) ________ the kitchen.",
-          "correct_answer": "in",
+          "stimulus_en": "My house (tener) ________ three bedrooms.",
+          "correct_answer": "has",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Salón",
-          "correct_answer": "Living room",
+          "stimulus_es": "Ático",
+          "correct_answer": "Attic",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Bedroom"
+                "Dining room"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Garden"
+                "Bathroom"
               ]
             }
           ],
@@ -163,7 +158,7 @@
           "interaction_id": "U21_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I am in the bathroom. The kitchen is very small. We eat in the dining room.",
+          "text": "I love my bedroom. The kitchen is very small. My house has a beautiful garden.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,46 +177,40 @@
           "interaction_id": "U21_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/d1e50426f05dbacbeb369d2ccdcbc3ca.mp3",
-          "text": "The kitchen is very small.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/b54c858f2f15255eae371b3b03ac2829.mp3",
+          "text": "My house has a beautiful garden.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U21_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U21_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Baño'?",
+          "prompt_es": "¿Cómo se dice 'Salón'?",
           "options": [
             {
               "id": "o1",
-              "text": "Bathroom"
+              "text": "Living room"
             },
             {
               "id": "o2",
-              "text": "Attic"
+              "text": "Bathroom"
             },
             {
               "id": "o3",
-              "text": "Living room"
+              "text": "Attic"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I13",
+          "interaction_id": "U21_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Attic",
-              "right": "Ático"
+              "left": "Living room",
+              "right": "Salón"
             },
             {
               "id": "p1",
@@ -230,13 +219,13 @@
             },
             {
               "id": "p2",
-              "left": "Living room",
-              "right": "Salón"
+              "left": "Kitchen",
+              "right": "Cocina"
             },
             {
               "id": "p3",
-              "left": "Dining room",
-              "right": "Comedor"
+              "left": "Garage",
+              "right": "Garaje"
             }
           ],
           "correct_answer": {
@@ -248,33 +237,33 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I14",
+          "interaction_id": "U21_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w5",
-              "text": "garden"
-            },
-            {
-              "id": "w0",
-              "text": "My"
+              "id": "w2",
+              "text": "in"
             },
             {
               "id": "w1",
-              "text": "house"
+              "text": "eat"
             },
             {
-              "id": "w2",
-              "text": "has"
+              "id": "w5",
+              "text": "room"
             },
             {
               "id": "w4",
-              "text": "beautiful"
+              "text": "dining"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "a"
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -288,38 +277,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I15",
+          "interaction_id": "U21_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The kitchen are very small.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"We eat in the dining room.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "We have a (grande) ________ garden.",
+          "correct_answer": "big",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U21_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I am (en) ________ the kitchen.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Comedor",
+          "correct_answer": "Dining room",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U21_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Garaje",
-          "correct_answer": "Garage",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Attic",
+          "correct_answer": "Ático",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U21_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Kitchen",
-          "correct_answer": "Cocina",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -334,7 +323,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Garden"
+                "Dining room"
               ]
             }
           ],
@@ -342,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I20",
+          "interaction_id": "U21_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "My house has a beautiful garden. The kitchen is very small. I am in the bathroom.",
+          "text": "We eat in the dining room. My house has a beautiful garden. I love my bedroom.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -359,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U21_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/d1e50426f05dbacbeb369d2ccdcbc3ca.mp3",
+          "text": "The kitchen is very small.",
+          "mastery_tag": "listening"
         }
       ]
     }

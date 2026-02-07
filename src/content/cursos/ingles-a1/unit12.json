@@ -18,19 +18,19 @@
         {
           "interaction_id": "U12_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Jueves'?",
+          "prompt_es": "¿Cómo se dice 'Lunes'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Weekend"
+              "id": "o3",
+              "text": "Week"
             },
             {
-              "id": "o3",
-              "text": "Saturday"
+              "id": "o2",
+              "text": "Tuesday"
             },
             {
               "id": "o1",
-              "text": "Thursday"
+              "text": "Monday"
             }
           ],
           "correct_answer": "o1",
@@ -48,18 +48,18 @@
             },
             {
               "id": "p1",
-              "left": "Tuesday",
-              "right": "Martes"
+              "left": "Sunday",
+              "right": "Domingo"
             },
             {
               "id": "p2",
-              "left": "Friday",
-              "right": "Viernes"
+              "left": "Thursday",
+              "right": "Jueves"
             },
             {
               "id": "p3",
-              "left": "Week",
-              "right": "Semana"
+              "left": "Saturday",
+              "right": "Sábado"
             }
           ],
           "correct_answer": {
@@ -76,42 +76,47 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w1",
-              "text": "love"
+              "id": "w4",
+              "text": "day"
             },
             {
               "id": "w3",
-              "text": "weekend"
-            },
-            {
-              "id": "w2",
-              "text": "the"
+              "text": "favorite"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "Friday"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U12_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I love the weekend.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Monday are the first day of the week.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Today (ser/estar - ello) ________ Monday.",
+          "stimulus_en": "My favorite day (ser/estar - ello) ________ Friday.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
@@ -119,16 +124,16 @@
           "interaction_id": "U12_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Domingo",
-          "correct_answer": "Sunday",
+          "stimulus_es": "Sábado",
+          "correct_answer": "Saturday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U12_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Sunday",
-          "correct_answer": "Domingo",
+          "stimulus_en": "Saturday",
+          "correct_answer": "Sábado",
           "mastery_tag": "vocabulary"
         },
         {
@@ -140,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Thursday"
+                "Friday"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Sunday"
+                "Monday"
               ]
             }
           ],
@@ -158,7 +163,7 @@
           "interaction_id": "U12_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I play football on Saturdays. See you on Monday! Monday is the first day of the week.",
+          "text": "I play football on Saturdays. See you on Monday! Friday is my favorite day.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -183,40 +188,34 @@
         },
         {
           "interaction_id": "U12_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U12_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Viernes'?",
+          "prompt_es": "¿Cómo se dice 'Lunes'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Friday"
-            },
             {
               "id": "o2",
               "text": "Thursday"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Monday"
+            },
+            {
+              "id": "o3",
+              "text": "Wednesday"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I13",
+          "interaction_id": "U12_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Weekend",
-              "right": "Fin de semana"
+              "left": "Week",
+              "right": "Semana"
             },
             {
               "id": "p1",
@@ -225,13 +224,13 @@
             },
             {
               "id": "p2",
-              "left": "Thursday",
-              "right": "Jueves"
+              "left": "Sunday",
+              "right": "Domingo"
             },
             {
               "id": "p3",
-              "left": "Week",
-              "right": "Semana"
+              "left": "Friday",
+              "right": "Viernes"
             }
           ],
           "correct_answer": {
@@ -243,65 +242,60 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I14",
+          "interaction_id": "U12_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "Friday"
+              "id": "w1",
+              "text": "you"
             },
             {
               "id": "w3",
-              "text": "favorite"
+              "text": "Monday"
             },
             {
               "id": "w2",
-              "text": "my"
+              "text": "on"
             },
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "day"
+              "id": "w0",
+              "text": "See"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U12_I15",
+          "interaction_id": "U12_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Monday is the first day of the week.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"See you on Monday!\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "Today (ser/estar - ello) ________ Monday.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U12_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(En) ________ Saturday, I go to the park.",
-          "correct_answer": "On",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Martes",
-          "correct_answer": "Tuesday",
+          "stimulus_es": "Jueves",
+          "correct_answer": "Thursday",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I18",
+          "interaction_id": "U12_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
           "stimulus_en": "Saturday",
@@ -309,7 +303,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I19",
+          "interaction_id": "U12_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -317,14 +311,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Saturday"
+                "Week"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Weekend"
+                "Friday"
               ]
             }
           ],
@@ -332,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I20",
+          "interaction_id": "U12_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Monday is the first day of the week. See you on Monday! Friday is my favorite day.",
+          "text": "See you on Monday! I play football on Saturdays. Friday is my favorite day.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -349,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U12_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f673be9e071b78def4ccae83449ca39f.mp3",
+          "text": "See you on Monday!",
+          "mastery_tag": "listening"
         }
       ]
     }

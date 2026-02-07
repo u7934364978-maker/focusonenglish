@@ -18,19 +18,19 @@
         {
           "interaction_id": "U23_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Librería'?",
+          "prompt_es": "¿Cómo se dice 'Planta'?",
           "options": [
             {
               "id": "o1",
-              "text": "Bookcase"
+              "text": "Plant"
             },
             {
               "id": "o3",
-              "text": "Curtain"
+              "text": "Shelf"
             },
             {
               "id": "o2",
-              "text": "Picture"
+              "text": "Curtain"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Plant",
-              "right": "Planta"
+              "left": "Picture",
+              "right": "Cuadro"
             },
             {
               "id": "p1",
-              "left": "Shelf",
-              "right": "Estante"
-            },
-            {
-              "id": "p2",
               "left": "Bookcase",
               "right": "Librería"
             },
             {
-              "id": "p3",
+              "id": "p2",
               "left": "Rug",
               "right": "Alfombra"
+            },
+            {
+              "id": "p3",
+              "left": "Plant",
+              "right": "Planta"
             }
           ],
           "correct_answer": {
@@ -76,40 +76,40 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w8",
-              "text": "room"
-            },
-            {
-              "id": "w4",
-              "text": "rug"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w7",
-              "text": "living"
-            },
-            {
-              "id": "w5",
-              "text": "in"
+              "id": "w3",
+              "text": "big"
             },
             {
               "id": "w6",
               "text": "the"
             },
             {
+              "id": "w4",
+              "text": "rug"
+            },
+            {
               "id": "w1",
               "text": "is"
             },
             {
-              "id": "w3",
-              "text": "big"
+              "id": "w0",
+              "text": "There"
             },
             {
               "id": "w2",
               "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "room"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "living"
             }
           ],
           "correct_answer": [
@@ -144,8 +144,8 @@
           "interaction_id": "U23_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cortina",
-          "correct_answer": "Curtain",
+          "stimulus_es": "Alfombra",
+          "correct_answer": "Rug",
           "mastery_tag": "vocabulary"
         },
         {
@@ -165,14 +165,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Picture"
+                "Plant"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Rug"
+                "Picture"
               ]
             }
           ],
@@ -183,7 +183,7 @@
           "interaction_id": "U23_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "There are many books on the shelf. There is a big rug in the living room. There is a mirror in the bathroom.",
+          "text": "There are no curtains in the kitchen. There are many books on the shelf. There is a big rug in the living room.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -202,61 +202,55 @@
           "interaction_id": "U23_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f8d60df92e32f114aaf96ee52a93e81c.mp3",
-          "text": "There are no curtains in the kitchen.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f896f2e98fece93a9ecb3e32f51ebe38.mp3",
+          "text": "Is there a plant in your bedroom?",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U23_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U23_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cortina'?",
+          "prompt_es": "¿Cómo se dice 'Estante'?",
           "options": [
             {
-              "id": "o2",
+              "id": "o3",
               "text": "Picture"
             },
             {
-              "id": "o1",
-              "text": "Curtain"
+              "id": "o2",
+              "text": "Bookcase"
             },
             {
-              "id": "o3",
-              "text": "Rug"
+              "id": "o1",
+              "text": "Shelf"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I13",
+          "interaction_id": "U23_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Rug",
-              "right": "Alfombra"
-            },
-            {
-              "id": "p1",
-              "left": "Plant",
-              "right": "Planta"
-            },
-            {
-              "id": "p2",
               "left": "Bookcase",
               "right": "Librería"
             },
             {
+              "id": "p1",
+              "left": "Rug",
+              "right": "Alfombra"
+            },
+            {
+              "id": "p2",
+              "left": "Curtain",
+              "right": "Cortina"
+            },
+            {
               "id": "p3",
-              "left": "Picture",
-              "right": "Cuadro"
+              "left": "Plant",
+              "right": "Planta"
             }
           ],
           "correct_answer": {
@@ -268,37 +262,37 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I14",
+          "interaction_id": "U23_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "books"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
               "id": "w5",
-              "text": "the"
+              "text": "your"
             },
             {
               "id": "w0",
-              "text": "There"
+              "text": "Is"
             },
             {
               "id": "w2",
-              "text": "many"
+              "text": "a"
             },
             {
-              "id": "w6",
-              "text": "shelf"
+              "id": "w1",
+              "text": "there"
             },
             {
               "id": "w4",
-              "text": "on"
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "bedroom"
+            },
+            {
+              "id": "w3",
+              "text": "plant"
             }
           ],
           "correct_answer": [
@@ -313,38 +307,38 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U23_I15",
+          "interaction_id": "U23_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Is there a plant in your bedroom?\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"There are many books on the shelf.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U23_I16",
+          "interaction_id": "U23_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Hay? - plural) ________ there any chairs?",
-          "correct_answer": "Are",
+          "stimulus_en": "(Hay - plural) ________ three plants in the room.",
+          "correct_answer": "There are",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U23_I17",
+          "interaction_id": "U23_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Planta",
-          "correct_answer": "Plant",
+          "stimulus_es": "Librería",
+          "correct_answer": "Bookcase",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Curtain",
+          "correct_answer": "Cortina",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U23_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Plant",
-          "correct_answer": "Planta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -352,14 +346,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Bookcase"
+                "Rug"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Curtain"
+                "Plant"
               ]
             }
           ],
@@ -367,10 +361,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I20",
+          "interaction_id": "U23_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "There are many books on the shelf. There are no curtains in the kitchen. There is a big rug in the living room.",
+          "text": "There is a big rug in the living room. There are many books on the shelf. There is a mirror in the bathroom.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -384,6 +378,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U23_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/f896f2e98fece93a9ecb3e32f51ebe38.mp3",
+          "text": "Is there a plant in your bedroom?",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -18,19 +18,19 @@
         {
           "interaction_id": "U7_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Azul'?",
+          "prompt_es": "¿Cómo se dice 'Viejo'?",
           "options": [
             {
               "id": "o2",
               "text": "White"
             },
             {
-              "id": "o1",
-              "text": "Blue"
+              "id": "o3",
+              "text": "Big"
             },
             {
-              "id": "o3",
-              "text": "Black"
+              "id": "o1",
+              "text": "Old"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Green",
-              "right": "Verde"
+              "left": "Small",
+              "right": "Pequeño"
             },
             {
               "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
               "left": "Yellow",
               "right": "Amarillo"
             },
             {
-              "id": "p2",
-              "left": "Old",
-              "right": "Viejo"
-            },
-            {
               "id": "p3",
-              "left": "Big",
-              "right": "Grande"
+              "left": "Green",
+              "right": "Verde"
             }
           ],
           "correct_answer": {
@@ -76,64 +76,59 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "computer"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "a"
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "have"
+              "text": "grass"
             },
             {
               "id": "w3",
-              "text": "new"
+              "text": "green"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The white house is beautiful.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a new computer.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The car is (rojo) ________.",
-          "correct_answer": "red",
+          "stimulus_en": "It is an (antiguo) ________ book.",
+          "correct_answer": "old",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pequeño",
-          "correct_answer": "Small",
+          "stimulus_es": "Grande",
+          "correct_answer": "Big",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Small",
-          "correct_answer": "Pequeño",
+          "stimulus_en": "White",
+          "correct_answer": "Blanco",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +140,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Small"
+                "Black"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "White"
+                "Big"
               ]
             }
           ],
@@ -163,7 +158,7 @@
           "interaction_id": "U7_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "That is a very small dog. The grass is green. My favorite color is yellow.",
+          "text": "The white house is beautiful. The grass is green. My favorite color is yellow.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,56 +177,50 @@
           "interaction_id": "U7_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/3f538d34cc98e091100385c404474d25.mp3",
-          "text": "I have a new computer.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ef5195ebed5035327244974ade2d8196.mp3",
+          "text": "My favorite color is yellow.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U7_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U7_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Verde'?",
+          "prompt_es": "¿Cómo se dice 'Grande'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Green"
-            },
-            {
               "id": "o3",
-              "text": "Big"
+              "text": "Black"
             },
             {
               "id": "o2",
-              "text": "Blue"
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "Big"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I13",
+          "interaction_id": "U7_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Red",
-              "right": "Rojo"
+              "left": "White",
+              "right": "Blanco"
             },
             {
               "id": "p1",
-              "left": "Small",
-              "right": "Pequeño"
+              "left": "Black",
+              "right": "Negro"
             },
             {
               "id": "p2",
-              "left": "Blue",
-              "right": "Azul"
+              "left": "Green",
+              "right": "Verde"
             },
             {
               "id": "p3",
@@ -248,73 +237,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I14",
+          "interaction_id": "U7_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w2",
-              "text": "color"
-            },
-            {
-              "id": "w3",
               "text": "is"
             },
             {
               "id": "w1",
-              "text": "favorite"
+              "text": "grass"
+            },
+            {
+              "id": "w3",
+              "text": "green"
             },
             {
               "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "yellow"
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U7_I15",
+          "interaction_id": "U7_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The grass is green.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I have a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "The sky (ser/estar - ello) ________ blue.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It is an (antiguo) ________ book.",
-          "correct_answer": "old",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Blanco",
-          "correct_answer": "White",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Old",
+          "correct_answer": "Viejo",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Red",
-          "correct_answer": "Rojo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +306,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Big"
+                "Black"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Old"
+                "Yellow"
               ]
             }
           ],
@@ -337,10 +321,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I20",
+          "interaction_id": "U7_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The white house is beautiful. My favorite color is yellow. The grass is green.",
+          "text": "The white house is beautiful. That is a very small dog. The grass is green.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +338,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U7_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/0018ef8ac1348ce2a85fa3f258787f65.mp3",
+          "text": "That is a very small dog.",
+          "mastery_tag": "listening"
         }
       ]
     }

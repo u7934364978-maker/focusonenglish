@@ -18,11 +18,11 @@
         {
           "interaction_id": "U11_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Reloj'?",
+          "prompt_es": "¿Cómo se dice 'Cuarto'?",
           "options": [
             {
               "id": "o1",
-              "text": "Clock"
+              "text": "Quarter"
             },
             {
               "id": "o3",
@@ -30,7 +30,7 @@
             },
             {
               "id": "o2",
-              "text": "Time"
+              "text": "Clock"
             }
           ],
           "correct_answer": "o1",
@@ -43,18 +43,18 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Minute",
-              "right": "Minuto"
-            },
-            {
-              "id": "p1",
               "left": "Quarter",
               "right": "Cuarto"
             },
             {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
               "id": "p2",
-              "left": "Hour",
-              "right": "Hora"
+              "left": "Half",
+              "right": "Media"
             },
             {
               "id": "p3",
@@ -76,44 +76,34 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w5",
-              "text": "o'clock"
-            },
-            {
-              "id": "w2",
-              "text": "up"
-            },
-            {
-              "id": "w4",
-              "text": "seven"
-            },
-            {
-              "id": "w1",
-              "text": "wake"
+              "id": "w3",
+              "text": "clock"
             },
             {
               "id": "w0",
-              "text": "I"
+              "text": "Look"
             },
             {
-              "id": "w3",
+              "id": "w1",
               "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Look at the clock.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The movie starts at eight.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -121,24 +111,24 @@
           "interaction_id": "U11_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It is half (pasado) ________ six.",
-          "correct_answer": "past",
+          "stimulus_en": "It (ser/estar - ello) ________ five o'clock.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Reloj de pulsera",
-          "correct_answer": "Watch",
+          "stimulus_es": "Segundo",
+          "correct_answer": "Second",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Second",
-          "correct_answer": "Segundo",
+          "stimulus_en": "Hour",
+          "correct_answer": "Hora",
           "mastery_tag": "vocabulary"
         },
         {
@@ -157,7 +147,7 @@
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Hour"
+                "Watch"
               ]
             }
           ],
@@ -168,7 +158,7 @@
           "interaction_id": "U11_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Look at the clock. A quarter to ten is 9:45. The movie starts at eight.",
+          "text": "Look at the clock. A quarter to ten is 9:45. I wake up at seven o'clock.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -187,61 +177,55 @@
           "interaction_id": "U11_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/7d20776891d1e54936d40466ebc457a9.mp3",
-          "text": "The movie starts at eight.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/d956650835a31512f1a34fa822e27464.mp3",
+          "text": "A quarter to ten is 9:45.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U11_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U11_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Minuto'?",
+          "prompt_es": "¿Cómo se dice 'Cuarto'?",
           "options": [
             {
-              "id": "o3",
-              "text": "Watch"
-            },
-            {
               "id": "o1",
-              "text": "Minute"
+              "text": "Quarter"
             },
             {
               "id": "o2",
-              "text": "Half"
+              "text": "Minute"
+            },
+            {
+              "id": "o3",
+              "text": "Hour"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I13",
+          "interaction_id": "U11_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Second",
-              "right": "Segundo"
+              "left": "Time",
+              "right": "Hora"
             },
             {
               "id": "p1",
-              "left": "Minute",
-              "right": "Minuto"
-            },
-            {
-              "id": "p2",
               "left": "Hour",
               "right": "Hora"
             },
             {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
               "id": "p3",
-              "left": "Time",
-              "right": "Hora"
+              "left": "Half",
+              "right": "Media"
             }
           ],
           "correct_answer": {
@@ -253,33 +237,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I14",
+          "interaction_id": "U11_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "9:45"
+              "id": "w1",
+              "text": "movie"
             },
             {
               "id": "w0",
-              "text": "A"
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "ten"
+              "text": "at"
             },
             {
-              "id": "w1",
-              "text": "quarter"
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
             }
           ],
           "correct_answer": [
@@ -287,20 +267,19 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U11_I15",
+          "interaction_id": "U11_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"It's half past nine.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I wake up at seven o'clock.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_I16",
+          "interaction_id": "U11_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
           "stimulus_en": "It is a quarter (para) ________ eight.",
@@ -308,23 +287,23 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_I17",
+          "interaction_id": "U11_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Segundo",
-          "correct_answer": "Second",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I18",
+          "interaction_id": "U11_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Time",
+          "stimulus_en": "Hour",
           "correct_answer": "Hora",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I19",
+          "interaction_id": "U11_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -332,14 +311,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Time"
+                "Second"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Clock"
+                "Hour"
               ]
             }
           ],
@@ -347,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I20",
+          "interaction_id": "U11_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "A quarter to ten is 9:45. It's half past nine. Look at the clock.",
+          "text": "I wake up at seven o'clock. Look at the clock. The movie starts at eight.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -364,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U11_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/2a8144b67034aa86e0c67cffc2d53c78.mp3",
+          "text": "I wake up at seven o'clock.",
+          "mastery_tag": "listening"
         }
       ]
     }

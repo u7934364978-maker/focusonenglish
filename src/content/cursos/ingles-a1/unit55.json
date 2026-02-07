@@ -30,7 +30,7 @@
             },
             {
               "id": "o3",
-              "text": "Shop assistant"
+              "text": "Fitting room"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Shop assistant",
-              "right": "Dependiente"
+              "left": "Size",
+              "right": "Talla"
             },
             {
               "id": "p1",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Fitting room",
-              "right": "Probador"
+              "left": "Price tag",
+              "right": "Etiqueta de precio"
             }
           ],
           "correct_answer": {
@@ -77,23 +77,23 @@
           "options": [
             {
               "id": "w4",
-              "text": "busy"
-            },
-            {
-              "id": "w0",
-              "text": "The"
+              "text": "sale"
             },
             {
               "id": "w1",
-              "text": "shop"
+              "text": "shirt"
             },
             {
               "id": "w2",
-              "text": "assistant"
+              "text": "is"
             },
             {
               "id": "w3",
-              "text": "is"
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
           "correct_answer": [
@@ -108,7 +108,7 @@
         {
           "interaction_id": "U55_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I need a medium size.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"The price tag is missing.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -116,24 +116,24 @@
           "interaction_id": "U55_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ellos) ________ the fitting rooms?",
-          "correct_answer": "are",
+          "stimulus_en": "(Puedo) ________ I try this on?",
+          "correct_answer": "Can",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U55_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cliente",
-          "correct_answer": "Customer",
+          "stimulus_es": "Probador",
+          "correct_answer": "Fitting room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U55_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Shop assistant",
-          "correct_answer": "Dependiente",
+          "stimulus_en": "Fitting room",
+          "correct_answer": "Probador",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Size"
+                "Customer"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Price tag"
+                "Shop assistant"
               ]
             }
           ],
@@ -163,7 +163,7 @@
           "interaction_id": "U55_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The shop assistant is busy. The price tag is missing. This shirt is on sale.",
+          "text": "The shop assistant is busy. I need a medium size. Where is the fitting room?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,56 +182,50 @@
           "interaction_id": "U55_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/206814e7b25c1844f31b298b15175c03.mp3",
-          "text": "Where is the fitting room?",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4c0c4d08d5e38447d74f8157da895706.mp3",
+          "text": "I need a medium size.",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U55_I11",
-          "type": "word-search",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U55_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Talla'?",
+          "prompt_es": "¿Cómo se dice 'Etiqueta de precio'?",
           "options": [
             {
+              "id": "o2",
+              "text": "Fitting room"
+            },
+            {
               "id": "o3",
-              "text": "Customer"
+              "text": "Shop assistant"
             },
             {
               "id": "o1",
-              "text": "Size"
-            },
-            {
-              "id": "o2",
-              "text": "Shop assistant"
+              "text": "Price tag"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U55_I13",
+          "interaction_id": "U55_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
+              "left": "Sale",
+              "right": "Rebajas"
+            },
+            {
+              "id": "p1",
               "left": "Customer",
               "right": "Cliente"
             },
             {
-              "id": "p1",
-              "left": "Size",
-              "right": "Talla"
-            },
-            {
               "id": "p2",
-              "left": "Shop assistant",
-              "right": "Dependiente"
+              "left": "Price tag",
+              "right": "Etiqueta de precio"
             },
             {
               "id": "p3",
@@ -248,29 +242,29 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U55_I14",
+          "interaction_id": "U55_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "fitting"
-            },
-            {
-              "id": "w0",
-              "text": "Where"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
               "id": "w4",
-              "text": "room"
+              "text": "missing"
             },
             {
               "id": "w1",
+              "text": "price"
+            },
+            {
+              "id": "w3",
               "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "tag"
             }
           ],
           "correct_answer": [
@@ -283,22 +277,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U55_I15",
+          "interaction_id": "U55_I14",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"The price tag is missing.\"",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U55_I16",
+          "interaction_id": "U55_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ellos) ________ the fitting rooms?",
-          "correct_answer": "are",
+          "stimulus_en": "(Puedo) ________ I try this on?",
+          "correct_answer": "Can",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U55_I17",
+          "interaction_id": "U55_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Rebajas",
@@ -306,15 +300,15 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U55_I18",
+          "interaction_id": "U55_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Customer",
-          "correct_answer": "Cliente",
+          "stimulus_en": "Sale",
+          "correct_answer": "Rebajas",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U55_I19",
+          "interaction_id": "U55_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +316,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Customer"
+                "Size"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Price tag"
+                "Sale"
               ]
             }
           ],
@@ -337,10 +331,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U55_I20",
+          "interaction_id": "U55_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "The price tag is missing. Where is the fitting room? I need a medium size.",
+          "text": "I need a medium size. This shirt is on sale. The shop assistant is busy.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +348,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U55_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/206814e7b25c1844f31b298b15175c03.mp3",
+          "text": "Where is the fitting room?",
+          "mastery_tag": "listening"
         }
       ]
     }

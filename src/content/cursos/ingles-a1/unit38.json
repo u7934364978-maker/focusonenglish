@@ -18,18 +18,18 @@
         {
           "interaction_id": "U38_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lo siento'?",
+          "prompt_es": "¿Cómo se dice 'Ciertamente'?",
           "options": [
             {
               "id": "o2",
-              "text": "Please"
-            },
-            {
-              "id": "o3",
               "text": "Of course"
             },
             {
               "id": "o1",
+              "text": "Certainly"
+            },
+            {
+              "id": "o3",
               "text": "I'm sorry"
             }
           ],
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Can I",
+              "right": "Puedo"
+            },
+            {
+              "id": "p1",
               "left": "Of course",
               "right": "Por supuesto"
             },
             {
-              "id": "p1",
-              "left": "Please",
-              "right": "Por favor"
-            },
-            {
               "id": "p2",
-              "left": "Go ahead",
-              "right": "Adelante"
+              "left": "I'm sorry",
+              "right": "Lo siento"
             },
             {
               "id": "p3",
-              "left": "I'm sorry",
-              "right": "Lo siento"
+              "left": "Please",
+              "right": "Por favor"
             }
           ],
           "correct_answer": {
@@ -76,24 +76,24 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w3",
-              "text": "a"
+              "id": "w2",
+              "text": "ask"
             },
             {
               "id": "w4",
               "text": "question"
             },
             {
-              "id": "w2",
-              "text": "ask"
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "a"
             },
             {
               "id": "w0",
               "text": "May"
-            },
-            {
-              "id": "w1",
-              "text": "I"
             }
           ],
           "correct_answer": [
@@ -108,32 +108,32 @@
         {
           "interaction_id": "U38_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Go ahead and start.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I'm sorry, you can't smoke here.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U38_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Por favor) ________, help me.",
-          "correct_answer": "Please",
+          "stimulus_en": "(Puedo) ________ I come in?",
+          "correct_answer": "May",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U38_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Puedo",
-          "correct_answer": "May I",
+          "stimulus_es": "Por supuesto",
+          "correct_answer": "Of course",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Please",
-          "correct_answer": "Por favor",
+          "stimulus_en": "May I",
+          "correct_answer": "Puedo",
           "mastery_tag": "vocabulary"
         },
         {
@@ -145,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "May I"
+                "Go ahead"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Certainly"
+                "Please"
               ]
             }
           ],
@@ -163,7 +163,7 @@
           "interaction_id": "U38_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Can I borrow your book? Go ahead and start. May I ask a question?",
+          "text": "Can I borrow your book? May I ask a question? Can I have a glass of water, please?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,61 +182,55 @@
           "interaction_id": "U38_I10",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/827efc4e9974489cab20606c0d8fc63f.mp3",
-          "text": "Go ahead and start.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a04bd09769ac7893c9ddaae39edecd81.mp3",
+          "text": "Can I borrow your book?",
           "mastery_tag": "listening"
         },
         {
           "interaction_id": "U38_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U38_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Puedo'?",
           "options": [
+            {
+              "id": "o2",
+              "text": "Go ahead"
+            },
             {
               "id": "o1",
               "text": "Can I"
             },
             {
               "id": "o3",
-              "text": "May I"
-            },
-            {
-              "id": "o2",
-              "text": "Go ahead"
+              "text": "Certainly"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U38_I13",
+          "interaction_id": "U38_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Can I",
-              "right": "Puedo"
+              "left": "Go ahead",
+              "right": "Adelante"
             },
             {
               "id": "p1",
-              "left": "Certainly",
-              "right": "Ciertamente"
+              "left": "Of course",
+              "right": "Por supuesto"
             },
             {
               "id": "p2",
-              "left": "Please",
-              "right": "Por favor"
+              "left": "I'm sorry",
+              "right": "Lo siento"
             },
             {
               "id": "p3",
-              "left": "I'm sorry",
-              "right": "Lo siento"
+              "left": "Certainly",
+              "right": "Ciertamente"
             }
           ],
           "correct_answer": {
@@ -248,29 +242,41 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U38_I14",
+          "interaction_id": "U38_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "please"
+            },
             {
               "id": "w1",
               "text": "I"
             },
             {
-              "id": "w0",
-              "text": "Can"
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "water,"
             },
             {
               "id": "w4",
-              "text": "book"
+              "text": "glass"
             },
             {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "borrow"
+              "id": "w0",
+              "text": "Can"
             }
           ],
           "correct_answer": [
@@ -278,35 +284,38 @@
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5",
+            "w6",
+            "w7"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U38_I15",
+          "interaction_id": "U38_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Can I have a glass of water, please?\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Can I borrow your book?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U38_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "(Por favor) ________, help me.",
+          "correct_answer": "Please",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U38_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Puedo) ________ I use your pen?",
-          "correct_answer": "Can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U38_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Por supuesto",
-          "correct_answer": "Of course",
+          "stimulus_es": "Puedo",
+          "correct_answer": "Can I",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U38_I18",
+          "interaction_id": "U38_I17",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
           "stimulus_en": "Can I",
@@ -314,7 +323,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U38_I19",
+          "interaction_id": "U38_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -322,14 +331,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Certainly"
+                "Can I"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Of course"
+                "Go ahead"
               ]
             }
           ],
@@ -337,10 +346,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U38_I20",
+          "interaction_id": "U38_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "I'm sorry, you can't smoke here. May I ask a question? Can I borrow your book?",
+          "text": "May I ask a question? I'm sorry, you can't smoke here. Can I borrow your book?",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -354,6 +363,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U38_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/71118c20ed49d83576ab7a7202fb8999.mp3",
+          "text": "May I ask a question?",
+          "mastery_tag": "listening"
         }
       ]
     }

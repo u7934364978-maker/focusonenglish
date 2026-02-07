@@ -21,16 +21,16 @@
           "prompt_es": "¿Cómo se dice 'Dinero'?",
           "options": [
             {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
               "id": "o3",
-              "text": "Shopping"
+              "text": "Food"
             },
             {
               "id": "o2",
               "text": "Health"
-            },
-            {
-              "id": "o1",
-              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -43,8 +43,8 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Restaurant",
-              "right": "Restaurante"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
@@ -58,8 +58,8 @@
             },
             {
               "id": "p3",
-              "left": "Food",
-              "right": "Comida"
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
@@ -76,29 +76,39 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w0",
-              "text": "Describe"
+              "id": "w3",
+              "text": "and"
             },
             {
               "id": "w2",
-              "text": "issues"
+              "text": "shopping"
+            },
+            {
+              "id": "w4",
+              "text": "food"
             },
             {
               "id": "w1",
-              "text": "health"
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
+            "w2",
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are the final review.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Describe health aresues.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -106,24 +116,24 @@
           "interaction_id": "U60_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (algo de) ________ cheese.",
-          "correct_answer": "some",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Restaurante",
-          "correct_answer": "Restaurant",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Restaurant",
-          "correct_answer": "Restaurante",
+          "stimulus_en": "Shopping",
+          "correct_answer": "Compras",
           "mastery_tag": "vocabulary"
         },
         {
@@ -135,14 +145,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Shopping"
+                "Health"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Restaurant"
+                "Food"
               ]
             }
           ],
@@ -153,7 +163,7 @@
           "interaction_id": "U60_I9",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Describe health issues. Talk about shopping and food. This is the final review.",
+          "text": "Talk about shopping and food. This is the final review. Manage money and payments.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -178,40 +188,34 @@
         },
         {
           "interaction_id": "U60_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U60_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Compras'?",
+          "prompt_es": "¿Cómo se dice 'Dinero'?",
           "options": [
             {
-              "id": "o2",
-              "text": "Food"
+              "id": "o3",
+              "text": "Restaurant"
             },
             {
-              "id": "o3",
-              "text": "Money"
+              "id": "o2",
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Shopping"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U60_I13",
+          "interaction_id": "U60_I12",
           "type": "matching",
           "prompt_es": "Une las parejas correctamente:",
           "pairs": [
             {
               "id": "p0",
-              "left": "Restaurant",
-              "right": "Restaurante"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
@@ -220,13 +224,13 @@
             },
             {
               "id": "p2",
-              "left": "Shopping",
-              "right": "Compras"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p3",
-              "left": "Money",
-              "right": "Dinero"
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
@@ -238,63 +242,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U60_I14",
+          "interaction_id": "U60_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
             {
               "id": "w1",
-              "text": "health"
+              "text": "money"
+            },
+            {
+              "id": "w3",
+              "text": "payments"
             },
             {
               "id": "w2",
-              "text": "issues"
+              "text": "and"
             },
             {
               "id": "w0",
-              "text": "Describe"
+              "text": "Manage"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2"
+            "w2",
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U60_I15",
+          "interaction_id": "U60_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are the final review.\"",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"Talk about shopping and food.\"",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U60_I16",
+          "interaction_id": "U60_I15",
           "type": "fill_blanks",
           "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (algo de) ________ cheese.",
-          "correct_answer": "some",
+          "stimulus_en": "I (sentirse) ________ sick.",
+          "correct_answer": "feel",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U60_I17",
+          "interaction_id": "U60_I16",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Restaurante",
-          "correct_answer": "Restaurant",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U60_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Food",
+          "correct_answer": "Comida",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Health",
-          "correct_answer": "Salud",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U60_I19",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -302,14 +311,14 @@
               "id": "c1",
               "title": "Grupo A",
               "items": [
-                "Restaurant"
+                "Money"
               ]
             },
             {
               "id": "c2",
               "title": "Grupo B",
               "items": [
-                "Money"
+                "Restaurant"
               ]
             }
           ],
@@ -317,10 +326,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U60_I20",
+          "interaction_id": "U60_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "Talk about shopping and food. Manage money and payments. Describe health issues.",
+          "text": "Talk about shopping and food. Order in a restaurant. This is the final review.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -334,6 +343,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U60_I20",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/268282deb83fe5d296bdebfc3ca5782b.mp3",
+          "text": "Talk about shopping and food.",
+          "mastery_tag": "listening"
         }
       ]
     }

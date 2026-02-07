@@ -18,19 +18,19 @@
         {
           "interaction_id": "U43_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Reservar'?",
+          "prompt_es": "¿Cómo se dice 'Viajar'?",
           "options": [
             {
-              "id": "o1",
-              "text": "Book"
+              "id": "o3",
+              "text": "Pack"
             },
             {
               "id": "o2",
-              "text": "Fly"
+              "text": "Stay"
             },
             {
-              "id": "o3",
-              "text": "Stay"
+              "id": "o1",
+              "text": "Travel"
             }
           ],
           "correct_answer": "o1",
@@ -43,23 +43,23 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Book",
+              "right": "Reservar"
+            },
+            {
+              "id": "p1",
               "left": "Stay",
               "right": "Quedarse/Alojarse"
             },
             {
-              "id": "p1",
-              "left": "Fly",
-              "right": "Volar"
-            },
-            {
               "id": "p2",
-              "left": "Visit",
-              "right": "Visitar"
+              "left": "Pack",
+              "right": "Hacer la maleta"
             },
             {
               "id": "p3",
-              "left": "Explore",
-              "right": "Explorar"
+              "left": "Visit",
+              "right": "Visitar"
             }
           ],
           "correct_answer": {
@@ -76,28 +76,28 @@
           "prompt_es": "Ordena la frase:",
           "options": [
             {
-              "id": "w4",
-              "text": "my"
+              "id": "w5",
+              "text": "hostel"
             },
             {
-              "id": "w5",
-              "text": "suitcase"
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "small"
             },
             {
               "id": "w0",
               "text": "I"
             },
             {
-              "id": "w3",
-              "text": "pack"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
               "id": "w1",
-              "text": "need"
+              "text": "stay"
             }
           ],
           "correct_answer": [
@@ -113,8 +113,8 @@
         {
           "interaction_id": "U43_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He flies to New York tomorrow.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I need to pack my suitcase.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
@@ -129,20 +129,196 @@
           "interaction_id": "U43_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Quedarse/Alojarse",
-          "correct_answer": "Stay",
+          "stimulus_es": "Reservar",
+          "correct_answer": "Book",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U43_I7",
           "type": "flashcard",
           "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Book",
-          "correct_answer": "Reservar",
+          "stimulus_en": "Explore",
+          "correct_answer": "Explorar",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U43_I8",
+          "type": "categorization",
+          "prompt_es": "Clasifica estas palabras:",
+          "categories": [
+            {
+              "id": "c1",
+              "title": "Grupo A",
+              "items": [
+                "Travel"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Grupo B",
+              "items": [
+                "Pack"
+              ]
+            }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I9",
+          "type": "reading-comprehension",
+          "title": "Mini Reading",
+          "text": "Let's book the tickets. He flies to New York tomorrow. We explore the city on foot.",
+          "question": "¿De qué trata este texto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Travel Verbs"
+            },
+            {
+              "id": "o2",
+              "text": "Other topic"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U43_I10",
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a89a940aa356c09acb74dec84288e38f.mp3",
+          "text": "I stay in a small hostel.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U43_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer la maleta'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pack"
+            },
+            {
+              "id": "o3",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Visit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I12",
+          "type": "matching",
+          "prompt_es": "Une las parejas correctamente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Explore",
+              "right": "Explorar"
+            },
+            {
+              "id": "p1",
+              "left": "Pack",
+              "right": "Hacer la maleta"
+            },
+            {
+              "id": "p2",
+              "left": "Book",
+              "right": "Reservar"
+            },
+            {
+              "id": "p3",
+              "left": "Stay",
+              "right": "Quedarse/Alojarse"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "foot"
+            },
+            {
+              "id": "w1",
+              "text": "explore"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "city"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U43_I14",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta?: \"I need to pack my suitcase.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el espacio en blanco:",
+          "stimulus_en": "I want to (viajar) ________ to Japan.",
+          "correct_answer": "travel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I16",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viajar",
+          "correct_answer": "Travel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I17",
+          "type": "flashcard",
+          "prompt_es": "Flashcard de estudio",
+          "stimulus_en": "Explore",
+          "correct_answer": "Explorar",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I18",
           "type": "categorization",
           "prompt_es": "Clasifica estas palabras:",
           "categories": [
@@ -165,10 +341,10 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U43_I9",
+          "interaction_id": "U43_I19",
           "type": "reading-comprehension",
           "title": "Mini Reading",
-          "text": "He flies to New York tomorrow. Let's book the tickets. I stay in a small hostel.",
+          "text": "Let's book the tickets. I stay in a small hostel. He flies to New York tomorrow.",
           "question": "¿De qué trata este texto?",
           "options": [
             {
@@ -182,188 +358,14 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U43_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c34f06c98070c2816064eacfb446838f.mp3",
-          "text": "I need to pack my suitcase.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U43_I11",
-          "type": "crossword",
-          "prompt_es": "¡Reto especial!",
-          "mastery_tag": "fun"
-        },
-        {
-          "interaction_id": "U43_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Volar'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Visit"
-            },
-            {
-              "id": "o3",
-              "text": "Book"
-            },
-            {
-              "id": "o1",
-              "text": "Fly"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_I13",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Fly",
-              "right": "Volar"
-            },
-            {
-              "id": "p1",
-              "left": "Travel",
-              "right": "Viajar"
-            },
-            {
-              "id": "p2",
-              "left": "Explore",
-              "right": "Explorar"
-            },
-            {
-              "id": "p3",
-              "left": "Book",
-              "right": "Reservar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "New"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w5",
-              "text": "tomorrow"
-            },
-            {
-              "id": "w1",
-              "text": "flies"
-            },
-            {
-              "id": "w4",
-              "text": "York"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U43_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I stay in a small hostel.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U43_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I want to (viajar) ________ to Japan.",
-          "correct_answer": "travel",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U43_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Volar",
-          "correct_answer": "Fly",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_I18",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Stay",
-          "correct_answer": "Quedarse/Alojarse",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_I19",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Stay"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Explore"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U43_I20",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We explore the city on foot. Let's book the tickets. I stay in a small hostel.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Travel Verbs"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "type": "audio_player",
+          "prompt_es": "Escucha atentamente:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/32f0cc231336df9620a9239c3223597c.mp3",
+          "text": "We explore the city on foot.",
+          "mastery_tag": "listening"
         }
       ]
     }
