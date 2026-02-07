@@ -29,7 +29,9 @@ const EXERCISE_TYPES: ExerciseType[] = [
   'word-search',
   'crossword',
   'reading-comprehension',
-  'pronunciation-practice'
+  'pronunciation-practice',
+  'true-false',
+  'vocabulary-match'
 ];
 
 const generator = new ExerciseGenerator(API_KEY, { model: 'gpt-4o', temperature: 0.7 });

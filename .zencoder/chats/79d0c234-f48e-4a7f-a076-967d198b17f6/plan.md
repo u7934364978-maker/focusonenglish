@@ -14,6 +14,7 @@
 - [x] Push Units 1-10 to repository and inform user of Supabase steps.
 - [x] Fix 404 error by updating `premiumCourseServerService` to support database-only units.
 - [x] Troubleshoot and fix SQL syntax errors by using safer `$_$` delimiters.
+- [x] **Harden Rendering Engine**: Updated `PremiumSession.tsx` to handle diverse AI-generated fields (mapping `multiple-choice` to `multiple_choice`, flattening `questions`/`items`/`transformations` arrays, and adding scrolling to long stimulus texts).
 
 ## Phase 3: Batch Generation (Remaining Units)
 - [ ] Generate Batch 2 (Units 11-20).

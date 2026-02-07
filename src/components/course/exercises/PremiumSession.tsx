@@ -72,10 +72,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         'pronunciation-practice': 'audio_player',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
+        'fill-blank': 'fill_blanks',
+        'fill-blanks': 'fill_blanks',
         'drag-drop': 'reorder_words',
         'matching': 'matching',
         'flashcard': 'flashcard',
-        'audio-player': 'audio_player'
+        'audio-player': 'audio_player',
+        'short-answer': 'fill_blanks'
       };
       if (typeMap[normalized.type]) {
         normalized.type = typeMap[normalized.type];
@@ -88,10 +91,34 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (normalized.instructions && !normalized.prompt_es) {
         normalized.prompt_es = normalized.instructions;
       }
+      if (normalized.question && !normalized.prompt_es) {
+        normalized.prompt_es = normalized.question;
+      }
 
       // Normalize stimulus
       if (normalized.text && !normalized.stimulus_en) {
         normalized.stimulus_en = normalized.text;
+      }
+      if (normalized.scenario && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.scenario;
+      }
+      if (normalized.sentence && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.sentence;
+      }
+      if (normalized.context && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.context;
+      }
+      if (normalized.textPassage && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.textPassage;
+      }
+      if (normalized.cloze && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.cloze;
+      }
+      if (normalized.gappedText && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.gappedText;
+      }
+      if (normalized.paragraph && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.paragraph;
       }
       
       // Handle the case where stimulus is in the prompt but there is a text field
@@ -157,14 +184,16 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     unitData.blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: PremiumContent) => {
         // Handle multi-question exercises from A2 generation
-        if (content.questions && Array.isArray(content.questions)) {
-          content.questions.forEach((q: any, qIdx: number) => {
+        const subQuestions = content.questions || content.transformations || content.items || (content.type === 'reading-comprehension' ? content.reading : null);
+        
+        if (subQuestions && Array.isArray(subQuestions)) {
+          subQuestions.forEach((q: any, qIdx: number) => {
             const flattened = {
               ...content,
               ...q,
               interaction_id: `${content.interaction_id || 'ex'}-q${qIdx}`,
-              // Ensure we don't lose the main instructions
-              main_instructions: content.instructions || content.prompt_es,
+              // Ensure we don't lose the main instructions or title
+              main_instructions: content.title || content.instructions || content.prompt_es,
               blockTitle: block.title
             };
             
@@ -195,6 +224,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             }
             if (q.explanation && !flattened.feedback_correct_es) {
               flattened.feedback_correct_es = q.explanation;
+            }
+
+            // Handle reorder_words fields in sub-questions
+            if (q.words && q.correctOrder && !flattened.options) {
+              flattened.type = 'reorder_words';
+              flattened.options = q.words.map((w: string, idx: number) => ({ id: idx.toString(), text: w }));
+              flattened.correct_answer = q.correctOrder.map((w: string) => 
+                flattened.options.find((o: any) => o.text === w)?.id
+              ).filter(Boolean);
             }
 
             items.push(normalizeInteraction(flattened));
@@ -1566,6 +1604,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         );
 
       case 'multiple_choice':
+      case 'multiple-choice':
+      case 'speaking-analysis':
       case 'odd_one_out':
       case 'role_play':
         return (
@@ -1628,7 +1668,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             <div className="w-full max-w-2xl mx-auto space-y-8">
               <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
+                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
                     {interaction.stimulus_en}
