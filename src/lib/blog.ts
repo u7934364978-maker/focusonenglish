@@ -94,8 +94,12 @@ export function getBlogArticles(): BlogPost[] {
   return articlesCache;
 }
 
-export function getArticleBySlug(slug: string): BlogPost | null {
+export function getArticleBySlug(slug: string, category?: string): BlogPost | null {
   const articles = getBlogArticles();
+  if (category) {
+    const normalizedCategory = normalizeCategory(category);
+    return articles.find(a => a.slug === slug && normalizeCategory(a.category) === normalizedCategory) || null;
+  }
   return articles.find(a => a.slug === slug) || null;
 }
 

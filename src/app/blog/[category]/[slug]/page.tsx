@@ -23,8 +23,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string, slug: string }> }) {
-  const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const { category, slug } = await params;
+  const article = getArticleBySlug(slug, category);
   
   if (!article) {
     return {
@@ -73,8 +73,8 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 
 export default async function BlogArticle({ params }: { params: Promise<{ category: string, slug: string }> }) {
   try {
-  const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const { category, slug } = await params;
+  const article = getArticleBySlug(slug, category);
 
   if (!article) {
     notFound();
