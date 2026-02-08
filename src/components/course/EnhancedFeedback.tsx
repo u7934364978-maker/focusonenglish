@@ -18,7 +18,7 @@ interface EnhancedFeedbackProps {
 export default function EnhancedFeedback({ type, evaluation, userAnswer, correctAnswer, loading }: EnhancedFeedbackProps) {
   if (loading) {
     return (
-      <div className="mt-4 p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
+      <div className="mt-4 p-4 sm:p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
         <div className="flex items-center gap-3">
           <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-coral-600"></div>
           <p className="text-coral-800 font-semibold">Evaluating your answer with AI...</p>
@@ -34,7 +34,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     const textEval = evaluation as TextAnswerEvaluationResponse;
     
     return (
-      <div className={`mt-4 p-6 rounded-xl border-2 ${
+      <div className={`mt-4 p-4 sm:p-6 rounded-xl border-2 ${
         textEval.isCorrect ? 'bg-amber-50 border-amber-300' : 
         textEval.score >= 60 ? 'bg-yellow-50 border-yellow-300' : 
         'bg-red-50 border-red-300'
@@ -179,7 +179,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     const writingEval = evaluation as WritingEvaluationResponse;
     
     return (
-      <div className={`mt-4 p-6 rounded-xl border-2 ${
+      <div className={`mt-4 p-4 sm:p-6 rounded-xl border-2 ${
         writingEval.isAcceptable ? 'bg-amber-50 border-amber-300' : 'bg-yellow-50 border-yellow-300'
       }`}>
         {/* Header */}
@@ -287,7 +287,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
     const mcEval = evaluation as MultipleChoiceEvaluationResponse;
     
     return (
-      <div className={`mt-4 p-4 rounded-lg border-2 ${
+      <div className={`mt-4 p-3 sm:p-4 rounded-lg border-2 ${
         mcEval.isCorrect ? 'bg-amber-50 border-amber-300' : 'bg-red-50 border-red-300'
       }`}>
         <div className="flex items-center gap-3 mb-3">

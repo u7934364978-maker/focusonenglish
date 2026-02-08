@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { CheckCircle, HelpCircle } from 'lucide-react';
 
 interface WordSearchProps {
@@ -16,6 +16,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
   const [foundWords, setFoundWords] = useState<string[]>([]);
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState<{ r: number; c: number } | null>(null);
+  const gridRef = useRef<HTMLDivElement>(null);
 
   // Initialize grid
   useEffect(() => {
@@ -122,6 +123,27 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
     setSelectedCells([]);
   };
 
+  const handleTouchStart = (e: React.TouchEvent, r: number, c: number) => {
+    handleMouseDown(r, c);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (!isDragging || !dragStart) return;
+    
+    const touch = e.touches[0];
+    const element = document.elementFromPoint(touch.clientX, touch.clientY);
+    
+    if (element && element.hasAttribute('data-r') && element.hasAttribute('data-c')) {
+      const r = parseInt(element.getAttribute('data-r') || '0');
+      const c = parseInt(element.getAttribute('data-c') || '0');
+      handleMouseEnter(r, c);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    handleMouseUp();
+  };
+
   const isCellSelected = (r: number, c: number) => 
     selectedCells.some(cell => cell.r === r && cell.c === c);
 
@@ -134,19 +156,25 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start select-none">
       <div 
-        className="grid bg-white border-4 border-orange-100 rounded-xl p-2 shadow-inner cursor-pointer"
+        ref={gridRef}
+        className="grid bg-white border-4 border-orange-100 rounded-xl p-2 shadow-inner cursor-pointer touch-none"
         style={{ 
           gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))`,
           width: 'fit-content'
         }}
         onMouseLeave={() => setIsDragging(false)}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
       >
         {grid.map((row, r) => row.map((char, c) => (
           <div
             key={`${r}-${c}`}
+            data-r={r}
+            data-c={c}
             onMouseDown={() => handleMouseDown(r, c)}
             onMouseEnter={() => handleMouseEnter(r, c)}
             onMouseUp={handleMouseUp}
+            onTouchStart={(e) => handleTouchStart(e, r, c)}
             className={`w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold text-lg transition-colors rounded
               ${isCellSelected(r, c) ? 'bg-orange-500 text-white' : 'hover:bg-orange-50 text-slate-700'}`}
           >

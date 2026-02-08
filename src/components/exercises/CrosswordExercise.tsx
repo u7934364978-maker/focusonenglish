@@ -250,7 +250,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
 
   return (
     <div className="flex flex-col gap-2 w-full max-w-full overflow-hidden">
-      <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-50 p-3 rounded-2xl border border-slate-200">
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-50 p-2 sm:p-3 rounded-2xl border border-slate-200">
         <div className="flex flex-wrap gap-2">
           <button
             onClick={handleCheck}
@@ -287,7 +287,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
 
       <div className="flex flex-col lg:flex-row gap-6 items-start justify-center max-w-7xl mx-auto w-full">
         {/* Grid Container */}
-        <div className="flex-1 w-full flex items-start justify-center bg-slate-50 p-4 md:p-6 rounded-[2rem] border-2 border-slate-200/60 shadow-inner overflow-x-auto min-h-[250px]">
+        <div className="flex-1 w-full flex items-start justify-center bg-slate-50 p-2 sm:p-4 md:p-6 rounded-[2rem] border-2 border-slate-200/60 shadow-inner overflow-x-auto min-h-[250px]">
           <div 
             className="grid gap-1 p-2 bg-white rounded-xl shadow-xl border border-slate-100"
             style={{ 

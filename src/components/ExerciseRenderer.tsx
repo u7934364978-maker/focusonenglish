@@ -198,7 +198,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     // Word Search exercise
     if (exercise.type === 'word-search') {
       return (
-        <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
+        <div className={`bg-white rounded-xl shadow-lg p-4 sm:p-8 border border-gray-200 transition-all duration-300 ${
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <div className="mb-6">
@@ -234,7 +234,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     // Crossword exercise
     if (exercise.type === 'crossword') {
       return (
-        <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
+        <div className={`bg-white rounded-xl shadow-lg p-4 sm:p-8 border border-gray-200 transition-all duration-300 ${
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
         }`}>
           <div className="mb-6">
@@ -305,7 +305,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     }
 
     // Drag and Drop exercise
-    if (exercise.type === 'drag-drop') {
+    if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building') {
       return (
         <div className={`transition-all duration-300 ${
           isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
@@ -328,7 +328,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
 
     // Regular exercise rendering for other types
     return (
-      <div className={`bg-white rounded-xl shadow-lg p-8 border border-gray-200 transition-all duration-300 ${
+      <div className={`bg-white rounded-xl shadow-lg p-4 sm:p-8 border border-gray-200 transition-all duration-300 ${
         isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
       }`}>
         <div className="mb-6">
@@ -354,7 +354,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           {exercise.content.questions && Array.isArray(exercise.content.questions) && (
             <div className="space-y-6">
               {exercise.content.questions.map((q: any, qIndex: number) => (
-                <div key={qIndex} className="bg-gray-50 rounded-lg p-6 border border-gray-200 transition-all hover:shadow-md">
+                <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
                   <div className="mb-4">
                     <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
                       Question {qIndex + 1}
