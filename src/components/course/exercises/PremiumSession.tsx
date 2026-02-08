@@ -325,7 +325,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           if (isFillBlankBlock) {
             const allPossibleAnswers = new Set<string>();
             subQuestions.forEach(q => {
-              const answers = q.acceptableAnswers || q.answer || q.correct_answer || q.correctAnswer || q.gap;
+              const answers = q.acceptableAnswers || q.answer || q.answers || q.correct_answer || q.correctAnswer || q.gap;
               if (Array.isArray(answers)) answers.forEach(a => allPossibleAnswers.add(String(a)));
               else if (answers) allPossibleAnswers.add(String(answers));
             });
@@ -807,7 +807,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
       const q = interaction;
       const normalizedOption = normalizeForComparison(String(optionId));
-      const correctText = String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "");
+      const correctText = Array.isArray(q.answers) 
+        ? q.answers.join(' ') 
+        : String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "");
       
       // Support multiple correct answers separated by / or ,
       const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
