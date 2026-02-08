@@ -11,7 +11,9 @@ export const BaseInteractionSchema = z.object({
   prompt_es: z.string().optional(),
   prompt: z.string().optional(),
   explanation: z.string().optional(),
-  mastery_tag: z.string().optional(),
+  mastery_tag: z.string().optional(), // Specific skill (e.g., "past-simple-affirmative")
+  concept_tags: z.array(z.string()).optional(), // Broader categories (e.g., ["grammar", "verbs"])
+  complexity: z.number().min(1).max(4).optional(), // 1: Recognition, 2: Guided, 3: Controlled, 4: Free
 });
 
 // ============================================

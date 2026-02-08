@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une los adjetivos opuestos:",
           "pairs": [
-            { "id": "p1", "left": "Big", "right": "Small" },
-            { "id": "p2", "left": "New", "right": "Old" },
-            { "id": "p3", "left": "Modern", "right": "Traditional" },
-            { "id": "p4", "left": "Clean", "right": "Dirty" }
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Small"
+            },
+            {
+              "id": "p2",
+              "left": "New",
+              "right": "Old"
+            },
+            {
+              "id": "p3",
+              "left": "Modern",
+              "right": "Traditional"
+            },
+            {
+              "id": "p4",
+              "left": "Clean",
+              "right": "Dirty"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U23_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cómodo'?",
           "options": [
-            { "id": "o1", "text": "Comfortable" },
-            { "id": "o2", "text": "Common" },
-            { "id": "o3", "text": "Confident" }
+            {
+              "id": "o1",
+              "text": "Comfortable"
+            },
+            {
+              "id": "o2",
+              "text": "Common"
+            },
+            {
+              "id": "o3",
+              "text": "Confident"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U23_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Adjetivos de sonido:",
           "stimulus_en": "Quiet vs. Noisy",
           "correct_answer": "Tranquilo/Silencioso vs. Ruidoso",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U23_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si una casa es 'beautiful', es:",
           "options": [
-            { "id": "o1", "text": "Fea" },
-            { "id": "o2", "text": "Bonita/Hermosa" },
-            { "id": "o3", "text": "Grande" }
+            {
+              "id": "o1",
+              "text": "Fea"
+            },
+            {
+              "id": "o2",
+              "text": "Bonita/Hermosa"
+            },
+            {
+              "id": "o3",
+              "text": "Grande"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U23_B1_I5",
           "type": "matching",
           "prompt_es": "Asocia cada adjetivo con su significado:",
           "pairs": [
-            { "id": "p1", "left": "Small", "right": "Pequeño" },
-            { "id": "p2", "left": "Expensive", "right": "Caro" },
-            { "id": "p3", "left": "Cheap", "right": "Barato" },
-            { "id": "p4", "left": "Bright", "right": "Luminoso" }
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "Expensive",
+              "right": "Caro"
+            },
+            {
+              "id": "p3",
+              "left": "Cheap",
+              "right": "Barato"
+            },
+            {
+              "id": "p4",
+              "left": "Bright",
+              "right": "Luminoso"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -87,12 +172,26 @@
           "type": "multiple_choice",
           "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo. 'Una casa grande' es:",
           "options": [
-            { "id": "o1", "text": "A house big" },
-            { "id": "o2", "text": "A big house" },
-            { "id": "o3", "text": "Big a house" }
+            {
+              "id": "o1",
+              "text": "A house big"
+            },
+            {
+              "id": "o2",
+              "text": "A big house"
+            },
+            {
+              "id": "o3",
+              "text": "Big a house"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U23_B2_I7",
@@ -100,26 +199,50 @@
           "prompt_es": "Completa con el adjetivo en el lugar correcto:",
           "stimulus_en": "I have a ________ (new) sofa.",
           "correct_answer": "new",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U23_B2_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'The kitchen is modern'?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U23_B2_I9",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'Es una habitación muy ruidosa'?",
           "options": [
-            { "id": "o1", "text": "It is a room very noisy" },
-            { "id": "o2", "text": "It is a very noisy room" },
-            { "id": "o3", "text": "It is a noisy very room" }
+            {
+              "id": "o1",
+              "text": "It is a room very noisy"
+            },
+            {
+              "id": "o2",
+              "text": "It is a very noisy room"
+            },
+            {
+              "id": "o3",
+              "text": "It is a noisy very room"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U23_B2_I10",
@@ -127,7 +250,12 @@
           "prompt_es": "Completa con el opuesto de 'Old':",
           "stimulus_en": "My house isn't old, it is ________.",
           "correct_answer": "new",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -140,28 +268,80 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El salón es muy grande'",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "living room" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "very" },
-            { "id": "w5", "text": "big" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "living room"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "big"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U23_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo un dormitorio cómodo'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "comfortable" },
-            { "id": "w5", "text": "bedroom" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "comfortable"
+            },
+            {
+              "id": "w5",
+              "text": "bedroom"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U23_B3_I13",
@@ -169,7 +349,12 @@
           "prompt_es": "Traduce: 'La cocina es pequeña y limpia'",
           "stimulus_en": "The kitchen is small and clean",
           "correct_answer": "The kitchen is small and clean",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U23_B3_I14",
@@ -177,20 +362,47 @@
           "prompt_es": "Completa con 'a' o 'an':",
           "stimulus_en": "There is ________ old mirror in the hall.",
           "correct_answer": "an",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U23_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es tu casa moderna?'",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "your" },
-            { "id": "w3", "text": "house" },
-            { "id": "w4", "text": "modern?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "house"
+            },
+            {
+              "id": "w4",
+              "text": "modern?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -205,24 +417,52 @@
           "text": "My dream house is a very big villa near the sea. It has a modern kitchen and five comfortable bedrooms. The living room is bright and quiet. It is an expensive house, but I love it!",
           "question": "¿Cómo es el salón (living room)?",
           "options": [
-            { "id": "o1", "text": "Noisy and dark" },
-            { "id": "o2", "text": "Small and traditional" },
-            { "id": "o3", "text": "Bright and quiet" }
+            {
+              "id": "o1",
+              "text": "Noisy and dark"
+            },
+            {
+              "id": "o2",
+              "text": "Small and traditional"
+            },
+            {
+              "id": "o3",
+              "text": "Bright and quiet"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U23_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, la casa es:",
           "options": [
-            { "id": "o1", "text": "Cheap" },
-            { "id": "o2", "text": "Expensive" },
-            { "id": "o3", "text": "Old" }
+            {
+              "id": "o1",
+              "text": "Cheap"
+            },
+            {
+              "id": "o2",
+              "text": "Expensive"
+            },
+            {
+              "id": "o3",
+              "text": "Old"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U23_B4_I18",
@@ -230,7 +470,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f896f2e98fece93a9ecb3e32f51ebe38.mp3",
           "text": "Is there a plant in your bedroom?",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U23_B4_I19",
@@ -238,18 +483,46 @@
           "prompt_es": "Describe tu habitación en 3 palabras (ej. Small, clean, quiet):",
           "stimulus_es": "Mi habitación es...",
           "correct_answer": "^[A-Za-z]+, [A-Za-z]+, [A-Za-z]+$",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U23_B4_I20",
           "type": "categorization",
           "prompt_es": "Clasifica en Adjetivos Positivos o Negativos (según el contexto general):",
           "categories": [
-            { "id": "c1", "title": "Positive", "items": ["Comfortable", "Beautiful", "Clean", "Quiet"] },
-            { "id": "c2", "title": "Negative", "items": ["Dirty", "Noisy", "Expensive", "Small"] }
+            {
+              "id": "c1",
+              "title": "Positive",
+              "items": [
+                "Comfortable",
+                "Beautiful",
+                "Clean",
+                "Quiet"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Negative",
+              "items": [
+                "Dirty",
+                "Noisy",
+                "Expensive",
+                "Small"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

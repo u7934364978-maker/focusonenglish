@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja el vocabulario de turismo:",
           "pairs": [
-            { "id": "p1", "left": "Museum", "right": "Museo" },
-            { "id": "p2", "left": "Monument", "right": "Monumento" },
-            { "id": "p3", "left": "Tour guide", "right": "Guía turístico/a" },
-            { "id": "p4", "left": "Map", "right": "Mapa" }
+            {
+              "id": "p1",
+              "left": "Museum",
+              "right": "Museo"
+            },
+            {
+              "id": "p2",
+              "left": "Monument",
+              "right": "Monumento"
+            },
+            {
+              "id": "p3",
+              "left": "Tour guide",
+              "right": "Guía turístico/a"
+            },
+            {
+              "id": "p4",
+              "left": "Map",
+              "right": "Mapa"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U48_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué usas para sacar fotos?",
           "options": [
-            { "id": "o1", "text": "Camera" },
-            { "id": "o2", "text": "Map" },
-            { "id": "o3", "text": "Ticket" }
+            {
+              "id": "o1",
+              "text": "Camera"
+            },
+            {
+              "id": "o2",
+              "text": "Map"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U48_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa el lugar:",
           "stimulus_en": "We are visiting the old ________. (castillo)",
           "correct_answer": "castle",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U48_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Recuerdo / Souvenir'",
           "stimulus_es": "Recuerdo",
           "correct_answer": "Souvenir",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U48_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de turismo:",
           "stimulus_en": "Art gallery",
           "correct_answer": "Galería de arte",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "________ forget your passport!",
           "options": [
-            { "id": "o1", "text": "Don't" },
-            { "id": "o2", "text": "Not" },
-            { "id": "o3", "text": "No" }
+            {
+              "id": "o1",
+              "text": "Don't"
+            },
+            {
+              "id": "o2",
+              "text": "Not"
+            },
+            {
+              "id": "o3",
+              "text": "No"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U48_I7",
@@ -90,25 +159,46 @@
           "prompt_es": "Completa con el verbo correcto (Take/Visit):",
           "stimulus_en": "________ the museum, it is beautiful!",
           "correct_answer": "Visit",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U48_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'Buying a souvenir' como una instrucción?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U48_I9",
           "type": "multiple_choice",
           "prompt_es": "________ a map of the city.",
           "options": [
-            { "id": "o1", "text": "Buy" },
-            { "id": "o2", "text": "Buying" }
+            {
+              "id": "o1",
+              "text": "Buy"
+            },
+            {
+              "id": "o2",
+              "text": "Buying"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U48_I10",
@@ -116,7 +206,12 @@
           "prompt_es": "Completa el imperativo negativo:",
           "stimulus_en": "________ (no) drink the water in the park.",
           "correct_answer": "Don't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -129,27 +224,71 @@
           "type": "reorder_words",
           "prompt_es": "Pregunta por el inicio del tour:",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "time" },
-            { "id": "w3", "text": "does" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "tour" },
-            { "id": "w6", "text": "start?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "time"
+            },
+            {
+              "id": "w3",
+              "text": "does"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "tour"
+            },
+            {
+              "id": "w6",
+              "text": "start?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U48_I12",
           "type": "multiple_choice",
           "prompt_es": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
           "options": [
-            { "id": "o1", "text": "Yes, it is. It opens at 10 AM." },
-            { "id": "o2", "text": "Yes, I am a doctor." },
-            { "id": "o3", "text": "It is cloudy today." }
+            {
+              "id": "o1",
+              "text": "Yes, it is. It opens at 10 AM."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I am a doctor."
+            },
+            {
+              "id": "o3",
+              "text": "It is cloudy today."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U48_I13",
@@ -157,7 +296,12 @@
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
           "correct_answer": "don't",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U48_I14",
@@ -165,14 +309,24 @@
           "prompt_es": "Traduce: 'Sigue al guía turístico'",
           "stimulus_es": "Sigue al guía turístico",
           "correct_answer": "Follow the tour guide",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U48_I15",
           "type": "true_false",
           "prompt_es": "A map helps you find places in a city.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -186,7 +340,12 @@
           "prompt_es": "Escucha y escribe el consejo:",
           "audioUrl": "/audio/courses/ingles-a1/shared/6453f0c781738edb75b25d827ec547c2.mp3",
           "text": "Don't forget your camera.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U48_I17",
@@ -195,12 +354,26 @@
           "text": "London is a great city for sightseeing. First, visit Big Ben and the Houses of Parliament. Then, go to the British Museum. Don't forget to take a map! The tour guide is waiting at the entrance. Buy a souvenir at the shop before you leave.",
           "question": "What is the first place to visit?",
           "options": [
-            { "id": "o1", "text": "Big Ben" },
-            { "id": "o2", "text": "The British Museum" },
-            { "id": "o3", "text": "The shop" }
+            {
+              "id": "o1",
+              "text": "Big Ben"
+            },
+            {
+              "id": "o2",
+              "text": "The British Museum"
+            },
+            {
+              "id": "o3",
+              "text": "The shop"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U48_I18",
@@ -209,12 +382,26 @@
           "text": "London is a great city for sightseeing. First, visit Big Ben and the Houses of Parliament. Then, go to the British Museum. Don't forget to take a map! The tour guide is waiting at the entrance. Buy a souvenir at the shop before you leave.",
           "question": "Where is the tour guide?",
           "options": [
-            { "id": "o1", "text": "At the entrance" },
-            { "id": "o2", "text": "At the museum" },
-            { "id": "o3", "text": "At the shop" }
+            {
+              "id": "o1",
+              "text": "At the entrance"
+            },
+            {
+              "id": "o2",
+              "text": "At the museum"
+            },
+            {
+              "id": "o3",
+              "text": "At the shop"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U48_I19",
@@ -222,19 +409,38 @@
           "prompt_es": "Escucha la instrucción del tour:",
           "audioUrl": "/audio/courses/ingles-a1/shared/2b5d162a6c2ddeadbe4b7a19b0b34f20.mp3",
           "text": "The tour starts at 10 AM.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U48_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Qué debes comprar antes de irte?",
           "options": [
-            { "id": "o1", "text": "A souvenir" },
-            { "id": "o2", "text": "A map" },
-            { "id": "o3", "text": "A ticket" }
+            {
+              "id": "o1",
+              "text": "A souvenir"
+            },
+            {
+              "id": "o2",
+              "text": "A map"
+            },
+            {
+              "id": "o3",
+              "text": "A ticket"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

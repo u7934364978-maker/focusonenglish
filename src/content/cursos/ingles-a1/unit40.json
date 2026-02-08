@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Mezcla de vocabulario:",
           "pairs": [
-            { "id": "p1", "left": "Headache", "right": "Dolor de cabeza" },
-            { "id": "p2", "left": "Chores", "right": "Tareas domésticas" },
-            { "id": "p3", "left": "Always", "right": "Siempre" },
-            { "id": "p4", "left": "Talented", "right": "Talentoso/a" }
+            {
+              "id": "p1",
+              "left": "Headache",
+              "right": "Dolor de cabeza"
+            },
+            {
+              "id": "p2",
+              "left": "Chores",
+              "right": "Tareas domésticas"
+            },
+            {
+              "id": "p3",
+              "left": "Always",
+              "right": "Siempre"
+            },
+            {
+              "id": "p4",
+              "left": "Talented",
+              "right": "Talentoso/a"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U40_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Barrer el suelo'?",
           "options": [
-            { "id": "o1", "text": "Sweep the floor" },
-            { "id": "o2", "text": "Clean the bed" },
-            { "id": "o3", "text": "Wash the wall" }
+            {
+              "id": "o1",
+              "text": "Sweep the floor"
+            },
+            {
+              "id": "o2",
+              "text": "Clean the bed"
+            },
+            {
+              "id": "o3",
+              "text": "Wash the wall"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U40_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa la parte del cuerpo:",
           "stimulus_en": "You use your ________ to see. (ojos)",
           "correct_answer": "eyes",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U40_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'A veces'",
           "stimulus_es": "A veces",
           "correct_answer": "Sometimes",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U40_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso rápido:",
           "stimulus_en": "Drums",
           "correct_answer": "Batería (instrumento)",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "I ________ play the piano when I was five.",
           "options": [
-            { "id": "o1", "text": "can" },
-            { "id": "o2", "text": "could" },
-            { "id": "o3", "text": "can't" }
+            {
+              "id": "o1",
+              "text": "can"
+            },
+            {
+              "id": "o2",
+              "text": "could"
+            },
+            {
+              "id": "o3",
+              "text": "can't"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U40_I7",
@@ -90,37 +159,72 @@
           "prompt_es": "Completa con 'has to' o 'have to':",
           "stimulus_en": "We ________ do the laundry on Saturdays.",
           "correct_answer": "have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U40_I8",
           "type": "multiple_choice",
           "prompt_es": "They ________ at home yesterday morning.",
           "options": [
-            { "id": "o1", "text": "was" },
-            { "id": "o2", "text": "were" }
+            {
+              "id": "o1",
+              "text": "was"
+            },
+            {
+              "id": "o2",
+              "text": "were"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U40_I9",
           "type": "true_false",
           "prompt_es": "¿'She can to sing' es gramaticalmente correcto?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U40_I10",
           "type": "multiple_choice",
           "prompt_es": "She is good ________ dancing.",
           "options": [
-            { "id": "o1", "text": "at" },
-            { "id": "o2", "text": "in" },
-            { "id": "o3", "text": "on" }
+            {
+              "id": "o1",
+              "text": "at"
+            },
+            {
+              "id": "o2",
+              "text": "in"
+            },
+            {
+              "id": "o3",
+              "text": "on"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -133,27 +237,72 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase compleja:",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "always" },
-            { "id": "w3", "text": "have" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "wash" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "dishes" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "always"
+            },
+            {
+              "id": "w3",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "wash"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "dishes"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U40_I12",
           "type": "multiple_choice",
           "prompt_es": "Traduce: '¿Estabas cansado ayer?'",
           "options": [
-            { "id": "o1", "text": "Were you tired yesterday?" },
-            { "id": "o2", "text": "Was you tired yesterday?" }
+            {
+              "id": "o1",
+              "text": "Were you tired yesterday?"
+            },
+            {
+              "id": "o2",
+              "text": "Was you tired yesterday?"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U40_I13",
@@ -161,7 +310,12 @@
           "prompt_es": "Completa con el conector correcto (and/but/because):",
           "stimulus_en": "I can sing ________ I can't dance.",
           "correct_answer": "but",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U40_I14",
@@ -169,14 +323,24 @@
           "prompt_es": "Traduce: 'Él nunca llega tarde'",
           "stimulus_es": "Él nunca llega tarde",
           "correct_answer": "He is never late",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U40_I15",
           "type": "true_false",
           "prompt_es": "¿'Who can swim?' es una pregunta correcta?",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -190,7 +354,12 @@
           "prompt_es": "Escucha y escribe la frase completa:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e68848da07c570992383be5531d04130.mp3",
           "text": "I am good at playing the guitar.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U40_I17",
@@ -199,12 +368,26 @@
           "text": "Last weekend was very busy. On Saturday, I was at home because I had many chores. I had to clean the kitchen and do the laundry. My sister was at the park with her friends. She can play football very well. In the evening, we were tired but happy.",
           "question": "Why was the writer at home on Saturday?",
           "options": [
-            { "id": "o1", "text": "Because he had chores" },
-            { "id": "o2", "text": "Because he was sick" },
-            { "id": "o3", "text": "Because it was raining" }
+            {
+              "id": "o1",
+              "text": "Because he had chores"
+            },
+            {
+              "id": "o2",
+              "text": "Because he was sick"
+            },
+            {
+              "id": "o3",
+              "text": "Because it was raining"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U40_I18",
@@ -213,12 +396,26 @@
           "text": "Last weekend was very busy. On Saturday, I was at home because I had many chores. I had to clean the kitchen and do the laundry. My sister was at the park with her friends. She can play football very well. In the evening, we were tired but happy.",
           "question": "What is the sister good at?",
           "options": [
-            { "id": "o1", "text": "Cleaning the kitchen" },
-            { "id": "o2", "text": "Playing football" },
-            { "id": "o3", "text": "Cooking" }
+            {
+              "id": "o1",
+              "text": "Cleaning the kitchen"
+            },
+            {
+              "id": "o2",
+              "text": "Playing football"
+            },
+            {
+              "id": "o3",
+              "text": "Cooking"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U40_I19",
@@ -226,19 +423,38 @@
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "Last weekend was very busy.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U40_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo estaban al final del día?",
           "options": [
-            { "id": "o1", "text": "Tired but happy" },
-            { "id": "o2", "text": "Sad and bored" },
-            { "id": "o3", "text": "Hungry" }
+            {
+              "id": "o1",
+              "text": "Tired but happy"
+            },
+            {
+              "id": "o2",
+              "text": "Sad and bored"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

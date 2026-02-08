@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Relaciona el instrumento con su nombre:",
           "pairs": [
-            { "id": "p1", "left": "Piano", "right": "Piano" },
-            { "id": "p2", "left": "Guitar", "right": "Guitarra" },
-            { "id": "p3", "left": "Drums", "right": "Batería" },
-            { "id": "p4", "left": "Violin", "right": "Violín" }
+            {
+              "id": "p1",
+              "left": "Piano",
+              "right": "Piano"
+            },
+            {
+              "id": "p2",
+              "left": "Guitar",
+              "right": "Guitarra"
+            },
+            {
+              "id": "p3",
+              "left": "Drums",
+              "right": "Batería"
+            },
+            {
+              "id": "p4",
+              "left": "Violin",
+              "right": "Violín"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Trompeta'?",
           "options": [
-            { "id": "o1", "text": "Trumpet" },
-            { "id": "o2", "text": "Trump" },
-            { "id": "o3", "text": "Trombon" }
+            {
+              "id": "o1",
+              "text": "Trumpet"
+            },
+            {
+              "id": "o2",
+              "text": "Trump"
+            },
+            {
+              "id": "o3",
+              "text": "Trombon"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa con el instrumento de viento:",
           "stimulus_en": "She plays the ________ (flauta).",
           "correct_answer": "flute",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Batería'",
           "stimulus_es": "Batería",
           "correct_answer": "Drums",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Aprende el instrumento:",
           "stimulus_en": "Saxophone",
           "correct_answer": "Saxofón",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,25 +132,62 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "I play the guitar" },
-            { "id": "o2", "text": "I play guitar" }
+            {
+              "id": "o1",
+              "text": "I play the guitar"
+            },
+            {
+              "id": "o2",
+              "text": "I play guitar"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U36_I7",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "plays" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "piano" },
-            { "id": "w5", "text": "beautifully" }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "piano"
+            },
+            {
+              "id": "w5",
+              "text": "beautifully"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U36_I8",
@@ -103,14 +195,24 @@
           "prompt_es": "Completa con el artículo necesario:",
           "stimulus_en": "We are learning to play ________ violin.",
           "correct_answer": "the",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U36_I9",
           "type": "true_false",
           "prompt_es": "¿En inglés se debe usar 'the' antes de un instrumento musical?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U36_I10",
@@ -118,7 +220,12 @@
           "prompt_es": "Traduce: 'Ella toca la trompeta.'",
           "stimulus_es": "Ella toca la trompeta.",
           "correct_answer": "She plays the trumpet",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -131,34 +238,83 @@
           "type": "categorization",
           "prompt_es": "Clasifica los instrumentos:",
           "categories": [
-            { "id": "c1", "title": "String Instruments", "items": ["Guitar", "Violin"] },
-            { "id": "c2", "title": "Wind Instruments", "items": ["Flute", "Trumpet"] }
+            {
+              "id": "c1",
+              "title": "String Instruments",
+              "items": [
+                "Guitar",
+                "Violin"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Wind Instruments",
+              "items": [
+                "Flute",
+                "Trumpet"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo describe mejor a la batería?",
           "options": [
-            { "id": "o1", "text": "Loud" },
-            { "id": "o2", "text": "Quiet" },
-            { "id": "o3", "text": "Small" }
+            {
+              "id": "o1",
+              "text": "Loud"
+            },
+            {
+              "id": "o2",
+              "text": "Quiet"
+            },
+            {
+              "id": "o3",
+              "text": "Small"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I13",
           "type": "matching",
           "prompt_es": "Relaciona el opuesto:",
           "pairs": [
-            { "id": "p1", "left": "Loud", "right": "Quiet" },
-            { "id": "p2", "left": "Easy", "right": "Difficult" }
+            {
+              "id": "p1",
+              "left": "Loud",
+              "right": "Quiet"
+            },
+            {
+              "id": "p2",
+              "left": "Easy",
+              "right": "Difficult"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I14",
@@ -166,14 +322,24 @@
           "prompt_es": "Completa la descripción:",
           "stimulus_en": "The violin is a ________ instrument to learn. (difícil)",
           "correct_answer": "difficult",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U36_I15",
           "type": "true_false",
           "prompt_es": "¿El piano es un instrumento de percusión?",
           "correct_answer": true,
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -187,7 +353,12 @@
           "prompt_es": "Escucha y escribe la frase completa:",
           "audioUrl": "/audio/courses/ingles-a1/shared/7703e923fb55797f5ab7617bd8a885cb.mp3",
           "text": "Drums are very loud.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U36_I17",
@@ -196,12 +367,26 @@
           "text": "Welcome to the London Music School. We have many instruments. In room 1, students play the piano. It is a quiet room. In room 2, students play the drums. It is a very loud room! Many people want to learn the guitar because it is easy and fun.",
           "question": "Which instrument is in room 1?",
           "options": [
-            { "id": "o1", "text": "The drums" },
-            { "id": "o2", "text": "The piano" },
-            { "id": "o3", "text": "The guitar" }
+            {
+              "id": "o1",
+              "text": "The drums"
+            },
+            {
+              "id": "o2",
+              "text": "The piano"
+            },
+            {
+              "id": "o3",
+              "text": "The guitar"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U36_I18",
@@ -210,12 +395,26 @@
           "text": "Welcome to the London Music School. We have many instruments. In room 1, students play the piano. It is a quiet room. In room 2, students play the drums. It is a very loud room! Many people want to learn the guitar because it is easy and fun.",
           "question": "Why do people like the guitar?",
           "options": [
-            { "id": "o1", "text": "Because it is loud" },
-            { "id": "o2", "text": "Because it is easy and fun" },
-            { "id": "o3", "text": "Because it is in room 1" }
+            {
+              "id": "o1",
+              "text": "Because it is loud"
+            },
+            {
+              "id": "o2",
+              "text": "Because it is easy and fun"
+            },
+            {
+              "id": "o3",
+              "text": "Because it is in room 1"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U36_I19",
@@ -223,19 +422,38 @@
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/8514915833a9ebbecbd67bede4be82a8.mp3",
           "text": "He is learning to play the violin.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U36_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo es la sala donde tocan la batería?",
           "options": [
-            { "id": "o1", "text": "Very loud" },
-            { "id": "o2", "text": "Very quiet" },
-            { "id": "o3", "text": "Very small" }
+            {
+              "id": "o1",
+              "text": "Very loud"
+            },
+            {
+              "id": "o2",
+              "text": "Very quiet"
+            },
+            {
+              "id": "o3",
+              "text": "Very small"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

@@ -23,25 +23,62 @@
           "type": "matching",
           "prompt_es": "Une las decenas:",
           "pairs": [
-            { "id": "p1", "left": "Twenty", "right": "Veinte" },
-            { "id": "p2", "left": "Thirty", "right": "Treinta" },
-            { "id": "p3", "left": "Forty", "right": "Cuarenta" },
-            { "id": "p4", "left": "Fifty", "right": "Cincuenta" }
+            {
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p2",
+              "left": "Thirty",
+              "right": "Treinta"
+            },
+            {
+              "id": "p3",
+              "left": "Forty",
+              "right": "Cuarenta"
+            },
+            {
+              "id": "p4",
+              "left": "Fifty",
+              "right": "Cincuenta"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la ortografía correcta?",
           "options": [
-            { "id": "o1", "text": "Forty" },
-            { "id": "o2", "text": "Fourty" }
+            {
+              "id": "o1",
+              "text": "Forty"
+            },
+            {
+              "id": "o2",
+              "text": "Fourty"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Atención: 'Four' lleva 'u', pero 'Forty' NO la lleva.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B1_I3",
@@ -49,21 +86,52 @@
           "prompt_es": "Completa: 'Tengo 30 años.'",
           "stimulus_en": "I am ________ years old.",
           "correct_answer": "thirty",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U8_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay treinta estudiantes aquí.'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "thirty" },
-            { "id": "w4", "text": "students" },
-            { "id": "w5", "text": "here" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "thirty"
+            },
+            {
+              "id": "w4",
+              "text": "students"
+            },
+            {
+              "id": "w5",
+              "text": "here"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U8_B1_I5",
@@ -71,7 +139,12 @@
           "prompt_es": "¿'Fifty' se pronuncia igual que 'Fifteen'?",
           "correct_answer": false,
           "explanation": "No. 'Fifty' tiene el acento al principio y acaba en sonido corto /ti/. 'Fifteen' tiene el acento al final /tiːn/.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -84,12 +157,23 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe 25?",
           "options": [
-            { "id": "o1", "text": "Twenty-five" },
-            { "id": "o2", "text": "Twenty five" }
+            {
+              "id": "o1",
+              "text": "Twenty-five"
+            },
+            {
+              "id": "o2",
+              "text": "Twenty five"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Los números entre 21 y 99 llevan siempre un guion.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U8_B2_I2",
@@ -97,33 +181,85 @@
           "prompt_es": "Escribe 42:",
           "stimulus_en": "Forty-________",
           "correct_answer": "two",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B2_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Él tiene cuarenta y dos años.'",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "forty-two" },
-            { "id": "w4", "text": "years" },
-            { "id": "w5", "text": "old" }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "forty-two"
+            },
+            {
+              "id": "w4",
+              "text": "years"
+            },
+            {
+              "id": "w5",
+              "text": "old"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U8_B2_I4",
           "type": "matching",
           "prompt_es": "Une los números:",
           "pairs": [
-            { "id": "p1", "left": "21", "right": "Twenty-one" },
-            { "id": "p2", "left": "33", "right": "Thirty-three" },
-            { "id": "p3", "left": "54", "right": "Fifty-four" }
+            {
+              "id": "p1",
+              "left": "21",
+              "right": "Twenty-one"
+            },
+            {
+              "id": "p2",
+              "left": "33",
+              "right": "Thirty-three"
+            },
+            {
+              "id": "p3",
+              "left": "54",
+              "right": "Fifty-four"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B2_I5",
@@ -132,7 +268,12 @@
           "stimulus_es": "Treinta y siete",
           "correct_answer": "Thirty-seven",
           "validation_regex": "^[Tt]hirty-seven$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -145,24 +286,61 @@
           "type": "matching",
           "prompt_es": "Une las decenas finales:",
           "pairs": [
-            { "id": "p1", "left": "Sixty", "right": "Sesenta" },
-            { "id": "p2", "left": "Seventy", "right": "Setenta" },
-            { "id": "p3", "left": "Eighty", "right": "Ochenta" },
-            { "id": "p4", "left": "Ninety", "right": "Noventa" }
+            {
+              "id": "p1",
+              "left": "Sixty",
+              "right": "Sesenta"
+            },
+            {
+              "id": "p2",
+              "left": "Seventy",
+              "right": "Setenta"
+            },
+            {
+              "id": "p3",
+              "left": "Eighty",
+              "right": "Ochenta"
+            },
+            {
+              "id": "p4",
+              "left": "Ninety",
+              "right": "Noventa"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cien'?",
           "options": [
-            { "id": "o1", "text": "A hundred" },
-            { "id": "o2", "text": "Ten ten" }
+            {
+              "id": "o1",
+              "text": "A hundred"
+            },
+            {
+              "id": "o2",
+              "text": "Ten ten"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B3_I3",
@@ -170,7 +348,12 @@
           "prompt_es": "Completa: '75 dólares' -> ________-five dollars.",
           "stimulus_en": "Seventy",
           "correct_answer": "Seventy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B3_I4",
@@ -178,20 +361,47 @@
           "prompt_es": "¿Es correcto decir 'Seventy are a big number'?",
           "correct_answer": false,
           "explanation": "Los números se tratan como singulares: 'Seventy IS a big number'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U8_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El número es noventa y nueve.'",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "number" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "ninety-nine" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "number"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "ninety-nine"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -206,12 +416,26 @@
           "text": "I have fifty dollars in my wallet. My brother has eighty-five dollars. Together, we have a lot of money!",
           "question": "¿Cuánto dinero tiene el hermano?",
           "options": [
-            { "id": "o1", "text": "85 dólares." },
-            { "id": "o2", "text": "50 dólares." },
-            { "id": "o3", "text": "100 dólares." }
+            {
+              "id": "o1",
+              "text": "85 dólares."
+            },
+            {
+              "id": "o2",
+              "text": "50 dólares."
+            },
+            {
+              "id": "o3",
+              "text": "100 dólares."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U8_B4_I2",
@@ -220,18 +444,34 @@
           "stimulus_es": "Tengo sesenta euros.",
           "correct_answer": "I have sixty euros",
           "validation_regex": "^i have sixty euros\\.?$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 80?",
           "options": [
-            { "id": "o1", "text": "Eighty" },
-            { "id": "o2", "text": "Eighteen" }
+            {
+              "id": "o1",
+              "text": "Eighty"
+            },
+            {
+              "id": "o2",
+              "text": "Eighteen"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B4_I4",
@@ -239,21 +479,52 @@
           "prompt_es": "¿Cómo se dice 'un centenar' / 'cien'?",
           "stimulus_en": "A hundred",
           "correct_answer": "Cien / Un centenar",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U8_B4_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella tiene cincuenta y cuatro años.'",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "fifty-four" },
-            { "id": "w4", "text": "years" },
-            { "id": "w5", "text": "old" }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "fifty-four"
+            },
+            {
+              "id": "w4",
+              "text": "years"
+            },
+            {
+              "id": "w5",
+              "text": "old"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

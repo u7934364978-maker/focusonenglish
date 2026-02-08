@@ -22,13 +22,39 @@
           "type": "matching",
           "prompt_es": "Relaciona los verbos de habilidad con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Swim", "right": "Nadar" },
-            { "id": "p2", "left": "Dance", "right": "Bailar" },
-            { "id": "p3", "left": "Draw", "right": "Dibujar" },
-            { "id": "p4", "left": "Cook", "right": "Cocinar" }
+            {
+              "id": "p1",
+              "left": "Swim",
+              "right": "Nadar"
+            },
+            {
+              "id": "p2",
+              "left": "Dance",
+              "right": "Bailar"
+            },
+            {
+              "id": "p3",
+              "left": "Draw",
+              "right": "Dibujar"
+            },
+            {
+              "id": "p4",
+              "left": "Cook",
+              "right": "Cocinar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U31_I2",
@@ -36,33 +62,78 @@
           "prompt_es": "Completa con 'can' para expresar habilidad:",
           "stimulus_en": "She ________ speak three languages.",
           "correct_answer": "can",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase afirmativa:",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "can" },
-            { "id": "w3", "text": "play" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "piano" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "can"
+            },
+            {
+              "id": "w3",
+              "text": "play"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "piano"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U31_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de decir 'Él sabe conducir'?",
           "options": [
-            { "id": "o1", "text": "He can drive" },
-            { "id": "o2", "text": "He cans drive" },
-            { "id": "o3", "text": "He can to drive" }
+            {
+              "id": "o1",
+              "text": "He can drive"
+            },
+            {
+              "id": "o2",
+              "text": "He cans drive"
+            },
+            {
+              "id": "o3",
+              "text": "He can to drive"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I5",
@@ -70,7 +141,12 @@
           "prompt_es": "Aprende el verbo:",
           "stimulus_en": "Sing",
           "correct_answer": "Cantar",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -83,12 +159,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'can'?",
           "options": [
-            { "id": "o1", "text": "Can't (cannot)" },
-            { "id": "o2", "text": "Don't can" },
-            { "id": "o3", "text": "Not can" }
+            {
+              "id": "o1",
+              "text": "Can't (cannot)"
+            },
+            {
+              "id": "o2",
+              "text": "Don't can"
+            },
+            {
+              "id": "o3",
+              "text": "Not can"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I7",
@@ -96,32 +186,79 @@
           "prompt_es": "Completa la frase negativa (imposibilidad):",
           "stimulus_en": "Penguins ________ fly.",
           "correct_answer": "can't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I8",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "Can" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "help" },
-            { "id": "w4", "text": "me" },
-            { "id": "w5", "text": "?" }
+            {
+              "id": "w1",
+              "text": "Can"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "help"
+            },
+            {
+              "id": "w4",
+              "text": "me"
+            },
+            {
+              "id": "w5",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U31_I9",
           "type": "matching",
           "prompt_es": "Empareja la pregunta con la respuesta corta:",
           "pairs": [
-            { "id": "p1", "left": "Can you swim?", "right": "Yes, I can." },
-            { "id": "p2", "left": "Can she cook?", "right": "No, she can't." }
+            {
+              "id": "p1",
+              "left": "Can you swim?",
+              "right": "Yes, I can."
+            },
+            {
+              "id": "p2",
+              "left": "Can she cook?",
+              "right": "No, she can't."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I10",
@@ -129,7 +266,12 @@
           "prompt_es": "Traduce: 'No puedo hablar francés.'",
           "stimulus_es": "No puedo hablar francés.",
           "correct_answer": "I can't speak French",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -142,29 +284,64 @@
           "type": "true_false",
           "prompt_es": "¿Es verdad? 'Fish can breathe underwater.'",
           "correct_answer": true,
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U31_I12",
           "type": "categorization",
           "prompt_es": "Clasifica según lo que pueden o no pueden hacer:",
           "categories": [
-            { "id": "c1", "title": "Birds", "items": ["Fly", "Sing"] },
-            { "id": "c2", "title": "Humans", "items": ["Drive", "Cook"] }
+            {
+              "id": "c1",
+              "title": "Birds",
+              "items": [
+                "Fly",
+                "Sing"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Humans",
+              "items": [
+                "Drive",
+                "Cook"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U31_I13",
           "type": "multiple_choice",
           "prompt_es": "Elefantes... correr muy rápido.",
           "options": [
-            { "id": "o1", "text": "can't" },
-            { "id": "o2", "text": "can" }
+            {
+              "id": "o1",
+              "text": "can't"
+            },
+            {
+              "id": "o2",
+              "text": "can"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U31_I14",
@@ -172,7 +349,12 @@
           "prompt_es": "Escribe la habilidad: 'A monkey can...'",
           "stimulus_es": "trepar árboles",
           "correct_answer": "climb trees",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U31_I15",
@@ -180,7 +362,12 @@
           "prompt_es": "Completa la pregunta sobre animales:",
           "stimulus_en": "________ dogs swim?",
           "correct_answer": "Can",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -194,7 +381,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/06bf8adb93bb188fcac69af2d979f878.mp3",
           "text": "I can't speak French.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U31_I17",
@@ -203,12 +395,26 @@
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
           "question": "What can the brother do?",
           "options": [
-            { "id": "o1", "text": "Play the violin" },
-            { "id": "o2", "text": "Cook Italian food" },
-            { "id": "o3", "text": "Dance ballet" }
+            {
+              "id": "o1",
+              "text": "Play the violin"
+            },
+            {
+              "id": "o2",
+              "text": "Cook Italian food"
+            },
+            {
+              "id": "o3",
+              "text": "Dance ballet"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U31_I18",
@@ -217,12 +423,26 @@
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
           "question": "Who can play an instrument?",
           "options": [
-            { "id": "o1", "text": "The sister" },
-            { "id": "o2", "text": "The brother" },
-            { "id": "o3", "text": "The narrator" }
+            {
+              "id": "o1",
+              "text": "The sister"
+            },
+            {
+              "id": "o2",
+              "text": "The brother"
+            },
+            {
+              "id": "o3",
+              "text": "The narrator"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U31_I19",
@@ -230,19 +450,38 @@
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/892c5213812d45ff26f8c99247d3bfbb.mp3",
           "text": "She can play the guitar.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U31_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Qué frase es correcta según el texto anterior?",
           "options": [
-            { "id": "o1", "text": "The narrator can speak two languages." },
-            { "id": "o2", "text": "The sister can't dance." },
-            { "id": "o3", "text": "The brother can play the violin." }
+            {
+              "id": "o1",
+              "text": "The narrator can speak two languages."
+            },
+            {
+              "id": "o2",
+              "text": "The sister can't dance."
+            },
+            {
+              "id": "o3",
+              "text": "The brother can play the violin."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

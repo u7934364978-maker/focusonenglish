@@ -35,6 +35,26 @@ export const premiumCourseServerService = {
   },
 
   /**
+   * Fetches user mastery data for all concepts.
+   */
+  async getUserMastery(userId: string): Promise<any[]> {
+    if (!userId || userId === 'anonymous') return [];
+    
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('user_mastery')
+      .select('concept_tag, mastery_score')
+      .eq('user_id', userId);
+
+    if (error) {
+      console.error(`Error fetching user mastery:`, error);
+      return [];
+    }
+
+    return data;
+  },
+
+  /**
    * Loads all interactions from the JSON files in the content directory for a specific level.
    */
   async getAllInteractions(level: CourseLevel): Promise<PremiumInteraction[]> {

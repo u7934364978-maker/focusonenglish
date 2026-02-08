@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja el clima:",
           "pairs": [
-            { "id": "p1", "left": "Sunny", "right": "Soleado" },
-            { "id": "p2", "left": "Rainy", "right": "Lluvioso" },
-            { "id": "p3", "left": "Cloudy", "right": "Nublado" },
-            { "id": "p4", "left": "Windy", "right": "Ventoso" }
+            {
+              "id": "p1",
+              "left": "Sunny",
+              "right": "Soleado"
+            },
+            {
+              "id": "p2",
+              "left": "Rainy",
+              "right": "Lluvioso"
+            },
+            {
+              "id": "p3",
+              "left": "Cloudy",
+              "right": "Nublado"
+            },
+            {
+              "id": "p4",
+              "left": "Windy",
+              "right": "Ventoso"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U44_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué necesitas cuando llueve?",
           "options": [
-            { "id": "o1", "text": "An umbrella" },
-            { "id": "o2", "text": "Sunglasses" },
-            { "id": "o3", "text": "A swimsuit" }
+            {
+              "id": "o1",
+              "text": "An umbrella"
+            },
+            {
+              "id": "o2",
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o3",
+              "text": "A swimsuit"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U44_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa el estado del clima:",
           "stimulus_en": "It is 0 degrees. It is very ________. (frío)",
           "correct_answer": "cold",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U44_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Hace calor'",
           "stimulus_es": "Hace calor",
           "correct_answer": "It is hot",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U44_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de clima:",
           "stimulus_en": "Snowing",
           "correct_answer": "Nevando",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "________ is raining today.",
           "options": [
-            { "id": "o1", "text": "It" },
-            { "id": "o2", "text": "He" },
-            { "id": "o3", "text": "There" }
+            {
+              "id": "o1",
+              "text": "It"
+            },
+            {
+              "id": "o2",
+              "text": "He"
+            },
+            {
+              "id": "o3",
+              "text": "There"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U44_I7",
@@ -90,25 +159,46 @@
           "prompt_es": "Completa la pregunta:",
           "stimulus_en": "What ________ the weather like?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U44_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'It is sun today'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U44_I9",
           "type": "multiple_choice",
           "prompt_es": "Look! It ________.",
           "options": [
-            { "id": "o1", "text": "is snowing" },
-            { "id": "o2", "text": "snows" }
+            {
+              "id": "o1",
+              "text": "is snowing"
+            },
+            {
+              "id": "o2",
+              "text": "snows"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U44_I10",
@@ -116,7 +206,12 @@
           "prompt_es": "Completa la frase negativa:",
           "stimulus_en": "It ________ windy this afternoon. (no está)",
           "correct_answer": "isn't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -129,27 +224,71 @@
           "type": "reorder_words",
           "prompt_es": "Pregunta por el clima:",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "weather" },
-            { "id": "w5", "text": "like" },
-            { "id": "w6", "text": "today?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            },
+            {
+              "id": "w6",
+              "text": "today?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U44_I12",
           "type": "multiple_choice",
           "prompt_es": "Weather forecast: 'Cloudy with rain.' - You take:",
           "options": [
-            { "id": "o1", "text": "A raincoat" },
-            { "id": "o2", "text": "A swimsuit" },
-            { "id": "o3", "text": "Sunglasses" }
+            {
+              "id": "o1",
+              "text": "A raincoat"
+            },
+            {
+              "id": "o2",
+              "text": "A swimsuit"
+            },
+            {
+              "id": "o3",
+              "text": "Sunglasses"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U44_I13",
@@ -157,7 +296,12 @@
           "prompt_es": "Completa el reporte:",
           "stimulus_en": "In London, it is often ________. (lluvioso)",
           "correct_answer": "rainy",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U44_I14",
@@ -165,14 +309,24 @@
           "prompt_es": "Traduce: 'Hoy está muy nublado'",
           "stimulus_es": "Hoy está muy nublado",
           "correct_answer": "It is very cloudy today",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U44_I15",
           "type": "true_false",
           "prompt_es": "It is hot in the Sahara Desert.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -186,7 +340,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
           "text": "It is a beautiful sunny day.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U44_I17",
@@ -195,12 +354,26 @@
           "text": "Today in London, the weather is bad. It is cold and it is raining. People have umbrellas and coats. In Madrid, the weather is great. It is sunny and hot. People are at the park. They don't have coats today.",
           "question": "What is the weather like in London today?",
           "options": [
-            { "id": "o1", "text": "Cold and rainy" },
-            { "id": "o2", "text": "Sunny and hot" },
-            { "id": "o3", "text": "Windy" }
+            {
+              "id": "o1",
+              "text": "Cold and rainy"
+            },
+            {
+              "id": "o2",
+              "text": "Sunny and hot"
+            },
+            {
+              "id": "o3",
+              "text": "Windy"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U44_I18",
@@ -209,11 +382,22 @@
           "text": "Today in London, the weather is bad. It is cold and it is raining. People have umbrellas and coats. In Madrid, the weather is great. It is sunny and hot. People are at the park. They don't have coats today.",
           "question": "Where is it sunny today?",
           "options": [
-            { "id": "o1", "text": "Madrid" },
-            { "id": "o2", "text": "London" }
+            {
+              "id": "o1",
+              "text": "Madrid"
+            },
+            {
+              "id": "o2",
+              "text": "London"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U44_I19",
@@ -221,19 +405,38 @@
           "prompt_es": "Escucha la descripción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "It is very windy this morning.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U44_I20",
           "type": "multiple_choice",
           "prompt_es": "En Madrid, la gente está en...",
           "options": [
-            { "id": "o1", "text": "The park" },
-            { "id": "o2", "text": "The office" },
-            { "id": "o3", "text": "Home" }
+            {
+              "id": "o1",
+              "text": "The park"
+            },
+            {
+              "id": "o2",
+              "text": "The office"
+            },
+            {
+              "id": "o3",
+              "text": "Home"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

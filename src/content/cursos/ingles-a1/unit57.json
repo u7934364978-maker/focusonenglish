@@ -22,25 +22,65 @@
           "type": "multiple_choice",
           "prompt_es": "¿En qué te sientas para estar cómodo?",
           "options": [
-            { "id": "o1", "text": "On a cushion" },
-            { "id": "o2", "text": "On a lamp" },
-            { "id": "o3", "text": "On a mirror" }
+            {
+              "id": "o1",
+              "text": "On a cushion"
+            },
+            {
+              "id": "o2",
+              "text": "On a lamp"
+            },
+            {
+              "id": "o3",
+              "text": "On a mirror"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u57_b1_i2",
           "type": "matching",
           "prompt_es": "Une los objetos del salón:",
           "pairs": [
-            { "id": "p1", "left": "Rug", "right": "Alfombra" },
-            { "id": "p2", "left": "Vase", "right": "Jarrón" },
-            { "id": "p3", "left": "Clock", "right": "Reloj de pared" },
-            { "id": "p4", "left": "Lamp", "right": "Lámpara" }
+            {
+              "id": "p1",
+              "left": "Rug",
+              "right": "Alfombra"
+            },
+            {
+              "id": "p2",
+              "left": "Vase",
+              "right": "Jarrón"
+            },
+            {
+              "id": "p3",
+              "left": "Clock",
+              "right": "Reloj de pared"
+            },
+            {
+              "id": "p4",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u57_b1_i3",
@@ -48,19 +88,38 @@
           "prompt_es": "Escribe 'espejo' en inglés:",
           "stimulus_es": "Espejo",
           "correct_answer": "Mirror",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u57_b1_i4",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde pones las flores?",
           "options": [
-            { "id": "o1", "text": "In a vase" },
-            { "id": "o2", "text": "In a rug" },
-            { "id": "o3", "text": "In a cushion" }
+            {
+              "id": "o1",
+              "text": "In a vase"
+            },
+            {
+              "id": "o2",
+              "text": "In a rug"
+            },
+            {
+              "id": "o3",
+              "text": "In a cushion"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u57_b1_i5",
@@ -68,7 +127,12 @@
           "prompt_es": "Escucha y repite:",
           "audioUrl": "/audio/courses/ingles-a1/shared/household_objects_1.mp3",
           "text": "Rug, lamp, and mirror.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -82,35 +146,88 @@
           "prompt_es": "Completa el plural de 'lamp':",
           "stimulus_en": "One lamp, two ________.",
           "correct_answer": "lamps",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b2_i2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay tres relojes en la pared'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "three" },
-            { "id": "w4", "text": "clocks" },
-            { "id": "w5", "text": "on" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "wall" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "three"
+            },
+            {
+              "id": "w4",
+              "text": "clocks"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "wall"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u57_b2_i3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'watch'?",
           "options": [
-            { "id": "o1", "text": "Watches" },
-            { "id": "o2", "text": "Watchs" },
-            { "id": "o3", "text": "Watchies" }
+            {
+              "id": "o1",
+              "text": "Watches"
+            },
+            {
+              "id": "o2",
+              "text": "Watchs"
+            },
+            {
+              "id": "o3",
+              "text": "Watchies"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b2_i4",
@@ -118,7 +235,12 @@
           "prompt_es": "Completa el plural de 'box':",
           "stimulus_en": "One box, many ________.",
           "correct_answer": "boxes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b2_i5",
@@ -126,7 +248,12 @@
           "prompt_es": "Escucha los plurales:",
           "audioUrl": "/audio/courses/ingles-a1/shared/plurals_s_es.mp3",
           "text": "One rug, two rugs. One clock, two clocks.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -139,25 +266,65 @@
           "type": "matching",
           "prompt_es": "Une el singular con su plural irregular:",
           "pairs": [
-            { "id": "p1", "left": "Person", "right": "People" },
-            { "id": "p2", "left": "Child", "right": "Children" },
-            { "id": "p3", "left": "Foot", "right": "Feet" },
-            { "id": "p4", "left": "Tooth", "right": "Teeth" }
+            {
+              "id": "p1",
+              "left": "Person",
+              "right": "People"
+            },
+            {
+              "id": "p2",
+              "left": "Child",
+              "right": "Children"
+            },
+            {
+              "id": "p3",
+              "left": "Foot",
+              "right": "Feet"
+            },
+            {
+              "id": "p4",
+              "left": "Tooth",
+              "right": "Teeth"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b3_i2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'man'?",
           "options": [
-            { "id": "o1", "text": "Men" },
-            { "id": "o2", "text": "Mans" },
-            { "id": "o3", "text": "Mens" }
+            {
+              "id": "o1",
+              "text": "Men"
+            },
+            {
+              "id": "o2",
+              "text": "Mans"
+            },
+            {
+              "id": "o3",
+              "text": "Mens"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b3_i3",
@@ -165,14 +332,24 @@
           "prompt_es": "Escribe el plural de 'woman':",
           "stimulus_es": "Mujeres",
           "correct_answer": "Women",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b3_i4",
           "type": "true_false",
           "prompt_es": "El plural de 'mouse' (ratón) es 'mice'.",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b3_i5",
@@ -180,7 +357,12 @@
           "prompt_es": "Escucha y repite los irregulares:",
           "audioUrl": "/audio/courses/ingles-a1/shared/irregular_plurals.mp3",
           "text": "Person, people. Child, children. Woman, women.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -195,12 +377,26 @@
           "text": "Sarah is in her new apartment. There are two big rugs on the floor. She has three lamps in the living room. There are many boxes in the kitchen. In the bathroom, there is a large mirror and four new towels. Sarah is happy with her things.",
           "question": "How many lamps are there?",
           "options": [
-            { "id": "o1", "text": "Three" },
-            { "id": "o2", "text": "Two" },
-            { "id": "o3", "text": "Four" }
+            {
+              "id": "o1",
+              "text": "Three"
+            },
+            {
+              "id": "o2",
+              "text": "Two"
+            },
+            {
+              "id": "o3",
+              "text": "Four"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "u57_b4_i2",
@@ -208,7 +404,12 @@
           "prompt_es": "Escribe el plural correcto:",
           "stimulus_en": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
           "correct_answer": "people, mirrors",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b4_i3",
@@ -216,19 +417,38 @@
           "prompt_es": "Traduce: 'Los niños están felices'",
           "stimulus_es": "The children are happy.",
           "correct_answer": "The children are happy",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b4_i4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)?",
           "options": [
-            { "id": "o1", "text": "Leaves" },
-            { "id": "o2", "text": "Leafs" },
-            { "id": "o3", "text": "Leafes" }
+            {
+              "id": "o1",
+              "text": "Leaves"
+            },
+            {
+              "id": "o2",
+              "text": "Leafs"
+            },
+            {
+              "id": "o3",
+              "text": "Leafes"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u57_b4_i5",
@@ -236,7 +456,12 @@
           "prompt_es": "Escucha el resumen final:",
           "audioUrl": "/audio/courses/ingles-a1/shared/unit57_summary.mp3",
           "text": "Rugs, lamps, and mirrors make a home. Remember your plurals: books, boxes, and people!",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     }

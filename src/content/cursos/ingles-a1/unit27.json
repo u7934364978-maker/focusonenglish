@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une los términos con su significado:",
           "pairs": [
-            { "id": "p1", "left": "First name", "right": "Nombre" },
-            { "id": "p2", "left": "Surname", "right": "Apellido" },
-            { "id": "p3", "left": "Occupation", "right": "Ocupación/Trabajo" },
-            { "id": "p4", "left": "Nationality", "right": "Nacionalidad" }
+            {
+              "id": "p1",
+              "left": "First name",
+              "right": "Nombre"
+            },
+            {
+              "id": "p2",
+              "left": "Surname",
+              "right": "Apellido"
+            },
+            {
+              "id": "p3",
+              "left": "Occupation",
+              "right": "Ocupación/Trabajo"
+            },
+            {
+              "id": "p4",
+              "left": "Nationality",
+              "right": "Nacionalidad"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U27_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estado civil'?",
           "options": [
-            { "id": "o1", "text": "Job status" },
-            { "id": "o2", "text": "Marital status" },
-            { "id": "o3", "text": "Home status" }
+            {
+              "id": "o1",
+              "text": "Job status"
+            },
+            {
+              "id": "o2",
+              "text": "Marital status"
+            },
+            {
+              "id": "o3",
+              "text": "Home status"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U27_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Nueva palabra: Edad",
           "stimulus_en": "Age",
           "correct_answer": "Edad",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U27_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si alguien es de 'Spain', su 'nationality' es:",
           "options": [
-            { "id": "o1", "text": "Spaniard" },
-            { "id": "o2", "text": "Spanish" },
-            { "id": "o3", "text": "Spainish" }
+            {
+              "id": "o1",
+              "text": "Spaniard"
+            },
+            {
+              "id": "o2",
+              "text": "Spanish"
+            },
+            {
+              "id": "o3",
+              "text": "Spainish"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U27_B1_I5",
           "type": "matching",
           "prompt_es": "Ocupaciones comunes:",
           "pairs": [
-            { "id": "p1", "left": "Student", "right": "Estudiante" },
-            { "id": "p2", "left": "Teacher", "right": "Profesor/a" },
-            { "id": "p3", "left": "Doctor", "right": "Médico/a" },
-            { "id": "p4", "left": "Unemployed", "right": "Desempleado/a" }
+            {
+              "id": "p1",
+              "left": "Student",
+              "right": "Estudiante"
+            },
+            {
+              "id": "p2",
+              "left": "Teacher",
+              "right": "Profesor/a"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico/a"
+            },
+            {
+              "id": "p4",
+              "left": "Unemployed",
+              "right": "Desempleado/a"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -87,12 +172,26 @@
           "type": "multiple_choice",
           "prompt_es": "Completa: 'I ________ 25 years old.'",
           "options": [
-            { "id": "o1", "text": "have" },
-            { "id": "o2", "text": "am" },
-            { "id": "o3", "text": "is" }
+            {
+              "id": "o1",
+              "text": "have"
+            },
+            {
+              "id": "o2",
+              "text": "am"
+            },
+            {
+              "id": "o3",
+              "text": "is"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U27_B2_I7",
@@ -100,26 +199,50 @@
           "prompt_es": "Completa con 'am', 'is' o 'are':",
           "stimulus_en": "She ________ married.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U27_B2_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'They are from Italy'?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U27_B2_I9",
           "type": "multiple_choice",
           "prompt_es": "Forma negativa: 'Él no es médico'",
           "options": [
-            { "id": "o1", "text": "He not is a doctor" },
-            { "id": "o2", "text": "He isn't a doctor" },
-            { "id": "o3", "text": "He don't is a doctor" }
+            {
+              "id": "o1",
+              "text": "He not is a doctor"
+            },
+            {
+              "id": "o2",
+              "text": "He isn't a doctor"
+            },
+            {
+              "id": "o3",
+              "text": "He don't is a doctor"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U27_B2_I10",
@@ -127,7 +250,12 @@
           "prompt_es": "Completa: 'We ________ students.'",
           "stimulus_en": "are",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -140,26 +268,70 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es tu nombre?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "name?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "name?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U27_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿De dónde eres?'",
           "options": [
-            { "id": "w1", "text": "Where" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "from?" }
+            {
+              "id": "w1",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "from?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U27_B3_I13",
@@ -167,7 +339,12 @@
           "prompt_es": "Traduce: '¿A qué te dedicas?' (What do you do?)",
           "stimulus_en": "What do you do?",
           "correct_answer": "What do you do?",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U27_B3_I14",
@@ -175,19 +352,42 @@
           "prompt_es": "Completa la pregunta de edad: 'How ________ are you?'",
           "stimulus_en": "old",
           "correct_answer": "old",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U27_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Estás casado?'",
           "options": [
-            { "id": "w1", "text": "Are" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "married?" }
+            {
+              "id": "w1",
+              "text": "Are"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "married?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -202,24 +402,52 @@
           "text": "My name is Marco Rossi. I am 22 years old and I am from Italy. I am a student at the University of Rome. I am single and I live with my parents. I want to be a doctor in the future.",
           "question": "¿Cuál es la ocupación de Marco?",
           "options": [
-            { "id": "o1", "text": "Doctor" },
-            { "id": "o2", "text": "Teacher" },
-            { "id": "o3", "text": "Student" }
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Teacher"
+            },
+            {
+              "id": "o3",
+              "text": "Student"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U27_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "¿Marco está casado?",
           "options": [
-            { "id": "o1", "text": "Yes, he is" },
-            { "id": "o2", "text": "No, he is single" },
-            { "id": "o3", "text": "We don't know" }
+            {
+              "id": "o1",
+              "text": "Yes, he is"
+            },
+            {
+              "id": "o2",
+              "text": "No, he is single"
+            },
+            {
+              "id": "o3",
+              "text": "We don't know"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U27_B4_I18",
@@ -227,7 +455,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
           "text": "The library is on the second floor.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U27_B4_I19",
@@ -235,18 +468,46 @@
           "prompt_es": "Escribe una frase sobre ti (nombre y edad):",
           "stimulus_es": "Me llamo Alex y tengo 20 años.",
           "correct_answer": "My name is Alex and I am 20 years old.",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U27_B4_I20",
           "type": "categorization",
           "prompt_es": "Clasifica los datos personales:",
           "categories": [
-            { "id": "c1", "title": "Information", "items": ["Name", "Age", "Address", "Email"] },
-            { "id": "c2", "title": "Status/Origin", "items": ["Married", "Single", "Spanish", "Italian"] }
+            {
+              "id": "c1",
+              "title": "Information",
+              "items": [
+                "Name",
+                "Age",
+                "Address",
+                "Email"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Status/Origin",
+              "items": [
+                "Married",
+                "Single",
+                "Spanish",
+                "Italian"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

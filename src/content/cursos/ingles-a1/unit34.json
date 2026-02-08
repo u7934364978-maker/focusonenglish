@@ -22,24 +22,59 @@
           "type": "matching",
           "prompt_es": "Empareja cada conector con su función:",
           "pairs": [
-            { "id": "p1", "left": "And", "right": "Añadir información (+)" },
-            { "id": "p2", "left": "But", "right": "Contrastar ideas (+/-)" },
-            { "id": "p3", "left": "Because", "right": "Dar una razón (¿Por qué?)" }
+            {
+              "id": "p1",
+              "left": "And",
+              "right": "Añadir información (+)"
+            },
+            {
+              "id": "p2",
+              "left": "But",
+              "right": "Contrastar ideas (+/-)"
+            },
+            {
+              "id": "p3",
+              "left": "Because",
+              "right": "Dar una razón (¿Por qué?)"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U34_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál significa 'O' (elección)?",
           "options": [
-            { "id": "o1", "text": "Or" },
-            { "id": "o2", "text": "And" },
-            { "id": "o3", "text": "But" }
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "And"
+            },
+            {
+              "id": "o3",
+              "text": "But"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U34_I3",
@@ -47,7 +82,12 @@
           "prompt_es": "Completa con el conector de adición:",
           "stimulus_en": "I speak English ________ Spanish.",
           "correct_answer": "and",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U34_I4",
@@ -55,18 +95,34 @@
           "prompt_es": "Memoriza el conector:",
           "stimulus_en": "Because",
           "correct_answer": "Porque",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U34_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pero'?",
           "options": [
-            { "id": "o1", "text": "But" },
-            { "id": "o2", "text": "Because" }
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Because"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -79,25 +135,62 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la frase correcta?",
           "options": [
-            { "id": "o1", "text": "I like coffee but I don't like tea" },
-            { "id": "o2", "text": "I like coffee because I don't like tea" }
+            {
+              "id": "o1",
+              "text": "I like coffee but I don't like tea"
+            },
+            {
+              "id": "o2",
+              "text": "I like coffee because I don't like tea"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U34_I7",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase con 'and':",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "tall" },
-            { "id": "w4", "text": "and" },
-            { "id": "w5", "text": "beautiful" }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "tall"
+            },
+            {
+              "id": "w4",
+              "text": "and"
+            },
+            {
+              "id": "w5",
+              "text": "beautiful"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U34_I8",
@@ -105,25 +198,51 @@
           "prompt_es": "Completa con 'and' o 'but':",
           "stimulus_en": "I can swim ________ I can't drive.",
           "correct_answer": "but",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U34_I9",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcto? 'I want an apple and an orange.'",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U34_I10",
           "type": "matching",
           "prompt_es": "Combina las ideas:",
           "pairs": [
-            { "id": "p1", "left": "It's cheap", "right": "but it's small." },
-            { "id": "p2", "left": "It's big", "right": "and it's modern." }
+            {
+              "id": "p1",
+              "left": "It's cheap",
+              "right": "but it's small."
+            },
+            {
+              "id": "p2",
+              "left": "It's big",
+              "right": "and it's modern."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -137,36 +256,93 @@
           "prompt_es": "Completa con el conector de razón:",
           "stimulus_en": "I am happy ________ it is my birthday.",
           "correct_answer": "because",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U34_I12",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál responde a la pregunta 'Why are you late?'?",
           "options": [
-            { "id": "o1", "text": "Because the bus was late" },
-            { "id": "o2", "text": "But the bus was late" },
-            { "id": "o3", "text": "And the bus was late" }
+            {
+              "id": "o1",
+              "text": "Because the bus was late"
+            },
+            {
+              "id": "o2",
+              "text": "But the bus was late"
+            },
+            {
+              "id": "o3",
+              "text": "And the bus was late"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U34_I13",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "tired" },
-            { "id": "w4", "text": "because" },
-            { "id": "w5", "text": "he" },
-            { "id": "w6", "text": "is" },
-            { "id": "w7", "text": "at" },
-            { "id": "w8", "text": "work" }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "tired"
+            },
+            {
+              "id": "w4",
+              "text": "because"
+            },
+            {
+              "id": "w5",
+              "text": "he"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "at"
+            },
+            {
+              "id": "w8",
+              "text": "work"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U34_I14",
@@ -174,14 +350,24 @@
           "prompt_es": "Traduce: 'Estudio inglés porque me gusta.'",
           "stimulus_es": "Estudio inglés porque me gusta.",
           "correct_answer": "I study English because I like it",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U34_I15",
           "type": "true_false",
           "prompt_es": "¿'Because' se usa para contrastar ideas opuestas?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -195,7 +381,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/92ea655ea37081aefcd1c9c3774a7fc6.mp3",
           "text": "I am studying because I have a test.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U34_I17",
@@ -204,12 +395,26 @@
           "text": "Today I am in London. I like the city because it is beautiful and interesting. I want to visit the Big Ben but I don't have a map. I am looking for a tourist office and I am asking for directions. I am happy because the people are very friendly.",
           "question": "Why does the narrator like the city?",
           "options": [
-            { "id": "o1", "text": "Because it is beautiful and interesting" },
-            { "id": "o2", "text": "Because they have a map" },
-            { "id": "o3", "text": "Because they are tired" }
+            {
+              "id": "o1",
+              "text": "Because it is beautiful and interesting"
+            },
+            {
+              "id": "o2",
+              "text": "Because they have a map"
+            },
+            {
+              "id": "o3",
+              "text": "Because they are tired"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U34_I18",
@@ -218,12 +423,26 @@
           "text": "Today I am in London. I like the city because it is beautiful and interesting. I want to visit the Big Ben but I don't have a map. I am looking for a tourist office and I am asking for directions. I am happy because the people are very friendly.",
           "question": "What is the problem?",
           "options": [
-            { "id": "o1", "text": "The people are not friendly" },
-            { "id": "o2", "text": "The narrator doesn't have a map" },
-            { "id": "o3", "text": "The city is not beautiful" }
+            {
+              "id": "o1",
+              "text": "The people are not friendly"
+            },
+            {
+              "id": "o2",
+              "text": "The narrator doesn't have a map"
+            },
+            {
+              "id": "o3",
+              "text": "The city is not beautiful"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U34_I19",
@@ -231,19 +450,38 @@
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/98e464db10f3cc355bdf66d38298a565.mp3",
           "text": "I can speak English and Spanish.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U34_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la actitud del narrador hacia la gente de la ciudad?",
           "options": [
-            { "id": "o1", "text": "They are friendly" },
-            { "id": "o2", "text": "They are unfriendly" },
-            { "id": "o3", "text": "The text doesn't say" }
+            {
+              "id": "o1",
+              "text": "They are friendly"
+            },
+            {
+              "id": "o2",
+              "text": "They are unfriendly"
+            },
+            {
+              "id": "o3",
+              "text": "The text doesn't say"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

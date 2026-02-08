@@ -20,17 +20,19 @@ export default async function PracticePage() {
   const allowedInteractionIds = new Set(allowedUnits.flatMap(u => u.interactionIds));
   const filteredInteractions = allInteractions.filter(i => allowedInteractionIds.has(i.interaction_id));
 
-  // Get progress and SRS performance
-  const completedIds = await premiumCourseService.getA1Progress(userId);
+  // Get progress, SRS performance and mastery
   const performance = await premiumCourseServerService.getSRSPerformance(userId, filteredInteractions.map(i => i.interaction_id));
+  const mastery = await premiumCourseServerService.getUserMastery(userId);
   
-  // Use adaptive engine to generate global sequence (Duolingo-style)
-  const adaptiveQueue = AdaptiveEngine.generateGlobalSequence(
-    filteredInteractions,
+  // Use adaptive engine to generate smart sequence (Ultra-intelligent Duolingo-style)
+  const adaptiveQueue = AdaptiveEngine.generateSmartSequence(
+    filteredInteractions as any,
     performance,
-    completedIds,
-    20 // session length
+    mastery,
+    {
+      maxExercises: 20
+    }
   );
 
-  return <PracticeClient interactions={adaptiveQueue} />;
+  return <PracticeClient interactions={adaptiveQueue as any} />;
 }

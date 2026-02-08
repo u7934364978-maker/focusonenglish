@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une las bebidas con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Coffee", "right": "Café" },
-            { "id": "p2", "left": "Tea", "right": "Té" },
-            { "id": "p3", "left": "Water", "right": "Agua" },
-            { "id": "p4", "left": "Juice", "right": "Zumo" }
+            {
+              "id": "p1",
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p2",
+              "left": "Tea",
+              "right": "Té"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p4",
+              "left": "Juice",
+              "right": "Zumo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Leche'?",
           "options": [
-            { "id": "o1", "text": "Milk" },
-            { "id": "o2", "text": "Sugar" },
-            { "id": "o3", "text": "Juice" }
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Sugar"
+            },
+            {
+              "id": "o3",
+              "text": "Juice"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B1_I3",
@@ -49,7 +89,12 @@
           "prompt_es": "Completa la comida: 'S_ndw_ch'",
           "stimulus_en": "Sandwich",
           "correct_answer": "Sandwich",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B1_I4",
@@ -57,19 +102,45 @@
           "prompt_es": "¿Cómo se dice 'Azúcar'?",
           "stimulus_en": "Sugar",
           "correct_answer": "Azúcar",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B1_I5",
           "type": "matching",
           "prompt_es": "Une los snacks:",
           "pairs": [
-            { "id": "p1", "left": "Cake", "right": "Pastel" },
-            { "id": "p2", "left": "Cookie", "right": "Galleta" },
-            { "id": "p3", "left": "Fruit", "right": "Fruta" }
+            {
+              "id": "p1",
+              "left": "Cake",
+              "right": "Pastel"
+            },
+            {
+              "id": "p2",
+              "left": "Cookie",
+              "right": "Galleta"
+            },
+            {
+              "id": "p3",
+              "left": "Fruit",
+              "right": "Fruta"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -82,24 +153,56 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides educadamente un café?",
           "options": [
-            { "id": "o1", "text": "Can I have a coffee, please?" },
-            { "id": "o2", "text": "I want coffee now." },
-            { "id": "o3", "text": "Give me coffee." }
+            {
+              "id": "o1",
+              "text": "Can I have a coffee, please?"
+            },
+            {
+              "id": "o2",
+              "text": "I want coffee now."
+            },
+            {
+              "id": "o3",
+              "text": "Give me coffee."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Un té, por favor.'",
           "options": [
-            { "id": "w1", "text": "A" },
-            { "id": "w2", "text": "tea," },
-            { "id": "w3", "text": "please." }
+            {
+              "id": "w1",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "tea,"
+            },
+            {
+              "id": "w3",
+              "text": "please."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U16_B2_I3",
@@ -107,26 +210,50 @@
           "prompt_es": "Completa la petición: '¿Puedo tomar un zumo?'",
           "stimulus_en": "______ I have a juice?",
           "correct_answer": "Can",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U16_B2_I4",
           "type": "true_false",
           "prompt_es": "En inglés, es muy importante usar 'please' al pedir algo en un café.",
           "correct_answer": true,
-          "mastery_tag": "culture"
+          "mastery_tag": "culture",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "culture"
+          ]
         },
         {
           "interaction_id": "U16_B2_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'con leche'?",
           "options": [
-            { "id": "o1", "text": "With milk" },
-            { "id": "o2", "text": "In milk" },
-            { "id": "o3", "text": "Of milk" }
+            {
+              "id": "o1",
+              "text": "With milk"
+            },
+            {
+              "id": "o2",
+              "text": "In milk"
+            },
+            {
+              "id": "o3",
+              "text": "Of milk"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -139,28 +266,76 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas el precio de algo?",
           "options": [
-            { "id": "o1", "text": "How much is it?" },
-            { "id": "o2", "text": "What price have?" },
-            { "id": "o3", "text": "How many cost?" }
+            {
+              "id": "o1",
+              "text": "How much is it?"
+            },
+            {
+              "id": "o2",
+              "text": "What price have?"
+            },
+            {
+              "id": "o3",
+              "text": "How many cost?"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuánto cuesta la botella de agua?'",
           "options": [
-            { "id": "w1", "text": "How" },
-            { "id": "w2", "text": "much" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "bottle" },
-            { "id": "w6", "text": "of" },
-            { "id": "w7", "text": "water?" }
+            {
+              "id": "w1",
+              "text": "How"
+            },
+            {
+              "id": "w2",
+              "text": "much"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "bottle"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "water?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U16_B3_I3",
@@ -168,26 +343,57 @@
           "prompt_es": "Completa: 'Cuesta tres libras.'",
           "stimulus_en": "It is three __________.",
           "correct_answer": "pounds",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B3_I4",
           "type": "matching",
           "prompt_es": "Une los símbolos con su nombre:",
           "pairs": [
-            { "id": "p1", "left": "£", "right": "Pound" },
-            { "id": "p2", "left": "$", "right": "Dollar" },
-            { "id": "p3", "left": "€", "right": "Euro" }
+            {
+              "id": "p1",
+              "left": "£",
+              "right": "Pound"
+            },
+            {
+              "id": "p2",
+              "left": "$",
+              "right": "Dollar"
+            },
+            {
+              "id": "p3",
+              "left": "€",
+              "right": "Euro"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U16_B3_I5",
           "type": "true_false",
           "prompt_es": "¿'How much' se usa para cosas que no se pueden contar (como el dinero)?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -202,24 +408,52 @@
           "text": "Coffee: £2.50 | Tea: £2.00 | Sandwich: £4.50 | Cake: £3.00. Sarah wants a coffee and a piece of cake.",
           "question": "¿Cuánto debe pagar Sarah en total?",
           "options": [
-            { "id": "o1", "text": "£5.50" },
-            { "id": "o2", "text": "£7.50" },
-            { "id": "o3", "text": "£4.50" }
+            {
+              "id": "o1",
+              "text": "£5.50"
+            },
+            {
+              "id": "o2",
+              "text": "£7.50"
+            },
+            {
+              "id": "o3",
+              "text": "£4.50"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U16_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "Según el texto anterior, ¿qué es más barato?",
           "options": [
-            { "id": "o1", "text": "Tea" },
-            { "id": "o2", "text": "Coffee" },
-            { "id": "o3", "text": "Cake" }
+            {
+              "id": "o1",
+              "text": "Tea"
+            },
+            {
+              "id": "o2",
+              "text": "Coffee"
+            },
+            {
+              "id": "o3",
+              "text": "Cake"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U16_B4_I3",
@@ -228,20 +462,47 @@
           "stimulus_es": "¿Puedo tomar un sándwich, por favor?",
           "correct_answer": "Can I have a sandwich please",
           "validation_regex": "^can i have a sandwich,? please\\.?$",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U16_B4_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la respuesta: 'Cuesta dos euros.'",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "two" },
-            { "id": "w4", "text": "euros." }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "two"
+            },
+            {
+              "id": "w4",
+              "text": "euros."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U16_B4_I5",
@@ -249,7 +510,12 @@
           "prompt_es": "¿Cómo se dice 'La cuenta, por favor'?",
           "stimulus_en": "The bill, please",
           "correct_answer": "La cuenta, por favor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

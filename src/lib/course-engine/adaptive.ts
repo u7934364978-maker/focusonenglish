@@ -14,6 +14,11 @@ export interface UserPerformanceRecord {
   iterations: number;
 }
 
+export interface MasteryRecord {
+  concept_tag: string;
+  mastery_score: number;
+}
+
 export class AdaptiveEngine {
   /**
    * Generates a sequence of exercises based on user history and unit content.
@@ -46,12 +51,6 @@ export class AdaptiveEngine {
 
     // Items never seen before
     const newItems = allInteractions.filter(item => !performanceMap.has(item.interaction_id));
-
-    // Items already mastered and not due
-    const masteredItems = allInteractions.filter(item => {
-      const perf = performanceMap.get(item.interaction_id);
-      return perf && new Date(perf.next_review_at) > now && perf.quality >= 3;
-    });
 
     // 3. Build the sequence based on quotas
     let sequence: Interaction[] = [];
@@ -92,6 +91,83 @@ export class AdaptiveEngine {
   }
 
   /**
+   * Ultra-intelligent Smart Path generator.
+   * Considers mastery of concepts and complexity scaffolding.
+   */
+  static generateSmartSequence(
+    allAvailableInteractions: Interaction[],
+    performance: UserPerformanceRecord[],
+    mastery: MasteryRecord[],
+    options: AdaptiveSessionOptions = {}
+  ): Interaction[] {
+    const {
+      maxExercises = 15,
+      reviewPriority = 0.3, // Smart Path focuses slightly more on progression
+    } = options;
+
+    const now = new Date();
+    const performanceMap = new Map(performance.map(p => [p.interaction_id, p]));
+    const masteryMap = new Map(mastery.map(m => [m.concept_tag, m.mastery_score]));
+
+    // 1. Helper to get average mastery for an interaction's tags
+    const getInteractionMastery = (item: Interaction) => {
+      if (!item.concept_tags || item.concept_tags.length === 0) return 0.5;
+      const scores = item.concept_tags.map(tag => masteryMap.get(tag) || 0);
+      return scores.reduce((a, b) => a + b, 0) / scores.length;
+    };
+
+    // 2. Filter interactions by Scaffolding logic
+    const eligibleInteractions = allAvailableInteractions.filter(item => {
+      const avgMastery = getInteractionMastery(item);
+      const complexity = item.complexity || 1;
+
+      // Logic: Don't show high complexity if mastery is low
+      // Complexity 1: Always show
+      // Complexity 2: Needs > 0.3 mastery
+      // Complexity 3: Needs > 0.5 mastery
+      // Complexity 4: Needs > 0.7 mastery
+      if (complexity === 2 && avgMastery < 0.3) return false;
+      if (complexity === 3 && avgMastery < 0.5) return false;
+      if (complexity === 4 && avgMastery < 0.7) return false;
+
+      return true;
+    });
+
+    // 3. Separate into Review, New, and Reinforcement
+    const reviewItems = eligibleInteractions.filter(item => {
+      const perf = performanceMap.get(item.interaction_id);
+      return perf && (new Date(perf.next_review_at) <= now || perf.quality < 3);
+    });
+
+    const newItems = eligibleInteractions.filter(item => !performanceMap.has(item.interaction_id));
+
+    // 4. Select sequence
+    let sequence: Interaction[] = [];
+    
+    // Priority 1: Due reviews (SRS)
+    const reviewQuota = Math.min(reviewItems.length, Math.ceil(maxExercises * reviewPriority));
+    const sortedReviews = [...reviewItems].sort((a, b) => {
+      const perfA = performanceMap.get(a.interaction_id)!;
+      const perfB = performanceMap.get(b.interaction_id)!;
+      return perfA.quality - perfB.quality;
+    });
+    sequence.push(...sortedReviews.slice(0, reviewQuota));
+
+    // Priority 2: New items that follow complexity progression
+    const remainingCount = maxExercises - sequence.length;
+    const sortedNew = [...newItems].sort((a, b) => {
+      // Prioritize lower complexity first (Scaffolding)
+      if (a.complexity !== b.complexity) return (a.complexity || 1) - (b.complexity || 1);
+      // Then prioritize by mastery (lowest first to bridge gaps)
+      return getInteractionMastery(a) - getInteractionMastery(b);
+    });
+    sequence.push(...sortedNew.slice(0, remainingCount));
+
+    // 5. Organic Shuffle
+    return sequence.sort(() => Math.random() - 0.5);
+  }
+
+  /**
    * Generates a sequence from a flat list of interactions (e.g., across multiple units).
    */
   static generateGlobalSequence(
@@ -101,14 +177,13 @@ export class AdaptiveEngine {
   ): Interaction[] {
     const {
       maxExercises = 15,
-      reviewPriority = 0.5, // Global practice usually prioritizes reviews
+      reviewPriority = 0.5,
       shuffleNew = true
     } = options;
 
     const now = new Date();
     const performanceMap = new Map(performance.map(p => [p.interaction_id, p]));
     
-    // 1. Identify items by status
     const reviewItems = interactions.filter(item => {
       const perf = performanceMap.get(item.interaction_id);
       if (!perf) return false;
@@ -117,7 +192,6 @@ export class AdaptiveEngine {
 
     const newItems = interactions.filter(item => !performanceMap.has(item.interaction_id));
 
-    // 2. build sequence
     let sequence: Interaction[] = [];
     const reviewQuota = Math.min(reviewItems.length, Math.ceil(maxExercises * reviewPriority));
     const newQuota = Math.min(newItems.length, maxExercises - reviewQuota);
@@ -125,8 +199,7 @@ export class AdaptiveEngine {
     const sortedReviews = [...reviewItems].sort((a, b) => {
       const perfA = performanceMap.get(a.interaction_id)!;
       const perfB = performanceMap.get(b.interaction_id)!;
-      if (perfA.quality !== perfB.quality) return perfA.quality - perfB.quality;
-      return new Date(perfA.next_review_at).getTime() - new Date(perfB.next_review_at).getTime();
+      return perfA.quality - perfB.quality;
     });
 
     sequence.push(...sortedReviews.slice(0, reviewQuota));
@@ -135,7 +208,6 @@ export class AdaptiveEngine {
     if (shuffleNew) candidateNew = candidateNew.sort(() => Math.random() - 0.5);
     sequence.push(...candidateNew.slice(0, newQuota));
 
-    // Fill remaining
     if (sequence.length < Math.min(maxExercises, interactions.length)) {
       const usedIds = new Set(sequence.map(s => s.interaction_id));
       const remaining = interactions
@@ -158,7 +230,7 @@ export class AdaptiveEngine {
   ): Partial<UserPerformanceRecord> {
     let iterations = current?.iterations || 0;
     let interval = 1;
-    let easinessFactor = 2.5; // Default EF
+    let easinessFactor = 2.5;
 
     if (quality >= 3) {
       if (iterations === 0) {
@@ -166,9 +238,6 @@ export class AdaptiveEngine {
       } else if (iterations === 1) {
         interval = 6;
       } else {
-        // We don't store interval in UserPerformanceRecord yet, 
-        // but we can derive it from last and next review or iterations
-        // For simplicity in this first version, we'll use iterations-based growth
         interval = Math.ceil(iterations * easinessFactor);
       }
       iterations++;

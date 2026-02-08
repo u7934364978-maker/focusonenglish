@@ -89,5 +89,16 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] **Task 5.5**: Audit and improve Inglés A1 (Units 51-60).
   - [x] Units 51-60 completed.
   - *Verification*: Full curriculum audit for A1 completed.
-- [in_progress] **Task 5.6**: Extend review to other courses (Work, Travel, Exams).
+- [x] **Task 5.6**: Extend review to other courses (Work, Travel, Exams).
+  - [x] All courses reviewed and standardized via CourseEngine.
   - *Verification*: All repository exercises pass senior teacher audit.
+
+#### Phase 6: Smart Path & Ultra-Intelligent Algorithm
+- [x] **Task 6.1**: Update `Exercise` schema to include `complexity` (1-4) and `concept_tags`.
+  - *Verification*: `src/lib/course-engine/schema.ts` updated and A1 content tagged.
+- [x] **Task 6.2**: Implement `MasteryEngine` to track user proficiency per concept tag in Supabase.
+  - *Verification*: `20260208_user_mastery.sql` migration and `update_concept_mastery` RPC implemented.
+- [x] **Task 6.3**: Create `SmartSessionGenerator` that selects exercises based on Scaffolding, Spaced Repetition, and Concept Progression.
+  - *Verification*: `AdaptiveEngine.generateSmartSequence` implemented and integrated.
+- [x] **Task 6.4**: UI Overhaul: Replace Unit Grid with "Learning Path" view and a "Start Learning" button.
+  - *Verification*: `src/app/curso/ingles-a1/page.tsx` updated with the new personalized Smart Path experience.

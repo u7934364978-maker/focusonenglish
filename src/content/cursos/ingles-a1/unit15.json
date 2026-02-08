@@ -23,12 +23,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Él trabaja en un banco'?",
           "options": [
-            { "id": "o1", "text": "He work in a bank" },
-            { "id": "o2", "text": "He works in a bank" },
-            { "id": "o3", "text": "He working in a bank" }
+            {
+              "id": "o1",
+              "text": "He work in a bank"
+            },
+            {
+              "id": "o2",
+              "text": "He works in a bank"
+            },
+            {
+              "id": "o3",
+              "text": "He working in a bank"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B1_I2",
@@ -36,20 +50,47 @@
           "prompt_es": "Completa con el verbo 'like' en la forma correcta:",
           "stimulus_en": "She ___ Italian food.",
           "correct_answer": "likes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "brother" },
-            { "id": "w3", "text": "speaks" },
-            { "id": "w4", "text": "French." }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "brother"
+            },
+            {
+              "id": "w3",
+              "text": "speaks"
+            },
+            {
+              "id": "w4",
+              "text": "French."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U15_B1_I4",
@@ -57,19 +98,45 @@
           "prompt_es": "¿Es correcto decir 'She live in Paris'?",
           "correct_answer": false,
           "explanation": "Debemos añadir una 's' en tercera persona: 'She lives in Paris'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B1_I5",
           "type": "matching",
           "prompt_es": "Une el sujeto con el verbo correcto:",
           "pairs": [
-            { "id": "p1", "left": "He", "right": "works" },
-            { "id": "p2", "left": "I", "right": "work" },
-            { "id": "p3", "left": "They", "right": "work" }
+            {
+              "id": "p1",
+              "left": "He",
+              "right": "works"
+            },
+            {
+              "id": "p2",
+              "left": "I",
+              "right": "work"
+            },
+            {
+              "id": "p3",
+              "left": "They",
+              "right": "work"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -82,28 +149,84 @@
           "type": "matching",
           "prompt_es": "Une el infinitivo con su forma en tercera persona:",
           "pairs": [
-            { "id": "p1", "left": "Go", "right": "Goes" },
-            { "id": "p2", "left": "Study", "right": "Studies" },
-            { "id": "p3", "left": "Watch", "right": "Watches" },
-            { "id": "p4", "left": "Finish", "right": "Finishes" }
+            {
+              "id": "p1",
+              "left": "Go",
+              "right": "Goes"
+            },
+            {
+              "id": "p2",
+              "left": "Study",
+              "right": "Studies"
+            },
+            {
+              "id": "p3",
+              "left": "Watch",
+              "right": "Watches"
+            },
+            {
+              "id": "p4",
+              "left": "Finish",
+              "right": "Finishes"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U15_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "sister" },
-            { "id": "w3", "text": "studies" },
-            { "id": "w4", "text": "English" },
-            { "id": "w5", "text": "every" },
-            { "id": "w6", "text": "night." }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "sister"
+            },
+            {
+              "id": "w3",
+              "text": "studies"
+            },
+            {
+              "id": "w4",
+              "text": "English"
+            },
+            {
+              "id": "w5",
+              "text": "every"
+            },
+            {
+              "id": "w6",
+              "text": "night."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U15_B2_I3",
@@ -111,19 +234,38 @@
           "prompt_es": "Completa: 'Él ve la televisión.'",
           "stimulus_en": "He ______ TV every evening.",
           "correct_answer": "watches",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el verbo 'Finish' en tercera persona?",
           "options": [
-            { "id": "o1", "text": "Finishes" },
-            { "id": "o2", "text": "Finishs" },
-            { "id": "o3", "text": "Finishess" }
+            {
+              "id": "o1",
+              "text": "Finishes"
+            },
+            {
+              "id": "o2",
+              "text": "Finishs"
+            },
+            {
+              "id": "o3",
+              "text": "Finishess"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U15_B2_I5",
@@ -131,7 +273,12 @@
           "prompt_es": "¿Cómo cambia el verbo 'Fly' (volar) para 'It'?",
           "stimulus_en": "Flies",
           "correct_answer": "Flies",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -144,20 +291,39 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa correcta?",
           "options": [
-            { "id": "o1", "text": "He doesn't likes coffee" },
-            { "id": "o2", "text": "He doesn't like coffee" },
-            { "id": "o3", "text": "He don't like coffee" }
+            {
+              "id": "o1",
+              "text": "He doesn't likes coffee"
+            },
+            {
+              "id": "o2",
+              "text": "He doesn't like coffee"
+            },
+            {
+              "id": "o3",
+              "text": "He don't like coffee"
+            }
           ],
           "correct_answer": "o2",
           "explanation": "Cuando usamos 'doesn't', el verbo principal vuelve a su forma base (sin 's').",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B3_I2",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'It doesn't rain in summer'?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B3_I3",
@@ -165,22 +331,57 @@
           "prompt_es": "Usa la forma negativa: 'Ella no come carne.'",
           "stimulus_en": "She ______ eat meat.",
           "correct_answer": "doesn't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U15_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "doesn't" },
-            { "id": "w3", "text": "speak" },
-            { "id": "w4", "text": "Spanish" },
-            { "id": "w5", "text": "very" },
-            { "id": "w6", "text": "well." }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "doesn't"
+            },
+            {
+              "id": "w3",
+              "text": "speak"
+            },
+            {
+              "id": "w4",
+              "text": "Spanish"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "well."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U15_B3_I5",
@@ -189,7 +390,12 @@
           "stimulus_es": "Él no trabaja aquí.",
           "correct_answer": "He doesn't work here",
           "validation_regex": "^he doesn't work here\\.?$",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -204,24 +410,52 @@
           "text": "David is my best friend. He lives in Paris. He works in a museum. He goes to work by bike every morning. He doesn't like the metro. In the evening, he watches TV.",
           "question": "Where does David live?",
           "options": [
-            { "id": "o1", "text": "In Paris" },
-            { "id": "o2", "text": "In London" },
-            { "id": "o3", "text": "In a museum" }
+            {
+              "id": "o1",
+              "text": "In Paris"
+            },
+            {
+              "id": "o2",
+              "text": "In London"
+            },
+            {
+              "id": "o3",
+              "text": "In a museum"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U15_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo va David a trabajar?",
           "options": [
-            { "id": "o1", "text": "By bike" },
-            { "id": "o2", "text": "By metro" },
-            { "id": "o3", "text": "By car" }
+            {
+              "id": "o1",
+              "text": "By bike"
+            },
+            {
+              "id": "o2",
+              "text": "By metro"
+            },
+            {
+              "id": "o3",
+              "text": "By car"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U15_B4_I3",
@@ -230,7 +464,12 @@
           "stimulus_es": "Él no utiliza el metro.",
           "correct_answer": "He doesn't like the metro",
           "validation_regex": "^he doesn't (like|use) the metro\\.?$",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U15_B4_I4",
@@ -238,7 +477,12 @@
           "prompt_es": "David ve la televisión por la tarde/noche.",
           "correct_answer": true,
           "explanation": "El texto dice: 'In the evening, he watches TV'.",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U15_B4_I5",
@@ -246,7 +490,12 @@
           "prompt_es": "Completa con el texto: 'Él ______ en un museo.'",
           "stimulus_en": "He ______ in a museum.",
           "correct_answer": "works",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

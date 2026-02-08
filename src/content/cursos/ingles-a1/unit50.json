@@ -23,25 +23,65 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde muestras tu pasaporte?",
           "options": [
-            { "id": "o1", "text": "At the airport" },
-            { "id": "o2", "text": "In the park" },
-            { "id": "o3", "text": "At the supermarket" }
+            {
+              "id": "o1",
+              "text": "At the airport"
+            },
+            {
+              "id": "o2",
+              "text": "In the park"
+            },
+            {
+              "id": "o3",
+              "text": "At the supermarket"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b1_i2",
           "type": "matching",
           "prompt_es": "Une el transporte con la preposición correcta:",
           "pairs": [
-            { "id": "p1", "left": "By", "right": "train" },
-            { "id": "p2", "left": "On", "right": "foot" },
-            { "id": "p3", "left": "By", "right": "plane" },
-            { "id": "p4", "left": "On the", "right": "bus" }
+            {
+              "id": "p1",
+              "left": "By",
+              "right": "train"
+            },
+            {
+              "id": "p2",
+              "left": "On",
+              "right": "foot"
+            },
+            {
+              "id": "p3",
+              "left": "By",
+              "right": "plane"
+            },
+            {
+              "id": "p4",
+              "left": "On the",
+              "right": "bus"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b1_i3",
@@ -49,7 +89,12 @@
           "prompt_es": "Completa: 'Voy al trabajo en coche'",
           "stimulus_en": "I go to work ________ car.",
           "correct_answer": "by",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b1_i4",
@@ -57,7 +102,12 @@
           "prompt_es": "Escribe 'tarjeta de embarque' en inglés:",
           "stimulus_es": "Tarjeta de embarque",
           "correct_answer": "Boarding pass",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b1_i5",
@@ -65,7 +115,12 @@
           "prompt_es": "Escucha y verifica:",
           "audioUrl": "/audio/courses/ingles-a1/shared/airport_transport.mp3",
           "text": "I go to the airport by taxi. I have my passport and my boarding pass.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -78,12 +133,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides una habitación educadamente?",
           "options": [
-            { "id": "o1", "text": "I would like a room, please." },
-            { "id": "o2", "text": "I want room." },
-            { "id": "o3", "text": "Give me room." }
+            {
+              "id": "o1",
+              "text": "I would like a room, please."
+            },
+            {
+              "id": "o2",
+              "text": "I want room."
+            },
+            {
+              "id": "o3",
+              "text": "Give me room."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b2_i2",
@@ -91,33 +160,86 @@
           "prompt_es": "Completa la pregunta en el hotel:",
           "stimulus_en": "Is ________ wifi in the room?",
           "correct_answer": "there",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b2_i3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Aquí está su llave'",
           "options": [
-            { "id": "w1", "text": "Here" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "key" }
+            {
+              "id": "w1",
+              "text": "Here"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "key"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u50_b2_i4",
           "type": "matching",
           "prompt_es": "Une las frases del hotel:",
           "pairs": [
-            { "id": "p1", "left": "Check", "right": "in" },
-            { "id": "p2", "left": "Single", "right": "room" },
-            { "id": "p3", "left": "Double", "right": "room" },
-            { "id": "p4", "left": "Room", "right": "service" }
+            {
+              "id": "p1",
+              "left": "Check",
+              "right": "in"
+            },
+            {
+              "id": "p2",
+              "left": "Single",
+              "right": "room"
+            },
+            {
+              "id": "p3",
+              "left": "Double",
+              "right": "room"
+            },
+            {
+              "id": "p4",
+              "left": "Room",
+              "right": "service"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b2_i5",
@@ -125,7 +247,12 @@
           "prompt_es": "Escucha la conversación en recepción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/hotel_checkin_review.mp3",
           "text": "Hello, I would like to check in. I have a reservation for a double room.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -141,28 +268,57 @@
             {
               "id": "seasons",
               "title": "Seasons",
-              "items": ["Summer", "Winter", "Spring", "Autumn"]
+              "items": [
+                "Summer",
+                "Winter",
+                "Spring",
+                "Autumn"
+              ]
             },
             {
               "id": "weather",
               "title": "Weather",
-              "items": ["Sunny", "Rainy", "Cloudy", "Snowy"]
+              "items": [
+                "Sunny",
+                "Rainy",
+                "Cloudy",
+                "Snowy"
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b3_i2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces en tus vacaciones?",
           "options": [
-            { "id": "o1", "text": "I go sightseeing." },
-            { "id": "o2", "text": "I go to the office." },
-            { "id": "o3", "text": "I do my homework." }
+            {
+              "id": "o1",
+              "text": "I go sightseeing."
+            },
+            {
+              "id": "o2",
+              "text": "I go to the office."
+            },
+            {
+              "id": "o3",
+              "text": "I do my homework."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b3_i3",
@@ -170,14 +326,24 @@
           "prompt_es": "Completa con el verbo correcto: 'Me encanta viajar'",
           "stimulus_en": "I love ________.",
           "correct_answer": "travelling",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b3_i4",
           "type": "true_false",
           "prompt_es": "En invierno, normalmente hace calor (hot).",
           "correct_answer": false,
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b3_i5",
@@ -185,7 +351,12 @@
           "prompt_es": "Escucha sobre las vacaciones:",
           "audioUrl": "/audio/courses/ingles-a1/shared/holiday_weather_review.mp3",
           "text": "In summer, I love going to the beach. It is sunny and hot.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -200,12 +371,26 @@
           "text": "Every summer, I go to Spain by plane. I stay in a hotel near the beach. I pack my swimsuit and sunscreen. It is very sunny and I love swimming in the sea. I also go sightseeing in the city.",
           "question": "How does this person travel to Spain?",
           "options": [
-            { "id": "o1", "text": "By plane" },
-            { "id": "o2", "text": "By train" },
-            { "id": "o3", "text": "By car" }
+            {
+              "id": "o1",
+              "text": "By plane"
+            },
+            {
+              "id": "o2",
+              "text": "By train"
+            },
+            {
+              "id": "o3",
+              "text": "By car"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "u50_b4_i2",
@@ -213,19 +398,38 @@
           "prompt_es": "Describe el clima de hoy (e.g. It is sunny):",
           "stimulus_es": "Hoy está soleado.",
           "correct_answer": "It is sunny today",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b4_i3",
           "type": "multiple_choice",
           "prompt_es": "¿Qué objeto es indispensable para cargar tu móvil en otro país?",
           "options": [
-            { "id": "o1", "text": "An adapter" },
-            { "id": "o2", "text": "A suitcase" },
-            { "id": "o3", "text": "A swimsuit" }
+            {
+              "id": "o1",
+              "text": "An adapter"
+            },
+            {
+              "id": "o2",
+              "text": "A suitcase"
+            },
+            {
+              "id": "o3",
+              "text": "A swimsuit"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u50_b4_i4",
@@ -233,7 +437,12 @@
           "prompt_es": "Completa: 'No olvides tu pasaporte'",
           "stimulus_en": "Don't ________ your passport.",
           "correct_answer": "forget",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u50_b4_i5",
@@ -241,7 +450,12 @@
           "prompt_es": "Escucha el mensaje final del módulo:",
           "audioUrl": "/audio/courses/ingles-a1/shared/module5_complete.mp3",
           "text": "Congratulations! You completed Module 5. You can now talk about travel, places, and weather in English.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     }

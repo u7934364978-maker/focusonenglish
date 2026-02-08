@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja los medios de transporte:",
           "pairs": [
-            { "id": "p1", "left": "Train", "right": "Tren" },
-            { "id": "p2", "left": "Bus", "right": "Autobús" },
-            { "id": "p3", "left": "Plane", "right": "Avión" },
-            { "id": "p4", "left": "Boat", "right": "Barco" }
+            {
+              "id": "p1",
+              "left": "Train",
+              "right": "Tren"
+            },
+            {
+              "id": "p2",
+              "left": "Bus",
+              "right": "Autobús"
+            },
+            {
+              "id": "p3",
+              "left": "Plane",
+              "right": "Avión"
+            },
+            {
+              "id": "p4",
+              "left": "Boat",
+              "right": "Barco"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U42_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde esperas el tren?",
           "options": [
-            { "id": "o1", "text": "Platform" },
-            { "id": "o2", "text": "Kitchen" },
-            { "id": "o3", "text": "Park" }
+            {
+              "id": "o1",
+              "text": "Platform"
+            },
+            {
+              "id": "o2",
+              "text": "Kitchen"
+            },
+            {
+              "id": "o3",
+              "text": "Park"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U42_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa el lugar:",
           "stimulus_en": "I buy my ticket at the bus ________. (estación)",
           "correct_answer": "station",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U42_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Bicicleta'",
           "stimulus_es": "Bicicleta",
           "correct_answer": "Bicycle",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U42_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de transporte:",
           "stimulus_en": "Taxi",
           "correct_answer": "Taxi",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "I go to London ________ train.",
           "options": [
-            { "id": "o1", "text": "by" },
-            { "id": "o2", "text": "in" },
-            { "id": "o3", "text": "on" }
+            {
+              "id": "o1",
+              "text": "by"
+            },
+            {
+              "id": "o2",
+              "text": "in"
+            },
+            {
+              "id": "o3",
+              "text": "on"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U42_I7",
@@ -90,25 +159,46 @@
           "prompt_es": "Completa con la preposición (on/at):",
           "stimulus_en": "Wait for me ________ the station.",
           "correct_answer": "at",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U42_I8",
           "type": "true_false",
           "prompt_es": "¿Es natural decir 'I am on the bus'?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U42_I9",
           "type": "multiple_choice",
           "prompt_es": "How ________ you go to school?",
           "options": [
-            { "id": "o1", "text": "do" },
-            { "id": "o2", "text": "does" }
+            {
+              "id": "o1",
+              "text": "do"
+            },
+            {
+              "id": "o2",
+              "text": "does"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U42_I10",
@@ -116,7 +206,12 @@
           "prompt_es": "Completa la frase:",
           "stimulus_en": "The train ________ at 9:00 AM. (sale)",
           "correct_answer": "leaves",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -129,26 +224,66 @@
           "type": "reorder_words",
           "prompt_es": "Compra un billete:",
           "options": [
-            { "id": "w1", "text": "A" },
-            { "id": "w2", "text": "ticket" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "Oxford," },
-            { "id": "w5", "text": "please." }
+            {
+              "id": "w1",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "ticket"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "Oxford,"
+            },
+            {
+              "id": "w5",
+              "text": "please."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U42_I12",
           "type": "multiple_choice",
           "prompt_es": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
           "options": [
-            { "id": "o1", "text": "The bus is late." },
-            { "id": "o2", "text": "The bus is on time." },
-            { "id": "o3", "text": "The bus is fast." }
+            {
+              "id": "o1",
+              "text": "The bus is late."
+            },
+            {
+              "id": "o2",
+              "text": "The bus is on time."
+            },
+            {
+              "id": "o3",
+              "text": "The bus is fast."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U42_I13",
@@ -156,7 +291,12 @@
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "correct_answer": "number",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U42_I14",
@@ -164,14 +304,24 @@
           "prompt_es": "Traduce: 'Voy en coche'",
           "stimulus_es": "Voy en coche",
           "correct_answer": "I go by car",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U42_I15",
           "type": "true_false",
           "prompt_es": "Trains leave from a station.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -185,7 +335,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
           "text": "The train is at platform two.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U42_I17",
@@ -194,12 +349,26 @@
           "text": "David lives in Brighton but works in London. Every morning, he goes to the station at 7:30. He travels by train. The journey is one hour. He usually reads a book on the train. He arrives at work at 9:00.",
           "question": "How does David go to London?",
           "options": [
-            { "id": "o1", "text": "By train" },
-            { "id": "o2", "text": "By bus" },
-            { "id": "o3", "text": "By car" }
+            {
+              "id": "o1",
+              "text": "By train"
+            },
+            {
+              "id": "o2",
+              "text": "By bus"
+            },
+            {
+              "id": "o3",
+              "text": "By car"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U42_I18",
@@ -208,12 +377,26 @@
           "text": "David lives in Brighton but works in London. Every morning, he goes to the station at 7:30. He travels by train. The journey is one hour. He usually reads a book on the train. He arrives at work at 9:00.",
           "question": "What time does he go to the station?",
           "options": [
-            { "id": "o1", "text": "Seven thirty" },
-            { "id": "o2", "text": "Nine o'clock" },
-            { "id": "o3", "text": "Eight o'clock" }
+            {
+              "id": "o1",
+              "text": "Seven thirty"
+            },
+            {
+              "id": "o2",
+              "text": "Nine o'clock"
+            },
+            {
+              "id": "o3",
+              "text": "Eight o'clock"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U42_I19",
@@ -221,19 +404,38 @@
           "prompt_es": "Escucha el anuncio:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "The next bus is in ten minutes.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U42_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace David en el tren?",
           "options": [
-            { "id": "o1", "text": "Reads a book" },
-            { "id": "o2", "text": "Sleeps" },
-            { "id": "o3", "text": "Eats breakfast" }
+            {
+              "id": "o1",
+              "text": "Reads a book"
+            },
+            {
+              "id": "o2",
+              "text": "Sleeps"
+            },
+            {
+              "id": "o3",
+              "text": "Eats breakfast"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

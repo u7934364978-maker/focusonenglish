@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une las comidas con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Breakfast", "right": "Desayuno" },
-            { "id": "p2", "left": "Lunch", "right": "Almuerzo/Comida" },
-            { "id": "p3", "left": "Dinner", "right": "Cena" },
-            { "id": "p4", "left": "Snack", "right": "Merienda/Tentempié" }
+            {
+              "id": "p1",
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p2",
+              "left": "Lunch",
+              "right": "Almuerzo/Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Dinner",
+              "right": "Cena"
+            },
+            {
+              "id": "p4",
+              "left": "Snack",
+              "right": "Merienda/Tentempié"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U17_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
-            { "id": "o1", "text": "Bread" },
-            { "id": "o2", "text": "Butter" },
-            { "id": "o3", "text": "Cheese" }
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Butter"
+            },
+            {
+              "id": "o3",
+              "text": "Cheese"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U17_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Estudia este vocabulario de desayuno:",
           "stimulus_en": "Eggs and Bacon",
           "correct_answer": "Huevos con beicon",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U17_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es una bebida?",
           "options": [
-            { "id": "o1", "text": "Rice" },
-            { "id": "o2", "text": "Orange juice" },
-            { "id": "o3", "text": "Chicken" }
+            {
+              "id": "o1",
+              "text": "Rice"
+            },
+            {
+              "id": "o2",
+              "text": "Orange juice"
+            },
+            {
+              "id": "o3",
+              "text": "Chicken"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U17_B1_I5",
           "type": "matching",
           "prompt_es": "Vocabulario de cena y comida:",
           "pairs": [
-            { "id": "p1", "left": "Fish", "right": "Pescado" },
-            { "id": "p2", "left": "Meat", "right": "Carne" },
-            { "id": "p3", "left": "Vegetables", "right": "Verduras" },
-            { "id": "p4", "left": "Soup", "right": "Sopa" }
+            {
+              "id": "p1",
+              "left": "Fish",
+              "right": "Pescado"
+            },
+            {
+              "id": "p2",
+              "left": "Meat",
+              "right": "Carne"
+            },
+            {
+              "id": "p3",
+              "left": "Vegetables",
+              "right": "Verduras"
+            },
+            {
+              "id": "p4",
+              "left": "Soup",
+              "right": "Sopa"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -88,19 +173,38 @@
           "prompt_es": "Completa con el verbo correcto (eat/drink):",
           "stimulus_en": "I ________ water every morning.",
           "correct_answer": "drink",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U17_B2_I7",
           "type": "multiple_choice",
           "prompt_es": "En inglés, para las comidas solemos usar 'have'. 'I have breakfast' significa:",
           "options": [
-            { "id": "o1", "text": "Yo tengo desayuno" },
-            { "id": "o2", "text": "Yo desayuno" },
-            { "id": "o3", "text": "Yo quiero desayuno" }
+            {
+              "id": "o1",
+              "text": "Yo tengo desayuno"
+            },
+            {
+              "id": "o2",
+              "text": "Yo desayuno"
+            },
+            {
+              "id": "o3",
+              "text": "Yo quiero desayuno"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U17_B2_I8",
@@ -108,26 +212,50 @@
           "prompt_es": "Completa (Present Simple):",
           "stimulus_en": "She ________ (have) lunch at 1:00 PM.",
           "correct_answer": "has",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U17_B2_I9",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'I eat coffee'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U17_B2_I10",
           "type": "multiple_choice",
           "prompt_es": "Para decir 'algo de/un poco de' usamos 'some'. 'I want some milk' es:",
           "options": [
-            { "id": "o1", "text": "Quiero nada de leche" },
-            { "id": "o2", "text": "Quiero mucha leche" },
-            { "id": "o3", "text": "Quiero un poco de leche" }
+            {
+              "id": "o1",
+              "text": "Quiero nada de leche"
+            },
+            {
+              "id": "o2",
+              "text": "Quiero mucha leche"
+            },
+            {
+              "id": "o3",
+              "text": "Quiero un poco de leche"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -140,29 +268,85 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Yo desayuno a las 7'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "breakfast" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "7" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "breakfast"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "7"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U17_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Pregunta: '¿Qué quieres para comer?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "do" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "want" },
-            { "id": "w5", "text": "for" },
-            { "id": "w6", "text": "lunch?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "do"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "want"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w6",
+              "text": "lunch?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U17_B3_I13",
@@ -170,7 +354,12 @@
           "prompt_es": "Traduce: 'Ella bebe té'",
           "stimulus_en": "She drinks tea",
           "correct_answer": "She drinks tea",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U17_B3_I14",
@@ -178,21 +367,52 @@
           "prompt_es": "Completa la negación:",
           "stimulus_en": "He ________ not eat meat.",
           "correct_answer": "does",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U17_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros cenamos pescado'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "fish" },
-            { "id": "w4", "text": "for" },
-            { "id": "w5", "text": "dinner" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "fish"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "dinner"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -207,24 +427,52 @@
           "text": "For breakfast, I have cereal and fruit. For lunch, I usually have a salad or a sandwich. In the evening, I have dinner with my family. We often eat chicken and vegetables.",
           "question": "¿Qué suele comer para el almuerzo (lunch)?",
           "options": [
-            { "id": "o1", "text": "Cereal" },
-            { "id": "o2", "text": "Salad or sandwich" },
-            { "id": "o3", "text": "Chicken" }
+            {
+              "id": "o1",
+              "text": "Cereal"
+            },
+            {
+              "id": "o2",
+              "text": "Salad or sandwich"
+            },
+            {
+              "id": "o3",
+              "text": "Chicken"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U17_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿con quién cena (dinner)?",
           "options": [
-            { "id": "o1", "text": "With friends" },
-            { "id": "o2", "text": "Alone" },
-            { "id": "o3", "text": "With family" }
+            {
+              "id": "o1",
+              "text": "With friends"
+            },
+            {
+              "id": "o2",
+              "text": "Alone"
+            },
+            {
+              "id": "o3",
+              "text": "With family"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U17_B4_I18",
@@ -232,7 +480,12 @@
           "prompt_es": "Responde en inglés: 'Do you like pizza?'",
           "stimulus_es": "Sí, me gusta la pizza",
           "correct_answer": "Yes, I like pizza",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U17_B4_I19",
@@ -240,18 +493,44 @@
           "prompt_es": "Escucha y escribe la palabra que falta:",
           "audioUrl": "/audio/courses/ingles-a1/shared/4dc684fbfa925e9270ed63a1494f7271.mp3",
           "text": "He likes eggs and toast.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U17_B4_I20",
           "type": "categorization",
           "prompt_es": "Clasifica en Comida o Bebida:",
           "categories": [
-            { "id": "c1", "title": "Food", "items": ["Bread", "Cheese", "Apple"] },
-            { "id": "c2", "title": "Drink", "items": ["Water", "Milk", "Coffee"] }
+            {
+              "id": "c1",
+              "title": "Food",
+              "items": [
+                "Bread",
+                "Cheese",
+                "Apple"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Drink",
+              "items": [
+                "Water",
+                "Milk",
+                "Coffee"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

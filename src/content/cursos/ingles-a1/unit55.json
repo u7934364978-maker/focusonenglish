@@ -23,25 +23,65 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde te pruebas la ropa?",
           "options": [
-            { "id": "o1", "text": "In the fitting room" },
-            { "id": "o2", "text": "In the kitchen" },
-            { "id": "o3", "text": "At the checkout" }
+            {
+              "id": "o1",
+              "text": "In the fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "In the kitchen"
+            },
+            {
+              "id": "o3",
+              "text": "At the checkout"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b1_i2",
           "type": "matching",
           "prompt_es": "Une los términos de la tienda:",
           "pairs": [
-            { "id": "p1", "left": "Shop assistant", "right": "Dependiente/a" },
-            { "id": "p2", "left": "Customer", "right": "Cliente" },
-            { "id": "p3", "left": "Price tag", "right": "Etiqueta" },
-            { "id": "p4", "left": "Sale", "right": "Rebajas" }
+            {
+              "id": "p1",
+              "left": "Shop assistant",
+              "right": "Dependiente/a"
+            },
+            {
+              "id": "p2",
+              "left": "Customer",
+              "right": "Cliente"
+            },
+            {
+              "id": "p3",
+              "left": "Price tag",
+              "right": "Etiqueta"
+            },
+            {
+              "id": "p4",
+              "left": "Sale",
+              "right": "Rebajas"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b1_i3",
@@ -49,19 +89,38 @@
           "prompt_es": "Escribe 'talla' en inglés:",
           "stimulus_es": "Talla",
           "correct_answer": "Size",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b1_i4",
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'on sale'?",
           "options": [
-            { "id": "o1", "text": "En oferta / rebajado" },
-            { "id": "o2", "text": "Cerrado" },
-            { "id": "o3", "text": "Nuevo" }
+            {
+              "id": "o1",
+              "text": "En oferta / rebajado"
+            },
+            {
+              "id": "o2",
+              "text": "Cerrado"
+            },
+            {
+              "id": "o3",
+              "text": "Nuevo"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b1_i5",
@@ -69,7 +128,12 @@
           "prompt_es": "Escucha y repite:",
           "audioUrl": "/audio/courses/ingles-a1/shared/store_vocab_size.mp3",
           "text": "Fitting room, price tag, and medium size.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -83,33 +147,78 @@
           "prompt_es": "Completa: '¿Puedo probarme esto?'",
           "stimulus_en": "________ I try this on?",
           "correct_answer": "Can",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b2_i2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesito una talla pequeña (S)'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "need" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "small" },
-            { "id": "w5", "text": "size" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w5",
+              "text": "size"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u55_b2_i3",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas el precio?",
           "options": [
-            { "id": "o1", "text": "How much is this?" },
-            { "id": "o2", "text": "How many is this?" },
-            { "id": "o3", "text": "What price is this?" }
+            {
+              "id": "o1",
+              "text": "How much is this?"
+            },
+            {
+              "id": "o2",
+              "text": "How many is this?"
+            },
+            {
+              "id": "o3",
+              "text": "What price is this?"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b2_i4",
@@ -117,7 +226,12 @@
           "prompt_es": "Completa: '¿Lo tienes en azul?'",
           "stimulus_en": "Do you ________ this in blue?",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b2_i5",
@@ -125,7 +239,12 @@
           "prompt_es": "Escucha la petición:",
           "audioUrl": "/audio/courses/ingles-a1/shared/can_i_help_you.mp3",
           "text": "Can I help you? Yes, I am looking for a large t-shirt.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -141,28 +260,55 @@
             {
               "id": "assistant",
               "title": "Shop Assistant",
-              "items": ["Can I help you?", "The fitting rooms are here", "It's twenty dollars"]
+              "items": [
+                "Can I help you?",
+                "The fitting rooms are here",
+                "It's twenty dollars"
+              ]
             },
             {
               "id": "customer",
               "title": "Customer",
-              "items": ["I need a medium", "Can I try this on?", "I'll take it"]
+              "items": [
+                "I need a medium",
+                "Can I try this on?",
+                "I'll take it"
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b3_i2",
           "type": "multiple_choice",
           "prompt_es": "Si la ropa es muy barata, dices que está en:",
           "options": [
-            { "id": "o1", "text": "Sale" },
-            { "id": "o2", "text": "Size" },
-            { "id": "o3", "text": "Fitting room" }
+            {
+              "id": "o1",
+              "text": "Sale"
+            },
+            {
+              "id": "o2",
+              "text": "Size"
+            },
+            {
+              "id": "o3",
+              "text": "Fitting room"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b3_i3",
@@ -170,14 +316,24 @@
           "prompt_es": "Traduce: '¿Cuánto cuesta esta camisa?'",
           "stimulus_es": "How much is this shirt?",
           "correct_answer": "How much is this shirt",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b3_i4",
           "type": "true_false",
           "prompt_es": "'I'll take it' significa que vas a comprar el artículo.",
           "correct_answer": true,
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b3_i5",
@@ -185,7 +341,12 @@
           "prompt_es": "Escucha y responde:",
           "audioUrl": "/audio/courses/ingles-a1/shared/clothes_shopping_interaction.mp3",
           "text": "This jacket is on sale. It's only fifty pounds.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -200,12 +361,26 @@
           "text": "Tom is in a clothing store. He is looking for a blue shirt. He finds one, but it is a small size. He asks the shop assistant for a medium. The assistant says: 'Yes, we have it. The fitting rooms are next to the checkout.' Tom tries it on and likes it. It's on sale for £15.",
           "question": "What size does Tom need?",
           "options": [
-            { "id": "o1", "text": "Medium" },
-            { "id": "o2", "text": "Small" },
-            { "id": "o3", "text": "Large" }
+            {
+              "id": "o1",
+              "text": "Medium"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            },
+            {
+              "id": "o3",
+              "text": "Large"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "u55_b4_i2",
@@ -213,7 +388,12 @@
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "Can I ________ this on? Yes, the ________ room is over there.",
           "correct_answer": "try, fitting",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b4_i3",
@@ -221,19 +401,38 @@
           "prompt_es": "Pregunta si tienen una talla grande (L):",
           "stimulus_es": "Do you have a large size?",
           "correct_answer": "Do you have a large size",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u55_b4_i4",
           "type": "multiple_choice",
           "prompt_es": "Si quieres pagar, vas a:",
           "options": [
-            { "id": "o1", "text": "The checkout" },
-            { "id": "o2", "text": "The fitting room" },
-            { "id": "o3", "text": "The sale" }
+            {
+              "id": "o1",
+              "text": "The checkout"
+            },
+            {
+              "id": "o2",
+              "text": "The fitting room"
+            },
+            {
+              "id": "o3",
+              "text": "The sale"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u55_b4_i5",
@@ -241,7 +440,12 @@
           "prompt_es": "Escucha el resumen final:",
           "audioUrl": "/audio/courses/ingles-a1/shared/unit55_summary.mp3",
           "text": "Find your size, try it on in the fitting room, check the price tag, and enjoy the sales!",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     }

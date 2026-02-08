@@ -23,12 +23,23 @@
           "type": "multiple_choice",
           "prompt_es": "Usamos 'By' cuando hablamos de forma general, seguido de:",
           "options": [
-            { "id": "o1", "text": "El medio de transporte directo (sin artículo)" },
-            { "id": "o2", "text": "Un artículo o posesivo (by the car)" }
+            {
+              "id": "o1",
+              "text": "El medio de transporte directo (sin artículo)"
+            },
+            {
+              "id": "o2",
+              "text": "Un artículo o posesivo (by the car)"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Ejemplo: 'I go by car' (No 'by the car').",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B1_I2",
@@ -36,33 +47,79 @@
           "prompt_es": "Completa: 'Me gusta viajar en tren.'",
           "stimulus_en": "I like travelling ________ train.",
           "correct_answer": "by",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B1_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál se usa con 'Foot' (pie)?",
           "options": [
-            { "id": "o1", "text": "On foot" },
-            { "id": "o2", "text": "By foot" }
+            {
+              "id": "o1",
+              "text": "On foot"
+            },
+            {
+              "id": "o2",
+              "text": "By foot"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U7_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Voy a trabajar en coche.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "work" },
-            { "id": "w5", "text": "by" },
-            { "id": "w6", "text": "car" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "go"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "work"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w6",
+              "text": "car"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U7_B1_I5",
@@ -70,7 +127,12 @@
           "prompt_es": "¿Es correcto decir 'by my car'?",
           "correct_answer": false,
           "explanation": "Incorrecto. Se dice 'in my car' o simplemente 'by car'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -83,11 +145,27 @@
           "type": "matching",
           "prompt_es": "Une el verbo con el transporte:",
           "pairs": [
-            { "id": "p1", "left": "Get on / off", "right": "Bus, Train, Plane, Bike" },
-            { "id": "p2", "left": "Get into / out of", "right": "Car, Taxi" }
+            {
+              "id": "p1",
+              "left": "Get on / off",
+              "right": "Bus, Train, Plane, Bike"
+            },
+            {
+              "id": "p2",
+              "left": "Get into / out of",
+              "right": "Car, Taxi"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U7_B2_I2",
@@ -95,37 +173,99 @@
           "prompt_es": "Completa: 'Bájate del tren en la estación de Atocha.'",
           "stimulus_en": "Get ________ the train at Atocha Station.",
           "correct_answer": "off",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'entrar en el taxi'?",
           "options": [
-            { "id": "o1", "text": "Get into the taxi" },
-            { "id": "o2", "text": "Get on the taxi" }
+            {
+              "id": "o1",
+              "text": "Get into the taxi"
+            },
+            {
+              "id": "o2",
+              "text": "Get on the taxi"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U7_B2_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Me bajo del taxi y pago al conductor.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "get" },
-            { "id": "w3", "text": "out" },
-            { "id": "w4", "text": "of" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "taxi" },
-            { "id": "w7", "text": "and" },
-            { "id": "w8", "text": "pay" },
-            { "id": "w9", "text": "the" },
-            { "id": "w10", "text": "driver" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w3",
+              "text": "out"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "taxi"
+            },
+            {
+              "id": "w7",
+              "text": "and"
+            },
+            {
+              "id": "w8",
+              "text": "pay"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "driver"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U7_B2_I5",
@@ -133,7 +273,12 @@
           "prompt_es": "¿Cómo se dice 'subirse al avión'?",
           "stimulus_en": "Get on the plane",
           "correct_answer": "Subirse al avión",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -146,23 +291,45 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estas preposiciones NO lleva 'of'?",
           "options": [
-            { "id": "o1", "text": "Near" },
-            { "id": "o2", "text": "In front" }
+            {
+              "id": "o1",
+              "text": "Near"
+            },
+            {
+              "id": "o2",
+              "text": "In front"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Se dice 'Near my house' (No 'near of').",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Opposite'?",
           "options": [
-            { "id": "o1", "text": "Enfrente de (cara a cara)" },
-            { "id": "o2", "text": "Delante de (en la misma dirección)" }
+            {
+              "id": "o1",
+              "text": "Enfrente de (cara a cara)"
+            },
+            {
+              "id": "o2",
+              "text": "Delante de (en la misma dirección)"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U7_B3_I3",
@@ -170,34 +337,94 @@
           "prompt_es": "Completa: 'Al lado de la escuela' -> ________ to the school.",
           "stimulus_en": "Next",
           "correct_answer": "Next",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay un supermercado cerca de mi casa.'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "supermarket" },
-            { "id": "w5", "text": "near" },
-            { "id": "w6", "text": "my" },
-            { "id": "w7", "text": "house" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "supermarket"
+            },
+            {
+              "id": "w5",
+              "text": "near"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "house"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U7_B3_I5",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Next to", "right": "Al lado de" },
-            { "id": "p2", "left": "Close to", "right": "Cerca de (con 'to')" },
-            { "id": "p3", "left": "In front of", "right": "Delante de" }
+            {
+              "id": "p1",
+              "left": "Next to",
+              "right": "Al lado de"
+            },
+            {
+              "id": "p2",
+              "left": "Close to",
+              "right": "Cerca de (con 'to')"
+            },
+            {
+              "id": "p3",
+              "left": "In front of",
+              "right": "Delante de"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -212,12 +439,26 @@
           "text": "Every day I go to work by bus. My office is next to a bank and opposite a beautiful park. My friend goes to work on foot because he lives near the office.",
           "question": "¿Cómo va al trabajo el protagonista?",
           "options": [
-            { "id": "o1", "text": "En autobús." },
-            { "id": "o2", "text": "A pie." },
-            { "id": "o3", "text": "En coche." }
+            {
+              "id": "o1",
+              "text": "En autobús."
+            },
+            {
+              "id": "o2",
+              "text": "A pie."
+            },
+            {
+              "id": "o3",
+              "text": "En coche."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U7_B4_I2",
@@ -226,23 +467,62 @@
           "stimulus_es": "Hay muchos bares cerca de mi casa.",
           "correct_answer": "There are a lot of bars near my house",
           "validation_regex": "^there are a lot of bars near my house\\.?$",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B4_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No me quiero sentar enfrente de él.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "don't" },
-            { "id": "w3", "text": "want" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "sit" },
-            { "id": "w6", "text": "opposite" },
-            { "id": "w7", "text": "him" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "don't"
+            },
+            {
+              "id": "w3",
+              "text": "want"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "sit"
+            },
+            {
+              "id": "w6",
+              "text": "opposite"
+            },
+            {
+              "id": "w7",
+              "text": "him"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U7_B4_I4",
@@ -250,7 +530,12 @@
           "prompt_es": "Completa: 'Delante de la iglesia' -> In ________ of the church.",
           "stimulus_en": "front",
           "correct_answer": "front",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U7_B4_I5",
@@ -259,7 +544,12 @@
           "stimulus_es": "Subo al avión.",
           "correct_answer": "I get on the plane",
           "validation_regex": "^i get on the plane\\.?$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja las estaciones:",
           "pairs": [
-            { "id": "p1", "left": "Spring", "right": "Primavera" },
-            { "id": "p2", "left": "Summer", "right": "Verano" },
-            { "id": "p3", "left": "Autumn", "right": "Otoño" },
-            { "id": "p4", "left": "Winter", "right": "Invierno" }
+            {
+              "id": "p1",
+              "left": "Spring",
+              "right": "Primavera"
+            },
+            {
+              "id": "p2",
+              "left": "Summer",
+              "right": "Verano"
+            },
+            {
+              "id": "p3",
+              "left": "Autumn",
+              "right": "Otoño"
+            },
+            {
+              "id": "p4",
+              "left": "Winter",
+              "right": "Invierno"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U45_I2",
           "type": "multiple_choice",
           "prompt_es": "¿En qué estación hay flores?",
           "options": [
-            { "id": "o1", "text": "Spring" },
-            { "id": "o2", "text": "Winter" },
-            { "id": "o3", "text": "Autumn" }
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Winter"
+            },
+            {
+              "id": "o3",
+              "text": "Autumn"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U45_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa la estación:",
           "stimulus_en": "It is December. It is ________. (invierno)",
           "correct_answer": "winter",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U45_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Verano'",
           "stimulus_es": "Verano",
           "correct_answer": "Summer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U45_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de estaciones:",
           "stimulus_en": "Autumn",
           "correct_answer": "Otoño (también llamado 'Fall' en EE.UU.)",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "I go to the beach ________ summer.",
           "options": [
-            { "id": "o1", "text": "in" },
-            { "id": "o2", "text": "on" },
-            { "id": "o3", "text": "at" }
+            {
+              "id": "o1",
+              "text": "in"
+            },
+            {
+              "id": "o2",
+              "text": "on"
+            },
+            {
+              "id": "o3",
+              "text": "at"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U45_I7",
@@ -90,25 +159,46 @@
           "prompt_es": "Completa con la forma -ing:",
           "stimulus_en": "I like ________ in winter. (esquiar/ski)",
           "correct_answer": "skiing",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U45_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'On autumn the leaves fall'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U45_I9",
           "type": "multiple_choice",
           "prompt_es": "It ________ a lot in spring.",
           "options": [
-            { "id": "o1", "text": "rains" },
-            { "id": "o2", "text": "is rain" }
+            {
+              "id": "o1",
+              "text": "rains"
+            },
+            {
+              "id": "o2",
+              "text": "is rain"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U45_I10",
@@ -116,7 +206,12 @@
           "prompt_es": "Completa la pregunta:",
           "stimulus_en": "Which season ________ you like best?",
           "correct_answer": "do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -129,26 +224,66 @@
           "type": "reorder_words",
           "prompt_es": "Describe tu estación favorita:",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "favorite" },
-            { "id": "w3", "text": "season" },
-            { "id": "w4", "text": "is" },
-            { "id": "w5", "text": "autumn." }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "favorite"
+            },
+            {
+              "id": "w3",
+              "text": "season"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "autumn."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U45_I12",
           "type": "multiple_choice",
           "prompt_es": "In winter, you can:",
           "options": [
-            { "id": "o1", "text": "See snow" },
-            { "id": "o2", "text": "Go to the beach" },
-            { "id": "o3", "text": "See flowers blossom" }
+            {
+              "id": "o1",
+              "text": "See snow"
+            },
+            {
+              "id": "o2",
+              "text": "Go to the beach"
+            },
+            {
+              "id": "o3",
+              "text": "See flowers blossom"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U45_I13",
@@ -156,7 +291,12 @@
           "prompt_es": "Completa la frase:",
           "stimulus_en": "In autumn, the ________ are brown and orange. (hojas)",
           "correct_answer": "leaves",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U45_I14",
@@ -164,14 +304,24 @@
           "prompt_es": "Traduce: 'Me gusta la primavera'",
           "stimulus_es": "Me gusta la primavera",
           "correct_answer": "I like spring",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U45_I15",
           "type": "true_false",
           "prompt_es": "Summer is usually hot.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -185,7 +335,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
           "text": "I love visiting new places in autumn.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U45_I17",
@@ -194,12 +349,26 @@
           "text": "Hi! I am Alice. My favorite season is spring. I love spring because it is not very hot and not very cold. There are many flowers in the park. In summer, I go to the beach with my family. In winter, I stay at home because it is cold. I don't like autumn because it is often windy.",
           "question": "What is Alice's favorite season?",
           "options": [
-            { "id": "o1", "text": "Spring" },
-            { "id": "o2", "text": "Summer" },
-            { "id": "o3", "text": "Winter" }
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Summer"
+            },
+            {
+              "id": "o3",
+              "text": "Winter"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U45_I18",
@@ -208,12 +377,26 @@
           "text": "Hi! I am Alice. My favorite season is spring. I love spring because it is not very hot and not very cold. There are many flowers in the park. In summer, I go to the beach with my family. In winter, I stay at home because it is cold. I don't like autumn because it is often windy.",
           "question": "Where does she go in summer?",
           "options": [
-            { "id": "o1", "text": "The beach" },
-            { "id": "o2", "text": "The park" },
-            { "id": "o3", "text": "A museum" }
+            {
+              "id": "o1",
+              "text": "The beach"
+            },
+            {
+              "id": "o2",
+              "text": "The park"
+            },
+            {
+              "id": "o3",
+              "text": "A museum"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U45_I19",
@@ -221,19 +404,38 @@
           "prompt_es": "Escucha la descripción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
           "text": "It is very cold in winter.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U45_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Por qué Alice se queda en casa en invierno?",
           "options": [
-            { "id": "o1", "text": "Because it is cold" },
-            { "id": "o2", "text": "Because she is busy" },
-            { "id": "o3", "text": "Because it is rainy" }
+            {
+              "id": "o1",
+              "text": "Because it is cold"
+            },
+            {
+              "id": "o2",
+              "text": "Because she is busy"
+            },
+            {
+              "id": "o3",
+              "text": "Because it is rainy"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

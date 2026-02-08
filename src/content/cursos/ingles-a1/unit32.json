@@ -22,24 +22,61 @@
           "type": "matching",
           "prompt_es": "Une cada deporte con su imagen (palabra):",
           "pairs": [
-            { "id": "p1", "left": "Football", "right": "Fútbol" },
-            { "id": "p2", "left": "Swimming", "right": "Natación" },
-            { "id": "p3", "left": "Basketball", "right": "Baloncesto" },
-            { "id": "p4", "left": "Cycling", "right": "Ciclismo" }
+            {
+              "id": "p1",
+              "left": "Football",
+              "right": "Fútbol"
+            },
+            {
+              "id": "p2",
+              "left": "Swimming",
+              "right": "Natación"
+            },
+            {
+              "id": "p3",
+              "left": "Basketball",
+              "right": "Baloncesto"
+            },
+            {
+              "id": "p4",
+              "left": "Cycling",
+              "right": "Ciclismo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U32_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto para deportes de pelota?",
           "options": [
-            { "id": "o1", "text": "I play tennis" },
-            { "id": "o2", "text": "I go tennis" }
+            {
+              "id": "o1",
+              "text": "I play tennis"
+            },
+            {
+              "id": "o2",
+              "text": "I go tennis"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I3",
@@ -47,33 +84,78 @@
           "prompt_es": "Completa con 'play' o 'go':",
           "stimulus_en": "Every morning I ________ swimming.",
           "correct_answer": "go",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "play" },
-            { "id": "w3", "text": "football" },
-            { "id": "w4", "text": "on" },
-            { "id": "w5", "text": "Sundays" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "play"
+            },
+            {
+              "id": "w3",
+              "text": "football"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "Sundays"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U32_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hacer senderismo'?",
           "options": [
-            { "id": "o1", "text": "Go hiking" },
-            { "id": "o2", "text": "Play hiking" },
-            { "id": "o3", "text": "Do hiking" }
+            {
+              "id": "o1",
+              "text": "Go hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Play hiking"
+            },
+            {
+              "id": "o3",
+              "text": "Do hiking"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -86,13 +168,39 @@
           "type": "matching",
           "prompt_es": "Relaciona los hobbies:",
           "pairs": [
-            { "id": "p1", "left": "Reading", "right": "Lectura" },
-            { "id": "p2", "left": "Painting", "right": "Pintura" },
-            { "id": "p3", "left": "Cooking", "right": "Cocinar" },
-            { "id": "p4", "left": "Gardening", "right": "Jardinería" }
+            {
+              "id": "p1",
+              "left": "Reading",
+              "right": "Lectura"
+            },
+            {
+              "id": "p2",
+              "left": "Painting",
+              "right": "Pintura"
+            },
+            {
+              "id": "p3",
+              "left": "Cooking",
+              "right": "Cocinar"
+            },
+            {
+              "id": "p4",
+              "left": "Gardening",
+              "right": "Jardinería"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U32_I7",
@@ -100,19 +208,38 @@
           "prompt_es": "Completa con el verbo de interés:",
           "stimulus_en": "I ________ listening to music. (me encanta)",
           "correct_answer": "love",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U32_I8",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es un hobby de interior?",
           "options": [
-            { "id": "o1", "text": "Watching TV" },
-            { "id": "o2", "text": "Hiking" },
-            { "id": "o3", "text": "Cycling" }
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Hiking"
+            },
+            {
+              "id": "o3",
+              "text": "Cycling"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U32_I9",
@@ -120,7 +247,12 @@
           "prompt_es": "Traduce: 'Mi hobby es viajar.'",
           "stimulus_es": "Mi hobby es viajar.",
           "correct_answer": "My hobby is traveling",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U32_I10",
@@ -128,7 +260,12 @@
           "prompt_es": "Estudia el hobby:",
           "stimulus_en": "Photography",
           "correct_answer": "Fotografía",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -141,12 +278,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta?",
           "options": [
-            { "id": "o1", "text": "I enjoy reading books" },
-            { "id": "o2", "text": "I enjoy read books" },
-            { "id": "o3", "text": "I enjoy to read books" }
+            {
+              "id": "o1",
+              "text": "I enjoy reading books"
+            },
+            {
+              "id": "o2",
+              "text": "I enjoy read books"
+            },
+            {
+              "id": "o3",
+              "text": "I enjoy to read books"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I12",
@@ -154,38 +305,89 @@
           "prompt_es": "Completa con la forma -ing:",
           "stimulus_en": "He likes ________ (paint) pictures.",
           "correct_answer": "painting",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I13",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcto? 'They don't like playing tennis.'",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I14",
           "type": "categorization",
           "prompt_es": "Clasifica los verbos según si necesitan 'play' o 'go':",
           "categories": [
-            { "id": "c1", "title": "Play", "items": ["Basketball", "Tennis"] },
-            { "id": "c2", "title": "Go", "items": ["Running", "Surfing"] }
+            {
+              "id": "c1",
+              "title": "Play",
+              "items": [
+                "Basketball",
+                "Tennis"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Go",
+              "items": [
+                "Running",
+                "Surfing"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U32_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "doesn't" },
-            { "id": "w3", "text": "enjoy" },
-            { "id": "w4", "text": "cooking" }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "doesn't"
+            },
+            {
+              "id": "w3",
+              "text": "enjoy"
+            },
+            {
+              "id": "w4",
+              "text": "cooking"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -199,7 +401,12 @@
           "prompt_es": "Escucha y escribe la frase completa:",
           "audioUrl": "/audio/courses/ingles-a1/shared/fc65397affdc2baa204cb0ece6aa1da3.mp3",
           "text": "I play basketball with my friends.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U32_I17",
@@ -208,12 +415,26 @@
           "text": "Sarah is very active. On Saturdays, she goes swimming in the morning and she plays tennis in the afternoon. She loves sports! On Sundays, she prefers quiet hobbies. She enjoys reading and painting. She doesn't like watching TV.",
           "question": "When does Sarah play tennis?",
           "options": [
-            { "id": "o1", "text": "Saturday morning" },
-            { "id": "o2", "text": "Saturday afternoon" },
-            { "id": "o3", "text": "Sunday morning" }
+            {
+              "id": "o1",
+              "text": "Saturday morning"
+            },
+            {
+              "id": "o2",
+              "text": "Saturday afternoon"
+            },
+            {
+              "id": "o3",
+              "text": "Sunday morning"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U32_I18",
@@ -222,12 +443,26 @@
           "text": "Sarah is very active. On Saturdays, she goes swimming in the morning and she plays tennis in the afternoon. She loves sports! On Sundays, she prefers quiet hobbies. She enjoys reading and painting. She doesn't like watching TV.",
           "question": "Which activity does Sarah NOT like?",
           "options": [
-            { "id": "o1", "text": "Swimming" },
-            { "id": "o2", "text": "Painting" },
-            { "id": "o3", "text": "Watching TV" }
+            {
+              "id": "o1",
+              "text": "Swimming"
+            },
+            {
+              "id": "o2",
+              "text": "Painting"
+            },
+            {
+              "id": "o3",
+              "text": "Watching TV"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U32_I19",
@@ -235,19 +470,38 @@
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f523e8f9fd77d2250efc54f439391ad3.mp3",
           "text": "We travel every summer.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U32_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estas opciones es un hobby tranquilo según el texto?",
           "options": [
-            { "id": "o1", "text": "Swimming" },
-            { "id": "o2", "text": "Reading" },
-            { "id": "o3", "text": "Tennis" }
+            {
+              "id": "o1",
+              "text": "Swimming"
+            },
+            {
+              "id": "o2",
+              "text": "Reading"
+            },
+            {
+              "id": "o3",
+              "text": "Tennis"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

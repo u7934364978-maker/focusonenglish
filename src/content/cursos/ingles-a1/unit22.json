@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une los muebles con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Table", "right": "Mesa" },
-            { "id": "p2", "left": "Chair", "right": "Silla" },
-            { "id": "p3", "left": "Bed", "right": "Cama" },
-            { "id": "p4", "left": "Sofa", "right": "Sofá" }
+            {
+              "id": "p1",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p4",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U22_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿En qué mueble duermes (sleep)?",
           "options": [
-            { "id": "o1", "text": "In a bed" },
-            { "id": "o2", "text": "On a chair" },
-            { "id": "o3", "text": "In a fridge" }
+            {
+              "id": "o1",
+              "text": "In a bed"
+            },
+            {
+              "id": "o2",
+              "text": "On a chair"
+            },
+            {
+              "id": "o3",
+              "text": "In a fridge"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U22_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Nueva palabra: Nevera",
           "stimulus_en": "Fridge / Refrigerator",
           "correct_answer": "Nevera / Frigorífico",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U22_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Espejo'?",
           "options": [
-            { "id": "o1", "text": "Window" },
-            { "id": "o2", "text": "Mirror" },
-            { "id": "o3", "text": "Lamp" }
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            },
+            {
+              "id": "o3",
+              "text": "Lamp"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U22_B1_I5",
           "type": "matching",
           "prompt_es": "Objetos de la casa:",
           "pairs": [
-            { "id": "p1", "left": "Lamp", "right": "Lámpara" },
-            { "id": "p2", "left": "Shelf", "right": "Estante" },
-            { "id": "p3", "left": "Door", "right": "Puerta" },
-            { "id": "p4", "left": "Window", "right": "Ventana" }
+            {
+              "id": "p1",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p2",
+              "left": "Shelf",
+              "right": "Estante"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p4",
+              "left": "Window",
+              "right": "Ventana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -87,12 +172,26 @@
           "type": "multiple_choice",
           "prompt_es": "'The book is on the table'. 'On' significa:",
           "options": [
-            { "id": "o1", "text": "Debajo de" },
-            { "id": "o2", "text": "Encima de" },
-            { "id": "o3", "text": "Al lado de" }
+            {
+              "id": "o1",
+              "text": "Debajo de"
+            },
+            {
+              "id": "o2",
+              "text": "Encima de"
+            },
+            {
+              "id": "o3",
+              "text": "Al lado de"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U22_B2_I7",
@@ -100,26 +199,50 @@
           "prompt_es": "Completa con 'under' (debajo) o 'next to' (al lado):",
           "stimulus_en": "The shoes are ________ the bed.",
           "correct_answer": "under",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U22_B2_I8",
           "type": "true_false",
           "prompt_es": "¿Significa 'behind' detrás de?",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U22_B2_I9",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'La lámpara está al lado del sofá'?",
           "options": [
-            { "id": "o1", "text": "The lamp is behind the sofa" },
-            { "id": "o2", "text": "The lamp is next to the sofa" },
-            { "id": "o3", "text": "The lamp is on the sofa" }
+            {
+              "id": "o1",
+              "text": "The lamp is behind the sofa"
+            },
+            {
+              "id": "o2",
+              "text": "The lamp is next to the sofa"
+            },
+            {
+              "id": "o3",
+              "text": "The lamp is on the sofa"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U22_B2_I10",
@@ -127,7 +250,12 @@
           "prompt_es": "Completa con la preposición correcta (en/dentro de):",
           "stimulus_en": "The milk is ________ the fridge.",
           "correct_answer": "in",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -140,28 +268,80 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Pon el libro en la mesa'",
           "options": [
-            { "id": "w1", "text": "Put" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "book" },
-            { "id": "w4", "text": "on" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "table" }
+            {
+              "id": "w1",
+              "text": "Put"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "book"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "table"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U22_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Cierra la puerta, por favor'",
           "options": [
-            { "id": "w1", "text": "Close" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "door," },
-            { "id": "w4", "text": "please" }
+            {
+              "id": "w1",
+              "text": "Close"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "door,"
+            },
+            {
+              "id": "w4",
+              "text": "please"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U22_B3_I13",
@@ -169,7 +349,12 @@
           "prompt_es": "Traduce: 'La silla es azul'",
           "stimulus_en": "The chair is blue",
           "correct_answer": "The chair is blue",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U22_B3_I14",
@@ -177,23 +362,62 @@
           "prompt_es": "Completa con el verbo correcto (Open/Close):",
           "stimulus_en": "It is hot. ________ the window, please.",
           "correct_answer": "Open",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U22_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay un espejo en el baño'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "mirror" },
-            { "id": "w5", "text": "in" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "bathroom" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "mirror"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "bathroom"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -208,24 +432,52 @@
           "text": "My new apartment is small. In the living room, there is a gray sofa and a small table. My bed is next to the window in the bedroom. I have a big mirror in the bathroom.",
           "question": "¿Dónde está la cama (bed)?",
           "options": [
-            { "id": "o1", "text": "Next to the door" },
-            { "id": "o2", "text": "Next to the window" },
-            { "id": "o3", "text": "On the sofa" }
+            {
+              "id": "o1",
+              "text": "Next to the door"
+            },
+            {
+              "id": "o2",
+              "text": "Next to the window"
+            },
+            {
+              "id": "o3",
+              "text": "On the sofa"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U22_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hay en el salón?",
           "options": [
-            { "id": "o1", "text": "A big mirror" },
-            { "id": "o2", "text": "A gray sofa" },
-            { "id": "o3", "text": "A fridge" }
+            {
+              "id": "o1",
+              "text": "A big mirror"
+            },
+            {
+              "id": "o2",
+              "text": "A gray sofa"
+            },
+            {
+              "id": "o3",
+              "text": "A fridge"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U22_B4_I18",
@@ -233,7 +485,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/7e91036e73772ced064b8c768ced316a.mp3",
           "text": "Put the book on the table.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U22_B4_I19",
@@ -241,18 +498,46 @@
           "prompt_es": "Responde en inglés: 'Is there a TV in your bedroom?' (Usa 'Yes, there is' o 'No, there isn't')",
           "stimulus_es": "Sí, hay",
           "correct_answer": "Yes, there is",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U22_B4_I20",
           "type": "categorization",
           "prompt_es": "Clasifica en Muebles u Otros Objetos:",
           "categories": [
-            { "id": "c1", "title": "Furniture", "items": ["Sofa", "Bed", "Shelf", "Chair"] },
-            { "id": "c2", "title": "Other Items", "items": ["Mirror", "Lamp", "Door", "Window"] }
+            {
+              "id": "c1",
+              "title": "Furniture",
+              "items": [
+                "Sofa",
+                "Bed",
+                "Shelf",
+                "Chair"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Other Items",
+              "items": [
+                "Mirror",
+                "Lamp",
+                "Door",
+                "Window"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

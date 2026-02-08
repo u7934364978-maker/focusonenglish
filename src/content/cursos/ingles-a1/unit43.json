@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja los verbos de viaje:",
           "pairs": [
-            { "id": "p1", "left": "Visit", "right": "Visitar" },
-            { "id": "p2", "left": "Stay", "right": "Quedarse / Alojarse" },
-            { "id": "p3", "left": "Arrive", "right": "Llegar" },
-            { "id": "p4", "left": "Travel", "right": "Viajar" }
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visitar"
+            },
+            {
+              "id": "p2",
+              "left": "Stay",
+              "right": "Quedarse / Alojarse"
+            },
+            {
+              "id": "p3",
+              "left": "Arrive",
+              "right": "Llegar"
+            },
+            {
+              "id": "p4",
+              "left": "Travel",
+              "right": "Viajar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U43_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces con una cámara?",
           "options": [
-            { "id": "o1", "text": "Take photos" },
-            { "id": "o2", "text": "Eat dinner" },
-            { "id": "o3", "text": "Sleep" }
+            {
+              "id": "o1",
+              "text": "Take photos"
+            },
+            {
+              "id": "o2",
+              "text": "Eat dinner"
+            },
+            {
+              "id": "o3",
+              "text": "Sleep"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U43_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa la frase:",
           "stimulus_en": "I buy ________ for my family. (recuerdos/souvenirs)",
           "correct_answer": "souvenirs",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U43_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Vacaciones'",
           "stimulus_es": "Vacaciones",
           "correct_answer": "Holiday",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U43_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de verbos:",
           "stimulus_en": "Leave",
           "correct_answer": "Irse / Salir / Partir",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,11 +132,22 @@
           "type": "multiple_choice",
           "prompt_es": "She ________ a museum every Sunday.",
           "options": [
-            { "id": "o1", "text": "visits" },
-            { "id": "o2", "text": "visit" }
+            {
+              "id": "o1",
+              "text": "visits"
+            },
+            {
+              "id": "o2",
+              "text": "visit"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U43_I7",
@@ -89,25 +155,46 @@
           "prompt_es": "Completa con 'at' o 'in':",
           "stimulus_en": "We arrive ________ London in the morning.",
           "correct_answer": "in",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U43_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'I stays at a hotel'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U43_I9",
           "type": "multiple_choice",
           "prompt_es": "Where ________ they go on holiday?",
           "options": [
-            { "id": "o1", "text": "do" },
-            { "id": "o2", "text": "does" }
+            {
+              "id": "o1",
+              "text": "do"
+            },
+            {
+              "id": "o2",
+              "text": "does"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U43_I10",
@@ -115,7 +202,12 @@
           "prompt_es": "Completa la frase negativa:",
           "stimulus_en": "I ________ (not) stay in expensive hotels.",
           "correct_answer": "don't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -128,26 +220,66 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la actividad:",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "always" },
-            { "id": "w3", "text": "take" },
-            { "id": "w4", "text": "many" },
-            { "id": "w5", "text": "photos." }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "always"
+            },
+            {
+              "id": "w3",
+              "text": "take"
+            },
+            {
+              "id": "w4",
+              "text": "many"
+            },
+            {
+              "id": "w5",
+              "text": "photos."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U43_I12",
           "type": "multiple_choice",
           "prompt_es": "Friend: 'Where do you stay?' - You:",
           "options": [
-            { "id": "o1", "text": "I stay at a small hotel." },
-            { "id": "o2", "text": "I stay at 9:00 AM." },
-            { "id": "o3", "text": "I stay by bus." }
+            {
+              "id": "o1",
+              "text": "I stay at a small hotel."
+            },
+            {
+              "id": "o2",
+              "text": "I stay at 9:00 AM."
+            },
+            {
+              "id": "o3",
+              "text": "I stay by bus."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U43_I13",
@@ -155,7 +287,12 @@
           "prompt_es": "Completa el mensaje:",
           "stimulus_en": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
           "correct_answer": "visit",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U43_I14",
@@ -163,14 +300,24 @@
           "prompt_es": "Traduce: 'Viajo con mis amigos'",
           "stimulus_es": "Viajo con mis amigos",
           "correct_answer": "I travel with my friends",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U43_I15",
           "type": "true_false",
           "prompt_es": "You stay at a hotel when you travel.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -184,7 +331,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "I visit my family every year.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U43_I17",
@@ -193,12 +345,26 @@
           "text": "Every summer, Peter and his wife visit Paris. They travel by plane from London. They stay at a hotel near the Eiffel Tower. During the day, they visit museums and take many photos. In the evening, they eat at French restaurants. They love their holiday!",
           "question": "Where do Peter and his wife go?",
           "options": [
-            { "id": "o1", "text": "Paris" },
-            { "id": "o2", "text": "London" },
-            { "id": "o3", "text": "Madrid" }
+            {
+              "id": "o1",
+              "text": "Paris"
+            },
+            {
+              "id": "o2",
+              "text": "London"
+            },
+            {
+              "id": "o3",
+              "text": "Madrid"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U43_I18",
@@ -207,12 +373,26 @@
           "text": "Every summer, Peter and his wife visit Paris. They travel by plane from London. They stay at a hotel near the Eiffel Tower. During the day, they visit museums and take many photos. In the evening, they eat at French restaurants. They love their holiday!",
           "question": "How do they travel?",
           "options": [
-            { "id": "o1", "text": "By plane" },
-            { "id": "o2", "text": "By train" },
-            { "id": "o3", "text": "By car" }
+            {
+              "id": "o1",
+              "text": "By plane"
+            },
+            {
+              "id": "o2",
+              "text": "By train"
+            },
+            {
+              "id": "o3",
+              "text": "By car"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U43_I19",
@@ -220,19 +400,38 @@
           "prompt_es": "Escucha la actividad:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
           "text": "We take photos of the city.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U43_I20",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde se alojan?",
           "options": [
-            { "id": "o1", "text": "At a hotel" },
-            { "id": "o2", "text": "At a friend's house" },
-            { "id": "o3", "text": "In a car" }
+            {
+              "id": "o1",
+              "text": "At a hotel"
+            },
+            {
+              "id": "o2",
+              "text": "At a friend's house"
+            },
+            {
+              "id": "o3",
+              "text": "In a car"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

@@ -71,6 +71,45 @@ export const premiumCourseService = {
     return true;
   },
 
+  /**
+   * Updates mastery for concept tags associated with an interaction.
+   */
+  async updateConceptMastery(userId: string, tags: string[], success: boolean): Promise<boolean> {
+    if (!supabase || !userId || userId === 'anonymous' || !tags || tags.length === 0) return false;
+
+    const { error } = await supabase.rpc('update_concept_mastery', {
+      p_user_id: userId,
+      p_concept_tags: tags,
+      p_success: success
+    });
+
+    if (error) {
+      console.error(`Error updating concept mastery for tags ${tags}:`, error);
+      return false;
+    }
+
+    return true;
+  },
+
+  /**
+   * Fetches user mastery data for all concepts.
+   */
+  async getUserMastery(userId: string): Promise<any[]> {
+    if (!supabase || !userId || userId === 'anonymous') return [];
+
+    const { data, error } = await supabase
+      .from('user_mastery')
+      .select('concept_tag, mastery_score')
+      .eq('user_id', userId);
+
+    if (error) {
+      console.error(`Error fetching user mastery:`, error);
+      return [];
+    }
+
+    return data;
+  },
+
   async getA1Progress(userId: string): Promise<string[]> {
     return this.getProgress(userId, 'A1');
   },

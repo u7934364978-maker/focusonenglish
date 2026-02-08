@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une el trabajo con el lugar:",
           "pairs": [
-            { "id": "p1", "left": "Doctor", "right": "Hospital" },
-            { "id": "p2", "left": "Teacher", "right": "School" },
-            { "id": "p3", "left": "Office worker", "right": "Office" },
-            { "id": "p4", "left": "Shop assistant", "right": "Shop / Store" }
+            {
+              "id": "p1",
+              "left": "Doctor",
+              "right": "Hospital"
+            },
+            {
+              "id": "p2",
+              "left": "Teacher",
+              "right": "School"
+            },
+            {
+              "id": "p3",
+              "left": "Office worker",
+              "right": "Office"
+            },
+            {
+              "id": "p4",
+              "left": "Shop assistant",
+              "right": "Shop / Store"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U28_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Jefe/a'?",
           "options": [
-            { "id": "o1", "text": "Manager / Boss" },
-            { "id": "o2", "text": "Colleague" },
-            { "id": "o3", "text": "Customer" }
+            {
+              "id": "o1",
+              "text": "Manager / Boss"
+            },
+            {
+              "id": "o2",
+              "text": "Colleague"
+            },
+            {
+              "id": "o3",
+              "text": "Customer"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U28_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Nueva palabra: Compañeros de trabajo",
           "stimulus_en": "Colleagues / Coworkers",
           "correct_answer": "Compañeros de trabajo",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U28_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Una persona que diseña edificios es un:",
           "options": [
-            { "id": "o1", "text": "Artist" },
-            { "id": "o2", "text": "Architect" },
-            { "id": "o3", "text": "Actor" }
+            {
+              "id": "o1",
+              "text": "Artist"
+            },
+            {
+              "id": "o2",
+              "text": "Architect"
+            },
+            {
+              "id": "o3",
+              "text": "Actor"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U28_B1_I5",
           "type": "matching",
           "prompt_es": "Otros lugares de trabajo:",
           "pairs": [
-            { "id": "p1", "left": "Factory", "right": "Fábrica" },
-            { "id": "p2", "left": "Restaurant", "right": "Restaurante" },
-            { "id": "p3", "left": "Bank", "right": "Banco" },
-            { "id": "p4", "left": "Construction site", "right": "Obra / Construcción" }
+            {
+              "id": "p1",
+              "left": "Factory",
+              "right": "Fábrica"
+            },
+            {
+              "id": "p2",
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p4",
+              "left": "Construction site",
+              "right": "Obra / Construcción"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -87,12 +172,26 @@
           "type": "multiple_choice",
           "prompt_es": "Usamos 'an' antes de sonido vocal. 'Él es ingeniero' es:",
           "options": [
-            { "id": "o1", "text": "He is a engineer" },
-            { "id": "o2", "text": "He is an engineer" },
-            { "id": "o3", "text": "He is engineer" }
+            {
+              "id": "o1",
+              "text": "He is a engineer"
+            },
+            {
+              "id": "o2",
+              "text": "He is an engineer"
+            },
+            {
+              "id": "o3",
+              "text": "He is engineer"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U28_B2_I7",
@@ -100,26 +199,50 @@
           "prompt_es": "Completa con 'a' o 'an':",
           "stimulus_en": "I am ________ teacher.",
           "correct_answer": "a",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U28_B2_I8",
           "type": "true_false",
           "prompt_es": "En inglés, siempre usamos 'a/an' para decir la profesión de alguien en singular.",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U28_B2_I9",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "She is an nurse" },
-            { "id": "o2", "text": "She is a nurse" },
-            { "id": "o3", "text": "She is nurse" }
+            {
+              "id": "o1",
+              "text": "She is an nurse"
+            },
+            {
+              "id": "o2",
+              "text": "She is a nurse"
+            },
+            {
+              "id": "o3",
+              "text": "She is nurse"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U28_B2_I10",
@@ -127,7 +250,12 @@
           "prompt_es": "Completa: 'My brother is ________ artist.'",
           "stimulus_en": "an",
           "correct_answer": "an",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -140,27 +268,75 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Trabajo en un banco'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "work" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "bank" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "work"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "bank"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U28_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi oficina es grande'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "office" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "big" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "office"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U28_B3_I13",
@@ -168,7 +344,12 @@
           "prompt_es": "Traduce: '¿Dónde trabajas?'",
           "stimulus_en": "Where do you work?",
           "correct_answer": "Where do you work?",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U28_B3_I14",
@@ -176,21 +357,52 @@
           "prompt_es": "Completa con 'at' o 'in': 'She works ________ the hospital.'",
           "stimulus_en": "at",
           "correct_answer": "at",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U28_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo una reunión hoy'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "meeting" },
-            { "id": "w5", "text": "today" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "meeting"
+            },
+            {
+              "id": "w5",
+              "text": "today"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -205,24 +417,52 @@
           "text": "Sarah is an office manager. She works in a large office in the city center. She goes to work by train at 8:30. In the morning, she has many meetings with her colleagues. At 1:00, she has lunch in a restaurant.",
           "question": "¿Qué hace Sarah?",
           "options": [
-            { "id": "o1", "text": "She is a teacher" },
-            { "id": "o2", "text": "She is a nurse" },
-            { "id": "o3", "text": "She is a manager" }
+            {
+              "id": "o1",
+              "text": "She is a teacher"
+            },
+            {
+              "id": "o2",
+              "text": "She is a nurse"
+            },
+            {
+              "id": "o3",
+              "text": "She is a manager"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U28_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo va Sarah al trabajo?",
           "options": [
-            { "id": "o1", "text": "By car" },
-            { "id": "o2", "text": "By train" },
-            { "id": "o3", "text": "By bus" }
+            {
+              "id": "o1",
+              "text": "By car"
+            },
+            {
+              "id": "o2",
+              "text": "By train"
+            },
+            {
+              "id": "o3",
+              "text": "By bus"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U28_B4_I18",
@@ -230,7 +470,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
           "text": "The library is on the second floor.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U28_B4_I19",
@@ -238,18 +483,46 @@
           "prompt_es": "Responde: 'Is your office/school big or small?'",
           "stimulus_es": "Mi escuela es pequeña.",
           "correct_answer": "My school is small.",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U28_B4_I20",
           "type": "categorization",
           "prompt_es": "Trabajo vs Lugar:",
           "categories": [
-            { "id": "c1", "title": "Job", "items": ["Chef", "Waiter", "Farmer", "Lawyer"] },
-            { "id": "c2", "title": "Place", "items": ["Kitchen", "Restaurant", "Farm", "Court"] }
+            {
+              "id": "c1",
+              "title": "Job",
+              "items": [
+                "Chef",
+                "Waiter",
+                "Farmer",
+                "Lawyer"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Place",
+              "items": [
+                "Kitchen",
+                "Restaurant",
+                "Farm",
+                "Court"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

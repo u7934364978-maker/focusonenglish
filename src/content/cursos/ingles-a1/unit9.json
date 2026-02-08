@@ -23,24 +23,61 @@
           "type": "matching",
           "prompt_es": "Une las profesiones:",
           "pairs": [
-            { "id": "p1", "left": "Teacher", "right": "Profesor/a" },
-            { "id": "p2", "left": "Doctor", "right": "Doctor/a" },
-            { "id": "p3", "left": "Nurse", "right": "Enfermero/a" },
-            { "id": "p4", "left": "Chef", "right": "Cocinero/a" }
+            {
+              "id": "p1",
+              "left": "Teacher",
+              "right": "Profesor/a"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Doctor/a"
+            },
+            {
+              "id": "p3",
+              "left": "Nurse",
+              "right": "Enfermero/a"
+            },
+            {
+              "id": "p4",
+              "left": "Chef",
+              "right": "Cocinero/a"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Oficinista'?",
           "options": [
-            { "id": "o1", "text": "Office worker" },
-            { "id": "o2", "text": "Office person" }
+            {
+              "id": "o1",
+              "text": "Office worker"
+            },
+            {
+              "id": "o2",
+              "text": "Office person"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B1_I3",
@@ -48,21 +85,52 @@
           "prompt_es": "Completa: 'Él es oficial de policía.'",
           "stimulus_en": "He is a ________ officer.",
           "correct_answer": "police",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi madre es enfermera.'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "mother" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "nurse" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "mother"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "nurse"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U9_B1_I5",
@@ -70,7 +138,12 @@
           "prompt_es": "¿Cómo se dice 'Granjero'?",
           "stimulus_en": "Farmer",
           "correct_answer": "Granjero/a",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -83,12 +156,23 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué artículo usamos con 'Engineer'?",
           "options": [
-            { "id": "o1", "text": "A (A engineer)" },
-            { "id": "o2", "text": "An (An engineer)" }
+            {
+              "id": "o1",
+              "text": "A (A engineer)"
+            },
+            {
+              "id": "o2",
+              "text": "An (An engineer)"
+            }
           ],
           "correct_answer": "o2",
           "explanation": "Usamos 'an' cuando la siguiente palabra empieza por vocal.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U9_B2_I2",
@@ -96,7 +180,12 @@
           "prompt_es": "En inglés, ¿es obligatorio poner 'a/an' antes de la profesión (ej. I am A doctor)?",
           "correct_answer": true,
           "explanation": "Sí. A diferencia del español, en inglés siempre decimos 'Soy UN médico'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U9_B2_I3",
@@ -104,32 +193,79 @@
           "prompt_es": "Completa con el artículo correcto: 'Él es arquitecto.'",
           "stimulus_en": "He is ________ architect.",
           "correct_answer": "an",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U9_B2_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Soy un estudiante de inglés.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "am" },
-            { "id": "w3", "text": "an" },
-            { "id": "w4", "text": "English" },
-            { "id": "w5", "text": "student" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "an"
+            },
+            {
+              "id": "w4",
+              "text": "English"
+            },
+            {
+              "id": "w5",
+              "text": "student"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U9_B2_I5",
           "type": "matching",
           "prompt_es": "Une cada profesión con su artículo correcto:",
           "pairs": [
-            { "id": "p1", "left": "A", "right": "Doctor, Pilot, Teacher" },
-            { "id": "p2", "left": "An", "right": "Actor, Engineer, Artist" }
+            {
+              "id": "p1",
+              "left": "A",
+              "right": "Doctor, Pilot, Teacher"
+            },
+            {
+              "id": "p2",
+              "left": "An",
+              "right": "Actor, Engineer, Artist"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -142,25 +278,62 @@
           "type": "matching",
           "prompt_es": "¿Dónde trabajan?",
           "pairs": [
-            { "id": "p1", "left": "Teacher", "right": "In a school" },
-            { "id": "p2", "left": "Doctor", "right": "In a hospital" },
-            { "id": "p3", "left": "Chef", "right": "In a kitchen" },
-            { "id": "p4", "left": "Office worker", "right": "In an office" }
+            {
+              "id": "p1",
+              "left": "Teacher",
+              "right": "In a school"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "In a hospital"
+            },
+            {
+              "id": "p3",
+              "left": "Chef",
+              "right": "In a kitchen"
+            },
+            {
+              "id": "p4",
+              "left": "Office worker",
+              "right": "In an office"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
           "options": [
-            { "id": "o1", "text": "What do you do?" },
-            { "id": "o2", "text": "What is your work?" }
+            {
+              "id": "o1",
+              "text": "What do you do?"
+            },
+            {
+              "id": "o2",
+              "text": "What is your work?"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "'What do you do?' es la forma más común y natural.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B3_I3",
@@ -168,21 +341,52 @@
           "prompt_es": "Completa: 'Ella trabaja en un hospital.'",
           "stimulus_en": "She works ________ a hospital.",
           "correct_answer": "in",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U9_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿A qué se dedica tu padre?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "does" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "father" },
-            { "id": "w5", "text": "do?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "does"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "father"
+            },
+            {
+              "id": "w5",
+              "text": "do?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U9_B3_I5",
@@ -190,7 +394,12 @@
           "prompt_es": "¿'Work' se puede usar como sustantivo y como verbo?",
           "correct_answer": true,
           "explanation": "Sí. 'I go to work' (sustantivo) y 'I work in London' (verbo).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -205,12 +414,26 @@
           "text": "My friend Sarah is a nurse. She works in a big hospital in London. She loves her job because she helps people every day. Her husband is an engineer and he works in an office.",
           "question": "¿Cuál es la profesión de Sarah?",
           "options": [
-            { "id": "o1", "text": "Enfermera." },
-            { "id": "o2", "text": "Médico." },
-            { "id": "o3", "text": "Ingeniera." }
+            {
+              "id": "o1",
+              "text": "Enfermera."
+            },
+            {
+              "id": "o2",
+              "text": "Médico."
+            },
+            {
+              "id": "o3",
+              "text": "Ingeniera."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U9_B4_I2",
@@ -219,18 +442,34 @@
           "stimulus_es": "Él es un buen conductor.",
           "correct_answer": "He is a good driver",
           "validation_regex": "^he is a good driver\\.?$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "Completa: 'I work in ________ office.'",
           "options": [
-            { "id": "o1", "text": "an" },
-            { "id": "o2", "text": "a" }
+            {
+              "id": "o1",
+              "text": "an"
+            },
+            {
+              "id": "o2",
+              "text": "a"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U9_B4_I4",
@@ -238,22 +477,57 @@
           "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
           "stimulus_en": "What do you do?",
           "correct_answer": "¿A qué te dedicas? / ¿Qué haces?",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U9_B4_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi padre es un oficial de policía.'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "father" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "police" },
-            { "id": "w6", "text": "officer" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "father"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "police"
+            },
+            {
+              "id": "w6",
+              "text": "officer"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

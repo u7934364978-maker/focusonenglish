@@ -89,6 +89,12 @@ export default function PremiumUnitViewer({ unitData }: Props) {
     }
   };
 
+  const handleConceptUpdate = async (tags: string[], success: boolean) => {
+    if (user) {
+      await premiumCourseService.updateConceptMastery(user.id, tags, success);
+    }
+  };
+
   if (isStarted) {
     return (
       <PremiumCourseSession 
@@ -97,6 +103,7 @@ export default function PremiumUnitViewer({ unitData }: Props) {
         customQueue={isAdaptive ? adaptiveQueue : staticQueue}
         userId={user?.id}
         onPerformanceUpdate={handlePerformanceUpdate}
+        onConceptUpdate={handleConceptUpdate}
         onComplete={() => {
           setIsCompleted(true);
           setIsStarted(false);

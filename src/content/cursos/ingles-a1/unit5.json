@@ -23,23 +23,45 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el coche de Pedro' usando el genitivo sajón?",
           "options": [
-            { "id": "o1", "text": "Peter's car" },
-            { "id": "o2", "text": "The car of Peter" }
+            {
+              "id": "o1",
+              "text": "Peter's car"
+            },
+            {
+              "id": "o2",
+              "text": "The car of Peter"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Persona + 's + Objeto.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Y 'la casa de María'?",
           "options": [
-            { "id": "o1", "text": "Maria's house" },
-            { "id": "o2", "text": "House's Maria" }
+            {
+              "id": "o1",
+              "text": "Maria's house"
+            },
+            {
+              "id": "o2",
+              "text": "House's Maria"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B1_I3",
@@ -47,19 +69,42 @@
           "prompt_es": "Completa: 'El trabajo de John es aburrido.'",
           "stimulus_en": "________ job is boring.",
           "correct_answer": "John's",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Las patas del pájaro.'",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "bird's" },
-            { "id": "w3", "text": "legs" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "bird's"
+            },
+            {
+              "id": "w3",
+              "text": "legs"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U5_B1_I5",
@@ -67,7 +112,12 @@
           "prompt_es": "¿Se puede usar el genitivo sajón con países (ej. Spain's monuments)?",
           "correct_answer": true,
           "explanation": "Sí, se usa con personas, animales y lugares (ciudades/países).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -80,24 +130,46 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'My parents' house'?",
           "options": [
-            { "id": "o1", "text": "La casa de mis padres (varios)" },
-            { "id": "o2", "text": "La casa de mi padre (uno)" }
+            {
+              "id": "o1",
+              "text": "La casa de mis padres (varios)"
+            },
+            {
+              "id": "o2",
+              "text": "La casa de mi padre (uno)"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "En plurales regulares que acaban en -s, solo se añade el apóstrofo.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Y 'My brother's children'?",
           "options": [
-            { "id": "o1", "text": "Los hijos de mi hermano (uno)" },
-            { "id": "o2", "text": "Los hijos de mis hermanos (varios)" }
+            {
+              "id": "o1",
+              "text": "Los hijos de mi hermano (uno)"
+            },
+            {
+              "id": "o2",
+              "text": "Los hijos de mis hermanos (varios)"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Brother (singular) + 's.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B2_I3",
@@ -106,31 +178,75 @@
           "stimulus_en": "The ________ toys.",
           "correct_answer": "children's",
           "explanation": "Como 'children' es irregular y no acaba en -s, seguimos la regla general: + 's.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B2_I4",
           "type": "matching",
           "prompt_es": "Une cada frase con su significado:",
           "pairs": [
-            { "id": "p1", "left": "James' dog", "right": "El perro de James" },
-            { "id": "p2", "left": "The boys' ball", "right": "La pelota de los chicos" },
-            { "id": "p3", "left": "The boy's ball", "right": "La pelota del chico" }
+            {
+              "id": "p1",
+              "left": "James' dog",
+              "right": "El perro de James"
+            },
+            {
+              "id": "p2",
+              "left": "The boys' ball",
+              "right": "La pelota de los chicos"
+            },
+            {
+              "id": "p3",
+              "left": "The boy's ball",
+              "right": "La pelota del chico"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B2_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Los hijos de mis hermanos.'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "brothers'" },
-            { "id": "w3", "text": "children" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "brothers'"
+            },
+            {
+              "id": "w3",
+              "text": "children"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -143,12 +259,23 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos 'Of' para expresar posesión?",
           "options": [
-            { "id": "o1", "text": "Con objetos inanimados" },
-            { "id": "o2", "text": "Con personas famosas" }
+            {
+              "id": "o1",
+              "text": "Con objetos inanimados"
+            },
+            {
+              "id": "o2",
+              "text": "Con personas famosas"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Ejemplo: 'The end of the film'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B3_I2",
@@ -157,7 +284,12 @@
           "stimulus_en": "The manager ________ the hotel.",
           "correct_answer": "of",
           "explanation": "'Hotel' no es una persona, por lo que usamos 'of'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B3_I3",
@@ -168,37 +300,86 @@
               "id": "c1",
               "title": "Usan Genitivo Sajón ('s)",
               "items": [
-                { "id": "i1", "text": "My mother" },
-                { "id": "i2", "text": "The cat" },
-                { "id": "i3", "text": "London" }
+                {
+                  "id": "i1",
+                  "text": "My mother"
+                },
+                {
+                  "id": "i2",
+                  "text": "The cat"
+                },
+                {
+                  "id": "i3",
+                  "text": "London"
+                }
               ]
             },
             {
               "id": "c2",
               "title": "Usan 'Of'",
               "items": [
-                { "id": "i4", "text": "The movie" },
-                { "id": "i5", "text": "The table" },
-                { "id": "i6", "text": "The book" }
+                {
+                  "id": "i4",
+                  "text": "The movie"
+                },
+                {
+                  "id": "i5",
+                  "text": "The table"
+                },
+                {
+                  "id": "i6",
+                  "text": "The book"
+                }
               ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El final de la película.'",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "end" },
-            { "id": "w3", "text": "of" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "film" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "end"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "film"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U5_B3_I5",
@@ -206,7 +387,12 @@
           "prompt_es": "¿Es correcto decir 'The hotel's manager'?",
           "correct_answer": false,
           "explanation": "Incorrecto porque 'hotel' no es animado. Lo correcto es 'The manager of the hotel'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -221,12 +407,26 @@
           "text": "Paul's birthday is in May. His cousin's husband is German. The end of the party was great. My parents' house is near the school.",
           "question": "¿De quién es la casa que está cerca del colegio?",
           "options": [
-            { "id": "o1", "text": "De mis padres." },
-            { "id": "o2", "text": "De Paul." },
-            { "id": "o3", "text": "De mi primo." }
+            {
+              "id": "o1",
+              "text": "De mis padres."
+            },
+            {
+              "id": "o2",
+              "text": "De Paul."
+            },
+            {
+              "id": "o3",
+              "text": "De mi primo."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U5_B4_I2",
@@ -235,19 +435,45 @@
           "stimulus_es": "El marido de mi prima es alemán.",
           "correct_answer": "My cousin's husband is German",
           "validation_regex": "^my cousin's husband is german\\.?$",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B4_I3",
           "type": "matching",
           "prompt_es": "Une cada frase con su traducción correcta:",
           "pairs": [
-            { "id": "p1", "left": "Paul's birthday", "right": "El cumpleaños de Pablo" },
-            { "id": "p2", "left": "Spain's monuments", "right": "Los monumentos de España" },
-            { "id": "p3", "left": "The children's toys", "right": "Los juguetes de los niños" }
+            {
+              "id": "p1",
+              "left": "Paul's birthday",
+              "right": "El cumpleaños de Pablo"
+            },
+            {
+              "id": "p2",
+              "left": "Spain's monuments",
+              "right": "Los monumentos de España"
+            },
+            {
+              "id": "p3",
+              "left": "The children's toys",
+              "right": "Los juguetes de los niños"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U5_B4_I4",
@@ -255,21 +481,52 @@
           "prompt_es": "¿Cómo se dice 'el marido de mi prima'?",
           "stimulus_en": "My cousin's husband",
           "correct_answer": "El marido de mi prima",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U5_B4_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El cumpleaños de Pablo es en mayo.'",
           "options": [
-            { "id": "w1", "text": "Paul's" },
-            { "id": "w2", "text": "birthday" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "in" },
-            { "id": "w5", "text": "May" }
+            {
+              "id": "w1",
+              "text": "Paul's"
+            },
+            {
+              "id": "w2",
+              "text": "birthday"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "May"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

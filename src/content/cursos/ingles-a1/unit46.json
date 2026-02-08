@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja el vocabulario del hotel:",
           "pairs": [
-            { "id": "p1", "left": "Key", "right": "Llave" },
-            { "id": "p2", "left": "Reception", "right": "Recepción" },
-            { "id": "p3", "left": "Elevator", "right": "Ascensor" },
-            { "id": "p4", "left": "Wifi", "right": "Wifi" }
+            {
+              "id": "p1",
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p2",
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p4",
+              "left": "Wifi",
+              "right": "Wifi"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U46_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde pides información al llegar?",
           "options": [
-            { "id": "o1", "text": "Reception" },
-            { "id": "o2", "text": "The bed" },
-            { "id": "o3", "text": "The shower" }
+            {
+              "id": "o1",
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "The bed"
+            },
+            {
+              "id": "o3",
+              "text": "The shower"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U46_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa la palabra:",
           "stimulus_en": "My room is on the third ________. (piso/planta)",
           "correct_answer": "floor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U46_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Habitación'",
           "stimulus_es": "Habitación",
           "correct_answer": "Room",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U46_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de hotel:",
           "stimulus_en": "Check-out",
           "correct_answer": "Salida (dejar el hotel)",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,12 +132,26 @@
           "type": "multiple_choice",
           "prompt_es": "I ________ like a double room, please.",
           "options": [
-            { "id": "o1", "text": "would" },
-            { "id": "o2", "text": "do" },
-            { "id": "o3", "text": "am" }
+            {
+              "id": "o1",
+              "text": "would"
+            },
+            {
+              "id": "o2",
+              "text": "do"
+            },
+            {
+              "id": "o3",
+              "text": "am"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U46_I7",
@@ -90,25 +159,46 @@
           "prompt_es": "Completa con 'have' o 'has':",
           "stimulus_en": "Does the room ________ a TV?",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U46_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'My room is in the first floor'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U46_I9",
           "type": "multiple_choice",
           "prompt_es": "We ________ a reservation.",
           "options": [
-            { "id": "o1", "text": "have" },
-            { "id": "o2", "text": "has" }
+            {
+              "id": "o1",
+              "text": "have"
+            },
+            {
+              "id": "o2",
+              "text": "has"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U46_I10",
@@ -116,7 +206,12 @@
           "prompt_es": "Completa la frase:",
           "stimulus_en": "Is breakfast ________ in the price? (incluido)",
           "correct_answer": "included",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -129,26 +224,66 @@
           "type": "reorder_words",
           "prompt_es": "Pide la contraseña del wifi:",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "wifi" },
-            { "id": "w5", "text": "password?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "wifi"
+            },
+            {
+              "id": "w5",
+              "text": "password?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U46_I12",
           "type": "multiple_choice",
           "prompt_es": "Receptionist: 'Your room is 204. Here is the key.' - You:",
           "options": [
-            { "id": "o1", "text": "Thank you very much." },
-            { "id": "o2", "text": "I am from Spain." },
-            { "id": "o3", "text": "Good luck." }
+            {
+              "id": "o1",
+              "text": "Thank you very much."
+            },
+            {
+              "id": "o2",
+              "text": "I am from Spain."
+            },
+            {
+              "id": "o3",
+              "text": "Good luck."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U46_I13",
@@ -156,7 +291,12 @@
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
           "correct_answer": "check",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U46_I14",
@@ -164,14 +304,24 @@
           "prompt_es": "Traduce: '¿Dónde está el ascensor?'",
           "stimulus_es": "¿Dónde está el ascensor?",
           "correct_answer": "Where is the elevator?",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U46_I15",
           "type": "true_false",
           "prompt_es": "The receptionist works at the reception desk.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -185,7 +335,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/6a60b2fb70220743314aa55b896467c8.mp3",
           "text": "Is breakfast included?",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U46_I17",
@@ -194,12 +349,26 @@
           "text": "Welcome to Hotel Grand Palace. We have 50 rooms. Every room has a bed, a TV, and free wifi. Breakfast is from 7:00 AM to 10:00 AM in the restaurant on the first floor. Our reception is open 24 hours. Enjoy your stay!",
           "question": "What is in every room?",
           "options": [
-            { "id": "o1", "text": "A bed, a TV, and wifi" },
-            { "id": "o2", "text": "A kitchen and a sofa" },
-            { "id": "o3", "text": "A balcony" }
+            {
+              "id": "o1",
+              "text": "A bed, a TV, and wifi"
+            },
+            {
+              "id": "o2",
+              "text": "A kitchen and a sofa"
+            },
+            {
+              "id": "o3",
+              "text": "A balcony"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U46_I18",
@@ -208,12 +377,26 @@
           "text": "Welcome to Hotel Grand Palace. We have 50 rooms. Every room has a bed, a TV, and free wifi. Breakfast is from 7:00 AM to 10:00 AM in the restaurant on the first floor. Our reception is open 24 hours. Enjoy your stay!",
           "question": "Where is the restaurant?",
           "options": [
-            { "id": "o1", "text": "On the first floor" },
-            { "id": "o2", "text": "On the second floor" },
-            { "id": "o3", "text": "Near the park" }
+            {
+              "id": "o1",
+              "text": "On the first floor"
+            },
+            {
+              "id": "o2",
+              "text": "On the second floor"
+            },
+            {
+              "id": "o3",
+              "text": "Near the park"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U46_I19",
@@ -221,19 +404,38 @@
           "prompt_es": "Escucha la frase del recepcionista:",
           "audioUrl": "/audio/courses/ingles-a1/shared/8227b8535d0a1ba499589495f9efb937.mp3",
           "text": "I want a double room.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U46_I20",
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora termina el desayuno?",
           "options": [
-            { "id": "o1", "text": "10:00 AM" },
-            { "id": "o2", "text": "7:00 AM" },
-            { "id": "o3", "text": "12:00 PM" }
+            {
+              "id": "o1",
+              "text": "10:00 AM"
+            },
+            {
+              "id": "o2",
+              "text": "7:00 AM"
+            },
+            {
+              "id": "o3",
+              "text": "12:00 PM"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

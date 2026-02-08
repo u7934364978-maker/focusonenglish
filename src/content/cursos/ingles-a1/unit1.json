@@ -28,7 +28,9 @@
           ],
           "correct_answer": "o1",
           "explanation": "En inglés siempre decimos 'a good coffee', no 'a coffee good'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "adjectives:position",
+          "concept_tags": ["grammar", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B1_I2",
@@ -36,7 +38,9 @@
           "prompt_es": "¿Los adjetivos en inglés se ponen en plural (con -s)?",
           "correct_answer": false,
           "explanation": "Los adjetivos son invariables. Decimos 'beautiful girls', no 'beautifuls girls'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "adjectives:plural",
+          "concept_tags": ["grammar", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B1_I3",
@@ -52,7 +56,9 @@
             { "id": "w7", "text": "expensive" }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax:word-order",
+          "concept_tags": ["grammar", "syntax", "adjectives"],
+          "complexity": 2
         },
         {
           "interaction_id": "U1_B1_I4",
@@ -65,7 +71,9 @@
             { "id": "p4", "left": "Old", "right": "New/Young" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary:opposites",
+          "concept_tags": ["vocabulary", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B1_I5",
@@ -73,7 +81,9 @@
           "prompt_es": "Completa: 'Es un restaurante barato.'",
           "stimulus_en": "It's a ________ restaurant.",
           "correct_answer": "cheap",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary:adjectives",
+          "concept_tags": ["vocabulary", "adjectives"],
+          "complexity": 3
         }
       ]
     },
@@ -92,7 +102,9 @@
             { "id": "p4", "left": "An old man", "right": "Un hombre viejo" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary:adjectives",
+          "concept_tags": ["vocabulary", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B2_I2",
@@ -104,7 +116,9 @@
             { "id": "o3", "text": "The young lady is beautifuls too." }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "adjectives:position",
+          "concept_tags": ["grammar", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B2_I3",
@@ -118,7 +132,9 @@
             { "id": "w5", "text": "nice" }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax:word-order",
+          "concept_tags": ["grammar", "syntax", "adjectives"],
+          "complexity": 2
         },
         {
           "interaction_id": "U1_B2_I4",
@@ -126,7 +142,9 @@
           "prompt_es": "Completa: 'Una habitación llena.'",
           "stimulus_en": "A ________ room.",
           "correct_answer": "full",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary:adjectives",
+          "concept_tags": ["vocabulary", "adjectives"],
+          "complexity": 3
         },
         {
           "interaction_id": "U1_B2_I5",
@@ -137,7 +155,9 @@
             { "id": "o2", "text": "A coffee good" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "adjectives:position",
+          "concept_tags": ["grammar", "adjectives"],
+          "complexity": 1
         }
       ]
     },
@@ -155,7 +175,9 @@
           ],
           "correct_answer": "o2",
           "explanation": "Los sustantivos contables en singular siempre necesitan un artículo.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar:articles",
+          "concept_tags": ["grammar", "articles"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B3_I2",
@@ -182,7 +204,9 @@
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar:uncountable",
+          "concept_tags": ["grammar", "uncountable", "articles"],
+          "complexity": 2
         },
         {
           "interaction_id": "U1_B3_I3",
@@ -198,7 +222,9 @@
             { "id": "w7", "text": "money" }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax:word-order",
+          "concept_tags": ["grammar", "syntax", "quantifiers"],
+          "complexity": 2
         },
         {
           "interaction_id": "U1_B3_I4",
@@ -210,7 +236,9 @@
           ],
           "correct_answer": "o2",
           "explanation": "Children ya es plural, no necesita la -s.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar:plurals:irregular",
+          "concept_tags": ["grammar", "nouns"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B3_I5",
@@ -221,7 +249,9 @@
             { "id": "o2", "text": "on the Internet" }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar:prepositions",
+          "concept_tags": ["grammar", "prepositions"],
+          "complexity": 1
         }
       ]
     },
@@ -241,7 +271,9 @@
             { "id": "o3", "text": "I have much money." }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading:comprehension",
+          "concept_tags": ["reading", "grammar"],
+          "complexity": 4
         },
         {
           "interaction_id": "U1_B4_I2",
@@ -250,7 +282,9 @@
           "stimulus_es": "Es un restaurante barato.",
           "correct_answer": "It's a cheap restaurant",
           "validation_regex": "^(it's|it is) a cheap restaurant\\.?$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "production:translation",
+          "concept_tags": ["production", "adjectives", "vocabulary"],
+          "complexity": 4
         },
         {
           "interaction_id": "U1_B4_I3",
@@ -258,7 +292,9 @@
           "prompt_es": "¿Cómo se dice 'una mujer alta'?",
           "stimulus_en": "A tall woman",
           "correct_answer": "Una mujer alta",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary:recall",
+          "concept_tags": ["vocabulary", "adjectives"],
+          "complexity": 3
         },
         {
           "interaction_id": "U1_B4_I4",
@@ -270,7 +306,9 @@
           ],
           "correct_answer": "o1",
           "explanation": "Recuerda: Adjetivo + Sustantivo.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "adjectives:position",
+          "concept_tags": ["grammar", "adjectives"],
+          "complexity": 1
         },
         {
           "interaction_id": "U1_B4_I5",
@@ -285,7 +323,9 @@
             { "id": "w6", "text": "person" }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax:word-order",
+          "concept_tags": ["grammar", "syntax", "adjectives"],
+          "complexity": 2
         }
       ]
     }

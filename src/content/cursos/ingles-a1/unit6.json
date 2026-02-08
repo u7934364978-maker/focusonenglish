@@ -23,13 +23,39 @@
           "type": "matching",
           "prompt_es": "Une los números cardinales con sus ordinales:",
           "pairs": [
-            { "id": "p1", "left": "One", "right": "First (1st)" },
-            { "id": "p2", "left": "Two", "right": "Second (2nd)" },
-            { "id": "p3", "left": "Three", "right": "Third (3rd)" },
-            { "id": "p4", "left": "Four", "right": "Fourth (4th)" }
+            {
+              "id": "p1",
+              "left": "One",
+              "right": "First (1st)"
+            },
+            {
+              "id": "p2",
+              "left": "Two",
+              "right": "Second (2nd)"
+            },
+            {
+              "id": "p3",
+              "left": "Three",
+              "right": "Third (3rd)"
+            },
+            {
+              "id": "p4",
+              "left": "Four",
+              "right": "Fourth (4th)"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U6_B1_I2",
@@ -37,32 +63,70 @@
           "prompt_es": "Completa la excepción: 'Five' -> ________ (Quinto)",
           "stimulus_en": "fifth",
           "correct_answer": "fifth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U6_B1_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el ordinal de 9 (Nine)?",
           "options": [
-            { "id": "o1", "text": "Ninth" },
-            { "id": "o2", "text": "Nineth" }
+            {
+              "id": "o1",
+              "text": "Ninth"
+            },
+            {
+              "id": "o2",
+              "text": "Nineth"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Se quita la 'e' final: Ninth.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U6_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena el número 421º:",
           "options": [
-            { "id": "w1", "text": "four" },
-            { "id": "w2", "text": "hundred" },
-            { "id": "w3", "text": "and" },
-            { "id": "w4", "text": "twenty-first" }
+            {
+              "id": "w1",
+              "text": "four"
+            },
+            {
+              "id": "w2",
+              "text": "hundred"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "twenty-first"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U6_B1_I5",
@@ -70,7 +134,12 @@
           "prompt_es": "¿En los números compuestos (ej. 21º) solo el último número es ordinal?",
           "correct_answer": true,
           "explanation": "Correcto: Twenty-first (no twentieth-first).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -83,11 +152,22 @@
           "type": "multiple_choice",
           "prompt_es": "En formato británico, ¿qué va primero?",
           "options": [
-            { "id": "o1", "text": "El día (24th September)" },
-            { "id": "o2", "text": "El mes (September 24th)" }
+            {
+              "id": "o1",
+              "text": "El día (24th September)"
+            },
+            {
+              "id": "o2",
+              "text": "El mes (September 24th)"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "culture"
+          "mastery_tag": "culture",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "culture"
+          ]
         },
         {
           "interaction_id": "U6_B2_I2",
@@ -96,28 +176,63 @@
           "stimulus_en": "May",
           "correct_answer": "May",
           "explanation": "Recuerda que los meses siempre van en Mayúscula.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U6_B2_I3",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "22nd April", "right": "Británico" },
-            { "id": "p2", "left": "April 22nd", "right": "Americano" }
+            {
+              "id": "p1",
+              "left": "22nd April",
+              "right": "Británico"
+            },
+            {
+              "id": "p2",
+              "left": "April 22nd",
+              "right": "Americano"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "culture"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "culture",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "culture"
+          ]
         },
         {
           "interaction_id": "U6_B2_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: '24 de septiembre'",
           "options": [
-            { "id": "w1", "text": "24th" },
-            { "id": "w2", "text": "September" }
+            {
+              "id": "w1",
+              "text": "24th"
+            },
+            {
+              "id": "w2",
+              "text": "September"
+            }
           ],
-          "correct_answer": ["w1", "w2"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U6_B2_I5",
@@ -125,7 +240,12 @@
           "prompt_es": "¿Al escribir la fecha se suelen poner 'the' y 'of' (ej. the 24th of September)?",
           "correct_answer": false,
           "explanation": "Se dicen al hablar, pero normalmente NO se escriben.",
-          "mastery_tag": "culture"
+          "mastery_tag": "culture",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "culture"
+          ]
         }
       ]
     },
@@ -138,11 +258,22 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '22nd April' en voz alta?",
           "options": [
-            { "id": "o1", "text": "The twenty-second of April" },
-            { "id": "o2", "text": "Twenty-two April" }
+            {
+              "id": "o1",
+              "text": "The twenty-second of April"
+            },
+            {
+              "id": "o2",
+              "text": "Twenty-two April"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "speaking"
+          "mastery_tag": "speaking",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "speaking"
+          ]
         },
         {
           "interaction_id": "U6_B3_I2",
@@ -151,7 +282,12 @@
           "stimulus_en": "the",
           "correct_answer": "the",
           "explanation": "En estilo americano: 'May the eighteenth'.",
-          "mastery_tag": "speaking"
+          "mastery_tag": "speaking",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "speaking"
+          ]
         },
         {
           "interaction_id": "U6_B3_I3",
@@ -162,36 +298,81 @@
               "id": "c1",
               "title": "Terminan en -st, -nd, -rd",
               "items": [
-                { "id": "i1", "text": "First" },
-                { "id": "i2", "text": "Second" },
-                { "id": "i3", "text": "Third" }
+                {
+                  "id": "i1",
+                  "text": "First"
+                },
+                {
+                  "id": "i2",
+                  "text": "Second"
+                },
+                {
+                  "id": "i3",
+                  "text": "Third"
+                }
               ]
             },
             {
               "id": "c2",
               "title": "Terminan en -th",
               "items": [
-                { "id": "i4", "text": "Fourth" },
-                { "id": "i5", "text": "Tenth" },
-                { "id": "i6", "text": "Twentieth" }
+                {
+                  "id": "i4",
+                  "text": "Fourth"
+                },
+                {
+                  "id": "i5",
+                  "text": "Tenth"
+                },
+                {
+                  "id": "i6",
+                  "text": "Twentieth"
+                }
               ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U6_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena al hablar: 'El 10 de mayo'",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "tenth" },
-            { "id": "w3", "text": "of" },
-            { "id": "w4", "text": "May" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "tenth"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "May"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "speaking"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "speaking",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "speaking"
+          ]
         },
         {
           "interaction_id": "U6_B3_I5",
@@ -199,7 +380,12 @@
           "prompt_es": "¿Cómo se dice 'duodécimo'?",
           "stimulus_en": "Twelfth",
           "correct_answer": "Twelfth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -214,12 +400,26 @@
           "text": "My birthday is on 8th May. My sister's birthday is on 22nd April. We have a test on 10th June.",
           "question": "¿Cuándo es el cumpleaños de mi hermana?",
           "options": [
-            { "id": "o1", "text": "22 de abril." },
-            { "id": "o2", "text": "8 de mayo." },
-            { "id": "o3", "text": "10 de junio." }
+            {
+              "id": "o1",
+              "text": "22 de abril."
+            },
+            {
+              "id": "o2",
+              "text": "8 de mayo."
+            },
+            {
+              "id": "o3",
+              "text": "10 de junio."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U6_B4_I2",
@@ -228,33 +428,75 @@
           "stimulus_es": "8 de mayo",
           "correct_answer": "8th May",
           "validation_regex": "^8th May$",
-          "mastery_tag": "writing"
+          "mastery_tag": "writing",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "writing"
+          ]
         },
         {
           "interaction_id": "U6_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "Completa: 'Te veo el sábado.'",
           "options": [
-            { "id": "o1", "text": "I'll see you on Saturday" },
-            { "id": "o2", "text": "I'll see you in Saturday" }
+            {
+              "id": "o1",
+              "text": "I'll see you on Saturday"
+            },
+            {
+              "id": "o2",
+              "text": "I'll see you in Saturday"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Con días usamos 'on'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U6_B4_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi cumpleaños es en febrero.'",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "birthday" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "in" },
-            { "id": "w5", "text": "February" }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "birthday"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "February"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U6_B4_I5",
@@ -262,7 +504,12 @@
           "prompt_es": "¿Cómo se dice 'veinteavo' / 'vigésimo'?",
           "stimulus_en": "Twentieth",
           "correct_answer": "Twentieth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     }

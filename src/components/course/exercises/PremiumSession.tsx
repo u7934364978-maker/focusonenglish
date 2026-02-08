@@ -27,6 +27,7 @@ interface Props {
   onExit: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
   onPerformanceUpdate?: (interactionId: string, quality: number) => void;
+  onConceptUpdate?: (tags: string[], success: boolean) => void;
   initialIndex?: number;
   customQueue?: any[];
   userId?: string;
@@ -43,7 +44,17 @@ const normalizeForComparison = (text: string) => {
     .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Remove accents
 };
 
-export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, onPerformanceUpdate, initialIndex = 0, customQueue, userId }: Props) {
+export default function PremiumCourseSession({ 
+  unitData, 
+  onComplete, 
+  onExit, 
+  onInteractionCorrect, 
+  onPerformanceUpdate, 
+  onConceptUpdate,
+  initialIndex = 0, 
+  customQueue, 
+  userId 
+}: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -882,6 +893,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const quality = Math.max(3, 5 - fails);
         onPerformanceUpdate(interaction.interaction_id, quality);
       }
+
+      if (onConceptUpdate && interaction.concept_tags) {
+        onConceptUpdate(interaction.concept_tags, true);
+      }
     } else {
       setIsCorrect(false);
       setSelectedOption(optionId);
@@ -891,6 +906,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       if (onPerformanceUpdate && interaction.interaction_id) {
         onPerformanceUpdate(interaction.interaction_id, 0); // 0 = fail
+      }
+
+      if (onConceptUpdate && interaction.concept_tags) {
+        onConceptUpdate(interaction.concept_tags, false);
       }
       
       let message = "";

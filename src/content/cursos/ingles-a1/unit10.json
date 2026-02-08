@@ -23,15 +23,45 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase correctamente (Adjetivos):",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "has" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "big" },
-            { "id": "w5", "text": "blue" },
-            { "id": "w6", "text": "car" }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w5",
+              "text": "blue"
+            },
+            {
+              "id": "w6",
+              "text": "car"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U10_B1_I2",
@@ -39,39 +69,86 @@
           "prompt_es": "Usa 'a' o 'an' según corresponda:",
           "stimulus_en": "I am ___ architect and my friend is ___ teacher.",
           "correct_answer": "an, a",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B1_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta del adverbio?",
           "options": [
-            { "id": "o1", "text": "He speaks English well." },
-            { "id": "o2", "text": "He speaks English good." }
+            {
+              "id": "o1",
+              "text": "He speaks English well."
+            },
+            {
+              "id": "o2",
+              "text": "He speaks English good."
+            }
           ],
           "correct_answer": "o1",
           "explanation": "'Well' es el adverbio que describe cómo se realiza la acción.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B1_I4",
           "type": "true_false",
           "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo (ej. A red apple).",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B1_I5",
           "type": "matching",
           "prompt_es": "Une los adjetivos con sus opuestos:",
           "pairs": [
-            { "id": "p1", "left": "Big", "right": "Small" },
-            { "id": "p2", "left": "Old", "right": "Young" },
-            { "id": "p3", "left": "Happy", "right": "Sad" },
-            { "id": "p4", "left": "Fast", "right": "Slow" }
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Small"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Young"
+            },
+            {
+              "id": "p3",
+              "left": "Happy",
+              "right": "Sad"
+            },
+            {
+              "id": "p4",
+              "left": "Fast",
+              "right": "Slow"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -84,25 +161,65 @@
           "type": "matching",
           "prompt_es": "Une el país con su nacionalidad:",
           "pairs": [
-            { "id": "p1", "left": "Spain", "right": "Spanish" },
-            { "id": "p2", "left": "The UK", "right": "British" },
-            { "id": "p3", "left": "France", "right": "French" },
-            { "id": "p4", "left": "Italy", "right": "Italian" }
+            {
+              "id": "p1",
+              "left": "Spain",
+              "right": "Spanish"
+            },
+            {
+              "id": "p2",
+              "left": "The UK",
+              "right": "British"
+            },
+            {
+              "id": "p3",
+              "left": "France",
+              "right": "French"
+            },
+            {
+              "id": "p4",
+              "left": "Italy",
+              "right": "Italian"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U10_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfermero/a'?",
           "options": [
-            { "id": "o1", "text": "Nurse" },
-            { "id": "o2", "text": "Doctor" },
-            { "id": "o3", "text": "Chef" }
+            {
+              "id": "o1",
+              "text": "Nurse"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor"
+            },
+            {
+              "id": "o3",
+              "text": "Chef"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U10_B2_I3",
@@ -111,7 +228,12 @@
           "stimulus_en": "I ___ 25 years old.",
           "correct_answer": "am",
           "explanation": "En inglés usamos el verbo 'to be' para la edad, no el verbo 'tener'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B2_I4",
@@ -120,7 +242,12 @@
           "stimulus_es": "Mi nombre es Alex y soy de México.",
           "correct_answer": "My name is Alex and I am from Mexico",
           "validation_regex": "^my name is alex and i am from mexico\\.?$",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U10_B2_I5",
@@ -128,7 +255,12 @@
           "prompt_es": "¿Cómo se dice 'Estudiante'?",
           "stimulus_en": "Student",
           "correct_answer": "Estudiante",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -141,26 +273,67 @@
           "type": "reorder_words",
           "prompt_es": "Ordena los pasos de una mañana típica:",
           "options": [
-            { "id": "w1", "text": "First," },
-            { "id": "w2", "text": "I wake up." },
-            { "id": "w3", "text": "Then," },
-            { "id": "w4", "text": "I have breakfast." },
-            { "id": "w5", "text": "Finally," },
-            { "id": "w6", "text": "I go to work." }
+            {
+              "id": "w1",
+              "text": "First,"
+            },
+            {
+              "id": "w2",
+              "text": "I wake up."
+            },
+            {
+              "id": "w3",
+              "text": "Then,"
+            },
+            {
+              "id": "w4",
+              "text": "I have breakfast."
+            },
+            {
+              "id": "w5",
+              "text": "Finally,"
+            },
+            {
+              "id": "w6",
+              "text": "I go to work."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U10_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "Elige el conector adecuado: '______, I am a doctor.' (Para empezar una presentación)",
           "options": [
-            { "id": "o1", "text": "First" },
-            { "id": "o2", "text": "Finally" }
+            {
+              "id": "o1",
+              "text": "First"
+            },
+            {
+              "id": "o2",
+              "text": "Finally"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B3_I3",
@@ -168,7 +341,12 @@
           "prompt_es": "Completa la secuencia: 'First I study, ______ I take the exam.'",
           "stimulus_en": "First I study, ______ I take the exam.",
           "correct_answer": "then",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U10_B3_I4",
@@ -176,19 +354,45 @@
           "prompt_es": "¿Es correcto decir 'He speaks fastly'?",
           "correct_answer": false,
           "explanation": "El adverbio de 'fast' es irregular: 'He speaks fast'.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B3_I5",
           "type": "matching",
           "prompt_es": "Une el conector con su función:",
           "pairs": [
-            { "id": "p1", "left": "First", "right": "Para empezar" },
-            { "id": "p2", "left": "Then", "right": "Para continuar" },
-            { "id": "p3", "left": "Finally", "right": "Para terminar" }
+            {
+              "id": "p1",
+              "left": "First",
+              "right": "Para empezar"
+            },
+            {
+              "id": "p2",
+              "left": "Then",
+              "right": "Para continuar"
+            },
+            {
+              "id": "p3",
+              "left": "Finally",
+              "right": "Para terminar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -203,36 +407,78 @@
           "text": "Hello! My name is Sarah. I am an engineer from London. I have a small office in the city. First, I drink coffee. Then, I check my emails. I work carefully with my team.",
           "question": "What is Sarah's job?",
           "options": [
-            { "id": "o1", "text": "She is an engineer." },
-            { "id": "o2", "text": "She is a doctor." },
-            { "id": "o3", "text": "She is a teacher." }
+            {
+              "id": "o1",
+              "text": "She is an engineer."
+            },
+            {
+              "id": "o2",
+              "text": "She is a doctor."
+            },
+            {
+              "id": "o3",
+              "text": "She is a teacher."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U10_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo trabaja Sarah?",
           "options": [
-            { "id": "o1", "text": "Carefully" },
-            { "id": "o2", "text": "Careful" },
-            { "id": "o3", "text": "Quick" }
+            {
+              "id": "o1",
+              "text": "Carefully"
+            },
+            {
+              "id": "o2",
+              "text": "Careful"
+            },
+            {
+              "id": "o3",
+              "text": "Quick"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U10_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "¿De dónde es Sarah?",
           "options": [
-            { "id": "o1", "text": "London" },
-            { "id": "o2", "text": "Paris" },
-            { "id": "o3", "text": "New York" }
+            {
+              "id": "o1",
+              "text": "London"
+            },
+            {
+              "id": "o2",
+              "text": "Paris"
+            },
+            {
+              "id": "o3",
+              "text": "New York"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U10_B4_I4",
@@ -241,21 +487,52 @@
           "stimulus_es": "¿Qué hace Sarah después de beber café?",
           "correct_answer": "She checks her emails",
           "validation_regex": "^she checks her emails\\.?$",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U10_B4_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena el resumen:",
           "options": [
-            { "id": "w1", "text": "Sarah" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "professional" },
-            { "id": "w5", "text": "engineer." }
+            {
+              "id": "w1",
+              "text": "Sarah"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "professional"
+            },
+            {
+              "id": "w5",
+              "text": "engineer."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

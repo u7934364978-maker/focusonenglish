@@ -23,12 +23,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es un sustantivo contable?",
           "options": [
-            { "id": "o1", "text": "Apple" },
-            { "id": "o2", "text": "Water" },
-            { "id": "o3", "text": "Rice" }
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Water"
+            },
+            {
+              "id": "o3",
+              "text": "Rice"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u52_b1_i2",
@@ -36,32 +50,80 @@
           "prompt_es": "Usa 'a' o 'an':",
           "stimulus_en": "I have ________ orange and ________ banana.",
           "correct_answer": "an, a",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b1_i3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay tres huevos'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "three" },
-            { "id": "w4", "text": "eggs" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "three"
+            },
+            {
+              "id": "w4",
+              "text": "eggs"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u52_b1_i4",
           "type": "matching",
           "prompt_es": "Une el singular con el plural:",
           "pairs": [
-            { "id": "p1", "left": "One apple", "right": "Two apples" },
-            { "id": "p2", "left": "One egg", "right": "Two eggs" },
-            { "id": "p3", "left": "One potato", "right": "Two potatoes" }
+            {
+              "id": "p1",
+              "left": "One apple",
+              "right": "Two apples"
+            },
+            {
+              "id": "p2",
+              "left": "One egg",
+              "right": "Two eggs"
+            },
+            {
+              "id": "p3",
+              "left": "One potato",
+              "right": "Two potatoes"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u52_b1_i5",
@@ -69,7 +131,12 @@
           "prompt_es": "Escucha y repite:",
           "audioUrl": "/audio/courses/ingles-a1/shared/countable_plural.mp3",
           "text": "An apple, an orange, and two eggs.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -82,12 +149,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos NO se puede contar?",
           "options": [
-            { "id": "o1", "text": "Milk" },
-            { "id": "o2", "text": "Carrot" },
-            { "id": "o3", "text": "Tomato" }
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Carrot"
+            },
+            {
+              "id": "o3",
+              "text": "Tomato"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u52_b2_i2",
@@ -95,14 +176,24 @@
           "prompt_es": "Usa 'some' para sustantivos incontables:",
           "stimulus_en": "I want ________ water and ________ bread.",
           "correct_answer": "some, some",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b2_i3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'two waters' en inglés general?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b2_i4",
@@ -110,7 +201,12 @@
           "prompt_es": "Traduce: 'Tengo algo de leche'",
           "stimulus_es": "I have some milk.",
           "correct_answer": "I have some milk",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b2_i5",
@@ -118,7 +214,12 @@
           "prompt_es": "Escucha y repite:",
           "audioUrl": "/audio/courses/ingles-a1/shared/uncountable_examples.mp3",
           "text": "Some bread, some water, and some coffee.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -134,41 +235,92 @@
             {
               "id": "countable",
               "title": "Countable",
-              "items": ["Cookie", "Banana", "Egg", "Tomato"]
+              "items": [
+                "Cookie",
+                "Banana",
+                "Egg",
+                "Tomato"
+              ]
             },
             {
               "id": "uncountable",
               "title": "Uncountable",
-              "items": ["Rice", "Sugar", "Milk", "Juice"]
+              "items": [
+                "Rice",
+                "Sugar",
+                "Milk",
+                "Juice"
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u52_b3_i2",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la frase correcta:",
           "options": [
-            { "id": "o1", "text": "I have an apple." },
-            { "id": "o2", "text": "I have a milk." },
-            { "id": "o3", "text": "I have some orange." }
+            {
+              "id": "o1",
+              "text": "I have an apple."
+            },
+            {
+              "id": "o2",
+              "text": "I have a milk."
+            },
+            {
+              "id": "o3",
+              "text": "I have some orange."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b3_i3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Queremos algo de pan'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "want" },
-            { "id": "w3", "text": "some" },
-            { "id": "w4", "text": "bread" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "want"
+            },
+            {
+              "id": "w3",
+              "text": "some"
+            },
+            {
+              "id": "w4",
+              "text": "bread"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u52_b3_i4",
@@ -176,7 +328,12 @@
           "prompt_es": "Traduce: 'Necesito una naranja'",
           "stimulus_es": "I need an orange.",
           "correct_answer": "I need an orange",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b3_i5",
@@ -184,7 +341,12 @@
           "prompt_es": "Escucha y responde:",
           "audioUrl": "/audio/courses/ingles-a1/shared/countable_uncountable_mix.mp3",
           "text": "I have some rice and an egg for lunch.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -199,12 +361,26 @@
           "text": "I want to make a sandwich. I have some bread and some butter. I also have a tomato and an onion. I don't have any cheese. I need to go to the shop!",
           "question": "What does the person have?",
           "options": [
-            { "id": "o1", "text": "Bread, butter, tomato, and onion" },
-            { "id": "o2", "text": "Cheese and bread" },
-            { "id": "o3", "text": "Only a tomato" }
+            {
+              "id": "o1",
+              "text": "Bread, butter, tomato, and onion"
+            },
+            {
+              "id": "o2",
+              "text": "Cheese and bread"
+            },
+            {
+              "id": "o3",
+              "text": "Only a tomato"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "u52_b4_i2",
@@ -212,14 +388,24 @@
           "prompt_es": "Completa el texto:",
           "stimulus_en": "Please buy ________ milk and ________ apples at the supermarket.",
           "correct_answer": "some, some",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b4_i3",
           "type": "true_false",
           "prompt_es": "La palabra 'Rice' (arroz) es contable.",
           "correct_answer": false,
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u52_b4_i4",
@@ -227,7 +413,12 @@
           "prompt_es": "Escribe una frase diciendo que tienes una manzana:",
           "stimulus_es": "I have an apple.",
           "correct_answer": "I have an apple",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u52_b4_i5",
@@ -235,7 +426,12 @@
           "prompt_es": "Escucha el resumen final:",
           "audioUrl": "/audio/courses/ingles-a1/shared/unit52_summary.mp3",
           "text": "Remember: use a or an for singular countable items, and some for uncountable things like water or bread.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     }

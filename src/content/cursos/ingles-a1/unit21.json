@@ -23,25 +23,65 @@
           "type": "matching",
           "prompt_es": "Une las habitaciones con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Living room", "right": "Salón" },
-            { "id": "p2", "left": "Bedroom", "right": "Dormitorio" },
-            { "id": "p3", "left": "Kitchen", "right": "Cocina" },
-            { "id": "p4", "left": "Bathroom", "right": "Baño" }
+            {
+              "id": "p1",
+              "left": "Living room",
+              "right": "Salón"
+            },
+            {
+              "id": "p2",
+              "left": "Bedroom",
+              "right": "Dormitorio"
+            },
+            {
+              "id": "p3",
+              "left": "Kitchen",
+              "right": "Cocina"
+            },
+            {
+              "id": "p4",
+              "left": "Bathroom",
+              "right": "Baño"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U21_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde duermes (sleep)?",
           "options": [
-            { "id": "o1", "text": "In the bedroom" },
-            { "id": "o2", "text": "In the kitchen" },
-            { "id": "o3", "text": "In the garage" }
+            {
+              "id": "o1",
+              "text": "In the bedroom"
+            },
+            {
+              "id": "o2",
+              "text": "In the kitchen"
+            },
+            {
+              "id": "o3",
+              "text": "In the garage"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U21_B1_I3",
@@ -49,32 +89,77 @@
           "prompt_es": "Nueva palabra: Comedor",
           "stimulus_en": "Dining room",
           "correct_answer": "Comedor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U21_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Jardín'?",
           "options": [
-            { "id": "o1", "text": "Garden" },
-            { "id": "o2", "text": "Yard" },
-            { "id": "o3", "text": "Both are correct" }
+            {
+              "id": "o1",
+              "text": "Garden"
+            },
+            {
+              "id": "o2",
+              "text": "Yard"
+            },
+            {
+              "id": "o3",
+              "text": "Both are correct"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U21_B1_I5",
           "type": "matching",
           "prompt_es": "Más partes de la casa:",
           "pairs": [
-            { "id": "p1", "left": "Garage", "right": "Garaje" },
-            { "id": "p2", "left": "Attic", "right": "Ático" },
-            { "id": "p3", "left": "Garden", "right": "Jardín" },
-            { "id": "p4", "left": "Hall", "right": "Recibidor/Pasillo" }
+            {
+              "id": "p1",
+              "left": "Garage",
+              "right": "Garaje"
+            },
+            {
+              "id": "p2",
+              "left": "Attic",
+              "right": "Ático"
+            },
+            {
+              "id": "p3",
+              "left": "Garden",
+              "right": "Jardín"
+            },
+            {
+              "id": "p4",
+              "left": "Hall",
+              "right": "Recibidor/Pasillo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -87,12 +172,26 @@
           "type": "multiple_choice",
           "prompt_es": "Usamos 'There is' para singular y 'There are' para plural. 'Hay una cocina' es:",
           "options": [
-            { "id": "o1", "text": "There are a kitchen" },
-            { "id": "o2", "text": "There is a kitchen" },
-            { "id": "o3", "text": "Is there a kitchen" }
+            {
+              "id": "o1",
+              "text": "There are a kitchen"
+            },
+            {
+              "id": "o2",
+              "text": "There is a kitchen"
+            },
+            {
+              "id": "o3",
+              "text": "Is there a kitchen"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U21_B2_I7",
@@ -100,26 +199,50 @@
           "prompt_es": "Completa con 'is' o 'are':",
           "stimulus_en": "There ________ three bedrooms in my house.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U21_B2_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'There are a garden'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U21_B2_I9",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntarías '¿Hay un garaje?'?",
           "options": [
-            { "id": "o1", "text": "There is a garage?" },
-            { "id": "o2", "text": "Is there a garage?" },
-            { "id": "o3", "text": "Are there a garage?" }
+            {
+              "id": "o1",
+              "text": "There is a garage?"
+            },
+            {
+              "id": "o2",
+              "text": "Is there a garage?"
+            },
+            {
+              "id": "o3",
+              "text": "Are there a garage?"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U21_B2_I10",
@@ -127,7 +250,12 @@
           "prompt_es": "Completa la negación: 'No hay (ningún) ático'",
           "stimulus_en": "There ________ not an attic.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -140,30 +268,90 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros cocinamos en la cocina'",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "cook" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "kitchen" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "cook"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "kitchen"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U21_B3_I12",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay una televisión en el salón'",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "TV" },
-            { "id": "w5", "text": "in" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "living room" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "TV"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "living room"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U21_B3_I13",
@@ -171,7 +359,12 @@
           "prompt_es": "Traduce: 'Mi casa tiene dos baños'",
           "stimulus_en": "My house has two bathrooms",
           "correct_answer": "My house has two bathrooms",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U21_B3_I14",
@@ -179,20 +372,47 @@
           "prompt_es": "Completa con la habitación lógica:",
           "stimulus_en": "I take a shower in the ________.",
           "correct_answer": "bathroom",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U21_B3_I15",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Hay un jardín?'",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "there" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "garden?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "there"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "garden?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -207,24 +427,52 @@
           "text": "My house is small but comfortable. There is a large living room and a modern kitchen. Upstairs, there are two bedrooms and one bathroom. We have a small garden with flowers.",
           "question": "¿Cuántos dormitorios (bedrooms) hay?",
           "options": [
-            { "id": "o1", "text": "One" },
-            { "id": "o2", "text": "Two" },
-            { "id": "o3", "text": "Three" }
+            {
+              "id": "o1",
+              "text": "One"
+            },
+            {
+              "id": "o2",
+              "text": "Two"
+            },
+            {
+              "id": "o3",
+              "text": "Three"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U21_B4_I17",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿cómo es la cocina?",
           "options": [
-            { "id": "o1", "text": "Small" },
-            { "id": "o2", "text": "Old" },
-            { "id": "o3", "text": "Modern" }
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Modern"
+            }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U21_B4_I18",
@@ -232,7 +480,12 @@
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/b54c858f2f15255eae371b3b03ac2829.mp3",
           "text": "My house has a beautiful garden.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U21_B4_I19",
@@ -240,18 +493,42 @@
           "prompt_es": "Escribe en inglés: 'Hay una mesa en la cocina'",
           "stimulus_es": "Hay una mesa en la cocina",
           "correct_answer": "There is a table in the kitchen",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U21_B4_I20",
           "type": "categorization",
           "prompt_es": "Clasifica en Planta Baja o Planta Alta (según el texto anterior):",
           "categories": [
-            { "id": "c1", "title": "Downstairs", "items": ["Living room", "Kitchen"] },
-            { "id": "c2", "title": "Upstairs", "items": ["Bedrooms", "Bathroom"] }
+            {
+              "id": "c1",
+              "title": "Downstairs",
+              "items": [
+                "Living room",
+                "Kitchen"
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Upstairs",
+              "items": [
+                "Bedrooms",
+                "Bathroom"
+              ]
+            }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

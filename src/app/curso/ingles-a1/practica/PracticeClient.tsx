@@ -8,6 +8,7 @@ import { saveExerciseProgress } from './actions';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { Trophy } from 'lucide-react';
 import Link from 'next/link';
+import { useUser } from '@/hooks/useAuth';
 
 interface Props {
   interactions: PremiumInteraction[];
@@ -15,6 +16,7 @@ interface Props {
 
 export default function PracticeClient({ interactions }: Props) {
   const router = useRouter();
+  const { user } = useUser();
   const [sessionData, setSessionData] = useState<UnitData | null>(null);
 
   useEffect(() => {
@@ -51,7 +53,15 @@ export default function PracticeClient({ interactions }: Props) {
     }
     
     // 2. Update SRS data (the brains of the operation)
-    await premiumCourseService.updateSRS(interactionId, quality);
+    if (user?.id) {
+      await premiumCourseService.updateSRS(user.id, interactionId, quality);
+    }
+  };
+
+  const handleConceptUpdate = async (tags: string[], success: boolean) => {
+    if (user?.id) {
+      await premiumCourseService.updateConceptMastery(user.id, tags, success);
+    }
   };
 
   if (!sessionData) return null;
@@ -81,9 +91,11 @@ export default function PracticeClient({ interactions }: Props) {
   return (
     <PremiumCourseSession 
       unitData={sessionData}
+      userId={user?.id}
       onComplete={() => router.push('/curso/ingles-a1')}
       onExit={() => router.push('/curso/ingles-a1')}
       onPerformanceUpdate={handlePerformanceUpdate}
+      onConceptUpdate={handleConceptUpdate}
     />
   );
 }

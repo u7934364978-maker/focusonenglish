@@ -22,25 +22,65 @@
           "type": "matching",
           "prompt_es": "Empareja el vocabulario del aeropuerto:",
           "pairs": [
-            { "id": "p1", "left": "Passport", "right": "Pasaporte" },
-            { "id": "p2", "left": "Boarding pass", "right": "Tarjeta de embarque" },
-            { "id": "p3", "left": "Gate", "right": "Puerta de embarque" },
-            { "id": "p4", "left": "Luggage", "right": "Equipaje" }
+            {
+              "id": "p1",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p2",
+              "left": "Boarding pass",
+              "right": "Tarjeta de embarque"
+            },
+            {
+              "id": "p3",
+              "left": "Gate",
+              "right": "Puerta de embarque"
+            },
+            {
+              "id": "p4",
+              "left": "Luggage",
+              "right": "Equipaje"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U41_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde entregas tus maletas?",
           "options": [
-            { "id": "o1", "text": "Check-in desk" },
-            { "id": "o2", "text": "Toilet" },
-            { "id": "o3", "text": "Cafe" }
+            {
+              "id": "o1",
+              "text": "Check-in desk"
+            },
+            {
+              "id": "o2",
+              "text": "Toilet"
+            },
+            {
+              "id": "o3",
+              "text": "Cafe"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U41_I3",
@@ -48,7 +88,12 @@
           "prompt_es": "Completa la palabra:",
           "stimulus_en": "I have a ticket for my ________. (vuelo)",
           "correct_answer": "flight",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U41_I4",
@@ -56,7 +101,12 @@
           "prompt_es": "Traduce: 'Tarjeta de embarque'",
           "stimulus_es": "Tarjeta de embarque",
           "correct_answer": "Boarding pass",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "U41_I5",
@@ -64,7 +114,12 @@
           "prompt_es": "Repaso de vocabulario:",
           "stimulus_en": "Passenger",
           "correct_answer": "Pasajero/a",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         }
       ]
     },
@@ -77,11 +132,22 @@
           "type": "multiple_choice",
           "prompt_es": "Where ________ my passport?",
           "options": [
-            { "id": "o1", "text": "is" },
-            { "id": "o2", "text": "are" }
+            {
+              "id": "o1",
+              "text": "is"
+            },
+            {
+              "id": "o2",
+              "text": "are"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U41_I7",
@@ -89,25 +155,46 @@
           "prompt_es": "Completa con la preposición correcta (at/in):",
           "stimulus_en": "I am ________ the airport.",
           "correct_answer": "at",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U41_I8",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'My luggages are heavy'?",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U41_I9",
           "type": "multiple_choice",
           "prompt_es": "________ are my bags.",
           "options": [
-            { "id": "o1", "text": "These" },
-            { "id": "o2", "text": "This" }
+            {
+              "id": "o1",
+              "text": "These"
+            },
+            {
+              "id": "o2",
+              "text": "This"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "U41_I10",
@@ -115,7 +202,12 @@
           "prompt_es": "Completa la frase:",
           "stimulus_en": "Please ________ your boarding pass. (muestra)",
           "correct_answer": "show",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         }
       ]
     },
@@ -128,26 +220,66 @@
           "type": "reorder_words",
           "prompt_es": "Pregunta por la puerta de embarque:",
           "options": [
-            { "id": "w1", "text": "Where" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "gate" },
-            { "id": "w4", "text": "number" },
-            { "id": "w5", "text": "ten?" }
+            {
+              "id": "w1",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "gate"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w5",
+              "text": "ten?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U41_I12",
           "type": "multiple_choice",
           "prompt_es": "Official: 'Passport, please.' - You:",
           "options": [
-            { "id": "o1", "text": "Here it is." },
-            { "id": "o2", "text": "Goodbye." },
-            { "id": "o3", "text": "I am hungry." }
+            {
+              "id": "o1",
+              "text": "Here it is."
+            },
+            {
+              "id": "o2",
+              "text": "Goodbye."
+            },
+            {
+              "id": "o3",
+              "text": "I am hungry."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U41_I13",
@@ -155,7 +287,12 @@
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
           "correct_answer": "late",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U41_I14",
@@ -163,14 +300,24 @@
           "prompt_es": "Traduce: '¿Dónde está mi maleta?'",
           "stimulus_es": "¿Dónde está mi maleta?",
           "correct_answer": "Where is my suitcase?",
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "U41_I15",
           "type": "true_false",
           "prompt_es": "You need a passport to travel to another country.",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     },
@@ -184,7 +331,12 @@
           "prompt_es": "Escucha y escribe la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
           "text": "The gate is closing.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U41_I17",
@@ -193,12 +345,26 @@
           "text": "Maria is at the airport. She has her passport and her boarding pass. Her flight to Madrid is at gate 15. Her luggage is small. She is happy because she is on holiday.",
           "question": "Where is Maria going?",
           "options": [
-            { "id": "o1", "text": "Madrid" },
-            { "id": "o2", "text": "London" },
-            { "id": "o3", "text": "Heathrow" }
+            {
+              "id": "o1",
+              "text": "Madrid"
+            },
+            {
+              "id": "o2",
+              "text": "London"
+            },
+            {
+              "id": "o3",
+              "text": "Heathrow"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U41_I18",
@@ -207,12 +373,26 @@
           "text": "Maria is at the airport. She has her passport and her boarding pass. Her flight to Madrid is at gate 15. Her luggage is small. She is happy because she is on holiday.",
           "question": "What is the number of the gate?",
           "options": [
-            { "id": "o1", "text": "Ten" },
-            { "id": "o2", "text": "Fifteen" },
-            { "id": "o3", "text": "Five" }
+            {
+              "id": "o1",
+              "text": "Ten"
+            },
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o3",
+              "text": "Five"
+            }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "U41_I19",
@@ -220,19 +400,38 @@
           "prompt_es": "Escucha la instrucción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
           "text": "Show your passport, please.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         },
         {
           "interaction_id": "U41_I20",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿cómo es la maleta de Maria?",
           "options": [
-            { "id": "o1", "text": "Small" },
-            { "id": "o2", "text": "Big" },
-            { "id": "o3", "text": "Heavy" }
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o3",
+              "text": "Heavy"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         }
       ]
     }

@@ -23,25 +23,65 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maleta' en inglés?",
           "options": [
-            { "id": "o1", "text": "Suitcase" },
-            { "id": "o2", "text": "Backpack" },
-            { "id": "o3", "text": "Handbag" }
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Backpack"
+            },
+            {
+              "id": "o3",
+              "text": "Handbag"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b1_i2",
           "type": "matching",
           "prompt_es": "Une los objetos con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Sunscreen", "right": "Protector solar" },
-            { "id": "p2", "left": "Sunglasses", "right": "Gafas de sol" },
-            { "id": "p3", "left": "Charger", "right": "Cargador" },
-            { "id": "p4", "left": "Swimsuit", "right": "Bañador" }
+            {
+              "id": "p1",
+              "left": "Sunscreen",
+              "right": "Protector solar"
+            },
+            {
+              "id": "p2",
+              "left": "Sunglasses",
+              "right": "Gafas de sol"
+            },
+            {
+              "id": "p3",
+              "left": "Charger",
+              "right": "Cargador"
+            },
+            {
+              "id": "p4",
+              "left": "Swimsuit",
+              "right": "Bañador"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b1_i3",
@@ -49,19 +89,38 @@
           "prompt_es": "Escribe 'adaptador' en inglés:",
           "stimulus_es": "Adaptador",
           "correct_answer": "Adapter",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b1_i4",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción para 'artículos de aseo':",
           "options": [
-            { "id": "o1", "text": "Toiletries" },
-            { "id": "o2", "text": "Clothes" },
-            { "id": "o3", "text": "Documents" }
+            {
+              "id": "o1",
+              "text": "Toiletries"
+            },
+            {
+              "id": "o2",
+              "text": "Clothes"
+            },
+            {
+              "id": "o3",
+              "text": "Documents"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b1_i5",
@@ -69,7 +128,12 @@
           "prompt_es": "Escucha y repite el vocabulario:",
           "audioUrl": "/audio/courses/ingles-a1/shared/suitcase_toiletries.mp3",
           "text": "Suitcase, sunscreen, and toiletries.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -83,32 +147,73 @@
           "prompt_es": "Completa con el verbo 'necesitar':",
           "stimulus_en": "I ________ my phone charger.",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b2_i2",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Necesito mi bañador'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "need" },
-            { "id": "w3", "text": "my" },
-            { "id": "w4", "text": "swimsuit" }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "swimsuit"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         },
         {
           "interaction_id": "u49_b2_i3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa correcta?",
           "options": [
-            { "id": "o1", "text": "I don't need sunglasses." },
-            { "id": "o2", "text": "I no need sunglasses." },
-            { "id": "o3", "text": "I not need sunglasses." }
+            {
+              "id": "o1",
+              "text": "I don't need sunglasses."
+            },
+            {
+              "id": "o2",
+              "text": "I no need sunglasses."
+            },
+            {
+              "id": "o3",
+              "text": "I not need sunglasses."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b2_i4",
@@ -116,7 +221,12 @@
           "prompt_es": "Completa la frase: 'No olvides tus documentos'",
           "stimulus_en": "Don't ________ your documents.",
           "correct_answer": "forget",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b2_i5",
@@ -124,7 +234,12 @@
           "prompt_es": "Escucha la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/dont_forget_charger.mp3",
           "text": "Don't forget your phone charger.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -140,23 +255,41 @@
             {
               "id": "clothes",
               "title": "Clothes",
-              "items": ["T-shirt", "Shorts", "Swimsuit"]
+              "items": [
+                "T-shirt",
+                "Shorts",
+                "Swimsuit"
+              ]
             },
             {
               "id": "electronics",
               "title": "Electronics",
-              "items": ["Charger", "Adapter", "Phone"]
+              "items": [
+                "Charger",
+                "Adapter",
+                "Phone"
+              ]
             }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b3_i2",
           "type": "true_false",
           "prompt_es": "En la frase 'My suitcase is too full', ¿significa que la maleta está vacía?",
           "correct_answer": false,
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b3_i3",
@@ -164,19 +297,38 @@
           "prompt_es": "Traduce: 'Estoy haciendo mi maleta'",
           "stimulus_es": "I am packing my suitcase.",
           "correct_answer": "I am packing my suitcase",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b3_i4",
           "type": "multiple_choice",
           "prompt_es": "¿Qué objeto es esencial para una playa soleada?",
           "options": [
-            { "id": "o1", "text": "Sunscreen" },
-            { "id": "o2", "text": "A heavy coat" },
-            { "id": "o3", "text": "An umbrella" }
+            {
+              "id": "o1",
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o2",
+              "text": "A heavy coat"
+            },
+            {
+              "id": "o3",
+              "text": "An umbrella"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b3_i5",
@@ -184,7 +336,12 @@
           "prompt_es": "Escucha y responde:",
           "audioUrl": "/audio/courses/ingles-a1/shared/packing_beach.mp3",
           "text": "I am packing sunscreen and my swimsuit for the beach.",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     },
@@ -199,12 +356,26 @@
           "text": "I am going to London tomorrow. I need my suitcase. I am packing my clothes and my laptop. I don't need sunscreen, it is cloudy. Don't forget the adapter!",
           "question": "What does the person NOT need?",
           "options": [
-            { "id": "o1", "text": "Sunscreen" },
-            { "id": "o2", "text": "An adapter" },
-            { "id": "o3", "text": "A suitcase" }
+            {
+              "id": "o1",
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o2",
+              "text": "An adapter"
+            },
+            {
+              "id": "o3",
+              "text": "A suitcase"
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "reading",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "reading"
+          ]
         },
         {
           "interaction_id": "u49_b4_i2",
@@ -212,7 +383,12 @@
           "prompt_es": "Completa el texto:",
           "stimulus_en": "I am ________ my suitcase for the trip. I ________ my passport.",
           "correct_answer": "packing, need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b4_i3",
@@ -220,19 +396,38 @@
           "prompt_es": "Escribe una frase corta diciendo que necesitas tu cargador:",
           "stimulus_es": "I need my charger.",
           "correct_answer": "I need my charger",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 4,
+          "concept_tags": [
+            "grammar",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "u49_b4_i4",
           "type": "multiple_choice",
           "prompt_es": "Si tu maleta pesa mucho, dices:",
           "options": [
-            { "id": "o1", "text": "My suitcase is heavy." },
-            { "id": "o2", "text": "My suitcase is light." },
-            { "id": "o3", "text": "My suitcase is empty." }
+            {
+              "id": "o1",
+              "text": "My suitcase is heavy."
+            },
+            {
+              "id": "o2",
+              "text": "My suitcase is light."
+            },
+            {
+              "id": "o3",
+              "text": "My suitcase is empty."
+            }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "concept_tags": [
+            "grammar",
+            "vocabulary"
+          ]
         },
         {
           "interaction_id": "u49_b4_i5",
@@ -240,7 +435,12 @@
           "prompt_es": "Escucha el resumen final:",
           "audioUrl": "/audio/courses/ingles-a1/shared/unit49_summary.mp3",
           "text": "Pack your suitcase, check your electronics, and don't forget your toiletries. Ready for the holiday!",
-          "mastery_tag": "listening"
+          "mastery_tag": "listening",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
         }
       ]
     }
