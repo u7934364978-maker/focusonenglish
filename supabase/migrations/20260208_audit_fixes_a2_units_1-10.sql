@@ -3,24 +3,47 @@
 
 BEGIN;
 
--- Fix a2-m1-l1-ex10 (fill-blank with multiple answers)
+-- Fix a2-m1-l5-ex19 (Missing "I" in word bank)
 UPDATE public.course_exercises 
-SET content = $_${"title":"Verb 'Be' Practice","instructions":"Fill in the blanks with the correct form of the verb 'be'.","questions":[{"sentence":"I ________ from Spain and my brother ________ from Argentina.","correctAnswer":"am, is","explanation":"Recuerda que utilizamos 'am' con 'I' y 'is' con 'he', 'she', 'it'. Aquí, 'my brother' es equivalente a 'he'.","points":1},{"sentence":"Hello! ________ you new here?","correctAnswer":"Are","explanation":"Usamos 'are' con 'you', 'we', 'they'. Aquí se pregunta directamente a otra persona.","points":1},{"sentence":"This ________ my friend, Maria. She ________ Italian.","correctAnswer":"is, is","explanation":"Utilizamos 'is' para 'he', 'she', 'it' y nombres singulares.","points":1},{"sentence":"________ they from Germany or France?","correctAnswer":"Are they","explanation":"Para 'they', usamos 'are' en preguntas.","points":1},{"sentence":"Good morning! How ________ you?","correctAnswer":"are you","explanation":"Usamos 'are' con 'you'. 'How are you?' es la forma común de preguntar '¿Cómo estás?'."}]}$_$
-WHERE id = 'a2-m1-l1-ex10';
+SET content = JSONB_SET(content, '{sentences,0,words}', '["I","cake","a","would","like","piece","of","."]')
+WHERE id = 'a2-m1-l5-ex19';
 
--- Fix a2-m1-l4-ex18 (inconsistent field names)
+-- Fix a2-m2-l6-ex19 (an vs a error)
 UPDATE public.course_exercises 
-SET content = $_${"title":"Grammar Review: Have got, Should, Going to","instructions":"Fill in the blanks with the correct forms.","questions":[{"sentence":"María _____ a lot of books in her room.","correctAnswer":"has got","explanation":"En inglés, se utiliza 'has got' para decir que alguien posee algo. En este caso, 'María' es tercera persona del singular, por lo tanto usamos 'has got'.","points":1},{"sentence":"_____ there any cookies left in the jar?","correctAnswer":"Aren't","explanation":"Para preguntas negativas en inglés, se usa 'aren't' cuando se pregunta sobre cosas en plural, como 'cookies'.","points":1},{"sentence":"You _____ wear a coat; it's very cold outside.","correctAnswer":"should","explanation":"'Should' se utiliza para dar consejos. Aquí se aconseja usar un abrigo porque hace frío.","points":1},{"sentence":"How _____ apples are in the basket?","correctAnswer":"many","explanation":"Usamos 'many' porque 'apples' es contable y estamos preguntando por la cantidad.","points":1},{"sentence":"They _____ visit their grandparents next weekend.","correctAnswer":"are going to","explanation":"'Going to' se usa para hablar de planes futuros. Aquí, 'they' es plural, por lo que usamos 'are going to'.","points":1},{"sentence":"I _____ finish my homework before dinner.","correctAnswer":"have to","explanation":"'Have to' indica obligación. Aquí la obligación es terminar la tarea antes de la cena.","points":1},{"sentence":"She _____ clean the house today.","correctAnswer":"doesn't have to","explanation":"Para expresar que no hay obligación, usamos 'doesn't have to' en tercera persona singular.","points":1},{"sentence":"We _____ eat too much candy.","correctAnswer":"shouldn't","explanation":"'Shouldn't' se usa para dar un consejo negativo, en este caso, no comer muchos dulces.","points":1}]}$_$
-WHERE id = 'a2-m1-l4-ex18';
+SET content = JSONB_SET(content, '{sentences,0,words}', '["He","an","is","man","old","."]')
+WHERE id = 'a2-m2-l6-ex19';
 
--- Fix a2-m1-l6-ex26 (inconsistent field names)
+-- Fix a2-m2-l7-ex19 (Extra "on")
 UPDATE public.course_exercises 
-SET content = $_${"title":"Module 1 Review Exercise","instructions":"Complete the sentences with the correct grammar forms.","questions":[{"sentence":"I am _______ to visit my grandparents this weekend.","correctAnswer":"going","explanation":"La estructura 'going to' se utiliza para expresar planes e intenciones futuras. Aquí, 'I am going to visit' significa que tengo la intención de visitar a mis abuelos.","points":1},{"sentence":"This book is _______ than the one I read last month.","correctAnswer":"more interesting","explanation":"Se usa 'more interesting' como un adjetivo comparativo para expresar que este libro es más interesante que el otro.","points":1},{"sentence":"You _______ eat more vegetables to stay healthy.","correctAnswer":"should","explanation":"'Should' se usa para dar consejos. Aquí, se aconseja comer más verduras para mantenerse saludable.","points":1},{"sentence":"There are _______ apples in the basket.","correctAnswer":"many","explanation":"'Many' se utiliza con sustantivos contables en plural, como 'apples'.","points":1},{"sentence":"There is _______ time to finish the game.","correctAnswer":"enough","explanation":"'Enough' indica que hay suficiente tiempo para completar el juego.","points":1},{"sentence":"She is _______ enough to reach the top shelf.","correctAnswer":"tall","explanation":"La estructura 'adjetivo + enough' se utiliza para indicar que alguien tiene la altura necesaria para alcanzar algo.","points":1},{"sentence":"We are _______ to go on a holiday in December.","correctAnswer":"going","explanation":"Se usa 'going to' para hablar de un plan futuro. Aquí, 'We are going to go' indica un plan de vacaciones.","points":1},{"sentence":"This dress is _______ than the one I saw yesterday.","correctAnswer":"cheaper","explanation":"Se usa 'cheaper' como adjetivo comparativo para indicar que este vestido cuesta menos que el de ayer.","points":1}]}$_$
-WHERE id = 'a2-m1-l6-ex26';
+SET content = JSONB_SET(content, '{sentences,3,words}', '["go","I","to","bed","10","at","pm","."]')
+WHERE id = 'a2-m2-l7-ex19';
 
--- Fix a2-m2-l8-ex34 (inconsistent field names and option removal to fit renderer)
+-- Fix a2-m2-l8-ex19 (Missing "do")
 UPDATE public.course_exercises 
-SET content = $_${"title":"Weekly Habits Review","instructions":"Fill in the blanks with the correct words.","questions":[{"sentence":"On ________, I don't have to work, so I often go to the park.","correctAnswer":"Sundays","explanation":"Los días de la semana se usan para hablar de rutinas y actividades regulares. Aquí, 'Sundays' es correcto porque se menciona que no se trabaja, comúnmente el domingo.","points":1},{"sentence":"I ________ eat breakfast at home. I prefer to have it on the way to work.","correctAnswer":"never","explanation":"Los adverbios de frecuencia como 'never' indican la regularidad de una acción. Aquí, 'never' es correcto porque indica que la persona no desayuna en casa.","points":1},{"sentence":"Sara ________ goes swimming on Thursday evenings.","correctAnswer":"always","explanation":"El adverbio de frecuencia 'always' indica que una acción se realiza todo el tiempo, que es lo que se describe aquí.","points":1},{"sentence":"We ________ watch movies on Saturday nights. We prefer to go out.","correctAnswer":"don't","explanation":"En presente simple negativo usamos 'don't' para sujetos en plural, como 'we', para indicar que no realizamos la acción.","points":1},{"sentence":"Tom ________ goes to the gym on Wednesdays. It's his rest day.","correctAnswer":"never","explanation":"Usamos 'never' para indicar que una acción no sucede en absoluto, como en este caso.","points":1},{"sentence":"I ________ do my homework after dinner every day.","correctAnswer":"usually","explanation":"'Usually' se usa para indicar que una acción ocurre con frecuencia, pero no siempre.","points":1},{"sentence":"She ________ goes to the market on Fridays because she buys groceries then.","correctAnswer":"often","explanation":"'Often' indica que la acción sucede frecuentemente, lo cual es adecuado aquí ya que ella va al mercado regularmente los viernes.","points":1},{"sentence":"They ________ visit their grandparents on Sundays.","correctAnswer":"often","explanation":"'Often' se utiliza para describir una acción que ocurre con frecuencia."}]}$_$
-WHERE id = 'a2-m2-l8-ex34';
+SET content = JSONB_SET(content, '{sentences,0,words}', '["do","not","I","often","on","Sundays","work","."]')
+WHERE id = 'a2-m2-l8-ex19';
+
+-- Fix a2-m2-l9-ex11 (Missing "a")
+UPDATE public.course_exercises 
+SET content = JSONB_SET(content, '{sentences,2,words}', '["Does","a","teacher","a","school","in","work","?"]')
+WHERE id = 'a2-m2-l9-ex11';
+
+-- Fix a2-m2-l8-ex10 (Remove spoilers in prompt and allow "don't eat")
+UPDATE public.course_exercises 
+SET content = $_${"questions":[{"sentence":"On Mondays, I _______ to the gym because it's closed.","acceptableAnswers":["don't go","do not go"],"explanation":"En presente simple, para la forma negativa, usamos 'don't' con 'I'.","points":1},{"sentence":"She _______ her grandmother on Sundays.","acceptableAnswers":["always visits"],"explanation":"Usamos 'always' antes del verbo principal en presente simple.","points":1},{"sentence":"They _______ dinner on Saturdays.","acceptableAnswers":["don't cook","do not cook"],"explanation":"Para negaciones en tercera persona plural, usamos 'don't' seguido del verbo base.","points":1},{"sentence":"We _______ movies on Friday nights.","acceptableAnswers":["often watch"],"explanation":"El adverbio de frecuencia 'often' se coloca antes del verbo.","points":1},{"sentence":"She _______ late for her yoga class on Wednesdays.","acceptableAnswers":["is never"],"explanation":"Con 'be', el adverbio de frecuencia 'never' va después del verbo 'is'.","points":1},{"sentence":"He _______ football when it rains.","acceptableAnswers":["doesn't play","does not play"],"explanation":"Para negaciones en tercera persona singular, usamos 'doesn't'.","points":1},{"sentence":"I _______ to the library on Thursdays.","acceptableAnswers":["sometimes go"],"explanation":"El adverbio 'sometimes' se coloca antes del verbo principal en presente simple.","points":1},{"sentence":"We _______ lunch at home on school days.","acceptableAnswers":["don't have","don't eat","do not have","do not eat"],"explanation":"'Have lunch' es más natural que 'eat lunch', pero ambas son correctas. Usamos 'don't' para la negación con 'we'.","points":1}]}$_$
+WHERE id = 'a2-m2-l8-ex10';
+
+-- Fix Unit 40 Categorization (Remove spoilers "(Mistake)")
+UPDATE public.course_exercises
+SET content = JSONB_SET(
+  JSONB_SET(content, '{categories,1,items,0,text}', '"Of the world"'),
+  '{categories,1,items,1,text}', '"Of the class"'
+)
+WHERE id LIKE '%unit40%' AND type = 'categorization';
+
+-- Fix Unit 7 Crossword (Ex 14) - Adjust coordinates to avoid conflicts
+UPDATE public.course_exercises 
+SET content = $_${"title":"Crossword: Daily Routines","instructions":"Complete the crossword puzzle","items":[{"word":"BREAKFAST","clue":"The first meal of the day, usually in the morning.","direction":"across","row":0,"col":0},{"word":"READ","clue":"To look at and understand words in a book or newspaper.","direction":"down","row":1,"col":8},{"word":"EVENING","clue":"The time of day after the afternoon and before the night.","direction":"across","row":2,"col":2},{"word":"DINNER","clue":"The main meal of the day, usually eaten in the evening.","direction":"down","row":0,"col":5},{"word":"SLEEP","clue":"To rest with your eyes closed at night.","direction":"across","row":4,"col":3},{"word":"MORNING","clue":"The early part of the day, before noon.","direction":"down","row":0,"col":9}]}$_$
+WHERE id = 'a2-m2-l7-ex14';
 
 COMMIT;

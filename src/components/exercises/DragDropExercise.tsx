@@ -2,13 +2,13 @@
 
 import { useState, useEffect } from 'react';
 import { motion, Reorder, AnimatePresence } from 'framer-motion';
-import { Check, X, RotateCcw, Lightbulb, ArrowRight } from 'lucide-react';
+import { Check, X, RotateCcw, Lightbulb, ArrowRight, Plus, Minus } from 'lucide-react';
 
 interface DragDropSentence {
   id?: number | string;
   words?: string[];
   correctOrder?: string[];
-  shuffledWords?: string[]; // Add to unify
+  shuffledWords?: string[]; 
   correctSentence?: string;
   sentence?: string;
   translation?: string;
@@ -26,9 +26,15 @@ interface DragDropExerciseProps {
   onComplete: (isCorrect: boolean) => void;
 }
 
+interface WordTile {
+  id: string;
+  text: string;
+}
+
 export default function DragDropExercise({ content, onComplete }: DragDropExerciseProps) {
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
-  const [items, setItems] = useState<string[]>([]);
+  const [availableItems, setAvailableItems] = useState<WordTile[]>([]);
+  const [orderedItems, setOrderedItems] = useState<WordTile[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
@@ -45,32 +51,39 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                          currentSentenceData.sentence || 
                          (currentSentenceData.correctOrder ? currentSentenceData.correctOrder.join(' ') : '');
 
-  useEffect(() => {
+  const initializeSentence = () => {
     const data = currentSentenceData;
     const target = targetSentence;
+    let wordsToShuffle: string[] = [];
 
-    if (data.shuffledWords && data.shuffledWords.length > 0) {
-      setItems(data.shuffledWords);
-    } else if (data.words && data.words.length > 0) {
-      setItems([...data.words].sort(() => Math.random() - 0.5));
+    if (data.words && data.words.length > 0) {
+      wordsToShuffle = [...data.words];
+    } else if (data.shuffledWords && data.shuffledWords.length > 0) {
+      wordsToShuffle = [...data.shuffledWords];
     } else if (target) {
-      // Shuffle words from the correct sentence
-      const words = target.split(' ').filter(w => w.trim() !== '');
-      const shuffled = [...words].sort(() => Math.random() - 0.5);
-      // Ensure it's not the same as the target (at least try)
-      if (shuffled.join(' ') === target && words.length > 1) {
-        shuffled.reverse();
-      }
-      setItems(shuffled);
+      wordsToShuffle = target.split(' ').filter(w => w.trim() !== '');
     }
+
+    // Convert to WordTile objects for stable keys and handling duplicates
+    const tiles: WordTile[] = wordsToShuffle.map((text, index) => ({
+      id: `${text}-${index}-${currentSentenceIndex}`,
+      text
+    })).sort(() => Math.random() - 0.5);
+
+    setAvailableItems(tiles);
+    setOrderedItems([]);
     setSubmitted(false);
     setIsCorrect(false);
     setShowHint(false);
+  };
+
+  useEffect(() => {
+    initializeSentence();
   }, [content, targetSentence, currentSentenceIndex]);
 
   const handleCheck = () => {
     // Better join that handles punctuation
-    const currentSentence = items.join(' ').replace(/\s+([.,!?;:])/g, '$1').trim();
+    const currentSentence = orderedItems.map(item => item.text).join(' ').replace(/\s+([.,!?;:])/g, '$1').trim();
     
     // Robust normalization for comparison
     const normalize = (s: string) => s
@@ -89,18 +102,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
   };
 
   const handleReset = () => {
-    const data = currentSentenceData;
-    const target = targetSentence;
-
-    if (data.shuffledWords && data.shuffledWords.length > 0) {
-      setItems(data.shuffledWords);
-    } else if (data.words && data.words.length > 0) {
-      setItems([...data.words].sort(() => Math.random() - 0.5));
-    } else if (target) {
-      const words = target.split(' ').filter(w => w.trim() !== '');
-      setItems([...words].sort(() => Math.random() - 0.5));
-    }
-    setSubmitted(false);
+    initializeSentence();
   };
 
   const handleNext = () => {
@@ -108,6 +110,18 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
       setCurrentSentenceIndex(prev => prev + 1);
     } else {
       onComplete(overallCorrect && (isMultiSentence ? true : isCorrect));
+    }
+  };
+
+  const toggleWord = (tile: WordTile, source: 'available' | 'ordered') => {
+    if (submitted) return;
+    
+    if (source === 'available') {
+      setAvailableItems(prev => prev.filter(t => t.id !== tile.id));
+      setOrderedItems(prev => [...prev, tile]);
+    } else {
+      setOrderedItems(prev => prev.filter(t => t.id !== tile.id));
+      setAvailableItems(prev => [...prev, tile]);
     }
   };
 
@@ -122,34 +136,68 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
             </span>
           )}
         </div>
-        <p className="text-slate-600">{content.instructions || 'Arrastra las palabras para formar la oración correcta.'}</p>
+        <p className="text-slate-600">{content.instructions || 'Selecciona las palabras en el orden correcto.'}</p>
       </div>
 
-      <div className="min-h-[120px] p-6 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 mb-8 flex flex-wrap gap-3 items-center justify-center">
-        <Reorder.Group 
-          axis="x" 
-          values={items} 
-          onReorder={setItems}
-          className="flex flex-wrap gap-2 justify-center"
-        >
-          {items.map((item, index) => (
-            <Reorder.Item
-              key={`${item}-${index}-${currentSentenceIndex}`} // Stable enough for unique items per sentence
-              value={item}
-              drag={!submitted}
-              className={`px-4 py-2 bg-white rounded-xl shadow-sm border-2 cursor-grab active:cursor-grabbing font-bold text-lg transition-colors ${
-                submitted 
-                  ? isCorrect 
-                    ? 'border-green-500 bg-green-50 text-green-700' 
-                    : 'border-red-500 bg-red-50 text-red-700'
-                  : 'border-slate-200 hover:border-orange-300'
-              } ${submitted ? 'cursor-default active:cursor-default' : ''}`}
+      {/* Target Area */}
+      <div className="space-y-4 mb-8">
+        <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">Tu oración:</h3>
+        <div className="min-h-[100px] p-6 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 flex flex-wrap gap-3 items-center justify-center">
+          {orderedItems.length === 0 ? (
+            <p className="text-slate-400 italic">Pulsa sobre las palabras de abajo...</p>
+          ) : (
+            <Reorder.Group 
+              axis="x" 
+              values={orderedItems} 
+              onReorder={setOrderedItems}
+              className="flex flex-wrap gap-2 justify-center"
             >
-              {item}
-            </Reorder.Item>
-          ))}
-        </Reorder.Group>
+              {orderedItems.map((item) => (
+                <Reorder.Item
+                  key={item.id}
+                  value={item}
+                  drag={!submitted}
+                  onClick={() => toggleWord(item, 'ordered')}
+                  className={`px-4 py-2 bg-white rounded-xl shadow-sm border-2 cursor-pointer font-bold text-lg transition-colors flex items-center gap-2 ${
+                    submitted 
+                      ? isCorrect 
+                        ? 'border-green-500 bg-green-50 text-green-700' 
+                        : 'border-red-500 bg-red-50 text-red-700'
+                      : 'border-slate-200 hover:border-orange-300'
+                  }`}
+                >
+                  {item.text}
+                  {!submitted && <Minus className="w-3 h-3 opacity-30" />}
+                </Reorder.Item>
+              ))}
+            </Reorder.Group>
+          )}
+        </div>
       </div>
+
+      {/* Available Words */}
+      {!submitted && (
+        <div className="space-y-4 mb-8">
+          <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">Palabras disponibles:</h3>
+          <div className="flex flex-wrap gap-2 justify-center p-4 bg-white rounded-2xl border border-slate-100">
+            {availableItems.length === 0 ? (
+              <p className="text-slate-300 text-sm italic">Has usado todas las palabras.</p>
+            ) : (
+              availableItems.map((item) => (
+                <motion.button
+                  layout
+                  key={item.id}
+                  onClick={() => toggleWord(item, 'available')}
+                  className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 rounded-xl border border-slate-200 font-bold text-lg transition-all flex items-center gap-2"
+                >
+                  {item.text}
+                  <Plus className="w-3 h-3 opacity-30" />
+                </motion.button>
+              ))
+            )}
+          </div>
+        </div>
+      )}
 
       {currentSentenceData.translation && (
         <div className="mb-8 p-4 bg-orange-50 rounded-xl border border-orange-100 flex items-center gap-3">
@@ -164,7 +212,8 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
             <>
               <button
                 onClick={handleCheck}
-                className="flex-1 bg-orange-500 text-white px-6 py-4 rounded-2xl font-black hover:bg-orange-600 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2"
+                disabled={orderedItems.length === 0}
+                className="flex-1 bg-orange-500 text-white px-6 py-4 rounded-2xl font-black hover:bg-orange-600 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2 disabled:opacity-50"
               >
                 <Check className="w-5 h-5" />
                 Comprobar
@@ -243,7 +292,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
             ) : (
               <>
                 <X className="w-6 h-6" />
-                <span>Casi... revisa el orden de las palabras.</span>
+                <span>Casi... la respuesta correcta es: <span className="font-black underline italic ml-1">{targetSentence}</span></span>
               </>
             )}
           </motion.div>

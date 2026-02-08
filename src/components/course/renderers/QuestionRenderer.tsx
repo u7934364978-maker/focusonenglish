@@ -21,6 +21,30 @@ export default function QuestionRenderer({
   showFeedback,
   evaluation
 }: QuestionRendererProps) {
+  const isAnswerCorrect = (userAns: string, questionData: Question) => {
+    if (!userAns) return false;
+    
+    const normalizedUser = userAns.trim();
+    const correctAnswers = [
+      ...(Array.isArray(questionData.correctAnswer) ? questionData.correctAnswer : [questionData.correctAnswer]),
+      ...( (questionData as any).acceptableAnswers || [] ),
+      ...( (questionData as any).acceptableAlternatives || [] ),
+      ...( (questionData as any).correctAnswers || [] )
+    ].filter(Boolean).map(ans => String(ans).trim());
+
+    // Check for exact match or letter-based match
+    return correctAnswers.some(ans => {
+      // Exact match (case insensitive)
+      if (ans.toLowerCase() === normalizedUser.toLowerCase()) return true;
+      
+      // Letter match: check if userAnswer starts with "A. " or "A) " where ans is "A"
+      const letterMatchRegex = new RegExp(`^${ans}[.)]\\s*`, 'i');
+      if (letterMatchRegex.test(normalizedUser)) return true;
+
+      return false;
+    });
+  };
+
   return (
     <div className="bg-white dark:bg-slate-800 rounded-xl p-6 border-2 border-slate-200 dark:border-slate-700 shadow-sm transition-all hover:shadow-md">
       <p className="font-bold text-slate-900 dark:text-white mb-4 flex items-start gap-2">
@@ -146,37 +170,16 @@ export default function QuestionRenderer({
             />
           ) : (
             <div className={`p-5 rounded-xl border-2 ${
-              (() => {
-                const normalizedUser = userAnswer?.toLowerCase().trim();
-                const correctAnswers = [
-                  ...(Array.isArray(question.correctAnswer) ? question.correctAnswer : [question.correctAnswer]),
-                  ...( (question as any).acceptableAnswers || [] ),
-                  ...( (question as any).acceptableAlternatives || [] ),
-                  ...( (question as any).correctAnswers || [] )
-                ].filter(Boolean);
-                return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
-              })()
+              isAnswerCorrect(userAnswer, question)
                 ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 text-green-800 dark:text-green-300'
                 : 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 text-red-800 dark:text-red-300'
             }`}>
               <div className="flex items-center gap-2 mb-2">
                 <span className="text-xl">
-                  {(() => {
-                    const normalizedUser = userAnswer?.toLowerCase().trim();
-                    const correctAnswers = Array.isArray(question.correctAnswer) 
-                      ? question.correctAnswer 
-                      : [question.correctAnswer as string];
-                    return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
-                  })() ? '✓' : '✗'}
+                  {isAnswerCorrect(userAnswer, question) ? '✓' : '✗'}
                 </span>
                 <p className="font-black">
-                  {(() => {
-                    const normalizedUser = userAnswer?.toLowerCase().trim();
-                    const correctAnswers = Array.isArray(question.correctAnswer) 
-                      ? question.correctAnswer 
-                      : [question.correctAnswer as string];
-                    return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
-                  })()
+                  {isAnswerCorrect(userAnswer, question)
                     ? 'Correct!'
                     : 'Incorrect'}
                 </p>
