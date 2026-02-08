@@ -162,6 +162,11 @@ const nextConfig = {
         statusCode: 301,
       },
       {
+        source: '/blog/Gramatica/:slug*',
+        destination: '/blog/metodos/:slug*',
+        statusCode: 301,
+      },
+      {
         source: '/blog/Gramática/:slug*',
         destination: '/blog/metodos/:slug*',
         statusCode: 301,
