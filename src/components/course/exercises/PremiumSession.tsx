@@ -2006,7 +2006,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                       feedback 
                         ? (() => {
-                            const isSelected = inputValues[activeGapIndex] === opt.id;
+                            const isSelectedInAnyGap = Object.values(inputValues).includes(opt.id);
+                            const isSelectedInActiveGap = inputValues[activeGapIndex] === opt.id;
+                            
                             const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
                             const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
                             const normalizedOptId = normalizeForComparison(String(opt.id));
@@ -2015,11 +2017,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                                                        possibleAnswers.includes(normalizedOptText);
                             
                             if (isThisOptionCorrect) return 'border-green-500 bg-green-50 text-green-700';
-                            if (isSelected) return 'border-red-500 bg-red-50 text-red-700';
+                            if (isSelectedInActiveGap) return 'border-red-500 bg-red-50 text-red-700';
                             return 'border-slate-100 bg-white text-slate-300';
                           })()
-                        : inputValues[activeGapIndex] === opt.id
-                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
+                        : Object.values(inputValues).includes(opt.id)
+                          ? inputValues[activeGapIndex] === opt.id
+                            ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
+                            : 'border-indigo-200 bg-indigo-50/30 text-indigo-400'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
