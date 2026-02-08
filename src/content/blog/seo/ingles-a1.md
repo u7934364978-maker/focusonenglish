@@ -13,50 +13,64 @@ faqs:
   - question: "¿Cuánto tiempo se tarda en completar el nivel A1?"
     answer: "Con nuestra metodología optimizada, la mayoría de los estudiantes completan el nivel A1 en unas 60-80 horas de estudio constante."
   - question: "¿Es difícil empezar desde cero de adulto?"
-    answer: "Para nada. Nuestra plataforma está diseñada para adultos, con ejemplos prácticos y una progresión lógica que evita la frustración."
+    answer: "Para nada. Nuestra plataforma está diseñada para adultos, con ejemplos prácticos y una progresión lógica que evita la fragilidad."
 ---
 
 # Curso de Inglés A1: Construye los Cimientos de tu Futuro
 
 El **Nivel A1** (Acceso) es el peldaño más importante de tu aprendizaje: es el momento en el que decides que el inglés dejará de ser una asignatura pendiente para convertirse en una habilidad real. 
 
-Si estás buscando un **[curso de inglés para principiantes](/blog/seo/ingles-a1)** o quieres **[aprender inglés desde cero](/blog/seo/ingles-a1)**, has llegado al lugar correcto. En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto.
+Si estás buscando un **[curso de inglés para principiantes](/blog/seo/ingles-a1)** o quieres **[aprender inglés desde cero](/blog/seo/ingles-a1)**, has llegado al lugar correcto. En **Focus English**, hemos diseñado este curso para que pierdas el miedo desde el primer minuto y construyas una base sólida sobre la cual crecer.
 
-## ¿Qué habilidades adquirirás en este nivel?
+## 1. ¿Qué habilidades adquirirás en este nivel?
 
 Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de:
 
-*   **Comprender y usar expresiones cotidianas**: Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
-*   **Dominar la gramática básica**: Aprende las estructuras fundamentales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
-*   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, nacionalidad, profesión y familia.
-*   **Interactuar de forma sencilla**: Hacer preguntas básicas y entender respuestas si se dan de forma pausada.
-*   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo y el tiempo libre.
+*   **Comprender y usar expresiones cotidianas**: Saludar, despedirse y dar las gracias de forma natural. Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
+*   **Dominar la gramática básica**: Aprende las estructuras fundamentales, como el verbo 'to be', el presente simple y los pronombres, en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
+*   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, edad, nacionalidad, profesión y familia.
+*   **Interactuar de forma sencilla**: Hacer preguntas básicas y entender respuestas si el interlocutor habla despacio y con claridad.
+*   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo, la comida y el tiempo libre.
 
-## Contenido Estructurado para el Éxito
+## 2. Fonética y Pronunciación para Principiantes
 
-Nuestro programa se divide en bloques temáticos que simulan la vida real:
+Uno de los mayores obstáculos al **[aprender inglés desde cero](/blog/seo/ingles-a1)** es la pronunciación. En el nivel A1, nos enfocamos en que te sientas cómodo con los sonidos básicos:
 
-### 1. Primer Contacto y Saludos
-Olvídate de las listas de vocabulario. Practica cómo presentarte en una fiesta, en una oficina o al conocer a alguien en un viaje. Aprenderás el alfabeto (clave para deletrear tu nombre o email) y los números.
+*   **Vowels (Vocales)**: El inglés tiene más sonidos vocálicos que el español. Aprenderás a diferenciar entre sonidos largos y cortos (ej: *ship* vs *sheep*).
+*   **Word Stress (Acento de palabra)**: Aprenderás dónde poner la fuerza en las palabras básicas para que los nativos te entiendan a la primera.
+*   **Alphabet and Spelling**: Fundamental para deletrear tu nombre, tu email o una dirección cuando hablas por teléfono o haces un registro.
 
-### 2. Tu Entorno Cercano
-Aprende a describir tu casa, tu ciudad y tu familia. Es el bloque ideal para empezar a usar adjetivos básicos y posesivos.
+## 3. Etiqueta Social y Supervivencia Básica
 
-### 3. La Rutina Diaria
-Aprende a decir qué haces cada día. Aquí introducimos el **Presente Simple** y los adverbios de frecuencia. Hablarás de tus horarios, tus comidas y tus hábitos.
+El inglés no son solo palabras; es una cultura. En el nivel A1, te enseñamos a ser educado:
 
-### 4. Gustos, Hobbies y Tiempo Libre
-Aprende a expresar lo que te apasiona y lo que no te gusta tanto. Comida, deportes, música y cine. Empezarás a conectar frases de forma más fluida.
+*   **Greetings and Farewells**: Más allá del "Hello", aprenderás "How are you doing?", "Nice to meet you" o "Have a great day".
+*   **Polite Requests**: Dominar el uso de "Please", "Thank you" y "Excuse me" te abrirá muchas puertas.
+*   **Ordering Food**: *"I would like a coffee, please"* o *"Can I have the bill?"* son frases que te darán independencia inmediata en tus viajes.
 
-## ¿Por qué el Método Focus English es el mejor para principiantes?
+## 4. Guía de Errores Comunes (y cómo evitarlos)
 
-Muchos cursos de nivel A1 aburren con gramática teórica. Nosotros hemos cambiado las reglas:
+Al principio es normal cometer errores. Aquí te ayudamos a anticiparlos:
+*   **False Friends**: "Actually" no significa "actualmente" (significa "en realidad").
+*   **Word Order**: En inglés, el adjetivo siempre va antes que el sustantivo (*a blue car*, no *a car blue*).
+*   **The "s" in 3rd person**: No olvides añadir la "s" al verbo cuando hablas de él o ella (*He works*, *She likes*).
 
-*   **IA Tutoría 24/7**: Nuestra inteligencia artificial te escucha y te corrige la pronunciación de forma privada y sin juicios, algo fundamental cuando estás empezando.
-*   **Aprendizaje por Objetivos**: Cada lección tiene un objetivo práctico (ej: "Hoy aprenderás a pedir un café").
-*   **Gamificación Motivadora**: Gana medallas y completa desafíos. Mantener el hábito es la clave del éxito en el nivel A1.
+## 5. Hoja de Ruta de 3 Meses para Nivel A2
+
+¿Quieres progresar rápido? Sigue este plan:
+1.  **Mes 1**: Concéntrate en el verbo 'to be', los números, los días de la semana y los saludos.
+2.  **Mes 2**: Introduce el Presente Simple, los verbos de rutina diaria y el vocabulario de la casa y la oficina.
+3.  **Mes 3**: Empieza con adjetivos comparativos, el pasado simple del verbo 'to be' y prepárate para el salto al nivel A2.
 
 ---
 
-**El mejor momento para empezar fue ayer. El segundo mejor es hoy.**  
-[**¡Crea tu cuenta gratuita y empieza el Nivel A1 ahora!**](/cuenta/registro)
+### Tu éxito empieza en Focus English
+
+En **Focus English**, hemos reinventado el aprendizaje para principiantes:
+
+1.  **IA Tutoría 24/7**: Nuestra inteligencia artificial te escucha y te corrige la pronunciación de forma privada y sin juicios, eliminando la vergüenza inicial.
+2.  **Aprendizaje por Objetivos Reales**: Cada lección tiene un propósito práctico. No estudias "gramática", aprendes a "pedir una dirección" o "reservar un hotel".
+3.  **Gamificación Motivadora**: Gana puntos, completa desafíos diarios y mantén la racha. La constancia es el único secreto para pasar del A1 al A2.
+4.  **Módulos de 'Survival English'**: Lecciones rápidas de 5 minutos diseñadas para situaciones de emergencia durante un viaje o una mudanza al extranjero.
+
+[**El mundo te está esperando. Crea tu cuenta gratuita en Focus English y empieza a hablar inglés desde hoy.**](/cuenta/registro)

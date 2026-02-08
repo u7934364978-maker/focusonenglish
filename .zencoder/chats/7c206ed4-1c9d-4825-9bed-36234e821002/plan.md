@@ -38,13 +38,13 @@ Create a detailed implementation plan.
 - [x] Expand `src/content/blog/seo/ingles-para-hosteleria.md` to 750+ words.
 - [x] Expand `src/content/blog/seo/cambridge-b2-first-guia.md` to 750+ words.
 - [x] Expand `src/content/blog/seo/ingles-para-salud.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/preparacion-examen-b1-cambridge.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/cambridge-c1-advanced-guia.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/business-english-emails.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/precios-examenes-cambridge.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/ingles-para-atencion-al-cliente.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/ingles-para-viajar-guia.md` to 750+ words.
-- [ ] Expand `src/content/blog/seo/ielts-vs-toefl-diferencias.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/preparacion-examen-b1-cambridge.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/cambridge-c1-advanced-guia.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/business-english-emails.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/precios-examenes-cambridge.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/ingles-para-atencion-al-cliente.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/ingles-para-viajar-guia.md` to 750+ words.
+- [x] Expand `src/content/blog/seo/ielts-vs-toefl-diferencias.md` to 750+ words.
 - [ ] Expand `src/content/blog/seo/ingles-nomadas-digitales-mochileros.md` to 750+ words.
 - [ ] Expand `src/content/blog/seo/cursos-online-ingles-b1.md` to 750+ words.
 - [ ] Expand `src/content/blog/seo/ingles-b2.md` to 750+ words.
