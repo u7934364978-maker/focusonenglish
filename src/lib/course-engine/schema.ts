@@ -8,6 +8,8 @@ export const CEFRLevelSchema = z.enum(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 
 export const BaseInteractionSchema = z.object({
   interaction_id: z.string(),
+  unit_id: z.string().optional(),
+  unit_order: z.number().optional(),
   prompt_es: z.string().optional(),
   prompt: z.string().optional(),
   explanation: z.string().optional(),

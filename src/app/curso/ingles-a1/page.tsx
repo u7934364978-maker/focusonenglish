@@ -45,63 +45,69 @@ export default async function A1CoursePage() {
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-black text-slate-900 mb-4">
-              Mi Ruta <span className="text-[#FF6B6B]">Inglés A1</span>
+            <h1 className="text-6xl font-black text-slate-900 mb-4 tracking-tight">
+              Inglés <span className="text-[#FF6B6B]">A1</span>
             </h1>
-            <p className="text-xl text-slate-600">
-              Tu aprendizaje personalizado guiado por IA.
+            <p className="text-xl text-slate-600 font-medium">
+              Tu ruta de aprendizaje inteligente adaptada a tu ritmo.
             </p>
           </div>
 
           {/* Smart Path Hero Card */}
-          <div className="bg-[#1A237E] p-8 sm:p-12 rounded-[3rem] shadow-2xl text-white relative overflow-hidden group mb-12 border-4 border-white">
-            <div className="absolute -right-20 -bottom-20 w-96 h-96 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
+          <div className="bg-[#1A237E] p-8 sm:p-16 rounded-[4rem] shadow-2xl text-white relative overflow-hidden group mb-16 border-8 border-white">
+            <div className="absolute -right-20 -bottom-20 w-96 h-96 bg-[#FF6B6B]/20 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
             <div className="absolute top-0 right-0 p-12 opacity-10">
-              <Sparkles size={200} className="text-white" />
+              <Sparkles size={240} className="text-white animate-pulse" />
             </div>
             
-            <div className="relative z-10 flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
-              <div className="flex-1">
-                <div className="inline-flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full text-xs font-black uppercase tracking-widest mb-6">
-                  <Sparkles size={14} className="text-yellow-300" />
-                  Smart Path Activado
-                </div>
-                <h2 className="text-4xl sm:text-5xl font-black mb-4 leading-tight">
-                  {progressPercentage === 0 ? 'Empieza tu viaje' : 'Continúa aprendiendo'}
-                </h2>
-                <p className="text-blue-100 text-lg mb-8 max-w-md">
-                  Nuestro algoritmo seleccionará los mejores ejercicios para ti basándose en lo que ya dominas y lo que necesitas reforzar.
-                </p>
-                
+            <div className="relative z-10 flex flex-col items-center text-center">
+              <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-md px-6 py-3 rounded-full text-sm font-black uppercase tracking-widest mb-10 border border-white/30">
+                <Sparkles size={18} className="text-yellow-300" />
+                Algoritmo Adaptativo Activado
+              </div>
+              
+              <h2 className="text-5xl sm:text-7xl font-black mb-8 leading-none tracking-tighter">
+                {progressPercentage === 0 ? '¿Listo para empezar?' : '¡Sigue así, vas muy bien!'}
+              </h2>
+              
+              <p className="text-blue-100 text-xl mb-12 max-w-2xl leading-relaxed font-medium">
+                No te preocupes por qué unidad estudiar. Pulsa el botón y el sistema te llevará 
+                exactamente a lo que necesitas aprender o repasar hoy.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row items-center gap-6 w-full max-w-lg">
                 <Link 
                   href="/curso/ingles-a1/practica"
-                  className="inline-flex items-center justify-center gap-4 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-10 py-5 rounded-2xl font-black text-2xl shadow-xl hover:shadow-coral-500/40 hover:-translate-y-1 transition-all group/btn"
+                  className="flex-1 inline-flex items-center justify-center gap-4 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-12 py-7 rounded-[2rem] font-black text-3xl shadow-[0_20px_50px_rgba(255,107,107,0.3)] hover:shadow-[0_25px_60px_rgba(255,107,107,0.5)] hover:-translate-y-2 transition-all group/btn active:scale-95"
                 >
-                  <Play fill="currentColor" size={28} />
-                  ¡EMPEZAR SESIÓN!
-                  <ArrowRight size={28} className="group-hover/btn:translate-x-2 transition-transform" />
+                  <Play fill="currentColor" size={32} />
+                  CONTINUAR
+                  <ArrowRight size={32} className="group-hover/btn:translate-x-2 transition-transform" />
                 </Link>
               </div>
 
-              <div className="w-full md:w-64 bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/20">
-                <div className="flex justify-between items-end mb-4">
-                  <span className="text-4xl font-black">{progressPercentage}%</span>
-                  <span className="text-blue-200 text-xs font-bold uppercase pb-1">Progreso</span>
+              <div className="mt-16 w-full max-w-2xl bg-white/10 backdrop-blur-xl rounded-[2.5rem] p-8 border border-white/20">
+                <div className="flex justify-between items-end mb-6">
+                  <div>
+                    <span className="text-5xl font-black block mb-1">{progressPercentage}%</span>
+                    <span className="text-blue-200 text-xs font-black uppercase tracking-widest">Tu Progreso Total</span>
+                  </div>
+                  <Trophy size={48} className="text-yellow-400 mb-2" />
                 </div>
-                <div className="w-full h-3 bg-white/10 rounded-full mb-6 overflow-hidden">
+                <div className="w-full h-4 bg-white/10 rounded-full mb-8 overflow-hidden">
                   <div 
-                    className="h-full bg-[#FF6B6B] rounded-full transition-all duration-1000"
+                    className="h-full bg-gradient-to-r from-[#FF6B6B] to-[#ff8e8e] rounded-full transition-all duration-1000 shadow-[0_0_20px_rgba(255,107,107,0.5)]"
                     style={{ width: `${progressPercentage}%` }}
                   />
                 </div>
-                <div className="space-y-4">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-blue-200 font-medium">Ejercicios</span>
-                    <span className="font-bold">{completedExercises}/{totalExercises}</span>
+                <div className="grid grid-cols-2 gap-8">
+                  <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
+                    <span className="text-blue-200 text-[10px] font-black uppercase block mb-1">Completados</span>
+                    <span className="text-2xl font-black">{completedExercises} <span className="text-sm font-medium text-blue-200">/ {totalExercises}</span></span>
                   </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-blue-200 font-medium">Próximo tema</span>
-                    <span className="font-bold text-xs truncate max-w-[100px]">{currentUnit.title}</span>
+                  <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
+                    <span className="text-blue-200 text-[10px] font-black uppercase block mb-1">Próximo Hito</span>
+                    <span className="text-sm font-black truncate block">{currentUnit.title}</span>
                   </div>
                 </div>
               </div>
@@ -110,12 +116,12 @@ export default async function A1CoursePage() {
 
           {/* Learning Path Visualizer */}
           <div className="relative">
-            <h3 className="text-2xl font-black text-slate-900 mb-8 px-4 flex items-center gap-3">
-              <LayoutGrid className="text-coral-500" />
-              Tu Hoja de Ruta
+            <h3 className="text-3xl font-black text-slate-900 mb-8 px-4 flex items-center gap-3">
+              <LayoutGrid className="text-[#FF6B6B]" size={32} />
+              Mapa de Contenidos
             </h3>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {units.map((unit: any, index: number) => {
                 const unitCompletedCount = unit.interactionIds.filter((id: string) => completedSet.has(id)).length;
                 const unitProgress = unit.totalExercises > 0 

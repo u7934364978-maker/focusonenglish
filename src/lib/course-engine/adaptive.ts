@@ -120,6 +120,7 @@ export class AdaptiveEngine {
     const eligibleInteractions = allAvailableInteractions.filter(item => {
       const avgMastery = getInteractionMastery(item);
       const complexity = item.complexity || 1;
+      const unitOrder = item.unit_order || 1;
 
       // Logic: Don't show high complexity if mastery is low
       // Complexity 1: Always show
@@ -129,6 +130,18 @@ export class AdaptiveEngine {
       if (complexity === 2 && avgMastery < 0.3) return false;
       if (complexity === 3 && avgMastery < 0.5) return false;
       if (complexity === 4 && avgMastery < 0.7) return false;
+
+      // PREREQUISITE LOGIC: 
+      // Don't show exercises from units far ahead of current progress
+      // If user hasn't seen Unit N, don't show Unit N+2
+      // We estimate current "unlocked" unit by looking at performance
+      const lastCompletedUnit = Math.max(0, ...performance
+        .map(p => {
+          const interaction = allAvailableInteractions.find(i => i.interaction_id === p.interaction_id);
+          return interaction?.unit_order || 0;
+        }));
+      
+      if (unitOrder > lastCompletedUnit + 2) return false;
 
       return true;
     });
@@ -153,12 +166,14 @@ export class AdaptiveEngine {
     });
     sequence.push(...sortedReviews.slice(0, reviewQuota));
 
-    // Priority 2: New items that follow complexity progression
+    // Priority 2: New items that follow complexity and unit progression
     const remainingCount = maxExercises - sequence.length;
     const sortedNew = [...newItems].sort((a, b) => {
-      // Prioritize lower complexity first (Scaffolding)
+      // 1. Prioritize lower Unit Order first (Curriculum progression)
+      if (a.unit_order !== b.unit_order) return (a.unit_order || 1) - (b.unit_order || 1);
+      // 2. Prioritize lower complexity first (Scaffolding)
       if (a.complexity !== b.complexity) return (a.complexity || 1) - (b.complexity || 1);
-      // Then prioritize by mastery (lowest first to bridge gaps)
+      // 3. Then prioritize by mastery (lowest first to bridge gaps)
       return getInteractionMastery(a) - getInteractionMastery(b);
     });
     sequence.push(...sortedNew.slice(0, remainingCount));

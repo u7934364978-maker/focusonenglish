@@ -275,11 +275,11 @@
             },
             {
               "id": "o2",
-              "text": "Yes, I am a doctor."
+              "text": "No, it is closed on Mondays."
             },
             {
               "id": "o3",
-              "text": "It is cloudy today."
+              "text": "The tickets are expensive."
             }
           ],
           "correct_answer": "o1",

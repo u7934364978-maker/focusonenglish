@@ -1,515 +1,115 @@
 {
   "course": {
     "unit_id": "unit6",
-    "unit_title": "Ordinals & Dates",
+    "unit_title": "Family Members",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Formar números ordinales correctamente (1st, 2nd, 3rd...)",
-    "Escribir y decir la fecha en formato británico y americano",
-    "Usar correctamente las preposiciones con fechas",
-    "Recordar las excepciones ortográficas en ordinales (fifth, ninth...)"
+    "Identify core family members (mother, father, brother, sister)",
+    "Use possessive 's to show relationships",
+    "Ask and answer simple questions about family"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Números Ordinales",
+      "title": "Immediate Family Vocabulary",
       "content": [
         {
           "interaction_id": "U6_B1_I1",
           "type": "matching",
-          "prompt_es": "Une los números cardinales con sus ordinales:",
+          "prompt_es": "Relaciona los miembros de la familia:",
           "pairs": [
-            {
-              "id": "p1",
-              "left": "One",
-              "right": "First (1st)"
-            },
-            {
-              "id": "p2",
-              "left": "Two",
-              "right": "Second (2nd)"
-            },
-            {
-              "id": "p3",
-              "left": "Three",
-              "right": "Third (3rd)"
-            },
-            {
-              "id": "p4",
-              "left": "Four",
-              "right": "Fourth (4th)"
-            }
+            { "id": "p1", "left": "Father", "right": "Padre" },
+            { "id": "p2", "left": "Mother", "right": "Madre" },
+            { "id": "p3", "left": "Brother", "right": "Hermano" },
+            { "id": "p4", "left": "Sister", "right": "Hermana" }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocab:family",
+          "concept_tags": ["vocabulary", "family"],
+          "complexity": 1
         },
         {
           "interaction_id": "U6_B1_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la excepción: 'Five' -> ________ (Quinto)",
-          "stimulus_en": "fifth",
-          "correct_answer": "fifth",
-          "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U6_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el ordinal de 9 (Nine)?",
+          "prompt_es": "¿Cómo se dice 'hijo' en inglés?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Ninth"
-            },
-            {
-              "id": "o2",
-              "text": "Nineth"
-            }
+            { "id": "o1", "text": "Sun" },
+            { "id": "o2", "text": "Son" },
+            { "id": "o3", "text": "Soon" }
           ],
-          "correct_answer": "o1",
-          "explanation": "Se quita la 'e' final: Ninth.",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U6_B1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena el número 421º:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "four"
-            },
-            {
-              "id": "w2",
-              "text": "hundred"
-            },
-            {
-              "id": "w3",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "twenty-first"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U6_B1_I5",
-          "type": "true_false",
-          "prompt_es": "¿En los números compuestos (ej. 21º) solo el último número es ordinal?",
-          "correct_answer": true,
-          "explanation": "Correcto: Twenty-first (no twentieth-first).",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o2",
+          "mastery_tag": "vocab:family",
+          "concept_tags": ["vocabulary", "family"],
+          "complexity": 1
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Escribir la Fecha",
+      "title": "Possessive 's",
       "content": [
         {
           "interaction_id": "U6_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "En formato británico, ¿qué va primero?",
+          "prompt_es": "¿Cómo dirías 'El hermano de John'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "El día (24th September)"
-            },
-            {
-              "id": "o2",
-              "text": "El mes (September 24th)"
-            }
+            { "id": "o1", "text": "The John brother" },
+            { "id": "o2", "text": "John's brother" },
+            { "id": "o3", "text": "Brother of John" }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "culture",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "culture"
-          ]
+          "correct_answer": "o2",
+          "mastery_tag": "grammar:possessive-s",
+          "concept_tags": ["grammar", "possessives"],
+          "complexity": 2
         },
         {
           "interaction_id": "U6_B2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '18 de mayo' -> 18th ________",
-          "stimulus_en": "May",
-          "correct_answer": "May",
-          "explanation": "Recuerda que los meses siempre van en Mayúscula.",
-          "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U6_B2_I3",
-          "type": "matching",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "22nd April",
-              "right": "Británico"
-            },
-            {
-              "id": "p2",
-              "left": "April 22nd",
-              "right": "Americano"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "culture",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "culture"
-          ]
-        },
-        {
-          "interaction_id": "U6_B2_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '24 de septiembre'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "24th"
-            },
-            {
-              "id": "w2",
-              "text": "September"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U6_B2_I5",
-          "type": "true_false",
-          "prompt_es": "¿Al escribir la fecha se suelen poner 'the' y 'of' (ej. the 24th of September)?",
-          "correct_answer": false,
-          "explanation": "Se dicen al hablar, pero normalmente NO se escriben.",
-          "mastery_tag": "culture",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "culture"
-          ]
+          "prompt_es": "Completa: 'La madre de Sarah.'",
+          "stimulus_en": "Sarah________ mother.",
+          "correct_answer": "'s",
+          "mastery_tag": "grammar:possessive-s",
+          "concept_tags": ["grammar", "possessives"],
+          "complexity": 2
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Diciendo la Fecha",
+      "title": "Family Relationships",
       "content": [
         {
           "interaction_id": "U6_B3_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '22nd April' en voz alta?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella es mi hermana.'",
           "options": [
-            {
-              "id": "o1",
-              "text": "The twenty-second of April"
-            },
-            {
-              "id": "o2",
-              "text": "Twenty-two April"
-            }
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "my" },
+            { "id": "w4", "text": "sister." }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "speaking",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "speaking"
-          ]
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax:family",
+          "concept_tags": ["syntax", "family"],
+          "complexity": 2
         },
         {
           "interaction_id": "U6_B3_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa lo que falta al hablar: 'May ________ eighteenth'",
-          "stimulus_en": "the",
-          "correct_answer": "the",
-          "explanation": "En estilo americano: 'May the eighteenth'.",
-          "mastery_tag": "speaking",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "speaking"
-          ]
-        },
-        {
-          "interaction_id": "U6_B3_I3",
-          "type": "categorization",
-          "prompt_es": "Clasifica las terminaciones de los ordinales:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Terminan en -st, -nd, -rd",
-              "items": [
-                {
-                  "id": "i1",
-                  "text": "First"
-                },
-                {
-                  "id": "i2",
-                  "text": "Second"
-                },
-                {
-                  "id": "i3",
-                  "text": "Third"
-                }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Terminan en -th",
-              "items": [
-                {
-                  "id": "i4",
-                  "text": "Fourth"
-                },
-                {
-                  "id": "i5",
-                  "text": "Tenth"
-                },
-                {
-                  "id": "i6",
-                  "text": "Twentieth"
-                }
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U6_B3_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena al hablar: 'El 10 de mayo'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "tenth"
-            },
-            {
-              "id": "w3",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "May"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "speaking",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "speaking"
-          ]
-        },
-        {
-          "interaction_id": "U6_B3_I5",
-          "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'duodécimo'?",
-          "stimulus_en": "Twelfth",
-          "correct_answer": "Twelfth",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Práctica de Fechas",
-      "content": [
-        {
-          "interaction_id": "U6_B4_I1",
-          "type": "reading-comprehension",
-          "title": "Important Dates",
-          "text": "My birthday is on 8th May. My sister's birthday is on 22nd April. We have a test on 10th June.",
-          "question": "¿Cuándo es el cumpleaños de mi hermana?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "22 de abril."
-            },
-            {
-              "id": "o2",
-              "text": "8 de mayo."
-            },
-            {
-              "id": "o3",
-              "text": "10 de junio."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U6_B4_I2",
-          "type": "short_writing",
-          "prompt_es": "Escribe la fecha '8 de mayo' (formato británico corto):",
-          "stimulus_es": "8 de mayo",
-          "correct_answer": "8th May",
-          "validation_regex": "^8th May$",
-          "mastery_tag": "writing",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "writing"
-          ]
-        },
-        {
-          "interaction_id": "U6_B4_I3",
           "type": "multiple_choice",
-          "prompt_es": "Completa: 'Te veo el sábado.'",
+          "prompt_es": "Si Peter es el padre de Mary, ¿quién es Mary?",
           "options": [
-            {
-              "id": "o1",
-              "text": "I'll see you on Saturday"
-            },
-            {
-              "id": "o2",
-              "text": "I'll see you in Saturday"
-            }
+            { "id": "o1", "text": "Mary is Peter's son." },
+            { "id": "o2", "text": "Mary is Peter's daughter." },
+            { "id": "o3", "text": "Mary is Peter's mother." }
           ],
-          "correct_answer": "o1",
-          "explanation": "Con días usamos 'on'.",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U6_B4_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi cumpleaños es en febrero.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "birthday"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "February"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U6_B4_I5",
-          "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'veinteavo' / 'vigésimo'?",
-          "stimulus_en": "Twentieth",
-          "correct_answer": "Twentieth",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": "o2",
+          "mastery_tag": "logic:family",
+          "concept_tags": ["vocabulary", "family", "logic"],
+          "complexity": 3
         }
       ]
     }

@@ -316,23 +316,23 @@
         {
           "interaction_id": "U10_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Elige el conector adecuado: '______, I am a doctor.' (Para empezar una presentación)",
+          "prompt_es": "Elige el saludo adecuado para empezar una conversación:",
           "options": [
             {
               "id": "o1",
-              "text": "First"
+              "text": "Hello, my name is John."
             },
             {
               "id": "o2",
-              "text": "Finally"
+              "text": "Finally, I am John."
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "mastery_tag": "communication",
           "complexity": 1,
           "concept_tags": [
-            "grammar",
-            "grammar"
+            "vocabulary",
+            "communication"
           ]
         },
         {

@@ -64,26 +64,45 @@ export const premiumCourseServerService = {
     if (!fs.existsSync(contentDir)) return [];
 
     const files = fs.readdirSync(contentDir)
-      .filter(file => file.endsWith('.json'));
+      .filter(file => file.endsWith('.json'))
+      .sort((a, b) => {
+        const getNum = (s: string) => {
+          const match = s.match(/\d+/);
+          return match ? parseInt(match[0]) : 0;
+        };
+        return getNum(a) - getNum(b);
+      });
 
-    for (const file of files) {
+    files.forEach((file, unitIdx) => {
       try {
         const filePath = path.join(contentDir, file);
         const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        const unitId = unitData.course.unit_id;
+        const unitOrder = unitIdx + 1;
         
         unitData.blocks.forEach((block: PremiumBlock) => {
           block.content.forEach((content: any) => {
             if (content.interaction_id) {
-              interactions.push(content as PremiumInteraction);
+              interactions.push({
+                ...content,
+                unit_id: unitId,
+                unit_order: unitOrder
+              } as PremiumInteraction);
             } else if (content.video && content.video.interactions) {
-              interactions.push(...content.video.interactions);
+              content.video.interactions.forEach((i: any) => {
+                interactions.push({
+                  ...i,
+                  unit_id: unitId,
+                  unit_order: unitOrder
+                } as PremiumInteraction);
+              });
             }
           });
         });
       } catch (error) {
         console.error(`Error loading interactions from ${file}:`, error);
       }
-    }
+    });
 
     return interactions;
   },
