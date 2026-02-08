@@ -5,6 +5,8 @@ export const runtime = 'edge';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { LogOut } from 'lucide-react';
+import { signOut } from '@/lib/auth-helpers';
 import { 
   getUserProfile, 
   getUserProgress, 
@@ -114,6 +116,16 @@ export default function ProfilePage() {
 
   const handleInputChange = (field: keyof UserProfile, value: any) => {
     setEditedProfile(prev => ({ ...prev, [field]: value }));
+  };
+
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      router.push('/cuenta/login');
+      router.refresh();
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
   };
 
   if (loading) {
@@ -654,6 +666,17 @@ export default function ProfilePage() {
             <button className="w-full px-6 py-4 bg-slate-100 text-slate-700 rounded-xl font-bold hover:bg-slate-200 transition-all text-left flex items-center justify-between">
               <span>Download My Data</span>
               <span>📥</span>
+            </button>
+
+            <button 
+              onClick={handleLogout}
+              className="w-full px-6 py-4 bg-orange-50 text-orange-600 rounded-xl font-bold hover:bg-orange-100 transition-all text-left flex items-center justify-between border-2 border-orange-200 group"
+            >
+              <span className="flex items-center gap-2">
+                <LogOut size={20} />
+                Cerrar Sesión
+              </span>
+              <span className="group-hover:translate-x-1 transition-transform">→</span>
             </button>
 
             <button className="w-full px-6 py-4 bg-red-50 text-red-600 rounded-xl font-bold hover:bg-red-100 transition-all text-left flex items-center justify-between border-2 border-red-200">

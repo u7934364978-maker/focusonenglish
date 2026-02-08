@@ -11,7 +11,8 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase-client';
-import { getUser } from '@/lib/auth-helpers';
+import { getUser, signOut } from '@/lib/auth-helpers';
+import { LogOut } from 'lucide-react';
 import { calculateXPForLevel, getLevelTitle } from '@/lib/gamification/xp';
 
 // Helper to map levels
@@ -149,6 +150,16 @@ export default function DashboardPage() {
     loadDashboardData();
   }, [router]);
 
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      router.push('/cuenta/login');
+      router.refresh();
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
+
   if (loading || !userData) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -196,6 +207,15 @@ export default function DashboardPage() {
                 <span className="text-2xl">😊</span>
                 <span className="text-sm font-medium hidden md:inline">Perfil</span>
               </Link>
+              
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-2 px-5 py-3 bg-white/10 backdrop-blur-sm hover:bg-red-500/20 rounded-xl transition-all border border-white/20 group"
+                title="Cerrar Sesión"
+              >
+                <LogOut size={20} className="text-white group-hover:text-red-200 transition-colors" />
+                <span className="text-sm font-medium hidden lg:inline">Cerrar Sesión</span>
+              </button>
             </div>
           </div>
         </div>

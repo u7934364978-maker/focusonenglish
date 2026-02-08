@@ -3,7 +3,6 @@
 ## Workflow Steps
 
 ### [x] Step: Requirements
-
 Create a Product Requirements Document (PRD) based on the feature description.
 
 1. Review existing codebase to understand current architecture and patterns
@@ -14,38 +13,36 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/requirements.md`.
 
-### [ ] Step: Technical Specification
-
+### [x] Step: Technical Specification
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/requirements.md`.
 
 1. Review existing codebase architecture and identify reusable components
 2. Define the implementation approach
 
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/spec.md` with:
+Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/spec.md`.
 
-- Technical context (language, dependencies)
-- Implementation approach referencing existing code patterns
-- Source code structure changes
-- Data model / API / interface changes
-- Delivery phases (incremental, testable milestones)
-- Verification approach using project lint/test commands
-
-### [ ] Step: Planning
-
+### [x] Step: Planning
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [x] Step: Implementation
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
+#### [x] Task 1: Add logout to `Navigation` component
+- Update `src/components/sections/Navigation.tsx` to include `signOut` functionality.
+- Add "Cerrar Sesión" button in desktop view.
+- Add "Cerrar Sesión" option in mobile menu.
+- Verification: Click logout in both views and confirm redirection to login page.
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+#### [x] Task 2: Add logout to `Dashboard` page header
+- Update `src/app/dashboard/page.tsx` to include a logout button in the header.
+- Use `LogOut` icon from `lucide-react`.
+- Verification: Click logout in dashboard and confirm redirection.
 
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/plan.md`.
+#### [x] Task 3: Add logout to `Profile` page settings
+- Update `src/app/profile/page.tsx` to include a logout button in the settings tab.
+- Place it in the "Account Actions" section.
+- Verification: Navigate to settings, click logout, and confirm redirection.
 
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ea58f3f4-102d-453c-bc37-663c5f53282f/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+#### [x] Task 4: Final verification and linting
+- Test all logout buttons to ensure they work as expected.
+- Run `npm run lint` to check for any code quality issues.
+- Verification: No lint errors and all logout points functional.

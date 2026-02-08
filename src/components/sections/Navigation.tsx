@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { Sun, Moon } from "lucide-react";
-import { getUser } from "@/lib/auth-helpers";
+import { Sun, Moon, LogOut } from "lucide-react";
+import { getUser, signOut } from "@/lib/auth-helpers";
 
 export function Navigation() {
+  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -21,6 +23,13 @@ export function Navigation() {
     }
     checkAuth();
   }, []);
+
+  const handleLogout = async () => {
+    await signOut();
+    setIsLoggedIn(false);
+    router.push("/cuenta/login");
+    router.refresh();
+  };
 
   return (
     <nav className="sticky top-0 z-[9998] bg-white/95 backdrop-blur-lg border-b-2 border-[#FFE8D9] shadow-sm dark:bg-slate-950/95 dark:border-slate-800 transition-colors">
@@ -64,11 +73,21 @@ export function Navigation() {
             </button>
 
             <Link 
-              href="/cuenta/login"
+              href={isLoggedIn ? "/dashboard" : "/cuenta/login"}
               className="px-4 py-2 rounded-xl text-sm font-bold text-gray-700 hover:text-[#FF6B6B] border border-transparent hover:border-[#FF6B6B]/20 hover:bg-[#FF6B6B]/5 transition-all dark:text-slate-200 dark:hover:text-[#FF6B6B]"
             >
               {isLoggedIn ? 'Mi Panel' : 'Iniciar Sesión'}
             </Link>
+            
+            {isLoggedIn && (
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold text-red-500 hover:bg-red-50 transition-all dark:hover:bg-red-950/20"
+              >
+                <LogOut size={18} />
+                <span>Cerrar Sesión</span>
+              </button>
+            )}
             {!isLoggedIn && (
               <Link 
                 href="/cuenta/registro"
@@ -144,12 +163,25 @@ export function Navigation() {
                 Test de Nivel
               </Link>
               <Link 
-                href="/cuenta/login" 
+                href={isLoggedIn ? "/dashboard" : "/cuenta/login"} 
                 className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-bold text-slate-700 hover:text-coral-600 hover:bg-coral-50 transition-all dark:text-slate-300 dark:hover:bg-slate-800"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span>🔑</span> {isLoggedIn ? 'Mi Panel' : 'Iniciar Sesión'}
               </Link>
+
+              {isLoggedIn && (
+                <button
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    handleLogout();
+                  }}
+                  className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-bold text-red-500 hover:bg-red-50 transition-all dark:text-red-400 dark:hover:bg-red-950/20 text-left w-full"
+                >
+                  <LogOut size={18} />
+                  <span>Cerrar Sesión</span>
+                </button>
+              )}
               {!isLoggedIn && (
                 <Link 
                   href="/cuenta/registro"
