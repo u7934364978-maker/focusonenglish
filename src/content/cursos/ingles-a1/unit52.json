@@ -3,338 +3,238 @@
     "unit_id": "unit52",
     "unit_title": "Countable & Uncountable",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 25,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Countable & Uncountable"
+    "Distinguish between countable and uncountable nouns",
+    "Use 'a/an' correctly with singular countable nouns",
+    "Use 'some' with uncountable and plural countable nouns",
+    "Identify common food and drink categories"
   ],
   "blocks": [
     {
-      "block_id": "B52",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Countable Nouns",
       "content": [
         {
-          "interaction_id": "U52_I1",
+          "interaction_id": "u52_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Naranja'?",
+          "prompt_es": "¿Cuál de estos es un sustantivo contable?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Bread"
-            },
-            {
-              "id": "o1",
-              "text": "Orange"
-            },
-            {
-              "id": "o3",
-              "text": "Milk"
-            }
+            { "id": "o1", "text": "Apple" },
+            { "id": "o2", "text": "Water" },
+            { "id": "o3", "text": "Rice" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Orange",
-              "right": "Naranja"
-            },
-            {
-              "id": "p1",
-              "left": "Egg",
-              "right": "Huevo"
-            },
-            {
-              "id": "p2",
-              "left": "Milk",
-              "right": "Leche"
-            },
-            {
-              "id": "p3",
-              "left": "Water",
-              "right": "Agua"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "u52_b1_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Usa 'a' o 'an':",
+          "stimulus_en": "I have ________ orange and ________ banana.",
+          "correct_answer": "an, a",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U52_I3",
+          "interaction_id": "u52_b1_i3",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: 'Hay tres huevos'",
           "options": [
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "countable"
-            },
-            {
-              "id": "w0",
-              "text": "Apples"
-            }
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "three" },
+            { "id": "w4", "text": "eggs" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U52_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We have some bread.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U52_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (algo de) ________ milk.",
-          "correct_answer": "some",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U52_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Huevo",
-          "correct_answer": "Egg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U52_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Apple",
-          "correct_answer": "Manzana",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U52_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Egg"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Milk"
-              ]
-            }
+          "interaction_id": "u52_b1_i4",
+          "type": "matching",
+          "prompt_es": "Une el singular con el plural:",
+          "pairs": [
+            { "id": "p1", "left": "One apple", "right": "Two apples" },
+            { "id": "p2", "left": "One egg", "right": "Two eggs" },
+            { "id": "p3", "left": "One potato", "right": "Two potatoes" }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Apples are countable. There are five eggs. Water is uncountable.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Countable & Uncountable"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U52_I10",
+          "interaction_id": "u52_b1_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a019741d91d7c361dd1561f6641cfcbe.mp3",
-          "text": "Water is uncountable.",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/countable_plural.mp3",
+          "text": "An apple, an orange, and two eggs.",
           "mastery_tag": "listening"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Uncountable Nouns",
+      "content": [
         {
-          "interaction_id": "U52_I11",
+          "interaction_id": "u52_b2_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Leche'?",
+          "prompt_es": "¿Cuál de estos NO se puede contar?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Orange"
-            },
-            {
-              "id": "o3",
-              "text": "Bread"
-            },
-            {
-              "id": "o1",
-              "text": "Milk"
-            }
+            { "id": "o1", "text": "Milk" },
+            { "id": "o2", "text": "Carrot" },
+            { "id": "o3", "text": "Tomato" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Milk",
-              "right": "Leche"
-            },
-            {
-              "id": "p1",
-              "left": "Apple",
-              "right": "Manzana"
-            },
-            {
-              "id": "p2",
-              "left": "Orange",
-              "right": "Naranja"
-            },
-            {
-              "id": "p3",
-              "left": "Coffee",
-              "right": "Café"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U52_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "countable"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "Apples"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U52_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are five eggs.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U52_I15",
+          "interaction_id": "u52_b2_i2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I have (tres) ________ eggs.",
-          "correct_answer": "three",
+          "prompt_es": "Usa 'some' para sustantivos incontables:",
+          "stimulus_en": "I want ________ water and ________ bread.",
+          "correct_answer": "some, some",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U52_I16",
+          "interaction_id": "u52_b2_i3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'two waters' en inglés general?",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u52_b2_i4",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Café",
-          "correct_answer": "Coffee",
-          "mastery_tag": "vocabulary"
+          "prompt_es": "Traduce: 'Tengo algo de leche'",
+          "stimulus_es": "I have some milk.",
+          "correct_answer": "I have some milk",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U52_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Orange",
-          "correct_answer": "Naranja",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "u52_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/uncountable_examples.mp3",
+          "text": "Some bread, some water, and some coffee.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": "Categorization Practice",
+      "content": [
         {
-          "interaction_id": "U52_I18",
+          "interaction_id": "u52_b3_i1",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica los alimentos:",
           "categories": [
             {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Apple"
-              ]
+              "id": "countable",
+              "title": "Countable",
+              "items": ["Cookie", "Banana", "Egg", "Tomato"]
             },
             {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bread"
-              ]
+              "id": "uncountable",
+              "title": "Uncountable",
+              "items": ["Rice", "Sugar", "Milk", "Juice"]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U52_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We have some bread. There are five eggs. Water is uncountable.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u52_b3_i2",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona la frase correcta:",
           "options": [
-            {
-              "id": "o1",
-              "text": "Countable & Uncountable"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "I have an apple." },
+            { "id": "o2", "text": "I have a milk." },
+            { "id": "o3", "text": "I have some orange." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u52_b3_i3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Queremos algo de pan'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "want" },
+            { "id": "w3", "text": "some" },
+            { "id": "w4", "text": "bread" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "u52_b3_i4",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Necesito una naranja'",
+          "stimulus_es": "I need an orange.",
+          "correct_answer": "I need an orange",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u52_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y responde:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/countable_uncountable_mix.mp3",
+          "text": "I have some rice and an egg for lunch.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Mastery Section",
+      "content": [
+        {
+          "interaction_id": "u52_b4_i1",
+          "type": "reading-comprehension",
+          "title": "Making a Sandwich",
+          "text": "I want to make a sandwich. I have some bread and some butter. I also have a tomato and an onion. I don't have any cheese. I need to go to the shop!",
+          "question": "What does the person have?",
+          "options": [
+            { "id": "o1", "text": "Bread, butter, tomato, and onion" },
+            { "id": "o2", "text": "Cheese and bread" },
+            { "id": "o3", "text": "Only a tomato" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U52_I20",
+          "interaction_id": "u52_b4_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el texto:",
+          "stimulus_en": "Please buy ________ milk and ________ apples at the supermarket.",
+          "correct_answer": "some, some",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u52_b4_i3",
+          "type": "true_false",
+          "prompt_es": "La palabra 'Rice' (arroz) es contable.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u52_b4_i4",
+          "type": "short_writing",
+          "prompt_es": "Escribe una frase diciendo que tienes una manzana:",
+          "stimulus_es": "I have an apple.",
+          "correct_answer": "I have an apple",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u52_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/fc3f93b25309131cac82568627a0c8a9.mp3",
-          "text": "Apples are countable.",
+          "prompt_es": "Escucha el resumen final:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/unit52_summary.mp3",
+          "text": "Remember: use a or an for singular countable items, and some for uncountable things like water or bread.",
           "mastery_tag": "listening"
         }
       ]

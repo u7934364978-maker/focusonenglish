@@ -1,355 +1,240 @@
 {
   "course": {
     "unit_id": "unit59",
-    "unit_title": "Money & Currency",
+    "unit_title": "Free Time & Hobbies",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 25,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Money & Currency"
+    "Identify common leisure activities and hobbies",
+    "Use verbs of preference (like, love, hate) with -ing forms",
+    "Discuss free time activities in simple sentences"
   ],
   "blocks": [
     {
-      "block_id": "B59",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Hobby Vocabulary",
       "content": [
         {
-          "interaction_id": "U59_I1",
+          "interaction_id": "u59_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cartera'?",
+          "prompt_es": "¿Qué actividad haces con un libro?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Wallet"
-            },
-            {
-              "id": "o2",
-              "text": "Bank"
-            },
-            {
-              "id": "o3",
-              "text": "Card"
-            }
+            { "id": "o1", "text": "I read a book" },
+            { "id": "o2", "text": "I listen to music" },
+            { "id": "o3", "text": "I swim" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I2",
+          "interaction_id": "u59_b1_i2",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une las aficiones:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Cash",
-              "right": "Efectivo"
-            },
-            {
-              "id": "p1",
-              "left": "ATM",
-              "right": "Cajero"
-            },
-            {
-              "id": "p2",
-              "left": "Exchange",
-              "right": "Cambio"
-            },
-            {
-              "id": "p3",
-              "left": "Bank",
-              "right": "Banco"
-            }
+            { "id": "p1", "left": "Paint", "right": "Pintar" },
+            { "id": "p2", "left": "Dance", "right": "Bailar" },
+            { "id": "p3", "left": "Cook", "right": "Cocinar" },
+            { "id": "p4", "left": "Swim", "right": "Nadar" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "exchange"
-            },
-            {
-              "id": "w2",
-              "text": "rate"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "good"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U59_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The bank is closed.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U59_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (pagar) ________ by card.",
-          "correct_answer": "pay",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U59_I6",
+          "interaction_id": "u59_b1_i3",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cartera",
-          "correct_answer": "Wallet",
+          "prompt_es": "Escribe 'bailar' en inglés:",
+          "stimulus_es": "Bailar",
+          "correct_answer": "Dance",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Cash",
-          "correct_answer": "Efectivo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Wallet"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bank"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The bank is closed. My wallet is empty. I don't have any cash.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u59_b1_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué haces con una consola?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Money & Currency"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Play video games" },
+            { "id": "o2", "text": "Go for a walk" },
+            { "id": "o3", "text": "Listen to music" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I10",
+          "interaction_id": "u59_b1_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ab64a65a7e1c5ebb2f26ae088c442d86.mp3",
-          "text": "The exchange rate is good.",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/hobby_vocab.mp3",
+          "text": "Reading, painting, and dancing.",
           "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Expressing Preferences",
+      "content": [
+        {
+          "interaction_id": "u59_b2_i1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Me gusta NADAR'",
+          "stimulus_en": "I like ________.",
+          "correct_answer": "swimming",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U59_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cambio'?",
+          "interaction_id": "u59_b2_i2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella ama cocinar para sus amigos'",
           "options": [
-            {
-              "id": "o2",
-              "text": "Card"
-            },
-            {
-              "id": "o1",
-              "text": "Exchange"
-            },
-            {
-              "id": "o3",
-              "text": "Bank"
-            }
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "loves" },
+            { "id": "w3", "text": "cooking" },
+            { "id": "w4", "text": "for" },
+            { "id": "w5", "text": "her" },
+            { "id": "w6", "text": "friends" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "u59_b2_i3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices que 'odias' algo?",
+          "options": [
+            { "id": "o1", "text": "I hate it" },
+            { "id": "o2", "text": "I love it" },
+            { "id": "o3", "text": "I enjoy it" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Cash",
-              "right": "Efectivo"
-            },
-            {
-              "id": "p1",
-              "left": "ATM",
-              "right": "Cajero"
-            },
-            {
-              "id": "p2",
-              "left": "Exchange",
-              "right": "Cambio"
-            },
-            {
-              "id": "p3",
-              "left": "Wallet",
-              "right": "Cartera"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "closed"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "bank"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U59_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My wallet is empty.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U59_I15",
+          "interaction_id": "u59_b2_i4",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I need to (cambiar) ________ some money.",
-          "correct_answer": "exchange",
+          "prompt_es": "Completa: 'No me gusta ESCUCHAR música rock'",
+          "stimulus_en": "I don't like ________ to rock music.",
+          "correct_answer": "listening",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U59_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tarjeta",
-          "correct_answer": "Card",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "u59_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha las preferencias:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/preferences_ing.mp3",
+          "text": "I enjoy walking in the park and I love reading books.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": " Spare Time Activities",
+      "content": [
         {
-          "interaction_id": "U59_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Card",
-          "correct_answer": "Tarjeta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "ATM"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Wallet"
-              ]
-            }
+          "interaction_id": "u59_b3_i1",
+          "type": "matching",
+          "prompt_es": "Une las actividades de tiempo libre:",
+          "pairs": [
+            { "id": "p1", "left": "Go for a walk", "right": "Dar un paseo" },
+            { "id": "p2", "left": "Watch a movie", "right": "Ver una peli" },
+            { "id": "p3", "left": "Meet friends", "right": "Quedar con amigos" },
+            { "id": "p4", "left": "Listen to music", "right": "Escuchar música" }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U59_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The bank is closed. The exchange rate is good. Where is the nearest ATM?",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u59_b3_i2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué haces en el cine?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Money & Currency"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Watch a movie" },
+            { "id": "o2", "text": "Play video games" },
+            { "id": "o3", "text": "Cook dinner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u59_b3_i3",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'escuchar música' en inglés:",
+          "stimulus_es": "Escuchar música",
+          "correct_answer": "Listen to music",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u59_b3_i4",
+          "type": "true_false",
+          "prompt_es": "'Spare time' significa tiempo libre.",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u59_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y responde:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/spare_time_listening.mp3",
+          "text": "In my spare time, I like meeting my friends.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Mastery Section",
+      "content": [
+        {
+          "interaction_id": "u59_b4_i1",
+          "type": "reading-comprehension",
+          "title": "My Favorite Hobby",
+          "text": "Hi, I'm Sofia. I have many hobbies. I love painting and I enjoy listening to music. On the weekend, I go for a walk with my dog. I don't like playing video games, but I love reading books in the evening. Hobbies are great for relaxing!",
+          "question": "Does Sofia like playing video games?",
+          "options": [
+            { "id": "o1", "text": "No, she doesn't" },
+            { "id": "o2", "text": "Yes, she does" },
+            { "id": "o3", "text": "She loves it" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U59_I20",
+          "interaction_id": "u59_b4_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma -ing:",
+          "stimulus_en": "I love ________ (read) and I enjoy ________ (dance).",
+          "correct_answer": "reading, dancing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u59_b4_i3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Me gusta escuchar música'",
+          "stimulus_es": "I like listening to music.",
+          "correct_answer": "I like listening to music",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u59_b4_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es un hobby?",
+          "options": [
+            { "id": "o1", "text": "Swimming" },
+            { "id": "o2", "text": "Working" },
+            { "id": "o3", "text": "Sleeping" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u59_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c6ca1fe58e3e970294d112e0c0ea9124.mp3",
-          "text": "I don't have any cash.",
+          "prompt_es": "Escucha el resumen final:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/unit59_summary.mp3",
+          "text": "Find a hobby you love. Do you enjoy swimming, reading, or dancing? Tell us about it!",
           "mastery_tag": "listening"
         }
       ]

@@ -1,340 +1,240 @@
 {
   "course": {
     "unit_id": "unit56",
-    "unit_title": "At the Restaurant",
+    "unit_title": "In the Kitchen",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 25,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of At the Restaurant"
+    "Identify major kitchen appliances and furniture",
+    "Use prepositions of place to describe locations in the kitchen",
+    "Understand instructions for kitchen organization"
   ],
   "blocks": [
     {
-      "block_id": "B56",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Kitchen Appliances",
       "content": [
         {
-          "interaction_id": "U56_I1",
+          "interaction_id": "u56_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Propina'?",
+          "prompt_es": "¿Dónde guardas la leche?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Tip"
-            },
-            {
-              "id": "o2",
-              "text": "Reservation"
-            },
-            {
-              "id": "o3",
-              "text": "Dessert"
-            }
+            { "id": "o1", "text": "In the fridge" },
+            { "id": "o2", "text": "In the oven" },
+            { "id": "o3", "text": "In the sink" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I2",
+          "interaction_id": "u56_b1_i2",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une los electrodomésticos:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Tip",
-              "right": "Propina"
-            },
-            {
-              "id": "p1",
-              "left": "Drink",
-              "right": "Bebida"
-            },
-            {
-              "id": "p2",
-              "left": "Bill",
-              "right": "Cuenta"
-            },
-            {
-              "id": "p3",
-              "left": "Dessert",
-              "right": "Postre"
-            }
+            { "id": "p1", "left": "Oven", "right": "Horno" },
+            { "id": "p2", "left": "Microwave", "right": "Microondas" },
+            { "id": "p3", "left": "Sink", "right": "Fregadero" },
+            { "id": "p4", "left": "Dishwasher", "right": "Lavavajillas" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "dessert"
-            },
-            {
-              "id": "w0",
-              "text": "What's"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U56_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Don't forget the tip.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U56_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Nosotros) ________ have a reservation.",
-          "correct_answer": "We",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U56_I6",
+          "interaction_id": "u56_b1_i3",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pedido",
-          "correct_answer": "Order",
+          "prompt_es": "Escribe 'encimera' en inglés:",
+          "stimulus_es": "Encimera",
+          "correct_answer": "Counter",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Order",
-          "correct_answer": "Pedido",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Dessert"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bill"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The waiter is coming. Don't forget the tip. I want to pay the bill.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u56_b1_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde pones los platos sucios?",
           "options": [
-            {
-              "id": "o1",
-              "text": "At the Restaurant"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "In the sink" },
+            { "id": "o2", "text": "In the cupboard" },
+            { "id": "o3", "text": "In the microwave" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I10",
+          "interaction_id": "u56_b1_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/4f03921dc1a88dbce2a594e647496ae4.mp3",
-          "text": "Don't forget the tip.",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_appliances.mp3",
+          "text": "Fridge, oven, and microwave.",
           "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Prepositions in the Kitchen",
+      "content": [
+        {
+          "interaction_id": "u56_b2_i1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'El café está EN el armario'",
+          "stimulus_en": "The coffee is ________ the cupboard.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U56_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cuenta'?",
+          "interaction_id": "u56_b2_i2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'La taza está sobre la encimera'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Bill"
-            },
-            {
-              "id": "o2",
-              "text": "Waiter"
-            },
-            {
-              "id": "o3",
-              "text": "Tip"
-            }
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "cup" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "counter" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "u56_b2_i3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'under the sink'?",
+          "options": [
+            { "id": "o1", "text": "Debajo del fregadero" },
+            { "id": "o2", "text": "Encima del fregadero" },
+            { "id": "o3", "text": "Detrás del fregadero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u56_b2_i4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'La mesa está AL LADO de la ventana'",
+          "stimulus_en": "The table is ________ ________ the window.",
+          "correct_answer": "next to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u56_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha la ubicación:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_prepositions.mp3",
+          "text": "The milk is inside the fridge.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": "Kitchen Furniture",
+      "content": [
+        {
+          "interaction_id": "u56_b3_i1",
+          "type": "matching",
+          "prompt_es": "Une los muebles de cocina:",
+          "pairs": [
+            { "id": "p1", "left": "Cupboard", "right": "Armario" },
+            { "id": "p2", "left": "Shelf", "right": "Estante" },
+            { "id": "p3", "left": "Drawer", "right": "Cajón" },
+            { "id": "p4", "left": "Bin", "right": "Cubo de basura" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u56_b3_i2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde guardas los cubiertos?",
+          "options": [
+            { "id": "o1", "text": "In a drawer" },
+            { "id": "o2", "text": "In the oven" },
+            { "id": "o3", "text": "On a shelf" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Dessert",
-              "right": "Postre"
-            },
-            {
-              "id": "p1",
-              "left": "Tip",
-              "right": "Propina"
-            },
-            {
-              "id": "p2",
-              "left": "Bill",
-              "right": "Cuenta"
-            },
-            {
-              "id": "p3",
-              "left": "Reservation",
-              "right": "Reserva"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What's"
-            },
-            {
-              "id": "w2",
-              "text": "dessert"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U56_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The waiter are coming.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U56_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (querer) ________ to order, please.",
-          "correct_answer": "want",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U56_I16",
+          "interaction_id": "u56_b3_i3",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Bebida",
-          "correct_answer": "Drink",
+          "prompt_es": "Escribe 'estante' en inglés:",
+          "stimulus_es": "Estante",
+          "correct_answer": "Shelf",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Reservation",
-          "correct_answer": "Reserva",
+          "interaction_id": "u56_b3_i4",
+          "type": "true_false",
+          "prompt_es": "'Cupboard' se usa para guardar platos y vasos.",
+          "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U56_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Drink"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Reservation"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "u56_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y responde:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_furniture_listening.mp3",
+          "text": "The glasses are in the cupboard on the left.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Mastery Section",
+      "content": [
         {
-          "interaction_id": "U56_I19",
+          "interaction_id": "u56_b4_i1",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I'd like a cold drink. The waiter is coming. I want to pay the bill.",
-          "question": "¿De qué trata este texto?",
+          "title": "Maria's Kitchen",
+          "text": "Maria is in her kitchen. Her kitchen is clean. The fridge is next to the oven. There is a microwave on the counter. Maria puts the plates in the cupboard and the forks in the top drawer. There is a small bin under the sink.",
+          "question": "Where is the bin?",
           "options": [
-            {
-              "id": "o1",
-              "text": "At the Restaurant"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Under the sink" },
+            { "id": "o2", "text": "On the counter" },
+            { "id": "o3", "text": "Next to the fridge" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U56_I20",
+          "interaction_id": "u56_b4_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con preposiciones:",
+          "stimulus_en": "The milk is ________ the fridge and the cups are ________ the shelf.",
+          "correct_answer": "in, on",
+          "master_tag": "grammar"
+        },
+        {
+          "interaction_id": "u56_b4_i3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'El microondas está sobre la encimera'",
+          "stimulus_es": "The microwave is on the counter.",
+          "correct_answer": "The microwave is on the counter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u56_b4_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde cocinas una pizza?",
+          "options": [
+            { "id": "o1", "text": "In the oven" },
+            { "id": "o2", "text": "In the sink" },
+            { "id": "o3", "text": "In the drawer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u56_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c1851e56fb3c767542664b3cdf690dd9.mp3",
-          "text": "I want to pay the bill.",
+          "prompt_es": "Escucha el resumen final:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/unit56_summary.mp3",
+          "text": "Use the fridge for milk, the oven for pizza, and prepositions to find everything!",
           "mastery_tag": "listening"
         }
       ]

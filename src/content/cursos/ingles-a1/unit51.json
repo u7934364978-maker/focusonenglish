@@ -3,368 +3,245 @@
     "unit_id": "unit51",
     "unit_title": "At the Supermarket",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 25,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of At the Supermarket"
+    "Identify supermarket equipment and areas",
+    "Ask for the location of food items",
+    "Use prepositions of place in a retail context",
+    "Understand basic supermarket interactions"
   ],
   "blocks": [
     {
-      "block_id": "B51",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Supermarket Vocabulary",
       "content": [
         {
-          "interaction_id": "U51_I1",
+          "interaction_id": "u51_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Caja'?",
+          "prompt_es": "¿Cómo se dice 'pasillo' en un supermercado?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Checkout"
-            },
-            {
-              "id": "o3",
-              "text": "Basket"
-            },
-            {
-              "id": "o2",
-              "text": "Aisle"
-            }
+            { "id": "o1", "text": "Aisle" },
+            { "id": "o2", "text": "Hall" },
+            { "id": "o3", "text": "Corridor" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U51_I2",
+          "interaction_id": "u51_b1_i2",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une los objetos con su nombre:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Shopping",
-              "right": "Compras"
-            },
-            {
-              "id": "p1",
-              "left": "Trolley",
-              "right": "Carrito"
-            },
-            {
-              "id": "p2",
-              "left": "Checkout",
-              "right": "Caja"
-            },
-            {
-              "id": "p3",
-              "left": "Shelf",
-              "right": "Estante"
-            }
+            { "id": "p1", "left": "Trolley", "right": "Carrito" },
+            { "id": "p2", "left": "Basket", "right": "Cesta" },
+            { "id": "p3", "left": "Checkout", "right": "Caja" },
+            { "id": "p4", "left": "Shelf", "right": "Estante" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U51_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "u51_b1_i3",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'recibo' o 'ticket' en inglés:",
+          "stimulus_es": "Recibo",
+          "correct_answer": "Receipt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u51_b1_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué usas para llevar mucha compra?",
           "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "basket"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Put"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "apples"
-            }
+            { "id": "o1", "text": "A trolley" },
+            { "id": "o2", "text": "A pocket" },
+            { "id": "o3", "text": "A shelf" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U51_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Put the apples in the basket.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
+          "interaction_id": "u51_b1_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/supermarket_vocab.mp3",
+          "text": "Aisle, trolley, and checkout.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Where is the Food?",
+      "content": [
         {
-          "interaction_id": "U51_I5",
+          "interaction_id": "u51_b2_i1",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ello) ________ the bread?",
+          "prompt_es": "Completa la pregunta: '¿Dónde está el pan?'",
+          "stimulus_en": "Where ________ the bread?",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U51_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Estante",
-          "correct_answer": "Shelf",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U51_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Checkout",
-          "correct_answer": "Caja",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U51_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Trolley"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Receipt"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U51_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The supermarket is very big. Put the apples in the basket. Which aisle is the rice in?",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At the Supermarket"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U51_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/e848cd379dfdab7eb68e27440af2294b.mp3",
-          "text": "Which aisle is the rice in?",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U51_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pasillo'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Trolley"
-            },
-            {
-              "id": "o3",
-              "text": "Shopping"
-            },
-            {
-              "id": "o1",
-              "text": "Aisle"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U51_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Receipt",
-              "right": "Recibo"
-            },
-            {
-              "id": "p1",
-              "left": "Shopping",
-              "right": "Compras"
-            },
-            {
-              "id": "p2",
-              "left": "Checkout",
-              "right": "Caja"
-            },
-            {
-              "id": "p3",
-              "left": "Basket",
-              "right": "Cesta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U51_I13",
+          "interaction_id": "u51_b2_i2",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena la frase: 'Está en el pasillo 5'",
           "options": [
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "aisle"
-            },
-            {
-              "id": "w0",
-              "text": "Which"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "rice"
-            }
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "in" },
+            { "id": "w4", "text": "aisle" },
+            { "id": "w5", "text": "five" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U51_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Which aarele are the rice in?\"",
-          "correct_answer": false,
+          "interaction_id": "u51_b2_i3",
+          "type": "multiple_choice",
+          "prompt_es": "Si algo está al lado de las manzanas, dices:",
+          "options": [
+            { "id": "o1", "text": "Next to the apples" },
+            { "id": "o2", "text": "Under the apples" },
+            { "id": "o3", "text": "Between the apples" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U51_I15",
+          "interaction_id": "u51_b2_i4",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (ir) ________ to the checkout.",
-          "correct_answer": "go",
+          "prompt_es": "Completa: 'Las manzanas están en el estante'",
+          "stimulus_en": "The apples are ________ the shelf.",
+          "correct_answer": "on",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U51_I16",
+          "interaction_id": "u51_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha la ubicación:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/milk_aisle.mp3",
+          "text": "The milk is in aisle three, next to the juice.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": "Shopping Interactions",
+      "content": [
+        {
+          "interaction_id": "u51_b3_i1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué dice el cajero al final?",
+          "options": [
+            { "id": "o1", "text": "That's twenty pounds, please." },
+            { "id": "o2", "text": "I like apples." },
+            { "id": "o3", "text": "The supermarket is big." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u51_b3_i2",
+          "type": "true_false",
+          "prompt_es": "La frase 'Put the items in the basket' significa sacar las cosas de la cesta.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u51_b3_i3",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Compras",
-          "correct_answer": "Shopping",
+          "prompt_es": "Traduce: '¿Necesitas una bolsa?'",
+          "stimulus_es": "Do you need a bag?",
+          "correct_answer": "Do you need a bag",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u51_b3_i4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Paga en la caja'",
+          "options": [
+            { "id": "w1", "text": "Pay" },
+            { "id": "w2", "text": "at" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "checkout" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "u51_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y responde:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cashier_receipt.mp3",
+          "text": "Here is your receipt. Have a nice day!",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Mastery Section",
+      "content": [
+        {
+          "interaction_id": "u51_b4_i1",
+          "type": "reading-comprehension",
+          "title": "At the Local Supermarket",
+          "text": "I am at the supermarket. I have a big trolley. First, I go to aisle one for bread. Then, I go to the fruit section. The apples are on the top shelf. Finally, I go to the checkout and pay.",
+          "question": "Where are the apples?",
+          "options": [
+            { "id": "o1", "text": "On the top shelf" },
+            { "id": "o2", "text": "In the trolley" },
+            { "id": "o3", "text": "At the checkout" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "u51_b4_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el texto:",
+          "stimulus_en": "I put my groceries in the ________. I pay at the ________.",
+          "correct_answer": "basket, checkout",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U51_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Trolley",
-          "correct_answer": "Carrito",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "u51_b4_i3",
+          "type": "short_writing",
+          "prompt_es": "Pregunta dónde está la leche:",
+          "stimulus_es": "Where is the milk?",
+          "correct_answer": "Where is the milk",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U51_I18",
+          "interaction_id": "u51_b4_i4",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica los objetos del supermercado:",
           "categories": [
             {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Receipt"
-              ]
+              "id": "equipment",
+              "title": "Equipment",
+              "items": ["Trolley", "Basket", "Shelf"]
             },
             {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Trolley"
-              ]
+              "id": "payment",
+              "title": "Payment",
+              "items": ["Receipt", "Checkout", "Cash"]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U51_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Which aisle is the rice in? Put the apples in the basket. The supermarket is very big.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At the Supermarket"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U51_I20",
+          "interaction_id": "u51_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a70630d0b6f342c6e07b12be69f3411b.mp3",
-          "text": "The receipt is in the bag.",
+          "prompt_es": "Escucha el resumen final:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/unit51_summary.mp3",
+          "text": "Use a trolley for big shopping, find items in aisles, and get your receipt at the checkout.",
           "mastery_tag": "listening"
         }
       ]

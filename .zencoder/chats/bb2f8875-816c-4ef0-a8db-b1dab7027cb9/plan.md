@@ -86,7 +86,8 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] **Task 5.4**: Audit and improve Inglés A1 (Units 41-50).
   - [x] Units 41-50 completed.
   - *Verification*: Adherence to the 4-block/20-exercise standard.
-- [ ] **Task 5.5**: Audit and improve Inglés A1 (Units 51-60).
+- [x] **Task 5.5**: Audit and improve Inglés A1 (Units 51-60).
+  - [x] Units 51-60 completed.
   - *Verification*: Full curriculum audit for A1 completed.
-- [ ] **Task 5.6**: Extend review to other courses (Work, Travel, Exams).
+- [in_progress] **Task 5.6**: Extend review to other courses (Work, Travel, Exams).
   - *Verification*: All repository exercises pass senior teacher audit.

@@ -1,375 +1,241 @@
 {
   "course": {
     "unit_id": "unit57",
-    "unit_title": "Cooking & Recipes",
+    "unit_title": "Household Objects",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 25,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Cooking & Recipes"
+    "Identify common household objects in different rooms",
+    "Form plural nouns correctly (-s, -es, -ies)",
+    "Recognize common irregular plural nouns"
   ],
   "blocks": [
     {
-      "block_id": "B57",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Living Room Objects",
       "content": [
         {
-          "interaction_id": "U57_I1",
+          "interaction_id": "u57_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hervir'?",
+          "prompt_es": "¿En qué te sientas para estar cómodo?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Cut"
-            },
-            {
-              "id": "o1",
-              "text": "Boil"
-            },
-            {
-              "id": "o2",
-              "text": "Ingredients"
-            }
+            { "id": "o1", "text": "On a cushion" },
+            { "id": "o2", "text": "On a lamp" },
+            { "id": "o3", "text": "On a mirror" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I2",
+          "interaction_id": "u57_b1_i2",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une los objetos del salón:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Mix",
-              "right": "Mezclar"
-            },
-            {
-              "id": "p1",
-              "left": "Cut",
-              "right": "Cortar"
-            },
-            {
-              "id": "p2",
-              "left": "Boil",
-              "right": "Hervir"
-            },
-            {
-              "id": "p3",
-              "left": "Cook",
-              "right": "Cocinar"
-            }
+            { "id": "p1", "left": "Rug", "right": "Alfombra" },
+            { "id": "p2", "left": "Vase", "right": "Jarrón" },
+            { "id": "p3", "left": "Clock", "right": "Reloj de pared" },
+            { "id": "p4", "left": "Lamp", "right": "Lámpara" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Don't"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "fry"
-            },
-            {
-              "id": "w6",
-              "text": "long"
-            },
-            {
-              "id": "w3",
-              "text": "fish"
-            },
-            {
-              "id": "w5",
-              "text": "too"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U57_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Cut the vegetables into small pieces.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U57_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (hornear) ________ a cake.",
-          "correct_answer": "bake",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U57_I6",
+          "interaction_id": "u57_b1_i3",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ingredientes",
-          "correct_answer": "Ingredients",
+          "prompt_es": "Escribe 'espejo' en inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Ingredients",
-          "correct_answer": "Ingredientes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Cut"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Ingredients"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I'm baking a chocolate cake. Cut the vegetables into small pieces. Don't fry the fish for too long.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u57_b1_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde pones las flores?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Cooking & Recipes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "In a vase" },
+            { "id": "o2", "text": "In a rug" },
+            { "id": "o3", "text": "In a cushion" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U57_I10",
+          "interaction_id": "u57_b1_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f87a6174dabcd42725495b642cdc80ea.mp3",
-          "text": "Boil the pasta for ten minutes.",
+          "prompt_es": "Escucha y repite:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/household_objects_1.mp3",
+          "text": "Rug, lamp, and mirror.",
           "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Plural Nouns (-s, -es)",
+      "content": [
+        {
+          "interaction_id": "u57_b2_i1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el plural de 'lamp':",
+          "stimulus_en": "One lamp, two ________.",
+          "correct_answer": "lamps",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U57_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Freír'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fry"
-            },
-            {
-              "id": "o3",
-              "text": "Cut"
-            },
-            {
-              "id": "o2",
-              "text": "Boil"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ingredients",
-              "right": "Ingredientes"
-            },
-            {
-              "id": "p1",
-              "left": "Bake",
-              "right": "Hornear"
-            },
-            {
-              "id": "p2",
-              "left": "Mix",
-              "right": "Mezclar"
-            },
-            {
-              "id": "p3",
-              "left": "Fry",
-              "right": "Freír"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I13",
+          "interaction_id": "u57_b2_i2",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: 'Hay tres relojes en la pared'",
           "options": [
-            {
-              "id": "w3",
-              "text": "into"
-            },
-            {
-              "id": "w5",
-              "text": "pieces"
-            },
-            {
-              "id": "w0",
-              "text": "Cut"
-            },
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "vegetables"
-            },
-            {
-              "id": "w4",
-              "text": "small"
-            }
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "three" },
+            { "id": "w4", "text": "clocks" },
+            { "id": "w5", "text": "on" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "wall" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U57_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I'm baking a chocolate cake.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U57_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (hornear) ________ a cake.",
-          "correct_answer": "bake",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U57_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Freír",
-          "correct_answer": "Fry",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Ingredients",
-          "correct_answer": "Ingredientes",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Ingredients"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Mix"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Boil the pasta for ten minutes. Cut the vegetables into small pieces. Don't fry the fish for too long.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u57_b2_i3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de 'watch'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Cooking & Recipes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Watches" },
+            { "id": "o2", "text": "Watchs" },
+            { "id": "o3", "text": "Watchies" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b2_i4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el plural de 'box':",
+          "stimulus_en": "One box, many ________.",
+          "correct_answer": "boxes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha los plurales:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/plurals_s_es.mp3",
+          "text": "One rug, two rugs. One clock, two clocks.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": "Irregular Plurals",
+      "content": [
+        {
+          "interaction_id": "u57_b3_i1",
+          "type": "matching",
+          "prompt_es": "Une el singular con su plural irregular:",
+          "pairs": [
+            { "id": "p1", "left": "Person", "right": "People" },
+            { "id": "p2", "left": "Child", "right": "Children" },
+            { "id": "p3", "left": "Foot", "right": "Feet" },
+            { "id": "p4", "left": "Tooth", "right": "Teeth" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b3_i2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de 'man'?",
+          "options": [
+            { "id": "o1", "text": "Men" },
+            { "id": "o2", "text": "Mans" },
+            { "id": "o3", "text": "Mens" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b3_i3",
+          "type": "short_writing",
+          "prompt_es": "Escribe el plural de 'woman':",
+          "stimulus_es": "Mujeres",
+          "correct_answer": "Women",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b3_i4",
+          "type": "true_false",
+          "prompt_es": "El plural de 'mouse' (ratón) es 'mice'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha y repite los irregulares:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/irregular_plurals.mp3",
+          "text": "Person, people. Child, children. Woman, women.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Mastery Section",
+      "content": [
+        {
+          "interaction_id": "u57_b4_i1",
+          "type": "reading-comprehension",
+          "title": "The New Apartment",
+          "text": "Sarah is in her new apartment. There are two big rugs on the floor. She has three lamps in the living room. There are many boxes in the kitchen. In the bathroom, there is a large mirror and four new towels. Sarah is happy with her things.",
+          "question": "How many lamps are there?",
+          "options": [
+            { "id": "o1", "text": "Three" },
+            { "id": "o2", "text": "Two" },
+            { "id": "o3", "text": "Four" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U57_I20",
+          "interaction_id": "u57_b4_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el plural correcto:",
+          "stimulus_en": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
+          "correct_answer": "people, mirrors",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b4_i3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Los niños están felices'",
+          "stimulus_es": "The children are happy.",
+          "correct_answer": "The children are happy",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b4_i4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)?",
+          "options": [
+            { "id": "o1", "text": "Leaves" },
+            { "id": "o2", "text": "Leafs" },
+            { "id": "o3", "text": "Leafes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u57_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/7c9f85c305ccb6fbf8e1a13b1994f3d6.mp3",
-          "text": "Cut the vegetables into small pieces.",
+          "prompt_es": "Escucha el resumen final:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/unit57_summary.mp3",
+          "text": "Rugs, lamps, and mirrors make a home. Remember your plurals: books, boxes, and people!",
           "mastery_tag": "listening"
         }
       ]
