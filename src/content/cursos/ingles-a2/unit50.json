@@ -1,134 +1,5827 @@
 {
   "course": {
-    "unit_id": "unit50",
-    "unit_title": "Review V: Superlatives & Life Experiences",
-    "level": "A2",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "unit50",
+    "unit_title": "Module 5 Review",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "U50_B1",
-      "title": "Superlatives + Present Perfect",
-      "duration_minutes": 30,
+      "block_id": "B50",
+      "title": "Module 5 Review",
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Repaso de superlativos con 'ever'.",
-          "tts_en": "Remember the structure for questions about your life: 'What's the best film you have ever seen?'. We use 'ever' in these questions because they are about your actual experiences.",
-          "mastery_tag": "listening",
-          "interaction_id": "U50_I1"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa: ¿Cuál es el país más frío en el que has estado nunca?",
-          "stimulus_en": "What's the (___) (___) you have (___) been (___)?",
-          "correct_answer": "coldest country ever to",
-          "mastery_tag": "grammar",
-          "interaction_id": "U50_I2"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la forma correcta para responder:",
-          "stimulus_en": "The most delicious food I have ever tasted (...)",
-          "options": [
-            { "id": "o1", "text": "is octopus." },
-            { "id": "o2", "text": "is the octopus." }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U50_I3"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcto? 'Who's the shyest person you've ever met?'.",
-          "stimulus_en": "Who's the shyest person you've ever met?",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U50_I4"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena: ¿Cuál es el idioma más difícil que has estudiado nunca?",
-          "options": [
-            { "id": "w1", "text": "What's" },
-            { "id": "w2", "text": "the" },
-            { "id": "w3", "text": "most" },
-            { "id": "w4", "text": "difficult" },
-            { "id": "w5", "text": "language" },
-            { "id": "w6", "text": "you've" },
-            { "id": "w7", "text": "ever" },
-            { "id": "w8", "text": "studied?" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
-          "mastery_tag": "syntax",
-          "interaction_id": "U50_I5"
-        }
-      ]
-    },
-    {
-      "block_id": "U50_B2",
-      "title": "Adjective & Adverb Mastery",
-      "duration_minutes": 30,
-      "content": [
-        {
+          "interaction_id": "U50_I1",
           "type": "matching",
-          "prompt_es": "Relaciona adjetivos y adverbios irregulares:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p1", "left": "good (adj)", "right": "well (adv)" },
-            { "id": "p2", "left": "hard (adj)", "right": "hard (adv)" },
-            { "id": "p3", "left": "fast (adj)", "right": "fast (adv)" }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U50_I6"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa: Ella canta muy bien.",
-          "stimulus_en": "She sings very (___).",
-          "correct_answer": "well",
-          "mastery_tag": "grammar",
-          "interaction_id": "U50_I7"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe lo que escuchas: Él conduce muy rápido.",
-          "tts_en": "He drives very fast.",
-          "correct_answer": "He drives very fast",
-          "mastery_tag": "listening",
-          "interaction_id": "U50_I8"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Repite: It was a terrible play and I was bored from start to finish.",
-          "stimulus_en": "It was a terrible play and I was bored from start to finish.",
-          "mastery_tag": "speaking",
-          "interaction_id": "U50_I9"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica según el grado del adjetivo:",
-          "categories": [
             {
-              "id": "cat_comp",
-              "title": "Comparative",
-              "items": [
-                { "id": "i1", "text": "Bigger than" },
-                { "id": "i2", "text": "More beautiful than" }
-              ]
+              "id": "p0",
+              "left": "Habit",
+              "right": "Hábito"
             },
             {
-              "id": "cat_super",
-              "title": "Superlative",
-              "items": [
-                { "id": "i3", "text": "The biggest" },
-                { "id": "i4", "text": "The most beautiful" }
-              ]
+              "id": "p1",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p2",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
             }
           ],
-          "mastery_tag": "grammar",
-          "interaction_id": "U50_I10"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "If it (rain) ________, we'll stay home.",
+          "correct_answer": "rains",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "rules"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "follow"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posibilidad' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Illness"
+            },
+            {
+              "id": "o3",
+              "text": "Health"
+            },
+            {
+              "id": "o1",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I8",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p1",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Sport",
+              "right": "Deporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (tener) ________ a headache.",
+          "correct_answer": "have got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I10",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "much"
+            },
+            {
+              "id": "w4",
+              "text": "now"
+            },
+            {
+              "id": "w3",
+              "text": "better"
+            },
+            {
+              "id": "w1",
+              "text": "feel"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sport"
+            },
+            {
+              "id": "o2",
+              "text": "Advice"
+            },
+            {
+              "id": "o3",
+              "text": "Illness"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I15",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (not / tener que) ________ pay today.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I17",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "prescription"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "me"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I20",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hábito",
+          "correct_answer": "Habit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Consejo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o1",
+              "text": "Advice"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I22",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p3",
+              "left": "Medicine",
+              "right": "Medicina"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ coughing a lot.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I25",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "Exercise"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I27",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Posibilidad",
+          "correct_answer": "Possibility",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Sport"
+            },
+            {
+              "id": "o1",
+              "text": "Health"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I29",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p1",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p2",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p3",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (debería) ________ see a doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I31",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I feel much better now.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I32",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "back"
+            },
+            {
+              "id": "w3",
+              "text": "aching"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I34",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Deporte",
+          "correct_answer": "Sport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Médico' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Habit"
+            },
+            {
+              "id": "o3",
+              "text": "Obligation"
+            },
+            {
+              "id": "o1",
+              "text": "Doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I36",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p1",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p2",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (catch) ________ a cold last night.",
+          "correct_answer": "caught",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I38",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doctor the gave me a prescription\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I39",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "sore"
+            },
+            {
+              "id": "w1",
+              "text": "got"
+            },
+            {
+              "id": "w4",
+              "text": "throat"
+            },
+            {
+              "id": "w0",
+              "text": "I've"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            },
+            {
+              "id": "o2",
+              "text": "It's blue."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Consejo",
+          "correct_answer": "Advice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Obligación' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            },
+            {
+              "id": "o1",
+              "text": "Obligation"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p1",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p2",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Illness",
+              "right": "Enfermedad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (jugar) ________ tennis every week.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Exercise is good for you.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w3",
+              "text": "some"
+            },
+            {
+              "id": "w4",
+              "text": "rest"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I48",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfermedad' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Possibility"
+            },
+            {
+              "id": "o1",
+              "text": "Illness"
+            },
+            {
+              "id": "o2",
+              "text": "Habit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I50",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p1",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p2",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p3",
+              "left": "Habit",
+              "right": "Hábito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Do you ________ (sentirse) well?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I52",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Back my is aching\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w5",
+              "text": "tell"
+            },
+            {
+              "id": "w4",
+              "text": "I'll"
+            },
+            {
+              "id": "w3",
+              "text": "him,"
+            },
+            {
+              "id": "w0",
+              "text": "If"
+            },
+            {
+              "id": "w6",
+              "text": "him"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I55",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Médico",
+          "correct_answer": "Doctor",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medicina' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Possibility"
+            },
+            {
+              "id": "o1",
+              "text": "Medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I57",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p1",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p2",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p3",
+              "left": "Advice",
+              "right": "Consejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (has to) ________ work tomorrow.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I59",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a sore throat.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "day"
+            },
+            {
+              "id": "w1",
+              "text": "goes"
+            },
+            {
+              "id": "w2",
+              "text": "running"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I62",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Obligación",
+          "correct_answer": "Obligation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advice"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Sport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I64",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p1",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p2",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p3",
+              "left": "Obligation",
+              "right": "Obligación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "You (deber (obligación)) ________ try this cake.",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I66",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you get some rest\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "must"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w4",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I68",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I69",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfermedad",
+          "correct_answer": "Illness",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hábito' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Habit"
+            },
+            {
+              "id": "o3",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I71",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p1",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p2",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "If it (rain) ________, we'll stay home.",
+          "correct_answer": "rains",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I73",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "follow"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w5",
+              "text": "rules"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I75",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posibilidad' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Doctor"
+            },
+            {
+              "id": "o3",
+              "text": "Medicine"
+            },
+            {
+              "id": "o1",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I78",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p1",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Sport",
+              "right": "Deporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I79",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (tener) ________ a headache.",
+          "correct_answer": "have got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I80",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "feel"
+            },
+            {
+              "id": "w2",
+              "text": "much"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "now"
+            },
+            {
+              "id": "w3",
+              "text": "better"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I82",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sport"
+            },
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (not / tener que) ________ pay today.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "me"
+            },
+            {
+              "id": "w5",
+              "text": "prescription"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I90",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hábito",
+          "correct_answer": "Habit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Consejo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Illness"
+            },
+            {
+              "id": "o1",
+              "text": "Advice"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I92",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p3",
+              "left": "Medicine",
+              "right": "Medicina"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I93",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ coughing a lot.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I94",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I95",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o2",
+              "text": "In the station."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I97",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Posibilidad",
+          "correct_answer": "Possibility",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Possibility"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Health"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I99",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p1",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p2",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p3",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I100",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (debería) ________ see a doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I101",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I feel much better now.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I102",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "back"
+            },
+            {
+              "id": "w3",
+              "text": "aching"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I103",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I104",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Deporte",
+          "correct_answer": "Sport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I105",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Médico' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Habit"
+            },
+            {
+              "id": "o1",
+              "text": "Doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I106",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p1",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p2",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I107",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (catch) ________ a cold last night.",
+          "correct_answer": "caught",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I108",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doctor the gave me a prescription\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I109",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "throat"
+            },
+            {
+              "id": "w3",
+              "text": "sore"
+            },
+            {
+              "id": "w1",
+              "text": "got"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "I've"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I110",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I111",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Consejo",
+          "correct_answer": "Advice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I112",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Obligación' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Possibility"
+            },
+            {
+              "id": "o1",
+              "text": "Obligation"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I113",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p1",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p2",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Illness",
+              "right": "Enfermedad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I114",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (jugar) ________ tennis every week.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I115",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Exercise is good for you.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I116",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "some"
+            },
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w4",
+              "text": "rest"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I117",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I118",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I119",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfermedad' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Illness"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Advice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I120",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p1",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p2",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p3",
+              "left": "Habit",
+              "right": "Hábito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I121",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Do you ________ (sentirse) well?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I122",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Back my is aching\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I123",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "I'll"
+            },
+            {
+              "id": "w3",
+              "text": "him,"
+            },
+            {
+              "id": "w5",
+              "text": "tell"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "him"
+            },
+            {
+              "id": "w0",
+              "text": "If"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I124",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Médico",
+          "correct_answer": "Doctor",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medicina' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advice"
+            },
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p1",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p2",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p3",
+              "left": "Advice",
+              "right": "Consejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I128",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (has to) ________ work tomorrow.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a sore throat.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w4",
+              "text": "day"
+            },
+            {
+              "id": "w2",
+              "text": "running"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w1",
+              "text": "goes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I132",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Obligación",
+          "correct_answer": "Obligation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I133",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o3",
+              "text": "Health"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I134",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p1",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p2",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p3",
+              "left": "Obligation",
+              "right": "Obligación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I135",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "You (deber (obligación)) ________ try this cake.",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I136",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you get some rest\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I137",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "movie"
+            },
+            {
+              "id": "w1",
+              "text": "must"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I139",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfermedad",
+          "correct_answer": "Illness",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I140",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hábito' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o3",
+              "text": "Illness"
+            },
+            {
+              "id": "o1",
+              "text": "Habit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I141",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p1",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p2",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I142",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "If it (rain) ________, we'll stay home.",
+          "correct_answer": "rains",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I143",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I144",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "follow"
+            },
+            {
+              "id": "w5",
+              "text": "rules"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I145",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            },
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I146",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I147",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posibilidad' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Medicine"
+            },
+            {
+              "id": "o1",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I148",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p1",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Sport",
+              "right": "Deporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I149",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (tener) ________ a headache.",
+          "correct_answer": "have got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I150",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I151",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "now"
+            },
+            {
+              "id": "w3",
+              "text": "better"
+            },
+            {
+              "id": "w2",
+              "text": "much"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "feel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I152",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I153",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I154",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sport"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            },
+            {
+              "id": "o3",
+              "text": "Health"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I155",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I156",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (not / tener que) ________ pay today.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I157",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I158",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "prescription"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w3",
+              "text": "me"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I159",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I160",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hábito",
+          "correct_answer": "Habit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I161",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Consejo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Advice"
+            },
+            {
+              "id": "o2",
+              "text": "Sport"
+            },
+            {
+              "id": "o3",
+              "text": "Medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I162",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p3",
+              "left": "Medicine",
+              "right": "Medicina"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I163",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ coughing a lot.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I164",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I165",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "Exercise"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I166",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Posibilidad",
+          "correct_answer": "Possibility",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o1",
+              "text": "Health"
+            },
+            {
+              "id": "o2",
+              "text": "Doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p1",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p2",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p3",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I170",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (debería) ________ see a doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I feel much better now.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "aching"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "back"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I174",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Deporte",
+          "correct_answer": "Sport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I175",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Médico' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o1",
+              "text": "Doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I176",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p1",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p2",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I177",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (catch) ________ a cold last night.",
+          "correct_answer": "caught",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I178",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doctor the gave me a prescription\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I179",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "got"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "I've"
+            },
+            {
+              "id": "w4",
+              "text": "throat"
+            },
+            {
+              "id": "w3",
+              "text": "sore"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I181",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Consejo",
+          "correct_answer": "Advice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I182",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Obligación' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Obligation"
+            },
+            {
+              "id": "o3",
+              "text": "Sport"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I183",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p1",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p2",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Illness",
+              "right": "Enfermedad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I184",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (jugar) ________ tennis every week.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I185",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Exercise is good for you.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I186",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "some"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w4",
+              "text": "rest"
+            },
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I187",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I188",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I189",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfermedad' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advice"
+            },
+            {
+              "id": "o1",
+              "text": "Illness"
+            },
+            {
+              "id": "o2",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I190",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p1",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p2",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p3",
+              "left": "Habit",
+              "right": "Hábito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I191",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Do you ________ (sentirse) well?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I192",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Back my is aching\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I193",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "him,"
+            },
+            {
+              "id": "w4",
+              "text": "I'll"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w5",
+              "text": "tell"
+            },
+            {
+              "id": "w0",
+              "text": "If"
+            },
+            {
+              "id": "w6",
+              "text": "him"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I194",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I195",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Médico",
+          "correct_answer": "Doctor",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I196",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medicina' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Health"
+            },
+            {
+              "id": "o2",
+              "text": "Habit"
+            },
+            {
+              "id": "o1",
+              "text": "Medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I197",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p1",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p2",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p3",
+              "left": "Advice",
+              "right": "Consejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I198",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (has to) ________ work tomorrow.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I199",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a sore throat.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I200",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "day"
+            },
+            {
+              "id": "w1",
+              "text": "goes"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "running"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I201",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I202",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Obligación",
+          "correct_answer": "Obligation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I203",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I204",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p1",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p2",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p3",
+              "left": "Obligation",
+              "right": "Obligación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I205",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "You (deber (obligación)) ________ try this cake.",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I206",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you get some rest\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I207",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w1",
+              "text": "must"
+            },
+            {
+              "id": "w4",
+              "text": "movie"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I208",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            },
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfermedad",
+          "correct_answer": "Illness",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hábito' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Habit"
+            },
+            {
+              "id": "o3",
+              "text": "Sport"
+            },
+            {
+              "id": "o2",
+              "text": "Advice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p1",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p2",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I212",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "If it (rain) ________, we'll stay home.",
+          "correct_answer": "rains",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "rules"
+            },
+            {
+              "id": "w3",
+              "text": "follow"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I215",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o2",
+              "text": "It's blue."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I216",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I217",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posibilidad' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Possibility"
+            },
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Advice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I218",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p1",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Sport",
+              "right": "Deporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I219",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (tener) ________ a headache.",
+          "correct_answer": "have got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I220",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I221",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "now"
+            },
+            {
+              "id": "w3",
+              "text": "better"
+            },
+            {
+              "id": "w1",
+              "text": "feel"
+            },
+            {
+              "id": "w2",
+              "text": "much"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I222",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I223",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I224",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sport"
+            },
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Illness"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I225",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I226",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (not / tener que) ________ pay today.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I227",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I228",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w5",
+              "text": "prescription"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "me"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I229",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I230",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hábito",
+          "correct_answer": "Habit",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I231",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Consejo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o1",
+              "text": "Advice"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I232",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p3",
+              "left": "Medicine",
+              "right": "Medicina"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I233",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ coughing a lot.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I234",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I235",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Exercise"
+            },
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I236",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the station."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I237",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Posibilidad",
+          "correct_answer": "Possibility",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I238",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Illness"
+            },
+            {
+              "id": "o1",
+              "text": "Health"
+            },
+            {
+              "id": "o2",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I239",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p1",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p2",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p3",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I240",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (debería) ________ see a doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I241",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I feel much better now.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I242",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "back"
+            },
+            {
+              "id": "w3",
+              "text": "aching"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I243",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I244",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Deporte",
+          "correct_answer": "Sport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I245",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Médico' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Obligation"
+            },
+            {
+              "id": "o1",
+              "text": "Doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I246",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p1",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p2",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I247",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (catch) ________ a cold last night.",
+          "correct_answer": "caught",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I248",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doctor the gave me a prescription\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I249",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "sore"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "got"
+            },
+            {
+              "id": "w0",
+              "text": "I've"
+            },
+            {
+              "id": "w4",
+              "text": "throat"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I250",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Consejo",
+          "correct_answer": "Advice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Obligación' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Obligation"
+            },
+            {
+              "id": "o3",
+              "text": "Habit"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Medicine",
+              "right": "Medicina"
+            },
+            {
+              "id": "p1",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p2",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Illness",
+              "right": "Enfermedad"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I254",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (jugar) ________ tennis every week.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Exercise is good for you.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "get"
+            },
+            {
+              "id": "w4",
+              "text": "rest"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w3",
+              "text": "some"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I257",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I258",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I259",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfermedad' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Illness"
+            },
+            {
+              "id": "o2",
+              "text": "Medicine"
+            },
+            {
+              "id": "o3",
+              "text": "Advice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I260",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Possibility",
+              "right": "Posibilidad"
+            },
+            {
+              "id": "p1",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p2",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p3",
+              "left": "Habit",
+              "right": "Hábito"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I261",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Do you ________ (sentirse) well?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I262",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Back my is aching\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I263",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "I'll"
+            },
+            {
+              "id": "w6",
+              "text": "him"
+            },
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w5",
+              "text": "tell"
+            },
+            {
+              "id": "w3",
+              "text": "him,"
+            },
+            {
+              "id": "w0",
+              "text": "If"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I264",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I265",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Médico",
+          "correct_answer": "Doctor",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I266",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medicina' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Possibility"
+            },
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Health"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I267",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p1",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p2",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p3",
+              "left": "Advice",
+              "right": "Consejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I268",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (has to) ________ work tomorrow.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I269",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a sore throat.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I270",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "running"
+            },
+            {
+              "id": "w4",
+              "text": "day"
+            },
+            {
+              "id": "w1",
+              "text": "goes"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I271",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What time do you have to be there?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "At eight o'clock."
+            },
+            {
+              "id": "o3",
+              "text": "At home."
+            },
+            {
+              "id": "o2",
+              "text": "In the station."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I272",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Obligación",
+          "correct_answer": "Obligation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I273",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Advice"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Sport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I274",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Illness",
+              "right": "Enfermedad"
+            },
+            {
+              "id": "p1",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p2",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p3",
+              "left": "Obligation",
+              "right": "Obligación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I275",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "You (deber (obligación)) ________ try this cake.",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I276",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you get some rest\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I277",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "see"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w4",
+              "text": "movie"
+            },
+            {
+              "id": "w1",
+              "text": "must"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I278",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How do you feel?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I feel a bit dizzy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm a student."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I279",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfermedad",
+          "correct_answer": "Illness",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I280",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hábito' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Illness"
+            },
+            {
+              "id": "o3",
+              "text": "Doctor"
+            },
+            {
+              "id": "o1",
+              "text": "Habit"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I281",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Habit",
+              "right": "Hábito"
+            },
+            {
+              "id": "p1",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p2",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I282",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "If it (rain) ________, we'll stay home.",
+          "correct_answer": "rains",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I283",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I284",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "rules"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "follow"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I285",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What's the matter?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "It's blue."
+            },
+            {
+              "id": "o1",
+              "text": "I have a sore throat."
+            },
+            {
+              "id": "o3",
+              "text": "At 9."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I286",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Medicina",
+          "correct_answer": "Medicine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I287",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posibilidad' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Obligation"
+            },
+            {
+              "id": "o1",
+              "text": "Possibility"
+            },
+            {
+              "id": "o3",
+              "text": "Advice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I288",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Advice",
+              "right": "Consejo"
+            },
+            {
+              "id": "p1",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Sport",
+              "right": "Deporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I289",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (tener) ________ a headache.",
+          "correct_answer": "have got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I290",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I291",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "feel"
+            },
+            {
+              "id": "w3",
+              "text": "better"
+            },
+            {
+              "id": "w2",
+              "text": "much"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "now"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I292",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Should I call a doctor?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I think you should."
+            },
+            {
+              "id": "o2",
+              "text": "In the office."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sport"
+            },
+            {
+              "id": "o2",
+              "text": "Obligation"
+            },
+            {
+              "id": "o3",
+              "text": "Possibility"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Obligation",
+              "right": "Obligación"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Sport",
+              "right": "Deporte"
+            },
+            {
+              "id": "p3",
+              "left": "Doctor",
+              "right": "Médico"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I296",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (not / tener que) ________ pay today.",
+          "correct_answer": "don't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w3",
+              "text": "me"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w5",
+              "text": "prescription"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U50_I299",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What will you do if it rains?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o1",
+              "text": "I'll stay at home."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I have an umbrella."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U50_I300",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hábito",
+          "correct_answer": "Habit",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

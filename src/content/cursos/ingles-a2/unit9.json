@@ -1,175 +1,6102 @@
 {
   "course": {
-    "unit_id": "unit9",
-    "unit_title": "Adjectives: -ed vs -ing",
-    "level": "A2",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "unit9",
+    "unit_title": "Feelings & Emotions",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "U9_B1",
-      "title": "Feelings vs Qualities",
-      "duration_minutes": 60,
+      "block_id": "B9",
+      "title": "Feelings & Emotions",
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducción a los adjetivos -ed y -ing.",
-          "tts_en": "Today we learn the difference between -ed and -ing adjectives. Use -ed for people's feelings and -ing for things or situations. For example, 'I am bored' but 'The film was boring'.",
-          "mastery_tag": "listening",
-          "interaction_id": "U9_I1"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa: La película fue aburrida.",
-          "stimulus_en": "The film was (___).",
-          "correct_answer": "boring",
-          "mastery_tag": "grammar",
-          "interaction_id": "U9_I2"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcto? 'I am boring' significa 'estoy aburrido'.",
-          "stimulus_en": "'I am boring' means 'I am bored' (temporary state).",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U9_I3"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción correcta:",
-          "stimulus_en": "I’m very (...) because I’m going to New York tomorrow.",
-          "options": [
-            { "id": "o1", "text": "excited" },
-            { "id": "o2", "text": "exciting" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U9_I4"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena: Estoy leyendo un libro muy interesante.",
-          "options": [
-            { "id": "w1", "text": "I'm" },
-            { "id": "w2", "text": "reading" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "very" },
-            { "id": "w5", "text": "interesting" },
-            { "id": "w6", "text": "book" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "grammar",
-          "interaction_id": "U9_I5"
-        },
-        {
+          "interaction_id": "U9_I1",
           "type": "matching",
-          "prompt_es": "Relaciona los sentimientos con las situaciones:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p1", "left": "The map was confusing", "right": "I got lost" },
-            { "id": "p2", "left": "The story was amusing", "right": "I laughed" },
-            { "id": "p3", "left": "The book is boring", "right": "Nothing happens" },
-            { "id": "p4", "left": "The news was surprising", "right": "I didn't expect it" }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U9_I6"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe lo que escuchas: He tenido un día muy cansado.",
-          "tts_en": "I’ve had a very tiring day.",
-          "correct_answer": "I’ve had a very tiring day",
-          "mastery_tag": "listening",
-          "interaction_id": "U9_I7"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Regla de oro (-ed vs -ing):",
-          "cards": [
-            { "id": "c1", "front": "-ed ending", "back": "Para personas / Sentimientos temporales / 'Estar'." },
-            { "id": "c2", "front": "-ing ending", "back": "Para cosas o situaciones / Cualidades permanentes / 'Ser'." }
-          ],
-          "mastery_tag": "grammar",
-          "interaction_id": "U9_I8"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Escribe una frase sobre cómo te sientes hoy.",
-          "instruction_en": "Write a sentence about your feelings today (e.g., 'I am tired' or 'I am excited').",
-          "mastery_tag": "writing",
-          "interaction_id": "U9_I9"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Repite: Visit our exciting new shop!",
-          "stimulus_en": "Visit our exciting new shop!",
-          "mastery_tag": "speaking",
-          "interaction_id": "U9_I10"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica los adjetivos:",
-          "categories": [
             {
-              "id": "cat_ed",
-              "title": "Feelings (-ed)",
-              "items": [
-                { "id": "i1", "text": "Amazed" },
-                { "id": "i2", "text": "Confused" }
-              ]
+              "id": "p0",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
             },
             {
-              "id": "cat_ing",
-              "title": "Qualities (-ing)",
-              "items": [
-                { "id": "i3", "text": "Amazing" },
-                { "id": "i4", "text": "Confusing" }
-              ]
-            }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U9_I11"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Elige la opción correcta para completar el diálogo:",
-          "main_text": "A: Are you [GAP 1] with that movie? \nB: Yes, it is very [GAP 2]. I want to go home.",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                { "id": "o1", "text": "bored" },
-                { "id": "o2", "text": "boring" }
-              ]
+              "id": "p1",
+              "left": "Thirsty",
+              "right": "Sediento/a"
             },
             {
-              "id": "2",
-              "options": [
-                { "id": "o1", "text": "boring" },
-                { "id": "o2", "text": "bored" }
-              ]
+              "id": "p2",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Bored",
+              "right": "Aburrido/a"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1"
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
           },
-          "mastery_tag": "reading",
-          "interaction_id": "U9_I12"
+          "mastery_tag": "vocabulary"
         },
         {
-          "type": "odd_one_out",
-          "prompt_es": "Selecciona el adjetivo que no encaja (sentimiento vs cualidad):",
+          "interaction_id": "U9_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser/estar) ________ excited about the trip.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't be worried about the exam.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            { "id": "o1", "text": "Surprised" },
-            { "id": "o2", "text": "Interested" },
-            { "id": "o3", "text": "Amusing" },
-            { "id": "o4", "text": "Amused" }
+            {
+              "id": "w0",
+              "text": "I'm"
+            },
+            {
+              "id": "w3",
+              "text": "need"
+            },
+            {
+              "id": "w5",
+              "text": "water"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "thirsty,"
+            },
+            {
+              "id": "w4",
+              "text": "some"
+            }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U9_I13"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Solo/Solitario",
+          "correct_answer": "Lonely",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hambriento/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hungry"
+            },
+            {
+              "id": "o2",
+              "text": "Scared"
+            },
+            {
+              "id": "o3",
+              "text": "Bored"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I8",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p3",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
+          "correct_answer": "makes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I10",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are hungry let's eat\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "see"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfadado/a",
+          "correct_answer": "Angry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nervioso/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Worried"
+            },
+            {
+              "id": "o3",
+              "text": "Bored"
+            },
+            {
+              "id": "o1",
+              "text": "Nervous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I15",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p2",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Scared",
+              "right": "Asustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (parecer/mirar) ________ tired after work.",
+          "correct_answer": "looks",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I17",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very proud of my children.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "worried"
+            },
+            {
+              "id": "w5",
+              "text": "exam"
+            },
+            {
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I20",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Asustado/a",
+          "correct_answer": "Scared",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solo/Solitario' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Surprised"
+            },
+            {
+              "id": "o2",
+              "text": "Bored"
+            },
+            {
+              "id": "o1",
+              "text": "Lonely"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I22",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p1",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / entender) ________ why he is upset.",
+          "correct_answer": "don't understand",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always she feels nervous before a test\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I25",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w3",
+              "text": "Let's"
+            },
+            {
+              "id": "w0",
+              "text": "Are"
+            },
+            {
+              "id": "w2",
+              "text": "hungry"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I27",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Triste",
+          "correct_answer": "Sad",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfadado/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Angry"
+            },
+            {
+              "id": "o3",
+              "text": "Worried"
+            },
+            {
+              "id": "o2",
+              "text": "Surprised"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I29",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p3",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (not / ser/estar) ________ angry with you.",
+          "correct_answer": "are not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I31",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He feels lonely in the big city.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I32",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "children"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "proud"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "In the garage."
+            },
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I34",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Emocionado/a",
+          "correct_answer": "Excited",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Nervous"
+            },
+            {
+              "id": "o1",
+              "text": "Scared"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I36",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p2",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p3",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ser/estar) ________ very happy today.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I38",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i so tired i could sleep for days\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I39",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "feels"
+            },
+            {
+              "id": "w4",
+              "text": "before"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "nervous"
+            },
+            {
+              "id": "w6",
+              "text": "test"
+            },
+            {
+              "id": "w1",
+              "text": "always"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Feliz",
+          "correct_answer": "Happy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Triste' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            },
+            {
+              "id": "o2",
+              "text": "Lonely"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p1",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p2",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Why ________ you so worried?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is scared of spiders.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "lonely"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "feels"
+            },
+            {
+              "id": "w6",
+              "text": "city"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "big"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I48",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aburrido/a",
+          "correct_answer": "Bored",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Excited"
+            },
+            {
+              "id": "o3",
+              "text": "Nervous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I50",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ surprised by the news.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I52",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we excited about our holiday\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "tired"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "sleep"
+            },
+            {
+              "id": "w5",
+              "text": "could"
+            },
+            {
+              "id": "w7",
+              "text": "for"
+            },
+            {
+              "id": "w8",
+              "text": "days"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I55",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Preocupado/a",
+          "correct_answer": "Worried",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Feliz' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Excited"
+            },
+            {
+              "id": "o3",
+              "text": "Bored"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I57",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Happy",
+              "right": "Feliz"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (sentirse) ________ a bit sad.",
+          "correct_answer": "feels",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I59",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She feels sad because her cat is ill.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "spiders"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "scared"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            },
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I62",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cansado/a",
+          "correct_answer": "Tired",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Sad"
+            },
+            {
+              "id": "o3",
+              "text": "Scared"
+            },
+            {
+              "id": "o1",
+              "text": "Bored"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I64",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p3",
+              "left": "Sad",
+              "right": "Triste"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Does she ________ (sentirse) nervous?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I66",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he very angry with his boss\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "holiday"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "excited"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I68",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "In the garage."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            },
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I69",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Disgustado/a",
+          "correct_answer": "Upset",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preocupado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Tired"
+            },
+            {
+              "id": "o3",
+              "text": "Nervous"
+            },
+            {
+              "id": "o1",
+              "text": "Worried"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I71",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p2",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p3",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser/estar) ________ excited about the trip.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I73",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She was upset by his comments.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "her"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "sad"
+            },
+            {
+              "id": "w3",
+              "text": "because"
+            },
+            {
+              "id": "w5",
+              "text": "cat"
+            },
+            {
+              "id": "w7",
+              "text": "ill"
+            },
+            {
+              "id": "w1",
+              "text": "feels"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I75",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sediento/a",
+          "correct_answer": "Thirsty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cansado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Tired"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I78",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p1",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p2",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I79",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
+          "correct_answer": "makes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I80",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i bored with this movie\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "boss"
+            },
+            {
+              "id": "w3",
+              "text": "angry"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "with"
+            },
+            {
+              "id": "w5",
+              "text": "his"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I82",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Orgulloso/a",
+          "correct_answer": "Proud",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Disgustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Excited"
+            },
+            {
+              "id": "o1",
+              "text": "Upset"
+            },
+            {
+              "id": "o3",
+              "text": "Scared"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p1",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (parecer/mirar) ________ tired after work.",
+          "correct_answer": "looks",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was surprised by the birthday party.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "upset"
+            },
+            {
+              "id": "w3",
+              "text": "by"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "his"
+            },
+            {
+              "id": "w5",
+              "text": "comments"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I90",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sorprendido/a",
+          "correct_answer": "Surprised",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sediento/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Surprised"
+            },
+            {
+              "id": "o1",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o3",
+              "text": "Worried"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I92",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p3",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I93",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / entender) ________ why he is upset.",
+          "correct_answer": "don't understand",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I94",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Thirsty, i'm i need some water\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I95",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "bored"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            },
+            {
+              "id": "w3",
+              "text": "with"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I97",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hambriento/a",
+          "correct_answer": "Hungry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Orgulloso/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Proud"
+            },
+            {
+              "id": "o2",
+              "text": "Bored"
+            },
+            {
+              "id": "o3",
+              "text": "Angry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I99",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p2",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p3",
+              "left": "Tired",
+              "right": "Cansado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I100",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (not / ser/estar) ________ angry with you.",
+          "correct_answer": "are not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I101",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very happy to see you.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I102",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "birthday"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "surprised"
+            },
+            {
+              "id": "w6",
+              "text": "party"
+            },
+            {
+              "id": "w3",
+              "text": "by"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I103",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            },
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I104",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nervioso/a",
+          "correct_answer": "Nervous",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I105",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorprendido/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Proud"
+            },
+            {
+              "id": "o1",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I106",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p1",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p2",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I107",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ser/estar) ________ very happy today.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I108",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Be don't worried about the exam\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I109",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "thirsty,"
+            },
+            {
+              "id": "w5",
+              "text": "water"
+            },
+            {
+              "id": "w4",
+              "text": "some"
+            },
+            {
+              "id": "w0",
+              "text": "I'm"
+            },
+            {
+              "id": "w3",
+              "text": "need"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I110",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I111",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Solo/Solitario",
+          "correct_answer": "Lonely",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I112",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hambriento/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Excited"
+            },
+            {
+              "id": "o2",
+              "text": "Bored"
+            },
+            {
+              "id": "o1",
+              "text": "Hungry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I113",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p3",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I114",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Why ________ you so worried?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I115",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are you hungry? Let's eat.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I116",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "see"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I117",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I118",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfadado/a",
+          "correct_answer": "Angry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I119",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nervioso/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Nervous"
+            },
+            {
+              "id": "o2",
+              "text": "Lonely"
+            },
+            {
+              "id": "o3",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I120",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p2",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Scared",
+              "right": "Asustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I121",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ surprised by the news.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I122",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i very proud of my children\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I123",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "be"
+            },
+            {
+              "id": "w2",
+              "text": "worried"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w5",
+              "text": "exam"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I124",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Asustado/a",
+          "correct_answer": "Scared",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solo/Solitario' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Worried"
+            },
+            {
+              "id": "o3",
+              "text": "Excited"
+            },
+            {
+              "id": "o1",
+              "text": "Lonely"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p1",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I128",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (sentirse) ________ a bit sad.",
+          "correct_answer": "feels",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She always feels nervous before a test.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "hungry"
+            },
+            {
+              "id": "w0",
+              "text": "Are"
+            },
+            {
+              "id": "w3",
+              "text": "Let's"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            },
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I132",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Triste",
+          "correct_answer": "Sad",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I133",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfadado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Upset"
+            },
+            {
+              "id": "o3",
+              "text": "Sad"
+            },
+            {
+              "id": "o1",
+              "text": "Angry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I134",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p3",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I135",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Does she ________ (sentirse) nervous?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I136",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Feels he lonely in the big city\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I137",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "proud"
+            },
+            {
+              "id": "w6",
+              "text": "children"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I139",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Emocionado/a",
+          "correct_answer": "Excited",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I140",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Excited"
+            },
+            {
+              "id": "o1",
+              "text": "Scared"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I141",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p2",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p3",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I142",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser/estar) ________ excited about the trip.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I143",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am so tired I could sleep for days.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I144",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "feels"
+            },
+            {
+              "id": "w3",
+              "text": "nervous"
+            },
+            {
+              "id": "w6",
+              "text": "test"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w4",
+              "text": "before"
+            },
+            {
+              "id": "w1",
+              "text": "always"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I145",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I146",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Feliz",
+          "correct_answer": "Happy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I147",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Triste' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Tired"
+            },
+            {
+              "id": "o2",
+              "text": "Upset"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I148",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p1",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p2",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I149",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
+          "correct_answer": "makes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I150",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she scared of spiders\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I151",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "big"
+            },
+            {
+              "id": "w2",
+              "text": "lonely"
+            },
+            {
+              "id": "w1",
+              "text": "feels"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "city"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I152",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I153",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aburrido/a",
+          "correct_answer": "Bored",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I154",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Worried"
+            },
+            {
+              "id": "o1",
+              "text": "Excited"
+            },
+            {
+              "id": "o3",
+              "text": "Happy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I155",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I156",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (parecer/mirar) ________ tired after work.",
+          "correct_answer": "looks",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I157",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We are excited about our holiday.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I158",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "tired"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w6",
+              "text": "sleep"
+            },
+            {
+              "id": "w7",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w8",
+              "text": "days"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "could"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I159",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I160",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Preocupado/a",
+          "correct_answer": "Worried",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I161",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Feliz' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Worried"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I162",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Happy",
+              "right": "Feliz"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I163",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / entender) ________ why he is upset.",
+          "correct_answer": "don't understand",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I164",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Feels she sad because her cat is ill\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I165",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "spiders"
+            },
+            {
+              "id": "w2",
+              "text": "scared"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I166",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cansado/a",
+          "correct_answer": "Tired",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Upset"
+            },
+            {
+              "id": "o1",
+              "text": "Bored"
+            },
+            {
+              "id": "o2",
+              "text": "Nervous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p3",
+              "left": "Sad",
+              "right": "Triste"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I170",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (not / ser/estar) ________ angry with you.",
+          "correct_answer": "are not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was very angry with his boss.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "holiday"
+            },
+            {
+              "id": "w2",
+              "text": "excited"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I174",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Disgustado/a",
+          "correct_answer": "Upset",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I175",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preocupado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry"
+            },
+            {
+              "id": "o1",
+              "text": "Worried"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I176",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p2",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p3",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I177",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ser/estar) ________ very happy today.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I178",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was she upset by his comments\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I179",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "feels"
+            },
+            {
+              "id": "w2",
+              "text": "sad"
+            },
+            {
+              "id": "w4",
+              "text": "her"
+            },
+            {
+              "id": "w7",
+              "text": "ill"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w5",
+              "text": "cat"
+            },
+            {
+              "id": "w3",
+              "text": "because"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I181",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sediento/a",
+          "correct_answer": "Thirsty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I182",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cansado/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tired"
+            },
+            {
+              "id": "o2",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I183",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p1",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p2",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I184",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Why ________ you so worried?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I185",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am bored with this movie.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I186",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w5",
+              "text": "his"
+            },
+            {
+              "id": "w6",
+              "text": "boss"
+            },
+            {
+              "id": "w4",
+              "text": "with"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "angry"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I187",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I188",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Orgulloso/a",
+          "correct_answer": "Proud",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I189",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Disgustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Upset"
+            },
+            {
+              "id": "o2",
+              "text": "Surprised"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I190",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p1",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I191",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ surprised by the news.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I192",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he surprised by the birthday party\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I193",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "by"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w5",
+              "text": "comments"
+            },
+            {
+              "id": "w4",
+              "text": "his"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "upset"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I194",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I195",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sorprendido/a",
+          "correct_answer": "Surprised",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I196",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sediento/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Excited"
+            },
+            {
+              "id": "o1",
+              "text": "Thirsty"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I197",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p3",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I198",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (sentirse) ________ a bit sad.",
+          "correct_answer": "feels",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I199",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm thirsty, I need some water.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I200",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "with"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "bored"
+            },
+            {
+              "id": "w4",
+              "text": "this"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I201",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            },
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I202",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hambriento/a",
+          "correct_answer": "Hungry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I203",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Orgulloso/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Surprised"
+            },
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Proud"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I204",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p2",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p3",
+              "left": "Tired",
+              "right": "Cansado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I205",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Does she ________ (sentirse) nervous?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I206",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i very happy to see you\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I207",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "birthday"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "by"
+            },
+            {
+              "id": "w6",
+              "text": "party"
+            },
+            {
+              "id": "w2",
+              "text": "surprised"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I208",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nervioso/a",
+          "correct_answer": "Nervous",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorprendido/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Tired"
+            },
+            {
+              "id": "o2",
+              "text": "Thirsty"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            },
+            {
+              "id": "p1",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p2",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I212",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser/estar) ________ excited about the trip.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't be worried about the exam.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I'm"
+            },
+            {
+              "id": "w4",
+              "text": "some"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "water"
+            },
+            {
+              "id": "w1",
+              "text": "thirsty,"
+            },
+            {
+              "id": "w3",
+              "text": "need"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I215",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I216",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Solo/Solitario",
+          "correct_answer": "Lonely",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I217",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hambriento/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hungry"
+            },
+            {
+              "id": "o2",
+              "text": "Upset"
+            },
+            {
+              "id": "o3",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I218",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirsty",
+              "right": "Sediento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p3",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I219",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
+          "correct_answer": "makes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I220",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are hungry let's eat\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I221",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w5",
+              "text": "see"
+            },
+            {
+              "id": "w3",
+              "text": "happy"
+            },
+            {
+              "id": "w6",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I222",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I223",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Enfadado/a",
+          "correct_answer": "Angry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I224",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nervioso/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Nervous"
+            },
+            {
+              "id": "o2",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Happy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I225",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Tired",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p2",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Scared",
+              "right": "Asustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I226",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (parecer/mirar) ________ tired after work.",
+          "correct_answer": "looks",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I227",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very proud of my children.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I228",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "worried"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "be"
+            },
+            {
+              "id": "w5",
+              "text": "exam"
+            },
+            {
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I229",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I230",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Asustado/a",
+          "correct_answer": "Scared",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I231",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solo/Solitario' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Happy"
+            },
+            {
+              "id": "o2",
+              "text": "Bored"
+            },
+            {
+              "id": "o1",
+              "text": "Lonely"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I232",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bored",
+              "right": "Aburrido/a"
+            },
+            {
+              "id": "p1",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I233",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / entender) ________ why he is upset.",
+          "correct_answer": "don't understand",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I234",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always she feels nervous before a test\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I235",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Are"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "hungry"
+            },
+            {
+              "id": "w3",
+              "text": "Let's"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I236",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            },
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I237",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Triste",
+          "correct_answer": "Sad",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I238",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enfadado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o1",
+              "text": "Angry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I239",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Excited",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p3",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I240",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (not / ser/estar) ________ angry with you.",
+          "correct_answer": "are not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I241",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He feels lonely in the big city.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I242",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "proud"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "children"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I243",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            },
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I244",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Emocionado/a",
+          "correct_answer": "Excited",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I245",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o1",
+              "text": "Scared"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I246",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Scared",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p2",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p3",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I247",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ser/estar) ________ very happy today.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I248",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i so tired i could sleep for days\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I249",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "test"
+            },
+            {
+              "id": "w4",
+              "text": "before"
+            },
+            {
+              "id": "w3",
+              "text": "nervous"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "always"
+            },
+            {
+              "id": "w2",
+              "text": "feels"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I250",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Feliz",
+          "correct_answer": "Happy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Triste' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Scared"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o1",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lonely",
+              "right": "Solo/Solitario"
+            },
+            {
+              "id": "p1",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p2",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I254",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Why ________ you so worried?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is scared of spiders.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "lonely"
+            },
+            {
+              "id": "w1",
+              "text": "feels"
+            },
+            {
+              "id": "w6",
+              "text": "city"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w5",
+              "text": "big"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I257",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I258",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aburrido/a",
+          "correct_answer": "Bored",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I259",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Nervous"
+            },
+            {
+              "id": "o3",
+              "text": "Tired"
+            },
+            {
+              "id": "o1",
+              "text": "Excited"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I260",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hungry",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p1",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I261",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ surprised by the news.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I262",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we excited about our holiday\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I263",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "sleep"
+            },
+            {
+              "id": "w5",
+              "text": "could"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "tired"
+            },
+            {
+              "id": "w8",
+              "text": "days"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I264",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I265",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Preocupado/a",
+          "correct_answer": "Worried",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I266",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Feliz' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Surprised"
+            },
+            {
+              "id": "o3",
+              "text": "Angry"
+            },
+            {
+              "id": "o1",
+              "text": "Happy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I267",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Proud",
+              "right": "Orgulloso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Happy",
+              "right": "Feliz"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I268",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (sentirse) ________ a bit sad.",
+          "correct_answer": "feels",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I269",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She feels sad because her cat is ill.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I270",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "scared"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "spiders"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I271",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you hungry?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, I'm starving. Let's get pizza."
+            },
+            {
+              "id": "o3",
+              "text": "At 1 PM."
+            },
+            {
+              "id": "o2",
+              "text": "No, I'm thirsty."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I272",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cansado/a",
+          "correct_answer": "Tired",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I273",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o1",
+              "text": "Bored"
+            },
+            {
+              "id": "o3",
+              "text": "Excited"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I274",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Upset",
+              "right": "Disgustado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p3",
+              "left": "Sad",
+              "right": "Triste"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I275",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Does she ________ (sentirse) nervous?",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I276",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he very angry with his boss\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I277",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "excited"
+            },
+            {
+              "id": "w5",
+              "text": "holiday"
+            },
+            {
+              "id": "w4",
+              "text": "our"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I278",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Why is she so angry?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "She's a teacher."
+            },
+            {
+              "id": "o3",
+              "text": "In the garage."
+            },
+            {
+              "id": "o1",
+              "text": "Because her car won't start."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I279",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Disgustado/a",
+          "correct_answer": "Upset",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I280",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preocupado/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nervous"
+            },
+            {
+              "id": "o2",
+              "text": "Upset"
+            },
+            {
+              "id": "o1",
+              "text": "Worried"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I281",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Worried",
+              "right": "Preocupado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p2",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p3",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I282",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser/estar) ________ excited about the trip.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I283",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She was upset by his comments.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I284",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "ill"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "feels"
+            },
+            {
+              "id": "w5",
+              "text": "cat"
+            },
+            {
+              "id": "w2",
+              "text": "sad"
+            },
+            {
+              "id": "w4",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "because"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I285",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How are you feeling today?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I'm feeling great, thanks!"
+            },
+            {
+              "id": "o3",
+              "text": "At 10 o'clock."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I286",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sediento/a",
+          "correct_answer": "Thirsty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I287",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cansado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Happy"
+            },
+            {
+              "id": "o3",
+              "text": "Thirsty"
+            },
+            {
+              "id": "o1",
+              "text": "Tired"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I288",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Happy",
+              "right": "Feliz"
+            },
+            {
+              "id": "p1",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p2",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I289",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
+          "correct_answer": "makes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I290",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i bored with this movie\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I291",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "with"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "boss"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "angry"
+            },
+            {
+              "id": "w5",
+              "text": "his"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I292",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"You look tired.\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, I'm not."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, I didn't sleep well last night."
+            },
+            {
+              "id": "o2",
+              "text": "I'm happy."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Orgulloso/a",
+          "correct_answer": "Proud",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Disgustado/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Scared"
+            },
+            {
+              "id": "o1",
+              "text": "Upset"
+            },
+            {
+              "id": "o3",
+              "text": "Sad"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sad",
+              "right": "Triste"
+            },
+            {
+              "id": "p1",
+              "left": "Angry",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Nervous",
+              "right": "Nervioso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Surprised",
+              "right": "Sorprendido/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I296",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (parecer/mirar) ________ tired after work.",
+          "correct_answer": "looks",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was surprised by the birthday party.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "by"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "his"
+            },
+            {
+              "id": "w2",
+              "text": "upset"
+            },
+            {
+              "id": "w5",
+              "text": "comments"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_I299",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about anything?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I'm happy."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Just a little bit about my exam."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I300",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sorprendido/a",
+          "correct_answer": "Surprised",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

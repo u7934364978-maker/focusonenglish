@@ -1,51 +1,25 @@
-# Full SDD workflow
+# Plan de Arreglo: Contexto de Lectura Faltante en Práctica Adaptativa
 
-## Workflow Steps
+## Problema
+En el modo de práctica, algunos ejercicios (específicamente Verdadero/Falso y Opción Múltiple) se refieren a un texto de lectura que no es visible en la pantalla. Esto ocurre porque el `AdaptiveEngine` aplana las interacciones y, si una sub-interacción se selecciona individualmente, pierde el estímulo (`stimulus_en`) que originalmente estaba en el bloque de lectura principal.
 
-### [ ] Step: Requirements
+## Análisis Técnico
+- El archivo `src/components/course/exercises/PremiumSession.tsx` se encarga de aplanar y normalizar las interacciones de los bloques.
+- Actualmente no hay un mecanismo para arrastrar el contexto de lectura a través de las interacciones del mismo bloque una vez que se separan.
+- Las interacciones de tipo `reading-comprehension` o con el tag `reading` contienen el texto base.
 
-Create a Product Requirements Document (PRD) based on the feature description.
+## Pasos Realizados
 
-1. Review existing codebase to understand current architecture and patterns
-2. Analyze the feature definition and identify unclear aspects
-3. Ask the user for clarifications on aspects that significantly impact scope or user experience
-4. Make reasonable decisions for minor details based on context and conventions
-5. If user can't clarify, make a decision, state the assumption, and continue
+### Fase 1: Implementación del Arreglo
+- [x] Modificar la lógica de aplanamiento en `PremiumSession.tsx` para rastrear el último texto de lectura visto dentro de un bloque.
+- [x] Asignar automáticamente este texto como `stimulus_en` a las interacciones subsiguientes que no tengan uno propio, especialmente para tipos `true_false` o relacionadas con `reading`.
 
-Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/requirements.md`.
+### Fase 2: Verificación y Despliegue
+- [x] Realizar commit de los cambios.
+- [x] Realizar push a la rama principal.
+- [x] Informar el número de commit al usuario.
 
-### [ ] Step: Technical Specification
-
-Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/requirements.md`.
-
-1. Review existing codebase architecture and identify reusable components
-2. Define the implementation approach
-
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/spec.md` with:
-
-- Technical context (language, dependencies)
-- Implementation approach referencing existing code patterns
-- Source code structure changes
-- Data model / API / interface changes
-- Delivery phases (incremental, testable milestones)
-- Verification approach using project lint/test commands
-
-### [ ] Step: Planning
-
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/spec.md`.
-
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/plan.md`.
-
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/d081cca9-9036-400c-a853-49df67e00eac/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+## Tareas Detalladas
+1. **Rastrear Estímulo**: Se añadió la variable `blockStimulus` dentro del bucle de bloques en `PremiumSession.tsx`.
+2. **Propagar Estímulo**: Se actualizó la lógica de sub-preguntas y preguntas simples para usar `blockStimulus` si `stimulus_en` falta.
+3. **Commit y Push**: Ejecutado correctamente con el commit `26edeb46`.

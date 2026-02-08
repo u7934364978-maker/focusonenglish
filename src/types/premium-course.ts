@@ -81,6 +81,8 @@ export interface PremiumContent {
   interaction_id?: string;
   type?: string;
   video?: PremiumVideo;
+  stimulus_en?: string;
+  concept_tags?: string[];
   [key: string]: any; // Fallback for various interaction types
 }
 

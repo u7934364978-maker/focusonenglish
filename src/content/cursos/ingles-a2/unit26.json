@@ -1,171 +1,6257 @@
 {
   "course": {
-    "unit_id": "unit26",
-    "unit_title": "Logical Connectors",
-    "level": "A2",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "unit26",
+    "unit_title": "Travel Experiences",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "U26_B1",
-      "title": "Connecting Ideas",
-      "duration_minutes": 60,
+      "block_id": "B26",
+      "title": "Travel Experiences",
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducción a los conectores.",
-          "tts_en": "Connectors help us link sentences. Use 'whereas' or 'while' to show contrast. Use 'since' to give a reason, it's like 'because'. And 'as a consequence' is for results.",
-          "mastery_tag": "listening",
-          "interaction_id": "U26_I1"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa: A mí me encanta la playa mientras que mi pareja la odia.",
-          "stimulus_en": "I really love the beach (___) my partner hates it.",
-          "correct_answer": "whereas",
-          "mastery_tag": "grammar",
-          "interaction_id": "U26_I2"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el conector de resultado:",
-          "stimulus_en": "He didn't study hard. (...), he failed the exam.",
-          "options": [
-            { "id": "o1", "text": "As a consequence" },
-            { "id": "o2", "text": "Since" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U26_I3"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcto? 'Since' puede significar 'ya que' o 'porque'.",
-          "stimulus_en": "In the sentence 'Since you're still working, I won't cook', since means because.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "interaction_id": "U26_I4"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena: Por un lado es buena idea, por otro no.",
-          "options": [
-            { "id": "w1", "text": "On" },
-            { "id": "w2", "text": "one" },
-            { "id": "w3", "text": "hand," },
-            { "id": "w4", "text": "on" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "other" },
-            { "id": "w7", "text": "hand..." }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
-          "mastery_tag": "grammar",
-          "interaction_id": "U26_I5"
-        },
-        {
+          "interaction_id": "U26_I1",
           "type": "matching",
-          "prompt_es": "Relaciona los conectores con su significado:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p1", "left": "Fortunately", "right": "Por suerte" },
-            { "id": "p2", "left": "Unfortunately", "right": "Por desgracia" },
-            { "id": "p3", "left": "Nonetheless", "right": "Sin embargo" },
-            { "id": "p4", "left": "As well as", "right": "Además de" }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U26_I6"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe lo que escuchas: Por suerte, ella no se hizo daño.",
-          "tts_en": "Fortunately, she didn't hurt herself.",
-          "correct_answer": "Fortunately, she didn't hurt herself",
-          "mastery_tag": "listening",
-          "interaction_id": "U26_I7"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Conectores formales:",
-          "cards": [
-            { "id": "c1", "front": "Nonetheless", "back": "Sin embargo (formal, sinónimo de however)." },
-            { "id": "c2", "front": "Whereas", "back": "Mientras que (para contrastar)." }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U26_I8"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Une estas frases usando 'while': In Spain it's hot. In England it isn't.",
-          "instruction_en": "Combine the sentences using 'while'.",
-          "mastery_tag": "writing",
-          "interaction_id": "U26_I9"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Repite: I like football as well.",
-          "stimulus_en": "I like football as well.",
-          "mastery_tag": "speaking",
-          "interaction_id": "U26_I10"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica los conectores por su función:",
-          "categories": [
             {
-              "id": "cat_contrast",
-              "title": "Contrast",
-              "items": [
-                { "id": "i1", "text": "In contrast" },
-                { "id": "i2", "text": "Whereas" }
-              ]
+              "id": "p0",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
             },
             {
-              "id": "cat_addition",
-              "title": "Addition",
-              "items": [
-                { "id": "i3", "text": "As well as" },
-                { "id": "i4", "text": "As well" }
-              ]
-            }
-          ],
-          "mastery_tag": "grammar",
-          "interaction_id": "U26_I11"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa el texto:",
-          "main_text": "I studied hard for the exam. [GAP 1], I failed. [GAP 2], I have another chance next week [GAP 3] I'm a good student.",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                { "id": "o1", "text": "Unfortunately" },
-                { "id": "o2", "text": "Fortunately" }
-              ]
+              "id": "p1",
+              "left": "Experience",
+              "right": "Experiencia"
             },
             {
-              "id": "2",
-              "options": [
-                { "id": "o1", "text": "Luckily" },
-                { "id": "o2", "text": "Nonetheless" }
-              ]
+              "id": "p2",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
             },
             {
-              "id": "3",
-              "options": [
-                { "id": "o1", "text": "since" },
-                { "id": "o2", "text": "while" }
-              ]
+              "id": "p3",
+              "left": "Hotel",
+              "right": "Hotel"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1",
-            "3": "o1"
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
           },
-          "mastery_tag": "reading",
-          "interaction_id": "U26_I12"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "How ________ the weather there?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We stayed in a hotel near the beach.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "five"
+            },
+            {
+              "id": "w5",
+              "text": "photos"
+            },
+            {
+              "id": "w4",
+              "text": "hundred"
+            },
+            {
+              "id": "w1",
+              "text": "took"
+            },
+            {
+              "id": "w2",
+              "text": "over"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viajar' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Passport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I8",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p1",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p3",
+              "left": "Trip",
+              "right": "Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The food (ser/estar) ________ delicious.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I10",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scenery the was absolutely beautiful\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "go"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w7",
+              "text": "year"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "there"
+            },
+            {
+              "id": "w6",
+              "text": "next"
+            },
+            {
+              "id": "w4",
+              "text": "back"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aeropuerto",
+          "correct_answer": "Airport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trayecto/Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Airport"
+            },
+            {
+              "id": "o2",
+              "text": "Holiday"
+            },
+            {
+              "id": "o1",
+              "text": "Journey"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I15",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p2",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Local food",
+              "right": "Comida local"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Did you ________ (take) many photos?",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I17",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The flight was very long but comfortable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "beach"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "near"
+            },
+            {
+              "id": "w1",
+              "text": "stayed"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "hotel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I20",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Comida local",
+          "correct_answer": "Local food",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o3",
+              "text": "Experience"
+            },
+            {
+              "id": "o2",
+              "text": "Local food"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I22",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p1",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (travel) ________ by train.",
+          "correct_answer": "traveled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bought i a small souvenir for my mother\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I25",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "absolutely"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "scenery"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I27",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recuerdo/Souvenir",
+          "correct_answer": "Souvenir",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aeropuerto' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o3",
+              "text": "Guided tour"
+            },
+            {
+              "id": "o1",
+              "text": "Airport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I29",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p1",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p2",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Travel",
+              "right": "Viajar"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (stay) ________ in a beautiful hotel.",
+          "correct_answer": "stayed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I31",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was the best trip I've ever had.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I32",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "but"
+            },
+            {
+              "id": "w1",
+              "text": "flight"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "comfortable"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I34",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viaje",
+          "correct_answer": "Trip",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida local' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Trip"
+            },
+            {
+              "id": "o1",
+              "text": "Local food"
+            },
+            {
+              "id": "o2",
+              "text": "Airport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I36",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p1",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p2",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p3",
+              "left": "Passport",
+              "right": "Pasaporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ir) ________ to Italy last summer.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I38",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Journey the took ten hours by train\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I39",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "bought"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w7",
+              "text": "mother"
+            },
+            {
+              "id": "w3",
+              "text": "small"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "souvenir"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita guiada",
+          "correct_answer": "Guided tour",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recuerdo/Souvenir' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Ticket"
+            },
+            {
+              "id": "o1",
+              "text": "Souvenir"
+            },
+            {
+              "id": "o3",
+              "text": "Local food"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p1",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p2",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p3",
+              "left": "Flight",
+              "right": "Vuelo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (buy) ________ lots of souvenirs.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget to bring your passport.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "had"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w5",
+              "text": "I've"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w4",
+              "text": "trip"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "ever"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            },
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I48",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hotel",
+          "correct_answer": "Hotel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Trip"
+            },
+            {
+              "id": "o3",
+              "text": "Local food"
+            },
+            {
+              "id": "o2",
+              "text": "Souvenir"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I50",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p1",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p2",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p3",
+              "left": "Ticket",
+              "right": "Billete"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (not / gustar) ________ the flight.",
+          "correct_answer": "didn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I52",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Traveled we around the island by car\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "took"
+            },
+            {
+              "id": "w1",
+              "text": "journey"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w4",
+              "text": "hours"
+            },
+            {
+              "id": "w6",
+              "text": "train"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I55",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Billete",
+          "correct_answer": "Ticket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita guiada' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guided tour"
+            },
+            {
+              "id": "o2",
+              "text": "Passport"
+            },
+            {
+              "id": "o3",
+              "text": "Airport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I57",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p1",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p2",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p3",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (not / querer) ________ to come home.",
+          "correct_answer": "didn't want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I59",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We had a wonderful holiday in Greece.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "passport"
+            },
+            {
+              "id": "w3",
+              "text": "bring"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "forget"
+            },
+            {
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I62",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hermoso/a",
+          "correct_answer": "Beautiful",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o3",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Flight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I64",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p1",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p2",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p3",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (see) ________ some amazing places.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I66",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You did try the local food while you were there\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "around"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w1",
+              "text": "traveled"
+            },
+            {
+              "id": "w6",
+              "text": "car"
+            },
+            {
+              "id": "w4",
+              "text": "island"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I68",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I69",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vuelo",
+          "correct_answer": "Flight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Billete' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Trip"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I71",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p1",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p2",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p3",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "How ________ the weather there?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I73",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My trip to Japan was an incredible experience.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "wonderful"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "holiday"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "Greece"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "had"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I75",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Experiencia",
+          "correct_answer": "Experience",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hermoso/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Hotel"
+            },
+            {
+              "id": "o1",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Guided tour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I78",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p1",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p2",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p3",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I79",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The food (ser/estar) ________ delicious.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I80",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather the was perfect for sightseeing\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "you"
+            },
+            {
+              "id": "w6",
+              "text": "while"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w8",
+              "text": "were"
+            },
+            {
+              "id": "w4",
+              "text": "local"
+            },
+            {
+              "id": "w5",
+              "text": "food"
+            },
+            {
+              "id": "w0",
+              "text": "Did"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w9",
+              "text": "there"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I82",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            },
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pasaporte",
+          "correct_answer": "Passport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Trip"
+            },
+            {
+              "id": "o1",
+              "text": "Flight"
+            },
+            {
+              "id": "o2",
+              "text": "Experience"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p1",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p2",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Did you ________ (take) many photos?",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We went on a guided tour of the city.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "an"
+            },
+            {
+              "id": "w7",
+              "text": "experience"
+            },
+            {
+              "id": "w3",
+              "text": "Japan"
+            },
+            {
+              "id": "w1",
+              "text": "trip"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w6",
+              "text": "incredible"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I90",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hacer turismo",
+          "correct_answer": "Sightseeing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Experiencia' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Airport"
+            },
+            {
+              "id": "o1",
+              "text": "Experience"
+            },
+            {
+              "id": "o2",
+              "text": "Souvenir"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I92",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p1",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Experience",
+              "right": "Experiencia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I93",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (travel) ________ by train.",
+          "correct_answer": "traveled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I94",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Took i over five hundred photos\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I95",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "perfect"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "sightseeing"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I97",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viajar",
+          "correct_answer": "Travel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasaporte' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
+            },
+            {
+              "id": "o1",
+              "text": "Passport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I99",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p1",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p2",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p3",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I100",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (stay) ________ in a beautiful hotel.",
+          "correct_answer": "stayed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I101",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I want to go back there next year.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I102",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "tour"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w1",
+              "text": "went"
+            },
+            {
+              "id": "w4",
+              "text": "guided"
+            },
+            {
+              "id": "w8",
+              "text": "city"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I103",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I104",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trayecto/Viaje",
+          "correct_answer": "Journey",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I105",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer turismo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Souvenir"
+            },
+            {
+              "id": "o2",
+              "text": "Guided tour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I106",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p1",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p2",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Hotel",
+              "right": "Hotel"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I107",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ir) ________ to Italy last summer.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I108",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stayed we in a hotel near the beach\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I109",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "hundred"
+            },
+            {
+              "id": "w5",
+              "text": "photos"
+            },
+            {
+              "id": "w1",
+              "text": "took"
+            },
+            {
+              "id": "w2",
+              "text": "over"
+            },
+            {
+              "id": "w3",
+              "text": "five"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I110",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I111",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I112",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viajar' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "Experience"
+            },
+            {
+              "id": "o1",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I113",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p1",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p3",
+              "left": "Trip",
+              "right": "Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I114",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (buy) ________ lots of souvenirs.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I115",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The scenery was absolutely beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I116",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w3",
+              "text": "go"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "next"
+            },
+            {
+              "id": "w4",
+              "text": "back"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "year"
+            },
+            {
+              "id": "w5",
+              "text": "there"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I117",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "By train."
+            },
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I118",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aeropuerto",
+          "correct_answer": "Airport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I119",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trayecto/Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Journey"
+            },
+            {
+              "id": "o3",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Flight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I120",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p2",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Local food",
+              "right": "Comida local"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I121",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (not / gustar) ________ the flight.",
+          "correct_answer": "didn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I122",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Flight the was very long but comfortable\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I123",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "beach"
+            },
+            {
+              "id": "w1",
+              "text": "stayed"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "hotel"
+            },
+            {
+              "id": "w5",
+              "text": "near"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I124",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Comida local",
+          "correct_answer": "Local food",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Passport"
+            },
+            {
+              "id": "o3",
+              "text": "Experience"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p1",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I128",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (not / querer) ________ to come home.",
+          "correct_answer": "didn't want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I bought a small souvenir for my mother.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w3",
+              "text": "absolutely"
+            },
+            {
+              "id": "w1",
+              "text": "scenery"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I132",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recuerdo/Souvenir",
+          "correct_answer": "Souvenir",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I133",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aeropuerto' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Airport"
+            },
+            {
+              "id": "o3",
+              "text": "Trip"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I134",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p1",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p2",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Travel",
+              "right": "Viajar"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I135",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (see) ________ some amazing places.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I136",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it the best trip i've ever had\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I137",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "but"
+            },
+            {
+              "id": "w1",
+              "text": "flight"
+            },
+            {
+              "id": "w6",
+              "text": "comfortable"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I139",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viaje",
+          "correct_answer": "Trip",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I140",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida local' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Journey"
+            },
+            {
+              "id": "o1",
+              "text": "Local food"
+            },
+            {
+              "id": "o2",
+              "text": "Holiday"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I141",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p1",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p2",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p3",
+              "left": "Passport",
+              "right": "Pasaporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I142",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "How ________ the weather there?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I143",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The journey took ten hours by train.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I144",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "small"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "souvenir"
+            },
+            {
+              "id": "w7",
+              "text": "mother"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "bought"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I145",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I146",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita guiada",
+          "correct_answer": "Guided tour",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I147",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recuerdo/Souvenir' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Souvenir"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Journey"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I148",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p1",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p2",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p3",
+              "left": "Flight",
+              "right": "Vuelo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I149",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The food (ser/estar) ________ delicious.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I150",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forget don't to bring your passport\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I151",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "I've"
+            },
+            {
+              "id": "w6",
+              "text": "ever"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w7",
+              "text": "had"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w4",
+              "text": "trip"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I152",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I153",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hotel",
+          "correct_answer": "Hotel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I154",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Trip"
+            },
+            {
+              "id": "o2",
+              "text": "Passport"
+            },
+            {
+              "id": "o3",
+              "text": "Guided tour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I155",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p1",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p2",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p3",
+              "left": "Ticket",
+              "right": "Billete"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I156",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Did you ________ (take) many photos?",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I157",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We traveled around the island by car.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I158",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w6",
+              "text": "train"
+            },
+            {
+              "id": "w2",
+              "text": "took"
+            },
+            {
+              "id": "w4",
+              "text": "hours"
+            },
+            {
+              "id": "w1",
+              "text": "journey"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I159",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I160",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Billete",
+          "correct_answer": "Ticket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I161",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita guiada' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guided tour"
+            },
+            {
+              "id": "o3",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Souvenir"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I162",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p1",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p2",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p3",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I163",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (travel) ________ by train.",
+          "correct_answer": "traveled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I164",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had we a wonderful holiday in greece\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I165",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Don't"
+            },
+            {
+              "id": "w5",
+              "text": "passport"
+            },
+            {
+              "id": "w1",
+              "text": "forget"
+            },
+            {
+              "id": "w3",
+              "text": "bring"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I166",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hermoso/a",
+          "correct_answer": "Beautiful",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hotel' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Holiday"
+            },
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o3",
+              "text": "Sightseeing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p1",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p2",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p3",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I170",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (stay) ________ in a beautiful hotel.",
+          "correct_answer": "stayed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Did you try the local food while you were there?\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "around"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "island"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w6",
+              "text": "car"
+            },
+            {
+              "id": "w1",
+              "text": "traveled"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            },
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I174",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vuelo",
+          "correct_answer": "Flight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I175",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Billete' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I176",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p1",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p2",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p3",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I177",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ir) ________ to Italy last summer.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I178",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Trip my to japan was an incredible experience\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I179",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "had"
+            },
+            {
+              "id": "w6",
+              "text": "Greece"
+            },
+            {
+              "id": "w3",
+              "text": "wonderful"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "holiday"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I181",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Experiencia",
+          "correct_answer": "Experience",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I182",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hermoso/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Holiday"
+            },
+            {
+              "id": "o1",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Trip"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I183",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p1",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p2",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p3",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I184",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (buy) ________ lots of souvenirs.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I185",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The weather was perfect for sightseeing.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I186",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w7",
+              "text": "you"
+            },
+            {
+              "id": "w9",
+              "text": "there"
+            },
+            {
+              "id": "w5",
+              "text": "food"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Did"
+            },
+            {
+              "id": "w4",
+              "text": "local"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w6",
+              "text": "while"
+            },
+            {
+              "id": "w8",
+              "text": "were"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I187",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I188",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pasaporte",
+          "correct_answer": "Passport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I189",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Hotel"
+            },
+            {
+              "id": "o1",
+              "text": "Flight"
+            },
+            {
+              "id": "o3",
+              "text": "Journey"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I190",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p1",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p2",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I191",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (not / gustar) ________ the flight.",
+          "correct_answer": "didn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I192",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Went we on a guided tour of the city\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I193",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "incredible"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "Japan"
+            },
+            {
+              "id": "w7",
+              "text": "experience"
+            },
+            {
+              "id": "w1",
+              "text": "trip"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I194",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "By plane."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I195",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hacer turismo",
+          "correct_answer": "Sightseeing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I196",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Experiencia' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flight"
+            },
+            {
+              "id": "o1",
+              "text": "Experience"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I197",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p1",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Experience",
+              "right": "Experiencia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I198",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (not / querer) ________ to come home.",
+          "correct_answer": "didn't want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I199",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I took over five hundred photos!\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I200",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "perfect"
+            },
+            {
+              "id": "w5",
+              "text": "sightseeing"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I201",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I202",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viajar",
+          "correct_answer": "Travel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I203",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasaporte' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "Flight"
+            },
+            {
+              "id": "o3",
+              "text": "Hotel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I204",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p1",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p2",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p3",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I205",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (see) ________ some amazing places.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I206",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Want i to go back there next year\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I207",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "tour"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "city"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "guided"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "went"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I208",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trayecto/Viaje",
+          "correct_answer": "Journey",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer turismo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Guided tour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            },
+            {
+              "id": "p1",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p2",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Hotel",
+              "right": "Hotel"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I212",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "How ________ the weather there?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We stayed in a hotel near the beach.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "hundred"
+            },
+            {
+              "id": "w1",
+              "text": "took"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "five"
+            },
+            {
+              "id": "w5",
+              "text": "photos"
+            },
+            {
+              "id": "w2",
+              "text": "over"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I215",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I216",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I217",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viajar' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Passport"
+            },
+            {
+              "id": "o2",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o1",
+              "text": "Travel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I218",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Experience",
+              "right": "Experiencia"
+            },
+            {
+              "id": "p1",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p3",
+              "left": "Trip",
+              "right": "Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I219",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The food (ser/estar) ________ delicious.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I220",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scenery the was absolutely beautiful\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I221",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "go"
+            },
+            {
+              "id": "w4",
+              "text": "back"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "there"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "next"
+            },
+            {
+              "id": "w7",
+              "text": "year"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I222",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            },
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I223",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aeropuerto",
+          "correct_answer": "Airport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I224",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trayecto/Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Hotel"
+            },
+            {
+              "id": "o1",
+              "text": "Journey"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I225",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Beautiful",
+              "right": "Hermoso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p2",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Local food",
+              "right": "Comida local"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I226",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Did you ________ (take) many photos?",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I227",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The flight was very long but comfortable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I228",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "stayed"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "beach"
+            },
+            {
+              "id": "w4",
+              "text": "hotel"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "near"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I229",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I230",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Comida local",
+          "correct_answer": "Local food",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I231",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I232",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hotel",
+              "right": "Hotel"
+            },
+            {
+              "id": "p1",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p2",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I233",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (travel) ________ by train.",
+          "correct_answer": "traveled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I234",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bought i a small souvenir for my mother\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I235",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "scenery"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "absolutely"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I236",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I237",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Recuerdo/Souvenir",
+          "correct_answer": "Souvenir",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I238",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aeropuerto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Souvenir"
+            },
+            {
+              "id": "o1",
+              "text": "Airport"
+            },
+            {
+              "id": "o2",
+              "text": "Journey"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I239",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Trip",
+              "right": "Viaje"
+            },
+            {
+              "id": "p1",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p2",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Travel",
+              "right": "Viajar"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I240",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (stay) ________ in a beautiful hotel.",
+          "correct_answer": "stayed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I241",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was the best trip I've ever had.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I242",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "but"
+            },
+            {
+              "id": "w6",
+              "text": "comfortable"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "flight"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "long"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I243",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I244",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viaje",
+          "correct_answer": "Trip",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I245",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comida local' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Local food"
+            },
+            {
+              "id": "o3",
+              "text": "Journey"
+            },
+            {
+              "id": "o2",
+              "text": "Passport"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I246",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Local food",
+              "right": "Comida local"
+            },
+            {
+              "id": "p1",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p2",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p3",
+              "left": "Passport",
+              "right": "Pasaporte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I247",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (ir) ________ to Italy last summer.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I248",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Journey the took ten hours by train\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I249",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "souvenir"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "bought"
+            },
+            {
+              "id": "w3",
+              "text": "small"
+            },
+            {
+              "id": "w7",
+              "text": "mother"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I250",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Visita guiada",
+          "correct_answer": "Guided tour",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recuerdo/Souvenir' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Souvenir"
+            },
+            {
+              "id": "o2",
+              "text": "Journey"
+            },
+            {
+              "id": "o3",
+              "text": "Holiday"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p1",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p2",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p3",
+              "left": "Flight",
+              "right": "Vuelo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I254",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (buy) ________ lots of souvenirs.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget to bring your passport.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "ever"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "had"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "trip"
+            },
+            {
+              "id": "w5",
+              "text": "I've"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I257",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            },
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I258",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hotel",
+          "correct_answer": "Hotel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I259",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Passport"
+            },
+            {
+              "id": "o3",
+              "text": "Guided tour"
+            },
+            {
+              "id": "o1",
+              "text": "Trip"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I260",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Travel",
+              "right": "Viajar"
+            },
+            {
+              "id": "p1",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p2",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p3",
+              "left": "Ticket",
+              "right": "Billete"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I261",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (not / gustar) ________ the flight.",
+          "correct_answer": "didn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I262",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Traveled we around the island by car\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I263",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "journey"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w2",
+              "text": "took"
+            },
+            {
+              "id": "w6",
+              "text": "train"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w4",
+              "text": "hours"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I264",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I265",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Billete",
+          "correct_answer": "Ticket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I266",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visita guiada' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flight"
+            },
+            {
+              "id": "o3",
+              "text": "Passport"
+            },
+            {
+              "id": "o1",
+              "text": "Guided tour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I267",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Passport",
+              "right": "Pasaporte"
+            },
+            {
+              "id": "p1",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p2",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p3",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I268",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (not / querer) ________ to come home.",
+          "correct_answer": "didn't want",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I269",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We had a wonderful holiday in Greece.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I270",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "bring"
+            },
+            {
+              "id": "w4",
+              "text": "your"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "passport"
+            },
+            {
+              "id": "w1",
+              "text": "forget"
+            },
+            {
+              "id": "w0",
+              "text": "Don't"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I271",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Was the flight on time?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am tired."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is big."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was perfectly on schedule."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I272",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hermoso/a",
+          "correct_answer": "Beautiful",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I273",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hotel' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Flight"
+            },
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Souvenir"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I274",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flight",
+              "right": "Vuelo"
+            },
+            {
+              "id": "p1",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p2",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p3",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I275",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (see) ________ some amazing places.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I276",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You did try the local food while you were there\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I277",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "car"
+            },
+            {
+              "id": "w4",
+              "text": "island"
+            },
+            {
+              "id": "w5",
+              "text": "by"
+            },
+            {
+              "id": "w1",
+              "text": "traveled"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "around"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I278",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"How was your holiday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 8 o'clock."
+            },
+            {
+              "id": "o2",
+              "text": "In London."
+            },
+            {
+              "id": "o1",
+              "text": "It was fantastic, thank you."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I279",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Vuelo",
+          "correct_answer": "Flight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I280",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Billete' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Passport"
+            },
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o3",
+              "text": "Local food"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I281",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ticket",
+              "right": "Billete"
+            },
+            {
+              "id": "p1",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p2",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p3",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I282",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "How ________ the weather there?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I283",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My trip to Japan was an incredible experience.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I284",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "Greece"
+            },
+            {
+              "id": "w3",
+              "text": "wonderful"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "had"
+            },
+            {
+              "id": "w4",
+              "text": "holiday"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I285",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you buy any souvenirs?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Only a few postcards for my friends."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I am."
+            },
+            {
+              "id": "o3",
+              "text": "No, thanks."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I286",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Experiencia",
+          "correct_answer": "Experience",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I287",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hermoso/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Passport"
+            },
+            {
+              "id": "o1",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Local food"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I288",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Guided tour",
+              "right": "Visita guiada"
+            },
+            {
+              "id": "p1",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p2",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p3",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I289",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The food (ser/estar) ________ delicious.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I290",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather the was perfect for sightseeing\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I291",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "local"
+            },
+            {
+              "id": "w5",
+              "text": "food"
+            },
+            {
+              "id": "w6",
+              "text": "while"
+            },
+            {
+              "id": "w7",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "Did"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "were"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w9",
+              "text": "there"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I292",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the best thing about the trip?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the hotel."
+            },
+            {
+              "id": "o1",
+              "text": "The local food was amazing."
+            },
+            {
+              "id": "o3",
+              "text": "By train."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pasaporte",
+          "correct_answer": "Passport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Hotel"
+            },
+            {
+              "id": "o3",
+              "text": "Travel"
+            },
+            {
+              "id": "o1",
+              "text": "Flight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Souvenir",
+              "right": "Recuerdo/Souvenir"
+            },
+            {
+              "id": "p1",
+              "left": "Airport",
+              "right": "Aeropuerto"
+            },
+            {
+              "id": "p2",
+              "left": "Journey",
+              "right": "Trayecto/Viaje"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Hacer turismo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I296",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Did you ________ (take) many photos?",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We went on a guided tour of the city.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "experience"
+            },
+            {
+              "id": "w1",
+              "text": "trip"
+            },
+            {
+              "id": "w6",
+              "text": "incredible"
+            },
+            {
+              "id": "w3",
+              "text": "Japan"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w5",
+              "text": "an"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_I299",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Where did you stay?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I liked it."
+            },
+            {
+              "id": "o1",
+              "text": "In a charming little guest house."
+            },
+            {
+              "id": "o2",
+              "text": "By plane."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I300",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hacer turismo",
+          "correct_answer": "Sightseeing",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

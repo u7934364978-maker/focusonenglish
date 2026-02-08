@@ -1,173 +1,6247 @@
 {
   "course": {
-    "unit_id": "unit28",
-    "unit_title": "Extreme Weather & Superlatives",
-    "level": "A2",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "unit28",
+    "unit_title": "Extreme Weather",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "U28_B1",
-      "title": "Superlative Adjectives & Weather",
-      "duration_minutes": 60,
+      "block_id": "B28",
+      "title": "Extreme Weather",
       "content": [
         {
-          "type": "audio_player",
-          "prompt_es": "Introducción a los superlativos.",
-          "tts_en": "Superlatives express the 'most' of something. For short adjectives, add -est, like 'coldest'. For long ones, use 'the most'. Remember to use 'in' for places, not 'of'!",
-          "mastery_tag": "listening",
-          "interaction_id": "U28_I1"
-        },
-        {
-          "type": "fill_blanks",
-          "prompt_es": "Completa: El Everest es la montaña más alta del mundo.",
-          "stimulus_en": "Mount Everest is the (___) mountain (___) the world.",
-          "correct_answer": "highest in",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I2"
-        },
-        {
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el superlativo de 'dangerous':",
-          "stimulus_en": "A hurricane is one of (...) weather events in the world.",
-          "options": [
-            { "id": "o1", "text": "the most dangerous" },
-            { "id": "o2", "text": "the dangerousest" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I3"
-        },
-        {
-          "type": "true_false",
-          "prompt_es": "¿Es correcto? 'It was the baddest storm of the year'.",
-          "stimulus_en": "It was the baddest storm of the year.",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I4"
-        },
-        {
-          "type": "reorder_words",
-          "prompt_es": "Ordena: El Sáhara es el sitio más caluroso del mundo.",
-          "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "Sahara" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "hottest" },
-            { "id": "w6", "text": "place" },
-            { "id": "w7", "text": "in" },
-            { "id": "w8", "text": "the" },
-            { "id": "w9", "text": "world" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
-          "mastery_tag": "syntax",
-          "interaction_id": "U28_I5"
-        },
-        {
+          "interaction_id": "U28_I1",
           "type": "matching",
-          "prompt_es": "Relaciona los adjetivos con sus superlativos irregulares:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p1", "left": "good", "right": "the best" },
-            { "id": "p2", "left": "bad", "right": "the worst" },
-            { "id": "p3", "left": "far", "right": "the furthest" }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I6"
-        },
-        {
-          "type": "dictation_guided",
-          "prompt_es": "Escribe lo que escuchas: Fue la peor tormenta.",
-          "tts_en": "It was the worst storm in the history of the city.",
-          "correct_answer": "It was the worst storm in the history of the city",
-          "mastery_tag": "listening",
-          "interaction_id": "U28_I7"
-        },
-        {
-          "type": "flashcards",
-          "prompt_es": "Clima extremo:",
-          "cards": [
-            { "id": "c1", "front": "Hurricane", "back": "Huracán" },
-            { "id": "c2", "front": "Flood", "back": "Inundación" },
-            { "id": "c3", "front": "Drought", "back": "Sequía" }
-          ],
-          "mastery_tag": "vocabulary",
-          "interaction_id": "U28_I8"
-        },
-        {
-          "type": "writing_task",
-          "prompt_es": "Describe el tornado más grande que has visto (usa superlativos e 'in').",
-          "instruction_en": "Write a sentence about the biggest tornado you've seen using a superlative and the preposition 'in'.",
-          "mastery_tag": "writing",
-          "interaction_id": "U28_I9"
-        },
-        {
-          "type": "speaking_task",
-          "prompt_es": "Repite: Antarctica is the coldest place in the world.",
-          "stimulus_en": "Antarctica is the coldest place in the world.",
-          "mastery_tag": "speaking",
-          "interaction_id": "U28_I10"
-        },
-        {
-          "type": "categorization",
-          "prompt_es": "Clasifica según la regla del superlativo:",
-          "categories": [
             {
-              "id": "cat_est",
-              "title": "Add -est",
-              "items": [
-                { "id": "i1", "text": "Deep" },
-                { "id": "i2", "text": "Strong" }
-              ]
+              "id": "p0",
+              "left": "Drought",
+              "right": "Sequía"
             },
             {
-              "id": "cat_most",
-              "title": "Use 'the most'",
-              "items": [
-                { "id": "i3", "text": "Powerful" },
-                { "id": "i4", "text": "Destructive" }
-              ]
-            }
-          ],
-          "mastery_tag": "grammar",
-          "interaction_id": "U28_I11"
-        },
-        {
-          "type": "multiple_choice_cloze",
-          "prompt_es": "Completa sobre el clima:",
-          "main_text": "Last winter we had [GAP 1] blizzard in years. It was [GAP 2] experience in my life, but [GAP 3] thing was that we were safe at home.",
-          "gaps": [
-            {
-              "id": "1",
-              "options": [
-                { "id": "o1", "text": "the biggest" },
-                { "id": "o2", "text": "the bigest" }
-              ]
+              "id": "p1",
+              "left": "Hurricane",
+              "right": "Huracán"
             },
             {
-              "id": "2",
-              "options": [
-                { "id": "o1", "text": "the most frightening" },
-                { "id": "o2", "text": "the frighteningest" }
-              ]
+              "id": "p2",
+              "left": "Extreme",
+              "right": "Extremo/a"
             },
             {
-              "id": "3",
-              "options": [
-                { "id": "o1", "text": "the best" },
-                { "id": "o2", "text": "the goodest" }
-              ]
+              "id": "p3",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
             }
           ],
           "correct_answer": {
-            "1": "o1",
-            "2": "o1",
-            "3": "o1"
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
           },
-          "mastery_tag": "reading",
-          "interaction_id": "U28_I12"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / gustar) ________ extreme heat.",
+          "correct_answer": "don't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The drought lasted for three months.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w6",
+              "text": "snow"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "warning"
+            },
+            {
+              "id": "w5",
+              "text": "heavy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I6",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tormenta",
+          "correct_answer": "Storm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trueno' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thunder"
+            },
+            {
+              "id": "o3",
+              "text": "Extreme"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I8",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p1",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p3",
+              "left": "Fog",
+              "right": "Niebla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (ser/estar) ________ a big storm last night.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I10",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather extreme is becoming more common\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w8",
+              "text": "rain"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "heavy"
+            },
+            {
+              "id": "w3",
+              "text": "massive"
+            },
+            {
+              "id": "w4",
+              "text": "flood"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mojado/a",
+          "correct_answer": "Wet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta de nieve' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o1",
+              "text": "Blizzard"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I15",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p1",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p2",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p3",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I17",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The ground is very dry after the heatwave.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "lasted"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "drought"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "months"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            },
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I20",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Peligroso/a",
+          "correct_answer": "Dangerous",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Storm"
+            },
+            {
+              "id": "o3",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I22",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p1",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p2",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Storm",
+              "right": "Tormenta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (snow) ________ a lot in the mountains.",
+          "correct_answer": "snows",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Careful, be the roads are very wet\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I25",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "becoming"
+            },
+            {
+              "id": "w0",
+              "text": "Extreme"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "common"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            },
+            {
+              "id": "o2",
+              "text": "In the sky."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I27",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Temperatura",
+          "correct_answer": "Temperature",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mojado/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Blizzard"
+            },
+            {
+              "id": "o2",
+              "text": "Fog"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I29",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p1",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p3",
+              "left": "Thunder",
+              "right": "Trueno"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser/estar) ________ the worst flood in history.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I31",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The temperature dropped to minus ten degrees.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I32",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "dry"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "ground"
+            },
+            {
+              "id": "w7",
+              "text": "heatwave"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I34",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niebla",
+          "correct_answer": "Fog",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Blizzard"
+            },
+            {
+              "id": "o2",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I36",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p2",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p3",
+              "left": "Ice",
+              "right": "Hielo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Are you ________ (scared) of thunder?",
+          "correct_answer": "scared",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I38",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hurricane the is moving towards the coast\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I39",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "wet"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "careful,"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "Be"
+            },
+            {
+              "id": "w3",
+              "text": "roads"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seco/a",
+          "correct_answer": "Dry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Temperatura' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Temperature"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Lightning"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p1",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p2",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p3",
+              "left": "Lightning",
+              "right": "Relámpago"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ warning people about the hurricane.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stay inside during the thunderstorm.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "ten"
+            },
+            {
+              "id": "w1",
+              "text": "temperature"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "dropped"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "degrees"
+            },
+            {
+              "id": "w4",
+              "text": "minus"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            },
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I48",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aviso/Advertencia",
+          "correct_answer": "Warning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niebla' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o1",
+              "text": "Fog"
+            },
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I50",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p1",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p2",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p3",
+              "left": "Flood",
+              "right": "Inundación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is the ________ (hot) day of the year.",
+          "correct_answer": "hottest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I52",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Heard i the thunder from miles away\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "moving"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "hurricane"
+            },
+            {
+              "id": "w6",
+              "text": "coast"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "towards"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I55",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Inundación",
+          "correct_answer": "Flood",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seco/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dry"
+            },
+            {
+              "id": "o2",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I57",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p1",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p2",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p3",
+              "left": "Dry",
+              "right": "Seco/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The temperature is ________ (low) than zero.",
+          "correct_answer": "lower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I59",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was so foggy I couldn't see the road.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "inside"
+            },
+            {
+              "id": "w0",
+              "text": "Stay"
+            },
+            {
+              "id": "w4",
+              "text": "thunderstorm"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "during"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I62",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Extremo/a",
+          "correct_answer": "Extreme",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aviso/Advertencia' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Flood"
+            },
+            {
+              "id": "o1",
+              "text": "Warning"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I64",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p1",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p2",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p3",
+              "left": "Temperature",
+              "right": "Temperatura"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The wind is ________ (strong) than yesterday.",
+          "correct_answer": "stronger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I66",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ice the on the lake is very thick\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I67",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "thunder"
+            },
+            {
+              "id": "w5",
+              "text": "miles"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "heard"
+            },
+            {
+              "id": "w4",
+              "text": "from"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "away"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I68",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I69",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Relámpago",
+          "correct_answer": "Lightning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inundación' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o1",
+              "text": "Flood"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I71",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p1",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p2",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p3",
+              "left": "Wet",
+              "right": "Mojado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / gustar) ________ extreme heat.",
+          "correct_answer": "don't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I73",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"A blizzard is a very dangerous snowstorm.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "see"
+            },
+            {
+              "id": "w5",
+              "text": "couldn't"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w3",
+              "text": "foggy"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w8",
+              "text": "road"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I75",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huracán",
+          "correct_answer": "Hurricane",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extremo/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lightning"
+            },
+            {
+              "id": "o1",
+              "text": "Extreme"
+            },
+            {
+              "id": "o3",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I78",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p1",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p2",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I79",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (ser/estar) ________ a big storm last night.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I80",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Storm the caused a lot of damage to the city\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I81",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w7",
+              "text": "thick"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "ice"
+            },
+            {
+              "id": "w4",
+              "text": "lake"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I82",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hielo",
+          "correct_answer": "Ice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relámpago' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Thunder"
+            },
+            {
+              "id": "o1",
+              "text": "Lightning"
+            },
+            {
+              "id": "o3",
+              "text": "Fog"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p1",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p3",
+              "left": "Drought",
+              "right": "Sequía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lightning struck a tree in the park.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dangerous"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w6",
+              "text": "snowstorm"
+            },
+            {
+              "id": "w1",
+              "text": "blizzard"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I90",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sequía",
+          "correct_answer": "Drought",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huracán' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Warning"
+            },
+            {
+              "id": "o1",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o3",
+              "text": "Storm"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I92",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p2",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p3",
+              "left": "Hurricane",
+              "right": "Huracán"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I93",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (snow) ________ a lot in the mountains.",
+          "correct_answer": "snows",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I94",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather the warning is for heavy snow\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I95",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "caused"
+            },
+            {
+              "id": "w9",
+              "text": "city"
+            },
+            {
+              "id": "w4",
+              "text": "lot"
+            },
+            {
+              "id": "w1",
+              "text": "storm"
+            },
+            {
+              "id": "w6",
+              "text": "damage"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            },
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I97",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trueno",
+          "correct_answer": "Thunder",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hielo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flood"
+            },
+            {
+              "id": "o1",
+              "text": "Ice"
+            },
+            {
+              "id": "o3",
+              "text": "Wet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I99",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p1",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p2",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p3",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I100",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser/estar) ________ the worst flood in history.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I101",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There was a massive flood after the heavy rain.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I102",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "struck"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "park"
+            },
+            {
+              "id": "w0",
+              "text": "Lightning"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "tree"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I103",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I104",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tormenta de nieve",
+          "correct_answer": "Blizzard",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I105",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sequía' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o1",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I106",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p1",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p2",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p3",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I107",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Are you ________ (scared) of thunder?",
+          "correct_answer": "scared",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I108",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Drought the lasted for three months\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I109",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "snow"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "heavy"
+            },
+            {
+              "id": "w2",
+              "text": "warning"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I110",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I111",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tormenta",
+          "correct_answer": "Storm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I112",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trueno' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thunder"
+            },
+            {
+              "id": "o2",
+              "text": "Fog"
+            },
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I113",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p1",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p3",
+              "left": "Fog",
+              "right": "Niebla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I114",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ warning people about the hurricane.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I115",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Extreme weather is becoming more common.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I116",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w7",
+              "text": "heavy"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w8",
+              "text": "rain"
+            },
+            {
+              "id": "w3",
+              "text": "massive"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "flood"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I117",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I118",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mojado/a",
+          "correct_answer": "Wet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I119",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta de nieve' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Blizzard"
+            },
+            {
+              "id": "o2",
+              "text": "Thunder"
+            },
+            {
+              "id": "o3",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I120",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p1",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p2",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p3",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I121",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is the ________ (hot) day of the year.",
+          "correct_answer": "hottest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I122",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ground the is very dry after the heatwave\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I123",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "months"
+            },
+            {
+              "id": "w4",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "drought"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "lasted"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I124",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Peligroso/a",
+          "correct_answer": "Dangerous",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Temperature"
+            },
+            {
+              "id": "o1",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p1",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p2",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Storm",
+              "right": "Tormenta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I128",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The temperature is ________ (low) than zero.",
+          "correct_answer": "lower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Be careful, the roads are very wet.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w0",
+              "text": "Extreme"
+            },
+            {
+              "id": "w5",
+              "text": "common"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "becoming"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I132",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Temperatura",
+          "correct_answer": "Temperature",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I133",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mojado/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fog"
+            },
+            {
+              "id": "o1",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Extreme"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I134",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p1",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p3",
+              "left": "Thunder",
+              "right": "Trueno"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I135",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The wind is ________ (strong) than yesterday.",
+          "correct_answer": "stronger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I136",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Temperature the dropped to minus ten degrees\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I137",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w7",
+              "text": "heatwave"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "ground"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "dry"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I139",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niebla",
+          "correct_answer": "Fog",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I140",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Flood"
+            },
+            {
+              "id": "o1",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Fog"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I141",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p2",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p3",
+              "left": "Ice",
+              "right": "Hielo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I142",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / gustar) ________ extreme heat.",
+          "correct_answer": "don't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I143",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The hurricane is moving towards the coast.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I144",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "careful,"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "wet"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "roads"
+            },
+            {
+              "id": "w0",
+              "text": "Be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I145",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I146",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seco/a",
+          "correct_answer": "Dry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I147",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Temperatura' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Flood"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o1",
+              "text": "Temperature"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I148",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p1",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p2",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p3",
+              "left": "Lightning",
+              "right": "Relámpago"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I149",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (ser/estar) ________ a big storm last night.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I150",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Inside stay during the thunderstorm\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I151",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "dropped"
+            },
+            {
+              "id": "w5",
+              "text": "ten"
+            },
+            {
+              "id": "w6",
+              "text": "degrees"
+            },
+            {
+              "id": "w1",
+              "text": "temperature"
+            },
+            {
+              "id": "w4",
+              "text": "minus"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I152",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I153",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aviso/Advertencia",
+          "correct_answer": "Warning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I154",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niebla' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fog"
+            },
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o2",
+              "text": "Dry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I155",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p1",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p2",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p3",
+              "left": "Flood",
+              "right": "Inundación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I156",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I157",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I heard the thunder from miles away.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I158",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "towards"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "moving"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "hurricane"
+            },
+            {
+              "id": "w6",
+              "text": "coast"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I159",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I160",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Inundación",
+          "correct_answer": "Flood",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I161",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seco/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dry"
+            },
+            {
+              "id": "o3",
+              "text": "Ice"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I162",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p1",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p2",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p3",
+              "left": "Dry",
+              "right": "Seco/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I163",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (snow) ________ a lot in the mountains.",
+          "correct_answer": "snows",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I164",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it so foggy i couldn't see the road\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I165",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "inside"
+            },
+            {
+              "id": "w4",
+              "text": "thunderstorm"
+            },
+            {
+              "id": "w0",
+              "text": "Stay"
+            },
+            {
+              "id": "w2",
+              "text": "during"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I166",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Extremo/a",
+          "correct_answer": "Extreme",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aviso/Advertencia' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Warning"
+            },
+            {
+              "id": "o3",
+              "text": "Thunder"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p1",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p2",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p3",
+              "left": "Temperature",
+              "right": "Temperatura"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I170",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser/estar) ________ the worst flood in history.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The ice on the lake is very thick.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "away"
+            },
+            {
+              "id": "w1",
+              "text": "heard"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "thunder"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "miles"
+            },
+            {
+              "id": "w4",
+              "text": "from"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I174",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Relámpago",
+          "correct_answer": "Lightning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I175",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inundación' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Extreme"
+            },
+            {
+              "id": "o3",
+              "text": "Lightning"
+            },
+            {
+              "id": "o1",
+              "text": "Flood"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I176",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p1",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p2",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p3",
+              "left": "Wet",
+              "right": "Mojado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I177",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Are you ________ (scared) of thunder?",
+          "correct_answer": "scared",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I178",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Blizzard a is a very dangerous snowstorm\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I179",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "couldn't"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "see"
+            },
+            {
+              "id": "w8",
+              "text": "road"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w3",
+              "text": "foggy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I181",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huracán",
+          "correct_answer": "Hurricane",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I182",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extremo/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Extreme"
+            },
+            {
+              "id": "o2",
+              "text": "Warning"
+            },
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I183",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p1",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p2",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I184",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ warning people about the hurricane.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I185",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The storm caused a lot of damage to the city.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I186",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "lake"
+            },
+            {
+              "id": "w1",
+              "text": "ice"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "thick"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I187",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I188",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hielo",
+          "correct_answer": "Ice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I189",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relámpago' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Drought"
+            },
+            {
+              "id": "o2",
+              "text": "Flood"
+            },
+            {
+              "id": "o1",
+              "text": "Lightning"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I190",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p1",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p3",
+              "left": "Drought",
+              "right": "Sequía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I191",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is the ________ (hot) day of the year.",
+          "correct_answer": "hottest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I192",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Struck lightning a tree in the park\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I193",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dangerous"
+            },
+            {
+              "id": "w6",
+              "text": "snowstorm"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "blizzard"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I194",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I195",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sequía",
+          "correct_answer": "Drought",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I196",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huracán' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o3",
+              "text": "Dry"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I197",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p1",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p2",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p3",
+              "left": "Hurricane",
+              "right": "Huracán"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I198",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The temperature is ________ (low) than zero.",
+          "correct_answer": "lower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I199",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The weather warning is for heavy snow.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I200",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "storm"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "lot"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "damage"
+            },
+            {
+              "id": "w9",
+              "text": "city"
+            },
+            {
+              "id": "w2",
+              "text": "caused"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I201",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o2",
+              "text": "In the sky."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I202",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trueno",
+          "correct_answer": "Thunder",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I203",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hielo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Temperature"
+            },
+            {
+              "id": "o1",
+              "text": "Ice"
+            },
+            {
+              "id": "o3",
+              "text": "Flood"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I204",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p1",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p2",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p3",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I205",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The wind is ________ (strong) than yesterday.",
+          "correct_answer": "stronger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I206",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was there a massive flood after the heavy rain\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I207",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Lightning"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "park"
+            },
+            {
+              "id": "w1",
+              "text": "struck"
+            },
+            {
+              "id": "w3",
+              "text": "tree"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I208",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            },
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tormenta de nieve",
+          "correct_answer": "Blizzard",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sequía' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Warning"
+            },
+            {
+              "id": "o1",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Drought",
+              "right": "Sequía"
+            },
+            {
+              "id": "p1",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p2",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p3",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I212",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / gustar) ________ extreme heat.",
+          "correct_answer": "don't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The drought lasted for three months.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "warning"
+            },
+            {
+              "id": "w6",
+              "text": "snow"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "heavy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I215",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I216",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tormenta",
+          "correct_answer": "Storm",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I217",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trueno' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Flood"
+            },
+            {
+              "id": "o1",
+              "text": "Thunder"
+            },
+            {
+              "id": "o2",
+              "text": "Ice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I218",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hurricane",
+              "right": "Huracán"
+            },
+            {
+              "id": "p1",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p3",
+              "left": "Fog",
+              "right": "Niebla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I219",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (ser/estar) ________ a big storm last night.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I220",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather extreme is becoming more common\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I221",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "heavy"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w8",
+              "text": "rain"
+            },
+            {
+              "id": "w4",
+              "text": "flood"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "massive"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I222",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I223",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mojado/a",
+          "correct_answer": "Wet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I224",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta de nieve' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Blizzard"
+            },
+            {
+              "id": "o3",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I225",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Extreme",
+              "right": "Extremo/a"
+            },
+            {
+              "id": "p1",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p2",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p3",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I226",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I227",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The ground is very dry after the heatwave.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I228",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "lasted"
+            },
+            {
+              "id": "w4",
+              "text": "three"
+            },
+            {
+              "id": "w5",
+              "text": "months"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "drought"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I229",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            },
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I230",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Peligroso/a",
+          "correct_answer": "Dangerous",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I231",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Wet"
+            },
+            {
+              "id": "o3",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I232",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Warning",
+              "right": "Aviso/Advertencia"
+            },
+            {
+              "id": "p1",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p2",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p3",
+              "left": "Storm",
+              "right": "Tormenta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I233",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (snow) ________ a lot in the mountains.",
+          "correct_answer": "snows",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I234",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Careful, be the roads are very wet\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I235",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Extreme"
+            },
+            {
+              "id": "w4",
+              "text": "more"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "common"
+            },
+            {
+              "id": "w3",
+              "text": "becoming"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I236",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I237",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Temperatura",
+          "correct_answer": "Temperature",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I238",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mojado/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Lightning"
+            },
+            {
+              "id": "o1",
+              "text": "Wet"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I239",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fog",
+              "right": "Niebla"
+            },
+            {
+              "id": "p1",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p2",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p3",
+              "left": "Thunder",
+              "right": "Trueno"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I240",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser/estar) ________ the worst flood in history.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I241",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The temperature dropped to minus ten degrees.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I242",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "dry"
+            },
+            {
+              "id": "w7",
+              "text": "heatwave"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "ground"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I243",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            },
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I244",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niebla",
+          "correct_answer": "Fog",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I245",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Storm"
+            },
+            {
+              "id": "o2",
+              "text": "Lightning"
+            },
+            {
+              "id": "o1",
+              "text": "Dangerous"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I246",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dangerous",
+              "right": "Peligroso/a"
+            },
+            {
+              "id": "p1",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p2",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p3",
+              "left": "Ice",
+              "right": "Hielo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I247",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "Are you ________ (scared) of thunder?",
+          "correct_answer": "scared",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I248",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hurricane the is moving towards the coast\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I249",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "roads"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "careful,"
+            },
+            {
+              "id": "w6",
+              "text": "wet"
+            },
+            {
+              "id": "w0",
+              "text": "Be"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I250",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seco/a",
+          "correct_answer": "Dry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Temperatura' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Storm"
+            },
+            {
+              "id": "o3",
+              "text": "Thunder"
+            },
+            {
+              "id": "o1",
+              "text": "Temperature"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Storm",
+              "right": "Tormenta"
+            },
+            {
+              "id": "p1",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p2",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p3",
+              "left": "Lightning",
+              "right": "Relámpago"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I254",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser/estar) ________ warning people about the hurricane.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stay inside during the thunderstorm.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "minus"
+            },
+            {
+              "id": "w6",
+              "text": "degrees"
+            },
+            {
+              "id": "w2",
+              "text": "dropped"
+            },
+            {
+              "id": "w1",
+              "text": "temperature"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "ten"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I257",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I258",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Aviso/Advertencia",
+          "correct_answer": "Warning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I259",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niebla' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "o1",
+              "text": "Fog"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I260",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thunder",
+              "right": "Trueno"
+            },
+            {
+              "id": "p1",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p2",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p3",
+              "left": "Flood",
+              "right": "Inundación"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I261",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is the ________ (hot) day of the year.",
+          "correct_answer": "hottest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I262",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Heard i the thunder from miles away\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I263",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "hurricane"
+            },
+            {
+              "id": "w4",
+              "text": "towards"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "coast"
+            },
+            {
+              "id": "w3",
+              "text": "moving"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I264",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            },
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I265",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Inundación",
+          "correct_answer": "Flood",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I266",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seco/a' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Temperature"
+            },
+            {
+              "id": "o1",
+              "text": "Dry"
+            },
+            {
+              "id": "o3",
+              "text": "Warning"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I267",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ice",
+              "right": "Hielo"
+            },
+            {
+              "id": "p1",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p2",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p3",
+              "left": "Dry",
+              "right": "Seco/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I268",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The temperature is ________ (low) than zero.",
+          "correct_answer": "lower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I269",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was so foggy I couldn't see the road.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I270",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "thunderstorm"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Stay"
+            },
+            {
+              "id": "w2",
+              "text": "during"
+            },
+            {
+              "id": "w1",
+              "text": "inside"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I271",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Did you hear the thunder last night?\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "In the sky."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, it was very loud!"
+            },
+            {
+              "id": "o3",
+              "text": "At 11 PM."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I272",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Extremo/a",
+          "correct_answer": "Extreme",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I273",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aviso/Advertencia' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Extreme"
+            },
+            {
+              "id": "o2",
+              "text": "Dangerous"
+            },
+            {
+              "id": "o1",
+              "text": "Warning"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I274",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lightning",
+              "right": "Relámpago"
+            },
+            {
+              "id": "p1",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p2",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p3",
+              "left": "Temperature",
+              "right": "Temperatura"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I275",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The wind is ________ (strong) than yesterday.",
+          "correct_answer": "stronger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I276",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ice the on the lake is very thick\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I277",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "away"
+            },
+            {
+              "id": "w1",
+              "text": "heard"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "from"
+            },
+            {
+              "id": "w3",
+              "text": "thunder"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "miles"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I278",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"What was the hottest temperature yesterday?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, it was."
+            },
+            {
+              "id": "o1",
+              "text": "It reached forty degrees."
+            },
+            {
+              "id": "o2",
+              "text": "In summer."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I279",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Relámpago",
+          "correct_answer": "Lightning",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I280",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inundación' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Flood"
+            },
+            {
+              "id": "o3",
+              "text": "Fog"
+            },
+            {
+              "id": "o2",
+              "text": "Temperature"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I281",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Flood",
+              "right": "Inundación"
+            },
+            {
+              "id": "p1",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p2",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p3",
+              "left": "Wet",
+              "right": "Mojado/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I282",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (not / gustar) ________ extreme heat.",
+          "correct_answer": "don't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I283",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"A blizzard is a very dangerous snowstorm.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I284",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "foggy"
+            },
+            {
+              "id": "w4",
+              "text": "I"
+            },
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w5",
+              "text": "couldn't"
+            },
+            {
+              "id": "w6",
+              "text": "see"
+            },
+            {
+              "id": "w8",
+              "text": "road"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "so"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I285",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Are you worried about the flood?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I do."
+            },
+            {
+              "id": "o1",
+              "text": "Yes, the river is rising very fast."
+            },
+            {
+              "id": "o2",
+              "text": "No, I am fine."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I286",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Huracán",
+          "correct_answer": "Hurricane",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I287",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extremo/a' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Extreme"
+            },
+            {
+              "id": "o3",
+              "text": "Warning"
+            },
+            {
+              "id": "o2",
+              "text": "Ice"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I288",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Dry",
+              "right": "Seco/a"
+            },
+            {
+              "id": "p1",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p2",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p3",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I289",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (ser/estar) ________ a big storm last night.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I290",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Storm the caused a lot of damage to the city\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I291",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "lake"
+            },
+            {
+              "id": "w7",
+              "text": "thick"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "ice"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I292",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it going to snow later?\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yes, I like it."
+            },
+            {
+              "id": "o2",
+              "text": "No, it's cold."
+            },
+            {
+              "id": "o1",
+              "text": "The forecast says there's a big blizzard coming."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hielo",
+          "correct_answer": "Ice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relámpago' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Dry"
+            },
+            {
+              "id": "o1",
+              "text": "Lightning"
+            },
+            {
+              "id": "o2",
+              "text": "Drought"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Temperature",
+              "right": "Temperatura"
+            },
+            {
+              "id": "p1",
+              "left": "Wet",
+              "right": "Mojado/a"
+            },
+            {
+              "id": "p2",
+              "left": "Blizzard",
+              "right": "Tormenta de nieve"
+            },
+            {
+              "id": "p3",
+              "left": "Drought",
+              "right": "Sequía"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I296",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lightning struck a tree in the park.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "blizzard"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dangerous"
+            },
+            {
+              "id": "w6",
+              "text": "snowstorm"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U28_I299",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para: \"Is it safe to drive in this fog?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "No, you should wait until it clears."
+            },
+            {
+              "id": "o3",
+              "text": "No, it's dangerous."
+            },
+            {
+              "id": "o2",
+              "text": "Yes, I have a car."
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I300",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Sequía",
+          "correct_answer": "Drought",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

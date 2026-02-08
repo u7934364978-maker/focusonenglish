@@ -13,7 +13,8 @@ import {
   ArrowRight,
   RotateCcw,
   Lightbulb,
-  Sparkles
+  Sparkles,
+  Loader2
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
@@ -83,6 +84,8 @@ export default function PremiumCourseSession({
   const [isFlipped, setIsFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [activeGapIndex, setActiveGapIndex] = useState(0);
+  const [aiExplanation, setAiExplanation] = useState<string | null>(null);
+  const [isExplaining, setIsExplaining] = useState(false);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
@@ -527,7 +530,35 @@ export default function PremiumCourseSession({
     setIsFlipped(false);
     setShuffledRight([]);
     setShuffledOptions([]);
+    setAiExplanation(null);
+    setIsExplaining(false);
   }, [currentIndex]);
+
+  const handleRequestAIExplanation = async () => {
+    const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
+    if (!interaction || isExplaining) return;
+
+    setIsExplaining(true);
+    try {
+      const response = await fetch('/api/course/explain', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ interaction }),
+      });
+      
+      const data = await response.json();
+      if (data.success) {
+        setAiExplanation(data.explanation);
+      } else {
+        setAiExplanation("Lo siento, no pude generar una explicación en este momento.");
+      }
+    } catch (error) {
+      console.error("AI Explanation Error:", error);
+      setAiExplanation("Error de conexión al generar la explicación.");
+    } finally {
+      setIsExplaining(false);
+    }
+  };
 
   const currentItem = queue[currentIndex];
   const progress = (currentIndex / queue.length) * 100;
@@ -862,7 +893,7 @@ export default function PremiumCourseSession({
         : String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "");
       
       // Support multiple correct answers separated by / or ,
-      const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
+      const possibleAnswers = correctText.split(/[\\/]+/).map((a: string) => normalizeForComparison(a)).filter(Boolean);
       
       // If we have options, we should also check if the text of the selected option matches any of the correct answers
       let optionText = normalizedOption;
@@ -2424,15 +2455,13 @@ export default function PremiumCourseSession({
               </p>
            </div>
            
-           <motion.div 
-             whileHover={{ scale: 1.05 }}
-             whileActive={{ scale: 0.95 }}
-             onClick={() => playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en)}
-             className="w-48 h-48 bg-indigo-600 rounded-[2.5rem] flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative"
+           <motion.button 
+             onClick={() => { playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en); }}
+             className="w-48 h-48 bg-indigo-600 rounded-[2.5rem] flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative active:scale-95 hover:scale-105 transition-transform"
            >
              <div className="absolute inset-0 bg-indigo-400 rounded-[2.5rem] animate-ping opacity-20 group-hover:opacity-40 transition-opacity" />
              <Play className="w-24 h-24 text-white fill-white ml-2 relative z-10" />
-           </motion.div>
+           </motion.button>
 
            <div className="space-y-6 text-center">
               <h3 className="text-slate-800 text-3xl md:text-5xl font-black tracking-tight leading-tight whitespace-pre-line">
@@ -2615,6 +2644,51 @@ export default function PremiumCourseSession({
                           <p className="whitespace-pre-line leading-relaxed">{interaction.explanation}</p>
                         </div>
                       </motion.div>
+                    )}
+
+                    {/* AI Dynamic Explanation */}
+                    {!interaction.explanation && (
+                      <div className="mt-2">
+                        {aiExplanation ? (
+                          <motion.div 
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            className={`flex items-start gap-2 bg-white/50 p-3 rounded-xl border ${
+                              feedback.correct ? 'border-[#a5db5e]/50' : 'border-[#ee9b9e]/50'
+                            }`}
+                          >
+                            <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+                            <div className="text-sm font-bold text-slate-700">
+                              <span className={`${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'} uppercase text-[10px] tracking-wider block mb-0.5`}>
+                                Explicación IA:
+                              </span>
+                              <p className="whitespace-pre-line leading-relaxed">{aiExplanation}</p>
+                            </div>
+                          </motion.div>
+                        ) : (
+                          <button
+                            onClick={handleRequestAIExplanation}
+                            disabled={isExplaining}
+                            className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-black transition-all border-b-2 active:translate-y-0.5 ${
+                              feedback.correct 
+                                ? 'bg-[#58cc02] text-white border-[#4b7e02] hover:bg-[#46a302]' 
+                                : 'bg-[#ff4b4b] text-white border-[#ea2b2b] hover:bg-[#d33131]'
+                            } disabled:opacity-50`}
+                          >
+                            {isExplaining ? (
+                              <>
+                                <Loader2 className="w-3 h-3 animate-spin" />
+                                GENERANDO...
+                              </>
+                            ) : (
+                              <>
+                                <Sparkles className="w-3 h-3" />
+                                ¿POR QUÉ ES ASÍ? (IA)
+                              </>
+                            )}
+                          </button>
+                        )}
+                      </div>
                     )}
                   </div>
                 </div>
