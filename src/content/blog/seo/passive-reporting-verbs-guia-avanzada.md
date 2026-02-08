@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-08"
 author: "Focus English"
 title: "Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)"
-description: "Guía detallada sobre la voz pasiva con verbos de reporte. Aprende estructuras como "It is said that" y "He is said to be". Ideal para niveles Advanced y Proficiency."
+description: "Guía detallada sobre la voz pasiva con verbos de reporte. Aprende estructuras como 'It is said that' y 'He is said to be'. Ideal para niveles Advanced y Proficiency."
 keywords: ["passive reporting verbs","passive of reporting verbs","reporting verbs passive voice","passive reporting structures","reporting passive voice"]
 canonical: "https://www.focus-on-english.com/blog/seo/passive-reporting-verbs-guia-avanzada"
 ---

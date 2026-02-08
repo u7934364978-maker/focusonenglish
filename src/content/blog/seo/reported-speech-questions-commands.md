@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-08"
 author: "Focus English"
 title: "Reported Speech: Preguntas, Órdenes y Peticiones"
-description: "Guía sobre cómo reportar preguntas (interrogativas) y órdenes (imperativos) en inglés. Aprende a usar "if/whether", "ask" y estructuras de infinitivo."
+description: "Guía sobre cómo reportar preguntas (interrogativas) y órdenes (imperativos) en inglés. Aprende a usar 'if/whether', 'ask' y estructuras de infinitivo."
 keywords: ["reported speech questions exercises pdf","reported speech commands exercises pdf","reported questions exercises pdf","reported speech commands and requests","reported questions"]
 canonical: "https://www.focus-on-english.com/blog/seo/reported-speech-questions-commands"
 ---

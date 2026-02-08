@@ -4,6 +4,9 @@ import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
 
+// Cache for blog articles to improve performance during build
+let articlesCache: BlogPost[] | null = null;
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -51,6 +54,10 @@ export function normalizeCategory(category: string): string {
 }
 
 export function getBlogArticles(): BlogPost[] {
+  if (articlesCache) {
+    return articlesCache;
+  }
+
   const allFiles = getAllFiles(BLOG_DIR);
   
   const articles = allFiles.map((filePath) => {
@@ -83,40 +90,13 @@ export function getBlogArticles(): BlogPost[] {
   }).filter((a): a is BlogPost => a !== null);
 
   // Sort by date descending
-  return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  articlesCache = articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return articlesCache;
 }
 
 export function getArticleBySlug(slug: string): BlogPost | null {
-  const allFiles = getAllFiles(BLOG_DIR);
-  const filePath = allFiles.find(f => {
-    const base = path.basename(f);
-    return base === `${slug}.md` || base === `${slug}.mdx`;
-  });
-
-  if (!filePath || !fs.existsSync(filePath)) {
-    return null;
-  }
-
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const { data, content } = matter(fileContent);
-
-  return {
-    slug,
-    title: data.title || "Untitled",
-    date: data.date || new Date().toISOString(),
-    author: data.author || "Focus English",
-    excerpt: data.excerpt || data.description || "",
-    description: data.description || data.excerpt,
-    category: normalizeCategory(data.category || "General"),
-    readTime: data.readTime || "5 min",
-    image: data.image,
-    alt: data.alt,
-    keywords: data.keywords || [],
-    faqs: data.faqs || [],
-    featured: data.featured || false,
-    canonical: data.canonical,
-    content,
-  } as BlogPost;
+  const articles = getBlogArticles();
+  return articles.find(a => a.slug === slug) || null;
 }
 
 export function getArticlesByCategory(category: string): BlogPost[] {

@@ -3,7 +3,7 @@ category: "seo"
 date: "2026-02-08"
 author: "Focus English"
 title: "Reporting Verbs Patterns: Lista Completa y Guía de Uso"
-description: "Descubre los patrones gramaticales de los reporting verbs. Lista completa de verbos con gerundio, infinitivo y cláusulas "that" para mejorar tu Writing y Speaking."
+description: "Descubre los patrones gramaticales de los reporting verbs. Lista completa de verbos con gerundio, infinitivo y cláusulas 'that' para mejorar tu Writing y Speaking."
 keywords: ["reporting verbs list pdf","reporting verb patterns","reporting verbs c1","verbos del reported speech","reporting verbs and structures"]
 canonical: "https://www.focus-on-english.com/blog/seo/reporting-verbs-patterns-list"
 ---
