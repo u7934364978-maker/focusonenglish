@@ -37,6 +37,7 @@
             }
           ],
           "correct_answer": "o1",
+          "explanation": "Para las horas en punto usamos 'o'clock'. Ejemplo: It is eight o'clock.",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -50,6 +51,7 @@
           "prompt_es": "Completa con la preposición correcta para la hora:",
           "stimulus_en": "The class starts ___ 9:00 AM.",
           "correct_answer": "at",
+          "explanation": "Usamos la preposición 'at' para hablar de horas específicas.",
           "mastery_tag": "grammar",
           "complexity": 3,
           "concept_tags": [
@@ -85,6 +87,7 @@
             "w3",
             "w4"
           ],
+          "explanation": "La estructura básica es 'It is' + [hora] + 'o'clock'.",
           "mastery_tag": "syntax",
           "complexity": 2,
           "concept_tags": [
@@ -420,7 +423,7 @@
         {
           "interaction_id": "U11_B4_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto tiempo falta para que salga el tren?",
+          "prompt_es": "¿Cómo se escribe correctamente '45 minutos'?",
           "options": [
             {
               "id": "o1",
@@ -428,14 +431,15 @@
             },
             {
               "id": "o2",
-              "text": "Fifteen minutes"
+              "text": "Fourty-five minutes"
             },
             {
               "id": "o3",
-              "text": "One hour"
+              "text": "Forty-five minuts"
             }
           ],
           "correct_answer": "o1",
+          "explanation": "Recuerda: '40' se escribe 'Forty' (sin la 'u' de 'four'). Además, los números compuestos del 21 al 99 siempre llevan guión (hyphen).",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [

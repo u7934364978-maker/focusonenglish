@@ -30,6 +30,7 @@ interface Props {
   onPerformanceUpdate?: (interactionId: string, quality: number) => void;
   onConceptUpdate?: (tags: string[], success: boolean) => void;
   initialIndex?: number;
+  continuousMode?: boolean;
   customQueue?: any[];
   userId?: string;
 }
@@ -54,6 +55,7 @@ export default function PremiumCourseSession({
   onPerformanceUpdate, 
   onConceptUpdate,
   initialIndex = 0, 
+  continuousMode = false,
   customQueue, 
   userId 
 }: Props) {
@@ -734,14 +736,24 @@ export default function PremiumCourseSession({
           setCurrentSceneIndex(0);
           setInteractionIndex(0);
         } else {
-          setShowSummary(true);
+          if (continuousMode) {
+            if (onNextUnit) onNextUnit();
+            else onComplete();
+          } else {
+            setShowSummary(true);
+          }
         }
       }
     } else {
       if (currentIndex < queue.length - 1) {
         setCurrentIndex(currentIndex + 1);
       } else {
-        setShowSummary(true);
+        if (continuousMode) {
+          if (onNextUnit) onNextUnit();
+          else onComplete();
+        } else {
+          setShowSummary(true);
+        }
       }
     }
   };

@@ -92,6 +92,7 @@ export default function PracticeClient({ interactions }: Props) {
     <PremiumCourseSession 
       unitData={sessionData}
       userId={user?.id}
+      continuousMode={true}
       onComplete={() => window.location.reload()}
       onNextUnit={() => window.location.reload()}
       onExit={() => router.push('/curso/ingles-a1')}

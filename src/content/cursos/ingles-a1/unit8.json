@@ -28,6 +28,7 @@
             { "id": "p4", "left": "Fifty", "right": "Cincuenta" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "explanation": "Las decenas en inglés suelen terminar en '-ty'. Por ejemplo: Twenty (20), Thirty (30), Forty (40), Fifty (50).",
           "mastery_tag": "vocab:numbers",
           "concept_tags": ["vocabulary", "numbers"],
           "complexity": 1
@@ -42,6 +43,7 @@
             { "id": "o3", "text": "A thousand" }
           ],
           "correct_answer": "o2",
+          "explanation": "'One hundred' es 100. 'Ten ten' no existe y 'A thousand' es 1000.",
           "mastery_tag": "vocab:numbers",
           "concept_tags": ["vocabulary", "numbers"],
           "complexity": 1
@@ -73,6 +75,7 @@
           "prompt_es": "Escribe el número 42 en letras:",
           "stimulus_en": "________-two",
           "correct_answer": "Forty",
+          "explanation": "Recuerda que 40 es 'Forty'. Pierde la 'u' que tiene el número 4 ('four').",
           "mastery_tag": "vocab:numbers",
           "concept_tags": ["vocabulary", "numbers"],
           "complexity": 2
@@ -95,6 +98,7 @@
             { "id": "w5", "text": "old." }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "explanation": "En inglés, la edad se expresa con el verbo 'to be' (am/is/are) y la estructura '[número] years old'. No se usa el verbo 'have'.",
           "mastery_tag": "syntax:age",
           "concept_tags": ["syntax", "numbers", "to-be"],
           "complexity": 2
@@ -109,6 +113,7 @@
             { "id": "o3", "text": "It is eight-fifty dollars." }
           ],
           "correct_answer": "o1",
+          "explanation": "85 se dice 'eighty-five'. 'Eighteen-five' no es correcto y 'eight-fifty' significaría 8:50.",
           "mastery_tag": "vocab:numbers",
           "concept_tags": ["vocabulary", "numbers", "prices"],
           "complexity": 2
