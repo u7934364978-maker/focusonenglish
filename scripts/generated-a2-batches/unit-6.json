@@ -502,22 +502,50 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "APPLE",
-          "clue": "A red or green fruit",
+          "word": "HEALTHY",
+          "clue": "Feeling good and strong",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 2
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps you when you are sick",
           "direction": "down",
-          "row": 0,
-          "col": 1
+          "row": 1,
+          "col": 6
         },
         {
           "word": "MARKET",
           "clue": "A place where you can buy fresh fruits and vegetables",
+          "direction": "down",
+          "row": 0,
+          "col": 3
+        },
+        {
+          "word": "APPLE",
+          "clue": "A red or green fruit",
+          "direction": "down",
+          "row": 4,
+          "col": 4
+        },
+        {
+          "word": "CHEAP",
+          "clue": "Not expensive",
+          "direction": "down",
+          "row": 3,
+          "col": 2
+        },
+        {
+          "word": "MONEY",
+          "clue": "What you need to buy things",
+          "direction": "down",
+          "row": 0,
+          "col": 8
+        },
+        {
+          "word": "STORE",
+          "clue": "Another word for shop",
           "direction": "across",
           "row": 2,
           "col": 0
@@ -525,37 +553,9 @@
         {
           "word": "BANK",
           "clue": "A place where you keep your money",
-          "direction": "down",
+          "direction": "across",
           "row": 1,
           "col": 2
-        },
-        {
-          "word": "HEALTHY",
-          "clue": "Feeling good and strong",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "CHEAP",
-          "clue": "Not expensive",
-          "direction": "down",
-          "row": 1,
-          "col": 4
-        },
-        {
-          "word": "MONEY",
-          "clue": "What you need to buy things",
-          "direction": "across",
-          "row": 6,
-          "col": 0
-        },
-        {
-          "word": "STORE",
-          "clue": "Another word for shop",
-          "direction": "down",
-          "row": 2,
-          "col": 5
         }
       ]
     },
@@ -1188,60 +1188,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "APPLE",
-          "clue": "A red or green fruit",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "THEATRE",
           "clue": "A place to watch plays",
-          "direction": "down",
-          "row": 0,
-          "col": 1
-        },
-        {
-          "word": "MUSIC",
-          "clue": "You can listen to this at a concert",
-          "direction": "across",
-          "row": 1,
-          "col": 3
-        },
-        {
-          "word": "MOVIE",
-          "clue": "Another word for film",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "CHEAP",
-          "clue": "Not expensive",
           "direction": "across",
           "row": 4,
-          "col": 0
+          "col": 4
         },
         {
           "word": "EXCITED",
           "clue": "How you feel before a fun event",
-          "direction": "across",
-          "row": 5,
-          "col": 1
+          "direction": "down",
+          "row": 0,
+          "col": 4
         },
         {
           "word": "TICKET",
           "clue": "You need this to enter a concert",
           "direction": "down",
           "row": 0,
-          "col": 7
+          "col": 6
         },
         {
           "word": "GUITAR",
           "clue": "A musical instrument with strings",
+          "direction": "down",
+          "row": 0,
+          "col": 7
+        },
+        {
+          "word": "APPLE",
+          "clue": "A red or green fruit",
+          "direction": "down",
+          "row": 0,
+          "col": 10
+        },
+        {
+          "word": "MUSIC",
+          "clue": "You can listen to this at a concert",
           "direction": "across",
-          "row": 7,
-          "col": 2
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "MOVIE",
+          "clue": "Another word for film",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "CHEAP",
+          "clue": "Not expensive",
+          "direction": "down",
+          "row": 3,
+          "col": 5
         }
       ]
     },
@@ -1863,52 +1863,52 @@
       "instructions": "Complete the crossword puzzle.",
       "items": [
         {
-          "word": "RAINY",
-          "clue": "Weather with a lot of water falling from the sky",
+          "word": "SUPERMARKET",
+          "clue": "A place where you buy food and other products",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "COLD",
-          "clue": "When the temperature is low",
-          "direction": "down",
-          "row": 0,
-          "col": 4
+          "row": 5,
+          "col": 3
         },
         {
           "word": "HEALTHY",
           "clue": "When someone is in good physical condition",
-          "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "SUPERMARKET",
-          "clue": "A place where you buy food and other products",
           "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 4,
+          "col": 6
         },
         {
           "word": "SHOULD",
           "clue": "A modal verb used to give advice",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "direction": "down",
+          "row": 5,
+          "col": 3
         },
         {
           "word": "SUMMER",
           "clue": "The warmest season of the year",
           "direction": "down",
-          "row": 2,
-          "col": 3
+          "row": 4,
+          "col": 4
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps you when you are sick",
+          "direction": "down",
+          "row": 0,
+          "col": 7
+        },
+        {
+          "word": "RAINY",
+          "clue": "Weather with a lot of water falling from the sky",
+          "direction": "down",
+          "row": 5,
+          "col": 7
+        },
+        {
+          "word": "COLD",
+          "clue": "When the temperature is low",
           "direction": "across",
-          "row": 6,
+          "row": 10,
           "col": 0
         }
       ]
@@ -2568,60 +2568,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "APPLE",
-          "clue": "A red or green fruit",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "RAIN",
-          "clue": "Water falling from clouds",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
           "word": "THEATRE",
           "clue": "A place to watch plays",
-          "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "SUNNY",
-          "clue": "Weather with a lot of sunshine",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "MUSIC",
-          "clue": "Sound that people sing or play",
           "direction": "across",
           "row": 4,
           "col": 0
         },
         {
-          "word": "COLD",
-          "clue": "Low temperature",
+          "word": "APPLE",
+          "clue": "A red or green fruit",
           "direction": "down",
-          "row": 2,
-          "col": 4
+          "row": 0,
+          "col": 2
         },
         {
-          "word": "SHOP",
-          "clue": "A place to buy things",
+          "word": "SUNNY",
+          "clue": "Weather with a lot of sunshine",
           "direction": "across",
-          "row": 6,
-          "col": 3
+          "row": 7,
+          "col": 0
+        },
+        {
+          "word": "MUSIC",
+          "clue": "Sound that people sing or play",
+          "direction": "down",
+          "row": 5,
+          "col": 0
         },
         {
           "word": "MOVIE",
           "clue": "A film you watch at the cinema",
           "direction": "down",
-          "row": 2,
+          "row": 0,
           "col": 6
+        },
+        {
+          "word": "RAIN",
+          "clue": "Water falling from clouds",
+          "direction": "down",
+          "row": 3,
+          "col": 3
+        },
+        {
+          "word": "COLD",
+          "clue": "Low temperature",
+          "direction": "across",
+          "row": 9,
+          "col": 0
+        },
+        {
+          "word": "SHOP",
+          "clue": "A place to buy things",
+          "direction": "down",
+          "row": 3,
+          "col": 1
         }
       ]
     },
@@ -3270,60 +3270,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "RAIN",
-          "clue": "Water falling from clouds",
+          "word": "CHEESE",
+          "clue": "A dairy product often used in sandwiches",
           "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "SPRING",
+          "clue": "The season after winter",
+          "direction": "down",
+          "row": 4,
+          "col": 4
+        },
+        {
+          "word": "SUMMER",
+          "clue": "The warmest season of the year",
+          "direction": "down",
           "row": 0,
           "col": 2
         },
         {
           "word": "SUNNY",
           "clue": "Weather with a lot of sunshine",
-          "direction": "down",
-          "row": 0,
-          "col": 5
+          "direction": "across",
+          "row": 8,
+          "col": 2
         },
         {
-          "word": "CHEESE",
-          "clue": "A dairy product often used in sandwiches",
+          "word": "WINDY",
+          "clue": "Weather with a lot of wind",
           "direction": "across",
-          "row": 1,
-          "col": 0
+          "row": 7,
+          "col": 3
+        },
+        {
+          "word": "RAIN",
+          "clue": "Water falling from clouds",
+          "direction": "across",
+          "row": 6,
+          "col": 4
         },
         {
           "word": "COLD",
           "clue": "Low temperature weather",
           "direction": "down",
-          "row": 1,
-          "col": 3
+          "row": 4,
+          "col": 0
         },
         {
           "word": "SHOP",
           "clue": "A place where you can buy things",
-          "direction": "across",
+          "direction": "down",
           "row": 3,
           "col": 1
-        },
-        {
-          "word": "SPRING",
-          "clue": "The season after winter",
-          "direction": "down",
-          "row": 2,
-          "col": 6
-        },
-        {
-          "word": "SUMMER",
-          "clue": "The warmest season of the year",
-          "direction": "across",
-          "row": 5,
-          "col": 0
-        },
-        {
-          "word": "WINDY",
-          "clue": "Weather with a lot of wind",
-          "direction": "down",
-          "row": 4,
-          "col": 4
         }
       ]
     },
@@ -3961,38 +3961,38 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "PHONE",
-          "clue": "A device used to call people",
+          "word": "FRIEND",
+          "clue": "Someone you like and spend time with",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "MONEY",
-          "clue": "You use this to buy things",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "CLOUD",
-          "clue": "White and fluffy in the sky",
-          "direction": "across",
-          "row": 1,
+          "row": 5,
           "col": 1
         },
         {
-          "word": "SHOP",
-          "clue": "A place to buy items",
+          "word": "PHONE",
+          "clue": "A device used to call people",
           "direction": "down",
           "row": 1,
           "col": 4
         },
         {
+          "word": "MONEY",
+          "clue": "You use this to buy things",
+          "direction": "down",
+          "row": 3,
+          "col": 5
+        },
+        {
+          "word": "CLOUD",
+          "clue": "White and fluffy in the sky",
+          "direction": "down",
+          "row": 1,
+          "col": 6
+        },
+        {
           "word": "CHEAP",
           "clue": "Not expensive",
           "direction": "across",
-          "row": 3,
+          "row": 1,
           "col": 0
         },
         {
@@ -4003,11 +4003,11 @@
           "col": 3
         },
         {
-          "word": "FRIEND",
-          "clue": "Someone you like and spend time with",
-          "direction": "across",
-          "row": 5,
-          "col": 0
+          "word": "SHOP",
+          "clue": "A place to buy items",
+          "direction": "down",
+          "row": 0,
+          "col": 1
         }
       ]
     },

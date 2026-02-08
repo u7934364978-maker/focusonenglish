@@ -540,46 +540,46 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "SHOP",
-          "clue": "A place where you buy things",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "NOSE",
-          "clue": "Part of the face used for smelling",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
           "word": "BREAD",
           "clue": "A common food made from flour",
           "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "HAT",
-          "clue": "Something you wear on your head",
-          "direction": "down",
-          "row": 1,
-          "col": 4
+          "row": 3,
+          "col": 2
         },
         {
           "word": "TIRED",
           "clue": "How you feel after a long day",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "direction": "down",
+          "row": 1,
+          "col": 3
         },
         {
           "word": "SHOES",
           "clue": "You wear these on your feet",
           "direction": "down",
-          "row": 3,
-          "col": 3
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "SHOP",
+          "clue": "A place where you buy things",
+          "direction": "across",
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "NOSE",
+          "clue": "Part of the face used for smelling",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "HAT",
+          "clue": "Something you wear on your head",
+          "direction": "down",
+          "row": 2,
+          "col": 5
         }
       ]
     },
@@ -1232,46 +1232,46 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "COAT",
-          "clue": "You wear this when it’s cold outside",
+          "word": "PHONE",
+          "clue": "You use this to call your friends",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
         },
         {
-          "word": "PHONE",
-          "clue": "You use this to call your friends",
+          "word": "SHIRT",
+          "clue": "A piece of clothing for your upper body",
           "direction": "down",
-          "row": 0,
+          "row": 2,
+          "col": 1
+        },
+        {
+          "word": "SUNNY",
+          "clue": "When the sun is shining and there are no clouds",
+          "direction": "down",
+          "row": 1,
+          "col": 3
+        },
+        {
+          "word": "COAT",
+          "clue": "You wear this when it’s cold outside",
+          "direction": "down",
+          "row": 2,
           "col": 2
         },
         {
           "word": "RAIN",
           "clue": "Water that falls from the sky",
           "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "SHIRT",
-          "clue": "A piece of clothing for your upper body",
-          "direction": "down",
-          "row": 1,
-          "col": 4
+          "row": 9,
+          "col": 0
         },
         {
           "word": "SHOP",
           "clue": "A place where you can buy things",
-          "direction": "across",
-          "row": 3,
-          "col": 0
-        },
-        {
-          "word": "SUNNY",
-          "clue": "When the sun is shining and there are no clouds",
           "direction": "down",
           "row": 0,
-          "col": 5
+          "col": 0
         }
       ]
     },

@@ -498,57 +498,57 @@
           "word": "BREAKFAST",
           "clue": "The first meal of the day",
           "direction": "across",
+          "row": 4,
+          "col": 3
+        },
+        {
+          "word": "AFTERNOON",
+          "clue": "The time of day between lunch and dinner",
+          "direction": "down",
           "row": 0,
-          "col": 0
+          "col": 4
+        },
+        {
+          "word": "EXERCISE",
+          "clue": "An activity you do to keep fit",
+          "direction": "down",
+          "row": 4,
+          "col": 5
         },
         {
           "word": "MORNING",
           "clue": "The time of day when you usually wake up",
-          "direction": "down",
-          "row": 0,
-          "col": 5
+          "direction": "across",
+          "row": 7,
+          "col": 3
         },
         {
           "word": "DINNER",
           "clue": "The meal you eat in the evening",
           "direction": "across",
-          "row": 2,
-          "col": 2
+          "row": 3,
+          "col": 0
         },
         {
           "word": "SCHOOL",
           "clue": "A place where children go to learn",
           "direction": "down",
-          "row": 1,
-          "col": 7
-        },
-        {
-          "word": "AFTERNOON",
-          "clue": "The time of day between lunch and dinner",
-          "direction": "across",
           "row": 4,
-          "col": 0
+          "col": 10
         },
         {
           "word": "NIGHT",
           "clue": "The time of day when you sleep",
           "direction": "down",
-          "row": 3,
-          "col": 9
-        },
-        {
-          "word": "EXERCISE",
-          "clue": "An activity you do to keep fit",
-          "direction": "across",
-          "row": 6,
-          "col": 2
+          "row": 0,
+          "col": 11
         },
         {
           "word": "AT",
           "clue": "A preposition used with times of day, like '___ 7 o'clock'",
           "direction": "down",
-          "row": 5,
-          "col": 4
+          "row": 4,
+          "col": 6
         }
       ]
     },
@@ -1182,35 +1182,14 @@
           "word": "BREAKFAST",
           "clue": "The first meal of the day, usually in the morning.",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "READ",
-          "clue": "To look at and understand words in a book or newspaper.",
-          "direction": "down",
-          "row": 1,
-          "col": 7
+          "row": 2,
+          "col": 1
         },
         {
           "word": "EVENING",
           "clue": "The time of day after the afternoon and before the night.",
-          "direction": "across",
-          "row": 2,
-          "col": 2
-        },
-        {
-          "word": "DINNER",
-          "clue": "The main meal of the day, usually eaten in the evening.",
           "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "SLEEP",
-          "clue": "To rest with your eyes closed at night.",
-          "direction": "across",
-          "row": 4,
+          "row": 2,
           "col": 3
         },
         {
@@ -1218,7 +1197,28 @@
           "clue": "The early part of the day, before noon.",
           "direction": "down",
           "row": 0,
-          "col": 9
+          "col": 2
+        },
+        {
+          "word": "DINNER",
+          "clue": "The main meal of the day, usually eaten in the evening.",
+          "direction": "across",
+          "row": 5,
+          "col": 0
+        },
+        {
+          "word": "SLEEP",
+          "clue": "To rest with your eyes closed at night.",
+          "direction": "down",
+          "row": 2,
+          "col": 8
+        },
+        {
+          "word": "READ",
+          "clue": "To look at and understand words in a book or newspaper.",
+          "direction": "down",
+          "row": 0,
+          "col": 4
         }
       ]
     },
@@ -1849,50 +1849,50 @@
           "word": "BREAKFAST",
           "clue": "The meal you have in the morning",
           "direction": "across",
-          "row": 0,
+          "row": 2,
           "col": 0
         },
         {
           "word": "EVENING",
           "clue": "The time of day after the afternoon",
           "direction": "down",
+          "row": 2,
+          "col": 2
+        },
+        {
+          "word": "MORNING",
+          "clue": "The time of day when you wake up",
+          "direction": "down",
           "row": 0,
-          "col": 3
+          "col": 1
         },
         {
           "word": "SCHOOL",
           "clue": "A place where children learn",
-          "direction": "across",
+          "direction": "down",
           "row": 2,
-          "col": 0
+          "col": 7
+        },
+        {
+          "word": "WATCH",
+          "clue": "A verb meaning to look at something like TV",
+          "direction": "down",
+          "row": 1,
+          "col": 3
+        },
+        {
+          "word": "SLEEP",
+          "clue": "What you do at night in bed",
+          "direction": "across",
+          "row": 7,
+          "col": 6
         },
         {
           "word": "AT",
           "clue": "We use this preposition with clock times",
           "direction": "down",
-          "row": 0,
-          "col": 6
-        },
-        {
-          "word": "WATCH",
-          "clue": "A verb meaning to look at something like TV",
-          "direction": "across",
-          "row": 4,
-          "col": 2
-        },
-        {
-          "word": "SLEEP",
-          "clue": "What you do at night in bed",
-          "direction": "down",
           "row": 2,
-          "col": 8
-        },
-        {
-          "word": "MORNING",
-          "clue": "The time of day when you wake up",
-          "direction": "across",
-          "row": 6,
-          "col": 1
+          "col": 3
         }
       ]
     },
@@ -2527,7 +2527,7 @@
           "word": "MORNING",
           "clue": "The time of day when you have breakfast.",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
         },
         {
@@ -2535,41 +2535,41 @@
           "clue": "The time of day when you usually have dinner.",
           "direction": "down",
           "row": 0,
-          "col": 2
-        },
-        {
-          "word": "WORK",
-          "clue": "An activity you do to earn money.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "col": 3
         },
         {
           "word": "SCHOOL",
           "clue": "A place where you learn new things.",
           "direction": "down",
           "row": 0,
-          "col": 4
+          "col": 1
         },
         {
           "word": "LUNCH",
           "clue": "A meal you have in the middle of the day.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "direction": "down",
+          "row": 1,
+          "col": 5
         },
         {
-          "word": "AT",
-          "clue": "Preposition used with specific times, e.g., ___ 7 o'clock.",
-          "direction": "across",
-          "row": 6,
-          "col": 1
+          "word": "WORK",
+          "clue": "An activity you do to earn money.",
+          "direction": "down",
+          "row": 1,
+          "col": 2
         },
         {
           "word": "READ",
           "clue": "What you do with a book.",
+          "direction": "across",
+          "row": 0,
+          "col": 2
+        },
+        {
+          "word": "AT",
+          "clue": "Preposition used with specific times, e.g., ___ 7 o'clock.",
           "direction": "down",
-          "row": 6,
+          "row": 0,
           "col": 4
         }
       ]
@@ -3234,50 +3234,50 @@
           "word": "BREAKFAST",
           "clue": "The first meal of the day",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 3,
+          "col": 1
         },
         {
           "word": "EVENING",
           "clue": "The time of day when people usually relax",
           "direction": "down",
-          "row": 0,
-          "col": 8
-        },
-        {
-          "word": "SCHOOL",
-          "clue": "A place where students learn",
-          "direction": "across",
-          "row": 2,
-          "col": 4
-        },
-        {
-          "word": "DINNER",
-          "clue": "The meal people eat in the evening",
-          "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 3,
+          "col": 3
         },
         {
           "word": "MORNING",
           "clue": "The time of day from when you wake up until noon",
           "direction": "down",
-          "row": 0,
-          "col": 6
+          "row": 1,
+          "col": 2
+        },
+        {
+          "word": "SCHOOL",
+          "clue": "A place where students learn",
+          "direction": "down",
+          "row": 3,
+          "col": 8
+        },
+        {
+          "word": "DINNER",
+          "clue": "The meal people eat in the evening",
+          "direction": "across",
+          "row": 6,
+          "col": 0
         },
         {
           "word": "WORK",
           "clue": "What adults do to earn money",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "direction": "down",
+          "row": 0,
+          "col": 5
         },
         {
           "word": "BED",
           "clue": "Where you sleep at night",
-          "direction": "across",
-          "row": 6,
-          "col": 3
+          "direction": "down",
+          "row": 3,
+          "col": 1
         }
       ]
     },
@@ -3919,54 +3919,54 @@
           "word": "BREAKFAST",
           "clue": "First meal of the day",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 2,
+          "col": 1
         },
         {
           "word": "EVENING",
           "clue": "Time of day after the afternoon",
           "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "SCHOOL",
-          "clue": "Place where you learn",
-          "direction": "across",
           "row": 2,
-          "col": 2
-        },
-        {
-          "word": "DINNER",
-          "clue": "Last meal of the day",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "col": 3
         },
         {
           "word": "MORNING",
           "clue": "Time of day when you wake up",
           "direction": "down",
           "row": 0,
-          "col": 0
+          "col": 2
         },
         {
-          "word": "AT",
-          "clue": "Preposition used with times, like ___ 7 o'clock",
+          "word": "SCHOOL",
+          "clue": "Place where you learn",
           "direction": "down",
           "row": 2,
-          "col": 7
+          "col": 8
+        },
+        {
+          "word": "DINNER",
+          "clue": "Last meal of the day",
+          "direction": "across",
+          "row": 5,
+          "col": 0
         },
         {
           "word": "WALK",
           "clue": "To move by putting one foot in front of the other",
-          "direction": "across",
-          "row": 6,
-          "col": 3
+          "direction": "down",
+          "row": 1,
+          "col": 4
         },
         {
           "word": "READ",
           "clue": "To look at and understand words",
+          "direction": "down",
+          "row": 0,
+          "col": 7
+        },
+        {
+          "word": "AT",
+          "clue": "Preposition used with times, like ___ 7 o'clock",
           "direction": "down",
           "row": 1,
           "col": 9

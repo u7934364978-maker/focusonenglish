@@ -364,7 +364,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               
               const isCorrect = answersToCheck.some(ca => 
                 userAnswer.toLowerCase().trim() === ca
-              );
+              ) || 
+              (q as any).acceptableAlternatives?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
+              (q as any).correctAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim());
               if (isCorrect) earnedPoints += q.points;
             }
           } catch (error) {
@@ -450,19 +452,51 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           } else {
             // Fallback to simple matching
             const userAnswerNorm = userAnswer.toLowerCase().trim();
-            const correctAnswerNorm = t.correctAnswer.toLowerCase().trim();
-            if (userAnswerNorm === correctAnswerNorm) {
+            const rawCorrectAnswers = [
+              t.correctAnswer,
+              ...( (t as any).acceptableAnswers || [] ),
+              ...( (t as any).acceptableAlternatives || [] )
+            ];
+            const correctAnswers = rawCorrectAnswers.map(a => a.toLowerCase().trim());
+            
+            const isCorrect = correctAnswers.includes(userAnswerNorm);
+            if (isCorrect) {
               earnedPoints += t.points;
             }
+
+            evaluations[t.id] = {
+              isCorrect,
+              score: isCorrect ? 100 : 0,
+              feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+              detailedExplanation: isCorrect 
+                ? 'Tu respuesta es correcta.' 
+                : `La respuesta correcta es: ${t.correctAnswer}`
+            };
           }
         } catch (error) {
           console.error('Error evaluating key-word transformation:', error);
           // Fallback to simple matching
           const userAnswerNorm = userAnswer.toLowerCase().trim();
-          const correctAnswerNorm = t.correctAnswer.toLowerCase().trim();
-          if (userAnswerNorm === correctAnswerNorm) {
+          const rawCorrectAnswers = [
+            t.correctAnswer,
+            ...( (t as any).acceptableAnswers || [] ),
+            ...( (t as any).acceptableAlternatives || [] )
+          ];
+          const correctAnswers = rawCorrectAnswers.map(a => a.toLowerCase().trim());
+          const isCorrect = correctAnswers.includes(userAnswerNorm);
+          
+          if (isCorrect) {
             earnedPoints += t.points;
           }
+
+          evaluations[t.id] = {
+            isCorrect,
+            score: isCorrect ? 100 : 0,
+            feedback: isCorrect ? '✓ ¡Correcto!' : '✗ Respuesta incorrecta',
+            detailedExplanation: isCorrect 
+              ? 'Tu respuesta es correcta.' 
+              : `La respuesta correcta es: ${t.correctAnswer}`
+          };
         }
       }
 
@@ -543,7 +577,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           // Fallback
           const userAnswerLower = userAnswer.toLowerCase().trim();
           const isCorrect = userAnswerLower === q.correctAnswer?.toLowerCase().trim() ||
-            (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
+            ( (q as any).acceptableAnswers && (q as any).acceptableAnswers.some((ans: string) => 
+              userAnswerLower === ans.toLowerCase().trim()
+            )) ||
+            ( (q as any).acceptableAlternatives && (q as any).acceptableAlternatives.some((ans: string) => 
               userAnswerLower === ans.toLowerCase().trim()
             ));
           
@@ -721,6 +758,12 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           const isCorrect = userAnswerNorm === correctAnswerNorm ||
             (item.alternatives && item.alternatives.some((alt: string) => 
               userAnswerNorm === alt.toLowerCase().trim()
+            )) ||
+            (item.acceptableAnswers && item.acceptableAnswers.some((ans: string) => 
+              userAnswerNorm === ans.toLowerCase().trim()
+            )) ||
+            (item.acceptableAlternatives && item.acceptableAlternatives.some((alt: string) => 
+              userAnswerNorm === alt.toLowerCase().trim()
             ));
           
           if (isCorrect) earnedPoints += item.points || 1;
@@ -864,7 +907,12 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           continue;
         }
 
-        const correctAnswers = gap.correctAnswers || [gap.correctAnswer];
+        const correctAnswers = [
+          ...(gap.correctAnswers || []),
+          ...(gap.acceptableAnswers || []),
+          ...(gap.acceptableAlternatives || []),
+          gap.correctAnswer
+        ].filter(Boolean);
         const userAnswerNorm = userAnswer.toLowerCase().trim();
         const isCorrect = correctAnswers.some((ans: string) => 
           userAnswerNorm === ans.toLowerCase().trim()

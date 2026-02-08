@@ -119,8 +119,14 @@ export default function SingleQuestionExercise({
         } else {
           // Fallback to simple evaluation
           const userAnswerLower = (userAnswer || '').toString().toLowerCase().trim();
-          const correctAnswerLower = question.correctAnswer.toString().toLowerCase().trim();
-          const correct = userAnswerLower === correctAnswerLower;
+          const q = question as any;
+          const correctAnswers = [
+            ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+            ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
+            ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
+          ].filter(Boolean).map(a => a.toLowerCase().trim());
+          
+          const correct = correctAnswers.includes(userAnswerLower);
           setIsCorrect(correct);
           if (correct) {
             setShowConfetti(true);
@@ -144,8 +150,13 @@ export default function SingleQuestionExercise({
         correct = userAnswer === question.correctAnswer;
       } else if (question.type === 'fill-blank') {
         const userAnswerLower = (userAnswer || '').toString().toLowerCase().trim();
-        const correctAnswerLower = question.correctAnswer.toString().toLowerCase().trim();
-        correct = userAnswerLower === correctAnswerLower;
+        const q = question as any;
+        const correctAnswers = [
+          ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+          ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
+          ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
+        ].filter(Boolean).map(a => a.toLowerCase().trim());
+        correct = correctAnswers.includes(userAnswerLower);
       }
       setIsCorrect(correct);
       if (correct) {

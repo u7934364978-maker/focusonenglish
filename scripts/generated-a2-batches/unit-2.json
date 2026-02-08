@@ -483,9 +483,16 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "WHO",
-          "clue": "Question word used to ask about a person",
+          "word": "TEACHER",
+          "clue": "Job title for someone who works in a school",
           "direction": "across",
+          "row": 3,
+          "col": 0
+        },
+        {
+          "word": "DOCTOR",
+          "clue": "Job title for someone who helps sick people",
+          "direction": "down",
           "row": 0,
           "col": 0
         },
@@ -493,49 +500,42 @@
           "word": "WHERE",
           "clue": "Question word for asking about a place",
           "direction": "down",
-          "row": 0,
+          "row": 1,
+          "col": 1
+        },
+        {
+          "word": "WHAT",
+          "clue": "Question word used to ask for information",
+          "direction": "down",
+          "row": 1,
           "col": 2
         },
         {
-          "word": "TEACHER",
-          "clue": "Job title for someone who works in a school",
-          "direction": "across",
-          "row": 1,
-          "col": 0
-        },
-        {
-          "word": "IS",
-          "clue": "Be verb used with he, she, it",
+          "word": "WHO",
+          "clue": "Question word used to ask about a person",
           "direction": "down",
-          "row": 0,
+          "row": 2,
           "col": 4
         },
         {
           "word": "WHY",
           "clue": "Question word to ask for a reason",
           "direction": "across",
-          "row": 3,
-          "col": 1
-        },
-        {
-          "word": "DOCTOR",
-          "clue": "Job title for someone who helps sick people",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "row": 1,
+          "col": 2
         },
         {
           "word": "ARE",
           "clue": "Be verb used with you, we, they",
           "direction": "down",
           "row": 1,
-          "col": 4
+          "col": 5
         },
         {
-          "word": "WHAT",
-          "clue": "Question word used to ask for information",
+          "word": "IS",
+          "clue": "Be verb used with he, she, it",
           "direction": "across",
-          "row": 5,
+          "row": 8,
           "col": 0
         }
       ]
@@ -1191,53 +1191,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "WHO",
-          "clue": "Question word to ask about a person",
+          "word": "TEACHER",
+          "clue": "A person who works in a school",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "IS",
-          "clue": "Be verb used in questions (third person singular)",
-          "direction": "down",
-          "row": 0,
+          "row": 3,
           "col": 2
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps sick people",
-          "direction": "across",
-          "row": 1,
-          "col": 0
+          "direction": "down",
+          "row": 0,
+          "col": 2
         },
         {
           "word": "WHERE",
           "clue": "Question word to ask about a place",
           "direction": "down",
-          "row": 0,
-          "col": 5
+          "row": 1,
+          "col": 3
         },
         {
           "word": "JANE",
           "clue": "A common female name, spell it",
-          "direction": "across",
-          "row": 3,
-          "col": 0
+          "direction": "down",
+          "row": 2,
+          "col": 4
         },
         {
-          "word": "TEACHER",
-          "clue": "A person who works in a school",
+          "word": "WHO",
+          "clue": "Question word to ask about a person",
           "direction": "down",
-          "row": 1,
-          "col": 7
+          "row": 2,
+          "col": 6
         },
         {
           "word": "NOT",
           "clue": "Negative form of the verb 'be'",
           "direction": "across",
-          "row": 4,
-          "col": 5
+          "row": 3,
+          "col": 0
+        },
+        {
+          "word": "IS",
+          "clue": "Be verb used in questions (third person singular)",
+          "direction": "across",
+          "row": 8,
+          "col": 2
         }
       ]
     },
@@ -1937,52 +1937,52 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "ENGINEER",
+          "clue": "A person who designs and builds things",
+          "direction": "across",
+          "row": 5,
+          "col": 1
+        },
+        {
           "word": "TEACHER",
           "clue": "Someone who works in a school",
-          "direction": "across",
-          "row": 0,
-          "col": 0
+          "direction": "down",
+          "row": 4,
+          "col": 1
         },
         {
           "word": "STUDENT",
           "clue": "A person who studies at school",
           "direction": "down",
           "row": 0,
-          "col": 7
+          "col": 2
         },
         {
           "word": "WHERE",
           "clue": "A question word for asking about places",
-          "direction": "across",
-          "row": 2,
-          "col": 1
+          "direction": "down",
+          "row": 3,
+          "col": 6
         },
         {
           "word": "NOT",
           "clue": "This word makes a sentence negative",
           "direction": "down",
-          "row": 1,
-          "col": 3
-        },
-        {
-          "word": "ENGINEER",
-          "clue": "A person who designs and builds things",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "IS",
-          "clue": "A form of 'be' used with he, she, it",
-          "direction": "down",
-          "row": 3,
+          "row": 5,
           "col": 5
         },
         {
           "word": "WHY",
           "clue": "A question word for asking reasons",
           "direction": "across",
-          "row": 6,
+          "row": 8,
+          "col": 0
+        },
+        {
+          "word": "IS",
+          "clue": "A form of 'be' used with he, she, it",
+          "direction": "down",
+          "row": 5,
           "col": 4
         }
       ]
@@ -2613,52 +2613,52 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "NAME",
-          "clue": "What is your _____? (question word)",
+          "word": "TEACHER",
+          "clue": "A person who educates students",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 1
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps sick people",
           "direction": "down",
-          "row": 0,
-          "col": 4
+          "row": 1,
+          "col": 1
         },
         {
           "word": "WHERE",
           "clue": "_____ do you live? (question word)",
-          "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "NO",
-          "clue": "The opposite of 'yes' (negative form)",
-          "direction": "down",
-          "row": 1,
-          "col": 3
-        },
-        {
-          "word": "NURSE",
-          "clue": "A person who assists doctors",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "HOW",
-          "clue": "_____ are you? (question word)",
           "direction": "down",
           "row": 2,
           "col": 2
         },
         {
-          "word": "TEACHER",
-          "clue": "A person who educates students",
+          "word": "NURSE",
+          "clue": "A person who assists doctors",
+          "direction": "down",
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "NAME",
+          "clue": "What is your _____? (question word)",
+          "direction": "down",
+          "row": 3,
+          "col": 3
+        },
+        {
+          "word": "HOW",
+          "clue": "_____ are you? (question word)",
+          "direction": "down",
+          "row": 4,
+          "col": 5
+        },
+        {
+          "word": "NO",
+          "clue": "The opposite of 'yes' (negative form)",
           "direction": "across",
-          "row": 6,
+          "row": 2,
           "col": 0
         }
       ]
@@ -3265,53 +3265,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "NAME",
-          "clue": "What is your first word?",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "TEACHER",
           "clue": "Someone who works at a school.",
-          "direction": "down",
-          "row": 1,
-          "col": 2
+          "direction": "across",
+          "row": 3,
+          "col": 4
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps sick people.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "WHERE",
-          "clue": "A question word for location.",
           "direction": "down",
           "row": 0,
           "col": 4
         },
         {
+          "word": "WHERE",
+          "clue": "A question word for location.",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
           "word": "ISN'T",
           "clue": "The negative form of 'is'.",
           "direction": "across",
-          "row": 4,
+          "row": 3,
           "col": 0
         },
         {
           "word": "SPELL",
           "clue": "To say or write the letters of a word.",
           "direction": "down",
-          "row": 3,
-          "col": 1
+          "row": 1,
+          "col": 9
+        },
+        {
+          "word": "NAME",
+          "clue": "What is your first word?",
+          "direction": "down",
+          "row": 2,
+          "col": 6
         },
         {
           "word": "WHAT",
           "clue": "A question word used for things.",
-          "direction": "across",
-          "row": 5,
-          "col": 2
+          "direction": "down",
+          "row": 2,
+          "col": 8
         }
       ]
     },
@@ -3936,49 +3936,49 @@
           "word": "TEACHER",
           "clue": "A person who works in a school",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 4
         },
         {
           "word": "DOCTOR",
           "clue": "A person who helps sick people",
           "direction": "down",
-          "row": 0,
-          "col": 5
+          "row": 1,
+          "col": 4
         },
         {
           "word": "WHERE",
           "clue": "Question word for asking about place",
-          "direction": "across",
+          "direction": "down",
           "row": 2,
-          "col": 1
+          "col": 5
         },
         {
           "word": "ISN'T",
           "clue": "Short form of 'is not'",
-          "direction": "down",
-          "row": 1,
-          "col": 3
-        },
-        {
-          "word": "HELLO",
-          "clue": "A common way to greet someone",
           "direction": "across",
           "row": 4,
           "col": 0
         },
         {
+          "word": "HELLO",
+          "clue": "A common way to greet someone",
+          "direction": "down",
+          "row": 4,
+          "col": 8
+        },
+        {
           "word": "NURSE",
           "clue": "A person who helps doctors",
           "direction": "down",
-          "row": 4,
-          "col": 2
+          "row": 0,
+          "col": 9
         },
         {
           "word": "SPELL",
           "clue": "To say the letters of a word",
-          "direction": "across",
-          "row": 6,
+          "direction": "down",
+          "row": 4,
           "col": 1
         }
       ]

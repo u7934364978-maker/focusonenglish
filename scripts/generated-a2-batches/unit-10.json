@@ -432,53 +432,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "GARDENING",
+          "clue": "A hobby that involves plants and flowers.",
+          "direction": "across",
+          "row": 7,
+          "col": 0
+        },
+        {
           "word": "SWIMMING",
           "clue": "A water sport that many people love doing in the summer.",
-          "direction": "across",
+          "direction": "down",
           "row": 0,
           "col": 0
+        },
+        {
+          "word": "PAINTING",
+          "clue": "An artistic activity involving colors and a brush.",
+          "direction": "down",
+          "row": 6,
+          "col": 1
         },
         {
           "word": "READING",
           "clue": "A quiet activity you can do with a book.",
           "direction": "down",
-          "row": 0,
-          "col": 6
+          "row": 7,
+          "col": 2
         },
         {
           "word": "CYCLING",
           "clue": "Many people love this activity with a bike.",
-          "direction": "across",
-          "row": 2,
-          "col": 4
-        },
-        {
-          "word": "JOGGING",
-          "clue": "This is a running activity people do to stay fit.",
-          "direction": "down",
-          "row": 1,
-          "col": 2
-        },
-        {
-          "word": "PAINTING",
-          "clue": "An artistic activity involving colors and a brush.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "GARDENING",
-          "clue": "A hobby that involves plants and flowers.",
           "direction": "down",
           "row": 2,
           "col": 5
         },
         {
+          "word": "JOGGING",
+          "clue": "This is a running activity people do to stay fit.",
+          "direction": "down",
+          "row": 3,
+          "col": 6
+        },
+        {
           "word": "SKIING",
           "clue": "A winter sport that involves sliding on snow.",
-          "direction": "across",
-          "row": 6,
-          "col": 3
+          "direction": "down",
+          "row": 3,
+          "col": 7
         }
       ]
     },
@@ -1117,49 +1117,49 @@
           "word": "SWIMMING",
           "clue": "An activity you do in the pool. I love _____ in summer.",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
           "word": "READING",
           "clue": "I like _____ books in my free time.",
           "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "GUITAR",
-          "clue": "A musical instrument with strings. He loves playing the _____.",
-          "direction": "across",
           "row": 1,
-          "col": 0
+          "col": 2
         },
         {
           "word": "RUNNING",
           "clue": "A sport you can do in the park. She hardly ever goes _____.",
           "direction": "down",
-          "row": 0,
-          "col": 4
-        },
-        {
-          "word": "MOVIES",
-          "clue": "I enjoy watching _____ at the cinema.",
-          "direction": "across",
-          "row": 3,
-          "col": 1
+          "row": 1,
+          "col": 5
         },
         {
           "word": "CYCLING",
           "clue": "An activity done on a bike. They like _____ on weekends.",
           "direction": "down",
-          "row": 1,
-          "col": 5
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "GUITAR",
+          "clue": "A musical instrument with strings. He loves playing the _____.",
+          "direction": "down",
+          "row": 5,
+          "col": 7
+        },
+        {
+          "word": "MOVIES",
+          "clue": "I enjoy watching _____ at the cinema.",
+          "direction": "down",
+          "row": 0,
+          "col": 0
         },
         {
           "word": "GAMES",
           "clue": "Children love playing video _____.",
-          "direction": "across",
-          "row": 4,
+          "direction": "down",
+          "row": 3,
           "col": 3
         }
       ]
@@ -1833,43 +1833,43 @@
           "word": "BASKETBALL",
           "clue": "A sport played with a ball and a hoop.",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
-        },
-        {
-          "word": "READING",
-          "clue": "An activity you do with books.",
-          "direction": "down",
-          "row": 0,
-          "col": 4
         },
         {
           "word": "SWIMMING",
           "clue": "Moving through water for sport or fun.",
-          "direction": "across",
+          "direction": "down",
           "row": 3,
           "col": 2
-        },
-        {
-          "word": "GUITAR",
-          "clue": "A musical instrument with strings.",
-          "direction": "down",
-          "row": 1,
-          "col": 7
         },
         {
           "word": "PAINTING",
           "clue": "Creating art with colors on a canvas.",
           "direction": "down",
-          "row": 4,
-          "col": 0
+          "row": 2,
+          "col": 1
+        },
+        {
+          "word": "READING",
+          "clue": "An activity you do with books.",
+          "direction": "down",
+          "row": 2,
+          "col": 4
         },
         {
           "word": "JOGGING",
           "clue": "Running at a slow, steady pace.",
           "direction": "across",
-          "row": 6,
-          "col": 3
+          "row": 10,
+          "col": 0
+        },
+        {
+          "word": "GUITAR",
+          "clue": "A musical instrument with strings.",
+          "direction": "down",
+          "row": 0,
+          "col": 5
         }
       ]
     },
@@ -2485,21 +2485,14 @@
           "word": "SWIMMING",
           "clue": "An activity you do in a pool. (like/love/hate + -ing)",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
           "word": "JOGGING",
           "clue": "Running at a slow pace. (like/love/hate + -ing)",
           "direction": "down",
-          "row": 0,
-          "col": 6
-        },
-        {
-          "word": "TENNIS",
-          "clue": "A sport played with a racket and a ball.",
-          "direction": "across",
-          "row": 2,
+          "row": 1,
           "col": 2
         },
         {
@@ -2507,27 +2500,34 @@
           "clue": "Looking at and understanding written words. (like/love/hate + -ing)",
           "direction": "down",
           "row": 1,
-          "col": 4
+          "col": 5
         },
         {
           "word": "CYCLING",
           "clue": "Riding a bicycle. (like/love/hate + -ing)",
-          "direction": "across",
-          "row": 4,
-          "col": 1
+          "direction": "down",
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "TENNIS",
+          "clue": "A sport played with a racket and a ball.",
+          "direction": "down",
+          "row": 0,
+          "col": 0
         },
         {
           "word": "CHESS",
           "clue": "A board game for two players.",
-          "direction": "down",
-          "row": 3,
-          "col": 5
+          "direction": "across",
+          "row": 0,
+          "col": 6
         },
         {
           "word": "GAMES",
           "clue": "Activities for fun and entertainment.",
-          "direction": "across",
-          "row": 5,
+          "direction": "down",
+          "row": 3,
           "col": 3
         }
       ]
@@ -3157,53 +3157,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "SWIMMING",
-          "clue": "An activity you do in a pool. You might like or love this.",
+          "word": "GARDENING",
+          "clue": "Working with plants. Many people love doing this in their free time.",
           "direction": "across",
-          "row": 0,
+          "row": 7,
           "col": 0
         },
         {
-          "word": "READING",
-          "clue": "You do this with books. Some people hardly ever do this.",
+          "word": "SWIMMING",
+          "clue": "An activity you do in a pool. You might like or love this.",
           "direction": "down",
           "row": 0,
-          "col": 3
-        },
-        {
-          "word": "CYCLING",
-          "clue": "Riding a bike. Some people love doing this on weekends.",
-          "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "DANCING",
-          "clue": "Moving to music. Many people enjoy this at parties.",
-          "direction": "down",
-          "row": 1,
-          "col": 5
-        },
-        {
-          "word": "RUNNING",
-          "clue": "A sport you can do in the park. You might hate this if you get tired quickly.",
-          "direction": "across",
-          "row": 4,
-          "col": 2
+          "col": 0
         },
         {
           "word": "PAINTING",
           "clue": "Creating art with colors. Some people find this relaxing.",
           "direction": "down",
-          "row": 3,
+          "row": 6,
+          "col": 1
+        },
+        {
+          "word": "READING",
+          "clue": "You do this with books. Some people hardly ever do this.",
+          "direction": "down",
+          "row": 7,
+          "col": 2
+        },
+        {
+          "word": "CYCLING",
+          "clue": "Riding a bike. Some people love doing this on weekends.",
+          "direction": "down",
+          "row": 2,
           "col": 5
         },
         {
-          "word": "GARDENING",
-          "clue": "Working with plants. Many people love doing this in their free time.",
-          "direction": "across",
-          "row": 6,
-          "col": 0
+          "word": "DANCING",
+          "clue": "Moving to music. Many people enjoy this at parties.",
+          "direction": "down",
+          "row": 7,
+          "col": 3
+        },
+        {
+          "word": "RUNNING",
+          "clue": "A sport you can do in the park. You might hate this if you get tired quickly.",
+          "direction": "down",
+          "row": 3,
+          "col": 6
         }
       ]
     },
@@ -3854,60 +3854,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "GARDENING",
+          "clue": "This involves growing plants and flowers, often done in a yard.",
+          "direction": "across",
+          "row": 7,
+          "col": 0
+        },
+        {
           "word": "SWIMMING",
           "clue": "An activity you do in the pool and many people love doing it in summer.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "HIKING",
-          "clue": "A leisure activity in the mountains that some people hardly ever do.",
           "direction": "down",
           "row": 0,
-          "col": 6
-        },
-        {
-          "word": "CYCLING",
-          "clue": "This activity involves riding a bike, and many people enjoy it on weekends.",
-          "direction": "across",
-          "row": 2,
           "col": 0
-        },
-        {
-          "word": "FISHING",
-          "clue": "A relaxing activity that involves catching fish, often done by a lake.",
-          "direction": "down",
-          "row": 0,
-          "col": 3
-        },
-        {
-          "word": "READING",
-          "clue": "Many people love doing this with books in their free time.",
-          "direction": "across",
-          "row": 4,
-          "col": 2
         },
         {
           "word": "PAINTING",
           "clue": "An artistic activity loved by people who enjoy creating art.",
           "direction": "down",
-          "row": 1,
-          "col": 8
+          "row": 6,
+          "col": 1
         },
         {
-          "word": "GARDENING",
-          "clue": "This involves growing plants and flowers, often done in a yard.",
-          "direction": "across",
+          "word": "CYCLING",
+          "clue": "This activity involves riding a bike, and many people enjoy it on weekends.",
+          "direction": "down",
+          "row": 2,
+          "col": 5
+        },
+        {
+          "word": "FISHING",
+          "clue": "A relaxing activity that involves catching fish, often done by a lake.",
+          "direction": "down",
           "row": 6,
-          "col": 0
+          "col": 6
+        },
+        {
+          "word": "READING",
+          "clue": "Many people love doing this with books in their free time.",
+          "direction": "down",
+          "row": 7,
+          "col": 2
         },
         {
           "word": "JOGGING",
           "clue": "A form of running that some people hardly ever do in the morning.",
           "direction": "down",
-          "row": 0,
-          "col": 9
+          "row": 2,
+          "col": 7
+        },
+        {
+          "word": "HIKING",
+          "clue": "A leisure activity in the mountains that some people hardly ever do.",
+          "direction": "down",
+          "row": 2,
+          "col": 8
         }
       ]
     },

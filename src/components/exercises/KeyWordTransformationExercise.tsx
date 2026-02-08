@@ -65,9 +65,17 @@ export default function KeyWordTransformationExercise({ exercise, onComplete, on
 
     // Check acceptable answers
     if (transformation.acceptableAnswers) {
-      return transformation.acceptableAnswers.some(acceptable => 
+      if (transformation.acceptableAnswers.some(acceptable => 
         normalizeAnswer(acceptable) === normalizedUserAnswer
-      );
+      )) return true;
+    }
+
+    // Check acceptable alternatives
+    const altAnswers = (transformation as any).acceptableAlternatives;
+    if (altAnswers && Array.isArray(altAnswers)) {
+      if (altAnswers.some(acceptable => 
+        normalizeAnswer(acceptable) === normalizedUserAnswer
+      )) return true;
     }
 
     return false;

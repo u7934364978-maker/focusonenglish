@@ -490,10 +490,10 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "HELLO",
-          "clue": "A common greeting",
+          "word": "SPANISH",
+          "clue": "Nationality of a person from Spain",
           "direction": "across",
-          "row": 0,
+          "row": 4,
           "col": 0
         },
         {
@@ -501,42 +501,42 @@
           "clue": "A person you like and know well",
           "direction": "down",
           "row": 0,
-          "col": 2
+          "col": 3
+        },
+        {
+          "word": "HELLO",
+          "clue": "A common greeting",
+          "direction": "down",
+          "row": 4,
+          "col": 6
+        },
+        {
+          "word": "EIGHT",
+          "clue": "The number after seven",
+          "direction": "down",
+          "row": 3,
+          "col": 4
+        },
+        {
+          "word": "THEY",
+          "clue": "Subject pronoun for more than one person",
+          "direction": "across",
+          "row": 11,
+          "col": 0
         },
         {
           "word": "SHE",
           "clue": "Subject pronoun for a female",
-          "direction": "across",
-          "row": 1,
+          "direction": "down",
+          "row": 4,
           "col": 0
         },
         {
           "word": "IS",
           "clue": "Be verb present simple for 'he', 'she', 'it'",
           "direction": "down",
-          "row": 1,
-          "col": 4
-        },
-        {
-          "word": "SPANISH",
-          "clue": "Nationality of a person from Spain",
-          "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "THEY",
-          "clue": "Subject pronoun for more than one person",
-          "direction": "down",
-          "row": 0,
-          "col": 6
-        },
-        {
-          "word": "EIGHT",
-          "clue": "The number after seven",
-          "direction": "across",
-          "row": 4,
-          "col": 3
+          "row": 3,
+          "col": 0
         }
       ]
     },
@@ -1156,46 +1156,46 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "HELLO",
-          "clue": "A common greeting",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "SHE",
-          "clue": "Subject pronoun for a female",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
           "word": "FRANCE",
           "clue": "A country in Europe, nationality is French",
           "direction": "across",
-          "row": 2,
+          "row": 3,
           "col": 0
         },
         {
-          "word": "IS",
-          "clue": "Be verb present simple, third person singular",
+          "word": "TWENTY",
+          "clue": "The number after nineteen",
+          "direction": "down",
+          "row": 0,
+          "col": 3
+        },
+        {
+          "word": "HELLO",
+          "clue": "A common greeting",
           "direction": "down",
           "row": 2,
           "col": 5
         },
         {
-          "word": "TWENTY",
-          "clue": "The number after nineteen",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
           "word": "THEY",
           "clue": "Subject pronoun for more than one person",
+          "direction": "across",
+          "row": 0,
+          "col": 3
+        },
+        {
+          "word": "SHE",
+          "clue": "Subject pronoun for a female",
           "direction": "down",
-          "row": 4,
-          "col": 6
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "IS",
+          "clue": "Be verb present simple, third person singular",
+          "direction": "across",
+          "row": 1,
+          "col": 4
         }
       ]
     },
@@ -1902,59 +1902,59 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "SPANISH",
+          "clue": "Nationality of someone from Spain",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "FRIEND",
+          "clue": "A person you know well and like",
+          "direction": "down",
+          "row": 0,
+          "col": 3
+        },
+        {
           "word": "HELLO",
           "clue": "A common greeting when you meet someone",
-          "direction": "across",
-          "row": 0,
+          "direction": "down",
+          "row": 4,
+          "col": 6
+        },
+        {
+          "word": "SIXTY",
+          "clue": "The number after fifty-nine",
+          "direction": "down",
+          "row": 4,
           "col": 0
         },
         {
           "word": "THEY",
           "clue": "Subject pronoun for a group of people",
-          "direction": "down",
-          "row": 0,
-          "col": 5
+          "direction": "across",
+          "row": 3,
+          "col": 1
         },
         {
-          "word": "SIXTY",
-          "clue": "The number after fifty-nine",
+          "word": "YOU",
+          "clue": "Subject pronoun used for addressing someone directly",
           "direction": "across",
-          "row": 1,
-          "col": 2
+          "row": 8,
+          "col": 5
         },
         {
           "word": "AM",
           "clue": "The form of 'be' used with 'I' in the present simple",
           "direction": "down",
-          "row": 1,
-          "col": 7
-        },
-        {
-          "word": "SPANISH",
-          "clue": "Nationality of someone from Spain",
-          "direction": "across",
-          "row": 3,
-          "col": 0
-        },
-        {
-          "word": "YOU",
-          "clue": "Subject pronoun used for addressing someone directly",
-          "direction": "down",
-          "row": 3,
-          "col": 6
-        },
-        {
-          "word": "FRIEND",
-          "clue": "A person you know well and like",
-          "direction": "across",
-          "row": 5,
+          "row": 4,
           "col": 2
         },
         {
           "word": "IS",
           "clue": "The form of 'be' used with 'he', 'she', 'it' in the present simple",
           "direction": "down",
-          "row": 5,
+          "row": 3,
           "col": 0
         }
       ]
@@ -2592,32 +2592,25 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "HELLO",
-          "clue": "A common greeting in English",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "JAPANESE",
           "clue": "Nationality of someone from Japan",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "THEY",
-          "clue": "Subject pronoun for a group of people",
           "direction": "across",
           "row": 2,
           "col": 0
         },
         {
-          "word": "ARE",
-          "clue": "Present simple form of 'be' for 'they'",
+          "word": "SPANISH",
+          "clue": "Language spoken in Spain",
           "direction": "down",
-          "row": 2,
-          "col": 3
+          "row": 0,
+          "col": 1
+        },
+        {
+          "word": "HELLO",
+          "clue": "A common greeting in English",
+          "direction": "down",
+          "row": 1,
+          "col": 5
         },
         {
           "word": "FIFTY",
@@ -2627,11 +2620,18 @@
           "col": 0
         },
         {
-          "word": "SPANISH",
-          "clue": "Language spoken in Spain",
+          "word": "THEY",
+          "clue": "Subject pronoun for a group of people",
           "direction": "down",
           "row": 0,
-          "col": 5
+          "col": 7
+        },
+        {
+          "word": "ARE",
+          "clue": "Present simple form of 'be' for 'they'",
+          "direction": "across",
+          "row": 9,
+          "col": 0
         }
       ]
     },
@@ -3325,53 +3325,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "HELLO",
-          "clue": "A common greeting",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "ITALIAN",
           "clue": "A person from Italy",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "THEY",
-          "clue": "Subject pronoun for a group of people",
           "direction": "across",
-          "row": 1,
+          "row": 4,
           "col": 1
-        },
-        {
-          "word": "ARE",
-          "clue": "Be verb for 'you' and 'they'",
-          "direction": "down",
-          "row": 1,
-          "col": 6
-        },
-        {
-          "word": "SIXTY",
-          "clue": "Number between fifty-nine and sixty-one",
-          "direction": "across",
-          "row": 3,
-          "col": 0
         },
         {
           "word": "SPANISH",
           "clue": "A person from Spain",
           "direction": "down",
-          "row": 3,
-          "col": 4
+          "row": 0,
+          "col": 1
         },
         {
           "word": "GOODBYE",
           "clue": "A farewell expression",
           "direction": "across",
-          "row": 5,
+          "row": 9,
+          "col": 1
+        },
+        {
+          "word": "HELLO",
+          "clue": "A common greeting",
+          "direction": "down",
+          "row": 2,
+          "col": 4
+        },
+        {
+          "word": "SIXTY",
+          "clue": "Number between fifty-nine and sixty-one",
+          "direction": "down",
+          "row": 1,
           "col": 2
+        },
+        {
+          "word": "THEY",
+          "clue": "Subject pronoun for a group of people",
+          "direction": "across",
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "ARE",
+          "clue": "Be verb for 'you' and 'they'",
+          "direction": "down",
+          "row": 4,
+          "col": 6
         }
       ]
     },
@@ -3965,53 +3965,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "HELLO",
-          "clue": "A common greeting",
+          "word": "GOODBYE",
+          "clue": "A word used when leaving",
           "direction": "across",
-          "row": 0,
+          "row": 4,
           "col": 0
-        },
-        {
-          "word": "SHE",
-          "clue": "Subject pronoun for a female",
-          "direction": "down",
-          "row": 0,
-          "col": 2
         },
         {
           "word": "FRENCH",
           "clue": "Nationality of someone from France",
-          "direction": "across",
-          "row": 1,
-          "col": 0
+          "direction": "down",
+          "row": 2,
+          "col": 6
         },
         {
-          "word": "IS",
-          "clue": "Be verb for 'he' or 'she'",
+          "word": "HELLO",
+          "clue": "A common greeting",
           "direction": "down",
           "row": 0,
-          "col": 4
-        },
-        {
-          "word": "TEN",
-          "clue": "Number after nine",
-          "direction": "across",
-          "row": 3,
-          "col": 2
+          "col": 1
         },
         {
           "word": "THEY",
           "clue": "Subject pronoun for a group of people",
           "direction": "down",
-          "row": 2,
-          "col": 1
+          "row": 1,
+          "col": 5
         },
         {
-          "word": "GOODBYE",
-          "clue": "A word used when leaving",
+          "word": "SHE",
+          "clue": "Subject pronoun for a female",
+          "direction": "across",
+          "row": 7,
+          "col": 5
+        },
+        {
+          "word": "TEN",
+          "clue": "Number after nine",
           "direction": "across",
           "row": 5,
-          "col": 0
+          "col": 4
+        },
+        {
+          "word": "IS",
+          "clue": "Be verb for 'he' or 'she'",
+          "direction": "down",
+          "row": 6,
+          "col": 5
         }
       ]
     },

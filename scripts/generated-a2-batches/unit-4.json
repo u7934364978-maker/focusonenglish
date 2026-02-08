@@ -442,45 +442,45 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "HAVEBROWN",
+          "clue": "Many people _ _ _ _ _ _ _ _ hair and eyes.",
+          "direction": "across",
+          "row": 5,
+          "col": 0
+        },
+        {
           "word": "BLONDE",
           "clue": "This is a light hair color, often seen in people from northern Europe.",
-          "direction": "across",
+          "direction": "down",
           "row": 0,
+          "col": 3
+        },
+        {
+          "word": "SMILE",
+          "clue": "When you are happy, you do this with your mouth.",
+          "direction": "across",
+          "row": 1,
           "col": 0
+        },
+        {
+          "word": "BEARD",
+          "clue": "Some men have this on their face.",
+          "direction": "down",
+          "row": 3,
+          "col": 1
         },
         {
           "word": "EYES",
           "clue": "You use these to see, and they can be blue, green, or brown.",
           "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 5,
+          "col": 3
         },
         {
           "word": "TALL",
           "clue": "The opposite of short.",
           "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "SMILE",
-          "clue": "When you are happy, you do this with your mouth.",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "BEARD",
-          "clue": "Some men have this on their face.",
-          "direction": "across",
-          "row": 4,
-          "col": 1
-        },
-        {
-          "word": "HAVEBROWN",
-          "clue": "Many people _ _ _ _ _ _ _ _ hair and eyes.",
-          "direction": "across",
-          "row": 6,
+          "row": 11,
           "col": 0
         }
       ]
@@ -1139,60 +1139,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "BLONDE",
-          "clue": "She has got __________ hair. (fair color)",
+          "word": "GLASSES",
+          "clue": "He wears __________ to see better.",
           "direction": "across",
           "row": 1,
-          "col": 0
+          "col": 3
         },
         {
-          "word": "TALL",
-          "clue": "He is not short, he is __________.",
-          "direction": "across",
-          "row": 3,
-          "col": 2
+          "word": "BLONDE",
+          "clue": "She has got __________ hair. (fair color)",
+          "direction": "down",
+          "row": 0,
+          "col": 4
         },
         {
           "word": "BROWN",
           "clue": "Her eyes are __________.",
-          "direction": "down",
+          "direction": "across",
           "row": 0,
-          "col": 5
+          "col": 4
         },
         {
           "word": "BEARD",
           "clue": "He has got a thick __________ on his face.",
           "direction": "across",
-          "row": 5,
+          "row": 4,
           "col": 0
-        },
-        {
-          "word": "GLASSES",
-          "clue": "He wears __________ to see better.",
-          "direction": "down",
-          "row": 2,
-          "col": 3
         },
         {
           "word": "SHORT",
           "clue": "She has got __________ hair, not long.",
-          "direction": "across",
-          "row": 7,
-          "col": 1
+          "direction": "down",
+          "row": 1,
+          "col": 6
         },
         {
           "word": "GREEN",
           "clue": "His eyes are the color of grass. They are __________.",
-          "direction": "down",
-          "row": 1,
-          "col": 7
+          "direction": "across",
+          "row": 3,
+          "col": 0
         },
         {
           "word": "CURVY",
           "clue": "She is not thin, she is __________.",
           "direction": "across",
-          "row": 4,
-          "col": 4
+          "row": 8,
+          "col": 3
+        },
+        {
+          "word": "TALL",
+          "clue": "He is not short, he is __________.",
+          "direction": "across",
+          "row": 5,
+          "col": 6
         }
       ]
     },
@@ -1820,53 +1820,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "BLOND",
-          "clue": "A color of hair, similar to yellow.",
+          "word": "GLASSES",
+          "clue": "You wear these to help you see better.",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
         },
         {
-          "word": "TALL",
-          "clue": "The opposite of short.",
+          "word": "BLOND",
+          "clue": "A color of hair, similar to yellow.",
           "direction": "down",
-          "row": 0,
+          "row": 2,
           "col": 1
-        },
-        {
-          "word": "EYES",
-          "clue": "We use these to see.",
-          "direction": "across",
-          "row": 1,
-          "col": 2
         },
         {
           "word": "BEARD",
           "clue": "Hair on a man's face, below the mouth.",
           "direction": "down",
           "row": 1,
-          "col": 4
+          "col": 2
         },
         {
-          "word": "BLUE",
-          "clue": "The color of the sky on a clear day.",
-          "direction": "across",
-          "row": 3,
-          "col": 0
-        },
-        {
-          "word": "GLASSES",
-          "clue": "You wear these to help you see better.",
+          "word": "SMILE",
+          "clue": "What you do with your mouth when you are happy.",
           "direction": "down",
           "row": 3,
           "col": 3
         },
         {
-          "word": "SMILE",
-          "clue": "What you do with your mouth when you are happy.",
+          "word": "TALL",
+          "clue": "The opposite of short.",
           "direction": "across",
-          "row": 5,
-          "col": 1
+          "row": 10,
+          "col": 0
+        },
+        {
+          "word": "EYES",
+          "clue": "We use these to see.",
+          "direction": "down",
+          "row": 0,
+          "col": 3
+        },
+        {
+          "word": "BLUE",
+          "clue": "The color of the sky on a clear day.",
+          "direction": "down",
+          "row": 0,
+          "col": 5
         }
       ]
     },
@@ -2491,50 +2491,50 @@
           "word": "BLONDE",
           "clue": "Color de cabello claro y amarillo.",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "BLUE",
-          "clue": "Color de ojos común, como el cielo.",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "TALL",
-          "clue": "Una persona que mide mucho de altura.",
-          "direction": "across",
-          "row": 1,
-          "col": 2
+          "row": 3,
+          "col": 3
         },
         {
           "word": "SMILE",
           "clue": "Un gesto facial que muestra felicidad.",
           "direction": "down",
-          "row": 1,
+          "row": 0,
           "col": 4
         },
         {
           "word": "BEARD",
           "clue": "Pelo en la cara de un hombre.",
-          "direction": "across",
+          "direction": "down",
           "row": 3,
-          "col": 1
+          "col": 3
         },
         {
           "word": "BROWN",
           "clue": "Color común para ojos y cabello.",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "SHORT",
+          "clue": "Una persona que no es alta.",
+          "direction": "across",
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "BLUE",
+          "clue": "Color de ojos común, como el cielo.",
           "direction": "across",
           "row": 4,
           "col": 0
         },
         {
-          "word": "SHORT",
-          "clue": "Una persona que no es alta.",
+          "word": "TALL",
+          "clue": "Una persona que mide mucho de altura.",
           "direction": "down",
-          "row": 4,
-          "col": 3
+          "row": 2,
+          "col": 1
         }
       ]
     },
@@ -3201,52 +3201,52 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "BLONDE",
-          "clue": "Color of hair that is light yellow.",
+          "word": "GLASSES",
+          "clue": "You wear these on your eyes to see better.",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
         },
         {
-          "word": "TALL",
-          "clue": "A person who is not short.",
+          "word": "BLONDE",
+          "clue": "Color of hair that is light yellow.",
           "direction": "down",
-          "row": 0,
-          "col": 0
+          "row": 2,
+          "col": 1
         },
         {
           "word": "BEARD",
           "clue": "Hair that grows on a man's face.",
-          "direction": "across",
-          "row": 1,
-          "col": 2
-        },
-        {
-          "word": "GLASSES",
-          "clue": "You wear these on your eyes to see better.",
           "direction": "down",
           "row": 1,
-          "col": 4
-        },
-        {
-          "word": "BLUE",
-          "clue": "Color of the sky and sea.",
-          "direction": "across",
-          "row": 3,
-          "col": 1
+          "col": 2
         },
         {
           "word": "SHORT",
           "clue": "Opposite of tall.",
           "direction": "down",
           "row": 3,
-          "col": 4
+          "col": 3
+        },
+        {
+          "word": "TALL",
+          "clue": "A person who is not short.",
+          "direction": "across",
+          "row": 7,
+          "col": 3
+        },
+        {
+          "word": "BLUE",
+          "clue": "Color of the sky and sea.",
+          "direction": "down",
+          "row": 0,
+          "col": 5
         },
         {
           "word": "EYES",
           "clue": "You use these to see.",
-          "direction": "across",
-          "row": 5,
+          "direction": "down",
+          "row": 0,
           "col": 3
         }
       ]
@@ -3887,57 +3887,57 @@
           "word": "BROWN",
           "clue": "The color of chocolate. (Color del chocolate)",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 3
         },
         {
           "word": "BLOND",
           "clue": "Hair color that is light and yellow. (Color de pelo que es claro y amarillo)",
           "direction": "down",
-          "row": 0,
+          "row": 4,
           "col": 3
-        },
-        {
-          "word": "LONG",
-          "clue": "Not short, usually describes hair. (No corto, generalmente describe el pelo)",
-          "direction": "across",
-          "row": 1,
-          "col": 2
         },
         {
           "word": "BEARD",
           "clue": "Hair on the chin and cheeks of a man. (Pelo en la barbilla y mejillas de un hombre)",
           "direction": "down",
           "row": 1,
-          "col": 6
-        },
-        {
-          "word": "BLUE",
-          "clue": "Color of the sky on a clear day. (Color del cielo en un día despejado)",
-          "direction": "across",
-          "row": 3,
-          "col": 1
-        },
-        {
-          "word": "TALL",
-          "clue": "Opposite of short, often used for height. (Opuesto de bajo, a menudo usado para altura)",
-          "direction": "down",
-          "row": 3,
           "col": 4
         },
         {
           "word": "GREEN",
           "clue": "Color of grass. (Color del césped)",
-          "direction": "across",
-          "row": 5,
-          "col": 0
+          "direction": "down",
+          "row": 0,
+          "col": 7
         },
         {
           "word": "CURLY",
           "clue": "Describes hair with lots of curves or waves. (Describe el pelo con muchas curvas u ondas)",
           "direction": "across",
-          "row": 6,
-          "col": 3
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "LONG",
+          "clue": "Not short, usually describes hair. (No corto, generalmente describe el pelo)",
+          "direction": "down",
+          "row": 3,
+          "col": 5
+        },
+        {
+          "word": "BLUE",
+          "clue": "Color of the sky on a clear day. (Color del cielo en un día despejado)",
+          "direction": "across",
+          "row": 2,
+          "col": 1
+        },
+        {
+          "word": "TALL",
+          "clue": "Opposite of short, often used for height. (Opuesto de bajo, a menudo usado para altura)",
+          "direction": "across",
+          "row": 5,
+          "col": 0
         }
       ]
     },

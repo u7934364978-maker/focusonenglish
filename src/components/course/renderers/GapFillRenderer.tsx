@@ -48,6 +48,7 @@ export default function GapFillRenderer({
         const isCorrect = showFeedback && (
           userAnswer.toLowerCase().trim() === gapData?.correctAnswer?.toLowerCase().trim() ||
           gapData?.acceptableAlternatives?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
+          gapData?.acceptableAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
           gapData?.correctAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim())
         );
 
@@ -144,7 +145,9 @@ export default function GapFillRenderer({
             const userAnswer = answers[gapId] || '';
             const isCorrect = showFeedback && (
               userAnswer.toLowerCase().trim() === item.correctAnswer?.toLowerCase().trim() ||
-              item.acceptableAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim())
+              item.acceptableAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
+              item.acceptableAlternatives?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
+              item.correctAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim())
             );
 
             return (
@@ -205,6 +208,7 @@ export default function GapFillRenderer({
               const userAnswer = answers[gapId] || '';
               const isCorrect = (
                 userAnswer.toLowerCase().trim() === gap.correctAnswer?.toLowerCase().trim() ||
+                gap.acceptableAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
                 gap.acceptableAlternatives?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim()) ||
                 gap.correctAnswers?.some((a: string) => a.toLowerCase().trim() === userAnswer.toLowerCase().trim())
               );

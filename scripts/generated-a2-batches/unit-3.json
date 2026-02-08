@@ -499,60 +499,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "MOTHER",
-          "clue": "My father's wife is my ____.",
+          "word": "BROTHER",
+          "clue": "My mother's son is my ____.",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
-          "word": "BROTHER",
-          "clue": "My mother's son is my ____.",
+          "word": "HUSBAND",
+          "clue": "My sister's spouse is her ____.",
+          "direction": "down",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "MOTHER",
+          "clue": "My father's wife is my ____.",
           "direction": "down",
           "row": 0,
-          "col": 2
+          "col": 1
         },
         {
           "word": "FATHER",
           "clue": "My mother's husband is my ____.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "direction": "down",
+          "row": 3,
+          "col": 3
         },
         {
           "word": "SISTER",
           "clue": "My father's daughter is my ____.",
           "direction": "down",
           "row": 1,
-          "col": 4
+          "col": 5
+        },
+        {
+          "word": "COUSIN",
+          "clue": "My uncle's child is my ____.",
+          "direction": "down",
+          "row": 4,
+          "col": 2
         },
         {
           "word": "UNCLE",
           "clue": "My father's brother is my ____.",
           "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "COUSIN",
-          "clue": "My uncle's child is my ____.",
-          "direction": "across",
-          "row": 6,
-          "col": 0
-        },
-        {
-          "word": "HUSBAND",
-          "clue": "My sister's spouse is her ____.",
-          "direction": "across",
-          "row": 8,
-          "col": 0
+          "row": 9,
+          "col": 1
         },
         {
           "word": "WIFE",
           "clue": "My brother's spouse is his ____.",
-          "direction": "down",
-          "row": 4,
-          "col": 6
+          "direction": "across",
+          "row": 2,
+          "col": 4
         }
       ]
     },
@@ -1187,53 +1187,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "BROTHER",
+          "clue": "Your father's son is your ___.",
+          "direction": "across",
+          "row": 5,
+          "col": 5
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "A married man is a ___.",
+          "direction": "down",
+          "row": 2,
+          "col": 5
+        },
+        {
           "word": "SISTER",
           "clue": "Your mother's daughter is your ___.",
-          "direction": "across",
+          "direction": "down",
           "row": 0,
-          "col": 0
+          "col": 6
         },
         {
           "word": "MOTHER",
           "clue": "She is my father's wife.",
           "direction": "down",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 7
         },
         {
-          "word": "BROTHER",
-          "clue": "Your father's son is your ___.",
+          "word": "COUSIN",
+          "clue": "My uncle's son is my ___.",
           "direction": "across",
-          "row": 2,
+          "row": 7,
           "col": 0
         },
         {
           "word": "UNCLE",
           "clue": "My father's brother is my ___.",
           "direction": "down",
-          "row": 0,
-          "col": 4
-        },
-        {
-          "word": "COUSIN",
-          "clue": "My uncle's son is my ___.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "row": 1,
+          "col": 10
         },
         {
           "word": "WIFE",
           "clue": "A married woman is a ___.",
-          "direction": "down",
-          "row": 0,
-          "col": 6
-        },
-        {
-          "word": "HUSBAND",
-          "clue": "A married man is a ___.",
           "direction": "across",
-          "row": 6,
-          "col": 0
+          "row": 1,
+          "col": 5
         }
       ]
     },
@@ -1914,42 +1914,42 @@
           "word": "BROTHER",
           "clue": "Your parent's son is your ______. (Across)",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 5,
+          "col": 1
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "A married man in relation to his spouse. (Across)",
+          "direction": "down",
+          "row": 2,
+          "col": 1
         },
         {
           "word": "MOTHER",
           "clue": "Your father's wife. (Down)",
           "direction": "down",
           "row": 0,
-          "col": 0
+          "col": 2
         },
         {
           "word": "COUSIN",
           "clue": "Your uncle's child is your ______. (Across)",
-          "direction": "across",
-          "row": 2,
-          "col": 2
+          "direction": "down",
+          "row": 4,
+          "col": 3
         },
         {
           "word": "SISTER",
           "clue": "Your parent's daughter is your ______. (Down)",
           "direction": "down",
-          "row": 1,
-          "col": 5
+          "row": 2,
+          "col": 4
         },
         {
           "word": "FAMILY",
           "clue": "A group of people related by blood or marriage. (Across)",
           "direction": "across",
-          "row": 4,
-          "col": 1
-        },
-        {
-          "word": "HUSBAND",
-          "clue": "A married man in relation to his spouse. (Across)",
-          "direction": "across",
-          "row": 6,
+          "row": 0,
           "col": 0
         },
         {
@@ -1957,7 +1957,7 @@
           "clue": "Your brother's daughter is your ______. (Down)",
           "direction": "down",
           "row": 3,
-          "col": 4
+          "col": 6
         }
       ]
     },
@@ -2651,45 +2651,45 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "GRANDMA",
+          "clue": "Your mother's mother",
+          "direction": "across",
+          "row": 5,
+          "col": 3
+        },
+        {
+          "word": "HUSBAND",
+          "clue": "Your father's wife is his",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
           "word": "FATHER",
           "clue": "Your mother's husband",
-          "direction": "across",
+          "direction": "down",
           "row": 0,
-          "col": 0
+          "col": 4
         },
         {
           "word": "SISTER",
           "clue": "Your brother's female sibling",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "GRANDMA",
-          "clue": "Your mother's mother",
           "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "UNCLE",
-          "clue": "Your father's brother",
-          "direction": "down",
-          "row": 1,
+          "row": 3,
           "col": 5
         },
         {
           "word": "COUSIN",
           "clue": "Your aunt's child",
           "direction": "across",
-          "row": 4,
+          "row": 6,
           "col": 0
         },
         {
-          "word": "HUSBAND",
-          "clue": "Your father's wife is his",
+          "word": "UNCLE",
+          "clue": "Your father's brother",
           "direction": "down",
-          "row": 0,
+          "row": 4,
           "col": 6
         }
       ]
@@ -3344,60 +3344,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "BROTHER",
+          "clue": "Your sister's male sibling.",
+          "direction": "across",
+          "row": 4,
+          "col": 4
+        },
+        {
+          "word": "GRANDMA",
+          "clue": "Your mother's mother is your ___.",
+          "direction": "down",
+          "row": 3,
+          "col": 5
+        },
+        {
           "word": "MOTHER",
           "clue": "This is my mom's title.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
+          "direction": "down",
+          "row": 3,
+          "col": 6
         },
         {
           "word": "FATHER",
           "clue": "My dad's title.",
           "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 2,
+          "col": 7
         },
         {
           "word": "SISTER",
           "clue": "My brother's female sibling.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "BROTHER",
-          "clue": "Your sister's male sibling.",
           "direction": "down",
-          "row": 1,
-          "col": 5
-        },
-        {
-          "word": "UNCLE",
-          "clue": "My father's brother is my ___.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "AUNT",
-          "clue": "Your mother's sister is your ___.",
-          "direction": "down",
-          "row": 3,
-          "col": 6
+          "row": 0,
+          "col": 9
         },
         {
           "word": "COUSIN",
           "clue": "My uncle's child is my ___.",
           "direction": "across",
           "row": 6,
-          "col": 2
+          "col": 0
         },
         {
-          "word": "GRANDMA",
-          "clue": "Your mother's mother is your ___.",
+          "word": "UNCLE",
+          "clue": "My father's brother is my ___.",
           "direction": "down",
-          "row": 2,
-          "col": 4
+          "row": 4,
+          "col": 0
+        },
+        {
+          "word": "AUNT",
+          "clue": "Your mother's sister is your ___.",
+          "direction": "across",
+          "row": 9,
+          "col": 5
         }
       ]
     },
@@ -4018,60 +4018,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "MOTHER",
-          "clue": "This is my dad's wife.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "BROTHER",
           "clue": "My father's son is my ___.",
-          "direction": "down",
-          "row": 0,
+          "direction": "across",
+          "row": 4,
           "col": 5
         },
         {
           "word": "GRANDMA",
           "clue": "My mom's mom is my ___.",
           "direction": "down",
-          "row": 1,
-          "col": 2
-        },
-        {
-          "word": "SISTER",
-          "clue": "My mother's daughter is my ___.",
-          "direction": "across",
           "row": 3,
-          "col": 1
-        },
-        {
-          "word": "FATHER",
-          "clue": "This is my mom's husband.",
-          "direction": "across",
-          "row": 5,
-          "col": 0
-        },
-        {
-          "word": "COUSIN",
-          "clue": "My aunt's child is my ___.",
-          "direction": "down",
-          "row": 0,
-          "col": 7
-        },
-        {
-          "word": "UNCLE",
-          "clue": "My father's brother is my ___.",
-          "direction": "across",
-          "row": 7,
-          "col": 3
+          "col": 6
         },
         {
           "word": "HUSBAND",
           "clue": "This is my wife's partner.",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "MOTHER",
+          "clue": "This is my dad's wife.",
+          "direction": "down",
+          "row": 3,
+          "col": 7
+        },
+        {
+          "word": "SISTER",
+          "clue": "My mother's daughter is my ___.",
+          "direction": "down",
+          "row": 1,
+          "col": 8
+        },
+        {
+          "word": "FATHER",
+          "clue": "This is my mom's husband.",
+          "direction": "down",
+          "row": 1,
+          "col": 9
+        },
+        {
+          "word": "COUSIN",
+          "clue": "My aunt's child is my ___.",
           "direction": "across",
-          "row": 9,
-          "col": 1
+          "row": 6,
+          "col": 0
+        },
+        {
+          "word": "UNCLE",
+          "clue": "My father's brother is my ___.",
+          "direction": "down",
+          "row": 0,
+          "col": 10
         }
       ]
     },

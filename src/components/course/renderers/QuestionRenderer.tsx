@@ -148,9 +148,12 @@ export default function QuestionRenderer({
             <div className={`p-5 rounded-xl border-2 ${
               (() => {
                 const normalizedUser = userAnswer?.toLowerCase().trim();
-                const correctAnswers = Array.isArray(question.correctAnswer) 
-                  ? question.correctAnswer 
-                  : [question.correctAnswer as string];
+                const correctAnswers = [
+                  ...(Array.isArray(question.correctAnswer) ? question.correctAnswer : [question.correctAnswer]),
+                  ...( (question as any).acceptableAnswers || [] ),
+                  ...( (question as any).acceptableAlternatives || [] ),
+                  ...( (question as any).correctAnswers || [] )
+                ].filter(Boolean);
                 return correctAnswers.some(ans => ans?.toLowerCase().trim() === normalizedUser);
               })()
                 ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 text-green-800 dark:text-green-300'

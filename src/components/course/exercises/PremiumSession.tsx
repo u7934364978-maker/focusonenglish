@@ -192,8 +192,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           }
 
           // 2. Remove common AI patterns like "______ (answer)" or "______ [answer]"
-          cleaned = cleaned.replace(/_{2,}\s*[\(\[][^\]\)]+[\)\]]/g, '______');
-          cleaned = cleaned.replace(/[\(\[][^\]\)]+[\)\]]\s*_{2,}/g, '______');
+          // EXCEPCIÓN: No eliminar si contiene indicadores pedagógicos
+          cleaned = cleaned.replace(/_{2,}\s*[\(\[](?![^\]\)]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]\)]+[\)\]]/gi, '______');
+          cleaned = cleaned.replace(/[\(\[](?![^\]\)]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]\)]+[\)\]]\s*_{2,}/gi, '______');
           
           // 3. Strip any parentheses that contain exactly one word which matches any of the answers
           if (normalized.correct_answer) {
@@ -207,8 +208,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
           // 4. Remove standalone parenthesized words if they look like answers (1-3 words)
           // Solo si hay guiones bajos cerca, para no romper explicaciones legítimas
+          // EXCEPCIÓN: No eliminar si contiene indicadores pedagógicos como "positive", "negative", "past", "present", etc.
           if (cleaned.includes('___') || /_{2,}/.test(cleaned)) {
-            cleaned = cleaned.replace(/\s*\([^)]+\)\s*/g, ' ').replace(/\s*\[[^\]]+\]\s*/g, ' ');
+            cleaned = cleaned.replace(/\s*\((?![^)]*(?:positive|negative|past|present|future|verb|noun|adj))[^)]+\)\s*/gi, ' ')
+                             .replace(/\s*\[(?![^\]]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]]+\]\s*/gi, ' ');
           }
 
           return cleaned.trim().replace(/\s+/g, ' ');
@@ -339,10 +342,16 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (flattened.stimulus_en && isFillBlankBlock) {
               const answer = String(flattened.correct_answer || flattened.gap || q.answer || q.acceptableAnswers?.[0] || "");
               if (answer) {
-                // Remove exact answer in parentheses: " (always)" -> ""
                 const escapedAnswer = answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                const hintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*\\)`, 'gi');
-                flattened.stimulus_en = flattened.stimulus_en.replace(hintRegex, '');
+                // Regex to handle " (answer - extra)" -> "(extra)"
+                const fullHintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*-\\s*([^)]+)\\)`, 'gi');
+                const simpleHintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*\\)`, 'gi');
+                
+                if (fullHintRegex.test(flattened.stimulus_en)) {
+                  flattened.stimulus_en = flattened.stimulus_en.replace(fullHintRegex, '($1)');
+                } else {
+                  flattened.stimulus_en = flattened.stimulus_en.replace(simpleHintRegex, '');
+                }
               }
               // Also replace multiple underscores with a single standard gap marker
               flattened.stimulus_en = flattened.stimulus_en.replace(/_{2,}/g, '___').replace(/\s{2,}/g, ' ').trim();
@@ -630,6 +639,17 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     }
   }, [currentItem, interactionIndex, shuffledRight.length, shuffledOptions.length]);
 
+  // Robust normalization for comparison
+  const normalizeForComparison = (text: string) => {
+    if (!text) return "";
+    return text
+      .toLowerCase()
+      .trim()
+      .replace(/['’‘´`]/g, "'") // Normalize quotes
+      .replace(/\s+/g, " ")     // Normalize spaces
+      .replace(/[.?!,;:]/g, ""); // Remove basic punctuation for comparison
+  };
+
   const handleNext = () => {
     setSelectedWords([]);
     setShuffledRight([]);
@@ -678,22 +698,32 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     let isAnswerCorrect = false;
 
     if (interaction.type === 'reorder_words') {
+      const normalizeSentence = (text: string) => {
+        return normalizeForComparison(text)
+          .replace(/\s+([.,!?])/g, '$1') // Remove space before punctuation
+          .replace(/[.,!?]/g, '')        // Remove punctuation entirely for comparison
+          .replace(/\s+/g, ' ')         // Normalize multiple spaces
+          .trim();
+      };
+
       const selectedText = (Array.isArray(optionId) ? optionId : []).map(id => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ').toLowerCase().trim();
+      ).join(' ');
+      
       const correctText = (Array.isArray(interaction.correct_answer) ? interaction.correct_answer : []).map((id: string) => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ').toLowerCase().trim();
-      isAnswerCorrect = selectedText === correctText;
+      ).join(' ');
+
+      isAnswerCorrect = normalizeSentence(selectedText) === normalizeSentence(correctText);
     } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
-      const normalizedOption = String(optionId).toLowerCase().trim();
+      const normalizedOption = normalizeForComparison(String(optionId));
       
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
         ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
         : interaction;
         
-      const normalizedCorrect = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
+      const normalizedCorrect = normalizeForComparison(String(q.correct_answer || q.correctAnswer || interaction.correct_answer));
       
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
@@ -703,11 +733,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       } else {
         // Double check: if normalizedOption is an ID (like o1), but normalizedCorrect is also an ID,
         // we might want to also check if the text matches just in case of mapping mismatches
-        const optionText = q.options?.find((o: any) => (o.id === optionId || o === optionId))?.text || optionId;
-        const correctText = q.options?.find((o: any) => (o.id === normalizedCorrect || o === normalizedCorrect))?.text || normalizedCorrect;
+        const optionText = normalizeForComparison(q.options?.find((o: any) => (normalizeForComparison(String(o.id)) === normalizedOption || normalizeForComparison(String(o.text)) === normalizedOption))?.text || String(optionId));
+        const correctText = normalizeForComparison(q.options?.find((o: any) => (normalizeForComparison(String(o.id)) === normalizedCorrect || normalizeForComparison(String(o.text)) === normalizedCorrect))?.text || String(normalizedCorrect));
         
-        isAnswerCorrect = normalizedOption === normalizedCorrect || 
-                         String(optionText).toLowerCase().trim() === String(correctText).toLowerCase().trim();
+        isAnswerCorrect = normalizedOption === normalizedCorrect || optionText === correctText;
       }
     } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
       const pairs = (interaction.type === 'vocabulary-match')
@@ -724,8 +753,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           
           // If ID doesn't match, check if the text of the selected option 
           // matches the expected correct text (handles duplicate values like "a"/"an")
-          const expectedText = String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right).toLowerCase().trim();
-          const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || "").toLowerCase().trim();
+          const expectedText = normalizeForComparison(String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right));
+          const selectedText = normalizeForComparison(String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || ""));
           return selectedText === expectedText;
         });
       } else {
@@ -733,8 +762,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       }
     } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
       const allCorrect = Object.entries(interaction.correct_answer || {}).every(([gapId, correctVal]) => {
-        const inputVal = String(inputValues[gapId as any] || "").toLowerCase().trim();
-        const correctValStr = String(correctVal).toLowerCase().trim();
+        const inputVal = normalizeForComparison(String(inputValues[gapId as any] || ""));
+        const correctValStr = normalizeForComparison(String(correctVal));
         return inputVal === correctValStr;
       });
       isAnswerCorrect = allCorrect;
@@ -750,18 +779,19 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
       const q = interaction;
-      const normalizedOption = String(optionId).toLowerCase().trim();
-      const correctText = String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "").toLowerCase().trim();
+      const normalizedOption = normalizeForComparison(String(optionId));
+      const correctText = String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "");
       
-      // If we have options, we should also check if the text of the selected option matches the correct answer
+      // Support multiple correct answers separated by / or ,
+      const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
+      
+      // If we have options, we should also check if the text of the selected option matches any of the correct answers
       let optionText = normalizedOption;
       if (q.options && q.options.length > 0) {
-        const opt = q.options.find((o: any) => String(o.id).toLowerCase() === normalizedOption);
-        if (opt) optionText = String(opt.text).toLowerCase().trim();
+        const opt = q.options.find((o: any) => normalizeForComparison(String(o.id)) === normalizedOption);
+        if (opt) optionText = normalizeForComparison(String(opt.text));
       }
 
-      // Support multiple correct answers separated by / or ,
-      const possibleAnswers = correctText.split(/[\\/]+/).map(a => a.trim().toLowerCase()).filter(Boolean);
       isAnswerCorrect = possibleAnswers.length > 0 
         ? (possibleAnswers.includes(normalizedOption) || possibleAnswers.includes(optionText)) 
         : normalizedOption.length > 0;
@@ -1795,7 +1825,19 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   }}
                   className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                     feedback 
-                      ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                      ? (() => {
+                          const normalizedOptId = normalizeForComparison(String(opt.id));
+                          const normalizedOptText = normalizeForComparison(String(opt.text));
+                          const normalizedCorrect = normalizeForComparison(String(interaction.correct_answer));
+                          
+                          if (normalizedOptId === normalizedCorrect || normalizedOptText === normalizedCorrect) {
+                            return 'border-green-500 bg-green-50 text-green-700';
+                          }
+                          if (selectedOption === opt.id) {
+                            return 'border-red-500 bg-red-50 text-red-700';
+                          }
+                          return 'border-slate-100 bg-white text-slate-300';
+                        })()
                       : selectedOption === opt.id 
                         ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                         : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
@@ -1863,7 +1905,18 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     }}
                     className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                       feedback 
-                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : selectedOption === opt.id ? 'border-red-500 bg-red-50 text-red-700' : 'border-slate-100 bg-white text-slate-300'
+                        ? (() => {
+                            const normalizedCorrect = normalizeForComparison(String(interaction.correct_answer || ""));
+                            const possibleAnswers = normalizedCorrect.split(/[\\/]+/).map(a => a.trim()).filter(Boolean);
+                            const normalizedOptId = normalizeForComparison(String(opt.id));
+                            const normalizedOptText = normalizeForComparison(String(opt.text));
+                            const isThisOptionCorrect = possibleAnswers.includes(normalizedOptId) || 
+                                                       possibleAnswers.includes(normalizedOptText);
+                            
+                            if (isThisOptionCorrect) return 'border-green-500 bg-green-50 text-green-700';
+                            if (selectedOption === opt.id) return 'border-red-500 bg-red-50 text-red-700';
+                            return 'border-slate-100 bg-white text-slate-300';
+                          })()
                         : selectedOption === opt.id 
                           ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'

@@ -52,19 +52,33 @@ export default function MultipleChoiceClozeExercise({ exercise, onComplete, onQu
     setEvaluating(false);
     
     exercise.questions.forEach(q => {
-      const isCorrect = answers[q.id]?.toLowerCase() === q.correctAnswer.toLowerCase();
+      const userAnswerLower = (answers[q.id] || '').toLowerCase().trim();
+      const isCorrect = userAnswerLower === q.correctAnswer.toLowerCase().trim() ||
+        ( (q as any).acceptableAnswers && (q as any).acceptableAnswers.some((ans: string) => 
+          userAnswerLower === ans.toLowerCase().trim()
+        ));
       if (isCorrect && onQuestionCorrect) {
         onQuestionCorrect(q.id);
       }
     });
 
-    const correctCount = exercise.questions.filter(q => 
-      answers[q.id]?.toLowerCase() === q.correctAnswer.toLowerCase()
-    ).length;
+    const correctCount = exercise.questions.filter(q => {
+      const userAnswerLower = (answers[q.id] || '').toLowerCase().trim();
+      return userAnswerLower === q.correctAnswer.toLowerCase().trim() ||
+        ( (q as any).acceptableAnswers && (q as any).acceptableAnswers.some((ans: string) => 
+          userAnswerLower === ans.toLowerCase().trim()
+        ));
+    }).length;
     
     const totalPoints = exercise.questions.reduce((sum, q) => sum + q.points, 0);
     const earnedPoints = exercise.questions
-      .filter(q => answers[q.id]?.toLowerCase() === q.correctAnswer.toLowerCase())
+      .filter(q => {
+        const userAnswerLower = (answers[q.id] || '').toLowerCase().trim();
+        return userAnswerLower === q.correctAnswer.toLowerCase().trim() ||
+          ( (q as any).acceptableAnswers && (q as any).acceptableAnswers.some((ans: string) => 
+            userAnswerLower === ans.toLowerCase().trim()
+          ));
+      })
       .reduce((sum, q) => sum + q.points, 0);
     
     const score = (earnedPoints / totalPoints) * 100;

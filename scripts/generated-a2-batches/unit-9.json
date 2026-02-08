@@ -497,22 +497,15 @@
           "word": "TEACHER",
           "clue": "Who works in a school?",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
-        },
-        {
-          "word": "NURSE",
-          "clue": "Who helps doctors in a hospital?",
-          "direction": "down",
-          "row": 0,
-          "col": 2
         },
         {
           "word": "POLICE",
           "clue": "Who works to maintain public safety?",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "direction": "down",
+          "row": 0,
+          "col": 1
         },
         {
           "word": "OFFICE",
@@ -522,25 +515,32 @@
           "col": 3
         },
         {
-          "word": "CHEF",
-          "clue": "Who cooks in a restaurant?",
-          "direction": "across",
-          "row": 4,
-          "col": 1
-        },
-        {
           "word": "FARMER",
           "clue": "Who works in fields and grows crops?",
-          "direction": "across",
-          "row": 5,
-          "col": 0
+          "direction": "down",
+          "row": 4,
+          "col": 2
+        },
+        {
+          "word": "NURSE",
+          "clue": "Who helps doctors in a hospital?",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "CHEF",
+          "clue": "Who cooks in a restaurant?",
+          "direction": "down",
+          "row": 4,
+          "col": 4
         },
         {
           "word": "BANK",
           "clue": "Where do people go to save and borrow money?",
-          "direction": "down",
-          "row": 3,
-          "col": 5
+          "direction": "across",
+          "row": 12,
+          "col": 0
         }
       ]
     },
@@ -1200,43 +1200,43 @@
           "word": "TEACHER",
           "clue": "Who teaches students in a school?",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
+        },
+        {
+          "word": "OFFICE",
+          "clue": "Where do people work at desks?",
+          "direction": "down",
+          "row": 0,
+          "col": 1
         },
         {
           "word": "NURSE",
           "clue": "Who helps doctors in a hospital?",
           "direction": "down",
-          "row": 0,
-          "col": 1
-        },
-        {
-          "word": "OFFICE",
-          "clue": "Where do people work at desks?",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "row": 1,
+          "col": 5
         },
         {
           "word": "CHEF",
           "clue": "Who cooks food in a restaurant?",
           "direction": "down",
-          "row": 2,
+          "row": 5,
           "col": 3
         },
         {
           "word": "BANK",
           "clue": "Where do people keep their money?",
-          "direction": "across",
+          "direction": "down",
           "row": 4,
-          "col": 1
+          "col": 2
         },
         {
           "word": "DOES",
           "clue": "Use this word to ask questions with 'he', 'she', or 'it'.",
-          "direction": "down",
+          "direction": "across",
           "row": 0,
-          "col": 5
+          "col": 0
         }
       ]
     },
@@ -1871,60 +1871,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "DOCTOR",
-          "clue": "This person helps sick people. (Across)",
+          "word": "ENGINEER",
+          "clue": "This person designs and builds machines or structures. (Across)",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
           "word": "TEACHER",
           "clue": "This person works in a school and helps students learn. (Down)",
           "direction": "down",
-          "row": 0,
-          "col": 4
+          "row": 4,
+          "col": 0
         },
         {
-          "word": "NURSE",
-          "clue": "This person works in a hospital and helps doctors. (Across)",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "word": "DOCTOR",
+          "clue": "This person helps sick people. (Across)",
+          "direction": "down",
+          "row": 0,
+          "col": 7
         },
         {
           "word": "POLICE",
           "clue": "This person helps to keep people safe and enforce the law. (Down)",
           "direction": "down",
-          "row": 0,
-          "col": 8
+          "row": 2,
+          "col": 3
         },
         {
           "word": "FARMER",
           "clue": "This person works with animals or grows food on a farm. (Across)",
-          "direction": "across",
-          "row": 4,
-          "col": 2
+          "direction": "down",
+          "row": 1,
+          "col": 5
         },
         {
           "word": "OFFICE",
           "clue": "A place where people work at desks with computers and phones. (Down)",
           "direction": "down",
-          "row": 1,
+          "row": 0,
           "col": 6
         },
         {
-          "word": "ENGINEER",
-          "clue": "This person designs and builds machines or structures. (Across)",
-          "direction": "across",
-          "row": 6,
-          "col": 0
+          "word": "NURSE",
+          "clue": "This person works in a hospital and helps doctors. (Across)",
+          "direction": "down",
+          "row": 5,
+          "col": 1
         },
         {
           "word": "CHEF",
           "clue": "This person cooks food in a restaurant. (Down)",
-          "direction": "down",
-          "row": 3,
-          "col": 3
+          "direction": "across",
+          "row": 2,
+          "col": 7
         }
       ]
     },
@@ -2571,10 +2571,17 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "ENGINEER",
+          "clue": "Who designs buildings or machines?",
+          "direction": "across",
+          "row": 5,
+          "col": 0
+        },
+        {
           "word": "TEACHER",
           "clue": "Who works in a school?",
-          "direction": "across",
-          "row": 0,
+          "direction": "down",
+          "row": 4,
           "col": 0
         },
         {
@@ -2587,36 +2594,22 @@
         {
           "word": "FARMER",
           "clue": "Who works on a farm?",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "direction": "down",
+          "row": 1,
+          "col": 5
         },
         {
           "word": "OFFICE",
           "clue": "Where does an accountant work?",
           "direction": "down",
           "row": 2,
-          "col": 5
-        },
-        {
-          "word": "CHEF",
-          "clue": "Who cooks food in a restaurant?",
-          "direction": "across",
-          "row": 4,
-          "col": 2
+          "col": 3
         },
         {
           "word": "NURSE",
           "clue": "Who assists doctors in a clinic?",
           "direction": "down",
           "row": 5,
-          "col": 0
-        },
-        {
-          "word": "ENGINEER",
-          "clue": "Who designs buildings or machines?",
-          "direction": "across",
-          "row": 7,
           "col": 1
         },
         {
@@ -2624,7 +2617,14 @@
           "clue": "Who makes bread and cakes?",
           "direction": "down",
           "row": 2,
-          "col": 9
+          "col": 6
+        },
+        {
+          "word": "CHEF",
+          "clue": "Who cooks food in a restaurant?",
+          "direction": "across",
+          "row": 2,
+          "col": 7
         }
       ]
     },
@@ -3271,57 +3271,57 @@
           "word": "TEACHER",
           "clue": "This person works in a school and helps students learn.",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
+        },
+        {
+          "word": "OFFICE",
+          "clue": "A place where people work at desks, often with computers.",
+          "direction": "down",
+          "row": 0,
+          "col": 1
+        },
+        {
+          "word": "DRIVER",
+          "clue": "This person operates vehicles like cars or buses.",
+          "direction": "down",
+          "row": 1,
+          "col": 5
+        },
+        {
+          "word": "FARMER",
+          "clue": "This person grows crops and raises animals.",
+          "direction": "down",
+          "row": 4,
+          "col": 2
         },
         {
           "word": "NURSE",
           "clue": "This person helps doctors and takes care of patients in a hospital.",
           "direction": "down",
-          "row": 0,
+          "row": 3,
           "col": 6
-        },
-        {
-          "word": "OFFICE",
-          "clue": "A place where people work at desks, often with computers.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
         },
         {
           "word": "CHEF",
           "clue": "This person cooks food in a restaurant.",
           "direction": "down",
-          "row": 2,
-          "col": 5
-        },
-        {
-          "word": "DRIVER",
-          "clue": "This person operates vehicles like cars or buses.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "row": 5,
+          "col": 3
         },
         {
           "word": "BANK",
           "clue": "A place where people keep their money.",
-          "direction": "down",
-          "row": 4,
-          "col": 4
-        },
-        {
-          "word": "FARMER",
-          "clue": "This person grows crops and raises animals.",
           "direction": "across",
-          "row": 6,
+          "row": 12,
           "col": 0
         },
         {
           "word": "SHOP",
           "clue": "A place where you can buy things.",
           "direction": "down",
-          "row": 6,
-          "col": 5
+          "row": 4,
+          "col": 4
         }
       ]
     },
@@ -3961,9 +3961,16 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "RECEPTIONIST",
+          "clue": "Who answers the phone and greets visitors in an office?",
+          "direction": "across",
+          "row": 6,
+          "col": 0
+        },
+        {
           "word": "TEACHER",
           "clue": "Who works in a school? (Hint: They help students learn)",
-          "direction": "across",
+          "direction": "down",
           "row": 0,
           "col": 0
         },
@@ -3971,50 +3978,43 @@
           "word": "DOCTOR",
           "clue": "Who helps sick people in a hospital?",
           "direction": "down",
-          "row": 0,
+          "row": 4,
           "col": 2
         },
         {
           "word": "OFFICE",
           "clue": "Where do many people work with computers and papers?",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "direction": "down",
+          "row": 1,
+          "col": 1
         },
         {
-          "word": "NURSE",
-          "clue": "Who assists doctors and takes care of patients?",
+          "word": "FARMER",
+          "clue": "Who works on a farm and grows crops?",
           "direction": "down",
           "row": 2,
           "col": 3
         },
         {
+          "word": "NURSE",
+          "clue": "Who assists doctors and takes care of patients?",
+          "direction": "down",
+          "row": 6,
+          "col": 8
+        },
+        {
           "word": "BANK",
           "clue": "Where do people go to keep their money safe?",
           "direction": "across",
-          "row": 4,
-          "col": 1
+          "row": 3,
+          "col": 2
         },
         {
           "word": "CHEF",
           "clue": "Who cooks food in a restaurant?",
-          "direction": "down",
-          "row": 3,
-          "col": 5
-        },
-        {
-          "word": "FARMER",
-          "clue": "Who works on a farm and grows crops?",
           "direction": "across",
-          "row": 6,
-          "col": 0
-        },
-        {
-          "word": "RECEPTIONIST",
-          "clue": "Who answers the phone and greets visitors in an office?",
-          "direction": "down",
-          "row": 0,
-          "col": 7
+          "row": 10,
+          "col": 6
         }
       ]
     },

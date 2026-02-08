@@ -468,43 +468,43 @@
           "word": "SWEEP",
           "clue": "Use a broom to clean the floor",
           "direction": "across",
-          "row": 0,
+          "row": 2,
           "col": 0
-        },
-        {
-          "word": "MIX",
-          "clue": "Combine ingredients together",
-          "direction": "down",
-          "row": 0,
-          "col": 5
         },
         {
           "word": "WASH",
           "clue": "Clean dishes with water and soap",
-          "direction": "across",
-          "row": 2,
-          "col": 1
+          "direction": "down",
+          "row": 0,
+          "col": 0
         },
         {
           "word": "DUST",
           "clue": "Remove dirt from surfaces",
-          "direction": "down",
-          "row": 0,
-          "col": 3
+          "direction": "across",
+          "row": 6,
+          "col": 0
         },
         {
           "word": "IRON",
           "clue": "Make clothes smooth with heat",
           "direction": "across",
-          "row": 4,
-          "col": 4
+          "row": 8,
+          "col": 0
         },
         {
           "word": "COOK",
           "clue": "Prepare food using heat",
           "direction": "down",
-          "row": 3,
-          "col": 6
+          "row": 7,
+          "col": 2
+        },
+        {
+          "word": "MIX",
+          "clue": "Combine ingredients together",
+          "direction": "down",
+          "row": 7,
+          "col": 0
         }
       ]
     },
@@ -1171,8 +1171,8 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "DUST",
-          "clue": "Remove dirt from surfaces",
+          "word": "VACUUM",
+          "clue": "Use a machine to clean the carpet",
           "direction": "across",
           "row": 0,
           "col": 0
@@ -1180,44 +1180,44 @@
         {
           "word": "SWEEP",
           "clue": "Use a broom to clean the floor",
-          "direction": "down",
-          "row": 0,
-          "col": 5
+          "direction": "across",
+          "row": 2,
+          "col": 0
         },
         {
-          "word": "MOP",
-          "clue": "Clean the floor with water and a mop",
+          "word": "DUST",
+          "clue": "Remove dirt from surfaces",
           "direction": "across",
-          "row": 3,
-          "col": 2
+          "row": 4,
+          "col": 0
         },
         {
           "word": "COOK",
           "clue": "Prepare food to eat",
-          "direction": "down",
-          "row": 2,
+          "direction": "across",
+          "row": 6,
           "col": 0
         },
         {
           "word": "IRON",
           "clue": "Use this tool to make clothes smooth",
           "direction": "across",
-          "row": 5,
-          "col": 3
+          "row": 8,
+          "col": 0
         },
         {
           "word": "WASH",
           "clue": "Clean dishes with water and soap",
-          "direction": "down",
-          "row": 1,
-          "col": 7
+          "direction": "across",
+          "row": 10,
+          "col": 0
         },
         {
-          "word": "VACUUM",
-          "clue": "Use a machine to clean the carpet",
-          "direction": "across",
-          "row": 7,
-          "col": 0
+          "word": "MOP",
+          "clue": "Clean the floor with water and a mop",
+          "direction": "down",
+          "row": 0,
+          "col": 5
         }
       ]
     },
@@ -1888,39 +1888,39 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "CLEAN",
-          "clue": "You need to do this to keep the house tidy.",
+          "word": "LAUNDRY",
+          "clue": "You do this to clean your clothes.",
           "direction": "across",
-          "row": 0,
+          "row": 1,
           "col": 0
         },
         {
           "word": "DISHES",
           "clue": "You wash these after eating.",
           "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "SWEEP",
-          "clue": "You use a broom to do this.",
-          "direction": "across",
-          "row": 2,
-          "col": 0
+          "row": 1,
+          "col": 4
         },
         {
           "word": "VACUUM",
           "clue": "This machine helps to clean carpets.",
           "direction": "down",
-          "row": 2,
-          "col": 4
+          "row": 0,
+          "col": 1
         },
         {
-          "word": "COOK",
-          "clue": "You do this to make food ready to eat.",
-          "direction": "across",
-          "row": 4,
+          "word": "CLEAN",
+          "clue": "You need to do this to keep the house tidy.",
+          "direction": "down",
+          "row": 0,
           "col": 0
+        },
+        {
+          "word": "SWEEP",
+          "clue": "You use a broom to do this.",
+          "direction": "across",
+          "row": 3,
+          "col": 4
         },
         {
           "word": "TRASH",
@@ -1930,18 +1930,18 @@
           "col": 1
         },
         {
-          "word": "LAUNDRY",
-          "clue": "You do this to clean your clothes.",
-          "direction": "down",
-          "row": 5,
-          "col": 3
+          "word": "COOK",
+          "clue": "You do this to make food ready to eat.",
+          "direction": "across",
+          "row": 9,
+          "col": 0
         },
         {
           "word": "MOP",
           "clue": "Use this tool to clean the floor with water.",
           "direction": "across",
-          "row": 8,
-          "col": 0
+          "row": 5,
+          "col": 1
         }
       ]
     },
@@ -2574,53 +2574,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "VACUUM",
+          "clue": "Use a machine to clean the floor. (Can you do it?)",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
           "word": "SWEEP",
           "clue": "You use a broom to do this. (Can you do it?)",
           "direction": "across",
-          "row": 0,
+          "row": 2,
           "col": 0
         },
         {
           "word": "DUST",
           "clue": "Remove this from furniture with a cloth.",
-          "direction": "down",
-          "row": 0,
-          "col": 2
+          "direction": "across",
+          "row": 4,
+          "col": 0
         },
         {
           "word": "COOK",
           "clue": "You do this in the kitchen to make food.",
           "direction": "across",
-          "row": 1,
-          "col": 1
+          "row": 6,
+          "col": 0
         },
         {
           "word": "WASH",
           "clue": "You do this to the dishes after eating.",
-          "direction": "down",
-          "row": 1,
-          "col": 4
-        },
-        {
-          "word": "VACUUM",
-          "clue": "Use a machine to clean the floor. (Can you do it?)",
-          "direction": "down",
-          "row": 0,
-          "col": 6
+          "direction": "across",
+          "row": 8,
+          "col": 0
         },
         {
           "word": "IRON",
           "clue": "You do this to clothes to make them smooth.",
           "direction": "across",
-          "row": 3,
+          "row": 10,
           "col": 0
         },
         {
           "word": "MOP",
           "clue": "You do this to the floor with water.",
-          "direction": "across",
-          "row": 4,
-          "col": 2
+          "direction": "down",
+          "row": 0,
+          "col": 5
         }
       ]
     },
@@ -3265,60 +3265,60 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
+          "word": "VACUUM",
+          "clue": "A machine that cleans carpets",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
           "word": "SWEEP",
           "clue": "Use a broom to clean the floor",
           "direction": "across",
-          "row": 0,
+          "row": 2,
           "col": 0
         },
         {
           "word": "DUST",
           "clue": "Remove dirt from surfaces",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "VACUUM",
-          "clue": "A machine that cleans carpets",
           "direction": "across",
-          "row": 2,
+          "row": 4,
           "col": 0
         },
         {
           "word": "COOK",
           "clue": "Prepare food",
-          "direction": "down",
-          "row": 2,
-          "col": 3
+          "direction": "across",
+          "row": 6,
+          "col": 0
         },
         {
           "word": "WASH",
           "clue": "Clean clothes with water and soap",
           "direction": "across",
-          "row": 4,
-          "col": 2
+          "row": 8,
+          "col": 0
         },
         {
           "word": "IRON",
           "clue": "Make clothes smooth with heat",
-          "direction": "down",
-          "row": 4,
-          "col": 7
-        },
-        {
-          "word": "MOP",
-          "clue": "Tool to clean floors with water",
           "direction": "across",
-          "row": 6,
+          "row": 10,
           "col": 0
         },
         {
           "word": "BAKE",
           "clue": "Cook in the oven",
           "direction": "across",
-          "row": 8,
-          "col": 1
+          "row": 12,
+          "col": 0
+        },
+        {
+          "word": "MOP",
+          "clue": "Tool to clean floors with water",
+          "direction": "down",
+          "row": 0,
+          "col": 5
         }
       ]
     },
@@ -3966,43 +3966,43 @@
           "word": "CLEAN",
           "clue": "What you do to make something tidy",
           "direction": "across",
-          "row": 0,
+          "row": 3,
           "col": 0
+        },
+        {
+          "word": "SWEEP",
+          "clue": "To clean the floor with a broom",
+          "direction": "down",
+          "row": 1,
+          "col": 2
         },
         {
           "word": "DUST",
           "clue": "To remove dirt from surfaces",
-          "direction": "down",
-          "row": 0,
-          "col": 2
+          "direction": "across",
+          "row": 1,
+          "col": 0
         },
         {
           "word": "COOK",
           "clue": "To prepare food",
-          "direction": "across",
-          "row": 2,
+          "direction": "down",
+          "row": 3,
           "col": 0
         },
         {
           "word": "IRON",
           "clue": "To make clothes smooth using heat",
           "direction": "down",
-          "row": 1,
+          "row": 0,
           "col": 4
-        },
-        {
-          "word": "SWEEP",
-          "clue": "To clean the floor with a broom",
-          "direction": "across",
-          "row": 4,
-          "col": 0
         },
         {
           "word": "WASH",
           "clue": "To clean with water and soap",
-          "direction": "across",
-          "row": 6,
-          "col": 0
+          "direction": "down",
+          "row": 2,
+          "col": 3
         }
       ]
     },

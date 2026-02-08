@@ -14,6 +14,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
   const [grid, setGrid] = useState<string[][]>([]);
   const [selectedCells, setSelectedCells] = useState<{ r: number; c: number }[]>([]);
   const [foundWords, setFoundWords] = useState<string[]>([]);
+  const [foundCells, setFoundCells] = useState<{ r: number; c: number }[]>([]);
   const [isDragging, setIsDragging] = useState(false);
   const [dragStart, setDragStart] = useState<{ r: number; c: number } | null>(null);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -115,6 +116,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
       if (found && !foundWords.includes(found.toUpperCase())) {
         const newFound = [...foundWords, found.toUpperCase()];
         setFoundWords(newFound);
+        setFoundCells(prev => [...prev, ...selectedCells]);
         if (newFound.length === words.length) {
           onComplete(100);
         }
@@ -147,11 +149,8 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
   const isCellSelected = (r: number, c: number) => 
     selectedCells.some(cell => cell.r === r && cell.c === c);
 
-  const isCellFound = (r: number, c: number) => {
-    // This is a simple check - ideally we'd track which words cover which cells
-    // but for now let's just highlight the words list
-    return false; 
-  };
+  const isCellFound = (r: number, c: number) => 
+    foundCells.some(cell => cell.r === r && cell.c === c);
 
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start select-none">
@@ -166,21 +165,27 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
       >
-        {grid.map((row, r) => row.map((char, c) => (
-          <div
-            key={`${r}-${c}`}
-            data-r={r}
-            data-c={c}
-            onMouseDown={() => handleMouseDown(r, c)}
-            onMouseEnter={() => handleMouseEnter(r, c)}
-            onMouseUp={handleMouseUp}
-            onTouchStart={(e) => handleTouchStart(e, r, c)}
-            className={`w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold text-lg transition-colors rounded
-              ${isCellSelected(r, c) ? 'bg-orange-500 text-white' : 'hover:bg-orange-50 text-slate-700'}`}
-          >
-            {char}
-          </div>
-        )))}
+        {grid.map((row, r) => row.map((char, c) => {
+          const isSelected = isCellSelected(r, c);
+          const isFound = isCellFound(r, c);
+          
+          return (
+            <div
+              key={`${r}-${c}`}
+              data-r={r}
+              data-c={c}
+              onMouseDown={() => handleMouseDown(r, c)}
+              onMouseEnter={() => handleMouseEnter(r, c)}
+              onMouseUp={handleMouseUp}
+              onTouchStart={(e) => handleTouchStart(e, r, c)}
+              className={`w-7 h-7 md:w-10 md:h-10 flex items-center justify-center font-bold text-base md:text-lg transition-colors rounded
+                ${isSelected ? 'bg-orange-500 text-white z-10' : 
+                  isFound ? 'bg-green-100 text-green-700' : 'hover:bg-orange-50 text-slate-700'}`}
+            >
+              {char}
+            </div>
+          );
+        }))}
       </div>
 
       <div className="flex-1 bg-orange-50 rounded-2xl p-6 border-2 border-orange-100 w-full md:w-auto">

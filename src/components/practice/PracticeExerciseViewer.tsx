@@ -64,9 +64,12 @@ export default function PracticeExerciseViewer({
     if (!currentQuestion) return;
 
     const userAnswer = answer.trim().toLowerCase();
-    const correctAnswers = Array.isArray(currentQuestion.correctAnswer)
-      ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
-      : [currentQuestion.correctAnswer.toLowerCase().trim()];
+    const q = currentQuestion as any;
+    const correctAnswers = [
+      ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+      ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
+      ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
+    ].filter(Boolean).map(a => a.toLowerCase().trim());
 
     console.log('DEBUG - User answer:', userAnswer);
     console.log('DEBUG - Correct answers:', correctAnswers);
@@ -323,9 +326,12 @@ export default function PracticeExerciseViewer({
                       console.log('Option letter:', optionLetter);
                       
                       // Get correct answers
-                      const correctAnswers = Array.isArray(currentQuestion.correctAnswer)
-                        ? currentQuestion.correctAnswer.map(a => a.toLowerCase().trim())
-                        : [currentQuestion.correctAnswer.toLowerCase().trim()];
+                      const q_alt = currentQuestion as any;
+                      const correctAnswers = [
+                        ...(Array.isArray(q_alt.correctAnswer) ? q_alt.correctAnswer : [q_alt.correctAnswer]),
+                        ...(Array.isArray(q_alt.acceptableAnswers) ? q_alt.acceptableAnswers : (q_alt.acceptableAnswers ? [q_alt.acceptableAnswers] : [])),
+                        ...(Array.isArray(q_alt.acceptableAlternatives) ? q_alt.acceptableAlternatives : (q_alt.acceptableAlternatives ? [q_alt.acceptableAlternatives] : []))
+                      ].filter(Boolean).map(a => a.toLowerCase().trim());
                       
                       console.log('Correct answers:', correctAnswers);
                       

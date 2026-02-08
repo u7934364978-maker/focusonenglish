@@ -124,8 +124,14 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             }
           } else {
             const userAnswerLower = (userAnswer.answer || '').toString().toLowerCase().trim();
-            const correctAnswerLower = (currentQuestion.correctAnswer || '').toString().toLowerCase().trim();
-            const correct = userAnswerLower === correctAnswerLower;
+            const q = currentQuestion as any;
+            const correctAnswers = [
+              ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+              ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
+              ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
+            ].filter(Boolean).map(a => a.toLowerCase().trim());
+            
+            const correct = correctAnswers.includes(userAnswerLower);
             setIsCorrect(correct);
             if (correct) {
               setShowConfetti(true);

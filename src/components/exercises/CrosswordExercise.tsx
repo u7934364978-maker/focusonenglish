@@ -24,23 +24,58 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
   const [focusedCell, setFocusedCell] = useState<{ r: number; c: number } | null>(null);
   const [activeDirection, setActiveDirection] = useState<'across' | 'down'>('across');
   const inputRefs = useRef<Map<string, HTMLInputElement>>(new Map());
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [cellSize, setCellSize] = useState(40); // px
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    
+    const updateSize = () => {
+      if (!containerRef.current) return;
+      const width = containerRef.current.offsetWidth - 32; // padding
+      const calculated = Math.floor(width / cols);
+      setCellSize(Math.min(48, Math.max(32, calculated)));
+    };
+
+    updateSize();
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [cols]);
 
   // Calculate normalized grid dimensions and offsets
-  const { rows, cols, minRow, minCol } = useMemo(() => {
+  const { rows, cols, minRow, minCol, cellNumbers } = useMemo(() => {
     const minR = Math.min(...items.map(i => i.row));
     const minC = Math.min(...items.map(i => i.col));
-    const maxR = Math.max(...items.map(i => i.row + (i.direction === 'down' ? i.word.length : 0)));
-    const maxC = Math.max(...items.map(i => i.col + (i.direction === 'across' ? i.word.length : 0)));
+    const maxR = Math.max(...items.map(i => i.row + (i.direction === 'down' ? i.word.length - 1 : 0)));
+    const maxC = Math.max(...items.map(i => i.col + (i.direction === 'across' ? i.word.length - 1 : 0)));
     
+    // Create a map of cell numbers based on starting positions
+    const numbers = new Map<string, number>();
+    let currentNum = 1;
+    
+    // Sort items by row then col to assign numbers logically
+    const sortedItems = [...items].sort((a, b) => a.row - b.row || a.col - b.col);
+    
+    sortedItems.forEach(item => {
+      const key = `${item.row}-${item.col}`;
+      if (!numbers.has(key)) {
+        numbers.set(key, currentNum++);
+      }
+    });
+
     return {
-      rows: maxR - minR,
-      cols: maxC - minC,
+      rows: maxR - minR + 1,
+      cols: maxC - minC + 1,
       minRow: minR,
-      minCol: minC
+      minCol: minC,
+      cellNumbers: numbers
     };
   }, [items]);
 
   useEffect(() => {
+    if (rows <= 0 || cols <= 0) return;
+
     const newGrid = Array(rows).fill(null).map(() => Array(cols).fill(' '));
     const newUserGrid = Array(rows).fill(null).map(() => Array(cols).fill(' '));
 
@@ -233,8 +268,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
   const getItemNumber = (r: number, c: number) => {
     const realR = r + minRow;
     const realC = c + minCol;
-    const index = items.findIndex(i => i.row === realR && i.col === realC);
-    return index !== -1 ? index + 1 : null;
+    return cellNumbers.get(`${realR}-${realC}`) || null;
   };
 
   const handleClueClick = (item: CrosswordItem) => {
@@ -287,11 +321,14 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
 
       <div className="flex flex-col lg:flex-row gap-6 items-start justify-center max-w-7xl mx-auto w-full">
         {/* Grid Container */}
-        <div className="flex-1 w-full flex items-start justify-center bg-slate-50 p-2 sm:p-4 md:p-6 rounded-[2rem] border-2 border-slate-200/60 shadow-inner overflow-x-auto min-h-[250px]">
+        <div 
+          ref={containerRef}
+          className="flex-1 w-full flex items-start justify-center bg-slate-50 p-2 sm:p-4 md:p-6 rounded-[2rem] border-2 border-slate-200/60 shadow-inner overflow-x-auto min-h-[250px]"
+        >
           <div 
             className="grid gap-1 p-2 bg-white rounded-xl shadow-xl border border-slate-100"
             style={{ 
-              gridTemplateColumns: `repeat(${cols}, minmax(2rem, 2.5rem))`,
+              gridTemplateColumns: `repeat(${cols}, ${cellSize}px)`,
               width: 'fit-content'
             }}
           >
@@ -303,10 +340,10 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
             const isFocused = focusedCell?.r === r && focusedCell?.c === c;
             const isHighlighted = isCellHighlighted(r, c);
             
-            if (!isCell) return <div key={`${r}-${c}`} className="w-8 h-8 md:w-10 md:h-10 bg-transparent" />;
+            if (!isCell) return <div key={`${r}-${c}`} style={{ width: cellSize, height: cellSize }} className="bg-transparent" />;
 
             return (
-              <div key={`${r}-${c}`} className="relative w-8 h-8 md:w-10 md:h-10 flex items-center justify-center">
+              <div key={`${r}-${c}`} style={{ width: cellSize, height: cellSize }} className="relative flex items-center justify-center">
                 {num && (
                   <span className={`absolute top-0.5 left-1 text-[8px] md:text-[9px] font-black leading-none z-10 transition-colors
                     ${isFocused ? 'text-orange-700' : 'text-slate-400'}
@@ -321,11 +358,21 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
                   }}
                   type="text"
                   maxLength={1}
+                  inputMode="text"
+                  autoComplete="off"
+                  autoCorrect="off"
+                  spellCheck={false}
                   value={char}
                   onFocus={() => setFocusedCell({ r, c })}
+                  onPointerDown={() => {
+                    if (focusedCell?.r === r && focusedCell?.c === c) {
+                      setActiveDirection(prev => prev === 'across' ? 'down' : 'across');
+                    }
+                    setFocusedCell({ r, c });
+                  }}
                   onChange={(e) => handleInputChange(r, c, e.target.value)}
                   onKeyDown={(e) => handleKeyDown(r, c, e)}
-                  className={`w-full h-full text-center font-black text-base md:text-lg border-2 rounded-lg focus:outline-none transition-all uppercase cursor-pointer
+                  className={`w-full h-full text-center font-black text-base md:text-lg border-2 rounded-lg focus:outline-none transition-all uppercase cursor-pointer touch-none
                     ${isCompleted ? 'bg-green-50 border-green-300 text-green-700' : 
                       isFocused ? 'bg-orange-500 border-orange-600 text-white scale-105 z-20 shadow-md ring-4 ring-orange-500/20' : 
                       isHighlighted ? 'bg-orange-50 border-orange-200 text-slate-800' : 
@@ -363,7 +410,7 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
                       `}
                     >
                       <span className={`font-black min-w-[20px] text-xs mt-0.5 ${isActive ? 'text-orange-600' : 'text-slate-400 group-hover:text-orange-500'}`}>
-                        {items.indexOf(item) + 1}.
+                        {cellNumbers.get(`${item.row}-${item.col}`)}.
                       </span>
                       <p className={`font-medium text-xs leading-relaxed ${isActive ? 'text-slate-900 font-bold' : 'group-hover:text-slate-900'}`}>
                         {item.clue}

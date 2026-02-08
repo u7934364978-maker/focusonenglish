@@ -515,46 +515,46 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "ALWAYS",
-          "clue": "Every single time",
+          "word": "SOMETIMES",
+          "clue": "Occasionally, not always",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
-          "word": "NEVER",
-          "clue": "Not at any time",
+          "word": "ALWAYS",
+          "clue": "Every single time",
           "direction": "down",
           "row": 0,
-          "col": 2
+          "col": 0
         },
         {
           "word": "SUNDAY",
           "clue": "The day before Monday",
-          "direction": "across",
-          "row": 2,
-          "col": 0
-        },
-        {
-          "word": "OFTEN",
-          "clue": "Many times, but not always",
           "direction": "down",
-          "row": 1,
-          "col": 4
-        },
-        {
-          "word": "SOMETIMES",
-          "clue": "Occasionally, not always",
-          "direction": "across",
-          "row": 4,
+          "row": 5,
           "col": 0
         },
         {
           "word": "FRIDAY",
           "clue": "The day after Thursday",
-          "direction": "across",
-          "row": 6,
-          "col": 0
+          "direction": "down",
+          "row": 3,
+          "col": 5
+        },
+        {
+          "word": "NEVER",
+          "clue": "Not at any time",
+          "direction": "down",
+          "row": 4,
+          "col": 3
+        },
+        {
+          "word": "OFTEN",
+          "clue": "Many times, but not always",
+          "direction": "down",
+          "row": 5,
+          "col": 1
         }
       ]
     },
@@ -841,7 +841,7 @@
           "points": 1
         },
         {
-          "sentence": "He _______ (not play) football when it rains.",
+          "sentence": "He _______ (not play - negative) football when it rains.",
           "acceptableAnswers": [
             "doesn't play"
           ],
@@ -849,7 +849,7 @@
           "points": 1
         },
         {
-          "sentence": "I _______ (sometimes / go) to the library on Thursdays.",
+          "sentence": "I _______ (sometimes / go - positive) to the library on Thursdays.",
           "acceptableAnswers": [
             "sometimes go"
           ],
@@ -857,11 +857,12 @@
           "points": 1
         },
         {
-          "sentence": "We _______ (not eat) lunch at home on school days.",
+          "sentence": "We _______ (have - negative) lunch at home on school days.",
           "acceptableAnswers": [
-            "don't eat"
+            "don't have",
+            "do not have"
           ],
-          "explanation": "En presente simple, 'don't' se usa con 'we' para hacer la negación.",
+          "explanation": "Para hablar de rutinas usamos el presente simple. 'Have lunch' es más natural que 'eat lunch'. Con 'we', la negación es 'don't have'.",
           "points": 1
         }
       ]
@@ -1221,53 +1222,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "MONDAY",
-          "clue": "The first day of the week",
+          "word": "SOMETIMES",
+          "clue": "Not often, but occasionally",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
-          "word": "NEVER",
-          "clue": "The opposite of 'always'",
+          "word": "MONDAY",
+          "clue": "The first day of the week",
           "direction": "down",
-          "row": 0,
-          "col": 6
-        },
-        {
-          "word": "OFTEN",
-          "clue": "Similar to 'frequently'",
-          "direction": "across",
-          "row": 2,
-          "col": 3
+          "row": 4,
+          "col": 1
         },
         {
           "word": "SUNDAY",
           "clue": "The last day of the week",
           "direction": "down",
-          "row": 0,
-          "col": 8
+          "row": 5,
+          "col": 0
         },
         {
           "word": "ALWAYS",
           "clue": "Occurs every time without exception",
-          "direction": "across",
-          "row": 4,
+          "direction": "down",
+          "row": 0,
           "col": 0
         },
         {
           "word": "FRIDAY",
           "clue": "The day before the weekend starts",
           "direction": "down",
-          "row": 1,
-          "col": 4
+          "row": 3,
+          "col": 5
         },
         {
-          "word": "SOMETIMES",
-          "clue": "Not often, but occasionally",
-          "direction": "across",
-          "row": 6,
-          "col": 0
+          "word": "NEVER",
+          "clue": "The opposite of 'always'",
+          "direction": "down",
+          "row": 4,
+          "col": 3
+        },
+        {
+          "word": "OFTEN",
+          "clue": "Similar to 'frequently'",
+          "direction": "down",
+          "row": 3,
+          "col": 4
         }
       ]
     },
@@ -1921,43 +1922,22 @@
           "word": "ALWAYS",
           "clue": "With 100% frequency",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "NEVER",
-          "clue": "With 0% frequency",
-          "direction": "down",
-          "row": 0,
-          "col": 0
+          "row": 5,
+          "col": 4
         },
         {
           "word": "SUNDAY",
           "clue": "The last day of the weekend",
-          "direction": "across",
-          "row": 1,
-          "col": 1
-        },
-        {
-          "word": "OFTEN",
-          "clue": "Frequently, but not always",
           "direction": "down",
-          "row": 0,
-          "col": 3
-        },
-        {
-          "word": "NEVER",
-          "clue": "Not at any time",
-          "direction": "across",
-          "row": 3,
-          "col": 1
+          "row": 1,
+          "col": 4
         },
         {
           "word": "FRIDAY",
           "clue": "The day before the weekend",
-          "direction": "across",
-          "row": 5,
-          "col": 0
+          "direction": "down",
+          "row": 1,
+          "col": 7
         },
         {
           "word": "RARELY",
@@ -1970,8 +1950,29 @@
           "word": "MONDAY",
           "clue": "The first day of the workweek",
           "direction": "down",
-          "row": 1,
-          "col": 6
+          "row": 0,
+          "col": 8
+        },
+        {
+          "word": "NEVER",
+          "clue": "Not at any time",
+          "direction": "across",
+          "row": 2,
+          "col": 8
+        },
+        {
+          "word": "OFTEN",
+          "clue": "Frequently, but not always",
+          "direction": "across",
+          "row": 3,
+          "col": 0
+        },
+        {
+          "word": "NEVER",
+          "clue": "Not at any time",
+          "direction": "across",
+          "row": 2,
+          "col": 8
         }
       ]
     },
@@ -2602,42 +2603,42 @@
           "word": "MONDAY",
           "clue": "The first day of the work week",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
-        },
-        {
-          "word": "NEVER",
-          "clue": "An adverb of frequency meaning 'not at any time'",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "OFTEN",
-          "clue": "An adverb of frequency meaning 'many times'",
-          "direction": "across",
-          "row": 1,
-          "col": 1
         },
         {
           "word": "ALWAYS",
           "clue": "An adverb of frequency meaning 'every time'",
           "direction": "down",
-          "row": 1,
-          "col": 3
+          "row": 5,
+          "col": 4
         },
         {
           "word": "SUNDAY",
           "clue": "The last day of the week",
-          "direction": "across",
+          "direction": "down",
           "row": 3,
-          "col": 0
+          "col": 2
         },
         {
           "word": "RARELY",
           "clue": "An adverb of frequency meaning 'not often'",
+          "direction": "down",
+          "row": 0,
+          "col": 5
+        },
+        {
+          "word": "NEVER",
+          "clue": "An adverb of frequency meaning 'not at any time'",
           "direction": "across",
-          "row": 4,
+          "row": 0,
+          "col": 1
+        },
+        {
+          "word": "OFTEN",
+          "clue": "An adverb of frequency meaning 'many times'",
+          "direction": "down",
+          "row": 5,
           "col": 1
         }
       ]
@@ -3295,53 +3296,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "ALWAYS",
-          "clue": "I _____ go to bed at 10 PM.",
+          "word": "SOMETIMES",
+          "clue": "We _____ go to the park on Saturdays.",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
-          "word": "NEVER",
-          "clue": "I _____ drink coffee in the evening.",
+          "word": "TUESDAY",
+          "clue": "The day after Monday.",
           "direction": "down",
-          "row": 0,
-          "col": 6
+          "row": 2,
+          "col": 0
         },
         {
-          "word": "OFTEN",
-          "clue": "She _____ visits her grandmother on Sundays.",
-          "direction": "across",
-          "row": 1,
-          "col": 3
+          "word": "ALWAYS",
+          "clue": "I _____ go to bed at 10 PM.",
+          "direction": "down",
+          "row": 0,
+          "col": 8
         },
         {
           "word": "MONDAY",
           "clue": "The first day of the work week.",
           "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 4,
+          "col": 1
         },
         {
           "word": "RARELY",
           "clue": "He _____ eats fast food.",
-          "direction": "across",
-          "row": 3,
-          "col": 1
-        },
-        {
-          "word": "SOMETIMES",
-          "clue": "We _____ go to the park on Saturdays.",
           "direction": "down",
           "row": 2,
-          "col": 5
+          "col": 3
         },
         {
-          "word": "TUESDAY",
-          "clue": "The day after Monday.",
-          "direction": "across",
-          "row": 5,
-          "col": 0
+          "word": "NEVER",
+          "clue": "I _____ drink coffee in the evening.",
+          "direction": "down",
+          "row": 4,
+          "col": 7
+        },
+        {
+          "word": "OFTEN",
+          "clue": "She _____ visits her grandmother on Sundays.",
+          "direction": "down",
+          "row": 3,
+          "col": 4
         }
       ]
     },
@@ -4005,46 +4006,46 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "ALWAYS",
-          "clue": "Adverbio que significa 'todo el tiempo'.",
+          "word": "USUALLY",
+          "clue": "Adverbio que significa 'normalmente'.",
           "direction": "across",
-          "row": 0,
+          "row": 5,
           "col": 0
         },
         {
-          "word": "NEVER",
-          "clue": "Adverbio que significa 'en ningún momento'.",
+          "word": "ALWAYS",
+          "clue": "Adverbio que significa 'todo el tiempo'.",
           "direction": "down",
           "row": 0,
-          "col": 2
+          "col": 1
         },
         {
           "word": "MONDAY",
           "clue": "El primer día de la semana laboral.",
-          "direction": "across",
-          "row": 1,
-          "col": 0
-        },
-        {
-          "word": "OFTEN",
-          "clue": "Adverbio que significa 'frecuentemente'.",
           "direction": "down",
-          "row": 0,
-          "col": 4
-        },
-        {
-          "word": "USUALLY",
-          "clue": "Adverbio que significa 'normalmente'.",
-          "direction": "across",
-          "row": 3,
-          "col": 0
+          "row": 1,
+          "col": 3
         },
         {
           "word": "FRIDAY",
           "clue": "El quinto día de la semana laboral.",
           "direction": "down",
-          "row": 1,
+          "row": 0,
           "col": 6
+        },
+        {
+          "word": "NEVER",
+          "clue": "Adverbio que significa 'en ningún momento'.",
+          "direction": "across",
+          "row": 9,
+          "col": 0
+        },
+        {
+          "word": "OFTEN",
+          "clue": "Adverbio que significa 'frecuentemente'.",
+          "direction": "across",
+          "row": 0,
+          "col": 5
         }
       ]
     },

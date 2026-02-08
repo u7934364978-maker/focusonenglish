@@ -471,18 +471,39 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "A person who is very friendly and helps others.",
+          "word": "POLITE",
+          "clue": "Someone who says 'please' and 'thank you'.",
           "direction": "across",
-          "row": 0,
-          "col": 0
+          "row": 4,
+          "col": 1
         },
         {
           "word": "HAPPY",
           "clue": "Feeling very good and smiling a lot.",
           "direction": "down",
+          "row": 2,
+          "col": 1
+        },
+        {
+          "word": "BRAVE",
+          "clue": "A person who is not afraid of danger.",
+          "direction": "down",
           "row": 0,
-          "col": 2
+          "col": 6
+        },
+        {
+          "word": "KIND",
+          "clue": "A person who is very friendly and helps others.",
+          "direction": "down",
+          "row": 3,
+          "col": 4
+        },
+        {
+          "word": "LAZY",
+          "clue": "Not very willing to work or move a lot.",
+          "direction": "down",
+          "row": 4,
+          "col": 3
         },
         {
           "word": "SHY",
@@ -490,27 +511,6 @@
           "direction": "across",
           "row": 2,
           "col": 0
-        },
-        {
-          "word": "POLITE",
-          "clue": "Someone who says 'please' and 'thank you'.",
-          "direction": "down",
-          "row": 0,
-          "col": 5
-        },
-        {
-          "word": "LAZY",
-          "clue": "Not very willing to work or move a lot.",
-          "direction": "across",
-          "row": 4,
-          "col": 3
-        },
-        {
-          "word": "BRAVE",
-          "clue": "A person who is not afraid of danger.",
-          "direction": "down",
-          "row": 2,
-          "col": 7
         }
       ]
     },
@@ -1164,59 +1164,59 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "This person is very friendly and helpful.",
+          "word": "POLITE",
+          "clue": "This person is very respectful and uses good manners.",
           "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "SHY",
-          "clue": "This person is really quiet and doesn't like speaking in front of people.",
-          "direction": "down",
-          "row": 0,
-          "col": 2
+          "row": 4,
+          "col": 1
         },
         {
           "word": "HAPPY",
           "clue": "This person is always smiling and in a good mood.",
-          "direction": "across",
-          "row": 1,
-          "col": 0
+          "direction": "down",
+          "row": 2,
+          "col": 1
         },
         {
           "word": "ANGRY",
           "clue": "This person feels this way when something bad happens.",
-          "direction": "down",
-          "row": 1,
-          "col": 4
+          "direction": "across",
+          "row": 3,
+          "col": 1
         },
         {
           "word": "BRAVE",
           "clue": "This person is not afraid and is very courageous.",
+          "direction": "down",
+          "row": 0,
+          "col": 6
+        },
+        {
+          "word": "KIND",
+          "clue": "This person is very friendly and helpful.",
           "direction": "across",
-          "row": 2,
+          "row": 9,
           "col": 1
         },
         {
           "word": "LAZY",
           "clue": "This person doesn't like to work or do anything active.",
           "direction": "down",
-          "row": 2,
-          "col": 5
-        },
-        {
-          "word": "POLITE",
-          "clue": "This person is very respectful and uses good manners.",
-          "direction": "across",
           "row": 4,
-          "col": 0
+          "col": 3
         },
         {
           "word": "RUDE",
           "clue": "This person is not polite and often says things that can hurt others.",
           "direction": "across",
-          "row": 6,
+          "row": 1,
+          "col": 6
+        },
+        {
+          "word": "SHY",
+          "clue": "This person is really quiet and doesn't like speaking in front of people.",
+          "direction": "across",
+          "row": 2,
           "col": 0
         }
       ]
@@ -1890,53 +1890,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "This person is very nice and helpful.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "FUNNY",
           "clue": "This person makes you laugh a lot.",
-          "direction": "down",
-          "row": 0,
-          "col": 3
-        },
-        {
-          "word": "LAZY",
-          "clue": "The opposite of active; someone who doesn't like to work.",
           "direction": "across",
-          "row": 2,
-          "col": 1
+          "row": 4,
+          "col": 0
         },
         {
           "word": "BRAVE",
           "clue": "This person is not afraid of danger.",
-          "direction": "down",
-          "row": 1,
-          "col": 5
-        },
-        {
-          "word": "SHY",
-          "clue": "This person is very quiet and not really confident.",
           "direction": "across",
-          "row": 4,
-          "col": 2
+          "row": 6,
+          "col": 0
         },
         {
           "word": "HAPPY",
           "clue": "Feeling or showing pleasure; opposite of sad.",
           "direction": "down",
-          "row": 3,
+          "row": 0,
           "col": 4
+        },
+        {
+          "word": "KIND",
+          "clue": "This person is very nice and helpful.",
+          "direction": "down",
+          "row": 2,
+          "col": 2
+        },
+        {
+          "word": "LAZY",
+          "clue": "The opposite of active; someone who doesn't like to work.",
+          "direction": "across",
+          "row": 1,
+          "col": 3
         },
         {
           "word": "RUDE",
           "clue": "This person is not polite; opposite of polite.",
+          "direction": "down",
+          "row": 6,
+          "col": 1
+        },
+        {
+          "word": "SHY",
+          "clue": "This person is very quiet and not really confident.",
           "direction": "across",
-          "row": 5,
-          "col": 0
+          "row": 0,
+          "col": 3
         }
       ]
     },
@@ -2534,53 +2534,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "A person who is very nice and helpful.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
           "word": "HAPPY",
           "clue": "Feeling very good and smiling a lot.",
-          "direction": "down",
-          "row": 0,
-          "col": 2
-        },
-        {
-          "word": "SHY",
-          "clue": "Not very confident, especially with new people.",
           "direction": "across",
-          "row": 2,
-          "col": 0
+          "row": 4,
+          "col": 2
         },
         {
           "word": "FUNNY",
           "clue": "Someone who makes you laugh a lot.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
+          "direction": "down",
+          "row": 0,
+          "col": 6
         },
         {
           "word": "ANGRY",
           "clue": "Feeling very upset about something.",
           "direction": "down",
-          "row": 0,
-          "col": 5
+          "row": 4,
+          "col": 3
+        },
+        {
+          "word": "BRAVE",
+          "clue": "Someone who is not afraid of danger.",
+          "direction": "across",
+          "row": 7,
+          "col": 2
+        },
+        {
+          "word": "KIND",
+          "clue": "A person who is very nice and helpful.",
+          "direction": "across",
+          "row": 2,
+          "col": 4
         },
         {
           "word": "LAZY",
           "clue": "Not very active and doesn't like working hard.",
           "direction": "across",
-          "row": 6,
+          "row": 8,
           "col": 0
         },
         {
-          "word": "BRAVE",
-          "clue": "Someone who is not afraid of danger.",
+          "word": "SHY",
+          "clue": "Not very confident, especially with new people.",
           "direction": "down",
-          "row": 2,
-          "col": 3
+          "row": 3,
+          "col": 2
         }
       ]
     },
@@ -3220,53 +3220,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "A person who is very nice and helpful.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "LAZY",
-          "clue": "Someone who does not like to work or be active.",
-          "direction": "down",
-          "row": 0,
-          "col": 4
-        },
-        {
           "word": "HAPPY",
           "clue": "Feeling very good and smiling a lot.",
           "direction": "across",
-          "row": 2,
-          "col": 0
+          "row": 4,
+          "col": 2
         },
         {
           "word": "QUIET",
           "clue": "A person who does not talk much.",
-          "direction": "down",
-          "row": 1,
+          "direction": "across",
+          "row": 6,
           "col": 2
         },
         {
           "word": "ANGRY",
           "clue": "The opposite of calm; feeling very mad.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "FUNNY",
-          "clue": "Someone who makes you laugh a lot.",
           "direction": "down",
           "row": 0,
           "col": 6
         },
         {
+          "word": "FUNNY",
+          "clue": "Someone who makes you laugh a lot.",
+          "direction": "down",
+          "row": 5,
+          "col": 3
+        },
+        {
           "word": "BRAVE",
           "clue": "A person who is very courageous.",
           "direction": "across",
-          "row": 3,
-          "col": 3
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "KIND",
+          "clue": "A person who is very nice and helpful.",
+          "direction": "down",
+          "row": 5,
+          "col": 4
+        },
+        {
+          "word": "LAZY",
+          "clue": "Someone who does not like to work or be active.",
+          "direction": "across",
+          "row": 9,
+          "col": 0
         }
       ]
     },
@@ -3929,53 +3929,53 @@
       "instructions": "Complete the crossword puzzle",
       "items": [
         {
-          "word": "KIND",
-          "clue": "This person is very friendly and helps others.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "LAZY",
-          "clue": "This person does not like to work. The opposite of hardworking.",
-          "direction": "down",
-          "row": 0,
-          "col": 4
-        },
-        {
           "word": "FUNNY",
           "clue": "This person makes others laugh a lot.",
-          "direction": "across",
-          "row": 2,
-          "col": 1
-        },
-        {
-          "word": "SHY",
-          "clue": "This person is not very confident in social situations.",
-          "direction": "down",
-          "row": 1,
-          "col": 2
-        },
-        {
-          "word": "BRAVE",
-          "clue": "This person is not afraid of danger.",
           "direction": "across",
           "row": 4,
           "col": 0
         },
         {
+          "word": "BRAVE",
+          "clue": "This person is not afraid of danger.",
+          "direction": "across",
+          "row": 6,
+          "col": 0
+        },
+        {
           "word": "QUIET",
           "clue": "This person does not talk much. The opposite of talkative.",
-          "direction": "down",
-          "row": 2,
-          "col": 5
+          "direction": "across",
+          "row": 8,
+          "col": 0
         },
         {
           "word": "HAPPY",
           "clue": "This person feels very good and smiles a lot.",
+          "direction": "down",
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "KIND",
+          "clue": "This person is very friendly and helps others.",
+          "direction": "down",
+          "row": 2,
+          "col": 2
+        },
+        {
+          "word": "LAZY",
+          "clue": "This person does not like to work. The opposite of hardworking.",
           "direction": "across",
-          "row": 6,
-          "col": 1
+          "row": 1,
+          "col": 3
+        },
+        {
+          "word": "SHY",
+          "clue": "This person is not very confident in social situations.",
+          "direction": "across",
+          "row": 0,
+          "col": 3
         }
       ]
     },

@@ -119,8 +119,8 @@
               "id": "cat_of",
               "title": "Avoid 'of' for Superlatives",
               "items": [
-                { "id": "i3", "text": "Of the world (Mistake)" },
-                { "id": "i4", "text": "Of the class (Mistake)" }
+                { "id": "i3", "text": "Of the world" },
+                { "id": "i4", "text": "Of the class" }
               ]
             }
           ],
