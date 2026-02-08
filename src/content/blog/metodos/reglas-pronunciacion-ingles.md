@@ -6,7 +6,7 @@ keywords: ["reglas de pronunciacion en ingles", "pronunciacion ingles", "como pr
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg"
-category: "Habilidades"
+category: "metodos"
 ---
 
 La pronunciación es la "cara" de tu inglés. Como profesor de Cambridge, he comprobado que muchos alumnos tienen una gramática excelente pero no logran comunicarse con eficacia debido a la falta de claridad fonética. El inglés no es un idioma fonético (no se lee como se escribe), pero sí es un idioma de **patrones**.

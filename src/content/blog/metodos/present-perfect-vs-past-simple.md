@@ -4,7 +4,7 @@ description: "Aprende la diferencia entre Present Perfect y Past Simple en ingl�
 excerpt: "¿Dudas entre el Present Perfect y el Past Simple? En este artículo te explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos prácticos para dominarlos."
 keywords: ["present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "gramatica inglesa", "ejercicios gramatica ingles", "clases de gramatica en ingles gratis"]
 date: "2026-02-06"
-category: "Gramática"
+category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
 faqs:

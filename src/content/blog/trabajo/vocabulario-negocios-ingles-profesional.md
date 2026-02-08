@@ -6,7 +6,7 @@ keywords: ["vocabulario de negocios en ingles", "business english phrases", "ing
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
-category: "Trabajo"
+category: "trabajo"
 ---
 
 En el mundo globalizado de hoy, el inglés no es solo un idioma, es la herramienta de trabajo más potente que puedes tener. Dominar el **vocabulario de negocios en inglés** (Business English) te abrirá puertas a mejores puestos, negociaciones internacionales y una comunicación más fluida con colegas de todo el mundo.

@@ -1,112 +1,137 @@
 ---
-title: "La Voz Pasiva en Inglés: Guía de Tiempos Verbales"
-description: "Domina la voz pasiva en inglés. Incluye fórmulas para todos los tiempos, pasivas con doble objeto, 'get' passive y lista imprimible de ejemplos."
-excerpt: "¿Te cuesta entender la voz pasiva? En esta guía académica te enseñamos cómo transformar oraciones, los casos avanzados y ejemplos de uso real para exámenes."
-keywords: ["passive voice examples", "the passive voice", "examples of passive voice", "voz pasiva en ingles", "gramatica b1 b2", "ejercicios de gramatica en ingles", "practicar gramatica ingles"]
+title: "La Voz Pasiva en Inglés: Guía Completa, Tiempos y Uso Académico"
+description: "Domina la voz pasiva en inglés de forma definitiva. Incluye fórmulas para todos los tiempos, pasivas con doble objeto, estructuras causativas, la pasiva impersonal y ejemplos prácticos para niveles B1 a C1."
+excerpt: "¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía exhaustiva te enseñamos desde las transformaciones básicas hasta las estructuras avanzadas como las pasivas impersonales y causativas, con ejemplos diseñados para exámenes oficiales."
+keywords: ["passive voice examples", "the passive voice", "examples of passive voice", "voz pasiva en ingles", "gramatica b1 b2", "ejercicios de gramatica en ingles", "practicar gramatica ingles", "causative have get", "impersonal passive english"]
 date: "2026-02-06"
-category: "Gramática"
+category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
-faqs:
-  - question: "¿Cómo se forma la voz pasiva en inglés?"
-    answer: "Se forma con el verbo 'to be' (en el tiempo verbal correspondiente) + el participio pasado del verbo principal."
-  - question: "¿Cuándo se usa la voz pasiva?"
-    answer: "Se usa cuando el objeto de la acción es más importante que quien la realiza, cuando no sabemos quién la hizo o cuando es obvio."
-  - question: "¿Es correcto usar 'by' en la voz pasiva?"
-    answer: "Sí, usamos 'by' para introducir al agente (quien realiza la acción) si es relevante mencionarlo."
 ---
 
-## Domina la Voz Pasiva en Inglés (Nivel B1-C1)
+La **voz pasiva (The Passive Voice)** es una de las estructuras que marca la frontera entre un nivel básico y un nivel intermedio-avanzado en inglés. Mientras que en el nivel A2 nos centramos en quién hace qué (Voz Activa), a partir del nivel B1 y especialmente en el B2 (First) y C1 (Advanced), empezamos a dar prioridad a la **acción** o al **objeto** que la recibe.
 
-La **voz pasiva** es una herramienta esencial para elevar tu nivel de inglés. Como profesor de Cambridge, te aseguro que el uso correcto de la pasiva es uno de los indicadores clave de un nivel B2 (First) o C1 (Advanced). Se utiliza para dar un tono formal, objetivo y profesional a tu discurso.
-
-En esta guía, exploraremos **the passive voice** desde sus cimientos hasta sus formas más complejas, proporcionando **passive voice examples** que cubren todas las necesidades académicas.
+Como expertos en preparación de exámenes de Cambridge, te aseguramos que el dominio de la pasiva no solo mejora tu puntuación en el *Writing*, sino que te permite comprender textos académicos, científicos y periodísticos donde esta estructura es la norma, no la excepción.
 
 ---
 
-## 1. Estructura Académica
+## 1. ¿Por qué usamos la Voz Pasiva?
 
-La formación de la pasiva requiere dos elementos innegociables:
-1.  **Verbo 'to be'**: Conjugado en el mismo tiempo que el verbo de la oración activa.
-2.  **Participio Pasado**: El verbo principal siempre en su forma V3 (terminado en *-ed* o irregular).
+Muchos estudiantes cometen el error de pensar que la pasiva es simplemente una forma "difícil" de decir lo mismo que en activa. Sin embargo, su uso responde a intenciones comunicativas muy claras:
 
-### La Regla del Sujeto Paciente
-En la voz activa, el sujeto *hace* la acción. En la voz pasiva, el sujeto *recibe* la acción.
-*   **Active**: *The company hired 100 new employees.*
-*   **Passive**: *100 new employees **were hired** by the company.*
+1.  **El agente es desconocido**: No sabemos quién realizó la acción.
+    *   *Example*: "My car was stolen yesterday." (No sabemos quién fue el ladrón).
+2.  **El agente es obvio**: Es innecesario mencionarlo.
+    *   *Example*: "The thief was arrested." (Es obvio que fue la policía).
+3.  **Foco en el objeto o la acción**: El resultado es más importante que el autor.
+    *   *Example*: "The pyramid was built 4,000 years ago."
+4.  **Tono formal y profesional**: Muy común en reportes, noticias y ciencia.
+    *   *Example*: "The experiment was conducted under strict conditions."
+5.  **Evitar culpas (Impersonalidad)**: Útil cuando no queremos señalar directamente a alguien.
+    *   *Example*: "Mistakes were made."
 
 ---
 
-## 2. 📥 Material de Estudio: Tabla de Tiempos Verbales
+## 2. La Estructura Fundamental
 
-Copia o imprime esta tabla para tener siempre a mano la transformación correcta de **the passive voice**.
+Para transformar cualquier oración de activa a pasiva, el verbo **'to be'** actúa como un espejo temporal: debe estar en el mismo tiempo que el verbo principal de la activa.
 
-| Tiempo Verbal | Estructura Pasiva | Ejemplo Académico |
+**Fórmula: Sujeto Paciente + Verbo TO BE (conjugado) + Past Participle (V3)**
+
+### Tabla de Tiempos Verbales en Pasiva
+
+| Tiempo Verbal | Voz Activa | Voz Pasiva (The Passive Voice) |
 | :--- | :--- | :--- |
-| **Present Simple** | am/is/are + V3 | *The report is published daily.* |
-| **Past Simple** | was/were + V3 | *The law was passed in 1990.* |
-| **Present Continuous** | am/is/are + being + V3 | *The bridge is being repaired now.* |
-| **Past Continuous** | was/were + being + V3 | *The data was being analyzed.* |
-| **Present Perfect** | have/has + been + V3 | *The results have been announced.* |
-| **Past Perfect** | had + been + V3 | *The house had been sold before.* |
-| **Future (Will)** | will + be + V3 | *The flight will be cancelled.* |
-| **Modals** | modal + be + V3 | *This task must be completed.* |
+| **Present Simple** | They clean the room. | The room **is cleaned**. |
+| **Past Simple** | They cleaned the room. | The room **was cleaned**. |
+| **Present Continuous** | They are cleaning the room. | The room **is being cleaned**. |
+| **Past Continuous** | They were cleaning the room. | The room **was being cleaned**. |
+| **Present Perfect** | They have cleaned the room. | The room **has been cleaned**. |
+| **Past Perfect** | They had cleaned the room. | The room **had been cleaned**. |
+| **Future (Will)** | They will clean the room. | The room **will be cleaned**. |
+| **Be going to** | They are going to clean it. | It **is going to be cleaned**. |
+| **Modals (Must/Can)** | They must clean the room. | The room **must be cleaned**. |
 
 ---
 
-## 3. Casos Avanzados: Lo que marca la diferencia
+## 3. Estructuras Avanzadas (Nivel B2-C1)
 
-### A. Doble Objeto (Two Objects)
-Muchos verbos en inglés tienen dos objetos (Indirecto y Directo). En la pasiva, podemos usar cualquiera de los dos como sujeto, aunque empezar por la persona es lo más común y natural.
-*   **Active**: *They gave John a prize.*
-*   **Passive 1**: *John **was given** a prize.* (Más común)
-*   **Passive 2**: *A prize **was given** to John.*
+Si aspiras a un nivel superior, debes dominar estas tres variantes:
 
-### B. La Pasiva con "Get"
-En contextos informales, a menudo usamos "get" en lugar de "be". Suele usarse para hechos inesperados o negativos.
-*   *I **got stuck** in traffic.*
-*   *He **got fired** yesterday.*
+### A. La Pasiva de Doble Objeto
+Verbos como *give, send, show, lend, offer* o *tell* suelen llevar un objeto directo (la cosa) y uno indirecto (la persona). En inglés, es mucho más común y natural empezar la pasiva con la **persona**.
+*   **Active**: "The company offered **me** a promotion."
+*   **Passive 1 (Natural)**: "**I was offered** a promotion."
+*   **Passive 2 (Formal)**: "A promotion was offered **to me**."
 
-### C. Verbos de Opinión (It is said that...)
-Para reportar información de forma impersonal:
-*   *It **is said that** the economy is improving.*
-*   *He **is believed to be** the best candidate.*
+### B. Pasiva Impersonal (Verbos de Opinión)
+Se usa para reportar lo que "se dice", "se cree" o "se piensa" de forma general. Hay dos formas de construirla:
+1.  **Estructura con IT**: *It is said that... / It is believed that...*
+    *   "It is said that he is a millionaire."
+2.  **Estructura con Sujeto Personal**: *Subject + be + said/thought + to + infinitive*.
+    *   "He is said **to be** a millionaire." (Esta estructura es muy valorada en exámenes C1).
+
+### C. La Estructura Causativa: Have/Get something done
+Se usa cuando otra persona realiza un servicio por nosotros. No somos nosotros quienes hacemos la acción, sino que "hacemos que se haga".
+*   **Active**: "The mechanic fixed my car."
+*   **Causative**: "I **had my car fixed**."
+*   **Informal**: "I **got my hair cut** yesterday."
 
 ---
 
-## 4. 📥 Lista de Ejemplos para Práctica (Versión Imprimible)
+## 4. El Agente: ¿Cuándo usar 'By'?
 
-Aquí tienes 15 **examples of passive voice** seleccionados por su utilidad en exámenes y entornos profesionales:
+Solo usamos **'by + agente'** si la información de quién hizo la acción es realmente relevante o aporta valor a la frase.
+*   *Relevant*: "The mural was painted **by Picasso**." (Es vital saber quién fue).
+*   *Irrelevant*: "The letter was delivered **by the postman**." (Es obvio, mejor omitirlo).
 
-1.  **Presente**: *English is spoken all over the world.*
-2.  **Pasado**: *The telephone was invented by Graham Bell.*
-3.  **Continuo**: *Wait a moment, your room is being cleaned.*
-4.  **Perfecto**: *The missing child has been found safe.*
-5.  **Obligación**: *The form must be signed in black ink.*
-6.  **Negativa**: *The email wasn't sent on time.*
-7.  **Interrogativa**: *Was the window broken by the wind?*
-8.  **Doble Objeto**: *She was offered a very good job.*
-9.  **Doble Objeto**: *I was shown the way to the station.*
-10. **Infinitivo**: *This car needs to be washed.*
-11. **Gerundio**: *I don't like being told what to do.*
-12. **Científico**: *The chemicals were mixed in a test tube.*
-13. **Periodístico**: *The suspect is being questioned by the police.*
-14. **Arquitectura**: *The skyscraper was designed by a famous architect.*
-15. **Casual**: *My phone got broken at the concert.*
+---
+
+## 5. Errores Comunes y Cómo Evitarlos
+
+1.  **Verbos Intransitivos**: ¡Cuidado! Verbos como *happen, arrive, die, live* o *go* NO tienen pasiva porque no tienen objeto. No puedes decir "The accident was happened".
+2.  **Olvidar el participio**: Recuerda que el verbo principal siempre va en la 3ª columna (V3).
+3.  **El tiempo de 'To Be'**: Si la activa está en *Present Perfect*, el verbo *to be* debe estar en *Present Perfect* (*have been / has been*).
+
+---
+
+## 6. 📥 15 Ejemplos de Uso Real (Nivel Profesional)
+
+1.  **Tech**: *The software is updated automatically every night.*
+2.  **History**: *The document was signed by both presidents.*
+3.  **News**: *The suspect is being held in custody.*
+4.  **Business**: *The contract has already been reviewed by our lawyers.*
+5.  **Medicine**: *The patient had been warned about the risks.*
+6.  **Architecture**: *The stadium will be inaugurated next summer.*
+7.  **Law**: *The regulations must be strictly followed.*
+8.  **Education**: *Students are given feedback on their performance.*
+9.  **Science**: *The samples were stored at -20 degrees.*
+10. **Cinema**: *The film was directed by Greta Gerwig.*
+11. **Impersonal**: *It is believed that the climate is changing rapidly.*
+12. **Causative**: *I need to have my passport renewed.*
+13. **Get Passive**: *He got promoted after only six months.*
+14. **Negative**: *No decisions were made during the meeting.*
+15. **Question**: *When was the first message sent?*
+
+---
+
+## Conclusión
+
+Dominar la **voz pasiva en inglés** no es solo una cuestión de aprobar un examen; es la clave para comunicarte con precisión en entornos internacionales y profesionales. Al mover el foco de atención hacia lo que realmente importa, tu discurso gana en objetividad y elegancia.
+
+En **Focus English**, no nos limitamos a enseñarte las tablas de verbos. Nuestra plataforma utiliza **IA avanzada** para ayudarte a practicar estas estructuras en contextos reales, desde la redacción de emails corporativos hasta simulacros de entrevistas de trabajo.
+
+[**¡Únete a Focus English hoy y empieza a hablar con la confianza de un experto!**](/cuenta/registro)
 
 ---
 
 ## Preguntas Frecuentes (FAQs)
 
-### ¿Se puede usar la pasiva con cualquier verbo?
-No. Solo con verbos **transitivos** (los que pueden llevar objeto directo). Verbos como *go*, *sit* o *die* no pueden ser pasivos.
+### 1. ¿Es la pasiva más común en inglés que en español?
+Sí, mucho más. En español solemos usar la "pasiva refleja" (*Se vende casa*), mientras que en inglés la estructura pasiva estándar es la opción natural en la mayoría de contextos formales.
 
-### ¿Cuándo es mejor NO usar la voz pasiva?
-No abuses de ella. Si el sujeto que realiza la acción es importante y la frase suena natural en activa, úsala. La pasiva puede sonar demasiado distante o "pesada" si se usa en exceso.
+### 2. ¿Cuál es la diferencia entre 'have something done' y 'get something done'?
+Ambas significan lo mismo, pero **'get'** es más informal y suele usarse en el lenguaje hablado.
 
-### ¿Cómo sé qué tiempo de 'to be' usar?
-Mira el verbo de la oración activa. Si el verbo es *saw* (pasado), usa *was/were*. Si el verbo es *has seen* (presente perfecto), usa *has been*. El verbo *to be* es tu "espejo" temporal.
-
----
-
-¿Quieres dominar la voz pasiva con ejercicios que se adaptan a tu nivel? En **Focus English** hemos creado una ruta de aprendizaje inteligente para que pases de la teoría a la práctica sin esfuerzo. [**Empieza gratis ahora.**](/cuenta/registro)
+### 3. ¿Se puede usar la pasiva en tiempos continuos?
+Sí, pero suena algo pesado. El presente y pasado continuo pasivo (*is being / was being*) son comunes, pero los tiempos perfectos continuos pasivos (*has been being*) casi nunca se utilizan por su complejidad fonética.

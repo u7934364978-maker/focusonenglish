@@ -34,6 +34,10 @@ Create a detailed implementation plan.
 - [x] Expanded `src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md` (771 words).
 - [x] Expanded `src/content/blog/viajes/frases-ingles-emergencias-viajes.md` (800 words).
 - [x] Expanded `src/content/blog/trabajo/linkedin-ingles-guia.md` (808 words).
+- [x] Resolved 404 issue and updated `next.config.js` redirects.
+- [x] Expanded `src/content/blog/metodos/reported-speech-guia-uso.md` (~800 words).
+- [x] Expanded `src/content/blog/metodos/gramatica-ingles-b1-guia.md` (~850 words).
+- [x] Expanded `src/content/blog/metodos/voz-pasiva-ingles-guia.md` (~800 words).
 - [ ] Ensure all moved articles reach the 750-word threshold (Ongoing).
 - [ ] Expand any other articles in other categories that are under 750 words (Ongoing).
 

@@ -59,4 +59,4 @@ Un texto bien estructurado fluye mejor y comete menos errores de cohesión.
 
 Practicar el Writing solo es difícil porque no sabes qué estás haciendo mal. En nuestra [guía de certificaciones oficiales](/certificaciones-ingles-oficiales) verás cómo la preparación guiada marca la diferencia. En Focus English, utilizamos inteligencia artificial entrenada con criterios oficiales de Cambridge para darte feedback inmediato sobre tu gramática y estilo.
 
-[**Prepara tu C1 Advanced con nosotros y asegura tu aprobado.**](/blog/seo/ingles-c1)
+[**Prepara tu C1 Advanced con nosotros y asegura tu aprobado.**](/blog/metodos/ingles-c1)

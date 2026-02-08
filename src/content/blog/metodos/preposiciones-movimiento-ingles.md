@@ -6,7 +6,7 @@ keywords: ["preposiciones de movimiento en ingles", "preposiciones en ingles", "
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg"
-category: "Gramática"
+category: "metodos"
 ---
 
 Las **preposiciones de movimiento** (Prepositions of Movement) son fundamentales para dar dinamismo a tu inglés. Mientras que las preposiciones de lugar describen dónde está algo, las de movimiento describen **hacia dónde va**.

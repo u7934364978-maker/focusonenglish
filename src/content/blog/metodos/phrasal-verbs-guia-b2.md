@@ -6,7 +6,7 @@ keywords: ["phrasal verbs b2", "lista phrasal verbs", "phrasal verbs with take",
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
-category: "Gramática"
+category: "metodos"
 ---
 
 Los **phrasal verbs** son el "talón de Aquiles" de muchos estudiantes que preparan el nivel B2. Sin embargo, en el nivel **Intermedio-Alto (B2 First)**, dejar de usarlos no es una opción si quieres sonar natural y aprobar el *Use of English* del First Certificate (FCE).

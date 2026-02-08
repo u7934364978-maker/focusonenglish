@@ -6,7 +6,7 @@ keywords: ["verbos modales ingles", "verbos modales ingles pdf", "verbos modales
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg"
-category: "Gramática"
+category: "metodos"
 ---
 
 Los **verbos modales** son piezas angulares de la fluidez en inglés. Como profesor de Cambridge, a menudo veo que los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.

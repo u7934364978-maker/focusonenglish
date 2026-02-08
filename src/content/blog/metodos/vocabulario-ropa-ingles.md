@@ -4,7 +4,7 @@ description: "Domina el vocabulario de ropa en inglés, calzado y accesorios. In
 excerpt: "Aprende los nombres de las prendas de ropa en inglés, accesorios y calzado. Guía académica con verbos de acción, descripción de estilos y material de práctica."
 keywords: ["prendas de ropa en ingles", "clothes in english", "vocabulario ropa ingles", "nombres de ropa en ingles", "verbos para ropa ingles", "vocabulario ropa ingles pdf", "aprender vocabulario ingles"]
 date: "2026-02-06"
-category: "Vocabulario"
+category: "metodos"
 author: "Focus English"
 image: "https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg"
 faqs:
