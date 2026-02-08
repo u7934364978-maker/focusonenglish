@@ -334,7 +334,14 @@ export default function PremiumCourseSession({
 
     const items: any[] = [];
     unitData.blocks.forEach((block: PremiumBlock) => {
+      let blockStimulus: string | null = null;
       block.content.forEach((content: PremiumContent) => {
+        // Capture stimulus from items that have it (reading context)
+        const currentStimulus = content.stimulus_en || content.text || content.textPassage || content.scenario;
+        if (currentStimulus && (content.type === 'reading-comprehension' || (content.concept_tags && content.concept_tags.includes('reading')))) {
+          blockStimulus = currentStimulus;
+        }
+
         // Handle multi-question exercises from A2 generation
         // Crosswords and Word Searches should NOT be flattened even if they have 'items' or 'words'
         const shouldNotFlatten = ['crossword', 'word-search', 'word_search'].includes(content.type as string);
@@ -396,6 +403,9 @@ export default function PremiumCourseSession({
             }
             if (content.textPassage && !flattened.stimulus_en) {
               flattened.stimulus_en = content.textPassage;
+            }
+            if (!flattened.stimulus_en && blockStimulus && (flattened.type === 'true_false' || (flattened.concept_tags && flattened.concept_tags.includes('reading')))) {
+              flattened.stimulus_en = blockStimulus;
             }
 
             // Clean up stimulus for fill-blank exercises
@@ -491,7 +501,11 @@ export default function PremiumCourseSession({
           });
         }
         else {
-          items.push(normalizeInteraction({ ...content, blockTitle: block.title }));
+          const finalItem = { ...content, blockTitle: block.title };
+          if (!finalItem.stimulus_en && blockStimulus && (finalItem.type === 'true_false' || (finalItem.concept_tags && finalItem.concept_tags.includes('reading')))) {
+            finalItem.stimulus_en = blockStimulus;
+          }
+          items.push(normalizeInteraction(finalItem));
         }
       });
     });
