@@ -101,7 +101,7 @@ Comunes en sugerencias, acusaciones o admisiones.
 Para convertirte en un experto total en esta materia, te recomendamos explorar las guías específicas de nuestro cluster de contenido:
 
 1. [**Ejercicios de Reported Speech en PDF**](/blog/metodos/reported-speech-ejercicios-pdf): Pon a prueba tus conocimientos con material práctico.
-2. [**Reported Speech para Exámenes de Cambridge**](/blog/metodos/reported-speech-cambridge-exams): Estrategias específicas para el Use of English Part 4 (Key Word Transformation).
+2. [**Reported Speech para Exámenes de Cambridge**](/blog/examenes/reported-speech-cambridge-exams): Estrategias específicas para el Use of English Part 4 (Key Word Transformation).
 3. [**Guía de Passive Reporting Verbs**](/blog/metodos/passive-reporting-verbs-guia-avanzada): Domina estructuras impersonales como *"It is thought that..."*.
 4. [**Lista Completa de Patrones de Reporting Verbs**](/blog/metodos/reporting-verbs-patterns-list): Tu diccionario de referencia para saber qué estructura sigue a cada verbo.
 5. [**Preguntas y Órdenes en Estilo Indirecto**](/blog/metodos/reported-speech-questions-commands): Guía paso a paso para reportar interrogativas e imperativos.

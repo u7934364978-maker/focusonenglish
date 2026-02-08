@@ -29,6 +29,10 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!article) {
     return {
       title: "Artículo no encontrado",
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 

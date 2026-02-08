@@ -70,7 +70,15 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     
   const meta = categoryMetadata[category];
   
-  if (!meta) return { title: "Categoría no encontrada" };
+  if (!meta) {
+    return {
+      title: "Categoría no encontrada",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
 
   return {
     title: `${optimizeSEOTitle(meta.name)} | Blog`,

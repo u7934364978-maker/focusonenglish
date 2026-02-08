@@ -91,7 +91,7 @@ Para no perder puntos en la parte de rephrasing, sigue este método:
 
 El **Reported Speech** en los exámenes de Cambridge es una oportunidad de oro para demostrar que tienes un control total sobre las estructuras avanzadas del inglés. Practicar los patrones verbales de los *reporting verbs* más complejos te dará la confianza necesaria para clavar la parte 4 del Use of English.
 
-[**Volver a la Guía Maestra de Reported Speech**](/blog/examenes/guia-maestra-reported-speech)
+[**Volver a la Guía Maestra de Reported Speech**](/blog/metodos/guia-maestra-reported-speech)
 
 ---
 ¿Necesitas más práctica con ejercicios reales de Cambridge? En [**Focus English**](/cuenta/registro) disponemos de simuladores de Use of English diseñados para niveles B2, C1 y C2. ¡Empieza tu preparación hoy mismo!

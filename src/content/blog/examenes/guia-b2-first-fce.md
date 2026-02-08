@@ -38,7 +38,7 @@ Es la parte más temida por los estudiantes y pesa el 40% de la nota final. Eval
 ### 2. Writing (80 minutos)
 Debes redactar dos textos de entre 140 y 190 palabras cada uno.
 *   **Part 1 (Essay)**: Es obligatorio. Debes discutir un tema basándote en dos puntos dados y añadir una idea propia. Se evalúa tu capacidad para argumentar y organizar ideas.
-*   **Part 2 (Choice)**: Puedes elegir entre un artículo, un email/carta (formal o informal), un informe (*report*) o una reseña (*review*). Es vital dominar el registro de cada uno. Consulta nuestros **[trucos para el Writing B2](/blog/examenes/trucos-writing-b2-first)**.
+*   **Part 2 (Choice)**: Puedes elegir entre un artículo, un email/carta (formal o informal), un informe (*report*) o una reseña (*review*). Es vital dominar el registro de cada uno. Consulta nuestros **[trucos para el Writing B2](/blog/examenes/cambridge-b2-first-guia)**.
 
 ### 3. Listening (40 minutos aproximadamente)
 Consta de 4 partes y 30 preguntas. Escucharás audios dos veces.
