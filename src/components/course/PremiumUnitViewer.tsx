@@ -17,17 +17,20 @@ import { Button } from '@/components/ui/button';
 import PremiumCourseSession from './exercises/PremiumSession';
 import { UnitData, PremiumBlock } from '@/types/premium-course';
 import { useUser } from '@/hooks/useAuth';
+import { useRouter } from 'next/navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { AdaptiveEngine, UserPerformanceRecord } from '@/lib/course-engine/adaptive';
 import { CourseUnit } from '@/lib/course-engine/schema';
 
 interface Props {
   unitData: UnitData;
+  nextUnitUrl?: string;
 }
 
-export default function PremiumUnitViewer({ unitData }: Props) {
+export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
   const { course, blocks, learning_outcomes } = unitData;
   const { user } = useUser();
+  const router = useRouter();
   const [isStarted, setIsStarted] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
   const [startIndex, setStartIndex] = useState(0);
@@ -108,6 +111,7 @@ export default function PremiumUnitViewer({ unitData }: Props) {
           setIsCompleted(true);
           setIsStarted(false);
         }}
+        onNextUnit={nextUnitUrl ? () => router.push(nextUnitUrl) : undefined}
         onExit={() => setIsStarted(false)}
       />
     );

@@ -2,7 +2,7 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
 
 Create a Product Requirements Document (PRD) based on the feature description.
 
@@ -14,7 +14,7 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab972b6b-97e0-4fef-bb1c-daf4e2c639e3/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab972b6b-97e0-4fef-bb1c-daf4e2c639e3/requirements.md`.
 
@@ -30,22 +30,33 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
-
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab972b6b-97e0-4fef-bb1c-daf4e2c639e3/spec.md`.
+### [x] Step: Planning
 
 1. Break down the work into concrete tasks
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab972b6b-97e0-4fef-bb1c-daf4e2c639e3/plan.md`.
-
 ### [ ] Step: Implementation
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+#### 1. Display Exercise Explanations
+- [x] **Action**: Update `src/components/course/exercises/PremiumSession.tsx` to display `interaction.explanation` in the feedback footer.
+- [x] **Verification**: Complete an exercise and verify the explanation is visible for both correct and incorrect answers.
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab972b6b-97e0-4fef-bb1c-daf4e2c639e3/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+#### 2. Clean Up A1 Course Dashboard
+- [x] **Action**: Modify `src/app/curso/ingles-a1/page.tsx` to hide the "Mapa de Contenidos" grid.
+- [x] **Verification**: Navigate to `/curso/ingles-a1` and confirm only the "CONTINUAR" hero card and progress bar are visible.
+
+#### 3. Implement Continuous Flow for Units
+- [x] **Action 3a**: Update `src/app/curso/ingles-a1/[unitId]/page.tsx` to find the `nextUnitId` and pass a navigation prop.
+- [x] **Action 3b**: Update `src/components/course/PremiumUnitViewer.tsx` to accept and pass the `onNextUnit` callback.
+- [x] **Action 3c**: Update `src/components/course/exercises/PremiumSession.tsx` to use the `onNextUnit` callback in the summary screen.
+- [x] **Verification**: Finish a unit and verify that "FINALIZAR" takes you to the next unit in the A1 sequence.
+
+#### 4. Enable Infinite Practice Mode
+- [x] **Action**: Update `src/app/curso/ingles-a1/practica/PracticeClient.tsx` to refresh the page or reload the queue on session completion.
+- [x] **Verification**: Finish a practice session and verify it automatically reloads or offers to continue with new exercises.
+
+#### 5. Quality Assurance
+- [x] **Action**: Run `npm run lint` and verify core flows.
+- [x] **Verification**: Ensure no TypeScript errors and smooth navigation between units.
+

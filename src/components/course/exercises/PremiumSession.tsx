@@ -25,6 +25,7 @@ interface Props {
   unitData: UnitData;
   onComplete: () => void;
   onExit: () => void;
+  onNextUnit?: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
   onPerformanceUpdate?: (interactionId: string, quality: number) => void;
   onConceptUpdate?: (tags: string[], success: boolean) => void;
@@ -48,6 +49,7 @@ export default function PremiumCourseSession({
   unitData, 
   onComplete, 
   onExit, 
+  onNextUnit,
   onInteractionCorrect, 
   onPerformanceUpdate, 
   onConceptUpdate,
@@ -1026,8 +1028,11 @@ export default function PremiumCourseSession({
           transition={{ delay: 0.4 }}
           className="flex flex-col gap-4 w-full max-w-xs z-10"
         >
-          <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all">
-            FINALIZAR
+          <Button 
+            onClick={onNextUnit || onComplete} 
+            className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all"
+          >
+            {onNextUnit ? 'SIGUIENTE UNIDAD' : 'FINALIZAR'}
           </Button>
           <Button variant="outline" onClick={onExit} className="h-16 rounded-2xl border-2 border-slate-200 text-slate-600 text-lg font-bold hover:bg-slate-50">
             VOLVER AL CURSO
@@ -2566,6 +2571,23 @@ export default function PremiumCourseSession({
                           <span className="text-[#ea2b2b] uppercase text-[10px] tracking-wider block mb-0.5">Tip:</span>
                           {interaction.tip_es}
                         </p>
+                      </motion.div>
+                    )}
+                    {interaction.explanation && (
+                      <motion.div 
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        className={`mt-2 flex items-start gap-2 bg-white/50 p-3 rounded-xl border ${
+                          feedback.correct ? 'border-[#a5db5e]/50' : 'border-[#ee9b9e]/50'
+                        }`}
+                      >
+                        <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+                        <div className="text-sm font-bold text-slate-700">
+                          <span className={`${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'} uppercase text-[10px] tracking-wider block mb-0.5`}>
+                            Explicación:
+                          </span>
+                          <p className="whitespace-pre-line leading-relaxed">{interaction.explanation}</p>
+                        </div>
                       </motion.div>
                     )}
                   </div>

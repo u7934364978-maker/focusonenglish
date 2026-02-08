@@ -114,7 +114,7 @@ export default async function A1CoursePage() {
             </div>
           </div>
 
-          {/* Learning Path Visualizer */}
+          {/* Learning Path Visualizer - Hidden to focus on adaptive path
           <div className="relative">
             <h3 className="text-3xl font-black text-slate-900 mb-8 px-4 flex items-center gap-3">
               <LayoutGrid className="text-[#FF6B6B]" size={32} />
@@ -171,6 +171,7 @@ export default async function A1CoursePage() {
               })}
             </div>
           </div>
+          */}
         </div>
       </main>
     </>

@@ -24,9 +24,19 @@ export default async function PremiumUnitPage({ params }: { params: Promise<{ un
     notFound();
   }
 
+  // Find next unit for continuous flow
+  const allUnits = await premiumCourseServerService.getUnits('ingles-a1');
+  const currentUnitIndex = allUnits.findIndex(u => u.id === unitId || u.file === unitId);
+  const nextUnit = (currentUnitIndex !== -1 && currentUnitIndex < allUnits.length - 1) 
+    ? allUnits[currentUnitIndex + 1] 
+    : null;
+
   return (
     <div className="min-h-screen bg-white">
-      <PremiumUnitViewer unitData={unitData!} />
+      <PremiumUnitViewer 
+        unitData={unitData!} 
+        nextUnitUrl={nextUnit ? `/curso/ingles-a1/${nextUnit.file || nextUnit.id}` : undefined}
+      />
     </div>
   );
 }
