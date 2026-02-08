@@ -46,4 +46,12 @@ UPDATE public.course_exercises
 SET content = $_${"title":"Crossword: Daily Routines","instructions":"Complete the crossword puzzle","items":[{"word":"BREAKFAST","clue":"The first meal of the day, usually in the morning.","direction":"across","row":0,"col":0},{"word":"READ","clue":"To look at and understand words in a book or newspaper.","direction":"down","row":1,"col":8},{"word":"EVENING","clue":"The time of day after the afternoon and before the night.","direction":"across","row":2,"col":2},{"word":"DINNER","clue":"The main meal of the day, usually eaten in the evening.","direction":"down","row":0,"col":5},{"word":"SLEEP","clue":"To rest with your eyes closed at night.","direction":"across","row":4,"col":3},{"word":"MORNING","clue":"The early part of the day, before noon.","direction":"down","row":0,"col":9}]}$_$
 WHERE id = 'a2-m2-l7-ex14';
 
+-- Fix a2-m1-l1-ex5 (Word search: replace "I" with "STUDENT")
+UPDATE public.course_exercises 
+SET content = JSONB_SET(
+  JSONB_SET(content, '{words,6}', '"STUDENT"'),
+  '{clues,6}', '{"word": "STUDENT", "clue": "Estudiante en inglés"}'
+)
+WHERE id = 'a2-m1-l1-ex5';
+
 COMMIT;
