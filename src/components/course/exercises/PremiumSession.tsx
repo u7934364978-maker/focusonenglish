@@ -64,6 +64,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [activeGapIndex, setActiveGapIndex] = useState(0);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
@@ -406,6 +407,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             if (q.answer && !flattened.correct_answer) {
               flattened.correct_answer = q.answer;
             }
+            if (q.answers && !flattened.correct_answer) {
+              flattened.correct_answer = Array.isArray(q.answers) ? q.answers.join(' / ') : q.answers;
+            }
             if (q.solution && !flattened.correct_answer) {
               flattened.correct_answer = q.solution;
             }
@@ -690,6 +694,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     setFlashcardIndex(0);
     setIsFlipped(false);
     setShowHint(false);
+    setActiveGapIndex(0);
     setFeedback(null);
     setSelectedOption(null);
     setIsCorrect(null);
@@ -1937,6 +1942,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         
         // Use multiple choice style if options exist, but show the blank in the stimulus
         if (interaction.options && interaction.options.length > 0) {
+          const stim = interaction.stimulus_en || "";
+          const gaps = (stim.match(/_{2,}/g) || []).length || 1;
+
           return (
             <div className="w-full max-w-2xl mx-auto space-y-8">
               <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
@@ -1947,11 +1955,18 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     <React.Fragment key={i}>
                       <span>{part}</span>
                       {i < arr.length - 1 && (
-                        <div className="relative inline-block min-w-[120px] px-4 py-2 border-b-8 border-indigo-500 text-indigo-600">
-                          {selectedOption ? (
-                            interaction.options.find((o: any) => o.id === selectedOption)?.text || selectedOption
+                        <div 
+                          role="button"
+                          tabIndex={0}
+                          onClick={() => !feedback && setActiveGapIndex(i)}
+                          className={`relative inline-block min-w-[120px] px-4 py-2 border-b-8 transition-all cursor-pointer ${
+                            activeGapIndex === i ? 'border-indigo-500 bg-indigo-50/50' : 'border-slate-300'
+                          } ${inputValues[i] ? 'text-indigo-600' : 'text-slate-200'}`}
+                        >
+                          {inputValues[i] ? (
+                            interaction.options.find((o: any) => o.id === inputValues[i])?.text || inputValues[i]
                           ) : (
-                            <span className="text-slate-200">...</span>
+                            <span>...</span>
                           )}
                         </div>
                       )}
@@ -1966,16 +1981,32 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     key={opt.id}
                     role="button"
                     tabIndex={0}
-                    onClick={() => !feedback && setSelectedOption(opt.id)}
+                    onClick={() => {
+                      if (!feedback) {
+                        setInputValues(prev => ({ ...prev, [activeGapIndex]: opt.id }));
+                        // If there are more gaps, auto-advance to the next empty one
+                        if (gaps > 1) {
+                          const nextEmpty = Array.from({length: gaps}).findIndex((_, idx) => !inputValues[idx] && idx !== activeGapIndex);
+                          if (nextEmpty !== -1) setActiveGapIndex(nextEmpty);
+                        }
+                      }
+                    }}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        if (!feedback) setSelectedOption(opt.id);
+                        if (!feedback) {
+                          setInputValues(prev => ({ ...prev, [activeGapIndex]: opt.id }));
+                          if (gaps > 1) {
+                            const nextEmpty = Array.from({length: gaps}).findIndex((_, idx) => !inputValues[idx] && idx !== activeGapIndex);
+                            if (nextEmpty !== -1) setActiveGapIndex(nextEmpty);
+                          }
+                        }
                       }
                     }}
                     className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                       feedback 
                         ? (() => {
+                            const isSelected = inputValues[activeGapIndex] === opt.id;
                             const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
                             const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
                             const normalizedOptId = normalizeForComparison(String(opt.id));
@@ -1984,10 +2015,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                                                        possibleAnswers.includes(normalizedOptText);
                             
                             if (isThisOptionCorrect) return 'border-green-500 bg-green-50 text-green-700';
-                            if (selectedOption === opt.id) return 'border-red-500 bg-red-50 text-red-700';
+                            if (isSelected) return 'border-red-500 bg-red-50 text-red-700';
                             return 'border-slate-100 bg-white text-slate-300';
                           })()
-                        : selectedOption === opt.id 
+                        : inputValues[activeGapIndex] === opt.id
                           ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
                     } ${feedback ? 'pointer-events-none' : ''}`}
@@ -2541,14 +2572,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   return Object.keys(matchingPairs).length < pairs.length;
                 }
                 if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
-                  if (interaction.options && interaction.options.length > 0) {
-                    return selectedOption === null;
-                  }
                   const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{2,}/g) || [];
-                  const exp = gaps.length || 1;
+                  const gaps = (stim.match(/_{2,}/g) || []).length || 1;
                   const filledCount = Object.values(inputValues).filter(v => v && v.toString().trim().length > 0).length;
-                  return filledCount < exp;
+                  return filledCount < gaps;
                 }
                 if (interaction.type === 'categorization') {
                   const items = interaction.categories?.flatMap((cat: any) => cat.items) || [];
@@ -2572,15 +2599,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
                 else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
                 else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
-                  if (interaction.options && interaction.options.length > 0) {
-                    if (selectedOption !== null) handleCheckAnswer(selectedOption);
-                    return;
-                  }
                   const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{2,}/g) || [];
-                  const exp = gaps.length || 1;
+                  const gaps = (stim.match(/_{2,}/g) || []).length || 1;
                   const answers = [];
-                  for (let j = 0; j < exp; j++) answers.push(inputValues[j] || "");
+                  
+                  if (interaction.options && interaction.options.length > 0) {
+                    for (let j = 0; j < gaps; j++) {
+                      const optId = inputValues[j];
+                      const opt = interaction.options.find((o: any) => o.id === optId);
+                      answers.push(opt ? opt.text : (optId || ""));
+                    }
+                  } else {
+                    for (let j = 0; j < gaps; j++) answers.push(inputValues[j] || "");
+                  }
+                  
                   handleCheckAnswer(answers.join(' ').trim());
                 }
                 else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {

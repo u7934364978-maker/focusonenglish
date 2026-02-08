@@ -1,0 +1,75 @@
+---
+category: "metodos"
+date: "2026-02-08"
+author: "Focus English"
+title: "Reported Speech Ejercicios PDF: Practica y Descarga"
+description: "Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo para niveles B1, B2 y C1 con soluciones incluidas para practicar el estilo indirecto."
+keywords: ["reporting verbs exercises pdf","reported speech c1 exercises pdf","ejercicios reported speech pdf","reporting verbs exercises with answers pdf","reported speech questions pdf"]
+8→canonical: "https://www.focus-on-english.com/blog/metodos/reported-speech-ejercicios-pdf"
+---
+
+# Reported Speech Ejercicios PDF: Practica y Descarga
+
+Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **[estilo indirecto en inglés](/blog/metodos/reported-speech-ejercicios-pdf)**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
+
+En esta guía, no solo te ofrecemos una serie de recursos y ejercicios descargables en PDF, sino que te enseñamos cómo utilizarlos de manera efectiva para que dejes de cometer los errores típicos que restan puntos en los exámenes oficiales de Cambridge, IELTS o TOEFL.
+
+## 1. ¿Por qué practicar con ejercicios en PDF?
+
+Hoy en día tenemos multitud de aplicaciones y herramientas interactivas, pero el formato PDF sigue siendo el preferido por estudiantes y profesores por varias razones:
+*   **Concentración**: Al imprimir un ejercicio, eliminas las distracciones del móvil o el ordenador, permitiendo un enfoque profundo en las estructuras gramaticales.
+*   **Escritura manual**: Escribir las oraciones a mano ayuda a fijar las estructuras del Reported Speech en la memoria a largo plazo de forma mucho más efectiva que teclear.
+*   **Simulación de examen**: La mayoría de los exámenes internacionales de certificación aún se realizan en papel o requieren una producción escrita manual similar.
+*   **Portabilidad**: Puedes estudiar y practicar tus **[reporting verbs exercises PDF](/blog/metodos/reported-speech-ejercicios-pdf)** en cualquier lugar, sin depender de la conexión a internet.
+
+## 2. Ejercicios por Niveles: Encuentra tu Reto
+
+Hemos diseñado nuestros materiales para que se adapten a tu nivel actual, permitiéndote progresar de forma escalonada y segura.
+
+### Nivel Intermedio (B1 - B2 First)
+En este nivel, el objetivo es consolidar el **backshift** (el salto atrás de los tiempos verbales) y los cambios en las referencias temporales y de lugar.
+*   **¿Qué practicarás en este PDF?**
+    *   Cambios de *Present Simple* a *Past Simple* y de *Present Continuous* a *Past Continuous*.
+    *   Transformación de *Will* a *Would* y de *Can* a *Could*.
+    *   El uso correcto de *said* vs *told* (recordando que *told* siempre necesita un objeto directo: *He told me*).
+    *   Cambios de adverbios: *now* -> *then*, *today* -> *that day*, *yesterday* -> *the day before*.
+
+- [**Descargar PDF de Ejercicios B1-B2**](#)
+
+### Nivel Avanzado (C1 Advanced - C2 Proficiency)
+Aquí la dificultad aumenta significativamente. Ya no se trata solo de cambiar el verbo, sino de elegir el **reporting verb** más preciso y la estructura gramatical que le sigue.
+*   **¿Qué practicarás en este PDF?**
+    *   Estructuras con gerundio (*"He suggested going to the park"*).
+    *   Estructuras con infinitivo (*"They offered to help us with the move"*).
+    *   Voz pasiva con verbos de reporte (*"It is claimed that..."* / *"He is thought to be..."*).
+    *   Reporte de condicionales y verbos modales complejos (*might, could, should*).
+
+- [**Descargar PDF de Ejercicios C1-C2**](#)
+
+## 3. Reported Speech en Contextos Académicos y Legales
+
+En los niveles superiores, el estilo indirecto se utiliza para reportar investigaciones, testimonios y declaraciones oficiales con una precisión quirúrgica.
+*   **Academic Reporting**: Aprende a citar a otros autores de manera formal: *"Smith (2024) argued that the data was inconsistent"*.
+*   **Legal Statements**: En el ámbito jurídico, el reporte exacto de lo dicho es vital: *"The witness stated that he had seen the suspect at the scene"*.
+*   **Formal Journalism**: El uso de la pasiva impersonal para reportar noticias: *"It has been reported that the negotiations have reached an impasse"*.
+
+## 4. Consejos para aprovechar al máximo tu práctica
+
+Para que estos ejercicios de Reported Speech realmente surtan efecto, te recomendamos seguir este método de estudio:
+1.  **Revisa la teoría primero**: No intentes hacer los ejercicios sin tener claros los patrones verbales. Puedes consultar nuestra **[Guía Maestra de Reporting Verbs](/blog/metodos/reporting-verbs-patterns-list)**.
+2.  **No mires las soluciones hasta el final**: Es tentador comprobar cada frase, pero es mejor completar una sección entera para detectar patrones de error.
+3.  **Analiza tus errores**: Si fallas en una estructura de "suggest", vuelve a la teoría y escribe cinco ejemplos propios usando ese verbo para fijar el conocimiento.
+4.  **Practica en voz alta**: Una vez escrita la oración reportada, léela en voz alta. Esto mejorará tu fluidez y te ayudará a "oír" la gramática correcta de forma natural.
+
+---
+
+### ¿Buscas una práctica más dinámica? Prueba Focus English
+
+Aunque los PDFs son excelentes, a veces necesitas un feedback instantáneo para progresar más rápido. En **Focus English**, hemos desarrollado la herramienta definitiva para dominar la gramática:
+
+*   **IA de Corrección Gramatical**: Escribe tus ejercicios de estilo indirecto en nuestra plataforma y nuestra IA analizará tu respuesta, explicando no solo el error sino la regla gramatical que lo sustenta.
+*   **Simulaciones de Conversación**: Practica cómo contar lo que te ha dicho un amigo o un jefe en una conversación real con nuestro tutor virtual.
+*   **Exámenes Interactivos de Nivel**: Pon a prueba tus conocimientos con tests que se adaptan a tu nivel y te preparan para las certificaciones oficiales.
+*   **Comunidad de Estudiantes**: Comparte tus dudas y aprende de los errores más comunes de otros estudiantes en nuestros foros especializados.
+
+[**No dejes que la gramática te frene. Regístrate gratis en Focus English y domina el Reported Speech de una vez por todas.**](/cuenta/registro)

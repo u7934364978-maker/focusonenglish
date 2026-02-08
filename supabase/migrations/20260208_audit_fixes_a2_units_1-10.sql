@@ -83,4 +83,9 @@ UPDATE public.course_exercises
 SET content = $_${"title":"Crossword: Greetings and Introductions","instructions":"Complete the crossword puzzle","items":[{"word":"SPANISH","clue":"Nationality of a person from Spain","direction":"across","row":0,"col":0},{"word":"HELLO","clue":"A common greeting","direction":"down","row":0,"col":6},{"word":"THEY","clue":"Subject pronoun for more than one person","direction":"across","row":2,"col":4},{"word":"IS","clue":"Be verb present simple for 'he', 'she', 'it'","direction":"down","row":0,"col":4},{"word":"SHE","clue":"Subject pronoun for a female","direction":"down","row":1,"col":5},{"word":"FRIEND","clue":"A person you like and know well","direction":"across","row":4,"col":0},{"word":"EIGHT","clue":"The number after seven","direction":"down","row":4,"col":3}]}$_$
 WHERE id = 'a2-m1-l1-ex6';
 
+-- Fix a2-m1-l1-ex49 (Incorrect answer for My name)
+UPDATE public.course_exercises 
+SET content = JSONB_SET(content, '{questions,0,correctAnswer}', '"C"')
+WHERE id = 'a2-m1-l1-ex49';
+
 COMMIT;

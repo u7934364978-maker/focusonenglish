@@ -1,93 +1,98 @@
 ---
-title: "Inglés para Hoteles: Check-in, Servicios y Reclamar"
-date: "2026-01-30"
-author: "Focus English Team"
-excerpt: "Aprende las frases esenciales para tu estancia en un hotel. Desde el check-in hasta cómo reclamar una avería en inglés con total seguridad."
 category: "viajes"
-readTime: "15 min"
-image: "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt: "Habitación de hotel de lujo con una cama cómoda y diseño interior elegante"
+date: "2026-02-07"
+author: "Focus English"
+title: "Inglés para Hoteles: Vocabulario y Cómo Reclamar con Éxito"
+description: "Guía esencial de inglés para hoteles. Aprende vocabulario de alojamiento, frases para el check-in y cómo gestionar reclamaciones en un hotel de forma profesional."
+keywords: ["inglés para hoteles", "reclamar en un hotel en inglés", "vocabulario alojamiento inglés", "frases check-in inglés", "frases recepción inglés", "servicio de habitaciones inglés", "quejas hotel inglés"]
 canonical: "https://www.focus-on-english.com/blog/viajes/ingles-hoteles-guia"
-keywords:
-  - "inglés para hoteles"
-  - "frases check-in inglés"
-  - "reclamar en un hotel en inglés"
-  - "vocabulario alojamiento inglés"
-faqs:
-  - question: "¿Cómo pido un late check-out?"
-    answer: "Puedes decir: 'Is it possible to have a late check-out?' o 'Could I extend my stay by a few hours?'"
-  - question: "¿Qué hago si la habitación no está limpia?"
-    answer: "Lo más profesional es decir: 'Excuse me, my room hasn't been cleaned properly. Could you send someone to check it?'"
-  - question: "¿Cómo pregunto por el desayuno?"
-    answer: "Usa: 'What time is breakfast served?' y 'Where is the breakfast room?'"
+related_routes: ["ingles-para-viajar-guia", "ingles-aeropuertos-checklist"]
 ---
 
-## Tu "hogar" fuera de casa: Domina el inglés en el hotel
+# Inglés para Hoteles: Desde el Check-in hasta la Reclamación Exitosa
 
-El hotel es el lugar donde descansas y recargas energías durante tus viajes. Sin embargo, un malentendido en recepción o no saber cómo pedir algo básico puede empañar tu experiencia. En 2026, aunque los procesos son cada vez más digitales, la comunicación personal sigue siendo clave para resolver imprevistos.
+El alojamiento es el centro de operaciones de cualquier viaje, ya sea por placer o por negocios. Sentirse cómodo en tu habitación comienza por saber comunicarte con el personal del hotel. Dominar el **[inglés para hoteles](/blog/viajes/ingles-hoteles-guia)** no solo te garantiza una estancia más fluida, sino que te otorga la confianza necesaria para resolver imprevistos, solicitar servicios especiales o gestionar una queja de forma que realmente obtengas una solución.
 
-En esta guía te enseñamos a moverte por el hotel como un auténtico viajero internacional.
+En esta guía exhaustiva, cubrimos desde el vocabulario técnico de las instalaciones hasta las estructuras de cortesía necesarias para moverte por un establecimiento internacional como un viajero experto.
+
+Para profundizar en otros aspectos del viaje, visita nuestro **[hub de inglés para viajar](/blog/temas/inglés para viajar)** o consulta el **[hub de vocabulario](/blog/vocabulario)** para términos generales.
+
+## 1. Vocabulario de Alojamiento y Tipos de Habitaciones
+
+Antes de realizar tu reserva o al llegar al mostrador, debes tener claro qué estás contratando. El **[vocabulario alojamiento inglés](/blog/viajes/ingles-hoteles-guia)** puede variar ligeramente entre el inglés británico y el americano.
+
+### Tipos de Habitaciones (Room Types)
+*   **Single room**: Para una persona (cama individual).
+*   **Double room**: Para dos personas (una cama grande).
+*   **Twin room**: Para dos personas (dos camas separadas).
+*   **Triple room**: Tres camas o una doble y una supletoria (*extra bed*).
+*   **Suite**: Una habitación con zona de estar independiente.
+*   **Connecting rooms**: Habitaciones contiguas con una puerta interna que las comunica.
+
+### Regímenes de Estancia (Board Types)
+*   **Room only**: Solo alojamiento.
+*   **Bed and Breakfast (B&B)**: Alojamiento y desayuno.
+*   **Half board (Media pensión)**: Desayuno y cena.
+*   **Full board (Pensión completa)**: Desayuno, almuerzo y cena.
+*   **All-inclusive**: Todo incluido (comidas, bebidas y snacks).
+
+## 2. El Proceso de Check-in: Frases Clave en Recepción
+
+Al llegar, el primer contacto es con el recepcionista (*Front Desk Clerk*). Usa estas **[frases de recepción en inglés](/blog/viajes/ingles-hoteles-guia)** para que el proceso sea rápido:
+
+*   **Tú**: *"Good afternoon, I have a reservation under the name [Your Name]."*
+*   **Recepcionista**: *"May I have your passport and a credit card for the security deposit, please?"*
+*   **Preguntas sobre servicios**:
+    *   *"Is breakfast served in the dining room? What are the hours?"*
+    *   *"Is there free Wi-Fi in the rooms? What is the password?"*
+    *   *"Could you recommend a safe place to park my car?"*
+*   **Peticiones especiales**:
+    *   *"Could I have a quiet room far from the elevator?"*
+    *   *"Is it possible to get a late check-out tomorrow?"*
+
+## 3. Durante la Estancia: Servicios y Room Service
+
+Aprender a pedir lo que necesitas mejora drásticamente tu experiencia.
+
+*   **Room Service**: *"I'd like to order a club sandwich and a sparkling water, please."*
+*   **Housekeeping (Limpieza)**: *"Could we have some extra towels and more toiletries (shampoo/soap) in room 402?"*
+*   **Concierge (Conserje)**: *"Can you help me book a taxi for tomorrow morning at 8:00? Also, could you recommend a traditional restaurant nearby?"*
+*   **Laundry Service**: *"Do you have a laundry service? I have some shirts that need dry cleaning."*
+
+## 4. Cómo reclamar en un hotel en inglés de forma efectiva
+
+A nadie le gusta quejarse, pero a veces es necesario. El secreto para **[reclamar en un hotel en inglés](/blog/viajes/ingles-hoteles-guia)** es usar un tono cortés pero firme. Evita sonar agresivo; en inglés, la cortesía suele abrir más puertas.
+
+### Estructuras de Cortesía (Polite Complaints)
+Usa frases como *"I'm afraid there is a problem with..."* o *"I was wondering if you could help me with..."*.
+
+*   **Problemas en la habitación**:
+    *   *"I'm afraid the air conditioning isn't working properly. It's too hot in the room."*
+    *   *"There seems to be no hot water in the shower. Could you send someone to check it?"*
+*   **Limpieza y Mantenimiento**:
+    *   *"The room hasn't been cleaned yet, and it's already 4 PM."*
+    *   *"The light in the bathroom is flickering. Could you have it replaced?"*
+*   **Ruido y Vecinos**:
+    *   *"The guests in the next room are being very loud. I'm finding it hard to sleep. Is it possible to change rooms?"*
+
+## 5. El Check-out y el Cierre de la Cuenta
+
+Al marcharte, asegúrate de que todo esté en orden antes de pagar.
+
+*   *"I'd like to check out, please."*
+*   *"I think there is a mistake on my bill. I didn't use the minibar last night."*
+*   *"Could you call a taxi for me, please?"*
+*   *"We really enjoyed our stay. Everything was excellent."*
 
 ---
 
-## 🔑 1. El Check-in: Una llegada sin estrés
+### Domina el inglés de viaje con Focus English
 
-Al llegar a recepción (*Front Desk*), el primer contacto es fundamental.
+En **Focus English**, hemos desarrollado herramientas específicas para que nunca te quedes sin palabras en un hotel:
 
-| Frase en Inglés | Traducción | Pronunciación |
-| :--- | :--- | :--- |
-| **I have a reservation under the name of...** | Tengo una reserva a nombre de... | *Ai hav a re-ser-vei-shon an-der de neim of* |
-| **Here is my passport and credit card.** | Aquí tiene mi pasaporte y tarjeta. | *Hir is mai pas-port and cre-dit card* |
-| **Is breakfast included in my stay?** | ¿Está incluido el desayuno? | *Is brek-fast in-clu-ded in mai stei* |
-| **What is the Wi-Fi password?** | ¿Cuál es la contraseña del Wi-Fi? | *Uat is de uai-fai pas-uord* |
+1.  **Simulador de Situaciones de Hotel con IA**: Practica desde un check-in complicado hasta una reclamación por ruido. Nuestra IA te dará consejos sobre cómo sonar más educado o más persuasivo.
+2.  **Guía de 'Polite English'**: Un módulo dedicado exclusivamente a las estructuras de cortesía (*Indirect Questions*) que son fundamentales en la cultura anglosajona.
+3.  **Audios de Pronunciación**: Aprende a pronunciar correctamente términos como *concierge*, *suite* o *toiletries* para que el personal te entienda a la primera.
+4.  **Vocabulario de Menús**: Prepárate para los desayunos buffet y las cenas en el restaurante del hotel con nuestras guías de comida.
 
----
-
-## 🛠️ 2. Cómo resolver problemas (Making Complaints)
-
-No dejes que una pequeña avería arruine tu noche. Aprende a reclamar con educación pero firmeza.
-
-- **Averías:** *"Excuse me, the air conditioning in my room is not working."*
-- **Faltas:** *"Could you send some extra towels to room 302, please?"*
-- **Ruidos:** *"My neighbors are being very noisy. Is there another room available?"*
-- **Limpieza:** *"There seems to be an issue with the cleanliness of my bathroom."*
-
----
-
-## 🏊 3. Servicios y Comodidades (Amenities)
-
-Saca el máximo partido a tu estancia preguntando por lo que necesitas:
-
-- **Gimnasio/Piscina:** *"Where is the gym located and what are the opening hours?"*
-- **Transporte:** *"Could you call a taxi for me, please?"*
-- **Turismo:** *"Do you have a map of the city? What do you recommend visiting nearby?"*
-
-> 💡 **Tip Focus:** Muchos hoteles en 2026 ofrecen servicios a través de su propia App. Si no te sientes seguro hablando, busca si tienen un chat de asistencia al cliente.
-
----
-
-## 🚪 4. El Check-out: Salida perfecta
-
-Antes de irte, asegúrate de que todo está en orden con la factura.
-
-- **Pedir la cuenta:** *"I'd like to check out, please. Could I have the final bill?"*
-- **Guardar maletas:** *"Can I leave my luggage here for a few hours?"*
-- **Check-out tarde:** *"Is it possible to request a late check-out? I have a late flight."*
-
----
-
-## 💵 5. Cultura de Propinas (Tipping)
-
-En países como EE.UU., es costumbre dejar algo de propina al personal:
-- **Botones (*Bellhop*):** $2-$5 por maleta.
-- **Limpieza (*Housekeeping*):** $2-$5 por noche, dejado en la mesa con una nota que diga "Thank you".
-
----
-
-## 🎓 Practica situaciones reales en Focus English
-
-En Focus English, nuestra IA te permite simular un **check-in completo** o practicar cómo **reclamar un problema** en la habitación. Recibirás feedback inmediato sobre tu tono y pronunciación para que, cuando llegue el momento real, lo hagas con total seguridad.
-
-[👉 Prueba 7 días GRATIS y domina el inglés para viajar](/cuenta/registro?plan=viajes)
-
-¡Disfruta de tu estancia! 🏨✨
+[**No permitas que una mala comunicación arruine tus vacaciones. Regístrate en Focus English hoy y viaja con total seguridad.**](/cuenta/registro)
