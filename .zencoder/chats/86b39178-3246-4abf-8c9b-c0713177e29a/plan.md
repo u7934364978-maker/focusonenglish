@@ -44,8 +44,14 @@ If the feature is trivial and doesn't warrant full specification, update this wo
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/86b39178-3246-4abf-8c9b-c0713177e29a/plan.md`.
 
-### [ ] Step: Implementation
+### [x] Step: Content Audit (Unit 1)
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+Performed an exhaustive review of Unit 1 (Greetings and Introductions).
+1. **Scope Consistency**: Identified and fixed out-of-scope grammar in pronunciation exercises (Ex 8 and 48) which included "will", "have to", "should", and "must". Replaced with present simple "be" structures.
+2. **Bug Fixes**: Corrected a critical error in Exercise 49 where the answer for "My name is Anna" was marked as "am".
+3. **Spoiler Check**: Verified that no solutions are leaked in stimuli.
+4. **Standardization**: Unified JSON keys for `fill-blank` (`answers` array) and `reading-comprehension` (`answer` string) to ensure robust rendering.
+5. **Verification**: Exercises now strictly follow the syllabus: Be verb, Subject pronouns, Greetings, Nationalities, and Numbers 0-100.
+6. **SQL Fix**: Resolved a syntax error in the migration file caused by trailing commas in the `VALUES` clauses of Exercises 8 and 48.
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/86b39178-3246-4abf-8c9b-c0713177e29a/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+### [ ] Step: Implementation (Batch 2)
