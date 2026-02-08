@@ -58,9 +58,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 - [x] Audit `DragDropExercise.tsx` (Updated: Fixed normalization bug, added support for multiple sentences, and stabilized keys)
 - [x] Audit `SpeakingExercise.tsx` for mobile microphone and feedback UI
 - [x] Unified visual feedback logic across all renderers (`QuestionRenderer`, `GapFillRenderer`, `TransformationRenderer`)
-- [x] Audit `PremiumSession.tsx` (Fixed `fill-blank` word-bank feedback color bug and improved `reorder_words` normalization)
+- [x] Audit `PremiumSession.tsx` (Fixed `fill-blank` word-bank feedback color bug and improved `reorder_words` / `sentence-building` normalization)
 - [x] Comprehensive audit of all Unit 1-12 Crossword data (Automated fix for all logically inconsistent grids)
 - [x] Resolved content ambiguity in Unit 8 (Added positive/negative cues to ambiguous prompts)
+- [x] Audit `sentence-building` exercises from Unit 1 to 10 (Fixed normalization mapping and UI for hints/translations)
 
 #### Phase 3: Final Verification
 - [x] Run `npm run lint` (Note: pre-existing config issues)

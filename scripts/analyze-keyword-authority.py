@@ -56,7 +56,8 @@ def extract_category_from_md(content):
 def get_blog_posts():
     posts = []
     blog_path = Path(BLOG_DIR)
-    for md_file in blog_path.glob('**/*.md'):
+    # Search in both blog root and seo subdirectory
+    for md_file in list(blog_path.glob('**/*.md')):
         with open(md_file, 'r', encoding='utf-8') as f:
             content = f.read()
             posts.append({

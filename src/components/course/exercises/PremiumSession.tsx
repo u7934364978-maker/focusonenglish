@@ -29,6 +29,17 @@ interface Props {
   initialIndex?: number;
 }
 
+const normalizeForComparison = (text: string) => {
+  if (!text) return "";
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/['’‘´`]/g, "'") // Normalize quotes
+    .replace(/\s+/g, " ")     // Normalize spaces
+    .replace(/[.?!,;:\-_(){}\[\]]/g, "") // Remove basic punctuation for comparison
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Remove accents
+};
+
 export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, initialIndex = 0 }: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
@@ -52,6 +63,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [showHint, setShowHint] = useState(false);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
@@ -85,6 +97,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         'fill-blank': 'fill_blanks',
         'fill-blanks': 'fill_blanks',
         'drag-drop': 'reorder_words',
+        'sentence-building': 'reorder_words',
         'matching': 'matching',
         'flashcard': 'flashcard',
         'audio-player': 'audio_player',
@@ -246,6 +259,31 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       // Normalize reorder_words (drag-drop)
       if (normalized.type === 'reorder_words') {
+        if (normalized.words && !normalized.options) {
+          normalized.options = normalized.words.map((word: string, idx: number) => ({
+            id: idx.toString(),
+            text: word
+          }));
+        }
+
+        if (normalized.correctOrder && Array.isArray(normalized.correctOrder) && normalized.options) {
+          // Map correctOrder (array of strings) to option IDs
+          // Robust mapping that handles duplicates and case-insensitivity
+          const tempOptions = [...normalized.options];
+          normalized.correct_answer = normalized.correctOrder.map((word: string) => {
+            const index = tempOptions.findIndex((o: any) => 
+              normalizeForComparison(o.text) === normalizeForComparison(word)
+            );
+            if (index !== -1) {
+              const foundId = tempOptions[index].id;
+              // "Consume" this option so it's not reused for the next identical word in correctOrder
+              tempOptions.splice(index, 1);
+              return foundId;
+            }
+            return null;
+          }).filter(Boolean);
+        }
+
         if (normalized.correctSentence && !normalized.options) {
           const words = normalized.correctSentence.split(' ');
           normalized.options = words.map((word: string, idx: number) => ({
@@ -257,7 +295,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           // If correct_answer is a string but type is reorder_words, try to map it to IDs
           const words = normalized.correct_answer.split(' ');
           normalized.correct_answer = words.map((w: string) => 
-            normalized.options.find((o: any) => o.text.toLowerCase().trim() === w.toLowerCase().trim())?.id
+            normalized.options.find((o: any) => normalizeForComparison(o.text) === normalizeForComparison(w))?.id
           ).filter(Boolean);
         }
       }
@@ -278,7 +316,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     unitData.blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: PremiumContent) => {
         // Handle multi-question exercises from A2 generation
-        const subQuestions = content.questions || content.transformations || content.items || (content.type === 'reading-comprehension' ? content.reading : null);
+        const subQuestions = content.questions || content.transformations || content.items || content.sentences || (content.type === 'reading-comprehension' ? content.reading : null);
         
         if (subQuestions && Array.isArray(subQuestions)) {
           // Collect all correct answers to use as a word bank if it's a fill-blank exercise without options
@@ -640,16 +678,6 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   }, [currentItem, interactionIndex, shuffledRight.length, shuffledOptions.length]);
 
   // Robust normalization for comparison
-  const normalizeForComparison = (text: string) => {
-    if (!text) return "";
-    return text
-      .toLowerCase()
-      .trim()
-      .replace(/['’‘´`]/g, "'") // Normalize quotes
-      .replace(/\s+/g, " ")     // Normalize spaces
-      .replace(/[.?!,;:]/g, ""); // Remove basic punctuation for comparison
-  };
-
   const handleNext = () => {
     setSelectedWords([]);
     setShuffledRight([]);
@@ -661,6 +689,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     setSelectedCategorizationItem(null);
     setFlashcardIndex(0);
     setIsFlipped(false);
+    setShowHint(false);
     setFeedback(null);
     setSelectedOption(null);
     setIsCorrect(null);
@@ -700,19 +729,17 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     if (interaction.type === 'reorder_words') {
       const normalizeSentence = (text: string) => {
         return normalizeForComparison(text)
-          .replace(/\s+([.,!?])/g, '$1') // Remove space before punctuation
-          .replace(/[.,!?]/g, '')        // Remove punctuation entirely for comparison
-          .replace(/\s+/g, ' ')         // Normalize multiple spaces
+          .replace(/\s+/g, '') // Remove ALL spaces for comparison
           .trim();
       };
 
       const selectedText = (Array.isArray(optionId) ? optionId : []).map(id => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ');
+      ).join('');
       
       const correctText = (Array.isArray(interaction.correct_answer) ? interaction.correct_answer : []).map((id: string) => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ');
+      ).join('');
 
       isAnswerCorrect = normalizeSentence(selectedText) === normalizeSentence(correctText);
     } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
@@ -1537,6 +1564,40 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 );
               })}
             </div>
+
+            {interaction.translation && (
+              <div className="mt-8 p-6 bg-amber-50 rounded-[2rem] border-2 border-amber-100 text-center">
+                <p className="text-amber-800 font-bold text-xl italic flex items-center justify-center gap-3">
+                  <span className="text-amber-400 font-black">ES:</span>
+                  &quot;{interaction.translation}&quot;
+                </p>
+              </div>
+            )}
+
+            {interaction.hint && (
+              <div className="flex justify-center">
+                <button
+                  onClick={() => setShowHint(!showHint)}
+                  className="flex items-center gap-2 text-slate-400 hover:text-indigo-600 font-bold transition-colors"
+                >
+                  <Lightbulb className={`w-5 h-5 ${showHint ? 'fill-amber-400 text-amber-400' : ''}`} />
+                  {showHint ? 'Ocultar pista' : 'Ver pista'}
+                </button>
+              </div>
+            )}
+
+            <AnimatePresence>
+              {showHint && interaction.hint && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: 'auto', opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  className="bg-slate-50 p-6 rounded-2xl border-2 border-slate-100 text-slate-600 italic text-center overflow-hidden"
+                >
+                  {interaction.hint}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
         );
 
@@ -1826,11 +1887,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                     feedback 
                       ? (() => {
+                          const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
+                          const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
                           const normalizedOptId = normalizeForComparison(String(opt.id));
                           const normalizedOptText = normalizeForComparison(String(opt.text));
-                          const normalizedCorrect = normalizeForComparison(String(interaction.correct_answer));
                           
-                          if (normalizedOptId === normalizedCorrect || normalizedOptText === normalizedCorrect) {
+                          if (possibleAnswers.includes(normalizedOptId) || possibleAnswers.includes(normalizedOptText)) {
                             return 'border-green-500 bg-green-50 text-green-700';
                           }
                           if (selectedOption === opt.id) {
@@ -1849,7 +1911,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                       <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
                     )}
                   </span>
-                  {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
+                  {feedback && (() => {
+                    const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
+                    const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
+                    const normalizedOptId = normalizeForComparison(String(opt.id));
+                    const normalizedOptText = normalizeForComparison(String(opt.text));
+                    return possibleAnswers.includes(normalizedOptId) || possibleAnswers.includes(normalizedOptText);
+                  })() && <CheckCircle2 className="w-6 h-6" />}
                 </div>
               ))}
             </div>
@@ -1906,8 +1974,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                       feedback 
                         ? (() => {
-                            const normalizedCorrect = normalizeForComparison(String(interaction.correct_answer || ""));
-                            const possibleAnswers = normalizedCorrect.split(/[\\/]+/).map(a => a.trim()).filter(Boolean);
+                            const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
+                            const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
                             const normalizedOptId = normalizeForComparison(String(opt.id));
                             const normalizedOptText = normalizeForComparison(String(opt.text));
                             const isThisOptionCorrect = possibleAnswers.includes(normalizedOptId) || 

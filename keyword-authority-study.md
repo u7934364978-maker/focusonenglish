@@ -7,16 +7,16 @@ Evaluación de la cobertura de las 700 keywords más importantes.
 
 ### Keywords Top 700 con artículos:
 - **aprender ingles rapido**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 
 ## 2. Keywords Objetivos Cubiertas (Categorización Completa)
 A continuación se detallan las keywords de la lista maestra que ya tienen contenido asociado.
 
 ### Categoría: Metodos
 - **aprender ingles rapido**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 
-**Total Keywords Cubiertas:** 1 / 2959 (0.03%)
+**Total Keywords Cubiertas:** 1 / 3359 (0.03%)
 
 ## 3. Content Gaps (Keywords Sin Artículos)
 Keywords que estamos intentando posicionar pero para las que no tenemos artículos específicos vinculados.
@@ -2656,6 +2656,408 @@ Keywords que estamos intentando posicionar pero para las que no tenemos artícul
 - youtube ingles online gratis
 - youtube videos clases de ingles gratis
 
+### Categoría: Reported_speech
+- 10 ejemplos de reported speech
+- 104→passive reporting structures
+- 133→recommend reporting verb
+- 205→refuse verb pattern
+- 259→activities about reported speech
+- 261→adverbs in present perfect
+- 383→direct speech examples questions
+- 396→direct speech
+- 43→modal verbs indirect speech
+- 63→past simple say
+- 66→passive reporting verbs
+- 75→reported passive voice
+- academic verbs for essays
+- academic verbs list
+- accused reported speech
+- admit verb pattern
+- advanced passive structures
+- adverbs with present perfect
+- advise reported speech
+- before in reported speech
+- can en reported speech
+- class 10 english reported speech questions
+- commands reported speech
+- communication verbs
+- complain reported speech
+- conditionals inversion
+- contrast in english grammar
+- denied reported speech
+- deny reported speech
+- dialogues to practice reported speech
+- direct and indirect questions
+- direct and indirect speech
+- direct and indirect speech exercises
+- direct and indirect speech online quiz
+- direct and indirect speech online test
+- direct and indirect speech quiz with answers
+- direct and indirect speech rules chart
+- direct and indirect speech simple present tense exercises pdf
+- direct and indirect speech worksheet with answers
+- direct and reported speech exercises
+- direct indirect questions
+- direct questions vs indirect questions
+- direct reported
+- direct speech and indirect speech
+- direct speech exercises with answers pdf
+- direct speech rules
+- direct speech to reported speech converter
+- direct to indirect speech converter
+- ejercicios de direct speech a reported speech
+- ejercicios de reported questions
+- ejercicios de reported speech online
+- ejercicios de reporting verbs
+- ejercicios de reporting verbs en ingles
+- ejercicios ingles reported speech
+- ejercicios online de reported speech
+- ejercicios online reported speech
+- ejercicios question words pdf
+- ejercicios reported speech online
+- ejercicios reported speech pdf
+- ejercicios reporting verbs
+- el reported speech
+- english exercises reporting verbs
+- english for academic research grammar exercises pdf
+- estructura de reported speech
+- estructura del reported speech
+- estructura reported speech
+- exercise reporting verbs
+- exercises direct speech
+- exercises reporting verbs
+- free direct speech and free indirect speech
+- from reported speech to direct speech exercises
+- games to practice reported speech
+- going to in indirect speech
+- grammar quiz reported speech present simple
+- grammar reported speech pdf
+- hearsay reporting exercises
+- how to teach reported speech
+- how to teach reported speech in a fun way
+- indefinite pronouns exercises pdf
+- indirect question exercises
+- indirect question in english
+- indirect questions
+- indirect questions en ingles
+- indirect questions exercise
+- indirect questions exercises
+- indirect questions exercises b2 pdf
+- indirect questions in english
+- indirect questions structure
+- indirect speech exercises pdf
+- indirect speech rules
+- indirect speech to direct speech converter
+- indirect speech to direct speech exercises with answers pdf
+- indirect to direct speech exercises
+- ingles reported speech
+- interrogative speech
+- introductory verbs in reported speech
+- invite reported speech
+- it is said that exercises
+- it is said that grammar
+- last week reported speech
+- lesson plan for direct and indirect speech
+- lesson plan for reported speech
+- lista de reporting verbs
+- live worksheets conditionals
+- live worksheets reported speech
+- liveworksheets reported speech questions
+- liveworksheets respuestas reported speech
+- me reported speech
+- mixed reported speech 1 statements questions requests and orders
+- modal verbs reported speech
+- must in reported speech grammar
+- must reported speech
+- narration class 10
+- news verbs
+- now en reported speech
+- offer reported speech
+- order past simple
+- paraphrase verbs
+- passive of reporting verbs
+- passive of reporting verbs exercises pdf
+- passive reporting structures exercises
+- passive reporting verbs ejemplos
+- passive reporting verbs examples
+- passive reporting verbs exercises
+- passive reporting verbs exercises with answers pdf
+- passive voice with reporting verbs
+- passive with prepositions
+- passive with reporting verbs
+- passive with reporting verbs exercises
+- passive with reporting verbs exercises pdf
+- past indirect speech
+- past simple worksheets pdf
+- perfect english grammar reported speech exercises
+- present continuous adverbs
+- present simple and present continuous live worksheet
+- promise reported speech
+- que es el direct speech
+- reading comprehension reported speech pdf
+- recommend reported speech
+- refuse reported speech
+- remind reported speech
+- reminded reported speech
+- report and speech
+- report b2 examples
+- report c1 examples pdf
+- report exercises
+- report expressions
+- report structure b2
+- reported advice
+- reported clause
+- reported clause examples
+- reported clause in direct speech
+- reported commands
+- reported commands and request
+- reported commands exercises
+- reported offers
+- reported questions
+- reported questions exercises
+- reported questions exercises pdf
+- reported speech - cambridge
+- reported speech - present continuous exercises pdf
+- reported speech a2 exercises
+- reported speech activities pdf
+- reported speech activity pdf
+- reported speech advanced exercises
+- reported speech advanced multiple choice exercises
+- reported speech adverbs
+- reported speech advice
+- reported speech answers
+- reported speech asked
+- reported speech b1 pdf
+- reported speech b2
+- reported speech b2 exercises
+- reported speech b2 pdf
+- reported speech be going to
+- reported speech c1
+- reported speech c1 exercises
+- reported speech c1 exercises pdf
+- reported speech cambridge
+- reported speech can could
+- reported speech chart
+- reported speech class 9
+- reported speech commands and requests exercises
+- reported speech commands and requests exercises multiple choice
+- reported speech commands exercises
+- reported speech commands exercises pdf
+- reported speech complain
+- reported speech con suggest
+- reported speech conditional
+- reported speech conversation exercises
+- reported speech converter
+- reported speech denied
+- reported speech direct
+- reported speech ejercicios
+- reported speech ejercicios online
+- reported speech en ingles
+- reported speech esl
+- reported speech esl library pdf
+- reported speech esl pdf
+- reported speech estructura
+- reported speech exercises a2
+- reported speech exercises advanced
+- reported speech exercises b2
+- reported speech exercises b2 pdf
+- reported speech exercises b2 with answers pdf
+- reported speech exercises c1
+- reported speech exercises c1 pdf
+- reported speech exercises first certificate
+- reported speech exercises pdf
+- reported speech exercises pdf b2
+- reported speech exercises pdf with answers
+- reported speech exercises pdf with answers 4 eso
+- reported speech exercises present continuous
+- reported speech exercises with answer
+- reported speech exercises with answers
+- reported speech exercises with answers advanced
+- reported speech exercises with answers pdf
+- reported speech explanation pdf
+- reported speech explicacion pdf
+- reported speech first certificate exercises
+- reported speech future simple exercises
+- reported speech games online
+- reported speech going to
+- reported speech imperative
+- reported speech imperative sentences
+- reported speech imperative sentences exercises with answers
+- reported speech imperatives
+- reported speech interrogative
+- reported speech interview example
+- reported speech into direct speech exercises
+- reported speech into direct speech exercises pdf
+- reported speech lesson plan
+- reported speech may
+- reported speech modal verbs
+- reported speech modals
+- reported speech multiple choice pdf
+- reported speech must
+- reported speech offers and suggestions exercises
+- reported speech offers exercises
+- reported speech order
+- reported speech orders
+- reported speech orders exercises
+- reported speech orders requests and suggestions
+- reported speech orders requests suggestions exercises pdf
+- reported speech past simple to past perfect exercises
+- reported speech pdf explanation
+- reported speech pdf with answers
+- reported speech please
+- reported speech present continuous
+- reported speech present simple
+- reported speech present simple examples
+- reported speech present simple exercises pdf
+- reported speech presentation
+- reported speech que es
+- reported speech questions and commands exercises
+- reported speech questions can
+- reported speech questions commands and requests exercises pdf
+- reported speech questions examples
+- reported speech questions exercises pdf
+- reported speech questions exercises with answers pdf
+- reported speech questions explanation
+- reported speech questions past simple
+- reported speech questions pdf
+- reported speech questions present perfect
+- reported speech questions present simple exercises
+- reported speech questions structure
+- reported speech questions with answers
+- reported speech questions would
+- reported speech reading
+- reported speech reading exercises
+- reported speech recommend
+- reported speech rephrasing
+- reported speech reporting verbs
+- reported speech reporting verbs exercises pdf
+- reported speech requests
+- reported speech requests exercises
+- reported speech rules pdf
+- reported speech speaking
+- reported speech speaking activities
+- reported speech speaking exercises
+- reported speech statements and questions exercises
+- reported speech statements and questions exercises pdf
+- reported speech statements exercises pdf
+- reported speech statements questions commands
+- reported speech statements questions commands and requests exercises
+- reported speech suggest
+- reported speech suggestions exercises pdf
+- reported speech table
+- reported speech teoria
+- reported speech teoria pdf
+- reported speech test multiple choice
+- reported speech text exercises pdf
+- reported speech texts
+- reported speech that day
+- reported speech that optional
+- reported speech theory pdf
+- reported speech told
+- reported speech tutorial
+- reported speech verb changes
+- reported speech verb forms in noun clauses
+- reported speech verbos
+- reported speech verbos especiales
+- reported speech verbs
+- reported speech will
+- reported speech with infinitive exercises
+- reported speech wonder
+- reported speech worksheet
+- reported speech worksheets with answers pdf
+- reported speech would
+- reported speech writing activity
+- reported speech yes/no questions exercises pdf
+- reported structures
+- reported suggestions
+- reported suggestions exercises
+- reported verb patterns
+- reported verbs exercises
+- reporting clause and reported clause
+- reporting clause examples
+- reporting clauses exercises
+- reporting ejemplos
+- reporting orders
+- reporting passive exercises
+- reporting passive voice
+- reporting structures
+- reporting structures exercises
+- reporting verb
+- reporting verb exercises
+- reporting verb patterns
+- reporting verbs
+- reporting verbs and structures
+- reporting verbs b2
+- reporting verbs b2 exercises pdf
+- reporting verbs c1
+- reporting verbs en ingles
+- reporting verbs examples
+- reporting verbs exercises
+- reporting verbs exercises and answers
+- reporting verbs exercises pdf
+- reporting verbs exercises pdf with answers
+- reporting verbs exercises with answers
+- reporting verbs exercises with answers pdf
+- reporting verbs explicacion
+- reporting verbs explicacion en español
+- reporting verbs ing
+- reporting verbs list pdf
+- reporting verbs lista
+- reporting verbs passive
+- reporting verbs passive voice
+- reporting verbs patterns
+- reporting verbs pdf
+- reporting verbs que son
+- reporting verbs questions
+- reporting verbs sentences
+- reporting verbs suggest
+- reporting with passive verbs
+- reporting word
+- request reported speech
+- review b2 structure
+- review c1 examples
+- review c1 structure
+- rules of direct and indirect speech pdf
+- said past simple
+- say or tell reported speech
+- should en reported speech
+- should in reported speech
+- significado de reporting
+- simple narration examples
+- simple present tense narration examples
+- speaking verbs in english
+- speech verbs
+- speech verbs list
+- suggest reported speech
+- suggestion reported speech
+- suggestions reported speech
+- suggestions reported speech exercises pdf
+- test english reporting verbs
+- test-english reporting verbs
+- these reported speech
+- to be verb exercises pdf
+- tonight reported speech
+- verb reported speech
+- verbos del reported speech
+- verbos reported speech
+- verbs academic writing
+- verbs for literary analysis
+- verbs for reporting
+- verbs reported speech
+- verbs used in news writing
+- was en reported speech
+- wh questions in simple past tense
+- wh questions reported speech exercises
+- what are the 10 examples of direct and indirect speech
+- what are the 5 rules of indirect speech
+- what is direct speech
+- what is reported speech examples
+- will reported speech
+- would reported speech
+- www e grammar org reported speech
+- www english practice at reported speech
+- www.english-practice.at reported speech
+
 ### Categoría: Trabajo
 - aprender ingles comercial online gratis
 - aprender ingles profesional gratis
@@ -2989,278 +3391,292 @@ Keywords que estamos intentando posicionar pero para las que no tenemos artícul
 - ingles ciudad real
 - ingles para viajeros gratis online
 
-**Total Content Gaps:** 2958
+**Total Content Gaps:** 3358
 
 ## 4. Keywords en Artículos no en Lista Maestra
 Keywords que se están usando en el blog pero que no forman parte de la estrategia definida en `seo-keyword-categorization.json`.
 
-- **Business English**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
-- **CV en inglés ejemplos**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
-- **Career advice**
-  - [LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales](src/content/blog/trabajo/linkedin-ingles-guia.md)
-- **Curriculum Vitae inglés**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
-- **Ejemplos de CV en inglés**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **LinkedIn en inglés**
-  - [LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales](src/content/blog/trabajo/linkedin-ingles-guia.md)
-- **Resume en inglés**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
+  - [LinkedIn en Inglés: Guía para optimizar tu perfil](src/content/blog/trabajo/linkedin-ingles-guia.md)
 - **aduana vocabulario inglés**
-  - [Preguntas de Inmigración en Inglés: Guía para superar el control de pasaportes 2026](src/content/blog/viajes/inmigracion-ingles-guia.md)
+  - [Inmigración en Inglés: Guía del Control de Pasaportes](src/content/blog/viajes/inmigracion-ingles-guia.md)
 - **aprender ingles para viajar**
-  - [Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
+  - [Curso de Inglés para Viajar: Pasaporte a la Fluidez](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
 - **aprender inglés para mochileros**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **aprender inglés para negocios**
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **aprender inglés para turistas**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **aprender inglés para viajar**
-  - [La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber](src/content/blog/viajes/guia-definitiva-viajes.md)
+  - [La Guía Definitiva de Inglés para Viajar en 2026](src/content/blog/viajes/guia-definitiva-viajes.md)
 - **aptis a2**
-  - [Aptis A2: Guía Completa para Superar el Nivel Básico de British Council](src/content/blog/examenes/aptis-a2-guia-completa.md)
+  - [Aptis A2: Guía Completa para Superar el Nivel Básico](src/content/blog/examenes/aptis-a2-guia-completa.md)
 - **atención al cliente inglés**
-  - [Inglés para Recepcionistas: Frases y Vocabulario para una Atención de 5 Estrellas](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
+  - [Inglés para Recepcionistas: Frases y Vocabulario](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
 - **british council aptis**
-  - [Aptis A2: Guía Completa para Superar el Nivel Básico de British Council](src/content/blog/examenes/aptis-a2-guia-completa.md)
+  - [Aptis A2: Guía Completa para Superar el Nivel Básico](src/content/blog/examenes/aptis-a2-guia-completa.md)
+- **business english**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **business english course**
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **business english emails**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
 - **business english interview**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **business english meeting**
-  - [Inglés para Reuniones y Videollamadas: Guía de Supervivencia 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
+  - [Inglés para Reuniones y Videollamadas: Guía 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
 - **business english presentations**
   - [Presentaciones de Impacto: Cómo Brillar en Inglés](src/content/blog/trabajo/ingles-presentaciones-impacto.md)
-- **career english**
-  - [Entrevista de Trabajo en Inglés: Preguntas, Respuestas y Consejos Clave](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+- **career advice**
+  - [LinkedIn en Inglés: Guía para optimizar tu perfil](src/content/blog/trabajo/linkedin-ingles-guia.md)
 - **career tips**
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **cerrar acuerdos inglés**
   - [Negociación en Inglés: Técnicas Clave para Cerrar Acuerdos](src/content/blog/trabajo/negociacion-ingles-tecnicas-clave.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **clases de ingles**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 - **clases de ingles online**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 - **clases de ingles para adultos**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 - **clases de inglés**
   - [Cultura y Etiqueta: Más Allá de las Palabras en tus Viajes](src/content/blog/viajes/cultura-y-etiqueta-paises-anglosajones.md)
-  - [Frases de Emergencia en Inglés: Qué Decir Cuando Algo Sale Mal](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
+  - [Frases de Emergencia en Inglés: Guía para Viajes](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
   - [Guía de Supervivencia: Inglés para el Transporte Público](src/content/blog/viajes/supervivencia-ingles-transporte-publico.md)
   - [Inglés en el Aeropuerto: El Checklist Definitivo para 2026](src/content/blog/viajes/ingles-aeropuertos-checklist.md)
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
   - [Negociación en Inglés: Técnicas Clave para Cerrar Acuerdos](src/content/blog/trabajo/negociacion-ingles-tecnicas-clave.md)
-  - [Networking en Inglés: Cómo Conectar en Eventos Internacionales](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
+  - [Networking en Inglés: Cómo Conectar en Eventos](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
   - [Presentaciones de Impacto: Cómo Brillar en Inglés](src/content/blog/trabajo/ingles-presentaciones-impacto.md)
-  - [Redacción de Emails Profesionales en Inglés: Guía de Estilo](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Redacción de Emails Profesionales en Inglés: Guía](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **como reservar mesa en inglés**
-  - [Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia](src/content/blog/viajes/ingles-restaurantes-guia.md)
+  - [Cómo pedir comida en inglés: Guía de Restaurantes](src/content/blog/viajes/ingles-restaurantes-guia.md)
 - **control de pasaportes**
-  - [Preguntas de Inmigración en Inglés: Guía para superar el control de pasaportes 2026](src/content/blog/viajes/inmigracion-ingles-guia.md)
+  - [Inmigración en Inglés: Guía del Control de Pasaportes](src/content/blog/viajes/inmigracion-ingles-guia.md)
 - **correos en inglés**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
 - **costumbres reino unido estados unidos**
   - [Cultura y Etiqueta: Más Allá de las Palabras en tus Viajes](src/content/blog/viajes/cultura-y-etiqueta-paises-anglosajones.md)
 - **cuanto cuesta el examen first**
-  - [Precios Exámenes Cambridge 2026: Guía Completa de Tasas y Tasas por Niveles](src/content/blog/examenes/guia-precios-cambridge-2026.md)
+  - [Precios Exámenes Cambridge 2026: Guía de Tasas](src/content/blog/examenes/guia-precios-cambridge-2026.md)
 - **cultura anglosajona**
   - [Cultura y Etiqueta: Más Allá de las Palabras en tus Viajes](src/content/blog/viajes/cultura-y-etiqueta-paises-anglosajones.md)
+- **curriculum vitae inglés**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **curso de ingles para viajar**
-  - [Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
+  - [Curso de Inglés para Viajar: Pasaporte a la Fluidez](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
 - **curso de inglés**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **curso de inglés para turistas**
-  - [La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber](src/content/blog/viajes/guia-definitiva-viajes.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [La Guía Definitiva de Inglés para Viajar en 2026](src/content/blog/viajes/guia-definitiva-viajes.md)
 - **curso de inglés para viajar**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **curso de inglés profesional**
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+- **cv en inglés ejemplos**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
+- **ejemplos de cv en inglés**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **emails profesionales inglés**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
-  - [Redacción de Emails Profesionales en Inglés: Guía de Estilo](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Redacción de Emails Profesionales en Inglés: Guía](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
 - **emergencias en inglés**
-  - [Frases de Emergencia en Inglés: Qué Decir Cuando Algo Sale Mal](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Frases de Emergencia en Inglés: Guía para Viajes](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
 - **entrevista en inglés**
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **entrevista trabajo ingles**
-  - [Entrevista de Trabajo en Inglés: Preguntas, Respuestas y Consejos Clave](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
 - **entrevistas laborales internacionales**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **etiqueta en viajes**
   - [Cultura y Etiqueta: Más Allá de las Palabras en tus Viajes](src/content/blog/viajes/cultura-y-etiqueta-paises-anglosajones.md)
 - **eventos profesionales internacionales**
-  - [Networking en Inglés: Cómo Conectar en Eventos Internacionales](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
+  - [Networking en Inglés: Cómo Conectar en Eventos](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
 - **examen aptis**
-  - [Aptis A2: Guía Completa para Superar el Nivel Básico de British Council](src/content/blog/examenes/aptis-a2-guia-completa.md)
+  - [Aptis A2: Guía Completa para Superar el Nivel Básico](src/content/blog/examenes/aptis-a2-guia-completa.md)
 - **frases aeropuerto inglés**
   - [Inglés en el Aeropuerto: El Checklist Definitivo para 2026](src/content/blog/viajes/ingles-aeropuertos-checklist.md)
 - **frases camarero inglés**
-  - [Inglés para Camareros: La Guía Imprescindible para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
+  - [Inglés para Camareros: Guía para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
 - **frases check-in inglés**
-  - [Guía 2026: Inglés para Hoteles: Check-in, Servicios y Reclamaciones](src/content/blog/viajes/ingles-hoteles-guia.md)
+  - [Inglés para Hoteles: Check-in, Servicios y Reclamar](src/content/blog/viajes/ingles-hoteles-guia.md)
 - **frases de auxilio inglés**
-  - [Frases de Emergencia en Inglés: Qué Decir Cuando Algo Sale Mal](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Frases de Emergencia en Inglés: Guía para Viajes](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
 - **frases de inglés para viajar**
-  - [La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber](src/content/blog/viajes/guia-definitiva-viajes.md)
+  - [La Guía Definitiva de Inglés para Viajar en 2026](src/content/blog/viajes/guia-definitiva-viajes.md)
 - **frases de viaje en inglés**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **frases en ingles para viajar**
-  - [Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
+  - [Curso de Inglés para Viajar: Pasaporte a la Fluidez](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
 - **frases para comer fuera en inglés**
-  - [Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia](src/content/blog/viajes/ingles-restaurantes-guia.md)
+  - [Cómo pedir comida en inglés: Guía de Restaurantes](src/content/blog/viajes/ingles-restaurantes-guia.md)
 - **frases para correos inglés**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
 - **frases para negociar en inglés**
-  - [Guía 2026: Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **frases para presentaciones inglés**
   - [Guía 2026: Cómo hacer presentaciones en inglés con impacto](src/content/blog/trabajo/presentaciones-ingles-guia.md)
 - **frases para zoom**
-  - [Inglés para Reuniones y Videollamadas: Guía de Supervivencia 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
+  - [Inglés para Reuniones y Videollamadas: Guía 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
 - **frases recepción inglés**
-  - [Inglés para Recepcionistas: Frases y Vocabulario para una Atención de 5 Estrellas](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
+  - [Inglés para Recepcionistas: Frases y Vocabulario](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
 - **hablar en público inglés**
   - [Guía 2026: Cómo hacer presentaciones en inglés con impacto](src/content/blog/trabajo/presentaciones-ingles-guia.md)
   - [Presentaciones de Impacto: Cómo Brillar en Inglés](src/content/blog/trabajo/ingles-presentaciones-impacto.md)
 - **headline LinkedIn inglés**
-  - [LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales](src/content/blog/trabajo/linkedin-ingles-guia.md)
+  - [LinkedIn en Inglés: Guía para optimizar tu perfil](src/content/blog/trabajo/linkedin-ingles-guia.md)
 - **ingles para turistas**
-  - [Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
-- **ingles profesional**
-  - [Entrevista de Trabajo en Inglés: Preguntas, Respuestas y Consejos Clave](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Curso de Inglés para Viajar: Pasaporte a la Fluidez](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
 - **inglés en el aeropuerto**
   - [Inglés en el Aeropuerto: El Checklist Definitivo para 2026](src/content/blog/viajes/ingles-aeropuertos-checklist.md)
 - **inglés para camareros**
-  - [Inglés para Camareros: La Guía Imprescindible para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
+  - [Inglés para Camareros: Guía para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
 - **inglés para ejecutivos**
   - [Negociación en Inglés: Técnicas Clave para Cerrar Acuerdos](src/content/blog/trabajo/negociacion-ingles-tecnicas-clave.md)
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **inglés para el trabajo**
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **inglés para entrevistas**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **inglés para hostelería**
-  - [Inglés para Camareros: La Guía Imprescindible para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
+  - [Inglés para Camareros: Guía para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
 - **inglés para hoteles**
-  - [Guía 2026: Inglés para Hoteles: Check-in, Servicios y Reclamaciones](src/content/blog/viajes/ingles-hoteles-guia.md)
-  - [Inglés para Recepcionistas: Frases y Vocabulario para una Atención de 5 Estrellas](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
+  - [Inglés para Hoteles: Check-in, Servicios y Reclamar](src/content/blog/viajes/ingles-hoteles-guia.md)
+  - [Inglés para Recepcionistas: Frases y Vocabulario](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
 - **inglés para negocios**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
-  - [Redacción de Emails Profesionales en Inglés: Guía de Estilo](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Redacción de Emails Profesionales en Inglés: Guía](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **inglés para negocios avanzado**
-  - [Guía 2026: Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **inglés para nómadas digitales**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **inglés para recepcionistas**
-  - [Inglés para Recepcionistas: Frases y Vocabulario para una Atención de 5 Estrellas](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
+  - [Inglés para Recepcionistas: Frases y Vocabulario](src/content/blog/viajes/ingles-para-recepcionistas-guia.md)
 - **inglés para restaurantes**
-  - [Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia](src/content/blog/viajes/ingles-restaurantes-guia.md)
+  - [Cómo pedir comida en inglés: Guía de Restaurantes](src/content/blog/viajes/ingles-restaurantes-guia.md)
 - **inglés para viajar**
-  - [La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber](src/content/blog/viajes/guia-definitiva-viajes.md)
+  - [La Guía Definitiva de Inglés para Viajar en 2026](src/content/blog/viajes/guia-definitiva-viajes.md)
 - **inglés para viajeros**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **inglés para viajes largos**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **inglés profesional**
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **inglés transporte público**
   - [Guía de Supervivencia: Inglés para el Transporte Público](src/content/blog/viajes/supervivencia-ingles-transporte-publico.md)
 - **job interview english**
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **mejor curso de ingles para viajar**
-  - [Curso de Inglés para Viajar: Tu Pasaporte a la Fluidez en 2026](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
+  - [Curso de Inglés para Viajar: Pasaporte a la Fluidez](src/content/blog/viajes/curso-de-ingles-para-viajar.md)
 - **mejor curso de inglés online 2026**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **mejor curso de inglés para viajar**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **mejores clases de ingles**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 - **mejores cursos de inglés 2026**
-  - [Guía Definitiva: Cómo Elegir el Mejor Curso de Inglés para tu Carrera Profesional en 2026](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
+  - [Curso de Inglés Profesional: Guía para elegir el mejor](src/content/blog/trabajo/guia-definitiva-curso-ingles-profesional.md)
 - **metodos para aprender ingles**
-  - [Clases de Inglés: Guía Definitiva para Elegir la Mejor Opción en 2026](src/content/blog/metodos/clases-de-ingles-guia.md)
+  - [Clases de Inglés: Guía para elegir la mejor opción](src/content/blog/metodos/clases-de-ingles-guia.md)
 - **método STAR inglés**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+- **método star inglés**
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
 - **negociaciones en inglés**
-  - [Guía 2026: Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **negociación en inglés**
   - [Negociación en Inglés: Técnicas Clave para Cerrar Acuerdos](src/content/blog/trabajo/negociacion-ingles-tecnicas-clave.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **networking en inglés**
-  - [LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales](src/content/blog/trabajo/linkedin-ingles-guia.md)
-  - [Networking en Inglés: Cómo Conectar en Eventos Internacionales](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
+  - [LinkedIn en Inglés: Guía para optimizar tu perfil](src/content/blog/trabajo/linkedin-ingles-guia.md)
+  - [Networking en Inglés: Cómo Conectar en Eventos](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
 - **pedir comida en inglés**
-  - [Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia](src/content/blog/viajes/ingles-restaurantes-guia.md)
+  - [Cómo pedir comida en inglés: Guía de Restaurantes](src/content/blog/viajes/ingles-restaurantes-guia.md)
 - **pedir direcciones inglés**
   - [Guía de Supervivencia: Inglés para el Transporte Público](src/content/blog/viajes/supervivencia-ingles-transporte-publico.md)
 - **perfil LinkedIn inglés**
-  - [LinkedIn en Inglés: Cómo optimizar tu perfil para atraer reclutadores internacionales](src/content/blog/trabajo/linkedin-ingles-guia.md)
+  - [LinkedIn en Inglés: Guía para optimizar tu perfil](src/content/blog/trabajo/linkedin-ingles-guia.md)
 - **persuasión en inglés**
-  - [Guía 2026: Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
-- **plantillas CV inglés**
-  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
+  - [Negociaciones en Inglés: Cómo cerrar tratos con éxito](src/content/blog/trabajo/negociaciones-ingles-guia.md)
 - **plantillas correos inglés**
-  - [Cómo redactar correos profesionales en inglés: Guía y Plantillas 2026](src/content/blog/trabajo/emails-profesionales-ingles.md)
+  - [Correos Profesionales en Inglés: Guía y Plantillas](src/content/blog/trabajo/emails-profesionales-ingles.md)
+- **plantillas cv inglés**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **precio certificacion cambridge**
-  - [Precios Exámenes Cambridge 2026: Guía Completa de Tasas y Tasas por Niveles](src/content/blog/examenes/guia-precios-cambridge-2026.md)
+  - [Precios Exámenes Cambridge 2026: Guía de Tasas](src/content/blog/examenes/guia-precios-cambridge-2026.md)
 - **precios examenes cambridge**
-  - [Precios Exámenes Cambridge 2026: Guía Completa de Tasas y Tasas por Niveles](src/content/blog/examenes/guia-precios-cambridge-2026.md)
+  - [Precios Exámenes Cambridge 2026: Guía de Tasas](src/content/blog/examenes/guia-precios-cambridge-2026.md)
 - **preguntas entrevista ingles**
-  - [Entrevista de Trabajo en Inglés: Preguntas, Respuestas y Consejos Clave](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
 - **preguntas entrevista trabajo**
-  - [Cómo superar una entrevista de trabajo en inglés: Guía de éxito 2026](src/content/blog/trabajo/entrevista-trabajo-exito.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Superar una Entrevista de Trabajo en Inglés: Guía](src/content/blog/trabajo/entrevista-trabajo-exito.md)
 - **preguntas inmigración inglés**
-  - [Preguntas de Inmigración en Inglés: Guía para superar el control de pasaportes 2026](src/content/blog/viajes/inmigracion-ingles-guia.md)
+  - [Inmigración en Inglés: Guía del Control de Pasaportes](src/content/blog/viajes/inmigracion-ingles-guia.md)
 - **preparación idiomas viaje**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **preparar entrevista inglés**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Entrevista en Inglés: Preguntas y Método STAR](src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **presentaciones en inglés**
   - [Guía 2026: Cómo hacer presentaciones en inglés con impacto](src/content/blog/trabajo/presentaciones-ingles-guia.md)
   - [Presentaciones de Impacto: Cómo Brillar en Inglés](src/content/blog/trabajo/ingles-presentaciones-impacto.md)
 - **puntuacion aptis**
-  - [Aptis A2: Guía Completa para Superar el Nivel Básico de British Council](src/content/blog/examenes/aptis-a2-guia-completa.md)
+  - [Aptis A2: Guía Completa para Superar el Nivel Básico](src/content/blog/examenes/aptis-a2-guia-completa.md)
 - **reclamar en un hotel en inglés**
-  - [Guía 2026: Inglés para Hoteles: Check-in, Servicios y Reclamaciones](src/content/blog/viajes/ingles-hoteles-guia.md)
+  - [Inglés para Hoteles: Check-in, Servicios y Reclamar](src/content/blog/viajes/ingles-hoteles-guia.md)
 - **redacción comercial inglés**
-  - [Redacción de Emails Profesionales en Inglés: Guía de Estilo](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
+  - [Redacción de Emails Profesionales en Inglés: Guía](src/content/blog/trabajo/redaccion-emails-profesionales-ingles.md)
+- **resume en inglés**
+  - [CV en Inglés: Ejemplos, Guía Definitiva y Plantillas 2026](src/content/blog/trabajo/cv-ingles-guia.md)
 - **reuniones en inglés**
-  - [Inglés para Reuniones y Videollamadas: Guía de Supervivencia 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
+  - [Inglés para Reuniones y Videollamadas: Guía 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
 - **seguridad en viajes inglés**
-  - [Frases de Emergencia en Inglés: Qué Decir Cuando Algo Sale Mal](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Frases de Emergencia en Inglés: Guía para Viajes](src/content/blog/viajes/frases-ingles-emergencias-viajes.md)
 - **small talk inglés**
-  - [Networking en Inglés: Cómo Conectar en Eventos Internacionales](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
+  - [Networking en Inglés: Cómo Conectar en Eventos](src/content/blog/trabajo/ingles-networking-eventos-internacionales.md)
 - **tasas cambridge 2026**
-  - [Precios Exámenes Cambridge 2026: Guía Completa de Tasas y Tasas por Niveles](src/content/blog/examenes/guia-precios-cambridge-2026.md)
+  - [Precios Exámenes Cambridge 2026: Guía de Tasas](src/content/blog/examenes/guia-precios-cambridge-2026.md)
 - **trabajo remoto inglés**
-  - [Inglés para Entrevistas Remotas: La Mega-Guía para el Éxito Global 2026](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
+  - [Inglés para Entrevistas Remotas: Guía para el Éxito](src/content/blog/trabajo/ingles-entrevistas-remotas-exito.md)
 - **viajar a estados unidos inglés**
-  - [Preguntas de Inmigración en Inglés: Guía para superar el control de pasaportes 2026](src/content/blog/viajes/inmigracion-ingles-guia.md)
+  - [Inmigración en Inglés: Guía del Control de Pasaportes](src/content/blog/viajes/inmigracion-ingles-guia.md)
 - **videollamadas inglés**
-  - [Inglés para Reuniones y Videollamadas: Guía de Supervivencia 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
+  - [Inglés para Reuniones y Videollamadas: Guía 2026](src/content/blog/trabajo/reuniones-ingles-guia.md)
 - **vocabulario alojamiento inglés**
-  - [Guía 2026: Inglés para Hoteles: Check-in, Servicios y Reclamaciones](src/content/blog/viajes/ingles-hoteles-guia.md)
+  - [Inglés para Hoteles: Check-in, Servicios y Reclamar](src/content/blog/viajes/ingles-hoteles-guia.md)
 - **vocabulario ciudad inglés**
   - [Guía de Supervivencia: Inglés para el Transporte Público](src/content/blog/viajes/supervivencia-ingles-transporte-publico.md)
 - **vocabulario de restaurante en inglés**
-  - [Guía 2026: Cómo pedir comida en inglés y disfrutar de la experiencia](src/content/blog/viajes/ingles-restaurantes-guia.md)
+  - [Cómo pedir comida en inglés: Guía de Restaurantes](src/content/blog/viajes/ingles-restaurantes-guia.md)
 - **vocabulario de viaje avanzado**
-  - [Cómo Preparar tu Inglés para un Viaje Largo: La Mega-Guía Definitiva 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Preparar tu Inglés para un Viaje Largo: Guía 2026](src/content/blog/viajes/como-preparar-ingles-viaje-largo.md)
 - **vocabulario de viaje en inglés**
-  - [La Guía Definitiva de Inglés para Viajar en 2026: Todo lo que necesitas saber](src/content/blog/viajes/guia-definitiva-viajes.md)
+  - [La Guía Definitiva de Inglés para Viajar en 2026](src/content/blog/viajes/guia-definitiva-viajes.md)
 - **vocabulario presentaciones profesionales**
   - [Guía 2026: Cómo hacer presentaciones en inglés con impacto](src/content/blog/trabajo/presentaciones-ingles-guia.md)
 - **vocabulario restaurante inglés**
-  - [Inglés para Camareros: La Guía Imprescindible para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
+  - [Inglés para Camareros: Guía para el Sector Hostelería](src/content/blog/viajes/ingles-para-camareros-guia.md)
 - **vocabulario turismo inglés**
-  - [Guía Maestra: Por qué un Curso de Inglés es tu Mejor Compañero de Viaje en 2026](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
+  - [Curso de Inglés para Viajar: Guía para el Viajero](src/content/blog/viajes/guia-maestra-curso-ingles-viajeros.md)
 - **vocabulario viajes inglés**
   - [Inglés en el Aeropuerto: El Checklist Definitivo para 2026](src/content/blog/viajes/ingles-aeropuertos-checklist.md)
 
-**Total Keywords Extra:** 125
+**Total Keywords Extra:** 124
