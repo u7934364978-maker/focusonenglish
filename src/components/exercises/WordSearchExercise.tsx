@@ -11,45 +11,56 @@ interface WordSearchProps {
 }
 
 export default function WordSearchExercise({ words, gridSize, clues, onComplete }: WordSearchProps) {
+  const [activeWords, setActiveWords] = useState<string[]>([]);
   const [grid, setGrid] = useState<string[][]>([]);
-  const [selectedCells, setSelectedCells] = useState<{ r: number; c: number }[]>([]);
   const [foundWords, setFoundWords] = useState<string[]>([]);
-  const [foundCells, setFoundCells] = useState<{ r: number; c: number }[]>([]);
   const [isDragging, setIsDragging] = useState(false);
-  const [dragStart, setDragStart] = useState<{ r: number; c: number } | null>(null);
+  const [dragStart, setDragStart] = useState<{ r: number, c: number } | null>(null);
+  const [selectedCells, setSelectedCells] = useState<{ r: number, c: number }[]>([]);
+  const [foundCells, setFoundCells] = useState<{ r: number, c: number }[]>([]);
   const gridRef = useRef<HTMLDivElement>(null);
 
   // Initialize grid
   useEffect(() => {
-    const newGrid = Array(gridSize).fill(null).map(() => Array(gridSize).fill(''));
-    const uppercaseWords = words.map(w => w.toUpperCase());
+    const generateGrid = () => {
+      const newGrid = Array(gridSize).fill(null).map(() => Array(gridSize).fill(''));
+      const uppercaseWords = words.map(w => w.toUpperCase());
+      const placedWords: string[] = [];
 
-    // Place words
-    uppercaseWords.forEach(word => {
-      let placed = false;
-      let attempts = 0;
-      while (!placed && attempts < 100) {
-        const direction = Math.floor(Math.random() * 3); // 0: Horiz, 1: Vert, 2: Diag
-        const row = Math.floor(Math.random() * gridSize);
-        const col = Math.floor(Math.random() * gridSize);
+      // Sort words by length descending for better placement
+      const sortedWords = [...uppercaseWords].sort((a, b) => b.length - a.length);
 
-        if (canPlace(newGrid, word, row, col, direction)) {
-          placeWord(newGrid, word, row, col, direction);
-          placed = true;
+      sortedWords.forEach(word => {
+        let placed = false;
+        let attempts = 0;
+        while (!placed && attempts < 500) {
+          const direction = Math.floor(Math.random() * 3); // 0: Horiz, 1: Vert, 2: Diag
+          const row = Math.floor(Math.random() * gridSize);
+          const col = Math.floor(Math.random() * gridSize);
+
+          if (canPlace(newGrid, word, row, col, direction)) {
+            placeWord(newGrid, word, row, col, direction);
+            placed = true;
+            placedWords.push(word);
+          }
+          attempts++;
         }
-        attempts++;
-      }
-    });
+      });
 
-    // Fill empty cells
-    for (let r = 0; r < gridSize; r++) {
-      for (let c = 0; c < gridSize; c++) {
-        if (newGrid[r][c] === '') {
-          newGrid[r][c] = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+      // Fill empty cells
+      for (let r = 0; r < gridSize; r++) {
+        for (let c = 0; c < gridSize; c++) {
+          if (newGrid[r][c] === '') {
+            newGrid[r][c] = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+          }
         }
       }
-    }
-    setGrid(newGrid);
+      return { grid: newGrid, placedWords };
+    };
+
+    const { grid: finalGrid, placedWords } = generateGrid();
+    setGrid(finalGrid);
+    setActiveWords(placedWords);
   }, [words, gridSize]);
 
   const canPlace = (g: string[][], word: string, r: number, c: number, dir: number) => {
@@ -109,7 +120,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
       const selectedWord = selectedCells.map(cell => grid[cell.r][cell.c]).join('');
       const reversedWord = [...selectedWord].reverse().join('');
       
-      const found = words.find(w => 
+      const found = activeWords.find(w => 
         w.toUpperCase() === selectedWord || w.toUpperCase() === reversedWord
       );
 
@@ -117,7 +128,7 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
         const newFound = [...foundWords, found.toUpperCase()];
         setFoundWords(newFound);
         setFoundCells(prev => [...prev, ...selectedCells]);
-        if (newFound.length === words.length) {
+        if (newFound.length === activeWords.length) {
           onComplete(100);
         }
       }
@@ -191,11 +202,12 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
       <div className="flex-1 bg-orange-50 rounded-2xl p-6 border-2 border-orange-100 w-full md:w-auto">
         <h3 className="font-black text-slate-900 mb-4 flex items-center gap-2">
           <span>Palabras a encontrar:</span>
-          <span className="text-sm bg-orange-200 px-2 py-0.5 rounded-full">{foundWords.length}/{words.length}</span>
+          <span className="text-sm bg-orange-200 px-2 py-0.5 rounded-full">{foundWords.length}/{activeWords.length}</span>
         </h3>
         <div className="grid grid-cols-2 gap-3">
-          {words.map((word, idx) => {
+          {activeWords.map((word, idx) => {
             const isFound = foundWords.includes(word.toUpperCase());
+            const originalIdx = words.findIndex(w => w.toUpperCase() === word.toUpperCase());
             return (
               <div 
                 key={idx}
@@ -204,11 +216,11 @@ export default function WordSearchExercise({ words, gridSize, clues, onComplete 
               >
                 {isFound ? <CheckCircle className="w-4 h-4" /> : <div className="w-4 h-4 rounded-full border-2 border-orange-200" />}
                 <span className={`font-bold uppercase ${isFound ? 'line-through' : ''}`}>{word}</span>
-                {clues && clues[idx] && (
+                {clues && originalIdx !== -1 && clues[originalIdx] && (
                   <div className="group relative ml-auto">
                     <HelpCircle className="w-4 h-4 text-orange-300 cursor-help" />
                     <div className="absolute bottom-full right-0 mb-2 w-48 p-2 bg-slate-800 text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
-                      {clues[idx].clue}
+                      {clues[originalIdx].clue}
                     </div>
                   </div>
                 )}

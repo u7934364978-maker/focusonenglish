@@ -317,7 +317,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     unitData.blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: PremiumContent) => {
         // Handle multi-question exercises from A2 generation
-        const subQuestions = content.questions || content.transformations || content.items || content.sentences || (content.type === 'reading-comprehension' ? content.reading : null);
+        // Crosswords and Word Searches should NOT be flattened even if they have 'items' or 'words'
+        const shouldNotFlatten = ['crossword', 'word-search', 'word_search'].includes(content.type as string);
+        const subQuestions = shouldNotFlatten ? null : (content.questions || content.transformations || content.items || content.sentences || (content.type === 'reading-comprehension' ? content.reading : null));
         
         if (subQuestions && Array.isArray(subQuestions)) {
           // Collect all correct answers to use as a word bank if it's a fill-blank exercise without options
