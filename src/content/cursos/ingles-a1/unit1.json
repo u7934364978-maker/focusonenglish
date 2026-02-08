@@ -177,7 +177,7 @@
               "items": [
                 { "id": "i4", "text": "Informations" },
                 { "id": "i5", "text": "Homeworks" },
-                { "id": "i6", "text": "Much money (en (+) )" }
+                { "id": "i6", "text": "Much money" }
               ]
             }
           ],
@@ -263,32 +263,28 @@
         {
           "interaction_id": "U1_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "Traduce: 'El colegio público.'",
+          "prompt_es": "Traduce: 'La casa pequeña.'",
           "options": [
-            { "id": "o1", "text": "A state school" },
-            { "id": "o2", "text": "A public school" }
+            { "id": "o1", "text": "The small house" },
+            { "id": "o2", "text": "The house small" }
           ],
           "correct_answer": "o1",
-          "explanation": "En el contexto de educación gratuita, usamos 'state school'.",
+          "explanation": "Recuerda: Adjetivo + Sustantivo.",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U1_B4_I5",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi amigo es la persona más inteligente del mundo.'",
+          "prompt_es": "Ordena: 'Mi hermano es una persona feliz.'",
           "options": [
             { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "friend" },
+            { "id": "w2", "text": "brother" },
             { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "most" },
-            { "id": "w6", "text": "intelligent" },
-            { "id": "w7", "text": "person" },
-            { "id": "w8", "text": "in" },
-            { "id": "w9", "text": "the" },
-            { "id": "w10", "text": "world" }
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "happy" },
+            { "id": "w6", "text": "person" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         }
       ]

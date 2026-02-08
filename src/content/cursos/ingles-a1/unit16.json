@@ -3,374 +3,253 @@
     "unit_id": "unit16",
     "unit_title": "At the Cafe",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 45,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of At the Cafe"
+    "Aprender vocabulario básico de comida y bebida",
+    "Pedir comida y bebida de forma educada (Can I have...?)",
+    "Preguntar precios (How much is...?)",
+    "Comprender un menú sencillo en inglés"
   ],
   "blocks": [
     {
-      "block_id": "B16",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Food & Drinks Vocabulary",
       "content": [
         {
-          "interaction_id": "U16_I1",
+          "interaction_id": "U16_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las bebidas con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Coffee", "right": "Café" },
+            { "id": "p2", "left": "Tea", "right": "Té" },
+            { "id": "p3", "left": "Water", "right": "Agua" },
+            { "id": "p4", "left": "Juice", "right": "Zumo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sándwich'?",
+          "prompt_es": "¿Cómo se dice 'Leche'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Sandwich"
-            },
-            {
-              "id": "o3",
-              "text": "Menu"
-            },
-            {
-              "id": "o2",
-              "text": "Water"
-            }
+            { "id": "o1", "text": "Milk" },
+            { "id": "o2", "text": "Sugar" },
+            { "id": "o3", "text": "Juice" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tea",
-              "right": "Té"
-            },
-            {
-              "id": "p1",
-              "left": "Water",
-              "right": "Agua"
-            },
-            {
-              "id": "p2",
-              "left": "Juice",
-              "right": "Zumo"
-            },
-            {
-              "id": "p3",
-              "left": "Sugar",
-              "right": "Azúcar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U16_B1_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la comida: 'S_ndw_ch'",
+          "stimulus_en": "Sandwich",
+          "correct_answer": "Sandwich",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U16_B1_I4",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'Azúcar'?",
+          "stimulus_en": "Sugar",
+          "correct_answer": "Azúcar",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_B1_I5",
+          "type": "matching",
+          "prompt_es": "Une los snacks:",
+          "pairs": [
+            { "id": "p1", "left": "Cake", "right": "Pastel" },
+            { "id": "p2", "left": "Cookie", "right": "Galleta" },
+            { "id": "p3", "left": "Fruit", "right": "Fruta" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Functional Language: Ordering",
+      "content": [
+        {
+          "interaction_id": "U16_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides educadamente un café?",
           "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "on"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "table"
-            },
-            {
-              "id": "w1",
-              "text": "menu"
-            }
+            { "id": "o1", "text": "Can I have a coffee, please?" },
+            { "id": "o2", "text": "I want coffee now." },
+            { "id": "o3", "text": "Give me coffee." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_B2_I2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Un té, por favor.'",
+          "options": [
+            { "id": "w1", "text": "A" },
+            { "id": "w2", "text": "tea," },
+            { "id": "w3", "text": "please." }
           ],
+          "correct_answer": ["w1", "w2", "w3"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U16_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The menu is on the table.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I5",
+          "interaction_id": "U16_B2_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Poder - yo) ________ I have a sandwich?",
+          "prompt_es": "Completa la petición: '¿Puedo tomar un zumo?'",
+          "stimulus_en": "______ I have a juice?",
           "correct_answer": "Can",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U16_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pastel",
-          "correct_answer": "Cake",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "U16_B2_I4",
+          "type": "true_false",
+          "prompt_es": "En inglés, es muy importante usar 'please' al pedir algo en un café.",
+          "correct_answer": true,
+          "mastery_tag": "culture"
         },
         {
-          "interaction_id": "U16_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Juice",
-          "correct_answer": "Zumo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Menu"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Sugar"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I like my coffee with milk. A sandwich and a juice, please. How much is a bottle of water?",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At the Cafe"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U16_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/9ee8cb2c91daea6f0236b7874792530d.mp3",
-          "text": "A sandwich and a juice, please.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U16_I11",
+          "interaction_id": "U16_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Leche'?",
+          "prompt_es": "¿Cómo dices 'con leche'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Sandwich"
-            },
-            {
-              "id": "o1",
-              "text": "Milk"
-            },
-            {
-              "id": "o2",
-              "text": "Tea"
-            }
+            { "id": "o1", "text": "With milk" },
+            { "id": "o2", "text": "In milk" },
+            { "id": "o3", "text": "Of milk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Functional Language: Prices",
+      "content": [
+        {
+          "interaction_id": "U16_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas el precio de algo?",
+          "options": [
+            { "id": "o1", "text": "How much is it?" },
+            { "id": "o2", "text": "What price have?" },
+            { "id": "o3", "text": "How many cost?" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U16_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Milk",
-              "right": "Leche"
-            },
-            {
-              "id": "p1",
-              "left": "Tea",
-              "right": "Té"
-            },
-            {
-              "id": "p2",
-              "left": "Water",
-              "right": "Agua"
-            },
-            {
-              "id": "p3",
-              "left": "Sandwich",
-              "right": "Sándwich"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I13",
+          "interaction_id": "U16_B3_I2",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: '¿Cuánto cuesta la botella de agua?'",
           "options": [
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "water"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            },
-            {
-              "id": "w1",
-              "text": "much"
-            },
-            {
-              "id": "w4",
-              "text": "bottle"
-            },
-            {
-              "id": "w5",
-              "text": "of"
-            }
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "much" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "bottle" },
+            { "id": "w6", "text": "of" },
+            { "id": "w7", "text": "water?" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U16_I14",
+          "interaction_id": "U16_B3_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Cuesta tres libras.'",
+          "stimulus_en": "It is three __________.",
+          "correct_answer": "pounds",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_B3_I4",
+          "type": "matching",
+          "prompt_es": "Une los símbolos con su nombre:",
+          "pairs": [
+            { "id": "p1", "left": "£", "right": "Pound" },
+            { "id": "p2", "left": "$", "right": "Dollar" },
+            { "id": "p3", "left": "€", "right": "Euro" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_B3_I5",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"How much is a bottle of water?\"",
+          "prompt_es": "¿'How much' se usa para cosas que no se pueden contar (como el dinero)?",
           "correct_answer": true,
           "mastery_tag": "grammar"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Real-world Simulation",
+      "content": [
         {
-          "interaction_id": "U16_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (querer) ________ a coffee, please.",
-          "correct_answer": "want",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U16_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Carta/Menú",
-          "correct_answer": "Menu",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Coffee",
-          "correct_answer": "Café",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Tea"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Menu"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U16_I19",
+          "interaction_id": "U16_B4_I1",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The cake is very delicious. I like my coffee with milk. How much is a bottle of water?",
-          "question": "¿De qué trata este texto?",
+          "title": "At the Cafe Menu",
+          "text": "Coffee: £2.50 | Tea: £2.00 | Sandwich: £4.50 | Cake: £3.00. Sarah wants a coffee and a piece of cake.",
+          "question": "¿Cuánto debe pagar Sarah en total?",
           "options": [
-            {
-              "id": "o1",
-              "text": "At the Cafe"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "£5.50" },
+            { "id": "o2", "text": "£7.50" },
+            { "id": "o3", "text": "£4.50" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U16_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/9ee8cb2c91daea6f0236b7874792530d.mp3",
-          "text": "A sandwich and a juice, please.",
-          "mastery_tag": "listening"
+          "interaction_id": "U16_B4_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Según el texto anterior, ¿qué es más barato?",
+          "options": [
+            { "id": "o1", "text": "Tea" },
+            { "id": "o2", "text": "Coffee" },
+            { "id": "o3", "text": "Cake" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U16_B4_I3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Puedo tomar un sándwich, por favor?'",
+          "stimulus_es": "¿Puedo tomar un sándwich, por favor?",
+          "correct_answer": "Can I have a sandwich please",
+          "validation_regex": "^can i have a sandwich,? please\\.?$",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_B4_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la respuesta: 'Cuesta dos euros.'",
+          "options": [
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "two" },
+            { "id": "w4", "text": "euros." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U16_B4_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'La cuenta, por favor'?",
+          "stimulus_en": "The bill, please",
+          "correct_answer": "La cuenta, por favor",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

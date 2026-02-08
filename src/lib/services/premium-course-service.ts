@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabase/client';
 import { UnitData, PremiumInteraction, PremiumBlock } from '@/types/premium-course';
+import { UserPerformanceRecord } from '../course-engine/adaptive';
 
 export type CourseLevel = 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2' | 'emails-b1';
 
@@ -22,6 +23,52 @@ export const premiumCourseService = {
     }
 
     return data.map(item => item.interaction_id);
+  },
+
+  /**
+   * Fetches SRS performance data for a set of interactions.
+   */
+  async getSRSPerformance(userId: string, interactionIds: string[]): Promise<UserPerformanceRecord[]> {
+    if (!supabase || !userId || userId === 'anonymous' || interactionIds.length === 0) return [];
+
+    const { data, error } = await supabase
+      .from('user_srs')
+      .select('*')
+      .eq('user_id', userId)
+      .in('item_id', interactionIds);
+
+    if (error) {
+      console.error(`Error fetching SRS performance:`, error);
+      return [];
+    }
+
+    return data.map(item => ({
+      interaction_id: item.item_id,
+      quality: item.last_quality || 0,
+      last_review_at: new Date(item.last_review_at),
+      next_review_at: new Date(item.next_review_at),
+      iterations: item.iterations
+    }));
+  },
+
+  /**
+   * Updates SRS performance for an interaction.
+   */
+  async updateSRS(userId: string, interactionId: string, quality: number): Promise<boolean> {
+    if (!supabase || !userId || userId === 'anonymous') return false;
+
+    const { error } = await supabase.rpc('update_srs_item', {
+      p_user_id: userId,
+      p_item_id: interactionId,
+      p_quality: quality
+    });
+
+    if (error) {
+      console.error(`Error updating SRS for ${interactionId}:`, error);
+      return false;
+    }
+
+    return true;
   },
 
   async getA1Progress(userId: string): Promise<string[]> {

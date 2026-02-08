@@ -1,427 +1,261 @@
 {
   "course": {
     "unit_id": "unit10",
-    "unit_title": "Module 1 Review",
+    "unit_title": "Module 1 Review: Consolidation",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Module 1 Review"
+    "Consolidar la posición de los adjetivos y adverbios básicos",
+    "Repasar información personal, países y nacionalidades",
+    "Dominar los conectores de secuencia (First, Then, Finally)",
+    "Usar correctamente los artículos a/an con profesiones"
   ],
   "blocks": [
     {
-      "block_id": "B10",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Grammar & Syntax Review",
       "content": [
         {
-          "interaction_id": "U10_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Correcto'?",
+          "interaction_id": "U10_B1_I1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase correctamente (Adjetivos):",
           "options": [
-            {
-              "id": "o1",
-              "text": "Correct"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong"
-            },
-            {
-              "id": "o2",
-              "text": "Question"
-            }
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "has" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "big" },
+            { "id": "w5", "text": "blue" },
+            { "id": "w6", "text": "car" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_B1_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Usa 'a' o 'an' según corresponda:",
+          "stimulus_en": "I am ___ architect and my friend is ___ teacher.",
+          "correct_answer": "an, a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta del adverbio?",
+          "options": [
+            { "id": "o1", "text": "He speaks English well." },
+            { "id": "o2", "text": "He speaks English good." }
+          ],
+          "correct_answer": "o1",
+          "explanation": "'Well' es el adverbio que describe cómo se realiza la acción.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B1_I4",
+          "type": "true_false",
+          "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo (ej. A red apple).",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B1_I5",
+          "type": "matching",
+          "prompt_es": "Une los adjetivos con sus opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Big", "right": "Small" },
+            { "id": "p2", "left": "Old", "right": "Young" },
+            { "id": "p3", "left": "Happy", "right": "Sad" },
+            { "id": "p4", "left": "Fast", "right": "Slow" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary & Personal Info",
+      "content": [
+        {
+          "interaction_id": "U10_B2_I1",
+          "type": "matching",
+          "prompt_es": "Une el país con su nacionalidad:",
+          "pairs": [
+            { "id": "p1", "left": "Spain", "right": "Spanish" },
+            { "id": "p2", "left": "The UK", "right": "British" },
+            { "id": "p3", "left": "France", "right": "French" },
+            { "id": "p4", "left": "Italy", "right": "Italian" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfermero/a'?",
+          "options": [
+            { "id": "o1", "text": "Nurse" },
+            { "id": "o2", "text": "Doctor" },
+            { "id": "o3", "text": "Chef" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Correct",
-              "right": "Correcto"
-            },
-            {
-              "id": "p1",
-              "left": "Question",
-              "right": "Pregunta"
-            },
-            {
-              "id": "p2",
-              "left": "Review",
-              "right": "Repaso"
-            },
-            {
-              "id": "p3",
-              "left": "Answer",
-              "right": "Respuesta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U10_B2_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con tu información: 'Yo tengo 25 años.'",
+          "stimulus_en": "I ___ 25 years old.",
+          "correct_answer": "am",
+          "explanation": "En inglés usamos el verbo 'to be' para la edad, no el verbo 'tener'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B2_I4",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi nombre es Alex y soy de México.'",
+          "stimulus_es": "Mi nombre es Alex y soy de México.",
+          "correct_answer": "My name is Alex and I am from Mexico",
+          "validation_regex": "^my name is alex and i am from mexico\\.?$",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I3",
+          "interaction_id": "U10_B2_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'Estudiante'?",
+          "stimulus_en": "Student",
+          "correct_answer": "Estudiante",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Sequencing & Function",
+      "content": [
+        {
+          "interaction_id": "U10_B3_I1",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena los pasos de una mañana típica:",
           "options": [
-            {
-              "id": "w3",
-              "text": "review"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "module"
-            },
-            {
-              "id": "w6",
-              "text": "one"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            }
+            { "id": "w1", "text": "First," },
+            { "id": "w2", "text": "I wake up." },
+            { "id": "w3", "text": "Then," },
+            { "id": "w4", "text": "I have breakfast." },
+            { "id": "w5", "text": "Finally," },
+            { "id": "w6", "text": "I go to work." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U10_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Is this correct?\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Dónde) ________ are you from?",
-          "correct_answer": "Where",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Repaso",
-          "correct_answer": "Review",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Wrong",
-          "correct_answer": "Incorrecto",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Question"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Review"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Check your answers. This is a review of module one. Is this correct?",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U10_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el conector adecuado: '______, I am a doctor.' (Para empezar una presentación)",
           "options": [
-            {
-              "id": "o1",
-              "text": "Module 1 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "First" },
+            { "id": "o2", "text": "Finally" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B3_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la secuencia: 'First I study, ______ I take the exam.'",
+          "stimulus_en": "First I study, ______ I take the exam.",
+          "correct_answer": "then",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_B3_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'He speaks fastly'?",
+          "correct_answer": false,
+          "explanation": "El adverbio de 'fast' es irregular: 'He speaks fast'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_B3_I5",
+          "type": "matching",
+          "prompt_es": "Une el conector con su función:",
+          "pairs": [
+            { "id": "p1", "left": "First", "right": "Para empezar" },
+            { "id": "p2", "left": "Then", "right": "Para continuar" },
+            { "id": "p3", "left": "Finally", "right": "Para terminar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Final Reading Review",
+      "content": [
+        {
+          "interaction_id": "U10_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Meeting a New Colleague",
+          "text": "Hello! My name is Sarah. I am an engineer from London. I have a small office in the city. First, I drink coffee. Then, I check my emails. I work carefully with my team.",
+          "question": "What is Sarah's job?",
+          "options": [
+            { "id": "o1", "text": "She is an engineer." },
+            { "id": "o2", "text": "She is a doctor." },
+            { "id": "o3", "text": "She is a teacher." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U10_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a054d04bbf7e2cca87da7eb47f614610.mp3",
-          "text": "Answer the questions carefully.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U10_I11",
+          "interaction_id": "U10_B4_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Prueba'?",
+          "prompt_es": "¿Cómo trabaja Sarah?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Test"
-            },
-            {
-              "id": "o3",
-              "text": "Answer"
-            },
-            {
-              "id": "o2",
-              "text": "Correct"
-            }
+            { "id": "o1", "text": "Carefully" },
+            { "id": "o2", "text": "Careful" },
+            { "id": "o3", "text": "Quick" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Test",
-              "right": "Prueba"
-            },
-            {
-              "id": "p1",
-              "left": "Answer",
-              "right": "Respuesta"
-            },
-            {
-              "id": "p2",
-              "left": "Correct",
-              "right": "Correcto"
-            },
-            {
-              "id": "p3",
-              "left": "Wrong",
-              "right": "Incorrecto"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "this"
-            },
-            {
-              "id": "w0",
-              "text": "Is"
-            },
-            {
-              "id": "w2",
-              "text": "correct"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Answer the questions carefully.\"",
-          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Dónde) ________ are you from?",
-          "correct_answer": "Where",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Correcto",
-          "correct_answer": "Correct",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Answer",
-          "correct_answer": "Respuesta",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Review"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Correct"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Check your answers. Answer the questions carefully. This is a review of module one.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U10_B4_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿De dónde es Sarah?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Module 1 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "London" },
+            { "id": "o2", "text": "Paris" },
+            { "id": "o3", "text": "New York" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U10_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a054d04bbf7e2cca87da7eb47f614610.mp3",
-          "text": "Answer the questions carefully.",
-          "mastery_tag": "listening"
+          "interaction_id": "U10_B4_I4",
+          "type": "short_writing",
+          "prompt_es": "¿Qué hace Sarah después de beber café? (Responde en inglés)",
+          "stimulus_es": "¿Qué hace Sarah después de beber café?",
+          "correct_answer": "She checks her emails",
+          "validation_regex": "^she checks her emails\\.?$",
+          "mastery_tag": "reading"
         },
         {
-          "interaction_id": "UNIT10_EXP_0_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta?",
+          "interaction_id": "U10_B4_I5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena el resumen:",
           "options": [
-            {
-              "id": "opt0",
-              "text": "I'm learning english."
-            },
-            {
-              "id": "opt1",
-              "text": "I'm learning English."
-            },
-            {
-              "id": "opt2",
-              "text": "i'm learning english."
-            }
+            { "id": "w1", "text": "Sarah" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "professional" },
+            { "id": "w5", "text": "engineer." }
           ],
-          "correct_answer": "opt1",
-          "explanation": "Los idiomas siempre van con mayúscula en inglés.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT10_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "My birthday is in ___ (mayo).",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "may"
-            },
-            {
-              "id": "opt1",
-              "text": "May"
-            },
-            {
-              "id": "opt2",
-              "text": "mAy"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Los meses del año siempre van con mayúscula.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT10_EXP_1_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se escribe: 22 de abril?",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "22th April"
-            },
-            {
-              "id": "opt1",
-              "text": "22st April"
-            },
-            {
-              "id": "opt2",
-              "text": "22nd April"
-            }
-          ],
-          "correct_answer": "opt2",
-          "explanation": "El ordinal de 22 es \"twenty-second\", por tanto termina en \"nd\".",
-          "mastery_tag": "grammar"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
         }
       ]
     }

@@ -3,354 +3,249 @@
     "unit_id": "unit12",
     "unit_title": "Days of the Week",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 45,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Days of the Week"
+    "Identificar y escribir correctamente los siete días de la semana",
+    "Recordar el uso obligatorio de mayúsculas en los días de la semana",
+    "Utilizar la preposición 'on' correctamente con los días",
+    "Diferenciar entre 'weekdays' (días de diario) y 'weekend' (fin de semana)"
   ],
   "blocks": [
     {
-      "block_id": "B12",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "The Seven Days",
       "content": [
         {
-          "interaction_id": "U12_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lunes'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Week"
-            },
-            {
-              "id": "o2",
-              "text": "Tuesday"
-            },
-            {
-              "id": "o1",
-              "text": "Monday"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I2",
+          "interaction_id": "U12_B1_I1",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une el día en inglés con su traducción:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Wednesday",
-              "right": "Miércoles"
-            },
-            {
-              "id": "p1",
-              "left": "Sunday",
-              "right": "Domingo"
-            },
-            {
-              "id": "p2",
-              "left": "Thursday",
-              "right": "Jueves"
-            },
-            {
-              "id": "p3",
-              "left": "Saturday",
-              "right": "Sábado"
-            }
+            { "id": "p1", "left": "Monday", "right": "Lunes" },
+            { "id": "p2", "left": "Tuesday", "right": "Martes" },
+            { "id": "p3", "left": "Wednesday", "right": "Miércoles" },
+            { "id": "p4", "left": "Thursday", "right": "Jueves" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U12_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de escribir el día?",
           "options": [
-            {
-              "id": "w4",
-              "text": "day"
-            },
-            {
-              "id": "w3",
-              "text": "favorite"
-            },
-            {
-              "id": "w0",
-              "text": "Friday"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "my"
-            }
+            { "id": "o1", "text": "friday" },
+            { "id": "o2", "text": "Friday" },
+            { "id": "o3", "text": "Fridays" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U12_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Monday are the first day of the week.\"",
-          "correct_answer": false,
+          "correct_answer": "o2",
+          "explanation": "En inglés, los días de la semana siempre empiezan con mayúscula.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U12_I5",
+          "interaction_id": "U12_B1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My favorite day (ser/estar - ello) ________ Friday.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Sábado",
+          "prompt_es": "Completa el día que falta (Sábado):",
+          "stimulus_en": "S_t_rd_y",
           "correct_answer": "Saturday",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Saturday",
-          "correct_answer": "Sábado",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Friday"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Monday"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I play football on Saturdays. See you on Monday! Friday is my favorite day.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Days of the Week"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U12_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/24882396b296fe69b528c515e4a7965e.mp3",
-          "text": "I play football on Saturdays.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U12_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lunes'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Thursday"
-            },
-            {
-              "id": "o1",
-              "text": "Monday"
-            },
-            {
-              "id": "o3",
-              "text": "Wednesday"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Week",
-              "right": "Semana"
-            },
-            {
-              "id": "p1",
-              "left": "Saturday",
-              "right": "Sábado"
-            },
-            {
-              "id": "p2",
-              "left": "Sunday",
-              "right": "Domingo"
-            },
-            {
-              "id": "p3",
-              "left": "Friday",
-              "right": "Viernes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I13",
+          "interaction_id": "U12_B1_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena la secuencia correcta:",
           "options": [
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "Monday"
-            },
-            {
-              "id": "w2",
-              "text": "on"
-            },
-            {
-              "id": "w0",
-              "text": "See"
-            }
+            { "id": "w1", "text": "Friday," },
+            { "id": "w2", "text": "Saturday," },
+            { "id": "w3", "text": "Sunday." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
+          "correct_answer": ["w1", "w2", "w3"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U12_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"See you on Monday!\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Today (ser/estar - ello) ________ Monday.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Jueves",
-          "correct_answer": "Thursday",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I17",
+          "interaction_id": "U12_B1_I5",
           "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Saturday",
-          "correct_answer": "Sábado",
+          "prompt_es": "¿Cómo se dice 'Jueves'?",
+          "stimulus_en": "Thursday",
+          "correct_answer": "Jueves",
           "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Prepositions: 'On'",
+      "content": [
+        {
+          "interaction_id": "U12_B2_I1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición correcta:",
+          "stimulus_en": "I go to the gym ___ Fridays.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U12_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Week"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Friday"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "See you on Monday! I play football on Saturdays. Friday is my favorite day.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U12_B2_I2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
           "options": [
-            {
-              "id": "o1",
-              "text": "Days of the Week"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "See" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "on" },
+            { "id": "w4", "text": "Sunday!" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición usamos con los días de la semana?",
+          "options": [
+            { "id": "o1", "text": "At" },
+            { "id": "o2", "text": "In" },
+            { "id": "o3", "text": "On" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_B2_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'I study English in Monday'?",
+          "correct_answer": false,
+          "explanation": "Debemos usar 'on': 'I study English on Monday'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_B2_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Trabajo los sábados.'",
+          "stimulus_es": "Trabajo los sábados.",
+          "correct_answer": "I work on Saturdays",
+          "validation_regex": "^i work on saturdays\\.?$",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Week vs Weekend",
+      "content": [
+        {
+          "interaction_id": "U12_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué días forman el 'Weekend'?",
+          "options": [
+            { "id": "o1", "text": "Monday and Tuesday" },
+            { "id": "o2", "text": "Saturday and Sunday" },
+            { "id": "o3", "text": "Thursday and Friday" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_B3_I2",
+          "type": "true_false",
+          "prompt_es": "Wednesday (miércoles) es el tercer día de la semana (empezando por lunes).",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_B3_I3",
+          "type": "matching",
+          "prompt_es": "Clasifica los días:",
+          "pairs": [
+            { "id": "p1", "left": "Monday", "right": "Weekday" },
+            { "id": "p2", "left": "Sunday", "right": "Weekend" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_B3_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'El lunes es el primer día.'",
+          "stimulus_en": "Monday is the ______ day of the week.",
+          "correct_answer": "first",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_B3_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Si hoy es martes, mañana es...",
+          "options": [
+            { "id": "o1", "text": "Wednesday" },
+            { "id": "o2", "text": "Thursday" },
+            { "id": "o3", "text": "Monday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading: My Week",
+      "content": [
+        {
+          "interaction_id": "U12_B4_I1",
+          "type": "reading-comprehension",
+          "title": "Weekly Routine",
+          "text": "On Mondays and Wednesdays, I study English. On Tuesdays, I visit my mother. On Fridays, I go to the cinema. At the weekend, I rest at home.",
+          "question": "When does this person study English?",
+          "options": [
+            { "id": "o1", "text": "On Mondays and Wednesdays" },
+            { "id": "o2", "text": "On Tuesdays" },
+            { "id": "o3", "text": "Every day" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U12_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f673be9e071b78def4ccae83449ca39f.mp3",
-          "text": "See you on Monday!",
-          "mastery_tag": "listening"
+          "interaction_id": "U12_B4_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace la persona los viernes?",
+          "options": [
+            { "id": "o1", "text": "Go to the cinema" },
+            { "id": "o2", "text": "Study English" },
+            { "id": "o3", "text": "Visit mother" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U12_B4_I3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No trabajo los domingos.'",
+          "stimulus_es": "No trabajo los domingos.",
+          "correct_answer": "I don't work on Sundays",
+          "validation_regex": "^i don't work on sundays\\.?$",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_B4_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase del texto:",
+          "options": [
+            { "id": "w1", "text": "At" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "weekend," },
+            { "id": "w4", "text": "I" },
+            { "id": "w5", "text": "rest." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U12_B4_I5",
+          "type": "true_false",
+          "prompt_es": "Según el texto, la persona visita a su madre los lunes.",
+          "correct_answer": false,
+          "explanation": "La visita los martes (Tuesdays).",
+          "mastery_tag": "reading"
         }
       ]
     }

@@ -1,356 +1,257 @@
 {
   "course": {
     "unit_id": "unit29",
-    "unit_title": "Clothes",
+    "unit_title": "Daily Routine",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Clothes"
+    "Describe your daily routine using common verbs",
+    "Use 'at', 'in', and 'on' for time expressions",
+    "Tell the time in English",
+    "Understand a text about someone's schedule"
   ],
   "blocks": [
     {
-      "block_id": "B29",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Daily Actions",
       "content": [
         {
-          "interaction_id": "U29_I1",
+          "interaction_id": "U29_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las acciones de la rutina:",
+          "pairs": [
+            { "id": "p1", "left": "Wake up", "right": "Despertarse" },
+            { "id": "p2", "left": "Have breakfast", "right": "Desayunar" },
+            { "id": "p3", "left": "Go to work", "right": "Ir al trabajo" },
+            { "id": "p4", "left": "Sleep", "right": "Dormir" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Abrigo'?",
+          "prompt_es": "¿Cómo se dice 'Ducharse'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Trousers"
-            },
-            {
-              "id": "o2",
-              "text": "Hat"
-            },
-            {
-              "id": "o1",
-              "text": "Coat"
-            }
+            { "id": "o1", "text": "Take a shower" },
+            { "id": "o2", "text": "Wash a shower" },
+            { "id": "o3", "text": "Do a shower" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trousers",
-              "right": "Pantalones"
-            },
-            {
-              "id": "p1",
-              "left": "Dress",
-              "right": "Vestido"
-            },
-            {
-              "id": "p2",
-              "left": "Coat",
-              "right": "Abrigo"
-            },
-            {
-              "id": "p3",
-              "left": "T-shirt",
-              "right": "Camiseta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "warm"
-            },
-            {
-              "id": "w0",
-              "text": "These"
-            },
-            {
-              "id": "w1",
-              "text": "socks"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U29_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He are wearing a black hat.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (llevar puesto) ________ a red dress.",
-          "correct_answer": "is wearing",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U29_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Vestido",
-          "correct_answer": "Dress",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I7",
+          "interaction_id": "U29_B1_I3",
           "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Hat",
-          "correct_answer": "Sombrero",
+          "prompt_es": "Nueva acción: Almorzar / Comer",
+          "stimulus_en": "Have lunch",
+          "correct_answer": "Almorzar / Comer",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Hat"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Shoes"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "These socks are very warm. My shoes are very comfortable. He is wearing a black hat.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clothes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U29_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c50b0d1163da5ccda3a9dc5a74e027d1.mp3",
-          "text": "I like your new dress.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U29_I11",
+          "interaction_id": "U29_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Camiseta'?",
+          "prompt_es": "Después de cenar, yo:",
           "options": [
-            {
-              "id": "o1",
-              "text": "T-shirt"
-            },
-            {
-              "id": "o3",
-              "text": "Trousers"
-            },
-            {
-              "id": "o2",
-              "text": "Hat"
-            }
+            { "id": "o1", "text": "Wake up" },
+            { "id": "o2", "text": "Go to bed" },
+            { "id": "o3", "text": "Have breakfast" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U29_I12",
+          "interaction_id": "U29_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Momentos del día:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Trousers",
-              "right": "Pantalones"
-            },
-            {
-              "id": "p1",
-              "left": "Skirt",
-              "right": "Falda"
-            },
-            {
-              "id": "p2",
-              "left": "Shirt",
-              "right": "Camisa"
-            },
-            {
-              "id": "p3",
-              "left": "Dress",
-              "right": "Vestido"
-            }
+            { "id": "p1", "left": "Morning", "right": "Mañana" },
+            { "id": "p2", "left": "Afternoon", "right": "Tarde (temprano)" },
+            { "id": "p3", "left": "Evening", "right": "Tarde-noche" },
+            { "id": "p4", "left": "Night", "right": "Noche" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Present Simple (I)",
+      "content": [
         {
-          "interaction_id": "U29_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U29_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Para rutinas en primera persona, el verbo no cambia. 'Yo desayuno a las 7' es:",
           "options": [
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w2",
-              "text": "new"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "trousers"
-            }
+            { "id": "o1", "text": "I having breakfast at 7" },
+            { "id": "o2", "text": "I have breakfast at 7" },
+            { "id": "o3", "text": "I am have breakfast at 7" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I14",
+          "interaction_id": "U29_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ________ to school every day.' (Ir)",
+          "stimulus_en": "go",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_B2_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He is wearing a black hat.\"",
+          "prompt_es": "¿Se usa el Presente Simple para acciones que ocurren habitualmente?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I am (llevar puesto) ________ a blue shirt.",
-          "correct_answer": "wearing",
+          "interaction_id": "U29_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "I wakes up early" },
+            { "id": "o2", "text": "I wake up early" },
+            { "id": "o3", "text": "I am wake up early" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U29_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Abrigo",
-          "correct_answer": "Coat",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "U29_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ________ my teeth.' (Cepillar)",
+          "stimulus_en": "brush",
+          "correct_answer": "brush",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax: Time Prepositions",
+      "content": [
         {
-          "interaction_id": "U29_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Shirt",
-          "correct_answer": "Camisa",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Shoes"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Hat"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U29_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I like your new dress. My shoes are very comfortable. He is wearing a black hat.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U29_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Me despierto a las 6 en punto'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Clothes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "wake" },
+            { "id": "w3", "text": "up" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "6" },
+            { "id": "w6", "text": "o'clock" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Trabajo por la mañana'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "work" },
+            { "id": "w3", "text": "in" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "morning" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿A qué hora cenas?'",
+          "stimulus_en": "What time do you have dinner?",
+          "correct_answer": "What time do you have dinner?",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'at' o 'in': 'I sleep ________ night.'",
+          "stimulus_en": "at",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ceno a las 8:30'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "dinner" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "8:30" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & My Schedule",
+      "content": [
+        {
+          "interaction_id": "U29_B4_I16",
+          "type": "reading-comprehension",
+          "title": "A Day with Tom",
+          "text": "Every day, Tom wakes up at 7:00. He has a big breakfast and then he goes to work by car. He has lunch at 12:30 in his office. He finishes work at 5:00 and goes home. In the evening, he watches TV and sleeps at 11:00.",
+          "question": "¿A qué hora se despierta Tom?",
+          "options": [
+            { "id": "o1", "text": "7:00" },
+            { "id": "o2", "text": "8:00" },
+            { "id": "o3", "text": "6:30" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U29_I20",
+          "interaction_id": "U29_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace Tom por la noche (evening)?",
+          "options": [
+            { "id": "o1", "text": "He goes to the gym" },
+            { "id": "o2", "text": "He watches TV" },
+            { "id": "o3", "text": "He works" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U29_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cfc2b7d51eeff2e5d4b9f3c1401af12f.mp3",
-          "text": "These socks are very warm.",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
+          "text": "The library is on the second floor.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U29_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde: 'What time do you go to bed?'",
+          "stimulus_es": "A las 10:00",
+          "correct_answer": "At 10:00",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U29_B4_I20",
+          "type": "categorization",
+          "prompt_es": "Mañana vs Noche:",
+          "categories": [
+            { "id": "c1", "title": "Morning", "items": ["Wake up", "Breakfast", "Brush teeth", "Go to work"] },
+            { "id": "c2", "title": "Night", "items": ["Dinner", "Bed", "Sleep", "Dream"] }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

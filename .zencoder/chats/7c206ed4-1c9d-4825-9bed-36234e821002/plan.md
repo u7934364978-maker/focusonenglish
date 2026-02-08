@@ -56,6 +56,9 @@ Create a detailed implementation plan.
 - [x] Ensure all moved articles reach the 750-word threshold.
 - [x] Expand any other articles in other categories that are under 750 words.
 
-#### Phase 4: Final Validation
+#### Phase 5: Redirects Cleanup
+- [x] Added 301 redirects for legacy URLs (SEO silo, old blog paths, and specific article migrations) in `next.config.js`.
+
+#### Phase 6: Final Validation
 - [x] Run a final word count audit.
-- [ ] Run `npm run build` to verify site integrity.
+- [x] Run `npm run build` to verify site integrity.

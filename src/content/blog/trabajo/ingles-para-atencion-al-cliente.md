@@ -15,7 +15,7 @@ La **atención al cliente en inglés** (Customer Service) se ha convertido en el
 
 En esta guía, exploraremos las situaciones más comunes del día a día en un entorno de soporte y te proporcionaremos las herramientas para que cada interacción sea un éxito.
 
-Consulta nuestro **[hub de inglés para el trabajo](/blog/trabajo)** para más recursos profesionales o visita nuestro **[hub de vocabulario](/blog/vocabulario)** para ampliar tu léxico técnico.
+Consulta nuestro **[hub de inglés para el trabajo](/blog/trabajo)** para más recursos profesionales o visita nuestro **[hub de vocabulario](/blog/metodos)** para ampliar tu léxico técnico.
 
 ## 1. El Arte de la Bienvenida: Saludos y Tono de Voz
 

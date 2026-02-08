@@ -26,8 +26,8 @@ Si estás buscando un **[curso de inglés para principiantes](/blog/metodos/ingl
 
 Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de comunicarte en situaciones de la vida real que requieran un intercambio de información básico.
 
-*   **Comprender y usar expresiones cotidianas**: Saludar, despedirse y dar las gracias de forma natural. Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
-*   **Dominar la gramática básica**: Aprende las estructuras fundamentales, como el verbo 'to be', el presente simple y los pronombres, en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
+*   **Comprender y usar expresiones cotidianas**: Saludar, despedirse y dar las gracias de forma natural. Consulta nuestro **[hub de vocabulario](/blog/metodos)** para más recursos.
+*   **Dominar la gramática básica**: Aprende las estructuras fundamentales, como el verbo 'to be', el presente simple y los pronombres, en nuestro **[hub de gramática](/blog/metodos)**.
 *   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, edad, nacionalidad, profesión y familia.
 *   **Interactuar de forma sencilla**: Hacer preguntas básicas sobre el entorno y entender respuestas si el interlocutor habla despacio.
 *   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo, la comida y el tiempo libre.

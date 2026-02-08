@@ -8,354 +8,232 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Holidays & Vacation"
+    "Talk about different types of holidays",
+    "Express preferences using 'love', 'enjoy', and 'hate'",
+    "Contrast routine activities with holiday activities"
   ],
   "blocks": [
     {
-      "block_id": "B47",
-      "title": "Lección Principal",
+      "block_id": "B47_1",
+      "title": "Block 1: Holiday Activities",
       "content": [
         {
           "interaction_id": "U47_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Turismo'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Relax"
-            },
-            {
-              "id": "o1",
-              "text": "Sightseeing"
-            },
-            {
-              "id": "o3",
-              "text": "Adventure"
-            }
+          "type": "matching",
+          "prompt_es": "Empareja las actividades de vacaciones:",
+          "pairs": [
+            { "id": "p1", "left": "Sunbathing", "right": "Tomar el sol" },
+            { "id": "p2", "left": "Swimming", "right": "Nadar" },
+            { "id": "p3", "left": "Sightseeing", "right": "Hacer turismo" },
+            { "id": "p4", "left": "Relaxing", "right": "Relajarse" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Vacation",
-              "right": "Vacaciones"
-            },
-            {
-              "id": "p1",
-              "left": "Relax",
-              "right": "Relajarse"
-            },
-            {
-              "id": "p2",
-              "left": "Sightseeing",
-              "right": "Turismo"
-            },
-            {
-              "id": "p3",
-              "left": "Adventure",
-              "right": "Aventura"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué haces en las montañas?",
+          "options": [
+            { "id": "o1", "text": "Hiking" },
+            { "id": "o2", "text": "Sunbathing" },
+            { "id": "o3", "text": "Buying milk" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "Paris"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "sightseeing"
-            },
-            {
-              "id": "w2",
-              "text": "going"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el objeto:",
+          "stimulus_en": "I write a ________ to my family. (postal)",
+          "correct_answer": "postcard",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I4",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Hacer turismo'",
+          "stimulus_es": "Hacer turismo",
+          "correct_answer": "Sightseeing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I5",
+          "type": "flashcard",
+          "prompt_es": "Repaso de vacaciones:",
+          "stimulus_en": "Souvenirs",
+          "correct_answer": "Recuerdos (objetos de regalo)",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B47_2",
+      "title": "Block 2: Preferences & Actions",
+      "content": [
+        {
+          "interaction_id": "U47_I6",
+          "type": "multiple_choice",
+          "prompt_es": "I love ________ in the sea.",
+          "options": [
+            { "id": "o1", "text": "swimming" },
+            { "id": "o2", "text": "swim" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el contraste:",
+          "stimulus_en": "Usually I work, but today I am ________. (relajándome)",
+          "correct_answer": "relaxing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are going sightseeing in Parare.\"",
+          "prompt_es": "¿Es correcto: 'I enjoy to take photos'?",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U47_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I want to (relajarse) ________.",
-          "correct_answer": "relax",
+          "interaction_id": "U47_I9",
+          "type": "multiple_choice",
+          "prompt_es": "Do you ________ sunbathing?",
+          "options": [
+            { "id": "o1", "text": "enjoy" },
+            { "id": "o2", "text": "enjoys" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U47_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Relajarse",
-          "correct_answer": "Relax",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Holiday",
-          "correct_answer": "Vacaciones",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Adventure"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Relax"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "He wants an adventure vacation. We are going sightseeing in Paris. The beach is very crowded.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Holidays & Vacation"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
           "interaction_id": "U47_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/21e01185a50bf9f097c1c81bcfd69e7c.mp3",
-          "text": "I love summer holidays.",
-          "mastery_tag": "listening"
-        },
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase:",
+          "stimulus_en": "We ________ visit museums on holiday. (a menudo)",
+          "correct_answer": "often",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B47_3",
+      "title": "Block 3: Practical Holiday",
+      "content": [
         {
           "interaction_id": "U47_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Playa'?",
+          "type": "reorder_words",
+          "prompt_es": "Describe tus vacaciones:",
           "options": [
-            {
-              "id": "o2",
-              "text": "Holiday"
-            },
-            {
-              "id": "o3",
-              "text": "Relax"
-            },
-            {
-              "id": "o1",
-              "text": "Beach"
-            }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "sunbathing" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "beach." }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sightseeing",
-              "right": "Turismo"
-            },
-            {
-              "id": "p1",
-              "left": "Mountains",
-              "right": "Montañas"
-            },
-            {
-              "id": "p2",
-              "left": "Relax",
-              "right": "Relajarse"
-            },
-            {
-              "id": "p3",
-              "left": "Vacation",
-              "right": "Vacaciones"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "Friend: 'What are you doing today?' - You:",
+          "options": [
+            { "id": "o1", "text": "I am relaxing at the pool." },
+            { "id": "o2", "text": "I am a teacher." },
+            { "id": "o3", "text": "I usually eat pasta." }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "love"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "summer"
-            },
-            {
-              "id": "w3",
-              "text": "holidays"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
+          "type": "fill_blanks",
+          "prompt_es": "Completa la postal:",
+          "stimulus_en": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
+          "correct_answer": "take",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I love summer holidays.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Odio hacer turismo'",
+          "stimulus_es": "Odio hacer turismo",
+          "correct_answer": "I hate sightseeing",
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We (ir) ________ to the beach.",
-          "correct_answer": "go",
-          "mastery_tag": "grammar"
-        },
+          "type": "true_false",
+          "prompt_es": "You buy souvenirs for your family and friends.",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B47_4",
+      "title": "Block 4: Mastery & Skills",
+      "content": [
         {
           "interaction_id": "U47_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Aventura",
-          "correct_answer": "Adventure",
-          "mastery_tag": "vocabulary"
+          "type": "audio_player",
+          "prompt_es": "Escucha y escribe la frase:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
+          "text": "I am sunbathing and drinking juice.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U47_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Relax",
-          "correct_answer": "Relajarse",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Adventure"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Mountains"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U47_I19",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We are going sightseeing in Paris. I love summer holidays. The beach is very crowded.",
-          "question": "¿De qué trata este texto?",
+          "title": "Postcard from Rome",
+          "text": "Dear Sam, I am in Rome! Usually, I am at the office, but this week I am on vacation. Today, I am sightseeing. I am visiting the Colosseum and it is amazing. I love eating Italian food. Tomorrow, I am relaxing at a cafe. See you soon, Sarah.",
+          "question": "Where is Sarah?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Holidays & Vacation"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "In Rome" },
+            { "id": "o2", "text": "In London" },
+            { "id": "o3", "text": "At the office" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U47_I20",
+          "interaction_id": "U47_I18",
+          "type": "reading-comprehension",
+          "title": "Postcard from Rome",
+          "text": "Dear Sam, I am in Rome! Usually, I am at the office, but this week I am on vacation. Today, I am sightseeing. I am visiting the Colosseum and it is amazing. I love eating Italian food. Tomorrow, I am relaxing at a cafe. See you soon, Sarah.",
+          "question": "What is she doing today?",
+          "options": [
+            { "id": "o1", "text": "Sightseeing" },
+            { "id": "o2", "text": "Working" },
+            { "id": "o3", "text": "Sleeping" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U47_I19",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a981e416a2aa27cd2e53c90242218deb.mp3",
-          "text": "We are going sightseeing in Paris.",
+          "prompt_es": "Escucha la preferencia:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
+          "text": "I enjoy swimming in the sea.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U47_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué le gusta a Sarah?",
+          "options": [
+            { "id": "o1", "text": "Eating Italian food" },
+            { "id": "o2", "text": "Working at the office" },
+            { "id": "o3", "text": "Rainy weather" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         }
       ]
     }

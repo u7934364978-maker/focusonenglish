@@ -8,173 +8,223 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Free Time Activities"
+    "Talk about what you do in your free time",
+    "Distinguish between solo and social activities",
+    "Use present simple to describe regular hobbies"
   ],
   "blocks": [
     {
-      "block_id": "B35",
-      "title": "Lección Principal",
+      "block_id": "B35_1",
+      "title": "Block 1: Common Activities",
       "content": [
         {
           "interaction_id": "U35_I1",
+          "type": "matching",
+          "prompt_es": "Relaciona la actividad con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Watch TV", "right": "Ver la televisión" },
+            { "id": "p2", "left": "Meet friends", "right": "Quedar con amigos" },
+            { "id": "p3", "left": "Surf the internet", "right": "Navegar por internet" },
+            { "id": "p4", "left": "Go out", "right": "Salir" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Navegar por internet'?",
+          "prompt_es": "¿Cómo se dice 'Escuchar música'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Listen to music"
-            },
-            {
-              "id": "o1",
-              "text": "Surfing the internet"
-            },
-            {
-              "id": "o2",
-              "text": "Meet friends"
-            }
+            { "id": "o1", "text": "Listen to music" },
+            { "id": "o2", "text": "Hear music" },
+            { "id": "o3", "text": "Listen music" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U35_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Listen to music",
-              "right": "Escuchar música"
-            },
-            {
-              "id": "p1",
-              "left": "Go out",
-              "right": "Salir"
-            },
-            {
-              "id": "p2",
-              "left": "Watch TV",
-              "right": "Ver la tele"
-            },
-            {
-              "id": "p3",
-              "left": "Meet friends",
-              "right": "Quedar con amigos"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U35_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "TV"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Watching"
-            },
-            {
-              "id": "w3",
-              "text": "relaxing"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo correcto:",
+          "stimulus_en": "I ________ video games on Saturdays.",
+          "correct_answer": "play",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He plays video games every evening.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Quedar con amigos.'",
+          "stimulus_es": "Quedar con amigos.",
+          "correct_answer": "Meet friends",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (escuchar música) ________ in his room.",
-          "correct_answer": "listens to music",
-          "mastery_tag": "grammar"
-        },
+          "type": "flashcard",
+          "prompt_es": "Aprende la expresión:",
+          "stimulus_en": "Go to the cinema",
+          "correct_answer": "Ir al cine",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B35_2",
+      "title": "Block 2: Solo vs Social",
+      "content": [
         {
           "interaction_id": "U35_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Escuchar música",
-          "correct_answer": "Listen to music",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Listen to music",
-          "correct_answer": "Escuchar música",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I8",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica las actividades:",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Surfing the internet"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Go out"
-              ]
-            }
+            { "id": "c1", "title": "Solo Activities", "items": ["Reading", "Watching TV"] },
+            { "id": "c2", "title": "Social Activities", "items": ["Meeting friends", "Going to a party"] }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U35_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Watching TV is relaxing. I like meeting my friends in the park. He plays video games every evening.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U35_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es una actividad que sueles hacer solo?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Free Time Activities"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "Surfing the internet" },
+            { "id": "o2", "text": "Playing football" },
+            { "id": "o3", "text": "Going out with friends" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la categoría:",
+          "stimulus_en": "Meeting friends is a ________ activity.",
+          "correct_answer": "social",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "usually" },
+            { "id": "w3", "text": "relax" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "home" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U35_I10",
+          "type": "true_false",
+          "prompt_es": "¿'Go out' significa quedarse en casa?",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B35_3",
+      "title": "Block 3: Present Simple Review",
+      "content": [
+        {
+          "interaction_id": "U35_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto para 'He'?",
+          "options": [
+            { "id": "o1", "text": "He watches TV every night" },
+            { "id": "o2", "text": "He watch TV every night" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I12",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta del verbo:",
+          "stimulus_en": "She ________ (go) to the cinema on Fridays.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase negativa:",
+          "options": [
+            { "id": "w1", "text": "They" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "play" },
+            { "id": "w4", "text": "video" },
+            { "id": "w5", "text": "games" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U35_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "What do you do in your free time?" },
+            { "id": "o2", "text": "What does you do in your free time?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcto? 'My brother meets his friends every weekend.'",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B35_4",
+      "title": "Block 4: Weekend Plans",
+      "content": [
+        {
+          "interaction_id": "U35_I16",
+          "type": "audio_player",
+          "prompt_es": "Escucha y escribe la frase:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/cddeca88a17cf93b500734fa00418366.mp3",
+          "text": "I like meeting my friends in the park.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U35_I17",
+          "type": "reading-comprehension",
+          "title": "Weekend Activities",
+          "text": "A: What do you do on the weekend?\nB: Usually, I relax on Saturday morning. I surf the internet or read a book. In the afternoon, I meet my friends and we go to the cinema. \nA: Do you go out on Sunday too?\nB: No, on Sunday I stay at home with my family. We watch TV and have a big lunch.",
+          "question": "What does person B do on Saturday morning?",
+          "options": [
+            { "id": "o1", "text": "Go to the cinema" },
+            { "id": "o2", "text": "Surf the internet or read" },
+            { "id": "o3", "text": "Have a big lunch" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U35_I18",
+          "type": "reading-comprehension",
+          "title": "Weekend Activities",
+          "text": "A: What do you do on the weekend?\nB: Usually, I relax on Saturday morning. I surf the internet or read a book. In the afternoon, I meet my friends and we go to the cinema. \nA: Do you go out on Sunday too?\nB: No, on Sunday I stay at home with my family. We watch TV and have a big lunch.",
+          "question": "Who does person B spend Sunday with?",
+          "options": [
+            { "id": "o1", "text": "Friends" },
+            { "id": "o2", "text": "Family" },
+            { "id": "o3", "text": "Alone" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U35_I19",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/fe522ee9cc71d3a6eb1c23fa3ba3cfe9.mp3",
@@ -182,180 +232,16 @@
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U35_I11",
+          "interaction_id": "U35_I20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Escuchar música'?",
+          "prompt_es": "¿Qué hacen el domingo por la tarde según el texto?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Watch TV"
-            },
-            {
-              "id": "o1",
-              "text": "Listen to music"
-            },
-            {
-              "id": "o2",
-              "text": "Surfing the internet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Surfing the internet",
-              "right": "Navegar por internet"
-            },
-            {
-              "id": "p1",
-              "left": "Play games",
-              "right": "Jugar a juegos"
-            },
-            {
-              "id": "p2",
-              "left": "Listen to music",
-              "right": "Escuchar música"
-            },
-            {
-              "id": "p3",
-              "left": "Watch TV",
-              "right": "Ver la tele"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "games"
-            },
-            {
-              "id": "w4",
-              "text": "every"
-            },
-            {
-              "id": "w5",
-              "text": "evening"
-            },
-            {
-              "id": "w2",
-              "text": "video"
-            },
-            {
-              "id": "w1",
-              "text": "plays"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U35_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Watching TV is relaxing.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U35_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (quedar con amigos) ________ on Saturdays.",
-          "correct_answer": "meet friends",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U35_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Jugar a juegos",
-          "correct_answer": "Play games",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Surfing the internet",
-          "correct_answer": "Navegar por internet",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Play games"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Meet friends"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U35_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I like meeting my friends in the park. She enjoys going out for dinner. Watching TV is relaxing.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Free Time Activities"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "They watch TV" },
+            { "id": "o2", "text": "They go to the cinema" },
+            { "id": "o3", "text": "They meet friends" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U35_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cddeca88a17cf93b500734fa00418366.mp3",
-          "text": "I like meeting my friends in the park.",
-          "mastery_tag": "listening"
         }
       ]
     }

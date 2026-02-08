@@ -15,11 +15,11 @@ En el dinámico sector de la hostelería y el turismo, la primera impresión no 
 
 En esta guía, exploraremos las situaciones más comunes del sector y te proporcionaremos las estructuras necesarias para destacar en tu carrera internacional.
 
-Para profundizar en el lenguaje específico de cada área, visita nuestro **[hub de inglés para el trabajo](/blog/trabajo)** o consulta nuestro **[hub de vocabulario](/blog/vocabulario)**.
+Para profundizar en el lenguaje específico de cada área, visita nuestro **[hub de inglés para el trabajo](/blog/trabajo)** o consulta nuestro **[hub de vocabulario](/blog/metodos)**.
 
 ## 1. Inglés para Recepcionistas: El Rostro del Hotel
 
-La recepción es el corazón del hotel. Como recepcionista, eres responsable de gestionar las expectativas del cliente desde el momento en que cruza la puerta. Dominar el **[inglés para hoteles](/blog/viajes/ingles-hoteles-guia)** implica manejar el check-in, las reservas y las consultas turísticas con fluidez y elegancia.
+La recepción es el corazón del hotel. Como recepcionista, eres responsable de gestionar las expectativas del cliente desde el momento en que cruza la puerta. Dominar el **[inglés para hoteles](/blog/viajes/ingles-para-viajar)** implica manejar el check-in, las reservas y las consultas turísticas con fluidez y elegancia.
 
 ### Frases de Recepción en Inglés para el Día a Día:
 *   **Check-in y Bienvenida**: *"Good afternoon, welcome to [Hotel Name]. Do you have a reservation under the name of [Customer's Name]?"*
@@ -31,7 +31,7 @@ La recepción es el corazón del hotel. Como recepcionista, eres responsable de 
 
 ## 2. Inglés para Camareros y Servicio de Mesa (F&B)
 
-El servicio de Alimentos y Bebidas (*Food & Beverage*) requiere un **[vocabulario de restaurante en inglés](/blog/viajes/ingles-restaurantes-guia)** muy específico. Desde explicar los ingredientes de un plato hasta gestionar alergias, tu comunicación debe ser precisa para evitar malentendidos que puedan afectar la salud del cliente.
+El servicio de Alimentos y Bebidas (*Food & Beverage*) requiere un **[vocabulario de restaurante en inglés](/blog/viajes/ingles-para-viajar)** muy específico. Desde explicar los ingredientes de un plato hasta gestionar alergias, tu comunicación debe ser precisa para evitar malentendidos que puedan afectar la salud del cliente.
 
 ### Frases de Camarero en Inglés Esenciales:
 *   **Primer Contacto**: *"Would you like to start with some drinks or an appetizer while you look at the menu?"*

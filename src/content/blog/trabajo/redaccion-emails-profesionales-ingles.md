@@ -29,7 +29,7 @@ faqs:
 
 En el entorno laboral de 2026, donde el trabajo remoto y los equipos híbridos son la norma, el correo electrónico sigue siendo el pilar fundamental de la comunicación corporativa. Un email bien escrito no solo transmite información; transmite profesionalidad, respeto por el tiempo del otro y una competencia lingüística que puede abrir puertas internacionales.
 
-Si sientes que tus correos suenan demasiado simples, robóticos o, por el contrario, innecesariamente complicados, no estás solo. Muchos profesionales se enfrentan al "bloqueo del remitente" cuando tienen que escribir en otro idioma. Nuestras **[clases de inglés para profesionales](/blog/trabajo/guia-definitiva-curso-ingles-profesional)** están diseñadas para ayudarte a encontrar ese equilibrio perfecto entre formalidad y eficacia.
+Si sientes que tus correos suenan demasiado simples, robóticos o, por el contrario, innecesariamente complicados, no estás solo. Muchos profesionales se enfrentan al "bloqueo del remitente" cuando tienen que escribir en otro idioma. Nuestras **[clases de inglés para profesionales](/blog/trabajo/ingles-para-trabajo)** están diseñadas para ayudarte a encontrar ese equilibrio perfecto entre formalidad y eficacia.
 
 ## 📧 Estructura de un Email Ganador: Anatomía de la Claridad
 

@@ -47,7 +47,7 @@ En Focus English, creemos que el debate "Apps vs. Cursos" está obsoleto. El **[
 
 ### El papel de la IA en la educación moderna
 Hoy en día, las **[aplicaciones para aprender inglés con IA](/blog/metodos/aprender-ingles-ia-guia)** como Focus English permiten simulaciones que antes eran imposibles. Nuestra IA actúa como un tutor personal que:
-1.  **Detecta tus errores específicos**: Si fallas en los condicionales, la plataforma adaptará las siguientes sesiones para que los practiques en contextos de **[trabajo](/blog/trabajo/ingles-para-trabajo)** o **[viajes](/blog/viajes/ingles-para-viajar-guia)**.
+1.  **Detecta tus errores específicos**: Si fallas en los condicionales, la plataforma adaptará las siguientes sesiones para que los practiques en contextos de **[trabajo](/blog/trabajo/ingles-para-trabajo)** o **[viajes](/blog/viajes/ingles-para-viajar)**.
 2.  **Ofrece práctica oral infinita**: Ya no tienes que esperar tu turno en una clase de 10 personas. Puedes hablar con la IA durante horas para ganar la confianza necesaria para el **[C1](/blog/metodos/ingles-c1)**.
 3.  **Feedback de alta calidad**: No solo te dice "mal", sino que te explica por qué tu frase suena poco natural en un entorno de negocios y cómo mejorarla.
 

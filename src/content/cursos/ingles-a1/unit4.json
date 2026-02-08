@@ -144,73 +144,63 @@
     },
     {
       "block_id": "B3",
-      "title": "Errores Comunes",
+      "title": "Primero, Después y Al Final",
       "content": [
         {
           "interaction_id": "U4_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta?",
+          "prompt_es": "¿Qué palabra usamos para empezar una secuencia?",
           "options": [
-            { "id": "o1", "text": "Do you have a car?" },
-            { "id": "o2", "text": "Do you have car?" }
+            { "id": "o1", "text": "First" },
+            { "id": "o2", "text": "Finally" }
           ],
           "correct_answer": "o1",
-          "explanation": "Los sustantivos contables singulares necesitan artículo (a/an).",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_B3_I2",
-          "type": "true_false",
-          "prompt_es": "¿'Children' puede llevar 's' de plural (childrens)?",
-          "correct_answer": false,
-          "explanation": "'Children' ya es el plural de 'child'.",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '________, I wake up.' (Primero...)",
+          "stimulus_en": "________, I wake up.",
+          "correct_answer": "First",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U4_B3_I3",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras como Contables o Incontables:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Incontables (No llevan -s)",
-              "items": [
-                { "id": "i1", "text": "Information" },
-                { "id": "i2", "text": "Homework" },
-                { "id": "i3", "text": "Money" }
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Contables (Llevan -s)",
-              "items": [
-                { "id": "i4", "text": "Car" },
-                { "id": "i5", "text": "Bottle" },
-                { "id": "i6", "text": "Notebook" }
-              ]
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra usamos para terminar una secuencia?",
+          "options": [
+            { "id": "o1", "text": "Then" },
+            { "id": "o2", "text": "Finally" }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U4_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'En internet' se dice...",
-          "stimulus_en": "________ the Internet",
-          "correct_answer": "on",
-          "explanation": "Siempre usamos 'on' con 'the Internet'.",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Finalmente, voy a dormir.'",
+          "options": [
+            { "id": "w1", "text": "Finally," },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "go" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "sleep" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U4_B3_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi amigo tiene mucho dinero.'",
-          "stimulus_es": "Mi amigo tiene mucho dinero.",
-          "correct_answer": "My friend has a lot of money",
-          "validation_regex": "^my friend has a lot of money\\.?$",
-          "explanation": "En frases afirmativas preferimos 'a lot of' en lugar de 'much'.",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une los conectores de secuencia:",
+          "pairs": [
+            { "id": "p1", "left": "First", "right": "Primero" },
+            { "id": "p2", "left": "Next", "right": "Siguiente / Después" },
+            { "id": "p3", "left": "Finally", "right": "Finalmente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
         }
       ]
     },
@@ -264,11 +254,11 @@
         {
           "interaction_id": "U4_B4_I4",
           "type": "matching",
-          "prompt_es": "Une los errores con su corrección:",
+          "prompt_es": "Une la acción con el conector lógico:",
           "pairs": [
-            { "id": "p1", "left": "In Internet", "right": "On the Internet" },
-            { "id": "p2", "left": "3 childrens", "right": "3 children" },
-            { "id": "p3", "left": "Homeworks", "right": "Homework" }
+            { "id": "p1", "left": "First,", "right": "I wake up" },
+            { "id": "p2", "left": "Then,", "right": "I have a shower" },
+            { "id": "p3", "left": "Finally,", "right": "I go to work" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "grammar"

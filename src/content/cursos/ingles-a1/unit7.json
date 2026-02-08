@@ -111,16 +111,16 @@
         {
           "interaction_id": "U7_B2_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Me bajé del taxi y pagué al conductor.'",
+          "prompt_es": "Ordena: 'Me bajo del taxi y pago al conductor.'",
           "options": [
             { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "got" },
+            { "id": "w2", "text": "get" },
             { "id": "w3", "text": "out" },
             { "id": "w4", "text": "of" },
             { "id": "w5", "text": "the" },
             { "id": "w6", "text": "taxi" },
             { "id": "w7", "text": "and" },
-            { "id": "w8", "text": "paid" },
+            { "id": "w8", "text": "pay" },
             { "id": "w9", "text": "the" },
             { "id": "w10", "text": "driver" }
           ],
@@ -209,8 +209,8 @@
           "interaction_id": "U7_B4_I1",
           "type": "reading-comprehension",
           "title": "Getting to School",
-          "text": "When I was a child I used to go to school on foot. Now, I go to work by bus. My office is next to a bank and opposite a beautiful park.",
-          "question": "¿Cómo va al trabajo ahora?",
+          "text": "Every day I go to work by bus. My office is next to a bank and opposite a beautiful park. My friend goes to work on foot because he lives near the office.",
+          "question": "¿Cómo va al trabajo el protagonista?",
           "options": [
             { "id": "o1", "text": "En autobús." },
             { "id": "o2", "text": "A pie." },
@@ -255,10 +255,10 @@
         {
           "interaction_id": "U7_B4_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Subí al avión.' (Pasado de get on = got on)",
-          "stimulus_es": "Subí al avión.",
-          "correct_answer": "I got on the plane",
-          "validation_regex": "^i got on the plane\\.?$",
+          "prompt_es": "Traduce: 'Subo al avión.'",
+          "stimulus_es": "Subo al avión.",
+          "correct_answer": "I get on the plane",
+          "validation_regex": "^i get on the plane\\.?$",
           "mastery_tag": "vocabulary"
         }
       ]

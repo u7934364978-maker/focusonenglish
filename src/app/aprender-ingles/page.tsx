@@ -121,7 +121,7 @@ export default function SEOHubPage() {
                 </span>
               </Link>
 
-              <Link href="/blog/seo/ingles-para-trabajo" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-green-200 hover:shadow-xl hover:shadow-green-50 transition-all">
+              <Link href="/blog/trabajo/ingles-para-trabajo" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-green-200 hover:shadow-xl hover:shadow-green-50 transition-all">
                 <div className="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Briefcase className="w-8 h-8 text-green-600" />
                 </div>
@@ -132,7 +132,7 @@ export default function SEOHubPage() {
                 </span>
               </Link>
 
-              <Link href="/blog/seo/ingles-para-viajar" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-peach-200 hover:shadow-xl hover:shadow-peach-50 transition-all">
+              <Link href="/blog/viajes/ingles-para-viajar" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-peach-200 hover:shadow-xl hover:shadow-peach-50 transition-all">
                 <div className="w-14 h-14 bg-peach-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Plane className="w-8 h-8 text-peach-600" />
                 </div>

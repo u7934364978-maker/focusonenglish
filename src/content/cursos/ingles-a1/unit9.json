@@ -8,540 +8,252 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Jobs & Occupations"
+    "Aprender vocabulario de profesiones comunes",
+    "Usar correctamente los artículos a/an con profesiones",
+    "Describir dónde trabajan diferentes profesionales",
+    "Preguntar y responder sobre el trabajo (What do you do?)"
   ],
   "blocks": [
     {
-      "block_id": "B9",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Profesiones Comunes",
       "content": [
         {
-          "interaction_id": "U9_I1",
+          "interaction_id": "U9_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las profesiones:",
+          "pairs": [
+            { "id": "p1", "left": "Teacher", "right": "Profesor/a" },
+            { "id": "p2", "left": "Doctor", "right": "Doctor/a" },
+            { "id": "p3", "left": "Nurse", "right": "Enfermero/a" },
+            { "id": "p4", "left": "Chef", "right": "Cocinero/a" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Oficinista'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Office worker"
-            },
-            {
-              "id": "o3",
-              "text": "Chef"
-            },
-            {
-              "id": "o2",
-              "text": "Driver"
-            }
+            { "id": "o1", "text": "Office worker" },
+            { "id": "o2", "text": "Office person" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Engineer",
-              "right": "Ingeniero/a"
-            },
-            {
-              "id": "p1",
-              "left": "Farmer",
-              "right": "Granjero/a"
-            },
-            {
-              "id": "p2",
-              "left": "Office worker",
-              "right": "Oficinista"
-            },
-            {
-              "id": "p3",
-              "left": "Chef",
-              "right": "Cocinero/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U9_B1_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Él es oficial de policía.'",
+          "stimulus_en": "He is a ________ officer.",
+          "correct_answer": "police",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I3",
+          "interaction_id": "U9_B1_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: 'Mi madre es enfermera.'",
           "options": [
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "works"
-            },
-            {
-              "id": "w4",
-              "text": "big"
-            },
-            {
-              "id": "w2",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w5",
-              "text": "office"
-            }
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "mother" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "nurse" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U9_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She works in a big office.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (ser/estar - ellos) ________ students.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Doctor/a",
-          "correct_answer": "Doctor",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I7",
+          "interaction_id": "U9_B1_I5",
           "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Pilot",
-          "correct_answer": "Piloto",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Police officer"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Engineer"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Police officers help people. My father is an engineer. The chef is in the kitchen.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Jobs & Occupations"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U9_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/b9bbfe6a882266c461c2079522ba812f.mp3",
-          "text": "The chef is in the kitchen.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U9_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Conductor/a'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Police officer"
-            },
-            {
-              "id": "o1",
-              "text": "Driver"
-            },
-            {
-              "id": "o3",
-              "text": "Chef"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Engineer",
-              "right": "Ingeniero/a"
-            },
-            {
-              "id": "p1",
-              "left": "Pilot",
-              "right": "Piloto"
-            },
-            {
-              "id": "p2",
-              "left": "Police officer",
-              "right": "Oficial de policía"
-            },
-            {
-              "id": "p3",
-              "left": "Doctor",
-              "right": "Doctor/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "good"
-            },
-            {
-              "id": "w5",
-              "text": "driver"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U9_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She works in a big office.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "They (ser/estar - ellos) ________ students.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Oficinista",
-          "correct_answer": "Office worker",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U9_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
+          "prompt_es": "¿Cómo se dice 'Granjero'?",
           "stimulus_en": "Farmer",
           "correct_answer": "Granjero/a",
           "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A o AN con Profesiones",
+      "content": [
+        {
+          "interaction_id": "U9_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué artículo usamos con 'Engineer'?",
+          "options": [
+            { "id": "o1", "text": "A (A engineer)" },
+            { "id": "o2", "text": "An (An engineer)" }
+          ],
+          "correct_answer": "o2",
+          "explanation": "Usamos 'an' cuando la siguiente palabra empieza por vocal.",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Doctor"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Police officer"
-              ]
-            }
+          "interaction_id": "U9_B2_I2",
+          "type": "true_false",
+          "prompt_es": "En inglés, ¿es obligatorio poner 'a/an' antes de la profesión (ej. I am A doctor)?",
+          "correct_answer": true,
+          "explanation": "Sí. A diferencia del español, en inglés siempre decimos 'Soy UN médico'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_B2_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el artículo correcto: 'Él es arquitecto.'",
+          "stimulus_en": "He is ________ architect.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_B2_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Soy un estudiante de inglés.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "an" },
+            { "id": "w4", "text": "English" },
+            { "id": "w5", "text": "student" }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_B2_I5",
+          "type": "matching",
+          "prompt_es": "Une cada profesión con su artículo correcto:",
+          "pairs": [
+            { "id": "p1", "left": "A", "right": "Doctor, Pilot, Teacher" },
+            { "id": "p2", "left": "An", "right": "Actor, Engineer, Artist" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Lugares de Trabajo",
+      "content": [
+        {
+          "interaction_id": "U9_B3_I1",
+          "type": "matching",
+          "prompt_es": "¿Dónde trabajan?",
+          "pairs": [
+            { "id": "p1", "left": "Teacher", "right": "In a school" },
+            { "id": "p2", "left": "Doctor", "right": "In a hospital" },
+            { "id": "p3", "left": "Chef", "right": "In a kitchen" },
+            { "id": "p4", "left": "Office worker", "right": "In an office" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "She works in a big office. My father is an engineer. Police officers help people.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U9_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Jobs & Occupations"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "What do you do?" },
+            { "id": "o2", "text": "What is your work?" }
+          ],
+          "correct_answer": "o1",
+          "explanation": "'What do you do?' es la forma más común y natural.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_B3_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Ella trabaja en un hospital.'",
+          "stimulus_en": "She works ________ a hospital.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_B3_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué se dedica tu padre?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "does" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "father" },
+            { "id": "w5", "text": "do?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U9_B3_I5",
+          "type": "true_false",
+          "prompt_es": "¿'Work' se puede usar como sustantivo y como verbo?",
+          "correct_answer": true,
+          "explanation": "Sí. 'I go to work' (sustantivo) y 'I work in London' (verbo).",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Repaso Final",
+      "content": [
+        {
+          "interaction_id": "U9_B4_I1",
+          "type": "reading-comprehension",
+          "title": "The New Job",
+          "text": "My friend Sarah is a nurse. She works in a big hospital in London. She loves her job because she helps people every day. Her husband is an engineer and he works in an office.",
+          "question": "¿Cuál es la profesión de Sarah?",
+          "options": [
+            { "id": "o1", "text": "Enfermera." },
+            { "id": "o2", "text": "Médico." },
+            { "id": "o3", "text": "Ingeniera." }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U9_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/c7b8b4fe3959d63396c149a3a4cc71f9.mp3",
-          "text": "She works in a big office.",
-          "mastery_tag": "listening"
+          "interaction_id": "U9_B4_I2",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él es un buen conductor.'",
+          "stimulus_es": "Él es un buen conductor.",
+          "correct_answer": "He is a good driver",
+          "validation_regex": "^he is a good driver\\.?$",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "UNIT9_EXP_0_0",
+          "interaction_id": "U9_B4_I3",
           "type": "multiple_choice",
-          "prompt_es": "He drives ___ (slow).",
+          "prompt_es": "Completa: 'I work in ________ office.'",
           "options": [
-            {
-              "id": "opt0",
-              "text": "slow"
-            },
-            {
-              "id": "opt1",
-              "text": "slowly"
-            },
-            {
-              "id": "opt2",
-              "text": "slows"
-            }
+            { "id": "o1", "text": "an" },
+            { "id": "o2", "text": "a" }
           ],
-          "correct_answer": "opt1",
-          "explanation": "¿Cómo conduce él? Despacio. Necesitamos un adverbio: slow + ly.",
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "UNIT9_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "She sings very ___ (good).",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "good"
-            },
-            {
-              "id": "opt1",
-              "text": "goodly"
-            },
-            {
-              "id": "opt2",
-              "text": "well"
-            }
-          ],
-          "correct_answer": "opt2",
-          "explanation": "\"Well\" es el adverbio irregular de \"good\".",
-          "mastery_tag": "grammar"
+          "interaction_id": "U9_B4_I4",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
+          "stimulus_en": "What do you do?",
+          "correct_answer": "¿A qué te dedicas? / ¿Qué haces?",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "UNIT9_EXP_0_2",
-          "type": "multiple_choice",
-          "prompt_es": "He is a ___ (dangerous) driver.",
+          "interaction_id": "U9_B4_I5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi padre es un oficial de policía.'",
           "options": [
-            {
-              "id": "opt0",
-              "text": "dangerous"
-            },
-            {
-              "id": "opt1",
-              "text": "dangerously"
-            },
-            {
-              "id": "opt2",
-              "text": "dangerousely"
-            }
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "father" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "police" },
+            { "id": "w6", "text": "officer" }
           ],
-          "correct_answer": "opt0",
-          "explanation": "Aquí acompaña a \"driver\" (sustantivo), por lo tanto necesitamos un adjetivo.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT9_EXP_1_0",
-          "type": "multiple_choice",
-          "prompt_es": "Ordena: to the mountains / never / we go",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "We never go to the mountains."
-            },
-            {
-              "id": "opt1",
-              "text": "We go never to the mountains."
-            },
-            {
-              "id": "opt2",
-              "text": "Never we go to the mountains."
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "El adverbio \"never\" va entre el sujeto (we) y el verbo (go).",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT9_EXP_1_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta?",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "Our teacher usually is angry."
-            },
-            {
-              "id": "opt1",
-              "text": "Our teacher is usually angry."
-            },
-            {
-              "id": "opt2",
-              "text": "Usually our teacher is angry."
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Con el verbo \"to be\" (is), el adverbio va después.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT9_EXP_2_0",
-          "type": "multiple_choice",
-          "prompt_es": "We can discuss it ___________ lunch.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "after"
-            },
-            {
-              "id": "opt1",
-              "text": "then"
-            },
-            {
-              "id": "opt2",
-              "text": "afterwards"
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "Usamos \"after\" seguido de un sustantivo (lunch). \"Después de la comida\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT9_EXP_2_1",
-          "type": "multiple_choice",
-          "prompt_es": "I get up and ___________ I get dressed.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "after"
-            },
-            {
-              "id": "opt1",
-              "text": "then"
-            },
-            {
-              "id": "opt2",
-              "text": "afterwards"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "\"Then\" indica una correlación de hechos: \"y después me visto\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT9_EXP_2_2",
-          "type": "multiple_choice",
-          "prompt_es": "___________ I have a shower, I go to bed.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "After"
-            },
-            {
-              "id": "opt1",
-              "text": "Then"
-            },
-            {
-              "id": "opt2",
-              "text": "Afterwards"
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "\"After\" seguido de una oración (I have a shower). \"Después de ducharme\".",
-          "mastery_tag": "grammar"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
         }
       ]
     }

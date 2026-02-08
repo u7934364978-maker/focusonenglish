@@ -8,354 +8,250 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Rooms in a House"
+    "Identify common rooms in a house",
+    "Use 'There is' and 'There are' to describe locations",
+    "Describe what people do in different rooms",
+    "Understand basic prepositions of place (in, at)"
   ],
   "blocks": [
     {
-      "block_id": "B21",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: The Main Rooms",
       "content": [
         {
-          "interaction_id": "U21_I1",
+          "interaction_id": "U21_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las habitaciones con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Living room", "right": "Salón" },
+            { "id": "p2", "left": "Bedroom", "right": "Dormitorio" },
+            { "id": "p3", "left": "Kitchen", "right": "Cocina" },
+            { "id": "p4", "left": "Bathroom", "right": "Baño" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Salón'?",
+          "prompt_es": "¿Dónde duermes (sleep)?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Garage"
-            },
-            {
-              "id": "o2",
-              "text": "Bathroom"
-            },
-            {
-              "id": "o1",
-              "text": "Living room"
-            }
+            { "id": "o1", "text": "In the bedroom" },
+            { "id": "o2", "text": "In the kitchen" },
+            { "id": "o3", "text": "In the garage" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Bathroom",
-              "right": "Baño"
-            },
-            {
-              "id": "p1",
-              "left": "Kitchen",
-              "right": "Cocina"
-            },
-            {
-              "id": "p2",
-              "left": "Garage",
-              "right": "Garaje"
-            },
-            {
-              "id": "p3",
-              "left": "Attic",
-              "right": "Ático"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U21_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Nueva palabra: Comedor",
+          "stimulus_en": "Dining room",
+          "correct_answer": "Comedor",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U21_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U21_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jardín'?",
           "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "my"
-            },
-            {
-              "id": "w3",
-              "text": "bedroom"
-            },
-            {
-              "id": "w1",
-              "text": "love"
-            }
+            { "id": "o1", "text": "Garden" },
+            { "id": "o2", "text": "Yard" },
+            { "id": "o3", "text": "Both are correct" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_B1_I5",
+          "type": "matching",
+          "prompt_es": "Más partes de la casa:",
+          "pairs": [
+            { "id": "p1", "left": "Garage", "right": "Garaje" },
+            { "id": "p2", "left": "Attic", "right": "Ático" },
+            { "id": "p3", "left": "Garden", "right": "Jardín" },
+            { "id": "p4", "left": "Hall", "right": "Recibidor/Pasillo" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: There is / There are",
+      "content": [
+        {
+          "interaction_id": "U21_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Usamos 'There is' para singular y 'There are' para plural. 'Hay una cocina' es:",
+          "options": [
+            { "id": "o1", "text": "There are a kitchen" },
+            { "id": "o2", "text": "There is a kitchen" },
+            { "id": "o3", "text": "Is there a kitchen" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'is' o 'are':",
+          "stimulus_en": "There ________ three bedrooms in my house.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_B2_I8",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir: 'There are a garden'?",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntarías '¿Hay un garaje?'?",
+          "options": [
+            { "id": "o1", "text": "There is a garage?" },
+            { "id": "o2", "text": "Is there a garage?" },
+            { "id": "o3", "text": "Are there a garage?" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la negación: 'No hay (ningún) ático'",
+          "stimulus_en": "There ________ not an attic.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Actions in the House",
+      "content": [
+        {
+          "interaction_id": "U21_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nosotros cocinamos en la cocina'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "cook" },
+            { "id": "w3", "text": "in" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "kitchen" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We eat in the dining room.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "My house (tener) ________ three bedrooms.",
-          "correct_answer": "has",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ático",
-          "correct_answer": "Attic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Garage",
-          "correct_answer": "Garaje",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Dining room"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bathroom"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I love my bedroom. The kitchen is very small. My house has a beautiful garden.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U21_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Hay una televisión en el salón'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Rooms in a House"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "TV" },
+            { "id": "w5", "text": "in" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "living room" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi casa tiene dos baños'",
+          "stimulus_en": "My house has two bathrooms",
+          "correct_answer": "My house has two bathrooms",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U21_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la habitación lógica:",
+          "stimulus_en": "I take a shower in the ________.",
+          "correct_answer": "bathroom",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Hay un jardín?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "there" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "garden?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Listening: Description",
+      "content": [
+        {
+          "interaction_id": "U21_B4_I16",
+          "type": "reading-comprehension",
+          "title": "Welcome to my House",
+          "text": "My house is small but comfortable. There is a large living room and a modern kitchen. Upstairs, there are two bedrooms and one bathroom. We have a small garden with flowers.",
+          "question": "¿Cuántos dormitorios (bedrooms) hay?",
+          "options": [
+            { "id": "o1", "text": "One" },
+            { "id": "o2", "text": "Two" },
+            { "id": "o3", "text": "Three" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U21_I10",
+          "interaction_id": "U21_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Según el texto, ¿cómo es la cocina?",
+          "options": [
+            { "id": "o1", "text": "Small" },
+            { "id": "o2", "text": "Old" },
+            { "id": "o3", "text": "Modern" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U21_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/b54c858f2f15255eae371b3b03ac2829.mp3",
           "text": "My house has a beautiful garden.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U21_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Salón'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Living room"
-            },
-            {
-              "id": "o2",
-              "text": "Bathroom"
-            },
-            {
-              "id": "o3",
-              "text": "Attic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Living room",
-              "right": "Salón"
-            },
-            {
-              "id": "p1",
-              "left": "Bathroom",
-              "right": "Baño"
-            },
-            {
-              "id": "p2",
-              "left": "Kitchen",
-              "right": "Cocina"
-            },
-            {
-              "id": "p3",
-              "left": "Garage",
-              "right": "Garaje"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "eat"
-            },
-            {
-              "id": "w5",
-              "text": "room"
-            },
-            {
-              "id": "w4",
-              "text": "dining"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "interaction_id": "U21_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Escribe en inglés: 'Hay una mesa en la cocina'",
+          "stimulus_es": "Hay una mesa en la cocina",
+          "correct_answer": "There is a table in the kitchen",
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U21_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We eat in the dining room.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We have a (grande) ________ garden.",
-          "correct_answer": "big",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U21_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Comedor",
-          "correct_answer": "Dining room",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Attic",
-          "correct_answer": "Ático",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I18",
+          "interaction_id": "U21_B4_I20",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica en Planta Baja o Planta Alta (según el texto anterior):",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Bedroom"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Dining room"
-              ]
-            }
+            { "id": "c1", "title": "Downstairs", "items": ["Living room", "Kitchen"] },
+            { "id": "c2", "title": "Upstairs", "items": ["Bedrooms", "Bathroom"] }
           ],
           "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U21_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We eat in the dining room. My house has a beautiful garden. I love my bedroom.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rooms in a House"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
           "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U21_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/d1e50426f05dbacbeb369d2ccdcbc3ca.mp3",
-          "text": "The kitchen is very small.",
-          "mastery_tag": "listening"
         }
       ]
     }

@@ -1,7 +1,8 @@
 import React from 'react';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { createClient } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server'; // Use server client here
+import { AdaptiveEngine } from '@/lib/course-engine/adaptive';
 import PracticeClient from './PracticeClient';
 
 export default async function PracticePage() {
@@ -10,7 +11,7 @@ export default async function PracticePage() {
 
   const userId = user?.id || 'anonymous';
 
-  // Fetch all interactions and filter by those NOT completed
+  // Fetch all interactions
   const allInteractions = await premiumCourseServerService.getAllInteractions('ingles-a1');
   
   // Only use interactions from units 1-60
@@ -19,12 +20,17 @@ export default async function PracticePage() {
   const allowedInteractionIds = new Set(allowedUnits.flatMap(u => u.interactionIds));
   const filteredInteractions = allInteractions.filter(i => allowedInteractionIds.has(i.interaction_id));
 
+  // Get progress and SRS performance
   const completedIds = await premiumCourseService.getA1Progress(userId);
+  const performance = await premiumCourseServerService.getSRSPerformance(userId, filteredInteractions.map(i => i.interaction_id));
   
-  const completedSet = new Set(completedIds);
-  const pendingInteractions = filteredInteractions.filter(
-    int => !completedSet.has(int.interaction_id)
+  // Use adaptive engine to generate global sequence (Duolingo-style)
+  const adaptiveQueue = AdaptiveEngine.generateGlobalSequence(
+    filteredInteractions,
+    performance,
+    completedIds,
+    20 // session length
   );
 
-  return <PracticeClient interactions={pendingInteractions} />;
+  return <PracticeClient interactions={adaptiveQueue} />;
 }

@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabase/client';
 import { z } from 'zod';
+import { CourseEngine } from '../course-engine';
 import { UnitData, PremiumInteraction } from '@/types/premium-course';
 import { 
   Module, 
@@ -343,11 +344,11 @@ export const courseService = {
       }
 
       // Map to UnitData structure
-      return {
+      const unitData = {
         course: {
           unit_id: lesson.id,
           unit_title: lesson.title,
-          level: lesson.course_modules?.course_level || 'A1',
+          level: (lesson.course_modules?.course_level || 'A1') as any,
           total_duration_minutes: lesson.duration || 60,
           language_ui: 'es-ES',
           target_language: 'en'
@@ -359,10 +360,21 @@ export const courseService = {
             block_id: 'B1',
             title: 'Contenido de la Unidad',
             duration_minutes: lesson.duration || 60,
-            content: (exercises || []).map(ex => this.mapExerciseToInteraction(ex)).filter(Boolean) as PremiumInteraction[]
+            content: (exercises || []).map(ex => this.mapExerciseToInteraction(ex)).filter(Boolean) as any[]
           }
         ]
       };
+
+      // Use unified CourseEngine for normalization and validation
+      const normalized = CourseEngine.normalize(unitData);
+      const validation = CourseEngine.validate(normalized);
+      
+      if (!validation.success) {
+        console.warn(`[courseService] Unit ${unitId} failed validation:`, validation.errors);
+        // Return normalized data anyway for backward compatibility, but log errors
+      }
+
+      return normalized as unknown as UnitData;
     } catch (error) {
       console.error('Fatal error in getPremiumUnitData:', error);
       return null;
@@ -372,97 +384,26 @@ export const courseService = {
   /**
    * Helper to map a generic course exercise to a Premium interaction
    */
-  mapExerciseToInteraction(ex: any): PremiumInteraction | null {
+  mapExerciseToInteraction(ex: any): any | null {
     try {
       const content = typeof ex.content === 'string' ? JSON.parse(ex.content) : ex.content;
       
       if (!content) return null;
 
-      const typeMap: Record<string, string> = {
-        'multipleChoice': 'multiple_choice',
-        'matching': 'matching',
-        'vocabulary-match': 'matching',
-        'drag-drop': 'reorder_words',
-        'fillBlanks': 'fill_blanks',
-        'fill-blank': 'fill_blanks',
-        'flashcard': 'flashcard'
-      };
-
+      // Create a unified interaction object
       const interaction: any = {
         interaction_id: ex.id,
-        type: typeMap[ex.type] || ex.type,
+        type: ex.type,
         ...content,
-        prompt_es: content.prompt || content.instructions || content.text || content.title || '',
-        mastery_tag: 'vocab_family' // Default tag
+        prompt_es: content.prompt_es || content.prompt || content.instructions || content.text || content.title || '',
+        mastery_tag: content.mastery_tag || 'vocab_family'
       };
 
-      if (ex.type === 'multipleChoice' || ex.type === 'multiple-choice' || ex.type === 'reading-comprehension' || ex.type === 'writing-analysis') {
-        const q = content.questions?.[0] || content;
-        if (!q) return null;
-        
-        // Map question text to top level for easier rendering
-        interaction.question = q.question || q.context || content.question || content.context || '';
-        
-        const options = q.options || content.options || [];
-        const correctAnswer = q.correctAnswer !== undefined ? q.correctAnswer : (q.correct_answer !== undefined ? q.correct_answer : (content.correctAnswer !== undefined ? content.correctAnswer : content.correct_answer));
-        
-        if (options.length > 0 && typeof options[0] === 'string') {
-          interaction.options = options.map((opt: string, i: number) => ({
-            id: `o${i}`,
-            text: opt
-          }));
-          
-          if (typeof correctAnswer === 'number') {
-            interaction.correct_answer = `o${correctAnswer}`;
-          } else if (typeof correctAnswer === 'string') {
-            // Find the index of the correct string answer to get the right oX id
-            const idx = options.findIndex((o: string) => o.toLowerCase().trim() === (correctAnswer as string).toLowerCase().trim());
-            if (idx !== -1) {
-              interaction.correct_answer = `o${idx}`;
-            } else {
-              interaction.correct_answer = correctAnswer; // Fallback
-            }
-          }
-        } else if (options.length > 0 && typeof options[0] === 'object') {
-          interaction.options = options;
-          interaction.correct_answer = correctAnswer;
-        }
-      } else if (ex.type === 'matching' || ex.type === 'vocabulary-match') {
-        interaction.pairs = (content.pairs || []).map((p: any) => ({
-          id: p.id,
-          left: p.word || p.left,
-          right: p.correctMatch || p.right
-        }));
-      } else if (ex.type === 'drag-drop') {
-        interaction.type = 'reorder_words';
-        interaction.prompt_es = content.translation || content.instructions || '';
-        interaction.stimulus_en = content.correctSentence || '';
-        
-        if (content.correctSentence) {
-          const words = content.correctSentence.split(' ');
-          interaction.options = words.map((w: string, i: number) => ({
-            id: `w${i}`,
-            text: w
-          }));
-          interaction.correct_answer = words.map((_: string, i: number) => `w${i}`);
-        }
-      } else if (ex.type === 'fillBlanks') {
-        interaction.type = 'fill_blanks';
-        interaction.stimulus_en = content.text || '';
-        interaction.correct_answer = content.answers?.[0] || '';
-      } else if (ex.type === 'flashcard') {
-        interaction.type = 'flashcard';
-        interaction.flashcards = (content.items || []).map((item: any) => ({
-          front: item.front || '',
-          back: item.back || '',
-          pronunciation: item.pronunciation || ''
-        }));
-      }
-
-      return interaction as PremiumInteraction;
+      // CourseEngine.normalize will handle the deep normalization
+      return interaction;
     } catch (error) {
       console.error(`Error mapping exercise ${ex.id}:`, error);
       return null;
     }
-  }
+  },
 };

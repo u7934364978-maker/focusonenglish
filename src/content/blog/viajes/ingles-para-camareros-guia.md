@@ -27,7 +27,7 @@ faqs:
 
 Trabajar en hostelería requiere no solo rapidez, sino una comunicación impecable. En un mundo globalizado, saber atender a un comensal en inglés marca la diferencia entre un servicio mediocre y uno excelente. Esta guía te proporcionará las herramientas necesarias para destacar en tu puesto.
 
-Para una formación completa, te recomendamos visitar nuestro [Curso de Inglés para Hostelería](/rutas/ingles-para-hosteleria).
+Para una formación completa, te recomendamos visitar nuestro [Curso de Inglés para Hostelería](/blog/trabajo/ingles-para-hosteleria).
 
 ---
 
@@ -131,6 +131,6 @@ En Focus English hemos desarrollado un **Simulador de Servicio de Mesa con IA** 
 
 ## 🚀 Mejora tu fluidez con Focus English
 
-En nuestro [hub de inglés para el trabajo](/rutas/ingles-para-trabajo) encontrarás más recursos, pero si quieres practicar situaciones reales con IA, regístrate hoy mismo.
+En nuestro [hub de inglés para el trabajo](/blog/trabajo/ingles-para-trabajo) encontrarás más recursos, pero si quieres practicar situaciones reales con IA, regístrate hoy mismo.
 
 [👉 Empieza a practicar gratis](/cuenta/registro?plan=viajes)

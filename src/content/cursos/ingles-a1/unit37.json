@@ -8,168 +8,223 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Talent & Skills"
+    "Describe personal talents and skills",
+    "Use 'good at' and 'bad at' correctly",
+    "Answer 'Who can...?' questions about abilities"
   ],
   "blocks": [
     {
-      "block_id": "B37",
-      "title": "Lección Principal",
+      "block_id": "B37_1",
+      "title": "Block 1: Action Skills",
       "content": [
         {
           "interaction_id": "U37_I1",
+          "type": "matching",
+          "prompt_es": "Relaciona la habilidad con su nombre en inglés:",
+          "pairs": [
+            { "id": "p1", "left": "Paint", "right": "Pintar" },
+            { "id": "p2", "left": "Type", "right": "Escribir a máquina" },
+            { "id": "p3", "left": "Code", "right": "Programar" },
+            { "id": "p4", "left": "Cook", "right": "Cocinar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Principiante'?",
+          "prompt_es": "¿Cómo se dice 'Dibujar'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Beginner"
-            },
-            {
-              "id": "o2",
-              "text": "Practice"
-            },
-            {
-              "id": "o3",
-              "text": "Expert"
-            }
+            { "id": "o1", "text": "Draw" },
+            { "id": "o2", "text": "Paint" },
+            { "id": "o3", "text": "Sing" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U37_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Talent",
-              "right": "Talento"
-            },
-            {
-              "id": "p1",
-              "left": "Skill",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p2",
-              "left": "Practice",
-              "right": "Práctica"
-            },
-            {
-              "id": "p3",
-              "left": "Beginner",
-              "right": "Principiante"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U37_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "makes"
-            },
-            {
-              "id": "w2",
-              "text": "perfect"
-            },
-            {
-              "id": "w0",
-              "text": "Practice"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la habilidad física:",
+          "stimulus_en": "Fish can ________ underwater. (nadar)",
+          "correct_answer": "swim",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I is a beginner in Englareh.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Cantar'",
+          "stimulus_es": "Cantar",
+          "correct_answer": "Sing",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (tener) ________ a talent for music.",
-          "correct_answer": "has",
+          "type": "flashcard",
+          "prompt_es": "Aprende el adjetivo:",
+          "stimulus_en": "Talented",
+          "correct_answer": "Talentoso/a",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B37_2",
+      "title": "Block 2: Good at / Bad at",
+      "content": [
+        {
+          "interaction_id": "U37_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "I am good at cooking" },
+            { "id": "o2", "text": "I am good in cooking" },
+            { "id": "o3", "text": "I am good for cooking" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U37_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Malo en",
-          "correct_answer": "Bad at",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U37_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Expert",
-          "correct_answer": "Experto",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el opuesto de 'good at':",
+          "stimulus_en": "I am ________ at remembering names.",
+          "correct_answer": "bad",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U37_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Beginner"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Talent"
-              ]
-            }
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "very" },
+            { "id": "w4", "text": "good" },
+            { "id": "w5", "text": "at" },
+            { "id": "w6", "text": "painting" }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U37_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Practice makes perfect. She is very good at cooking. I am a beginner in English.",
-          "question": "¿De qué trata este texto?",
+          "type": "true_false",
+          "prompt_es": "¿Después de 'good at' el verbo va en gerundio (-ing)?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I10",
+          "type": "multiple_choice",
+          "prompt_es": "He can play tennis...",
           "options": [
-            {
-              "id": "o1",
-              "text": "Talent & Skills"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "very well" },
+            { "id": "o2", "text": "very good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B37_3",
+      "title": "Block 3: Who can...?",
+      "content": [
+        {
+          "interaction_id": "U37_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "Who" },
+            { "id": "w2", "text": "can" },
+            { "id": "w3", "text": "sing" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "your" },
+            { "id": "w6", "text": "family" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U37_I12",
+          "type": "matching",
+          "prompt_es": "Relaciona pregunta y respuesta:",
+          "pairs": [
+            { "id": "p1", "left": "Who can code?", "right": "My brother can." },
+            { "id": "p2", "left": "Can you dance?", "right": "No, I can't." }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Who' o 'Can':",
+          "stimulus_en": "________ can help me with this computer?",
+          "correct_answer": "Who",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U37_I14",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Quién puede hablar inglés?'",
+          "stimulus_es": "¿Quién puede hablar inglés?",
+          "correct_answer": "Who can speak English?",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U37_I15",
+          "type": "true_false",
+          "prompt_es": "¿'Practice makes perfect' significa que la práctica lleva a la perfección?",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B37_4",
+      "title": "Block 4: The Talent Show",
+      "content": [
+        {
+          "interaction_id": "U37_I16",
+          "type": "audio_player",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ddab4901a14f2fe615a2bf2229334312.mp3",
+          "text": "He is an expert in computers.",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U37_I17",
+          "type": "reading-comprehension",
+          "title": "The Talent Show",
+          "text": "Judge: Next! What is your name and what can you do?\nCandidate: My name is Maria. I can sing very well and I can play the guitar.\nJudge: Who can dance in your group?\nCandidate: My friend David is a very talented dancer. He can dance salsa and hip-hop. But he is bad at singing!",
+          "question": "What are Maria's skills?",
+          "options": [
+            { "id": "o1", "text": "Singing and playing guitar" },
+            { "id": "o2", "text": "Dancing salsa" },
+            { "id": "o3", "text": "Coding computers" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U37_I10",
+          "interaction_id": "U37_I18",
+          "type": "reading-comprehension",
+          "title": "The Talent Show",
+          "text": "Judge: Next! What is your name and what can you do?\nCandidate: My name is Maria. I can sing very well and I can play the guitar.\nJudge: Who can dance in your group?\nCandidate: My friend David is a very talented dancer. He can dance salsa and hip-hop. But he is bad at singing!",
+          "question": "What can David NOT do well?",
+          "options": [
+            { "id": "o1", "text": "Dance hip-hop" },
+            { "id": "o2", "text": "Sing" },
+            { "id": "o3", "text": "Dance salsa" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U37_I19",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/1111c7b6b8636cbf68949389f5986bc6.mp3",
@@ -177,180 +232,16 @@
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U37_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Experto'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Practice"
-            },
-            {
-              "id": "o3",
-              "text": "Skill"
-            },
-            {
-              "id": "o1",
-              "text": "Expert"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Skill",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p1",
-              "left": "Practice",
-              "right": "Práctica"
-            },
-            {
-              "id": "p2",
-              "left": "Expert",
-              "right": "Experto"
-            },
-            {
-              "id": "p3",
-              "left": "Bad at",
-              "right": "Malo en"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "remembering"
-            },
-            {
-              "id": "w3",
-              "text": "at"
-            },
-            {
-              "id": "w2",
-              "text": "bad"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w5",
-              "text": "names"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U37_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Practice makes perfect.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U37_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "She (tener) ________ a talent for music.",
-          "correct_answer": "has",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U37_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Práctica",
-          "correct_answer": "Practice",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Expert",
-          "correct_answer": "Experto",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Expert"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bad at"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U37_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "He is an expert in computers. She is very good at cooking. Practice makes perfect.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Talent & Skills"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
           "interaction_id": "U37_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ddab4901a14f2fe615a2bf2229334312.mp3",
-          "text": "He is an expert in computers.",
-          "mastery_tag": "listening"
+          "type": "multiple_choice",
+          "prompt_es": "¿Quién es el bailarín en el texto?",
+          "options": [
+            { "id": "o1", "text": "Maria" },
+            { "id": "o2", "text": "David" },
+            { "id": "o3", "text": "The Judge" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
         }
       ]
     }

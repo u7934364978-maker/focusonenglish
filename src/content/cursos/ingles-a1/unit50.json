@@ -1,350 +1,246 @@
 {
   "course": {
     "unit_id": "unit50",
-    "unit_title": "Module 5 Review",
+    "unit_title": "Module 5 Review: Places & Travel",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 30,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Module 5 Review"
+    "Review airport and transport vocabulary",
+    "Practice hotel check-in and travel verbs",
+    "Describe weather, seasons, and holiday activities",
+    "Demonstrate mastery of Module 5 concepts in context"
   ],
   "blocks": [
     {
-      "block_id": "B50",
-      "title": "Lección Principal",
+      "block_id": "b1",
+      "title": "Transportation & Airport Review",
       "content": [
         {
-          "interaction_id": "U50_I1",
+          "interaction_id": "u50_b1_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aeropuerto'?",
+          "prompt_es": "¿Dónde muestras tu pasaporte?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Season"
-            },
-            {
-              "id": "o1",
-              "text": "Airport"
-            },
-            {
-              "id": "o2",
-              "text": "Travel"
-            }
+            { "id": "o1", "text": "At the airport" },
+            { "id": "o2", "text": "In the park" },
+            { "id": "o3", "text": "At the supermarket" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I2",
+          "interaction_id": "u50_b1_i2",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une el transporte con la preposición correcta:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Season",
-              "right": "Estación"
-            },
-            {
-              "id": "p1",
-              "left": "Hotel",
-              "right": "Hotel"
-            },
-            {
-              "id": "p2",
-              "left": "Airport",
-              "right": "Aeropuerto"
-            },
-            {
-              "id": "p3",
-              "left": "Travel",
-              "right": "Viaje"
-            }
+            { "id": "p1", "left": "By", "right": "train" },
+            { "id": "p2", "left": "On", "right": "foot" },
+            { "id": "p3", "left": "By", "right": "plane" },
+            { "id": "p4", "left": "On the", "right": "bus" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U50_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "holiday"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "Prepare"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U50_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Prepare for a holiday.\"",
-          "correct_answer": true,
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I5",
+          "interaction_id": "u50_b1_i3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "It (ser/estar - ello) ________ sunny.",
-          "correct_answer": "is",
+          "prompt_es": "Completa: 'Voy al trabajo en coche'",
+          "stimulus_en": "I go to work ________ car.",
+          "correct_answer": "by",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I6",
+          "interaction_id": "u50_b1_i4",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Estación",
-          "correct_answer": "Season",
+          "prompt_es": "Escribe 'tarjeta de embarque' en inglés:",
+          "stimulus_es": "Tarjeta de embarque",
+          "correct_answer": "Boarding pass",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Season",
-          "correct_answer": "Estación",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U50_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Weather"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Travel"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U50_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "This is a review of module five. Prepare for a holiday. Describe the weather and seasons.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Module 5 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U50_I10",
+          "interaction_id": "u50_b1_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cf48365ede3b01629dbbca6bfcfcda6c.mp3",
-          "text": "Talk about transport and travel.",
+          "prompt_es": "Escucha y verifica:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/airport_transport.mp3",
+          "text": "I go to the airport by taxi. I have my passport and my boarding pass.",
           "mastery_tag": "listening"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "title": "Accommodation & Functional Language",
+      "content": [
         {
-          "interaction_id": "U50_I11",
+          "interaction_id": "u50_b2_i1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estación'?",
+          "prompt_es": "¿Cómo pides una habitación educadamente?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Weather"
-            },
-            {
-              "id": "o2",
-              "text": "Travel"
-            },
-            {
-              "id": "o1",
-              "text": "Season"
-            }
+            { "id": "o1", "text": "I would like a room, please." },
+            { "id": "o2", "text": "I want room." },
+            { "id": "o3", "text": "Give me room." }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Airport",
-              "right": "Aeropuerto"
-            },
-            {
-              "id": "p1",
-              "left": "Weather",
-              "right": "Tiempo"
-            },
-            {
-              "id": "p2",
-              "left": "Hotel",
-              "right": "Hotel"
-            },
-            {
-              "id": "p3",
-              "left": "Season",
-              "right": "Estación"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "u50_b2_i2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta en el hotel:",
+          "stimulus_en": "Is ________ wifi in the room?",
+          "correct_answer": "there",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U50_I13",
+          "interaction_id": "u50_b2_i3",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: 'Aquí está su llave'",
           "options": [
-            {
-              "id": "w2",
-              "text": "hotel"
-            },
-            {
-              "id": "w0",
-              "text": "Book"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "room"
-            }
+            { "id": "w1", "text": "Here" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "key" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U50_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Prepare for a holiday.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U50_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Where (ser/estar - ello) ________ my key?",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U50_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Hotel",
-          "correct_answer": "Hotel",
+          "interaction_id": "u50_b2_i4",
+          "type": "matching",
+          "prompt_es": "Une las frases del hotel:",
+          "pairs": [
+            { "id": "p1", "left": "Check", "right": "in" },
+            { "id": "p2", "left": "Single", "right": "room" },
+            { "id": "p3", "left": "Double", "right": "room" },
+            { "id": "p4", "left": "Room", "right": "service" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Hotel",
-          "correct_answer": "Hotel",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "u50_b2_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha la conversación en recepción:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/hotel_checkin_review.mp3",
+          "text": "Hello, I would like to check in. I have a reservation for a double room.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "title": "Weather & Holidays Review",
+      "content": [
         {
-          "interaction_id": "U50_I18",
+          "interaction_id": "u50_b3_i1",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica las estaciones y el clima:",
           "categories": [
             {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Season"
-              ]
+              "id": "seasons",
+              "title": "Seasons",
+              "items": ["Summer", "Winter", "Spring", "Autumn"]
             },
             {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Travel"
-              ]
+              "id": "weather",
+              "title": "Weather",
+              "items": ["Sunny", "Rainy", "Cloudy", "Snowy"]
             }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U50_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Talk about transport and travel. This is a review of module five. Book a hotel room.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "u50_b3_i2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué haces en tus vacaciones?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Module 5 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "I go sightseeing." },
+            { "id": "o2", "text": "I go to the office." },
+            { "id": "o3", "text": "I do my homework." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u50_b3_i3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo correcto: 'Me encanta viajar'",
+          "stimulus_en": "I love ________.",
+          "correct_answer": "travelling",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u50_b3_i4",
+          "type": "true_false",
+          "prompt_es": "En invierno, normalmente hace calor (hot).",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u50_b3_i5",
+          "type": "audio_player",
+          "prompt_es": "Escucha sobre las vacaciones:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/holiday_weather_review.mp3",
+          "text": "In summer, I love going to the beach. It is sunny and hot.",
+          "mastery_tag": "listening"
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "title": "Final Module Assessment",
+      "content": [
+        {
+          "interaction_id": "u50_b4_i1",
+          "type": "reading-comprehension",
+          "title": "My Summer Holiday",
+          "text": "Every summer, I go to Spain by plane. I stay in a hotel near the beach. I pack my swimsuit and sunscreen. It is very sunny and I love swimming in the sea. I also go sightseeing in the city.",
+          "question": "How does this person travel to Spain?",
+          "options": [
+            { "id": "o1", "text": "By plane" },
+            { "id": "o2", "text": "By train" },
+            { "id": "o3", "text": "By car" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U50_I20",
+          "interaction_id": "u50_b4_i2",
+          "type": "short_writing",
+          "prompt_es": "Describe el clima de hoy (e.g. It is sunny):",
+          "stimulus_es": "Hoy está soleado.",
+          "correct_answer": "It is sunny today",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u50_b4_i3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué objeto es indispensable para cargar tu móvil en otro país?",
+          "options": [
+            { "id": "o1", "text": "An adapter" },
+            { "id": "o2", "text": "A suitcase" },
+            { "id": "o3", "text": "A swimsuit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "u50_b4_i4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'No olvides tu pasaporte'",
+          "stimulus_en": "Don't ________ your passport.",
+          "correct_answer": "forget",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "u50_b4_i5",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5a6268555a0d5ab2bb52e960e072bed4.mp3",
-          "text": "Book a hotel room.",
+          "prompt_es": "Escucha el mensaje final del módulo:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/module5_complete.mp3",
+          "text": "Congratulations! You completed Module 5. You can now talk about travel, places, and weather in English.",
           "mastery_tag": "listening"
         }
       ]

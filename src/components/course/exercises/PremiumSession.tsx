@@ -26,7 +26,10 @@ interface Props {
   onComplete: () => void;
   onExit: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
+  onPerformanceUpdate?: (interactionId: string, quality: number) => void;
   initialIndex?: number;
+  customQueue?: any[];
+  userId?: string;
 }
 
 const normalizeForComparison = (text: string) => {
@@ -40,7 +43,7 @@ const normalizeForComparison = (text: string) => {
     .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Remove accents
 };
 
-export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, initialIndex = 0 }: Props) {
+export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, onPerformanceUpdate, initialIndex = 0, customQueue, userId }: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -71,6 +74,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
   // Flatten and normalize all blocks into a single exercise queue
   const queue = useMemo(() => {
+    if (customQueue) return customQueue;
     const normalizeInteraction = (interaction: any): any => {
       if (!interaction) return null;
       
@@ -871,12 +875,23 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (onInteractionCorrect && interaction.interaction_id) {
         onInteractionCorrect(interaction.interaction_id);
       }
+
+      if (onPerformanceUpdate && interaction.interaction_id) {
+        const id = interaction.interaction_id || interaction.mastery_tag;
+        const fails = failCount[id] || 0;
+        const quality = Math.max(3, 5 - fails);
+        onPerformanceUpdate(interaction.interaction_id, quality);
+      }
     } else {
       setIsCorrect(false);
       setSelectedOption(optionId);
       const id = interaction.interaction_id || interaction.mastery_tag;
       const currentFails = (failCount[id] || 0) + 1;
       setFailCount(prev => ({ ...prev, [id]: currentFails }));
+
+      if (onPerformanceUpdate && interaction.interaction_id) {
+        onPerformanceUpdate(interaction.interaction_id, 0); // 0 = fail
+      }
       
       let message = "";
       if (currentFails >= 3) {

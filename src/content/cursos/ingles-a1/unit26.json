@@ -1,346 +1,258 @@
 {
   "course": {
     "unit_id": "unit26",
-    "unit_title": "Giving Directions",
+    "unit_title": "Public Transport",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Giving Directions"
+    "Identify common types of public transport and stations",
+    "Understand transport-related vocabulary (ticket, platform, etc.)",
+    "Ask for information about departure times",
+    "Buy a simple ticket in English"
   ],
   "blocks": [
     {
-      "block_id": "B26",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Getting Around",
       "content": [
         {
-          "interaction_id": "U26_I1",
+          "interaction_id": "U26_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une los medios de transporte con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Bus", "right": "Autobús" },
+            { "id": "p2", "left": "Train", "right": "Tren" },
+            { "id": "p3", "left": "Taxi", "right": "Taxi" },
+            { "id": "p4", "left": "Plane", "right": "Avión" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pasa por'?",
+          "prompt_es": "¿Dónde esperas el tren?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Corner"
-            },
-            {
-              "id": "o3",
-              "text": "Turn right"
-            },
-            {
-              "id": "o1",
-              "text": "Go past"
-            }
+            { "id": "o1", "text": "At the bus stop" },
+            { "id": "o2", "text": "At the train station" },
+            { "id": "o3", "text": "At the airport" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Nueva palabra: Billete / Boleto",
+          "stimulus_en": "Ticket",
+          "correct_answer": "Billete / Boleto",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Andén'?",
+          "options": [
+            { "id": "o1", "text": "Platform" },
+            { "id": "o2", "text": "Road" },
+            { "id": "o3", "text": "Bridge" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U26_I2",
+          "interaction_id": "U26_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Vocabulario de viaje:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Traffic lights",
-              "right": "Semáforo"
-            },
-            {
-              "id": "p1",
-              "left": "Cross",
-              "right": "Cruza"
-            },
-            {
-              "id": "p2",
-              "left": "Go straight",
-              "right": "Sigue recto"
-            },
-            {
-              "id": "p3",
-              "left": "Go past",
-              "right": "Pasa por"
-            }
+            { "id": "p1", "left": "Airport", "right": "Aeropuerto" },
+            { "id": "p2", "left": "Bus stop", "right": "Parada de autobús" },
+            { "id": "p3", "left": "Passenger", "right": "Pasajero/a" },
+            { "id": "p4", "left": "Driver", "right": "Conductor/a" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Prepositions for Transport",
+      "content": [
         {
-          "interaction_id": "U26_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U26_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Solemos usar 'on' para transporte público grande. 'En el autobús' es:",
           "options": [
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "past"
-            },
-            {
-              "id": "w0",
-              "text": "Go"
-            },
-            {
-              "id": "w3",
-              "text": "supermarket"
-            }
+            { "id": "o1", "text": "In the bus" },
+            { "id": "o2", "text": "On the bus" },
+            { "id": "o3", "text": "At the bus" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I4",
+          "interaction_id": "U26_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'at' o 'on':",
+          "stimulus_en": "I am ________ the train station.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_B2_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Turn right at the traffic lights.\"",
+          "prompt_es": "¿Es correcto decir 'By train' para indicar el medio de transporte?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Sigue) ________ straight on.",
-          "correct_answer": "Go",
+          "interaction_id": "U26_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dirías 'El tren sale a las 9:00'?",
+          "options": [
+            { "id": "o1", "text": "The train leaves on 9:00" },
+            { "id": "o2", "text": "The train leaves at 9:00" },
+            { "id": "o3", "text": "The train leaves in 9:00" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U26_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pasa por",
-          "correct_answer": "Go past",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "U26_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el medio: 'I go to work ________ bus.'",
+          "stimulus_en": "by",
+          "correct_answer": "by",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Buying a Ticket",
+      "content": [
         {
-          "interaction_id": "U26_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Traffic lights",
-          "correct_answer": "Semáforo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Traffic lights"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Cross"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The library is on the second floor. Turn right at the traffic lights. The hospital is on your right.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U26_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Un billete a Londres, por favor'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Giving Directions"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "A" },
+            { "id": "w2", "text": "ticket" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "London," },
+            { "id": "w5", "text": "please" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué hora es el próximo tren?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "time" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "next" },
+            { "id": "w6", "text": "train?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Cuánto cuesta el billete?'",
+          "stimulus_en": "How much is the ticket?",
+          "correct_answer": "How much is the ticket?",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U26_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Single' (ida) o 'Return' (ida y vuelta):",
+          "stimulus_en": "A ________ ticket to Madrid, please. (Solo ir)",
+          "correct_answer": "single",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El tren está en el andén 4'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "train" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "platform" },
+            { "id": "w6", "text": "4" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Travel Context",
+      "content": [
+        {
+          "interaction_id": "U26_B4_I16",
+          "type": "reading-comprehension",
+          "title": "At the Train Station",
+          "text": "The next train to Oxford is at 10:15. It is on platform 2. A single ticket is £15 and a return ticket is £25. Passengers can buy tickets at the station or online.",
+          "question": "¿A qué hora sale el tren?",
+          "options": [
+            { "id": "o1", "text": "9:15" },
+            { "id": "o2", "text": "10:15" },
+            { "id": "o3", "text": "2:00" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U26_I10",
+          "interaction_id": "U26_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto cuesta un billete de ida y vuelta (return)?",
+          "options": [
+            { "id": "o1", "text": "£15" },
+            { "id": "o2", "text": "£10" },
+            { "id": "o3", "text": "£25" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U26_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
           "text": "The library is on the second floor.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U26_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sigue recto'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go straight"
-            },
-            {
-              "id": "o3",
-              "text": "Turn right"
-            },
-            {
-              "id": "o2",
-              "text": "Turn left"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Go past",
-              "right": "Pasa por"
-            },
-            {
-              "id": "p1",
-              "left": "Go straight",
-              "right": "Sigue recto"
-            },
-            {
-              "id": "p2",
-              "left": "Cross",
-              "right": "Cruza"
-            },
-            {
-              "id": "p3",
-              "left": "Corner",
-              "right": "Esquina"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "bridge"
-            },
-            {
-              "id": "w0",
-              "text": "Cross"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
+          "interaction_id": "U26_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde en inglés: 'How do you go to work/school?' (Usa 'By [transport]')",
+          "stimulus_es": "En autobús",
+          "correct_answer": "By bus",
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U26_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Go past the supermarket.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Sigue) ________ straight on.",
-          "correct_answer": "Go",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U26_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Esquina",
-          "correct_answer": "Corner",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Traffic lights",
-          "correct_answer": "Semáforo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I18",
+          "interaction_id": "U26_B4_I20",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica en Medios o Lugares:",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Turn left"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Turn right"
-              ]
-            }
+            { "id": "c1", "title": "Transport", "items": ["Bus", "Train", "Plane", "Taxi"] },
+            { "id": "c2", "title": "Stations", "items": ["Bus stop", "Platform", "Airport", "Station"] }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U26_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "The hospital is on your right. Turn right at the traffic lights. The library is on the second floor.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Giving Directions"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U26_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/10b15b3603d7866e305cc21aab964f26.mp3",
-          "text": "Turn right at the traffic lights.",
-          "mastery_tag": "listening"
         }
       ]
     }

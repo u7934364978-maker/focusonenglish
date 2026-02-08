@@ -34,7 +34,7 @@ El **[nivel intermedio de inglés](/blog/metodos/cursos-online-ingles-b1)** requ
 
 En Focus English sabemos que muchos alumnos buscan los **[cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)** para obtener una certificación. Por eso, desglosamos las estrategias para los exámenes más populares:
 *   **Cambridge B1 Preliminary (PET)**: Nos enfocamos en el *Reading* y el *Writing* de tipo informal (emails) y descriptivo (artículos). Practicamos las transformaciones gramaticales típicas de este examen.
-*   **Aptis General (B1/B2)**: Te preparamos para la velocidad de este examen multinivel. Trabajamos la gramática de opción múltiple y el *Speaking* con cronómetro para que no te quedes sin tiempo. Consulta nuestra **[guía del examen Aptis](/blog/examenes/guia-examen-aptis)**.
+*   **Aptis General (B1/B2)**: Te preparamos para la velocidad de este examen multinivel. Trabajamos la gramática de opción múltiple y el *Speaking* con cronómetro para que no te quedes sin tiempo. Consulta nuestra **[guía del examen Aptis](/certificaciones-ingles-oficiales)**.
 *   **Oxford Test of English (OTE)**: Un examen 100% online y adaptativo. Te enseñamos a manejar la interfaz y a optimizar tu rendimiento en el *Listening* modular.
 
 ## 3. Comprensión Auditiva y Lectora: Entender el Mensaje Real

@@ -29,7 +29,7 @@ faqs:
 
 En el entorno corporativo de 2026, la negociación es quizás la habilidad más compleja de dominar en un segundo idioma. No se trata simplemente de saber qué decir, sino de saber *cómo* decirlo para influir en la otra parte sin generar fricciones. En inglés, el éxito de una negociación a menudo depende de matices lingüísticos casi imperceptibles: un verbo modal mal usado o una afirmación demasiado directa pueden echar por tierra meses de trabajo.
 
-Prepararte con **[clases de inglés para profesionales](/blog/trabajo/guia-definitiva-curso-ingles-profesional)** especializadas te permitirá no solo entender lo que se dice, sino también leer entre líneas y defender tus intereses con la misma sutileza que un hablante nativo.
+Prepararte con **[clases de inglés para profesionales](/blog/trabajo/ingles-para-trabajo)** especializadas te permitirá no solo entender lo que se dice, sino también leer entre líneas y defender tus intereses con la misma sutileza que un hablante nativo.
 
 ## 🤝 Las Fases de una Negociación Exitosa
 

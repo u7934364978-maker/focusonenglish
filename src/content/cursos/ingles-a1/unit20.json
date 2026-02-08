@@ -8,354 +8,248 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Module 2 Review"
+    "Consolidate vocabulary from Units 11-19",
+    "Review Present Simple in affirmative, negative, and interrogative forms",
+    "Apply time expressions and dates correctly",
+    "Review likes, dislikes, and daily routines"
   ],
   "blocks": [
     {
-      "block_id": "B20",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Module 2 Vocabulary Recap",
       "content": [
         {
-          "interaction_id": "U20_I1",
+          "interaction_id": "U20_B1_I1",
+          "type": "matching",
+          "prompt_es": "Asocia cada palabra con su categoría:",
+          "pairs": [
+            { "id": "p1", "left": "Dinner", "right": "Meal" },
+            { "id": "p2", "left": "October", "right": "Month" },
+            { "id": "p3", "left": "Tuesday", "right": "Day" },
+            { "id": "p4", "left": "Brother", "right": "Family" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Preferencia'?",
+          "prompt_es": "¿Cuál es lo opuesto de 'Boring'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Preference"
-            },
-            {
-              "id": "o3",
-              "text": "Meal"
-            },
-            {
-              "id": "o2",
-              "text": "Routine"
-            }
+            { "id": "o1", "text": "Interesting" },
+            { "id": "o2", "text": "Brave" },
+            { "id": "o3", "text": "Quiet" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Routine",
-              "right": "Rutina"
-            },
-            {
-              "id": "p1",
-              "left": "Date",
-              "right": "Fecha"
-            },
-            {
-              "id": "p2",
-              "left": "Preference",
-              "right": "Preferencia"
-            },
-            {
-              "id": "p3",
-              "left": "Month",
-              "right": "Mes"
-            }
+          "interaction_id": "U20_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'A las ocho en punto'?",
+          "options": [
+            { "id": "o1", "text": "At eight o'clock" },
+            { "id": "o2", "text": "In eight o'clock" },
+            { "id": "o3", "text": "On eight o'clock" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "time"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "Can"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "tell"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "interaction_id": "U20_B1_I4",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario clave de rutina:",
+          "stimulus_en": "Brush my teeth",
+          "correct_answer": "Lavarme los dientes",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U20_I4",
+          "interaction_id": "U20_B1_I5",
+          "type": "matching",
+          "prompt_es": "Relaciona alimentos:",
+          "pairs": [
+            { "id": "p1", "left": "Egg", "right": "Huevo" },
+            { "id": "p2", "left": "Cheese", "right": "Queso" },
+            { "id": "p3", "left": "Chicken", "right": "Pollo" },
+            { "id": "p4", "left": "Milk", "right": "Leche" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Module 2 Grammar Review",
+      "content": [
+        {
+          "interaction_id": "U20_B2_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo (Present Simple):",
+          "stimulus_en": "My sister ________ (work) in a hospital.",
+          "correct_answer": "works",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U20_B2_I7",
+          "type": "multiple_choice",
+          "prompt_es": "A él NO le gusta bailar:",
+          "options": [
+            { "id": "o1", "text": "He don't like dancing" },
+            { "id": "o2", "text": "He doesn't like dancing" },
+            { "id": "o3", "text": "He not like dancing" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U20_B2_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Usa la preposición correcta:",
+          "stimulus_en": "The meeting is ________ Friday at 10:00.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U20_B2_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Can you tell the time?\"",
+          "prompt_es": "¿Es correcto: 'I have lunch in 1 o'clock'?",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U20_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "Today (ser/estar - ello) ________ Tuesday.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Preferencia",
-          "correct_answer": "Preference",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Routine",
-          "correct_answer": "Rutina",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Meal"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Routine"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I know my likes and dislikes. Practice your daily routine. Learn the months of the year.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Module 2 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U20_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ccd246992286cdb43f8f9d9d2301e456.mp3",
-          "text": "This is a review of module two.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U20_I11",
+          "interaction_id": "U20_B2_I10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mes'?",
+          "prompt_es": "¿Cómo se dice 'Tengo hambre'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Meal"
-            },
-            {
-              "id": "o3",
-              "text": "Preference"
-            },
-            {
-              "id": "o1",
-              "text": "Month"
-            }
+            { "id": "o1", "text": "I have hungry" },
+            { "id": "o2", "text": "I am hungry" },
+            { "id": "o3", "text": "I do hungry" }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Practical Usage",
+      "content": [
         {
-          "interaction_id": "U20_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Routine",
-              "right": "Rutina"
-            },
-            {
-              "id": "p1",
-              "left": "Date",
-              "right": "Fecha"
-            },
-            {
-              "id": "p2",
-              "left": "Month",
-              "right": "Mes"
-            },
-            {
-              "id": "p3",
-              "left": "Preference",
-              "right": "Preferencia"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I13",
+          "interaction_id": "U20_B3_I11",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena la pregunta: '¿A qué hora te levantas?'",
           "options": [
-            {
-              "id": "w2",
-              "text": "tell"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "time"
-            },
-            {
-              "id": "w0",
-              "text": "Can"
-            }
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "time" },
+            { "id": "w3", "text": "do" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "get" },
+            { "id": "w6", "text": "up?" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U20_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I know my likes and darelikes.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "He (tener) ________ a car.",
-          "correct_answer": "has",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Rutina",
-          "correct_answer": "Routine",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Routine",
-          "correct_answer": "Rutina",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Meal"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Preference"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I know my likes and dislikes. Learn the months of the year. Can you tell the time?",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U20_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi hermano prefiere el café'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Module 2 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "brother" },
+            { "id": "w3", "text": "prefers" },
+            { "id": "w4", "text": "coffee" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U20_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Cuándo es tu cumpleaños?'",
+          "stimulus_en": "When is your birthday?",
+          "correct_answer": "When is your birthday?",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U20_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la rutina:",
+          "stimulus_en": "I go ________ bed at 11 PM.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U20_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nosotros no comemos carne'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "eat" },
+            { "id": "w4", "text": "meat" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Global Module Review",
+      "content": [
+        {
+          "interaction_id": "U20_B4_I16",
+          "type": "reading-comprehension",
+          "title": "Reviewing Module 2",
+          "text": "My name is Elena. In Module 2, I learned to talk about my day. I get up at 7:30. For breakfast, I have fruit. I love my family, and we have dinner together at 8:00 PM on Sundays. My birthday is in August.",
+          "question": "¿A qué hora cena Elena los domingos?",
+          "options": [
+            { "id": "o1", "text": "At 7:30" },
+            { "id": "o2", "text": "At 8:00 PM" },
+            { "id": "o3", "text": "In August" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U20_I20",
+          "interaction_id": "U20_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo es el cumpleaños de Elena?",
+          "options": [
+            { "id": "o1", "text": "In June" },
+            { "id": "o2", "text": "In August" },
+            { "id": "o3", "text": "On Sunday" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U20_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que dice:",
           "audioUrl": "/audio/courses/ingles-a1/shared/47826287034d0ebeef39d9565a9d0f6f.mp3",
           "text": "Can you tell the time?",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U20_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Escribe una frase sobre algo que te guste (ej. I like coffee):",
+          "stimulus_es": "Me gusta...",
+          "correct_answer": "^I like .+$",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U20_B4_I20",
+          "type": "categorization",
+          "prompt_es": "Clasifica según el tiempo o la comida:",
+          "categories": [
+            { "id": "c1", "title": "Time/Date", "items": ["January", "Monday", "Morning"] },
+            { "id": "c2", "title": "Food/Drink", "items": ["Bread", "Milk", "Soup"] }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

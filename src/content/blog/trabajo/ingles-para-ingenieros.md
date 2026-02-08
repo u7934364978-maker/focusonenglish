@@ -15,7 +15,7 @@ En el mundo de la ingeniería moderna, el inglés ha dejado de ser una habilidad
 
 Esta guía ha sido diseñada para proporcionarte las bases léxicas y estructurales necesarias para navegar por entornos de alta exigencia técnica con precisión y profesionalismo.
 
-Explora nuestro **[hub de inglés profesional](/blog/trabajo)** para más cursos especializados o consulta el **[hub de vocabulario](/blog/vocabulario)** para términos técnicos adicionales.
+Explora nuestro **[hub de inglés profesional](/blog/trabajo)** para más cursos especializados o consulta el **[hub de vocabulario](/blog/metodos)** para términos técnicos adicionales.
 
 ## 1. Vocabulario de Ingeniería en Inglés: Precisión y Rigor
 

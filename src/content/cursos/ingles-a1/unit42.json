@@ -8,354 +8,232 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Transport"
+    "Identify common methods of transport",
+    "Use 'by' correctly for travel methods",
+    "Understand information at a train or bus station"
   ],
   "blocks": [
     {
-      "block_id": "B42",
-      "title": "Lección Principal",
+      "block_id": "B42_1",
+      "title": "Block 1: Getting Around",
       "content": [
         {
           "interaction_id": "U42_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Moto'?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Boat"
-            },
-            {
-              "id": "o1",
-              "text": "Motorbike"
-            },
-            {
-              "id": "o3",
-              "text": "Bus"
-            }
+          "type": "matching",
+          "prompt_es": "Empareja los medios de transporte:",
+          "pairs": [
+            { "id": "p1", "left": "Train", "right": "Tren" },
+            { "id": "p2", "left": "Bus", "right": "Autobús" },
+            { "id": "p3", "left": "Plane", "right": "Avión" },
+            { "id": "p4", "left": "Boat", "right": "Barco" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Taxi",
-              "right": "Taxi"
-            },
-            {
-              "id": "p1",
-              "left": "Boat",
-              "right": "Barco"
-            },
-            {
-              "id": "p2",
-              "left": "Plane",
-              "right": "Avión"
-            },
-            {
-              "id": "p3",
-              "left": "Bicycle",
-              "right": "Bicicleta"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde esperas el tren?",
+          "options": [
+            { "id": "o1", "text": "Platform" },
+            { "id": "o2", "text": "Kitchen" },
+            { "id": "o3", "text": "Park" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Let's"
-            },
-            {
-              "id": "w3",
-              "text": "taxi"
-            },
-            {
-              "id": "w1",
-              "text": "take"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa el lugar:",
+          "stimulus_en": "I buy my ticket at the bus ________. (estación)",
+          "correct_answer": "station",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I don't like flying by plane.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Bicicleta'",
+          "stimulus_es": "Bicicleta",
+          "correct_answer": "Bicycle",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U42_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I go to work (en) ________ bus.",
-          "correct_answer": "by",
+          "type": "flashcard",
+          "prompt_es": "Repaso de transporte:",
+          "stimulus_en": "Taxi",
+          "correct_answer": "Taxi",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B42_2",
+      "title": "Block 2: Travel Grammar",
+      "content": [
+        {
+          "interaction_id": "U42_I6",
+          "type": "multiple_choice",
+          "prompt_es": "I go to London ________ train.",
+          "options": [
+            { "id": "o1", "text": "by" },
+            { "id": "o2", "text": "in" },
+            { "id": "o3", "text": "on" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U42_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Taxi",
-          "correct_answer": "Taxi",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U42_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Bus",
-          "correct_answer": "Autobús",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición (on/at):",
+          "stimulus_en": "Wait for me ________ the station.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U42_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Taxi"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Motorbike"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I don't like flying by plane. He rides a motorbike to work. The train is faster than the bus.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Transport"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U42_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/3581befa821d595e6f3b225813797c7f.mp3",
-          "text": "The train is faster than the bus.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U42_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tren'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Bus"
-            },
-            {
-              "id": "o2",
-              "text": "Taxi"
-            },
-            {
-              "id": "o1",
-              "text": "Train"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Train",
-              "right": "Tren"
-            },
-            {
-              "id": "p1",
-              "left": "Taxi",
-              "right": "Taxi"
-            },
-            {
-              "id": "p2",
-              "left": "Boat",
-              "right": "Barco"
-            },
-            {
-              "id": "p3",
-              "left": "Motorbike",
-              "right": "Moto"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "work"
-            },
-            {
-              "id": "w1",
-              "text": "rides"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "motorbike"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U42_I14",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He rides a motorbike to work.\"",
+          "prompt_es": "¿Es natural decir 'I am on the bus'?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U42_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The train (llegar) ________ at 9 AM.",
-          "correct_answer": "arrives",
+          "interaction_id": "U42_I9",
+          "type": "multiple_choice",
+          "prompt_es": "How ________ you go to school?",
+          "options": [
+            { "id": "o1", "text": "do" },
+            { "id": "o2", "text": "does" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U42_I16",
+          "interaction_id": "U42_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase:",
+          "stimulus_en": "The train ________ at 9:00 AM. (sale)",
+          "correct_answer": "leaves",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B42_3",
+      "title": "Block 3: Practical Travel",
+      "content": [
+        {
+          "interaction_id": "U42_I11",
+          "type": "reorder_words",
+          "prompt_es": "Compra un billete:",
+          "options": [
+            { "id": "w1", "text": "A" },
+            { "id": "w2", "text": "ticket" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "Oxford," },
+            { "id": "w5", "text": "please." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U42_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
+          "options": [
+            { "id": "o1", "text": "The bus is late." },
+            { "id": "o2", "text": "The bus is on time." },
+            { "id": "o3", "text": "The bus is fast." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U42_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el diálogo:",
+          "stimulus_en": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
+          "correct_answer": "number",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U42_I14",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Autobús",
-          "correct_answer": "Bus",
-          "mastery_tag": "vocabulary"
+          "prompt_es": "Traduce: 'Voy en coche'",
+          "stimulus_es": "Voy en coche",
+          "correct_answer": "I go by car",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U42_I15",
+          "type": "true_false",
+          "prompt_es": "Trains leave from a station.",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B42_4",
+      "title": "Block 4: Mastery & Skills",
+      "content": [
+        {
+          "interaction_id": "U42_I16",
+          "type": "audio_player",
+          "prompt_es": "Escucha y escribe la frase:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
+          "text": "The train is at platform two.",
+          "mastery_tag": "listening"
         },
         {
           "interaction_id": "U42_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Plane",
-          "correct_answer": "Avión",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Boat"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Bus"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U42_I19",
           "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "He rides a motorbike to work. The boat is in the harbor. I don't like flying by plane.",
-          "question": "¿De qué trata este texto?",
+          "title": "Daily Commute",
+          "text": "David lives in Brighton but works in London. Every morning, he goes to the station at 7:30. He travels by train. The journey is one hour. He usually reads a book on the train. He arrives at work at 9:00.",
+          "question": "How does David go to London?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Transport"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "By train" },
+            { "id": "o2", "text": "By bus" },
+            { "id": "o3", "text": "By car" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U42_I20",
+          "interaction_id": "U42_I18",
+          "type": "reading-comprehension",
+          "title": "Daily Commute",
+          "text": "David lives in Brighton but works in London. Every morning, he goes to the station at 7:30. He travels by train. The journey is one hour. He usually reads a book on the train. He arrives at work at 9:00.",
+          "question": "What time does he go to the station?",
+          "options": [
+            { "id": "o1", "text": "Seven thirty" },
+            { "id": "o2", "text": "Nine o'clock" },
+            { "id": "o3", "text": "Eight o'clock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U42_I19",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/595b23945ec6be999b3722c3791b9af9.mp3",
-          "text": "He rides a motorbike to work.",
+          "prompt_es": "Escucha el anuncio:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
+          "text": "The next bus is in ten minutes.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U42_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace David en el tren?",
+          "options": [
+            { "id": "o1", "text": "Reads a book" },
+            { "id": "o2", "text": "Sleeps" },
+            { "id": "o3", "text": "Eats breakfast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
         }
       ]
     }

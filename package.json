@@ -31,6 +31,7 @@
     "generate-audio:all": "ts-node --esm scripts/generate-course-audio.ts all",
     "generate-audio:a1-expansion": "ts-node --esm scripts/generate-a1-expansion-audio.ts",
     "validate-exercises": "node scripts/validate-exercises.mjs",
+    "validate-courses": "npx tsx scripts/validate-courses.mjs",
     "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
     "validate-weeks": "node scripts/validate-week.mjs src/content/weeks/*.json",
     "audit-seo": "node scripts/audit-blog-seo.mjs"

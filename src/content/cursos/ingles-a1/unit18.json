@@ -8,354 +8,243 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Likes & Dislikes"
+    "Use verbs like 'like', 'love', 'hate', and 'enjoy'",
+    "Express preferences using 'prefer'",
+    "Understand the basic use of gerunds (-ing) after preference verbs",
+    "Form questions and negatives about likes and dislikes"
   ],
   "blocks": [
     {
-      "block_id": "B18",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Verbs of Preference",
       "content": [
         {
-          "interaction_id": "U18_I1",
+          "interaction_id": "U18_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une cada verbo con su intensidad (de menos a más):",
+          "pairs": [
+            { "id": "p1", "left": "Hate", "right": "Odiar (--) " },
+            { "id": "p2", "left": "Don't like", "right": "No gustar (-)" },
+            { "id": "p3", "left": "Like", "right": "Gustar (+)" },
+            { "id": "p4", "left": "Love", "right": "Encantar/Amar (++)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Disfrutar'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Interesting"
-            },
-            {
-              "id": "o2",
-              "text": "Hate"
-            },
-            {
-              "id": "o1",
-              "text": "Enjoy"
-            }
+            { "id": "o1", "text": "Enjoy" },
+            { "id": "o2", "text": "Prefer" },
+            { "id": "o3", "text": "Hate" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U18_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Love",
-              "right": "Encantar"
-            },
-            {
-              "id": "p1",
-              "left": "Prefer",
-              "right": "Preferir"
-            },
-            {
-              "id": "p2",
-              "left": "Hate",
-              "right": "Odiar"
-            },
-            {
-              "id": "p3",
-              "left": "Interesting",
-              "right": "Interesante"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U18_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Estudia esta expresión:",
+          "stimulus_en": "My favorite...",
+          "correct_answer": "Mi ... favorito/a",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U18_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U18_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Si algo no te gusta nada, dices:",
           "options": [
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "playing"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w4",
-              "text": "piano"
-            },
-            {
-              "id": "w1",
-              "text": "enjoys"
-            }
+            { "id": "o1", "text": "I love it" },
+            { "id": "o2", "text": "I like it" },
+            { "id": "o3", "text": "I hate it" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_B1_I5",
+          "type": "matching",
+          "prompt_es": "Vocabulario relacionado:",
+          "pairs": [
+            { "id": "p1", "left": "Interesting", "right": "Interesante" },
+            { "id": "p2", "left": "Boring", "right": "Aburrido" },
+            { "id": "p3", "left": "Fun", "right": "Divertido" },
+            { "id": "p4", "left": "Great", "right": "Genial" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Expressing Likes & Gerunds",
+      "content": [
+        {
+          "interaction_id": "U18_B2_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta del verbo (Present Simple):",
+          "stimulus_en": "She ________ (like) chocolate.",
+          "correct_answer": "likes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_B2_I7",
+          "type": "multiple_choice",
+          "prompt_es": "Después de 'like' y 'hate', solemos añadir '-ing' al verbo. 'Me gusta leer' es:",
+          "options": [
+            { "id": "o1", "text": "I like read" },
+            { "id": "o2", "text": "I like reading" },
+            { "id": "o3", "text": "I like reads" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_B2_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'Él disfruta cocinar'",
+          "stimulus_en": "He enjoys ________ (cook).",
+          "correct_answer": "cooking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_B2_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir: 'I don't like boring movies'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'prefer':",
+          "stimulus_en": "They ________ tea to coffee.",
+          "correct_answer": "prefer",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax: Questions & Negatives",
+      "content": [
+        {
+          "interaction_id": "U18_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta: '¿Te gusta el fútbol?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "football?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U18_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Do you prefer summer or winter?\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (encantar) ________ music.",
-          "correct_answer": "love",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Preferir",
-          "correct_answer": "Prefer",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Love",
-          "correct_answer": "Encantar",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Don't like"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Prefer"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "She enjoys playing the piano. I hate cleaning my room. We don't like horror movies.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U18_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'A ella no le gusta limpiar'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Likes & Dislikes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "doesn't" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "cleaning" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U18_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Odiamos esperar'",
+          "stimulus_en": "We hate waiting",
+          "correct_answer": "We hate waiting",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U18_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta:",
+          "stimulus_en": "________ he like dancing?",
+          "correct_answer": "Does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Qué música prefieres?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "music" },
+            { "id": "w3", "text": "do" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "prefer?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Context & Review",
+      "content": [
+        {
+          "interaction_id": "U18_B4_I16",
+          "type": "reading-comprehension",
+          "title": "My Hobbies",
+          "text": "Hi! I'm Mark. I love playing video games and I enjoy reading books. I don't like sport, and I hate getting up early. My favorite day is Saturday.",
+          "question": "¿Qué es lo que Mark NO le gusta?",
+          "options": [
+            { "id": "o1", "text": "Video games" },
+            { "id": "o2", "text": "Reading" },
+            { "id": "o3", "text": "Sport" }
+          ],
+          "correct_answer": "o3",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U18_I10",
+          "interaction_id": "U18_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué odia Mark?",
+          "options": [
+            { "id": "o1", "text": "Books" },
+            { "id": "o2", "text": "Getting up early" },
+            { "id": "o3", "text": "Saturday" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U18_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que dice:",
           "audioUrl": "/audio/courses/ingles-a1/shared/61a7d25ff2731d2e5680452b9b37807e.mp3",
           "text": "My favorite hobby is reading.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U18_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Encantar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Love"
-            },
-            {
-              "id": "o2",
-              "text": "Like"
-            },
-            {
-              "id": "o3",
-              "text": "Enjoy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Don't like",
-              "right": "No gustar"
-            },
-            {
-              "id": "p1",
-              "left": "Enjoy",
-              "right": "Disfrutar"
-            },
-            {
-              "id": "p2",
-              "left": "Like",
-              "right": "Gustar"
-            },
-            {
-              "id": "p3",
-              "left": "Favorite",
-              "right": "Favorito/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "cleaning"
-            },
-            {
-              "id": "w3",
-              "text": "my"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "hate"
-            },
-            {
-              "id": "w4",
-              "text": "room"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
+          "interaction_id": "U18_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde sobre ti (puedes usar 'I like' o 'I don't like'): 'Do you like pizza?'",
+          "stimulus_es": "Me gusta la pizza / No me gusta la pizza",
+          "correct_answer": "^(I like pizza|I don't like pizza)$",
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U18_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I hate cleaning my room.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "I (encantar) ________ music.",
-          "correct_answer": "love",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "No gustar",
-          "correct_answer": "Don't like",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Don't like",
-          "correct_answer": "No gustar",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I18",
+          "interaction_id": "U18_B4_I20",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica según el sentimiento:",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Interesting"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Enjoy"
-              ]
-            }
+            { "id": "c1", "title": "Positive", "items": ["Love", "Enjoy", "Like"] },
+            { "id": "c2", "title": "Negative", "items": ["Hate", "Don't like", "Dislike"] }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We don't like horror movies. She enjoys playing the piano. I hate cleaning my room.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Likes & Dislikes"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U18_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f5208f72701deb0b1e12c25be8d49677.mp3",
-          "text": "She enjoys playing the piano.",
-          "mastery_tag": "listening"
         }
       ]
     }

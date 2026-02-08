@@ -1,366 +1,259 @@
 {
   "course": {
     "unit_id": "unit25",
-    "unit_title": "My Neighborhood",
+    "unit_title": "Giving Directions",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of My Neighborhood"
+    "Understand and use basic direction vocabulary",
+    "Give simple instructions to reach a destination",
+    "Ask 'How do I get to...?' correctly",
+    "Identify landmarks and corners on a simple map"
   ],
   "blocks": [
     {
-      "block_id": "B25",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Movement & Directions",
       "content": [
         {
-          "interaction_id": "U25_I1",
+          "interaction_id": "U25_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las direcciones con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Turn left", "right": "Gira a la izquierda" },
+            { "id": "p2", "left": "Turn right", "right": "Gira a la derecha" },
+            { "id": "p3", "left": "Go straight ahead", "right": "Sigue todo recto" },
+            { "id": "p4", "left": "On the corner", "right": "En la esquina" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cine'?",
+          "prompt_es": "¿Cómo se dice 'Cruza la calle'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Park"
-            },
-            {
-              "id": "o1",
-              "text": "Cinema"
-            },
-            {
-              "id": "o3",
-              "text": "Pharmacy"
-            }
+            { "id": "o1", "text": "Cross the street" },
+            { "id": "o2", "text": "Walk the street" },
+            { "id": "o3", "text": "Stop the street" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Street",
-              "right": "Calle"
-            },
-            {
-              "id": "p1",
-              "left": "Cinema",
-              "right": "Cine"
-            },
-            {
-              "id": "p2",
-              "left": "Park",
-              "right": "Parque"
-            },
-            {
-              "id": "p3",
-              "left": "Hospital",
-              "right": "Hospital"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w1",
-              "text": "neighborhood"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "quiet"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U25_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are a small pharmacy near the hospital.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There (ser/estar - ellos) ________ three shops.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U25_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Farmacia",
-          "correct_answer": "Pharmacy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I7",
+          "interaction_id": "U25_B1_I3",
           "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Shop",
-          "correct_answer": "Tienda",
+          "prompt_es": "Nueva expresión: Semáforo",
+          "stimulus_en": "Traffic lights",
+          "correct_answer": "Semáforo",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Street"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Shop"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I go to the park every day. The supermarket is open on Sundays. There is a small pharmacy near the hospital.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "My Neighborhood"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U25_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cd24d0953ebfc60dce6ea329da3d7fc7.mp3",
-          "text": "I go to the park every day.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U25_I11",
+          "interaction_id": "U25_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Calle'?",
+          "prompt_es": "Si alguien dice 'Go past the bank', quiere decir:",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o3",
-              "text": "Pharmacy"
-            },
-            {
-              "id": "o1",
-              "text": "Street"
-            }
+            { "id": "o1", "text": "Entra en el banco" },
+            { "id": "o2", "text": "Pasa por delante del banco" },
+            { "id": "o3", "text": "Para en el banco" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U25_I12",
+          "interaction_id": "U25_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Ubicaciones clave:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Hospital",
-              "right": "Hospital"
-            },
-            {
-              "id": "p1",
-              "left": "Park",
-              "right": "Parque"
-            },
-            {
-              "id": "p2",
-              "left": "Pharmacy",
-              "right": "Farmacia"
-            },
-            {
-              "id": "p3",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+            { "id": "p1", "left": "At the end of the street", "right": "Al final de la calle" },
+            { "id": "p2", "left": "Next to", "right": "Al lado de" },
+            { "id": "p3", "left": "First left", "right": "Primera a la izquierda" },
+            { "id": "p4", "left": "Second right", "right": "Segunda a la derecha" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Directional Imperatives",
+      "content": [
         {
-          "interaction_id": "U25_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U25_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Para dar direcciones usamos el imperativo (verbo sin 'to' ni sujeto). 'Gira a la izquierda' es:",
           "options": [
-            {
-              "id": "w5",
-              "text": "Sundays"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w3",
-              "text": "open"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "supermarket"
-            }
+            { "id": "o1", "text": "You turn left" },
+            { "id": "o2", "text": "Turn left" },
+            { "id": "o3", "text": "Turning left" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I14",
+          "interaction_id": "U25_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo (Gira):",
+          "stimulus_en": "________ left at the traffic lights.",
+          "correct_answer": "Turn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_B2_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My neighborhood is very quiet.\"",
+          "prompt_es": "¿Es correcto decir 'Go straight ahead' para seguir recto?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There (ser/estar - ello) ________ a big park.",
-          "correct_answer": "is",
+          "interaction_id": "U25_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dirías 'Toma la segunda a la derecha'?",
+          "options": [
+            { "id": "o1", "text": "Take the second right" },
+            { "id": "o2", "text": "Go to the second right" },
+            { "id": "o3", "text": "Turn second right" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U25_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cine",
-          "correct_answer": "Cinema",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "U25_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Pasa el cine'",
+          "stimulus_en": "Go ________ the cinema.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Asking the Way",
+      "content": [
         {
-          "interaction_id": "U25_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Supermarket",
-          "correct_answer": "Supermercado",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Shop"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Pharmacy"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U25_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "There is a small pharmacy near the hospital. My neighborhood is very quiet. The supermarket is open on Sundays.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U25_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cómo llego al banco?'",
           "options": [
-            {
-              "id": "o1",
-              "text": "My Neighborhood"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "do" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "get" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "bank?" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Gira a la derecha en la esquina'",
+          "options": [
+            { "id": "w1", "text": "Turn" },
+            { "id": "w2", "text": "right" },
+            { "id": "w3", "text": "at" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "corner" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Sigue todo recto por esta calle'",
+          "stimulus_en": "Go straight ahead on this street",
+          "correct_answer": "Go straight ahead on this street",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la palabra que falta (al lado de):",
+          "stimulus_en": "The cafe is next ________ the museum.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Disculpe, ¿dónde está la estación?'",
+          "options": [
+            { "id": "w1", "text": "Excuse" },
+            { "id": "w2", "text": "me," },
+            { "id": "w3", "text": "where" },
+            { "id": "w4", "text": "is" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "station?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Map Instructions",
+      "content": [
+        {
+          "interaction_id": "U25_B4_I16",
+          "type": "reading-comprehension",
+          "title": "Finding the Library",
+          "text": "Go straight ahead on Main Street. Turn left at the supermarket. Go past the park. The library is on the corner of Green Street, opposite the bank.",
+          "question": "¿Dónde hay que girar a la izquierda (turn left)?",
+          "options": [
+            { "id": "o1", "text": "At the park" },
+            { "id": "o2", "text": "At the supermarket" },
+            { "id": "o3", "text": "At the bank" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U25_I20",
+          "interaction_id": "U25_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde está la biblioteca (library)?",
+          "options": [
+            { "id": "o1", "text": "Inside the park" },
+            { "id": "o2", "text": "On the corner, opposite the bank" },
+            { "id": "o3", "text": "Next to the supermarket" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U25_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/cd24d0953ebfc60dce6ea329da3d7fc7.mp3",
           "text": "I go to the park every day.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U25_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde en inglés: 'How do I get to the bank?' (Dime que siga recto)",
+          "stimulus_es": "Sigue todo recto",
+          "correct_answer": "Go straight ahead",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U25_B4_I20",
+          "type": "categorization",
+          "prompt_es": "Clasifica en Verbos de Movimiento o Ubicaciones:",
+          "categories": [
+            { "id": "c1", "title": "Verbs", "items": ["Turn", "Go", "Cross", "Walk"] },
+            { "id": "c2", "title": "Locations", "items": ["Corner", "End", "Opposite", "Between"] }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

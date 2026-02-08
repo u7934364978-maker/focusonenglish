@@ -8,531 +8,250 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Breakfast, Lunch & Dinner"
+    "Identify common food and drink items for different meals",
+    "Use verbs like 'have', 'eat', and 'drink' in context",
+    "Distinguish between breakfast, lunch, and dinner",
+    "Understand basic 'some' and 'any' usage with food"
   ],
   "blocks": [
     {
-      "block_id": "B17",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Meal Times & Basic Foods",
       "content": [
         {
-          "interaction_id": "U17_I1",
+          "interaction_id": "U17_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une las comidas con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Breakfast", "right": "Desayuno" },
+            { "id": "p2", "left": "Lunch", "right": "Almuerzo/Comida" },
+            { "id": "p3", "left": "Dinner", "right": "Cena" },
+            { "id": "p4", "left": "Snack", "right": "Merienda/Tentempié" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Huevo'?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Egg"
-            },
-            {
-              "id": "o2",
-              "text": "Vegetables"
-            },
-            {
-              "id": "o3",
-              "text": "Rice"
-            }
+            { "id": "o1", "text": "Bread" },
+            { "id": "o2", "text": "Butter" },
+            { "id": "o3", "text": "Cheese" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Soup",
-              "right": "Sopa"
-            },
-            {
-              "id": "p1",
-              "left": "Rice",
-              "right": "Arroz"
-            },
-            {
-              "id": "p2",
-              "left": "Cereal",
-              "right": "Cereal"
-            },
-            {
-              "id": "p3",
-              "left": "Egg",
-              "right": "Huevo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U17_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Estudia este vocabulario de desayuno:",
+          "stimulus_en": "Eggs and Bacon",
+          "correct_answer": "Huevos con beicon",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U17_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es una bebida?",
           "options": [
-            {
-              "id": "w4",
-              "text": "toast"
-            },
-            {
-              "id": "w3",
-              "text": "and"
-            },
-            {
-              "id": "w2",
-              "text": "eggs"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
-            }
+            { "id": "o1", "text": "Rice" },
+            { "id": "o2", "text": "Orange juice" },
+            { "id": "o3", "text": "Chicken" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U17_I4",
+          "interaction_id": "U17_B1_I5",
+          "type": "matching",
+          "prompt_es": "Vocabulario de cena y comida:",
+          "pairs": [
+            { "id": "p1", "left": "Fish", "right": "Pescado" },
+            { "id": "p2", "left": "Meat", "right": "Carne" },
+            { "id": "p3", "left": "Vegetables", "right": "Verduras" },
+            { "id": "p4", "left": "Soup", "right": "Sopa" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Verbs have, eat & drink",
+      "content": [
+        {
+          "interaction_id": "U17_B2_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo correcto (eat/drink):",
+          "stimulus_en": "I ________ water every morning.",
+          "correct_answer": "drink",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_B2_I7",
+          "type": "multiple_choice",
+          "prompt_es": "En inglés, para las comidas solemos usar 'have'. 'I have breakfast' significa:",
+          "options": [
+            { "id": "o1", "text": "Yo tengo desayuno" },
+            { "id": "o2", "text": "Yo desayuno" },
+            { "id": "o3", "text": "Yo quiero desayuno" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_B2_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa (Present Simple):",
+          "stimulus_en": "She ________ (have) lunch at 1:00 PM.",
+          "correct_answer": "has",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_B2_I9",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He likes eggs and toast.\"",
+          "prompt_es": "¿Es correcto decir: 'I eat coffee'?",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U17_I5",
+          "interaction_id": "U17_B2_I10",
+          "type": "multiple_choice",
+          "prompt_es": "Para decir 'algo de/un poco de' usamos 'some'. 'I want some milk' es:",
+          "options": [
+            { "id": "o1", "text": "Quiero nada de leche" },
+            { "id": "o2", "text": "Quiero mucha leche" },
+            { "id": "o3", "text": "Quiero un poco de leche" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Structure",
+      "content": [
+        {
+          "interaction_id": "U17_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: 'Yo desayuno a las 7'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "breakfast" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "7" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U17_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Pregunta: '¿Qué quieres para comer?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "do" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "want" },
+            { "id": "w5", "text": "for" },
+            { "id": "w6", "text": "lunch?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U17_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella bebe té'",
+          "stimulus_en": "She drinks tea",
+          "correct_answer": "She drinks tea",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U17_B3_I14",
           "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We (tener) ________ chicken for dinner.",
-          "correct_answer": "have",
+          "prompt_es": "Completa la negación:",
+          "stimulus_en": "He ________ not eat meat.",
+          "correct_answer": "does",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U17_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Verduras",
-          "correct_answer": "Vegetables",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Fish",
-          "correct_answer": "Pescado",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Chicken"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Vegetables"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "They eat dinner at 8 o'clock. Breakfast is the most important meal. We eat a lot of fruit.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U17_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nosotros cenamos pescado'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Breakfast, Lunch & Dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "fish" },
+            { "id": "w4", "text": "for" },
+            { "id": "w5", "text": "dinner" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Contextual Review",
+      "content": [
+        {
+          "interaction_id": "U17_B4_I16",
+          "type": "reading-comprehension",
+          "title": "My Daily Meals",
+          "text": "For breakfast, I have cereal and fruit. For lunch, I usually have a salad or a sandwich. In the evening, I have dinner with my family. We often eat chicken and vegetables.",
+          "question": "¿Qué suele comer para el almuerzo (lunch)?",
+          "options": [
+            { "id": "o1", "text": "Cereal" },
+            { "id": "o2", "text": "Salad or sandwich" },
+            { "id": "o3", "text": "Chicken" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U17_I10",
+          "interaction_id": "U17_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Según el texto, ¿con quién cena (dinner)?",
+          "options": [
+            { "id": "o1", "text": "With friends" },
+            { "id": "o2", "text": "Alone" },
+            { "id": "o3", "text": "With family" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U17_B4_I18",
+          "type": "short_writing",
+          "prompt_es": "Responde en inglés: 'Do you like pizza?'",
+          "stimulus_es": "Sí, me gusta la pizza",
+          "correct_answer": "Yes, I like pizza",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U17_B4_I19",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe la palabra que falta:",
           "audioUrl": "/audio/courses/ingles-a1/shared/4dc684fbfa925e9270ed63a1494f7271.mp3",
           "text": "He likes eggs and toast.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U17_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pan'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bread"
-            },
-            {
-              "id": "o2",
-              "text": "Cereal"
-            },
-            {
-              "id": "o3",
-              "text": "Fish"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Fruit",
-              "right": "Fruta"
-            },
-            {
-              "id": "p1",
-              "left": "Bread",
-              "right": "Pan"
-            },
-            {
-              "id": "p2",
-              "left": "Chicken",
-              "right": "Pollo"
-            },
-            {
-              "id": "p3",
-              "left": "Fish",
-              "right": "Pescado"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "eggs"
-            },
-            {
-              "id": "w4",
-              "text": "toast"
-            },
-            {
-              "id": "w1",
-              "text": "likes"
-            },
-            {
-              "id": "w3",
-              "text": "and"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U17_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He likes eggs and toast.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U17_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "We (tener) ________ chicken for dinner.",
-          "correct_answer": "have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U17_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Verduras",
-          "correct_answer": "Vegetables",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Chicken",
-          "correct_answer": "Pollo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I18",
+          "interaction_id": "U17_B4_I20",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica en Comida o Bebida:",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Fish"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Egg"
-              ]
-            }
+            { "id": "c1", "title": "Food", "items": ["Bread", "Cheese", "Apple"] },
+            { "id": "c2", "title": "Drink", "items": ["Water", "Milk", "Coffee"] }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U17_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "We eat a lot of fruit. He likes eggs and toast. They eat dinner at 8 o'clock.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Breakfast, Lunch & Dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U17_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f333d6ed3484a7e4615cfe67667dc9c3.mp3",
-          "text": "They eat dinner at 8 o'clock.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_0_0",
-          "type": "multiple_choice",
-          "prompt_es": "I go to work ___ car.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "by"
-            },
-            {
-              "id": "opt1",
-              "text": "in"
-            },
-            {
-              "id": "opt2",
-              "text": "on"
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "Uso general del medio de transporte.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_0_1",
-          "type": "multiple_choice",
-          "prompt_es": "I came ___ my car.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "by"
-            },
-            {
-              "id": "opt1",
-              "text": "in"
-            },
-            {
-              "id": "opt2",
-              "text": "on"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Cuando es específico (\"my car\"), usamos \"in\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_0_2",
-          "type": "multiple_choice",
-          "prompt_es": "I go to school ___ foot.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "by"
-            },
-            {
-              "id": "opt1",
-              "text": "in"
-            },
-            {
-              "id": "opt2",
-              "text": "on"
-            }
-          ],
-          "correct_answer": "opt2",
-          "explanation": "La expresión para ir andando es siempre \"on foot\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_1_0",
-          "type": "multiple_choice",
-          "prompt_es": "Phone me when you ___ the train.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "get into"
-            },
-            {
-              "id": "opt1",
-              "text": "get on"
-            },
-            {
-              "id": "opt2",
-              "text": "get in"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Para trenes usamos \"get on\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_1_1",
-          "type": "multiple_choice",
-          "prompt_es": "I ___ the taxi and paid the driver.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "got off"
-            },
-            {
-              "id": "opt1",
-              "text": "got out of"
-            },
-            {
-              "id": "opt2",
-              "text": "got out"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "Para salir de un taxi usamos \"get out of\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_2_0",
-          "type": "multiple_choice",
-          "prompt_es": "There is a supermarket ___ my house.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "near of"
-            },
-            {
-              "id": "opt1",
-              "text": "near"
-            },
-            {
-              "id": "opt2",
-              "text": "close"
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "\"Near\" no necesita \"of\".",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_2_1",
-          "type": "multiple_choice",
-          "prompt_es": "I sat ___ a beautiful woman on the train.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "opposite"
-            },
-            {
-              "id": "opt1",
-              "text": "opposite to"
-            },
-            {
-              "id": "opt2",
-              "text": "in front of"
-            }
-          ],
-          "correct_answer": "opt0",
-          "explanation": "\"Opposite\" significa cara a cara, sin preposiciones adicionales.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "UNIT17_EXP_2_2",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: Al lado de mi casa hay una guardería.",
-          "options": [
-            {
-              "id": "opt0",
-              "text": "Near my house..."
-            },
-            {
-              "id": "opt1",
-              "text": "Next to my house..."
-            },
-            {
-              "id": "opt2",
-              "text": "In front of my house..."
-            }
-          ],
-          "correct_answer": "opt1",
-          "explanation": "\"Next to\" es \"al lado de\".",
-          "mastery_tag": "grammar",
-          "audioUrl": "/audio/courses/ingles-a1/expansion/unit17_exp_2_2.mp3"
         }
       ]
     }

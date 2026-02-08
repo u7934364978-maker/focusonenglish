@@ -29,7 +29,7 @@ faqs:
 
 Ya sea que estés presentando ante un cliente potencial, informando a tu equipo sobre los resultados del trimestre o dando una charla en una conferencia internacional, una presentación es tu momento de máxima visibilidad profesional. En 2026, la capacidad de comunicar ideas complejas de forma sencilla y persuasiva en inglés es una de las "soft skills" más demandadas y mejor remuneradas.
 
-No dejes que el idioma sea una barrera que opaque tu talento. Con las **[clases de inglés para empresas](/blog/trabajo/guia-definitiva-curso-ingles-profesional)** adecuadas, podrás transmitir tus ideas con la misma pasión, matices y claridad que en tu lengua materna. Una buena presentación no depende de un vocabulario rebuscado, sino de una estructura sólida y una entrega segura.
+No dejes que el idioma sea una barrera que opaque tu talento. Con las **[clases de inglés para empresas](/blog/trabajo/ingles-para-trabajo)** adecuadas, podrás transmitir tus ideas con la misma pasión, matices y claridad que en tu lengua materna. Una buena presentación no depende de un vocabulario rebuscado, sino de una estructura sólida y una entrega segura.
 
 ## 🏗️ La Estructura de una Presentación de Éxito
 

@@ -1,371 +1,249 @@
 {
   "course": {
     "unit_id": "unit14",
-    "unit_title": "Present Simple: I, You, We, They",
+    "unit_title": "Present Simple: Affirmative and Negative",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 45,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Present Simple: I, You, We, They"
+    "Usar el Presente Simple con I, You, We y They",
+    "Formar oraciones negativas usando el auxiliar 'don't'",
+    "Utilizar verbos comunes como 'speak', 'live', 'work' y 'like'",
+    "Comprender la estructura básica de sujeto + verbo + objeto"
   ],
   "blocks": [
     {
-      "block_id": "B14",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Plural Subjects: Affirmative",
       "content": [
         {
-          "interaction_id": "U14_I1",
+          "interaction_id": "U14_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hablar'?",
+          "prompt_es": "¿Cómo se dice 'Nosotros vivimos en Londres'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Understand"
-            },
-            {
-              "id": "o2",
-              "text": "Study"
-            },
-            {
-              "id": "o1",
-              "text": "Speak"
-            }
+            { "id": "o1", "text": "We live in London" },
+            { "id": "o2", "text": "We living in London" },
+            { "id": "o3", "text": "We lives in London" }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B1_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo correcto:",
+          "stimulus_en": "You ___ English very well.",
+          "correct_answer": "speak",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U14_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Speak",
-              "right": "Hablar"
-            },
-            {
-              "id": "p1",
-              "left": "Write",
-              "right": "Escribir"
-            },
-            {
-              "id": "p2",
-              "left": "Study",
-              "right": "Estudiar"
-            },
-            {
-              "id": "p3",
-              "left": "Read",
-              "right": "Leer"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I3",
+          "interaction_id": "U14_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            {
-              "id": "w2",
-              "text": "music"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "play"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "evening"
-            },
-            {
-              "id": "w0",
-              "text": "They"
-            }
+            { "id": "w1", "text": "They" },
+            { "id": "w2", "text": "work" },
+            { "id": "w3", "text": "in" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "big" },
+            { "id": "w6", "text": "office." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I4",
+          "interaction_id": "U14_B1_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"They play music in the evening.\"",
+          "prompt_es": "En inglés, el verbo no cambia para 'I, You, We, They' en presente (excepto el verbo To Be).",
           "correct_answer": true,
+          "explanation": "Correcto. Por ejemplo: I work, You work, We work, They work.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U14_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "You (estudiar) ________ every day.",
-          "correct_answer": "study",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Jugar",
-          "correct_answer": "Play",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Understand",
-          "correct_answer": "Entender",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Study"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Speak"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I don't understand the question. You write very well. We read books in the library.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Present Simple: I, You, We, They"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U14_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a3229559430eb434327b35dfb14a939f.mp3",
-          "text": "They play music in the evening.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U14_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aprender'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Speak"
-            },
-            {
-              "id": "o2",
-              "text": "Play"
-            },
-            {
-              "id": "o1",
-              "text": "Learn"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I12",
+          "interaction_id": "U14_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Une el sujeto con su complemento lógico:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Read",
-              "right": "Leer"
-            },
-            {
-              "id": "p1",
-              "left": "Study",
-              "right": "Estudiar"
-            },
-            {
-              "id": "p2",
-              "left": "Play",
-              "right": "Jugar"
-            },
-            {
-              "id": "p3",
-              "left": "Learn",
-              "right": "Aprender"
-            }
+            { "id": "p1", "left": "I speak", "right": "Spanish" },
+            { "id": "p2", "left": "We live", "right": "in a house" },
+            { "id": "p3", "left": "They eat", "right": "pizza" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "The Negative: Don't",
+      "content": [
         {
-          "interaction_id": "U14_I13",
+          "interaction_id": "U14_B2_I1",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena la frase negativa:",
           "options": [
-            {
-              "id": "w2",
-              "text": "music"
-            },
-            {
-              "id": "w5",
-              "text": "evening"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "They"
-            },
-            {
-              "id": "w1",
-              "text": "play"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "speak" },
+            { "id": "w4", "text": "French." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U14_I14",
+          "interaction_id": "U14_B2_I2",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"They play music in the evening.\"",
+          "prompt_es": "¿Es 'I not speak English' gramaticalmente correcto?",
           "correct_answer": false,
+          "explanation": "Necesitamos el auxiliar 'don't': 'I don't speak English'.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U14_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "You (estudiar) ________ every day.",
-          "correct_answer": "study",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U14_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Aprender",
-          "correct_answer": "Learn",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Speak",
-          "correct_answer": "Hablar",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Like"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Write"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U14_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "I study English at home. I don't understand the question. They play music in the evening.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U14_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Completa: 'We ______ like pizza.'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Present Simple: I, You, We, They"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "o1", "text": "don't" },
+            { "id": "o2", "text": "no" },
+            { "id": "o3", "text": "not" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B2_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Usa la forma negativa: 'Ellos no viven aquí.'",
+          "stimulus_en": "They ________ live here.",
+          "correct_answer": "don't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B2_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No estudiamos hoy.'",
+          "stimulus_es": "No estudiamos hoy.",
+          "correct_answer": "We don't study today",
+          "validation_regex": "^we don't study today\\.?$",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Common Verbs",
+      "content": [
+        {
+          "interaction_id": "U14_B3_I1",
+          "type": "matching",
+          "prompt_es": "Une las frases afirmativas con sus negativas:",
+          "pairs": [
+            { "id": "p1", "left": "I work", "right": "I don't work" },
+            { "id": "p2", "left": "We like", "right": "We don't like" },
+            { "id": "p3", "left": "They speak", "right": "They don't speak" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ellos no juegan al fútbol'?",
+          "options": [
+            { "id": "o1", "text": "They don't play football" },
+            { "id": "o2", "text": "They doesn't play football" },
+            { "id": "o3", "text": "They no play football" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B3_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Yo hago mis deberes.'",
+          "stimulus_en": "I ______ my homework.",
+          "correct_answer": "do",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U14_B3_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tú no escuchas música.'",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "listen" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "music." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_B3_I5",
+          "type": "flashcard",
+          "prompt_es": "¿Cómo se dice 'Saber' o 'Conocer'?",
+          "stimulus_en": "Know",
+          "correct_answer": "Saber / Conocer",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading: Friends",
+      "content": [
+        {
+          "interaction_id": "U14_B4_I1",
+          "type": "reading-comprehension",
+          "title": "About Us",
+          "text": "My friend and I live in Madrid. We study German, but we don't speak it very well. We like music and we play the guitar together. We don't like sports.",
+          "question": "Where do they live?",
+          "options": [
+            { "id": "o1", "text": "In Madrid" },
+            { "id": "o2", "text": "In London" },
+            { "id": "o3", "text": "In Berlin" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U14_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/ff7f603adc5eef827b64e97fc9365585.mp3",
-          "text": "I don't understand the question.",
-          "mastery_tag": "listening"
+          "interaction_id": "U14_B4_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Hablan alemán muy bien?",
+          "options": [
+            { "id": "o1", "text": "No, they don't." },
+            { "id": "o2", "text": "Yes, they do." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_B4_I3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No me gusta este libro.'",
+          "stimulus_es": "No me gusta este libro.",
+          "correct_answer": "I don't like this book",
+          "validation_regex": "^i don't like this book\\.?$",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_B4_I4",
+          "type": "true_false",
+          "prompt_es": "Según el texto, ellos juegan al fútbol.",
+          "correct_answer": false,
+          "explanation": "El texto dice 'We don't like sports'.",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_B4_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el texto: 'Nosotros ______ la guitarra.'",
+          "stimulus_en": "We ______ the guitar.",
+          "correct_answer": "play",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

@@ -172,6 +172,11 @@ const nextConfig = {
         statusCode: 301,
       },
       {
+        source: '/blog/vocabulario',
+        destination: '/blog/metodos',
+        statusCode: 301,
+      },
+      {
         source: '/blog/vocabulario/:slug*',
         destination: '/blog/metodos/:slug*',
         statusCode: 301,
@@ -184,6 +189,177 @@ const nextConfig = {
       {
         source: '/blog/habilidades/:slug*',
         destination: '/blog/metodos/:slug*',
+        statusCode: 301,
+      },
+      // SEO - Redirecciones específicas de antiguos artículos en /blog/seo/
+      {
+        source: '/blog/seo/ingles-para-viajar',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/seo/ingles-para-trabajo',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/seo/ingles-a1',
+        destination: '/blog/metodos/ingles-a1',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/seo/ingles-a2',
+        destination: '/blog/metodos/ingles-a2',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/seo/cursos-online-ingles-b1',
+        destination: '/blog/metodos/cursos-online-ingles-b1',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/seo/ingles-b2',
+        destination: '/blog/metodos/ingles-b2',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/guia-definitiva-viajes',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/business-english-emails',
+        destination: '/blog/trabajo/emails-profesionales-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/entrevistas-trabajo-ingles-guia',
+        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-derecho-legal-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-aeropuertos-checklist',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-emergencias-viaje',
+        destination: '/blog/viajes/frases-ingles-emergencias-viajes',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-hoteles-guia',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-finanzas-economia-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-marketing-ventas-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-trabajar-extranjero-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/entrevista-trabajo-ingles-preguntas',
+        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/vocabulario-negocios-ingles-esencial',
+        destination: '/blog/trabajo/vocabulario-negocios-ingles-profesional',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/cv-ingles-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/guia-definitiva-curso-ingles-profesional',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-entrevistas-remotas-exito',
+        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/negociaciones-ingles-guia',
+        destination: '/blog/trabajo/negociacion-ingles-tecnicas-clave',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/reuniones-ingles-guia',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-nomadas-digitales-mochileros',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-para-viajar-guia',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-restaurantes-guia',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/como-preparar-ingles-viaje-largo',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/cultura-y-etiqueta-paises-anglosajones',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/guia-maestra-curso-ingles-viajeros',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/inmigracion-ingles-guia',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/supervivencia-ingles-transporte-publico',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/guia-examen-aptis',
+        destination: '/certificaciones-ingles-oficiales',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/ielts-vs-toefl-diferencias',
+        destination: '/certificaciones-ingles-oficiales',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/guia-precios-cambridge-2026',
+        destination: '/certificaciones-ingles-oficiales',
         statusCode: 301,
       },
       {

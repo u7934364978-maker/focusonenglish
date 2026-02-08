@@ -50,7 +50,7 @@ Los británicos son famosos por su reserva y su amor por las estructuras sociale
 A diferencia de los británicos, los estadounidenses suelen ser mucho más abiertos y enérgicos en su comunicación.
 
 *   **Optimismo y Entusiasmo:** No te asustes si escuchas *"Awesome!"* o *"Amazing!"* por cosas que a ti te parecen normales. Es su forma de validar la interacción. 
-*   **La Cultura de la Propina (Tipping):** En EE. UU., el salario de muchos trabajadores depende de las propinas. Se deja propina en taxis, peluquerías y, sobre todo, en hostelería. Consulta nuestra **[guía de inglés para restaurantes](/blog/viajes/ingles-restaurantes-guia)** para manejar estas situaciones.
+*   **La Cultura de la Propina (Tipping):** En EE. UU., el salario de muchos trabajadores depende de las propinas. Se deja propina en taxis, peluquerías y, sobre todo, en hostelería. Consulta nuestra **[guía de inglés para restaurantes](/blog/viajes/ingles-para-viajar)** para manejar estas situaciones.
 *   **Contacto Visual:** Mantener la mirada mientras hablas es señal de honestidad y confianza. Evitarla puede hacerte parecer sospechoso o poco fiable.
 
 ---
@@ -76,7 +76,7 @@ La comunicación no es solo lo que sale por tu boca. Aquí hay tres reglas de or
 
 ## 💡 Estrategias para Integrarte como un Local
 
-Para evitar el "choque cultural", usa estas herramientas que habrás practicado en tus **[clases de inglés profesional](/blog/trabajo/guia-definitiva-curso-ingles-profesional)**:
+Para evitar el "choque cultural", usa estas herramientas que habrás practicado en tus **[clases de inglés profesional](/blog/trabajo/ingles-para-trabajo)**:
 
 *   **Pregunta siempre:** Ante la duda, la humildad es tu mejor arma. *"I'm not sure how this works here, could you help me?"*.
 *   **Observa y mimetiza:** Mira cómo se comportan los locales en una cafetería o en una reunión.

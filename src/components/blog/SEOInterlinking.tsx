@@ -20,12 +20,18 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
   
   let href = "/aprender-ingles";
   if (!isHub) {
-    const slug = finalRoute.replace(/^ingles-/, "");
-    // Special case for B1
-    if (slug === "b1") {
-      href = "/blog/seo/cursos-online-ingles-b1";
+    if (finalRoute === "ingles-para-viajar") {
+      href = "/blog/viajes/ingles-para-viajar";
+    } else if (finalRoute === "ingles-para-trabajo") {
+      href = "/blog/trabajo/ingles-para-trabajo";
     } else {
-      href = `/blog/seo/ingles-${slug}`;
+      const slug = finalRoute.replace(/^ingles-/, "");
+      // Special case for B1
+      if (slug === "b1") {
+        href = "/blog/metodos/cursos-online-ingles-b1";
+      } else {
+        href = `/blog/metodos/ingles-${slug}`;
+      }
     }
   }
   

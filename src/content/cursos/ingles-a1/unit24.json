@@ -1,376 +1,257 @@
 {
   "course": {
     "unit_id": "unit24",
-    "unit_title": "Prepositions of Place",
+    "unit_title": "Places in the City",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Prepositions of Place"
+    "Identify common places in a town or city",
+    "Use 'between', 'opposite', and 'in front of' for locations",
+    "Ask for and give simple locations of buildings",
+    "Understand descriptions of a neighborhood"
   ],
   "blocks": [
     {
-      "block_id": "B24",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Important Buildings",
       "content": [
         {
-          "interaction_id": "U24_I1",
+          "interaction_id": "U24_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une los lugares con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Supermarket", "right": "Supermercado" },
+            { "id": "p2", "left": "Hospital", "right": "Hospital" },
+            { "id": "p3", "left": "Bank", "right": "Banco" },
+            { "id": "p4", "left": "Pharmacy", "right": "Farmacia" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Debajo'?",
+          "prompt_es": "¿Dónde compras comida?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Under"
-            },
-            {
-              "id": "o3",
-              "text": "Next to"
-            },
-            {
-              "id": "o2",
-              "text": "Behind"
-            }
+            { "id": "o1", "text": "At the hospital" },
+            { "id": "o2", "text": "At the supermarket" },
+            { "id": "o3", "text": "At the bank" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Lugar de estudio:",
+          "stimulus_en": "Library vs. Bookshop",
+          "correct_answer": "Biblioteca vs. Librería (tienda)",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Parque'?",
+          "options": [
+            { "id": "o1", "text": "Park" },
+            { "id": "o2", "text": "Square" },
+            { "id": "o3", "text": "Street" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U24_I2",
+          "interaction_id": "U24_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Más lugares de la ciudad:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "In front of",
-              "right": "Delante de"
-            },
-            {
-              "id": "p1",
-              "left": "In",
-              "right": "En/Dentro"
-            },
-            {
-              "id": "p2",
-              "left": "Between",
-              "right": "Entre"
-            },
-            {
-              "id": "p3",
-              "left": "On",
-              "right": "Sobre"
-            }
+            { "id": "p1", "left": "Cinema", "right": "Cine" },
+            { "id": "p2", "left": "Restaurant", "right": "Restaurante" },
+            { "id": "p3", "left": "School", "right": "Escuela/Colegio" },
+            { "id": "p4", "left": "Post office", "right": "Oficina de correos" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Town Prepositions",
+      "content": [
+        {
+          "interaction_id": "U24_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "'The bank is between the cinema and the cafe'. 'Between' significa:",
+          "options": [
+            { "id": "o1", "text": "Delante de" },
+            { "id": "o2", "text": "Entre" },
+            { "id": "o3", "text": "En frente de (al otro lado)" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U24_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U24_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'opposite' (en frente de/al otro lado) o 'next to':",
+          "stimulus_en": "The pharmacy is ________ the hospital.",
+          "correct_answer": "opposite",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U24_B2_I8",
+          "type": "true_false",
+          "prompt_es": "¿'In front of' significa 'en frente de' (al otro lado de la calle)?",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U24_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dirías 'El parque está delante de la escuela'?",
           "options": [
-            {
-              "id": "w4",
-              "text": "behind"
-            },
-            {
-              "id": "w6",
-              "text": "house"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "garden"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            }
+            { "id": "o1", "text": "The park is opposite the school" },
+            { "id": "o2", "text": "The park is in front of the school" },
+            { "id": "o3", "text": "The park is between the school" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U24_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición correcta para 3 lugares:",
+          "stimulus_en": "The bank is ________ the cinema and the post office.",
+          "correct_answer": "between",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Giving Locations",
+      "content": [
+        {
+          "interaction_id": "U24_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el supermercado?'",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "supermarket?" }
           ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U24_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"The car is in front of the garage.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U24_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The picture is (en) ________ the wall.",
-          "correct_answer": "on",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U24_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Debajo",
-          "correct_answer": "Under",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "In",
-          "correct_answer": "En/Dentro",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Behind"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Between"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "My house is next to the park. The car is in front of the garage. There is a garden behind the house.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U24_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Está al lado del cine'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Prepositions of Place"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "next" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "cinema" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U24_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Hay un banco en mi calle'",
+          "stimulus_en": "There is a bank on my street",
+          "correct_answer": "There is a bank on my street",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U24_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el lugar lógico:",
+          "stimulus_en": "I watch movies at the ________.",
+          "correct_answer": "cinema",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El restaurante está en frente del banco'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "restaurant" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "opposite" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "bank" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Neighborhood Review",
+      "content": [
+        {
+          "interaction_id": "U24_B4_I16",
+          "type": "reading-comprehension",
+          "title": "My Neighborhood",
+          "text": "I live in a small town. In the center, there is a big park. Opposite the park, there is a cinema. Between the cinema and the bank, there is a small Italian restaurant. My school is next to the hospital.",
+          "question": "¿Qué hay en frente (opposite) del parque?",
+          "options": [
+            { "id": "o1", "text": "A bank" },
+            { "id": "o2", "text": "A cinema" },
+            { "id": "o3", "text": "A restaurant" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U24_I10",
+          "interaction_id": "U24_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde está el restaurante italiano?",
+          "options": [
+            { "id": "o1", "text": "Next to the hospital" },
+            { "id": "o2", "text": "Opposite the park" },
+            { "id": "o3", "text": "Between the cinema and the bank" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U24_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/e93d0ce6a6d1cc6e07c83379a3f7980d.mp3",
           "text": "The supermarket is between the bank and the pharmacy.",
           "mastery_tag": "listening"
         },
         {
-          "interaction_id": "U24_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Debajo'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Behind"
-            },
-            {
-              "id": "o2",
-              "text": "Next to"
-            },
-            {
-              "id": "o1",
-              "text": "Under"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Behind",
-              "right": "Detrás"
-            },
-            {
-              "id": "p1",
-              "left": "In front of",
-              "right": "Delante de"
-            },
-            {
-              "id": "p2",
-              "left": "Next to",
-              "right": "Al lado de"
-            },
-            {
-              "id": "p3",
-              "left": "On",
-              "right": "Sobre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "ball"
-            },
-            {
-              "id": "w5",
-              "text": "bed"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "under"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
+          "interaction_id": "U24_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde en inglés: 'Where do you go to buy medicine?'",
+          "stimulus_es": "A la farmacia",
+          "correct_answer": "To the pharmacy",
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U24_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My house is next to the park.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U24_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The cat is (debajo) ________ the chair.",
-          "correct_answer": "under",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U24_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Detrás",
-          "correct_answer": "Behind",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Under",
-          "correct_answer": "Debajo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I18",
+          "interaction_id": "U24_B4_I20",
           "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
+          "prompt_es": "Clasifica en Servicios u Ocio:",
           "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Between"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Under"
-              ]
-            }
+            { "id": "c1", "title": "Services", "items": ["Hospital", "Bank", "Pharmacy", "Post office"] },
+            { "id": "c2", "title": "Leisure", "items": ["Cinema", "Park", "Restaurant"] }
           ],
           "correct_answer": "categorization_logic",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U24_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "There is a garden behind the house. My house is next to the park. The car is in front of the garage.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Prepositions of Place"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U24_I20",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f00a2065ac63aeca2b8b862ce3a2262a.mp3",
-          "text": "The ball is under the bed.",
-          "mastery_tag": "listening"
         }
       ]
     }

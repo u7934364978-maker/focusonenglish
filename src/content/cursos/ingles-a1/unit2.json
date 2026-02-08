@@ -175,16 +175,13 @@
         {
           "interaction_id": "U2_B3_I3",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Podría hablar más bajito, por favor?'",
+          "prompt_es": "Ordena: 'Por favor, habla despacio.'",
           "options": [
-            { "id": "w1", "text": "Could" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "speak" },
-            { "id": "w4", "text": "more" },
-            { "id": "w5", "text": "quietly," },
-            { "id": "w6", "text": "please?" }
+            { "id": "w1", "text": "Please" },
+            { "id": "w2", "text": "speak" },
+            { "id": "w3", "text": "slowly" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": ["w1", "w2", "w3"],
           "mastery_tag": "syntax"
         },
         {
@@ -198,7 +195,7 @@
         {
           "interaction_id": "U2_B3_I5",
           "type": "true_false",
-          "prompt_es": "En 'He talked interestingly', 'interestingly' es un adverbio?",
+          "prompt_es": "En 'She speaks fast', 'fast' es un adverbio?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         }
@@ -234,9 +231,9 @@
         {
           "interaction_id": "U2_B4_I3",
           "type": "flashcard",
-          "prompt_es": "¿Cómo se dice 'maravillosamente'?",
-          "stimulus_en": "Wonderfully",
-          "correct_answer": "Maravillosamente",
+          "prompt_es": "¿Cómo se dice 'rápidamente'?",
+          "stimulus_en": "Quickly",
+          "correct_answer": "Rápidamente",
           "mastery_tag": "vocabulary"
         },
         {
@@ -254,15 +251,14 @@
         {
           "interaction_id": "U2_B4_I5",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Has cocinado esa carne de maravilla.'",
+          "prompt_es": "Ordena: 'Él corre muy rápido.'",
           "options": [
-            { "id": "w1", "text": "You've" },
-            { "id": "w2", "text": "cooked" },
-            { "id": "w3", "text": "that" },
-            { "id": "w4", "text": "meat" },
-            { "id": "w5", "text": "wonderfully" }
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "runs" },
+            { "id": "w3", "text": "very" },
+            { "id": "w4", "text": "fast" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         }
       ]

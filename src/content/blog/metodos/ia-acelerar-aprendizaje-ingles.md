@@ -44,7 +44,7 @@ Imagina que mañana tienes que defender un contrato importante. Puedes pedirle a
 En el trabajo o en los viajes, lo más difícil no es la reunión técnica, sino el café de antes. Usa la IA para practicar frases informales, jerga actual y temas de conversación ligeros sobre el clima, los deportes o la cultura local del país al que viajas.
 
 ### 3. Simulacros de Exámenes Oficiales
-Si te estás preparando para el **[IELTS o el TOEFL](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)**, la IA puede actuar como el examinador en la parte de *Speaking*, dándote una puntuación estimada basada en los criterios oficiales de evaluación.
+Si te estás preparando para el **[IELTS o el TOEFL](/certificaciones-ingles-oficiales)**, la IA puede actuar como el examinador en la parte de *Speaking*, dándote una puntuación estimada basada en los criterios oficiales de evaluación.
 
 ## El futuro: ¿Sustituirá la IA a los profesores humanos?
 

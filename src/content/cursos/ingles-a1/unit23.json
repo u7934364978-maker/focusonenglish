@@ -1,391 +1,255 @@
 {
   "course": {
     "unit_id": "unit23",
-    "unit_title": "There is / There are",
+    "unit_title": "Adjectives for the Home",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of There is / There are"
+    "Describe a house and rooms using common adjectives",
+    "Understand the correct position of adjectives in English",
+    "Use opposites to describe different environments",
+    "Apply 'very' to intensify descriptions"
   ],
   "blocks": [
     {
-      "block_id": "B23",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Describing Your Space",
       "content": [
         {
-          "interaction_id": "U23_I1",
+          "interaction_id": "U23_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une los adjetivos opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Big", "right": "Small" },
+            { "id": "p2", "left": "New", "right": "Old" },
+            { "id": "p3", "left": "Modern", "right": "Traditional" },
+            { "id": "p4", "left": "Clean", "right": "Dirty" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Planta'?",
+          "prompt_es": "¿Cómo se dice 'Cómodo'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Plant"
-            },
-            {
-              "id": "o3",
-              "text": "Shelf"
-            },
-            {
-              "id": "o2",
-              "text": "Curtain"
-            }
+            { "id": "o1", "text": "Comfortable" },
+            { "id": "o2", "text": "Common" },
+            { "id": "o3", "text": "Confident" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Picture",
-              "right": "Cuadro"
-            },
-            {
-              "id": "p1",
-              "left": "Bookcase",
-              "right": "Librería"
-            },
-            {
-              "id": "p2",
-              "left": "Rug",
-              "right": "Alfombra"
-            },
-            {
-              "id": "p3",
-              "left": "Plant",
-              "right": "Planta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "interaction_id": "U23_B1_I3",
+          "type": "flashcard",
+          "prompt_es": "Adjetivos de sonido:",
+          "stimulus_en": "Quiet vs. Noisy",
+          "correct_answer": "Tranquilo/Silencioso vs. Ruidoso",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U23_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Si una casa es 'beautiful', es:",
           "options": [
-            {
-              "id": "w3",
-              "text": "big"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "rug"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "room"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w7",
-              "text": "living"
-            }
+            { "id": "o1", "text": "Fea" },
+            { "id": "o2", "text": "Bonita/Hermosa" },
+            { "id": "o3", "text": "Grande" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U23_I4",
+          "interaction_id": "U23_B1_I5",
+          "type": "matching",
+          "prompt_es": "Asocia cada adjetivo con su significado:",
+          "pairs": [
+            { "id": "p1", "left": "Small", "right": "Pequeño" },
+            { "id": "p2", "left": "Expensive", "right": "Caro" },
+            { "id": "p3", "left": "Cheap", "right": "Barato" },
+            { "id": "p4", "left": "Bright", "right": "Luminoso" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Adjective Position",
+      "content": [
+        {
+          "interaction_id": "U23_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo. 'Una casa grande' es:",
+          "options": [
+            { "id": "o1", "text": "A house big" },
+            { "id": "o2", "text": "A big house" },
+            { "id": "o3", "text": "Big a house" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adjetivo en el lugar correcto:",
+          "stimulus_en": "I have a ________ (new) sofa.",
+          "correct_answer": "new",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_B2_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There is a big rug in the living room.\"",
+          "prompt_es": "¿Es correcto decir 'The kitchen is modern'?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U23_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Hay? - plural) ________ there any chairs?",
-          "correct_answer": "Are",
+          "interaction_id": "U23_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dirías 'Es una habitación muy ruidosa'?",
+          "options": [
+            { "id": "o1", "text": "It is a room very noisy" },
+            { "id": "o2", "text": "It is a very noisy room" },
+            { "id": "o3", "text": "It is a noisy very room" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U23_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Alfombra",
-          "correct_answer": "Rug",
+          "interaction_id": "U23_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el opuesto de 'Old':",
+          "stimulus_en": "My house isn't old, it is ________.",
+          "correct_answer": "new",
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax & Comparison",
+      "content": [
         {
-          "interaction_id": "U23_I7",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Picture",
-          "correct_answer": "Cuadro",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Plant"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Picture"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "There are no curtains in the kitchen. There are many books on the shelf. There is a big rug in the living room.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "There is / There are"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U23_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f896f2e98fece93a9ecb3e32f51ebe38.mp3",
-          "text": "Is there a plant in your bedroom?",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U23_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estante'?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Picture"
-            },
-            {
-              "id": "o2",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o1",
-              "text": "Shelf"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I12",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Bookcase",
-              "right": "Librería"
-            },
-            {
-              "id": "p1",
-              "left": "Rug",
-              "right": "Alfombra"
-            },
-            {
-              "id": "p2",
-              "left": "Curtain",
-              "right": "Cortina"
-            },
-            {
-              "id": "p3",
-              "left": "Plant",
-              "right": "Planta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I13",
+          "interaction_id": "U23_B3_I11",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena: 'El salón es muy grande'",
           "options": [
-            {
-              "id": "w5",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Is"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "there"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "bedroom"
-            },
-            {
-              "id": "w3",
-              "text": "plant"
-            }
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "living room" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "big" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U23_I14",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"There are many books on the shelf.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U23_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "(Hay - plural) ________ three plants in the room.",
-          "correct_answer": "There are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U23_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Librería",
-          "correct_answer": "Bookcase",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Curtain",
-          "correct_answer": "Cortina",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Rug"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Plant"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U23_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "There is a big rug in the living room. There are many books on the shelf. There is a mirror in the bathroom.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U23_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tengo un dormitorio cómodo'",
           "options": [
-            {
-              "id": "o1",
-              "text": "There is / There are"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "comfortable" },
+            { "id": "w5", "text": "bedroom" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'La cocina es pequeña y limpia'",
+          "stimulus_en": "The kitchen is small and clean",
+          "correct_answer": "The kitchen is small and clean",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "There is ________ old mirror in the hall.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Es tu casa moderna?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "your" },
+            { "id": "w3", "text": "house" },
+            { "id": "w4", "text": "modern?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & Reviewing Descriptions",
+      "content": [
+        {
+          "interaction_id": "U23_B4_I16",
+          "type": "reading-comprehension",
+          "title": "My Dream House",
+          "text": "My dream house is a very big villa near the sea. It has a modern kitchen and five comfortable bedrooms. The living room is bright and quiet. It is an expensive house, but I love it!",
+          "question": "¿Cómo es el salón (living room)?",
+          "options": [
+            { "id": "o1", "text": "Noisy and dark" },
+            { "id": "o2", "text": "Small and traditional" },
+            { "id": "o3", "text": "Bright and quiet" }
+          ],
+          "correct_answer": "o3",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U23_I20",
+          "interaction_id": "U23_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Según el texto, la casa es:",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Expensive" },
+            { "id": "o3", "text": "Old" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U23_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/f896f2e98fece93a9ecb3e32f51ebe38.mp3",
           "text": "Is there a plant in your bedroom?",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U23_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Describe tu habitación en 3 palabras (ej. Small, clean, quiet):",
+          "stimulus_es": "Mi habitación es...",
+          "correct_answer": "^[A-Za-z]+, [A-Za-z]+, [A-Za-z]+$",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_B4_I20",
+          "type": "categorization",
+          "prompt_es": "Clasifica en Adjetivos Positivos o Negativos (según el contexto general):",
+          "categories": [
+            { "id": "c1", "title": "Positive", "items": ["Comfortable", "Beautiful", "Clean", "Quiet"] },
+            { "id": "c2", "title": "Negative", "items": ["Dirty", "Noisy", "Expensive", "Small"] }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

@@ -5,6 +5,7 @@ import PremiumCourseSession from '@/components/course/exercises/PremiumSession';
 import { PremiumInteraction, UnitData } from '@/types/premium-course';
 import { useRouter } from 'next/navigation';
 import { saveExerciseProgress } from './actions';
+import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { Trophy } from 'lucide-react';
 import Link from 'next/link';
 
@@ -17,27 +18,25 @@ export default function PracticeClient({ interactions }: Props) {
   const [sessionData, setSessionData] = useState<UnitData | null>(null);
 
   useEffect(() => {
-    // Shuffle interactions for this session
-    const shuffled = [...interactions].sort(() => Math.random() - 0.5);
-    
     // Wrap them in a UnitData structure that PremiumCourseSession expects
+    // Note: We don't shuffle here because the AdaptiveEngine already prioritized them
     const unitData: UnitData = {
       course: {
         language_ui: 'es-ES',
         target_language: 'en',
         level: 'A1',
         unit_id: 'RANDOM_PRACTICE',
-        unit_title: 'Práctica Aleatoria A1',
+        unit_title: 'Práctica Adaptativa A1',
         total_duration_minutes: 30
       },
-      learning_outcomes: ['Repaso general de nivel A1'],
+      learning_outcomes: ['Repaso adaptativo de nivel A1'],
       mastery_tags: ['grammar', 'vocabulary', 'syntax', 'communication'],
       blocks: [
         {
-          block_id: 'RANDOM_BLOCK',
-          title: 'Mezcla de Ejercicios',
+          block_id: 'ADAPTIVE_BLOCK',
+          title: 'Sesión Inteligente',
           duration_minutes: 30,
-          content: shuffled as any[]
+          content: interactions as any[]
         }
       ]
     };
@@ -45,8 +44,14 @@ export default function PracticeClient({ interactions }: Props) {
     setSessionData(unitData);
   }, [interactions]);
 
-  const handleInteractionCorrect = async (interactionId: string) => {
-    await saveExerciseProgress(interactionId);
+  const handlePerformanceUpdate = async (interactionId: string, quality: number) => {
+    // 1. Mark as completed in progress table (for backward compatibility and general stats)
+    if (quality >= 3) {
+      await saveExerciseProgress(interactionId);
+    }
+    
+    // 2. Update SRS data (the brains of the operation)
+    await premiumCourseService.updateSRS(interactionId, quality);
   };
 
   if (!sessionData) return null;
@@ -78,8 +83,7 @@ export default function PracticeClient({ interactions }: Props) {
       unitData={sessionData}
       onComplete={() => router.push('/curso/ingles-a1')}
       onExit={() => router.push('/curso/ingles-a1')}
-      // @ts-expect-error - onInteractionCorrect is passed to PremiumCourseSession
-      onInteractionCorrect={handleInteractionCorrect}
+      onPerformanceUpdate={handlePerformanceUpdate}
     />
   );
 }

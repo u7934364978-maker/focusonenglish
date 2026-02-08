@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Lesson, Exercise } from '../exercise-types';
+import { CourseEngine } from '../course-engine';
 
 export const localCourseService = {
   async getLesson(
@@ -47,12 +48,17 @@ export const localCourseService = {
       let isRedesigned = false;
 
       if (fs.existsSync(interactiveLessonPath)) {
-        const lessonData = JSON.parse(fs.readFileSync(interactiveLessonPath, 'utf8'));
+        const rawData = JSON.parse(fs.readFileSync(interactiveLessonPath, 'utf8'));
+        const lessonData = CourseEngine.normalize(rawData);
         theoryData = lessonData;
         
-        // Handle both "exercises" array and "slides" mixed array
+        // Handle both "exercises" array, "slides" mixed array, and "blocks" unified structure
         if (lessonData.exercises && Array.isArray(lessonData.exercises)) {
           exercisesData = lessonData.exercises;
+        } else if (lessonData.blocks && Array.isArray(lessonData.blocks)) {
+          // Flatten blocks content into exercisesData
+          exercisesData = lessonData.blocks.flatMap((b: any) => b.content || []);
+          theoryData.objectives = lessonData.learning_outcomes || [];
         } else if (lessonData.slides && Array.isArray(lessonData.slides)) {
           // Extract theory slides and exercises from the mixed slides array
           theoryData.theorySlides = lessonData.slides
@@ -78,10 +84,12 @@ export const localCourseService = {
         isRedesigned = true;
       } else if (lessonId === 'lesson1') {
         if (fs.existsSync(theoryPath)) {
-          theoryData = JSON.parse(fs.readFileSync(theoryPath, 'utf8'));
+          const rawTheory = JSON.parse(fs.readFileSync(theoryPath, 'utf8'));
+          theoryData = CourseEngine.normalize(rawTheory);
         }
         if (fs.existsSync(exercisesPath)) {
-          exercisesData = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
+          const rawExercises = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
+          exercisesData = CourseEngine.normalize(rawExercises);
         }
       }
 

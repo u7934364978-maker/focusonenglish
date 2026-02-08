@@ -45,7 +45,7 @@ El uso de **keywords** técnicas en inglés es vital. No traduzcas literalmente;
 
 ## 📝 El Extracto (About): Storytelling que Conecta
 
-La sección "About" es donde humanizas tu perfil. No la redactes en tercera persona; usa la primera persona para sonar más cercano y auténtico. En nuestras **[clases de inglés profesional](/blog/trabajo/guia-definitiva-curso-ingles-profesional)**, recomendamos seguir la estructura **P-P-F (Past, Present, Future)**:
+La sección "About" es donde humanizas tu perfil. No la redactes en tercera persona; usa la primera persona para sonar más cercano y auténtico. En nuestras **[clases de inglés profesional](/blog/trabajo/ingles-para-trabajo)**, recomendamos seguir la estructura **P-P-F (Past, Present, Future)**:
 
 1.  **Presente:** ¿Qué haces ahora y qué problema resuelves?
 2.  **Pasado:** ¿Qué hitos han marcado tu carrera? (Usa datos cuantificables).

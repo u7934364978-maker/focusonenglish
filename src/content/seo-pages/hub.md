@@ -49,16 +49,16 @@ Para no perder la motivación, es vital saber en qué punto te encuentras y haci
 
 ### Nivel Básico (A1 - A2)
 Es la fase de cimentación. Aquí aprendes a presentarte, pedir comida y entender frases cotidianas.
-*   [**Ruta Inglés A1**](/blog/seo/ingles-a1): Para empezar desde cero absoluto.
-*   [**Ruta Inglés A2**](/blog/seo/ingles-a2): Para quienes ya tienen una base y quieren consolidarla.
+*   [**Ruta Inglés A1**](/blog/metodos/ingles-a1): Para empezar desde cero absoluto.
+*   [**Ruta Inglés A2**](/blog/metodos/ingles-a2): Para quienes ya tienen una base y quieren consolidarla.
 
 ### Nivel Intermedio (B1)
 El nivel "umbral". Aquí es donde empiezas a ser independiente. Puedes viajar y mantener conversaciones sobre temas familiares.
-*   [**Ruta Inglés B1**](/blog/seo/cursos-online-ingles-b1): El salto hacia la independencia comunicativa.
+*   [**Ruta Inglés B1**](/blog/metodos/cursos-online-ingles-b1): El salto hacia la independencia comunicativa.
 
 ### Nivel Profesional (B2)
 El estándar internacional. Puedes trabajar en inglés, participar en reuniones complejas y entender casi cualquier contenido multimedia.
-*   [**Ruta Inglés B2**](/blog/seo/ingles-b2): Dominio avanzado para el éxito profesional.
+*   [**Ruta Inglés B2**](/blog/metodos/ingles-b2): Dominio avanzado para el éxito profesional.
 
 ## Aprender Inglés según tus Objetivos
 
@@ -66,15 +66,15 @@ No todo el mundo necesita el mismo inglés. Por eso, hemos creado rutas por obje
 
 ### Inglés para Viajar
 Enfocado en la supervivencia y el disfrute. Aeropuertos, hoteles, restaurantes y emergencias.
-*   [Ver curso de Inglés para Viajar](/blog/seo/ingles-para-viajar)
+*   [Ver curso de Inglés para Viajar](/blog/viajes/ingles-para-viajar)
 
 ### Inglés para el Trabajo y Negocios
 Vocabulario empresarial, redacción de correos, presentaciones y entrevistas de trabajo.
-*   [Ver curso de Inglés para el Trabajo](/blog/seo/ingles-para-trabajo)
-*   [Inglés para Ingenieros](/curso-ingles-para-ingenieros)
-*   [Inglés para el sector Salud](/curso-ingles-para-salud)
-*   [Inglés para Hostelería y Turismo](/curso-ingles-para-hosteleria)
-*   [Inglés para Atención al Cliente](/curso-ingles-para-atencion-al-cliente)
+*   [Ver curso de Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo)
+*   [Inglés para Ingenieros](/blog/trabajo/ingles-para-ingenieros)
+*   [Inglés para el sector Salud](/blog/trabajo/ingles-para-salud)
+*   [Inglés para Hostelería y Turismo](/blog/trabajo/ingles-para-hosteleria)
+*   [Inglés para Atención al Cliente](/blog/trabajo/ingles-para-atencion-al-cliente)
 
 ## Consejos de Oro para no rendirte
 

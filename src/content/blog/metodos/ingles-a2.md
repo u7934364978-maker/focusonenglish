@@ -26,9 +26,9 @@ En **Focus English**, te ayudamos a conectar los conocimientos básicos para que
 
 Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos según el Marco Común Europeo de Referencia (MCER):
 
-*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana, describir tus últimas vacaciones o relatar eventos de tu infancia. Domina los tiempos verbales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
+*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana, describir tus últimas vacaciones o relatar eventos de tu infancia. Domina los tiempos verbales en nuestro **[hub de gramática](/blog/metodos)**.
 *   **Expresar Planes y Ambiciones**: Serás capaz de hablar de tus próximos proyectos, citas programadas o lo que te gustaría hacer en el futuro con seguridad.
-*   **Vocabulario del Día a Día**: Amplía tu léxico sobre el trabajo, la familia, las compras y el entorno local en nuestro **[hub de vocabulario](/blog/vocabulario)**.
+*   **Vocabulario del Día a Día**: Amplía tu léxico sobre el trabajo, la familia, las compras y el entorno local en nuestro **[hub de vocabulario](/blog/metodos)**.
 *   **Autonomía en el Extranjero**: Tendrás la capacidad de resolver situaciones habituales en tiendas, bancos, oficinas de correos y transporte público.
 *   **Descripción de Entornos**: Podrás describir tu casa, tu barrio y tu lugar de trabajo con detalle, comparando diferentes opciones.
 

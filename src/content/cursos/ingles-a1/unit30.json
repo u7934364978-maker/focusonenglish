@@ -1,361 +1,253 @@
 {
   "course": {
     "unit_id": "unit30",
-    "unit_title": "Module 3 Review",
+    "unit_title": "Free Time & Hobbies",
     "level": "A1",
     "total_duration_minutes": 120,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master vocabulary and grammar of Module 3 Review"
+    "Talk about common hobbies and free time activities",
+    "Express likes and dislikes correctly",
+    "Ask others about their favorite activities",
+    "Understand a simple text about leisure time"
   ],
   "blocks": [
     {
-      "block_id": "B30",
-      "title": "Lección Principal",
+      "block_id": "B1",
+      "title": "Vocabulary: Hobbies",
       "content": [
         {
-          "interaction_id": "U30_I1",
+          "interaction_id": "U30_B1_I1",
+          "type": "matching",
+          "prompt_es": "Une los hobbies con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Read books", "right": "Leer libros" },
+            { "id": "p2", "left": "Play football", "right": "Jugar fútbol" },
+            { "id": "p3", "left": "Watch movies", "right": "Ver películas" },
+            { "id": "p4", "left": "Listen to music", "right": "Escuchar música" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mascota'?",
+          "prompt_es": "¿Cómo se dice 'Ir al gimnasio'?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Furniture"
-            },
-            {
-              "id": "o2",
-              "text": "Clothing"
-            },
-            {
-              "id": "o1",
-              "text": "Pet"
-            }
+            { "id": "o1", "text": "Go to the gym" },
+            { "id": "o2", "text": "Do the gym" },
+            { "id": "o3", "text": "Make the gym" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I2",
-          "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Furniture",
-              "right": "Muebles"
-            },
-            {
-              "id": "p1",
-              "left": "Direction",
-              "right": "Dirección"
-            },
-            {
-              "id": "p2",
-              "left": "Body",
-              "right": "Cuerpo"
-            },
-            {
-              "id": "p3",
-              "left": "Pet",
-              "right": "Mascota"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Give"
-            },
-            {
-              "id": "w4",
-              "text": "station"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "directions"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U30_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Thare are a review of module three.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "The cat is (debajo) ________ the table.",
-          "correct_answer": "under",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Muebles",
-          "correct_answer": "Furniture",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I7",
+          "interaction_id": "U30_B1_I3",
           "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Clothing",
-          "correct_answer": "Ropa",
+          "prompt_es": "Nueva palabra: Viajar",
+          "stimulus_en": "Travel",
+          "correct_answer": "Viajar",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I8",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Pet"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Furniture"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I9",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Describe your house and neighborhood. Talk about your favorite animals. Identify parts of the body and clothes.",
-          "question": "¿De qué trata este texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Module 3 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U30_I10",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/455892008edac0662cb920d8cfdb1dcf.mp3",
-          "text": "Identify parts of the body and clothes.",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U30_I11",
+          "interaction_id": "U30_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Muebles'?",
+          "prompt_es": "Si te gusta el agua, tu hobby es:",
           "options": [
-            {
-              "id": "o1",
-              "text": "Furniture"
-            },
-            {
-              "id": "o3",
-              "text": "Clothing"
-            },
-            {
-              "id": "o2",
-              "text": "Direction"
-            }
+            { "id": "o1", "text": "Running" },
+            { "id": "o2", "text": "Swimming" },
+            { "id": "o3", "text": "Cooking" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I12",
+          "interaction_id": "U30_B1_I5",
           "type": "matching",
-          "prompt_es": "Une las parejas correctamente:",
+          "prompt_es": "Más actividades:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Pet",
-              "right": "Mascota"
-            },
-            {
-              "id": "p1",
-              "left": "Clothing",
-              "right": "Ropa"
-            },
-            {
-              "id": "p2",
-              "left": "Body",
-              "right": "Cuerpo"
-            },
-            {
-              "id": "p3",
-              "left": "Furniture",
-              "right": "Muebles"
-            }
+            { "id": "p1", "left": "Cook", "right": "Cocinar" },
+            { "id": "p2", "left": "Dance", "right": "Bailar" },
+            { "id": "p3", "left": "Paint", "right": "Pintar" },
+            { "id": "p4", "left": "Sing", "right": "Cantar" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Expressing Likes",
+      "content": [
         {
-          "interaction_id": "U30_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "interaction_id": "U30_B2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Usamos '-ing' después de 'like' para acciones. 'Me gusta bailar' es:",
           "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "neighborhood"
-            },
-            {
-              "id": "w3",
-              "text": "and"
-            },
-            {
-              "id": "w0",
-              "text": "Describe"
-            },
-            {
-              "id": "w2",
-              "text": "house"
-            }
+            { "id": "o1", "text": "I like dance" },
+            { "id": "o2", "text": "I like dancing" },
+            { "id": "o3", "text": "I am like dancing" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U30_I14",
+          "interaction_id": "U30_B2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'like' o 'don't like':",
+          "stimulus_en": "I ________ pizza. It's my favorite! (Me gusta)",
+          "correct_answer": "like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_B2_I8",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Give directions to the station.\"",
+          "prompt_es": "¿Es correcto decir 'She likes reading' (a ella le gusta leer)?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U30_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el espacio en blanco:",
-          "stimulus_en": "There (hay - plural) ________ three chairs.",
-          "correct_answer": "are",
+          "interaction_id": "U30_B2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "Forma negativa: 'No me gusta correr'",
+          "options": [
+            { "id": "o1", "text": "I not like running" },
+            { "id": "o2", "text": "I don't like running" },
+            { "id": "o3", "text": "I doesn't like running" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U30_I16",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Dirección",
-          "correct_answer": "Direction",
-          "mastery_tag": "vocabulary"
-        },
+          "interaction_id": "U30_B2_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ________ listening to music.' (Les gusta)",
+          "stimulus_en": "like",
+          "correct_answer": "like",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Syntax: Do you like...?",
+      "content": [
         {
-          "interaction_id": "U30_I17",
-          "type": "flashcard",
-          "prompt_es": "Flashcard de estudio",
-          "stimulus_en": "Body",
-          "correct_answer": "Cuerpo",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I18",
-          "type": "categorization",
-          "prompt_es": "Clasifica estas palabras:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Grupo A",
-              "items": [
-                "Body"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Grupo B",
-              "items": [
-                "Clothing"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I19",
-          "type": "reading-comprehension",
-          "title": "Mini Reading",
-          "text": "Describe your house and neighborhood. Talk about your favorite animals. Identify parts of the body and clothes.",
-          "question": "¿De qué trata este texto?",
+          "interaction_id": "U30_B3_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Te gusta leer?'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Module 3 Review"
-            },
-            {
-              "id": "o2",
-              "text": "Other topic"
-            }
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "reading?" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_B3_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cuál es tu hobby favorito?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "favorite" },
+            { "id": "w5", "text": "hobby?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_B3_I13",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Sí, me gusta.' (Respuesta corta)",
+          "stimulus_en": "Yes, I do.",
+          "correct_answer": "Yes, I do.",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_B3_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '________ you like sports?'",
+          "stimulus_en": "Do",
+          "correct_answer": "Do",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_B3_I15",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No, no me gusta.'",
+          "options": [
+            { "id": "w1", "text": "No," },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "don't." }
+          ],
+          "correct_answer": ["w1", "w2", "w3"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading & My Weekend",
+      "content": [
+        {
+          "interaction_id": "U30_B4_I16",
+          "type": "reading-comprehension",
+          "title": "Leisure Time",
+          "text": "In my free time, I love being active. On Saturdays, I play football with my friends. On Sundays, I go swimming in the morning. I don't like watching TV, I prefer reading books in the evening.",
+          "question": "¿Qué hace el autor los sábados?",
+          "options": [
+            { "id": "o1", "text": "He reads books" },
+            { "id": "o2", "text": "He plays football" },
+            { "id": "o3", "text": "He watches TV" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "reading"
         },
         {
-          "interaction_id": "U30_I20",
+          "interaction_id": "U30_B4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Le gusta ver la televisión al autor?",
+          "options": [
+            { "id": "o1", "text": "Yes, he does" },
+            { "id": "o2", "text": "No, he doesn't" },
+            { "id": "o3", "text": "Sometimes" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U30_B4_I18",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/455892008edac0662cb920d8cfdb1dcf.mp3",
-          "text": "Identify parts of the body and clothes.",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
+          "text": "The library is on the second floor.",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U30_B4_I19",
+          "type": "short_writing",
+          "prompt_es": "Responde: 'Do you like cooking?'",
+          "stimulus_es": "Sí (Respuesta corta)",
+          "correct_answer": "Yes, I do.",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_B4_I20",
+          "type": "categorization",
+          "prompt_es": "Deportes vs Relax:",
+          "categories": [
+            { "id": "c1", "title": "Sports", "items": ["Football", "Tennis", "Swimming", "Running"] },
+            { "id": "c2", "title": "Relax", "items": ["Reading", "Movies", "Music", "Sleeping"] }
+          ],
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

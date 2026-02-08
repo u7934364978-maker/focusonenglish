@@ -1,11 +1,39 @@
 import { createClient } from '@/lib/supabase/server';
 import { UnitData, PremiumInteraction, PremiumBlock } from '@/types/premium-course';
+import { UserPerformanceRecord } from '../course-engine/adaptive';
 import fs from 'fs';
 import path from 'path';
 
 export type CourseLevel = 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2' | 'emails-b1';
 
 export const premiumCourseServerService = {
+  /**
+   * Fetches SRS performance data for a set of interactions from the server.
+   */
+  async getSRSPerformance(userId: string, interactionIds: string[]): Promise<UserPerformanceRecord[]> {
+    if (!userId || userId === 'anonymous' || interactionIds.length === 0) return [];
+    
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from('user_srs')
+      .select('*')
+      .eq('user_id', userId)
+      .in('item_id', interactionIds);
+
+    if (error) {
+      console.error(`Error fetching server SRS performance:`, error);
+      return [];
+    }
+
+    return data.map(item => ({
+      interaction_id: item.item_id,
+      quality: item.last_quality || 0,
+      last_review_at: new Date(item.last_review_at),
+      next_review_at: new Date(item.next_review_at),
+      iterations: item.iterations
+    }));
+  },
+
   /**
    * Loads all interactions from the JSON files in the content directory for a specific level.
    */

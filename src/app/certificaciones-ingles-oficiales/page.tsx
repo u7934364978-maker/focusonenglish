@@ -158,7 +158,7 @@ export default function SEOCertificationsPage() {
                 <div className="bg-slate-50 rounded-[2rem] p-8 border border-slate-100 shadow-sm">
                   <h4 className="text-xl font-black text-slate-900 mb-6">Recursos Útiles</h4>
                   <div className="space-y-4">
-                    <Link href="/blog/seo/ingles-b2" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
+                    <Link href="/blog/metodos/ingles-b2" className="flex items-center justify-between p-5 rounded-2xl bg-white border border-slate-100 hover:border-coral-200 hover:shadow-md transition-all group">
                       <div className="flex items-center gap-3">
                         <GraduationCap className="w-5 h-5 text-coral-500" />
                         <span className="font-bold text-slate-700 group-hover:text-slate-900">Curso B2 Online</span>

@@ -27,7 +27,7 @@ faqs:
 
 El examen Aptis del British Council se ha convertido en uno de los favoritos en España por su flexibilidad, rapidez y precio competitivo. Si necesitas certificar un nivel básico para oposiciones, universidad o trabajo, el **Aptis A2** es una excelente opción.
 
-Para más detalles sobre otras rutas, visita nuestra [Guía de Certificaciones](/rutas/certificaciones-ingles).
+Para más detalles sobre otras rutas, visita nuestra [Guía de Certificaciones](/certificaciones-ingles-oficiales).
 
 ---
 

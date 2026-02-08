@@ -15,7 +15,7 @@ En el ámbito de la salud, la comunicación no es solo una habilidad complementa
 
 Esta guía ha sido diseñada para proporcionarte una base sólida en el lenguaje de la salud, desde el trato directo con el paciente hasta la redacción de informes técnicos de alta complejidad.
 
-Visita nuestro **[hub de inglés profesional](/blog/trabajo)** para ver más especialidades o consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para términos generales.
+Visita nuestro **[hub de inglés profesional](/blog/trabajo)** para ver más especialidades o consulta nuestro **[hub de vocabulario](/blog/metodos)** para términos generales.
 
 ## 1. Atención al Paciente: El Puente entre el Rigor y la Empatía
 
