@@ -24,39 +24,59 @@ En **Focus English**, te proporcionamos las herramientas para que tu inglés no 
 
 ## 1. Gramática Sofisticada para la Excelencia
 
-En el nivel C1, la gramática se utiliza para dar énfasis, sutileza y autoridad a tu discurso.
-*   **Inversion for Emphasis**: Aprenderás a usar estructuras como *"Never have I seen..."* o *"Not only did they..."* para captar la atención en discursos y escritos formales.
+En el nivel C1, la gramática ya no es un conjunto de reglas que debes memorizar, sino una herramienta para dar énfasis, sutileza y autoridad a tu discurso. Debes dominar estructuras que te permitan sonar más elegante y persuasivo.
+
+*   **Inversion for Emphasis**: Aprenderás a usar estructuras como *"Never have I seen..."*, *"Hardly had we started..."* o *"Not only did they..."* para captar la atención en discursos y escritos formales.
 *   **Cleft Sentences**: Estructuras como *"What matters most is..."* o *"It was the manager who..."* para focalizar la información de manera precisa.
-*   **Advanced Subjunctives and Modals**: Uso de *"be that as it may"*, *"should you require assistance"* y modales de especulación pasada de alta complejidad.
-*   **Mixed Conditionals and Beyond**: Perfeccionamiento de situaciones hipotéticas complejas que mezclan diferentes marcos temporales.
+*   **Advanced Subjunctives and Modals**: Uso de *"be that as it may"*, *"should you require assistance"* y modales de especulación pasada de alta complejidad (*"might have been"*, *"could have been doing"*).
+*   **Mixed Conditionals and Beyond**: Perfeccionamiento de situaciones hipotéticas complejas que mezclan diferentes marcos temporales para explicar causas pasadas con consecuencias presentes o viceversa.
 
-## 2. Redacción Académica y Profesional de Alto Nivel
+## 2. Dominio de la Precisión Léxica y el Registro
 
-El **[inglés nivel avanzado online](/blog/metodos/ingles-c1)** en Focus English te prepara para producir textos que impacten:
-*   **White Papers and Abstracts**: Aprende a sintetizar información compleja y a presentar argumentos con una estructura lógica impecable.
-*   **Legal and Technical Briefs**: Vocabulario específico para redactar informes de cumplimiento, contratos y especificaciones técnicas.
+La diferencia entre un usuario B2 y un C1 reside en la capacidad de elegir la palabra exacta para cada contexto, evitando las repeticiones y los términos genéricos.
+
+### Colocaciones Avanzadas (Collocations)
+No digas *"very happy"*, di *"utterly delighted"*. No digas *"fast growth"*, di *"exponential growth"*. El dominio de las colocaciones es lo que te permite sonar natural y fluido, ya que los nativos procesan el lenguaje en estos "bloques" preestablecidos.
+
+### Phrasal Verbs de Registro Alto
+Aunque muchos asocian los phrasal verbs con el lenguaje informal, en el nivel C1 aprenderás aquellos que son comunes en entornos académicos y profesionales:
+*   **Adhere to**: Seguir o cumplir una norma (*"Adhere to the regulations"*).
+*   **Embark upon**: Iniciar un proyecto o viaje importante.
+*   **Account for**: Explicar o justificar una cantidad o situación.
+*   **Stem from**: Tener su origen en algo.
+
+### Nuance and Tone (Matices y Tono)
+Un usuario C1 es capaz de ajustar su registro de manera casi imperceptible para adaptarte a la audiencia. Sabrás cuándo usar un lenguaje directo y cuándo es necesario usar el *hedging* (lenguaje diplomático) para mitigar el impacto de una crítica o una mala noticia.
+
+## 3. Redacción Académica y Profesional de Alto Nivel
+
+El **[inglés nivel avanzado online](/blog/metodos/ingles-c1)** en Focus English te prepara para producir textos que impacten y que sigan las convenciones internacionales de escritura.
+
+*   **White Papers and Abstracts**: Aprende a sintetizar información compleja y a presentar argumentos con una estructura lógica impecable, usando conectores sofisticados como *"nonetheless"*, *"notwithstanding"* o *"henceforth"*.
+*   **Legal and Technical Briefs**: Vocabulario específico para redactar informes de cumplimiento, contratos y especificaciones técnicas que no den lugar a ambigüedades.
 *   **Persuasive Writing**: Domina el arte de la retórica en inglés para escribir propuestas que convenzan a clientes e inversores internacionales. Consulta nuestros **[trucos para el Writing C1](/blog/examenes/trucos-writing-c1-advanced)**.
 
-## 3. Dominio de la Colocación y la Precisión Léxica
+## 4. Comprensión Auditiva y Lectora: Leer entre Líneas
 
-La diferencia entre un usuario B2 y un C1 reside en la elección de la palabra exacta para cada contexto.
-*   **Advanced Collocations**: No digas "very happy", di *"utterly delighted"*. No digas "fast growth", di *"exponential growth"*.
-*   **Idiomatic Mastery**: Uso natural de expresiones idiomáticas que reflejan un conocimiento profundo de la cultura anglosajona, evitando los clichés.
-*   **Nuance and Tone**: Capacidad de ajustar tu registro de manera casi imperceptible para adaptarte a la audiencia, desde una charla informal hasta una cumbre directiva.
+Para ser un usuario competente, debes ser capaz de entender no solo lo que se dice, sino lo que se implica (*inferencing*).
 
-## 4. Comprensión de Ironía, Sarcasmo y Cultura
+*   **Subtle Implications**: Entender la ironía, el sarcasmo y las dobles intenciones en una negociación o en un texto de opinión política.
+*   **Listening to Accents**: En el nivel C1, estarás expuesto a una gran variedad de acentos regionales e internacionales (inglés de India, Singapur, Escocia, sur de EE. UU.), asegurando que puedas comunicarte en cualquier rincón del mundo globalizado.
+*   **Active Listening for Public Speaking**: Aprenderás a identificar las técnicas oratorias de grandes oradores para poder aplicarlas a tus propios discursos y presentaciones.
 
-Para ser un usuario competente, debes leer entre líneas:
-*   **Subtle Implications**: Entender lo que no se dice explícitamente en una negociación o en un texto de opinión.
-*   **Cultural References**: Comprender las referencias a la historia, la política y la cultura popular que los nativos dan por sentadas.
-*   **Humor and Wit**: Capacidad de entender y participar en el humor inteligente, los juegos de palabras y la ironía británica o americana.
+## 5. El Desafío de la Oratoria (Public Speaking)
 
-## 5. Hoja de Ruta de 3 Meses para Nivel C2 (Proficiency)
+A este nivel, no solo hablas, sino que **discursas**. Te ayudamos a manejar el miedo escénico y a estructurar tus intervenciones para que sean memorables:
+1.  **Signposting**: Usar frases para guiar a la audiencia (*"Turning now to my second point..."*).
+2.  **Rhetorical Devices**: Uso de aliteraciones, tríadas y metáforas para dar fuerza a tu mensaje.
+3.  **Handling difficult Q&A**: Cómo responder a preguntas complejas de forma diplomática y segura.
 
-El paso final hacia la maestría total del idioma:
-1.  **Mes 1**: Sumérgete en literatura clásica y contemporánea, y sigue debates políticos o filosóficos en inglés.
-2.  **Mes 2**: Empieza a escribir artículos de opinión o críticas sobre temas complejos, forzándote a usar un registro muy elevado.
-3.  **Mes 3**: Practica la interpretación simultánea básica y el Speaking de alta intensidad sobre temas abstractos y polémicos.
+## 6. Hoja de Ruta de 3 Meses para Nivel C2 (Proficiency)
+
+El paso final hacia la maestría total del idioma requiere un cambio de enfoque hacia la inmersión cultural profunda:
+1.  **Mes 1**: Sumérgete en literatura clásica y contemporánea, y sigue debates políticos o filosóficos en inglés sin subtítulos.
+2.  **Mes 2**: Empieza a escribir artículos de opinión o críticas sobre temas complejos, forzándote a usar un registro muy elevado y estructuras de inversión constantes.
+3.  **Mes 3**: Practica la interpretación simultánea básica y el Speaking de alta intensidad sobre temas abstractos y polémicos, defendiendo posturas que no necesariamente compartes para forzar tu léxico.
 
 ---
 

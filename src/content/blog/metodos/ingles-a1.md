@@ -24,15 +24,48 @@ Si estás buscando un **[curso de inglés para principiantes](/blog/metodos/ingl
 
 ## 1. ¿Qué habilidades adquirirás en este nivel?
 
-Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de:
+Al finalizar el curso A1, siguiendo los estándares del Marco Común Europeo (MCER), serás capaz de comunicarte en situaciones de la vida real que requieran un intercambio de información básico.
 
 *   **Comprender y usar expresiones cotidianas**: Saludar, despedirse y dar las gracias de forma natural. Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para más recursos.
 *   **Dominar la gramática básica**: Aprende las estructuras fundamentales, como el verbo 'to be', el presente simple y los pronombres, en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
 *   **Presentarte a ti mismo y a otros**: Dar información básica sobre tu nombre, edad, nacionalidad, profesión y familia.
-*   **Interactuar de forma sencilla**: Hacer preguntas básicas y entender respuestas si el interlocutor habla despacio y con claridad.
+*   **Interactuar de forma sencilla**: Hacer preguntas básicas sobre el entorno y entender respuestas si el interlocutor habla despacio.
 *   **Vocabulario Esencial**: Dominarás más de 500 palabras clave sobre el hogar, el trabajo, la comida y el tiempo libre.
 
-## 2. Fonética y Pronunciación para Principiantes
+## 2. Gramática Fundamental: Los Pilares del A1
+
+Para dejar de traducir mentalmente y empezar a pensar en inglés, necesitas dominar estas estructuras:
+
+### El Verbo "To Be" (Ser o Estar)
+Es la base de todo. Lo usarás para decir quién eres (*I am John*), cómo te sientes (*She is happy*) y dónde estás (*They are at home*). Recuerda las contracciones: *I'm, You're, He's, We're*.
+
+### El Presente Simple para Rutinas
+Se usa para hablar de lo que haces todos los días. *"I wake up at 7 AM"*, *"He drinks coffee"*. El mayor reto aquí es la **tercera persona (he, she, it)**, a la que siempre debemos añadir una **-s** al verbo.
+
+### Adjetivos Posesivos y Pronombres
+Aprender a decir qué es tuyo o de otros: *My car, Your house, His dog, Her book*. Es vital no confundir *his* (de él) con *her* (de ella).
+
+### Preposiciones de Lugar Básicas (In, On, At)
+*   **In**: Dentro de un espacio (*In the box, In London*).
+*   **On**: Sobre una superficie o para días de la semana (*On the table, On Monday*).
+*   **At**: Para lugares específicos o la hora (*At the cinema, At 5 o'clock*).
+
+## 3. Vocabulario de Supervivencia para el Día a Día
+
+En el nivel A1, tu objetivo es funcional. Necesitas palabras que te permitan navegar por el mundo real.
+
+*   **En la Ciudad**: *Supermarket, Pharmacy, Hospital, Bus station, Bank, Street*.
+*   **En Casa**: *Kitchen, Bedroom, Living room, Furniture, Bed, Chair, Window*.
+*   **En el Trabajo**: *Office, Computer, Meeting, Colleague, Manager, Desk*.
+*   **La Familia**: *Mother, Father, Brother, Sister, Husband, Wife, Children*.
+*   **Descripción de Personas**: Aprenderás adjetivos básicos de apariencia y personalidad: *Tall, Short, Young, Old, Friendly, Kind, Happy*.
+
+### La Hora y los Números
+Dominar los números del 1 al 100 es esencial para comprar, dar tu número de teléfono o decir la hora.
+*   *"What time is it?"*
+*   *"It is half past ten (10:30)"* o simplemente *"It is ten thirty"*.
+
+## 4. Fonética y Pronunciación para Principiantes
 
 Uno de los mayores obstáculos al **[aprender inglés desde cero](/blog/metodos/ingles-a1)** es la pronunciación. En el nivel A1, nos enfocamos en que te sientas cómodo con los sonidos básicos:
 
@@ -40,27 +73,28 @@ Uno de los mayores obstáculos al **[aprender inglés desde cero](/blog/metodos/
 *   **Word Stress (Acento de palabra)**: Aprenderás dónde poner la fuerza en las palabras básicas para que los nativos te entiendan a la primera.
 *   **Alphabet and Spelling**: Fundamental para deletrear tu nombre, tu email o una dirección cuando hablas por teléfono o haces un registro.
 
-## 3. Etiqueta Social y Supervivencia Básica
+## 5. Etiqueta Social y Supervivencia Básica
 
-El inglés no son solo palabras; es una cultura. En el nivel A1, te enseñamos a ser educado:
+El inglés no son solo palabras; es una cultura. En el nivel A1, te enseñamos a ser educado y a manejar las interacciones sociales iniciales:
 
 *   **Greetings and Farewells**: Más allá del "Hello", aprenderás "How are you doing?", "Nice to meet you" o "Have a great day".
 *   **Polite Requests**: Dominar el uso de "Please", "Thank you" y "Excuse me" te abrirá muchas puertas.
 *   **Ordering Food**: *"I would like a coffee, please"* o *"Can I have the bill?"* son frases que te darán independencia inmediata en tus viajes.
 
-## 4. Guía de Errores Comunes (y cómo evitarlos)
+## 6. Guía de Errores Comunes (y cómo evitarlos)
 
-Al principio es normal cometer errores. Aquí te ayudamos a anticiparlos:
-*   **False Friends**: "Actually" no significa "actualmente" (significa "en realidad").
+Al principio es normal cometer errores. Aquí te ayudamos a anticiparlos para que progreses más rápido:
+*   **False Friends**: "Actually" no significa "actualmente" (significa "en realidad"). Para "actualmente", usa *currently*.
 *   **Word Order**: En inglés, el adjetivo siempre va antes que el sustantivo (*a blue car*, no *a car blue*).
 *   **The "s" in 3rd person**: No olvides añadir la "s" al verbo cuando hablas de él o ella (*He works*, *She likes*).
+*   **Double Negatives**: En inglés nunca decimos "I don't know nothing". Lo correcto es *"I don't know anything"*.
 
-## 5. Hoja de Ruta de 3 Meses para Nivel A2
+## 7. Hoja de Ruta de 3 Meses para Nivel A2
 
 ¿Quieres progresar rápido? Sigue este plan:
-1.  **Mes 1**: Concéntrate en el verbo 'to be', los números, los días de la semana y los saludos.
-2.  **Mes 2**: Introduce el Presente Simple, los verbos de rutina diaria y el vocabulario de la casa y la oficina.
-3.  **Mes 3**: Empieza con adjetivos comparativos, el pasado simple del verbo 'to be' y prepárate para el salto al nivel A2.
+1.  **Mes 1: Los Cimientos**: Concéntrate en el verbo 'to be', los números, los días de la semana y los saludos.
+2.  **Mes 2: La Acción**: Introduce el Presente Simple, los verbos de rutina diaria, vocabulario de la casa y preposiciones básicas.
+3.  **Mes 3: Expansión**: Empieza con adjetivos comparativos (*bigger than*), el pasado simple del verbo 'to be' (*I was*) y prepárate para el salto al nivel A2.
 
 ---
 

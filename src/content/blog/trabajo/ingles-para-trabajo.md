@@ -15,39 +15,66 @@ En un mercado laboral globalizado y tecnológico en 2026, el **[inglés profesio
 
 En **Focus English**, hemos desarrollado un método práctico que se aleja de los libros de texto aburridos para centrarse en situaciones reales de oficina, startups y multinacionales.
 
-## 1. Entrevistas de Trabajo y CV en Inglés: Tu Carta de Presentación
+## 1. El Proceso de Selección: CV de Alto Impacto y Entrevistas
 
-La primera impresión lo es todo, tanto en tu documento como en el encuentro cara a cara.
-*   **Resume/CV Mastery**: *"Results-oriented professional with a proven track record in..."*. Aprende a usar "Power Verbs" que los algoritmos de selección (ATS) adoran.
-*   **The Interview**: Te preparamos para responder a las preguntas más difíciles con confianza y precisión usando el método STAR (Situation, Task, Action, Result).
-*   **Elevator Pitch**: En 60 segundos, serás capaz de resumir quién eres, qué haces y qué valor aportas a una organización.
+La primera impresión lo es todo. En el mercado internacional, tu currículum debe estar optimizado no solo para humanos, sino para los algoritmos **ATS** (Applicant Tracking Systems) que filtran candidatos por palabras clave.
 
-## 2. Reuniones, Videollamadas y el Nuevo Trabajo Remoto
+### Verbos de Poder para tu CV
+Evita el aburrido *"I did..."* o *"I was responsible for..."*. Usa verbos que demuestren logros tangibles:
+*   **Liderazgo**: *Spearheaded, Orchestrated, Mentored, Cultivated.*
+*   **Eficiencia**: *Streamlined, Optimized, Accelerated, Restructured.*
+*   **Resultados**: *Generated, Surpassed, Maximized, Outperformed.*
 
-No vuelvas a quedarte en silencio en una reunión de Zoom o Teams. Aprende a intervenir de forma educada y efectiva en entornos híbridos.
-*   **Virtual Etiquette**: *"Can everyone see my screen?"* o *"Sorry, you're on mute"*. Domina las frases para manejar la tecnología sin estrés.
-*   **Active Participation**: Aprende a interrumpir educadamente (*"May I add a point here?"*), a pedir aclaraciones (*"Could you elaborate on that?"*) y a dar tu opinión con firmeza (*"From my perspective..."*).
+### La Entrevista: Dominando el Método STAR
+Te preparamos para responder a las preguntas conductuales (*"Tell me about a time when..."*) con precisión quirúrgica usando la estructura **STAR**:
+1.  **Situation**: Contexto breve.
+2.  **Task**: Cuál era tu desafío específico.
+3.  **Action**: Qué pasos exactos diste tú (en primera persona).
+4.  **Result**: El éxito cuantificado (números, porcentajes, feedback).
 
-## 3. Emails, LinkedIn y Marca Personal
+---
 
-Tu comunicación escrita define tu nivel de profesionalismo. En 2026, tu presencia en LinkedIn en inglés es vital.
-*   **Business Emails**: Aprende a escribir correos que obtengan respuestas, desde solicitudes formales hasta seguimientos rápidos y efectivos.
-*   **LinkedIn Optimization**: Te ayudamos a redactar un "Headline" y un "About" en inglés que atraigan a reclutadores internacionales.
-*   **Networking**: Domina el "Small Talk" para eventos de networking y ferias internacionales.
+## 2. Presentaciones de Alto Impacto: El Arte del "Signposting"
 
-## 4. Inteligencia Artificial y el Futuro del Trabajo
+En una presentación profesional en inglés, no solo importa el contenido, sino cómo guías a tu audiencia a través de él. El uso de **Signposting Phrases** (frases de señalización) es lo que distingue a un orador promedio de un líder convincente.
 
-El inglés es el lenguaje oficial de la IA. Si quieres liderar la transformación digital, debes dominar este léxico:
-*   **Prompt Engineering in English**: La mayoría de las herramientas de IA funcionan mejor cuando las instrucciones (prompts) se dan en inglés técnico.
-*   **AI Ethics and Policy**: Participa en discusiones sobre el impacto de la automatización en el lugar de trabajo.
-*   **Digital Upskilling**: Vocabulario relacionado con el aprendizaje continuo y la adaptación tecnológica.
+*   **Introducción**: *"I've divided my presentation into three main parts. First, I'll examine..."*
+*   **Transición**: *"This leads me directly to my next point, which is..."*
+*   **Resaltar importancia**: *"I'd like to draw your attention to this particular chart, as it shows..."*
+*   **Conclusión**: *"To wrap up, let's go over the key takeaways from today's session."*
 
-## 5. Negociación y Cierre de Acuerdos
+---
 
-Para ejecutivos y comerciales, el inglés es la moneda de cambio en las negociaciones.
-*   **Building Rapport**: Crea una conexión antes de entrar en los números.
-*   **Bargaining**: Frases para proponer alternativas y llegar a un acuerdo "Win-Win".
-*   **Closing**: *"We have a deal"* o *"Let's move to the contract phase"*.
+## 3. Inteligencia Cultural (CQ): Más allá del Idioma
+
+En 2026, trabajar en inglés significa colaborar con personas de India, Alemania, Brasil o EE. UU. El **[inglés profesional](/blog/trabajo/ingles-para-trabajo)** requiere entender las sutilezas culturales:
+*   **Comunicación Directa vs. Indirecta**: Mientras que en EE. UU. se valora la brevedad (*"Get to the point"*), en el Reino Unido se usa mucho el *hedging* o lenguaje suavizado (*"I was wondering if perhaps..."*).
+*   **Feedback**: Aprender a dar críticas constructivas sin sonar agresivo: *"I appreciate the effort, but I think there is room for improvement in the data section."*
+*   **Rapport Building**: El "Small Talk" no es perder el tiempo; es la base de la confianza en los negocios internacionales.
+
+---
+
+## 4. Phrasal Verbs Imprescindibles en la Oficina
+
+Para sonar natural en el día a día y entender las conversaciones informales, debes dominar estos verbos compuestos:
+*   **Keep up with**: Mantenerse al día con (tendencias, noticias). *"It's hard to keep up with all the changes in AI."*
+*   **Look forward to**: Esperar algo con ganas (muy usado al final de emails). *"I look forward to hearing from you."*
+*   **Take over**: Asumir el control o responsabilidad. *"She will take over the project while I'm on leave."*
+*   **Deal with**: Gestionar o encargarse de algo. *"I'll deal with the client complaint personally."*
+*   **Carry out**: Realizar o ejecutar una tarea. *"We need to carry out a survey to understand our users better."*
+
+---
+
+## Preguntas Frecuentes (FAQ) sobre el Inglés Profesional
+
+### ¿Cuánto tiempo se tarda en alcanzar un nivel B2 para trabajar?
+Para un profesional que parte de una base intermedia (A2/B1), alcanzar un B2 sólido suele requerir entre 6 y 12 meses de estudio enfocado y práctica diaria. La clave es la **exposición constante** a contenidos de tu propio sector.
+
+### ¿Es mejor el inglés británico o el americano para los negocios?
+En 2026, lo que prima es el **Global English** (o *International English*). Las empresas valoran la claridad y la neutralidad por encima de un acento regional específico. Lo importante es ser consistente con la ortografía (usar siempre *Realize* o siempre *Realise*, por ejemplo).
+
+### ¿Cómo puedo practicar si trabajo solo de forma remota?
+Usa herramientas de IA para simular conversaciones, asiste a webinars internacionales en tu sector y, si puedes, busca comunidades de práctica online donde el inglés sea el idioma vehicular.
 
 ---
 

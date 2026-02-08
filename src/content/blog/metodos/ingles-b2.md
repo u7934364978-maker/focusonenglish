@@ -22,46 +22,52 @@ El **Nivel B2** (Usuario Independiente) es el estándar de oro para el mundo lab
 
 En **Focus English**, hemos diseñado este curso para llevarte más allá de la gramática básica y darte las herramientas para expresarte con precisión, matices y seguridad.
 
-## 1. Gramática Avanzada para el Nivel B2
+## 1. Gramática de Precisión para el Nivel B2
 
-A este nivel, la gramática se convierte en una herramienta de precisión para expresar ideas complejas.
-*   **Mixed Conditionals**: Aprenderás a mezclar el pasado con el presente (*"If I had studied more, I would be a doctor now"*) para hablar de arrepentimientos o situaciones hipotéticas.
-*   **Narrative Tenses**: Perfeccionamiento del *Past Perfect Simple* y *Continuous* para contar historias con profundidad temporal.
-*   **Future Perfect and Future Continuous**: Para hablar de metas y previsiones profesionales: *"By next year, I will have finished my Master's"*.
-*   **Voz Pasiva Avanzada**: Uso de estructuras como "It is said that..." o "He is thought to be..." fundamentales para reportes y periodismo.
+A este nivel, la gramática deja de ser una barrera para convertirse en una herramienta de precisión que te permite expresar ideas abstractas y complejas con total claridad.
+*   **Mixed Conditionals**: Aprenderás a mezclar marcos temporales para hablar de cómo el pasado afecta al presente (*"If I had studied more at university, I would be a senior manager now"*) o de situaciones generales que afectaron eventos pasados.
+*   **Narrative Tenses**: Perfeccionamiento del *Past Perfect Simple* y *Continuous* para contar historias con profundidad, estableciendo secuencias de eventos complejas en un relato profesional o personal.
+*   **Future Perfect and Future Continuous**: Imprescindibles para hablar de metas y previsiones: *"By 2030, our company will have expanded to three more countries"*.
+*   **Voz Pasiva Avanzada y Estructuras Causativas**: Uso de *"It is widely believed that..."* o *"Having something done"*, fundamentales para redactar informes académicos, artículos de opinión y reportes corporativos.
 
-## 2. Comunicación en Escenarios Profesionales Complejos
+## 2. Comunicación en Escenarios Profesionales de Alta Presión
 
-El **[inglés avanzado B2](/blog/metodos/ingles-b2)** te permite liderar situaciones de alta presión:
-*   **Negotiating and Persuading**: Aprende a defender tu punto de vista, ceder terreno estratégicamente y cerrar acuerdos con elegancia.
-*   **Crisis Management**: Vocabulario y estructuras para comunicar problemas, calmar a los stakeholders y proponer soluciones inmediatas.
-*   **Pitching**: Te enseñamos a realizar presentaciones de alto impacto (tipo Elevator Pitch) que capturen la atención de inversores o clientes internacionales.
+El **[inglés avanzado B2](/blog/metodos/ingles-b2)** en Focus English te prepara para liderar situaciones donde la comunicación es estratégica:
+*   **Negotiating and Persuading**: Aprende el arte de la diplomacia lingüística. Te enseñamos a usar el *hedging* (lenguaje mitigador) para suavizar críticas y a usar conectores de contraste para defender tu punto de vista con firmeza pero con respeto.
+*   **Crisis Management and Problem Solving**: Vocabulario y estructuras específicas para comunicar contratiempos, calmar a los clientes y proponer planes de contingencia inmediatos.
+*   **Public Speaking and Pitching**: Domina las técnicas oratorias para realizar presentaciones de alto impacto. Aprenderás a usar la entonación, las pausas dramáticas y las preguntas retóricas para captar la atención de inversores o directivos.
 
-## 3. Matices, Colocaciones e Idioms
+## 3. Matices, Colocaciones e Idiomatismo: Suena como un Nativo
 
-Para sonar como un profesional avanzado, debes dominar el lenguaje natural:
-*   **Collocations**: No digas "do a decision", di *"make a decision"*. No digas "big problem", di *"major issue"*. Las colocaciones son el secreto de la fluidez natural.
-*   **Idiomatic Expressions**: Incorpora frases como *"at the end of the day"*, *"the silver lining"* o *"to cut a long story short"* para que tu discurso sea más rico y dinámico.
-*   **Speculating and Deducting**: Uso avanzado de modales (*must have, can't have, might have*) para analizar situaciones pasadas y presentes.
+Para ser un usuario B2 competente, debes dominar las combinaciones de palabras que los nativos usan de forma instintiva:
+*   **Advanced Collocations**: Deja de usar verbos genéricos. No digas "big improvement", di *"substantial improvement"*. No digas "get a result", di *"attain a result"*. Estas combinaciones te dan una pátina de profesionalidad instantánea.
+*   **Idiomatic Expressions for Business**: Incorpora frases idiomáticas que no suenen infantiles. Aprende el uso correcto de *"to cut to the chase"*, *"to be on the same page"* o *"to play it by ear"*.
+*   **Speculating and Deducting**: Uso avanzado de modales de deducción (*must have, might have, can't have*) para analizar causas de fallos técnicos o comportamientos de mercado.
 
-## 4. Phrasal Verbs Avanzados
+## 4. Comprensión Lectora y Auditiva: Entender la Intención
 
-En el **[curso de inglés B2](/blog/metodos/ingles-b2)**, profundizamos en verbos compuestos que cambian totalmente el tono de tu comunicación:
-*   **Get around to**: Encontrar el tiempo para hacer algo.
-*   **Look down on**: Menospreciar a alguien (término social/laboral).
-*   **Back down**: Retractarse de una opinión o posición.
-*   **Bring up**: Sacar un tema a colación en una reunión.
+Un estudiante de nivel B2 no solo entiende las palabras, sino el tono y la intención del autor o hablante:
+*   **Reading Complex Articles**: Aprende a sintetizar información de artículos de prensa especializada (*The Economist, Harvard Business Review*) identificando rápidamente los argumentos principales y las opiniones subyacentes.
+*   **Listening to Natural Speech**: En Focus English te exponemos a audios con ruido de fondo, diferentes acentos y habla rápida para que la vida real no te pille por sorpresa. Practicarás con podcasts, charlas TED y fragmentos de series sin subtítulos.
+*   **Identifying Bias**: Desarrollarás el ojo crítico para detectar sesgos, ironía y dobles sentidos en discursos políticos o comerciales.
 
-## 5. Hoja de Ruta de 3 Meses para Nivel C1
+## 5. Redacción de Textos Detallados y Persuasivos
 
-Pasar del B2 al C1 es un reto de inmersión y sofisticación:
-1.  **Mes 1**: Empieza a leer libros de no ficción o literatura en inglés sin recurrir constantemente al diccionario.
-2.  **Mes 2**: Escucha podcasts de nativos sobre temas técnicos (finanzas, tecnología, psicología) para ampliar tu registro.
-3.  **Mes 3**: Practica el uso de la inversión gramatical y estructuras de énfasis para dar autoridad a tus escritos y discursos.
+El examen Cambridge First (FCE) y la vida profesional exigen que seas capaz de escribir diferentes tipos de textos con registros adecuados:
+*   **Essays and Reports**: Cómo estructurar una introducción potente, desarrollar párrafos con coherencia y llegar a una conclusión lógica basada en evidencias.
+*   **Formal and Informal Emails**: Dominar la diferencia entre escribirle a un CEO o a un compañero de equipo. Consulta nuestra **[guía de emails profesionales](/blog/trabajo/redaccion-emails-profesionales-ingles)**.
+*   **Reviews and Articles**: Aprende a usar un lenguaje descriptivo y evaluativo para influir en la opinión de los demás sobre productos, servicios o experiencias.
+
+## 6. Hoja de Ruta de 3 Meses para Nivel C1 (Advanced)
+
+Pasar del B2 al C1 es el reto más grande para muchos estudiantes. Requiere un cambio de mentalidad:
+1.  **Mes 1**: Inmersión total. Cambia todos tus dispositivos a inglés y empieza a consumir 1 hora de contenido en inglés diario sobre temas que NO domines para forzar tu vocabulario.
+2.  **Mes 2**: Producción activa. Empieza a escribir reseñas en inglés sobre los libros que lees o las películas que ves. Busca un compañero de intercambio de idiomas para debates complejos.
+3.  **Mes 3**: Perfeccionamiento gramatical. Enfócate en las estructuras de inversión, oraciones de relativo complejas y en el uso de los *reporting verbs* avanzados para dar variedad a tu discurso.
 
 ---
 
-### Certifica tu fluidez con Focus English
+### Certifica tu fluidez con el Método Focus English B2
 
 A este nivel, la clave es la exposición constante y el feedback de alta calidad. El método Focus English para el Nivel B2 te ofrece:
 

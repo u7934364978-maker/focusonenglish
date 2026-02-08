@@ -15,103 +15,99 @@ Como profesor de Cambridge y experto en inglés corporativo, he seleccionado las
 
 ---
 
-## 1. Reuniones y Presentaciones (Meetings)
+## 1. Corporate Buzzwords: La Jerga de la Oficina Moderna
 
-| Situación | Frase en Inglés | Traducción / Uso |
-| :--- | :--- | :--- |
-| **Empezar** | *"Let's get down to business."* | Vamos al grano / Empecemos. |
-| **Opinar** | *"From my perspective..."* | Desde mi punto de vista... |
-| **Interrumpir** | *"Could I just jump in here?"* | ¿Puedo intervenir un momento? |
-| **Resumir** | *"To wrap up the meeting..."* | Para concluir la reunión... |
-| **Acordar** | *"I think we are on the same page."* | Creo que estamos de acuerdo. |
+En las empresas tecnológicas, startups y multinacionales de 2026, se utilizan términos que van más allá del inglés tradicional. Dominar estas "buzzwords" te hará sonar como un profesional integrado en la cultura corporativa actual.
 
----
+*   **Deep dive**: Analizar un problema o dato con gran nivel de detalle. *"We need to do a deep dive into the Q3 metrics to understand the churn rate."*
+*   **Pivot**: Cambiar de estrategia o modelo de negocio de forma ágil ante un cambio de mercado. *"Due to new regulations, we must pivot our focus towards renewable energy."*
+*   **Scalable**: Capacidad de un proceso o sistema para manejar el crecimiento sin perder calidad o eficiencia. *"Is this software architecture truly scalable for a global rollout?"*
+*   **Disruptive**: Innovación que rompe con lo establecido, creando un nuevo mercado. *"Our AI solution is a disruptive technology in the traditional accounting sector."*
+*   **Bandwidth**: Capacidad mental, tiempo o recursos para asumir una nueva tarea. *"I'd love to help, but I don't have the bandwidth for another project this week."*
+*   **Low-hanging fruit**: Tareas o metas fáciles de alcanzar que ofrecen resultados inmediatos. *"Let's focus on the low-hanging fruit first to show some quick wins to the board."*
 
-## 2. Emails y Comunicación Escrita
+## 2. Gestión de Proyectos (Project Management) y Metodologías Ágiles
 
-| Función | Frase en Inglés | Matiz |
-| :--- | :--- | :--- |
-| **Referencia** | *"With reference to our meeting..."* | Respecto a nuestra reunión... |
-| **Adjuntar** | *"Please find attached the report."* | Adjunto envío el informe. |
-| **Seguimiento** | *"I'm following up on my last email."* | Le escribo para dar seguimiento... |
-| **Urgencia** | *"As soon as possible (ASAP)"* | Lo antes posible. |
-| **Cierre** | *"I look forward to hearing from you."* | Quedo a la espera de noticias. |
+Si trabajas con marcos de trabajo como Scrum o Kanban, estos términos son esenciales para tus reuniones diarias (*Daily Standups*):
 
----
+*   **Scope creep**: El crecimiento descontrolado de un proyecto más allá de sus límites originales. *"We need to manage the client's expectations to avoid scope creep."*
+*   **Milestone**: Un hito crítico que marca el fin de una etapa importante. *"Completing the beta version is a major milestone for the engineering team."*
+*   **Deliverables**: Los resultados tangibles que se entregan al finalizar una fase. *"Make sure all the deliverables are uploaded to the shared folder by EOD (End of Day)."*
+*   **Bottleneck**: Punto de congestión en un sistema productivo que detiene el flujo. *"The legal review is currently the bottleneck in our contract process."*
+*   **To go live / Deployment**: El momento de lanzar un producto o funcionalidad al entorno real. *"We are scheduled to go live at midnight on Sunday."*
+*   **Sprint**: Periodo corto de tiempo (normalmente 2 semanas) en el que el equipo trabaja para completar tareas específicas.
 
-## 3. Negociaciones y Ventas
+## 3. Negociaciones y Finanzas: Hablando de Dinero y Acuerdos
 
-*   **Win-win situation**: Una situación en la que ambas partes ganan.
-*   **To reach an agreement**: Llegar a un acuerdo.
-*   **The bottom line**: Lo más importante / El beneficio neto.
-*   **To cut a deal**: Cerrar un trato.
-*   **Counter-offer**: Contraoferta.
+En una mesa de negociación, la precisión léxica es tu mejor defensa. No solo se trata de entender, sino de usar términos que demuestren autoridad.
 
----
+*   **Bottom line**: El beneficio neto de una empresa o el punto mínimo aceptable en un trato. *"At the end of the day, how does this affect our bottom line?"*
+*   **Leverage**: Usar algo que ya posees (un contacto, un dato, una ventaja) para conseguir un mejor resultado. *"We can use our market share as leverage during the merger talks."*
+*   **ROI (Return on Investment)**: El retorno de la inversión. *"We need a clear projection of the ROI before committing more capital."*
+*   **Overhead**: Los gastos fijos necesarios para operar el negocio (alquiler, luz, salarios administrativos). *"We need to reduce our overhead costs by 15%."*
+*   **Ballpark figure**: Una cifra aproximada o estimación inicial. *"Can you give me a ballpark figure of the implementation costs?"*
+*   **Win-win situation**: Un acuerdo donde ambas partes obtienen beneficios claros.
 
-## 📥 Material de Estudio: Diccionario de Negocios (100+ términos)
+## 4. Recursos Humanos y Liderazgo (HR and Leadership)
 
-Copia o imprime esta lista para tenerla en tu escritorio.
+Si gestionas personas o estás en un proceso de selección, estas frases te ayudarán a definir perfiles y culturas de trabajo.
 
-### A-Z de Términos Corporativos
-*   **Agenda**: Orden del día.
-*   **Assets**: Activos / Bienes.
-*   **Brainstorm**: Lluvia de ideas.
-*   **Budget**: Presupuesto.
-*   **CEO (Chief Executive Officer)**: Director Ejecutivo.
-*   **Core business**: Actividad principal de la empresa.
-*   **Deadline**: Fecha límite.
-*   **Feedback**: Comentarios / Retroalimentación.
-*   **Headquarters (HQ)**: Oficina central.
-*   **KPI (Key Performance Indicator)**: Indicador clave de rendimiento.
-*   **Market share**: Cuota de mercado.
-*   **Networking**: Red de contactos.
-*   **Outsourcing**: Subcontratación.
-*   **Overhead**: Gastos fijos / generales.
-*   **Quarter**: Trimestre.
-*   **ROI (Return on Investment)**: Retorno de la inversión.
-*   **Stakeholder**: Interesado / Parte interesada.
-*   **Start-up**: Empresa emergente.
-*   **Wholesale**: Venta al por mayor.
-*   **Workload**: Carga de trabajo.
+*   **Onboarding**: El proceso de integración de un nuevo empleado. *"Our onboarding process takes three days and covers all company policies."*
+*   **Upskilling / Reskilling**: Mejorar las habilidades actuales de un trabajador o enseñarle habilidades totalmente nuevas. *"Upskilling our staff in AI tools is our top priority for 2026."*
+*   **Soft skills**: Habilidades interpersonales (empatía, liderazgo, comunicación). *"We value soft skills just as much as technical expertise."*
+*   **Work-life balance**: Equilibrio entre la vida profesional y personal. *"Focus English promotes a healthy work-life balance through flexible remote work."*
+*   **Performance review**: Evaluación periódica del desempeño de un empleado. *"Your annual performance review is scheduled for next Tuesday."*
 
-### Frases Idiomáticas de Oficina (Business Idioms)
-*   **To stay on top of things**: Estar al día con las tareas.
-*   **To think outside the box**: Pensar de forma creativa.
-*   **To be in the loop**: Estar informado / Estar en el ajo.
-*   **A ballpark figure**: Una cifra aproximada.
-*   **To call it a day**: Dar el día por terminado.
-*   **Touch base**: Contactar brevemente para actualizar información.
-*   **Back to the drawing board**: Volver a empezar de cero.
-*   **Burn the midnight oil**: Trabajar hasta muy tarde.
+## 5. El Tono en la Comunicación: Diplomacia y Registro
 
----
+No escribes igual un contrato legal que un mensaje por Slack. Entender el registro es clave para la **atención al cliente internacional**.
 
-## 📥 Lista de Frases para el "Day-to-Day" (Versión Imprimible)
+### Emails Formales (Traditional Business)
+*   **Apertura**: *"Dear Mr. Smith / Dear Hiring Manager"*
+*   **Cierre**: *"Yours sincerely / Kind regards / Best regards"*
+*   **Estilo**: Se evitan las contracciones (*"I am writing" en lugar de "I'm writing"*). Se utiliza el condicional para sonar más educado (*"I would appreciate it if you could..."*).
 
-1.  *"Could you please walk me through the process?"* (¿Podría explicarme el proceso paso a paso?).
-2.  *"We need to touch base on the project's progress."* (Necesitamos hablar sobre el progreso del proyecto).
-3.  *"I'll look into it and get back to you by EOD (End Of Day)."* (Lo investigaré y te responderé antes de que acabe el día).
-4.  *"Let's put this on the back burner for now."* (Vamos a dejar esto en segundo plano por ahora).
-5.  *"The meeting has been pushed back to 3 PM."* (La reunión se ha pospuesto a las 3 PM).
-6.  *"We are running behind schedule."* (Vamos con retraso respecto al horario previsto).
-7.  *"Can you clarify what you mean by that?"* (¿Puede aclarar qué quiere decir con eso?).
-8.  *"I'm afraid that's not within our budget."* (Me temo que eso no entra en nuestro presupuesto).
-9.  *"We need to scale up our operations."* (Necesitamos ampliar nuestras operaciones).
-10. *"Thank you for your input."* (Gracias por su aportación/comentarios).
+### Comunicación Ágil (Slack, Teams, Discord)
+*   **Apertura**: *"Hi Team / Hey [Name]"*
+*   **Cierre**: *"Thanks! / Best / Cheers"*
+*   **Estilo**: Uso de acrónimos profesionales:
+    *   **FYI**: For Your Information (Para tu información).
+    *   **EOD / EOW**: End of Day / End of Week (Al final del día / semana).
+    *   **OOO**: Out of Office (Fuera de la oficina).
+    *   **IMO / IMHO**: In My (Humble) Opinion (En mi humilde opinión).
+
+## 6. Phrasal Verbs: El Corazón del Inglés de Negocios
+
+Los verbos compuestos son la pesadilla de muchos estudiantes, pero en el entorno laboral son inevitables y muy eficientes.
+
+*   **Circle back**: Retomar un tema en un momento posterior. *"Let's circle back to the budget discussion once we have the final quotes."*
+*   **Take offline**: Discutir un tema en privado o fuera de la reunión actual para no perder tiempo. *"That's a very specific technical issue; let's take it offline."*
+*   **Draw up**: Preparar y redactar un documento formal. *"The legal department is drawing up the non-disclosure agreement (NDA)."*
+*   **Fill in for**: Sustituir a alguien que está ausente. *"I'll be filling in for Sarah during her maternity leave."*
+*   **Fall through**: Cuando un plan o negociación fracasa inesperadamente. *"Unfortunately, the partnership fell through due to a lack of funding."*
+*   **Step down**: Renunciar a un cargo de responsabilidad. *"The CEO decided to step down after ten years at the helm."*
+
+## 7. Networking y Socialización: El "Small Talk" Profesional
+
+El negocio no siempre se cierra en la oficina. Saber socializar en inglés es fundamental en conferencias y cenas de negocios.
+
+*   **Elevator pitch**: Presentación de 30 segundos sobre quién eres y qué haces.
+*   **To touch base**: Contactar brevemente con alguien para ponerse al día. *"I'm just calling to touch base and see how the project is going."*
+*   **To break the ice**: Romper el hielo en una situación tensa o nueva.
+*   **Keep me in the loop**: Mantenme informado sobre los avances. *"Please keep me in the loop regarding the client's feedback."*
 
 ---
 
 ## Preguntas Frecuentes (FAQs)
 
-### ¿Cómo puedo mejorar mi inglés comercial gratis?
-Lo más efectivo es leer noticias financieras (BBC Business, The Economist) y escuchar podcasts específicos de negocios en inglés. También puedes usar las guías de **Focus English** para practicar situaciones reales.
+### ¿Cuál es la diferencia real entre "General English" y "Business English"?
+El inglés general se centra en la comunicación social y la supervivencia diaria. El inglés de negocios se enfoca en la **eficiencia, la diplomacia y la persuasión**. En negocios, el tiempo es dinero, por lo que se prefieren estructuras claras y un vocabulario preciso que evite malentendidos legales o comerciales.
 
-### ¿Es mejor el inglés británico o el americano para los negocios?
-Ambos son aceptados globalmente. Lo importante es ser consistente. Si usas *Labour* (UK), usa *Organise* (UK); si usas *Labor* (US), usa *Organize* (US).
+### ¿Es necesario tener un nivel C1 para usar Business English?
+No. Puedes empezar a usar vocabulario de negocios desde un nivel B1. De hecho, es más efectivo aprender el vocabulario específico de tu trabajo a la vez que mejoras tu gramática general. Un nivel B2 suele ser el estándar para la mayoría de puestos corporativos internacionales.
 
-### ¿Cómo sonar más educado en una reunión?
-Usa verbos modales (*Could, Would, May*) y evita frases demasiado directas. En lugar de decir "I don't like it", di "I have some concerns about this approach".
+### ¿Cómo puedo sonar más asertivo en inglés?
+Evita usar demasiados "suavizadores" como *"maybe"*, *"I think"* o *"I'm not sure"*. En su lugar, usa verbos modales de seguridad: *"We will deliver..."* o *"I am confident that..."*.
 
 ---
 

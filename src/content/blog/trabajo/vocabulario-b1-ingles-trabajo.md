@@ -63,15 +63,64 @@ Es imposible hablar de la vida cotidiana hoy en día sin mencionar la tecnologí
 - **Device / Gadget**: Palabras generales para referirse a la tecnología.
 - **Online privacy**: La privacidad en la red.
 
-## Expresiones Útiles para Ganar Fluidez
+## Expresiones Útiles y Phrasal Verbs de Nivel B1
 
-En el nivel B1, los examinadores valoran mucho el uso de *phrasal verbs* sencillos y expresiones idiomáticas comunes:
+En el nivel B1, los examinadores (de Cambridge, Aptis o EOI) valoran mucho que dejes de usar verbos simples y empieces a incorporar *phrasal verbs* comunes. Estos son los imprescindibles que debes dominar:
 
-- **Look forward to**: Estar deseando algo (muy útil en correos electrónicos).
-- **Find out**: Descubrir o enterarse de algo.
-- **Give up**: Dejar un hábito o rendirse.
-- **In my opinion / From my point of view**: Formas de introducir tus ideas.
-- **Actually**: Un "false friend" que significa "de hecho" o "en realidad", no "actualmente".
+*   **Get on with**: Llevarse bien con alguien. *"I get on very well with my new colleagues."*
+*   **Look for**: Buscar algo. *"I'm looking for a new challenge in my career."*
+*   **Turn on / Turn off**: Encender o apagar dispositivos.
+*   **Put off**: Posponer algo. *"We had to put off the meeting until next Tuesday."*
+*   **Take off**: Despegar (aviones) o quitarse una prenda de ropa.
+*   **Pick up**: Recoger a alguien o algo. *"Can you pick me up from the station at 5 PM?"*
+
+---
+
+## El Secreto de las Colocaciones (Collocations)
+
+Un error común en el nivel B1 es traducir palabra por palabra desde el español. El inglés funciona por "bloques de palabras" que siempre van juntas. Aprender estas parejas te hará sonar mucho más natural.
+
+### Colocaciones de Trabajo
+*   **Do a course**: Hacer un curso (no *make* a course).
+*   **Make a decision**: Tomar una decisión.
+*   **Run a business**: Dirigir un negocio.
+*   **Meet a deadline**: Cumplir con una fecha límite.
+*   **Take a break**: Tomarse un descanso.
+
+### Colocaciones de Viajes
+*   **Go on holiday**: Irse de vacaciones.
+*   **Catch a bus/train**: Coger el autobús o tren.
+*   **Get lost**: Perderse.
+*   **Book in advance**: Reservar con antelación.
+
+---
+
+## Conectores Lógicos: Uniendo tus Ideas
+
+Para pasar de un nivel A2 a un B1, debes dejar de usar frases cortas y simples (*"I like coffee. I don't like tea"*) y empezar a usar conectores que den fluidez a tu discurso:
+
+1.  **Contrast (Contraste)**: *However, Although, Even though.* *"I love traveling; however, I don't like long flights."*
+2.  **Addition (Añadir información)**: *Furthermore, In addition, Also.* *"The hotel was cheap. In addition, it was near the city center."*
+3.  **Cause and Effect (Causa y efecto)**: *Therefore, Because of, That's why.* *"The flight was delayed; therefore, I missed the connection."*
+4.  **Sequence (Orden)**: *First of all, Then, Finally.*
+
+---
+
+## Preguntas Frecuentes (FAQ) sobre el Vocabulario B1
+
+### ¿Cuántas palabras necesito saber para el nivel B1?
+Aunque no hay un número exacto, se estima que un estudiante de nivel B1 debe dominar de forma activa entre **2.000 y 2.500 palabras**. Sin embargo, tu vocabulario pasivo (lo que entiendes al leer o escuchar) suele ser casi el doble.
+
+### ¿Cuál es la diferencia entre el vocabulario B1 y B2?
+En el nivel B1, el vocabulario es concreto y cotidiano. En el B2, empiezas a usar términos más abstractos, matices de opinión, modismos (*idioms*) más complejos y un lenguaje más formal o académico.
+
+### ¿Cómo sé si una palabra es de nivel B1?
+La mayoría de los diccionarios modernos (como Oxford o Cambridge) incluyen etiquetas como **A1, B1, C2** junto a las palabras. Te recomendamos centrarte en las palabras etiquetadas como B1 para no saturarte con términos demasiado avanzados que aún no necesitas usar.
+
+### ¿Es malo usar "palabras simples" en B1?
+No es malo, pero para obtener una buena nota en un examen oficial, debes demostrar variedad. En lugar de usar siempre *"Good"*, intenta usar *"Great"*, *"Amazing"*, *"Fantastic"* o *"Excellent"*.
+
+---
 
 ## Cómo Aprender Vocabulario Efectivamente
 

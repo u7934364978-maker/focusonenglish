@@ -27,63 +27,80 @@ En un mercado laboral globalizado, la entrevista en inglés es el último obstá
 
 ---
 
-## 💼 Fase 1: Las Preguntas "Rompehielo"
+## 💼 Fase 1: Preparación Psicológica y Control de la Ansiedad
 
-La primera impresión se forma en los primeros 2 minutos. Prepárate para las preguntas introductorias que marcan el tono de toda la entrevista.
+La mayoría de los candidatos fallan no por falta de conocimientos, sino por el impacto del estrés en su fluidez lingüística. Cuando estamos nerviosos, nuestro cerebro tiende a revertir al idioma nativo, lo que provoca los temidos bloqueos o el uso excesivo de "Spanglish".
 
-### Frases de Éxito (ES → EN)
+*   **Mindset de Consultor:** No vayas a la entrevista como alguien que "pide" un trabajo, sino como un consultor externo que viene a resolver los problemas de la empresa. Esto cambia tu tono de voz y tu elección de palabras hacia un registro más proactivo y profesional.
+*   **La Regla de los 3 Segundos:** Antes de responder a una pregunta compleja, respira y cuenta hasta tres. En inglés, esto no se percibe como duda, sino como reflexión y seguridad (*thoughtfulness*).
+*   **Visualización Positiva:** Dedica 5 minutos antes de la conexión o la llegada a la oficina a visualizarte respondiendo con calma y sonriendo. El lenguaje corporal empieza en la mente.
 
-| Concepto | Español | Inglés (Professional Tone) |
-|----------|---------|----------------------------|
-| Experiencia | Llevo más de 5 años trabajando en... | I have over 5 years of experience in... |
-| Habilidades | Soy experto en la gestión de equipos... | I specialize in team management and... |
-| Motivación | Me motiva el impacto que vuestra empresa tiene en... | I'm motivated by the impact your company has on... |
-| Disponibilidad | Estoy disponible para empezar de inmediato. | I'm available to start immediately. |
+## 🤝 Fase 2: Lenguaje No Verbal en el Entorno Virtual y Presencial
 
-### Diálogo: "Tell me about yourself"
-
-**Interviewer:** "So, to start off, could you tell me a bit about yourself?"
-**Candidate:** "Certainly. I'm a Senior Marketing Professional with a focus on digital growth. For the last 3 years, I've been leading the expansion of [Company Name] into the European market, where we achieved a 40% increase in revenue. I'm now looking to apply my expertise in a more global environment like yours."
+En 2026, muchas entrevistas son remotas. Tu lenguaje corporal a través de la webcam es tan importante como tus palabras:
+*   **Eye Contact (Contacto Visual):** Mira a la cámara, no a la pantalla. Esto simula que estás mirando a los ojos del entrevistador y genera confianza (*trustworthiness*).
+*   **Hand Gestures:** No escondas las manos. Usar las manos de forma moderada para enfatizar puntos clave demuestra entusiasmo y transparencia.
+*   **Posture:** Mantén la espalda recta pero no rígida. Una postura abierta proyecta que eres una persona accesible y segura de sí misma.
 
 ---
 
-## 🎯 Fase 2: Preguntas de Comportamiento (STAR Method)
+## 🎯 Fase 3: El Método STAR en Profundidad (Evidencia Empírica)
 
-En 2026, las empresas buscan evidencias. No digas que eres "bueno trabajando bajo presión", **demuéstralo**.
+En el mercado laboral actual, no basta con decir que eres un buen líder; tienes que demostrarlo con datos. El método STAR es la estructura lógica que esperan los reclutadores de empresas como Amazon, Google o Microsoft.
 
-### Respuestas típicas y qué buscan realmente
+*   **S (Situation):** Contexto breve. ¿Dónde y cuándo ocurrió?
+*   **T (Task):** ¿Cuál era el reto o el problema específico?
+*   **A (Action):** ¿Qué hiciste TÚ? Aquí es donde debes usar los *action verbs* que mencionamos más abajo.
+*   **R (Result):** ¿Cuál fue el desenlace? Usa números si es posible (ahorro de costes, aumento de ventas, reducción de tiempo).
 
-- **"Tell me about a time you failed."**
-  - *Lo que buscan:* Resiliencia y capacidad de aprendizaje (Growth Mindset).
-- **"How do you handle conflict in a team?"**
-  - *Lo que buscan:* Inteligencia emocional y habilidades de negociación.
-
-### ❌ Errores Críticos que debes evitar
-
-1. **Usar "I" para todo:** En lugar de decir "I did this", usa **"We achieved this"** si fue un esfuerzo de equipo, pero destaca tu rol específico.
-2. **Abusar de muletillas:** Evita el "ehhh..." o "you know...". Usa silencios breves para pensar, proyectan seguridad.
-3. **Traducir literalmente del español:** No digas "I have 30 years" (tengo 30 años), di **"I am 30 years old"** o mejor aún, evita hablar de edad y céntrate en experiencia.
+**Ejemplo Ganador:**
+*"En mi anterior puesto (S), las ventas habían caído un 10% (T). Implementé una nueva estrategia de SEO y marketing de contenidos (A), lo que resultó en un incremento del 25% en el tráfico orgánico en solo 4 meses (R)."*
 
 ---
 
-## 📈 Fase 3: Vocabulario de Alto Impacto (Action Verbs)
+## 📈 Fase 4: Vocabulario de Alto Impacto (Power Verbs)
 
-Sustituye verbos débiles por verbos de acción que denoten liderazgo y ejecución.
+Sustituye verbos genéricos y débiles por palabras que denotan liderazgo, autonomía y capacidad de ejecución.
 
-- ❌ **"I was in charge of..."** → ✅ **"I spearheaded the initiative for..."**
-- ❌ **"I helped the team..."** → ✅ **"I collaborated with the team to..."**
-- ❌ **"I made the process better..."** → ✅ **"I optimized the process, resulting in..."**
+| Verbo Débil | Power Verb (Impacto) | Ejemplo de Uso |
+| :--- | :--- | :--- |
+| **I was in charge of...** | I spearheaded... | I spearheaded the digital transformation project... |
+| **I helped the team...** | I collaborated with... | I collaborated with cross-functional teams to... |
+| **I made it better...** | I optimized... | I optimized the supply chain process, reducing costs... |
+| **I started...** | I launched / I pioneered... | I pioneered a new customer loyalty program... |
+| **I solved...** | I resolved / I troubleshot... | I resolved a major technical conflict that affected... |
+
+---
+
+## 🧐 Fase 5: Cómo Responder a Preguntas Difíciles y "Tricky Questions"
+
+A veces, el entrevistador lanzará preguntas diseñadas para sacarte de tu zona de confort:
+
+*   **"What is your greatest weakness?"**: No digas que eres perfeccionista (es un cliché). Menciona una debilidad real y, lo más importante, qué pasos estás dando para mejorarla (*"I used to struggle with public speaking, so I joined a Toastmasters club..."*).
+*   **"Why should we hire you instead of other candidates?"**: Céntrate en tu propuesta única de valor (*Unique Value Proposition*). ¿Qué combinación de habilidades técnicas y blandas te hace especial para ESTE puesto concreto?
+*   **"Tell me about a time you had a conflict with a manager."**: Nunca hables mal de antiguos jefes. Enfócate en cómo gestionaste la situación de forma profesional y qué aprendiste del proceso de resolución.
+
+---
+
+## 📧 Fase 6: El Seguimiento Estratégico (The Follow-up)
+
+La entrevista no termina cuando sales de la sala o cierras la pestaña de Zoom. Un email de agradecimiento bien redactado en las siguientes 24 horas puede inclinar la balanza a tu favor.
+
+**Puntos clave del Follow-up:**
+1.  Agradece el tiempo del entrevistador.
+2.  Menciona algo específico de la conversación para demostrar que estabas atento.
+3.  Reitera tu entusiasmo por el puesto y por qué crees que encajas perfectamente.
 
 ---
 
 ## 🚀 Plan de 5 Minutos: Prepárate ahora mismo
 
-Si tienes una entrevista en una hora:
-1. **Revisa 3 logros clave:** Escríbelos en una frase corta con un número (ej: "Managed $50k budget").
-2. **Practica tu introducción frente al espejo:** Asegúrate de sonreír y mantener contacto visual.
-3. **Prepara 2 preguntas para ellos:** Demuestra que has investigado a la empresa.
+Si tienes una entrevista en una hora y los nervios te están ganando:
+1.  **Revisa 3 logros clave:** Escríbelos en una frase corta con un número (ej: "Managed $50k budget", "Reduced errors by 15%").
+2.  **Practica tu introducción (Elevator Pitch) frente al espejo:** Asegúrate de que dure entre 60 y 90 segundos.
+3.  **Prepara 2-3 preguntas inteligentes para ellos:** *"How does the team handle professional development?"* o *"What does success look like in this role after 6 months?"*. Esto demuestra proactividad y visión a largo plazo.
 
-### 🎓 Domina tu carrera internacional
+### 🎓 Domina tu carrera internacional con Focus English
 
 No dejes que tu nivel de inglés sea el techo de tu carrera. En Focus English ayudamos a profesionales como tú a conseguir el puesto que merecen.
 

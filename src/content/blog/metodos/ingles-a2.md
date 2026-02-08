@@ -24,45 +24,62 @@ En **Focus English**, te ayudamos a conectar los conocimientos básicos para que
 
 ## 1. ¿Qué habilidades dominarás en el Nivel A2?
 
-Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos según el MCER:
+Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos según el Marco Común Europeo de Referencia (MCER):
 
-*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana o cómo fue tu último viaje. Domina los tiempos verbales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
-*   **Expresar Planes Futuros**: Serás capaz de hablar de tus próximos proyectos, citas médicas o metas personales con seguridad.
-*   **Vocabulario del Día a Día**: Amplía tu léxico sobre el trabajo, las compras y el entorno local en nuestro **[hub de vocabulario](/blog/vocabulario)**.
-*   **Autonomía en el Extranjero**: Tendrás la capacidad de resolver situaciones habituales en tiendas, bancos, oficinas de correos y turismo.
+*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana, describir tus últimas vacaciones o relatar eventos de tu infancia. Domina los tiempos verbales en nuestro **[hub de gramática](/blog/temas/gramatica-inglesa)**.
+*   **Expresar Planes y Ambiciones**: Serás capaz de hablar de tus próximos proyectos, citas programadas o lo que te gustaría hacer en el futuro con seguridad.
+*   **Vocabulario del Día a Día**: Amplía tu léxico sobre el trabajo, la familia, las compras y el entorno local en nuestro **[hub de vocabulario](/blog/vocabulario)**.
+*   **Autonomía en el Extranjero**: Tendrás la capacidad de resolver situaciones habituales en tiendas, bancos, oficinas de correos y transporte público.
+*   **Descripción de Entornos**: Podrás describir tu casa, tu barrio y tu lugar de trabajo con detalle, comparando diferentes opciones.
 
 ## 2. Narrativa y Tiempos Pasados: Tu Historia Cuenta
 
-En el nivel A2, el **Past Simple** es el rey. Sin embargo, para sonar natural, aprenderás a combinarlo:
-*   **Irregular Verbs**: No más listas interminables. Aprende los verbos que realmente usas (*went, saw, bought, had*) a través de contextos prácticos.
-*   **Present Perfect vs Past Simple**: Introducimos la diferencia entre hablar de una experiencia general (*"I have been to London"*) y un momento específico (*"I went to London in 2022"*).
-*   **Narrative Linkers**: Usa palabras como *then, after that, suddenly* y *finally* para que tus historias tengan sentido y ritmo.
+En el nivel A2, el **Past Simple** es el rey. Es la herramienta que te permite dejar de hablar solo del "ahora" para empezar a compartir tu historia personal. Para sonar natural, aprenderás a combinarlo de forma efectiva:
+*   **Irregular Verbs**: No más listas interminables y aburridas. En Focus English, aprendes los verbos que realmente usas en la vida real (*went, saw, bought, had, told*) a través de contextos prácticos y juegos de memoria.
+*   **Present Perfect vs Past Simple**: Introducimos la diferencia fundamental entre hablar de una experiencia general sin fecha específica (*"I have been to London"*) y un momento concreto en el tiempo (*"I went to London last summer"*).
+*   **Narrative Linkers**: El secreto de la fluidez elemental está en los conectores. Usa palabras como *then, after that, suddenly* y *finally* para que tus historias no parezcan una lista de frases sueltas, sino un relato con ritmo.
 
-## 3. Comparaciones y Descripciones Detalladas
+## 3. Comparaciones, Direcciones y Vida Urbana
 
-Para moverte con soltura en el nivel A2, debes poder elegir y opinar.
-*   **Comparatives and Superlatives**: *"This hotel is cheaper than the other one"*, *"The most beautiful place I've visited is..."*.
-*   **Adjectives of Opinion**: Aprende a usar palabras como *crowded, peaceful, expensive* o *delicious* para dar color a tus conversaciones.
-*   **Physical Descriptions**: Describe a personas (apariencia y carácter) de forma respetuosa y precisa.
+Para moverte con soltura en una ciudad de habla inglesa, debes ser capaz de elegir, opinar y pedir ayuda.
+*   **Comparatives and Superlatives**: Aprenderás a tomar decisiones informadas: *"This hotel is cheaper than the other one, but that one is the most beautiful in the city"*.
+*   **Giving Directions**: Olvídate de perderte. Te enseñamos a entender y dar indicaciones precisas: *"Go straight on"*, *"Turn left at the traffic lights"*, *"It's opposite the bank"*.
+*   **Shopping and Money**: Domina las frases para ir de compras, preguntar precios, pedir tallas y gestionar devoluciones. Entenderás la diferencia entre *"How much is it?"* y *"How much are they?"* de forma instintiva.
 
-## 4. Introducción a los Phrasal Verbs
+## 4. Salud, Bienestar y el Cuerpo Humano
 
-No esperes al nivel B2 para empezar con los verbos compuestos. En el A2, dominamos los esenciales para la rutina:
-*   **Wake up / Get up**: Empezar el día.
-*   **Look for**: Buscar algo que has perdido.
-*   **Turn on / Turn off**: Manejar la tecnología y las luces.
-*   **Go out**: Salir a divertirse.
+En el nivel A2, es vital poder comunicar cómo te sientes físicamente, especialmente si estás de viaje o trabajando en el extranjero.
+*   **Parts of the Body**: Vocabulario esencial desde la cabeza hasta los pies.
+*   **Describing Symptoms**: Aprende a decir *"I have a headache"*, *"I feel dizzy"* o *"I've got a sore throat"*.
+*   **At the Doctor**: Simulaciones de conversaciones con un médico o farmacéutico para pedir medicamentos básicos o explicar una emergencia leve. Consulta nuestra **[guía de inglés para emergencias](/blog/viajes/ingles-emergencias-viaje)**.
 
-## 5. Hoja de Ruta de 3 Meses para Nivel B1
+## 5. Rutinas y Phrasal Verbs Esenciales
 
-El salto al nivel intermedio requiere estrategia:
-1.  **Mes 1**: Afianza el Past Simple y empieza a escuchar podcasts para estudiantes de nivel elemental.
-2.  **Mes 2**: Domina el futuro (*will* vs *going to*) y las preposiciones de lugar y tiempo.
-3.  **Mes 3**: Empieza con la voz pasiva básica y los verbos modales de posibilidad (*might, could*).
+No esperes al nivel B2 para empezar con los verbos compuestos. En el A2, dominamos los esenciales para describir tu día a día sin complicaciones:
+*   **Wake up / Get up**: La diferencia entre abrir los ojos y salir de la cama.
+*   **Look for**: Vital para cuando pierdes las llaves o buscas una dirección.
+*   **Turn on / Turn off**: Imprescindible para manejar la tecnología en la oficina o en casa.
+*   **Go out / Stay in**: Para hablar de tus planes de ocio y vida social.
+*   **Pick up**: Ya sea recoger a alguien en el aeropuerto o recoger algo del suelo.
+
+## 6. Relative Clauses: Conectando Ideas como un Pro
+
+Una de las marcas distintivas del nivel A2 es el uso de los pronombres relativos (*who, which, that, where*) para dar descripciones más ricas sin repetir el sujeto constantemente:
+*   *"The man **who** lives next door is a teacher."*
+*   *"The restaurant **where** we ate yesterday was great."*
+*   *"The book **that** I'm reading is very interesting."*
+Esta pequeña estructura gramatical hará que tu inglés suene mucho más avanzado y conectado de lo que realmente es.
+
+## 7. Hoja de Ruta de 3 Meses para Alcanzar el Nivel B1 (Pre-Intermedio)
+
+El salto del nivel elemental al intermedio requiere constancia y una estrategia clara:
+1.  **Mes 1**: Afianza el Past Simple y los verbos irregulares. Empieza a escuchar podcasts diseñados para estudiantes de nivel A2 para acostumbrar el oído.
+2.  **Mes 2**: Domina el futuro (*will* vs *going to*) y las preposiciones de lugar y tiempo (*in, on, at*). Empieza a escribir un diario sencillo de 5 líneas cada noche.
+3.  **Mes 3**: Empieza a familiarizarte con la voz pasiva básica y los verbos modales de posibilidad y permiso (*can, could, may, might*). Intenta ver series cortas con subtítulos en inglés.
 
 ---
 
-### Desbloquea tu fluidez con Focus English
+### Desbloquea tu fluidez con el Método Focus English A2
 
 En el nivel elemental, el mayor reto es la fluidez y el "oído". Por eso, el método Focus English para el Nivel A2 incluye:
 

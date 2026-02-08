@@ -34,63 +34,81 @@ En un mundo cada vez más conectado, el inglés sigue siendo la lengua franca de
 
 Un curso efectivo no te abrumará con gramática compleja. En su lugar, se centrará en los momentos críticos de cualquier viaje:
 
-### 1. En el Aeropuerto y el Avión
-- Pasar por inmigración y aduanas sin nervios.
-- Entender los anuncios de las puertas de embarque.
-- Pedir lo que necesitas a los auxiliares de vuelo.
+## ✈️ Lo que aprenderás en un curso de inglés para viajar de alto rendimiento
 
-### 2. Alojamiento: Del Check-in al Check-out
-- Confirmar tu reserva y pedir servicios adicionales.
-- Explicar problemas con la habitación (¡como que no haya agua caliente!).
-- Pedir recomendaciones locales al recepcionista.
+Un curso efectivo no te abrumará con gramática compleja que olvidarás a los cinco minutos. En su lugar, se centrará en los momentos críticos de cualquier viaje internacional, dándote plantillas mentales listas para usar.
 
-### 3. Moverse por la Ciudad
-- Comprar billetes de metro, tren o autobús.
-- Pedir indicaciones si te pierdes.
-- Usar aplicaciones de transporte de forma efectiva en entornos angloparlantes.
+### 1. En el Aeropuerto y el Avión: El inicio de la aventura
+El aeropuerto es a menudo el lugar más estresante por las prisas y la seguridad.
+*   **Inmigración y Aduanas:** Aprende a responder con precisión sobre tu propósito de viaje (*leisure or business*), duración de la estancia y lugar de alojamiento. No saber responder puede causar retrasos innecesarios.
+*   **Gestión de Equipaje:** Frases para reportar equipaje perdido (*lost luggage*) o dañado en el mostrador de reclamaciones.
+*   **Anuncios de Puerta:** Entiende los cambios de puerta (*gate changes*) y los retrasos (*delays*) sin pánico.
+
+### 2. Alojamiento: Del Check-in a la Resolución de Problemas
+Tu hotel o Airbnb es tu base de operaciones. Debes sentirte cómodo pidiendo lo que necesitas.
+*   **Confirmación y Servicios:** *"I have a reservation under the name of..."*. Aprende a preguntar por el Wi-Fi, el horario del desayuno y si pueden guardar tus maletas tras el check-out (*luggage storage*).
+*   **The Art of Complaining (El arte de reclamar):** Si la habitación no está limpia o el aire acondicionado no funciona, saber pedir un cambio de forma educada pero firme es vital: *"I'm afraid there's an issue with my room..."*.
+
+### 3. Movilidad y Transporte: Muévete como un local
+Comprar billetes de metro o pedir un taxi requiere un vocabulario específico para evitar timos o confusiones de destino.
+*   *"Is this the right platform for [Destination]?"*
+*   *"How often do the trains run?"*
+*   *"Could you drop me off at the main entrance, please?"*
 
 ---
 
-## 🍽️ Comer y Comprar: Disfruta la experiencia local
+## 🍽️ Comer, Comprar y Socializar: La verdadera esencia del viaje
 
-Uno de los mayores placeres de viajar es la gastronomía. Con un buen **curso de inglés para viajar**, podrás:
-- Reservar mesa en los mejores restaurantes.
-- Explicar alergias alimentarias o preferencias.
-- Entender el menú y las recomendaciones del chef.
-- Regatear o pedir tallas y precios en las tiendas.
+Uno de los mayores placeres de viajar es la gastronomía y conocer gente nueva. Con un buen **curso de inglés para viajar**, podrás:
+*   **Reservas y Alergias:** Indispensable para viajeros con dietas específicas. *"I'm allergic to nuts, does this dish contain any?"*.
+*   **Small Talk con otros viajeros:** El inglés es la herramienta para hacer amigos en hostales, tours o cafeterías. Aprende a preguntar *"Where are you from?"* o *"Do you have any recommendations for things to do nearby?"*.
+*   **Shopping y Regateo:** En muchos mercados internacionales, el regateo es parte de la cultura. Aprende a decir de forma natural *"Is that your best price?"* o *"Do you have this in a larger size?"*.
+
+---
+
+## ⚠️ 4. Supervivencia y Emergencias: Lo que esperas no usar nunca
+
+Un buen curso de inglés para turistas debe incluir una sección de seguridad. Saber pedir ayuda puede marcar la diferencia en una situación crítica.
+*   **Salud:** *"I need to see a doctor"* o *"Where is the nearest pharmacy?"*.
+*   **Seguridad:** *"I've lost my passport/wallet"*. Aprende a comunicarte con la policía o el consulado de forma clara.
+*   **Farmacia:** Vocabulario sobre síntomas comunes como *headache, stomachache, sunburn* o *motion sickness* (mareo por movimiento).
+
+---
+
+## 🌍 5. Etiqueta Cultural y Comunicación No Verbal
+
+El inglés se habla de forma diferente en Londres que en Nueva York o Sídney. Además, la cultura influye en cómo usamos el idioma.
+*   **Politeness (Cortesía):** En el mundo anglosajón, el uso de *"Please"*, *"Thank you"*, *"Excuse me"* y *"I'm sorry"* es mucho más frecuente que en español. No usarlos puede hacerte parecer rudo sin intención.
+*   **Propinas (Tipping):** Aprende a preguntar discretamente si el servicio está incluido: *"Is service included in the bill?"*.
 
 ---
 
 ## 🤖 Practica sin miedo con IA antes de tu vuelo
 
-El mayor problema de los métodos tradicionales es que no te preparan para la "vida real". Puedes saber la teoría, pero bloquearte al llegar al mostrador de inmigración.
+El mayor problema de los métodos tradicionales es que no te preparan para la "vida real". Puedes saber la teoría, pero bloquearte al llegar al mostrador de inmigración de la Terminal 5 de Heathrow.
 
 En **Focus English**, utilizamos simulaciones avanzadas de IA para que puedas practicar:
-- **Diálogos de Inmigración:** Responde a preguntas sobre tu estancia y propósito del viaje.
-- **Situaciones de Emergencia:** Aprende a pedir ayuda médica o reportar un objeto perdido.
-- **Conversaciones de Restaurante:** Practica cómo pedir y pagar la cuenta.
+*   **Diálogos de Inmigración:** Responde a preguntas reales de un oficial simulado.
+*   **Check-in de Hotel:** Practica cómo pedir una habitación más tranquila o una cama extra.
+*   **Conversaciones de Restaurante:** Practica cómo pedir platos complejos y gestionar el pago.
 
-> 🌍 **Dato Curioso:** Los estudiantes que practican con simuladores de IA reportan un 60% menos de ansiedad al hablar con nativos durante sus viajes.
-
----
-
-## 🎒 3 Frases de Oro para tu próximo viaje
-
-Si quieres empezar hoy mismo, memoriza estas tres estructuras versátiles:
-
-1. **"Could you tell me how to get to...?"** (¿Podría decirme cómo llegar a...?)
-2. **"I have a reservation under the name of..."** (Tengo una reserva a nombre de...)
-3. **"Is there a [pharmacy/ATM/station] nearby?"** (¿Hay una [farmacia/cajero/estación] cerca?)
+> 🌍 **Dato Curioso:** Los estudiantes que practican con simuladores de IA reportan un 60% menos de ansiedad al hablar con nativos durante sus viajes, ya que han "vivido" la situación previamente en un entorno seguro.
 
 ---
 
-## 🎓 Conclusión: Despega con confianza
+## 🎒 Tu kit de supervivencia: 5 Frases de Oro
 
-No dejes que el idioma limite tus fronteras. Un **curso de inglés para viajar** diseñado para el siglo XXI te dará las herramientas necesarias para disfrutar cada segundo de tu aventura.
+Si tu vuelo sale mañana, memoriza estas estructuras:
+1.  **"Could you tell me how to get to...?"** (¿Podría decirme cómo llegar a...?)
+2.  **"I'd like to order [Dish/Drink], please."** (Me gustaría pedir..., por favor.)
+3.  **"What time does the [bus/train] leave?"** (¿A qué hora sale el...?)
+4.  **"Do you accept credit cards?"** (¿Aceptan tarjetas de crédito?)
+5.  **"I'm sorry, I didn't quite catch that. Could you repeat it slowly?"** (Lo siento, no lo he entendido bien. ¿Podría repetirlo despacio?)
 
-En **Focus English**, tenemos rutas específicas para viajeros que quieren resultados rápidos y prácticos.
+---
 
-**¿Listo para tu próxima aventura?**
-[👉 Empieza tu curso de inglés para viajar hoy mismo](/cuenta/registro?plan=travel)
+## 🎓 Conclusión: Despega hacia una experiencia sin límites
 
-¡El mundo te espera y ahora tienes las palabras para descubrirlo! 🛫🗺️
+No dejes que el idioma sea una barrera entre tú y el mundo. Un **curso de inglés para viajar** diseñado para 2026 te da la libertad de explorar, descubrir y conectar sin miedos.
+
+En **Focus English**, hemos ayudado a miles de viajeros a convertir su "inglés de instituto" en una herramienta de supervivencia y disfrute real. Nuestras rutas son cortas, prácticas y 100% enfocadas en lo que verás al bajar del avión.

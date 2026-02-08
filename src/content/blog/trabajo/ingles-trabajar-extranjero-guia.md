@@ -17,42 +17,79 @@ En esta guía, desglosamos las áreas críticas que debes dominar para integrart
 
 Si buscas mejorar tu comunicación escrita, no te pierdas nuestra guía de **[emails en inglés profesional](/blog/trabajo/business-english-emails)**.
 
-## 1. El Proceso de Selección: CV y Entrevistas
+## 1. El Proceso de Selección: CV, LinkedIn y Estrategia de Marca Personal
 
-Tu primer contacto con el mercado laboral extranjero será a través de tu documentación y las entrevistas. Aquí, el **[vocabulario profesional en inglés](/blog/trabajo/ingles-trabajar-extranjero-guia)** debe ser impecable.
+Tu primer contacto con el mercado laboral extranjero será a través de tu documentación y tu presencia digital. Aquí, el **[vocabulario profesional en inglés](/blog/trabajo/ingles-trabajar-extranjero-guia)** debe ser impecable y adaptado a los estándares internacionales (como el formato *Resume* en EE. UU. o el *CV* en el Reino Unido).
 
-### El Curriculum Vitae (Resume):
-*   **Action Verbs**: En lugar de decir "I was in charge of", usa verbos potentes como *Spearheaded, Orchestrated, Streamlined* o *Oversaw*.
-*   **Key Phrases**: *"Proven track record of success in..."*, *"Adept at managing cross-functional teams"*, *"Results-oriented professional with 5+ years of experience"*.
+### El Curriculum Vitae y LinkedIn:
+*   **Action Verbs**: Evita el uso pasivo de "I was responsible for". Los reclutadores buscan verbos que demuestren acción y resultados: *Spearheaded, Orchestrated, Streamlined, Oversaw, Implemented, Generated*.
+*   **Key Phrases para el Summary**: *"Proven track record of success in..."*, *"Adept at managing cross-functional teams"*, *"Results-oriented professional with 5+ years of experience in high-growth environments"*.
+*   **Optimización de LinkedIn**: Traduce tu perfil completo, pero no uses un traductor automático. Asegúrate de que tu "Headline" incluya palabras clave de tu sector: *"Project Manager | Agile Practitioner | FinTech Expert"*.
 
-### La Entrevista de Trabajo:
-*   **Presentación**: *"I've been following your company's growth in the AI sector, and I'm particularly impressed by your recent expansion into..."*
-*   **Logros**: *"One of my key accomplishments was reducing operational costs by 15% through the implementation of a new CRM system."*
-*   **Preguntas**: *"How does the team handle conflict resolution?"* o *"What are the key performance indicators for this role?"*
+### La Entrevista de Trabajo: El Método STAR
+Para destacar en una entrevista internacional, debes usar el método **STAR** (Situation, Task, Action, Result) para responder a preguntas sobre comportamiento (*Behavioral Questions*):
+1.  **Situation**: Describe el contexto. *"In my previous role at X, we faced a sudden drop in user engagement..."*
+2.  **Task**: Explica el desafío. *"My task was to identify the root cause and implement a recovery plan within one month."*
+3.  **Action**: Detalla qué hiciste tú. *"I conducted A/B testing and collaborated with the UX team to redesign the onboarding flow."*
+4.  **Result**: Cuantifica el éxito. *"As a result, engagement increased by 25% and churn rate fell by 10%."*
 
-## 2. Comunicación Intercultural y Soft Skills
+## 2. Comunicación Intercultural: El Arte del "Polite English"
 
-Trabajar en el extranjero implica colaborar con personas de diversos orígenes. El **[networking internacional en inglés](/blog/trabajo/ingles-trabajar-extranjero-guia)** requiere sensibilidad cultural.
+Trabajar en el extranjero implica navegar por las sutilezas de la cortesía. En muchos entornos angloparlantes, ser demasiado directo puede percibirse como agresivo.
 
-*   **Low-context vs High-context**: En culturas como la estadounidense o británica, la comunicación suele ser muy directa (low-context). Aprende a ser claro: *"To be clear, the deadline is Friday at noon, no exceptions."*
-*   **Feedback Constructivo**: Usa el "Sandwich Method" para dar críticas: *"I really appreciate your effort on this report. However, I noticed some inaccuracies in the data section. Overall, the structure is excellent."*
-*   **Small Talk**: Vital para el networking. *"How do you find working in London compared to your previous city?"* o *"Have you been to any of the local industry meetups recently?"*
+### El uso de "Hedging" (Suavizadores)
+En lugar de decir *"This plan is bad"*, un profesional usa frases que suavizan el impacto:
+*   *"I have some concerns regarding the timeline..."*
+*   *"Perhaps we could consider an alternative approach?"*
+*   *"I'm not entirely sure that this aligns with our current strategy."*
 
-## 3. Liderazgo y Gestión de Equipos
+### Diferencias entre Mercados
+*   **Reino Unido**: Muy indirectos. *"I was wondering if you might have a moment..."* significa "Necesito hablar contigo ahora".
+*   **EE. UU. / Australia**: Más orientados a la acción y el optimismo. *"That's a great challenge to have!"* o *"Let's make it happen"*.
+*   **Networking Internacional**: El **[networking internacional en inglés](/blog/trabajo/ingles-trabajar-extranjero-guia)** se basa en el *Small Talk* inicial. Nunca entres directamente en materia de negocios sin preguntar: *"How was your commute today?"* o *"Are you attending the conference next week?"*.
 
-Si aspiras a puestos de responsabilidad, debes dominar el lenguaje del liderazgo.
+## 3. Inglés Técnico por Sectores
 
-*   **Delegación**: *"I'd like you to take the lead on this project. I'm confident in your ability to handle the stakeholder management side of things."*
-*   **Motivación**: *"Your contribution to the last sprint was invaluable. Let's keep this momentum going for the next phase."*
-*   **Estrategia**: *"We need to pivot our focus towards the European market to leverage current trends."*
+Dependiendo de tu industria, el vocabulario esencial varía drásticamente. Aquí tienes términos clave para los sectores con más movilidad internacional:
 
-## 4. Glosario de Modismos y Frases de Oficina
+### IT y Desarrollo de Software
+*   **Scalability**: Capacidad de crecimiento.
+*   **Technical Debt**: Deuda técnica.
+*   **Deployment Pipeline**: Flujo de despliegue.
+*   **Stakeholder management**: Gestión de los interesados en el proyecto.
 
-Para sonar como un nativo en la oficina, incorpora estas expresiones:
-*   **Get the ball rolling**: Empezar algo. *"Let's get the ball rolling on the marketing campaign."*
-*   **Touch base**: Contactar con alguien para una actualización rápida. *"I'll touch base with you tomorrow regarding the budget."*
-*   **Think outside the box**: Ser creativo. *"We need to think outside the box to solve this supply chain issue."*
-*   **On the same page**: Estar de acuerdo. *"Let's ensure we are all on the same page before the client meeting."*
+### Finanzas y Consultoría
+*   **Due Diligence**: Auditoría o investigación previa.
+*   **Leverage**: Apalancamiento (o usar algo para obtener ventaja).
+*   **Bottom line**: El beneficio neto o el punto más importante.
+*   **ROI (Return on Investment)**: Retorno de la inversión.
+
+### Marketing y Ventas
+*   **Lead generation**: Captación de clientes potenciales.
+*   **Conversion rate**: Tasa de conversión.
+*   **Value proposition**: Propuesta de valor.
+*   **B2B / B2C**: Business to Business / Business to Consumer.
+
+## 4. Supervivencia en la Oficina: Modismos y Phrasal Verbs
+
+Para sonar natural y entender las conversaciones de café (o *water cooler talk*), domina estas expresiones:
+
+*   **To touch base**: Contactar brevemente. *"Let's touch base on Monday to finalize the budget."*
+*   **To circle back**: Volver a tratar un tema más tarde. *"I don't have that data right now; let me circle back to you this afternoon."*
+*   **To be on the same page**: Estar de acuerdo. *"I want to make sure we are all on the same page before the client call."*
+*   **To bring to the table**: Lo que uno aporta. *"She brings 10 years of experience in the Asian market to the table."*
+*   **To call it a day**: Dar por finalizada la jornada laboral. *"We've made great progress; let's call it a day."*
+
+## Preguntas Frecuentes (FAQ) sobre el Trabajo en el Extranjero
+
+### ¿Qué nivel de inglés necesito realmente para trabajar fuera?
+Para la mayoría de los puestos profesionales (oficina, ingeniería, marketing), se requiere un nivel **B2 sólido o C1**. No obstante, la confianza y la fluidez suelen ser más valoradas que la perfección gramatical.
+
+### ¿Debo adaptar mi CV para cada país?
+Sí. Por ejemplo, en EE. UU. no se incluye foto ni fecha de nacimiento por leyes de discriminación, mientras que en otros países de Europa o Asia las normas pueden variar.
+
+### ¿Cómo puedo mejorar mi inglés de negocios rápidamente?
+La clave es la **inmersión específica**. Lee publicaciones como *The Economist* o *Harvard Business Review*, y escucha podcasts como *HBR IdeaCast* para familiarizarte con el tono y el léxico corporativo.
 
 ---
 

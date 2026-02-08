@@ -22,26 +22,74 @@ faqs:
 
 Es una prueba modular y adaptativa realizada íntegramente por ordenador, ideal para universidades, empresas y personas que necesitan una certificación rápida y fiable.
 
-## ¿Cómo funciona el test adaptativo?
+## ¿Cómo funciona el test adaptativo? La IA de Cambridge al detalle
 
-Lo más innovador de **Linguaskill Cambridge** es su tecnología adaptativa. Esto significa que el examen va ajustando la dificultad de las preguntas en función de tus respuestas anteriores:
-*   Si respondes correctamente, la siguiente pregunta será un poco más difícil.
-*   Si fallas, la siguiente será más sencilla.
+Lo más innovador de **Linguaskill Cambridge** es su tecnología adaptativa. A diferencia de un examen de papel donde todos los candidatos responden a las mismas preguntas, aquí el examen es único para ti.
+*   **Ahorro de tiempo:** Al no tener que pasar por preguntas que son demasiado fáciles o demasiado difíciles para ti, el examen es mucho más corto (puedes terminar en poco más de 2 horas).
+*   **Precisión quirúrgica:** El algoritmo es capaz de determinar si estás en un B2 sólido o si raspas el C1 analizando patrones de respuesta, no solo aciertos y errores.
+*   **Menos frustración:** Nunca te sentirás completamente perdido ante preguntas imposibles, ni aburrido con contenidos que ya dominas.
 
-De esta forma, el sistema determina tu nivel de forma mucho más rápida y precisa que un examen de longitud fija.
+---
 
-## Estructura de Linguaskill
+## Estructura de Linguaskill: Los 3 Módulos a Fondo
 
-El examen se divide en tres módulos que puedes realizar juntos o por separado:
+El examen se divide en tres bloques que puedes realizar en el orden que prefieras o incluso en días diferentes.
 
-### 1. Lectura y Comprensión Auditiva (Reading & Listening)
-Dura entre 60 y 85 minutos. Es la parte adaptativa del examen donde leerás textos y escucharás grabaciones para responder preguntas de opción múltiple.
+### 1. Reading & Listening (Lectura y Comprensión Auditiva)
+Es el bloque más largo (60-85 min) y el que mejor aprovecha la tecnología adaptativa.
+*   **Reading:** Incluye tareas como completar espacios en blanco con opciones (*Multiple Choice*), rellenar huecos sin opciones y lectura extendida para identificar el propósito del autor.
+*   **Listening:** Escucharás grabaciones cortas y largas. Lo mejor de Linguaskill es que, aunque sea por ordenador, puedes escuchar cada audio **dos veces**, permitiéndote verificar tus respuestas.
 
-### 2. Expresión Escrita (Writing)
-Dura 45 minutos. Consta de dos partes: un correo electrónico corto (mínimo 50 palabras) y un texto más largo (mínimo 180 palabras), como una carta o un informe.
+### 2. Writing (Expresión Escrita)
+Aquí la rapidez de corrección es clave. El sistema de IA de Cambridge, entrenado con millones de ejemplos reales, evalúa tu gramática, vocabulario y coherencia.
+*   **Parte 1:** Escribir un correo electrónico de al menos 50 palabras respondiendo a una situación cotidiana o laboral.
+*   **Parte 2:** Un texto más extenso (mínimo 180 palabras). Puede ser una carta, una reseña o un artículo de opinión. Se valora especialmente el uso de conectores avanzados y una estructura lógica.
 
-### 3. Expresión Oral (Speaking)
-Dura 15 minutos. Realizarás 5 tareas frente al ordenador usando auriculares y micrófono. Tus respuestas se graban y son evaluadas por examinadores expertos o inteligencia artificial avanzada.
+### 3. Speaking (Expresión Oral)
+Se realiza con auriculares y micrófono. No hay examinador humano en directo, lo cual es ideal para personas tímidas.
+*   **Tarea 1:** Preguntas personales básicas.
+*   **Tarea 2:** Leer frases en voz alta (evalúa tu pronunciación y fluidez rítmica).
+*   **Tarea 3:** Presentación corta sobre un tema propuesto (tienes 40 segundos para preparar y 1 minuto para hablar).
+*   **Tarea 4:** Describir un gráfico o imagen técnica.
+*   **Tarea 5:** Dar tu opinión sobre una situación problemática planteada.
+
+---
+
+## 📊 Entendiendo la Cambridge English Scale en Linguaskill
+
+Al terminar el examen, recibes un Informe de Resultados (Test Report) que desglosa tu nota según la **Cambridge English Scale**. Esta escala permite comparar tus resultados con otros exámenes de Cambridge como el First (FCE) o el Advanced (CAE).
+
+*   **180+ puntos:** Nivel C1 o superior.
+*   **160 – 179 puntos:** Nivel B2.
+*   **140 – 159 puntos:** Nivel B1.
+*   **120 – 139 puntos:** Nivel A2.
+*   **100 – 119 puntos:** Nivel A1.
+
+Lo fantástico de Linguaskill es que, si fallas en el Speaking pero sacas un C1 en el resto, solo tienes que repetir el módulo de Speaking para subir tu promedio general, ahorrándote tiempo y dinero.
+
+---
+
+## 💡 Estrategias de Preparación para Linguaskill
+
+No basta con saber inglés; hay que saber hacer el examen por ordenador. Aquí tienes nuestros consejos de oro:
+
+1.  **Entrena el mecanografiado:** En el Writing, la velocidad de escritura cuenta. Si eres lento con el teclado, perderás tiempo valioso de revisión.
+2.  **Habla sin parar en el Speaking:** Al ser una grabación, no hay feedback visual. Sigue hablando hasta que se acabe el tiempo de cada tarea. Si terminas antes, expande tu idea final.
+3.  **No te bloquees con el Reading:** Si una pregunta te parece imposible, es que el sistema está probando tu límite. Responde lo mejor que puedas y sigue; la siguiente pregunta será más adecuada a tu nivel real.
+4.  **Usa auriculares de calidad:** Practica en casa con auriculares similares a los que usarás el día del examen para acostumbrarte a escuchar tu propia voz mientras hablas.
+
+---
+
+## 🚀 ¿Por qué Linguaskill es el favorito de los universitarios en 2026?
+
+La mayoría de las universidades españolas aceptan Linguaskill para:
+*   **Cerrar el Grado:** Muchos grados exigen un nivel B1 o B2 para poder graduarse.
+*   **Becas Erasmus:** La rapidez de Linguaskill permite obtener el certificado en 48 horas cuando las plazas de Erasmus salen a última hora.
+*   **Acceso a Máster:** Demostrar el nivel de inglés necesario de forma inmediata sin esperar convocatorias trimestrales.
+
+En **Focus English**, hemos diseñado un curso intensivo de 2 semanas que te prepara específicamente para las trampas del algoritmo de Linguaskill.
+
+[**¿Quieres ver en qué nivel estás ahora mismo? Haz nuestro simulacro adaptativo y recibe tu nota estimada en minutos.**](/cuenta/registro)
 
 ## Ventajas de elegir Linguaskill
 

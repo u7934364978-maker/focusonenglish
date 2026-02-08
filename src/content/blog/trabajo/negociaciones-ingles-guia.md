@@ -34,53 +34,65 @@ Para profundizar en estas habilidades, visita nuestro **[hub de inglés para el 
 
 ---
 
-## 🤝 1. Preparación y Rapport: El Preludio Crítico
+## 🤝 1. Preparación, Rapport y el Concepto BATNA
 
-Antes de entrar en materia de contratos o presupuestos, es fundamental establecer una relación de confianza. En las culturas anglosajonas, el *small talk* (charla informal) es una herramienta estratégica para "romper el hielo" y evaluar el tono de la contraparte.
+Antes de entrar en materia de contratos o presupuestos, es fundamental establecer una relación de confianza y, sobre todo, conocer tu propia posición de fuerza. En las culturas anglosajonas, el *small talk* (charla informal) no es una pérdida de tiempo; es una herramienta estratégica para evaluar el tono de la contraparte.
 
-- **Preguntas de conexión**: *"How was your flight?"* o *"How is the market looking in your region lately?"*
-- **Transición al negocio**: *"Well, shall we get down to business?"* o *"If everyone is ready, let's start by looking at the agenda for today."*
+### Conoce tu BATNA
+En el mundo de los negocios internacionales, se habla del **BATNA** (*Best Alternative to a Negotiated Agreement*). Es decir, cuál es tu mejor alternativa si no llegas a un acuerdo hoy. Conocerla te da la confianza necesaria para negociar con firmeza.
+*   **Frases para sugerir alternativas**: *"While we are keen to work with you, we do have other options on the table that align with our budget."*
+
+---
 
 ## 🏗️ 2. El "Anchor" y la Apertura: Marcando el Terreno
 
 La primera oferta suele actuar como un "ancla" (*anchor*) para el resto de la discusión. Es vital ser asertivo pero profesional. Consulta nuestro **[hub de vocabulario](/blog/vocabulario)** para usar los términos exactos y evitar ambigüedades.
 
-- **Apertura**: *"We are here today to discuss the terms of the new partnership..."*
-- **Objetivo**: *"Our main goal is to reach a mutually beneficial agreement that ensures long-term collaboration."*
-- **Uso de "We" vs "I"**: En negociaciones corporativas, usar el "nosotros" refuerza que hablas con el respaldo de una organización.
+### El Uso del Lenguaje de "Valor"
+No hables solo de precio; habla de **propuesta de valor**:
+*   *"What we bring to the table is not just a service, but a long-term strategic advantage."*
+*   *"The ROI (Return on Investment) of this implementation justifies the initial outlay."*
 
 ---
 
 ## 🔄 3. El Intercambio: Concesiones y "Trade-offs"
 
-Aquí es donde el **inglés para negocios avanzado** brilla. La herramienta más potente es el uso de estructuras condicionales para proponer escenarios sin comprometerse de forma definitiva hasta que todas las piezas encajen.
+Aquí es donde el **inglés para negocios avanzado** brilla. La herramienta más potente es el uso de estructuras condicionales (First and Second Conditionals) para proponer escenarios sin comprometerse de forma definitiva hasta que todas las piezas encajen.
 
-- **Propuesta hipotética**: *"If you were able to lower the unit price by 5%, then we would be prepared to sign a two-year contract today."*
-- **Hacer una concesión**: *"We might be able to be flexible on the delivery date, provided that the initial payment is made upfront."*
-- **Manejo de Deadlocks (Puntos muertos)**: Si la negociación se estanca, usa frases para cambiar el enfoque: *"Let's look at this from another angle"* o *"I suggest we set this point aside for a moment and focus on the areas where we already agree."*
-
----
-
-## 🧐 4. Persuasión y Lenguaje Diplomático
-
-Usa un lenguaje diplomático para **[cerrar acuerdos en inglés](/blog/trabajo/negociaciones-ingles-guia)** sin generar fricciones innecesarias. La cultura británica, por ejemplo, valora mucho el lenguaje indirecto para evitar el conflicto directo, mientras que la estadounidense tiende a ser más pragmática.
-
-| Estilo Directo (Evitar) | Estilo Diplomático (Recomendado) |
-| :--- | :--- |
-| That's too expensive. | I'm afraid that's slightly beyond our current budget. |
-| I don't agree. | I understand your point, but I have some concerns regarding the timeline. |
-| We need a discount. | Would you be open to discussing a volume-based discount? |
-| You are wrong. | There might be a slight misunderstanding about the technical specs. |
+### La Lógica del "If-Then"
+*   **Propuesta estratégica**: *"If you were able to shorten the delivery window, then we would be more inclined to accept the current pricing."*
+*   **Defensa ante peticiones**: *"I see your point about the discount. However, if we lower the price, then we would have to reconsider the level of support included in the package."*
 
 ---
 
-## 📝 5. Cerrando el Trato (Closing the Deal)
+## 🌍 4. Contexto Cultural: High-Context vs Low-Context
 
-No dejes cabos sueltos. Un error común es pensar que hay un acuerdo cuando solo ha habido una conversación. Resume siempre los puntos clave antes de terminar la sesión.
+En una negociación global, el inglés es el idioma, pero la cultura dicta el ritmo.
+*   **Low-Context (EE. UU., Alemania, Holanda)**: Valoran la brevedad, los datos y llegar al grano rápido. *"Let's cut to the chase and discuss the bottom line."*
+*   **High-Context (Asia, Oriente Medio, Latinoamérica)**: Valoran la relación, el respeto y la jerarquía. La negociación puede llevar días antes de hablar de dinero. Es vital usar un lenguaje extremadamente cortés: *"We highly value your expertise in this field and look forward to a harmonious partnership."*
 
-- **Resumen**: *"Let's recap what we've agreed on today so we are all on the same page."*
-- **Confirmación**: *"We are in agreement on these terms. I think we have a deal."*
-- **The Bottom Line**: Esta expresión se refiere al punto final o al beneficio neto. *"The bottom line is that this partnership benefits both our companies significantly."*
+---
+
+## 🛑 5. Cómo manejar Tácticas Agresivas (Hardball Tactics)
+
+Si la otra parte intenta presionarte o usa tácticas intimidatorias, mantén el control con estas frases de "enfriamiento":
+*   *"I appreciate your position, but let's keep the conversation professional and focused on the data."*
+*   *"I'm not in a position to make a decision on that right now. I need to consult with my stakeholders."* (La técnica de "pedir permiso al superior" es muy efectiva para ganar tiempo).
+*   *"Let's take a 10-minute break to review the figures individually."*
+
+---
+
+## 🏗️ Phrasal Verbs Imprescindibles en Negociación
+
+*   **Hammer out**: Llegar a un acuerdo tras mucho esfuerzo. *"We finally managed to hammer out the details of the contract."*
+*   **Back down**: Ceder en una postura. *"Neither side was willing to back down on the exclusivity clause."*
+*   **Iron out**: Resolver pequeños problemas o detalles. *"We still have a few minor issues to iron out before we sign."*
+*   **Bring down**: Lograr que alguien baje el precio. *"We were able to bring them down by 10%."*
+*   **Follow up**: Hacer un seguimiento. *"I'll follow up with an email summarizing our main points."*
+
+---
+
+## 🎓 Entrena tus habilidades de negociación con Focus English
 
 ## 📚 Idioms Esenciales para el Negociador
 

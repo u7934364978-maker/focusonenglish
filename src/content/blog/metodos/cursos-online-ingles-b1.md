@@ -22,46 +22,45 @@ faqs:
 
 Si buscas **[cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)** con **[ejercicios de inglés B1](/blog/metodos/cursos-online-ingles-b1)** prácticos y resultados garantizados, has llegado al lugar indicado.
 
-## 1. Gramática B1: Estructuras para la Independencia
+## 1. Gramática B1: Las Estructuras que te darán Libertad
 
-El **[nivel intermedio de inglés](/blog/metodos/cursos-online-ingles-b1)** requiere el dominio de estructuras que permiten expresar matices, hipótesis y cortesía.
-*   **Tiempos Verbales Avanzados**: Dominarás el *Present Perfect Simple* vs *Past Simple*, y el uso del *Present Perfect Continuous* para acciones que continúan en el presente.
-*   **Condicionales**: Estudiaremos a fondo los tipos 0, 1 y 2. Aprende cuándo usar "if I were you" para dar consejos. Consulta nuestra guía de **[condicionales en inglés](/blog/metodos/condicionales-ingles-guia-completa)**.
-*   **Voz Pasiva**: Esencial para contextos formales y profesionales (*"The report was finished yesterday"*).
-*   **Verbos Modales**: Dominio de la obligación (*must, have to*), el consejo (*should*) y la posibilidad (*might, could, may*).
+El **[nivel intermedio de inglés](/blog/metodos/cursos-online-ingles-b1)** requiere el dominio de estructuras que permiten expresar matices, hipótesis y cortesía de forma natural. No se trata solo de saber gramática, sino de saber cuándo aplicarla.
+*   **Tiempos Verbales Avanzados**: Dominarás el contraste entre el *Present Perfect Simple* y el *Past Simple*. Entenderás por qué decimos *"I have lost my keys"* (importancia presente) frente a *"I lost my keys yesterday"* (evento pasado cerrado).
+*   **Present Perfect Continuous**: Aprenderás a hablar de acciones que empezaron en el pasado y continúan ahora, enfatizando la duración: *"I've been studying for three hours"*.
+*   **Condicionales (0, 1 y 2)**: Estudiaremos a fondo las situaciones reales e imaginarias. Aprende cuándo usar el famoso *"If I were you..."* para dar consejos que suenen naturales. Consulta nuestra guía de **[condicionales en inglés](/blog/metodos/condicionales-ingles-guia-completa)**.
+*   **Voz Pasiva**: Esencial para contextos formales y profesionales donde el objeto es más importante que quien realiza la acción (*"The report was finished on time"*).
 
-## 2. Comunicación Profesional y Formal
+## 2. Preparación Específica para Exámenes Oficiales (B1)
 
-En el nivel B1, el inglés deja de ser un hobby para convertirse en una herramienta de trabajo.
-*   **Meetings and Emails**: Aprenderás a redactar correos con el tono adecuado y a participar en reuniones dando tu opinión de forma educada: *"In my opinion..."*, *"I see your point, but..."*.
-*   **Presentaciones**: Te enseñamos a estructurar un discurso breve, usar conectores de secuencia (*firstly, however, in conclusion*) y a manejar el lenguaje visual en inglés.
-*   **Soft Skills**: Vocabulario específico para el liderazgo, la resolución de conflictos y la colaboración en equipos multiculturales.
+En Focus English sabemos que muchos alumnos buscan los **[cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)** para obtener una certificación. Por eso, desglosamos las estrategias para los exámenes más populares:
+*   **Cambridge B1 Preliminary (PET)**: Nos enfocamos en el *Reading* y el *Writing* de tipo informal (emails) y descriptivo (artículos). Practicamos las transformaciones gramaticales típicas de este examen.
+*   **Aptis General (B1/B2)**: Te preparamos para la velocidad de este examen multinivel. Trabajamos la gramática de opción múltiple y el *Speaking* con cronómetro para que no te quedes sin tiempo. Consulta nuestra **[guía del examen Aptis](/blog/examenes/guia-examen-aptis)**.
+*   **Oxford Test of English (OTE)**: Un examen 100% online y adaptativo. Te enseñamos a manejar la interfaz y a optimizar tu rendimiento en el *Listening* modular.
 
-## 3. Expresión de Opiniones y Discusión
+## 3. Comprensión Auditiva y Lectora: Entender el Mensaje Real
 
-Ser un usuario B1 significa que puedes hablar de temas más allá de tu rutina diaria.
-*   **Current Events**: Practicamos la discusión sobre noticias, medio ambiente, tecnología y tendencias sociales.
-*   **Hypothetical Situations**: *"If I had more time, I would learn another language"*. Aprenderás a soñar y a planificar en inglés.
-*   **Agreeing and Disagreeing**: Dominarás las formas naturales de mostrar acuerdo o desacuerdo sin sonar rudo.
+A nivel B1, debes ser capaz de extraer información específica de audios y textos que no están adaptados al 100% para estudiantes.
+*   **Listening Strategies**: Te enseñamos a no bloquearte cuando no entiendes una palabra. Aprendes a identificar palabras clave, entonaciones y el propósito del hablante (informar, quejarse, sugerir).
+*   **Reading for Gist and Detail**: Trabajamos con textos de noticias, blogs y folletos informativos. Aprenderás a hacer *skimming* (leer rápido para la idea general) y *scanning* (buscar datos concretos como fechas o nombres).
+*   **Vocabulary Expansion**: Olvida las listas interminables. En nuestros cursos, el vocabulario se aprende por "clusters" o grupos temáticos: viajes, tecnología, salud, medio ambiente y ocio.
 
-## 4. Phrasal Verbs de Nivel Intermedio
+## 4. Redacción y Expresión Oral: Comunica tus Ideas con Claridad
 
-En el **[curso online de inglés B1](/blog/metodos/cursos-online-ingles-b1)** introducimos los verbos compuestos que más se usan en entornos sociales y laborales:
-*   **Carry on**: Continuar.
-*   **Pick up**: Recoger a alguien o aprender algo de forma informal.
-*   **Set up**: Configurar o fundar algo (como una empresa).
-*   **Look forward to**: Esperar algo con ganas (vital para emails).
+El mayor reto del B1 es pasar de la teoría a la práctica.
+*   **Writing Skills**: Aprende a usar conectores de secuencia (*firstly, meanwhile, eventually*) y de contraste (*however, although, in spite of*) para que tus textos fluyan y no parezcan una lista de frases cortas.
+*   **Speaking Clubs**: La joya de la corona de Focus English. Sesiones grupales donde debates temas de actualidad. Perderás el miedo a cometer errores y ganarás la agilidad necesaria para hablar de tus experiencias y planes.
+*   **Phrasal Verbs de Nivel Intermedio**: Introducimos los verbos compuestos más comunes: *carry on, pick up, set up, look forward to, give up, find out*. Dominar estos verbos es lo que realmente te hace sonar como un usuario B1.
 
-## 5. Hoja de Ruta de 3 Meses para Nivel B2
+## 5. Hoja de Ruta de 3 Meses para Alcanzar el Nivel B2 (Avanzado)
 
-Si tu meta es el nivel B2 (Avanzado), debes empezar a prepararte desde hoy:
-1.  **Mes 1**: Afianza la gramática del B1 y empieza a leer artículos cortos de noticias en inglés.
-2.  **Mes 2**: Empieza a ver series en versión original con subtítulos en inglés (no en español).
-3.  **Mes 3**: Practica el Writing de tipo ensayo y carta formal, y únete a nuestros Speaking Clubs avanzados.
+Si tu meta final es el nivel B2, el B1 es la base donde debes construir cimientos sólidos:
+1.  **Mes 1**: Afianza toda la gramática del B1 y empieza a consumir contenido en inglés a diario (15-20 min). Prueba con noticias de la BBC en su sección "Learning English".
+2.  **Mes 2**: Empieza a ver series en versión original con subtítulos en inglés. El objetivo es que tu cerebro deje de traducir y empiece a procesar los sonidos directamente.
+3.  **Mes 3**: Practica el Writing de tipo ensayo y carta formal intensivamente. Únete a nuestros simulacros de examen cronometrados para medir tu nivel real antes de presentarte a la convocatoria oficial.
 
 ---
 
-### Prepárate para los Exámenes Oficiales con Focus English
+### Por qué elegir el Método Focus English para tu B1
 
 En **Focus English**, no solo aprendes inglés, te enseñamos **cómo certificarlo**. Nuestra plataforma incluye:
 

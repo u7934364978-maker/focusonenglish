@@ -55,6 +55,66 @@ Escribir directamente es la receta para el desastre. Dedica siempre 5-7 minutos 
 
 Un texto bien estructurado fluye mejor y comete menos errores de cohesión.
 
+## 6. El Ensayo (Part 1): Estructura Obligatoria y Argumentación
+
+El primer texto es siempre un **Essay**. Cambridge te dará tres puntos de discusión sobre un tema social (educación, medio ambiente, economía) y tú debes elegir dos.
+*   **No intentes cubrir los tres puntos:** Elige los dos en los que tengas mejor vocabulario.
+*   **La conclusión es vital:** No te limites a repetir lo que ya has dicho. Debes indicar claramente cuál de los dos puntos es más importante y justificar por qué.
+*   **Usa Nominalización:** En lugar de decir *"People are consuming more energy"*, di *"The increase in energy consumption..."*. Esto eleva el nivel académico de tu texto instantáneamente.
+
+---
+
+## 7. Part 2: ¿Qué tipo de texto elegir?
+
+En la segunda parte puedes elegir entre varios formatos. Conoce sus trucos específicos:
+
+### El Informe (Report)
+Es el favorito de los estudiantes que quieren ir a lo seguro.
+*   **Usa subtítulos:** Son obligatorios. Deben ser claros y concisos (ej: *Introduction, Current Situation, Recommendations*).
+*   **Voz Pasiva:** Es el reino de la pasiva. *"It was found that..."*, *"A survey was conducted..."*.
+*   **Objetividad:** Evita el "yo". Da datos y sugerencias basadas en hechos.
+
+### La Propuesta (Proposal)
+Muy parecida al informe, pero mirando al futuro.
+*   **Foco en la persuasión:** Tu objetivo es convencer a alguien de que gaste dinero o tome una decisión.
+*   **Estructuras de sugerencia:** *"I would strongly suggest..."*, *"It would be highly beneficial if..."*.
+
+### La Reseña (Review)
+Ideal si tienes un vocabulario rico en adjetivos.
+*   **Vocabulario descriptivo:** Olvida *"good"* o *"bad"*. Usa *"captivating"*, *"underwhelming"*, *"thought-provoking"* o *"visually stunning"*.
+*   **Opinión Personal:** Aquí sí se espera que seas subjetivo y des tu recomendación final.
+
+---
+
+## 8. Vocabulario "Show-off": Colocaciones y Frases Hechas
+
+En el C1, el examinador busca lo que llamamos "Less Common Lexis". Aquí tienes una lista de expresiones que puedes "soltar" para demostrar nivel:
+*   *"To bear in mind"* (en lugar de remember).
+*   *"To play a pivotal role"* (en lugar de be important).
+*   *"To be of paramount importance"* (en lugar de be very important).
+*   *"A double-edged sword"* (para hablar de algo con pros y contras).
+*   *"The sheer volume of..."* (para enfatizar cantidad).
+
+---
+
+## 9. Puntuación y Cohesión: Más allá de las comas
+
+Muchos candidatos fallan en el uso avanzado de la puntuación.
+*   **Semi-colons (;):** Úsalos para unir dos frases relacionadas sin necesidad de un conector. Demuestra un control gramatical muy alto.
+*   **Referenciación:** Evita repetir la misma palabra. Usa pronombres, sinónimos o frases como *"The former"* y *"The latter"* para referirte a conceptos mencionados anteriormente.
+
+---
+
+## 10. Checklist de Autocorrección (Los últimos 5 minutos)
+
+Antes de entregar, revisa estos 4 puntos. Si fallas en uno, ¡bajarás al nivel B2!
+1.  **¿He respondido a TODO lo que pide el enunciado?** (Content). Si te falta una tarea, tu nota bajará drásticamente.
+2.  **¿El registro es constante?** No empieces formal y termines con *"Anyway"*.
+3.  **¿Hay variedad de párrafos?** Un bloque de texto sin espacios es ilegible y penaliza.
+4.  **¿He usado estructuras complejas?** Busca al menos una inversión, una pasiva y una condicional.
+
+---
+
 ## ¿Necesitas feedback real?
 
 Practicar el Writing solo es difícil porque no sabes qué estás haciendo mal. En nuestra [guía de certificaciones oficiales](/certificaciones-ingles-oficiales) verás cómo la preparación guiada marca la diferencia. En Focus English, utilizamos inteligencia artificial entrenada con criterios oficiales de Cambridge para darte feedback inmediato sobre tu gramática y estilo.

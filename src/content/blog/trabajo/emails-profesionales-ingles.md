@@ -29,69 +29,96 @@ En el entorno laboral moderno, tu capacidad para escribir correos claros y profe
 
 ---
 
-## 🏗️ Estructura de un Email Ganador
+## 🏗️ Estructura de un Email Ganador en el Entorno Internacional
 
-Todo correo profesional debe seguir una estructura lógica para ser efectivo.
+Todo correo profesional debe seguir una estructura lógica para ser efectivo. En 2026, la brevedad es una virtud, pero la cortesía (politeness) sigue siendo el pilar fundamental del Business English.
 
 ### 1. El Asunto (Subject Line)
-Es lo primero que ven. Debe ser corto y descriptivo.
-- ❌ **Wrong:** Question
+Es el filtro de entrada. Un asunto vago puede hacer que tu email termine en la papelera o sea ignorado durante días.
+- ❌ **Wrong:** Question / Meeting / Hello
 - ✅ **Right:** Query regarding Project X - [Your Name]
-- ✅ **Right:** Meeting Request: Quarterly Review
+- ✅ **Right:** ACTION REQUIRED: Approval for Q3 Budget
+- ✅ **Right:** Meeting Request: Quarterly Performance Review
 
 ### 2. El Saludo (Greeting)
-- **Muy Formal:** Dear Mr./Ms. [Last Name],
-- **Profesional Estándar:** Dear [First Name],
-- **Neutral/Equipo:** Hi Team, / Hi Everyone,
+El saludo establece el tono de toda la conversación.
+- **Muy Formal:** Dear Mr./Ms. [Last Name], (Úsalo en cartas de presentación o cuando contactes con alguien de alto rango por primera vez).
+- **Profesional Estándar:** Dear [First Name], (El más común en el día a día corporativo en EE.UU. y Reino Unido).
+- **Neutral/Equipo:** Hi Team, / Hi Everyone, (Ideal para comunicaciones internas o grupos de trabajo).
 
 ---
 
-## 📝 Frases Imprescindibles por Contexto
+## 📝 Frases Imprescindibles: El Diccionario del Email Profesional
+
+Para evitar sonar repetitivo, es vital tener un abanico de frases que se adapten a la intención del mensaje.
 
 | Situación | Frase en Inglés | Traducción |
 | :--- | :--- | :--- |
 | **Referencia** | I am writing to you regarding... | Le escribo con respecto a... |
-| **Adjuntar** | Please find attached the report. | Adjunto envío el informe. |
-| **Seguimiento** | I'm following up on our meeting. | Estoy haciendo seguimiento de nuestra reunión. |
-| **Agradecer** | Thank you for your prompt response. | Gracias por su rápida respuesta. |
-| **Disculparse** | I apologize for the delay in replying. | Siento la tardanza en responder. |
+| **Aviso de Adjunto** | Please find attached the document for your review. | Adjunto envío el documento para su revisión. |
+| **Seguimiento** | I'm following up on our meeting from last Tuesday. | Hago seguimiento de nuestra reunión del pasado martes. |
+| **Agradecimiento** | I appreciate your help with this matter. | Agradezco su ayuda en este asunto. |
+| **Disculparse** | I apologize for any inconvenience caused by this delay. | Siento los inconvenientes causados por este retraso. |
+| **Confirmación** | This is just to confirm that we have received... | Esto es solo para confirmar que hemos recibido... |
 
 ---
 
-## 🛠️ Herramienta Gratuita: Generador de Firmas
-Si quieres que tus correos tengan un aspecto 100% profesional, hemos creado una herramienta para ti.
+## 🧐 Diplomacia Lingüística: El Arte de Pedir sin Ofender
 
-[👉 **Crea tu Firma de Email Profesional en Inglés aquí**](/herramientas/generador-firmas-email-ingles)
+Uno de los mayores errores de los hispanohablantes al escribir en inglés es ser demasiado directos, lo que puede sonar rudo (*rude*). En inglés, usamos el "hedging" para suavizar peticiones.
+
+*   ❌ **Directo:** "Send me the report now." (Suena como una orden militar).
+*   ✅ **Diplomático:** "Could you please send me the report when you have a moment?"
+*   ✅ **Aún más educado:** "I would be grateful if you could send me the report by EOD."
+
+Aprender a usar verbos modales como *could, would, might* y *may* cambiará radicalmente la forma en que tus colegas internacionales perciben tu profesionalidad.
 
 ---
 
-## 📧 Plantillas Listas para Usar
+## 📧 Estrategias de Seguimiento (Follow-up)
 
-### Plantilla 1: Solicitud de Reunión (Meeting Request)
-> **Subject:** Meeting Request: Digital Strategy Review
+Hacer un seguimiento es un arte. No quieres parecer desesperado, pero tampoco quieres que el tema caiga en el olvido.
+1.  **El primer seguimiento:** Espera al menos 2-3 días laborales.
+    *   *"I'm just checking in to see if you've had a chance to look at..."*
+2.  **El seguimiento con urgencia:**
+    *   *"I'm circling back on this as the deadline is approaching. Please let me know if you require any further information."*
+
+---
+
+## 🚫 Errores Comunes que Debes Evitar
+
+1.  **Traducciones literales:** "I send you the report" (Incorrecto). Lo correcto es **"I'm sending you the report"** o **"Please find the report attached"**.
+2.  **Uso excesivo de signos de exclamación:** En inglés profesional, un signo de exclamación puede parecer poco serio o demasiado entusiasta. Úsalos con mucha moderación.
+3.  **Confundir "Actual" con "Actually":** Recuerda que *Actual* significa "real/verdadero", mientras que *Currently* es lo que debes usar para "actualmente".
+4.  **No usar la voz activa:** En lugar de "The project was finished by our team", usa **"Our team finished the project"**. Es más potente y directo.
+
+---
+
+## 📧 Más Plantillas para Escenarios Específicos
+
+### Plantilla 3: Aceptación de una Oferta (Accepting an Offer)
+> **Subject:** Job Offer Acceptance - [Your Name]
 >
 > Dear [Name],
 >
-> I hope this email finds you well.
+> Thank you very much for offering me the position of [Job Title]. I am delighted to accept this offer and look forward to joining the team on [Start Date].
 >
-> I would like to request a brief meeting to discuss the updates on our digital strategy. Would you be available for a 20-minute call this Thursday at 10:00 AM?
+> Please let me know the next steps regarding the onboarding process.
 >
-> Please let me know if this works for you or if another time would be better.
->
-> Best regards,
+> Sincerely,
 >
 > [Your Name]
 
-### Plantilla 2: Envío de Documentación (Sending Documents)
-> **Subject:** Project Proposal - Phase 1
+### Plantilla 4: Respuesta a una Queja (Handling a Complaint)
+> **Subject:** Apology regarding [Issue]
 >
-> Hi [Name],
+> Dear [Name],
 >
-> As discussed, please find attached the proposal for Phase 1 of the project. 
+> Please accept my sincere apologies for the issues you experienced with [Issue]. We take this feedback very seriously and are currently investigating the cause.
 >
-> Let me know if you have any questions or if any adjustments are needed. I look forward to your feedback.
+> As a gesture of goodwill, we would like to offer you [Compensation]. We appreciate your patience as we resolve this.
 >
-> Kind regards,
+> Best regards,
 >
 > [Your Name]
 
@@ -99,11 +126,12 @@ Si quieres que tus correos tengan un aspecto 100% profesional, hemos creado una 
 
 ## 💡 Consejos de "Focus English" para 2026
 
-1. **Menos es más:** Los profesionales reciben cientos de correos. Sé directo.
-2. **Usa la voz activa:** En lugar de "The report was sent by me", usa **"I sent the report"**. Es más dinámico y claro.
-3. **Revisa la puntuación:** En inglés, después del saludo se usa una coma (Dear John,) no dos puntos.
+En un mundo saturado de información, la claridad es el nuevo lujo. Aquí tienes tres reglas de oro:
+1.  **La regla del párrafo único:** Si puedes decir lo que necesitas en un solo párrafo, hazlo. El tiempo de tu interlocutor es valioso.
+2.  **Revisión de Tono:** Antes de dar a "Enviar", lee el correo en voz alta. Si suena demasiado seco, añade un *"I hope you're having a great week"*.
+3.  **Llamada a la acción clara (CTA):** Termina siempre indicando qué esperas del otro: *"I look forward to your approval"*, *"Let me know your thoughts"*, etc.
 
-> 🚀 **¿Sabías que...?** En la plataforma de Focus English, tenemos un **asistente de redacción con IA** que corrige el tono de tus correos en tiempo real para que siempre suenes como un nativo.
+> 🚀 **¿Sabías que...?** En la plataforma de Focus English, tenemos un **asistente de redacción con IA** que corrige el tono de tus correos en tiempo real para que siempre suenes como un nativo, ajustando el nivel de formalidad según el destinatario.
 
 ---
 

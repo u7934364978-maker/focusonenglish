@@ -26,43 +26,79 @@ Aprobar el **examen Cambridge First** demuestra que puedes:
 *   Seguir las noticias.
 *   Escribir cartas, informes, artículos y otros tipos de textos.
 
-## Estructura del examen B2 First
+## Estructura Detallada del Examen B2 First
 
-El **FCE First Certificate in English exam** se divide en cuatro partes ("papers") que evalúan todas las competencias lingüísticas:
+El **FCE First Certificate in English exam** se divide en cuatro partes ("papers") que evalúan todas las competencias lingüísticas. Entender qué se espera de ti en cada una es el 50% del éxito.
 
 ### 1. Reading and Use of English (75 minutos)
-Es la parte más larga y pesa el 40% de la nota final. Evalúa tu comprensión lectora y tus conocimientos de gramática y vocabulario a través de 7 partes y 52 preguntas. Aquí encontrarás ejercicios como el *Multiple-choice cloze* o las famosas *Key word transformations*.
+Es la parte más temida por los estudiantes y pesa el 40% de la nota final. Evalúa tu comprensión lectora y, sobre todo, tus conocimientos de gramática y vocabulario aplicado.
+*   **Partes 1-4 (Use of English)**: Se centran en la gramática y el vocabulario. Aquí encontrarás el *Multiple-choice cloze*, el *Open cloze*, la *Word formation* y las famosas *Key word transformations* (donde debes reescribir una frase usando una palabra clave sin cambiar el significado).
+*   **Partes 5-7 (Reading)**: Evalúan tu capacidad para entender la opinión, el propósito y el tono de textos largos, así como la estructura del texto (*Gapped text*).
 
 ### 2. Writing (80 minutos)
-Debes redactar dos textos. El primero es siempre un **essay** (ensayo) obligatorio. En la segunda parte, puedes elegir entre varias opciones como un artículo, una carta/email, un informe o una reseña.
+Debes redactar dos textos de entre 140 y 190 palabras cada uno.
+*   **Part 1 (Essay)**: Es obligatorio. Debes discutir un tema basándote en dos puntos dados y añadir una idea propia. Se evalúa tu capacidad para argumentar y organizar ideas.
+*   **Part 2 (Choice)**: Puedes elegir entre un artículo, un email/carta (formal o informal), un informe (*report*) o una reseña (*review*). Es vital dominar el registro de cada uno. Consulta nuestros **[trucos para el Writing B2](/blog/examenes/trucos-writing-b2-first)**.
 
 ### 3. Listening (40 minutos aproximadamente)
-Debes ser capaz de seguir y comprender una variedad de materiales orales, como noticias, presentaciones y conversaciones cotidianas. Consta de 4 partes y 30 preguntas.
+Consta de 4 partes y 30 preguntas. Escucharás audios dos veces.
+*   **Part 1**: 8 extractos cortos con preguntas de opción múltiple.
+*   **Part 2**: *Sentence completion*. Debes rellenar huecos con información específica del audio.
+*   **Part 3**: Unir 5 hablantes con 8 opciones de lo que están diciendo.
+*   **Part 4**: Entrevista larga con 7 preguntas de opción múltiple.
 
 ### 4. Speaking (14 minutos por pareja)
-Esta prueba se realiza cara a cara con otro candidato y dos examinadores. Evalúa tu capacidad para comunicarte de manera efectiva en situaciones reales. Se divide en 4 partes: entrevista personal, descripción de fotos, tarea colaborativa y discusión.
+Esta prueba se realiza cara a cara con otro candidato y dos examinadores (uno interactúa contigo y el otro evalúa sin hablar).
+*   **Part 1 (Interview)**: Preguntas personales sobre tus hobbies, trabajo o estudios.
+*   **Part 2 (Long Turn)**: Comparar dos fotos durante 1 minuto y responder una pregunta corta sobre las fotos de tu compañero.
+*   **Part 3 (Collaborative Task)**: Conversación con tu compañero sobre una tarea visual. Deben llegar a un acuerdo.
+*   **Part 4 (Discussion)**: Debate más profundo sobre los temas de la parte 3.
+
+---
+
+## Estrategias Ganadoras por Sección
+
+### Cómo dominar el Use of English
+La clave aquí son las **Collocations** (combinaciones de palabras) y los **Phrasal Verbs**. Cambridge no evalúa palabras sueltas, sino cómo encajan entre sí. Practica mucho las *Transformations*, ya que son matemáticas aplicadas al lenguaje.
+
+### El secreto del Writing
+No intentes escribir como un novelista. Cambridge busca claridad y estructura. Usa **conectores** (*linkers*) de forma estratégica: *"Furthermore"*, *"In addition"*, *"On the other hand"*, *"To conclude"*. Asegúrate de que tu ensayo tenga una introducción, dos párrafos de cuerpo y una conclusión clara.
+
+### Sobrevivir al Listening
+No intentes entender cada palabra. Enfócate en los **sinónimos**. Si en la pregunta lees *"He was happy"*, es muy probable que en el audio escuches *"He was over the moon"* o *"He was delighted"*. Cambridge usa "distractores" (información que parece la respuesta correcta pero no lo es).
+
+---
+
+## Errores Comunes que te quitan puntos
+
+1.  **No contar las palabras**: Quedarse corto o pasarse demasiado en el Writing puede penalizarte. Mantente en el rango de 140-190 palabras.
+2.  **Dejar respuestas en blanco**: En el Reading y Listening, no se restan puntos por fallar. ¡Adivina si es necesario!
+3.  **No interactuar en el Speaking**: En la parte 3, si hablas solo y no dejas hablar a tu compañero, tu nota bajará. Es una tarea *colaborativa*.
+4.  **Olvidar el registro**: Escribir una carta formal a un director usando jerga (*slang*) es un error grave.
+
+---
+
+## Computer-Based vs Paper-Based: ¿Cuál elegir?
+
+En 2026, la mayoría de los centros ofrecen ambas opciones.
+*   **Computer-Based**: Los resultados llegan más rápido (2-3 semanas), puedes editar el Writing fácilmente y tienes auriculares para el Listening (mejor concentración).
+*   **Paper-Based**: Ideal si prefieres subrayar físicamente los textos y te sientes más cómodo escribiendo a mano. Los resultados tardan unas 6 semanas.
+
+---
 
 ## Puntuación: ¿Cómo se aprueba el B2 First?
 
-El **B2 First Cambridge** utiliza la *Cambridge English Scale*. Para obtener el certificado de nivel B2, necesitas una puntuación entre **160 y 179**.
+El **B2 First Cambridge** utiliza la *Cambridge English Scale*. Para obtener el certificado de nivel B2, necesitas una puntuación media de entre **160 y 179**.
 
-*   **180–190**: Si obtienes esta puntuación, se te otorgará un certificado de nivel C1.
-*   **160–179**: Certificado de nivel B2.
-*   **140–159**: No alcanzas el nivel B2, pero recibirás un certificado indicando que tienes un nivel B1.
+*   **180–190 (Grade A)**: Si obtienes esta puntuación, has demostrado un nivel excepcional y se te otorgará un certificado que indica que tienes un nivel C1.
+*   **173–179 (Grade B)**: Certificado de nivel B2.
+*   **160–172 (Grade C)**: Certificado de nivel B2.
+*   **140–159**: No alcanzas el nivel B2, pero recibirás un certificado de Cambridge indicando que tienes un nivel B1.
 
-## Consejos para aprobar el examen Cambridge First
+---
 
-1.  **Conoce el formato**: No basta con saber inglés; debes conocer el tipo de preguntas de cada sección para no perder tiempo.
-2.  **Amplía tu vocabulario de "Linkers"**: En el Writing y Speaking, el uso de conectores avanzados subirá mucho tu nota.
-3.  **Practica con exámenes reales**: Realizar simulacros con cronómetro es esencial para gestionar el tiempo el día del examen.
-4.  **Usa la IA a tu favor**: Plataformas como **Focus English** te permiten practicar el Speaking y el Use of English con feedback inmediato, simulando situaciones reales de examen.
+## Conclusión y Próximos Pasos
 
-## ¿B2 First, IELTS o TOEFL?
+Obtener el **Cambridge Certificate** de nivel B2 es un paso fundamental para tu carrera profesional y académica. No solo es un título; es la prueba de que puedes desenvolverte con éxito en el mundo anglosajón.
 
-Si aún no tienes claro si el B2 First es la mejor opción para tus objetivos profesionales o académicos, te recomendamos consultar nuestra [guía comparativa de certificaciones oficiales de inglés](/certificaciones-ingles-oficiales), donde analizamos cuál es mejor según tu destino (Europa, USA, Australia) y propósito.
-
-## Conclusión
-
-Obtener el **Cambridge Certificate** de nivel B2 es un paso fundamental para tu carrera profesional y académica. Requiere preparación y constancia, pero con los recursos adecuados, ¡es un objetivo totalmente alcanzable!
-
-[**¿Quieres prepararte para el B2 First? Descubre cómo nuestro curso especializado puede ayudarte a conseguir tu título.**](/curso/ingles-b2)
+[**¿Quieres prepararte para el B2 First? Descubre cómo nuestro curso online con IA puede ayudarte a aprobar a la primera.**](/cuenta/registro)

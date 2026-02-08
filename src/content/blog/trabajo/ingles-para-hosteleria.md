@@ -19,45 +19,61 @@ Para profundizar en el lenguaje específico de cada área, visita nuestro **[hub
 
 ## 1. Inglés para Recepcionistas: El Rostro del Hotel
 
-La recepción es el corazón del hotel. Como recepcionista, eres responsable de gestionar las expectativas del cliente desde el momento en que cruza la puerta. Dominar el **[inglés para hoteles](/blog/viajes/ingles-hoteles-guia)** implica manejar el check-in, las reservas y las consultas turísticas con fluidez.
+La recepción es el corazón del hotel. Como recepcionista, eres responsable de gestionar las expectativas del cliente desde el momento en que cruza la puerta. Dominar el **[inglés para hoteles](/blog/viajes/ingles-hoteles-guia)** implica manejar el check-in, las reservas y las consultas turísticas con fluidez y elegancia.
 
 ### Frases de Recepción en Inglés para el Día a Día:
 *   **Check-in y Bienvenida**: *"Good afternoon, welcome to [Hotel Name]. Do you have a reservation under the name of [Customer's Name]?"*
 *   **Gestión de Datos**: *"May I have your passport and a credit card for the security deposit, please?"*
-*   **Información de Servicios**: *"Breakfast is served from 7:00 to 10:30 AM in the main dining room on the first floor."*
-*   **Indicaciones**: *"The elevator is just around the corner, and your room is on the third floor, at the end of the hallway."*
+*   **Servicio de Lujo (Polite Grammar)**: En entornos de alto nivel, evita las órdenes directas. En lugar de decir *"Wait here"*, usa *"I was wondering if you could wait in the lounge for just a moment while I prepare your keys."*
+*   **Indicaciones**: *"The elevator is just around the corner, and your room is on the third floor. If you need any assistance with your luggage, please let us know."*
+
+---
 
 ## 2. Inglés para Camareros y Servicio de Mesa (F&B)
 
-El servicio de Alimentos y Bebidas (*Food & Beverage*) requiere un **[vocabulario de restaurante en inglés](/blog/viajes/ingles-restaurantes-guia)** muy específico. Desde explicar los ingredientes de un plato hasta gestionar alergias, tu comunicación debe ser precisa.
+El servicio de Alimentos y Bebidas (*Food & Beverage*) requiere un **[vocabulario de restaurante en inglés](/blog/viajes/ingles-restaurantes-guia)** muy específico. Desde explicar los ingredientes de un plato hasta gestionar alergias, tu comunicación debe ser precisa para evitar malentendidos que puedan afectar la salud del cliente.
 
 ### Frases de Camarero en Inglés Esenciales:
 *   **Primer Contacto**: *"Would you like to start with some drinks or an appetizer while you look at the menu?"*
-*   **Tomar el Pedido**: *"Are you ready to order, or do you need a few more minutes? Any dietary restrictions I should be aware of?"*
-*   **Recomendaciones**: *"I highly recommend today's special, the grilled sea bass with seasonal vegetables. It's our chef's signature dish."*
-*   **Cierre del Servicio**: *"Was everything to your satisfaction? Would you like to see the dessert menu or should I bring the bill?"*
+*   **Explicar el Menú**: *"This dish features a reduction of balsamic vinegar and is served on a bed of sautéed spinach."*
+*   **Gestionar Alergias**: *"I'll double-check with the chef to ensure there's no cross-contamination with nuts."*
+*   **Upselling (Sugerencias)**: *"Would you like to try our signature dessert? It's a chocolate fondant that pairs perfectly with our house espresso."*
 
-## 3. Atención al Cliente y Resolución de Conflictos
+---
 
-En hostelería, las cosas no siempre salen según lo previsto. La diferencia entre un cliente enfadado y un cliente fidelizado radica en cómo gestionas la queja en nuestro módulo de **[inglés para hostelería](/blog/trabajo/ingles-para-hosteleria)**.
+## 3. El Rol del Concierge: Recomendaciones y Turismo
 
-### Estrategias de 'Complaints Management':
-*   **Escucha Activa y Empatía**: *"I am very sorry for the delay. I understand your frustration, and I will check the status of your order immediately."*
-*   **Ofrecer Alternativas**: *"I apologize that your room isn't ready yet. In the meantime, we would like to offer you a complimentary drink at the bar."*
-*   **Seguimiento**: *"Is everything alright now? Please let me know if there's anything else I can do to make your stay more comfortable."*
+Uno de los momentos donde el inglés es más crítico es cuando el cliente pide consejo sobre la ciudad. Dar indicaciones claras y recomendaciones acertadas mejora drásticamente la puntuación en sitios como TripAdvisor o Booking.com.
 
-## 4. Gestión de Alergias y Restricciones Dietéticas
+### Cómo dar recomendaciones locales:
+*   **Sugerir lugares**: *"If you're looking for authentic local food, I'd highly recommend the market district. It's about a 10-minute walk from here."*
+*   **Dar indicaciones**: *"Go straight down this street, turn left at the cathedral, and you'll find the museum on your right-hand side."*
+*   **Advertencias útiles**: *"Just a heads-up, the museum is closed on Mondays, so you might want to visit the park instead."*
 
-Hoy en día, la seguridad alimentaria es crítica. Debes ser capaz de identificar y comunicar riesgos:
-*   *"Does this dish contain any nuts or gluten?"*
-*   *"I'll double-check with the chef to ensure there's no cross-contamination."*
-*   *"We have a separate vegan menu if you'd like to take a look."*
+---
 
-## 5. Vocabulario Especializado por Sectores
+## 4. Phrasal Verbs Imprescindibles en Hostelería
 
-*   **Bartending & Mixology**: *"On the rocks"*, *"Neat"*, *"Cocktail shaker"*, *"Draft beer"*.
-*   **Housekeeping & Maintenance**: *"Fresh linens"*, *"Turn-down service"*, *"Leaking tap"*, *"Safe deposit box"*.
-*   **Events & Banqueting**: *"Flip chart"*, *"Stage setup"*, *"Catering buffet"*, *"Capacity"*.
+Para sonar más natural y fluido, incorpora estos verbos compuestos en tus interacciones diarias con los huéspedes:
+
+*   **Check in / Check out**: Registrarse o dejar la habitación. *"What time would you like to check out tomorrow?"*
+*   **Look after**: Cuidar o encargarse de algo. *"Don't worry, we'll look after your luggage until your room is ready."*
+*   **Book in**: Reservar. *"I've booked you in for a table of four at 8 PM."*
+*   **Drop off / Pick up**: Dejar o recoger a alguien (transporte). *"Our shuttle service can pick you up from the airport at any time."*
+*   **Fill in**: Rellenar (un formulario). *"Could you please fill in this registration card?"*
+
+---
+
+## Preguntas Frecuentes (FAQ) sobre el Inglés Turístico
+
+### ¿Cuál es la diferencia entre "Service Charge" y "Tip"?
+El *Service Charge* es un cargo que el restaurante añade directamente a la cuenta (común en el Reino Unido), mientras que la *Tip* (propina) es discrecional por parte del cliente. Como profesional, debes saber explicar esto con tacto: *"The service charge is already included in the total, sir."*
+
+### ¿Qué hago si el cliente usa términos de comida que no conozco?
+Si un cliente pide algo muy específico, puedes usar: *"I'm sorry, could you describe that for me? I want to make sure I get it exactly right."* Mostrar interés en aprender el término del cliente suele verse como una señal de buen servicio.
+
+### ¿Es necesario tener un acento perfecto?
+No. En el sector servicios internacional, la claridad y la cortesía son mucho más importantes que el acento. Los clientes de todo el mundo están acostumbrados a escuchar diferentes entonaciones; lo que buscan es eficiencia y una sonrisa.
 
 ---
 

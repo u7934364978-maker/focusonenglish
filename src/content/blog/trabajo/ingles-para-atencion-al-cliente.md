@@ -17,57 +17,80 @@ En esta guía, exploraremos las situaciones más comunes del día a día en un e
 
 Consulta nuestro **[hub de inglés para el trabajo](/blog/trabajo)** para más recursos profesionales o visita nuestro **[hub de vocabulario](/blog/vocabulario)** para ampliar tu léxico técnico.
 
-## 1. El Arte de la Bienvenida: Saludos y Apertura
+## 1. El Arte de la Bienvenida: Saludos y Tono de Voz
 
-La **atención al cliente inglés** empieza por una primera impresión impecable. El tono debe ser profesional, servicial y seguro.
+La **atención al cliente inglés** empieza por una primera impresión impecable. El tono debe ser profesional, servicial y, sobre todo, seguro. No se trata solo de las palabras, sino de la entonación y el registro que utilices según el tipo de empresa.
+
+### Diferencia de Registro: Formal vs. Casual
+*   **Empresas Tradicionales (Banca, Seguros, Legal)**: Usa un tono formal. *"How may I be of assistance today?"* o *"We appreciate your patience while we review your account."*
+*   **Startups y Tech (SaaS, Apps, Gaming)**: El tono suele ser más directo y amigable. *"Hi! Thanks for reaching out. Let's get that fixed for you!"* o *"I'm happy to help you with your login issue."*
 
 ### Por Teléfono (Phone Support):
 *   *"Thank you for calling [Company Name] support. My name is [Your Name]. How can I make your day better?"*
-*   *"Good morning/afternoon, you're speaking with [Your Name] from the billing department. How may I assist you?"*
+*   *"Good morning, you're speaking with [Your Name]. Could I start with your order number, please?"*
 
-### Por Chat o Email (Digital Channels):
-*   *"Hello! Thank you for reaching out to us. I'd be happy to help you with your inquiry today."*
-*   *"Hi there! This is [Your Name] from the success team. Could you please provide your account details so I can look into this for you?"*
+---
 
 ## 2. Escucha Activa y Empatía: Las Claves del Soporte
 
-Cuando un cliente tiene un problema, lo primero que busca es ser escuchado. Usa estas **[frases de atención al cliente inglés](/blog/trabajo/ingles-para-atencion-al-cliente)** para validar sus sentimientos:
+Cuando un cliente tiene un problema, lo primero que busca es ser escuchado y comprendido. Usa estas **[frases de atención al cliente inglés](/blog/trabajo/ingles-para-atencion-al-cliente)** para validar sus sentimientos y reducir la tensión:
 
-*   **Validación**: *"I completely understand why you're frustrated, and I'm here to help you resolve this as quickly as possible."*
-*   **Clarificación**: *"Just to make sure I've got this right, you're saying that the software is crashing every time you export a file, correct?"*
-*   **Compromiso**: *"I'm going to take ownership of this issue and ensure it gets resolved today."*
+*   **Validación y Empatía**: *"I completely understand why you're frustrated. I would feel the same way if I were in your position."*
+*   **Clarificación Activa**: *"Just to make sure I've got this right, you're saying that the software is crashing every time you export a file, correct?"*
+*   **Propiedad del Problema**: *"I'm going to take ownership of this issue and stay with you until we find a solution."*
 
-## 3. Resolución de Problemas y Soporte Técnico
+---
 
-Si tu rol es el de **soporte técnico inglés**, debes ser capaz de guiar al cliente a través de procesos complejos de forma sencilla:
+## 3. Resolución de Problemas: El Soporte por Email y Ticket
 
-*   **Paso a paso**: *"First, I'd like you to click on the 'Settings' icon in the top right corner. Do you see it?"*
-*   **Gestión de esperas**: *"Would you mind holding for a minute or two while I check with our technical team?"*
-*   **Seguimiento**: *"I'll send you an email with the troubleshooting steps we just discussed so you have them for future reference."*
+En el soporte escrito, la claridad es más importante que la gramática perfecta. Los clientes suelen escanear los correos en lugar de leerlos palabra por palabra.
+
+### La Regla de la Escaneabilidad (Scannability)
+1.  **Puntos clave al principio**: Pon la solución o la respuesta a la pregunta en el primer párrafo.
+2.  **Uso de listas**: Si hay pasos técnicos, usa números.
+3.  **Llamada a la acción clara**: Indica qué debe hacer el cliente a continuación.
+
+**Ejemplo de estructura:**
+*"Hi [Name], I've looked into your case and I have a solution. Please follow these steps: 
+1. Open the app. 
+2. Go to Settings. 
+3. Click 'Update'. 
+Let me know if this works for you!"*
+
+---
 
 ## 4. Gestión de Reclamaciones y Clientes Difíciles
 
-Aprende a calmar situaciones tensas usando un lenguaje positivo y evitando palabras negativas que puedan escalar el conflicto:
+Aprende a calmar situaciones tensas usando un lenguaje positivo y evitando palabras negativas que puedan escalar el conflicto (como *"No"*, *"Impossible"* o *"Your fault"*).
 
-*   **Disculpa Sincera**: *"Please accept my sincerest apologies for the inconvenience this has caused. This is certainly not the experience we want our customers to have."*
-*   **Ofrecer Compensación**: *"As a gesture of goodwill, I'd like to offer you a 20% discount on your next month's subscription."*
-*   **Escalación**: *"If you're not satisfied with this resolution, I'd be more than happy to escalate this ticket to my supervisor for further review."*
+*   **Disculpa Sincera**: *"Please accept my sincerest apologies for the inconvenience. This is certainly not the level of service we strive for."*
+*   **Lenguaje Positivo**: En lugar de decir *"We can't do that"*, di *"What I can do for you is offer a partial refund..."*.
+*   **Escalación Diplomática**: *"If you're not satisfied with this resolution, I'd be more than happy to involve my supervisor to see if there are other options available."*
 
-## 5. Cierre de la Interacción y Feedback
+---
 
-El cierre es tan importante como la apertura. Asegúrate de que el cliente se vaya con todas sus dudas resueltas:
+## 5. Phrasal Verbs Imprescindibles en Customer Service
 
-*   *"Is there anything else, however small, that I can help you with today?"*
-*   *"It's been a pleasure assisting you. You might receive a short survey about our interaction today; we'd love to hear your feedback."*
-*   *"Thank you for choosing [Company Name]. Have a wonderful day!"*
+Para sonar como un profesional nativo, incorpora estos verbos compuestos en tu vocabulario diario:
 
-## 6. Glosario de Métricas y Siglas de Customer Service
+*   **Look into**: Investigar algo. *"I'll look into this immediately and find out what happened."*
+*   **Get back to**: Volver a contactar con alguien. *"I'll get back to you by the end of the day with an update."*
+*   **Walk through**: Explicar algo paso a paso. *"Let me walk you through the installation process."*
+*   **Fill out**: Rellenar un formulario. *"Could you please fill out this short form to process your refund?"*
+*   **Put through**: Pasar una llamada. *"One moment, please. I'll put you through to the technical department."*
 
-Para moverte como un experto en la oficina, debes conocer estos términos:
-*   **SLA (Service Level Agreement)**: El tiempo máximo prometido para responder.
-*   **CSAT (Customer Satisfaction Score)**: La nota que te pone el cliente.
-*   **First Contact Resolution (FCR)**: Resolver el problema a la primera.
-*   **Ticket Escalation**: Pasar el problema a un departamento superior.
+---
+
+## Preguntas Frecuentes (FAQ) sobre el Inglés en Soporte
+
+### ¿Qué hago si no entiendo el acento del cliente por teléfono?
+No entres en pánico. Usa frases como: *"I'm sorry, I'm having a little trouble hearing you. Could you please repeat that?"* o *"Could you please spell that for me?"*. Es mejor pedir aclaración que cometer un error.
+
+### ¿Es aceptable usar contracciones (I'm, can't) en soporte escrito?
+Depende de la empresa. En entornos tecnológicos y startups es la norma. En entornos legales o financieros, es mejor evitarlas para mantener un tono más formal.
+
+### ¿Cómo puedo mejorar mi velocidad al escribir en inglés?
+Crea tu propio repositorio de "Canned Responses" (respuestas predefinidas) para las dudas más comunes. Esto te permitirá centrarte en personalizar el mensaje sin preocuparte por la gramática básica cada vez.
 
 ---
 

@@ -33,53 +33,65 @@ No dejes que el idioma sea una barrera que opaque tu talento. Con las **[clases 
 
 ## 🏗️ La Estructura de una Presentación de Éxito
 
-Una presentación en inglés suele seguir un patrón muy definido que la audiencia internacional espera. Saltarse esta estructura puede generar confusión.
+Una presentación en inglés suele seguir un patrón muy definido que la audiencia internacional espera. Saltarse esta estructura puede generar confusión y restar autoridad a tu mensaje.
 
 ### 1. El Gancho (The Hook)
-No empieces con "Hello, my name is...". Empieza con algo que despierte la curiosidad:
-- **Una pregunta retórica:** *"Have you ever wondered why 70% of projects fail in the first year?"*
-- **Un dato impactante:** *"By 2030, the market for AI will have tripled."*
-- **Una historia corta:** *"Last week, I was talking to a client who..."*
+No empieces con el clásico "Hello, my name is...". Empieza con algo que despierte la curiosidad de inmediato:
+*   **Contraste Impactante**: *"Two years ago, we were losing money. Today, we are the market leaders. How did we do it?"*
+*   **Pregunta Retórica**: *"Have you ever wondered why 70% of digital transformations fail in the first year?"*
+*   **Visión de Futuro**: *"Imagine a world where your customer support is 100% automated but 100% human-centric."*
 
 ### 2. La Hoja de Ruta (The Roadmap)
-A la audiencia anglosajona le gusta saber hacia dónde va la sesión. Usa lo que llamamos "signposting":
-- *"Today, I'm going to talk about..."*
-- *"First, I'll provide an overview... then, I'll move on to... and finally, I'll conclude with..."*
-- *"If you have any questions, please feel free to interrupt / I'll be happy to answer them at the end."*
+A la audiencia anglosajona le gusta saber exactamente hacia dónde va la sesión. Usa lo que llamamos "signposting":
+*   *"I've divided my talk into three main sections..."*
+*   *"First, I'll provide an overview... then, I'll move on to... and finally, I'll conclude with a call to action."*
+*   *"I'd appreciate it if you could hold your questions until the end of the presentation."*
 
-### 3. El Cuerpo y las Transiciones
-Las transiciones son los puentes entre tus ideas. Sin ellas, tu presentación sonará como una lista inconexa de puntos.
-- **Para cambiar de tema:** *"Moving on to my next point..."*
-- **Para profundizar:** *"Let's take a closer look at..."*
-- **Para resumir una sección:** *"To sum up what we've seen so far..."*
+### 3. El Cuerpo: Transiciones y Fluidez
+Las transiciones son los puentes entre tus ideas. Sin ellas, tu presentación sonará como una lista inconexa de puntos aburridos.
+*   **Para cambiar de sección**: *"Now that we've covered X, let's turn our attention to Y."*
+*   **Para enfatizar**: *"What I'd like to highlight here is that..."*
+*   **Para dar ejemplos**: *"To illustrate this point, let's look at the case of..."*
 
-## 📊 Visualizando Datos: Vocabulario que Convence
+---
 
-Hablar de gráficos, tendencias y números requiere precisión. En nuestras **[clases de inglés](/blog/metodos/clases-de-ingles-guia)**, ponemos especial énfasis en los verbos de movimiento para que tus descripciones sean dinámicas:
+## 📊 Interactuando con el Apoyo Visual
 
-*   **Para aumentos:** *"To rise", "To increase", "To soar"* (subir muy rápido), *"To peak"* (alcanzar el máximo).
-*   **Para descensos:** *"To fall", "To decrease", "To plummet"* (caer en picado), *"To hit a low"*.
-*   **Para estabilidad:** *"To remain steady", "To level off", "To fluctuate"* (oscilar).
+Tus diapositivas no son tu guion, son tu escenario. Debes saber guiar la vista de la audiencia hacia los datos clave.
+*   **Describir Visuales**: *"If you look at this graph, you'll notice a significant spike in Q3."*
+*   **Resaltar datos**: *"I'd like to draw your attention to the red line, which represents our churn rate."*
+*   **Simplificar lo complejo**: *"What this chart basically tells us is that our expansion strategy is working."*
 
-**Ejemplo práctico:** *"As you can see on this chart, sales plummeted in Q2, but they have since stabilized and we expect them to soar by the end of the year."*
+---
 
-## ❓ El Reto de la Sesión de Q&A (Preguntas y Respuestas)
+## 🚫 Gestionando Participantes y Momentos Difíciles
 
-Para muchos profesionales, este es el momento más temido porque no se puede guionizar. Sin embargo, existen fórmulas para ganar tiempo y responder con elegancia:
+Saber manejar el "factor humano" es lo que define a un orador senior.
+*   **El Interruptor**: *"That's a great point, John. If you don't mind, I'll address it in the Q&A session at the end."*
+*   **El Escéptico**: *"I understand your concerns regarding the budget. Let's look at the ROI data to provide some clarity."*
+*   **El Silencio Incómodo**: Si haces una pregunta y nadie responde, no te desesperes. Usa: *"I see you're processing the information. Let me rephrase that..."*.
 
-1.  **Agradece la pregunta:** *"That's a very interesting question, thank you for asking."* (Esto te da 3 segundos para pensar).
-2.  **Clarifica si es necesario:** *"Could you please clarify what you mean by...?"*
-3.  **Si no sabes la respuesta:** No inventes. Sé profesional: *"I don't have that specific data right now, but I'd be happy to look into it and get back to you by tomorrow."*
+---
 
-## 🗣️ El Poder de la Voz y el Contexto Cultural
+## 💻 El Reto de la Presentación Virtual (Zoom/Teams)
 
-Presentar en inglés no se trata de imitar a un nativo, sino de ser comprensible y persuasivo. 
+En 2026, la mayoría de las presentaciones son híbridas. El lenguaje corporal cambia:
+1.  **Contacto Visual Virtual**: Mira directamente a la lente de la cámara, no a las caras en la pantalla. Esto crea la sensación de conexión directa.
+2.  **Encuadre y Gestos**: Asegúrate de que tus manos sean visibles cuando enfatices algo. Los gestos ayudan a transmitir entusiasmo incluso a través de una pantalla.
+3.  **Chequeo de Audio**: *"Can everyone see the slides clearly? Is my audio levels okay?"*.
 
-*   **Entonación:** El inglés es un idioma muy rítmico. Usar una voz monótona es la forma más rápida de que tu audiencia desconecte.
-*   **Pausas:** Una pausa bien colocada después de un punto importante genera anticipación y permite que el mensaje "cale".
-*   **Simplicidad:** Los mejores oradores usan frases cortas. *"Complexity is your enemy"*. Si puedes decir algo en 5 palabras, no uses 15.
+---
 
-**Contexto Cultural:** Ten en cuenta que en culturas como la estadounidense, se aprecia mucho el entusiasmo y la energía. En culturas más conservadoras, como la británica o alemana, se valora más la moderación y los datos objetivos.
+## 🏁 Phrasal Verbs Imprescindibles para Oratoria
+
+Para sonar natural y fluido, incorpora estos verbos compuestos en tu discurso:
+*   **Go through**: Revisar o explicar algo en detalle. *"Let's go through the main findings of the report."*
+*   **Point out**: Señalar o resaltar un dato. *"I'd like to point out that our costs have decreased by 15%."*
+*   **Wrap up**: Terminar o concluir. *"To wrap up, I'd like to thank you all for your time today."*
+*   **Hand over**: Pasar el turno de palabra a otro colega. *"Now, I'll hand over to Sarah, who will discuss the marketing plan."*
+*   **Run over**: Excederse del tiempo previsto. *"I'm sorry we've run over by five minutes. Let's conclude quickly."*
+
+---
 
 ## 🎓 Entrena tu Oratoria con Focus English
 

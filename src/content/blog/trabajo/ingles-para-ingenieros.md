@@ -19,55 +19,74 @@ Explora nuestro **[hub de inglés profesional](/blog/trabajo)** para más cursos
 
 ## 1. Vocabulario de Ingeniería en Inglés: Precisión y Rigor
 
-En la ingeniería, la ambigüedad es el enemigo. El uso de un **technical english** preciso evita errores costosos y garantiza la seguridad de los proyectos.
+En la ingeniería, la ambigüedad es el enemigo. El uso de un **technical english** preciso evita errores costosos y garantiza la seguridad de los proyectos. No se trata solo de conocer nombres de piezas, sino de describir procesos y comportamientos físicos.
 
 ### Descripción de Sistemas y Componentes
-No basta con decir que algo "funciona"; debes ser capaz de describir la arquitectura del sistema:
 *   *"The system architecture consists of three main layers: the physical sensor layer, the data processing unit, and the cloud-based actuator."*
-*   *"The prototype is undergoing stress testing to determine its breaking point."*
+*   *"The prototype is undergoing stress testing to determine its breaking point and structural integrity."*
+*   *"This component is prone to wear and tear, so a preventive maintenance schedule is required."*
 
-### Medidas, Tolerancias y Propiedades
-Aprende a expresar dimensiones y límites sin margen de error:
-*   **Tolerancias**: *"The component must be machined within a tolerance of ±0.01 mm."*
-*   **Propiedades físicas**: *"We require a material with high tensile strength, excellent corrosion resistance, and low thermal conductivity."*
-*   **Estado del sistema**: *"The engine is running at 3000 RPM (revolutions per minute) under peak load conditions."*
+### Cómo leer Datos y Gráficos en Inglés
+Un ingeniero debe ser capaz de narrar las tendencias de un informe técnico:
+*   **Tendencias**: *"The graph shows a steady increase in temperature until it reaches a plateau at 85°C."*
+*   **Fluctuaciones**: *"The voltage fluctuated significantly during the peak load period."*
+*   **Picos y valles**: *"We observed a spike in data traffic at midnight, followed by a sharp decline."*
 
-## 2. Gestión de Proyectos e Informes Técnicos
+---
 
-Un ingeniero que no sabe comunicar sus resultados es invisible. Tu **[inglés para proyectos](/blog/trabajo/ingles-para-ingenieros)** debe ser claro, conciso y orientado a la toma de decisiones.
+## 2. Vocabulario Especializado por Ramas de Ingeniería
 
-### Actualización de Estado (Status Updates)
-*   *"We are currently in the deployment phase. We are on track to meet the Q3 deadline despite initial delays in procurement."*
-*   *"The project is currently over budget due to unforeseen fluctuations in raw material prices."*
+Aunque el inglés técnico es universal, cada especialidad tiene su propio "dialecto".
 
-### Identificación y Resolución de Problemas (Troubleshooting)
-Cuando surge un problema, el enfoque debe ser proactivo:
-*   *"We have identified a significant bottleneck in the assembly line. Our proposed solution involves automating the quality control stage to reduce cycle time by 15%."*
-*   *"Root cause analysis indicates that the failure was caused by a faulty capacitor in the power supply unit."*
+### Ingeniería de Software e IT
+*   **Deployment**: Despliegue de software.
+*   **Scalability**: Capacidad de un sistema para manejar el crecimiento.
+*   **Technical Debt**: El coste de soluciones rápidas que requerirán refactorización.
+*   **Bug tracking**: Seguimiento y resolución de errores.
 
-### Documentación Técnica
-Aprende a escribir manuales, especificaciones y White Papers. La clave es el uso del **imperativo** y la **voz pasiva** de forma equilibrada para dar instrucciones claras pero manteniendo la objetividad técnica.
+### Ingeniería Civil y Construcción
+*   **Blueprint / Site plan**: Plano de la obra.
+*   **Foundations**: Cimientos.
+*   **Reinforced concrete**: Hormigón armado.
+*   **Load-bearing wall**: Muro de carga.
 
-## 3. Soporte Técnico en Inglés y Resolución de Dudas
+### Ingeniería Mecánica e Industrial
+*   **Gearbox**: Caja de cambios o engranajes.
+*   **Tolerance**: El margen de error permitido en una medida.
+*   **Assembly line**: Línea de montaje.
+*   **Machining**: Mecanizado.
 
-Si tu rol incluye la interacción con clientes o usuarios finales, dominar el **[inglés para soporte](/blog/trabajo/ingles-para-ingenieros)** es fundamental para la reputación de tu empresa.
+---
 
-*   *"Can you walk me through the steps you took before the error message appeared?"*
-*   *"I'll escalate this ticket to our senior engineering team for further investigation."*
-*   *"Please ensure that all firmware updates have been installed before restarting the hardware."*
+## 3. Gestión de Proyectos y Comunicación Ágil
 
-## 4. Reuniones Técnicas y Metodologías Ágiles
+Un ingeniero que no sabe comunicar sus resultados es invisible. Tu **[inglés para proyectos](/blog/trabajo/ingles-para-ingenieros)** debe ser claro, conciso y orientado a la toma de decisiones, especialmente en entornos de metodologías ágiles.
 
-En los entornos actuales de trabajo (Agile, Scrum, Kanban), la comunicación diaria es constante. Te preparamos para las "Daily Stand-ups" usando **[technical english for engineers](/blog/trabajo/ingles-para-ingenieros)**:
+### El Desacuerdo Técnico Diplomático
+En las reuniones de diseño, es común estar en desacuerdo. Usa frases que suavicen la crítica para mantener la colaboración:
+*   *"I see the logic behind this design, however, I'm concerned about the long-term maintenance costs."*
+*   *"While this framework is efficient, it might not be the best fit for our specific scalability needs."*
+*   *"Could we explore an alternative approach to minimize the risk of system failure?"*
 
-*   **Daily Stand-up**: *"Yesterday, I completed the API documentation. Today, I'll be debugging the latency issues in the staging environment. No blockers so far."*
-*   **Debate Técnico**: *"While I understand the benefits of this framework, I am concerned about its scalability. I suggest we conduct a benchmark test before making a final decision."*
+### Phrasal Verbs Técnicos Imprescindibles
+*   **Set up**: Configurar o instalar. *"We need to set up the testing environment before Friday."*
+*   **Shut down**: Apagar un sistema o máquina. *"The reactor was shut down for safety inspections."*
+*   **Go over**: Revisar en detalle. *"Let's go over the specifications one last time."*
+*   **Back up**: Hacer una copia de seguridad. *"Ensure you back up all the data before the migration."*
+*   **Break down**: Averiarse o analizar algo en partes pequeñas. *"The pump broke down due to a lack of lubrication."*
 
-## 5. Normativas, Seguridad y Estándares Globales
+---
 
-El cumplimiento de las normas de **Health & Safety** y los estándares internacionales es lo que da validez legal a tu trabajo.
-*   *"The installation complies with the latest ISO 9001 quality management standards."*
-*   *"Protective gear must be worn at all times when entering the construction site."*
+## 4. Preguntas Frecuentes (FAQ) para Ingenieros
+
+### ¿Qué nivel de inglés se exige en las multinacionales de ingeniería?
+Generalmente, se requiere un **B2 (Upper Intermediate)** para puestos técnicos y un **C1 (Advanced)** si el puesto implica gestión de equipos internacionales o trato directo con clientes globales.
+
+### ¿Cómo puedo mejorar mi escritura técnica?
+Sigue la regla de las 3 C: **Clarity, Conciseness, and Correctness**. Evita frases largas y florituras innecesarias. En la redacción técnica, menos es más. Usa herramientas como Grammarly pero asegúrate de que no alteren el significado técnico de tus términos.
+
+### ¿Debo aprender las medidas en sistema imperial?
+Si trabajas con empresas de EE. UU. o el Reino Unido, es vital estar familiarizado con pulgadas (*inches*), pies (*feet*), libras (*pounds*) y grados Fahrenheit, aunque el sistema métrico sigue siendo el estándar en la ciencia global.
 
 ---
 

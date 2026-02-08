@@ -31,25 +31,71 @@ Para más detalles sobre otras rutas, visita nuestra [Guía de Certificaciones](
 
 ---
 
-## 📊 Estructura del Examen
+## 📊 Estructura Detallada del Examen Aptis A2
 
-Aptis evalúa las cuatro destrezas lingüísticas, además de una prueba obligatoria de gramática y vocabulario.
+A diferencia de otros exámenes tradicionales, Aptis se realiza íntegramente por ordenador en un centro examinador. Esto permite que el componente de *Speaking* no sea una entrevista cara a cara, sino una serie de grabaciones, lo cual reduce el estrés para muchos candidatos.
 
-1. **Grammar & Vocabulary**: 25 preguntas de gramática y 25 de vocabulario. Es el núcleo del examen.
-2. **Reading**: Evalúa tu capacidad para entender textos cortos, correos electrónicos y ordenar párrafos.
-3. **Listening**: Mensajes cortos, conversaciones telefónicas e identificación de opiniones.
-4. **Writing**: Dividido en 4 partes, desde responder mensajes en una red social hasta escribir un email formal de reclamación.
-5. **Speaking**: 4 partes grabadas (presentación personal, descripción de imágenes, comparación de fotos y opinión sobre un tema abstracto).
+### 1. Grammar & Vocabulary: El corazón de Aptis
+Esta sección es obligatoria y actúa como "termómetro" para el resto de las pruebas. Consta de 50 preguntas (25 de gramática y 25 de vocabulario).
+*   **Gramática:** Se centra en estructuras de nivel básico a intermedio (tiempos verbales, condicionales, preposiciones). Para un A2, asegúrate de dominar el *Present Simple, Past Simple* y los comparativos.
+*   **Vocabulario:** Suelen ser ejercicios de sinónimos, definiciones o completar frases en contexto. Un truco es aprender colocaciones (palabras que suelen ir juntas), como *"take a photo"* o *"make a decision"*.
+
+### 2. Reading: Comprensión Lectora
+Se divide en cuatro tareas que aumentan en dificultad:
+*   **Comprensión de oraciones:** Elegir la palabra correcta para completar una frase corta.
+*   **Cohesión de textos:** Ordenar párrafos para que una historia o explicación tenga sentido lógico.
+*   **Lectura de opinión:** Identificar qué dice cada persona en un texto sobre un tema común.
+*   **Búsqueda de información:** Localizar datos específicos en textos más largos.
+
+### 3. Listening: Comprensión Auditiva
+Dura unos 40 minutos y puedes escuchar cada audio **dos veces**. Esto es una gran ventaja frente a exámenes como el IELTS.
+*   **Mensajes cortos:** Identificar un número de teléfono, una hora o un lugar.
+*   **Diálogos:** Entender el propósito de una conversación entre dos amigos o colegas.
+*   **Opiniones:** Identificar si la persona que habla está de acuerdo, en desacuerdo o tiene dudas sobre un tema.
+
+### 4. Writing: Expresión Escrita
+Para el A2, el Writing de Aptis es muy agradecido si usas conectores básicos (*and, but, because*).
+*   **Parte 1:** Respuestas cortas a 5 preguntas de chat (individuales).
+*   **Parte 2:** Unirse a un club y escribir sobre tus intereses (20-30 palabras).
+*   **Parte 3:** Responder a tres preguntas en un foro social (30-40 palabras cada una).
+*   **Parte 4:** Dos correos electrónicos: uno informal a un amigo (50 palabras) y uno formal a una autoridad o empresa (120-150 palabras).
+
+### 5. Speaking: Expresión Oral
+Es la parte que más nervios genera. Tienes un cronómetro en pantalla que te indica cuánto tiempo te queda.
+*   **Información personal:** Preguntas básicas sobre tu vida.
+*   **Descripción de una foto:** Tienes 45 segundos para decir todo lo que ves.
+*   **Comparación de dos fotos:** Debes encontrar similitudes y diferencias.
+*   **Opinión sobre un tema:** Preguntas más abstractas donde debes justificar tu punto de vista.
 
 ---
 
-## ⚖️ Puntuación Aptis A2
+## ⚖️ Puntuación y Resultados: Entendiendo la Escala
 
-Para obtener el nivel A2, debes alcanzar una puntuación específica en cada habilidad. A diferencia de otros exámenes, si destacas en una parte pero flojeas en otra, Aptis hace una media ponderada que puede ayudarte a compensar.
+Aptis utiliza una doble escala de puntuación:
+1.  **Escala Numérica:** Cada una de las 4 destrezas recibe una nota de 0 a 50.
+2.  **Escala MCER (Marco Común Europeo):** Recibirás una letra final (A1, A2, B1, B2 o C) basada en el promedio de tus notas numéricas.
 
-- **Puntuación máxima por habilidad**: 50 puntos.
-- **Total**: 200 puntos (sin contar Gramática/Vocabulario, que se usa para desempatar).
-- **Nivel A2**: Suele requerir una puntuación entre 12 y 21 puntos en cada sección.
+**¿Por qué es importante la gramática?** Aunque no cuenta directamente para el promedio del nivel MCER, si tu nota está en el límite entre el A2 y el B1, el examinador mirará tu nota de *Grammar & Vocabulary* para decidir si te otorga el nivel superior. ¡Es tu salvavidas!
+
+---
+
+## 🗓️ Plan de Estudio de 4 Semanas para el A2
+
+Si tienes poco tiempo, sigue este calendario intensivo:
+
+*   **Semana 1: Cimientos de Gramática.** Repasa el *Present Simple, Continuous, Past Simple* y los verbos irregulares más comunes.
+*   **Semana 2: Vocabulario Temático.** Enfócate en comida, viajes, familia y trabajo. Haz listas de sinónimos.
+*   **Semana 3: Simulacros de Listening y Reading.** Acostúmbrate al formato del examen por ordenador. Aprende a gestionar el tiempo.
+*   **Semana 4: Producción (Speaking & Writing).** Grábate con el móvil describiendo fotos y escribe al menos dos correos formales al día.
+
+---
+
+## ⚠️ Errores Comunes que debes evitar en el Aptis A2
+
+1.  **No usar todo el tiempo en el Speaking:** Si el cronómetro sigue corriendo y tú ya has terminado, añade un *"Finally..."* o una conclusión personal. El silencio penaliza.
+2.  **Escribir de más en el Writing:** Si te piden 50 palabras y escribes 150, es más probable que cometas errores gramaticales que bajen tu nota. Sé preciso.
+3.  **Olvidar los conectores:** Incluso en el nivel A2, usar *"However"*, *"Although"* o *"First of all"* demuestra un control del lenguaje superior a la media.
+4.  **No practicar con el ordenador:** Escribir en teclado y usar cascos es muy diferente a hacerlo en papel. Haz al menos un simulacro oficial online antes del día X.
 
 ---
 

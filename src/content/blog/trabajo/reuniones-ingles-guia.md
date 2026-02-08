@@ -21,83 +21,92 @@ faqs:
 
 ## Del "Fear of Speaking" al "Flow of Speaking" en 2026
 
-¿Alguna vez te has quedado en silencio en una reunión por miedo a no saber cómo interrumpir o por no entender una frase técnica? No estás solo. En el entorno laboral híbrido de 2026, las reuniones virtuales son el escenario donde se mide tu liderazgo y profesionalidad.
+¿Alguna vez te has quedado en silencio en una reunión por miedo a no saber cómo interrumpir o por no entender una frase técnica? No estás solo. En el entorno laboral híbrido de 2026, las reuniones internacionales son el escenario donde se mide no solo tu nivel de idioma, sino tu capacidad de liderazgo y resolución de problemas bajo presión.
 
-Dominar el inglés para reuniones no se trata de no cometer errores gramaticales, sino de **mantener el flujo de la conversación** y asegurar que tu mensaje llegue con claridad.
+Dominar el **[inglés para reuniones](/blog/trabajo/reuniones-ingles-guia)** no consiste en evitar errores gramaticales a toda costa, sino en **mantener el flujo de la conversación** y asegurar que tu mensaje llegue con claridad. Un profesional que se comunica con confianza, aunque cometa algún error menor, es mucho más efectivo que uno que guarda silencio por exceso de perfeccionismo.
 
 ---
 
-## 💻 Technical Check: El primer minuto cuenta
+## 💻 Technical Check y Etiqueta Híbrida
 
-Antes de entrar en materia de negocios, debes asegurarte de que la tecnología está de tu parte. Estos son los "ice-breakers" técnicos que todo profesional debe dominar.
+Antes de entrar en materia de negocios, debes asegurarte de que la tecnología está de tu parte y de que respetas la etiqueta del entorno virtual. El primer minuto de una videollamada marca el tono de toda la sesión.
 
+### Frases de Supervivencia Técnica
 | Situación | Frase en Inglés | Traducción |
 | :--- | :--- | :--- |
-| **Audio** | Can everyone hear me clearly? | ¿Todos pueden oírme bien? |
-| **Mudo** | Sorry, I was on mute. | Lo siento, estaba en silencio (mute). |
-| **Retraso** | There is a bit of a lag in the connection. | Hay un poco de retraso en la conexión. |
-| **Pantalla** | Can you see my screen now? | ¿Pueden ver mi pantalla ahora? |
-| **Eco** | I think there's some background noise. | Creo que hay algo de ruido de fondo. |
+| **Audio** | "Can everyone hear me clearly?" | ¿Todos pueden oírme bien? |
+| **Mudo** | "Sorry, I was on mute / My mic was muted." | Lo siento, estaba en silencio. |
+| **Retraso** | "There is a bit of a lag in the connection." | Hay un poco de retraso en la conexión. |
+| **Pantalla** | "Can you see my screen now?" | ¿Pueden ver mi pantalla ahora? |
+| **Cámara** | "I'll keep my camera off to save bandwidth." | Apagaré la cámara para ahorrar banda. |
+
+### La Regla del "Active Listening"
+En las reuniones internacionales, la **escucha activa** es tan importante como el habla. Usa señales verbales cortas para demostrar que estás siguiendo el hilo sin interrumpir: *"I see"*, *"Right"*, *"Fair point"*. Esto genera confianza con el interlocutor y reduce la tensión de la barrera idiomática.
 
 ---
 
 ## 🚀 El Ciclo de la Reunión: Frases para cada fase
 
-Una reunión exitosa tiene una estructura clara. Aquí tienes las herramientas para navegar cada etapa con seguridad.
+Una reunión exitosa sigue una estructura lógica. Aquí tienes las herramientas para navegar cada etapa con seguridad.
 
-### 1. Opening: Estableciendo el tono
-No esperes a que otros tomen la iniciativa si eres el responsable.
+### 1. Opening: Estableciendo el objetivo
+No esperes a que otros tomen la iniciativa si eres el responsable. Define el propósito de inmediato:
+- *"Thank you all for joining today's session on such short notice."*
+- *"The main objective of today's meeting is to brainstorm solutions for..."*
+- *"Let's dive straight into the first item on the agenda to stay on track."*
 
-- "Thank you all for joining today's session."
-- "The main objective of today's meeting is to..."
-- "Let's dive straight into the first item on the agenda."
+### 2. Moderación: Reconducir y Gestionar Tiempos
+Si la reunión se desvía del tema (lo cual es muy común), usa estas frases diplomáticas para volver al orden del día:
+- **"Parking" an idea:** *"That's an interesting point, but let's 'park' it for now and revisit it at the end."*
+- **Sticking to the agenda:** *"I'm afraid we're running out of time. Let's move on to the next point."*
+- **Handling interruptions:** *"Just a second, let Sarah finish her point first, please."*
 
-### 2. During: Gestionando el flujo (Interrupciones y Aclaraciones)
-
-En una reunión en inglés, saber cuándo y cómo intervenir es una habilidad crítica.
+### 3. Durante: Interrupciones y Aclaraciones con Tacto
+En la cultura anglosajona, el desacuerdo y la interrupción se manejan con "suavizadores" (*hedging*).
 
 #### Cómo interrumpir educadamente
-| Intención | Frase Recomendada | Tono |
-| :--- | :--- | :--- |
-| **Añadir algo** | "Can I just jump in here for a second?" | Casual/Dinámico |
-| **Puntualizar** | "Sorry to interrupt, but I'd like to add that..." | Profesional |
-| **Pedir palabra** | "I have a quick point to make regarding..." | Directo |
+- **"Can I just jump in here for a second?"** (Casual, ideal para brainstormings).
+- **"Sorry to interrupt, but I'd like to add some context regarding..."** (Profesional).
+- **"Before we move on, I have a quick question about the budget."** (Estratégico).
 
-#### Cuando no has entendido algo (Clarification)
-Nunca finjas que has entendido. Es mejor preguntar a tiempo que cometer un error después.
+#### Cuando no has entendido (Clarification)
+Nunca finjas comprensión. Un error en una reunión puede costar miles de dólares o semanas de retraso.
+- **"Could you please speak a bit slower? The connection is a bit unstable."** (Una excusa perfecta para pedir que hablen despacio).
+- **"If I understand correctly, the main priority is X, right?"** (Para confirmar tu interpretación).
+- **"Could you rephrase that for me, please? I'm not sure I follow the technical part."**
 
-- **"Could you please speak a bit slower?"** (Más educado que decir "I don't understand").
-- **"If I understand correctly, you're saying that..."** (Para confirmar tu interpretación).
-- **"Could you rephrase that for me, please?"** (Cuando las palabras usadas son el problema).
+---
 
-### 3. Giving Opinions: Acuerdo y Desacuerdo con tacto
-En la cultura anglosajona, el desacuerdo suele suavizarse para mantener la cordialidad profesional.
+## ⚠️ Cuidado con los "False Friends" en la Oficina
 
-- **Acuerdo:** "I couldn't agree more" o "That's a valid point".
-- **Desacuerdo:** "I see your point, however, I'm concerned about..." o "I'm not sure I'm on the same page regarding...".
+El uso incorrecto de palabras que se parecen al español puede generar malentendidos críticos:
+*   **Assist vs Attend**: *"I'm going to assist the meeting"* suena a que vas a ayudar a organizarla. Usa *"I'm going to **attend** the meeting"*.
+*   **Actually**: No significa "actualmente" (que es *currently*), sino "de hecho" o "en realidad".
+*   **Compromise**: No es un "compromiso" de cita, sino un "punto medio" o "acuerdo". Para compromiso de responsabilidad, usa *commitment*.
+
+---
+
+## 🏁 Closing: El "Wrap-up" y el Plan de Acción
+
+No dejes que la reunión termine sin que todos tengan claro qué deben hacer. Un cierre vago es una reunión perdida.
+
+- **"To wrap up, let's summarize the main action points we've agreed on."**
+- **"I'll send a follow-up email with the meeting minutes by EOD."** (EOD = End Of Day).
+- **"Let's schedule a follow-up call for next Tuesday to check on the progress."**
+- **"Who is taking ownership of the implementation phase?"**
 
 ---
 
 ## 💡 El Tono y el Lenguaje Corporal Virtual
 
-Recuerda que en una videollamada, el 70% de la comunicación es visual y tonal.
-1. **Mantén contacto visual** con la cámara, no con tu propia imagen.
-2. **Usa las manos** para enfatizar puntos clave (dentro del encuadre).
-3. **Sonríe al saludar y despedirte**; proyecta confianza incluso si estás nervioso por el idioma.
+Recuerda que en una videollamada, una gran parte de la comunicación es visual.
+1. **Contacto visual:** Mira a la cámara de vez en cuando, no solo a la cuadrícula de caras.
+2. **Entonación:** El inglés es un idioma musical. Usa el énfasis en las palabras clave para resaltar la importancia de tus frases.
+3. **El "Golden Silence":** Después de hacer una pregunta, espera al menos 3-5 segundos. En reuniones remotas, el silencio es necesario para que otros procesen la información o activen su micrófono.
 
 ---
 
-## 🏁 Closing: Resumiendo y próximos pasos
-
-No dejes que la reunión termine sin que todos tengan claro qué deben hacer.
-
-- **"To wrap up, let's summarize the main action points."**
-- **"I'll send a follow-up email with the meeting minutes by EOD."** (EOD = End Of Day).
-- **"Does anyone have any final questions before we finish?"**
-
----
-
-## 🎓 Entrena tus oídos y tu voz con Focus English
+## 🎓 Entrena tus reuniones con Focus English
 
 Saber las frases es el 50% del éxito. El otro 50% es la **escucha activa** y la **pronunciación**. En Focus English, hemos desarrollado una tecnología única para ayudarte en este escenario:
 

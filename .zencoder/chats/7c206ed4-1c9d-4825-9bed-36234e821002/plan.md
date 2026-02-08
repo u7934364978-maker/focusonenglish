@@ -38,9 +38,24 @@ Create a detailed implementation plan.
 - [x] Expanded `src/content/blog/metodos/reported-speech-guia-uso.md` (~800 words).
 - [x] Expanded `src/content/blog/metodos/gramatica-ingles-b1-guia.md` (~850 words).
 - [x] Expanded `src/content/blog/metodos/voz-pasiva-ingles-guia.md` (~800 words).
-- [ ] Ensure all moved articles reach the 750-word threshold (Ongoing).
-- [ ] Expand any other articles in other categories that are under 750 words (Ongoing).
+- [x] Expanded `src/content/blog/metodos/ingles-a1.md` (~900 words).
+- [x] Expanded `src/content/blog/metodos/ingles-c1.md` (~900 words).
+- [x] Expanded `src/content/blog/metodos/ingles-a2.md` (~900 words).
+- [x] Expanded `src/content/blog/metodos/ingles-b2.md` (~1000 words).
+- [x] Expanded `src/content/blog/trabajo/vocabulario-negocios-ingles-profesional.md` (~1100 words).
+- [x] Expanded `src/content/blog/trabajo/emails-profesionales-ingles.md` (~1000 words).
+- [x] Expanded `src/content/blog/metodos/cursos-online-ingles-b1.md` (~900 words).
+- [x] Expanded `src/content/blog/trabajo/entrevista-trabajo-exito.md` (~1100 words).
+- [x] Expanded `src/content/blog/trabajo/presentaciones-ingles-guia.md` (~1000 words).
+- [x] Expanded `src/content/blog/viajes/ingles-para-camareros-guia.md` (~1100 words).
+- [x] Expanded `src/content/blog/viajes/curso-de-ingles-para-viajar.md` (1033 words).
+- [x] Expanded `src/content/blog/examenes/aptis-a2-guia-completa.md` (1071 words).
+- [x] Expanded `src/content/blog/examenes/guia-linguaskill-cambridge.md` (1071 words).
+- [x] Expanded `src/content/blog/examenes/trucos-writing-c1-advanced.md` (959 words).
+- [x] Expanded `src/content/blog/examenes/guia-precios-cambridge-2026.md` (1021 words).
+- [x] Ensure all moved articles reach the 750-word threshold.
+- [x] Expand any other articles in other categories that are under 750 words.
 
 #### Phase 4: Final Validation
-- [ ] Run a final word count audit.
+- [x] Run a final word count audit.
 - [ ] Run `npm run build` to verify site integrity.
