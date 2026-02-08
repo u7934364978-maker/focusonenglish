@@ -56,7 +56,12 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/ab
 - [x] **Action**: Update `src/app/curso/ingles-a1/practica/PracticeClient.tsx` to refresh the page or reload the queue on session completion.
 - [x] **Verification**: Finish a practice session and verify it automatically reloads or offers to continue with new exercises.
 
-#### 5. Quality Assurance
-- [x] **Action**: Run `npm run lint` and verify core flows.
+#### 5. Quality Assurance & Content Refinement
+- [x] **Action 5a**: Run `npm run lint` and verify core flows.
+- [x] **Action 5b**: Corrected error in `src/content/cursos/ingles-a1/unit8.json` (Number 25).
 - [x] **Verification**: Ensure no TypeScript errors and smooth navigation between units.
+
+#### 6. Final Push
+- [x] **Action**: Commit changes and push.
+- [x] **Verification**: Confirm commit number.
 

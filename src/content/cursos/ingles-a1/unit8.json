@@ -61,7 +61,8 @@
             { "id": "o2", "text": "Twenty and five" },
             { "id": "o3", "text": "Second five" }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
+          "explanation": "En inglés, los números compuestos entre el 21 y el 99 siempre se escriben con un guión (hyphen) entre la decena y la unidad. Ejemplo: twenty-five, thirty-two, forty-seven.",
           "mastery_tag": "vocab:numbers",
           "concept_tags": ["vocabulary", "numbers"],
           "complexity": 2

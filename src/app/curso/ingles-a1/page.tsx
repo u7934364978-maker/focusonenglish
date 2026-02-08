@@ -8,6 +8,11 @@ import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Sparkles, ArrowRight, L
 
 export default async function A1CoursePage() {
   const supabase = await createClient();
+  
+  if (!supabase) {
+    return <div>Error al conectar con el servidor.</div>;
+  }
+
   const { data: { user } } = await supabase.auth.getUser();
 
   const userId = user?.id || 'anonymous';
