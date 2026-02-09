@@ -42,7 +42,7 @@ Aquí la dificultad aumenta significativamente. Ya no se trata solo de cambiar e
     *   Voz pasiva con verbos de reporte (*"It is claimed that..."* / *"He is thought to be..."*).
     *   Reporte de condicionales y verbos modales complejos (*might, could, should*).
 
-- [**Descargar Guía de Reported Speech y Ejercicios B1-C1 (PDF)**](/docs/guia-reported-speech-ejercicios-b1-c1.pdf)
+- [**Descargar Guía de Reported Speech y Ejercicios B1-C1 (PDF)**](https://nprqtjljoekoirlrjxlh.supabase.co/storage/v1/object/sign/blog/speech.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMWI1ZDVjZC0wZTgzLTQyMGUtOWI0NC1lZGQwZTMyOWY2NTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJibG9nL3NwZWVjaC5wZGYiLCJpYXQiOjE3NzA2NTM1NDcsImV4cCI6MTc3MTI1ODM0N30.Kbd_9AevqrmmSgZgxiD-gFRzdImD_TJ1EbSNCxgj4hQ)
 
 ## 3. Reported Speech en Contextos Académicos y Legales
 

@@ -40,7 +40,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 
 ### [x] Step: Implementation
 
-1. [x] **Crear directorio de documentos**: Crear la carpeta `public/docs` para almacenar el PDF.
-2. [x] **Actualizar contenido del artículo**: Modificar `src/content/blog/metodos/reported-speech-ejercicios-pdf.md` para corregir los niveles a B1-C1 y añadir los enlaces al PDF.
-3. [x] **Verificación**: Comprobar que el artículo se renderiza correctamente y los enlaces apuntan a la ruta definida en la especificación.
-4. [x] **Validación final**: Ejecutar `npm run lint` para asegurar la integridad del proyecto.
+1. [x] **Limpiar entorno local**: Eliminar la carpeta `public/docs` creada anteriormente.
+2. [x] **Actualizar contenido del artículo**: Modificar `src/content/blog/metodos/reported-speech-ejercicios-pdf.md` para usar la URL de Supabase.
+3. [x] **Verificación**: Comprobar que los enlaces en el blog apuntan a la URL de Supabase y funcionan.
+4. [x] **Validación final**: Ejecutar `npm run lint`.
