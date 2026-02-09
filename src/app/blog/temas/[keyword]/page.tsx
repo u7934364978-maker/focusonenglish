@@ -39,7 +39,7 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
   const articles = getArticlesByKeyword(originalKeyword);
   const hubContent = getHubContent(originalKeyword);
 
-  if (articles.length === 0) {
+  if (articles.length === 0 && !hubContent) {
     notFound();
   }
 

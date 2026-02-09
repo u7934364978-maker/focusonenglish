@@ -60,6 +60,11 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/21
    - [x] Run `npm run lint` and `npm run type-check`.
    - [x] Manually verify SEO structure (headings, keywords).
 
+4. **Task 4: Fix Hub Routing (404 Issue)**
+   - [x] Allow Hub pages to load without associated articles.
+   - [x] Include Hub keywords in `generateStaticParams`.
+   - [x] Verify `reported-speech` URL.
+
 ### [x] Step: Implementation
 
 (Executed as tasks above)

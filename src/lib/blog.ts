@@ -180,8 +180,23 @@ export function getHubContent(keyword: string): HubContent | null {
 export function getAllKeywords(): string[] {
   const allArticles = getBlogArticles();
   const keywords = new Set<string>();
+  
+  // From articles
   allArticles.forEach(article => {
     article.keywords?.forEach(k => keywords.add(k.toLowerCase()));
   });
+
+  // From hub files
+  if (fs.existsSync(HUBS_DIR)) {
+    const hubFiles = fs.readdirSync(HUBS_DIR);
+    hubFiles.forEach(file => {
+      if (file.endsWith(".md")) {
+        // Use filename as keyword (replacing dashes with spaces for better readability in breadcrumbs if needed)
+        const hubName = file.replace(".md", "").replace(/-/g, " ");
+        keywords.add(hubName);
+      }
+    });
+  }
+
   return Array.from(keywords);
 }
