@@ -2,7 +2,7 @@ import { supabase } from '@/lib/supabase/client';
 import { UnitData, PremiumInteraction, PremiumBlock } from '@/types/premium-course';
 import { UserPerformanceRecord } from '../course-engine/adaptive';
 
-export type CourseLevel = 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2' | 'emails-b1';
+export type CourseLevel = 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2';
 
 export const premiumCourseService = {
   /**
@@ -132,10 +132,6 @@ export const premiumCourseService = {
 
   async getC2Progress(userId: string): Promise<string[]> {
     return this.getProgress(userId, 'C2');
-  },
-
-  async getEmailsB1Progress(userId: string): Promise<string[]> {
-    return this.getProgress(userId, 'EMAILS-B1');
   },
 
   /**

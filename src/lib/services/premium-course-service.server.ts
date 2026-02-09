@@ -314,9 +314,5 @@ export const premiumCourseServerService = {
 
   async getAllB2Interactions(): Promise<PremiumInteraction[]> {
     return this.getAllInteractions('ingles-b2');
-  },
-
-  async getAllEmailsB1Interactions(): Promise<PremiumInteraction[]> {
-    return this.getAllInteractions('emails-b1');
   }
 };

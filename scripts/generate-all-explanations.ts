@@ -22,10 +22,10 @@ if (!supabaseUrl || !supabaseKey) {
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const LEVELS = [
+  'ingles-a1',
   'ingles-a2',
   'ingles-b1',
-  'ingles-b2',
-  'viajes/a1'
+  'ingles-b2'
 ];
 
 async function getCachedExplanations() {

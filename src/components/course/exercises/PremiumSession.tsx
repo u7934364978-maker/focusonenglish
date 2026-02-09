@@ -536,14 +536,30 @@ export default function PremiumCourseSession({
 
   const handleRequestAIExplanation = async () => {
     const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
-    if (!interaction || isExplaining) return;
+    if (!interaction || isExplaining || aiExplanation) return;
+
+    // Obtener ID de forma robusta
+    const id = interaction.interaction_id || interaction.id;
+    if (!id) {
+      console.warn("Cannot request explanation: interaction_id is missing", interaction);
+      return;
+    }
 
     setIsExplaining(true);
     try {
+      // Enviar solo lo necesario para evitar payloads pesados y asegurar compatibilidad
       const response = await fetch('/api/course/explain', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ interaction }),
+        body: JSON.stringify({ 
+          interaction: {
+            interaction_id: id,
+            type: interaction.type,
+            prompt_es: interaction.prompt_es || interaction.prompt,
+            stimulus_en: interaction.stimulus_en || interaction.text,
+            correct_answer: interaction.correct_answer || interaction.correctAnswer
+          } 
+        }),
       });
       
       const data = await response.json();
@@ -565,12 +581,22 @@ export default function PremiumCourseSession({
 
   // Auto-trigger AI explanation when feedback is shown
   useEffect(() => {
+    let mounted = true;
+
     if (feedback && !aiExplanation && !isExplaining) {
       const interaction = isVideoMode ? currentItem?.video?.interactions?.[interactionIndex] : currentItem;
       if (interaction && !interaction.explanation) {
-        handleRequestAIExplanation();
+        // Pequeño delay para asegurar que el feedback esté renderizado
+        const timer = setTimeout(() => {
+          if (mounted) handleRequestAIExplanation();
+        }, 100);
+        return () => { 
+          mounted = false;
+          clearTimeout(timer); 
+        };
       }
     }
+    return () => { mounted = false; };
   }, [feedback, aiExplanation, isExplaining, currentIndex, interactionIndex, isVideoMode, currentItem]);
 
   const playAudio = async (url?: string, text?: string) => {

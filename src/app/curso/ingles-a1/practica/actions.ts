@@ -1,7 +1,7 @@
 'use server';
 
 import { premiumCourseService } from '@/lib/services/premium-course-service';
-import { createClient } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server';
 import { revalidatePath } from 'next/cache';
 
 export async function saveExerciseProgress(interactionId: string) {
