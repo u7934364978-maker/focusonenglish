@@ -28,8 +28,8 @@ Define the schemas and generation patterns for advanced interaction types (Use o
    - Create 40 new units.
    - Focus: Nuance, Idioms, Rhetorical devices, Open Cloze.
 
-### [ ] Step: Implementation
-1. [ ] **Task 1: Replace B2 Placeholders**
-2. [ ] **Task 2: Implement C1 Core Curriculum**
-3. [ ] **Task 3: Implement C2 Proficiency Module**
-4. [ ] **Task 4: Quality Review & Audio Generation**
+### [x] Step: Implementation
+1. [x] **Task 1: Replace B2 Placeholders**
+2. [x] **Task 2: Implement C1 Core Curriculum**
+3. [x] **Task 3: Implement C2 Proficiency Module**
+4. [x] **Task 4: Quality Review & Audio Generation**
