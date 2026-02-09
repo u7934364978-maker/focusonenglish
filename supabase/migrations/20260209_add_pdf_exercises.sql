@@ -1,5 +1,6 @@
 -- Migration: Add PDF-based A1 exercises with required Modules and Lessons
 -- Date: 2026-02-09
+-- Optimized for PremiumSession.tsx normalization and AdaptiveEngine split
 
 BEGIN;
 
@@ -26,191 +27,101 @@ ON CONFLICT (id) DO UPDATE SET
 
 -- 3. Insert Exercises (PDF based)
 
--- a1-m1-l1-pdf-1
+-- L1: Greetings
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l1-pdf-1',
-  'a1-m1-l1',
-  100,
-  'matching',
-  'Greetings & Times of Day',
-  $_${"title": "Greetings & Times of Day", "instructions": "Match the greeting with the correct time of day according to the PDF.", "pairs": [{"item": "Good morning", "match": "From 6:00 to 12:00"}, {"item": "Good afternoon", "match": "From 12:00 to 18:00"}, {"item": "Good evening", "match": "From 18:00 to 24:00"}, {"item": "Good night", "match": "When going to sleep"}], "explanation": "En inglés, usamos diferentes saludos dependiendo de la hora del día. 'Good morning' es para la mañana, 'Good afternoon' para la tarde y 'Good evening' para la noche. 'Good night' se usa solo al despedirse para ir a dormir."}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+VALUES 
+(
+  'a1-m1-l1-pdf-1', 'a1-m1-l1', 100, 'matching', 'Greetings & Times of Day',
+  $_${"title": "Greetings & Times of Day", "prompt_es": "Relaciona el saludo con el momento del día correcto según el PDF.", "pairs": [{"id": "p1", "word": "Good morning", "correctMatch": "From 6:00 to 12:00"}, {"id": "p2", "word": "Good afternoon", "correctMatch": "From 12:00 to 18:00"}, {"id": "p3", "word": "Good evening", "correctMatch": "From 18:00 to 24:00"}, {"id": "p4", "word": "Good night", "correctMatch": "When going to sleep"}], "explanation": "En inglés, usamos diferentes saludos dependiendo de la hora del día."}$_$
+),
+(
+  'a1-m1-l1-pdf-2', 'a1-m1-l1', 101, 'multiple-choice', 'Formal vs Informal Greetings',
+  $_${"title": "Formal vs Informal Greetings", "prompt_es": "¿Cómo dices 'Hola' a un amigo de forma informal?", "stimulus_en": "Informal greeting to a friend:", "options": [{"id": "Hello", "text": "Hello"}, {"id": "Hi", "text": "Hi"}, {"id": "Good morning", "text": "Good morning"}, {"id": "Good evening", "text": "Good evening"}], "correct_answer": "Hi", "explanation": "'Hi' es más informal que 'Hello'."}$_$
+),
+(
+  'a1-m1-l1-pdf-3', 'a1-m1-l1', 102, 'multiple-choice', 'Formal Goodbyes',
+  $_${"title": "Formal Goodbyes", "prompt_es": "¿Cómo dices 'Adiós' de forma formal?", "stimulus_en": "Formal goodbye:", "options": [{"id": "Bye", "text": "Bye"}, {"id": "See you", "text": "See you"}, {"id": "Goodbye", "text": "Goodbye"}, {"id": "Hi", "text": "Hi"}], "correct_answer": "Goodbye", "explanation": "'Goodbye' es la forma estándar y formal de despedirse."}$_$
+),
+(
+  'a1-m1-l1-pdf-4', 'a1-m1-l1', 103, 'fill-blanks', 'Self Introductions',
+  $_${"title": "Self Introductions", "prompt_es": "Completa la presentación personal.", "stimulus_en": "My ___ is Pablo.", "correct_answer": "name", "explanation": "Usamos 'My name is' para decir nuestro nombre."}$_$
+),
+(
+  'a1-m1-l1-pdf-5', 'a1-m1-l1', 104, 'fill-blanks', 'Age Introduction',
+  $_${"title": "Age Introduction", "prompt_es": "Completa la frase para decir tu edad.", "stimulus_en": "I am 22 ___ old.", "correct_answer": "years", "explanation": "Para decir la edad usamos la estructura 'I am [number] years old'."}$_$
+)
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
--- a1-m1-l1-pdf-2
+-- L2: To Be & Pronouns
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l1-pdf-2',
-  'a1-m1-l1',
-  101,
-  'multiple-choice',
-  'Formal vs Informal Greetings',
-  $_${"title": "Formal vs Informal Greetings", "instructions": "Choose the most appropriate greeting for each situation.", "questions": [{"id": "q1", "question": "How do you say 'Hola' to a friend in an informal way?", "options": ["Hello", "Hi", "Good morning", "Good evening"], "correctAnswer": "Hi", "explanation": "'Hi' es más informal que 'Hello'."}, {"id": "q2", "question": "How do you say 'Adiós' formally?", "options": ["Bye", "See you", "Goodbye", "Hi"], "correctAnswer": "Goodbye", "explanation": "'Goodbye' es la forma estándar y formal de despedirse."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+VALUES 
+(
+  'a1-m1-l2-pdf-1', 'a1-m1-l2', 105, 'multiple-choice', 'Personal Pronouns: Female',
+  $_${"title": "Personal Pronouns: Female", "prompt_es": "Sustituye 'Maria' por el pronombre correcto.", "stimulus_en": "Maria is from Spain.", "options": [{"id": "He", "text": "He"}, {"id": "She", "text": "She"}, {"id": "It", "text": "It"}, {"id": "They", "text": "They"}], "correct_answer": "She", "explanation": "Maria es femenino singular."}$_$
+),
+(
+  'a1-m1-l2-pdf-2', 'a1-m1-l2', 106, 'multiple-choice', 'Personal Pronouns: We',
+  $_${"title": "Personal Pronouns: We", "prompt_es": "Sustituye 'Pablo and I' por el pronombre correcto.", "stimulus_en": "Pablo and I are friends.", "options": [{"id": "You", "text": "You"}, {"id": "They", "text": "They"}, {"id": "We", "text": "We"}, {"id": "He", "text": "He"}], "correct_answer": "We", "explanation": "Pablo y yo somos 'nosotros'."}$_$
+),
+(
+  'a1-m1-l2-pdf-3', 'a1-m1-l2', 107, 'fill-blanks', 'Articles: A',
+  $_${"title": "Articles: A", "prompt_es": "Completa con 'a' o 'an'.", "stimulus_en": "___ book.", "correct_answer": "a", "explanation": "Usamos 'a' delante de sonidos consonánticos (b)."}$_$
+),
+(
+  'a1-m1-l2-pdf-4', 'a1-m1-l2', 108, 'fill-blanks', 'Articles: An (Vowel)',
+  $_${"title": "Articles: An (Vowel)", "prompt_es": "Completa con 'a' o 'an'.", "stimulus_en": "___ apple.", "correct_answer": "an", "explanation": "Usamos 'an' delante de sonidos vocálicos (a)."}$_$
+),
+(
+  'a1-m1-l2-pdf-5', 'a1-m1-l2', 109, 'fill-blanks', 'Articles: Special cases (H)',
+  $_${"title": "Articles: Special cases (H)", "prompt_es": "Completa con 'a' o 'an'. Recuerda que 'hour' tiene H muda.", "stimulus_en": "___ hour.", "correct_answer": "an", "explanation": "En 'hour', la 'h' es muda."}$_$
+)
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
--- a1-m1-l1-pdf-3
+-- L3: Numbers & Countries
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l1-pdf-3',
-  'a1-m1-l1',
-  102,
-  'fill-blank',
-  'Self Introductions',
-  $_${"title": "Self Introductions", "instructions": "Complete the introduction sentences using the correct words from the PDF.", "questions": [{"id": "q1", "sentence": "My ___ is Pablo.", "answer": "name", "explanation": "Usamos 'My name is' para decir nuestro nombre."}, {"id": "q2", "sentence": "I am 22 ___ old.", "answer": "years", "explanation": "Para decir la edad usamos la estructura 'I am [number] years old'."}, {"id": "q3", "sentence": "I ___ from Spain.", "answer": "am", "explanation": "Usamos el verbo 'to be' (am) para indicar procedencia."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+VALUES 
+(
+  'a1-m1-l3-pdf-1', 'a1-m1-l3', 110, 'multiple-choice', 'Number 12',
+  $_${"title": "Number 12", "prompt_es": "¿Cómo se escribe el número 12?", "options": [{"id": "Twelve", "text": "Twelve"}, {"id": "Twelf", "text": "Twelf"}, {"id": "Twenty", "text": "Twenty"}, {"id": "Ten-two", "text": "Ten-two"}], "correct_answer": "Twelve"}$_$
+),
+(
+  'a1-m1-l3-pdf-2', 'a1-m1-l3', 111, 'multiple-choice', 'Number 15',
+  $_${"title": "Number 15", "prompt_es": "¿Cómo se escribe el número 15?", "options": [{"id": "Fiveteen", "text": "Fiveteen"}, {"id": "Fifteen", "text": "Fifteen"}, {"id": "Fifty", "text": "Fifty"}, {"id": "Five", "text": "Five"}], "correct_answer": "Fifteen"}$_$
+),
+(
+  'a1-m1-l3-pdf-3', 'a1-m1-l3', 112, 'matching', 'Countries and Nationalities',
+  $_${"title": "Countries and Nationalities", "prompt_es": "Relaciona el país con su nacionalidad.", "pairs": [{"id": "c1", "word": "Spain", "correctMatch": "Spanish"}, {"id": "c2", "word": "France", "correctMatch": "French"}, {"id": "c3", "word": "Germany", "correctMatch": "German"}, {"id": "c4", "word": "Italy", "correctMatch": "Italian"}, {"id": "c5", "word": "China", "correctMatch": "Chinese"}], "explanation": "Las nacionalidades en inglés siempre se escriben con mayúscula inicial."}$_$
+)
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
--- a1-m1-l2-pdf-1
+-- M2 L1: Plurals
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l2-pdf-1',
-  'a1-m1-l2',
-  103,
-  'multiple-choice',
-  'Personal Pronouns',
-  $_${"title": "Personal Pronouns", "instructions": "Select the correct pronoun to replace the underlined words.", "questions": [{"id": "q1", "question": "<u>Maria</u> is from Spain.", "options": ["He", "She", "It", "They"], "correctAnswer": "She", "explanation": "Maria es femenino singular, por lo que usamos 'She'."}, {"id": "q2", "question": "<u>Pablo and I</u> are friends.", "options": ["You", "They", "We", "He"], "correctAnswer": "We", "explanation": "Pablo y yo somos 'nosotros', es decir, 'We'."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+VALUES 
+(
+  'a1-m2-l1-pdf-1', 'a1-m2-l1', 113, 'fill-blanks', 'Regular Plurals (-es)',
+  $_${"title": "Regular Plurals (-es)", "prompt_es": "Escribe el plural de 'Bus'.", "stimulus_en": "Bus -> ___", "correct_answer": "buses", "explanation": "Palabras que terminan en -s añaden -es en plural."}$_$
+),
+(
+  'a1-m2-l1-pdf-2', 'a1-m2-l1', 114, 'fill-blanks', 'Regular Plurals (-ies)',
+  $_${"title": "Regular Plurals (-ies)", "prompt_es": "Escribe el plural de 'Country'.", "stimulus_en": "Country -> ___", "correct_answer": "countries", "explanation": "Consonante + y -> se cambia por -ies."}$_$
+),
+(
+  'a1-m2-l1-pdf-3', 'a1-m2-l1', 115, 'matching', 'Irregular Plurals',
+  $_${"title": "Irregular Plurals", "prompt_es": "Relaciona el singular con su plural irregular.", "pairs": [{"id": "i1", "word": "Man", "correctMatch": "Men"}, {"id": "i2", "word": "Woman", "correctMatch": "Women"}, {"id": "i3", "word": "Child", "correctMatch": "Children"}, {"id": "i4", "word": "Person", "correctMatch": "People"}], "explanation": "Los plurales irregulares no siguen la regla de añadir -s."}$_$
+)
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
--- a1-m1-l2-pdf-2
+-- M2 L2: Prepositions
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l2-pdf-2',
-  'a1-m1-l2',
-  104,
-  'fill-blank',
-  'Articles A and An',
-  $_${"title": "Articles A and An", "instructions": "Fill in the blanks with 'a' or 'an'.", "questions": [{"id": "q1", "sentence": "___ book.", "answer": "a", "explanation": "Usamos 'a' delante de sonidos conson\u00e1nticos (b)."}, {"id": "q2", "sentence": "___ apple.", "answer": "an", "explanation": "Usamos 'an' delante de sonidos voc\u00e1licos (a)."}, {"id": "q3", "sentence": "___ hour.", "answer": "an", "explanation": "En 'hour', la 'h' es muda, por lo que empieza por sonido voc\u00e1lico."}, {"id": "q4", "sentence": "___ university.", "answer": "a", "explanation": "En 'university', la 'u' suena como /ju:/ (sonido semiconson\u00e1ntico), por lo que usamos 'a'."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l2-pdf-3
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l2-pdf-3',
-  'a1-m1-l2',
-  105,
-  'multiple-choice',
-  'Professions and Articles',
-  $_${"title": "Professions and Articles", "instructions": "Choose the correct sentence according to the rule in the PDF.", "questions": [{"id": "q1", "question": "How do you say 'Yo soy ingeniero' in English?", "options": ["I am engineer", "I am a engineer", "I am an engineer"], "correctAnswer": "I am an engineer", "explanation": "En ingl\u00e9s, las profesiones siempre llevan art\u00edculo (a/an). 'Engineer' empieza por vocal, usamos 'an'."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l3-pdf-1
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l3-pdf-1',
-  'a1-m1-l3',
-  106,
-  'multiple-choice',
-  'Numbers 1-20',
-  $_${"title": "Numbers 1-20", "instructions": "Choose the correct spelling for the number.", "questions": [{"id": "q1", "question": "Number 12", "options": ["Twelve", "Twelf", "Twenty", "Ten-two"], "correctAnswer": "Twelve", "explanation": "12 se escribe 'Twelve'."}, {"id": "q2", "question": "Number 15", "options": ["Fiveteen", "Fifteen", "Fifty", "Five"], "correctAnswer": "Fifteen", "explanation": "15 se escribe 'Fifteen'."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l3-pdf-2
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l3-pdf-2',
-  'a1-m1-l3',
-  107,
-  'fill-blank',
-  'Numbers 20-100',
-  $_${"title": "Numbers 20-100", "instructions": "Write the number in letters.", "questions": [{"id": "q1", "sentence": "22 = Twenty-___", "answer": "two", "explanation": "22 es 'Twenty-two'."}, {"id": "q2", "sentence": "50 = ___", "answer": "fifty", "explanation": "50 es 'Fifty'."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l3-pdf-3
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l3-pdf-3',
-  'a1-m1-l3',
-  108,
-  'matching',
-  'Countries and Nationalities',
-  $_${"title": "Countries and Nationalities", "instructions": "Match the country with its nationality.", "pairs": [{"item": "Spain", "match": "Spanish"}, {"item": "France", "match": "French"}, {"item": "Germany", "match": "German"}, {"item": "Italy", "match": "Italian"}, {"item": "China", "match": "Chinese"}], "explanation": "Las nacionalidades en ingl\u00e9s siempre se escriben con may\u00fascula (Capital letters)."}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l3-pdf-4
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l3-pdf-4',
-  'a1-m1-l3',
-  109,
-  'multiple-choice',
-  'Colours Rules',
-  $_${"title": "Colours Rules", "instructions": "Choose the correct sentence following the grammar rules for colours.", "questions": [{"id": "q1", "question": "Which sentence is correct?", "options": ["It is my dog black", "It is my black dog", "It is my black dogs"], "correctAnswer": "It is my black dog", "explanation": "En ingl\u00e9s, el adjetivo (color) va DELANTE del sustantivo y es invariable (no cambia en plural)."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m1-l3-pdf-5
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m1-l3-pdf-5',
-  'a1-m1-l3',
-  110,
-  'multiple-choice',
-  'Asking about Colours',
-  $_${"title": "Asking about Colours", "instructions": "How do you ask about the colour of something?", "questions": [{"id": "q1", "question": "What is the correct question for plural objects (e.g., tomatoes)?", "options": ["What colour is it?", "What colour are they?", "What is the colour?"], "correctAnswer": "What colour are they?", "explanation": "Usamos 'are they' para preguntar por el color de varios objetos (plural)."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l1-pdf-1
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l1-pdf-1',
-  'a1-m2-l1',
-  111,
-  'fill-blank',
-  'Regular Plurals',
-  $_${"title": "Regular Plurals", "instructions": "Write the plural form of these nouns.", "questions": [{"id": "q1", "sentence": "Bus -> ___", "answer": "buses", "explanation": "Palabras que terminan en -s a\u00f1aden -es en plural."}, {"id": "q2", "sentence": "Country -> ___", "answer": "countries", "explanation": "Consonante + y -> se cambia por -ies."}, {"id": "q3", "sentence": "Tomato -> ___", "answer": "tomatoes", "explanation": "Consonante + o -> a\u00f1ade -es."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l1-pdf-2
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l1-pdf-2',
-  'a1-m2-l1',
-  112,
-  'matching',
-  'Irregular Plurals',
-  $_${"title": "Irregular Plurals", "instructions": "Match the singular with its irregular plural.", "pairs": [{"item": "Man", "match": "Men"}, {"item": "Woman", "match": "Women"}, {"item": "Child", "match": "Children"}, {"item": "Person", "match": "People"}, {"item": "Tooth", "match": "Teeth"}], "explanation": "Los plurales irregulares no siguen la regla de a\u00f1adir -s, deben aprenderse de memoria."}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l1-pdf-3
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l1-pdf-3',
-  'a1-m2-l1',
-  113,
-  'multiple-choice',
-  'Demonstratives: This, That, These, Those',
-  $_${"title": "Demonstratives: This, That, These, Those", "instructions": "Choose the correct demonstrative.", "questions": [{"id": "q1", "question": "___ (singular, near) book is good.", "options": ["This", "That", "These", "Those"], "correctAnswer": "This", "explanation": "Usamos 'This' para algo singular que est\u00e1 cerca."}, {"id": "q2", "question": "___ (plural, far) are my friends.", "options": ["This", "That", "These", "Those"], "correctAnswer": "Those", "explanation": "Usamos 'Those' para algo plural que est\u00e1 lejos."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l1-pdf-4
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l1-pdf-4',
-  'a1-m2-l1',
-  114,
-  'matching',
-  'Possessive Adjectives',
-  $_${"title": "Possessive Adjectives", "instructions": "Match the personal pronoun with its possessive adjective.", "pairs": [{"item": "I", "match": "My"}, {"item": "You", "match": "Your"}, {"item": "He", "match": "His"}, {"item": "She", "match": "Her"}, {"item": "We", "match": "Our"}, {"item": "They", "match": "Their"}], "explanation": "Los adjetivos posesivos indican a qui\u00e9n pertenece algo."}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l2-pdf-1
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l2-pdf-1',
-  'a1-m2-l2',
-  115,
-  'multiple-choice',
-  'On vs Above',
-  $_${"title": "On vs Above", "instructions": "Choose the correct preposition based on the contact rule.", "questions": [{"id": "q1", "question": "The pencil is ___ the table (making contact).", "options": ["on", "above", "under"], "correctAnswer": "on", "explanation": "'On' indica contacto con la superficie."}, {"id": "q2", "question": "The lamp is ___ the table (hanging from ceiling, no contact).", "options": ["on", "above", "behind"], "correctAnswer": "above", "explanation": "'Above' indica que est\u00e1 por encima pero sin contacto."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
-
--- a1-m2-l2-pdf-2
-INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES (
-  'a1-m2-l2-pdf-2',
-  'a1-m2-l2',
-  116,
-  'fill-blank',
-  'Prepositions of Place',
-  $_${"title": "Prepositions of Place", "instructions": "Complete with the correct preposition (in, behind, next to, between).", "questions": [{"id": "q1", "sentence": "The sofa is ___ the door (cerca de).", "answer": "next to", "explanation": "'Next to' significa al lado o cerca de."}, {"id": "q2", "sentence": "The table is ___ the armchair and the sofa.", "answer": "between", "explanation": "Usamos 'between' cuando algo est\u00e1 entre dos objetos."}]}$_$
-) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+VALUES 
+(
+  'a1-m2-l2-pdf-1', 'a1-m2-l2', 116, 'multiple-choice', 'Preposition: On',
+  $_${"title": "Preposition: On", "prompt_es": "El lápiz está sobre la mesa (con contacto).", "stimulus_en": "The pencil is ___ the table.", "options": [{"id": "on", "text": "on"}, {"id": "above", "text": "above"}, {"id": "under", "text": "under"}], "correct_answer": "on"}$_$
+),
+(
+  'a1-m2-l2-pdf-2', 'a1-m2-l2', 117, 'multiple-choice', 'Preposition: Above',
+  $_${"title": "Preposition: Above", "prompt_es": "La lámpara está sobre la mesa (sin contacto, colgando).", "stimulus_en": "The lamp is ___ the table.", "options": [{"id": "on", "text": "on"}, {"id": "above", "text": "above"}, {"id": "behind", "text": "behind"}], "correct_answer": "above"}$_$
+)
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
 COMMIT;

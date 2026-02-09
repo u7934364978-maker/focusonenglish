@@ -1,210 +1,234 @@
 import { Exercise } from './exercise-types';
 
+/**
+ * Ejercicios extraídos del PDF Modulo I (Nivel A1)
+ * Estructura optimizada para el motor adaptativo y PremiumSession.tsx
+ */
 export const A1_PDF_EXERCISES: Exercise[] = [
+    // --- LECCIÓN 1: GREETINGS ---
     {
         id: "a1-m1-l1-pdf-1",
         type: "matching",
         title: "Greetings & Times of Day",
-        instructions: "Match the greeting with the correct time of day according to the PDF.",
+        prompt_es: "Relaciona el saludo con el momento del día correcto según el PDF.",
         pairs: [
-            {item: "Good morning", match: "From 6:00 to 12:00"},
-            {item: "Good afternoon", match: "From 12:00 to 18:00"},
-            {item: "Good evening", match: "From 18:00 to 24:00"},
-            {item: "Good night", match: "When going to sleep"}
+            {id: "p1", word: "Good morning", correctMatch: "From 6:00 to 12:00"},
+            {id: "p2", word: "Good afternoon", correctMatch: "From 12:00 to 18:00"},
+            {id: "p3", word: "Good evening", correctMatch: "From 18:00 to 24:00"},
+            {id: "p4", word: "Good night", correctMatch: "When going to sleep"}
         ],
-        explanation: "En inglés, usamos diferentes saludos dependiendo de la hora del día. 'Good morning' es para la mañana, 'Good afternoon' para la tarde y 'Good evening' para la noche. 'Good night' se usa solo al despedirse para ir a dormir."
+        explanation: "En inglés, usamos diferentes saludos dependiendo de la hora del día. 'Good morning' (mañana), 'Good afternoon' (tarde), 'Good evening' (noche). 'Good night' es solo para despedirse."
     },
     {
         id: "a1-m1-l1-pdf-2",
         type: "multiple-choice",
         title: "Formal vs Informal Greetings",
-        instructions: "Choose the most appropriate greeting for each situation.",
-        questions: [
-            {
-                id: "q1",
-                question: "How do you say 'Hola' to a friend in an informal way?",
-                options: ["Hello", "Hi", "Good morning", "Good evening"],
-                correctAnswer: "Hi",
-                explanation: "'Hi' es más informal que 'Hello'."
-            },
-            {
-                id: "q2",
-                question: "How do you say 'Adiós' formally?",
-                options: ["Bye", "See you", "Goodbye", "Hi"],
-                correctAnswer: "Goodbye",
-                explanation: "'Goodbye' es la forma estándar y formal de despedirse."
-            }
-        ]
+        prompt_es: "¿Cómo dices 'Hola' a un amigo de forma informal?",
+        stimulus_en: "Informal greeting to a friend:",
+        options: [
+            {id: "Hello", text: "Hello"},
+            {id: "Hi", text: "Hi"},
+            {id: "Good morning", text: "Good morning"},
+            {id: "Good evening", text: "Good evening"}
+        ],
+        correct_answer: "Hi",
+        explanation: "'Hi' es más informal que 'Hello'."
     },
     {
         id: "a1-m1-l1-pdf-3",
-        type: "fill-blank",
-        title: "Self Introductions",
-        instructions: "Complete the introduction sentences using the correct words from the PDF.",
-        questions: [
-            {
-                id: "q1",
-                sentence: "My ___ is Pablo.",
-                answer: "name",
-                explanation: "Usamos 'My name is' para decir nuestro nombre."
-            },
-            {
-                id: "q2",
-                sentence: "I am 22 ___ old.",
-                answer: "years",
-                explanation: "Para decir la edad usamos la estructura 'I am [number] years old'."
-            },
-            {
-                id: "q3",
-                sentence: "I ___ from Spain.",
-                answer: "am",
-                explanation: "Usamos el verbo 'to be' (am) para indicar procedencia."
-            }
-        ]
+        type: "multiple-choice",
+        title: "Formal Goodbyes",
+        prompt_es: "¿Cómo dices 'Adiós' de forma formal?",
+        stimulus_en: "Formal goodbye:",
+        options: [
+            {id: "Bye", text: "Bye"},
+            {id: "See you", text: "See you"},
+            {id: "Goodbye", text: "Goodbye"},
+            {id: "Hi", text: "Hi"}
+        ],
+        correct_answer: "Goodbye",
+        explanation: "'Goodbye' es la forma estándar y formal de despedirse."
     },
+    {
+        id: "a1-m1-l1-pdf-4",
+        type: "fill-blanks",
+        title: "Self Introductions",
+        prompt_es: "Completa la presentación personal.",
+        stimulus_en: "My ___ is Pablo.",
+        correct_answer: "name",
+        explanation: "Usamos 'My name is' para decir nuestro nombre."
+    },
+    {
+        id: "a1-m1-l1-pdf-5",
+        type: "fill-blanks",
+        title: "Age Introduction",
+        prompt_es: "Completa la frase para decir tu edad.",
+        stimulus_en: "I am 22 ___ old.",
+        correct_answer: "years",
+        explanation: "Para decir la edad usamos la estructura 'I am [number] years old'."
+    },
+
+    // --- LECCIÓN 2: PRONOUNS & ARTICLES ---
     {
         id: "a1-m1-l2-pdf-1",
         type: "multiple-choice",
-        title: "Personal Pronouns",
-        instructions: "Select the correct pronoun to replace the underlined words.",
-        questions: [
-            {
-                id: "q1",
-                question: "Maria is from Spain.",
-                options: ["He", "She", "It", "They"],
-                correctAnswer: "She",
-                explanation: "Maria es femenino singular, por lo que usamos 'She'."
-            },
-            {
-                id: "q2",
-                question: "Pablo and I are friends.",
-                options: ["You", "They", "We", "He"],
-                correctAnswer: "We",
-                explanation: "Pablo y yo somos 'nosotros', es decir, 'We'."
-            }
-        ]
+        title: "Personal Pronouns: Female",
+        prompt_es: "Sustituye 'Maria' por el pronombre correcto.",
+        stimulus_en: "Maria is from Spain.",
+        options: [
+            {id: "He", text: "He"},
+            {id: "She", text: "She"},
+            {id: "It", text: "It"},
+            {id: "They", text: "They"}
+        ],
+        correct_answer: "She",
+        explanation: "Maria es femenino singular, por lo que usamos 'She'."
     },
     {
         id: "a1-m1-l2-pdf-2",
-        type: "fill-blank",
-        title: "Articles A and An",
-        instructions: "Fill in the blanks with 'a' or 'an'.",
-        questions: [
-            {
-                id: "q1",
-                sentence: "___ book.",
-                answer: "a",
-                explanation: "Usamos 'a' delante de sonidos consonánticos (b)."
-            },
-            {
-                id: "q2",
-                sentence: "___ apple.",
-                answer: "an",
-                explanation: "Usamos 'an' delante de sonidos vocálicos (a)."
-            },
-            {
-                id: "q3",
-                sentence: "___ hour.",
-                answer: "an",
-                explanation: "En 'hour', la 'h' es muda, por lo que empieza por sonido vocálico."
-            },
-            {
-                id: "q4",
-                sentence: "___ university.",
-                answer: "a",
-                explanation: "En 'university', la 'u' suena como /ju:/ (sonido semiconsonántico), por lo que usamos 'a'."
-            }
-        ]
+        type: "multiple-choice",
+        title: "Personal Pronouns: We",
+        prompt_es: "Sustituye 'Pablo and I' por el pronombre correcto.",
+        stimulus_en: "Pablo and I are friends.",
+        options: [
+            {id: "You", text: "You"},
+            {id: "They", text: "They"},
+            {id: "We", text: "We"},
+            {id: "He", text: "He"}
+        ],
+        correct_answer: "We",
+        explanation: "Pablo y yo somos 'nosotros', es decir, 'We'."
     },
+    {
+        id: "a1-m1-l2-pdf-3",
+        type: "fill-blanks",
+        title: "Articles: A",
+        prompt_es: "Completa con 'a' o 'an'.",
+        stimulus_en: "___ book.",
+        correct_answer: "a",
+        explanation: "Usamos 'a' delante de sonidos consonánticos (b)."
+    },
+    {
+        id: "a1-m1-l2-pdf-4",
+        type: "fill-blanks",
+        title: "Articles: An (Vowel)",
+        prompt_es: "Completa con 'a' o 'an'.",
+        stimulus_en: "___ apple.",
+        correct_answer: "an",
+        explanation: "Usamos 'an' delante de sonidos vocálicos (a)."
+    },
+    {
+        id: "a1-m1-l2-pdf-5",
+        type: "fill-blanks",
+        title: "Articles: Special cases (H)",
+        prompt_es: "Completa con 'a' o 'an'. Recuerda que 'hour' tiene H muda.",
+        stimulus_en: "___ hour.",
+        correct_answer: "an",
+        explanation: "En 'hour', la 'h' es muda, por lo que empieza por sonido vocálico."
+    },
+
+    // --- LECCIÓN 3: NUMBERS & COUNTRIES ---
     {
         id: "a1-m1-l3-pdf-1",
         type: "multiple-choice",
-        title: "Numbers 1-20",
-        instructions: "Choose the correct spelling for the number.",
-        questions: [
-            {
-                id: "q1",
-                question: "Number 12",
-                options: ["Twelve", "Twelf", "Twenty", "Ten-two"],
-                correctAnswer: "Twelve",
-                explanation: "12 se escribe 'Twelve'."
-            },
-            {
-                id: "q2",
-                question: "Number 15",
-                options: ["Fiveteen", "Fifteen", "Fifty", "Five"],
-                correctAnswer: "Fifteen",
-                explanation: "15 se escribe 'Fifteen'."
-            }
-        ]
+        title: "Number 12",
+        prompt_es: "¿Cómo se escribe el número 12?",
+        options: [
+            {id: "Twelve", text: "Twelve"},
+            {id: "Twelf", text: "Twelf"},
+            {id: "Twenty", text: "Twenty"},
+            {id: "Ten-two", text: "Ten-two"}
+        ],
+        correct_answer: "Twelve",
+        explanation: "12 se escribe 'Twelve'."
+    },
+    {
+        id: "a1-m1-l3-pdf-2",
+        type: "multiple-choice",
+        title: "Number 15",
+        prompt_es: "¿Cómo se escribe el número 15?",
+        options: [
+            {id: "Fiveteen", text: "Fiveteen"},
+            {id: "Fifteen", text: "Fifteen"},
+            {id: "Fifty", text: "Fifty"},
+            {id: "Five", text: "Five"}
+        ],
+        correct_answer: "Fifteen",
+        explanation: "15 se escribe 'Fifteen'."
     },
     {
         id: "a1-m1-l3-pdf-3",
         type: "matching",
         title: "Countries and Nationalities",
-        instructions: "Match the country with its nationality.",
+        prompt_es: "Relaciona el país con su nacionalidad.",
         pairs: [
-            {item: "Spain", match: "Spanish"},
-            {item: "France", match: "French"},
-            {item: "Germany", match: "German"},
-            {item: "Italy", match: "Italian"},
-            {item: "China", match: "Chinese"}
+            {id: "c1", word: "Spain", correctMatch: "Spanish"},
+            {id: "c2", word: "France", correctMatch: "French"},
+            {id: "c3", word: "Germany", correctMatch: "German"},
+            {id: "c4", word: "Italy", correctMatch: "Italian"},
+            {id: "c5", word: "China", correctMatch: "Chinese"}
         ],
-        explanation: "Las nacionalidades en inglés siempre se escriben con mayúscula (Capital letters)."
+        explanation: "Las nacionalidades en inglés siempre se escriben con mayúscula inicial."
     },
+
+    // --- MÓDULO 2: PLURALS & PREPOSITIONS ---
     {
         id: "a1-m2-l1-pdf-1",
-        type: "fill-blank",
-        title: "Regular Plurals",
-        instructions: "Write the plural form of these nouns.",
-        questions: [
-            {
-                id: "q1",
-                sentence: "Bus -> ___",
-                answer: "buses",
-                explanation: "Palabras que terminan en -s añaden -es en plural."
-            },
-            {
-                id: "q2",
-                sentence: "Country -> ___",
-                answer: "countries",
-                explanation: "Consonante + y -> se cambia por -ies."
-            }
-        ]
+        type: "fill-blanks",
+        title: "Regular Plurals (-es)",
+        prompt_es: "Escribe el plural de 'Bus'.",
+        stimulus_en: "Bus -> ___",
+        correct_answer: "buses",
+        explanation: "Palabras que terminan en -s añaden -es en plural."
     },
     {
         id: "a1-m2-l1-pdf-2",
+        type: "fill-blanks",
+        title: "Regular Plurals (-ies)",
+        prompt_es: "Escribe el plural de 'Country'.",
+        stimulus_en: "Country -> ___",
+        correct_answer: "countries",
+        explanation: "Consonante + y -> se cambia por -ies."
+    },
+    {
+        id: "a1-m2-l1-pdf-3",
         type: "matching",
         title: "Irregular Plurals",
-        instructions: "Match the singular with its irregular plural.",
+        prompt_es: "Relaciona el singular con su plural irregular.",
         pairs: [
-            {item: "Man", match: "Men"},
-            {item: "Woman", match: "Women"},
-            {item: "Child", match: "Children"},
-            {item: "Person", match: "People"}
+            {id: "i1", word: "Man", correctMatch: "Men"},
+            {id: "i2", word: "Woman", correctMatch: "Women"},
+            {id: "i3", word: "Child", correctMatch: "Children"},
+            {id: "i4", word: "Person", correctMatch: "People"}
         ],
-        explanation: "Los plurales irregulares no siguen la regla de añadir -s, deben aprenderse de memoria."
+        explanation: "Los plurales irregulares no siguen la regla de añadir -s."
     },
     {
         id: "a1-m2-l2-pdf-1",
         type: "multiple-choice",
-        title: "On vs Above",
-        instructions: "Choose the correct preposition based on the contact rule.",
-        questions: [
-            {
-                id: "q1",
-                question: "The pencil is ___ the table (making contact).",
-                options: ["on", "above", "under"],
-                correctAnswer: "on",
-                explanation: "'On' indica contacto con la superficie."
-            },
-            {
-                id: "q2",
-                question: "The lamp is ___ the table (hanging from ceiling, no contact).",
-                options: ["on", "above", "behind"],
-                correctAnswer: "above",
-                explanation: "'Above' indica que está por encima pero sin contacto."
-            }
-        ]
+        title: "Preposition: On",
+        prompt_es: "El lápiz está sobre la mesa (con contacto).",
+        stimulus_en: "The pencil is ___ the table.",
+        options: [
+            {id: "on", text: "on"},
+            {id: "above", text: "above"},
+            {id: "under", text: "under"}
+        ],
+        correct_answer: "on",
+        explanation: "'On' indica contacto con la superficie."
+    },
+    {
+        id: "a1-m2-l2-pdf-2",
+        type: "multiple-choice",
+        title: "Preposition: Above",
+        prompt_es: "La lámpara está sobre la mesa (sin contacto, colgando).",
+        stimulus_en: "The lamp is ___ the table.",
+        options: [
+            {id: "on", text: "on"},
+            {id: "above", text: "above"},
+            {id: "behind", text: "behind"}
+        ],
+        correct_answer: "above",
+        explanation: "'Above' indica que está por encima pero sin contacto."
     }
 ];

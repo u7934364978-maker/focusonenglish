@@ -764,6 +764,8 @@ export default function PremiumCourseSession({
     setFeedback(null);
     setSelectedOption(null);
     setIsCorrect(null);
+    setAiExplanation(null);
+    setIsExplaining(false);
 
     if (isVideoMode) {
       const video = currentItem.video;
@@ -984,6 +986,11 @@ export default function PremiumCourseSession({
       setFeedback({ correct: false, message: message });
       playAudio('/audio/wrong.mp3');
     }
+
+    // Auto-request AI explanation if static one is missing
+    if (!interaction.explanation) {
+      handleRequestAIExplanation();
+    }
   };
 
   const handleFeedbackContinue = () => {
@@ -993,6 +1000,8 @@ export default function PremiumCourseSession({
     if (!feedback?.correct && isVideoMode && currentItem.video.branching && failCount[id] >= 2) {
       setIsRepairing(true);
       setFeedback(null);
+      setAiExplanation(null);
+      setIsExplaining(false);
       return;
     }
 
@@ -1004,6 +1013,8 @@ export default function PremiumCourseSession({
            handleNext();
         } else {
           setFeedback(null);
+          setAiExplanation(null);
+          setIsExplaining(false);
         }
       } else {
         handleNext();
@@ -1018,6 +1029,8 @@ export default function PremiumCourseSession({
       setFeedback(null);
       setSelectedOption(null);
       setIsCorrect(null);
+      setAiExplanation(null);
+      setIsExplaining(false);
     }
   };
 
