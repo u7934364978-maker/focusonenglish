@@ -30,30 +30,37 @@ export class GlobalContentProvider {
   async loadAllContent(): Promise<void> {
     if (this.isLoaded) return;
 
-    const levels: CourseLevel[] = [
+    const levels: string[] = [
       'ingles-a1',
       'ingles-a2',
       'ingles-b1',
       'ingles-b2',
-      'ingles-c1',
-      'ingles-c2',
-      'emails-b1'
+      'emails-b1',
+      'negociaciones-b2',
+      'viajes/a1'
     ];
 
     console.log('🚀 Loading global content for ultra-intelligent algorithm...');
 
-    const loadingPromises = levels.map(async (level) => {
+    const loadingPromises = levels.map(async (levelPath) => {
       try {
-        const levelInteractions = await premiumCourseServerService.getAllInteractions(level);
-        const cefrLevel = level.replace('ingles-', '').toUpperCase();
+        const levelInteractions = await premiumCourseServerService.getAllInteractions(levelPath as any);
+        
+        // Extract CEFR level from path (e.g., 'ingles-a1' -> 'A1', 'viajes/a1' -> 'A1')
+        let cefrLevel = 'A1';
+        const levelMatch = levelPath.match(/[a-c][1-2]/i);
+        if (levelMatch) cefrLevel = levelMatch[0].toUpperCase();
         
         return levelInteractions.map(i => {
           let specialization: IndexedInteraction['specialization'] = 'generic';
           
-          if (level === 'emails-b1') specialization = 'emails';
-          else if (level.includes('viajes')) specialization = 'travel';
-          else if ((i as any).unit_title?.toLowerCase().includes('finance')) specialization = 'finance';
-          else if ((i as any).unit_title?.toLowerCase().includes('business ethics')) specialization = 'finance';
+          const unitTitle = (i as any).unit_title?.toLowerCase() || "";
+          
+          if (levelPath === 'emails-b1') specialization = 'emails';
+          else if (levelPath.includes('viajes')) specialization = 'travel';
+          else if (levelPath === 'negociaciones-b2') specialization = 'finance';
+          else if (unitTitle.includes('finance') || unitTitle.includes('business') || unitTitle.includes('negotiation') || unitTitle.includes('econom')) specialization = 'finance';
+          else if (unitTitle.includes('tech') || unitTitle.includes(' it ') || unitTitle.includes('software') || unitTitle.includes('coding') || unitTitle.includes('computer')) specialization = 'it';
           
           return {
             ...i,
@@ -62,7 +69,7 @@ export class GlobalContentProvider {
           } as IndexedInteraction;
         });
       } catch (error) {
-        console.error(`Failed to load content for level ${level}:`, error);
+        console.error(`Failed to load content for level ${levelPath}:`, error);
         return [];
       }
     });

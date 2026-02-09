@@ -4,7 +4,7 @@ import { UserPerformanceRecord } from '../course-engine/adaptive';
 import fs from 'fs';
 import path from 'path';
 
-export type CourseLevel = 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2' | 'ingles-c1' | 'ingles-c2' | 'emails-b1';
+export type CourseLevel = string;
 
 export const premiumCourseServerService = {
   /**

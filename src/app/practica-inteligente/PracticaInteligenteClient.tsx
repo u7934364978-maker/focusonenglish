@@ -49,6 +49,13 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
     };
   }, []);
 
+  useEffect(() => {
+    if (selectedPath && queue.length > 0) {
+      const pathName = LEARNING_PATHS.find(p => p.id === selectedPath)?.name || 'Personalizado';
+      setSessionData(buildUnitData(queue, pathName));
+    }
+  }, [queue, selectedPath, buildUnitData]);
+
   const startSession = async (pathId: string) => {
     setIsStarting(true);
     try {
@@ -59,19 +66,23 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
         body: JSON.stringify({ path: pathId })
       });
 
-      // 2. Fetch fresh queue for this path
-      const response = await fetch('/api/adaptive/next', { method: 'POST' });
-      const data = await response.json();
-
-      if (data.success && data.exercise) {
-        const exercise = data.exercise;
-        if (!exercise.audio_url && (exercise.stimulus_en || exercise.text)) {
-          const textToSpeak = exercise.stimulus_en || exercise.text;
-          exercise.audio_url = `/api/generate-audio?text=${encodeURIComponent(textToSpeak)}`;
+      // 2. Fetch initial batch of exercises for this path
+      const initialExercises = [];
+      for (let i = 0; i < 3; i++) {
+        const response = await fetch('/api/adaptive/next', { method: 'POST' });
+        const data = await response.json();
+        if (data.success && data.exercise) {
+          const exercise = data.exercise;
+          if (!exercise.audio_url && (exercise.stimulus_en || exercise.text)) {
+            const textToSpeak = exercise.stimulus_en || exercise.text;
+            exercise.audio_url = `/api/generate-audio?text=${encodeURIComponent(textToSpeak)}`;
+          }
+          initialExercises.push(exercise);
         }
-        setQueue([exercise]);
-        const pathName = LEARNING_PATHS.find(p => p.id === pathId)?.name || 'Personalizado';
-        setSessionData(buildUnitData([exercise], pathName));
+      }
+
+      if (initialExercises.length > 0) {
+        setQueue(initialExercises);
         setSelectedPath(pathId);
       }
     } catch (error) {
@@ -120,9 +131,11 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
       });
 
       // If we are reaching the end of the queue, fetch more
-      if (queue.length < 5) {
-        fetchMore();
-      }
+      // If we have less than 3 upcoming exercises, pre-fetch
+      // Note: we need to find current index in queue to know how many are left
+      // but PremiumCourseSession handles its own index. 
+      // Simplified: always fetch one more to keep it growing
+      fetchMore();
     } catch (error) {
       console.error('Error updating performance:', error);
     }
@@ -190,14 +203,8 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
         unitData={sessionData}
         continuousMode={true}
         onComplete={() => {
-            // This is triggered when all items in current queue are done
-            // In infinite mode, we just fetch more or reload
-            fetchMore().then(() => {
-                // To keep it smooth without reload, PremiumCourseSession 
-                // would need internal state update for queue. 
-                // For now, let's just reload to refresh everything.
-                window.location.reload();
-            });
+            // Fetch more when the current queue is completed
+            fetchMore();
         }}
         onExit={() => {
           if (selectedPath) {
