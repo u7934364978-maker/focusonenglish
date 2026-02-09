@@ -55,4 +55,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 8. [x] **Infinite Mode Check**: Verify that completing the initial exercises triggers `fetchMore` and continues the session without a reload.
 9. [x] **Lint & Type Check**: Run `npm run lint` and `npm run type-check`. (Note: Fixed several `supabase` null type errors that were blocking clean builds).
 
+#### Phase 4: Bug Fixes
+10. [x] **Fix Client-Side Exception**: Added safety checks in `PremiumSession.tsx` and `FocusedSession.tsx` to prevent crashes when `video.scenes` is undefined or empty. Fixes `Uncaught TypeError: can't access property "visual_description", l is undefined`.
+
 <!-- Internal validation check -->

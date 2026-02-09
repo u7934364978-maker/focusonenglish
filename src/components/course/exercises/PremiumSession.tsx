@@ -2454,7 +2454,27 @@ export default function PremiumCourseSession({
       );
     }
 
-    const scene = video.scenes[currentSceneIndex];
+    const scene = video.scenes?.[currentSceneIndex];
+    if (!scene) {
+      return (
+        <div className="text-center p-12 bg-slate-50 rounded-[3rem] border-4 border-dashed border-slate-200">
+          <h3 className="text-2xl font-black text-slate-400 uppercase tracking-widest">Escena no encontrada</h3>
+          <p className="text-slate-400 mt-2 font-bold">La escena {currentSceneIndex + 1} del video no está disponible.</p>
+          <Button 
+            className="mt-6 bg-indigo-600 text-white font-black px-8 py-4 rounded-xl"
+            onClick={() => {
+              if (currentSceneIndex < video.scenes?.length - 1) {
+                setCurrentSceneIndex(prev => prev + 1);
+              } else {
+                setShowInteraction(true);
+              }
+            }}
+          >
+            SALTAR ESCENA
+          </Button>
+        </div>
+      );
+    }
     return (
       <div className="w-full max-w-4xl mx-auto space-y-12 px-4">
         <div className="bg-white border-4 border-slate-100 rounded-[3rem] p-8 md:p-12 flex flex-col items-center gap-10 shadow-2xl shadow-slate-200/50">
