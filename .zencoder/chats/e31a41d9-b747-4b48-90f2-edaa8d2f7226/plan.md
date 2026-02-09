@@ -27,3 +27,8 @@
 1. [x] Ejecutar el SQL de migración en Supabase (Usuario).
 2. [x] Verificar y eliminar rutas residuales de A1 si existen.
 3. [x] Confirmar privatización total de A1.
+
+### [x] Step: Bulk Generation of Explanations (Phase 4)
+1. [x] Identificar ejercicios sin explicación en A1 (1076 totales).
+2. [x] Crear script de automatización `scripts/generate-a1-explanations.ts`.
+3. [x] Ejecutar generación masiva y poblar la caché de Supabase.

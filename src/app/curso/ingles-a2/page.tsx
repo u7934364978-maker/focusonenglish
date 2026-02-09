@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { createClient } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
 
@@ -150,9 +150,9 @@ export default async function A2CoursePage() {
                 <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
                 
                 <div className="relative z-10">
-                  <h3 className="text-2xl font-black mb-4">Práctica Aleatoria</h3>
+                  <h3 className="text-2xl font-black mb-4">Práctica Inteligente</h3>
                   <p className="text-blue-100 text-sm mb-6">
-                    Mezclamos ejercicios de todas las unidades para un desafío extra.
+                    Nuestro algoritmo selecciona los mejores ejercicios para tu nivel y repasa tus errores.
                   </p>
                   
                   <Link 

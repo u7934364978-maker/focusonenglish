@@ -1,7 +1,4 @@
--- ============================================
--- FOCUS ENGLISH - SCHEMA COMPLETO DE BASE DE DATOS
--- Fecha: 15 de Enero de 2026
--- Desarrollador: GenSpark AI Developer
+-- SCHEMA COMPLETO DE BASE DE DATOS - FOCUS ENGLISH
 -- ============================================
 
 -- Este script contiene todas las tablas necesarias para la aplicación
@@ -217,6 +214,24 @@ COMMENT ON COLUMN course_progress.time_spent IS 'Tiempo total en segundos dedica
 COMMENT ON COLUMN course_progress.exercises_completed IS 'Array JSON con IDs de ejercicios completados';
 
 -- ============================================
+-- 6b. TABLA: EXERCISE_EXPLANATIONS_CACHE
+-- Cache de explicaciones generadas por IA
+-- ============================================
+
+CREATE TABLE IF NOT EXISTS exercise_explanations_cache (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  exercise_id TEXT UNIQUE NOT NULL,
+  explanation TEXT NOT NULL,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+CREATE INDEX IF NOT EXISTS idx_exercise_explanations_cache_exercise_id ON exercise_explanations_cache(exercise_id);
+
+COMMENT ON TABLE exercise_explanations_cache IS 'Cache de explicaciones pedagógicas generadas por IA para los ejercicios';
+COMMENT ON COLUMN exercise_explanations_cache.exercise_id IS 'ID único del ejercicio (proveniente de los JSON de contenido)';
+COMMENT ON COLUMN exercise_explanations_cache.explanation IS 'Texto de la explicación generado por la IA';
+
+-- ============================================
 -- 7. FUNCIONES HELPER
 -- ============================================
 
@@ -264,6 +279,7 @@ ALTER TABLE users ENABLE ROW LEVEL SECURITY;
 ALTER TABLE password_reset_tokens ENABLE ROW LEVEL SECURITY;
 ALTER TABLE subscriptions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE course_progress ENABLE ROW LEVEL SECURITY;
+ALTER TABLE exercise_explanations_cache ENABLE ROW LEVEL SECURITY;
 
 -- Políticas para tabla 'users'
 -- Nota: auth.uid() solo funciona con Supabase Auth
@@ -303,6 +319,19 @@ CREATE POLICY "Service role can manage progress"
   FOR ALL
   USING (true);
 
+-- Políticas para 'exercise_explanations_cache'
+DROP POLICY IF EXISTS "Allow anyone to read explanations" ON exercise_explanations_cache;
+CREATE POLICY "Allow anyone to read explanations"
+  ON exercise_explanations_cache
+  FOR SELECT
+  USING (true);
+
+DROP POLICY IF EXISTS "Allow authenticated users to insert explanations" ON exercise_explanations_cache;
+CREATE POLICY "Allow authenticated users to insert explanations"
+  ON exercise_explanations_cache
+  FOR INSERT
+  WITH CHECK (auth.role() = 'authenticated' OR auth.role() = 'service_role');
+
 -- ============================================
 -- 9. VERIFICACIÓN
 -- ============================================
@@ -327,6 +356,7 @@ BEGIN
   RAISE NOTICE '  - password_reset_tokens';
   RAISE NOTICE '  - subscriptions';
   RAISE NOTICE '  - course_progress';
+  RAISE NOTICE '  - exercise_explanations_cache';
   RAISE NOTICE '';
   RAISE NOTICE 'Funciones creadas:';
   RAISE NOTICE '  - cleanup_expired_tokens()';
