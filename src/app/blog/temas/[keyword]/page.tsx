@@ -19,9 +19,18 @@ export async function generateMetadata({ params }: { params: Promise<{ keyword: 
   const keywords = getAllKeywords();
   const originalKeyword = keywords.find(k => slugify(k) === keyword) || keyword;
   
+  // Try to get hub content to use its title/description in metadata
+  let hubContent = getHubContent(originalKeyword);
+  if (!hubContent && originalKeyword !== keyword) {
+    hubContent = getHubContent(keyword);
+  }
+  
+  const displayTitle = hubContent?.title || `Artículos sobre ${originalKeyword}`;
+  const displayDescription = hubContent?.description || `Explora todas nuestras guías y recursos gratuitos sobre ${originalKeyword} para mejorar tu nivel de inglés.`;
+
   return {
-    title: `Artículos sobre ${originalKeyword} | Focus English Blog`,
-    description: `Explora todas nuestras guías y recursos gratuitos sobre ${originalKeyword} para mejorar tu nivel de inglés.`,
+    title: `${displayTitle} | Focus English Blog`,
+    description: displayDescription,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/temas/${keyword}`,
     },
@@ -37,7 +46,12 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
   const keywords = getAllKeywords();
   const originalKeyword = keywords.find(k => slugify(k) === keyword) || keyword;
   const articles = getArticlesByKeyword(originalKeyword);
-  const hubContent = getHubContent(originalKeyword);
+  
+  // Try to get hub content by original keyword first, then by the slug directly
+  let hubContent = getHubContent(originalKeyword);
+  if (!hubContent && originalKeyword !== keyword) {
+    hubContent = getHubContent(keyword);
+  }
 
   if (articles.length === 0 && !hubContent) {
     notFound();

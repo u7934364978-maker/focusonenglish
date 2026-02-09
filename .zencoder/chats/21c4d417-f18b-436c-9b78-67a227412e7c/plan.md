@@ -63,7 +63,8 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/21
 4. **Task 4: Fix Hub Routing (404 Issue)**
    - [x] Allow Hub pages to load without associated articles.
    - [x] Include Hub keywords in `generateStaticParams`.
-   - [x] Verify `reported-speech` URL.
+   - [x] Improve slug matching logic to prevent 404s on specific hubs.
+   - [x] Verify `reported-speech` and other reported 404 URLs.
 
 ### [x] Step: Implementation
 

@@ -159,19 +159,29 @@ export interface HubContent {
 const HUBS_DIR = path.join(process.cwd(), "src/content/hubs");
 
 export function getHubContent(keyword: string): HubContent | null {
-  const slug = slugify(keyword);
-  const filePath = path.join(HUBS_DIR, `${slug}.md`);
-
-  if (!fs.existsSync(filePath)) {
-    return null;
+  // 1. Try direct match with the string provided (could be already a slug)
+  let filePath = path.join(HUBS_DIR, `${keyword}.md`);
+  if (fs.existsSync(filePath)) {
+    return parseHubFile(filePath, keyword);
   }
 
+  // 2. Try slugified version
+  const slug = slugify(keyword);
+  filePath = path.join(HUBS_DIR, `${slug}.md`);
+  if (fs.existsSync(filePath)) {
+    return parseHubFile(filePath, slug);
+  }
+
+  return null;
+}
+
+function parseHubFile(filePath: string, slug: string): HubContent {
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
 
   return {
     slug,
-    title: data.title || keyword,
+    title: data.title || slug.replace(/-/g, " "),
     description: data.description,
     content,
   };
