@@ -38,7 +38,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 #### Phase 1: Global Content Provider Enhancements
 1. [x] **Update `GlobalContentProvider.ts`**: Expand the `levels` array and implement recursive or multi-path loading to include `negociaciones-b2`, `viajes/a1`, and advanced levels (C1, C2).
@@ -53,6 +53,6 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 #### Phase 3: Validation & Quality
 7. [x] **Test Specialized Paths**: Manually verify that selecting "Emails Profesionales" or "Finanzas" starts the session with relevant content.
 8. [x] **Infinite Mode Check**: Verify that completing the initial exercises triggers `fetchMore` and continues the session without a reload.
-9. [x] **Lint & Type Check**: Run `npm run lint` and `npm run typecheck` to ensure code integrity.
+9. [x] **Lint & Type Check**: Run `npm run lint` and `npm run type-check`. (Note: Fixed several `supabase` null type errors that were blocking clean builds).
 
 <!-- Internal validation check -->
