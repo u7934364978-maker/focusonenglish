@@ -54,3 +54,5 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 7. [x] **Test Specialized Paths**: Manually verify that selecting "Emails Profesionales" or "Finanzas" starts the session with relevant content.
 8. [x] **Infinite Mode Check**: Verify that completing the initial exercises triggers `fetchMore` and continues the session without a reload.
 9. [x] **Lint & Type Check**: Run `npm run lint` and `npm run typecheck` to ensure code integrity.
+
+<!-- Internal validation check -->
