@@ -56,6 +56,10 @@ CREATE TABLE IF NOT EXISTS users (
   CONSTRAINT unique_email UNIQUE(email)
 );
 
+-- Asegurar que las columnas existen si la tabla ya estaba creada
+ALTER TABLE users ADD COLUMN IF NOT EXISTS language_level TEXT CHECK (language_level IN ('A1', 'A2', 'B1', 'B2', 'C1', 'C2'));
+ALTER TABLE users ADD COLUMN IF NOT EXISTS course_goal TEXT CHECK (course_goal IN ('trabajo', 'viajes', 'examenes'));
+
 -- Índices para optimizar búsquedas
 CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
 CREATE INDEX IF NOT EXISTS idx_users_created_at ON users(created_at);

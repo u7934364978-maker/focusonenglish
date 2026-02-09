@@ -26,6 +26,7 @@ import {
   A1_EXP_TRANSPORT, 
   A1_EXP_PLACE 
 } from './a1-expansion-content';
+import { A1_PDF_EXERCISES } from './a1-pdf-exercises';
 
 import type { 
   Exercise, 

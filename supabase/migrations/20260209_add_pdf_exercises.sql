@@ -92,4 +92,84 @@ VALUES (
   $_${"title": "Countries and Nationalities", "instructions": "Match the country with its nationality.", "pairs": [{"item": "Spain", "match": "Spanish"}, {"item": "France", "match": "French"}, {"item": "Germany", "match": "German"}, {"item": "Italy", "match": "Italian"}, {"item": "China", "match": "Chinese"}], "explanation": "Las nacionalidades en ingl\u00e9s siempre se escriben con may\u00fascula (Capital letters)."}$_$
 ) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
 
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m1-l3-pdf-4',
+  'a1-m1-l3',
+  109, -- Start from 100 to avoid conflict with existing ones if any
+  'multiple-choice',
+  $_$Colours Rules$_$,
+  $_${"title": "Colours Rules", "instructions": "Choose the correct sentence following the grammar rules for colours.", "questions": [{"id": "q1", "question": "Which sentence is correct?", "options": ["It is my dog black", "It is my black dog", "It is my black dogs"], "correctAnswer": "It is my black dog", "explanation": "En ingl\u00e9s, el adjetivo (color) va DELANTE del sustantivo y es invariable (no cambia en plural)."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m1-l3-pdf-5',
+  'a1-m1-l3',
+  110, -- Start from 100 to avoid conflict with existing ones if any
+  'multiple-choice',
+  $_$Asking about Colours$_$,
+  $_${"title": "Asking about Colours", "instructions": "How do you ask about the colour of something?", "questions": [{"id": "q1", "question": "What is the correct question for plural objects (e.g., tomatoes)?", "options": ["What colour is it?", "What colour are they?", "What is the colour?"], "correctAnswer": "What colour are they?", "explanation": "Usamos 'are they' para preguntar por el color de varios objetos (plural)."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l1-pdf-1',
+  'a1-m2-l1',
+  111, -- Start from 100 to avoid conflict with existing ones if any
+  'fill-blank',
+  $_$Regular Plurals$_$,
+  $_${"title": "Regular Plurals", "instructions": "Write the plural form of these nouns.", "questions": [{"id": "q1", "sentence": "Bus -> ___", "answer": "buses", "explanation": "Palabras que terminan en -s a\u00f1aden -es en plural."}, {"id": "q2", "sentence": "Country -> ___", "answer": "countries", "explanation": "Consonante + y -> se cambia por -ies."}, {"id": "q3", "sentence": "Tomato -> ___", "answer": "tomatoes", "explanation": "Consonante + o -> a\u00f1ade -es."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l1-pdf-2',
+  'a1-m2-l1',
+  112, -- Start from 100 to avoid conflict with existing ones if any
+  'matching',
+  $_$Irregular Plurals$_$,
+  $_${"title": "Irregular Plurals", "instructions": "Match the singular with its irregular plural.", "pairs": [{"item": "Man", "match": "Men"}, {"item": "Woman", "match": "Women"}, {"item": "Child", "match": "Children"}, {"item": "Person", "match": "People"}, {"item": "Tooth", "match": "Teeth"}], "explanation": "Los plurales irregulares no siguen la regla de a\u00f1adir -s, deben aprenderse de memoria."}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l1-pdf-3',
+  'a1-m2-l1',
+  113, -- Start from 100 to avoid conflict with existing ones if any
+  'multiple-choice',
+  $_$Demonstratives: This, That, These, Those$_$,
+  $_${"title": "Demonstratives: This, That, These, Those", "instructions": "Choose the correct demonstrative.", "questions": [{"id": "q1", "question": "___ (singular, near) book is good.", "options": ["This", "That", "These", "Those"], "correctAnswer": "This", "explanation": "Usamos 'This' para algo singular que est\u00e1 cerca."}, {"id": "q2", "question": "___ (plural, far) are my friends.", "options": ["This", "That", "These", "Those"], "correctAnswer": "Those", "explanation": "Usamos 'Those' para algo plural que est\u00e1 lejos."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l1-pdf-4',
+  'a1-m2-l1',
+  114, -- Start from 100 to avoid conflict with existing ones if any
+  'matching',
+  $_$Possessive Adjectives$_$,
+  $_${"title": "Possessive Adjectives", "instructions": "Match the personal pronoun with its possessive adjective.", "pairs": [{"item": "I", "match": "My"}, {"item": "You", "match": "Your"}, {"item": "He", "match": "His"}, {"item": "She", "match": "Her"}, {"item": "We", "match": "Our"}, {"item": "They", "match": "Their"}], "explanation": "Los adjetivos posesivos indican a qui\u00e9n pertenece algo."}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l2-pdf-1',
+  'a1-m2-l2',
+  115, -- Start from 100 to avoid conflict with existing ones if any
+  'multiple-choice',
+  $_$On vs Above$_$,
+  $_${"title": "On vs Above", "instructions": "Choose the correct preposition based on the contact rule.", "questions": [{"id": "q1", "question": "The pencil is ___ the table (making contact).", "options": ["on", "above", "under"], "correctAnswer": "on", "explanation": "'On' indica contacto con la superficie."}, {"id": "q2", "question": "The lamp is ___ the table (hanging from ceiling, no contact).", "options": ["on", "above", "behind"], "correctAnswer": "above", "explanation": "'Above' indica que est\u00e1 por encima pero sin contacto."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES (
+  'a1-m2-l2-pdf-2',
+  'a1-m2-l2',
+  116, -- Start from 100 to avoid conflict with existing ones if any
+  'fill-blank',
+  $_$Prepositions of Place$_$,
+  $_${"title": "Prepositions of Place", "instructions": "Complete with the correct preposition (in, behind, next to, between).", "questions": [{"id": "q1", "sentence": "The sofa is ___ the door (cerca de).", "answer": "next to", "explanation": "'Next to' significa al lado o cerca de."}, {"id": "q2", "sentence": "The table is ___ the armchair and the sofa.", "answer": "between", "explanation": "Usamos 'between' cuando algo est\u00e1 entre dos objetos."}]}$_$
+) ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content;
+
 COMMIT;
