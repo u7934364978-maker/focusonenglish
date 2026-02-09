@@ -5,6 +5,7 @@ export type IndexedInteraction = Interaction & {
   level: string;
   unit_id?: string;
   unit_order?: number;
+  specialization?: 'generic' | 'finance' | 'it' | 'emails' | 'travel';
 };
 
 export class GlobalContentProvider {
@@ -46,10 +47,20 @@ export class GlobalContentProvider {
         const levelInteractions = await premiumCourseServerService.getAllInteractions(level);
         const cefrLevel = level.replace('ingles-', '').toUpperCase();
         
-        return levelInteractions.map(i => ({
-          ...i,
-          level: cefrLevel,
-        } as IndexedInteraction));
+        return levelInteractions.map(i => {
+          let specialization: IndexedInteraction['specialization'] = 'generic';
+          
+          if (level === 'emails-b1') specialization = 'emails';
+          else if (level.includes('viajes')) specialization = 'travel';
+          else if ((i as any).unit_title?.toLowerCase().includes('finance')) specialization = 'finance';
+          else if ((i as any).unit_title?.toLowerCase().includes('business ethics')) specialization = 'finance';
+          
+          return {
+            ...i,
+            level: cefrLevel,
+            specialization,
+          } as IndexedInteraction;
+        });
       } catch (error) {
         console.error(`Failed to load content for level ${level}:`, error);
         return [];
@@ -83,13 +94,19 @@ export class GlobalContentProvider {
     skills?: string[];
     complexityRange?: [number, number];
     tags?: string[];
+    specialization?: string;
   }): IndexedInteraction[] {
-    const { maxLevel, skills, complexityRange, tags } = criteria;
+    const { maxLevel, skills, complexityRange, tags, specialization } = criteria;
     
     const levelOrder = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
     const maxLevelIdx = maxLevel ? levelOrder.indexOf(maxLevel) : levelOrder.length - 1;
 
     return this.interactions.filter(i => {
+      // 0. Specialization check
+      if (specialization && specialization !== 'all') {
+        if (i.specialization !== specialization) return false;
+      }
+
       // 1. Level check
       const iLevelIdx = levelOrder.indexOf(i.level);
       if (maxLevelIdx !== -1 && iLevelIdx > maxLevelIdx) return false;
