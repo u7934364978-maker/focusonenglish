@@ -38,9 +38,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [x] Step: Implementation
+### [ ] Step: Implementation
 
 1. [x] **Limpiar entorno local**: Eliminar la carpeta `public/docs` creada anteriormente.
-2. [x] **Actualizar contenido del artículo**: Modificar `src/content/blog/metodos/reported-speech-ejercicios-pdf.md` para usar la URL de Supabase.
-3. [x] **Verificación**: Comprobar que los enlaces en el blog apuntan a la URL de Supabase y funcionan.
-4. [x] **Validación final**: Ejecutar `npm run lint`.
+2. [x] **Actualizar contenido del artículo (B1-C1)**: Modificar `src/content/blog/metodos/reported-speech-ejercicios-pdf.md` para usar la URL de Supabase.
+3. [ ] **Actualizar contenido del artículo (B1-C2)**: Ajustar niveles y textos de B1-C1 a B1-C2.
+4. [ ] **Verificación**: Comprobar que los enlaces en el blog apuntan a la URL de Supabase y mencionan B1-C2.
+5. [ ] **Validación final**: Ejecutar `npm run lint`.

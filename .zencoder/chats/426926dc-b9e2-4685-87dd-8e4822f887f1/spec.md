@@ -16,9 +16,8 @@
 Archivo: `src/content/blog/metodos/reported-speech-ejercicios-pdf.md`
 
 **Cambios en el cuerpo del Markdown:**
-- Reemplazar "B1-C2" por "B1-C1" en todos los títulos y textos descriptivos.
-- Actualizar los enlaces de descarga para que apunten a la URL firmada de Supabase.
-- Eliminar cualquier referencia local a `/docs/`.
+- Reemplazar "B1-C1" por "B1-C2" en todos los títulos y textos descriptivos.
+- Actualizar los enlaces de descarga para que apunten a la URL firmada de Supabase y mencionen B1-C2.
 
 ### 3. Componentes Reutilizables
 - Se utilizará el componente `a` ya definido en `MarkdownComponents` dentro de `src/app/blog/[category]/[slug]/page.tsx:190` para renderizar el enlace con los estilos de la plataforma (coral-600, negrita, hover).

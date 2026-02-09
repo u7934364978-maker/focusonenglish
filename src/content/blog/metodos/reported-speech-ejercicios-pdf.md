@@ -3,7 +3,7 @@ category: "metodos"
 date: "2026-02-08"
 author: "Focus English"
 title: "Reported Speech Ejercicios PDF: Practica y Descarga"
-description: "Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo para niveles B1, B2 y C1 con soluciones incluidas para practicar el estilo indirecto."
+description: "Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo para niveles B1, B2, C1 y C2 con soluciones incluidas para practicar el estilo indirecto."
 keywords: ["reporting verbs exercises pdf","reported speech c1 exercises pdf","ejercicios reported speech pdf","reporting verbs exercises with answers pdf","reported speech questions pdf"]
 canonical: "https://www.focus-on-english.com/blog/metodos/reported-speech-ejercicios-pdf"
 ---
@@ -24,7 +24,7 @@ Hoy en día tenemos multitud de aplicaciones y herramientas interactivas, pero e
 
 ## 2. Ejercicios por Niveles: Encuentra tu Reto
 
-Hemos diseñado nuestros materiales para que se adapten a tu nivel actual, permitiéndote progresar de forma escalonada y segura. Nuestra guía completa cubre desde el nivel intermedio hasta el avanzado.
+Hemos diseñado nuestros materiales para que se adapten a tu nivel actual, permitiéndote progresar de forma escalonada y segura. Nuestra guía completa cubre desde el nivel intermedio hasta el más avanzado (C2 Proficiency).
 
 ### Nivel Intermedio (B1 - B2 First)
 En este nivel, el objetivo es consolidar el **backshift** (el salto atrás de los tiempos verbales) y los cambios en las referencias temporales y de lugar.
@@ -34,15 +34,16 @@ En este nivel, el objetivo es consolidar el **backshift** (el salto atrás de lo
     *   El uso correcto de *said* vs *told* (recordando que *told* siempre necesita un objeto directo: *He told me*).
     *   Cambios de adverbios: *now* -> *then*, *today* -> *that day*, *yesterday* -> *the day before*.
 
-### Nivel Avanzado (C1 Advanced)
+### Nivel Avanzado y Maestría (C1 - C2 Proficiency)
 Aquí la dificultad aumenta significativamente. Ya no se trata solo de cambiar el verbo, sino de elegir el **reporting verb** más preciso y la estructura gramatical que le sigue.
 *   **¿Qué practicarás en este PDF?**
     *   Estructuras con gerundio (*"He suggested going to the park"*).
     *   Estructuras con infinitivo (*"They offered to help us with the move"*).
     *   Voz pasiva con verbos de reporte (*"It is claimed that..."* / *"He is thought to be..."*).
     *   Reporte de condicionales y verbos modales complejos (*might, could, should*).
+    *   Matices de significado en niveles de Maestría (C2).
 
-- [**Descargar Guía de Reported Speech y Ejercicios B1-C1 (PDF)**](https://nprqtjljoekoirlrjxlh.supabase.co/storage/v1/object/sign/blog/speech.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMWI1ZDVjZC0wZTgzLTQyMGUtOWI0NC1lZGQwZTMyOWY2NTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJibG9nL3NwZWVjaC5wZGYiLCJpYXQiOjE3NzA2NTM1NDcsImV4cCI6MTc3MTI1ODM0N30.Kbd_9AevqrmmSgZgxiD-gFRzdImD_TJ1EbSNCxgj4hQ)
+- [**Descargar Guía de Reported Speech y Ejercicios B1-C2 (PDF)**](https://nprqtjljoekoirlrjxlh.supabase.co/storage/v1/object/sign/blog/speech.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9kMWI1ZDVjZC0wZTgzLTQyMGUtOWI0NC1lZGQwZTMyOWY2NTMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJibG9nL3NwZWVjaC5wZGYiLCJpYXQiOjE3NzA2NTM1NDcsImV4cCI6MTc3MTI1ODM0N30.Kbd_9AevqrmmSgZgxiD-gFRzdImD_TJ1EbSNCxgj4hQ)
 
 ## 3. Reported Speech en Contextos Académicos y Legales
 

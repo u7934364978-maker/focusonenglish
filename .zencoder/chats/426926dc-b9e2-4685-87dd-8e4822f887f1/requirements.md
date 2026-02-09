@@ -12,11 +12,11 @@ Permitir a los usuarios descargar una guía en PDF sobre "Reported Speech" direc
 1. **Archivo PDF**:
    - Nombre original: `Guía de Reported Speech y Ejercicios B1-C2`.
    - Ubicación: Se debe confirmar la ubicación actual en el repositorio o añadirlo a `public/docs/`.
-   - Se recomienda un nombre de archivo optimizado para la web: `guia-reported-speech-ejercicios-b1-c1.pdf`.
+   - Se recomienda un nombre de archivo optimizado para la web: `guia-reported-speech-ejercicios-b1-c2.pdf`.
 2. **Artículo de Blog**:
    - Archivo: `src/content/blog/metodos/reported-speech-ejercicios-pdf.md`.
-   - El contenido actual menciona niveles B1-B2 y C1-C2. Se debe ajustar para reflejar que la guía cubre niveles **B1 a C1**, según la aclaración del usuario.
-   - Se deben actualizar los hipervínculos de descarga actuales (`[Descargar...](#)`) para que apunten a la ruta del PDF.
+   - El contenido debe reflejar que la guía cubre niveles **B1 a C2**, según la última indicación del usuario.
+   - Se deben actualizar los hipervínculos de descarga actuales para que apunten a la URL de Supabase y mencionen el rango B1-C2.
 3. **Almacenamiento**:
    - El PDF se almacenará localmente en el repositorio para servirlo de forma estática.
 
