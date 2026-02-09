@@ -45,7 +45,10 @@ export const MODULE_1_LESSONS: Lesson[] = [
     description: 'Learn basic greetings and the English alphabet with active recall techniques',
     duration: 90,
     objectives: ['Learn basic greetings', 'Master the English alphabet'],
-    exercises: A1_M1_L7_ALL_EXERCISES as Exercise[]
+    exercises: [
+      ...(A1_M1_L7_ALL_EXERCISES as Exercise[]),
+      ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l1-pdf'))
+    ]
   },
   {
     id: 'a1-m1-l2',
@@ -53,7 +56,11 @@ export const MODULE_1_LESSONS: Lesson[] = [
     description: 'Master the verb "to be" and subject pronouns in present simple',
     duration: 90,
     objectives: ['Master the verb "to be"', 'Learn subject pronouns'],
-    exercises: [...(A1_M1_L1_ALL_EXERCISES as Exercise[]), ...(A1_M1_L2_ALL_EXERCISES as Exercise[])]
+    exercises: [
+      ...(A1_M1_L1_ALL_EXERCISES as Exercise[]), 
+      ...(A1_M1_L2_ALL_EXERCISES as Exercise[]),
+      ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l2-pdf'))
+    ]
   },
   {
     id: 'a1-m1-l3',
@@ -61,7 +68,10 @@ export const MODULE_1_LESSONS: Lesson[] = [
     description: 'Learn cardinal numbers and common colors with gamified exercises',
     duration: 90,
     objectives: ['Learn cardinal numbers', 'Master common colors'],
-    exercises: A1_M1_L4_ALL_EXERCISES as Exercise[]
+    exercises: [
+      ...(A1_M1_L4_ALL_EXERCISES as Exercise[]),
+      ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m1-l3-pdf'))
+    ]
   },
   {
     id: 'a1-m1-l4',
@@ -85,7 +95,11 @@ export const MODULE_2_LESSONS: Lesson[] = [
     description: 'Learn vocabulary about family members and relationships',
     duration: 90,
     objectives: ['Learn family vocabulary', 'Describe relationships'],
-    exercises: [...(A1_M1_L5_ALL_EXERCISES as Exercise[]), ...A1_EXP_ADJECTIVES]
+    exercises: [
+      ...(A1_M1_L5_ALL_EXERCISES as Exercise[]), 
+      ...A1_EXP_ADJECTIVES,
+      ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m2-l1-pdf'))
+    ]
   },
   {
     id: 'a1-m2-l2',
@@ -93,7 +107,10 @@ export const MODULE_2_LESSONS: Lesson[] = [
     description: 'Explore parts of the house and common furniture',
     duration: 90,
     objectives: ['Learn house parts', 'Identify common furniture'],
-    exercises: A1_M2_L3_ALL_EXERCISES as Exercise[]
+    exercises: [
+      ...(A1_M2_L3_ALL_EXERCISES as Exercise[]),
+      ...A1_PDF_EXERCISES.filter(ex => ex.id.startsWith('a1-m2-l2-pdf'))
+    ]
   },
   {
     id: 'a1-m2-l3',

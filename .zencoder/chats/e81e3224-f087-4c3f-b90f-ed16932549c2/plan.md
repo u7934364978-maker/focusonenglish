@@ -30,3 +30,8 @@ Update the course home to point to the new adaptive engine.
 ### [x] Task 6: Final Verification
 Run lint and typecheck.
 - Command: `npm run lint` && `npm run typecheck`
+
+## Phase 4: UI Redesign (Adaptive First)
+### [x] Task 7: Redesign A2 Course Home
+Remove units list and implement the "Adaptive Algorithm Activated" landing page.
+- File: `src/app/curso/ingles-a2/page.tsx`
