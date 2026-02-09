@@ -19,7 +19,7 @@
       "title": "Much vs Many",
       "content": [
         {
-          "interaction_id": "u54_b1_i1",
+          "interaction_id": "A1_U54_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál usas para preguntar por la cantidad de dinero?",
           "options": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b1_i2",
+          "interaction_id": "A1_U54_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'much' o 'many':",
           "stimulus_en": "I don't have ________ time, but I have ________ books.",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b1_i3",
+          "interaction_id": "A1_U54_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuántas manzanas tienes?'",
           "options": [
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b1_i4",
+          "interaction_id": "A1_U54_B1_I4",
           "type": "matching",
           "prompt_es": "Une el cuantificador con el tipo de nombre:",
           "pairs": [
@@ -134,19 +134,6 @@
             "grammar",
             "grammar"
           ]
-        },
-        {
-          "interaction_id": "u54_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/much_many_time_people.mp3",
-          "text": "How much time? How many people?",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -155,7 +142,7 @@
       "title": "A lot of / A few / A little",
       "content": [
         {
-          "interaction_id": "u54_b2_i1",
+          "interaction_id": "A1_U54_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál usas para decir que tienes 'un poco' de agua?",
           "options": [
@@ -181,7 +168,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b2_i2",
+          "interaction_id": "A1_U54_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Tengo unos pocos amigos'",
           "stimulus_en": "I have ________ friends.",
@@ -194,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b2_i3",
+          "interaction_id": "A1_U54_B2_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Tenemos mucha comida'",
           "stimulus_es": "We have a lot of food.",
@@ -207,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b2_i4",
+          "interaction_id": "A1_U54_B2_I4",
           "type": "true_false",
           "prompt_es": "Usamos 'a few' con sustantivos incontables.",
           "correct_answer": false,
@@ -219,7 +206,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b2_i5",
+          "interaction_id": "A1_U54_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha la diferencia:",
           "audioUrl": "/audio/courses/ingles-a1/shared/few_little_examples.mp3",
@@ -238,7 +225,7 @@
       "title": "Quantity in Context",
       "content": [
         {
-          "interaction_id": "u54_b3_i1",
+          "interaction_id": "A1_U54_B3_I1",
           "type": "categorization",
           "prompt_es": "Clasifica según el cuantificador:",
           "categories": [
@@ -272,7 +259,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b3_i2",
+          "interaction_id": "A1_U54_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "Si no tienes mucho dinero, dices:",
           "options": [
@@ -298,7 +285,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b3_i3",
+          "interaction_id": "A1_U54_B3_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay mucha gente hoy'",
           "options": [
@@ -348,7 +335,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b3_i4",
+          "interaction_id": "A1_U54_B3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿Cuánto tiempo tenemos?'",
           "stimulus_es": "How much time do we have?",
@@ -359,19 +346,6 @@
             "grammar",
             "grammar"
           ]
-        },
-        {
-          "interaction_id": "u54_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/shopping_quantity.mp3",
-          "text": "We need many oranges but only a little sugar for the juice.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -380,35 +354,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u54_b4_i1",
-          "type": "reading-comprehension",
-          "title": "Planning a Party",
-          "text": "I am planning a party. I have a lot of music and many friends are coming. I don't have much food, so I need to go to the shop. I have a little money, but not much. I also need a few bottles of water.",
-          "question": "Does the person have enough food?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, they don't have much food."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, they have a lot of food."
-            },
-            {
-              "id": "o3",
-              "text": "The text doesn't say."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u54_b4_i2",
+          "interaction_id": "A1_U54_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa el texto:",
           "stimulus_en": "How ________ people are there? There aren't ________, only ________.",
@@ -421,7 +367,7 @@
           ]
         },
         {
-          "interaction_id": "u54_b4_i3",
+          "interaction_id": "A1_U54_B4_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'Tengo mucha agua' usando 'a lot of':",
           "stimulus_es": "I have a lot of water.",
@@ -431,41 +377,6 @@
           "concept_tags": [
             "grammar",
             "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u54_b4_i4",
-          "type": "multiple_choice",
-          "prompt_es": "Para sustantivos contables plurales en preguntas usamos:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "How many...?"
-            },
-            {
-              "id": "o2",
-              "text": "How much...?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u54_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit54_summary.mp3",
-          "text": "Much for uncountables, many for countables, and a lot of for everything. Now you can measure your world!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

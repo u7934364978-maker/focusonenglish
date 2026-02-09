@@ -18,32 +18,68 @@
       "title": "Immediate Family Vocabulary",
       "content": [
         {
-          "interaction_id": "U6_B1_I1",
+          "interaction_id": "A1_U6_B1_I1",
           "type": "matching",
           "prompt_es": "Relaciona los miembros de la familia:",
           "pairs": [
-            { "id": "p1", "left": "Father", "right": "Padre" },
-            { "id": "p2", "left": "Mother", "right": "Madre" },
-            { "id": "p3", "left": "Brother", "right": "Hermano" },
-            { "id": "p4", "left": "Sister", "right": "Hermana" }
+            {
+              "id": "p1",
+              "left": "Father",
+              "right": "Padre"
+            },
+            {
+              "id": "p2",
+              "left": "Mother",
+              "right": "Madre"
+            },
+            {
+              "id": "p3",
+              "left": "Brother",
+              "right": "Hermano"
+            },
+            {
+              "id": "p4",
+              "left": "Sister",
+              "right": "Hermana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocab:family",
-          "concept_tags": ["vocabulary", "family"],
+          "concept_tags": [
+            "vocabulary",
+            "family"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U6_B1_I2",
+          "interaction_id": "A1_U6_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'hijo' en inglés?",
           "options": [
-            { "id": "o1", "text": "Sun" },
-            { "id": "o2", "text": "Son" },
-            { "id": "o3", "text": "Soon" }
+            {
+              "id": "o1",
+              "text": "Sun"
+            },
+            {
+              "id": "o2",
+              "text": "Son"
+            },
+            {
+              "id": "o3",
+              "text": "Soon"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocab:family",
-          "concept_tags": ["vocabulary", "family"],
+          "concept_tags": [
+            "vocabulary",
+            "family"
+          ],
           "complexity": 1
         }
       ]
@@ -53,27 +89,42 @@
       "title": "Possessive 's",
       "content": [
         {
-          "interaction_id": "U6_B2_I1",
+          "interaction_id": "A1_U6_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'El hermano de John'?",
           "options": [
-            { "id": "o1", "text": "The John brother" },
-            { "id": "o2", "text": "John's brother" },
-            { "id": "o3", "text": "Brother of John" }
+            {
+              "id": "o1",
+              "text": "The John brother"
+            },
+            {
+              "id": "o2",
+              "text": "John's brother"
+            },
+            {
+              "id": "o3",
+              "text": "Brother of John"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar:possessive-s",
-          "concept_tags": ["grammar", "possessives"],
+          "concept_tags": [
+            "grammar",
+            "possessives"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U6_B2_I2",
+          "interaction_id": "A1_U6_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'La madre de Sarah.'",
           "stimulus_en": "Sarah________ mother.",
           "correct_answer": "'s",
           "mastery_tag": "grammar:possessive-s",
-          "concept_tags": ["grammar", "possessives"],
+          "concept_tags": [
+            "grammar",
+            "possessives"
+          ],
           "complexity": 2
         }
       ]
@@ -83,32 +134,65 @@
       "title": "Family Relationships",
       "content": [
         {
-          "interaction_id": "U6_B3_I1",
+          "interaction_id": "A1_U6_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella es mi hermana.'",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "my" },
-            { "id": "w4", "text": "sister." }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "sister."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax:family",
-          "concept_tags": ["syntax", "family"],
+          "concept_tags": [
+            "syntax",
+            "family"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U6_B3_I2",
+          "interaction_id": "A1_U6_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "Si Peter es el padre de Mary, ¿quién es Mary?",
           "options": [
-            { "id": "o1", "text": "Mary is Peter's son." },
-            { "id": "o2", "text": "Mary is Peter's daughter." },
-            { "id": "o3", "text": "Mary is Peter's mother." }
+            {
+              "id": "o1",
+              "text": "Mary is Peter's son."
+            },
+            {
+              "id": "o2",
+              "text": "Mary is Peter's daughter."
+            },
+            {
+              "id": "o3",
+              "text": "Mary is Peter's mother."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "logic:family",
-          "concept_tags": ["vocabulary", "family", "logic"],
+          "concept_tags": [
+            "vocabulary",
+            "family",
+            "logic"
+          ],
           "complexity": 3
         }
       ]

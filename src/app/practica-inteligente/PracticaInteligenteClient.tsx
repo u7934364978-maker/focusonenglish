@@ -12,25 +12,30 @@ interface Props {
 }
 
 const LEARNING_PATHS = [
-  { id: 'generic', name: 'Inglés General', icon: BookOpen, description: 'Mejora tu fluidez diaria y gramática de A1 a C2.' },
+  { id: 'generic', name: 'Inglés General', icon: Sparkles, description: 'Ruta adaptativa desde tu nivel actual.' },
+  { id: 'B1', name: 'Nivel B1', icon: BookOpen, description: 'Contenido específico de nivel Intermediate.' },
+  { id: 'B2', name: 'Nivel B2', icon: GraduationCap, description: 'Contenido específico de nivel Upper-Intermediate.' },
+  { id: 'C1', name: 'Nivel C1', icon: Briefcase, description: 'Contenido específico de nivel Advanced.' },
+  { id: 'C2', name: 'Nivel C2', icon: GraduationCap, description: 'Contenido específico de nivel Proficiency.' },
 ];
 
 export default function PracticaInteligenteClient({ initialQueue }: Props) {
   const [selectedPath, setSelectedPath] = useState<string | null>(null);
+  const [selectedLevel, setSelectedLevel] = useState<string | null>(null);
   const [isStarting, setIsStarting] = useState(false);
   const [queue, setQueue] = useState<any[]>([]);
   const [sessionData, setSessionData] = useState<UnitData | null>(null);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const router = useRouter();
 
-  const buildUnitData = useCallback((interactions: any[], pathName: string): UnitData => {
+  const buildUnitData = useCallback((interactions: any[], pathName: string, level?: string): UnitData => {
     return {
       course: {
         language_ui: 'es-ES',
         target_language: 'en',
-        level: 'MIXED',
+        level: level || 'MIXED',
         unit_id: 'ULTRA_ADAPTIVE_SESSION',
-        unit_title: `Sesión: ${pathName}`,
+        unit_title: level ? `Práctica de Nivel ${level}` : `Sesión: ${pathName}`,
         total_duration_minutes: 0
       },
       learning_outcomes: ['Aprendizaje personalizado infinito'],
@@ -48,24 +53,33 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
   useEffect(() => {
     if (selectedPath && queue.length > 0) {
       const pathName = LEARNING_PATHS.find(p => p.id === selectedPath)?.name || 'Personalizado';
-      setSessionData(buildUnitData(queue, pathName));
+      setSessionData(buildUnitData(queue, pathName, selectedLevel || undefined));
     }
-  }, [queue, selectedPath, buildUnitData]);
+  }, [queue, selectedPath, selectedLevel, buildUnitData]);
 
   const startSession = async (pathId: string) => {
     setIsStarting(true);
+    const isFixedLevel = ['B1', 'B2', 'C1', 'C2'].includes(pathId);
+    const levelToForce = isFixedLevel ? pathId : null;
+    
     try {
-      // 1. Set path in DB
-      await fetch('/api/adaptive/set-path', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ path: pathId })
-      });
+      // 1. Set path in DB (only for generic)
+      if (!isFixedLevel) {
+        await fetch('/api/adaptive/set-path', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path: pathId })
+        });
+      }
 
       // 2. Fetch initial batch of exercises for this path
       const initialExercises = [];
       for (let i = 0; i < 3; i++) {
-        const response = await fetch('/api/adaptive/next', { method: 'POST' });
+        const response = await fetch('/api/adaptive/next', { 
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ level: levelToForce })
+        });
         const data = await response.json();
         if (data.success && data.exercise) {
           const exercise = data.exercise;
@@ -80,6 +94,7 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
       if (initialExercises.length > 0) {
         setQueue(initialExercises);
         setSelectedPath(pathId);
+        setSelectedLevel(levelToForce);
       }
     } catch (error) {
       console.error('Error starting session:', error);
@@ -93,7 +108,11 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
     setIsLoadingMore(true);
     
     try {
-      const response = await fetch('/api/adaptive/next', { method: 'POST' });
+      const response = await fetch('/api/adaptive/next', { 
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ level: selectedLevel })
+      });
       const data = await response.json();
       
       if (data.success && data.exercise) {

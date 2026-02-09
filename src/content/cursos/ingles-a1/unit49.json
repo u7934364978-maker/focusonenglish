@@ -19,7 +19,7 @@
       "title": "Essential Travel Items",
       "content": [
         {
-          "interaction_id": "u49_b1_i1",
+          "interaction_id": "A1_U49_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'maleta' en inglés?",
           "options": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b1_i2",
+          "interaction_id": "A1_U49_B1_I2",
           "type": "matching",
           "prompt_es": "Une los objetos con su traducción:",
           "pairs": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b1_i3",
+          "interaction_id": "A1_U49_B1_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'adaptador' en inglés:",
           "stimulus_es": "Adaptador",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b1_i4",
+          "interaction_id": "A1_U49_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Selecciona la opción para 'artículos de aseo':",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b1_i5",
+          "interaction_id": "A1_U49_B1_I5",
           "type": "audio_player",
           "prompt_es": "Escucha y repite el vocabulario:",
           "audioUrl": "/audio/courses/ingles-a1/shared/suitcase_toiletries.mp3",
@@ -142,7 +142,7 @@
       "title": "Expressing Needs",
       "content": [
         {
-          "interaction_id": "u49_b2_i1",
+          "interaction_id": "A1_U49_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo 'necesitar':",
           "stimulus_en": "I ________ my phone charger.",
@@ -155,7 +155,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b2_i2",
+          "interaction_id": "A1_U49_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Necesito mi bañador'",
           "options": [
@@ -190,33 +190,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b2_i3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I don't need sunglasses."
-            },
-            {
-              "id": "o2",
-              "text": "I no need sunglasses."
-            },
-            {
-              "id": "o3",
-              "text": "I not need sunglasses."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u49_b2_i4",
+          "interaction_id": "A1_U49_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase: 'No olvides tus documentos'",
           "stimulus_en": "Don't ________ your documents.",
@@ -229,7 +203,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b2_i5",
+          "interaction_id": "A1_U49_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha la frase:",
           "audioUrl": "/audio/courses/ingles-a1/shared/dont_forget_charger.mp3",
@@ -248,7 +222,7 @@
       "title": "Categorization & Context",
       "content": [
         {
-          "interaction_id": "u49_b3_i1",
+          "interaction_id": "A1_U49_B3_I1",
           "type": "categorization",
           "prompt_es": "Clasifica los objetos:",
           "categories": [
@@ -280,7 +254,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b3_i2",
+          "interaction_id": "A1_U49_B3_I2",
           "type": "true_false",
           "prompt_es": "En la frase 'My suitcase is too full', ¿significa que la maleta está vacía?",
           "correct_answer": false,
@@ -292,7 +266,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b3_i3",
+          "interaction_id": "A1_U49_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Estoy haciendo mi maleta'",
           "stimulus_es": "I am packing my suitcase.",
@@ -305,7 +279,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b3_i4",
+          "interaction_id": "A1_U49_B3_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Qué objeto es esencial para una playa soleada?",
           "options": [
@@ -329,19 +303,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u49_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/packing_beach.mp3",
-          "text": "I am packing sunscreen and my swimsuit for the beach.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -350,35 +311,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u49_b4_i1",
-          "type": "reading-comprehension",
-          "title": "A Trip to London",
-          "text": "I am going to London tomorrow. I need my suitcase. I am packing my clothes and my laptop. I don't need sunscreen, it is cloudy. Don't forget the adapter!",
-          "question": "What does the person NOT need?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sunscreen"
-            },
-            {
-              "id": "o2",
-              "text": "An adapter"
-            },
-            {
-              "id": "o3",
-              "text": "A suitcase"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u49_b4_i2",
+          "interaction_id": "A1_U49_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa el texto:",
           "stimulus_en": "I am ________ my suitcase for the trip. I ________ my passport.",
@@ -391,7 +324,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b4_i3",
+          "interaction_id": "A1_U49_B4_I3",
           "type": "short_writing",
           "prompt_es": "Escribe una frase corta diciendo que necesitas tu cargador:",
           "stimulus_es": "I need my charger.",
@@ -404,7 +337,7 @@
           ]
         },
         {
-          "interaction_id": "u49_b4_i4",
+          "interaction_id": "A1_U49_B4_I4",
           "type": "multiple_choice",
           "prompt_es": "Si tu maleta pesa mucho, dices:",
           "options": [
@@ -427,19 +360,6 @@
           "concept_tags": [
             "grammar",
             "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "u49_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit49_summary.mp3",
-          "text": "Pack your suitcase, check your electronics, and don't forget your toiletries. Ready for the holiday!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

@@ -19,7 +19,7 @@
       "title": "Vocabulary: The Main Rooms",
       "content": [
         {
-          "interaction_id": "U21_B1_I1",
+          "interaction_id": "A1_U21_B1_I1",
           "type": "matching",
           "prompt_es": "Une las habitaciones con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B1_I2",
+          "interaction_id": "A1_U21_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde duermes (sleep)?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B1_I3",
+          "interaction_id": "A1_U21_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Comedor",
           "stimulus_en": "Dining room",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B1_I4",
+          "interaction_id": "A1_U21_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Jardín'?",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B1_I5",
+          "interaction_id": "A1_U21_B1_I5",
           "type": "matching",
           "prompt_es": "Más partes de la casa:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: There is / There are",
       "content": [
         {
-          "interaction_id": "U21_B2_I6",
+          "interaction_id": "A1_U21_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Usamos 'There is' para singular y 'There are' para plural. 'Hay una cocina' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B2_I7",
+          "interaction_id": "A1_U21_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'is' o 'are':",
           "stimulus_en": "There ________ three bedrooms in my house.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B2_I8",
+          "interaction_id": "A1_U21_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'There are a garden'?",
           "correct_answer": false,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B2_I9",
+          "interaction_id": "A1_U21_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntarías '¿Hay un garaje?'?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B2_I10",
+          "interaction_id": "A1_U21_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa la negación: 'No hay (ningún) ático'",
           "stimulus_en": "There ________ not an attic.",
@@ -264,7 +264,7 @@
       "title": "Syntax & Actions in the House",
       "content": [
         {
-          "interaction_id": "U21_B3_I11",
+          "interaction_id": "A1_U21_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros cocinamos en la cocina'",
           "options": [
@@ -304,7 +304,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B3_I12",
+          "interaction_id": "A1_U21_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay una televisión en el salón'",
           "options": [
@@ -354,7 +354,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B3_I13",
+          "interaction_id": "A1_U21_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Mi casa tiene dos baños'",
           "stimulus_en": "My house has two bathrooms",
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B3_I14",
+          "interaction_id": "A1_U21_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con la habitación lógica:",
           "stimulus_en": "I take a shower in the ________.",
@@ -380,7 +380,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B3_I15",
+          "interaction_id": "A1_U21_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Hay un jardín?'",
           "options": [
@@ -421,35 +421,7 @@
       "title": "Reading & Listening: Description",
       "content": [
         {
-          "interaction_id": "U21_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Welcome to my House",
-          "text": "My house is small but comfortable. There is a large living room and a modern kitchen. Upstairs, there are two bedrooms and one bathroom. We have a small garden with flowers.",
-          "question": "¿Cuántos dormitorios (bedrooms) hay?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "One"
-            },
-            {
-              "id": "o2",
-              "text": "Two"
-            },
-            {
-              "id": "o3",
-              "text": "Three"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U21_B4_I17",
+          "interaction_id": "A1_U21_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿cómo es la cocina?",
           "options": [
@@ -475,20 +447,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/b54c858f2f15255eae371b3b03ac2829.mp3",
-          "text": "My house has a beautiful garden.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U21_B4_I19",
+          "interaction_id": "A1_U21_B4_I4",
           "type": "short_writing",
           "prompt_es": "Escribe en inglés: 'Hay una mesa en la cocina'",
           "stimulus_es": "Hay una mesa en la cocina",
@@ -501,7 +460,7 @@
           ]
         },
         {
-          "interaction_id": "U21_B4_I20",
+          "interaction_id": "A1_U21_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Planta Baja o Planta Alta (según el texto anterior):",
           "categories": [

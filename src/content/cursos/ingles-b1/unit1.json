@@ -20,2591 +20,308 @@
   ],
   "blocks": [
     {
-      "block_id": "B1_UNIT_1_PRACTICE",
-      "title": "B1 Practice: Lifestyles and Routines",
-      "duration_minutes": 600,
+      "block_id": "B1",
+      "title": "Relative Clauses",
+      "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "U1_I1",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lifestyle",
-              "right": "The way in which a person lives"
-            },
-            {
-              "id": "p1",
-              "left": "Sedentary",
-              "right": "Spending a lot of time sitting down"
-            },
-            {
-              "id": "p2",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (get) ________ used to the cold weather here.",
-          "correct_answer": "am getting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"It is important to have a regular morn routine.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "but"
-            },
-            {
-              "id": "w7",
-              "text": "flat"
-            },
-            {
-              "id": "w3",
-              "text": "live"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w9",
-              "text": "now"
-            },
-            {
-              "id": "w11",
-              "text": "have"
-            },
-            {
-              "id": "w1",
-              "text": "used"
-            },
-            {
-              "id": "w6",
-              "text": "small"
-            },
-            {
-              "id": "w10",
-              "text": "I"
-            },
-            {
-              "id": "w13",
-              "text": "house"
-            },
-            {
-              "id": "w12",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I5",
+          "interaction_id": "B1_U1_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My commute is taking over an hour each way now.\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "I've no doubt about it at all."
-            },
-            {
-              "id": "c3",
-              "text": "It depends on the weather, doesn't it?"
-            },
-            {
-              "id": "c1",
-              "text": "That's a long time! Have you thought about taking the train?"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"To travel some distance between one's home and place of work\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Stressed"
-            },
-            {
-              "id": "o2",
-              "text": "Healthy"
-            },
-            {
-              "id": "o1",
-              "text": "Commute"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I7",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Urban",
-              "right": "Relating to a city or town"
-            },
-            {
-              "id": "p1",
-              "left": "Work-life balance",
-              "right": "The amount of time you spend doing your job compared with your free time"
-            },
-            {
-              "id": "p2",
-              "left": "Routine",
-              "right": "A regular way of doing things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I8",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (go/usually) ________ to the gym on Mondays.",
-          "correct_answer": "usually go",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good work-life balance is essential for happiness.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w9",
-              "text": "before"
-            },
-            {
-              "id": "w10",
-              "text": "I"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w8",
-              "text": "morning"
-            },
-            {
-              "id": "w12",
-              "text": "here"
-            },
-            {
-              "id": "w7",
-              "text": "every"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "run"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w1",
-              "text": "used"
-            },
-            {
-              "id": "w11",
-              "text": "moved"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Do you prefer urban or rural environments?\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "I definitely prefer the city because everything is so close."
-            },
-            {
-              "id": "c2",
-              "text": "r11"
-            },
-            {
-              "id": "c3",
-              "text": "r14"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Extremely busy and full of activity\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Urban"
-            },
-            {
-              "id": "o1",
-              "text": "Hectic"
-            },
-            {
-              "id": "o2",
-              "text": "Commute"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hectic",
-              "right": "Extremely busy and full of activity"
-            },
-            {
-              "id": "p1",
-              "left": "Relaxed",
-              "right": "Feeling calm and not worried"
-            },
-            {
-              "id": "p2",
-              "left": "Suburbs",
-              "right": "An area where people live that is outside the city centre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "It (take) ________ me an hour to get to work.",
-          "correct_answer": "takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She feels stressed because of her demanding job.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w10",
-              "text": "I"
-            },
-            {
-              "id": "w11",
-              "text": "moved"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w8",
-              "text": "morning"
-            },
-            {
-              "id": "w12",
-              "text": "here"
-            },
-            {
-              "id": "w1",
-              "text": "used"
-            },
-            {
-              "id": "w7",
-              "text": "every"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "run"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "before"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I17",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm trying to start a new morning routine.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "That's a great idea! What time do you plan to wake up?"
-            },
-            {
-              "id": "c2",
-              "text": "r3"
-            },
-            {
-              "id": "c3",
-              "text": "r6"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Showing good physical or mental condition\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Hectic"
-            },
-            {
-              "id": "o3",
-              "text": "Urban"
-            },
-            {
-              "id": "o1",
-              "text": "Healthy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I19",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leisure",
-              "right": "Time when you are not working or studying"
-            },
-            {
-              "id": "p1",
-              "left": "Work-life balance",
-              "right": "The amount of time you spend doing your job compared with your free time"
-            },
-            {
-              "id": "p2",
-              "left": "Hectic",
-              "right": "Extremely busy and full of activity"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I20",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (work) ________ at the moment.",
-          "correct_answer": "is working",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"My daily takes commute about forty-five minutes by train.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w10",
-              "text": "environment"
-            },
-            {
-              "id": "w8",
-              "text": "this"
-            },
-            {
-              "id": "w9",
-              "text": "urban"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "used"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w6",
-              "text": "noise"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w7",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "getting"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I23",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm moving to the countryside next month.\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "Whatever you think is best."
-            },
-            {
-              "id": "c1",
-              "text": "That sounds peaceful! Are you looking forward to it?"
-            },
-            {
-              "id": "c2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The way in which a person lives\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Routine"
-            },
-            {
-              "id": "o1",
-              "text": "Lifestyle"
-            },
-            {
-              "id": "o3",
-              "text": "Rural"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I25",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Urban",
-              "right": "Relating to a city or town"
-            },
-            {
-              "id": "p1",
-              "left": "Quality of life",
-              "right": "The level of enjoyment and health in someone's life"
-            },
-            {
-              "id": "p2",
-              "left": "Habit",
-              "right": "Something that you do often and regularly"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I26",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (have/usually) ________ coffee for breakfast.",
-          "correct_answer": "usually has",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people are moving to rural areas to find peace.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "His"
-            },
-            {
-              "id": "w7",
-              "text": "all"
-            },
-            {
-              "id": "w9",
-              "text": "friends"
-            },
-            {
-              "id": "w5",
-              "text": "envy"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w8",
-              "text": "his"
-            },
-            {
-              "id": "w2",
-              "text": "lifestyle"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "relaxed"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My commute is taking over an hour each way now.\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "It depends on the weather, doesn't it?"
-            },
-            {
-              "id": "c1",
-              "text": "That's a long time! Have you thought about taking the train?"
-            },
-            {
-              "id": "c2",
-              "text": "I've no doubt about it at all."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The way in which a person lives\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Commute"
-            },
-            {
-              "id": "o1",
-              "text": "Lifestyle"
-            },
-            {
-              "id": "o3",
-              "text": "Sedentary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I31",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Routine",
-              "right": "A regular way of doing things"
-            },
-            {
-              "id": "p1",
-              "left": "Hectic",
-              "right": "Extremely busy and full of activity"
-            },
-            {
-              "id": "p2",
-              "left": "Healthy",
-              "right": "Showing good physical or mental condition"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I32",
-          "type": "transformation",
-          "prompt_es": "Completa la frase correctamente:",
-          "stimulus_en": "I live in the city, but now I live in the country.",
-          "correct_answer": "I used to live in the city",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Finding a good balance work-life is essential for happiness.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w9",
-              "text": "friends"
-            },
-            {
-              "id": "w7",
-              "text": "all"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w8",
-              "text": "his"
-            },
-            {
-              "id": "w1",
-              "text": "relaxed"
-            },
-            {
-              "id": "w2",
-              "text": "lifestyle"
-            },
-            {
-              "id": "w0",
-              "text": "His"
-            },
-            {
-              "id": "w5",
-              "text": "envy"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm trying to start a new morning routine.\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "r3"
-            },
-            {
-              "id": "c3",
-              "text": "r6"
-            },
-            {
-              "id": "c1",
-              "text": "That's a great idea! What time do you plan to wake up?"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I36",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The amount of time you spend doing your job compared with your free time\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Commute"
-            },
-            {
-              "id": "o1",
-              "text": "Work-life balance"
-            },
-            {
-              "id": "o2",
-              "text": "Leisure"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I37",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Quality of life",
-              "right": "The level of enjoyment and health in someone's life"
-            },
-            {
-              "id": "p1",
-              "left": "Habit",
-              "right": "Something that you do often and regularly"
-            },
-            {
-              "id": "p2",
-              "left": "Work-life balance",
-              "right": "The amount of time you spend doing your job compared with your free time"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I38",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (used to/not) ________ waking up so early.",
-          "correct_answer": "am not used to",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"His relaxed lifestyle is the envy of all his friends.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "used"
-            },
-            {
-              "id": "w11",
-              "text": "moved"
-            },
-            {
-              "id": "w12",
-              "text": "here"
-            },
-            {
-              "id": "w7",
-              "text": "every"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w8",
-              "text": "morning"
-            },
-            {
-              "id": "w3",
-              "text": "go"
-            },
-            {
-              "id": "w9",
-              "text": "before"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "I"
-            },
-            {
-              "id": "w6",
-              "text": "run"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My commute is taking over an hour each way now.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "That's a long time! Have you thought about taking the train?"
-            },
-            {
-              "id": "c2",
-              "text": "I've no doubt about it at all."
-            },
-            {
-              "id": "c3",
-              "text": "It depends on the weather, doesn't it?"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Extremely busy and full of activity\"",
+          "prompt_es": "Choose the correct option to complete the sentences about relative clauses.",
+          "mastery_tag": "grammar:b1-relative-clauses",
+          "explanation": "En este caso, 'who' se usa para referirse a una persona, en este caso, el gerente.",
+          "stimulus_en": "The manager, ___ has five years of experience, will lead the project.",
           "options": [
             {
               "id": "o1",
-              "text": "Hectic"
+              "text": "who"
             },
             {
               "id": "o2",
-              "text": "Lifestyle"
+              "text": "which"
             },
             {
               "id": "o3",
-              "text": "Commute"
+              "text": "that"
+            },
+            {
+              "id": "o4",
+              "text": "where"
             }
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U1_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lifestyle",
-              "right": "The way in which a person lives"
-            },
-            {
-              "id": "p1",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            },
-            {
-              "id": "p2",
-              "left": "Work-life balance",
-              "right": "The amount of time you spend doing your job compared with your free time"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I44",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "They (eat/never) ________ out on weekdays.",
-          "correct_answer": "never eat",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I used to go for a run every morning before I here. moved\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "habits"
-            },
-            {
-              "id": "w6",
-              "text": "step"
-            },
-            {
-              "id": "w8",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Changing"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w10",
-              "text": "life"
-            },
-            {
-              "id": "w5",
-              "text": "first"
-            },
-            {
-              "id": "w9",
-              "text": "healthier"
-            },
-            {
-              "id": "w7",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I47",
+          "interaction_id": "B1_U1_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I've been feeling quite stressed lately with work.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "You should try to take a few days off and relax."
-            },
-            {
-              "id": "c3",
-              "text": "Does it take a long time to get there?"
-            },
-            {
-              "id": "c2",
-              "text": "I've already done that, thanks."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I48",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The level of enjoyment and health in someone's life\"",
+          "prompt_es": "Choose the correct option to complete the sentences about relative clauses.",
+          "mastery_tag": "grammar:b1-relative-clauses",
+          "explanation": "En este caso, 'that' se usa para referirse al informe, que es un objeto.",
+          "stimulus_en": "The report ___ you submitted was very detailed.",
           "options": [
             {
               "id": "o1",
-              "text": "Quality of life"
+              "text": "who"
             },
             {
               "id": "o2",
-              "text": "Routine"
+              "text": "which"
             },
             {
               "id": "o3",
-              "text": "Leisure"
+              "text": "that"
+            },
+            {
+              "id": "o4",
+              "text": "when"
             }
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U1_I49",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Suburbs",
-              "right": "An area where people live that is outside the city centre"
-            },
-            {
-              "id": "p1",
-              "left": "Lifestyle",
-              "right": "The way in which a person lives"
-            },
-            {
-              "id": "p2",
-              "left": "Stressed",
-              "right": "Feeling worried or anxious"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I50",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (arrive/always) ________ late for meetings.",
-          "correct_answer": "is always arriving",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many people are moving to rural areas to find peace.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "sedentary"
-            },
-            {
-              "id": "w3",
-              "text": "lifestyle"
-            },
-            {
-              "id": "w8",
-              "text": "problems"
-            },
-            {
-              "id": "w0",
-              "text": "Living"
-            },
-            {
-              "id": "w4",
-              "text": "can"
-            },
-            {
-              "id": "w6",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "health"
-            },
-            {
-              "id": "w5",
-              "text": "lead"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I53",
+          "interaction_id": "B1_U1_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm trying to start a new morning routine.\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "r3"
-            },
-            {
-              "id": "c3",
-              "text": "r6"
-            },
-            {
-              "id": "c1",
-              "text": "That's a great idea! What time do you plan to wake up?"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Showing good physical or mental condition\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Rural"
-            },
-            {
-              "id": "o1",
-              "text": "Healthy"
-            },
-            {
-              "id": "o2",
-              "text": "Lifestyle"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I55",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Urban",
-              "right": "Relating to a city or town"
-            },
-            {
-              "id": "p1",
-              "left": "Healthy",
-              "right": "Showing good physical or mental condition"
-            },
-            {
-              "id": "p2",
-              "left": "Lifestyle",
-              "right": "The way in which a person lives"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I56",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (used to/not) ________ waking up so early.",
-          "correct_answer": "am not used to",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Life in the city is much more hectic than in the countryside.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "have"
-            },
-            {
-              "id": "w6",
-              "text": "regular"
-            },
-            {
-              "id": "w8",
-              "text": "routine"
-            },
-            {
-              "id": "w2",
-              "text": "important"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "It"
-            },
-            {
-              "id": "w7",
-              "text": "morning"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm trying to start a new morning routine.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "That's a great idea! What time do you plan to wake up?"
-            },
-            {
-              "id": "c2",
-              "text": "r3"
-            },
-            {
-              "id": "c3",
-              "text": "r6"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Time when you are not working or studying\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Urban"
-            },
-            {
-              "id": "o1",
-              "text": "Leisure"
-            },
-            {
-              "id": "o3",
-              "text": "Suburbs"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I61",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Routine",
-              "right": "A regular way of doing things"
-            },
-            {
-              "id": "p1",
-              "left": "Quality of life",
-              "right": "The level of enjoyment and health in someone's life"
-            },
-            {
-              "id": "p2",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I62",
-          "type": "transformation",
-          "prompt_es": "Escribe la palabra que falta para completar la oración:",
-          "stimulus_en": "They didn't exercise much before.",
-          "correct_answer": "They didn't use to exercise much",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The is commute much shorter since I started working from home.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I64",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "demanding"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w2",
-              "text": "stressed"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w1",
-              "text": "feels"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "because"
-            },
-            {
-              "id": "w7",
-              "text": "job"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I65",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm moving to the countryside next month.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "That sounds peaceful! Are you looking forward to it?"
-            },
-            {
-              "id": "c2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "c3",
-              "text": "Whatever you think is best."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I66",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"To travel some distance between one's home and place of work\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Work-life balance"
-            },
-            {
-              "id": "o1",
-              "text": "Commute"
-            },
-            {
-              "id": "o3",
-              "text": "Relaxed"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I67",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Suburbs",
-              "right": "An area where people live that is outside the city centre"
-            },
-            {
-              "id": "p1",
-              "left": "Urban",
-              "right": "Relating to a city or town"
-            },
-            {
-              "id": "p2",
-              "left": "Lifestyle",
-              "right": "The way in which a person lives"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I68",
-          "type": "transformation",
-          "prompt_es": "Rellena el hueco con la respuesta adecuada:",
-          "stimulus_en": "I live in the city, but now I live in the country.",
-          "correct_answer": "I used to live in the city",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She feels stressed because of her demand job.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "minutes"
-            },
-            {
-              "id": "w3",
-              "text": "takes"
-            },
-            {
-              "id": "w5",
-              "text": "forty-five"
-            },
-            {
-              "id": "w1",
-              "text": "daily"
-            },
-            {
-              "id": "w2",
-              "text": "commute"
-            },
-            {
-              "id": "w7",
-              "text": "by"
-            },
-            {
-              "id": "w8",
-              "text": "train"
-            },
-            {
-              "id": "w4",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I've been feeling quite stressed lately with work.\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "I've already done that, thanks."
-            },
-            {
-              "id": "c3",
-              "text": "Does it take a long time to get there?"
-            },
-            {
-              "id": "c1",
-              "text": "You should try to take a few days off and relax."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A regular way of doing things\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Urban"
-            },
-            {
-              "id": "o2",
-              "text": "Leisure"
-            },
-            {
-              "id": "o1",
-              "text": "Routine"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            },
-            {
-              "id": "p1",
-              "left": "Stressed",
-              "right": "Feeling worried or anxious"
-            },
-            {
-              "id": "p2",
-              "left": "Routine",
-              "right": "A regular way of doing things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I74",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (work) ________ at the moment.",
-          "correct_answer": "is working",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I to used go for a run every morning before I moved here.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w9",
-              "text": "now"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w1",
-              "text": "used"
-            },
-            {
-              "id": "w12",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "I"
-            },
-            {
-              "id": "w7",
-              "text": "flat"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "small"
-            },
-            {
-              "id": "w8",
-              "text": "but"
-            },
-            {
-              "id": "w5",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "live"
-            },
-            {
-              "id": "w13",
-              "text": "house"
-            },
-            {
-              "id": "w11",
-              "text": "have"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12",
-            "w13"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"My commute is taking over an hour each way now.\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "It depends on the weather, doesn't it?"
-            },
-            {
-              "id": "c1",
-              "text": "That's a long time! Have you thought about taking the train?"
-            },
-            {
-              "id": "c2",
-              "text": "I've no doubt about it at all."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I78",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Extremely busy and full of activity\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Relaxed"
-            },
-            {
-              "id": "o2",
-              "text": "Healthy"
-            },
-            {
-              "id": "o1",
-              "text": "Hectic"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I79",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Habit",
-              "right": "Something that you do often and regularly"
-            },
-            {
-              "id": "p1",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            },
-            {
-              "id": "p2",
-              "left": "Sedentary",
-              "right": "Spending a lot of time sitting down"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I80",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "It (take) ________ me an hour to get to work.",
-          "correct_answer": "takes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The commute is much shorter since I started from working home.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "because"
-            },
-            {
-              "id": "w6",
-              "text": "demanding"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "job"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w2",
-              "text": "stressed"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w1",
-              "text": "feels"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I've been feeling quite stressed lately with work.\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "You should try to take a few days off and relax."
-            },
-            {
-              "id": "c3",
-              "text": "Does it take a long time to get there?"
-            },
-            {
-              "id": "c2",
-              "text": "I've already done that, thanks."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I84",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Time when you are not working or studying\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Work-life balance"
-            },
-            {
-              "id": "o1",
-              "text": "Leisure"
-            },
-            {
-              "id": "o2",
-              "text": "Sedentary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I85",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Suburbs",
-              "right": "An area where people live that is outside the city centre"
-            },
-            {
-              "id": "p1",
-              "left": "Sedentary",
-              "right": "Spending a lot of time sitting down"
-            },
-            {
-              "id": "p2",
-              "left": "Routine",
-              "right": "A regular way of doing things"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I86",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "They (eat/never) ________ out on weekdays.",
-          "correct_answer": "never eat",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"His relaxed lifestyle is the envy of all his friends.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I88",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "I"
-            },
-            {
-              "id": "w7",
-              "text": "started"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w8",
-              "text": "working"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "since"
-            },
-            {
-              "id": "w1",
-              "text": "commute"
-            },
-            {
-              "id": "w3",
-              "text": "much"
-            },
-            {
-              "id": "w4",
-              "text": "shorter"
-            },
-            {
-              "id": "w10",
-              "text": "home"
-            },
-            {
-              "id": "w9",
-              "text": "from"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Do you prefer urban or rural environments?\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "r11"
-            },
-            {
-              "id": "c3",
-              "text": "r14"
-            },
-            {
-              "id": "c1",
-              "text": "I definitely prefer the city because everything is so close."
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I90",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Relating to a city or town\"",
+          "prompt_es": "Choose the correct option to complete the sentences about relative clauses.",
+          "mastery_tag": "grammar:b1-relative-clauses",
+          "explanation": "'That' se utiliza aquí para indicar una ciudad específica, a la que se refiere el hablante.",
+          "stimulus_en": "I visited the city ___ you recommended for our conference.",
           "options": [
             {
               "id": "o1",
-              "text": "Urban"
-            },
-            {
-              "id": "o3",
-              "text": "Quality of life"
+              "text": "which"
             },
             {
               "id": "o2",
-              "text": "Habit"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I91",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Urban",
-              "right": "Relating to a city or town"
-            },
-            {
-              "id": "p1",
-              "left": "Quality of life",
-              "right": "The level of enjoyment and health in someone's life"
-            },
-            {
-              "id": "p2",
-              "left": "Commute",
-              "right": "To travel some distance between one's home and place of work"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I92",
-          "type": "transformation",
-          "prompt_es": "Completa la frase correctamente:",
-          "stimulus_en": "She was shy when she was a child.",
-          "correct_answer": "She used to be shy",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I usually spend leisure my time reading or swimming.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I94",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "started"
-            },
-            {
-              "id": "w4",
-              "text": "shorter"
-            },
-            {
-              "id": "w10",
-              "text": "home"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "commute"
-            },
-            {
-              "id": "w3",
-              "text": "much"
-            },
-            {
-              "id": "w8",
-              "text": "working"
-            },
-            {
-              "id": "w5",
-              "text": "since"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w9",
-              "text": "from"
-            },
-            {
-              "id": "w6",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I95",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I'm moving to the countryside next month.\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "c3",
-              "text": "Whatever you think is best."
-            },
-            {
-              "id": "c1",
-              "text": "That sounds peaceful! Are you looking forward to it?"
-            }
-          ],
-          "correct_answer": "c1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I96",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Feeling worried or anxious\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Urban"
+              "text": "who"
             },
             {
               "id": "o3",
-              "text": "Suburbs"
+              "text": "that"
             },
+            {
+              "id": "o4",
+              "text": "where"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B1_U1_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences about relative clauses.",
+          "mastery_tag": "grammar:b1-relative-clauses",
+          "explanation": "'Which' se emplea aquí para dar información adicional sobre el software.",
+          "stimulus_en": "The software, ___ is new, has several useful features.",
+          "options": [
             {
               "id": "o1",
-              "text": "Stressed"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I97",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Routine",
-              "right": "A regular way of doing things"
+              "text": "which"
             },
             {
-              "id": "p1",
-              "left": "Habit",
-              "right": "Something that you do often and regularly"
+              "id": "o2",
+              "text": "that"
             },
             {
-              "id": "p2",
-              "left": "Leisure",
-              "right": "Time when you are not working or studying"
+              "id": "o3",
+              "text": "who"
+            },
+            {
+              "id": "o4",
+              "text": "where"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U1_I98",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (work) ________ at the moment.",
-          "correct_answer": "is working",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I99",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I used to for go a run every morning before I moved here.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I100",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "interaction_id": "B1_U1_B1_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences about relative clauses.",
+          "mastery_tag": "grammar:b1-relative-clauses",
+          "explanation": "'Who' se usa para referirse a una persona, quien ayudó al hablante.",
+          "stimulus_en": "He is the person ___ helped me with my project.",
           "options": [
             {
-              "id": "w6",
-              "text": "demanding"
+              "id": "o1",
+              "text": "who"
             },
             {
-              "id": "w3",
-              "text": "because"
+              "id": "o2",
+              "text": "that"
             },
             {
-              "id": "w5",
-              "text": "her"
+              "id": "o3",
+              "text": "where"
             },
             {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "job"
-            },
-            {
-              "id": "w1",
-              "text": "feels"
-            },
-            {
-              "id": "w2",
-              "text": "stressed"
+              "id": "o4",
+              "text": "when"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
+          "correct_answer": "o1"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Simple Stories and Narratives",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B1_U1_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Read the beginnings of the stories and choose the best ending for each.",
+          "mastery_tag": "writing:b1-stories",
+          "explanation": "La respuesta correcta es B porque un mapa del tesoro puede llevar a una aventura emocionante, mientras que los otros objetos no tienen la misma implicación de aventura.",
+          "stimulus_en": "The boy found a strange box in the forest. When he opened it, he saw...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A) a big cake."
+            },
+            {
+              "id": "o2",
+              "text": "B) a treasure map."
+            },
+            {
+              "id": "o3",
+              "text": "C) a sleeping cat."
+            },
+            {
+              "id": "o4",
+              "text": "D) a broken clock."
+            }
           ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B1_U1_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Read the beginnings of the stories and choose the best ending for each.",
+          "mastery_tag": "writing:b1-stories",
+          "explanation": "La respuesta A es correcta porque el final de un viaje a la montaña suele ser una vista hermosa que compensa el esfuerzo.",
+          "stimulus_en": "After a long journey, they reached the mountain. They were surprised to see...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A) a beautiful view."
+            },
+            {
+              "id": "o2",
+              "text": "B) many animals."
+            },
+            {
+              "id": "o3",
+              "text": "C) a scary storm."
+            },
+            {
+              "id": "o4",
+              "text": "D) their friends."
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B1_U1_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Read the beginnings of the stories and choose the best ending for each.",
+          "mastery_tag": "writing:b1-stories",
+          "explanation": "La opción C es la mejor porque un jardín mágico encaja bien con el tema de los sueños y la fantasía.",
+          "stimulus_en": "In her dream, she flew over the city. Suddenly, she fell into...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A) a big pool."
+            },
+            {
+              "id": "o2",
+              "text": "B) a busy street."
+            },
+            {
+              "id": "o3",
+              "text": "C) a magical garden."
+            },
+            {
+              "id": "o4",
+              "text": "D) a dark cave."
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B1_U1_B2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Read the beginnings of the stories and choose the best ending for each.",
+          "mastery_tag": "writing:b1-stories",
+          "explanation": "La elección A es correcta porque añade un elemento de suspenso, típico en historias de misterio.",
+          "stimulus_en": "They started to hear strange noises in the house. It felt like...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A) someone was watching them."
+            },
+            {
+              "id": "o2",
+              "text": "B) the house was alive."
+            },
+            {
+              "id": "o3",
+              "text": "C) the wind was blowing."
+            },
+            {
+              "id": "o4",
+              "text": "D) a party was happening."
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B1_U1_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Read the beginnings of the stories and choose the best ending for each.",
+          "mastery_tag": "writing:b1-stories",
+          "explanation": "La opción B es la correcta porque refleja un espíritu comunitario y positivo, que es común en historias de superación.",
+          "stimulus_en": "After the storm, the villagers found their homes damaged. They decided to...",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A) move away."
+            },
+            {
+              "id": "o2",
+              "text": "B) help each other."
+            },
+            {
+              "id": "o3",
+              "text": "C) give up."
+            },
+            {
+              "id": "o4",
+              "text": "D) complain."
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Informal Letters and Emails",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B1_U1_B3_I1",
+          "type": "fill_blanks",
+          "prompt_es": "Complete the sentences with the correct words related to informal letters and emails.",
+          "mastery_tag": "writing:b1-informal-letters",
+          "main_text": "I hope you are doing well. I missed you and can't wait to (1)______ you soon.\n\nI just got your last (2)______ and it made me very happy!\n\nWhat are your (3)______ for the weekend? I would love to join you.\n\nPlease write back to me when you have some (4)______. I want to hear everything!\n\nI wanted to tell you about my new (5)______. It's a lot of fun!",
+          "correct_answer": [
+            "see",
+            "letter",
+            "plans",
+            "time",
+            "hobby"
+          ],
+          "explanation": "(1) La palabra 'see' es el verbo correcto en este contexto, indicando que esperas ver a la persona pronto.\n(2) La palabra 'letter' se refiere a un mensaje escrito que envías a alguien, ideal para una carta informal.\n(3) La palabra 'plans' se utiliza aquí para referirse a lo que alguien tiene planeado hacer en un período de tiempo específico, como el fin de semana.\n(4) La palabra 'time' es adecuada aquí, indicando que deseas que la persona te responda cuando tenga tiempo para hacerlo.\n(5) La palabra 'hobby' se refiere a una actividad que te gusta hacer en tu tiempo libre, y es un buen tema para compartir en una carta informal."
         }
       ]
     }

@@ -1,0 +1,204 @@
+
+> focus-english@1.0.0 dev
+> next dev -p 5436
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
+
+   ▲ Next.js 15.5.11
+   - Local:        http://localhost:5436
+   - Network:      http://172.20.10.3:5436
+
+ ✓ Starting...
+ ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+ ✓ Ready in 1655ms
+ ✓ Compiled /middleware in 192ms (164 modules)
+ ⨯ Error: Your project's URL and Key are required to create a Supabase client!
+
+Check your Supabase project's API settings to find these values
+
+https://supabase.com/dashboard/project/_/settings/api
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at <unknown> (https://supabase.com/dashboard/project/_/settings/api)
+    at middleware (src/middleware.ts:29:38)
+  27 |   let response = NextResponse.next({ request });
+  28 |
+> 29 |   const supabase = createServerClient(
+     |                                      ^
+  30 |     process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  31 |     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  32 |     {
+ ✓ Compiled /_error in 327ms (376 modules)
+ ✓ Compiled in 591ms (164 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (133kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ○ Compiling /cuenta/login ...
+ ✓ Compiled /cuenta/login in 8.1s (1121 modules)
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ GET /cuenta/login?next=%2Fcurso-b2 200 in 15078ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 15105ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 15176ms
+ GET / 200 in 19049ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 230ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 542ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 531ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1420ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 471ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 442ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 710ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 396ms
+   Reload env: .env
+ ✓ Compiled in 8.6s (1285 modules)
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1440ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1527ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1524ms
+Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1993ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 2057ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 855ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 2612ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 615ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 628ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 897ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 619ms
+ ✓ Compiled in 3.9s (485 modules)
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1678ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1770ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1793ms
+ GET /cuenta/login?next=%2Fcurso-b2%2Fleccion%2Fb2-m1-l7 200 in 1914ms
+ ✓ Compiled in 2.2s (485 modules)
+ ○ Compiling /misiones ...
+ ⨯ ./src/context/MissionContext.tsx
+Error:   [31mx[0m You're importing a component that needs `createContext`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                ^^^^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useReducer`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                           ^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                                                  ^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+
+Import trace for requested module:
+./src/context/MissionContext.tsx
+./src/app/misiones/page.tsx
+ ⨯ ./src/context/MissionContext.tsx
+Error:   [31mx[0m You're importing a component that needs `createContext`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                ^^^^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useReducer`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                           ^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                                                  ^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+
+Import trace for requested module:
+./src/context/MissionContext.tsx
+./src/app/misiones/page.tsx
+ ⨯ ./src/context/MissionContext.tsx
+Error:   [31mx[0m You're importing a component that needs `createContext`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                ^^^^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useReducer`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                           ^^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+  [31mx[0m You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  [31m|[0m
+  [31m|[0m  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  [31m|[0m
+
+   ,-[[36;1;4m/Users/lidia/Documents/focusonenglish/focusonenglish/src/context/MissionContext.tsx[0m:1:1]
+ [2m1[0m | import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+   : [35;1m                                                                  ^^^^^^^^^[0m
+ [2m2[0m | import confetti from 'canvas-confetti';
+ [2m3[0m | 
+ [2m4[0m | interface MissionState {
+   `----
+
+Import trace for requested module:
+./src/context/MissionContext.tsx
+./src/app/misiones/page.tsx
+ GET /misiones 500 in 10012ms
+ GET /misiones 500 in 10013ms
+ GET /misiones 500 in 10012ms
+ GET /misiones 500 in 10012ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/lidia/Documents/focusonenglish/focusonenglish/.next/cache/webpack/client-development-fallback/0.pack.gz'
+[?25h

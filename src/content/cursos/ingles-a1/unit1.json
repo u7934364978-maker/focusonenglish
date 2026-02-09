@@ -19,33 +19,70 @@
       "title": "Natural Greetings",
       "content": [
         {
-          "interaction_id": "U1_B1_I1",
+          "interaction_id": "A1_U1_B1_I1",
           "type": "matching",
           "prompt_es": "Asocia cada saludo con su momento del día o contexto:",
           "pairs": [
-            { "id": "p1", "left": "Good morning", "right": "06:00 - 12:00" },
-            { "id": "p2", "left": "Good afternoon", "right": "12:00 - 18:00" },
-            { "id": "p3", "left": "Good evening", "right": "18:00 - Despedida" },
-            { "id": "p4", "left": "Hello / Hi", "right": "Cualquier momento" }
+            {
+              "id": "p1",
+              "left": "Good morning",
+              "right": "06:00 - 12:00"
+            },
+            {
+              "id": "p2",
+              "left": "Good afternoon",
+              "right": "12:00 - 18:00"
+            },
+            {
+              "id": "p3",
+              "left": "Good evening",
+              "right": "18:00 - Despedida"
+            },
+            {
+              "id": "p4",
+              "left": "Hello / Hi",
+              "right": "Cualquier momento"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary:greetings",
-          "concept_tags": ["vocabulary", "greetings"],
+          "concept_tags": [
+            "vocabulary",
+            "greetings"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U1_B1_I2",
+          "interaction_id": "A1_U1_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "Llegas a una cena a las 8:00 PM. ¿Qué dices al entrar?",
           "options": [
-            { "id": "o1", "text": "Good evening" },
-            { "id": "o2", "text": "Good night" },
-            { "id": "o3", "text": "Good morning" }
+            {
+              "id": "o1",
+              "text": "Good evening"
+            },
+            {
+              "id": "o2",
+              "text": "Good night"
+            },
+            {
+              "id": "o3",
+              "text": "Good morning"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "Usamos 'Good evening' para saludar al llegar por la noche. 'Good night' es solo para despedirse.",
           "mastery_tag": "vocabulary:greetings",
-          "concept_tags": ["vocabulary", "greetings", "communication"],
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "communication"
+          ],
           "complexity": 2
         }
       ]
@@ -55,42 +92,82 @@
       "title": "First Introductions",
       "content": [
         {
-          "interaction_id": "U1_B2_I1",
+          "interaction_id": "A1_U1_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa la presentación básica:",
           "stimulus_en": "Hello! My ________ is Maria. I ________ from Spain.",
-          "correct_answer": ["name", "am"],
+          "correct_answer": [
+            "name",
+            "am"
+          ],
           "mastery_tag": "grammar:introductions",
-          "concept_tags": ["grammar", "introductions", "to-be"],
+          "concept_tags": [
+            "grammar",
+            "introductions",
+            "to-be"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U1_B2_I2",
+          "interaction_id": "A1_U1_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta para saber el nombre de alguien:",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "name?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "name?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax:questions",
-          "concept_tags": ["grammar", "syntax", "questions"],
+          "concept_tags": [
+            "grammar",
+            "syntax",
+            "questions"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U1_B2_I3",
+          "interaction_id": "A1_U1_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "Alguien te dice: 'Nice to meet you'. ¿Qué respondes?",
           "options": [
-            { "id": "o1", "text": "I am fine, thanks." },
-            { "id": "o2", "text": "Nice to meet you too." },
-            { "id": "o3", "text": "Hello, my name is David." }
+            {
+              "id": "o1",
+              "text": "I am fine, thanks."
+            },
+            {
+              "id": "o2",
+              "text": "Nice to meet you too."
+            },
+            {
+              "id": "o3",
+              "text": "Hello, my name is David."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "communication:social",
-          "concept_tags": ["communication", "introductions"],
+          "concept_tags": [
+            "communication",
+            "introductions"
+          ],
           "complexity": 2
         }
       ]
@@ -100,29 +177,57 @@
       "title": "Farewells and Politeness",
       "content": [
         {
-          "interaction_id": "U1_B3_I1",
+          "interaction_id": "A1_U1_B3_I1",
           "type": "matching",
           "prompt_es": "Relaciona las expresiones de cortesía:",
           "pairs": [
-            { "id": "p1", "left": "Thank you", "right": "You're welcome" },
-            { "id": "p2", "left": "Excuse me", "right": "Para pedir paso o atención" },
-            { "id": "p3", "left": "Sorry", "right": "Para pedir perdón" },
-            { "id": "p4", "left": "Please", "right": "Por favor" }
+            {
+              "id": "p1",
+              "left": "Thank you",
+              "right": "You're welcome"
+            },
+            {
+              "id": "p2",
+              "left": "Excuse me",
+              "right": "Para pedir paso o atención"
+            },
+            {
+              "id": "p3",
+              "left": "Sorry",
+              "right": "Para pedir perdón"
+            },
+            {
+              "id": "p4",
+              "left": "Please",
+              "right": "Por favor"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary:politeness",
-          "concept_tags": ["vocabulary", "communication"],
+          "concept_tags": [
+            "vocabulary",
+            "communication"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U1_B3_I2",
+          "interaction_id": "A1_U1_B3_I2",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés: 'Adiós, que tengas un buen día.'",
           "stimulus_es": "Adiós, que tengas un buen día.",
           "correct_answer": "Goodbye, have a nice day",
           "validation_regex": "^goodbye,?\\s+have\\s+a\\s+nice\\s+day\\.?$",
           "mastery_tag": "vocabulary:farewells",
-          "concept_tags": ["vocabulary", "farewells", "communication"],
+          "concept_tags": [
+            "vocabulary",
+            "farewells",
+            "communication"
+          ],
           "complexity": 4
         }
       ]

@@ -19,7 +19,7 @@
       "title": "Vocabulary: Movement & Directions",
       "content": [
         {
-          "interaction_id": "U25_B1_I1",
+          "interaction_id": "A1_U25_B1_I1",
           "type": "matching",
           "prompt_es": "Une las direcciones con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B1_I2",
+          "interaction_id": "A1_U25_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cruza la calle'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B1_I3",
+          "interaction_id": "A1_U25_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva expresión: Semáforo",
           "stimulus_en": "Traffic lights",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B1_I4",
+          "interaction_id": "A1_U25_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si alguien dice 'Go past the bank', quiere decir:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B1_I5",
+          "interaction_id": "A1_U25_B1_I5",
           "type": "matching",
           "prompt_es": "Ubicaciones clave:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Directional Imperatives",
       "content": [
         {
-          "interaction_id": "U25_B2_I6",
+          "interaction_id": "A1_U25_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Para dar direcciones usamos el imperativo (verbo sin 'to' ni sujeto). 'Gira a la izquierda' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B2_I7",
+          "interaction_id": "A1_U25_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo (Gira):",
           "stimulus_en": "________ left at the traffic lights.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B2_I8",
+          "interaction_id": "A1_U25_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'Go straight ahead' para seguir recto?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B2_I9",
+          "interaction_id": "A1_U25_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'Toma la segunda a la derecha'?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B2_I10",
+          "interaction_id": "A1_U25_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Pasa el cine'",
           "stimulus_en": "Go ________ the cinema.",
@@ -264,7 +264,7 @@
       "title": "Syntax & Asking the Way",
       "content": [
         {
-          "interaction_id": "U25_B3_I11",
+          "interaction_id": "A1_U25_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cómo llego al banco?'",
           "options": [
@@ -314,7 +314,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B3_I12",
+          "interaction_id": "A1_U25_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Gira a la derecha en la esquina'",
           "options": [
@@ -354,7 +354,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B3_I13",
+          "interaction_id": "A1_U25_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Sigue todo recto por esta calle'",
           "stimulus_en": "Go straight ahead on this street",
@@ -367,7 +367,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B3_I14",
+          "interaction_id": "A1_U25_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con la palabra que falta (al lado de):",
           "stimulus_en": "The cafe is next ________ the museum.",
@@ -380,7 +380,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B3_I15",
+          "interaction_id": "A1_U25_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Disculpe, ¿dónde está la estación?'",
           "options": [
@@ -431,35 +431,7 @@
       "title": "Reading & Map Instructions",
       "content": [
         {
-          "interaction_id": "U25_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Finding the Library",
-          "text": "Go straight ahead on Main Street. Turn left at the supermarket. Go past the park. The library is on the corner of Green Street, opposite the bank.",
-          "question": "¿Dónde hay que girar a la izquierda (turn left)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At the park"
-            },
-            {
-              "id": "o2",
-              "text": "At the supermarket"
-            },
-            {
-              "id": "o3",
-              "text": "At the bank"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U25_B4_I17",
+          "interaction_id": "A1_U25_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde está la biblioteca (library)?",
           "options": [
@@ -485,20 +457,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cd24d0953ebfc60dce6ea329da3d7fc7.mp3",
-          "text": "I go to the park every day.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U25_B4_I19",
+          "interaction_id": "A1_U25_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'How do I get to the bank?' (Dime que siga recto)",
           "stimulus_es": "Sigue todo recto",
@@ -511,7 +470,7 @@
           ]
         },
         {
-          "interaction_id": "U25_B4_I20",
+          "interaction_id": "A1_U25_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Verbos de Movimiento o Ubicaciones:",
           "categories": [

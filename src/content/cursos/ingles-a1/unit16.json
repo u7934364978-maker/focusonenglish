@@ -19,7 +19,7 @@
       "title": "Food & Drinks Vocabulary",
       "content": [
         {
-          "interaction_id": "U16_B1_I1",
+          "interaction_id": "A1_U16_B1_I1",
           "type": "matching",
           "prompt_es": "Une las bebidas con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B1_I2",
+          "interaction_id": "A1_U16_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Leche'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B1_I3",
+          "interaction_id": "A1_U16_B1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la comida: 'S_ndw_ch'",
           "stimulus_en": "Sandwich",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B1_I4",
+          "interaction_id": "A1_U16_B1_I4",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'Azúcar'?",
           "stimulus_en": "Sugar",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B1_I5",
+          "interaction_id": "A1_U16_B1_I5",
           "type": "matching",
           "prompt_es": "Une los snacks:",
           "pairs": [
@@ -149,7 +149,7 @@
       "title": "Functional Language: Ordering",
       "content": [
         {
-          "interaction_id": "U16_B2_I1",
+          "interaction_id": "A1_U16_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides educadamente un café?",
           "options": [
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B2_I2",
+          "interaction_id": "A1_U16_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Un té, por favor.'",
           "options": [
@@ -205,7 +205,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B2_I3",
+          "interaction_id": "A1_U16_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la petición: '¿Puedo tomar un zumo?'",
           "stimulus_en": "______ I have a juice?",
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B2_I4",
+          "interaction_id": "A1_U16_B2_I4",
           "type": "true_false",
           "prompt_es": "En inglés, es muy importante usar 'please' al pedir algo en un café.",
           "correct_answer": true,
@@ -230,7 +230,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B2_I5",
+          "interaction_id": "A1_U16_B2_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'con leche'?",
           "options": [
@@ -262,7 +262,7 @@
       "title": "Functional Language: Prices",
       "content": [
         {
-          "interaction_id": "U16_B3_I1",
+          "interaction_id": "A1_U16_B3_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas el precio de algo?",
           "options": [
@@ -288,7 +288,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B3_I2",
+          "interaction_id": "A1_U16_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuánto cuesta la botella de agua?'",
           "options": [
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B3_I3",
+          "interaction_id": "A1_U16_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Cuesta tres libras.'",
           "stimulus_en": "It is three __________.",
@@ -351,7 +351,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B3_I4",
+          "interaction_id": "A1_U16_B3_I4",
           "type": "matching",
           "prompt_es": "Une los símbolos con su nombre:",
           "pairs": [
@@ -384,7 +384,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B3_I5",
+          "interaction_id": "A1_U16_B3_I5",
           "type": "true_false",
           "prompt_es": "¿'How much' se usa para cosas que no se pueden contar (como el dinero)?",
           "correct_answer": true,
@@ -402,35 +402,7 @@
       "title": "Real-world Simulation",
       "content": [
         {
-          "interaction_id": "U16_B4_I1",
-          "type": "reading-comprehension",
-          "title": "At the Cafe Menu",
-          "text": "Coffee: £2.50 | Tea: £2.00 | Sandwich: £4.50 | Cake: £3.00. Sarah wants a coffee and a piece of cake.",
-          "question": "¿Cuánto debe pagar Sarah en total?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "£5.50"
-            },
-            {
-              "id": "o2",
-              "text": "£7.50"
-            },
-            {
-              "id": "o3",
-              "text": "£4.50"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U16_B4_I2",
+          "interaction_id": "A1_U16_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "Según el texto anterior, ¿qué es más barato?",
           "options": [
@@ -456,7 +428,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B4_I3",
+          "interaction_id": "A1_U16_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿Puedo tomar un sándwich, por favor?'",
           "stimulus_es": "¿Puedo tomar un sándwich, por favor?",
@@ -470,7 +442,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B4_I4",
+          "interaction_id": "A1_U16_B4_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la respuesta: 'Cuesta dos euros.'",
           "options": [
@@ -505,7 +477,7 @@
           ]
         },
         {
-          "interaction_id": "U16_B4_I5",
+          "interaction_id": "A1_U16_B4_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'La cuenta, por favor'?",
           "stimulus_en": "The bill, please",

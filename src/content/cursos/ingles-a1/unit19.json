@@ -19,7 +19,7 @@
       "title": "Vocabulary: The Twelve Months",
       "content": [
         {
-          "interaction_id": "U19_B1_I1",
+          "interaction_id": "A1_U19_B1_I1",
           "type": "matching",
           "prompt_es": "Une los meses con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B1_I2",
+          "interaction_id": "A1_U19_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el tercer mes del año?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B1_I3",
+          "interaction_id": "A1_U19_B1_I3",
           "type": "flashcard",
           "prompt_es": "Recuerda: Los meses siempre empiezan con MAYÚSCULA en inglés.",
           "stimulus_en": "September",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B1_I4",
+          "interaction_id": "A1_U19_B1_I4",
           "type": "fill_blanks",
           "prompt_es": "Escribe el mes que falta: January, February, ________, April.",
           "stimulus_en": "March",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B1_I5",
+          "interaction_id": "A1_U19_B1_I5",
           "type": "matching",
           "prompt_es": "Meses de verano e invierno (Hemisferio Norte):",
           "pairs": [
@@ -155,7 +155,7 @@
       "title": "Grammar: Prepositions In & On",
       "content": [
         {
-          "interaction_id": "U19_B2_I6",
+          "interaction_id": "A1_U19_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Usamos 'IN' con meses. 'En mayo' se dice:",
           "options": [
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B2_I7",
+          "interaction_id": "A1_U19_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "Usamos 'ON' con fechas específicas. 'El 1 de enero' se dice:",
           "options": [
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B2_I8",
+          "interaction_id": "A1_U19_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'in' o 'on':",
           "stimulus_en": "My birthday is ________ October.",
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B2_I9",
+          "interaction_id": "A1_U19_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'in' o 'on':",
           "stimulus_en": "The party is ________ June 15th.",
@@ -233,7 +233,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B2_I10",
+          "interaction_id": "A1_U19_B2_I5",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'I go to London in August'?",
           "correct_answer": true,
@@ -251,7 +251,7 @@
       "title": "Dates & Ordinal Numbers",
       "content": [
         {
-          "interaction_id": "U19_B3_I11",
+          "interaction_id": "A1_U19_B3_I1",
           "type": "matching",
           "prompt_es": "Une los números ordinales básicos:",
           "pairs": [
@@ -290,7 +290,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B3_I12",
+          "interaction_id": "A1_U19_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la fecha: 'Hoy es 12 de mayo'",
           "options": [
@@ -325,7 +325,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B3_I13",
+          "interaction_id": "A1_U19_B3_I3",
           "type": "short_writing",
           "prompt_es": "Escribe en inglés: 'Primero de enero' (abreviado)",
           "stimulus_en": "January 1st",
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B3_I14",
+          "interaction_id": "A1_U19_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta: '¿Cuándo es tu cumpleaños?'",
           "stimulus_en": "________ is your birthday?",
@@ -351,7 +351,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B3_I15",
+          "interaction_id": "A1_U19_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi cumpleaños es en julio'",
           "options": [
@@ -397,35 +397,7 @@
       "title": "Contextual Review",
       "content": [
         {
-          "interaction_id": "U19_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Holidays Around the Year",
-          "text": "In the UK, Christmas is on December 25th. Valentine's Day is in February. Many people go to the beach in August because it is very hot. My favorite month is October because I love Autumn.",
-          "question": "¿Cuándo es el día de San Valentín?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In December"
-            },
-            {
-              "id": "o2",
-              "text": "In February"
-            },
-            {
-              "id": "o3",
-              "text": "In August"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U19_B4_I17",
+          "interaction_id": "A1_U19_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Por qué al autor le gusta octubre?",
           "options": [
@@ -451,20 +423,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que dice:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f191830a35f8ef2c36b074af412df872.mp3",
-          "text": "July and August are very hot.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U19_B4_I19",
+          "interaction_id": "A1_U19_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'When is your birthday?' (Ejemplo: In May)",
           "stimulus_es": "En [tu mes]",
@@ -477,7 +436,7 @@
           ]
         },
         {
-          "interaction_id": "U19_B4_I20",
+          "interaction_id": "A1_U19_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica por preposición correcta:",
           "categories": [

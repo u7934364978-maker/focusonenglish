@@ -18,32 +18,68 @@
       "title": "Job Vocabulary",
       "content": [
         {
-          "interaction_id": "U9_B1_I1",
+          "interaction_id": "A1_U9_B1_I1",
           "type": "matching",
           "prompt_es": "Relaciona los trabajos:",
           "pairs": [
-            { "id": "p1", "left": "Teacher", "right": "Profesor" },
-            { "id": "p2", "left": "Doctor", "right": "Médico" },
-            { "id": "p3", "left": "Nurse", "right": "Enfermero/a" },
-            { "id": "p4", "left": "Engineer", "right": "Ingeniero" }
+            {
+              "id": "p1",
+              "left": "Teacher",
+              "right": "Profesor"
+            },
+            {
+              "id": "p2",
+              "left": "Doctor",
+              "right": "Médico"
+            },
+            {
+              "id": "p3",
+              "left": "Nurse",
+              "right": "Enfermero/a"
+            },
+            {
+              "id": "p4",
+              "left": "Engineer",
+              "right": "Ingeniero"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocab:jobs",
-          "concept_tags": ["vocabulary", "jobs"],
+          "concept_tags": [
+            "vocabulary",
+            "jobs"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U9_B1_I2",
+          "interaction_id": "A1_U9_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'camarero' en inglés?",
           "options": [
-            { "id": "o1", "text": "Waiter" },
-            { "id": "o2", "text": "Water" },
-            { "id": "o3", "text": "Worker" }
+            {
+              "id": "o1",
+              "text": "Waiter"
+            },
+            {
+              "id": "o2",
+              "text": "Water"
+            },
+            {
+              "id": "o3",
+              "text": "Worker"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocab:jobs",
-          "concept_tags": ["vocabulary", "jobs"],
+          "concept_tags": [
+            "vocabulary",
+            "jobs"
+          ],
           "complexity": 1
         }
       ]
@@ -53,27 +89,17 @@
       "title": "Using a/an with Jobs",
       "content": [
         {
-          "interaction_id": "U9_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto?",
-          "options": [
-            { "id": "o1", "text": "She is a engineer." },
-            { "id": "o2", "text": "She is an engineer." },
-            { "id": "o3", "text": "She is engineer." }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar:articles",
-          "concept_tags": ["grammar", "articles", "jobs"],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U9_B2_I2",
+          "interaction_id": "A1_U9_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Soy un profesor.'",
           "stimulus_en": "I am ________ teacher.",
           "correct_answer": "a",
           "mastery_tag": "grammar:articles",
-          "concept_tags": ["grammar", "articles", "jobs"],
+          "concept_tags": [
+            "grammar",
+            "articles",
+            "jobs"
+          ],
           "complexity": 2
         }
       ]
@@ -83,32 +109,65 @@
       "title": "Talking about work",
       "content": [
         {
-          "interaction_id": "U9_B3_I1",
+          "interaction_id": "A1_U9_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta: '¿A qué te dedicas?'",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "do" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "do?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "do"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "do?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax:questions",
-          "concept_tags": ["syntax", "questions", "jobs"],
+          "concept_tags": [
+            "syntax",
+            "questions",
+            "jobs"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U9_B3_I2",
+          "interaction_id": "A1_U9_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "Si alguien te pregunta 'What do you do?', ¿cómo respondes?",
           "options": [
-            { "id": "o1", "text": "I am fine, thank you." },
-            { "id": "o2", "text": "I am a student." },
-            { "id": "o3", "text": "I do my homework." }
+            {
+              "id": "o1",
+              "text": "I am fine, thank you."
+            },
+            {
+              "id": "o2",
+              "text": "I am a student."
+            },
+            {
+              "id": "o3",
+              "text": "I do my homework."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "comm:jobs",
-          "concept_tags": ["communication", "jobs"],
+          "concept_tags": [
+            "communication",
+            "jobs"
+          ],
           "complexity": 2
         }
       ]

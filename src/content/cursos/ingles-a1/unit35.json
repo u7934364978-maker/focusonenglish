@@ -18,7 +18,7 @@
       "title": "Block 1: Common Activities",
       "content": [
         {
-          "interaction_id": "U35_I1",
+          "interaction_id": "A1_U35_B35_1_I1",
           "type": "matching",
           "prompt_es": "Relaciona la actividad con su traducción:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I2",
+          "interaction_id": "A1_U35_B35_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Escuchar música'?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I3",
+          "interaction_id": "A1_U35_B35_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo correcto:",
           "stimulus_en": "I ________ video games on Saturdays.",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I4",
+          "interaction_id": "A1_U35_B35_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Quedar con amigos.'",
           "stimulus_es": "Quedar con amigos.",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I5",
+          "interaction_id": "A1_U35_B35_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende la expresión:",
           "stimulus_en": "Go to the cinema",
@@ -128,7 +128,7 @@
       "title": "Block 2: Solo vs Social",
       "content": [
         {
-          "interaction_id": "U35_I6",
+          "interaction_id": "A1_U35_B35_2_I1",
           "type": "categorization",
           "prompt_es": "Clasifica las actividades:",
           "categories": [
@@ -158,7 +158,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I7",
+          "interaction_id": "A1_U35_B35_2_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es una actividad que sueles hacer solo?",
           "options": [
@@ -184,7 +184,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I8",
+          "interaction_id": "A1_U35_B35_2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la categoría:",
           "stimulus_en": "Meeting friends is a ________ activity.",
@@ -197,47 +197,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I9",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "usually"
-            },
-            {
-              "id": "w3",
-              "text": "relax"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "home"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U35_I10",
+          "interaction_id": "A1_U35_B35_2_I5",
           "type": "true_false",
           "prompt_es": "¿'Go out' significa quedarse en casa?",
           "correct_answer": false,
@@ -255,29 +215,7 @@
       "title": "Block 3: Present Simple Review",
       "content": [
         {
-          "interaction_id": "U35_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto para 'He'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He watches TV every night"
-            },
-            {
-              "id": "o2",
-              "text": "He watch TV every night"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U35_I12",
+          "interaction_id": "A1_U35_B35_3_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta del verbo:",
           "stimulus_en": "She ________ (go) to the cinema on Fridays.",
@@ -290,7 +228,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I13",
+          "interaction_id": "A1_U35_B35_3_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
@@ -330,29 +268,7 @@
           ]
         },
         {
-          "interaction_id": "U35_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What do you do in your free time?"
-            },
-            {
-              "id": "o2",
-              "text": "What does you do in your free time?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U35_I15",
+          "interaction_id": "A1_U35_B35_3_I5",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcto? 'My brother meets his friends every weekend.'",
           "correct_answer": true,
@@ -370,89 +286,7 @@
       "title": "Block 4: Weekend Plans",
       "content": [
         {
-          "interaction_id": "U35_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe la frase:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/cddeca88a17cf93b500734fa00418366.mp3",
-          "text": "I like meeting my friends in the park.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U35_I17",
-          "type": "reading-comprehension",
-          "title": "Weekend Activities",
-          "text": "A: What do you do on the weekend?\nB: Usually, I relax on Saturday morning. I surf the internet or read a book. In the afternoon, I meet my friends and we go to the cinema. \nA: Do you go out on Sunday too?\nB: No, on Sunday I stay at home with my family. We watch TV and have a big lunch.",
-          "question": "What does person B do on Saturday morning?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go to the cinema"
-            },
-            {
-              "id": "o2",
-              "text": "Surf the internet or read"
-            },
-            {
-              "id": "o3",
-              "text": "Have a big lunch"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U35_I18",
-          "type": "reading-comprehension",
-          "title": "Weekend Activities",
-          "text": "A: What do you do on the weekend?\nB: Usually, I relax on Saturday morning. I surf the internet or read a book. In the afternoon, I meet my friends and we go to the cinema. \nA: Do you go out on Sunday too?\nB: No, on Sunday I stay at home with my family. We watch TV and have a big lunch.",
-          "question": "Who does person B spend Sunday with?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Friends"
-            },
-            {
-              "id": "o2",
-              "text": "Family"
-            },
-            {
-              "id": "o3",
-              "text": "Alone"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U35_I19",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/fe522ee9cc71d3a6eb1c23fa3ba3cfe9.mp3",
-          "text": "We spend a lot of time on the internet.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U35_I20",
+          "interaction_id": "A1_U35_B35_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hacen el domingo por la tarde según el texto?",
           "options": [

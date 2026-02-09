@@ -4,9 +4,16 @@ import { generateFallbackExercise } from '@/lib/ai/fallback-exercises';
 import { B2_GRAMMAR, B2_TOPICS, B2_FUNCTIONS } from '@/lib/b2-official-syllabus';
 import { getAllTopics } from '@/lib/cambridge-curriculum';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY || '',
-});
+let openai: OpenAI | null = null;
+
+function getOpenAIClient() {
+  if (!openai) {
+    openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY || '',
+    });
+  }
+  return openai;
+}
 
 const systemPrompt = `You are an expert English language teacher. 
 Your task is to generate high-quality English exercises for students.
@@ -39,21 +46,24 @@ GUIDELINES:
      ]
    }
 4. Exercise Types:
-   - fill-blank: A sentence with a missing word. No options.
-   - multiple-choice: A question or sentence with 4 options.
-   - reading-comprehension: A text followed by questions about it.
-   - writing-analysis: A short prompt or sentence to correct/improve.
-   - pronunciation-practice: Focus on phonetics or word stress.
-   - dictation: Generate a short sentence (5-10 words) as "correctAnswer". The "question" should be "Escucha y escribe lo que oyes."
-   - speaking-analysis: A situational prompt for the student to respond to.
-   - key-word-transformation: A sentence to rewrite using a given key word (2-5 words).
-     JSON: { "question": "Original sentence", "keyWord": "KEY", "startOfAnswer": "Start...", "correctAnswer": "rest of the answer" }
-   - word-formation: A text with gaps and base words to transform.
-     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "baseWord": "ACT", "correctAnswer": "ACTION" }] }
-   - open-cloze: A text with gaps (no options provided).
-     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "correctAnswer": "the" }] }
-   - multiple-choice-cloze: A text with gaps and 4 options each.
-     JSON: { "text": "Text with (1)___", "questions": [{ "number": 1, "options": ["A", "B", "C", "D"], "correctAnswer": "A" }] }
+    - fill-blank: A sentence with a missing word. No options. Each question MUST include the full sentence with a "___" gap in the "question" field.
+    - multiple-choice: A question or sentence with 4 options.
+    - reading-comprehension: A text followed by questions about it.
+    - writing-analysis: A short prompt or sentence to correct/improve.
+    - pronunciation-practice: Focus on phonetics or word stress.
+    - dictation: Generate a short sentence (5-10 words) as "correctAnswer". The "question" should be "Escucha y escribe lo que oyes."
+    - speaking-analysis: A situational prompt for the student to respond to.
+    - key-word-transformation: A sentence to rewrite using a given key word (2-5 words).
+      JSON: { "question": "Original sentence", "keyWord": "KEY", "startOfAnswer": "Start...", "correctAnswer": "rest of the answer" }
+    - word-formation: A text with gaps AND/OR individual sentences with gaps.
+      MANDATORY: Provide a "text" field with the full passage containing gaps like (1)___, (2)___, etc. 
+      JSON: { "text": "The (1)___ was great. (2)___ is fun.", "questions": [{ "number": 1, "baseWord": "ACT", "correctAnswer": "ACTION" }, { "number": 2, "baseWord": "CREATE", "correctAnswer": "CREATION" }] }
+    - open-cloze: A text with gaps (no options provided).
+      MANDATORY: Provide a "text" field with the full passage containing gaps like (1)___, (2)___, etc.
+      JSON: { "text": "Once (1)___ a time...", "questions": [{ "number": 1, "correctAnswer": "upon" }] }
+    - multiple-choice-cloze: A text with gaps and 4 options each.
+      MANDATORY: Provide a "text" field with the full passage containing gaps like (1)___, (2)___, etc.
+      JSON: { "text": "He (1)___ to the store.", "questions": [{ "number": 1, "options": ["went", "go", "gone", "going"], "correctAnswer": "went" }] }
    - gapped-text: A text with 6 gaps [1]-[6] and 7 sentences (A-G) to choose from (one extra).
      JSON: { "text": "Passage with [1]...", "options": ["A: Sentence...", "B: Sentence..."], "questions": [{ "number": 1, "correctAnswer": "A", "explanation": "..." }] }
    - multiple-matching: 4-5 short texts (A-E) and 10 statements to match.
@@ -159,8 +169,9 @@ export async function generateExerciseV2(request: GenerateExerciseRequest): Prom
     - Include everyday situations: home, family, food, basic actions` 
     : '';
 
-    const response = await openai.chat.completions.create({
-      model: "gpt-4o",
+    const client = getOpenAIClient();
+    const response = await client.chat.completions.create({
+      model: "gpt-4o-mini",
       messages: [
         { role: "system", content: systemPrompt },
         { 

@@ -19,41 +19,43 @@
       "title": "Negative Forms",
       "content": [
         {
-          "interaction_id": "U3_B1_I1",
+          "interaction_id": "A1_U3_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta para decir 'Yo no soy'?",
           "options": [
-            { "id": "o1", "text": "I not am" },
-            { "id": "o2", "text": "I am not" },
-            { "id": "o3", "text": "I no am" }
+            {
+              "id": "o1",
+              "text": "I not am"
+            },
+            {
+              "id": "o2",
+              "text": "I am not"
+            },
+            {
+              "id": "o3",
+              "text": "I no am"
+            }
           ],
           "correct_answer": "o2",
           "explanation": "En inglés, el 'not' siempre va después del verbo 'to be'.",
           "mastery_tag": "grammar:to-be:negative",
-          "concept_tags": ["grammar", "to-be"],
+          "concept_tags": [
+            "grammar",
+            "to-be"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U3_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une la forma larga con su contracción negativa:",
-          "pairs": [
-            { "id": "p1", "left": "is not", "right": "isn't" },
-            { "id": "p2", "left": "are not", "right": "aren't" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
-          "mastery_tag": "grammar:contractions:negative",
-          "concept_tags": ["grammar", "to-be", "contractions"],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U3_B1_I3",
+          "interaction_id": "A1_U3_B1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase negativa: 'Ella no está cansada.'",
           "stimulus_en": "She ________ ________ tired.",
           "correct_answer": "is not",
           "mastery_tag": "grammar:to-be:negative",
-          "concept_tags": ["grammar", "to-be"],
+          "concept_tags": [
+            "grammar",
+            "to-be"
+          ],
           "complexity": 2
         }
       ]
@@ -63,33 +65,67 @@
       "title": "Questions (Yes/No)",
       "content": [
         {
-          "interaction_id": "U3_B2_I1",
+          "interaction_id": "A1_U3_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo conviertes 'You are happy' en una pregunta?",
           "options": [
-            { "id": "o1", "text": "You are happy?" },
-            { "id": "o2", "text": "Are you happy?" },
-            { "id": "o3", "text": "Do you are happy?" }
+            {
+              "id": "o1",
+              "text": "You are happy?"
+            },
+            {
+              "id": "o2",
+              "text": "Are you happy?"
+            },
+            {
+              "id": "o3",
+              "text": "Do you are happy?"
+            }
           ],
           "correct_answer": "o2",
           "explanation": "Para hacer preguntas con 'to be', invertimos el orden del sujeto y el verbo.",
           "mastery_tag": "grammar:to-be:questions",
-          "concept_tags": ["grammar", "to-be", "syntax"],
+          "concept_tags": [
+            "grammar",
+            "to-be",
+            "syntax"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U3_B2_I2",
+          "interaction_id": "A1_U3_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es él tu hermano?'",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "he" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "brother?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "he"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "brother?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax:questions",
-          "concept_tags": ["grammar", "syntax", "to-be"],
+          "concept_tags": [
+            "grammar",
+            "syntax",
+            "to-be"
+          ],
           "complexity": 2
         }
       ]
@@ -99,17 +135,37 @@
       "title": "Short Answers",
       "content": [
         {
-          "interaction_id": "U3_B3_I1",
+          "interaction_id": "A1_U3_B3_I1",
           "type": "matching",
           "prompt_es": "Une la pregunta con su respuesta corta adecuada:",
           "pairs": [
-            { "id": "p1", "left": "Are you a student?", "right": "Yes, I am." },
-            { "id": "p2", "left": "Is she from Italy?", "right": "No, she isn't." },
-            { "id": "p3", "left": "Are they at home?", "right": "Yes, they are." }
+            {
+              "id": "p1",
+              "left": "Are you a student?",
+              "right": "Yes, I am."
+            },
+            {
+              "id": "p2",
+              "left": "Is she from Italy?",
+              "right": "No, she isn't."
+            },
+            {
+              "id": "p3",
+              "left": "Are they at home?",
+              "right": "Yes, they are."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "communication:short-answers",
-          "concept_tags": ["communication", "grammar", "to-be"],
+          "concept_tags": [
+            "communication",
+            "grammar",
+            "to-be"
+          ],
           "complexity": 2
         }
       ]

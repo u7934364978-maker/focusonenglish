@@ -1,0 +1,24 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+Skipping B1 unit1.json - already has content.
+Skipping B1 unit2.json - already has content.
+Skipping B1 unit3.json - already has content.
+Populating B1 unit4.json: Unit 4
+  Generating block 1 for topic: Interviews and Discussions
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: B1, Tema: b1-interviews, Semilla: 664
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Articles and Reviews
+[IA V2] Solicitando ejercicio: multiple-choice-cloze, Nivel: B1, Tema: b1-articles-reviews, Semilla: 8277
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Passive Voice
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B1, Tema: b1-passive, Semilla: 131
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated B1 unit4.json
+Populating B1 unit5.json: Unit 5
+  Generating block 1 for topic: Articles and Reviews
+[IA V2] Solicitando ejercicio: reading-comprehension, Nivel: B1, Tema: b1-articles-reviews, Semilla: 9546
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: First and Second Conditionals
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: B1, Tema: b1-conditionals, Semilla: 8965
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: First and Second Conditionals
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B1, Tema: b1-conditionals, Semilla: 1749

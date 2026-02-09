@@ -18,7 +18,7 @@
       "title": "Kitchen Appliances",
       "content": [
         {
-          "interaction_id": "u56_b1_i1",
+          "interaction_id": "A1_U56_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde guardas la leche?",
           "options": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b1_i2",
+          "interaction_id": "A1_U56_B1_I2",
           "type": "matching",
           "prompt_es": "Une los electrodomésticos:",
           "pairs": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b1_i3",
+          "interaction_id": "A1_U56_B1_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'encimera' en inglés:",
           "stimulus_es": "Encimera",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b1_i4",
+          "interaction_id": "A1_U56_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde pones los platos sucios?",
           "options": [
@@ -120,19 +120,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u56_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_appliances.mp3",
-          "text": "Fridge, oven, and microwave.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -141,7 +128,7 @@
       "title": "Prepositions in the Kitchen",
       "content": [
         {
-          "interaction_id": "u56_b2_i1",
+          "interaction_id": "A1_U56_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'El café está EN el armario'",
           "stimulus_en": "The coffee is ________ the cupboard.",
@@ -154,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b2_i2",
+          "interaction_id": "A1_U56_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La taza está sobre la encimera'",
           "options": [
@@ -199,7 +186,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b2_i3",
+          "interaction_id": "A1_U56_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'under the sink'?",
           "options": [
@@ -225,7 +212,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b2_i4",
+          "interaction_id": "A1_U56_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'La mesa está AL LADO de la ventana'",
           "stimulus_en": "The table is ________ ________ the window.",
@@ -236,19 +223,6 @@
             "grammar",
             "grammar"
           ]
-        },
-        {
-          "interaction_id": "u56_b2_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha la ubicación:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_prepositions.mp3",
-          "text": "The milk is inside the fridge.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -257,7 +231,7 @@
       "title": "Kitchen Furniture",
       "content": [
         {
-          "interaction_id": "u56_b3_i1",
+          "interaction_id": "A1_U56_B3_I1",
           "type": "matching",
           "prompt_es": "Une los muebles de cocina:",
           "pairs": [
@@ -296,7 +270,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b3_i2",
+          "interaction_id": "A1_U56_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde guardas los cubiertos?",
           "options": [
@@ -322,7 +296,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b3_i3",
+          "interaction_id": "A1_U56_B3_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'estante' en inglés:",
           "stimulus_es": "Estante",
@@ -335,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b3_i4",
+          "interaction_id": "A1_U56_B3_I4",
           "type": "true_false",
           "prompt_es": "'Cupboard' se usa para guardar platos y vasos.",
           "correct_answer": true,
@@ -345,19 +319,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u56_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/kitchen_furniture_listening.mp3",
-          "text": "The glasses are in the cupboard on the left.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -366,35 +327,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u56_b4_i1",
-          "type": "reading-comprehension",
-          "title": "Maria's Kitchen",
-          "text": "Maria is in her kitchen. Her kitchen is clean. The fridge is next to the oven. There is a microwave on the counter. Maria puts the plates in the cupboard and the forks in the top drawer. There is a small bin under the sink.",
-          "question": "Where is the bin?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Under the sink"
-            },
-            {
-              "id": "o2",
-              "text": "On the counter"
-            },
-            {
-              "id": "o3",
-              "text": "Next to the fridge"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u56_b4_i2",
+          "interaction_id": "A1_U56_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con preposiciones:",
           "stimulus_en": "The milk is ________ the fridge and the cups are ________ the shelf.",
@@ -406,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b4_i3",
+          "interaction_id": "A1_U56_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'El microondas está sobre la encimera'",
           "stimulus_es": "The microwave is on the counter.",
@@ -419,7 +352,7 @@
           ]
         },
         {
-          "interaction_id": "u56_b4_i4",
+          "interaction_id": "A1_U56_B4_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde cocinas una pizza?",
           "options": [
@@ -442,19 +375,6 @@
           "concept_tags": [
             "grammar",
             "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "u56_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit56_summary.mp3",
-          "text": "Use the fridge for milk, the oven for pizza, and prepositions to find everything!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

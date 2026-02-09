@@ -18,7 +18,7 @@
       "title": "Block 1: Vocabulary & Affirmative",
       "content": [
         {
-          "interaction_id": "U31_I1",
+          "interaction_id": "A1_U31_B31_1_I1",
           "type": "matching",
           "prompt_es": "Relaciona los verbos de habilidad con su traducción:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I2",
+          "interaction_id": "A1_U31_B31_1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'can' para expresar habilidad:",
           "stimulus_en": "She ________ speak three languages.",
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I3",
+          "interaction_id": "A1_U31_B31_1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase afirmativa:",
           "options": [
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I4",
+          "interaction_id": "A1_U31_B31_1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de decir 'Él sabe conducir'?",
           "options": [
@@ -136,7 +136,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I5",
+          "interaction_id": "A1_U31_B31_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el verbo:",
           "stimulus_en": "Sing",
@@ -155,7 +155,7 @@
       "title": "Block 2: Negative & Questions",
       "content": [
         {
-          "interaction_id": "U31_I6",
+          "interaction_id": "A1_U31_B31_2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de 'can'?",
           "options": [
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I7",
+          "interaction_id": "A1_U31_B31_2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase negativa (imposibilidad):",
           "stimulus_en": "Penguins ________ fly.",
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I8",
+          "interaction_id": "A1_U31_B31_2_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
@@ -234,34 +234,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I9",
-          "type": "matching",
-          "prompt_es": "Empareja la pregunta con la respuesta corta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Can you swim?",
-              "right": "Yes, I can."
-            },
-            {
-              "id": "p2",
-              "left": "Can she cook?",
-              "right": "No, she can't."
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U31_I10",
+          "interaction_id": "A1_U31_B31_2_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'No puedo hablar francés.'",
           "stimulus_es": "No puedo hablar francés.",
@@ -280,7 +253,7 @@
       "title": "Block 3: Animals & Abilities",
       "content": [
         {
-          "interaction_id": "U31_I11",
+          "interaction_id": "A1_U31_B31_3_I1",
           "type": "true_false",
           "prompt_es": "¿Es verdad? 'Fish can breathe underwater.'",
           "correct_answer": true,
@@ -292,7 +265,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I12",
+          "interaction_id": "A1_U31_B31_3_I2",
           "type": "categorization",
           "prompt_es": "Clasifica según lo que pueden o no pueden hacer:",
           "categories": [
@@ -322,29 +295,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I13",
-          "type": "multiple_choice",
-          "prompt_es": "Elefantes... correr muy rápido.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "can't"
-            },
-            {
-              "id": "o2",
-              "text": "can"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U31_I14",
+          "interaction_id": "A1_U31_B31_3_I4",
           "type": "short_writing",
           "prompt_es": "Escribe la habilidad: 'A monkey can...'",
           "stimulus_es": "trepar árboles",
@@ -357,7 +308,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I15",
+          "interaction_id": "A1_U31_B31_3_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta sobre animales:",
           "stimulus_en": "________ dogs swim?",
@@ -376,20 +327,7 @@
       "title": "Block 4: Reading & Listening",
       "content": [
         {
-          "interaction_id": "U31_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/06bf8adb93bb188fcac69af2d979f878.mp3",
-          "text": "I can't speak French.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U31_I17",
+          "interaction_id": "A1_U31_B31_4_I2",
           "type": "reading-comprehension",
           "title": "My Talented Family",
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
@@ -417,7 +355,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I18",
+          "interaction_id": "A1_U31_B31_4_I3",
           "type": "reading-comprehension",
           "title": "My Talented Family",
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
@@ -445,7 +383,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I19",
+          "interaction_id": "A1_U31_B31_4_I4",
           "type": "audio_player",
           "prompt_es": "Escucha atentamente:",
           "audioUrl": "/audio/courses/ingles-a1/shared/892c5213812d45ff26f8c99247d3bfbb.mp3",
@@ -458,7 +396,7 @@
           ]
         },
         {
-          "interaction_id": "U31_I20",
+          "interaction_id": "A1_U31_B31_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué frase es correcta según el texto anterior?",
           "options": [

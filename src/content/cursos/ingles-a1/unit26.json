@@ -19,7 +19,7 @@
       "title": "Vocabulary: Getting Around",
       "content": [
         {
-          "interaction_id": "U26_B1_I1",
+          "interaction_id": "A1_U26_B1_I1",
           "type": "matching",
           "prompt_es": "Une los medios de transporte con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B1_I2",
+          "interaction_id": "A1_U26_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde esperas el tren?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B1_I3",
+          "interaction_id": "A1_U26_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Billete / Boleto",
           "stimulus_en": "Ticket",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B1_I4",
+          "interaction_id": "A1_U26_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Andén'?",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B1_I5",
+          "interaction_id": "A1_U26_B1_I5",
           "type": "matching",
           "prompt_es": "Vocabulario de viaje:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Prepositions for Transport",
       "content": [
         {
-          "interaction_id": "U26_B2_I6",
+          "interaction_id": "A1_U26_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Solemos usar 'on' para transporte público grande. 'En el autobús' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B2_I7",
+          "interaction_id": "A1_U26_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'at' o 'on':",
           "stimulus_en": "I am ________ the train station.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B2_I8",
+          "interaction_id": "A1_U26_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'By train' para indicar el medio de transporte?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B2_I9",
+          "interaction_id": "A1_U26_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'El tren sale a las 9:00'?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B2_I10",
+          "interaction_id": "A1_U26_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con el medio: 'I go to work ________ bus.'",
           "stimulus_en": "by",
@@ -264,7 +264,7 @@
       "title": "Syntax & Buying a Ticket",
       "content": [
         {
-          "interaction_id": "U26_B3_I11",
+          "interaction_id": "A1_U26_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Un billete a Londres, por favor'",
           "options": [
@@ -304,7 +304,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B3_I12",
+          "interaction_id": "A1_U26_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿A qué hora es el próximo tren?'",
           "options": [
@@ -349,7 +349,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B3_I13",
+          "interaction_id": "A1_U26_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿Cuánto cuesta el billete?'",
           "stimulus_en": "How much is the ticket?",
@@ -362,7 +362,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B3_I14",
+          "interaction_id": "A1_U26_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'Single' (ida) o 'Return' (ida y vuelta):",
           "stimulus_en": "A ________ ticket to Madrid, please. (Solo ir)",
@@ -375,7 +375,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B3_I15",
+          "interaction_id": "A1_U26_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El tren está en el andén 4'",
           "options": [
@@ -426,35 +426,7 @@
       "title": "Reading & Travel Context",
       "content": [
         {
-          "interaction_id": "U26_B4_I16",
-          "type": "reading-comprehension",
-          "title": "At the Train Station",
-          "text": "The next train to Oxford is at 10:15. It is on platform 2. A single ticket is £15 and a return ticket is £25. Passengers can buy tickets at the station or online.",
-          "question": "¿A qué hora sale el tren?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "9:15"
-            },
-            {
-              "id": "o2",
-              "text": "10:15"
-            },
-            {
-              "id": "o3",
-              "text": "2:00"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U26_B4_I17",
+          "interaction_id": "A1_U26_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto cuesta un billete de ida y vuelta (return)?",
           "options": [
@@ -480,20 +452,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
-          "text": "The library is on the second floor.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U26_B4_I19",
+          "interaction_id": "A1_U26_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'How do you go to work/school?' (Usa 'By [transport]')",
           "stimulus_es": "En autobús",
@@ -506,7 +465,7 @@
           ]
         },
         {
-          "interaction_id": "U26_B4_I20",
+          "interaction_id": "A1_U26_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Medios o Lugares:",
           "categories": [

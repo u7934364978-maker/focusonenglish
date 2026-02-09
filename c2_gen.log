@@ -1,0 +1,23 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Skipping C2 unit1.json - already has content.
+Skipping C2 unit2.json - already has content.
+Skipping C2 unit3.json - already has content.
+Populating C2 unit4.json: Unit 4
+  Generating block 1 for topic: Grammatical Mastery
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C2, Tema: c2-mastery, Semilla: 7880
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Sophisticated Writing
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C2, Tema: c2-sophisticated-writing, Semilla: 4240
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Creative and Professional Mastery
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C2, Tema: c2-creative-mastery, Semilla: 952
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated C2 unit4.json
+Populating C2 unit5.json: Unit 5
+  Generating block 1 for topic: Creative and Professional Mastery
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C2, Tema: c2-creative-mastery, Semilla: 1267
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Sophisticated Writing
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C2, Tema: c2-sophisticated-writing, Semilla: 2799
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Archaisms and Formalities

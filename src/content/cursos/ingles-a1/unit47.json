@@ -18,7 +18,7 @@
       "title": "Block 1: Holiday Activities",
       "content": [
         {
-          "interaction_id": "U47_I1",
+          "interaction_id": "A1_U47_B47_1_I1",
           "type": "matching",
           "prompt_es": "Empareja las actividades de vacaciones:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I2",
+          "interaction_id": "A1_U47_B47_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces en las montañas?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I3",
+          "interaction_id": "A1_U47_B47_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el objeto:",
           "stimulus_en": "I write a ________ to my family. (postal)",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I4",
+          "interaction_id": "A1_U47_B47_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Hacer turismo'",
           "stimulus_es": "Hacer turismo",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I5",
+          "interaction_id": "A1_U47_B47_1_I5",
           "type": "flashcard",
           "prompt_es": "Repaso de vacaciones:",
           "stimulus_en": "Souvenirs",
@@ -128,29 +128,7 @@
       "title": "Block 2: Preferences & Actions",
       "content": [
         {
-          "interaction_id": "U47_I6",
-          "type": "multiple_choice",
-          "prompt_es": "I love ________ in the sea.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "swimming"
-            },
-            {
-              "id": "o2",
-              "text": "swim"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U47_I7",
+          "interaction_id": "A1_U47_B47_2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa el contraste:",
           "stimulus_en": "Usually I work, but today I am ________. (relajándome)",
@@ -163,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I8",
+          "interaction_id": "A1_U47_B47_2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'I enjoy to take photos'?",
           "correct_answer": false,
@@ -175,29 +153,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Do you ________ sunbathing?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "enjoy"
-            },
-            {
-              "id": "o2",
-              "text": "enjoys"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U47_I10",
+          "interaction_id": "A1_U47_B47_2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase:",
           "stimulus_en": "We ________ visit museums on holiday. (a menudo)",
@@ -216,7 +172,7 @@
       "title": "Block 3: Practical Holiday",
       "content": [
         {
-          "interaction_id": "U47_I11",
+          "interaction_id": "A1_U47_B47_3_I1",
           "type": "reorder_words",
           "prompt_es": "Describe tus vacaciones:",
           "options": [
@@ -261,7 +217,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I12",
+          "interaction_id": "A1_U47_B47_3_I2",
           "type": "multiple_choice",
           "prompt_es": "Friend: 'What are you doing today?' - You:",
           "options": [
@@ -287,7 +243,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I13",
+          "interaction_id": "A1_U47_B47_3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la postal:",
           "stimulus_en": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
@@ -300,7 +256,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I14",
+          "interaction_id": "A1_U47_B47_3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Odio hacer turismo'",
           "stimulus_es": "Odio hacer turismo",
@@ -313,7 +269,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I15",
+          "interaction_id": "A1_U47_B47_3_I5",
           "type": "true_false",
           "prompt_es": "You buy souvenirs for your family and friends.",
           "correct_answer": true,
@@ -331,76 +287,7 @@
       "title": "Block 4: Mastery & Skills",
       "content": [
         {
-          "interaction_id": "U47_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe la frase:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
-          "text": "I am sunbathing and drinking juice.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U47_I17",
-          "type": "reading-comprehension",
-          "title": "Postcard from Rome",
-          "text": "Dear Sam, I am in Rome! Usually, I am at the office, but this week I am on vacation. Today, I am sightseeing. I am visiting the Colosseum and it is amazing. I love eating Italian food. Tomorrow, I am relaxing at a cafe. See you soon, Sarah.",
-          "question": "Where is Sarah?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In Rome"
-            },
-            {
-              "id": "o2",
-              "text": "In London"
-            },
-            {
-              "id": "o3",
-              "text": "At the office"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U47_I18",
-          "type": "reading-comprehension",
-          "title": "Postcard from Rome",
-          "text": "Dear Sam, I am in Rome! Usually, I am at the office, but this week I am on vacation. Today, I am sightseeing. I am visiting the Colosseum and it is amazing. I love eating Italian food. Tomorrow, I am relaxing at a cafe. See you soon, Sarah.",
-          "question": "What is she doing today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sightseeing"
-            },
-            {
-              "id": "o2",
-              "text": "Working"
-            },
-            {
-              "id": "o3",
-              "text": "Sleeping"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U47_I19",
+          "interaction_id": "A1_U47_B47_4_I4",
           "type": "audio_player",
           "prompt_es": "Escucha la preferencia:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
@@ -413,7 +300,7 @@
           ]
         },
         {
-          "interaction_id": "U47_I20",
+          "interaction_id": "A1_U47_B47_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué le gusta a Sarah?",
           "options": [

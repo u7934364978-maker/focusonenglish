@@ -19,7 +19,7 @@
       "title": "The Third Person -s",
       "content": [
         {
-          "interaction_id": "U15_B1_I1",
+          "interaction_id": "A1_U15_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Él trabaja en un banco'?",
           "options": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B1_I2",
+          "interaction_id": "A1_U15_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo 'like' en la forma correcta:",
           "stimulus_en": "She ___ Italian food.",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B1_I3",
+          "interaction_id": "A1_U15_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B1_I4",
+          "interaction_id": "A1_U15_B1_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'She live in Paris'?",
           "correct_answer": false,
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B1_I5",
+          "interaction_id": "A1_U15_B1_I5",
           "type": "matching",
           "prompt_es": "Une el sujeto con el verbo correcto:",
           "pairs": [
@@ -145,7 +145,7 @@
       "title": "Spelling: -es and -ies",
       "content": [
         {
-          "interaction_id": "U15_B2_I1",
+          "interaction_id": "A1_U15_B2_I1",
           "type": "matching",
           "prompt_es": "Une el infinitivo con su forma en tercera persona:",
           "pairs": [
@@ -184,52 +184,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "sister"
-            },
-            {
-              "id": "w3",
-              "text": "studies"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w5",
-              "text": "every"
-            },
-            {
-              "id": "w6",
-              "text": "night."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U15_B2_I3",
+          "interaction_id": "A1_U15_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Él ve la televisión.'",
           "stimulus_en": "He ______ TV every evening.",
@@ -242,7 +197,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B2_I4",
+          "interaction_id": "A1_U15_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el verbo 'Finish' en tercera persona?",
           "options": [
@@ -268,7 +223,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B2_I5",
+          "interaction_id": "A1_U15_B2_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo cambia el verbo 'Fly' (volar) para 'It'?",
           "stimulus_en": "Flies",
@@ -287,7 +242,7 @@
       "title": "Negative: Doesn't",
       "content": [
         {
-          "interaction_id": "U15_B3_I1",
+          "interaction_id": "A1_U15_B3_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa correcta?",
           "options": [
@@ -314,7 +269,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B3_I2",
+          "interaction_id": "A1_U15_B3_I2",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'It doesn't rain in summer'?",
           "correct_answer": true,
@@ -326,7 +281,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B3_I3",
+          "interaction_id": "A1_U15_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Usa la forma negativa: 'Ella no come carne.'",
           "stimulus_en": "She ______ eat meat.",
@@ -339,7 +294,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B3_I4",
+          "interaction_id": "A1_U15_B3_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
@@ -384,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B3_I5",
+          "interaction_id": "A1_U15_B3_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Él no trabaja aquí.'",
           "stimulus_es": "Él no trabaja aquí.",
@@ -404,35 +359,7 @@
       "title": "Reading: My Best Friend",
       "content": [
         {
-          "interaction_id": "U15_B4_I1",
-          "type": "reading-comprehension",
-          "title": "Meet David",
-          "text": "David is my best friend. He lives in Paris. He works in a museum. He goes to work by bike every morning. He doesn't like the metro. In the evening, he watches TV.",
-          "question": "Where does David live?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In Paris"
-            },
-            {
-              "id": "o2",
-              "text": "In London"
-            },
-            {
-              "id": "o3",
-              "text": "In a museum"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U15_B4_I2",
+          "interaction_id": "A1_U15_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo va David a trabajar?",
           "options": [
@@ -458,7 +385,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B4_I3",
+          "interaction_id": "A1_U15_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce esta frase del texto: 'Él no utiliza el metro.'",
           "stimulus_es": "Él no utiliza el metro.",
@@ -472,7 +399,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B4_I4",
+          "interaction_id": "A1_U15_B4_I4",
           "type": "true_false",
           "prompt_es": "David ve la televisión por la tarde/noche.",
           "correct_answer": true,
@@ -485,7 +412,7 @@
           ]
         },
         {
-          "interaction_id": "U15_B4_I5",
+          "interaction_id": "A1_U15_B4_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con el texto: 'Él ______ en un museo.'",
           "stimulus_en": "He ______ in a museum.",

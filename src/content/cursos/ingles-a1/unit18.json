@@ -19,7 +19,7 @@
       "title": "Vocabulary: Verbs of Preference",
       "content": [
         {
-          "interaction_id": "U18_B1_I1",
+          "interaction_id": "A1_U18_B1_I1",
           "type": "matching",
           "prompt_es": "Une cada verbo con su intensidad (de menos a más):",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B1_I2",
+          "interaction_id": "A1_U18_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Disfrutar'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B1_I3",
+          "interaction_id": "A1_U18_B1_I3",
           "type": "flashcard",
           "prompt_es": "Estudia esta expresión:",
           "stimulus_en": "My favorite...",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B1_I4",
+          "interaction_id": "A1_U18_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si algo no te gusta nada, dices:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B1_I5",
+          "interaction_id": "A1_U18_B1_I5",
           "type": "matching",
           "prompt_es": "Vocabulario relacionado:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Expressing Likes & Gerunds",
       "content": [
         {
-          "interaction_id": "U18_B2_I6",
+          "interaction_id": "A1_U18_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta del verbo (Present Simple):",
           "stimulus_en": "She ________ (like) chocolate.",
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B2_I7",
+          "interaction_id": "A1_U18_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "Después de 'like' y 'hate', solemos añadir '-ing' al verbo. 'Me gusta leer' es:",
           "options": [
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B2_I8",
+          "interaction_id": "A1_U18_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase: 'Él disfruta cocinar'",
           "stimulus_en": "He enjoys ________ (cook).",
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B2_I9",
+          "interaction_id": "A1_U18_B2_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'I don't like boring movies'?",
           "correct_answer": true,
@@ -232,7 +232,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B2_I10",
+          "interaction_id": "A1_U18_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'prefer':",
           "stimulus_en": "They ________ tea to coffee.",
@@ -251,7 +251,7 @@
       "title": "Syntax: Questions & Negatives",
       "content": [
         {
-          "interaction_id": "U18_B3_I11",
+          "interaction_id": "A1_U18_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta: '¿Te gusta el fútbol?'",
           "options": [
@@ -286,7 +286,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B3_I12",
+          "interaction_id": "A1_U18_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'A ella no le gusta limpiar'",
           "options": [
@@ -321,7 +321,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B3_I13",
+          "interaction_id": "A1_U18_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Odiamos esperar'",
           "stimulus_en": "We hate waiting",
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B3_I14",
+          "interaction_id": "A1_U18_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta:",
           "stimulus_en": "________ he like dancing?",
@@ -347,7 +347,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B3_I15",
+          "interaction_id": "A1_U18_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Qué música prefieres?'",
           "options": [
@@ -393,35 +393,7 @@
       "title": "Context & Review",
       "content": [
         {
-          "interaction_id": "U18_B4_I16",
-          "type": "reading-comprehension",
-          "title": "My Hobbies",
-          "text": "Hi! I'm Mark. I love playing video games and I enjoy reading books. I don't like sport, and I hate getting up early. My favorite day is Saturday.",
-          "question": "¿Qué es lo que Mark NO le gusta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Video games"
-            },
-            {
-              "id": "o2",
-              "text": "Reading"
-            },
-            {
-              "id": "o3",
-              "text": "Sport"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U18_B4_I17",
+          "interaction_id": "A1_U18_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué odia Mark?",
           "options": [
@@ -447,20 +419,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que dice:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/61a7d25ff2731d2e5680452b9b37807e.mp3",
-          "text": "My favorite hobby is reading.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U18_B4_I19",
+          "interaction_id": "A1_U18_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde sobre ti (puedes usar 'I like' o 'I don't like'): 'Do you like pizza?'",
           "stimulus_es": "Me gusta la pizza / No me gusta la pizza",
@@ -473,7 +432,7 @@
           ]
         },
         {
-          "interaction_id": "U18_B4_I20",
+          "interaction_id": "A1_U18_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica según el sentimiento:",
           "categories": [

@@ -19,7 +19,7 @@
       "title": "Vocabulary: Home Furniture",
       "content": [
         {
-          "interaction_id": "U22_B1_I1",
+          "interaction_id": "A1_U22_B1_I1",
           "type": "matching",
           "prompt_es": "Une los muebles con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B1_I2",
+          "interaction_id": "A1_U22_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿En qué mueble duermes (sleep)?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B1_I3",
+          "interaction_id": "A1_U22_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Nevera",
           "stimulus_en": "Fridge / Refrigerator",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B1_I4",
+          "interaction_id": "A1_U22_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Espejo'?",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B1_I5",
+          "interaction_id": "A1_U22_B1_I5",
           "type": "matching",
           "prompt_es": "Objetos de la casa:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Prepositions of Place",
       "content": [
         {
-          "interaction_id": "U22_B2_I6",
+          "interaction_id": "A1_U22_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "'The book is on the table'. 'On' significa:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B2_I7",
+          "interaction_id": "A1_U22_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'under' (debajo) o 'next to' (al lado):",
           "stimulus_en": "The shoes are ________ the bed.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B2_I8",
+          "interaction_id": "A1_U22_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Significa 'behind' detrás de?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B2_I9",
+          "interaction_id": "A1_U22_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'La lámpara está al lado del sofá'?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B2_I10",
+          "interaction_id": "A1_U22_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con la preposición correcta (en/dentro de):",
           "stimulus_en": "The milk is ________ the fridge.",
@@ -264,7 +264,7 @@
       "title": "Syntax & Instructions",
       "content": [
         {
-          "interaction_id": "U22_B3_I11",
+          "interaction_id": "A1_U22_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Pon el libro en la mesa'",
           "options": [
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B3_I12",
+          "interaction_id": "A1_U22_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Cierra la puerta, por favor'",
           "options": [
@@ -344,7 +344,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B3_I13",
+          "interaction_id": "A1_U22_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'La silla es azul'",
           "stimulus_en": "The chair is blue",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B3_I14",
+          "interaction_id": "A1_U22_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo correcto (Open/Close):",
           "stimulus_en": "It is hot. ________ the window, please.",
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B3_I15",
+          "interaction_id": "A1_U22_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay un espejo en el baño'",
           "options": [
@@ -426,35 +426,7 @@
       "title": "Reading & Contextual Review",
       "content": [
         {
-          "interaction_id": "U22_B4_I16",
-          "type": "reading-comprehension",
-          "title": "My New Apartment",
-          "text": "My new apartment is small. In the living room, there is a gray sofa and a small table. My bed is next to the window in the bedroom. I have a big mirror in the bathroom.",
-          "question": "¿Dónde está la cama (bed)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Next to the door"
-            },
-            {
-              "id": "o2",
-              "text": "Next to the window"
-            },
-            {
-              "id": "o3",
-              "text": "On the sofa"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U22_B4_I17",
+          "interaction_id": "A1_U22_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hay en el salón?",
           "options": [
@@ -480,20 +452,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/7e91036e73772ced064b8c768ced316a.mp3",
-          "text": "Put the book on the table.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U22_B4_I19",
+          "interaction_id": "A1_U22_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'Is there a TV in your bedroom?' (Usa 'Yes, there is' o 'No, there isn't')",
           "stimulus_es": "Sí, hay",
@@ -506,7 +465,7 @@
           ]
         },
         {
-          "interaction_id": "U22_B4_I20",
+          "interaction_id": "A1_U22_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Muebles u Otros Objetos:",
           "categories": [

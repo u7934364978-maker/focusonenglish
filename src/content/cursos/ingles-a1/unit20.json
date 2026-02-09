@@ -19,7 +19,7 @@
       "title": "Module 2 Vocabulary Recap",
       "content": [
         {
-          "interaction_id": "U20_B1_I1",
+          "interaction_id": "A1_U20_B1_I1",
           "type": "matching",
           "prompt_es": "Asocia cada palabra con su categoría:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B1_I2",
+          "interaction_id": "A1_U20_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es lo opuesto de 'Boring'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B1_I3",
+          "interaction_id": "A1_U20_B1_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'A las ocho en punto'?",
           "options": [
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B1_I4",
+          "interaction_id": "A1_U20_B1_I4",
           "type": "flashcard",
           "prompt_es": "Vocabulario clave de rutina:",
           "stimulus_en": "Brush my teeth",
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B1_I5",
+          "interaction_id": "A1_U20_B1_I5",
           "type": "matching",
           "prompt_es": "Relaciona alimentos:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Module 2 Grammar Review",
       "content": [
         {
-          "interaction_id": "U20_B2_I6",
+          "interaction_id": "A1_U20_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo (Present Simple):",
           "stimulus_en": "My sister ________ (work) in a hospital.",
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B2_I7",
+          "interaction_id": "A1_U20_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "A él NO le gusta bailar:",
           "options": [
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B2_I8",
+          "interaction_id": "A1_U20_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Usa la preposición correcta:",
           "stimulus_en": "The meeting is ________ Friday at 10:00.",
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B2_I9",
+          "interaction_id": "A1_U20_B2_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'I have lunch in 1 o'clock'?",
           "correct_answer": false,
@@ -232,7 +232,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B2_I10",
+          "interaction_id": "A1_U20_B2_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Tengo hambre'?",
           "options": [
@@ -264,7 +264,7 @@
       "title": "Syntax & Practical Usage",
       "content": [
         {
-          "interaction_id": "U20_B3_I11",
+          "interaction_id": "A1_U20_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta: '¿A qué hora te levantas?'",
           "options": [
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B3_I12",
+          "interaction_id": "A1_U20_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi hermano prefiere el café'",
           "options": [
@@ -344,7 +344,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B3_I13",
+          "interaction_id": "A1_U20_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿Cuándo es tu cumpleaños?'",
           "stimulus_en": "When is your birthday?",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B3_I14",
+          "interaction_id": "A1_U20_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la rutina:",
           "stimulus_en": "I go ________ bed at 11 PM.",
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B3_I15",
+          "interaction_id": "A1_U20_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros no comemos carne'",
           "options": [
@@ -411,35 +411,7 @@
       "title": "Global Module Review",
       "content": [
         {
-          "interaction_id": "U20_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Reviewing Module 2",
-          "text": "My name is Elena. In Module 2, I learned to talk about my day. I get up at 7:30. For breakfast, I have fruit. I love my family, and we have dinner together at 8:00 PM on Sundays. My birthday is in August.",
-          "question": "¿A qué hora cena Elena los domingos?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At 7:30"
-            },
-            {
-              "id": "o2",
-              "text": "At 8:00 PM"
-            },
-            {
-              "id": "o3",
-              "text": "In August"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U20_B4_I17",
+          "interaction_id": "A1_U20_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo es el cumpleaños de Elena?",
           "options": [
@@ -465,7 +437,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B4_I18",
+          "interaction_id": "A1_U20_B4_I3",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe lo que dice:",
           "audioUrl": "/audio/courses/ingles-a1/shared/47826287034d0ebeef39d9565a9d0f6f.mp3",
@@ -478,7 +450,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B4_I19",
+          "interaction_id": "A1_U20_B4_I4",
           "type": "short_writing",
           "prompt_es": "Escribe una frase sobre algo que te guste (ej. I like coffee):",
           "stimulus_es": "Me gusta...",
@@ -491,7 +463,7 @@
           ]
         },
         {
-          "interaction_id": "U20_B4_I20",
+          "interaction_id": "A1_U20_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica según el tiempo o la comida:",
           "categories": [

@@ -18,7 +18,7 @@
       "title": "Block 1: City Exploration",
       "content": [
         {
-          "interaction_id": "U48_I1",
+          "interaction_id": "A1_U48_B48_1_I1",
           "type": "matching",
           "prompt_es": "Empareja el vocabulario de turismo:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I2",
+          "interaction_id": "A1_U48_B48_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué usas para sacar fotos?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I3",
+          "interaction_id": "A1_U48_B48_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el lugar:",
           "stimulus_en": "We are visiting the old ________. (castillo)",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I4",
+          "interaction_id": "A1_U48_B48_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Recuerdo / Souvenir'",
           "stimulus_es": "Recuerdo",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I5",
+          "interaction_id": "A1_U48_B48_1_I5",
           "type": "flashcard",
           "prompt_es": "Repaso de turismo:",
           "stimulus_en": "Art gallery",
@@ -128,7 +128,7 @@
       "title": "Block 2: Travel Advice (Imperatives)",
       "content": [
         {
-          "interaction_id": "U48_I6",
+          "interaction_id": "A1_U48_B48_2_I1",
           "type": "multiple_choice",
           "prompt_es": "________ forget your passport!",
           "options": [
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I7",
+          "interaction_id": "A1_U48_B48_2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo correcto (Take/Visit):",
           "stimulus_en": "________ the museum, it is beautiful!",
@@ -167,7 +167,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I8",
+          "interaction_id": "A1_U48_B48_2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'Buying a souvenir' como una instrucción?",
           "correct_answer": false,
@@ -179,29 +179,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I9",
-          "type": "multiple_choice",
-          "prompt_es": "________ a map of the city.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Buy"
-            },
-            {
-              "id": "o2",
-              "text": "Buying"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U48_I10",
+          "interaction_id": "A1_U48_B48_2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa el imperativo negativo:",
           "stimulus_en": "________ (no) drink the water in the park.",
@@ -220,7 +198,7 @@
       "title": "Block 3: Tour Situations",
       "content": [
         {
-          "interaction_id": "U48_I11",
+          "interaction_id": "A1_U48_B48_3_I1",
           "type": "reorder_words",
           "prompt_es": "Pregunta por el inicio del tour:",
           "options": [
@@ -265,7 +243,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I12",
+          "interaction_id": "A1_U48_B48_3_I2",
           "type": "multiple_choice",
           "prompt_es": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
           "options": [
@@ -291,7 +269,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I13",
+          "interaction_id": "A1_U48_B48_3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el diálogo:",
           "stimulus_en": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
@@ -304,7 +282,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I14",
+          "interaction_id": "A1_U48_B48_3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Sigue al guía turístico'",
           "stimulus_es": "Sigue al guía turístico",
@@ -317,7 +295,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I15",
+          "interaction_id": "A1_U48_B48_3_I5",
           "type": "true_false",
           "prompt_es": "A map helps you find places in a city.",
           "correct_answer": true,
@@ -335,7 +313,7 @@
       "title": "Block 4: Mastery & Skills",
       "content": [
         {
-          "interaction_id": "U48_I16",
+          "interaction_id": "A1_U48_B48_4_I1",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe el consejo:",
           "audioUrl": "/audio/courses/ingles-a1/shared/6453f0c781738edb75b25d827ec547c2.mp3",
@@ -348,63 +326,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I17",
-          "type": "reading-comprehension",
-          "title": "Welcome to London!",
-          "text": "London is a great city for sightseeing. First, visit Big Ben and the Houses of Parliament. Then, go to the British Museum. Don't forget to take a map! The tour guide is waiting at the entrance. Buy a souvenir at the shop before you leave.",
-          "question": "What is the first place to visit?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Big Ben"
-            },
-            {
-              "id": "o2",
-              "text": "The British Museum"
-            },
-            {
-              "id": "o3",
-              "text": "The shop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U48_I18",
-          "type": "reading-comprehension",
-          "title": "Welcome to London!",
-          "text": "London is a great city for sightseeing. First, visit Big Ben and the Houses of Parliament. Then, go to the British Museum. Don't forget to take a map! The tour guide is waiting at the entrance. Buy a souvenir at the shop before you leave.",
-          "question": "Where is the tour guide?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At the entrance"
-            },
-            {
-              "id": "o2",
-              "text": "At the museum"
-            },
-            {
-              "id": "o3",
-              "text": "At the shop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U48_I19",
+          "interaction_id": "A1_U48_B48_4_I4",
           "type": "audio_player",
           "prompt_es": "Escucha la instrucción del tour:",
           "audioUrl": "/audio/courses/ingles-a1/shared/2b5d162a6c2ddeadbe4b7a19b0b34f20.mp3",
@@ -417,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "U48_I20",
+          "interaction_id": "A1_U48_B48_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué debes comprar antes de irte?",
           "options": [

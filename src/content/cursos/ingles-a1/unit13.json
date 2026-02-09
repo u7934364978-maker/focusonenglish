@@ -19,113 +19,7 @@
       "title": "My Morning",
       "content": [
         {
-          "interaction_id": "U13_B1_I1",
-          "type": "matching",
-          "prompt_es": "Une las acciones de la mañana:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Wake up",
-              "right": "Despertarse"
-            },
-            {
-              "id": "p2",
-              "left": "Get up",
-              "right": "Levantarse"
-            },
-            {
-              "id": "p3",
-              "left": "Have breakfast",
-              "right": "Desayunar"
-            },
-            {
-              "id": "p4",
-              "left": "Brush my teeth",
-              "right": "Cepillarse los dientes"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U13_B1_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "breakfast"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "seven"
-            },
-            {
-              "id": "w6",
-              "text": "o'clock."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U13_B1_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la diferencia?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "'Wake up' es abrir los ojos; 'Get up' es salir de la cama."
-            },
-            {
-              "id": "o2",
-              "text": "'Get up' es abrir los ojos; 'Wake up' es salir de la cama."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U13_B1_I4",
+          "interaction_id": "A1_U13_B1_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la acción:",
           "stimulus_en": "I ______ my teeth every morning.",
@@ -138,7 +32,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B1_I5",
+          "interaction_id": "A1_U13_B1_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'Ducharse'?",
           "stimulus_en": "Take a shower / Have a shower",
@@ -157,7 +51,7 @@
       "title": "Afternoon & Work",
       "content": [
         {
-          "interaction_id": "U13_B2_I1",
+          "interaction_id": "A1_U13_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'almorzar'?",
           "options": [
@@ -183,7 +77,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B2_I2",
+          "interaction_id": "A1_U13_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase:",
           "stimulus_en": "I ______ to work by bus.",
@@ -196,52 +90,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B2_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "lunch"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "one"
-            },
-            {
-              "id": "w6",
-              "text": "o'clock."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U13_B2_I4",
+          "interaction_id": "A1_U13_B2_I4",
           "type": "true_false",
           "prompt_es": "En inglés, decimos 'I go to work', no 'I go to the work'.",
           "correct_answer": true,
@@ -254,7 +103,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B2_I5",
+          "interaction_id": "A1_U13_B2_I5",
           "type": "matching",
           "prompt_es": "Une el lugar con la acción:",
           "pairs": [
@@ -293,7 +142,7 @@
       "title": "Evening & Night",
       "content": [
         {
-          "interaction_id": "U13_B3_I1",
+          "interaction_id": "A1_U13_B3_I1",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'I go to the bed'?",
           "correct_answer": false,
@@ -306,7 +155,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B3_I2",
+          "interaction_id": "A1_U13_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora se suele cenar (dinner) en el Reino Unido?",
           "options": [
@@ -332,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B3_I3",
+          "interaction_id": "A1_U13_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Veo la televisión por la tarde.'",
           "stimulus_en": "I watch ______ in the evening.",
@@ -345,52 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B3_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "go"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "bed"
-            },
-            {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w6",
-              "text": "eleven."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U13_B3_I5",
+          "interaction_id": "A1_U13_B3_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Ceno con mi familia.'",
           "stimulus_es": "Ceno con mi familia.",
@@ -410,35 +214,7 @@
       "title": "Reading: A Busy Day",
       "content": [
         {
-          "interaction_id": "U13_B4_I1",
-          "type": "reading-comprehension",
-          "title": "John's Day",
-          "text": "I wake up at 6:30. I have a shower and then I have breakfast. I go to work at 8:00. I have lunch at 1:00 PM. Finally, I go to bed at 11:00 PM.",
-          "question": "What time does John have lunch?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At one o'clock"
-            },
-            {
-              "id": "o2",
-              "text": "At six o'clock"
-            },
-            {
-              "id": "o3",
-              "text": "At eight o'clock"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U13_B4_I2",
+          "interaction_id": "A1_U13_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace John después de la ducha?",
           "options": [
@@ -464,7 +240,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B4_I3",
+          "interaction_id": "A1_U13_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Me ducho por la mañana.'",
           "stimulus_es": "Me ducho por la mañana.",
@@ -478,7 +254,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B4_I4",
+          "interaction_id": "A1_U13_B4_I4",
           "type": "true_false",
           "prompt_es": "John se levanta a las ocho en punto.",
           "correct_answer": false,
@@ -491,7 +267,7 @@
           ]
         },
         {
-          "interaction_id": "U13_B4_I5",
+          "interaction_id": "A1_U13_B4_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con el texto: 'Finalmente, me voy a la cama...'",
           "stimulus_en": "Finally, I ______ to bed at 11:00 PM.",

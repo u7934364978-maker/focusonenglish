@@ -13,41 +13,7 @@
       "title": "Greetings & Personal Info",
       "content": [
         {
-          "interaction_id": "U1_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p2",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p3",
-              "left": "Marital status",
-              "right": "Estado civil"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I2",
+          "interaction_id": "A2_U1_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ my friends.",
@@ -55,44 +21,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I3",
+          "interaction_id": "A2_U1_B1_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can you spell your surname?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "email"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I5",
+          "interaction_id": "A2_U1_B1_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
           "options": [
@@ -113,15 +49,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U1_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Apellido",
-          "correct_answer": "Surname",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I7",
+          "interaction_id": "A2_U1_B1_I7",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Soltero/a' en inglés?",
           "options": [
@@ -142,41 +70,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I8",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p1",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p2",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p3",
-              "left": "Age",
-              "right": "Edad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I9",
+          "interaction_id": "A2_U1_B1_I9",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ a sister.",
@@ -184,49 +78,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I10",
+          "interaction_id": "A2_U1_B1_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are married or single\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I11",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "first"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "name"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I12",
+          "interaction_id": "A2_U1_B1_I12",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
           "options": [
@@ -247,7 +106,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U1_I13",
+          "interaction_id": "A2_U1_B1_I13",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Firma",
@@ -255,7 +114,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I14",
+          "interaction_id": "A2_U1_B1_I14",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Código postal' en inglés?",
           "options": [
@@ -276,41 +135,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I15",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p1",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p2",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p3",
-              "left": "Name",
-              "right": "Nombre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I16",
+          "interaction_id": "A2_U1_B1_I16",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "My name (ser/estar) ________ Carlos.",
@@ -318,49 +143,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I17",
+          "interaction_id": "A2_U1_B1_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your job?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I18",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "spell"
-            },
-            {
-              "id": "w0",
-              "text": "Can"
-            },
-            {
-              "id": "w4",
-              "text": "surname"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I19",
+          "interaction_id": "A2_U1_B1_I19",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
           "options": [
@@ -381,7 +171,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U1_I20",
+          "interaction_id": "A2_U1_B1_I20",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nombre",
@@ -389,62 +179,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Apellido' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Single"
-            },
-            {
-              "id": "o2",
-              "text": "Nationality"
-            },
-            {
-              "id": "o1",
-              "text": "Surname"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I22",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p1",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p2",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p3",
-              "left": "Surname",
-              "right": "Apellido"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I23",
+          "interaction_id": "A2_U1_B1_I23",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / trabajar) ________ on Sundays.",
@@ -452,70 +187,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I24",
+          "interaction_id": "A2_U1_B1_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i a teacher\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I25",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w4",
-              "text": "single"
-            },
-            {
-              "id": "w3",
-              "text": "or"
-            },
-            {
-              "id": "w0",
-              "text": "Are"
-            },
-            {
-              "id": "w2",
-              "text": "married"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I26",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I27",
+          "interaction_id": "A2_U1_B1_I27",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Número de teléfono",
@@ -523,7 +202,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I28",
+          "interaction_id": "A2_U1_B1_I28",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Firma' en inglés?",
           "options": [
@@ -544,41 +223,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I29",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p1",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p2",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p3",
-              "left": "Single",
-              "right": "Soltero/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I30",
+          "interaction_id": "A2_U1_B1_I30",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ from London.",
@@ -586,44 +231,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I31",
+          "interaction_id": "A2_U1_B1_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I was born in Seville.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I32",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "job"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I33",
+          "interaction_id": "A2_U1_B1_I33",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
           "options": [
@@ -644,7 +259,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U1_I34",
+          "interaction_id": "A2_U1_B1_I34",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Edad",
@@ -652,7 +267,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I35",
+          "interaction_id": "A2_U1_B1_I35",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Nombre' en inglés?",
           "options": [
@@ -673,41 +288,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I36",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p1",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p2",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p3",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I37",
+          "interaction_id": "A2_U1_B1_I37",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Where ________ you from?",
@@ -715,65 +296,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I38",
+          "interaction_id": "A2_U1_B1_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sign please here\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I39",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "teacher"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I40",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o1",
-              "text": "My name is John."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I41",
+          "interaction_id": "A2_U1_B1_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fecha de nacimiento",
@@ -781,7 +311,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I42",
+          "interaction_id": "A2_U1_B1_I42",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Número de teléfono' en inglés?",
           "options": [
@@ -802,41 +332,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I43",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p1",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p2",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p3",
-              "left": "Address",
-              "right": "Dirección"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I44",
+          "interaction_id": "A2_U1_B1_I44",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (tener) ________ a new phone.",
@@ -844,70 +340,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I45",
+          "interaction_id": "A2_U1_B1_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My phone number is 123456.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "Seville"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "was"
-            },
-            {
-              "id": "w2",
-              "text": "born"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I48",
+          "interaction_id": "A2_U1_B1_I48",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estado civil",
@@ -915,7 +355,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I49",
+          "interaction_id": "A2_U1_B1_I49",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Edad' en inglés?",
           "options": [
@@ -936,41 +376,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I50",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p1",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p2",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p3",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I51",
+          "interaction_id": "A2_U1_B1_I51",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (saber/conocer) him?",
@@ -978,60 +384,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I52",
+          "interaction_id": "A2_U1_B1_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i spanish\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I53",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "sign"
-            },
-            {
-              "id": "w0",
-              "text": "Please"
-            },
-            {
-              "id": "w2",
-              "text": "here"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I55",
+          "interaction_id": "A2_U1_B1_I55",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nacionalidad",
@@ -1039,7 +399,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I56",
+          "interaction_id": "A2_U1_B1_I56",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Fecha de nacimiento' en inglés?",
           "options": [
@@ -1060,112 +420,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I57",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p1",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p2",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p3",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I58",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (ser/estar) ________ a student.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I59",
+          "interaction_id": "A2_U1_B1_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Where do you live?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I60",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w1",
-              "text": "phone"
-            },
-            {
-              "id": "w2",
-              "text": "number"
-            },
-            {
-              "id": "w4",
-              "text": "123456"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I61",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I62",
+          "interaction_id": "A2_U1_B1_I62",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Profesión/Ocupación",
@@ -1173,7 +435,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I63",
+          "interaction_id": "A2_U1_B1_I63",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estado civil' en inglés?",
           "options": [
@@ -1194,41 +456,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I64",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p1",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p2",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p3",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I65",
+          "interaction_id": "A2_U1_B1_I65",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (hablar) ________ English.",
@@ -1236,68 +464,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I66",
+          "interaction_id": "A2_U1_B1_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Old how are you\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I67",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "Spanish"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I68",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            },
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            },
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I69",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Dirección",
-          "correct_answer": "Address",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I70",
+          "interaction_id": "A2_U1_B1_I70",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Nacionalidad' en inglés?",
           "options": [
@@ -1318,41 +492,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I71",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p1",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p2",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p3",
-              "left": "Signature",
-              "right": "Firma"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I72",
+          "interaction_id": "A2_U1_B1_I72",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / tener) ________ a car.",
@@ -1360,65 +500,7 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Nice to meet you.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I74",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "do"
-            },
-            {
-              "id": "w0",
-              "text": "Where"
-            },
-            {
-              "id": "w2",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "live"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I75",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o1",
-              "text": "My name is John."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I76",
+          "interaction_id": "A2_U1_B1_I75",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Casado/a",
@@ -1426,7 +508,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I77",
+          "interaction_id": "A2_U1_B1_I76",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Profesión/Ocupación' en inglés?",
           "options": [
@@ -1447,41 +529,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I78",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p2",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p3",
-              "left": "Postcode",
-              "right": "Código postal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I79",
+          "interaction_id": "A2_U1_B1_I78",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (ser/estar) ________ very kind.",
@@ -1489,65 +537,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I80",
+          "interaction_id": "A2_U1_B1_I79",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your nationality\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I81",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w1",
-              "text": "old"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I82",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I83",
+          "interaction_id": "A2_U1_B1_I82",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Correo electrónico",
@@ -1555,62 +552,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I84",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o3",
-              "text": "Occupation"
-            },
-            {
-              "id": "o1",
-              "text": "Address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I85",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p1",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p2",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p3",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I86",
+          "interaction_id": "A2_U1_B1_I85",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (vivir) ________ in Madrid.",
@@ -1618,65 +560,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I87",
+          "interaction_id": "A2_U1_B1_I86",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am twenty-five years old.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I88",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "Nice"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "meet"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I90",
+          "interaction_id": "A2_U1_B1_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lugar de nacimiento",
@@ -1684,7 +575,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I91",
+          "interaction_id": "A2_U1_B1_I90",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Casado/a' en inglés?",
           "options": [
@@ -1705,41 +596,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I92",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p1",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p2",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p3",
-              "left": "Married",
-              "right": "Casado/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I93",
+          "interaction_id": "A2_U1_B1_I92",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you got a pen?",
@@ -1747,65 +604,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U1_I94",
+          "interaction_id": "A2_U1_B1_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your email\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I95",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "nationality"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I96",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            },
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I97",
+          "interaction_id": "A2_U1_B1_I96",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Soltero/a",
@@ -1813,7 +619,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I98",
+          "interaction_id": "A2_U1_B1_I97",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Correo electrónico' en inglés?",
           "options": [
@@ -1834,112 +640,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I99",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p1",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p2",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p3",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I100",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (ser/estar) ________ happy today.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I101",
+          "interaction_id": "A2_U1_B1_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your first name?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I102",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "old"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "years"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w2",
-              "text": "twenty-five"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I103",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            },
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            },
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I104",
+          "interaction_id": "A2_U1_B1_I102",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Código postal",
@@ -1947,7 +655,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I105",
+          "interaction_id": "A2_U1_B1_I103",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lugar de nacimiento' en inglés?",
           "options": [
@@ -1968,3630 +676,109 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I106",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p2",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p3",
-              "left": "Marital status",
-              "right": "Estado civil"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I107",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar) ________ my friends.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I108",
+          "interaction_id": "A2_U1_B1_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You can spell your surname\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I109",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "email"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I110",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "My name is John."
-            },
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I111",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Apellido",
-          "correct_answer": "Surname",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I112",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Soltero/a' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o1",
-              "text": "Single"
-            },
-            {
-              "id": "o2",
-              "text": "Postcode"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I113",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p1",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p2",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p3",
-              "left": "Age",
-              "right": "Edad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I114",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (tener) ________ a sister.",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I115",
+          "interaction_id": "A2_U1_B1_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are you married or single?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I116",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "name"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "first"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I117",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I118",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Firma",
-          "correct_answer": "Signature",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I119",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Código postal' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Age"
-            },
-            {
-              "id": "o3",
-              "text": "Surname"
-            },
-            {
-              "id": "o1",
-              "text": "Postcode"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I120",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p1",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p2",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p3",
-              "left": "Name",
-              "right": "Nombre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I121",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My name (ser/estar) ________ Carlos.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I122",
+          "interaction_id": "A2_U1_B1_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your job\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I123",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "surname"
-            },
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Can"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "spell"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I124",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I125",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nombre",
-          "correct_answer": "Name",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Apellido' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Married"
-            },
-            {
-              "id": "o2",
-              "text": "Marital status"
-            },
-            {
-              "id": "o1",
-              "text": "Surname"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I127",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p1",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p2",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p3",
-              "left": "Surname",
-              "right": "Apellido"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I128",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (not / trabajar) ________ on Sundays.",
-          "correct_answer": "don't work",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I129",
+          "interaction_id": "A2_U1_B1_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am a teacher.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "married"
-            },
-            {
-              "id": "w4",
-              "text": "single"
-            },
-            {
-              "id": "w0",
-              "text": "Are"
-            },
-            {
-              "id": "w3",
-              "text": "or"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I132",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Número de teléfono",
-          "correct_answer": "Phone number",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I133",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Firma' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Surname"
-            },
-            {
-              "id": "o1",
-              "text": "Signature"
-            },
-            {
-              "id": "o2",
-              "text": "Nationality"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I134",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p1",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p2",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p3",
-              "left": "Single",
-              "right": "Soltero/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I135",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (ser/estar) ________ from London.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I136",
+          "interaction_id": "A2_U1_B1_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was i born in seville\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I137",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "job"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            },
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            },
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I139",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Edad",
-          "correct_answer": "Age",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I140",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nombre' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Name"
-            },
-            {
-              "id": "o3",
-              "text": "Postcode"
-            },
-            {
-              "id": "o2",
-              "text": "Nationality"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I141",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p1",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p2",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p3",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I142",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Where ________ you from?",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I143",
+          "interaction_id": "A2_U1_B1_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Please sign here.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I144",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "teacher"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I145",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o1",
-              "text": "My name is John."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I146",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Fecha de nacimiento",
-          "correct_answer": "Date of birth",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I147",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Número de teléfono' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Signature"
-            },
-            {
-              "id": "o2",
-              "text": "Married"
-            },
-            {
-              "id": "o1",
-              "text": "Phone number"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I148",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p1",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p2",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p3",
-              "left": "Address",
-              "right": "Dirección"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I149",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (tener) ________ a new phone.",
-          "correct_answer": "have got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I150",
+          "interaction_id": "A2_U1_B1_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Phone my number is 123456\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I151",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "was"
-            },
-            {
-              "id": "w2",
-              "text": "born"
-            },
-            {
-              "id": "w4",
-              "text": "Seville"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I152",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I153",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Estado civil",
-          "correct_answer": "Marital status",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I154",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Edad' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Age"
-            },
-            {
-              "id": "o2",
-              "text": "Address"
-            },
-            {
-              "id": "o3",
-              "text": "Single"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I155",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p1",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p2",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p3",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I156",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Do you ________ (saber/conocer) him?",
-          "correct_answer": "know",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I157",
+          "interaction_id": "A2_U1_B1_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am Spanish.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I158",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "here"
-            },
-            {
-              "id": "w1",
-              "text": "sign"
-            },
-            {
-              "id": "w0",
-              "text": "Please"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I159",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I160",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nacionalidad",
-          "correct_answer": "Nationality",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I161",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Fecha de nacimiento' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Postcode"
-            },
-            {
-              "id": "o1",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o2",
-              "text": "Single"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I162",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p1",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p2",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p3",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I163",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (ser/estar) ________ a student.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I164",
+          "interaction_id": "A2_U1_B1_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do where you live\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I165",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "123456"
-            },
-            {
-              "id": "w1",
-              "text": "phone"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "number"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I166",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I167",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Profesión/Ocupación",
-          "correct_answer": "Occupation",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estado civil' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Marital status"
-            },
-            {
-              "id": "o2",
-              "text": "Email address"
-            },
-            {
-              "id": "o3",
-              "text": "Occupation"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I169",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p1",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p2",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p3",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I170",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (hablar) ________ English.",
-          "correct_answer": "speaks",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I171",
+          "interaction_id": "A2_U1_B1_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"How old are you?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "Spanish"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            },
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            },
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I174",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Dirección",
-          "correct_answer": "Address",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I175",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nacionalidad' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Marital status"
-            },
-            {
-              "id": "o3",
-              "text": "Phone number"
-            },
-            {
-              "id": "o1",
-              "text": "Nationality"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I176",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p1",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p2",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p3",
-              "left": "Signature",
-              "right": "Firma"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I177",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (not / tener) ________ a car.",
-          "correct_answer": "hasn't got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I178",
+          "interaction_id": "A2_U1_B1_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"To nice meet you\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I179",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "do"
-            },
-            {
-              "id": "w2",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "Where"
-            },
-            {
-              "id": "w3",
-              "text": "live"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "My name is John."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I181",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Casado/a",
-          "correct_answer": "Married",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I182",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Profesión/Ocupación' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nationality"
-            },
-            {
-              "id": "o2",
-              "text": "Married"
-            },
-            {
-              "id": "o1",
-              "text": "Occupation"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I183",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p2",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p3",
-              "left": "Postcode",
-              "right": "Código postal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I184",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "You (ser/estar) ________ very kind.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I185",
+          "interaction_id": "A2_U1_B1_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your nationality?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I186",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "old"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I187",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I188",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Correo electrónico",
-          "correct_answer": "Email address",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I189",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Address"
-            },
-            {
-              "id": "o3",
-              "text": "Occupation"
-            },
-            {
-              "id": "o2",
-              "text": "Name"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I190",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p1",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p2",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p3",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I191",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (vivir) ________ in Madrid.",
-          "correct_answer": "live",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I192",
+          "interaction_id": "A2_U1_B1_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i twenty-five years old\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I193",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Nice"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "meet"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I194",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I195",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lugar de nacimiento",
-          "correct_answer": "Place of birth",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I196",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Casado/a' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Single"
-            },
-            {
-              "id": "o2",
-              "text": "Occupation"
-            },
-            {
-              "id": "o1",
-              "text": "Married"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I197",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p1",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p2",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p3",
-              "left": "Married",
-              "right": "Casado/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I198",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "________ you got a pen?",
-          "correct_answer": "Have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I199",
+          "interaction_id": "A2_U1_B1_I150",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your email?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U1_I200",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "nationality"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I201",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            },
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I202",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Soltero/a",
-          "correct_answer": "Single",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I203",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Correo electrónico' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Age"
-            },
-            {
-              "id": "o2",
-              "text": "Phone number"
-            },
-            {
-              "id": "o1",
-              "text": "Email address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I204",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p1",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p2",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p3",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I205",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (ser/estar) ________ happy today.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I206",
+          "interaction_id": "A2_U1_B1_I154",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your first name\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I207",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w4",
-              "text": "old"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w3",
-              "text": "years"
-            },
-            {
-              "id": "w2",
-              "text": "twenty-five"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I208",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            },
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            },
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I209",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Código postal",
-          "correct_answer": "Postcode",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I210",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lugar de nacimiento' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Married"
-            },
-            {
-              "id": "o2",
-              "text": "Name"
-            },
-            {
-              "id": "o1",
-              "text": "Place of birth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I211",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p2",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p3",
-              "left": "Marital status",
-              "right": "Estado civil"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I212",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar) ________ my friends.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I213",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can you spell your surname?\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I214",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "email"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I215",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o1",
-              "text": "My name is John."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I216",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Apellido",
-          "correct_answer": "Surname",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I217",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Soltero/a' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Occupation"
-            },
-            {
-              "id": "o3",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o1",
-              "text": "Single"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I218",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Married",
-              "right": "Casado/a"
-            },
-            {
-              "id": "p1",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p2",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p3",
-              "left": "Age",
-              "right": "Edad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I219",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (tener) ________ a sister.",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I220",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are married or single\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I221",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "first"
-            },
-            {
-              "id": "w4",
-              "text": "name"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I222",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I223",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Firma",
-          "correct_answer": "Signature",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I224",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Código postal' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Marital status"
-            },
-            {
-              "id": "o3",
-              "text": "Married"
-            },
-            {
-              "id": "o1",
-              "text": "Postcode"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I225",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Occupation",
-              "right": "Profesión/Ocupación"
-            },
-            {
-              "id": "p1",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p2",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p3",
-              "left": "Name",
-              "right": "Nombre"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I226",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My name (ser/estar) ________ Carlos.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I227",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your job?\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I228",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "surname"
-            },
-            {
-              "id": "w2",
-              "text": "spell"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "Can"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I229",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            },
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I230",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nombre",
-          "correct_answer": "Name",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I231",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Apellido' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Single"
-            },
-            {
-              "id": "o1",
-              "text": "Surname"
-            },
-            {
-              "id": "o3",
-              "text": "Nationality"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I232",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Marital status",
-              "right": "Estado civil"
-            },
-            {
-              "id": "p1",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p2",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p3",
-              "left": "Surname",
-              "right": "Apellido"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I233",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (not / trabajar) ________ on Sundays.",
-          "correct_answer": "don't work",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I234",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i a teacher\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I235",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "or"
-            },
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w4",
-              "text": "single"
-            },
-            {
-              "id": "w0",
-              "text": "Are"
-            },
-            {
-              "id": "w2",
-              "text": "married"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I236",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I237",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Número de teléfono",
-          "correct_answer": "Phone number",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I238",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Firma' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Signature"
-            },
-            {
-              "id": "o3",
-              "text": "Single"
-            },
-            {
-              "id": "o2",
-              "text": "Phone number"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I239",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Age",
-              "right": "Edad"
-            },
-            {
-              "id": "p1",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p2",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p3",
-              "left": "Single",
-              "right": "Soltero/a"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I240",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (ser/estar) ________ from London.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I241",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I was born in Seville.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I242",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "job"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I243",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            },
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            },
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I244",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Edad",
-          "correct_answer": "Age",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I245",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nombre' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Age"
-            },
-            {
-              "id": "o1",
-              "text": "Name"
-            },
-            {
-              "id": "o2",
-              "text": "Surname"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I246",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Name",
-              "right": "Nombre"
-            },
-            {
-              "id": "p1",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p2",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p3",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I247",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Where ________ you from?",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I248",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sign please here\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I249",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w3",
-              "text": "teacher"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I250",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o1",
-              "text": "My name is John."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I251",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Fecha de nacimiento",
-          "correct_answer": "Date of birth",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I252",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Número de teléfono' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Age"
-            },
-            {
-              "id": "o3",
-              "text": "Name"
-            },
-            {
-              "id": "o1",
-              "text": "Phone number"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I253",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Surname",
-              "right": "Apellido"
-            },
-            {
-              "id": "p1",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p2",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p3",
-              "left": "Address",
-              "right": "Dirección"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I254",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (tener) ________ a new phone.",
-          "correct_answer": "have got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I255",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My phone number is 123456.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I256",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "Seville"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "was"
-            },
-            {
-              "id": "w2",
-              "text": "born"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I257",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            },
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I258",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Estado civil",
-          "correct_answer": "Marital status",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I259",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Edad' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o1",
-              "text": "Age"
-            },
-            {
-              "id": "o2",
-              "text": "Address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I260",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Single",
-              "right": "Soltero/a"
-            },
-            {
-              "id": "p1",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p2",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p3",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I261",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Do you ________ (saber/conocer) him?",
-          "correct_answer": "know",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I262",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i spanish\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I263",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "sign"
-            },
-            {
-              "id": "w2",
-              "text": "here"
-            },
-            {
-              "id": "w0",
-              "text": "Please"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I264",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I265",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nacionalidad",
-          "correct_answer": "Nationality",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I266",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Fecha de nacimiento' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Married"
-            },
-            {
-              "id": "o2",
-              "text": "Surname"
-            },
-            {
-              "id": "o1",
-              "text": "Date of birth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I267",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Email address",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p1",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p2",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p3",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I268",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (ser/estar) ________ a student.",
-          "correct_answer": "am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I269",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Where do you live?\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I270",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "phone"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "number"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w4",
-              "text": "123456"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I271",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How are you?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm fine, thanks. And you?"
-            },
-            {
-              "id": "o2",
-              "text": "I'm 20 years old."
-            },
-            {
-              "id": "o3",
-              "text": "I live in Paris."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I272",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Profesión/Ocupación",
-          "correct_answer": "Occupation",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I273",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estado civil' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Address"
-            },
-            {
-              "id": "o2",
-              "text": "Signature"
-            },
-            {
-              "id": "o1",
-              "text": "Marital status"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I274",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Address",
-              "right": "Dirección"
-            },
-            {
-              "id": "p1",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p2",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p3",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I275",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (hablar) ________ English.",
-          "correct_answer": "speaks",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I276",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Old how are you\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I277",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "Spanish"
-            },
-            {
-              "id": "w1",
-              "text": "am"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I278",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Fine, thanks."
-            },
-            {
-              "id": "o2",
-              "text": "I'm a doctor."
-            },
-            {
-              "id": "o1",
-              "text": "I'm from Spain."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I279",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Dirección",
-          "correct_answer": "Address",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I280",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nacionalidad' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Place of birth"
-            },
-            {
-              "id": "o1",
-              "text": "Nationality"
-            },
-            {
-              "id": "o3",
-              "text": "Surname"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I281",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nationality",
-              "right": "Nacionalidad"
-            },
-            {
-              "id": "p1",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p2",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p3",
-              "left": "Signature",
-              "right": "Firma"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I282",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (not / tener) ________ a car.",
-          "correct_answer": "hasn't got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I283",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Nice to meet you.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I284",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "live"
-            },
-            {
-              "id": "w2",
-              "text": "you"
-            },
-            {
-              "id": "w1",
-              "text": "do"
-            },
-            {
-              "id": "w0",
-              "text": "Where"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I285",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What's your name?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "My name is John."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o2",
-              "text": "I'm from Italy."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I286",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Casado/a",
-          "correct_answer": "Married",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I287",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Profesión/Ocupación' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nationality"
-            },
-            {
-              "id": "o3",
-              "text": "Date of birth"
-            },
-            {
-              "id": "o1",
-              "text": "Occupation"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I288",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Date of birth",
-              "right": "Fecha de nacimiento"
-            },
-            {
-              "id": "p1",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p2",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p3",
-              "left": "Postcode",
-              "right": "Código postal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I289",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "You (ser/estar) ________ very kind.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I290",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your nationality\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I291",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "old"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w0",
-              "text": "How"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I292",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"How do you spell your surname?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "B-R-O-W-N."
-            },
-            {
-              "id": "o3",
-              "text": "I am single."
-            },
-            {
-              "id": "o2",
-              "text": "It's 10 o'clock."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I293",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Correo electrónico",
-          "correct_answer": "Email address",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I294",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Phone number"
-            },
-            {
-              "id": "o1",
-              "text": "Address"
-            },
-            {
-              "id": "o2",
-              "text": "Place of birth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I295",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Phone number",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p1",
-              "left": "Signature",
-              "right": "Firma"
-            },
-            {
-              "id": "p2",
-              "left": "Postcode",
-              "right": "Código postal"
-            },
-            {
-              "id": "p3",
-              "left": "Place of birth",
-              "right": "Lugar de nacimiento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I296",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (vivir) ________ in Madrid.",
-          "correct_answer": "live",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I297",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am twenty-five years old.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I298",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Nice"
-            },
-            {
-              "id": "w2",
-              "text": "meet"
-            },
-            {
-              "id": "w3",
-              "text": "you"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I299",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Nice to meet you.\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nice to meet you too."
-            },
-            {
-              "id": "o2",
-              "text": "Good morning."
-            },
-            {
-              "id": "o3",
-              "text": "I'm sorry."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I300",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lugar de nacimiento",
-          "correct_answer": "Place of birth",
-          "mastery_tag": "vocabulary"
         }
       ]
     }

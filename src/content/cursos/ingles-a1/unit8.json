@@ -18,34 +18,70 @@
       "title": "Decades (20, 30, 40...)",
       "content": [
         {
-          "interaction_id": "U8_B1_I1",
+          "interaction_id": "A1_U8_B1_I1",
           "type": "matching",
           "prompt_es": "Relaciona las decenas:",
           "pairs": [
-            { "id": "p1", "left": "Twenty", "right": "Veinte" },
-            { "id": "p2", "left": "Thirty", "right": "Treinta" },
-            { "id": "p3", "left": "Forty", "right": "Cuarenta" },
-            { "id": "p4", "left": "Fifty", "right": "Cincuenta" }
+            {
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p2",
+              "left": "Thirty",
+              "right": "Treinta"
+            },
+            {
+              "id": "p3",
+              "left": "Forty",
+              "right": "Cuarenta"
+            },
+            {
+              "id": "p4",
+              "left": "Fifty",
+              "right": "Cincuenta"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "explanation": "Las decenas en inglés suelen terminar en '-ty'. Por ejemplo: Twenty (20), Thirty (30), Forty (40), Fifty (50).",
           "mastery_tag": "vocab:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U8_B1_I2",
+          "interaction_id": "A1_U8_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe 100 en inglés?",
           "options": [
-            { "id": "o1", "text": "Ten ten" },
-            { "id": "o2", "text": "One hundred" },
-            { "id": "o3", "text": "A thousand" }
+            {
+              "id": "o1",
+              "text": "Ten ten"
+            },
+            {
+              "id": "o2",
+              "text": "One hundred"
+            },
+            {
+              "id": "o3",
+              "text": "A thousand"
+            }
           ],
           "correct_answer": "o2",
           "explanation": "'One hundred' es 100. 'Ten ten' no existe y 'A thousand' es 1000.",
           "mastery_tag": "vocab:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 1
         }
       ]
@@ -55,29 +91,44 @@
       "title": "Compound Numbers",
       "content": [
         {
-          "interaction_id": "U8_B2_I1",
+          "interaction_id": "A1_U8_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el número 25?",
           "options": [
-            { "id": "o1", "text": "Twenty-five" },
-            { "id": "o2", "text": "Twenty and five" },
-            { "id": "o3", "text": "Second five" }
+            {
+              "id": "o1",
+              "text": "Twenty-five"
+            },
+            {
+              "id": "o2",
+              "text": "Twenty and five"
+            },
+            {
+              "id": "o3",
+              "text": "Second five"
+            }
           ],
           "correct_answer": "o1",
           "explanation": "En inglés, los números compuestos entre el 21 y el 99 siempre se escriben con un guión (hyphen) entre la decena y la unidad. Ejemplo: twenty-five, thirty-two, forty-seven.",
           "mastery_tag": "vocab:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U8_B2_I2",
+          "interaction_id": "A1_U8_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Escribe el número 42 en letras:",
           "stimulus_en": "________-two",
           "correct_answer": "Forty",
           "explanation": "Recuerda que 40 es 'Forty'. Pierde la 'u' que tiene el número 4 ('four').",
           "mastery_tag": "vocab:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 2
         }
       ]
@@ -87,35 +138,73 @@
       "title": "Ages and Context",
       "content": [
         {
-          "interaction_id": "U8_B3_I1",
+          "interaction_id": "A1_U8_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo treinta años.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "am" },
-            { "id": "w3", "text": "thirty" },
-            { "id": "w4", "text": "years" },
-            { "id": "w5", "text": "old." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "am"
+            },
+            {
+              "id": "w3",
+              "text": "thirty"
+            },
+            {
+              "id": "w4",
+              "text": "years"
+            },
+            {
+              "id": "w5",
+              "text": "old."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "explanation": "En inglés, la edad se expresa con el verbo 'to be' (am/is/are) y la estructura '[número] years old'. No se usa el verbo 'have'.",
           "mastery_tag": "syntax:age",
-          "concept_tags": ["syntax", "numbers", "to-be"],
+          "concept_tags": [
+            "syntax",
+            "numbers",
+            "to-be"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U8_B3_I2",
+          "interaction_id": "A1_U8_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "Si un libro cuesta $85, ¿cómo lo dices?",
           "options": [
-            { "id": "o1", "text": "It is eighty-five dollars." },
-            { "id": "o2", "text": "It is eighteen-five dollars." },
-            { "id": "o3", "text": "It is eight-fifty dollars." }
+            {
+              "id": "o1",
+              "text": "It is eighty-five dollars."
+            },
+            {
+              "id": "o2",
+              "text": "It is eighteen-five dollars."
+            },
+            {
+              "id": "o3",
+              "text": "It is eight-fifty dollars."
+            }
           ],
           "correct_answer": "o1",
           "explanation": "85 se dice 'eighty-five'. 'Eighteen-five' no es correcto y 'eight-fifty' significaría 8:50.",
           "mastery_tag": "vocab:numbers",
-          "concept_tags": ["vocabulary", "numbers", "prices"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers",
+            "prices"
+          ],
           "complexity": 2
         }
       ]

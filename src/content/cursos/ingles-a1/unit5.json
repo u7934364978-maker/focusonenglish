@@ -19,28 +19,55 @@
       "title": "Basic Verbs (I, You, We, They)",
       "content": [
         {
-          "interaction_id": "U5_B1_I1",
+          "interaction_id": "A1_U5_B1_I1",
           "type": "matching",
           "prompt_es": "Une el verbo con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "I work", "right": "Yo trabajo" },
-            { "id": "p2", "left": "I study", "right": "Yo estudio" },
-            { "id": "p3", "left": "I live", "right": "Yo vivo" },
-            { "id": "p4", "left": "I like", "right": "Me gusta" }
+            {
+              "id": "p1",
+              "left": "I work",
+              "right": "Yo trabajo"
+            },
+            {
+              "id": "p2",
+              "left": "I study",
+              "right": "Yo estudio"
+            },
+            {
+              "id": "p3",
+              "left": "I live",
+              "right": "Yo vivo"
+            },
+            {
+              "id": "p4",
+              "left": "I like",
+              "right": "Me gusta"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary:verbs",
-          "concept_tags": ["vocabulary", "verbs"],
+          "concept_tags": [
+            "vocabulary",
+            "verbs"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U5_B1_I2",
+          "interaction_id": "A1_U5_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Yo vivo en Madrid.'",
           "stimulus_en": "I ________ in Madrid.",
           "correct_answer": "live",
           "mastery_tag": "grammar:simple-present",
-          "concept_tags": ["grammar", "verbs"],
+          "concept_tags": [
+            "grammar",
+            "verbs"
+          ],
           "complexity": 2
         }
       ]
@@ -50,28 +77,17 @@
       "title": "The Third Person Singular (He, She, It)",
       "content": [
         {
-          "interaction_id": "U5_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta para 'Él trabaja'?",
-          "options": [
-            { "id": "o1", "text": "He work" },
-            { "id": "o2", "text": "He works" }
-          ],
-          "correct_answer": "o2",
-          "explanation": "En el presente simple, añadimos una 's' al verbo cuando el sujeto es He, She o It.",
-          "mastery_tag": "grammar:simple-present:s-rule",
-          "concept_tags": ["grammar", "verbs"],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U5_B2_I2",
+          "interaction_id": "A1_U5_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Ella estudia inglés.'",
           "stimulus_en": "She ________ English.",
           "correct_answer": "studies",
           "explanation": "Recuerda: para verbos que terminan en consonante + y, cambiamos la 'y' por 'ies'.",
           "mastery_tag": "grammar:simple-present:s-rule",
-          "concept_tags": ["grammar", "verbs"],
+          "concept_tags": [
+            "grammar",
+            "verbs"
+          ],
           "complexity": 3
         }
       ]
@@ -81,32 +97,73 @@
       "title": "Simple Sentences",
       "content": [
         {
-          "interaction_id": "U5_B3_I1",
+          "interaction_id": "A1_U5_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ellos hablan inglés.'",
           "options": [
-            { "id": "w1", "text": "They" },
-            { "id": "w2", "text": "speak" },
-            { "id": "w3", "text": "English." }
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "speak"
+            },
+            {
+              "id": "w3",
+              "text": "English."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax:simple-present",
-          "concept_tags": ["grammar", "syntax", "verbs"],
+          "concept_tags": [
+            "grammar",
+            "syntax",
+            "verbs"
+          ],
           "complexity": 2
         },
         {
-          "interaction_id": "U5_B3_I2",
+          "interaction_id": "A1_U5_B3_I2",
           "type": "matching",
           "prompt_es": "Une el sujeto con el verbo correcto:",
           "pairs": [
-            { "id": "p1", "left": "I", "right": "play" },
-            { "id": "p2", "left": "He", "right": "plays" },
-            { "id": "p3", "left": "We", "right": "play" },
-            { "id": "p4", "left": "She", "right": "plays" }
+            {
+              "id": "p1",
+              "left": "I",
+              "right": "play"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "plays"
+            },
+            {
+              "id": "p3",
+              "left": "We",
+              "right": "play"
+            },
+            {
+              "id": "p4",
+              "left": "She",
+              "right": "plays"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar:simple-present:agreement",
-          "concept_tags": ["grammar", "verbs"],
+          "concept_tags": [
+            "grammar",
+            "verbs"
+          ],
           "complexity": 2
         }
       ]

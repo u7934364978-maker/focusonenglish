@@ -19,7 +19,7 @@
       "title": "Vocabulary: Important Buildings",
       "content": [
         {
-          "interaction_id": "U24_B1_I1",
+          "interaction_id": "A1_U24_B1_I1",
           "type": "matching",
           "prompt_es": "Une los lugares con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B1_I2",
+          "interaction_id": "A1_U24_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde compras comida?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B1_I3",
+          "interaction_id": "A1_U24_B1_I3",
           "type": "flashcard",
           "prompt_es": "Lugar de estudio:",
           "stimulus_en": "Library vs. Bookshop",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B1_I4",
+          "interaction_id": "A1_U24_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Parque'?",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B1_I5",
+          "interaction_id": "A1_U24_B1_I5",
           "type": "matching",
           "prompt_es": "Más lugares de la ciudad:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Town Prepositions",
       "content": [
         {
-          "interaction_id": "U24_B2_I6",
+          "interaction_id": "A1_U24_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "'The bank is between the cinema and the cafe'. 'Between' significa:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B2_I7",
+          "interaction_id": "A1_U24_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'opposite' (en frente de/al otro lado) o 'next to':",
           "stimulus_en": "The pharmacy is ________ the hospital.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B2_I8",
+          "interaction_id": "A1_U24_B2_I3",
           "type": "true_false",
           "prompt_es": "¿'In front of' significa 'en frente de' (al otro lado de la calle)?",
           "correct_answer": false,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B2_I9",
+          "interaction_id": "A1_U24_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dirías 'El parque está delante de la escuela'?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B2_I10",
+          "interaction_id": "A1_U24_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa con la preposición correcta para 3 lugares:",
           "stimulus_en": "The bank is ________ the cinema and the post office.",
@@ -264,7 +264,7 @@
       "title": "Syntax & Giving Locations",
       "content": [
         {
-          "interaction_id": "U24_B3_I11",
+          "interaction_id": "A1_U24_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Dónde está el supermercado?'",
           "options": [
@@ -299,7 +299,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B3_I12",
+          "interaction_id": "A1_U24_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Está al lado del cine'",
           "options": [
@@ -344,7 +344,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B3_I13",
+          "interaction_id": "A1_U24_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Hay un banco en mi calle'",
           "stimulus_en": "There is a bank on my street",
@@ -357,7 +357,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B3_I14",
+          "interaction_id": "A1_U24_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con el lugar lógico:",
           "stimulus_en": "I watch movies at the ________.",
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B3_I15",
+          "interaction_id": "A1_U24_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El restaurante está en frente del banco'",
           "options": [
@@ -421,35 +421,7 @@
       "title": "Reading & Neighborhood Review",
       "content": [
         {
-          "interaction_id": "U24_B4_I16",
-          "type": "reading-comprehension",
-          "title": "My Neighborhood",
-          "text": "I live in a small town. In the center, there is a big park. Opposite the park, there is a cinema. Between the cinema and the bank, there is a small Italian restaurant. My school is next to the hospital.",
-          "question": "¿Qué hay en frente (opposite) del parque?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A bank"
-            },
-            {
-              "id": "o2",
-              "text": "A cinema"
-            },
-            {
-              "id": "o3",
-              "text": "A restaurant"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U24_B4_I17",
+          "interaction_id": "A1_U24_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde está el restaurante italiano?",
           "options": [
@@ -475,20 +447,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/e93d0ce6a6d1cc6e07c83379a3f7980d.mp3",
-          "text": "The supermarket is between the bank and the pharmacy.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U24_B4_I19",
+          "interaction_id": "A1_U24_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'Where do you go to buy medicine?'",
           "stimulus_es": "A la farmacia",
@@ -501,7 +460,7 @@
           ]
         },
         {
-          "interaction_id": "U24_B4_I20",
+          "interaction_id": "A1_U24_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Servicios u Ocio:",
           "categories": [

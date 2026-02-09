@@ -13,7 +13,7 @@
       "title": "Nature & Landscapes",
       "content": [
         {
-          "interaction_id": "U27_I1",
+          "interaction_id": "A2_U27_B27_I1",
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
@@ -47,7 +47,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I2",
+          "interaction_id": "A2_U27_B27_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "This lake is the ________ (deep) in the country.",
@@ -55,14 +55,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I3",
+          "interaction_id": "A2_U27_B27_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is an expert on local wildlife.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I4",
+          "interaction_id": "A2_U27_B27_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
@@ -107,7 +107,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I5",
+          "interaction_id": "A2_U27_B27_I5",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
           "options": [
@@ -128,7 +128,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U27_I6",
+          "interaction_id": "A2_U27_B27_I6",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mar",
@@ -136,7 +136,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I7",
+          "interaction_id": "A2_U27_B27_I7",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Valle' en inglés?",
           "options": [
@@ -157,41 +157,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I8",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p1",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p3",
-              "left": "River",
-              "right": "Río"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I9",
+          "interaction_id": "A2_U27_B27_I9",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It is the ________ (large) island in the world.",
@@ -199,14 +165,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I10",
+          "interaction_id": "A2_U27_B27_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Trees the are changing color in the woods\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I11",
+          "interaction_id": "A2_U27_B27_I11",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
@@ -256,7 +222,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I12",
+          "interaction_id": "A2_U27_B27_I12",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
           "options": [
@@ -277,7 +243,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U27_I13",
+          "interaction_id": "A2_U27_B27_I13",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Medio ambiente",
@@ -285,7 +251,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I14",
+          "interaction_id": "A2_U27_B27_I14",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Montaña' en inglés?",
           "options": [
@@ -306,41 +272,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I15",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p2",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p3",
-              "left": "Lake",
-              "right": "Lago"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I16",
+          "interaction_id": "A2_U27_B27_I16",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The scenery is ________ (beautiful) in autumn.",
@@ -348,59 +280,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I17",
+          "interaction_id": "A2_U27_B27_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The island is only accessible by boat.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I18",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "expert"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "wildlife"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "local"
-            },
-            {
-              "id": "w2",
-              "text": "an"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I19",
+          "interaction_id": "A2_U27_B27_I19",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
           "options": [
@@ -421,7 +308,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U27_I20",
+          "interaction_id": "A2_U27_B27_I20",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lago",
@@ -429,7 +316,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I21",
+          "interaction_id": "A2_U27_B27_I21",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Mar' en inglés?",
           "options": [
@@ -450,41 +337,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I22",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p1",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p2",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p3",
-              "left": "Sea",
-              "right": "Mar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I23",
+          "interaction_id": "A2_U27_B27_I23",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ hiking in the valley.",
@@ -492,64 +345,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I24",
+          "interaction_id": "A2_U27_B27_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Environment the must be protected\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I25",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "changing"
-            },
-            {
-              "id": "w1",
-              "text": "trees"
-            },
-            {
-              "id": "w4",
-              "text": "color"
-            },
-            {
-              "id": "w7",
-              "text": "woods"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I26",
+          "interaction_id": "A2_U27_B27_I26",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
           "options": [
@@ -570,7 +373,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U27_I27",
+          "interaction_id": "A2_U27_B27_I27",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Isla",
@@ -578,7 +381,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I28",
+          "interaction_id": "A2_U27_B27_I28",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Medio ambiente' en inglés?",
           "options": [
@@ -599,41 +402,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I29",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p1",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p2",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p3",
-              "left": "Valley",
-              "right": "Valle"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I30",
+          "interaction_id": "A2_U27_B27_I30",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The mountain is ________ (high) than the hill.",
@@ -641,59 +410,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I31",
+          "interaction_id": "A2_U27_B27_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is it the highest mountain in Europe?\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I32",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "accessible"
-            },
-            {
-              "id": "w1",
-              "text": "island"
-            },
-            {
-              "id": "w6",
-              "text": "boat"
-            },
-            {
-              "id": "w5",
-              "text": "by"
-            },
-            {
-              "id": "w3",
-              "text": "only"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I33",
+          "interaction_id": "A2_U27_B27_I33",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
           "options": [
@@ -714,7 +438,7 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U27_I34",
+          "interaction_id": "A2_U27_B27_I34",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Río",
@@ -722,7 +446,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I35",
+          "interaction_id": "A2_U27_B27_I35",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lago' en inglés?",
           "options": [
@@ -743,41 +467,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I36",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p1",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p2",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p3",
-              "left": "Scenery",
-              "right": "Paisaje"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I37",
+          "interaction_id": "A2_U27_B27_I37",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (love) ________ walking by the coast.",
@@ -785,14 +475,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I38",
+          "interaction_id": "A2_U27_B27_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sea the was very calm today\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I39",
+          "interaction_id": "A2_U27_B27_I39",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
@@ -827,28 +517,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I40",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I41",
+          "interaction_id": "A2_U27_B27_I40",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Naturaleza",
@@ -856,7 +525,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I42",
+          "interaction_id": "A2_U27_B27_I41",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Isla' en inglés?",
           "options": [
@@ -877,41 +546,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I43",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p1",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p2",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p3",
-              "left": "Forest",
-              "right": "Bosque"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I44",
+          "interaction_id": "A2_U27_B27_I43",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The river (flow) ________ into the sea.",
@@ -919,80 +554,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I45",
+          "interaction_id": "A2_U27_B27_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We walked through a dense forest.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Is"
-            },
-            {
-              "id": "w3",
-              "text": "highest"
-            },
-            {
-              "id": "w6",
-              "text": "Europe"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "mountain"
-            },
-            {
-              "id": "w1",
-              "text": "it"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "In the sea."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I48",
+          "interaction_id": "A2_U27_B27_I46",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cascada",
@@ -1000,7 +569,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I49",
+          "interaction_id": "A2_U27_B27_I47",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Río' en inglés?",
           "options": [
@@ -1021,41 +590,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I50",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p1",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p2",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p3",
-              "left": "Hill",
-              "right": "Colina"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I51",
+          "interaction_id": "A2_U27_B27_I49",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are ________ any animals in the woods?",
@@ -1063,14 +598,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I52",
+          "interaction_id": "A2_U27_B27_I50",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spent we the day at the coast\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I53",
+          "interaction_id": "A2_U27_B27_I51",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
@@ -1110,28 +645,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I55",
+          "interaction_id": "A2_U27_B27_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Colina",
@@ -1139,7 +653,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I56",
+          "interaction_id": "A2_U27_B27_I54",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Naturaleza' en inglés?",
           "options": [
@@ -1160,41 +674,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I57",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p1",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p3",
-              "left": "Nature",
-              "right": "Naturaleza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I58",
+          "interaction_id": "A2_U27_B27_I56",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The forest (ser/estar) ________ full of trees.",
@@ -1202,75 +682,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I59",
+          "interaction_id": "A2_U27_B27_I57",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The valley is very green in the spring.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I60",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "through"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w5",
-              "text": "forest"
-            },
-            {
-              "id": "w1",
-              "text": "walked"
-            },
-            {
-              "id": "w4",
-              "text": "dense"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I61",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            },
-            {
-              "id": "o2",
-              "text": "It's very high."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I62",
+          "interaction_id": "A2_U27_B27_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Arboleda/Bosque",
@@ -1278,7 +697,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I63",
+          "interaction_id": "A2_U27_B27_I60",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cascada' en inglés?",
           "options": [
@@ -1299,41 +718,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I64",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p2",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p3",
-              "left": "Island",
-              "right": "Isla"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I65",
+          "interaction_id": "A2_U27_B27_I62",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "There (ser/estar) ________ a beautiful river here.",
@@ -1341,80 +726,14 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U27_I66",
+          "interaction_id": "A2_U27_B27_I63",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is there a beautiful waterfall near the village\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I67",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "coast"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w1",
-              "text": "spent"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "day"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I68",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            },
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I69",
+          "interaction_id": "A2_U27_B27_I66",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Bosque",
@@ -1422,7 +741,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I70",
+          "interaction_id": "A2_U27_B27_I67",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Colina' en inglés?",
           "options": [
@@ -1443,127 +762,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I71",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p1",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p2",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p3",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I72",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This lake is the ________ (deep) in the country.",
-          "correct_answer": "deepest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I73",
+          "interaction_id": "A2_U27_B27_I69",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What a beautiful landscape!\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I74",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w7",
-              "text": "spring"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "valley"
-            },
-            {
-              "id": "w4",
-              "text": "green"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I75",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I76",
+          "interaction_id": "A2_U27_B27_I72",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Océano",
@@ -1571,7 +777,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I77",
+          "interaction_id": "A2_U27_B27_I73",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Arboleda/Bosque' en inglés?",
           "options": [
@@ -1592,127 +798,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I78",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p1",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p2",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p3",
-              "left": "Mountain",
-              "right": "Montaña"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I79",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "It is the ________ (large) island in the world.",
-          "correct_answer": "largest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I80",
+          "interaction_id": "A2_U27_B27_I75",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lake the is perfect for swimming in summer\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I81",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "near"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w4",
-              "text": "waterfall"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "village"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I82",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I83",
+          "interaction_id": "A2_U27_B27_I78",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Paisaje",
@@ -1720,7 +813,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I84",
+          "interaction_id": "A2_U27_B27_I79",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Bosque' en inglés?",
           "options": [
@@ -1741,56 +834,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I85",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p1",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p2",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p3",
-              "left": "Coast",
-              "right": "Costa"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I86",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The scenery is ________ (beautiful) in autumn.",
-          "correct_answer": "more beautiful",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I87",
+          "interaction_id": "A2_U27_B27_I81",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The scenery in the mountains is breathtaking.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I88",
+          "interaction_id": "A2_U27_B27_I82",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
@@ -1820,28 +871,7 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I89",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I90",
+          "interaction_id": "A2_U27_B27_I84",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Costa",
@@ -1849,7 +879,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I91",
+          "interaction_id": "A2_U27_B27_I85",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Océano' en inglés?",
           "options": [
@@ -1870,127 +900,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I92",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p1",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p2",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p3",
-              "left": "Ocean",
-              "right": "Océano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I93",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar) ________ hiking in the valley.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I94",
+          "interaction_id": "A2_U27_B27_I87",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"River the is very long and deep\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I95",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "perfect"
-            },
-            {
-              "id": "w5",
-              "text": "swimming"
-            },
-            {
-              "id": "w7",
-              "text": "summer"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "lake"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I96",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's very high."
-            },
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I97",
+          "interaction_id": "A2_U27_B27_I90",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Valle",
@@ -1998,7 +915,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I98",
+          "interaction_id": "A2_U27_B27_I91",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Paisaje' en inglés?",
           "options": [
@@ -2019,122 +936,14 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I99",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p1",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p2",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p3",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I100",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The mountain is ________ (high) than the hill.",
-          "correct_answer": "higher",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I101",
+          "interaction_id": "A2_U27_B27_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I love the peace and quiet of nature.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I102",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "mountains"
-            },
-            {
-              "id": "w1",
-              "text": "scenery"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "breathtaking"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I103",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            },
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            },
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I104",
+          "interaction_id": "A2_U27_B27_I96",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Montaña",
@@ -2142,7 +951,7 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I105",
+          "interaction_id": "A2_U27_B27_I97",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Costa' en inglés?",
           "options": [
@@ -2163,3990 +972,109 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U27_I106",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p1",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p2",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p3",
-              "left": "Waterfall",
-              "right": "Cascada"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I107",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (love) ________ walking by the coast.",
-          "correct_answer": "love",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I108",
+          "interaction_id": "A2_U27_B27_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he an expert on local wildlife\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I109",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w1",
-              "text": "river"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "long"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "deep"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I110",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I111",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Mar",
-          "correct_answer": "Sea",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I112",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Valle' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Forest"
-            },
-            {
-              "id": "o3",
-              "text": "Waterfall"
-            },
-            {
-              "id": "o1",
-              "text": "Valley"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I113",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p1",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p3",
-              "left": "River",
-              "right": "Río"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I114",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The river (flow) ________ into the sea.",
-          "correct_answer": "flows",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I115",
+          "interaction_id": "A2_U27_B27_I101",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The trees are changing color in the woods.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I116",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "love"
-            },
-            {
-              "id": "w7",
-              "text": "nature"
-            },
-            {
-              "id": "w3",
-              "text": "peace"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "quiet"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I117",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I118",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Medio ambiente",
-          "correct_answer": "Environment",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I119",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Montaña' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nature"
-            },
-            {
-              "id": "o2",
-              "text": "Island"
-            },
-            {
-              "id": "o1",
-              "text": "Mountain"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I120",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p2",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p3",
-              "left": "Lake",
-              "right": "Lago"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I121",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Are ________ any animals in the woods?",
-          "correct_answer": "there",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I122",
+          "interaction_id": "A2_U27_B27_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Island the is only accessible by boat\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I123",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "local"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "wildlife"
-            },
-            {
-              "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "expert"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I124",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I125",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lago",
-          "correct_answer": "Lake",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mar' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Valley"
-            },
-            {
-              "id": "o2",
-              "text": "Forest"
-            },
-            {
-              "id": "o1",
-              "text": "Sea"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I127",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p1",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p2",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p3",
-              "left": "Sea",
-              "right": "Mar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I128",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The forest (ser/estar) ________ full of trees.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I129",
+          "interaction_id": "A2_U27_B27_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The environment must be protected.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "changing"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "color"
-            },
-            {
-              "id": "w1",
-              "text": "trees"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "woods"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I131",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's very high."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            },
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I132",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Isla",
-          "correct_answer": "Island",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I133",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Medio ambiente' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Environment"
-            },
-            {
-              "id": "o3",
-              "text": "Sea"
-            },
-            {
-              "id": "o2",
-              "text": "Ocean"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I134",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p1",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p2",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p3",
-              "left": "Valley",
-              "right": "Valle"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I135",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "There (ser/estar) ________ a beautiful river here.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I136",
+          "interaction_id": "A2_U27_B27_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It is the highest mountain in europe\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I137",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "only"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "island"
-            },
-            {
-              "id": "w6",
-              "text": "boat"
-            },
-            {
-              "id": "w5",
-              "text": "by"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "accessible"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            },
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I139",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Río",
-          "correct_answer": "River",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I140",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lago' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nature"
-            },
-            {
-              "id": "o1",
-              "text": "Lake"
-            },
-            {
-              "id": "o2",
-              "text": "Environment"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I141",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p1",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p2",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p3",
-              "left": "Scenery",
-              "right": "Paisaje"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I142",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This lake is the ________ (deep) in the country.",
-          "correct_answer": "deepest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I143",
+          "interaction_id": "A2_U27_B27_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The sea was very calm today.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I144",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "protected"
-            },
-            {
-              "id": "w1",
-              "text": "environment"
-            },
-            {
-              "id": "w3",
-              "text": "be"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "must"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I145",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I146",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Naturaleza",
-          "correct_answer": "Nature",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I147",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Isla' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Waterfall"
-            },
-            {
-              "id": "o1",
-              "text": "Island"
-            },
-            {
-              "id": "o2",
-              "text": "Valley"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I148",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p1",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p2",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p3",
-              "left": "Forest",
-              "right": "Bosque"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I149",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "It is the ________ (large) island in the world.",
-          "correct_answer": "largest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I150",
+          "interaction_id": "A2_U27_B27_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Walked we through a dense forest\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I151",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Is"
-            },
-            {
-              "id": "w1",
-              "text": "it"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w3",
-              "text": "highest"
-            },
-            {
-              "id": "w6",
-              "text": "Europe"
-            },
-            {
-              "id": "w4",
-              "text": "mountain"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I152",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I153",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cascada",
-          "correct_answer": "Waterfall",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I154",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Río' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Lake"
-            },
-            {
-              "id": "o3",
-              "text": "Island"
-            },
-            {
-              "id": "o1",
-              "text": "River"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I155",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p1",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p2",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p3",
-              "left": "Hill",
-              "right": "Colina"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I156",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The scenery is ________ (beautiful) in autumn.",
-          "correct_answer": "more beautiful",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I157",
+          "interaction_id": "A2_U27_B27_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We spent the day at the coast.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I158",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "today"
-            },
-            {
-              "id": "w1",
-              "text": "sea"
-            },
-            {
-              "id": "w2",
-              "text": "was"
-            },
-            {
-              "id": "w4",
-              "text": "calm"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I159",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I160",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Colina",
-          "correct_answer": "Hill",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I161",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Naturaleza' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Ocean"
-            },
-            {
-              "id": "o3",
-              "text": "Hill"
-            },
-            {
-              "id": "o1",
-              "text": "Nature"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I162",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p1",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p3",
-              "left": "Nature",
-              "right": "Naturaleza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I163",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar) ________ hiking in the valley.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I164",
+          "interaction_id": "A2_U27_B27_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Valley the is very green in the spring\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I165",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "walked"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "through"
-            },
-            {
-              "id": "w5",
-              "text": "forest"
-            },
-            {
-              "id": "w4",
-              "text": "dense"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I166",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            },
-            {
-              "id": "o2",
-              "text": "It's very high."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I167",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Arboleda/Bosque",
-          "correct_answer": "Woods",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cascada' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Waterfall"
-            },
-            {
-              "id": "o3",
-              "text": "Mountain"
-            },
-            {
-              "id": "o2",
-              "text": "Nature"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I169",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p2",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p3",
-              "left": "Island",
-              "right": "Isla"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I170",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The mountain is ________ (high) than the hill.",
-          "correct_answer": "higher",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I171",
+          "interaction_id": "A2_U27_B27_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There is a beautiful waterfall near the village.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "day"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "spent"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w6",
-              "text": "coast"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            },
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I174",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Bosque",
-          "correct_answer": "Forest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I175",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Colina' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hill"
-            },
-            {
-              "id": "o3",
-              "text": "Valley"
-            },
-            {
-              "id": "o2",
-              "text": "Waterfall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I176",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p1",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p2",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p3",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I177",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (love) ________ walking by the coast.",
-          "correct_answer": "love",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I178",
+          "interaction_id": "A2_U27_B27_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"A what beautiful landscape\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I179",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "valley"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "spring"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "green"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I180",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I181",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Océano",
-          "correct_answer": "Ocean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I182",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Arboleda/Bosque' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Hill"
-            },
-            {
-              "id": "o1",
-              "text": "Woods"
-            },
-            {
-              "id": "o3",
-              "text": "Nature"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I183",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p1",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p2",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p3",
-              "left": "Mountain",
-              "right": "Montaña"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I184",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The river (flow) ________ into the sea.",
-          "correct_answer": "flows",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I185",
+          "interaction_id": "A2_U27_B27_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The lake is perfect for swimming in summer.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I186",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "waterfall"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "near"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "village"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I187",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I188",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Paisaje",
-          "correct_answer": "Scenery",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I189",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bosque' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Island"
-            },
-            {
-              "id": "o1",
-              "text": "Forest"
-            },
-            {
-              "id": "o2",
-              "text": "Hill"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I190",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p1",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p2",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p3",
-              "left": "Coast",
-              "right": "Costa"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I191",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Are ________ any animals in the woods?",
-          "correct_answer": "there",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I192",
+          "interaction_id": "A2_U27_B27_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scenery the in the mountains is breathtaking\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I193",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "landscape"
-            },
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "beautiful"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I194",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I195",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Costa",
-          "correct_answer": "Coast",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I196",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Océano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Ocean"
-            },
-            {
-              "id": "o2",
-              "text": "Mountain"
-            },
-            {
-              "id": "o3",
-              "text": "Sea"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I197",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p1",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p2",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p3",
-              "left": "Ocean",
-              "right": "Océano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I198",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The forest (ser/estar) ________ full of trees.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I199",
+          "interaction_id": "A2_U27_B27_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The river is very long and deep.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U27_I200",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "summer"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "swimming"
-            },
-            {
-              "id": "w1",
-              "text": "lake"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "perfect"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I201",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's very high."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            },
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I202",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Valle",
-          "correct_answer": "Valley",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I203",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Paisaje' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Ocean"
-            },
-            {
-              "id": "o3",
-              "text": "Nature"
-            },
-            {
-              "id": "o1",
-              "text": "Scenery"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I204",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p1",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p2",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p3",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I205",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "There (ser/estar) ________ a beautiful river here.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I206",
+          "interaction_id": "A2_U27_B27_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Love i the peace and quiet of nature\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I207",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "breathtaking"
-            },
-            {
-              "id": "w2",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "scenery"
-            },
-            {
-              "id": "w4",
-              "text": "mountains"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I208",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            },
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I209",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Montaña",
-          "correct_answer": "Mountain",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I210",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Costa' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Valley"
-            },
-            {
-              "id": "o1",
-              "text": "Coast"
-            },
-            {
-              "id": "o2",
-              "text": "Waterfall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I211",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Coast",
-              "right": "Costa"
-            },
-            {
-              "id": "p1",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p2",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p3",
-              "left": "Waterfall",
-              "right": "Cascada"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I212",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This lake is the ________ (deep) in the country.",
-          "correct_answer": "deepest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I213",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is an expert on local wildlife.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I214",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "river"
-            },
-            {
-              "id": "w4",
-              "text": "long"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w6",
-              "text": "deep"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I215",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I216",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Mar",
-          "correct_answer": "Sea",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I217",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Valle' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Valley"
-            },
-            {
-              "id": "o2",
-              "text": "Forest"
-            },
-            {
-              "id": "o3",
-              "text": "Lake"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I218",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ocean",
-              "right": "Océano"
-            },
-            {
-              "id": "p1",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p3",
-              "left": "River",
-              "right": "Río"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I219",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "It is the ________ (large) island in the world.",
-          "correct_answer": "largest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I220",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Trees the are changing color in the woods\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I221",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "peace"
-            },
-            {
-              "id": "w7",
-              "text": "nature"
-            },
-            {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "love"
-            },
-            {
-              "id": "w5",
-              "text": "quiet"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I222",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I223",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Medio ambiente",
-          "correct_answer": "Environment",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I224",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Montaña' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mountain"
-            },
-            {
-              "id": "o3",
-              "text": "Ocean"
-            },
-            {
-              "id": "o2",
-              "text": "Scenery"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I225",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Woods",
-              "right": "Arboleda/Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p2",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p3",
-              "left": "Lake",
-              "right": "Lago"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I226",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The scenery is ________ (beautiful) in autumn.",
-          "correct_answer": "more beautiful",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I227",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The island is only accessible by boat.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I228",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "expert"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w2",
-              "text": "an"
-            },
-            {
-              "id": "w5",
-              "text": "local"
-            },
-            {
-              "id": "w6",
-              "text": "wildlife"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I229",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "In the forest."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I230",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lago",
-          "correct_answer": "Lake",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I231",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mar' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Waterfall"
-            },
-            {
-              "id": "o1",
-              "text": "Sea"
-            },
-            {
-              "id": "o3",
-              "text": "Island"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I232",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Waterfall",
-              "right": "Cascada"
-            },
-            {
-              "id": "p1",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p2",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p3",
-              "left": "Sea",
-              "right": "Mar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I233",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (ser/estar) ________ hiking in the valley.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I234",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Environment the must be protected\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I235",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "changing"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "trees"
-            },
-            {
-              "id": "w4",
-              "text": "color"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "woods"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I236",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            },
-            {
-              "id": "o2",
-              "text": "It's very high."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I237",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Isla",
-          "correct_answer": "Island",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I238",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Medio ambiente' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Forest"
-            },
-            {
-              "id": "o1",
-              "text": "Environment"
-            },
-            {
-              "id": "o3",
-              "text": "Hill"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I239",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "River",
-              "right": "Río"
-            },
-            {
-              "id": "p1",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p2",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p3",
-              "left": "Valley",
-              "right": "Valle"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I240",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The mountain is ________ (high) than the hill.",
-          "correct_answer": "higher",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I241",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is it the highest mountain in Europe?\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I242",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "island"
-            },
-            {
-              "id": "w5",
-              "text": "by"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "only"
-            },
-            {
-              "id": "w4",
-              "text": "accessible"
-            },
-            {
-              "id": "w6",
-              "text": "boat"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I243",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            },
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I244",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Río",
-          "correct_answer": "River",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I245",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lago' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nature"
-            },
-            {
-              "id": "o3",
-              "text": "Valley"
-            },
-            {
-              "id": "o1",
-              "text": "Lake"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I246",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Lake",
-              "right": "Lago"
-            },
-            {
-              "id": "p1",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p2",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p3",
-              "left": "Scenery",
-              "right": "Paisaje"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I247",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (love) ________ walking by the coast.",
-          "correct_answer": "love",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I248",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sea the was very calm today\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I249",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "must"
-            },
-            {
-              "id": "w4",
-              "text": "protected"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w1",
-              "text": "environment"
-            },
-            {
-              "id": "w3",
-              "text": "be"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I250",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I251",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Naturaleza",
-          "correct_answer": "Nature",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I252",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Isla' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Island"
-            },
-            {
-              "id": "o2",
-              "text": "Hill"
-            },
-            {
-              "id": "o3",
-              "text": "Environment"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I253",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Sea",
-              "right": "Mar"
-            },
-            {
-              "id": "p1",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p2",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p3",
-              "left": "Forest",
-              "right": "Bosque"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I254",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The river (flow) ________ into the sea.",
-          "correct_answer": "flows",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I255",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We walked through a dense forest.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I256",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "it"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w4",
-              "text": "mountain"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "highest"
-            },
-            {
-              "id": "w6",
-              "text": "Europe"
-            },
-            {
-              "id": "w0",
-              "text": "Is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I257",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "In the sea."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I258",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cascada",
-          "correct_answer": "Waterfall",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I259",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Río' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Lake"
-            },
-            {
-              "id": "o1",
-              "text": "River"
-            },
-            {
-              "id": "o3",
-              "text": "Coast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I260",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Valley",
-              "right": "Valle"
-            },
-            {
-              "id": "p1",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p2",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p3",
-              "left": "Hill",
-              "right": "Colina"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I261",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Are ________ any animals in the woods?",
-          "correct_answer": "there",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I262",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spent we the day at the coast\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I263",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "today"
-            },
-            {
-              "id": "w2",
-              "text": "was"
-            },
-            {
-              "id": "w1",
-              "text": "sea"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w4",
-              "text": "calm"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I264",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "In the forest."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I265",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Colina",
-          "correct_answer": "Hill",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I266",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Naturaleza' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nature"
-            },
-            {
-              "id": "o3",
-              "text": "Valley"
-            },
-            {
-              "id": "o2",
-              "text": "Scenery"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I267",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Scenery",
-              "right": "Paisaje"
-            },
-            {
-              "id": "p1",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p2",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p3",
-              "left": "Nature",
-              "right": "Naturaleza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I268",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The forest (ser/estar) ________ full of trees.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I269",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The valley is very green in the spring.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I270",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w4",
-              "text": "dense"
-            },
-            {
-              "id": "w5",
-              "text": "forest"
-            },
-            {
-              "id": "w1",
-              "text": "walked"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w2",
-              "text": "through"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I271",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What is the highest mountain in your country?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "It's very high."
-            },
-            {
-              "id": "o3",
-              "text": "In Spain."
-            },
-            {
-              "id": "o1",
-              "text": "It's called Mount Teide."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I272",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Arboleda/Bosque",
-          "correct_answer": "Woods",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I273",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cascada' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Waterfall"
-            },
-            {
-              "id": "o3",
-              "text": "Island"
-            },
-            {
-              "id": "o2",
-              "text": "Coast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I274",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Forest",
-              "right": "Bosque"
-            },
-            {
-              "id": "p1",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p2",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p3",
-              "left": "Island",
-              "right": "Isla"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I275",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "There (ser/estar) ________ a beautiful river here.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I276",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is there a beautiful waterfall near the village\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I277",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "coast"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "day"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "spent"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I278",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Is it far to the top of the hill?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, it's about a twenty-minute walk."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I am tired."
-            },
-            {
-              "id": "o3",
-              "text": "No, it isn't."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I279",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Bosque",
-          "correct_answer": "Forest",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I280",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Colina' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hill"
-            },
-            {
-              "id": "o2",
-              "text": "Ocean"
-            },
-            {
-              "id": "o3",
-              "text": "Sea"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I281",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hill",
-              "right": "Colina"
-            },
-            {
-              "id": "p1",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p2",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p3",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I282",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This lake is the ________ (deep) in the country.",
-          "correct_answer": "deepest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I283",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What a beautiful landscape!\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I284",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w7",
-              "text": "spring"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "valley"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "green"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I285",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Do you like spending time in nature?\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "No, I'm a student."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I do."
-            },
-            {
-              "id": "o1",
-              "text": "Yes, I find it very relaxing."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I286",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Océano",
-          "correct_answer": "Ocean",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I287",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Arboleda/Bosque' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Coast"
-            },
-            {
-              "id": "o3",
-              "text": "Island"
-            },
-            {
-              "id": "o1",
-              "text": "Woods"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I288",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nature",
-              "right": "Naturaleza"
-            },
-            {
-              "id": "p1",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p2",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p3",
-              "left": "Mountain",
-              "right": "Montaña"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I289",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "It is the ________ (large) island in the world.",
-          "correct_answer": "largest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I290",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lake the is perfect for swimming in summer\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I291",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "village"
-            },
-            {
-              "id": "w0",
-              "text": "There"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "near"
-            },
-            {
-              "id": "w4",
-              "text": "waterfall"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I292",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"Are there many rivers in this area?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, there are several large ones."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, they are."
-            },
-            {
-              "id": "o2",
-              "text": "In the sea."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I293",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Paisaje",
-          "correct_answer": "Scenery",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I294",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bosque' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Forest"
-            },
-            {
-              "id": "o3",
-              "text": "Coast"
-            },
-            {
-              "id": "o2",
-              "text": "Scenery"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I295",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Island",
-              "right": "Isla"
-            },
-            {
-              "id": "p1",
-              "left": "Environment",
-              "right": "Medio ambiente"
-            },
-            {
-              "id": "p2",
-              "left": "Mountain",
-              "right": "Montaña"
-            },
-            {
-              "id": "p3",
-              "left": "Coast",
-              "right": "Costa"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U27_I296",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The scenery is ________ (beautiful) in autumn.",
-          "correct_answer": "more beautiful",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U27_I297",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The scenery in the mountains is breathtaking.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I298",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w3",
-              "text": "landscape"
-            },
-            {
-              "id": "w2",
-              "text": "beautiful"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U27_I299",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para: \"What a beautiful view!\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, it's absolutely stunning."
-            },
-            {
-              "id": "o3",
-              "text": "At 10 AM."
-            },
-            {
-              "id": "o2",
-              "text": "In the forest."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U27_I300",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Costa",
-          "correct_answer": "Coast",
-          "mastery_tag": "vocabulary"
         }
       ]
     }

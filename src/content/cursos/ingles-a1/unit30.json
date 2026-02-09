@@ -19,7 +19,7 @@
       "title": "Vocabulary: Hobbies",
       "content": [
         {
-          "interaction_id": "U30_B1_I1",
+          "interaction_id": "A1_U30_B1_I1",
           "type": "matching",
           "prompt_es": "Une los hobbies con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B1_I2",
+          "interaction_id": "A1_U30_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ir al gimnasio'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B1_I3",
+          "interaction_id": "A1_U30_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Viajar",
           "stimulus_en": "Travel",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B1_I4",
+          "interaction_id": "A1_U30_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si te gusta el agua, tu hobby es:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B1_I5",
+          "interaction_id": "A1_U30_B1_I5",
           "type": "matching",
           "prompt_es": "Más actividades:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Expressing Likes",
       "content": [
         {
-          "interaction_id": "U30_B2_I6",
+          "interaction_id": "A1_U30_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Usamos '-ing' después de 'like' para acciones. 'Me gusta bailar' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B2_I7",
+          "interaction_id": "A1_U30_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'like' o 'don't like':",
           "stimulus_en": "I ________ pizza. It's my favorite! (Me gusta)",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B2_I8",
+          "interaction_id": "A1_U30_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'She likes reading' (a ella le gusta leer)?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B2_I9",
+          "interaction_id": "A1_U30_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "Forma negativa: 'No me gusta correr'",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B2_I10",
+          "interaction_id": "A1_U30_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'They ________ listening to music.' (Les gusta)",
           "stimulus_en": "like",
@@ -264,7 +264,7 @@
       "title": "Syntax: Do you like...?",
       "content": [
         {
-          "interaction_id": "U30_B3_I11",
+          "interaction_id": "A1_U30_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Te gusta leer?'",
           "options": [
@@ -299,7 +299,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B3_I12",
+          "interaction_id": "A1_U30_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es tu hobby favorito?'",
           "options": [
@@ -339,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B3_I13",
+          "interaction_id": "A1_U30_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Sí, me gusta.' (Respuesta corta)",
           "stimulus_en": "Yes, I do.",
@@ -352,7 +352,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B3_I14",
+          "interaction_id": "A1_U30_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta: '________ you like sports?'",
           "stimulus_en": "Do",
@@ -365,7 +365,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B3_I15",
+          "interaction_id": "A1_U30_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No, no me gusta.'",
           "options": [
@@ -401,35 +401,7 @@
       "title": "Reading & My Weekend",
       "content": [
         {
-          "interaction_id": "U30_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Leisure Time",
-          "text": "In my free time, I love being active. On Saturdays, I play football with my friends. On Sundays, I go swimming in the morning. I don't like watching TV, I prefer reading books in the evening.",
-          "question": "¿Qué hace el autor los sábados?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He reads books"
-            },
-            {
-              "id": "o2",
-              "text": "He plays football"
-            },
-            {
-              "id": "o3",
-              "text": "He watches TV"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U30_B4_I17",
+          "interaction_id": "A1_U30_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Le gusta ver la televisión al autor?",
           "options": [
@@ -455,20 +427,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
-          "text": "The library is on the second floor.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U30_B4_I19",
+          "interaction_id": "A1_U30_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde: 'Do you like cooking?'",
           "stimulus_es": "Sí (Respuesta corta)",
@@ -481,7 +440,7 @@
           ]
         },
         {
-          "interaction_id": "U30_B4_I20",
+          "interaction_id": "A1_U30_B4_I5",
           "type": "categorization",
           "prompt_es": "Deportes vs Relax:",
           "categories": [

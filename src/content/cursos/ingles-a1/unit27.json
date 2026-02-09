@@ -19,7 +19,7 @@
       "title": "Vocabulary: Personal Details",
       "content": [
         {
-          "interaction_id": "U27_B1_I1",
+          "interaction_id": "A1_U27_B1_I1",
           "type": "matching",
           "prompt_es": "Une los términos con su significado:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B1_I2",
+          "interaction_id": "A1_U27_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Estado civil'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B1_I3",
+          "interaction_id": "A1_U27_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Edad",
           "stimulus_en": "Age",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B1_I4",
+          "interaction_id": "A1_U27_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Si alguien es de 'Spain', su 'nationality' es:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B1_I5",
+          "interaction_id": "A1_U27_B1_I5",
           "type": "matching",
           "prompt_es": "Ocupaciones comunes:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Verb To Be in Profiles",
       "content": [
         {
-          "interaction_id": "U27_B2_I6",
+          "interaction_id": "A1_U27_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Completa: 'I ________ 25 years old.'",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B2_I7",
+          "interaction_id": "A1_U27_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'am', 'is' o 'are':",
           "stimulus_en": "She ________ married.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B2_I8",
+          "interaction_id": "A1_U27_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'They are from Italy'?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B2_I9",
+          "interaction_id": "A1_U27_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "Forma negativa: 'Él no es médico'",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B2_I10",
+          "interaction_id": "A1_U27_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'We ________ students.'",
           "stimulus_en": "are",
@@ -264,7 +264,7 @@
       "title": "Syntax: Asking Questions",
       "content": [
         {
-          "interaction_id": "U27_B3_I11",
+          "interaction_id": "A1_U27_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cuál es tu nombre?'",
           "options": [
@@ -299,7 +299,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B3_I12",
+          "interaction_id": "A1_U27_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿De dónde eres?'",
           "options": [
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B3_I13",
+          "interaction_id": "A1_U27_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿A qué te dedicas?' (What do you do?)",
           "stimulus_en": "What do you do?",
@@ -347,7 +347,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B3_I14",
+          "interaction_id": "A1_U27_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta de edad: 'How ________ are you?'",
           "stimulus_en": "old",
@@ -360,7 +360,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B3_I15",
+          "interaction_id": "A1_U27_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Estás casado?'",
           "options": [
@@ -396,7 +396,7 @@
       "title": "Reading & Personal Profile",
       "content": [
         {
-          "interaction_id": "U27_B4_I16",
+          "interaction_id": "A1_U27_B4_I1",
           "type": "reading-comprehension",
           "title": "Profile: Marco Rossi",
           "text": "My name is Marco Rossi. I am 22 years old and I am from Italy. I am a student at the University of Rome. I am single and I live with my parents. I want to be a doctor in the future.",
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B4_I17",
+          "interaction_id": "A1_U27_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Marco está casado?",
           "options": [
@@ -450,7 +450,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B4_I18",
+          "interaction_id": "A1_U27_B4_I3",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe lo que oyes:",
           "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
@@ -463,7 +463,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B4_I19",
+          "interaction_id": "A1_U27_B4_I4",
           "type": "short_writing",
           "prompt_es": "Escribe una frase sobre ti (nombre y edad):",
           "stimulus_es": "Me llamo Alex y tengo 20 años.",
@@ -476,7 +476,7 @@
           ]
         },
         {
-          "interaction_id": "U27_B4_I20",
+          "interaction_id": "A1_U27_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica los datos personales:",
           "categories": [

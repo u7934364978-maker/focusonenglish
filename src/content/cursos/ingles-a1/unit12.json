@@ -19,7 +19,7 @@
       "title": "The Seven Days",
       "content": [
         {
-          "interaction_id": "U12_B1_I1",
+          "interaction_id": "A1_U12_B1_I1",
           "type": "matching",
           "prompt_es": "Une el día en inglés con su traducción:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B1_I2",
+          "interaction_id": "A1_U12_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de escribir el día?",
           "options": [
@@ -85,7 +85,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B1_I3",
+          "interaction_id": "A1_U12_B1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el día que falta (Sábado):",
           "stimulus_en": "S_t_rd_y",
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B1_I4",
+          "interaction_id": "A1_U12_B1_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la secuencia correcta:",
           "options": [
@@ -128,7 +128,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B1_I5",
+          "interaction_id": "A1_U12_B1_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'Jueves'?",
           "stimulus_en": "Thursday",
@@ -147,7 +147,7 @@
       "title": "Prepositions: 'On'",
       "content": [
         {
-          "interaction_id": "U12_B2_I1",
+          "interaction_id": "A1_U12_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con la preposición correcta:",
           "stimulus_en": "I go to the gym ___ Fridays.",
@@ -160,42 +160,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "See"
-            },
-            {
-              "id": "w2",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "on"
-            },
-            {
-              "id": "w4",
-              "text": "Sunday!"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "U12_B2_I3",
+          "interaction_id": "A1_U12_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Qué preposición usamos con los días de la semana?",
           "options": [
@@ -221,7 +186,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B2_I4",
+          "interaction_id": "A1_U12_B2_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'I study English in Monday'?",
           "correct_answer": false,
@@ -234,7 +199,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B2_I5",
+          "interaction_id": "A1_U12_B2_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Trabajo los sábados.'",
           "stimulus_es": "Trabajo los sábados.",
@@ -254,7 +219,7 @@
       "title": "Week vs Weekend",
       "content": [
         {
-          "interaction_id": "U12_B3_I1",
+          "interaction_id": "A1_U12_B3_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Qué días forman el 'Weekend'?",
           "options": [
@@ -280,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B3_I2",
+          "interaction_id": "A1_U12_B3_I2",
           "type": "true_false",
           "prompt_es": "Wednesday (miércoles) es el tercer día de la semana (empezando por lunes).",
           "correct_answer": true,
@@ -292,34 +257,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B3_I3",
-          "type": "matching",
-          "prompt_es": "Clasifica los días:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Monday",
-              "right": "Weekday"
-            },
-            {
-              "id": "p2",
-              "left": "Sunday",
-              "right": "Weekend"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U12_B3_I4",
+          "interaction_id": "A1_U12_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'El lunes es el primer día.'",
           "stimulus_en": "Monday is the ______ day of the week.",
@@ -332,7 +270,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B3_I5",
+          "interaction_id": "A1_U12_B3_I5",
           "type": "multiple_choice",
           "prompt_es": "Si hoy es martes, mañana es...",
           "options": [
@@ -364,35 +302,7 @@
       "title": "Reading: My Week",
       "content": [
         {
-          "interaction_id": "U12_B4_I1",
-          "type": "reading-comprehension",
-          "title": "Weekly Routine",
-          "text": "On Mondays and Wednesdays, I study English. On Tuesdays, I visit my mother. On Fridays, I go to the cinema. At the weekend, I rest at home.",
-          "question": "When does this person study English?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "On Mondays and Wednesdays"
-            },
-            {
-              "id": "o2",
-              "text": "On Tuesdays"
-            },
-            {
-              "id": "o3",
-              "text": "Every day"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U12_B4_I2",
+          "interaction_id": "A1_U12_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace la persona los viernes?",
           "options": [
@@ -418,7 +328,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B4_I3",
+          "interaction_id": "A1_U12_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'No trabajo los domingos.'",
           "stimulus_es": "No trabajo los domingos.",
@@ -432,7 +342,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B4_I4",
+          "interaction_id": "A1_U12_B4_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase del texto:",
           "options": [
@@ -472,7 +382,7 @@
           ]
         },
         {
-          "interaction_id": "U12_B4_I5",
+          "interaction_id": "A1_U12_B4_I5",
           "type": "true_false",
           "prompt_es": "Según el texto, la persona visita a su madre los lunes.",
           "correct_answer": false,

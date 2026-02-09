@@ -19,7 +19,7 @@
       "title": "What time is it?",
       "content": [
         {
-          "interaction_id": "U11_B1_I1",
+          "interaction_id": "A1_U11_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Son las ocho en punto'?",
           "options": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B1_I2",
+          "interaction_id": "A1_U11_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con la preposición correcta para la hora:",
           "stimulus_en": "The class starts ___ 9:00 AM.",
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B1_I3",
+          "interaction_id": "A1_U11_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Son las nueve en punto.'",
           "options": [
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B1_I4",
+          "interaction_id": "A1_U11_B1_I4",
           "type": "true_false",
           "prompt_es": "En inglés, 'PM' se usa para las horas de la mañana (antes de las 12:00).",
           "correct_answer": false,
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B1_I5",
+          "interaction_id": "A1_U11_B1_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma más natural de preguntar la hora?",
           "options": [
@@ -141,7 +141,7 @@
       "title": "Quarter and Half",
       "content": [
         {
-          "interaction_id": "U11_B2_I1",
+          "interaction_id": "A1_U11_B2_I1",
           "type": "matching",
           "prompt_es": "Une las expresiones de tiempo:",
           "pairs": [
@@ -180,7 +180,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B2_I2",
+          "interaction_id": "A1_U11_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Son las diez y cuarto'",
           "options": [
@@ -225,7 +225,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B2_I3",
+          "interaction_id": "A1_U11_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase: 'Son las seis y media.'",
           "stimulus_en": "It is half ________ six.",
@@ -238,7 +238,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B2_I4",
+          "interaction_id": "A1_U11_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 7:45?",
           "options": [
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B2_I5",
+          "interaction_id": "A1_U11_B2_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'Las cinco y cuarto'?",
           "stimulus_en": "A quarter past five",
@@ -283,7 +283,7 @@
       "title": "Time Expressions",
       "content": [
         {
-          "interaction_id": "U11_B3_I1",
+          "interaction_id": "A1_U11_B3_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Midday'?",
           "options": [
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B3_I2",
+          "interaction_id": "A1_U11_B3_I2",
           "type": "true_false",
           "prompt_es": "En contextos informales, es común decir 'Ten thirty' en lugar de 'Half past ten'.",
           "correct_answer": true,
@@ -321,7 +321,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B3_I3",
+          "interaction_id": "A1_U11_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Las 12 de la noche se llama ______.'",
           "stimulus_en": "12:00 AM is called __________.",
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B3_I4",
+          "interaction_id": "A1_U11_B3_I4",
           "type": "matching",
           "prompt_es": "Une el momento del día con su saludo:",
           "pairs": [
@@ -373,7 +373,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B3_I5",
+          "interaction_id": "A1_U11_B3_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Son las doce en punto.'",
           "stimulus_es": "Son las doce en punto.",
@@ -393,35 +393,7 @@
       "title": "Listening & Context",
       "content": [
         {
-          "interaction_id": "U11_B4_I1",
-          "type": "reading-comprehension",
-          "title": "The Train Schedule",
-          "text": "The train to London leaves at a quarter to six. It is now five o'clock. We have forty-five minutes before the train leaves.",
-          "question": "What time does the train leave?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "5:45"
-            },
-            {
-              "id": "o2",
-              "text": "6:15"
-            },
-            {
-              "id": "o3",
-              "text": "5:15"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U11_B4_I2",
+          "interaction_id": "A1_U11_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe correctamente '45 minutos'?",
           "options": [
@@ -448,7 +420,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B4_I3",
+          "interaction_id": "A1_U11_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Tengo una cita a las dos y media'",
           "stimulus_es": "Tengo una cita a las dos y media",
@@ -462,7 +434,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B4_I4",
+          "interaction_id": "A1_U11_B4_I4",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
@@ -507,7 +479,7 @@
           ]
         },
         {
-          "interaction_id": "U11_B4_I5",
+          "interaction_id": "A1_U11_B4_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Yo desayuno a las siete.'",
           "stimulus_en": "I have breakfast ______ seven o'clock.",

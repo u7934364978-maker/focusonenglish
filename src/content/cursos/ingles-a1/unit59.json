@@ -18,7 +18,7 @@
       "title": "Hobby Vocabulary",
       "content": [
         {
-          "interaction_id": "u59_b1_i1",
+          "interaction_id": "A1_U59_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Qué actividad haces con un libro?",
           "options": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b1_i2",
+          "interaction_id": "A1_U59_B1_I2",
           "type": "matching",
           "prompt_es": "Une las aficiones:",
           "pairs": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b1_i3",
+          "interaction_id": "A1_U59_B1_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'bailar' en inglés:",
           "stimulus_es": "Bailar",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b1_i4",
+          "interaction_id": "A1_U59_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces con una consola?",
           "options": [
@@ -120,19 +120,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u59_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/hobby_vocab.mp3",
-          "text": "Reading, painting, and dancing.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -141,7 +128,7 @@
       "title": "Expressing Preferences",
       "content": [
         {
-          "interaction_id": "u59_b2_i1",
+          "interaction_id": "A1_U59_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Me gusta NADAR'",
           "stimulus_en": "I like ________.",
@@ -154,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b2_i2",
+          "interaction_id": "A1_U59_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ella ama cocinar para sus amigos'",
           "options": [
@@ -199,7 +186,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b2_i3",
+          "interaction_id": "A1_U59_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices que 'odias' algo?",
           "options": [
@@ -225,7 +212,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b2_i4",
+          "interaction_id": "A1_U59_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'No me gusta ESCUCHAR música rock'",
           "stimulus_en": "I don't like ________ to rock music.",
@@ -238,7 +225,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b2_i5",
+          "interaction_id": "A1_U59_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha las preferencias:",
           "audioUrl": "/audio/courses/ingles-a1/shared/preferences_ing.mp3",
@@ -257,7 +244,7 @@
       "title": " Spare Time Activities",
       "content": [
         {
-          "interaction_id": "u59_b3_i1",
+          "interaction_id": "A1_U59_B3_I1",
           "type": "matching",
           "prompt_es": "Une las actividades de tiempo libre:",
           "pairs": [
@@ -296,7 +283,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b3_i2",
+          "interaction_id": "A1_U59_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces en el cine?",
           "options": [
@@ -322,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b3_i3",
+          "interaction_id": "A1_U59_B3_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'escuchar música' en inglés:",
           "stimulus_es": "Escuchar música",
@@ -335,7 +322,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b3_i4",
+          "interaction_id": "A1_U59_B3_I4",
           "type": "true_false",
           "prompt_es": "'Spare time' significa tiempo libre.",
           "correct_answer": true,
@@ -345,19 +332,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u59_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/spare_time_listening.mp3",
-          "text": "In my spare time, I like meeting my friends.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -366,35 +340,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u59_b4_i1",
-          "type": "reading-comprehension",
-          "title": "My Favorite Hobby",
-          "text": "Hi, I'm Sofia. I have many hobbies. I love painting and I enjoy listening to music. On the weekend, I go for a walk with my dog. I don't like playing video games, but I love reading books in the evening. Hobbies are great for relaxing!",
-          "question": "Does Sofia like playing video games?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, she doesn't"
-            },
-            {
-              "id": "o2",
-              "text": "Yes, she does"
-            },
-            {
-              "id": "o3",
-              "text": "She loves it"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u59_b4_i2",
+          "interaction_id": "A1_U59_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con la forma -ing:",
           "stimulus_en": "I love ________ (read) and I enjoy ________ (dance).",
@@ -407,7 +353,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b4_i3",
+          "interaction_id": "A1_U59_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Me gusta escuchar música'",
           "stimulus_es": "I like listening to music.",
@@ -420,7 +366,7 @@
           ]
         },
         {
-          "interaction_id": "u59_b4_i4",
+          "interaction_id": "A1_U59_B4_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es un hobby?",
           "options": [
@@ -443,19 +389,6 @@
           "concept_tags": [
             "grammar",
             "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "u59_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit59_summary.mp3",
-          "text": "Find a hobby you love. Do you enjoy swimming, reading, or dancing? Tell us about it!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

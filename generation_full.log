@@ -1,0 +1,39 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Skipping B1 unit1.json - already has content.
+Skipping B1 unit2.json - already has content.
+Skipping B1 unit3.json - already has content.
+Skipping B1 unit4.json - already has content.
+Skipping B1 unit5.json - already has content.
+Skipping B1 unit6.json - already has content.
+Skipping B1 unit7.json - already has content.
+Skipping B1 unit8.json - already has content.
+Skipping B1 unit9.json - already has content.
+Skipping B1 unit10.json - already has content.
+Populating B1 unit11.json: Shopping and Consumerism
+  Generating block 1 for topic: Past Continuous
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B1, Tema: b1-past-continuous, Semilla: 6531
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Entertainment and Culture
+[IA V2] Solicitando ejercicio: word-formation, Nivel: B1, Tema: b1-entertainment, Semilla: 3272
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Informal Letters and Emails
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: B1, Tema: b1-informal-letters, Semilla: 4243
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated B1 unit11.json
+Populating B1 unit12.json: Food and Nutrition
+  Generating block 1 for topic: Past Continuous
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: B1, Tema: b1-past-continuous, Semilla: 989
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Past Continuous
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B1, Tema: b1-past-continuous, Semilla: 3012
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Expressing Opinions
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: B1, Tema: b1-expressing-opinions, Semilla: 5140
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated B1 unit12.json
+Populating B1 unit13.json: History and Heritage
+  Generating block 1 for topic: Education and Learning
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: B1, Tema: b1-education, Semilla: 8324
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: First and Second Conditionals
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B1, Tema: b1-conditionals, Semilla: 2641

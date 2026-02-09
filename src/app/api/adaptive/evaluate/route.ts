@@ -4,10 +4,19 @@ import { UltraAdaptiveEngine } from '@/lib/course-engine/ultra-adaptive-engine';
 
 export async function POST(request: NextRequest) {
   try {
-    const supabase = await createClient();
-    const { data: { user } } = await supabase.auth.getUser();
+    let user = null;
+    try {
+      const supabase = await createClient();
+      const { data } = await supabase.auth.getUser();
+      user = data.user;
+    } catch (e) {
+      console.warn("Auth error in API (expected in dev without DB):", e);
+    }
 
-    if (!user) {
+    const isTest = process.env.NODE_ENV === 'development';
+    const finalUserId = user?.id || (isTest ? 'test-user-id' : null);
+
+    if (!finalUserId) {
       return NextResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -18,7 +27,7 @@ export async function POST(request: NextRequest) {
     }
 
     await UltraAdaptiveEngine.evaluateAnswer(
-      user.id,
+      finalUserId,
       interactionId,
       isCorrect,
       responseTimeMs || 5000

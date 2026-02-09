@@ -18,7 +18,7 @@
       "title": "Morning Routine",
       "content": [
         {
-          "interaction_id": "u58_b1_i1",
+          "interaction_id": "A1_U58_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces primero al despertar?",
           "options": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b1_i2",
+          "interaction_id": "A1_U58_B1_I2",
           "type": "matching",
           "prompt_es": "Une las acciones de la mañana:",
           "pairs": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b1_i3",
+          "interaction_id": "A1_U58_B1_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'desayunar' en inglés:",
           "stimulus_es": "Desayunar",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b1_i4",
+          "interaction_id": "A1_U58_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora sueles desayunar?",
           "options": [
@@ -120,19 +120,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u58_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/morning_routine.mp3",
-          "text": "I wake up, get up, and have breakfast.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -141,7 +128,7 @@
       "title": "Present Simple Habits",
       "content": [
         {
-          "interaction_id": "u58_b2_i1",
+          "interaction_id": "A1_U58_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Yo VOY al trabajo a las 9 am'",
           "stimulus_en": "I ________ to work at 9 am.",
@@ -154,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b2_i2",
+          "interaction_id": "A1_U58_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros almorzamos a las 1 pm'",
           "options": [
@@ -199,33 +186,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b2_i3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I brush my teeth"
-            },
-            {
-              "id": "o2",
-              "text": "I brushes my teeth"
-            },
-            {
-              "id": "o3",
-              "text": "I brushing my teeth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u58_b2_i4",
+          "interaction_id": "A1_U58_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Ellos LLEGAN a casa tarde'",
           "stimulus_en": "They ________ home late.",
@@ -238,7 +199,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b2_i5",
+          "interaction_id": "A1_U58_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha la rutina:",
           "audioUrl": "/audio/courses/ingles-a1/shared/routine_habits.mp3",
@@ -257,7 +218,7 @@
       "title": "Evening Routine",
       "content": [
         {
-          "interaction_id": "u58_b3_i1",
+          "interaction_id": "A1_U58_B3_I1",
           "type": "matching",
           "prompt_es": "Une las acciones de la tarde/noche:",
           "pairs": [
@@ -296,7 +257,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b3_i2",
+          "interaction_id": "A1_U58_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces antes de dormir?",
           "options": [
@@ -322,7 +283,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b3_i3",
+          "interaction_id": "A1_U58_B3_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'cenar' en inglés:",
           "stimulus_es": "Cenar",
@@ -335,7 +296,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b3_i4",
+          "interaction_id": "A1_U58_B3_I4",
           "type": "true_false",
           "prompt_es": "'Get home' significa salir de casa.",
           "correct_answer": false,
@@ -345,19 +306,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u58_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/evening_routine_listening.mp3",
-          "text": "I have dinner with my family at seven pm.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -366,35 +314,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u58_b4_i1",
-          "type": "reading-comprehension",
-          "title": "Alex's Day",
-          "text": "Alex wakes up at 6 am every day. He takes a shower and has breakfast at 7 am. Then, he goes to work by bus. He has lunch at 12 pm. Alex gets home at 6 pm, has dinner, and watches TV. He goes to bed at 10 pm. He is a busy person!",
-          "question": "What time does Alex have breakfast?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At 7 am"
-            },
-            {
-              "id": "o2",
-              "text": "At 6 am"
-            },
-            {
-              "id": "o3",
-              "text": "At 10 pm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u58_b4_i2",
+          "interaction_id": "A1_U58_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa tu rutina:",
           "stimulus_en": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
@@ -407,7 +327,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b4_i3",
+          "interaction_id": "A1_U58_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Nosotros cenamos a las 8 pm'",
           "stimulus_es": "We have dinner at 8 pm.",
@@ -420,7 +340,7 @@
           ]
         },
         {
-          "interaction_id": "u58_b4_i4",
+          "interaction_id": "A1_U58_B4_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es una actividad de la noche?",
           "options": [
@@ -443,19 +363,6 @@
           "concept_tags": [
             "grammar",
             "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "u58_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit58_summary.mp3",
-          "text": "Wake up, get up, work, and sleep. Use the present simple for your daily life!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

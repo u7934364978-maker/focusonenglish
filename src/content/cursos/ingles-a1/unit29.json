@@ -19,7 +19,7 @@
       "title": "Vocabulary: Daily Actions",
       "content": [
         {
-          "interaction_id": "U29_B1_I1",
+          "interaction_id": "A1_U29_B1_I1",
           "type": "matching",
           "prompt_es": "Une las acciones de la rutina:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B1_I2",
+          "interaction_id": "A1_U29_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ducharse'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B1_I3",
+          "interaction_id": "A1_U29_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva acción: Almorzar / Comer",
           "stimulus_en": "Have lunch",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B1_I4",
+          "interaction_id": "A1_U29_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Después de cenar, yo:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B1_I5",
+          "interaction_id": "A1_U29_B1_I5",
           "type": "matching",
           "prompt_es": "Momentos del día:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: Present Simple (I)",
       "content": [
         {
-          "interaction_id": "U29_B2_I6",
+          "interaction_id": "A1_U29_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Para rutinas en primera persona, el verbo no cambia. 'Yo desayuno a las 7' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B2_I7",
+          "interaction_id": "A1_U29_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'I ________ to school every day.' (Ir)",
           "stimulus_en": "go",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B2_I8",
+          "interaction_id": "A1_U29_B2_I3",
           "type": "true_false",
           "prompt_es": "¿Se usa el Presente Simple para acciones que ocurren habitualmente?",
           "correct_answer": true,
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B2_I9",
+          "interaction_id": "A1_U29_B2_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B2_I10",
+          "interaction_id": "A1_U29_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'I ________ my teeth.' (Cepillar)",
           "stimulus_en": "brush",
@@ -264,7 +264,7 @@
       "title": "Syntax: Time Prepositions",
       "content": [
         {
-          "interaction_id": "U29_B3_I11",
+          "interaction_id": "A1_U29_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Me despierto a las 6 en punto'",
           "options": [
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B3_I12",
+          "interaction_id": "A1_U29_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Trabajo por la mañana'",
           "options": [
@@ -349,7 +349,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B3_I13",
+          "interaction_id": "A1_U29_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿A qué hora cenas?'",
           "stimulus_en": "What time do you have dinner?",
@@ -362,7 +362,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B3_I14",
+          "interaction_id": "A1_U29_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'at' o 'in': 'I sleep ________ night.'",
           "stimulus_en": "at",
@@ -375,7 +375,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B3_I15",
+          "interaction_id": "A1_U29_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ceno a las 8:30'",
           "options": [
@@ -421,35 +421,7 @@
       "title": "Reading & My Schedule",
       "content": [
         {
-          "interaction_id": "U29_B4_I16",
-          "type": "reading-comprehension",
-          "title": "A Day with Tom",
-          "text": "Every day, Tom wakes up at 7:00. He has a big breakfast and then he goes to work by car. He has lunch at 12:30 in his office. He finishes work at 5:00 and goes home. In the evening, he watches TV and sleeps at 11:00.",
-          "question": "¿A qué hora se despierta Tom?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "7:00"
-            },
-            {
-              "id": "o2",
-              "text": "8:00"
-            },
-            {
-              "id": "o3",
-              "text": "6:30"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U29_B4_I17",
+          "interaction_id": "A1_U29_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace Tom por la noche (evening)?",
           "options": [
@@ -475,20 +447,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
-          "text": "The library is on the second floor.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U29_B4_I19",
+          "interaction_id": "A1_U29_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde: 'What time do you go to bed?'",
           "stimulus_es": "A las 10:00",
@@ -501,7 +460,7 @@
           ]
         },
         {
-          "interaction_id": "U29_B4_I20",
+          "interaction_id": "A1_U29_B4_I5",
           "type": "categorization",
           "prompt_es": "Mañana vs Noche:",
           "categories": [

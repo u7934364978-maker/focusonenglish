@@ -19,7 +19,7 @@
       "title": "Vocabulary: Meal Times & Basic Foods",
       "content": [
         {
-          "interaction_id": "U17_B1_I1",
+          "interaction_id": "A1_U17_B1_I1",
           "type": "matching",
           "prompt_es": "Une las comidas con su traducción:",
           "pairs": [
@@ -58,33 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bread"
-            },
-            {
-              "id": "o2",
-              "text": "Butter"
-            },
-            {
-              "id": "o3",
-              "text": "Cheese"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U17_B1_I3",
+          "interaction_id": "A1_U17_B1_I3",
           "type": "flashcard",
           "prompt_es": "Estudia este vocabulario de desayuno:",
           "stimulus_en": "Eggs and Bacon",
@@ -97,7 +71,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B1_I4",
+          "interaction_id": "A1_U17_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es una bebida?",
           "options": [
@@ -123,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B1_I5",
+          "interaction_id": "A1_U17_B1_I5",
           "type": "matching",
           "prompt_es": "Vocabulario de cena y comida:",
           "pairs": [
@@ -168,7 +142,7 @@
       "title": "Grammar: Verbs have, eat & drink",
       "content": [
         {
-          "interaction_id": "U17_B2_I6",
+          "interaction_id": "A1_U17_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo correcto (eat/drink):",
           "stimulus_en": "I ________ water every morning.",
@@ -181,7 +155,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B2_I7",
+          "interaction_id": "A1_U17_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "En inglés, para las comidas solemos usar 'have'. 'I have breakfast' significa:",
           "options": [
@@ -207,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B2_I8",
+          "interaction_id": "A1_U17_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa (Present Simple):",
           "stimulus_en": "She ________ (have) lunch at 1:00 PM.",
@@ -220,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B2_I9",
+          "interaction_id": "A1_U17_B2_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir: 'I eat coffee'?",
           "correct_answer": false,
@@ -232,7 +206,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B2_I10",
+          "interaction_id": "A1_U17_B2_I5",
           "type": "multiple_choice",
           "prompt_es": "Para decir 'algo de/un poco de' usamos 'some'. 'I want some milk' es:",
           "options": [
@@ -264,7 +238,7 @@
       "title": "Syntax & Structure",
       "content": [
         {
-          "interaction_id": "U17_B3_I11",
+          "interaction_id": "A1_U17_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase: 'Yo desayuno a las 7'",
           "options": [
@@ -304,7 +278,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B3_I12",
+          "interaction_id": "A1_U17_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Pregunta: '¿Qué quieres para comer?'",
           "options": [
@@ -349,7 +323,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B3_I13",
+          "interaction_id": "A1_U17_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Ella bebe té'",
           "stimulus_en": "She drinks tea",
@@ -362,7 +336,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B3_I14",
+          "interaction_id": "A1_U17_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la negación:",
           "stimulus_en": "He ________ not eat meat.",
@@ -375,7 +349,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B3_I15",
+          "interaction_id": "A1_U17_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Nosotros cenamos pescado'",
           "options": [
@@ -421,35 +395,7 @@
       "title": "Reading & Contextual Review",
       "content": [
         {
-          "interaction_id": "U17_B4_I16",
-          "type": "reading-comprehension",
-          "title": "My Daily Meals",
-          "text": "For breakfast, I have cereal and fruit. For lunch, I usually have a salad or a sandwich. In the evening, I have dinner with my family. We often eat chicken and vegetables.",
-          "question": "¿Qué suele comer para el almuerzo (lunch)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cereal"
-            },
-            {
-              "id": "o2",
-              "text": "Salad or sandwich"
-            },
-            {
-              "id": "o3",
-              "text": "Chicken"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U17_B4_I17",
+          "interaction_id": "A1_U17_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿con quién cena (dinner)?",
           "options": [
@@ -475,7 +421,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B4_I18",
+          "interaction_id": "A1_U17_B4_I3",
           "type": "short_writing",
           "prompt_es": "Responde en inglés: 'Do you like pizza?'",
           "stimulus_es": "Sí, me gusta la pizza",
@@ -488,7 +434,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B4_I19",
+          "interaction_id": "A1_U17_B4_I4",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe la palabra que falta:",
           "audioUrl": "/audio/courses/ingles-a1/shared/4dc684fbfa925e9270ed63a1494f7271.mp3",
@@ -501,7 +447,7 @@
           ]
         },
         {
-          "interaction_id": "U17_B4_I20",
+          "interaction_id": "A1_U17_B4_I5",
           "type": "categorization",
           "prompt_es": "Clasifica en Comida o Bebida:",
           "categories": [

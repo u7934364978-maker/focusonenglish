@@ -18,7 +18,7 @@
       "title": "Block 1: Helping at Home",
       "content": [
         {
-          "interaction_id": "U38_I1",
+          "interaction_id": "A1_U38_B38_1_I1",
           "type": "matching",
           "prompt_es": "Relaciona la tarea doméstica:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I2",
+          "interaction_id": "A1_U38_B38_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Regar las plantas'?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I3",
+          "interaction_id": "A1_U38_B38_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo adecuado:",
           "stimulus_en": "Please ________ the bathroom. It's dirty.",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I4",
+          "interaction_id": "A1_U38_B38_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Barrer el suelo'",
           "stimulus_es": "Barrer el suelo",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I5",
+          "interaction_id": "A1_U38_B38_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el sustantivo:",
           "stimulus_en": "Chores",
@@ -128,29 +128,7 @@
       "title": "Block 2: I Have to Do It!",
       "content": [
         {
-          "interaction_id": "U38_I6",
-          "type": "multiple_choice",
-          "prompt_es": "I ________ sweep the floor every morning.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "have to"
-            },
-            {
-              "id": "o2",
-              "text": "has to"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U38_I7",
+          "interaction_id": "A1_U38_B38_2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'has to' o 'have to':",
           "stimulus_en": "My mother ________ cook dinner today.",
@@ -163,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I8",
+          "interaction_id": "A1_U38_B38_2_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase de obligación:",
           "options": [
@@ -203,32 +181,10 @@
           ]
         },
         {
-          "interaction_id": "U38_I9",
+          "interaction_id": "A1_U38_B38_2_I4",
           "type": "true_false",
           "prompt_es": "¿'Must' es más fuerte que 'have to'?",
           "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U38_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: 'Tengo que lavar los platos'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I have to wash the dishes"
-            },
-            {
-              "id": "o2",
-              "text": "I have wash the dishes"
-            }
-          ],
-          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -243,7 +199,7 @@
       "title": "Block 3: No chores today?",
       "content": [
         {
-          "interaction_id": "U38_I11",
+          "interaction_id": "A1_U38_B38_3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
@@ -298,29 +254,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Traduce: 'No tengo que barrer hoy'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I don't have to sweep today"
-            },
-            {
-              "id": "o2",
-              "text": "I haven't to sweep today"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U38_I13",
+          "interaction_id": "A1_U38_B38_3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'does' o 'do':",
           "stimulus_en": "________ he have to water the plants?",
@@ -333,7 +267,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I14",
+          "interaction_id": "A1_U38_B38_3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Ella no tiene que cocinar'",
           "stimulus_es": "Ella no tiene que cocinar",
@@ -346,7 +280,7 @@
           ]
         },
         {
-          "interaction_id": "U38_I15",
+          "interaction_id": "A1_U38_B38_3_I5",
           "type": "true_false",
           "prompt_es": "¿'Don't have to' significa que algo está prohibido?",
           "correct_answer": false,
@@ -364,89 +298,7 @@
       "title": "Block 4: Saturday Morning",
       "content": [
         {
-          "interaction_id": "U38_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5034638a75e3f44e393a2012a67a0b5a.mp3",
-          "text": "I have to do the laundry now.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U38_I17",
-          "type": "reading-comprehension",
-          "title": "Chores at Home",
-          "text": "Mom: It's Saturday morning! We have many chores.\nTom: Oh no! Do I have to sweep the floor?\nMom: No, you don't. Your father has to sweep. But you must clean your room and make your bed.\nTom: And what about the plants?\nMom: Your sister has to water the plants.",
-          "question": "What does Tom have to do?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sweep the floor"
-            },
-            {
-              "id": "o2",
-              "text": "Clean his room and make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Water the plants"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U38_I18",
-          "type": "reading-comprehension",
-          "title": "Chores at Home",
-          "text": "Mom: It's Saturday morning! We have many chores.\nTom: Oh no! Do I have to sweep the floor?\nMom: No, you don't. Your father has to sweep. But you must clean your room and make your bed.\nTom: And what about the plants?\nMom: Your sister has to water the plants.",
-          "question": "Who has to sweep the floor?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tom"
-            },
-            {
-              "id": "o2",
-              "text": "The father"
-            },
-            {
-              "id": "o3",
-              "text": "The sister"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U38_I19",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/2c75a4087131713589b91764645391d4.mp3",
-          "text": "Do you have to sweep the floor?",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U38_I20",
+          "interaction_id": "A1_U38_B38_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Quién tiene que regar las plantas?",
           "options": [

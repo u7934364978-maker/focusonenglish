@@ -20,43 +20,57 @@
   ],
   "blocks": [
     {
-      "block_id": "C1_U1_BLOCK_1",
-      "title": "Advanced Practice: Register and Style",
-      "duration_minutes": 60,
+      "block_id": "B1",
+      "title": "Abstract and Conceptual Texts",
+      "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "C1_U1_I1",
-          "type": "transformation",
-          "prompt_es": "Sustituye el phrasal verb por una opción más formal:",
-          "stimulus_en": "The committee decided to ______ (put off) the meeting until next month.",
-          "correct_answer": "postpone",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "C1_U1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la opción más adecuada para un contexto académico:",
-          "question_en": "The results of the study ______ that further research is required.",
-          "options": [
-            {
-              "id": "a",
-              "text": "indicate"
-            },
-            {
-              "id": "b",
-              "text": "show up"
-            },
-            {
-              "id": "c",
-              "text": "point out"
-            },
-            {
-              "id": "d",
-              "text": "say"
-            }
+          "interaction_id": "C1_U1_B1_I1",
+          "type": "cloze",
+          "prompt_es": "Choose the correct answer to complete each conditional sentence.",
+          "mastery_tag": "vocabulary:c1-abstract-texts",
+          "main_text": "If I (1)_____ harder last year, I would have better job opportunities now.\n\nShe would be fluent in English now if she (2)_____ speaking it at home.",
+          "correct_answer": [
+            "B",
+            "B"
           ],
-          "correct_answer": "a",
-          "mastery_tag": "vocabulary"
+          "explanation": "(1) Condicional mixto (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente.\n(2) Acción pasada (had practiced) con efecto en el presente (would be)."
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Nuanced Expressions",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "C1_U1_B2_I1",
+          "type": "word_formation",
+          "prompt_es": "Choose the correct answer to complete each conditional sentence.",
+          "mastery_tag": "vocabulary:c1-nuanced",
+          "main_text": "If I (1)_____ harder last year, I would have better job opportunities now.\n\nShe would be fluent in English now if she (2)_____ speaking it at home.",
+          "correct_answer": [
+            "B",
+            "B"
+          ],
+          "example": ", ",
+          "explanation": "(1) Condicional mixto (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente.\n(2) Acción pasada (had practiced) con efecto en el presente (would be)."
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Extended Lectures",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "C1_U1_B3_I1",
+          "type": "fill_blanks",
+          "prompt_es": "Complete the sentences using the passive form.",
+          "mastery_tag": "grammar:c1-lectures-extended",
+          "explanation": "Pasado simple pasivo (was/were + participio).",
+          "stimulus_en": "The bridge _____ (build) in 1924.",
+          "correct_answer": "was built"
         }
       ]
     }

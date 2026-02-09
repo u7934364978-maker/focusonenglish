@@ -1,0 +1,20 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+Skipping B2 unit1.json - already has content.
+Skipping B2 unit2.json - already has content.
+Populating B2 unit3.json: Unit 3
+  Generating block 1 for topic: Formal Letters and Reports
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: B2, Tema: b2-formal-writing, Semilla: 1758
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Wish and Regret
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: B2, Tema: b2-wish-regret, Semilla: 35
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Inversion
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: B2, Tema: b2-inversion, Semilla: 6694
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated B2 unit3.json
+Populating B2 unit4.json: Unit 4
+  Generating block 1 for topic: Wish and Regret
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: B2, Tema: b2-wish-regret, Semilla: 6125
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Inversion
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: B2, Tema: b2-inversion, Semilla: 6723

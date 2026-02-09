@@ -18,7 +18,7 @@
       "title": "Block 1: Instrument Names",
       "content": [
         {
-          "interaction_id": "U36_I1",
+          "interaction_id": "A1_U36_B36_1_I1",
           "type": "matching",
           "prompt_es": "Relaciona el instrumento con su nombre:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I2",
+          "interaction_id": "A1_U36_B36_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Trompeta'?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I3",
+          "interaction_id": "A1_U36_B36_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el instrumento de viento:",
           "stimulus_en": "She plays the ________ (flauta).",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I4",
+          "interaction_id": "A1_U36_B36_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Batería'",
           "stimulus_es": "Batería",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I5",
+          "interaction_id": "A1_U36_B36_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el instrumento:",
           "stimulus_en": "Saxophone",
@@ -128,29 +128,7 @@
       "title": "Block 2: 'Play the' + Instrument",
       "content": [
         {
-          "interaction_id": "U36_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I play the guitar"
-            },
-            {
-              "id": "o2",
-              "text": "I play guitar"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U36_I7",
+          "interaction_id": "A1_U36_B36_2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
@@ -190,7 +168,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I8",
+          "interaction_id": "A1_U36_B36_2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el artículo necesario:",
           "stimulus_en": "We are learning to play ________ violin.",
@@ -203,7 +181,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I9",
+          "interaction_id": "A1_U36_B36_2_I4",
           "type": "true_false",
           "prompt_es": "¿En inglés se debe usar 'the' antes de un instrumento musical?",
           "correct_answer": true,
@@ -215,7 +193,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I10",
+          "interaction_id": "A1_U36_B36_2_I5",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Ella toca la trompeta.'",
           "stimulus_es": "Ella toca la trompeta.",
@@ -234,7 +212,7 @@
       "title": "Block 3: Families & Adjectives",
       "content": [
         {
-          "interaction_id": "U36_I11",
+          "interaction_id": "A1_U36_B36_3_I1",
           "type": "categorization",
           "prompt_es": "Clasifica los instrumentos:",
           "categories": [
@@ -264,7 +242,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I12",
+          "interaction_id": "A1_U36_B36_3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo describe mejor a la batería?",
           "options": [
@@ -290,34 +268,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I13",
-          "type": "matching",
-          "prompt_es": "Relaciona el opuesto:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Loud",
-              "right": "Quiet"
-            },
-            {
-              "id": "p2",
-              "left": "Easy",
-              "right": "Difficult"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U36_I14",
+          "interaction_id": "A1_U36_B36_3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la descripción:",
           "stimulus_en": "The violin is a ________ instrument to learn. (difícil)",
@@ -330,7 +281,7 @@
           ]
         },
         {
-          "interaction_id": "U36_I15",
+          "interaction_id": "A1_U36_B36_3_I5",
           "type": "true_false",
           "prompt_es": "¿El piano es un instrumento de percusión?",
           "correct_answer": true,
@@ -348,89 +299,7 @@
       "title": "Block 4: Listening & Reading Mastery",
       "content": [
         {
-          "interaction_id": "U36_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe la frase completa:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/7703e923fb55797f5ab7617bd8a885cb.mp3",
-          "text": "Drums are very loud.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U36_I17",
-          "type": "reading-comprehension",
-          "title": "The Music School",
-          "text": "Welcome to the London Music School. We have many instruments. In room 1, students play the piano. It is a quiet room. In room 2, students play the drums. It is a very loud room! Many people want to learn the guitar because it is easy and fun.",
-          "question": "Which instrument is in room 1?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The drums"
-            },
-            {
-              "id": "o2",
-              "text": "The piano"
-            },
-            {
-              "id": "o3",
-              "text": "The guitar"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U36_I18",
-          "type": "reading-comprehension",
-          "title": "The Music School",
-          "text": "Welcome to the London Music School. We have many instruments. In room 1, students play the piano. It is a quiet room. In room 2, students play the drums. It is a very loud room! Many people want to learn the guitar because it is easy and fun.",
-          "question": "Why do people like the guitar?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Because it is loud"
-            },
-            {
-              "id": "o2",
-              "text": "Because it is easy and fun"
-            },
-            {
-              "id": "o3",
-              "text": "Because it is in room 1"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U36_I19",
-          "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/8514915833a9ebbecbd67bede4be82a8.mp3",
-          "text": "He is learning to play the violin.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U36_I20",
+          "interaction_id": "A1_U36_B36_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo es la sala donde tocan la batería?",
           "options": [

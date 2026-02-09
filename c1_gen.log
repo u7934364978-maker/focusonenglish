@@ -1,0 +1,25 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔄 add secrets lifecycle management: https://dotenvx.com/ops
+Skipping C1 unit1.json - already has content.
+Skipping C1 unit2.json - already has content.
+Skipping C1 unit3.json - already has content.
+Skipping C1 unit4.json - already has content.
+Populating C1 unit5.json: Unit 5
+  Generating block 1 for topic: Nuanced Expressions
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: C1, Tema: c1-nuanced, Semilla: 8156
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Culture and the Arts
+[IA V2] Solicitando ejercicio: word-formation, Nivel: C1, Tema: c1-culture-arts, Semilla: 7849
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Fluent Interaction
+[IA V2] Solicitando ejercicio: fill-blank, Nivel: C1, Tema: c1-fluent-interaction, Semilla: 6342
+[IA V2] Respuesta recibida de OpenAI
+  Successfully populated C1 unit5.json
+Populating C1 unit6.json: Unit 6
+  Generating block 1 for topic: Public Speaking
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: C1, Tema: c1-public-speaking, Semilla: 9539
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Academic Vocabulary
+[IA V2] Solicitando ejercicio: multiple-choice, Nivel: C1, Tema: c1-academic, Semilla: 2223
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 3 for topic: Ellipsis and Substitution
+[IA V2] Solicitando ejercicio: key-word-transformation, Nivel: C1, Tema: c1-ellipsis, Semilla: 8034

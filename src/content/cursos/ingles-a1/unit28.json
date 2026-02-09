@@ -19,7 +19,7 @@
       "title": "Vocabulary: Jobs & Places",
       "content": [
         {
-          "interaction_id": "U28_B1_I1",
+          "interaction_id": "A1_U28_B1_I1",
           "type": "matching",
           "prompt_es": "Une el trabajo con el lugar:",
           "pairs": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B1_I2",
+          "interaction_id": "A1_U28_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Jefe/a'?",
           "options": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B1_I3",
+          "interaction_id": "A1_U28_B1_I3",
           "type": "flashcard",
           "prompt_es": "Nueva palabra: Compañeros de trabajo",
           "stimulus_en": "Colleagues / Coworkers",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B1_I4",
+          "interaction_id": "A1_U28_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "Una persona que diseña edificios es un:",
           "options": [
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B1_I5",
+          "interaction_id": "A1_U28_B1_I5",
           "type": "matching",
           "prompt_es": "Otros lugares de trabajo:",
           "pairs": [
@@ -168,7 +168,7 @@
       "title": "Grammar: A/An with Jobs",
       "content": [
         {
-          "interaction_id": "U28_B2_I6",
+          "interaction_id": "A1_U28_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "Usamos 'an' antes de sonido vocal. 'Él es ingeniero' es:",
           "options": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B2_I7",
+          "interaction_id": "A1_U28_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'a' o 'an':",
           "stimulus_en": "I am ________ teacher.",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B2_I8",
+          "interaction_id": "A1_U28_B2_I3",
           "type": "true_false",
           "prompt_es": "En inglés, siempre usamos 'a/an' para decir la profesión de alguien en singular.",
           "correct_answer": true,
@@ -219,33 +219,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B2_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She is an nurse"
-            },
-            {
-              "id": "o2",
-              "text": "She is a nurse"
-            },
-            {
-              "id": "o3",
-              "text": "She is nurse"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U28_B2_I10",
+          "interaction_id": "A1_U28_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'My brother is ________ artist.'",
           "stimulus_en": "an",
@@ -264,7 +238,7 @@
       "title": "Syntax: Describing Work",
       "content": [
         {
-          "interaction_id": "U28_B3_I11",
+          "interaction_id": "A1_U28_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Trabajo en un banco'",
           "options": [
@@ -304,7 +278,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B3_I12",
+          "interaction_id": "A1_U28_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi oficina es grande'",
           "options": [
@@ -339,7 +313,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B3_I13",
+          "interaction_id": "A1_U28_B3_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: '¿Dónde trabajas?'",
           "stimulus_en": "Where do you work?",
@@ -352,7 +326,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B3_I14",
+          "interaction_id": "A1_U28_B3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'at' o 'in': 'She works ________ the hospital.'",
           "stimulus_en": "at",
@@ -365,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B3_I15",
+          "interaction_id": "A1_U28_B3_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo una reunión hoy'",
           "options": [
@@ -411,35 +385,7 @@
       "title": "Reading & Typical Day",
       "content": [
         {
-          "interaction_id": "U28_B4_I16",
-          "type": "reading-comprehension",
-          "title": "Sarah's Work Day",
-          "text": "Sarah is an office manager. She works in a large office in the city center. She goes to work by train at 8:30. In the morning, she has many meetings with her colleagues. At 1:00, she has lunch in a restaurant.",
-          "question": "¿Qué hace Sarah?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She is a teacher"
-            },
-            {
-              "id": "o2",
-              "text": "She is a nurse"
-            },
-            {
-              "id": "o3",
-              "text": "She is a manager"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U28_B4_I17",
+          "interaction_id": "A1_U28_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo va Sarah al trabajo?",
           "options": [
@@ -465,20 +411,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B4_I18",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que oyes:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/5288931491e047fa12ed20880f84ef92.mp3",
-          "text": "The library is on the second floor.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U28_B4_I19",
+          "interaction_id": "A1_U28_B4_I4",
           "type": "short_writing",
           "prompt_es": "Responde: 'Is your office/school big or small?'",
           "stimulus_es": "Mi escuela es pequeña.",
@@ -491,7 +424,7 @@
           ]
         },
         {
-          "interaction_id": "U28_B4_I20",
+          "interaction_id": "A1_U28_B4_I5",
           "type": "categorization",
           "prompt_es": "Trabajo vs Lugar:",
           "categories": [

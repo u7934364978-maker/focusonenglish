@@ -1,0 +1,12 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
+Skipping B1 unit1.json - already has content.
+Skipping B1 unit2.json - already has content.
+Skipping B1 unit3.json - already has content.
+Skipping B1 unit4.json - already has content.
+Skipping B1 unit5.json - already has content.
+Skipping B1 unit6.json - already has content.
+Populating B1 unit7.json: Health and Wellbeing
+  Generating block 1 for topic: Technology and Media
+[IA V2] Solicitando ejercicio: multiple-choice-cloze, Nivel: B1, Tema: b1-technology, Semilla: 3376
+[IA V2] Respuesta recibida de OpenAI
+  Generating block 2 for topic: Entertainment and Culture

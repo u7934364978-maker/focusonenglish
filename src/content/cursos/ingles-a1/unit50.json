@@ -19,7 +19,7 @@
       "title": "Transportation & Airport Review",
       "content": [
         {
-          "interaction_id": "u50_b1_i1",
+          "interaction_id": "A1_U50_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde muestras tu pasaporte?",
           "options": [
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b1_i2",
+          "interaction_id": "A1_U50_B1_I2",
           "type": "matching",
           "prompt_es": "Une el transporte con la preposición correcta:",
           "pairs": [
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b1_i3",
+          "interaction_id": "A1_U50_B1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'Voy al trabajo en coche'",
           "stimulus_en": "I go to work ________ car.",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b1_i4",
+          "interaction_id": "A1_U50_B1_I4",
           "type": "short_writing",
           "prompt_es": "Escribe 'tarjeta de embarque' en inglés:",
           "stimulus_es": "Tarjeta de embarque",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b1_i5",
+          "interaction_id": "A1_U50_B1_I5",
           "type": "audio_player",
           "prompt_es": "Escucha y verifica:",
           "audioUrl": "/audio/courses/ingles-a1/shared/airport_transport.mp3",
@@ -129,7 +129,7 @@
       "title": "Accommodation & Functional Language",
       "content": [
         {
-          "interaction_id": "u50_b2_i1",
+          "interaction_id": "A1_U50_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides una habitación educadamente?",
           "options": [
@@ -155,7 +155,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b2_i2",
+          "interaction_id": "A1_U50_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta en el hotel:",
           "stimulus_en": "Is ________ wifi in the room?",
@@ -168,7 +168,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b2_i3",
+          "interaction_id": "A1_U50_B2_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Aquí está su llave'",
           "options": [
@@ -203,7 +203,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b2_i4",
+          "interaction_id": "A1_U50_B2_I4",
           "type": "matching",
           "prompt_es": "Une las frases del hotel:",
           "pairs": [
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b2_i5",
+          "interaction_id": "A1_U50_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha la conversación en recepción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/hotel_checkin_review.mp3",
@@ -261,7 +261,7 @@
       "title": "Weather & Holidays Review",
       "content": [
         {
-          "interaction_id": "u50_b3_i1",
+          "interaction_id": "A1_U50_B3_I1",
           "type": "categorization",
           "prompt_es": "Clasifica las estaciones y el clima:",
           "categories": [
@@ -295,7 +295,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b3_i2",
+          "interaction_id": "A1_U50_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces en tus vacaciones?",
           "options": [
@@ -321,7 +321,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b3_i3",
+          "interaction_id": "A1_U50_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo correcto: 'Me encanta viajar'",
           "stimulus_en": "I love ________.",
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b3_i4",
+          "interaction_id": "A1_U50_B3_I4",
           "type": "true_false",
           "prompt_es": "En invierno, normalmente hace calor (hot).",
           "correct_answer": false,
@@ -346,7 +346,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b3_i5",
+          "interaction_id": "A1_U50_B3_I5",
           "type": "audio_player",
           "prompt_es": "Escucha sobre las vacaciones:",
           "audioUrl": "/audio/courses/ingles-a1/shared/holiday_weather_review.mp3",
@@ -365,35 +365,7 @@
       "title": "Final Module Assessment",
       "content": [
         {
-          "interaction_id": "u50_b4_i1",
-          "type": "reading-comprehension",
-          "title": "My Summer Holiday",
-          "text": "Every summer, I go to Spain by plane. I stay in a hotel near the beach. I pack my swimsuit and sunscreen. It is very sunny and I love swimming in the sea. I also go sightseeing in the city.",
-          "question": "How does this person travel to Spain?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "By plane"
-            },
-            {
-              "id": "o2",
-              "text": "By train"
-            },
-            {
-              "id": "o3",
-              "text": "By car"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u50_b4_i2",
+          "interaction_id": "A1_U50_B4_I2",
           "type": "short_writing",
           "prompt_es": "Describe el clima de hoy (e.g. It is sunny):",
           "stimulus_es": "Hoy está soleado.",
@@ -406,7 +378,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b4_i3",
+          "interaction_id": "A1_U50_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Qué objeto es indispensable para cargar tu móvil en otro país?",
           "options": [
@@ -432,7 +404,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b4_i4",
+          "interaction_id": "A1_U50_B4_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'No olvides tu pasaporte'",
           "stimulus_en": "Don't ________ your passport.",
@@ -445,7 +417,7 @@
           ]
         },
         {
-          "interaction_id": "u50_b4_i5",
+          "interaction_id": "A1_U50_B4_I5",
           "type": "audio_player",
           "prompt_es": "Escucha el mensaje final del módulo:",
           "audioUrl": "/audio/courses/ingles-a1/shared/module5_complete.mp3",

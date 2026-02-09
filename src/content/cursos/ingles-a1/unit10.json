@@ -19,7 +19,7 @@
       "title": "Grammar & Syntax Review",
       "content": [
         {
-          "interaction_id": "U10_B1_I1",
+          "interaction_id": "A1_U10_B1_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase correctamente (Adjetivos):",
           "options": [
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B1_I2",
+          "interaction_id": "A1_U10_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Usa 'a' o 'an' según corresponda:",
           "stimulus_en": "I am ___ architect and my friend is ___ teacher.",
@@ -77,30 +77,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B1_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta del adverbio?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He speaks English well."
-            },
-            {
-              "id": "o2",
-              "text": "He speaks English good."
-            }
-          ],
-          "correct_answer": "o1",
-          "explanation": "'Well' es el adverbio que describe cómo se realiza la acción.",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U10_B1_I4",
+          "interaction_id": "A1_U10_B1_I4",
           "type": "true_false",
           "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo (ej. A red apple).",
           "correct_answer": true,
@@ -112,7 +89,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B1_I5",
+          "interaction_id": "A1_U10_B1_I5",
           "type": "matching",
           "prompt_es": "Une los adjetivos con sus opuestos:",
           "pairs": [
@@ -157,7 +134,7 @@
       "title": "Vocabulary & Personal Info",
       "content": [
         {
-          "interaction_id": "U10_B2_I1",
+          "interaction_id": "A1_U10_B2_I1",
           "type": "matching",
           "prompt_es": "Une el país con su nacionalidad:",
           "pairs": [
@@ -196,7 +173,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B2_I2",
+          "interaction_id": "A1_U10_B2_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'enfermero/a'?",
           "options": [
@@ -222,7 +199,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B2_I3",
+          "interaction_id": "A1_U10_B2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con tu información: 'Yo tengo 25 años.'",
           "stimulus_en": "I ___ 25 years old.",
@@ -236,7 +213,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B2_I4",
+          "interaction_id": "A1_U10_B2_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Mi nombre es Alex y soy de México.'",
           "stimulus_es": "Mi nombre es Alex y soy de México.",
@@ -250,7 +227,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B2_I5",
+          "interaction_id": "A1_U10_B2_I5",
           "type": "flashcard",
           "prompt_es": "¿Cómo se dice 'Estudiante'?",
           "stimulus_en": "Student",
@@ -269,7 +246,7 @@
       "title": "Sequencing & Function",
       "content": [
         {
-          "interaction_id": "U10_B3_I1",
+          "interaction_id": "A1_U10_B3_I1",
           "type": "reorder_words",
           "prompt_es": "Ordena los pasos de una mañana típica:",
           "options": [
@@ -314,29 +291,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el saludo adecuado para empezar una conversación:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hello, my name is John."
-            },
-            {
-              "id": "o2",
-              "text": "Finally, I am John."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication",
-          "complexity": 1,
-          "concept_tags": [
-            "vocabulary",
-            "communication"
-          ]
-        },
-        {
-          "interaction_id": "U10_B3_I3",
+          "interaction_id": "A1_U10_B3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la secuencia: 'First I study, ______ I take the exam.'",
           "stimulus_en": "First I study, ______ I take the exam.",
@@ -349,7 +304,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B3_I4",
+          "interaction_id": "A1_U10_B3_I4",
           "type": "true_false",
           "prompt_es": "¿Es correcto decir 'He speaks fastly'?",
           "correct_answer": false,
@@ -362,7 +317,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B3_I5",
+          "interaction_id": "A1_U10_B3_I5",
           "type": "matching",
           "prompt_es": "Une el conector con su función:",
           "pairs": [
@@ -401,35 +356,7 @@
       "title": "Final Reading Review",
       "content": [
         {
-          "interaction_id": "U10_B4_I1",
-          "type": "reading-comprehension",
-          "title": "Meeting a New Colleague",
-          "text": "Hello! My name is Sarah. I am an engineer from London. I have a small office in the city. First, I drink coffee. Then, I check my emails. I work carefully with my team.",
-          "question": "What is Sarah's job?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She is an engineer."
-            },
-            {
-              "id": "o2",
-              "text": "She is a doctor."
-            },
-            {
-              "id": "o3",
-              "text": "She is a teacher."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U10_B4_I2",
+          "interaction_id": "A1_U10_B4_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo trabaja Sarah?",
           "options": [
@@ -455,7 +382,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B4_I3",
+          "interaction_id": "A1_U10_B4_I3",
           "type": "multiple_choice",
           "prompt_es": "¿De dónde es Sarah?",
           "options": [
@@ -481,7 +408,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B4_I4",
+          "interaction_id": "A1_U10_B4_I4",
           "type": "short_writing",
           "prompt_es": "¿Qué hace Sarah después de beber café? (Responde en inglés)",
           "stimulus_es": "¿Qué hace Sarah después de beber café?",
@@ -495,7 +422,7 @@
           ]
         },
         {
-          "interaction_id": "U10_B4_I5",
+          "interaction_id": "A1_U10_B4_I5",
           "type": "reorder_words",
           "prompt_es": "Ordena el resumen:",
           "options": [

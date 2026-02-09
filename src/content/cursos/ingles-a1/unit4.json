@@ -19,28 +19,55 @@
       "title": "Numbers 1-10",
       "content": [
         {
-          "interaction_id": "U4_B1_I1",
+          "interaction_id": "A1_U4_B1_I1",
           "type": "matching",
           "prompt_es": "Une el número con su palabra en inglés:",
           "pairs": [
-            { "id": "p1", "left": "1", "right": "One" },
-            { "id": "p2", "left": "3", "right": "Three" },
-            { "id": "p3", "left": "5", "right": "Five" },
-            { "id": "p4", "left": "8", "right": "Eight" }
+            {
+              "id": "p1",
+              "left": "1",
+              "right": "One"
+            },
+            {
+              "id": "p2",
+              "left": "3",
+              "right": "Three"
+            },
+            {
+              "id": "p3",
+              "left": "5",
+              "right": "Five"
+            },
+            {
+              "id": "p4",
+              "left": "8",
+              "right": "Eight"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U4_B1_I2",
+          "interaction_id": "A1_U4_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "¿Qué número falta? One, two, ________, four.",
           "stimulus_en": "One, two, ________, four.",
           "correct_answer": "three",
           "mastery_tag": "vocabulary:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
+          "concept_tags": [
+            "vocabulary",
+            "numbers"
+          ],
           "complexity": 1
         }
       ]
@@ -50,27 +77,16 @@
       "title": "Articles: 'a' vs 'an'",
       "content": [
         {
-          "interaction_id": "U4_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuándo usamos 'an' en lugar de 'a'?",
-          "options": [
-            { "id": "o1", "text": "Antes de una consonante" },
-            { "id": "o2", "text": "Antes de una vocal (a, e, i, o, u)" }
-          ],
-          "correct_answer": "o2",
-          "explanation": "Decimos 'a book' pero 'an apple'.",
-          "mastery_tag": "grammar:articles",
-          "concept_tags": ["grammar", "articles"],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U4_B2_I2",
+          "interaction_id": "A1_U4_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa: '________ orange' (una naranja).",
           "stimulus_en": "________ orange",
           "correct_answer": "An",
           "mastery_tag": "grammar:articles",
-          "concept_tags": ["grammar", "articles"],
+          "concept_tags": [
+            "grammar",
+            "articles"
+          ],
           "complexity": 2
         }
       ]
@@ -80,34 +96,83 @@
       "title": "Everyday Objects",
       "content": [
         {
-          "interaction_id": "U4_B3_I1",
+          "interaction_id": "A1_U4_B3_I1",
           "type": "matching",
           "prompt_es": "Une el objeto con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "A pen", "right": "Un bolígrafo" },
-            { "id": "p2", "left": "A chair", "right": "Una silla" },
-            { "id": "p3", "left": "A table", "right": "Una mesa" },
-            { "id": "p4", "left": "A window", "right": "Una ventana" }
+            {
+              "id": "p1",
+              "left": "A pen",
+              "right": "Un bolígrafo"
+            },
+            {
+              "id": "p2",
+              "left": "A chair",
+              "right": "Una silla"
+            },
+            {
+              "id": "p3",
+              "left": "A table",
+              "right": "Una mesa"
+            },
+            {
+              "id": "p4",
+              "left": "A window",
+              "right": "Una ventana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary:objects",
-          "concept_tags": ["vocabulary", "objects"],
+          "concept_tags": [
+            "vocabulary",
+            "objects"
+          ],
           "complexity": 1
         },
         {
-          "interaction_id": "U4_B3_I2",
+          "interaction_id": "A1_U4_B3_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Tengo un libro azul.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "blue" },
-            { "id": "w5", "text": "book." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "blue"
+            },
+            {
+              "id": "w5",
+              "text": "book."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax:adjectives",
-          "concept_tags": ["grammar", "syntax", "adjectives"],
+          "concept_tags": [
+            "grammar",
+            "syntax",
+            "adjectives"
+          ],
           "complexity": 2
         }
       ]

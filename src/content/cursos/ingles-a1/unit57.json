@@ -18,7 +18,7 @@
       "title": "Living Room Objects",
       "content": [
         {
-          "interaction_id": "u57_b1_i1",
+          "interaction_id": "A1_U57_B1_I1",
           "type": "multiple_choice",
           "prompt_es": "¿En qué te sientas para estar cómodo?",
           "options": [
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b1_i2",
+          "interaction_id": "A1_U57_B1_I2",
           "type": "matching",
           "prompt_es": "Une los objetos del salón:",
           "pairs": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b1_i3",
+          "interaction_id": "A1_U57_B1_I3",
           "type": "short_writing",
           "prompt_es": "Escribe 'espejo' en inglés:",
           "stimulus_es": "Espejo",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b1_i4",
+          "interaction_id": "A1_U57_B1_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde pones las flores?",
           "options": [
@@ -120,19 +120,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u57_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/household_objects_1.mp3",
-          "text": "Rug, lamp, and mirror.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -141,7 +128,7 @@
       "title": "Plural Nouns (-s, -es)",
       "content": [
         {
-          "interaction_id": "u57_b2_i1",
+          "interaction_id": "A1_U57_B2_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa el plural de 'lamp':",
           "stimulus_en": "One lamp, two ________.",
@@ -154,7 +141,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b2_i2",
+          "interaction_id": "A1_U57_B2_I2",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Hay tres relojes en la pared'",
           "options": [
@@ -204,7 +191,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b2_i3",
+          "interaction_id": "A1_U57_B2_I3",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'watch'?",
           "options": [
@@ -230,7 +217,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b2_i4",
+          "interaction_id": "A1_U57_B2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa el plural de 'box':",
           "stimulus_en": "One box, many ________.",
@@ -243,7 +230,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b2_i5",
+          "interaction_id": "A1_U57_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha los plurales:",
           "audioUrl": "/audio/courses/ingles-a1/shared/plurals_s_es.mp3",
@@ -262,7 +249,7 @@
       "title": "Irregular Plurals",
       "content": [
         {
-          "interaction_id": "u57_b3_i1",
+          "interaction_id": "A1_U57_B3_I1",
           "type": "matching",
           "prompt_es": "Une el singular con su plural irregular:",
           "pairs": [
@@ -301,7 +288,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b3_i2",
+          "interaction_id": "A1_U57_B3_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'man'?",
           "options": [
@@ -327,7 +314,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b3_i3",
+          "interaction_id": "A1_U57_B3_I3",
           "type": "short_writing",
           "prompt_es": "Escribe el plural de 'woman':",
           "stimulus_es": "Mujeres",
@@ -340,7 +327,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b3_i4",
+          "interaction_id": "A1_U57_B3_I4",
           "type": "true_false",
           "prompt_es": "El plural de 'mouse' (ratón) es 'mice'.",
           "correct_answer": true,
@@ -352,7 +339,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b3_i5",
+          "interaction_id": "A1_U57_B3_I5",
           "type": "audio_player",
           "prompt_es": "Escucha y repite los irregulares:",
           "audioUrl": "/audio/courses/ingles-a1/shared/irregular_plurals.mp3",
@@ -371,35 +358,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u57_b4_i1",
-          "type": "reading-comprehension",
-          "title": "The New Apartment",
-          "text": "Sarah is in her new apartment. There are two big rugs on the floor. She has three lamps in the living room. There are many boxes in the kitchen. In the bathroom, there is a large mirror and four new towels. Sarah is happy with her things.",
-          "question": "How many lamps are there?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Three"
-            },
-            {
-              "id": "o2",
-              "text": "Two"
-            },
-            {
-              "id": "o3",
-              "text": "Four"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u57_b4_i2",
+          "interaction_id": "A1_U57_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Escribe el plural correcto:",
           "stimulus_en": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
@@ -412,7 +371,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b4_i3",
+          "interaction_id": "A1_U57_B4_I3",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Los niños están felices'",
           "stimulus_es": "The children are happy.",
@@ -425,7 +384,7 @@
           ]
         },
         {
-          "interaction_id": "u57_b4_i4",
+          "interaction_id": "A1_U57_B4_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)?",
           "options": [
@@ -448,19 +407,6 @@
           "concept_tags": [
             "grammar",
             "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u57_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit57_summary.mp3",
-          "text": "Rugs, lamps, and mirrors make a home. Remember your plurals: books, boxes, and people!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

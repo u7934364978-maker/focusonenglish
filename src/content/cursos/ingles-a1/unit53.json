@@ -19,33 +19,7 @@
       "title": "Positive Sentences with Some",
       "content": [
         {
-          "interaction_id": "u53_b1_i1",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase correcta:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I have some sugar."
-            },
-            {
-              "id": "o2",
-              "text": "I have any sugar."
-            },
-            {
-              "id": "o3",
-              "text": "I have a sugar."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u53_b1_i2",
+          "interaction_id": "A1_U53_B1_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'some':",
           "stimulus_en": "There is ________ butter in the fridge.",
@@ -58,7 +32,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b1_i3",
+          "interaction_id": "A1_U53_B1_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Necesitamos algo de queso'",
           "options": [
@@ -93,7 +67,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b1_i4",
+          "interaction_id": "A1_U53_B1_I4",
           "type": "matching",
           "prompt_es": "Une el ingrediente con su nombre:",
           "pairs": [
@@ -124,19 +98,6 @@
             "grammar",
             "vocabulary"
           ]
-        },
-        {
-          "interaction_id": "u53_b1_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/some_sugar_salt.mp3",
-          "text": "We have some sugar and some salt.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -145,7 +106,7 @@
       "title": "Negatives and Questions with Any",
       "content": [
         {
-          "interaction_id": "u53_b2_i1",
+          "interaction_id": "A1_U53_B2_I1",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa correcta?",
           "options": [
@@ -171,7 +132,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b2_i2",
+          "interaction_id": "A1_U53_B2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta:",
           "stimulus_en": "Do you have ________ apples?",
@@ -184,7 +145,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b2_i3",
+          "interaction_id": "A1_U53_B2_I3",
           "type": "true_false",
           "prompt_es": "En la frase 'Is there any salt?', ¿usamos 'any' porque es una pregunta?",
           "correct_answer": true,
@@ -196,7 +157,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b2_i4",
+          "interaction_id": "A1_U53_B2_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'No hay ningún huevo'",
           "stimulus_es": "There aren't any eggs.",
@@ -209,7 +170,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b2_i5",
+          "interaction_id": "A1_U53_B2_I5",
           "type": "audio_player",
           "prompt_es": "Escucha la pregunta:",
           "audioUrl": "/audio/courses/ingles-a1/shared/any_water_question.mp3",
@@ -228,7 +189,7 @@
       "title": "Some vs Any Contrast",
       "content": [
         {
-          "interaction_id": "u53_b3_i1",
+          "interaction_id": "A1_U53_B3_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'some' o 'any':",
           "stimulus_en": "I have ________ cookies, but I don't have ________ milk.",
@@ -241,29 +202,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b3_i2",
-          "type": "multiple_choice",
-          "prompt_es": "Si quieres ofrecer algo (excepción de cortesía), dices:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Would you like some coffee?"
-            },
-            {
-              "id": "o2",
-              "text": "Would you like any coffee?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u53_b3_i3",
+          "interaction_id": "A1_U53_B3_I3",
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Tienes algún plátano?'",
           "options": [
@@ -303,7 +242,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b3_i4",
+          "interaction_id": "A1_U53_B3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Tengo algunas galletas'",
           "stimulus_es": "I have some cookies.",
@@ -314,19 +253,6 @@
             "grammar",
             "grammar"
           ]
-        },
-        {
-          "interaction_id": "u53_b3_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/some_any_dialogue.mp3",
-          "text": "Do you have any sugar? Yes, I have some sugar here.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
         }
       ]
     },
@@ -335,35 +261,7 @@
       "title": "Mastery Section",
       "content": [
         {
-          "interaction_id": "u53_b4_i1",
-          "type": "reading-comprehension",
-          "title": "The Empty Fridge",
-          "text": "Sarah is in the kitchen. She wants to make a cake. She has some flour and some sugar, but she doesn't have any eggs. She also needs some butter. Is there any butter? No, there isn't.",
-          "question": "What is missing (faltante)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Eggs and butter"
-            },
-            {
-              "id": "o2",
-              "text": "Flour and sugar"
-            },
-            {
-              "id": "o3",
-              "text": "Only eggs"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "u53_b4_i2",
+          "interaction_id": "A1_U53_B4_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa el texto:",
           "stimulus_en": "I don't have ________ money. Do you have ________?",
@@ -376,29 +274,7 @@
           ]
         },
         {
-          "interaction_id": "u53_b4_i3",
-          "type": "multiple_choice",
-          "prompt_es": "En una frase afirmativa usamos:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Some"
-            },
-            {
-              "id": "o2",
-              "text": "Any"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u53_b4_i4",
+          "interaction_id": "A1_U53_B4_I4",
           "type": "short_writing",
           "prompt_es": "Escribe '¿Tienes algo de sal?' en inglés:",
           "stimulus_es": "Do you have any salt?",
@@ -408,19 +284,6 @@
           "concept_tags": [
             "grammar",
             "grammar"
-          ]
-        },
-        {
-          "interaction_id": "u53_b4_i5",
-          "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/unit53_summary.mp3",
-          "text": "Remember: Use 'some' for positive statements and 'any' for questions and negative sentences. Simple and effective!",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
           ]
         }
       ]

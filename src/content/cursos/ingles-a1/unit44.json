@@ -18,7 +18,7 @@
       "title": "Block 1: Weather Vocabulary",
       "content": [
         {
-          "interaction_id": "U44_I1",
+          "interaction_id": "A1_U44_B44_1_I1",
           "type": "matching",
           "prompt_es": "Empareja el clima:",
           "pairs": [
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I2",
+          "interaction_id": "A1_U44_B44_1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Qué necesitas cuando llueve?",
           "options": [
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I3",
+          "interaction_id": "A1_U44_B44_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el estado del clima:",
           "stimulus_en": "It is 0 degrees. It is very ________. (frío)",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I4",
+          "interaction_id": "A1_U44_B44_1_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Hace calor'",
           "stimulus_es": "Hace calor",
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I5",
+          "interaction_id": "A1_U44_B44_1_I5",
           "type": "flashcard",
           "prompt_es": "Repaso de clima:",
           "stimulus_en": "Snowing",
@@ -128,7 +128,7 @@
       "title": "Block 2: Weather Grammar",
       "content": [
         {
-          "interaction_id": "U44_I6",
+          "interaction_id": "A1_U44_B44_2_I1",
           "type": "multiple_choice",
           "prompt_es": "________ is raining today.",
           "options": [
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I7",
+          "interaction_id": "A1_U44_B44_2_I2",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta:",
           "stimulus_en": "What ________ the weather like?",
@@ -167,7 +167,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I8",
+          "interaction_id": "A1_U44_B44_2_I3",
           "type": "true_false",
           "prompt_es": "¿Es correcto: 'It is sun today'?",
           "correct_answer": false,
@@ -179,29 +179,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I9",
-          "type": "multiple_choice",
-          "prompt_es": "Look! It ________.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "is snowing"
-            },
-            {
-              "id": "o2",
-              "text": "snows"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "U44_I10",
+          "interaction_id": "A1_U44_B44_2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa la frase negativa:",
           "stimulus_en": "It ________ windy this afternoon. (no está)",
@@ -220,7 +198,7 @@
       "title": "Block 3: Daily Weather",
       "content": [
         {
-          "interaction_id": "U44_I11",
+          "interaction_id": "A1_U44_B44_3_I1",
           "type": "reorder_words",
           "prompt_es": "Pregunta por el clima:",
           "options": [
@@ -265,7 +243,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I12",
+          "interaction_id": "A1_U44_B44_3_I2",
           "type": "multiple_choice",
           "prompt_es": "Weather forecast: 'Cloudy with rain.' - You take:",
           "options": [
@@ -291,7 +269,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I13",
+          "interaction_id": "A1_U44_B44_3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el reporte:",
           "stimulus_en": "In London, it is often ________. (lluvioso)",
@@ -304,7 +282,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I14",
+          "interaction_id": "A1_U44_B44_3_I4",
           "type": "short_writing",
           "prompt_es": "Traduce: 'Hoy está muy nublado'",
           "stimulus_es": "Hoy está muy nublado",
@@ -317,7 +295,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I15",
+          "interaction_id": "A1_U44_B44_3_I5",
           "type": "true_false",
           "prompt_es": "It is hot in the Sahara Desert.",
           "correct_answer": true,
@@ -335,72 +313,7 @@
       "title": "Block 4: Mastery & Skills",
       "content": [
         {
-          "interaction_id": "U44_I16",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe la frase:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
-          "text": "It is a beautiful sunny day.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U44_I17",
-          "type": "reading-comprehension",
-          "title": "London vs Madrid",
-          "text": "Today in London, the weather is bad. It is cold and it is raining. People have umbrellas and coats. In Madrid, the weather is great. It is sunny and hot. People are at the park. They don't have coats today.",
-          "question": "What is the weather like in London today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cold and rainy"
-            },
-            {
-              "id": "o2",
-              "text": "Sunny and hot"
-            },
-            {
-              "id": "o3",
-              "text": "Windy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U44_I18",
-          "type": "reading-comprehension",
-          "title": "London vs Madrid",
-          "text": "Today in London, the weather is bad. It is cold and it is raining. People have umbrellas and coats. In Madrid, the weather is great. It is sunny and hot. People are at the park. They don't have coats today.",
-          "question": "Where is it sunny today?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Madrid"
-            },
-            {
-              "id": "o2",
-              "text": "London"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
-        },
-        {
-          "interaction_id": "U44_I19",
+          "interaction_id": "A1_U44_B44_4_I4",
           "type": "audio_player",
           "prompt_es": "Escucha la descripción:",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
@@ -413,7 +326,7 @@
           ]
         },
         {
-          "interaction_id": "U44_I20",
+          "interaction_id": "A1_U44_B44_4_I5",
           "type": "multiple_choice",
           "prompt_es": "En Madrid, la gente está en...",
           "options": [

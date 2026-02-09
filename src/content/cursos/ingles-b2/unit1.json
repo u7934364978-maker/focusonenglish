@@ -19,59 +19,343 @@
   ],
   "blocks": [
     {
-      "block_id": "B2_U1_BLOCK_1",
-      "title": "Core Practice: Lifestyle and Routines",
-      "duration_minutes": 60,
+      "block_id": "B1",
+      "title": "Perfect Modals",
+      "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "B2_U1_I1",
-          "type": "transformation",
-          "prompt_es": "Completa la oración usando el verbo entre paréntesis en la forma correcta (Present Simple o Continuous):",
-          "stimulus_en": "I ______ (think) of moving to London because my current job is too stressful.",
-          "correct_answer": "am thinking",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "B2_U1_I2",
-          "type": "transformation",
-          "prompt_es": "Completa la oración:",
-          "stimulus_en": "This soup ______ (taste) delicious! What did you put in it?",
-          "correct_answer": "tastes",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "B2_U1_I3",
+          "interaction_id": "B2_U1_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Elige el phrasal verb correcto:",
-          "question_en": "It's hard to ______ on such a low salary in this city.",
+          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
+          "mastery_tag": "grammar:b2-perfect-modals",
+          "explanation": "En esta oración, 'must have' indica una conclusión lógica: es probable que ella haya perdido el autobús.",
+          "stimulus_en": "She didn't arrive on time. She ___ missed the bus.",
           "options": [
             {
-              "id": "a",
-              "text": "get by"
+              "id": "o1",
+              "text": "must have"
             },
             {
-              "id": "b",
-              "text": "get over"
+              "id": "o2",
+              "text": "could have"
             },
             {
-              "id": "c",
-              "text": "get through"
+              "id": "o3",
+              "text": "should have"
             },
             {
-              "id": "d",
-              "text": "get along"
+              "id": "o4",
+              "text": "might have"
             }
           ],
-          "correct_answer": "a",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "B2_U1_I4",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "At the moment, we ______ (stay) with friends until our new flat is ready.",
-          "correct_answer": "are staying",
-          "mastery_tag": "grammar"
+          "interaction_id": "B2_U1_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
+          "mastery_tag": "grammar:b2-perfect-modals",
+          "explanation": "Aquí, 'should have' expresa que pedir ayuda era lo que se esperaba que hiciera.",
+          "stimulus_en": "He ___ asked for help but he thought he could manage alone.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "should have"
+            },
+            {
+              "id": "o2",
+              "text": "must have"
+            },
+            {
+              "id": "o3",
+              "text": "might have"
+            },
+            {
+              "id": "o4",
+              "text": "could have"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U1_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
+          "mastery_tag": "grammar:b2-perfect-modals",
+          "explanation": "'Could have' se utiliza aquí para expresar una posibilidad pasada que no se realizó debido a una falta de acción.",
+          "stimulus_en": "They ___ completed the project on time if they had started earlier.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "might have"
+            },
+            {
+              "id": "o2",
+              "text": "should have"
+            },
+            {
+              "id": "o3",
+              "text": "must have"
+            },
+            {
+              "id": "o4",
+              "text": "could have"
+            }
+          ],
+          "correct_answer": "o4"
+        },
+        {
+          "interaction_id": "B2_U1_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
+          "mastery_tag": "grammar:b2-perfect-modals",
+          "explanation": "'Must have' aquí indica que es casi seguro que trabajó duro, dado el resultado.",
+          "stimulus_en": "If she is promoted, she ___ worked very hard for it.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "must have"
+            },
+            {
+              "id": "o2",
+              "text": "should have"
+            },
+            {
+              "id": "o3",
+              "text": "could have"
+            },
+            {
+              "id": "o4",
+              "text": "might have"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U1_B1_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
+          "mastery_tag": "grammar:b2-perfect-modals",
+          "explanation": "'Must have' sugiere que es muy probable que haya malinterpretado las instrucciones, dado el contexto.",
+          "stimulus_en": "He ___ misunderstood the instructions; he kept making the same mistake.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "must have"
+            },
+            {
+              "id": "o2",
+              "text": "might have"
+            },
+            {
+              "id": "o3",
+              "text": "could have"
+            },
+            {
+              "id": "o4",
+              "text": "should have"
+            }
+          ],
+          "correct_answer": "o1"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Reviews and Articles",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U1_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "El propósito principal de una reseña es evaluar un producto, servicio o experiencia.",
+          "stimulus_en": "What is the main purpose of a review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To entertain"
+            },
+            {
+              "id": "o2",
+              "text": "To inform"
+            },
+            {
+              "id": "o3",
+              "text": "To persuade"
+            },
+            {
+              "id": "o4",
+              "text": "To evaluate"
+            }
+          ],
+          "correct_answer": "o4"
+        },
+        {
+          "interaction_id": "B2_U1_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "La estructura común de una reseña incluye una introducción, un desarrollo y una conclusión.",
+          "stimulus_en": "Which of the following is a common structure for a review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Introduction, body, conclusion"
+            },
+            {
+              "id": "o2",
+              "text": "Title, author, date"
+            },
+            {
+              "id": "o3",
+              "text": "Abstract, results, discussion"
+            },
+            {
+              "id": "o4",
+              "text": "Problem, solution, evaluation"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U1_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "En la sección de evaluación, debes incluir tu opinión personal sobre el tema revisado.",
+          "stimulus_en": "What should you include in the evaluation section of a review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Personal opinion"
+            },
+            {
+              "id": "o2",
+              "text": "Author's background"
+            },
+            {
+              "id": "o3",
+              "text": "Historical context"
+            },
+            {
+              "id": "o4",
+              "text": "Similar works"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U1_B2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "Es importante proporcionar ejemplos específicos para aclarar tus puntos y hacer la reseña más comprensible.",
+          "stimulus_en": "Why is it important to provide specific examples in a review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To make it longer"
+            },
+            {
+              "id": "o2",
+              "text": "To clarify your points"
+            },
+            {
+              "id": "o3",
+              "text": "To confuse the reader"
+            },
+            {
+              "id": "o4",
+              "text": "To follow a template"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U1_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "El tono típico en las reseñas es subjetivo y personal, reflejando el punto de vista del autor.",
+          "stimulus_en": "What tone is typically used in reviews?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Formal and detached"
+            },
+            {
+              "id": "o2",
+              "text": "Casual and humorous"
+            },
+            {
+              "id": "o3",
+              "text": "Subjective and personal"
+            },
+            {
+              "id": "o4",
+              "text": "Technical and detailed"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Wish and Regret",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U1_B3_I1",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'wish':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "En esta oración, usamos 'wish' para expresar un deseo sobre algo que no hicimos en el pasado.",
+          "stimulus_en": "I regret not studying harder for the exam.\n\nI wish I had studied ...",
+          "correct_answer": "harder for the exam.",
+          "example": "wish"
+        },
+        {
+          "interaction_id": "B2_U1_B3_I2",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Aquí, 'regret' se utiliza para expresar el pesar por no haber aceptado una oferta laboral en el pasado.",
+          "stimulus_en": "If only I had taken the job offer.\n\nI regret not taking ...",
+          "correct_answer": "the job offer.",
+          "example": "regret"
+        },
+        {
+          "interaction_id": "B2_U1_B3_I3",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Esta frase muestra un deseo de haber aprendido a programar en el pasado.",
+          "stimulus_en": "I wish I knew how to code.\n\nI regret not learning ...",
+          "correct_answer": "to code.",
+          "example": "regret"
+        },
+        {
+          "interaction_id": "B2_U1_B3_I4",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Estas frases se enfocan en el arrepentimiento por no haber podido realizar un viaje en el año pasado.",
+          "stimulus_en": "I wish I could travel more last year.\n\nI regret not being able to ...",
+          "correct_answer": "travel more last year.",
+          "example": "regret"
+        },
+        {
+          "interaction_id": "B2_U1_B3_I5",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Aquí se expresa un lamento por no haber pedido ayuda cuando era necesario.",
+          "stimulus_en": "I wish I had asked for help.\n\nI regret not asking for ...",
+          "correct_answer": "help.",
+          "example": "regret"
         }
       ]
     }
