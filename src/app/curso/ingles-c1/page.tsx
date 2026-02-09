@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
-import { createClient } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server';
 import Link from 'next/link';
 import { Trophy, Play, CheckCircle2, LayoutGrid, Target, Clock } from 'lucide-react';
 import { ALL_C1_UNITS, C1_MODULES } from '@/lib/course-data-c1';

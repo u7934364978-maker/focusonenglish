@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigation } from '@/components/sections/Navigation';
 import { premiumCourseService } from '@/lib/services/premium-course-service';
-import { createClient } from '@/lib/supabase/client';
+import { createClient } from '@/lib/supabase/server';
 import Link from 'next/link';
 import { Trophy, CheckCircle2, Target, Clock, Briefcase } from 'lucide-react';
 import { B2_NEG_MODULES } from '@/lib/course-data-b2-neg';
