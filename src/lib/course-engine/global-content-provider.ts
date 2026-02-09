@@ -35,6 +35,8 @@ export class GlobalContentProvider {
       'ingles-a2',
       'ingles-b1',
       'ingles-b2',
+      'ingles-c1',
+      'ingles-c2',
       'emails-b1',
       'negociaciones-b2',
       'viajes/a1'

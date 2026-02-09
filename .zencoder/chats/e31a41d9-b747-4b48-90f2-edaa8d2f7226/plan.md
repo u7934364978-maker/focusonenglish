@@ -41,5 +41,6 @@
 
 ### [ ] Step: Bulk Generation for All Levels (Phase 6)
 1. [x] Crear script genérico `scripts/generate-all-explanations.ts`.
-2. [ ] Ejecutar generación para el nivel A2 (18,000 ejercicios - **En ejecución en segundo plano**).
-3. [ ] Ejecutar generación para niveles B1 y B2.
+2. [x] Auditar conteo de ejercicios (A2: 18,000, B1: 6,000, B2: 91).
+3. [/] Ejecutar generación para A2, B1 y B2 (Iniciado en segundo plano, log en `scripts/generation.log`).
+4. [ ] Verificar población de caché completa.

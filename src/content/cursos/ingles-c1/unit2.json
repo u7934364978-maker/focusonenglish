@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C1",
+    "unit_id": "U2",
+    "unit_title": "Advanced Inversion",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Inversion after negative adverbials at CAE level",
+    "Expand vocabulary in Rhetorical devices, Sophisticated adverbs",
+    "Enhance stylistic precision and register awareness"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cae-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C1_U2_BLOCK_1",
+      "title": "Advanced Practice: Advanced Inversion",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C1_U2_I1",
+          "type": "transformation",
+          "prompt_es": "Completa la oración usando inversión:",
+          "stimulus_en": "Never ______ I witnessed such a display of talent in my entire career.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C1_U2_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma invertida correcta:",
+          "stimulus_en": "Hardly ______ (the performance/start) when the power went out.",
+          "correct_answer": "had the performance started",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

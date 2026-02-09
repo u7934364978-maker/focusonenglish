@@ -13,10 +13,6 @@ interface Props {
 
 const LEARNING_PATHS = [
   { id: 'generic', name: 'Inglés General', icon: BookOpen, description: 'Mejora tu fluidez diaria y gramática de A1 a C2.' },
-  { id: 'finance', name: 'Finanzas & Negocios', icon: Briefcase, description: 'Vocabulario bancario, reportes y economía.' },
-  { id: 'it', name: 'Tecnología & IT', icon: Sparkles, description: 'Code reviews, documentación y terminología técnica.' },
-  { id: 'emails', name: 'Emails Profesionales', icon: Mail, description: 'Redacción de correos corporativos efectivos.' },
-  { id: 'travel', name: 'Inglés para Viajes', icon: Plane, description: 'Situaciones reales en hoteles, aeropuertos y turismo.' },
 ];
 
 export default function PracticaInteligenteClient({ initialQueue }: Props) {

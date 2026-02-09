@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C1",
+    "unit_id": "U4",
+    "unit_title": "Complex Passives",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Impersonal and Causative Passives at CAE level",
+    "Expand vocabulary in Reports and Statements",
+    "Enhance stylistic precision and register awareness"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cae-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C1_U4_BLOCK_1",
+      "title": "Advanced Practice: Complex Passives",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C1_U4_I1",
+          "type": "transformation",
+          "prompt_es": "Transforma a la forma impersonal pasiva:",
+          "stimulus_en": "People say he is a genius. -> He is ______ to be a genius.",
+          "correct_answer": "said",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C1_U4_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma causative passive:",
+          "stimulus_en": "The CEO had his speech ______ (write) by a professional ghostwriter.",
+          "correct_answer": "written",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

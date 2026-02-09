@@ -4,70 +4,65 @@
     "target_language": "en",
     "level": "B2",
     "unit_id": "U10",
-    "unit_title": "Education",
-    "total_duration_minutes": 600
+    "unit_title": "Success and Achievement",
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 Education vocabulary",
-    "Apply B2 Reported Speech structures in context",
-    "Develop communicative competence"
+    "Master Used to, Get used to, Would in B2 contexts",
+    "Expand vocabulary in Ambition, Success, Failure",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_10_PRACTICE",
-      "title": "B2 Practice: Education",
-      "duration_minutes": 600,
+      "block_id": "B2_U10_BLOCK_1",
+      "title": "Core Practice: Success and Achievement",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U10_I1",
+          "interaction_id": "B2_U10_I1",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "He said that he ______ (be) tired.",
-          "correct_answer": "was",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con used to o get used to:",
+          "stimulus_en": "It was hard at first, but I am slowly ______ (live) in a big city.",
+          "correct_answer": "getting used to living",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I2",
+          "interaction_id": "B2_U10_I2",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "She asked me where I ______ (live).",
-          "correct_answer": "lived",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con used to o would:",
+          "stimulus_en": "When I was a child, my father ______ (read) me a story every night.",
+          "correct_answer": "would",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U10_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el idiom correcto:",
+          "question_en": "She really ______ the occasion and gave a brilliant performance.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Curriculum",
-              "right": "The subjects comprising a course of study"
+              "id": "a",
+              "text": "rose to"
             },
             {
-              "id": "p1",
-              "left": "Term 10_3_1",
-              "right": "Definition 10_3_1"
+              "id": "b",
+              "text": "fell to"
             },
             {
-              "id": "p2",
-              "left": "Term 10_3_2",
-              "right": "Definition 10_3_2"
+              "id": "c",
+              "text": "took to"
+            },
+            {
+              "id": "d",
+              "text": "went to"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "a",
           "mastery_tag": "vocabulary"
         }
       ]

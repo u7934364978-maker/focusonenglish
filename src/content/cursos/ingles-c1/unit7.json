@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C1",
+    "unit_id": "U7",
+    "unit_title": "Relative Clauses (Advanced)",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Reduced relative clauses and formal relative pronouns at CAE level",
+    "Expand vocabulary in Defining and Non-defining context",
+    "Enhance stylistic precision and register awareness"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cae-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C1_U7_BLOCK_1",
+      "title": "Advanced Practice: Relative Clauses (Advanced)",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C1_U7_I1",
+          "type": "transformation",
+          "prompt_es": "Completa con el pronombre relativo adecuado:",
+          "stimulus_en": "The person to ______ you should speak is the manager.",
+          "correct_answer": "whom",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C1_U7_I2",
+          "type": "transformation",
+          "prompt_es": "Transforma usando una cláusula relativa reducida:",
+          "stimulus_en": "The students who are living in the dorms are happy. -> The students ______ in the dorms are happy.",
+          "correct_answer": "living",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

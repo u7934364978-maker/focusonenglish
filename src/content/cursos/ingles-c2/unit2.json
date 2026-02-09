@@ -1,0 +1,82 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C2",
+    "unit_id": "U2",
+    "unit_title": "Idiomaticity (Proficiency)",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Complex idioms and fixed expressions at CPE level",
+    "Expand vocabulary in Metaphors, binominal expressions",
+    "Achieve near-native precision and stylistic control"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cpe-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C2_U2_BLOCK_1",
+      "title": "Proficiency Practice: Idiomaticity (Proficiency)",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C2_U2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la expresión idiomática correcta:",
+          "question_en": "The two candidates are ______ in the polls; it's impossible to say who will win.",
+          "options": [
+            {
+              "id": "a",
+              "text": "neck and neck"
+            },
+            {
+              "id": "b",
+              "text": "head and shoulders"
+            },
+            {
+              "id": "c",
+              "text": "hand and foot"
+            },
+            {
+              "id": "d",
+              "text": "eye to eye"
+            }
+          ],
+          "correct_answer": "a",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "C2_U2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Completa el binomio:",
+          "question_en": "The peace and ______ of the countryside was a welcome relief from the city.",
+          "options": [
+            {
+              "id": "a",
+              "text": "quiet"
+            },
+            {
+              "id": "b",
+              "text": "calm"
+            },
+            {
+              "id": "c",
+              "text": "silence"
+            },
+            {
+              "id": "d",
+              "text": "rest"
+            }
+          ],
+          "correct_answer": "a",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

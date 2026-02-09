@@ -4,71 +4,66 @@
     "target_language": "en",
     "level": "B2",
     "unit_id": "U9",
-    "unit_title": "Entertainment",
-    "total_duration_minutes": 600
+    "unit_title": "Leisure and Hobbies",
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 Entertainment vocabulary",
-    "Apply B2 Relative Clauses structures in context",
-    "Develop communicative competence"
+    "Master Gerunds and Infinitives in B2 contexts",
+    "Expand vocabulary in Sports, Arts, Free time",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_9_PRACTICE",
-      "title": "B2 Practice: Entertainment",
-      "duration_minutes": 600,
+      "block_id": "B2_U9_BLOCK_1",
+      "title": "Core Practice: Leisure and Hobbies",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U9_I1",
+          "interaction_id": "B2_U9_I1",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "The actor ______ played the lead was brilliant.",
-          "correct_answer": "who",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con gerundio o infinitivo:",
+          "stimulus_en": "I enjoy ______ (play) tennis on Sunday mornings.",
+          "correct_answer": "playing",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I2",
+          "interaction_id": "B2_U9_I2",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "This is the house ______ I was born.",
-          "correct_answer": "where",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con gerundio o infinitivo:",
+          "stimulus_en": "He promised ______ (send) the tickets as soon as possible.",
+          "correct_answer": "to send",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U9_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta:",
+          "question_en": "I stopped ______ a snack because I was hungry.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Genre",
-              "right": "A style or category of art, music, or literature"
+              "id": "a",
+              "text": "to have"
             },
             {
-              "id": "p1",
-              "left": "Term 9_3_1",
-              "right": "Definition 9_3_1"
+              "id": "b",
+              "text": "having"
             },
             {
-              "id": "p2",
-              "left": "Term 9_3_2",
-              "right": "Definition 9_3_2"
+              "id": "c",
+              "text": "have"
+            },
+            {
+              "id": "d",
+              "text": "had"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
         }
       ]
     }

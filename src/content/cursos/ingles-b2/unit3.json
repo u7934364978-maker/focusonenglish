@@ -4,71 +4,66 @@
     "target_language": "en",
     "level": "B2",
     "unit_id": "U3",
-    "unit_title": "Travel and Tourism",
-    "total_duration_minutes": 600
+    "unit_title": "Travel and Holidays",
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 Travel and Tourism vocabulary",
-    "Apply B2 Comparatives and Superlatives, Articles structures in context",
-    "Develop communicative competence"
+    "Master Comparatives and Superlatives, Future Forms in B2 contexts",
+    "Expand vocabulary in Tourism, Transport, Booking",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_3_PRACTICE",
-      "title": "B2 Practice: Travel and Tourism",
-      "duration_minutes": 600,
+      "block_id": "B2_U3_BLOCK_1",
+      "title": "Core Practice: Travel and Holidays",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U3_I1",
+          "interaction_id": "B2_U3_I1",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "This is ______ (interesting) book I have ever read.",
-          "correct_answer": "the most interesting",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con el comparativo o superlativo correcto:",
+          "stimulus_en": "This is by far ______ (expensive) hotel I have ever stayed in.",
+          "correct_answer": "the most expensive",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "Is Tokyo ______ (big) than London?",
-          "correct_answer": "bigger",
-          "feedback_correct_es": "¡Excelente!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta para el futuro:",
+          "question_en": "I've decided that I ______ to Japan next summer.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Itinerary",
-              "right": "A planned route or journey"
+              "id": "a",
+              "text": "am going to travel"
             },
             {
-              "id": "p1",
-              "left": "Term 3_3_1",
-              "right": "Definition 3_3_1"
+              "id": "b",
+              "text": "will travel"
             },
             {
-              "id": "p2",
-              "left": "Term 3_3_2",
-              "right": "Definition 3_3_2"
+              "id": "c",
+              "text": "travel"
+            },
+            {
+              "id": "d",
+              "text": "am travelling"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "B2_U3_I3",
+          "type": "transformation",
+          "prompt_es": "Completa la oración:",
+          "stimulus_en": "The ______ (fast) we leave, the sooner we will arrive at the destination.",
+          "correct_answer": "faster",
+          "mastery_tag": "grammar"
         }
       ]
     }

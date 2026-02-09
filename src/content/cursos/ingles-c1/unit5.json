@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C1",
+    "unit_id": "U5",
+    "unit_title": "Word Formation (Advanced)",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Suffixes, Prefixes and Internal changes at CAE level",
+    "Expand vocabulary in Abstract nouns, Complex adjectives",
+    "Enhance stylistic precision and register awareness"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cae-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C1_U5_BLOCK_1",
+      "title": "Advanced Practice: Word Formation (Advanced)",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C1_U5_I1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta de la palabra entre paréntesis:",
+          "stimulus_en": "The ______ (discover) of the new planet was a major milestone.",
+          "correct_answer": "discovery",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "C1_U5_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "His behaviour was completely ______ (justify) and caused a lot of anger.",
+          "correct_answer": "unjustifiable",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

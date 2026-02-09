@@ -1,0 +1,64 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C2",
+    "unit_id": "U1",
+    "unit_title": "Nuance and Subtlety",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Precise word choice and connotation at CPE level",
+    "Expand vocabulary in Advanced synonyms, shades of meaning",
+    "Achieve near-native precision and stylistic control"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cpe-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C2_U1_BLOCK_1",
+      "title": "Proficiency Practice: Nuance and Subtlety",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C2_U1_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el verbo que mejor describe caminar con arrogancia:",
+          "question_en": "He ______ into the room, clearly proud of his recent promotion.",
+          "options": [
+            {
+              "id": "a",
+              "text": "swaggered"
+            },
+            {
+              "id": "b",
+              "text": "shuffled"
+            },
+            {
+              "id": "c",
+              "text": "trudged"
+            },
+            {
+              "id": "d",
+              "text": "strolled"
+            }
+          ],
+          "correct_answer": "a",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "C2_U1_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con el adjetivo preciso (relacionado con el clima):",
+          "stimulus_en": "The morning air was ______ (unpleasantly cold and damp).",
+          "correct_answer": "raw",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

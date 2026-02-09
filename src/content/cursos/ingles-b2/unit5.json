@@ -4,70 +4,83 @@
     "target_language": "en",
     "level": "B2",
     "unit_id": "U5",
-    "unit_title": "The Environment",
-    "total_duration_minutes": 600
+    "unit_title": "Health and Fitness",
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 The Environment vocabulary",
-    "Apply B2 Future Forms structures in context",
-    "Develop communicative competence"
+    "Master Modal Verbs: Obligation, Advice, Possibility in B2 contexts",
+    "Expand vocabulary in Body, Exercise, Healthy living",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_5_PRACTICE",
-      "title": "B2 Practice: The Environment",
-      "duration_minutes": 600,
+      "block_id": "B2_U5_BLOCK_1",
+      "title": "Core Practice: Health and Fitness",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U5_I1",
-          "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "This time tomorrow, I ______ (fly) to New York.",
-          "correct_answer": "will be flying",
-          "feedback_correct_es": "¡Excelente!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "Look at those clouds! It ______ (rain).",
-          "correct_answer": "is going to rain",
-          "feedback_correct_es": "¡Excelente!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U5_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el modal correcto:",
+          "question_en": "You ______ take up a sport if you want to lose weight.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Sustainability",
-              "right": "The ability to be maintained at a certain rate"
+              "id": "a",
+              "text": "should"
             },
             {
-              "id": "p1",
-              "left": "Term 5_3_1",
-              "right": "Definition 5_3_1"
+              "id": "b",
+              "text": "mustn't"
             },
             {
-              "id": "p2",
-              "left": "Term 5_3_2",
-              "right": "Definition 5_3_2"
+              "id": "c",
+              "text": "can't"
+            },
+            {
+              "id": "d",
+              "text": "ought"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "B2_U5_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con un modal de deducción:",
+          "stimulus_en": "He looks exhausted. He ______ (must/work) all night.",
+          "correct_answer": "must have worked",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "B2_U5_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el phrasal verb correcto:",
+          "question_en": "I need to ______ on sugary snacks to improve my health.",
+          "options": [
+            {
+              "id": "a",
+              "text": "cut down"
+            },
+            {
+              "id": "b",
+              "text": "cut off"
+            },
+            {
+              "id": "c",
+              "text": "cut out"
+            },
+            {
+              "id": "d",
+              "text": "cut up"
+            }
+          ],
+          "correct_answer": "a",
           "mastery_tag": "vocabulary"
         }
       ]

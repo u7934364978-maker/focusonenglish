@@ -1,0 +1,82 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C1",
+    "unit_id": "U6",
+    "unit_title": "Collocations and Idioms",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Fixed expressions and collocations at CAE level",
+    "Expand vocabulary in Professional and Academic collocations",
+    "Enhance stylistic precision and register awareness"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cae-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C1_U6_BLOCK_1",
+      "title": "Advanced Practice: Collocations and Idioms",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C1_U6_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la colocación correcta:",
+          "question_en": "The company needs to ______ a decision before the end of the week.",
+          "options": [
+            {
+              "id": "a",
+              "text": "reach"
+            },
+            {
+              "id": "b",
+              "text": "do"
+            },
+            {
+              "id": "c",
+              "text": "get"
+            },
+            {
+              "id": "d",
+              "text": "arrive"
+            }
+          ],
+          "correct_answer": "a",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "C1_U6_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el idiom adecuado:",
+          "question_en": "He's always ______ the bush instead of getting to the point.",
+          "options": [
+            {
+              "id": "a",
+              "text": "beating around"
+            },
+            {
+              "id": "b",
+              "text": "hitting around"
+            },
+            {
+              "id": "c",
+              "text": "walking around"
+            },
+            {
+              "id": "d",
+              "text": "running around"
+            }
+          ],
+          "correct_answer": "a",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

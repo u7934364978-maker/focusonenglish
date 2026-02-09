@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C2",
+    "unit_id": "U4",
+    "unit_title": "Open Cloze (Complex)",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Structural precision at CPE level",
+    "Expand vocabulary in Prepositions and Particles",
+    "Achieve near-native precision and stylistic control"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cpe-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C2_U4_BLOCK_1",
+      "title": "Proficiency Practice: Open Cloze (Complex)",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C2_U4_I1",
+          "type": "transformation",
+          "prompt_es": "Completa con la preposición correcta en esta estructura compleja:",
+          "stimulus_en": "There is no doubt as ______ the validity of the results.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C2_U4_I2",
+          "type": "transformation",
+          "prompt_es": "Completa la frase hecha:",
+          "stimulus_en": "He was ______ the verge of tears when he heard the news.",
+          "correct_answer": "on",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

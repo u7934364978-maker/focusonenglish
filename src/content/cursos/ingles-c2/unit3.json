@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C2",
+    "unit_id": "U3",
+    "unit_title": "Rhetorical Devices",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master Parallelism and Emphasis at CPE level",
+    "Expand vocabulary in Formal and Literary devices",
+    "Achieve near-native precision and stylistic control"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cpe-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C2_U3_BLOCK_1",
+      "title": "Proficiency Practice: Rhetorical Devices",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C2_U3_I1",
+          "type": "transformation",
+          "prompt_es": "Completa para crear una estructura paralela enfática:",
+          "stimulus_en": "Not only did he lose his job, but ______ (he/also/lose) his house.",
+          "correct_answer": "he also lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C2_U3_I2",
+          "type": "transformation",
+          "prompt_es": "Transforma usando inversión literaria:",
+          "stimulus_en": "The castle stood on the hill. -> On the hill ______ the castle.",
+          "correct_answer": "stood",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

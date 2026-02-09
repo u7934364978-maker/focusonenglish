@@ -5,69 +5,64 @@
     "level": "B2",
     "unit_id": "U2",
     "unit_title": "The Media",
-    "total_duration_minutes": 600
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 The Media vocabulary",
-    "Apply B2 Past Simple, Past Continuous, Past Perfect structures in context",
-    "Develop communicative competence"
+    "Master Past Simple, Past Continuous, Past Perfect in B2 contexts",
+    "Expand vocabulary in News, Social Media, Journalism",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_2_PRACTICE",
-      "title": "B2 Practice: The Media",
-      "duration_minutes": 600,
+      "block_id": "B2_U2_BLOCK_1",
+      "title": "Core Practice: The Media",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U2_I1",
+          "interaction_id": "B2_U2_I1",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "When I arrived, the film ______ (already/start).",
-          "correct_answer": "had already started",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con Past Simple o Past Continuous:",
+          "stimulus_en": "While the journalist ______ (interview) the celebrity, the fire alarm went off.",
+          "correct_answer": "was interviewing",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I2",
+          "interaction_id": "B2_U2_I2",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "I ______ (watch) TV when the phone rang.",
-          "correct_answer": "was watching",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con Past Perfect o Past Simple:",
+          "stimulus_en": "By the time the news reached the public, the company ______ (already/deny) the rumours.",
+          "correct_answer": "had already denied",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la palabra correcta:",
+          "question_en": "The ______ on the front page of the newspaper was very shocking.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Headline",
-              "right": "The title of a news story"
+              "id": "a",
+              "text": "headline"
             },
             {
-              "id": "p1",
-              "left": "Term 2_3_1",
-              "right": "Definition 2_3_1"
+              "id": "b",
+              "text": "subtitle"
             },
             {
-              "id": "p2",
-              "left": "Term 2_3_2",
-              "right": "Definition 2_3_2"
+              "id": "c",
+              "text": "caption"
+            },
+            {
+              "id": "d",
+              "text": "editorial"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "a",
           "mastery_tag": "vocabulary"
         }
       ]

@@ -4,70 +4,65 @@
     "target_language": "en",
     "level": "B2",
     "unit_id": "U6",
-    "unit_title": "Science and Technology",
-    "total_duration_minutes": 600
+    "unit_title": "The Environment",
+    "total_duration_minutes": 60
   },
   "learning_outcomes": [
-    "Understand and use B2 Science and Technology vocabulary",
-    "Apply B2 Zero and First Conditionals structures in context",
-    "Develop communicative competence"
+    "Master Future Continuous and Future Perfect in B2 contexts",
+    "Expand vocabulary in Pollution, Recycling, Climate Change",
+    "Improve accuracy in Cambridge FCE style tasks"
   ],
   "mastery_tags": [
     "grammar",
     "vocabulary",
-    "syntax",
-    "communication"
+    "fce-practice"
   ],
   "blocks": [
     {
-      "block_id": "B2_UNIT_6_PRACTICE",
-      "title": "B2 Practice: Science and Technology",
-      "duration_minutes": 600,
+      "block_id": "B2_U6_BLOCK_1",
+      "title": "Core Practice: The Environment",
+      "duration_minutes": 60,
       "content": [
         {
-          "interaction_id": "U6_I1",
+          "interaction_id": "B2_U6_I1",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "If you heat ice, it ______ (melt).",
-          "correct_answer": "melts",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con Future Perfect:",
+          "stimulus_en": "By the year 2050, many coastal cities ______ (disappear) if the sea levels continue to rise.",
+          "correct_answer": "will have disappeared",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U6_I2",
+          "interaction_id": "B2_U6_I2",
           "type": "transformation",
-          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
-          "stimulus_en": "If I ______ (see) him, I will tell him.",
-          "correct_answer": "see",
-          "feedback_correct_es": "¡Excelente!",
+          "prompt_es": "Completa con Future Continuous:",
+          "stimulus_en": "This time next year, I ______ (work) for a non-profit organization dedicated to the environment.",
+          "correct_answer": "will be working",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U6_I3",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
+          "interaction_id": "B2_U6_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el término correcto:",
+          "question_en": "The ______ layer protects the Earth from harmful ultraviolet rays.",
+          "options": [
             {
-              "id": "p0",
-              "left": "Breakthrough",
-              "right": "A significant discovery"
+              "id": "a",
+              "text": "ozone"
             },
             {
-              "id": "p1",
-              "left": "Term 6_3_1",
-              "right": "Definition 6_3_1"
+              "id": "b",
+              "text": "oxygen"
             },
             {
-              "id": "p2",
-              "left": "Term 6_3_2",
-              "right": "Definition 6_3_2"
+              "id": "c",
+              "text": "ocean"
+            },
+            {
+              "id": "d",
+              "text": "organic"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "correct_answer": "a",
           "mastery_tag": "vocabulary"
         }
       ]

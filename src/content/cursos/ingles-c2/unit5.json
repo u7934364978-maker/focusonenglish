@@ -1,0 +1,46 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "C2",
+    "unit_id": "U5",
+    "unit_title": "Subjunctive and Formal Structures",
+    "total_duration_minutes": 60
+  },
+  "learning_outcomes": [
+    "Master The Subjunctive Mood and Archaisms at CPE level",
+    "Expand vocabulary in Legal and highly formal language",
+    "Achieve near-native precision and stylistic control"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "cpe-practice",
+    "style"
+  ],
+  "blocks": [
+    {
+      "block_id": "C2_U5_BLOCK_1",
+      "title": "Proficiency Practice: Subjunctive and Formal Structures",
+      "duration_minutes": 60,
+      "content": [
+        {
+          "interaction_id": "C2_U5_I1",
+          "type": "transformation",
+          "prompt_es": "Completa usando el subjuntivo formal:",
+          "stimulus_en": "It is essential that he ______ (be) informed immediately.",
+          "correct_answer": "be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "C2_U5_I2",
+          "type": "transformation",
+          "prompt_es": "Completa la estructura formal condicional:",
+          "stimulus_en": "______ it not for your help, I would have failed.",
+          "correct_answer": "Were",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}
