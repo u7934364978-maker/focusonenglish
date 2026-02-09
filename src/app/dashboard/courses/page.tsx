@@ -7,40 +7,22 @@ import { Navigation } from '@/components/sections/Navigation';
 export default function CourseCatalogPage() {
   const lines = [
     {
-      id: 'professional',
-      title: 'Professional English',
-      description: 'Business, IT, and Finance specialized tracks.',
-      icon: '💼',
+      id: 'general',
+      title: 'Inglés General',
+      description: 'Domina el inglés desde A1 hasta C2 con nuestro currículo completo.',
+      icon: '🌍',
       color: 'blue',
-      levels: ['B1', 'B2'],
-      goal: 'trabajo'
-    },
-    {
-      id: 'traveler',
-      title: 'Traveler English',
-      description: '90-day intensive program for autonomy abroad.',
-      icon: '✈️',
-      color: 'emerald',
-      levels: ['A1', 'B1'],
-      goal: 'viajes'
-    },
-    {
-      id: 'academic',
-      title: 'Academic English',
-      description: 'Cambridge, IELTS, TOEFL, and DET preparation.',
-      icon: '📜',
-      color: 'purple',
-      levels: ['B1', 'B2', 'C1', 'C2'],
-      goal: 'examenes'
+      levels: ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'],
+      goal: 'general'
     },
     {
       id: 'ai',
-      title: 'AI for English',
-      description: 'Masterclass on using AI to accelerate learning.',
+      title: 'IA para Inglés',
+      description: 'Masterclass sobre cómo usar la IA para acelerar tu aprendizaje.',
       icon: '🤖',
       color: 'orange',
       levels: ['B1', 'B2', 'C1'],
-      goal: 'ia'
+      goal: 'general'
     }
   ];
 

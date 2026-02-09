@@ -1,7 +1,5 @@
 // Currículum completo basado en especificaciones de Cambridge English (CEFR)
 // A1 - C2: Grammar, Vocabulary, Topics, Skills
-import { A1_PREMIUM_CURRICULUM } from './a1-premium-curriculum';
-import { B2_NEG_MODULE_1_LESSONS, B2_NEG_MODULE_2_LESSONS, B2_NEG_MODULE_3_LESSONS } from './course-data-b2-neg';
 
 export interface CurriculumModule {
   title: string;
@@ -38,7 +36,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     description: "Nivel inicial para comunicación básica en situaciones cotidianas",
     duration: "8-10 semanas",
     examFormat: {
-      name: "Cambridge A1 Movers / Pre A1 Starters",
+      name: "Certificación Nivel A1",
       parts: ["Listening", "Reading & Writing", "Speaking"],
       duration: "45-60 minutos"
     },
@@ -197,370 +195,14 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
       }
     ]
   },
-  A1_PREMIUM: A1_PREMIUM_CURRICULUM,
-  TRABAJO_A1: {
-    level: "A1",
-    cefr: "Principiante Pro",
-    description: "Inglés inicial enfocado 100% en el entorno laboral y profesional",
-    duration: "8-10 semanas",
-    modules: [
-      {
-        title: "Módulo 1: Presentaciones y Números en el Trabajo",
-        topics: [
-          "Saludos formales e informales",
-          "Presentaciones personales y de colegas",
-          "Números cardinales y ordinales",
-          "Fechas, meses y años",
-          "La hora y horarios de oficina"
-        ],
-        grammar: [
-          "Verb 'to be' (presente)",
-          "Personal pronouns",
-          "Possessive adjectives",
-          "Present Simple (conceptos básicos)",
-          "Prepositions of time: in, on, at"
-        ],
-        vocabulary: [
-          "Greetings (Hello, Good morning, Nice to meet you)",
-          "Job titles (Manager, Assistant, Developer)",
-          "Numbers 1-1000",
-          "Days of the week and months",
-          "Time expressions"
-        ],
-        skills: {
-          reading: [
-            "Leer tarjetas de visita",
-            "Entender horarios sencillos",
-            "Identificar información personal en perfiles"
-          ],
-          writing: [
-            "Escribir una presentación personal corta",
-            "Completar formularios con datos personales y fechas",
-            "Escribir números y horas correctamente"
-          ],
-          listening: [
-            "Entender presentaciones lentas y claras",
-            "Identificar números y fechas en dictados",
-            "Comprender saludos básicos"
-          ],
-          speaking: [
-            "Presentarse a sí mismo y a otros",
-            "Decir tu profesión y lugar de trabajo",
-            "Preguntar y decir la hora y fechas"
-          ]
-        }
-      },
-      {
-        title: "Módulo 2: El Entorno de Oficina",
-        topics: [
-          "Objetos de oficina y suministros",
-          "Departamentos de la empresa",
-          "Ubicación de objetos y lugares",
-          "Acciones cotidianas en el trabajo",
-          "Equipamiento tecnológico básico"
-        ],
-        grammar: [
-          "Articles: a, an, the",
-          "There is / There are",
-          "Prepositions of place",
-          "Demonstratives (this, that, these, those)",
-          "Present Simple (rutinas laborales)"
-        ],
-        vocabulary: [
-          "Office supplies (desk, chair, computer, printer)",
-          "Departments (Sales, Marketing, HR, Finance)",
-          "Common workplace verbs (work, call, email, send)",
-          "Technology basics (screen, keyboard, mouse)"
-        ],
-        skills: {
-          reading: [
-            "Identificar señales y etiquetas en la oficina",
-            "Leer descripciones cortas de departamentos",
-            "Entender inventarios básicos"
-          ],
-          writing: [
-            "Describir tu lugar de trabajo",
-            "Hacer listas de materiales necesarios",
-            "Escribir frases sobre tu rutina diaria"
-          ],
-          listening: [
-            "Seguir instrucciones espaciales básicas",
-            "Entender descripciones de oficinas",
-            "Identificar departamentos en una conversación"
-          ],
-          speaking: [
-            "Describir qué hay en tu oficina",
-            "Decir en qué departamento trabajas",
-            "Pedir objetos de oficina básicos"
-          ]
-        }
-      },
-      {
-        title: "Módulo 3: Emails y Comunicación Inicial",
-        topics: [
-          "Estructura básica de un email",
-          "Saludos y despedidas en correos",
-          "Frases comunes para solicitar información",
-          "Confirmación de citas y reuniones",
-          "Agradecimientos profesionales"
-        ],
-        grammar: [
-          "Imperative for simple instructions",
-          "Question words (What, Where, When, Who, Why)",
-          "Can for polite requests",
-          "Present Simple (preguntas y negación)",
-          "Object pronouns"
-        ],
-        vocabulary: [
-          "Email terminology (subject, attachment, reply)",
-          "Professional greetings (Dear, Regards, Best wishes)",
-          "Request phrases (Please send, Could you...?)",
-          "Action verbs for emails"
-        ],
-        skills: {
-          reading: [
-            "Comprender emails muy cortos y directos",
-            "Identificar el asunto y la acción requerida",
-            "Leer confirmaciones de reuniones"
-          ],
-          writing: [
-            "Escribir un email de presentación básico",
-            "Redactar solicitudes de información sencillas",
-            "Escribir despedidas adecuadas según el tono"
-          ],
-          listening: [
-            "Entender peticiones simples por teléfono",
-            "Identificar el propósito de un mensaje corto",
-            "Seguir instrucciones de correo electrónico"
-          ],
-          speaking: [
-            "Hacer peticiones educadas básicas",
-            "Confirmar asistencia a una reunión",
-            "Agradecer formalmente por una información"
-          ]
-        }
-      }
-    ]
-  },
-  VIAJES_A1: {
-    level: "A1",
-    cefr: "Viajero Principiante",
-    description: "Inglés desde cero diseñado para sobrevivir y disfrutar tus viajes por el mundo",
-    duration: "60 semanas (15 meses)",
-    modules: [
-      {
-        title: "Trimester 1: Survival Basics & Airport",
-        topics: [
-          "Greetings & Personal Information",
-          "Airport Procedures (Check-in, Security, Immigration)",
-          "Numbers, Prices & Currency",
-          "Essential Survival Phrases",
-          "Time & Flight Schedules"
-        ],
-        grammar: [
-          "Verb 'to be' (Present)",
-          "Personal Pronouns & Possessive Adjectives",
-          "Basic Question Words (What, Where, How much)",
-          "Plural Nouns (Passport/Passports)",
-          "Numbers 1-100"
-        ],
-        vocabulary: [
-          "Airport terminology",
-          "Greetings & Polite phrases",
-          "Travel documents",
-          "Numbers & Money",
-          "Time expressions"
-        ],
-        weeks: Array.from({ length: 15 }, (_, i) => ({
-          id: `viajes-a1-w${(i + 1).toString().padStart(2, '0')}`,
-          title: `Week ${i + 1}: ${[
-            "Greetings & Introductions",
-            "The Alphabet & Spelling Names",
-            "Numbers 1-20 & Age",
-            "Numbers 20-100 & Prices",
-            "At the Check-in Counter",
-            "Security Control Phrases",
-            "Immigration & Passport Control",
-            "Gate Information & Announcements",
-            "Baggage Claim & Lost Luggage",
-            "Basic Survival: Asking for Help",
-            "Time & Flight Schedules",
-            "Connecting Flights & Transfers",
-            "Duty Free & Simple Shopping",
-            "Airport Services (WiFi, ATM, Toilet)",
-            "Review & Trimester 1 Assessment"
-          ][i]}`,
-          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
-        })),
-        skills: {
-          reading: ["Boarding passes", "Airport signs", "Simple forms"],
-          writing: ["Filling entry forms", "Spelling names", "Writing prices"],
-          listening: ["Airport announcements", "Simple greetings", "Clear instructions"],
-          speaking: ["Answering immigration questions", "Ordering at airport cafe", "Asking for directions"]
-        }
-      },
-      {
-        title: "Trimester 2: Transport & Accommodation",
-        topics: [
-          "Hotel Reservations & Check-in",
-          "Public Transport (Taxi, Bus, Train, Metro)",
-          "Asking for and Giving Directions",
-          "Describing Places & Facilities",
-          "Handling Room Issues"
-        ],
-        grammar: [
-          "Prepositions of Place (in, on, at, next to)",
-          "Imperatives for Directions",
-          "There is / There are",
-          "Present Simple for Routines",
-          "Can for Requests/Possibility"
-        ],
-        vocabulary: [
-          "Hotel rooms & amenities",
-          "Directions & Landmarks",
-          "Transport modes",
-          "City places",
-          "Basic furniture"
-        ],
-        weeks: Array.from({ length: 15 }, (_, i) => ({
-          id: `viajes-a1-w${(i + 16).toString().padStart(2, '0')}`,
-          title: `Week ${i + 16}: ${[
-            "Taking a Taxi/Uber",
-            "Bus & Train Stations",
-            "Buying Tickets",
-            "Asking 'Where is...?'",
-            "Directions: Left, Right, Straight",
-            "Hotel Check-in Process",
-            "Asking about Hotel Facilities",
-            "Room Features & Amenities",
-            "Using the Hotel WiFi & Services",
-            "Ordering Room Service",
-            "Reporting Room Problems",
-            "Hotel Check-out & Bill",
-            "Exploring the Neighborhood",
-            "Tourist Information Centers",
-            "Review & Trimester 2 Assessment"
-          ][i]}`,
-          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
-        })),
-        skills: {
-          reading: ["Hotel brochures", "Maps", "Bus schedules"],
-          writing: ["Hotel booking details", "Simple directions", "Short reviews"],
-          listening: ["Direction instructions", "Hotel receptionist dialogue", "Public transport announcements"],
-          speaking: ["Booking a taxi", "Checking in at a hotel", "Asking for the way"]
-        }
-      },
-      {
-        title: "Trimester 3: Food, Dining & Social",
-        topics: [
-          "Restaurants & Cafes",
-          "Ordering Food & Drinks",
-          "Supermarkets & Food Shopping",
-          "Socializing & Making Friends",
-          "Likes & Dislikes"
-        ],
-        grammar: [
-          "Present Simple (Affirmative/Negative)",
-          "Countable & Uncountable Nouns",
-          "Some / Any",
-          "Would like for requests",
-          "Object Pronouns (it, them)"
-        ],
-        vocabulary: [
-          "Food & Drink items",
-          "Restaurant vocabulary",
-          "Daily activities",
-          "Adjectives for food",
-          "Hobbies & Interests"
-        ],
-        weeks: Array.from({ length: 15 }, (_, i) => ({
-          id: `viajes-a1-w${(i + 31).toString().padStart(2, '0')}`,
-          title: `Week ${i + 31}: ${[
-            "At the Cafe: Ordering Coffee",
-            "Breakfast Foods",
-            "Making a Restaurant Reservation",
-            "Reading a Menu",
-            "Ordering Lunch/Dinner",
-            "Dietary Requirements & Allergies",
-            "Paying the Bill & Tipping",
-            "At the Supermarket",
-            "Buying Snacks & Street Food",
-            "Simple Conversations: Hobbies",
-            "Talking about your Home Country",
-            "Inviting Someone for a Drink",
-            "Describing your Day",
-            "Meeting People at the Hostel",
-            "Review & Trimester 3 Assessment"
-          ][i]}`,
-          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
-        })),
-        skills: {
-          reading: ["Menus", "Food labels", "Social media profiles"],
-          writing: ["Ordering food online", "Simple social messages", "Grocery lists"],
-          listening: ["Waiter dialogues", "Casual introductions", "Food preferences"],
-          speaking: ["Ordering a meal", "Introducing yourself to travelers", "Buying groceries"]
-        }
-      },
-      {
-        title: "Trimester 4: Shopping, Health & Emergencies",
-        topics: [
-          "Shopping for Clothes & Souvenirs",
-          "Health & Pharmacy",
-          "Emergency Situations",
-          "Sightseeing & Tours",
-          "Future Travel Plans"
-        ],
-        grammar: [
-          "Comparative Adjectives (cheaper, bigger)",
-          "Past Simple of 'to be' (was/were)",
-          "Present Continuous for Future Plans",
-          "Modal: Should for advice",
-          "Question words review"
-        ],
-        vocabulary: [
-          "Clothes & Sizes",
-          "Body parts & Symptoms",
-          "Emergency contacts",
-          "Sightseeing spots",
-          "Weather"
-        ],
-        weeks: Array.from({ length: 15 }, (_, i) => ({
-          id: `viajes-a1-w${(i + 46).toString().padStart(2, '0')}`,
-          title: `Week ${i + 46}: ${[
-            "Shopping for Souvenirs",
-            "Clothes Shopping & Sizes",
-            "Asking for Discounts & Deals",
-            "Describing the Weather",
-            "Booking a City Tour",
-            "At a Museum/Gallery",
-            "Renting a Car/Bike",
-            "Parts of the Body",
-            "At the Pharmacy",
-            "Seeing a Doctor",
-            "Reporting a Crime/Theft",
-            "Asking for Help in Emergency",
-            "Losing your Passport/Phone",
-            "Future Travel Dreams",
-            "Final Review & Graduation"
-          ][i]}`,
-          lessons: [{ id: "lesson1", title: "Core Travel Lesson" }]
-        })),
-        skills: {
-          reading: ["Price tags", "Medicine labels", "Emergency signs"],
-          writing: ["Emergency contact info", "Simple travel blog", "Postcards"],
-          listening: ["Pharmacy advice", "Tour guide speech", "Emergency calls"],
-          speaking: ["Buying clothes", "Describing symptoms", "Reporting a problem"]
-        }
-      }
-    ]
-  },
+
   A2: {
     level: "A2",
     cefr: "Elemental",
     description: "Comunicación en tareas simples y rutinarias con información directa",
     duration: "10-12 semanas",
     examFormat: {
-      name: "Cambridge A2 Key (KET)",
+      name: "Certificación Nivel A2",
       parts: ["Reading & Writing", "Listening", "Speaking"],
       duration: "110 minutos total"
     },
@@ -724,7 +366,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     description: "Comprensión y producción en situaciones familiares y temas de interés personal",
     duration: "12-14 semanas",
     examFormat: {
-      name: "Cambridge B1 Preliminary (PET)",
+      name: "Certificación Nivel B1",
       parts: ["Reading", "Writing", "Listening", "Speaking"],
       duration: "140 minutos total"
     },
@@ -822,7 +464,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           listening: [
             "Entender debates simples",
             "Comprender conferencias básicas",
-            "Seguir entrevistas y discusiones"
+            "Seguir interviews y discusiones"
           ],
           speaking: [
             "Hablar sobre planes y ambiciones",
@@ -878,7 +520,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
             "Dar y justificar consejos",
             "Hacer recomendaciones",
             "Discutir problemas y proponer soluciones",
-            "Expresar preferencias y opiniones fundamentadas"
+            "Expresar opiniones fundamentadas"
           ]
         }
       }
@@ -891,7 +533,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     description: "Interacción fluida con hablantes nativos y comprensión de textos complejos",
     duration: "14-16 semanas",
     examFormat: {
-      name: "Cambridge B2 First (FCE)",
+      name: "Certificación Nivel B2",
       parts: ["Reading & Use of English", "Writing", "Listening", "Speaking"],
       duration: "209 minutos total"
     },
@@ -900,7 +542,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         title: "Módulo 1: Narrativas Complejas y Análisis",
         topics: [
           "Literatura y crítica",
-          "Cine, arte y cultura",
+          "Cine, art y cultura",
           "Eventos históricos",
           "Biografías detalladas",
           "Análisis de situaciones"
@@ -954,8 +596,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Ciencia y tecnología",
           "Problemas globales",
           "Ética y dilemas morales",
-          "Economía y negocios",
-          "Política y sociedad"
+          "Sociedad contemporánea"
         ],
         grammar: [
           "Third Conditional (If + Past Perfect, would have)",
@@ -967,7 +608,6 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         ],
         vocabulary: [
           "Vocabulario académico (hypothesis, evidence, analyze)",
-          "Economía y administracion",
           "Ciencia y tecnología",
           "Problemas sociales",
           "Política y gobierno",
@@ -996,7 +636,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
             "Especular sobre situaciones hipotéticas",
             "Debatir con argumentos sólidos",
             "Expresar opiniones complejas",
-            "Negociar y persuadir"
+            "Persuadir y negociar"
           ]
         }
       },
@@ -1022,7 +662,6 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Expresiones de cortesía avanzadas",
           "Lenguaje persuasivo",
           "Conectores sofisticados (furthermore, nevertheless, albeit)",
-          "Vocabulario de negocios",
           "Expresiones metafóricas",
           "Word formation (prefixes, suffixes)"
         ],
@@ -1061,7 +700,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     description: "Dominio efectivo del idioma con fluidez, flexibilidad y precisión",
     duration: "16-18 semanas",
     examFormat: {
-      name: "Cambridge C1 Advanced (CAE)",
+      name: "Certificación Nivel C1",
       parts: ["Reading & Use of English", "Writing", "Listening", "Speaking"],
       duration: "235 minutos total"
     },
@@ -1127,7 +766,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         topics: [
           "Retórica y persuasión avanzada",
           "Escritura creativa",
-          "Comunicación profesional de alto nivel",
+          "Comunicación de alto nivel",
           "Medios y comunicación",
           "Crítica social y cultural"
         ],
@@ -1152,8 +791,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           reading: [
             "Comprender literatura contemporánea",
             "Analizar editoriales y artículos de opinión",
-            "Apreciar estilo y recursos retóricos",
-            "Leer textos legales y técnicos"
+            "Apreciar estilo y recursos retóricos"
           ],
           writing: [
             "Escribir con estilo personal distintivo",
@@ -1177,13 +815,13 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         }
       },
       {
-        title: "Módulo 3: Dominio Profesional y Especialización",
+        title: "Módulo 3: Dominio del Discurso",
         topics: [
-          "Inglés de negocios avanzado",
-          "Presentaciones ejecutivas",
-          "Negociación internacional",
+          "Análisis del discurso",
+          "Presentaciones extensas",
+          "Negociación y persuasión",
           "Escritura técnica y científica",
-          "Conferencias y networking profesional"
+          "Networking profesional"
         ],
         grammar: [
           "Advanced nominalisation",
@@ -1194,40 +832,32 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Emphasis through syntax"
         ],
         vocabulary: [
-          "Inglés de negocios especializado",
-          "Términos jurídicos y contractuales",
-          "Vocabulario financiero avanzado",
-          "Terminología de marketing y ventas",
-          "Lenguaje de gestión de proyectos",
+          "Léxico sofisticado para debate",
+          "Conectores de alto nivel",
           "Expresiones para networking",
           "Colocaciones profesionales"
         ],
         skills: {
           reading: [
-            "Comprender contratos y documentos legales",
-            "Analizar informes financieros",
+            "Analizar informes complejos",
             "Leer artículos técnicos especializados",
-            "Evaluar propuestas de negocio"
+            "Evaluar propuestas detalladas"
           ],
           writing: [
-            "Redactar propuestas de negocio",
+            "Redactar propuestas complejas",
             "Escribir informes ejecutivos",
-            "Producir correspondencia corporativa",
-            "Redactar memorandos y minutas",
-            "Escribir documentos técnicos"
+            "Producir correspondencia formal sofisticada"
           ],
           listening: [
-            "Comprender reuniones de negocios complejas",
-            "Seguir negociaciones",
-            "Entender jerga profesional",
-            "Captar implicaciones en contexto corporativo"
+            "Comprender reuniones y debates complejos",
+            "Seguir negociaciones extensas",
+            "Entender jerga profesional avanzada"
           ],
           speaking: [
-            "Hacer presentaciones ejecutivas",
+            "Hacer presentaciones de alto impacto",
             "Negociar acuerdos complejos",
-            "Liderar reuniones",
-            "Hacer networking profesional efectivo",
-            "Manejar situaciones profesionales delicadas"
+            "Liderar discusiones de grupo",
+            "Manejar situaciones delicadas con tacto"
           ]
         }
       }
@@ -1240,7 +870,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     description: "Dominio pleno del idioma, equiparable a un hablante nativo culto",
     duration: "18-20 semanas",
     examFormat: {
-      name: "Cambridge C2 Proficiency (CPE)",
+      name: "Certificación Nivel C2",
       parts: ["Reading & Use of English", "Writing", "Listening", "Speaking"],
       duration: "236 minutos total"
     },
@@ -1268,8 +898,6 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Expresiones arcaicas y formales",
           "Registro académico de alto nivel",
           "Terminología especializada múltiple",
-          "Vocabulario técnico avanzado",
-          "Expresiones idiomáticas raras",
           "Neologismos y lenguaje contemporáneo",
           "Vocabulario para análisis crítico sofisticado"
         ],
@@ -1277,30 +905,26 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           reading: [
             "Comprender cualquier texto escrito",
             "Analizar textos literarios clásicos y contemporáneos",
-            "Leer textos legales, médicos, técnicos sin dificultad",
             "Apreciar matices estilísticos sutiles",
             "Comprender referencias culturales e históricas"
           ],
           writing: [
             "Escribir con elegancia y precisión",
             "Producir textos académicos de nivel investigador",
-            "Redactar documentos legales complejos",
             "Escribir literatura creativa de calidad",
             "Adaptar estilo a cualquier contexto con maestría"
           ],
           listening: [
             "Comprender cualquier tipo de discurso oral",
-            "Seguir conversaciones a velocidad nativa en cualquier contexto",
+            "Seguir conversaciones a velocidad nativa",
             "Entender todos los acentos y dialectos",
-            "Captar ironía, sarcasmo y humor sofisticado",
-            "Comprender referencias implícitas"
+            "Captar ironía, sarcasmo y humor sofisticado"
           ],
           speaking: [
             "Expresarte con fluidez de hablante nativo",
             "Usar lenguaje idiomático de forma natural",
             "Argumentar con sofisticación retórica",
-            "Participar en debates académicos de alto nivel",
-            "Improvisar en cualquier situación"
+            "Participar en debates de alto nivel"
           ]
         }
       },
@@ -1310,7 +934,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Retórica avanzada",
           "Análisis del discurso",
           "Estilística y pragmática",
-          "Comunicación intercultural avanzada",
+          "Comunicación intercultural",
           "Oratoria y presentaciones de élite"
         ],
         grammar: [
@@ -1326,8 +950,6 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Uso creativo de expresiones idiomáticas",
           "Vocabulario de análisis crítico avanzado",
           "Terminología retórica",
-          "Expresiones para matices sutiles (nuance, subtlety, connotation)",
-          "Vocabulario de alto registro en todos los campos",
           "Sinónimos precisos para cualquier contexto"
         ],
         skills: {
@@ -1339,19 +961,17 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           ],
           writing: [
             "Producir ensayos de nivel publicable",
-            "Escribir tesis doctorales",
-            "Redactar artículos para revistas académicas",
             "Crear contenido literario original",
             "Dominar múltiples géneros escritos"
           ],
           listening: [
-            "Comprender conferencias académicas de cualquier campo",
+            "Comprender conferencias académicas",
             "Seguir debates filosóficos complejos",
-            "Entender películas, teatro y poesía oral",
+            "Entender teatro, cine y poesía",
             "Captar todos los niveles de significado"
           ],
           speaking: [
-            "Dar conferencias magistrales",
+            "Dar charlas magistrales",
             "Participar en debates de alto nivel intelectual",
             "Hacer presentaciones académicas complejas",
             "Expresar ideas abstractas con precisión total"
@@ -1359,15 +979,13 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         }
       },
       {
-        title: "Módulo 3: Especialización Profesional y Cultural",
+        title: "Módulo 3: Dominio Cultural y Profesional",
         topics: [
           "Inglés académico de investigación",
-          "Inglés legal avanzado",
-          "Inglés médico especializado",
-          "Inglés de negocios ejecutivo",
-          "Inglés para Tecnología e Inteligencia Artificial",
+          "Literatura inglesa",
           "Traducción e interpretación",
-          "Literatura inglesa (clásica y contemporánea)"
+          "Análisis de medios",
+          "Discurso público"
         ],
         grammar: [
           "Grammatical accuracy at native-speaker level",
@@ -1376,131 +994,35 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           "Understanding of historical grammar variations"
         ],
         vocabulary: [
-          "Vocabulario especializado de múltiples campos",
-          "Terminología de investigación avanzada",
-          "Léxico jurídico completo",
-          "Vocabulario médico especializado",
-          "Terminología de traducción",
+          "Vocabulario especializado",
+          "Terminología de investigación",
+          "Vocabulario de traducción",
           "Expresiones culturales y literarias",
-          "Dominio de false friends y sutilezas semánticas",
-          "Vocabulario para contextos interculturales"
+          "Matices semánticos sutiles"
         ],
         skills: {
           reading: [
-            "Leer textos especializados de cualquier campo",
-            "Comprender literatura en inglés antiguo (con apoyo)",
+            "Leer textos complejos de cualquier campo",
             "Analizar documentos históricos",
             "Evaluar traducciones"
           ],
           writing: [
-            "Escribir para publicación académica",
-            "Producir traducciones de alta calidad",
-            "Redactar documentos técnicos complejos",
-            "Escribir crítica literaria profesional"
+            "Escribir para publicación",
+            "Producir traducciones de calidad",
+            "Escribir crítica profesional"
           ],
           listening: [
-            "Comprender programas especializados (derecho, medicina)",
+            "Comprender cualquier programa especializado",
             "Seguir podcasts técnicos",
-            "Entender teatro shakespeariano",
-            "Captar dialectos regionales"
+            "Captar matices en contextos complejos"
           ],
           speaking: [
-            "Enseñar inglés a nivel universitario",
-            "Realizar interpretación consecutiva",
-            "Participar en conferencias internacionales",
-            "Debatir en cualquier contexto profesional",
-            "Expresarte con la sutileza de un hablante nativo"
+            "Realizar interpretación",
+            "Participar en conferencias",
+            "Debatir en cualquier contexto",
+            "Expresarte con la sutileza de un nativo"
           ]
         }
-      }
-    ]
-  },
-  NEGOCIACIONES_B2: {
-    level: "B2",
-    cefr: "Intermedio-Alto",
-    description: "Inglés para realizar negociaciones prácticas y efectivas",
-    duration: "4-6 semanas",
-    modules: [
-      {
-        title: "Módulo 1: La Fase de Preparación",
-        topics: [
-          "Establecimiento de objetivos",
-          "Análisis BATNA",
-          "Investigación de la contraparte",
-          "Definición de límites (Bottom line)"
-        ],
-        grammar: [
-          "Zero and First Conditional (situaciones reales)",
-          "Modal verbs for possibility and deduction (might, could)",
-          "Reporting verbs para resumir investigación"
-        ],
-        vocabulary: [
-          "Research and Preparation",
-          "Business objectives",
-          "Negotiation terminology (BATNA, Bottom line)",
-          "Counterparty analysis"
-        ],
-        skills: {
-          reading: ["Analizar perfiles de empresas", "Leer informes de mercado"],
-          writing: ["Resumen de objetivos de negociación", "Email de preparación"],
-          listening: ["Briefing de equipo previo a negociación", "Análisis de posiciones"],
-          speaking: ["Presentar objetivos al equipo", "Discutir estrategias"]
-        },
-        lessons: B2_NEG_MODULE_1_LESSONS
-      },
-      {
-        title: "Módulo 2: Apertura y Regateo",
-        topics: [
-          "Presentación de propuestas",
-          "El arte de las concesiones",
-          "Técnicas de persuasión",
-          "Manejo de contraofertas"
-        ],
-        grammar: [
-          "Second Conditional (escenarios hipotéticos)",
-          "Passive voice for formal proposals",
-          "Cleft sentences for emphasis"
-        ],
-        vocabulary: [
-          "Bargaining and concessions",
-          "Leverage and trade-offs",
-          "Persuasive language",
-          "Counter-offers and conditions"
-        ],
-        skills: {
-          reading: ["Leer propuestas de contrato", "Analizar cláusulas"],
-          writing: ["Redactar una propuesta formal", "Responder a una contraoferta"],
-          listening: ["Seguir una discusión de precios", "Captar señales de flexibilidad"],
-          speaking: ["Hacer una oferta inicial", "Negociar concesiones (trade-offs)"]
-        },
-        lessons: B2_NEG_MODULE_2_LESSONS
-      },
-      {
-        title: "Módulo 3: Acuerdos y Resolución de Conflictos",
-        topics: [
-          "Manejo de bloqueos (deadlocks)",
-          "Cierre del trato",
-          "Resolución de conflictos",
-          "Seguimiento post-negociación"
-        ],
-        grammar: [
-          "Third and Mixed Conditionals (analizar lo ocurrido)",
-          "Modal verbs in the past (should have, could have)",
-          "Advanced linkers for conflict resolution"
-        ],
-        vocabulary: [
-          "Closing the deal",
-          "Consensus and win-win outcomes",
-          "Conflict resolution (mediation, compromise)",
-          "Follow-up terminology"
-        ],
-        skills: {
-          reading: ["Revisar acuerdos finales", "Leer minutas de reuniones"],
-          writing: ["Resumen del acuerdo (Minutes of Agreement)", "Email de seguimiento"],
-          listening: ["Confirmación de términos finales", "Manejo de objeciones"],
-          speaking: ["Resolver un punto de conflicto", "Cerrar la negociación formalmente"]
-        },
-        lessons: B2_NEG_MODULE_3_LESSONS
       }
     ]
   }
@@ -1508,12 +1030,7 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
 
 // Helper function to get curriculum by level and optional goal
 export function getCurriculumByLevel(level: string, goal?: string): LevelCurriculum | null {
-  if (goal) {
-    const goalLevelKey = `${goal.toUpperCase()}_${level.toUpperCase()}`;
-    if (CURRICULUM_BY_LEVEL[goalLevelKey]) {
-      return CURRICULUM_BY_LEVEL[goalLevelKey];
-    }
-  }
+  // Goal is now ignored as we only have general curriculum
   return CURRICULUM_BY_LEVEL[level.toUpperCase()] || null;
 }
 

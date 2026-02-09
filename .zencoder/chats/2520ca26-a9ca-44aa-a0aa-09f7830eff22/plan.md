@@ -2,7 +2,7 @@
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
 
 Create a Product Requirements Document (PRD) based on the feature description.
 
@@ -14,7 +14,7 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/2520ca26-a9ca-44aa-a0aa-09f7830eff22/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/2520ca26-a9ca-44aa-a0aa-09f7830eff22/requirements.md`.
 
@@ -30,7 +30,7 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/25
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/2520ca26-a9ca-44aa-a0aa-09f7830eff22/spec.md`.
 
@@ -44,8 +44,31 @@ If the feature is trivial and doesn't warrant full specification, update this wo
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/2520ca26-a9ca-44aa-a0aa-09f7830eff22/plan.md`.
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+- [x] **Task 1: Database Purge (SQL Migration)**
+    - Create `supabase/migrations/20260210_cleanup_specialized_content.sql`.
+    - Delete modules: `b2-work-it`, `b2-work-finance`, `b2-work-m1`, `c1-exams-m1`, `b1-travel-m1`, and all exam-prep modules.
+    - Update `course_goal` to 'general' for all surviving generic modules.
+    - *Verification*: Query `course_modules` to ensure only 'general' goal exists and specialized IDs are gone.
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/2520ca26-a9ca-44aa-a0aa-09f7830eff22/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+- [x] **Task 2: Codebase Cleanup (File Deletion)**
+    - Delete `src/lib/sectors/` directory and its contents.
+    - Delete specialized curriculum files: `it-curriculum.ts`, `legal-curriculum.ts`, `engineering-curriculum.ts`, `admin-curriculum.ts`, `education-curriculum.ts`, `marketing-curriculum.ts`, `tourism-curriculum.ts`.
+    - Delete `src/lib/services/toefl-course-service.ts`.
+    - *Verification*: `ls src/lib/sectors` should fail; `npm run lint` should identify any broken imports.
+
+- [x] **Task 3: Curriculum Refactoring**
+    - Modify `src/lib/cambridge-curriculum.ts` to remove specialized IDs like `b2-business`, `c1-academic`, `c2-specialized-fields`.
+    - Generalize descriptions in `cambridge-curriculum.ts` (remove specific exam names if necessary to focus on levels).
+    - *Verification*: `npm run typecheck` to ensure no type errors in generators using these IDs.
+
+- [x] **Task 4: Frontend Onboarding Update**
+    - Modify `src/components/onboarding/OnboardingFlow.tsx` to remove 'trabajo' and 'examenes' from the goal selection.
+    - Simplify to a single focus or generic options (e.g., "General English Mastery").
+    - *Verification*: Manual check of the onboarding flow UI.
+
+- [x] **Task 5: Final Verification & Cleanup**
+    - Fix any broken imports found by lint.
+    - Run `npm test` to ensure exercise generators still work.
+    - *Verification*: All tests pass, lint is clean, and dashboard shows only generic A1-C2 path.

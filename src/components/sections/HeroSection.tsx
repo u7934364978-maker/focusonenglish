@@ -11,15 +11,15 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-5xl md:text-6xl font-black tracking-tight text-slate-900 mb-6">
-            Inglés Enfocado en{" "}
+            Domina el Inglés por{" "}
             <span className="bg-gradient-to-r from-coral-600 to-peach-600 bg-clip-text text-transparent">
-              Tu Objetivo
+              Niveles (A1-C2)
             </span>
           </h1>
           
           <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-            Cursos 100% en español para profesionales y estudiantes españoles. 
-            Aprende inglés para trabajar, viajar o certificarte con método adaptado al mercado español.
+            Cursos estructurados para estudiantes españoles. 
+            Aprende inglés desde cero hasta la maestría con nuestro método adaptado al Marco Común Europeo.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -37,49 +37,43 @@ export function HeroSection() {
               href="/planes"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-slate-200 bg-white text-slate-800 font-black text-lg hover:border-coral-200 hover:bg-coral-50 transition-all"
             >
-              Ver Todos los Cursos
+              Ver Todos los Niveles
             </Link>
           </div>
 
-          {/* Cursos destacados */}
+          {/* Bloques de niveles */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
+            <Link 
+              href="/planes"
+              className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-blue-300 hover:shadow-lg transition-all"
+            >
+              <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <span className="text-2xl">🌱</span>
+              </div>
+              <h3 className="font-black text-lg mb-2">Principiante (A1-A2)</h3>
+              <p className="text-sm text-slate-600">Construye una base sólida y comunícate en situaciones simples</p>
+            </Link>
+
             <Link 
               href="/planes"
               className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-coral-300 hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-coral-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <svg className="w-6 h-6 text-coral-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+                <span className="text-2xl">🚀</span>
               </div>
-              <h3 className="font-black text-lg mb-2">Inglés para Trabajar</h3>
-              <p className="text-sm text-slate-600">Comunicación profesional y vocabulario empresarial</p>
+              <h3 className="font-black text-lg mb-2">Intermedio (B1-B2)</h3>
+              <p className="text-sm text-slate-600">Gana fluidez e independencia para expresarte con confianza</p>
             </Link>
 
             <Link 
               href="/planes"
-              className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-orange-300 hover:shadow-lg transition-all"
+              className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-purple-300 hover:shadow-lg transition-all"
             >
-              <div className="w-12 h-12 rounded-xl bg-orange-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <svg className="w-6 h-6 text-coral-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <span className="text-2xl">👑</span>
               </div>
-              <h3 className="font-black text-lg mb-2">Inglés para Viajar</h3>
-              <p className="text-sm text-slate-600">Situaciones prácticas para tu próxima aventura</p>
-            </Link>
-
-            <Link 
-              href="/planes"
-              className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-amber-300 hover:shadow-lg transition-all"
-            >
-              <div className="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="font-black text-lg mb-2">Preparar Exámenes</h3>
-              <p className="text-sm text-slate-600">Certificaciones Cambridge, TOEFL, IELTS</p>
+              <h3 className="font-black text-lg mb-2">Avanzado (C1-C2)</h3>
+              <p className="text-sm text-slate-600">Alcanza la maestría y precisión de un hablante experto</p>
             </Link>
           </div>
         </div>

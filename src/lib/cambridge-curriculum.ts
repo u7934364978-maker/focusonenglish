@@ -1,9 +1,4 @@
-// ============================================
-// CAMBRIDGE CURRICULUM DATA - CEFR ALIGNED
-// ============================================
-
-import { type CEFRLevel, type ExerciseCategory } from './exercise-types';
-export { type CEFRLevel, type ExerciseCategory };
+import { CEFRLevel, ExerciseCategory } from './exercise-types';
 
 export interface CurriculumTopic {
   id: string;
@@ -26,278 +21,219 @@ export interface LevelCurriculum {
   pronunciation?: CurriculumTopic[];
   dictation?: CurriculumTopic[];
   roleplay?: CurriculumTopic[];
-  examPractice?: CurriculumTopic[];
 }
 
+export const CURRICULUM_CATEGORIES: { id: ExerciseCategory; name: string }[] = [
+  { id: 'grammar', name: 'Grammar' },
+  { id: 'vocabulary', name: 'Vocabulary' },
+  { id: 'reading', name: 'Reading' },
+  { id: 'writing', name: 'Writing' },
+  { id: 'listening', name: 'Listening' },
+  { id: 'speaking', name: 'Speaking' },
+  { id: 'pronunciation', name: 'Pronunciation' },
+  { id: 'dictation', name: 'Dictation' },
+  { id: 'roleplay', name: 'Roleplay' }
+];
+
 // ============================================
-// A1 - BEGINNER (Cambridge Key - KET)
+// A1 - BEGINNER
 // ============================================
 const A1_CURRICULUM: LevelCurriculum = {
   level: 'A1',
-  examName: 'Cambridge Key English Test (KET)',
-  description: 'Basic English for everyday situations',
+  examName: 'CEFR A1 Beginner',
+  description: 'Basic English for everyday communication',
   grammar: [
     {
-      id: 'a1-present-simple',
-      name: 'Present Simple',
+      id: 'a1-be-present',
+      name: 'To Be - Present Simple',
       category: 'grammar',
-      description: 'Basic present tense for habits and facts',
-      keywords: ['present simple', 'daily routines', 'habits', 'facts', 'be verb']
-    },
-    {
-      id: 'a1-present-continuous',
-      name: 'Present Continuous',
-      category: 'grammar',
-      description: 'Actions happening now',
-      keywords: ['present continuous', 'now', 'at the moment', '-ing form']
-    },
-    {
-      id: 'a1-past-simple',
-      name: 'Past Simple',
-      category: 'grammar',
-      description: 'Simple past actions and events',
-      keywords: ['past simple', 'yesterday', 'last week', 'regular verbs', 'irregular verbs']
+      description: 'Using "am, is, are" correctly',
+      keywords: ['be', 'present simple', 'am', 'is', 'are', 'identity', 'age']
     },
     {
       id: 'a1-articles',
       name: 'Articles (a, an, the)',
       category: 'grammar',
-      description: 'Basic article usage',
-      keywords: ['articles', 'a', 'an', 'the', 'definite', 'indefinite']
+      description: 'Using basic articles',
+      keywords: ['articles', 'a', 'an', 'the', 'nouns']
+    },
+    {
+      id: 'a1-plurals',
+      name: 'Plural Nouns',
+      category: 'grammar',
+      description: 'Making nouns plural',
+      keywords: ['plurals', '-s', '-es', 'regular', 'irregular']
     },
     {
       id: 'a1-pronouns',
       name: 'Personal Pronouns',
       category: 'grammar',
       description: 'Subject and object pronouns',
-      keywords: ['pronouns', 'I', 'you', 'he', 'she', 'it', 'we', 'they']
+      keywords: ['pronouns', 'subject', 'object', 'I', 'me', 'you', 'he', 'him']
     },
     {
-      id: 'a1-possessives',
-      name: 'Possessive Adjectives',
+      id: 'a1-present-simple',
+      name: 'Present Simple',
       category: 'grammar',
-      description: 'Showing possession',
-      keywords: ['possessive', 'my', 'your', 'his', 'her', 'our', 'their']
-    },
-    {
-      id: 'a1-questions',
-      name: 'Basic Questions',
-      category: 'grammar',
-      description: 'Forming simple questions',
-      keywords: ['questions', 'wh-questions', 'yes/no questions', 'question words']
-    },
-    {
-      id: 'a1-prepositions',
-      name: 'Prepositions of Time and Place',
-      category: 'grammar',
-      description: 'Basic prepositions',
-      keywords: ['prepositions', 'in', 'on', 'at', 'time', 'place']
+      description: 'Routine and daily activities',
+      keywords: ['present simple', 'routines', 'habits', 'third person -s']
     }
   ],
   vocabulary: [
     {
-      id: 'a1-family',
-      name: 'Family and Relationships',
-      category: 'vocabulary',
-      description: 'Family members and relationships',
-      keywords: ['family', 'mother', 'father', 'brother', 'sister', 'relatives']
-    },
-    {
       id: 'a1-numbers',
       name: 'Numbers and Time',
       category: 'vocabulary',
-      description: 'Basic numbers, dates, and time',
-      keywords: ['numbers', 'time', 'clock', 'days', 'months', 'years']
+      description: 'Counting and telling the time',
+      keywords: ['numbers', 'time', 'dates', 'months', 'days of the week']
     },
     {
-      id: 'a1-colors-objects',
-      name: 'Colors and Common Objects',
+      id: 'a1-family',
+      name: 'Family and Friends',
       category: 'vocabulary',
-      description: 'Everyday objects and colors',
-      keywords: ['colors', 'objects', 'things', 'everyday items']
+      description: 'Describing relationships',
+      keywords: ['family', 'relatives', 'friends', 'relationships']
     },
     {
-      id: 'a1-food-drink',
+      id: 'a1-food',
       name: 'Food and Drink',
       category: 'vocabulary',
-      description: 'Common food and beverages',
-      keywords: ['food', 'drink', 'meals', 'restaurant', 'eating']
+      description: 'Basic food items and ordering',
+      keywords: ['food', 'drink', 'meals', 'restaurant', 'cafe']
     },
     {
-      id: 'a1-home',
-      name: 'House and Home',
+      id: 'a1-colors-clothes',
+      name: 'Colors and Clothes',
       category: 'vocabulary',
-      description: 'Rooms, furniture, and household items',
-      keywords: ['home', 'house', 'rooms', 'furniture', 'household']
-    },
-    {
-      id: 'a1-daily-activities',
-      name: 'Daily Activities',
-      category: 'vocabulary',
-      description: 'Everyday routines and actions',
-      keywords: ['daily routine', 'activities', 'wake up', 'go to bed', 'work']
-    },
-    {
-      id: 'a1-weather',
-      name: 'Weather',
-      category: 'vocabulary',
-      description: 'Weather conditions',
-      keywords: ['weather', 'sunny', 'rainy', 'cloudy', 'temperature']
-    },
-    {
-      id: 'a1-clothes',
-      name: 'Clothes and Accessories',
-      category: 'vocabulary',
-      description: 'Basic clothing items',
-      keywords: ['clothes', 'shirt', 'pants', 'dress', 'shoes', 'accessories']
+      description: 'Describing appearance',
+      keywords: ['colors', 'clothes', 'appearance', 'fashion']
     }
   ],
   reading: [
     {
-      id: 'a1-short-texts',
-      name: 'Short Simple Texts',
+      id: 'a1-signs-notices',
+      name: 'Signs and Notices',
       category: 'reading',
-      description: 'Understanding simple notices and messages',
-      keywords: ['notices', 'signs', 'messages', 'simple texts']
-    },
-    {
-      id: 'a1-basic-info',
-      name: 'Basic Information',
-      category: 'reading',
-      description: 'Reading forms and personal information',
-      keywords: ['forms', 'personal information', 'details', 'data']
+      description: 'Understanding basic public signs',
+      keywords: ['signs', 'notices', 'public', 'directions']
     }
   ],
   writing: [
     {
-      id: 'a1-simple-sentences',
-      name: 'Simple Sentences',
+      id: 'a1-forms',
+      name: 'Filling Forms',
       category: 'writing',
-      description: 'Writing basic sentences',
-      keywords: ['simple sentences', 'basic writing', 'short texts']
-    },
-    {
-      id: 'a1-personal-info',
-      name: 'Personal Information',
-      category: 'writing',
-      description: 'Filling forms with personal details',
-      keywords: ['forms', 'personal details', 'about me']
+      description: 'Providing personal information',
+      keywords: ['forms', 'personal info', 'registration', 'details']
     }
   ],
   listening: [
     {
-      id: 'a1-basic-conversations',
-      name: 'Basic Conversations',
+      id: 'a1-basic-info',
+      name: 'Personal Information',
       category: 'listening',
-      description: 'Understanding simple everyday conversations',
-      keywords: ['conversations', 'dialogues', 'simple speech']
+      description: 'Understanding basic self-introductions',
+      keywords: ['listening', 'introductions', 'personal info']
     }
   ],
   speaking: [
     {
       id: 'a1-introductions',
-      name: 'Introductions and Greetings',
+      name: 'Self-introductions',
       category: 'speaking',
       description: 'Introducing yourself and others',
-      keywords: ['greetings', 'introductions', 'hello', 'my name is']
+      keywords: ['introductions', 'greetings', 'meeting people']
     }
   ]
 };
 
 // ============================================
-// A2 - ELEMENTARY (Cambridge Key - KET)
+// A2 - ELEMENTARY
 // ============================================
 const A2_CURRICULUM: LevelCurriculum = {
   level: 'A2',
-  examName: 'Cambridge Key English Test (KET)',
-  description: 'Elementary English for basic communication',
+  examName: 'CEFR A2 Elementary',
+  description: 'Elementary English for simple social interactions',
   grammar: [
     {
-      id: 'a2-present-perfect',
-      name: 'Present Perfect Simple',
+      id: 'a2-past-simple',
+      name: 'Past Simple',
       category: 'grammar',
-      description: 'Present perfect for experiences',
-      keywords: ['present perfect', 'have/has', 'ever', 'never', 'just', 'already']
+      description: 'Talking about past events',
+      keywords: ['past simple', 'regular', 'irregular verbs', 'ago', 'last']
     },
     {
       id: 'a2-comparatives',
       name: 'Comparatives and Superlatives',
       category: 'grammar',
       description: 'Comparing things and people',
-      keywords: ['comparatives', 'superlatives', 'more', 'most', '-er', '-est']
+      keywords: ['comparatives', 'superlatives', '-er', 'more', 'the most']
     },
     {
-      id: 'a2-future',
-      name: 'Future Forms (will, going to)',
+      id: 'a2-present-continuous',
+      name: 'Present Continuous',
       category: 'grammar',
-      description: 'Talking about future plans',
-      keywords: ['future', 'will', 'going to', 'plans', 'predictions']
+      description: 'Actions happening now',
+      keywords: ['present continuous', 'now', 'at the moment', '-ing']
     },
     {
-      id: 'a2-modals',
-      name: 'Modal Verbs (can, should, must)',
+      id: 'a2-going-to',
+      name: 'Future with "going to"',
       category: 'grammar',
-      description: 'Ability, advice, and obligation',
-      keywords: ['modals', 'can', 'could', 'should', 'must', 'have to']
+      description: 'Plans and intentions',
+      keywords: ['future', 'going to', 'plans', 'intentions']
     },
     {
-      id: 'a2-adverbs',
-      name: 'Adverbs of Frequency',
+      id: 'a2-modals-ability',
+      name: 'Modal Verbs (can, could)',
       category: 'grammar',
-      description: 'How often things happen',
-      keywords: ['adverbs', 'frequency', 'always', 'usually', 'sometimes', 'never']
+      description: 'Expressing ability and possibility',
+      keywords: ['modals', 'can', 'could', 'ability', 'possibility']
     }
   ],
   vocabulary: [
     {
-      id: 'a2-travel',
-      name: 'Travel and Transport',
+      id: 'a2-hobbies',
+      name: 'Hobbies and Free Time',
       category: 'vocabulary',
-      description: 'Transportation and travel vocabulary',
-      keywords: ['travel', 'transport', 'bus', 'train', 'plane', 'journey']
+      description: 'Leisure activities and sports',
+      keywords: ['hobbies', 'leisure', 'sports', 'free time', 'interests']
     },
     {
-      id: 'a2-shopping',
-      name: 'Shopping and Money',
+      id: 'a2-travel',
+      name: 'Travel and Holidays',
       category: 'vocabulary',
-      description: 'Shopping vocabulary and transactions',
-      keywords: ['shopping', 'money', 'buy', 'sell', 'price', 'store']
+      description: 'Getting around and vacationing',
+      keywords: ['travel', 'transport', 'hotel', 'holiday', 'vacation']
     },
     {
       id: 'a2-health',
       name: 'Health and Body',
       category: 'vocabulary',
-      description: 'Health, illness, and body parts',
+      description: 'Parts of the body and basic health',
       keywords: ['health', 'body', 'illness', 'doctor', 'medicine']
-    },
-    {
-      id: 'a2-hobbies',
-      name: 'Hobbies and Free Time',
-      category: 'vocabulary',
-      description: 'Leisure activities and interests',
-      keywords: ['hobbies', 'free time', 'sports', 'interests', 'activities']
     },
     {
       id: 'a2-work',
       name: 'Work and Jobs',
       category: 'vocabulary',
-      description: 'Occupations and workplace',
-      keywords: ['work', 'jobs', 'occupation', 'profession', 'office']
+      description: 'Common professions and workplaces',
+      keywords: ['work', 'jobs', 'office', 'career', 'professions']
     }
   ],
   reading: [
     {
-      id: 'a2-short-articles',
-      name: 'Short Articles and Stories',
+      id: 'a2-emails-letters',
+      name: 'Short Emails and Letters',
       category: 'reading',
-      description: 'Understanding simple texts on familiar topics',
-      keywords: ['articles', 'stories', 'narratives', 'simple texts']
+      description: 'Understanding personal correspondence',
+      keywords: ['emails', 'letters', 'messages', 'personal']
     }
   ],
   writing: [
     {
-      id: 'a2-short-messages',
-      name: 'Short Messages and Notes',
+      id: 'a2-messages',
+      name: 'Short Messages and Emails',
       category: 'writing',
       description: 'Writing simple messages and emails',
       keywords: ['messages', 'notes', 'emails', 'communication']
@@ -324,11 +260,11 @@ const A2_CURRICULUM: LevelCurriculum = {
 };
 
 // ============================================
-// B1 - INTERMEDIATE (Cambridge PET)
+// B1 - INTERMEDIATE
 // ============================================
 const B1_CURRICULUM: LevelCurriculum = {
   level: 'B1',
-  examName: 'Cambridge Preliminary English Test (PET)',
+  examName: 'CEFR B1 Intermediate',
   description: 'Intermediate English for everyday situations',
   grammar: [
     {
@@ -450,12 +386,12 @@ const B1_CURRICULUM: LevelCurriculum = {
 };
 
 // ============================================
-// B2 - UPPER INTERMEDIATE (Cambridge FCE)
+// B2 - UPPER INTERMEDIATE
 // ============================================
 const B2_CURRICULUM: LevelCurriculum = {
   level: 'B2',
-  examName: 'Cambridge First Certificate (FCE)',
-  description: 'Upper intermediate English for academic and professional contexts',
+  examName: 'CEFR B2 Upper Intermediate',
+  description: 'Upper intermediate English for academic and general contexts',
   grammar: [
     {
       id: 'b2-mixed-conditionals',
@@ -495,20 +431,6 @@ const B2_CURRICULUM: LevelCurriculum = {
   ],
   vocabulary: [
     {
-      id: 'b2-business',
-      name: 'Business and Economics',
-      category: 'vocabulary',
-      description: 'Business, finance, and economics',
-      keywords: ['business', 'economics', 'finance', 'market', 'company', 'trade']
-    },
-    {
-      id: 'b2-science',
-      name: 'Science and Innovation',
-      category: 'vocabulary',
-      description: 'Scientific topics and research',
-      keywords: ['science', 'research', 'innovation', 'discovery', 'experiment']
-    },
-    {
       id: 'b2-society',
       name: 'Society and Social Issues',
       category: 'vocabulary',
@@ -521,6 +443,20 @@ const B2_CURRICULUM: LevelCurriculum = {
       category: 'vocabulary',
       description: 'Common idioms and phrasal verbs',
       keywords: ['idioms', 'phrasal verbs', 'expressions', 'collocations']
+    },
+    {
+      id: 'b2-media',
+      name: 'Media and Communication',
+      category: 'vocabulary',
+      description: 'Journalism, broadcasting, and digital media',
+      keywords: ['media', 'journalism', 'broadcasting', 'digital', 'communication']
+    },
+    {
+      id: 'b2-lifestyle',
+      name: 'Lifestyle and Well-being',
+      category: 'vocabulary',
+      description: 'Modern living, health, and personal development',
+      keywords: ['lifestyle', 'well-being', 'health', 'personal growth', 'modern life']
     }
   ],
   reading: [
@@ -537,8 +473,8 @@ const B2_CURRICULUM: LevelCurriculum = {
       id: 'b2-formal-writing',
       name: 'Formal Letters and Reports',
       category: 'writing',
-      description: 'Professional and academic writing',
-      keywords: ['formal', 'letters', 'reports', 'essays', 'professional']
+      description: 'Well-structured professional and academic writing',
+      keywords: ['formal', 'letters', 'reports', 'essays', 'structured']
     },
     {
       id: 'b2-reviews-articles',
@@ -565,67 +501,16 @@ const B2_CURRICULUM: LevelCurriculum = {
       description: 'Participating in extended discussions',
       keywords: ['debate', 'discussion', 'argue', 'defend', 'point of view']
     }
-  ],
-  examPractice: [
-    {
-      id: 'fce-reading-part-1',
-      name: 'FCE Reading Part 1: Multiple Choice Cloze',
-      category: 'exam-practice',
-      description: 'Choose the correct word from four options to fill each gap in a text.',
-      keywords: ['collocations', 'fixed phrases', 'idioms', 'phrasal verbs']
-    },
-    {
-      id: 'fce-reading-part-2',
-      name: 'FCE Reading Part 2: Open Cloze',
-      category: 'exam-practice',
-      description: 'Fill in each gap in a text with one word.',
-      keywords: ['prepositions', 'articles', 'pronouns', 'connectors']
-    },
-    {
-      id: 'fce-reading-part-3',
-      name: 'FCE Reading Part 3: Word Formation',
-      category: 'exam-practice',
-      description: 'Transform a base word to fit a gap in a text.',
-      keywords: ['prefixes', 'suffixes', 'word families', 'derivatives']
-    },
-    {
-      id: 'fce-reading-part-4',
-      name: 'FCE Reading Part 4: Key Word Transformation',
-      category: 'exam-practice',
-      description: 'Rewrite a sentence using a given key word so that it has a similar meaning.',
-      keywords: ['paraphrasing', 'grammar structures', 'lexical patterns']
-    },
-    {
-      id: 'fce-reading-part-5',
-      name: 'FCE Reading Part 5: Multiple Choice',
-      category: 'exam-practice',
-      description: 'Answer questions about a long text by choosing from four options.',
-      keywords: ['detail', 'opinion', 'attitude', 'purpose', 'main idea']
-    },
-    {
-      id: 'fce-reading-part-6',
-      name: 'FCE Reading Part 6: Gapped Text',
-      category: 'exam-practice',
-      description: 'Choose the correct sentence to fill each gap in a text.',
-      keywords: ['cohesion', 'coherence', 'logical flow', 'reference words']
-    },
-    {
-      id: 'fce-reading-part-7',
-      name: 'FCE Reading Part 7: Multiple Matching',
-      category: 'exam-practice',
-      description: 'Match statements or questions to sections of a text.',
-      keywords: ['scanning', 'paraphrasing', 'finding specific information']
-    }
   ]
 };
 
 // ============================================
-// C1 - ADVANCED (Cambridge CAE)
+// C1 - ADVANCED
 // ============================================
 const C1_CURRICULUM: LevelCurriculum = {
   level: 'C1',
-  examName: 'Cambridge Advanced (CAE)',
-  description: 'Advanced English for professional and academic success',
+  examName: 'CEFR C1 Advanced',
+  description: 'Advanced English for academic and general excellence',
   grammar: [
     {
       id: 'c1-advanced-structures',
@@ -672,18 +557,18 @@ const C1_CURRICULUM: LevelCurriculum = {
       keywords: ['nuanced', 'subtle', 'connotation', 'precise', 'sophisticated']
     },
     {
-      id: 'c1-specialized',
-      name: 'Specialized Topics',
-      category: 'vocabulary',
-      description: 'Professional and technical vocabulary',
-      keywords: ['specialized', 'technical', 'professional', 'expertise']
-    },
-    {
       id: 'c1-collocations-advanced',
       name: 'Advanced Collocations',
       category: 'vocabulary',
       description: 'Natural word combinations at an advanced level',
       keywords: ['collocations', 'idiomatic', 'natural english']
+    },
+    {
+      id: 'c1-culture-arts',
+      name: 'Culture and the Arts',
+      category: 'vocabulary',
+      description: 'Deep discussion of artistic and cultural topics',
+      keywords: ['culture', 'arts', 'literature', 'criticism', 'aesthetics']
     }
   ],
   reading: [
@@ -714,7 +599,7 @@ const C1_CURRICULUM: LevelCurriculum = {
       id: 'c1-proposals',
       name: 'Proposals and Evaluations',
       category: 'writing',
-      description: 'Professional documents',
+      description: 'Complex professional documents',
       keywords: ['proposals', 'evaluations', 'recommendations', 'professional']
     }
   ],
@@ -753,11 +638,11 @@ const C1_CURRICULUM: LevelCurriculum = {
 };
 
 // ============================================
-// C2 - PROFICIENCY (Cambridge CPE)
+// C2 - PROFICIENCY
 // ============================================
 const C2_CURRICULUM: LevelCurriculum = {
   level: 'C2',
-  examName: 'Cambridge Proficiency (CPE)',
+  examName: 'CEFR C2 Proficiency',
   description: 'Near-native English proficiency',
   grammar: [
     {
@@ -791,18 +676,18 @@ const C2_CURRICULUM: LevelCurriculum = {
       keywords: ['extensive', 'native-like', 'sophisticated', 'precise', 'idiomatic']
     },
     {
-      id: 'c2-specialized-fields',
-      name: 'Specialized Professional Fields',
-      category: 'vocabulary',
-      description: 'Expert-level terminology',
-      keywords: ['specialized', 'expert', 'professional', 'technical', 'advanced']
-    },
-    {
       id: 'c2-idiomatic-mastery',
       name: 'Idiomatic Mastery',
       category: 'vocabulary',
       description: 'Full range of idiomatic and colloquial expressions',
       keywords: ['idioms', 'slang', 'colloquial', 'metaphor']
+    },
+    {
+      id: 'c2-philosophy-ethics',
+      name: 'Philosophy and Ethics',
+      category: 'vocabulary',
+      description: 'High-level discussion of abstract concepts and moral dilemmas',
+      keywords: ['philosophy', 'ethics', 'abstract', 'concepts', 'moral', 'dilemma']
     }
   ],
   reading: [
@@ -826,7 +711,7 @@ const C2_CURRICULUM: LevelCurriculum = {
       id: 'c2-sophisticated-writing',
       name: 'Sophisticated Writing',
       category: 'writing',
-      description: 'Writing at a professional/academic level',
+      description: 'Writing at a native-speaker professional/academic level',
       keywords: ['sophisticated', 'professional', 'academic', 'precise', 'nuanced']
     },
     {
@@ -904,8 +789,7 @@ export function getAllTopics(level: CEFRLevel): CurriculumTopic[] {
     ...curriculum.speaking,
     ...(curriculum.pronunciation || []),
     ...(curriculum.dictation || []),
-    ...(curriculum.roleplay || []),
-    ...(curriculum.examPractice || [])
+    ...(curriculum.roleplay || [])
   ];
 }
 
@@ -928,25 +812,13 @@ export function getTopicsByCategory(
     'speaking': 'speaking',
     'pronunciation': 'pronunciation',
     'dictation': 'dictation',
-    'roleplay': 'roleplay',
-    'exam-practice': 'examPractice'
+    'roleplay': 'roleplay'
   };
 
   const field = categoryMap[category];
   if (field) {
     const result = curriculum[field];
     if (Array.isArray(result)) return result;
-  }
-
-  // Fallback: If category is exam-practice but no specific examPractice field, 
-  // combine reading, writing, grammar, vocabulary
-  if (category === 'exam-practice') {
-    return [
-      ...curriculum.grammar,
-      ...curriculum.vocabulary,
-      ...curriculum.reading,
-      ...curriculum.writing
-    ];
   }
   
   return [];

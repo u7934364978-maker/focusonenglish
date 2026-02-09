@@ -6,7 +6,7 @@ export function OrganizationSchema() {
     "alternateName": "Focus on English",
     "url": "https://www.focus-on-english.com",
     "logo": "https://www.focus-on-english.com/logo.png",
-    "description": "Cursos de inglés especializados para trabajo, viajes y exámenes oficiales. Programas personalizados de 90 días con metodología probada.",
+    "description": "Cursos de inglés general para todos los niveles (A1-C2). Programas personalizados de 90 días con metodología probada.",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "ES",
@@ -36,32 +36,8 @@ export function OrganizationSchema() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Course",
-            "name": "Curso de Inglés para Trabajo",
-            "description": "Inglés profesional especializado por sectores",
-            "provider": {
-              "@type": "EducationalOrganization",
-              "name": "Focus English"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Course",
-            "name": "Curso de Inglés para Viajes",
-            "description": "Inglés práctico para viajar con confianza",
-            "provider": {
-              "@type": "EducationalOrganization",
-              "name": "Focus English"
-            }
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Course",
-            "name": "Preparación Exámenes Oficiales",
-            "description": "Preparación Cambridge B2 First, TOEFL iBT, IELTS Academic",
+            "name": "Cursos de Inglés General (A1-C2)",
+            "description": "Programas de dominio lingüístico completo desde nivel básico hasta avanzado",
             "provider": {
               "@type": "EducationalOrganization",
               "name": "Focus English"

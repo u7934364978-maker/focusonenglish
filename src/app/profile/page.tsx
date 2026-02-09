@@ -280,24 +280,6 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        {/* Learning Goals */}
-        <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 shadow-lg">
-          <h2 className="text-2xl font-black text-slate-900 mb-6 flex items-center gap-3">
-            <span className="text-3xl">🎯</span>
-            <span>Learning Goals</span>
-          </h2>
-          <div className="flex flex-wrap gap-3">
-            {profile!.learning_goals?.map((goal, index) => (
-              <span
-                key={index}
-                className="px-4 py-2 bg-gradient-to-r from-orange-100 to-amber-100 text-orange-900 rounded-xl font-bold text-sm border-2 border-orange-300"
-              >
-                {goal}
-              </span>
-            ))}
-          </div>
-        </div>
-
         {/* Recent Activity */}
         <div className="bg-white rounded-2xl p-8 border-2 border-slate-200 shadow-lg">
           <h2 className="text-2xl font-black text-slate-900 mb-6 flex items-center gap-3">

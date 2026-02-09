@@ -16,11 +16,11 @@ export function FAQSection() {
     },
     {
       question: "¿Los cursos están certificados?",
-      answer: "Nuestros cursos están alineados con los estándares CEFR (Marco Común Europeo de Referencia). Para exámenes oficiales, te preparamos específicamente para Cambridge, TOEFL e IELTS."
+      answer: "Nuestros cursos están alineados con los estándares CEFR (Marco Común Europeo de Referencia), el estándar global de competencia lingüística."
     },
     {
-      question: "¿Puedo cambiar de objetivo durante el curso?",
-      answer: "Sí, puedes cambiar tu enfoque en cualquier momento. Sin embargo, recomendamos completar el programa actual para obtener mejores resultados."
+      question: "¿Puedo cambiar de nivel durante el curso?",
+      answer: "Sí, puedes ajustar tu nivel de aprendizaje en cualquier momento para que siempre estudies con el material adecuado a tu capacidad."
     },
     {
       question: "¿Hay acceso a profesores?",

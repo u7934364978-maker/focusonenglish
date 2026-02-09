@@ -99,47 +99,25 @@ export default function SEOHubPage() {
           <section className="mb-20">
             <h2 className="text-3xl font-black text-slate-900 mb-10 text-center lg:text-left">Explora por Categoría</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Link href="/aplicaciones-para-aprender-ingles" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-coral-200 hover:shadow-xl hover:shadow-coral-50 transition-all">
+              <Link href="/niveles-ingles-a1-c2" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-coral-200 hover:shadow-xl hover:shadow-coral-50 transition-all">
                 <div className="w-14 h-14 bg-coral-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Smartphone className="w-8 h-8 text-coral-600" />
+                  <GraduationCap className="w-8 h-8 text-coral-600" />
+                </div>
+                <h3 className="text-xl font-black text-slate-900 mb-3">Niveles A1-C2</h3>
+                <p className="text-slate-500 text-sm leading-relaxed mb-4">Guía completa de lo que necesitas saber en cada nivel CEFR.</p>
+                <span className="text-coral-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
+                  Ver currículo <ChevronRight className="w-4 h-4" />
+                </span>
+              </Link>
+
+              <Link href="/aplicaciones-para-aprender-ingles" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-50 transition-all">
+                <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <Smartphone className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-black text-slate-900 mb-3">Mejores Aplicaciones</h3>
                 <p className="text-slate-500 text-sm leading-relaxed mb-4">Análisis honesto de las apps que funcionan en 2026.</p>
-                <span className="text-coral-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                  Ver guía completa <ChevronRight className="w-4 h-4" />
-                </span>
-              </Link>
-
-              <Link href="/certificaciones-ingles-oficiales" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-50 transition-all">
-                <div className="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <GraduationCap className="w-8 h-8 text-blue-600" />
-                </div>
-                <h3 className="text-xl font-black text-slate-900 mb-3">Exámenes Oficiales</h3>
-                <p className="text-slate-500 text-sm leading-relaxed mb-4">Cambridge, IELTS, TOEFL. Elige tu certificado.</p>
                 <span className="text-blue-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                  Ver certificados <ChevronRight className="w-4 h-4" />
-                </span>
-              </Link>
-
-              <Link href="/blog/trabajo/ingles-para-trabajo" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-green-200 hover:shadow-xl hover:shadow-green-50 transition-all">
-                <div className="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Briefcase className="w-8 h-8 text-green-600" />
-                </div>
-                <h3 className="text-xl font-black text-slate-900 mb-3">Inglés Profesional</h3>
-                <p className="text-slate-500 text-sm leading-relaxed mb-4">Impulsa tu carrera con Business English especializado.</p>
-                <span className="text-green-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                  Explorar cursos <ChevronRight className="w-4 h-4" />
-                </span>
-              </Link>
-
-              <Link href="/blog/viajes/ingles-para-viajar" className="group bg-white p-8 rounded-[2rem] border border-slate-100 hover:border-peach-200 hover:shadow-xl hover:shadow-peach-50 transition-all">
-                <div className="w-14 h-14 bg-peach-50 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Plane className="w-8 h-8 text-peach-600" />
-                </div>
-                <h3 className="text-xl font-black text-slate-900 mb-3">Inglés para Viajar</h3>
-                <p className="text-slate-500 text-sm leading-relaxed mb-4">Frases y situaciones reales para tu próximo destino.</p>
-                <span className="text-peach-600 font-bold text-sm inline-flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                  Preparar viaje <ChevronRight className="w-4 h-4" />
+                  Ver guía completa <ChevronRight className="w-4 h-4" />
                 </span>
               </Link>
 

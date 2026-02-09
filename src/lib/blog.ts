@@ -149,6 +149,34 @@ export function getArticlesByKeyword(keyword: string): BlogPost[] {
   );
 }
 
+export interface HubContent {
+  slug: string;
+  title: string;
+  description?: string;
+  content: string;
+}
+
+const HUBS_DIR = path.join(process.cwd(), "src/content/hubs");
+
+export function getHubContent(keyword: string): HubContent | null {
+  const slug = slugify(keyword);
+  const filePath = path.join(HUBS_DIR, `${slug}.md`);
+
+  if (!fs.existsSync(filePath)) {
+    return null;
+  }
+
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(fileContent);
+
+  return {
+    slug,
+    title: data.title || keyword,
+    description: data.description,
+    content,
+  };
+}
+
 export function getAllKeywords(): string[] {
   const allArticles = getBlogArticles();
   const keywords = new Set<string>();

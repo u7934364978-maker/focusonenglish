@@ -136,10 +136,10 @@ export function SignupForm() {
           className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-peach-600 focus:border-transparent"
           disabled={isSubmitting}
         >
-          <option value="">Selecciona un curso</option>
-          <option value="trabajo">Inglés para Trabajar</option>
-          <option value="viajes">Inglés para Viajar</option>
-          <option value="examenes">Preparar Exámenes</option>
+          <option value="">Selecciona tu nivel objetivo</option>
+          <option value="beginner">Principiante (A1-A2)</option>
+          <option value="intermediate">Intermedio (B1-B2)</option>
+          <option value="advanced">Avanzado (C1-C2)</option>
         </select>
       </div>
 

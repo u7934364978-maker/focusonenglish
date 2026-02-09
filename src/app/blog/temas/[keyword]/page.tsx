@@ -2,8 +2,10 @@ import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getArticlesByKeyword, getAllKeywords, slugify } from "@/lib/blog";
+import { getArticlesByKeyword, getAllKeywords, slugify, getHubContent } from "@/lib/blog";
 import { Metadata } from "next";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export async function generateStaticParams() {
   const keywords = getAllKeywords();
@@ -35,6 +37,7 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
   const keywords = getAllKeywords();
   const originalKeyword = keywords.find(k => slugify(k) === keyword) || keyword;
   const articles = getArticlesByKeyword(originalKeyword);
+  const hubContent = getHubContent(originalKeyword);
 
   if (articles.length === 0) {
     notFound();
@@ -73,19 +76,38 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
                   <span>🎯 Topic Cluster Hub</span>
                 </div>
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-none capitalize">
-                  {originalKeyword}
+                  {hubContent?.title || originalKeyword}
                 </h1>
                 <p className="text-xl sm:text-2xl text-white/90 max-w-3xl leading-relaxed font-medium">
-                  Recopilación de guías, consejos y materiales de estudio especializados en <span className="text-white font-bold underline decoration-indigo-400">{originalKeyword}</span>.
+                  {hubContent?.description || `Recopilación de guías, consejos y materiales de estudio especializados en ${originalKeyword}.`}
                 </p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* Long form content */}
+        {hubContent && (
+          <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-200">
+            <div className="max-w-4xl mx-auto">
+              <div className="prose prose-lg prose-slate max-w-none prose-headings:font-display prose-headings:font-black prose-headings:text-slate-900 prose-a:text-indigo-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-img:rounded-3xl">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {hubContent.content}
+                </ReactMarkdown>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Articles Grid */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
+            <div className="mb-12">
+              <h2 className="font-display text-3xl font-black text-slate-900 mb-4">
+                Artículos destacados sobre <span className="text-indigo-600 capitalize">{originalKeyword}</span>
+              </h2>
+              <p className="text-slate-600">Explora nuestra selección de recursos prácticos y guías detalladas.</p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {articles.map((article) => (
                 <Link 

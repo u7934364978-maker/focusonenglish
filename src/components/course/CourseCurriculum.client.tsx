@@ -212,7 +212,7 @@ export default function CourseCurriculum({
             <li className="flex gap-3">
               <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
               <p className="text-slate-600 text-sm">
-                Enfoque especializado en: <strong>{goal}</strong>.
+                Material actualizado para el año 2026.
               </p>
             </li>
           </ul>

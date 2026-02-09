@@ -7,14 +7,13 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Cursos de Inglés Online en España: Trabajo, Viajes y Exámenes",
-  description: "Cursos de inglés online en España certificados. Especializados en trabajo, viajes y exámenes oficiales. Programas de 90 días. Desde €6.99/mes.",
+  title: "Cursos de Inglés Online en España: Niveles A1-C2",
+  description: "Cursos de inglés online en España certificados. Desde principiante hasta avanzado (A1-C2). Programas de 90 días. Desde €6.99/mes.",
   keywords: [
     "cursos de inglés online españa",
-    "inglés para trabajar",
-    "inglés para viajar",
-    "preparación cambridge",
-    "cursos inglés especializados",
+    "aprender inglés a1 c2",
+    "inglés general",
+    "niveles de inglés cambridge",
     "aprender inglés españa 2026"
   ],
   alternates: {
@@ -49,7 +48,7 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white shadow-lg text-sm font-black">
                 <span className="w-2 h-2 bg-[#FF6B6B] rounded-full animate-pulse"></span>
                 <span className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">
-                  Cursos de Inglés Especializados para España
+                  Cursos de Inglés General (A1-C2)
                 </span>
               </div>
             </div>
@@ -59,12 +58,12 @@ export default function HomePage() {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight text-gray-900">
                 Domina el Inglés<br />
                 <span className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">
-                  Para Tu Objetivo
+                  A Tu Propio Ritmo
                 </span>
               </h1>
               
               <p className="text-xl sm:text-2xl text-gray-700 max-w-3xl mx-auto mb-4 leading-relaxed font-semibold">
-                Cursos de inglés online desde España, especializados en <span className="font-black text-[#FF6B6B]">trabajo</span>, <span className="font-black text-[#FF6B6B]">viajes</span> o <span className="font-black text-[#FF6B6B]">exámenes oficiales</span>.
+                Cursos de inglés online certificados, desde <span className="font-black text-[#FF6B6B]">Principiante (A1)</span> hasta <span className="font-black text-[#FF6B6B]">Proficiente (C2)</span>.
               </p>
               
               <p className="text-lg text-gray-600 mb-10 font-semibold">
@@ -122,10 +121,10 @@ export default function HomePage() {
             {/* Section Header */}
             <div className="text-center mb-16">
               <h2 className="text-4xl sm:text-5xl font-black text-slate-900 mb-4">
-                Elige Tu Camino
+                Elige Tu Nivel
               </h2>
               <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-                Cursos especializados según tu objetivo profesional o personal
+                Programas estructurados desde principiante hasta avanzado
               </p>
             </div>
 
@@ -168,7 +167,7 @@ export default function HomePage() {
                       <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🎭</div>
                       <div>
                         <h4 className="font-black text-slate-900">Roleplay Guiado</h4>
-                        <p className="text-sm text-slate-500">Misiones desde entrevistas hasta viajes.</p>
+                        <p className="text-sm text-slate-500">Misiones desde situaciones cotidianas hasta profesionales.</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -191,34 +190,74 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Inglés para Trabajar */}
+              {/* Principiante (A1-A2) */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-blue-600 to-blue-400 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
-                    <div className="text-5xl mb-4">💼</div>
-                    <h3 className="text-2xl font-black mb-2">Inglés para Trabajar</h3>
-                    <p className="text-coral-100">Guías y consejos para el inglés profesional y empresarial</p>
+                    <div className="text-5xl mb-4">🌱</div>
+                    <h3 className="text-2xl font-black mb-2">Principiante (A1-A2)</h3>
+                    <p className="text-blue-50">Construye las bases sólidas de tu inglés</p>
                   </div>
                 </div>
                 
                 <div className="p-8">
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Vocabulario técnico por sector</span>
+                      <span className="text-blue-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Gramática fundamental</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Comunicación empresarial</span>
+                      <span className="text-blue-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Vocabulario cotidiano</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Reuniones y presentaciones</span>
+                      <span className="text-blue-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Conversaciones básicas</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Emails profesionales</span>
+                      <span className="text-blue-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Comprensión auditiva</span>
+                    </li>
+                  </ul>
+                  
+                  <Link
+                    href="/planes"
+                    className="block text-center bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                  >
+                    Ver niveles A1-A2 →
+                  </Link>
+                </div>
+              </div>
+
+              {/* Intermedio (B1-B2) */}
+              <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
+                  <div className="relative z-10">
+                    <div className="text-5xl mb-4">🚀</div>
+                    <h3 className="text-2xl font-black mb-2">Intermedio (B1-B2)</h3>
+                    <p className="text-coral-50">Gana fluidez y confianza para comunicarte</p>
+                  </div>
+                </div>
+                
+                <div className="p-8">
+                  <ul className="space-y-3 mb-8">
+                    <li className="flex items-start gap-3">
+                      <span className="text-coral-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Fluidez en conversación</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-coral-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Vocabulario extendido</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-coral-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Escritura estructurada</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-coral-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Debate y expresión de opinión</span>
                     </li>
                   </ul>
                   
@@ -226,108 +265,47 @@ export default function HomePage() {
                     href="/planes"
                     className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver planes →
-                  </Link>
-                  
-                  <Link
-                    href="/blog/trabajo"
-                    className="block text-center mt-3 text-coral-600 font-bold hover:text-coral-700"
-                  >
-                    Ver todas las guías de trabajo →
+                    Ver niveles B1-B2 →
                   </Link>
                 </div>
               </div>
 
-              {/* Inglés para Viajar */}
+              {/* Avanzado (C1-C2) */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
+                <div className="bg-gradient-to-br from-purple-600 to-purple-400 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
-                    <div className="text-5xl mb-4">✈️</div>
-                    <h3 className="text-2xl font-black mb-2">Inglés para Viajar</h3>
-                    <p className="text-orange-100">Inglés práctico para tus aventuras internacionales</p>
+                    <div className="text-5xl mb-4">👑</div>
+                    <h3 className="text-2xl font-black mb-2">Avanzado (C1-C2)</h3>
+                    <p className="text-purple-50">Alcanza la maestría y precisión nativa</p>
                   </div>
                 </div>
                 
                 <div className="p-8">
                   <ul className="space-y-3 mb-8">
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Frases esenciales de aeropuerto</span>
+                      <span className="text-purple-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Maestría gramatical</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Hoteles y restaurantes</span>
+                      <span className="text-purple-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Vocabulario sofisticado</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Situaciones de emergencia</span>
+                      <span className="text-purple-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Matices y sutilezas</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Transporte y direcciones</span>
+                      <span className="text-purple-500 font-bold text-xl">✓</span>
+                      <span className="text-slate-700">Uso profesional experto</span>
                     </li>
                   </ul>
                   
                   <Link
                     href="/planes"
-                    className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
+                    className="block text-center bg-gradient-to-r from-purple-600 to-purple-400 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver planes →
-                  </Link>
-                  
-                  <Link
-                    href="/blog/viajes"
-                    className="block text-center mt-3 text-coral-600 font-bold hover:text-coral-700"
-                  >
-                    Ver todas las guías de viajes →
-                  </Link>
-                </div>
-              </div>
-
-              {/* Preparación de Exámenes */}
-              <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-amber-600 to-amber-600 p-8 text-white relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
-                  <div className="relative z-10">
-                    <div className="text-5xl mb-4">📝</div>
-                    <h3 className="text-2xl font-black mb-2">Preparación de Exámenes</h3>
-                    <p className="text-amber-50">Estrategias y recursos para aprobar exámenes oficiales</p>
-                  </div>
-                </div>
-                
-                <div className="p-8">
-                  <ul className="space-y-3 mb-8">
-                    <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Cambridge B2 First y C1</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">TOEFL iBT</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">IELTS Academic</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-amber-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Estrategias de examinadores</span>
-                    </li>
-                  </ul>
-                  
-                  <Link
-                    href="/planes"
-                    className="block text-center bg-gradient-to-r from-amber-600 to-amber-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
-                  >
-                    Ver planes →
-                  </Link>
-                  
-                  <Link
-                    href="/blog/examenes"
-                    className="block text-center mt-3 text-amber-600 font-bold hover:text-amber-700"
-                  >
-                    Ver todas las guías de exámenes →
+                    Ver niveles C1-C2 →
                   </Link>
                 </div>
               </div>
@@ -341,31 +319,25 @@ export default function HomePage() {
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
               <div>
                 <h2 className="text-4xl font-black text-slate-900 mb-2">Blog y Recursos</h2>
-                <p className="text-lg text-slate-600">Últimas guías para tu éxito profesional y personal</p>
+                <p className="text-lg text-slate-600">Últimas guías para tu aprendizaje del inglés</p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link 
-                    href="/blog/trabajo"
+                    href="/blog/metodos"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
                   >
-                    💼 Trabajo
+                    🎯 Métodos
                   </Link>
                   <Link 
-                    href="/blog/viajes"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 text-coral-600 text-sm font-bold hover:bg-orange-100 transition-colors"
+                    href="/blog/gramatica"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 text-sm font-bold hover:bg-blue-100 transition-colors"
                   >
-                    ✈️ Viajes
+                    📚 Gramática
                   </Link>
                   <Link 
-                    href="/blog/examenes"
+                    href="/blog/vocabulario"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold hover:bg-amber-100 transition-colors"
                   >
-                    📝 Exámenes
-                  </Link>
-                  <Link 
-                    href="/blog/metodos"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 text-slate-600 text-sm font-bold hover:bg-slate-200 transition-colors"
-                  >
-                    🎯 Métodos
+                    🗣️ Vocabulario
                   </Link>
                 </div>
               </div>

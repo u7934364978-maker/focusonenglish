@@ -8,9 +8,6 @@ import {
   Clock, 
   ChevronRight, 
   ChevronLeft, 
-  Briefcase, 
-  Plane, 
-  GraduationCap,
   Sparkles,
   CheckCircle2
 } from 'lucide-react';
@@ -19,16 +16,6 @@ import { updateUserProfile } from '@/lib/services/profile-service';
 import { useUser } from '@/hooks/useAuth';
 
 const STEPS = [
-  {
-    id: 'goal',
-    title: '¿Cuál es tu objetivo principal?',
-    description: 'Personalizaremos tu contenido basado en lo que realmente necesitas.',
-    options: [
-      { id: 'trabajo', label: 'Trabajo / Negocios', icon: Briefcase, color: 'bg-blue-500' },
-      { id: 'viajes', label: 'Viajes / Ocio', icon: Plane, color: 'bg-orange-500' },
-      { id: 'examenes', label: 'Exámenes Oficiales', icon: GraduationCap, color: 'bg-purple-500' },
-    ]
-  },
   {
     id: 'level',
     title: '¿Cuál es tu nivel actual?',
@@ -76,7 +63,7 @@ export default function OnboardingFlow() {
     try {
       await updateUserProfile(user.id, {
         language_level: selections.level,
-        learning_goals: [selections.goal],
+        learning_goals: ['general'],
         // Additional metadata could be stored in a separate table or JSON field if needed
       });
       router.push('/dashboard');

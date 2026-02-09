@@ -9,7 +9,7 @@ export function CTASection() {
         </h2>
         <p className="text-xl text-coral-100 mb-10 max-w-2xl mx-auto">
           Descubre tu nivel actual con nuestro test gratuito y recibe recomendaciones personalizadas. 
-          Servicio 100% en español adaptado al mercado laboral español.
+          Un método flexible diseñado para adaptarse a tu ritmo de vida.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -27,22 +27,18 @@ export function CTASection() {
             href="/planes"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-white text-white font-black text-lg hover:bg-white hover:text-coral-600 transition-all"
           >
-            Explorar Cursos
+            Explorar Niveles
           </Link>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-white">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8 text-white">
           <div>
             <div className="text-4xl font-black mb-2">90</div>
             <div className="text-coral-200">Días de Programa</div>
           </div>
           <div>
-            <div className="text-4xl font-black mb-2">6</div>
-            <div className="text-coral-200">Niveles Disponibles</div>
-          </div>
-          <div>
-            <div className="text-4xl font-black mb-2">3</div>
-            <div className="text-coral-200">Objetivos Específicos</div>
+            <div className="text-4xl font-black mb-2">18</div>
+            <div className="text-coral-200">Niveles A1 a C2</div>
           </div>
         </div>
       </div>

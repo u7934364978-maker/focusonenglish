@@ -2,8 +2,8 @@ export function FeaturesSection() {
   const features = [
     {
       icon: "🎯",
-      title: "Enfoque Personalizado",
-      description: "Contenido adaptado a tu objetivo específico: trabajo, viajes o exámenes"
+      title: "Dominio por Niveles",
+      description: "Contenido estructurado desde A1 hasta C2 para un progreso real"
     },
     {
       icon: "⏱️",
@@ -16,9 +16,9 @@ export function FeaturesSection() {
       description: "Seguimiento de progreso y ajustes personalizados"
     },
     {
-      icon: "💼",
-      title: "Casos Reales",
-      description: "Ejercicios basados en situaciones auténticas de tu área"
+      icon: "🗣️",
+      title: "Escenarios Reales",
+      description: "Ejercicios basados en situaciones de comunicación auténticas"
     },
     {
       icon: "🎓",

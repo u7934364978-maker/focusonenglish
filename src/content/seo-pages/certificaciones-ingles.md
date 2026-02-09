@@ -1,73 +1,60 @@
 ---
-title: "Certificaciones de Inglés Oficiales: Guía Comparativa 2026"
-description: "¿B2 First, IELTS o TOEFL? Comparamos los exámenes de inglés más reconocidos para trabajar y estudiar. Encuentra el certificado perfecto para tu objetivo."
-keywords: ["certificaciones ingles oficiales", "b2 first vs ielts", "toefl vs ielts", "examenes ingles oficiales", "mejor certificado ingles"]
-canonical: "https://www.focus-on-english.com/certificaciones-ingles-oficiales"
+title: "Niveles de Inglés (A1-C2): Guía Completa de Competencias 2026"
+description: "Entiende los niveles del Marco Común Europeo (MCER) desde A1 hasta C2. Descubre qué competencias necesitas en cada etapa y cómo certificar tu nivel de inglés."
+keywords: ["niveles de inglés oficiales", "equivalencias niveles inglés", "mcer inglés a1 c2", "competencias inglés niveles", "certificar nivel inglés"]
+canonical: "https://www.focus-on-english.com/niveles-ingles-a1-c2"
 faqs:
-  - question: "¿Cuál es el examen de inglés más fácil?"
-    answer: "No hay uno más fácil, sino uno que se adapta mejor a ti. El B2 First es ideal para gramática académica, mientras que el IELTS es más práctico y comunicativo."
-  - question: "¿Qué certificado de inglés es mejor para trabajar en el extranjero?"
-    answer: "El IELTS es el más aceptado en Reino Unido, Australia y Canadá. El TOEFL es el estándar para Estados Unidos."
-  - question: "¿Caducan los títulos de inglés?"
-    answer: "Los títulos de Cambridge (B2, C1) no caducan oficialmente, aunque muchas instituciones piden que tengan menos de 2-3 años. IELTS y TOEFL caducan a los 2 años."
+  - question: "¿Qué significan las siglas MCER?"
+    answer: "El MCER es el Marco Común Europeo de Referencia para las lenguas, un estándar internacional que define la competencia lingüística en una escala de niveles desde A1 (principiante) hasta C2 (maestría)."
+  - question: "¿Qué nivel de inglés se considera bilingüe?"
+    answer: "El nivel C2 (Maestría) es el más cercano al dominio nativo, permitiendo una comunicación fluida, precisa y con capacidad para captar matices sutiles en cualquier contexto."
+  - question: "¿Cuánto tiempo se tarda en subir de un nivel a otro?"
+    answer: "De media, se requieren entre 150 y 200 horas de estudio guiado y práctica para avanzar de un nivel al siguiente (por ejemplo, de B1 a B2)."
 related_routes:
-  - "ingles-b2"
-  - "ingles-para-trabajo"
+  - "niveles-ingles-a1-c2"
+  - "aprender-ingles"
 ---
 
-# Certificaciones de Inglés Oficiales: Guía Completa 2026
+# Niveles de Inglés (A1-C2): Guía de Competencias 2026
 
-Obtener un certificado oficial de inglés no es solo un papel; es la llave que abre puertas a **mejores salarios, becas internacionales y visados de trabajo**. Sin embargo, con tantas opciones disponibles, es común sentirse perdido.
+Comprender en qué punto de tu aprendizaje te encuentras es fundamental para progresar de forma efectiva. El **Marco Común Europeo de Referencia (MCER)** es el estándar global que define lo que un estudiante puede hacer en cada etapa de su camino hacia la fluidez.
 
-En esta guía comparamos las certificaciones más potentes del mercado para que elijas la que realmente necesitas.
+En esta guía desglosamos las competencias clave de cada nivel para que identifiques tu posición actual y definas tus metas.
 
-## Comparativa Rápida: Los "Tres Grandes"
+## Desglose por Niveles: Del Principiante al Experto
 
-| Característica | Cambridge (B2/C1) | IELTS | TOEFL |
-| :--- | :--- | :--- | :--- |
-| **Enfoque** | Académico / General | Práctico / Comunicación | Académico Americano |
-| **Validez** | Vitalicia (en teoría) | 2 años | 2 años |
-| **Puntuación** | Aprobado/Suspenso | Escala de 1 a 9 | Escala de 0 a 120 |
-| **Ideal para** | Currículum en Europa | Visados (UK, AU, CA) | Universidades en USA |
+### Bloque A: Usuario Básico
+Es la fase de descubrimiento y construcción de las bases del idioma.
+*   **A1 (Acceso)**: Puedes comprender y usar expresiones cotidianas muy sencillas y frases destinadas a satisfacer necesidades inmediatas.
+*   **A2 (Plataforma)**: Capacidad para comunicarte en tareas simples y cotidianas que requieren un intercambio directo de información sobre temas familiares.
 
-## 1. Exámenes de Cambridge (B2 First, C1 Advanced)
+### Bloque B: Usuario Independiente
+La etapa donde empiezas a valerte por ti mismo en la mayoría de situaciones de comunicación.
+*   **B1 (Umbral)**: Puedes desenvolverte en la mayor parte de las situaciones que pueden surgir durante un viaje por zonas donde se utiliza el idioma. Puedes describir experiencias y deseos.
+*   **B2 (Avanzado)**: Capacidad para entender las ideas principales de textos complejos y relacionarte con hablantes nativos con un grado suficiente de fluidez y naturalidad.
 
-Son los certificados más populares en España y Europa. Su gran ventaja es que, una vez aprobado, el título es tuyo para siempre.
+### Bloque C: Usuario Competente
+El dominio profundo y la capacidad de usar el idioma en entornos académicos y profesionales de alta exigencia.
+*   **C1 (Dominio Operativo Eficaz)**: Puedes expresarte de forma fluida y espontánea sin muestras muy evidentes de esfuerzo para encontrar la expresión adecuada.
+*   **C2 (Maestría)**: Capacidad para comprender con facilidad prácticamente todo lo que oyes o lees. Sabes reconstruir la información y los argumentos procedentes de diversas fuentes.
 
-*   **Puntos Fuertes**: Gran prestigio empresarial y enfoque sólido en la gramática.
-*   **Para quién es**: Estudiantes y profesionales que quieren un título "para toda la vida" para su currículum.
+## Comparativa de Equivalencias
 
-## 2. IELTS (International English Language Testing System)
+| Nivel MCER | Descripción | Equivalencia Común |
+| :--- | :--- | :--- |
+| **A1-A2** | Básico | Principiante |
+| **B1** | Intermedio | Pre-avanzado |
+| **B2** | Intermedio-Alto | Nivel profesional estándar |
+| **C1-C2** | Avanzado / Maestría | Nivel experto / Bilingüe |
 
-Si tu objetivo es emigrar o estudiar en un país de la Commonwealth, el IELTS es obligatorio. Es un examen muy equilibrado que mide tu capacidad de sobrevivir en un entorno angloparlante real.
+## ¿Por qué es importante conocer tu nivel?
 
-*   **Puntos Fuertes**: Se reconoce en más de 11.000 organizaciones a nivel mundial.
-*   **Para quién es**: Candidatos a visados de trabajo o estudiantes en Europa y Oceanía.
+1.  **Objetivos Claros**: Te permite establecer hitos realistas en tu aprendizaje.
+2.  **Material Adecuado**: Estudiar con contenidos por encima o por debajo de tu nivel real puede causar frustración o aburrimiento.
+3.  **Certificación**: La mayoría de las instituciones y empresas solicitan tu nivel basado en esta escala (A1-C2).
 
-## 3. TOEFL (Test of English as a Foreign Language)
+## Domina cada Nivel con Focus English
 
-El estándar de oro si miras hacia Estados Unidos. Se realiza íntegramente por ordenador y es puramente académico.
+Independientemente de tu punto de partida, en **Focus English** hemos diseñado una ruta de aprendizaje inteligente que te acompaña desde el nivel A1 hasta el C2. Nuestro sistema basado en IA te ayuda a consolidar las competencias necesarias en cada etapa mediante la práctica en escenarios reales.
 
-*   **Puntos Fuertes**: Integración total con el sistema educativo americano.
-*   **Para quién es**: Estudiantes que aspiran a entrar en universidades de EE.UU. o centros de investigación.
-
-## ¿Cómo elegir el correcto?
-
-1.  **Define tu destino**: ¿Vas a EE.UU.? Elige TOEFL. ¿Vas a Reino Unido o Australia? IELTS es tu mejor opción.
-2.  **Evalúa tu tiempo**: Si necesitas el título rápido, IELTS y TOEFL ofrecen resultados en menos de una semana. Cambridge suele tardar más.
-3.  **Tu estilo de examen**: ¿Prefieres hablar con una persona real? IELTS. ¿Prefieres hablarle a un micrófono en un entorno controlado? TOEFL.
-
-## Análisis Detallados
-
-Para profundizar en cada examen, te recomendamos nuestras guías específicas:
-*   [**Precios Exámenes Cambridge 2026**](/blog/examenes/guia-precios-cambridge-2026): Tasas actualizadas por niveles.
-*   [**Guía Aptis A2**](/blog/examenes/aptis-a2-guia-completa): Cómo conseguir tu certificado básico rápido.
-*   [**Guía B2 First (FCE)**](/blog/examenes/guia-b2-first-fce): Todo sobre el examen de Cambridge más popular.
-*   [**IELTS vs TOEFL**](/blog/trabajo/ielts-vs-toefl-trabajo): ¿Cuál elegir para trabajar en el extranjero?
-*   [**Trucos C1 Advanced**](/blog/examenes/trucos-writing-c1-advanced): Cómo dominar la parte de Writing.
-
-## Prepárate con Focus English
-
-Independientemente del examen que elijas, la clave del éxito es la **preparación estratégica**. En Focus English hemos diseñado rutas específicas para cada nivel del Marco Común Europeo (A1-C1) que te darán la base necesaria para arrasar en cualquier examen oficial.
-
-[Hacer prueba de nivel gratuita →](/test-nivel)
+[Descubre tu nivel actual con nuestro Test Gratuito →](/test-nivel)

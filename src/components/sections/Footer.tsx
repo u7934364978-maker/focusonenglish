@@ -14,25 +14,25 @@ export function Footer() {
               <span className="text-xl font-black">Focus English</span>
             </div>
             <p className="text-slate-400 text-sm max-w-sm">
-              Cursos de inglés especializados para profesionales españoles. Domina el inglés para trabajar, viajar o certificarte.
+              Cursos de inglés general para todos los niveles (A1-C2). Domina el inglés con nuestro programa de 90 días.
             </p>
           </div>
 
           <div>
-            <h4 className="font-bold mb-4">Cursos</h4>
+            <h4 className="font-bold mb-4">Niveles</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li><Link href="/planes" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
-              <li><Link href="/planes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
-              <li><Link href="/planes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
+              <li><Link href="/planes" className="hover:text-white transition-colors">Principiante (A1-A2)</Link></li>
+              <li><Link href="/planes" className="hover:text-white transition-colors">Intermedio (B1-B2)</Link></li>
+              <li><Link href="/planes" className="hover:text-white transition-colors">Avanzado (C1-C2)</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-4">Blog</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li><Link href="/blog/trabajo" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
-              <li><Link href="/blog/viajes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
-              <li><Link href="/blog/examenes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
+              <li><Link href="/blog/gramatica" className="hover:text-white transition-colors">Gramática</Link></li>
+              <li><Link href="/blog/vocabulario" className="hover:text-white transition-colors">Vocabulario</Link></li>
+              <li><Link href="/blog/pronunciacion" className="hover:text-white transition-colors">Pronunciación</Link></li>
               <li><Link href="/blog/metodos" className="hover:text-white transition-colors">Métodos de Estudio</Link></li>
             </ul>
           </div>

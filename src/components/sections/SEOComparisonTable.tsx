@@ -4,7 +4,7 @@ import { Check, X, Star } from 'lucide-react';
 const comparisonData = [
   {
     name: 'Focus English',
-    focus: 'Profesional / Fluidez',
+    focus: 'Domino A1-C2 / Fluidez',
     time: '90 días',
     ia: 'Avanzada (Tutor 24/7)',
     rating: 5,
@@ -20,7 +20,7 @@ const comparisonData = [
   },
   {
     name: 'Babbel',
-    focus: 'Gramática / Viajes',
+    focus: 'Gramática / General',
     time: 'Medio/Largo',
     ia: 'Media',
     rating: 4,
