@@ -46,12 +46,20 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/21
    - [x] Batch 4: Viajes y Vocabulario (Inglés Viajar, Vocabulario, Hostelería).
    - [x] Batch 5: Niveles y Diferencias (MCER, Present Perfect vs Past Simple, US vs UK).
    - [x] Batch 6: Profesional Específico (Ingenieros, Médico, Atención Cliente).
-   - [ ] Batch 7: IA e Innovación (IA Aprender Inglés, ChatGPT, Mejora Fluidez).
+   - [x] Batch 7: IA e Innovación (IA Aprender Inglés, ChatGPT, Mejora Fluidez).
+   - [x] Batch 8: Recursos Adicionales (Apps Gratuitas, Libros, Películas).
+   - [x] Batch 9: Situaciones de Vida (Inglés para Citas, Mudanza al Extranjero, Salud Mental).
+   - [x] Batch 10: Pronunciación y Fonética (Guía Completa, Acentos, Fonética Básica).
+   - [x] Batch 11: Inglés Social y Cultura (Jerga/Slang, Etiqueta, Curiosidades).
+   - [x] Batch 12: Preparación de Entrevistas y CV (Deep Dive).
+   - [x] Batch 13: Inglés Técnico y de Nicho (Marketing, Legal, Real Estate).
+   - [x] Batch 14: Vida Académica (Inglés Universitario, Becas, Erasmus).
+   - [x] Batch 15: Inglés para el Día a Día (Compras, Cocina, Deportes).
 
 3. **Task 3: Verification**
    - [x] Run `npm run lint` and `npm run type-check`.
    - [x] Manually verify SEO structure (headings, keywords).
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 (Executed as tasks above)

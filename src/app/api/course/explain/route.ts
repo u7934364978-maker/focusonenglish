@@ -13,8 +13,9 @@ export async function POST(req: Request) {
 
   try {
     const { interaction } = await req.json();
+    const id = interaction?.id || interaction?.interaction_id;
 
-    if (!interaction || !interaction.id) {
+    if (!interaction || !id) {
       return NextResponse.json({ error: 'Interaction data with ID is required' }, { status: 400 });
     }
 
@@ -24,7 +25,7 @@ export async function POST(req: Request) {
     const { data: cached } = await supabase
       .from('exercise_explanations_cache')
       .select('explanation')
-      .eq('exercise_id', interaction.id)
+      .eq('exercise_id', id)
       .single();
 
     if (cached) {
@@ -64,10 +65,8 @@ Instrucciones:
     const explanation = response.choices[0].message.content?.trim() || 'No se pudo generar una explicación.';
 
     // 3. Save to Cache (Background)
-    // We don't await this to keep the response fast, or we do await it to ensure it's saved.
-    // Given it's an API route, better await it or use supabase.from().insert().then()
     await supabase.from('exercise_explanations_cache').insert({
-      exercise_id: interaction.id,
+      exercise_id: id,
       explanation: explanation
     });
 

@@ -563,6 +563,16 @@ export default function PremiumCourseSession({
   const currentItem = queue[currentIndex];
   const progress = (currentIndex / queue.length) * 100;
 
+  // Auto-trigger AI explanation when feedback is shown
+  useEffect(() => {
+    if (feedback && !aiExplanation && !isExplaining) {
+      const interaction = isVideoMode ? currentItem?.video?.interactions?.[interactionIndex] : currentItem;
+      if (interaction && !interaction.explanation) {
+        handleRequestAIExplanation();
+      }
+    }
+  }, [feedback, aiExplanation, isExplaining, currentIndex, interactionIndex, isVideoMode, currentItem]);
+
   const playAudio = async (url?: string, text?: string) => {
     if (!url && !text) return;
     

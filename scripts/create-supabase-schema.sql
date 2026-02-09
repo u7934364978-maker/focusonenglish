@@ -226,14 +226,20 @@ CREATE TABLE IF NOT EXISTS exercise_explanations_cache (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   exercise_id TEXT UNIQUE NOT NULL,
   explanation TEXT NOT NULL,
+  language_level TEXT,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
+-- Asegurar que la columna existe si la tabla ya estaba creada
+ALTER TABLE exercise_explanations_cache ADD COLUMN IF NOT EXISTS language_level TEXT;
+
 CREATE INDEX IF NOT EXISTS idx_exercise_explanations_cache_exercise_id ON exercise_explanations_cache(exercise_id);
+CREATE INDEX IF NOT EXISTS idx_exercise_explanations_cache_language_level ON exercise_explanations_cache(language_level);
 
 COMMENT ON TABLE exercise_explanations_cache IS 'Cache de explicaciones pedagógicas generadas por IA para los ejercicios';
 COMMENT ON COLUMN exercise_explanations_cache.exercise_id IS 'ID único del ejercicio (proveniente de los JSON de contenido)';
 COMMENT ON COLUMN exercise_explanations_cache.explanation IS 'Texto de la explicación generado por la IA';
+COMMENT ON COLUMN exercise_explanations_cache.language_level IS 'Nivel de idioma al que pertenece el ejercicio (A1, A2, etc.)';
 
 -- ============================================
 -- 7. FUNCIONES HELPER

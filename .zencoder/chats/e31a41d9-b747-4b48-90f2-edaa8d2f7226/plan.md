@@ -32,3 +32,14 @@
 1. [x] Identificar ejercicios sin explicación en A1 (1076 totales).
 2. [x] Crear script de automatización `scripts/generate-a1-explanations.ts`.
 3. [x] Ejecutar generación masiva y poblar la caché de Supabase.
+
+### [x] Step: Smart Practice Integration (Phase 5)
+1. [x] Analizar la implementación de la ruta `/practica-inteligente`.
+2. [x] Asegurar que `PremiumSession.tsx` muestre explicaciones automáticamente (Implementado `useEffect` y corregido API para `interaction_id`).
+3. [x] Verificar que el algoritmo de selección de ejercicios en `/practica-inteligente` sea compatible (Confirmado, usa `GlobalContentProvider`).
+4. [x] Probar la experiencia de usuario (Mejorado el flujo de carga de explicaciones).
+
+### [ ] Step: Bulk Generation for All Levels (Phase 6)
+1. [x] Crear script genérico `scripts/generate-all-explanations.ts`.
+2. [ ] Ejecutar generación para el nivel A2 (18,000 ejercicios - **En ejecución en segundo plano**).
+3. [ ] Ejecutar generación para niveles B1 y B2.
