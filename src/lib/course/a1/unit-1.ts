@@ -30,10 +30,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: 'Hola',
-      back: 'Hello / Hi',
-      example: 'Hello, how are you?',
-      pronunciation: '/həˈloʊ/'
+      items: [
+        {
+          front: 'Hola',
+          back: 'Hello / Hi',
+          example: 'Hello, how are you?',
+          pronunciation: '/həˈloʊ/'
+        }
+      ]
     } as any
   },
   {
@@ -165,10 +169,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: '¿Cuál es tu nombre?',
-      back: "What's your name?",
-      example: "Hi, what's your name?",
-      pronunciation: '/wɒts jɔː neɪm/'
+      items: [
+        {
+          front: '¿Cuál es tu nombre?',
+          back: "What's your name?",
+          example: "Hi, what's your name?",
+          pronunciation: '/wɒts jɔː neɪm/'
+        }
+      ]
     } as any
   },
   {
@@ -300,10 +308,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: '¿Cómo estás?',
-      back: 'How are you?',
-      example: 'Hello, how are you today?',
-      pronunciation: '/haʊ ɑː juː/'
+      items: [
+        {
+          front: '¿Cómo estás?',
+          back: 'How are you?',
+          example: 'Hello, how are you today?',
+          pronunciation: '/haʊ ɑː juː/'
+        }
+      ]
     } as any
   },
   {
@@ -435,10 +447,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: 'Por favor',
-      back: 'Please',
-      example: 'Coffee, please.',
-      pronunciation: '/pliːz/'
+      items: [
+        {
+          front: 'Por favor',
+          back: 'Please',
+          example: 'Coffee, please.',
+          pronunciation: '/pliːz/'
+        }
+      ]
     } as any
   },
   {
@@ -570,10 +586,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: 'Gracias',
-      back: 'Thanks / Thank you',
-      example: 'Thank you, Maria.',
-      pronunciation: '/θæŋks/'
+      items: [
+        {
+          front: 'Gracias',
+          back: 'Thanks / Thank you',
+          example: 'Thank you, Maria.',
+          pronunciation: '/θæŋks/'
+        }
+      ]
     } as any
   },
   {
@@ -705,10 +725,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: 'De nada',
-      back: "You're welcome",
-      example: "A: Thanks! B: You're welcome.",
-      pronunciation: '/jʊər ˈwɛlkəm/'
+      items: [
+        {
+          front: 'De nada',
+          back: "You're welcome",
+          example: "A: Thanks! B: You're welcome.",
+          pronunciation: '/jʊər ˈwɛlkəm/'
+        }
+      ]
     } as any
   },
   {
@@ -840,10 +864,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topicName: 'Hello World!',
     difficulty: 'easy',
     content: {
-      front: 'Hasta luego',
-      back: 'See you later',
-      example: 'Bye! See you later.',
-      pronunciation: '/siː juː ˈleɪtər/'
+      items: [
+        {
+          front: 'Hasta luego',
+          back: 'See you later',
+          example: 'Bye! See you later.',
+          pronunciation: '/siː juː ˈleɪtər/'
+        }
+      ]
     } as any
   },
   {
