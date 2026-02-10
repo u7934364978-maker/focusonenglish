@@ -52,6 +52,10 @@
 
 1. [x] Create `src/lib/course/a1/unit-2.ts` with 50 exercises.
 2. [x] Run audit script and fix issues.
-3. [x] Commit & Push for user review. (Commit: `11c62753`)
+3. [x] Commit & Push for user review. (Commit: `acf05d2b`)
 
-Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c250be3b-5de8-422e-b381-61e318a0e13b/plan.md`.
+### [x] Step: Implementation (Unit 3: My Tribe)
+
+1. [x] Create `src/lib/course/a1/unit-3.ts` with 50 exercises.
+2. [x] Run audit script and fix issues.
+3. [x] Commit & Push for user review. (Commit: `39f727c`)
