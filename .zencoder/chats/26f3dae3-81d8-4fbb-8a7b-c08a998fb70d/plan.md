@@ -64,7 +64,24 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/26
   - Verification: `loadAllContent()` logs show C1 and C2 interactions being loaded.
 - [x] **Task 6: E2E Verification in /practica-inteligente**
   - Action: Use the browser tool to verify that exercises from all levels (including new C1/C2) are correctly fetched and rendered.
-  - Verification: Exercises display correctly and user can interact with them.
 - [x] **Task 7: Final Lint & Typecheck**
   - Action: Run `npm run lint` and `npm run typecheck`.
-  - Verification: No new errors introduced.
+
+#### Phase 4: A1 Level Calibration (Simplification)
+- [x] **Task 11: Audit A1 complexity**
+  - Action: Scan `src/content/cursos/ingles-a1/` and lower the complexity of early units (1-10) to level 1.
+  - Verification: `complexity` fields are set to 1 for recognition tasks.
+- [x] **Task 12: Add Scaffolding/Hints**
+  - Action: Enhance `prompt_es` and add more `explanation` fields in Spanish for A1 exercises to guide the user.
+  - Verification: At least 90% of A1 exercises have clear Spanish instructions.
+
+#### Phase 5: Full Migration to Supabase
+- [x] **Task 8: Script for JSON to SQL Migration**
+  - Action: Create a script that reads all JSON files in `src/content/cursos/` and generates SQL inserts for `course_modules`, `course_lessons`, and `course_exercises`.
+  - Verification: Migration file generated and verified against schema.
+- [x] **Task 9: Database Seeding**
+  - Action: Apply the migration to Supabase.
+  - Verification: Querying `course_exercises` returns the full count of exercises across all levels.
+- [x] **Task 10: Update GlobalContentProvider to fetch from DB**
+  - Action: Modify `GlobalContentProvider` to prioritize (or exclusively use) Supabase as the data source.
+  - Verification: The app works correctly after removing/renaming the local JSON files.

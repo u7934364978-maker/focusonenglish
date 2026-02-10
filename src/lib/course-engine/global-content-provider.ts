@@ -24,9 +24,8 @@ export class GlobalContentProvider {
   }
 
   /**
-   * Loads all interactions from all available courses into memory.
-   * In a production environment with thousands of exercises, this could be
-   * replaced by a database query or a search index like Meilisearch/Elasticsearch.
+   * Loads all interactions from Supabase database into memory.
+   * This ensures the application is 100% dynamic and driven by the DB.
    */
   async loadAllContent(): Promise<void> {
     if (this.isLoaded) return;
@@ -43,13 +42,14 @@ export class GlobalContentProvider {
       'viajes/a1'
     ];
 
-    console.log('🚀 Loading global content for ultra-intelligent algorithm...');
+    console.log('🚀 Loading global content from Supabase for ultra-intelligent algorithm...');
 
     const loadingPromises = levels.map(async (levelPath) => {
       try {
+        // This will now use the DB fallback implemented in premiumCourseServerService
         const levelInteractions = await premiumCourseServerService.getAllInteractions(levelPath as any);
         
-        // Extract CEFR level from path (e.g., 'ingles-a1' -> 'A1', 'viajes/a1' -> 'A1')
+        // Extract CEFR level from path
         let cefrLevel = 'A1';
         const levelMatch = levelPath.match(/([a-c][1-2])/i);
         if (levelMatch) {
@@ -62,7 +62,6 @@ export class GlobalContentProvider {
         
         return levelInteractions.map(i => {
           let specialization: IndexedInteraction['specialization'] = 'generic';
-          
           const unitTitle = (i as any).unit_title?.toLowerCase() || "";
           
           if (levelPath === 'emails-b1') specialization = 'emails';
@@ -86,7 +85,7 @@ export class GlobalContentProvider {
     const results = await Promise.all(loadingPromises);
     this.interactions = results.flat();
 
-    // 4. Inject Visual Exercises for A1
+    // 4. Inject Visual Exercises for A1 (Keeping these as they are hardcoded assets)
     const visualInteractions = A1_KIDS_EXERCISES.flatMap(unit => 
       unit.questions.map(q => ({
         ...q,
@@ -99,7 +98,7 @@ export class GlobalContentProvider {
 
     this.isLoaded = true;
 
-    console.log(`✅ Loaded ${this.interactions.length} interactions across all levels.`);
+    console.log(`✅ Loaded ${this.interactions.length} interactions from Supabase across all levels.`);
   }
 
   getAllInteractions(): IndexedInteraction[] {

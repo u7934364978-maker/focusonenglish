@@ -70,7 +70,7 @@
           "stimulus_en": "I am ___ architect and my friend is ___ teacher.",
           "correct_answer": "an, a",
           "mastery_tag": "grammar",
-          "complexity": 3,
+          "complexity": 1,
           "concept_tags": [
             "grammar",
             "grammar"
@@ -206,7 +206,7 @@
           "correct_answer": "am",
           "explanation": "En inglés usamos el verbo 'to be' para la edad, no el verbo 'tener'.",
           "mastery_tag": "grammar",
-          "complexity": 3,
+          "complexity": 1,
           "concept_tags": [
             "grammar",
             "grammar"
@@ -220,7 +220,7 @@
           "correct_answer": "My name is Alex and I am from Mexico",
           "validation_regex": "^my name is alex and i am from mexico\\.?$",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
+          "complexity": 2,
           "concept_tags": [
             "grammar",
             "vocabulary"
@@ -233,7 +233,7 @@
           "stimulus_en": "Student",
           "correct_answer": "Estudiante",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
+          "complexity": 1,
           "concept_tags": [
             "grammar",
             "vocabulary"
@@ -297,7 +297,7 @@
           "stimulus_en": "First I study, ______ I take the exam.",
           "correct_answer": "then",
           "mastery_tag": "vocabulary",
-          "complexity": 3,
+          "complexity": 1,
           "concept_tags": [
             "grammar",
             "vocabulary"
@@ -416,7 +416,7 @@
           "correct_answer": "She checks her emails",
           "validation_regex": "^she checks her emails\\.?$",
           "mastery_tag": "reading",
-          "complexity": 4,
+          "complexity": 2,
           "concept_tags": [
             "grammar",
             "reading"

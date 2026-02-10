@@ -55,56 +55,93 @@ export const premiumCourseServerService = {
   },
 
   /**
-   * Loads all interactions from the JSON files in the content directory for a specific level.
+   * Loads all interactions for a specific level.
+   * Prioritizes Supabase Database, falls back to local JSON files.
    */
   async getAllInteractions(level: CourseLevel): Promise<PremiumInteraction[]> {
+    const supabase = await createClient();
+    const cefrLevel = level.includes('-') ? level.split('-')[1].toUpperCase() : level.toUpperCase();
+
+    // 1. Try Supabase Database First
+    try {
+      const { data: dbInteractions, error } = await supabase
+        .from('course_exercises')
+        .select(`
+          id,
+          type,
+          title,
+          content,
+          order_index,
+          course_lessons!inner (
+            id,
+            order_index,
+            course_modules!inner (course_level)
+          )
+        `)
+        .eq('course_lessons.course_modules.course_level', cefrLevel);
+
+      if (!error && dbInteractions && dbInteractions.length > 0) {
+        return dbInteractions.map(ex => ({
+          interaction_id: ex.id,
+          type: ex.type,
+          unit_id: ex.course_lessons.id,
+          unit_order: ex.course_lessons.order_index,
+          ...ex.content
+        } as PremiumInteraction));
+      }
+    } catch (dbError) {
+      console.warn(`[PremiumCourseService] Database fetch failed for ${level}, falling back to JSON.`, dbError);
+    }
+
+    // 2. Fallback to Local JSON Files
     const contentDir = path.join(process.cwd(), `src/content/cursos/${level}`);
     const interactions: PremiumInteraction[] = [];
 
-    if (!fs.existsSync(contentDir)) return [];
+    if (fs.existsSync(contentDir)) {
+      const files = fs.readdirSync(contentDir)
+        .filter(file => file.endsWith('.json'))
+        .sort((a, b) => {
+          const getNum = (s: string) => {
+            const match = s.match(/\d+/);
+            return match ? parseInt(match[0]) : 0;
+          };
+          return getNum(a) - getNum(b);
+        });
 
-    const files = fs.readdirSync(contentDir)
-      .filter(file => file.endsWith('.json'))
-      .sort((a, b) => {
-        const getNum = (s: string) => {
-          const match = s.match(/\d+/);
-          return match ? parseInt(match[0]) : 0;
-        };
-        return getNum(a) - getNum(b);
-      });
-
-    files.forEach((file, unitIdx) => {
-      try {
-        const filePath = path.join(contentDir, file);
-        const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        const unitId = unitData.course.unit_id;
-        const unitOrder = unitIdx + 1;
-        
-        unitData.blocks.forEach((block: PremiumBlock) => {
-          block.content.forEach((content: any) => {
-            if (content.interaction_id) {
-              interactions.push({
-                ...content,
-                unit_id: unitId,
-                unit_order: unitOrder
-              } as PremiumInteraction);
-            } else if (content.video && content.video.interactions) {
-              content.video.interactions.forEach((i: any) => {
+      files.forEach((file, unitIdx) => {
+        try {
+          const filePath = path.join(contentDir, file);
+          const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          const unitId = unitData.course.unit_id;
+          const unitOrder = unitIdx + 1;
+          
+          unitData.blocks.forEach((block: PremiumBlock) => {
+            block.content.forEach((content: any) => {
+              if (content.interaction_id) {
                 interactions.push({
-                  ...i,
+                  ...content,
                   unit_id: unitId,
                   unit_order: unitOrder
                 } as PremiumInteraction);
-              });
-            }
+              } else if (content.video && content.video.interactions) {
+                content.video.interactions.forEach((i: any) => {
+                  interactions.push({
+                    ...i,
+                    unit_id: unitId,
+                    unit_order: unitOrder
+                  } as PremiumInteraction);
+                });
+              }
+            });
           });
-        });
-      } catch (error) {
-        console.error(`Error loading interactions from ${file}:`, error);
-      }
-    });
+        } catch (error) {
+          console.error(`Error loading interactions from ${file}:`, error);
+        }
+      });
+      return interactions;
+    }
 
-    return interactions;
+    return [];
   },
 
   /**
