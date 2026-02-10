@@ -169,10 +169,10 @@
         {
           "interaction_id": "B1_U52_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about interviews.",
+          "prompt_es": "What is the main purpose of an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El propósito principal de una entrevista es obtener información de la persona entrevistada.",
-          "stimulus_en": "What is the main purpose of an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -196,10 +196,10 @@
         {
           "interaction_id": "B1_U52_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about interviews.",
+          "prompt_es": "Which of the following is a common question in an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Esta pregunta es común en una entrevista laboral, ya que ayuda al entrevistador a entender la motivación del candidato.",
-          "stimulus_en": "Which of the following is a common question in an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -223,10 +223,10 @@
         {
           "interaction_id": "B1_U52_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about interviews.",
+          "prompt_es": "What should you prepare for an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Es importante preparar tanto tu currículum como las respuestas a preguntas comunes de la entrevista.",
-          "stimulus_en": "What should you prepare for an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -250,10 +250,10 @@
         {
           "interaction_id": "B1_U52_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about interviews.",
+          "prompt_es": "How should you dress for a job interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Es recomendable vestirse de manera formal para causar una buena impresión en la entrevista.",
-          "stimulus_en": "How should you dress for a job interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -277,10 +277,10 @@
         {
           "interaction_id": "B1_U52_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about interviews.",
+          "prompt_es": "What is important to do during an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Escuchar atentamente es crucial para responder adecuadamente las preguntas del entrevistador.",
-          "stimulus_en": "What is important to do during an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

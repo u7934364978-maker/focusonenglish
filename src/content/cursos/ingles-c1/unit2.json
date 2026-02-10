@@ -49,10 +49,10 @@
         {
           "interaction_id": "C1_U2_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question based on implicit meanings and nuances.",
+          "prompt_es": "What is considered crucial for effective leadership according to the audio?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "La inteligencia emocional se menciona como fundamental para la conexión con los equipos y la toma de decisiones efectivas.",
-          "stimulus_en": "What is considered crucial for effective leadership according to the audio?",
+          "stimulus_en": "",
           "main_text": "The audio discusses various perspectives on leadership styles in corporate settings, highlighting the importance of emotional intelligence, adaptability, and ethical decision-making.",
           "options": [
             {
@@ -77,10 +77,10 @@
         {
           "interaction_id": "C1_U2_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question based on implicit meanings and nuances.",
+          "prompt_es": "How should leaders adapt their styles according to the context discussed?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Los líderes deben ser capaces de ajustar su estilo de liderazgo según las necesidades del equipo y el entorno.",
-          "stimulus_en": "How should leaders adapt their styles according to the context discussed?",
+          "stimulus_en": "",
           "main_text": "The audio discusses various perspectives on leadership styles in corporate settings, highlighting the importance of emotional intelligence, adaptability, and ethical decision-making.",
           "options": [
             {
@@ -105,10 +105,10 @@
         {
           "interaction_id": "C1_U2_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question based on implicit meanings and nuances.",
+          "prompt_es": "What impact does ethical decision-making have on a leader’s credibility?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "La toma de decisiones éticas aumenta la credibilidad de un líder en los ojos de sus empleados.",
-          "stimulus_en": "What impact does ethical decision-making have on a leader’s credibility?",
+          "stimulus_en": "",
           "main_text": "The audio discusses various perspectives on leadership styles in corporate settings, highlighting the importance of emotional intelligence, adaptability, and ethical decision-making.",
           "options": [
             {
@@ -133,10 +133,10 @@
         {
           "interaction_id": "C1_U2_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question based on implicit meanings and nuances.",
+          "prompt_es": "Which of the following is implied as a disadvantage of authoritarian leadership?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Se insinúa que el liderazgo autoritario puede llevar a una baja moral del equipo, ya que no fomenta la participación.",
-          "stimulus_en": "Which of the following is implied as a disadvantage of authoritarian leadership?",
+          "stimulus_en": "",
           "main_text": "The audio discusses various perspectives on leadership styles in corporate settings, highlighting the importance of emotional intelligence, adaptability, and ethical decision-making.",
           "options": [
             {
@@ -161,10 +161,10 @@
         {
           "interaction_id": "C1_U2_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question based on implicit meanings and nuances.",
+          "prompt_es": "According to the audio, what is a major reason leaders fail?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "El audio sugiere que todos estos factores contribuyen al fracaso de los líderes en un entorno corporativo.",
-          "stimulus_en": "According to the audio, what is a major reason leaders fail?",
+          "stimulus_en": "",
           "main_text": "The audio discusses various perspectives on leadership styles in corporate settings, highlighting the importance of emotional intelligence, adaptability, and ethical decision-making.",
           "options": [
             {

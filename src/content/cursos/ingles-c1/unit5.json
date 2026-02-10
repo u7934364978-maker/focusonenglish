@@ -18,10 +18,10 @@
         {
           "interaction_id": "C1_U5_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the subtle meaning of each expression.",
+          "prompt_es": "What does 'to walk on eggshells' mean?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "La expresión significa ser muy cuidadoso en una situación delicada.",
-          "stimulus_en": "What does 'to walk on eggshells' mean?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "C1_U5_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the subtle meaning of each expression.",
+          "prompt_es": "What does 'the elephant in the room' refer to?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "Se refiere a un problema obvio que todos evitan discutir.",
-          "stimulus_en": "What does 'the elephant in the room' refer to?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C1_U5_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the subtle meaning of each expression.",
+          "prompt_es": "What does 'to throw someone under the bus' imply?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "Significa traicionar a alguien, generalmente para salvarse a sí mismo.",
-          "stimulus_en": "What does 'to throw someone under the bus' imply?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C1_U5_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the subtle meaning of each expression.",
+          "prompt_es": "What does 'to read between the lines' suggest?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "Se refiere a captar significados que no son explícitos.",
-          "stimulus_en": "What does 'to read between the lines' suggest?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C1_U5_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the subtle meaning of each expression.",
+          "prompt_es": "What does 'to beat around the bush' mean?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "Implica no abordar el tema principal de manera directa.",
-          "stimulus_en": "What does 'to beat around the bush' mean?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -182,10 +182,10 @@
         {
           "interaction_id": "B1_U37_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What is the main function of a CPU?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "La CPU (Unidad Central de Procesamiento) es responsable de procesar la información en una computadora.",
-          "stimulus_en": "What is the main function of a CPU?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -209,10 +209,10 @@
         {
           "interaction_id": "B1_U37_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "Which of the following is a social media platform?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Instagram es una plataforma de redes sociales donde los usuarios pueden compartir fotos y videos.",
-          "stimulus_en": "Which of the following is a social media platform?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -236,10 +236,10 @@
         {
           "interaction_id": "B1_U37_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What do we call the physical components of a computer?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "El hardware se refiere a los componentes físicos de una computadora, como el teclado y el disco duro.",
-          "stimulus_en": "What do we call the physical components of a computer?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "B1_U37_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What is 'cloud computing'?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "La computación en la nube permite almacenar y acceder a datos a través de Internet en lugar de hacerlo localmente.",
-          "stimulus_en": "What is 'cloud computing'?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -290,10 +290,10 @@
         {
           "interaction_id": "B1_U37_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "Which term describes an online journal?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Un blog es un tipo de sitio web donde se publican artículos o entradas de diario en formato cronológico.",
-          "stimulus_en": "Which term describes an online journal?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

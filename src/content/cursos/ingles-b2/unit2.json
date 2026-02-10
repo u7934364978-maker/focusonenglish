@@ -40,10 +40,10 @@
         {
           "interaction_id": "B2_U2_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to society and social issues.",
+          "prompt_es": "What term describes the gradual process of social change in society?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "La 'evolución' se refiere al cambio gradual en la sociedad, a menudo a través de mejoras y adaptaciones a lo largo del tiempo.",
-          "stimulus_en": "What term describes the gradual process of social change in society?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -67,10 +67,10 @@
         {
           "interaction_id": "B2_U2_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to society and social issues.",
+          "prompt_es": "Which of the following is a common social issue regarding the economy?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El 'desempleo' es un problema social común que afecta la economía, ya que muchas personas no tienen trabajo.",
-          "stimulus_en": "Which of the following is a common social issue regarding the economy?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -94,10 +94,10 @@
         {
           "interaction_id": "B2_U2_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to society and social issues.",
+          "prompt_es": "What is the primary role of a government in addressing social problems?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El papel principal del gobierno es 'regular las leyes' para ayudar a resolver problemas sociales y garantizar el bienestar de la comunidad.",
-          "stimulus_en": "What is the primary role of a government in addressing social problems?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -121,10 +121,10 @@
         {
           "interaction_id": "B2_U2_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to society and social issues.",
+          "prompt_es": "Which term refers to a community's shared beliefs and values?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "La 'cultura' de una comunidad incluye sus creencias y valores compartidos que definen su identidad.",
-          "stimulus_en": "Which term refers to a community's shared beliefs and values?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "B2_U2_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to society and social issues.",
+          "prompt_es": "What is often a result of social inequality?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El 'conflicto' es a menudo una consecuencia de la desigualdad social, lo que lleva a tensiones y luchas dentro de la sociedad.",
-          "stimulus_en": "What is often a result of social inequality?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -102,10 +102,10 @@
         {
           "interaction_id": "B1_U57_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences using reported speech.",
+          "prompt_es": "He asked, 'Are you attending the conference?' --> He asked if I ___ attending the conference.",
           "mastery_tag": "grammar:b1-reported-speech",
           "explanation": "Cuando se hace una pregunta en directo, en el discurso indirecto cambiamos el tiempo verbal al pasado.",
-          "stimulus_en": "He asked, 'Are you attending the conference?' --> He asked if I ___ attending the conference.",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -92,47 +92,137 @@
         {
           "interaction_id": "B2_U7_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What is one main argument of proponents of strict regulations?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Los defensores de regulaciones estrictas creen que la falta de acción tendrá consecuencias negativas para las generaciones futuras.",
-          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.\n\nWhat is one main argument of proponents of strict regulations?",
-          "correct_answer": "Future generations will suffer from inaction."
+          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Future generations will suffer from inaction."
+            },
+            {
+              "id": "o2",
+              "text": "They suggest regulations could stifle growth."
+            },
+            {
+              "id": "o3",
+              "text": "More extreme weather patterns."
+            },
+            {
+              "id": "o4",
+              "text": "A balanced approach emphasizing adaptation."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U7_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What do critics of regulations argue?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Los críticos argumentan que las regulaciones pueden detener el crecimiento económico.",
-          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.\n\nWhat do critics of regulations argue?",
-          "correct_answer": "They suggest regulations could stifle growth."
+          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "They suggest regulations could stifle growth."
+            },
+            {
+              "id": "o2",
+              "text": "Future generations will suffer from inaction."
+            },
+            {
+              "id": "o3",
+              "text": "More extreme weather patterns."
+            },
+            {
+              "id": "o4",
+              "text": "A balanced approach emphasizing adaptation."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U7_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "According to the passage, what is one consequence of rising temperatures?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "El aumento de temperaturas provocará patrones climáticos más extremos, afectando varios aspectos de la vida.",
-          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.\n\nAccording to the passage, what is one consequence of rising temperatures?",
-          "correct_answer": "More extreme weather patterns."
+          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "More extreme weather patterns."
+            },
+            {
+              "id": "o2",
+              "text": "Future generations will suffer from inaction."
+            },
+            {
+              "id": "o3",
+              "text": "They suggest regulations could stifle growth."
+            },
+            {
+              "id": "o4",
+              "text": "A balanced approach emphasizing adaptation."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U7_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What does the passage suggest is a potential solution to the climate debate?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "El texto sugiere un enfoque equilibrado que enfatiza la adaptación mientras enfrenta preocupaciones ambientales.",
-          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.\n\nWhat does the passage suggest is a potential solution to the climate debate?",
-          "correct_answer": "A balanced approach emphasizing adaptation."
+          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "A balanced approach emphasizing adaptation."
+            },
+            {
+              "id": "o2",
+              "text": "Future generations will suffer from inaction."
+            },
+            {
+              "id": "o3",
+              "text": "They suggest regulations could stifle growth."
+            },
+            {
+              "id": "o4",
+              "text": "More extreme weather patterns."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U7_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What challenge is highlighted at the end of the passage?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "El desafío mencionado es encontrar un equilibrio entre la sostenibilidad ambiental y la vitalidad económica.",
-          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.\n\nWhat challenge is highlighted at the end of the passage?",
-          "correct_answer": "Reconciling environmental sustainability with economic vitality."
+          "stimulus_en": "In recent years, the debate surrounding climate change has intensified, leading to various viewpoints on how societies should respond. Proponents of strict regulations argue that without immediate action, future generations will suffer the consequences of inaction. They cite scientific evidence indicating that rising temperatures will result in more extreme weather patterns, affecting agriculture, water supply, and health. On the other hand, critics of these regulations point out the economic implications, suggesting that such measures could stifle growth and lead to job losses in key industries. They advocate for a more balanced approach, emphasizing adaptation over restriction, which could allow for economic stability while still addressing environmental concerns. Ultimately, the challenge lies in finding a solution that reconciles environmental sustainability with economic vitality, ensuring a livable planet for future generations.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reconciling environmental sustainability with economic vitality."
+            },
+            {
+              "id": "o2",
+              "text": "Future generations will suffer from inaction."
+            },
+            {
+              "id": "o3",
+              "text": "They suggest regulations could stifle growth."
+            },
+            {
+              "id": "o4",
+              "text": "More extreme weather patterns."
+            }
+          ]
         }
       ]
     }

@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U32_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that expresses the given opinion in a professional setting.",
+          "prompt_es": "I think remote work is more effective than working in the office. What is your opinion?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "En este contexto, 'I agree' expresa que estás de acuerdo con la opinión presentada sobre el trabajo remoto.",
-          "stimulus_en": "I think remote work is more effective than working in the office. What is your opinion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U32_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that expresses the given opinion in a professional setting.",
+          "prompt_es": "Some people believe that team meetings are a waste of time. How do you feel about this?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "Aquí, 'I think they are important' expresa una opinión positiva sobre la importancia de las reuniones de equipo.",
-          "stimulus_en": "Some people believe that team meetings are a waste of time. How do you feel about this?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U32_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that expresses the given opinion in a professional setting.",
+          "prompt_es": "Some experts argue that social media can harm productivity. What do you think?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "En este caso, 'I don't agree' es una forma de expresar desacuerdo con la opinión de que las redes sociales perjudican la productividad.",
-          "stimulus_en": "Some experts argue that social media can harm productivity. What do you think?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U32_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that expresses the given opinion in a professional setting.",
+          "prompt_es": "In my view, professional development is essential for career growth. How do you feel?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La respuesta 'I completely agree' muestra un fuerte apoyo a la afirmación sobre el desarrollo profesional.",
-          "stimulus_en": "In my view, professional development is essential for career growth. How do you feel?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U32_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that expresses the given opinion in a professional setting.",
+          "prompt_es": "Many people say that work-life balance is crucial. What is your stance?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "Elegir 'I think it's crucial' indica un fuerte acuerdo con la importancia del equilibrio entre trabajo y vida personal.",
-          "stimulus_en": "Many people say that work-life balance is crucial. What is your stance?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -160,10 +160,10 @@
         {
           "interaction_id": "B1_U32_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the present perfect continuous tense.",
+          "prompt_es": "How long ______ you been working on this project?",
           "mastery_tag": "grammar:b1-present-perfect-continuous",
           "explanation": "En esta oración, 'you' requiere 'have' en presente perfecto continuo.",
-          "stimulus_en": "How long ______ you been working on this project?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B1_U32_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the present perfect continuous tense.",
+          "prompt_es": "What ______ you been doing all day?",
           "mastery_tag": "grammar:b1-present-perfect-continuous",
           "explanation": "'You' requiere 'have' en presente perfecto continuo.",
-          "stimulus_en": "What ______ you been doing all day?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

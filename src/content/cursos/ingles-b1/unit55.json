@@ -62,10 +62,10 @@
         {
           "interaction_id": "B1_U55_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Select the best option to complete each story.",
+          "prompt_es": "Once upon a time, there was a young girl who loved to explore the forest. One day, she found a hidden treasure. What did she do next?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La respuesta correcta muestra una acción positiva, ya que compartir experiencias es común en las historias.",
-          "stimulus_en": "Once upon a time, there was a young girl who loved to explore the forest. One day, she found a hidden treasure. What did she do next?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -89,10 +89,10 @@
         {
           "interaction_id": "B1_U55_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Select the best option to complete each story.",
+          "prompt_es": "A man wanted to become a chef, so he enrolled in a cooking school. After a year, he graduated. What happened after graduation?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La opción correcta muestra un avance en la historia y consecuencia de sus esfuerzos.",
-          "stimulus_en": "A man wanted to become a chef, so he enrolled in a cooking school. After a year, he graduated. What happened after graduation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -116,10 +116,10 @@
         {
           "interaction_id": "B1_U55_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Select the best option to complete each story.",
+          "prompt_es": "A group of friends decided to go hiking. They packed their backpacks and set off early in the morning. What was their first challenge?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Encontrar el camino correcto es un desafío común en las historias de senderismo y aventuras.",
-          "stimulus_en": "A group of friends decided to go hiking. They packed their backpacks and set off early in the morning. What was their first challenge?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -143,10 +143,10 @@
         {
           "interaction_id": "B1_U55_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Select the best option to complete each story.",
+          "prompt_es": "A boy found a lost puppy in the street. He was very happy to help the puppy. What did he do next?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Llevar al cachorro a casa muestra compasión y la acción correcta en esta situación.",
-          "stimulus_en": "A boy found a lost puppy in the street. He was very happy to help the puppy. What did he do next?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -170,10 +170,10 @@
         {
           "interaction_id": "B1_U55_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Select the best option to complete each story.",
+          "prompt_es": "A woman was lost in a foreign city. She asked a local for directions. What did she learn from the experience?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La respuesta correcta refleja una lección positiva sobre la amabilidad de las personas en nuevas experiencias.",
-          "stimulus_en": "A woman was lost in a foreign city. She asked a local for directions. What did she learn from the experience?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

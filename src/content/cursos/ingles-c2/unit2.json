@@ -40,10 +40,10 @@
         {
           "interaction_id": "C2_U2_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to rhetorical skills.",
+          "prompt_es": "What is the primary purpose of rhetorical questioning in a debate?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "El objetivo principal de las preguntas retóricas es hacer que el público reflexione sobre un tema, no simplemente proporcionar información.",
-          "stimulus_en": "What is the primary purpose of rhetorical questioning in a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -67,10 +67,10 @@
         {
           "interaction_id": "C2_U2_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to rhetorical skills.",
+          "prompt_es": "Which rhetorical device involves repetition for emphasis?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "La anáfora es una figura retórica que consiste en repetir palabras al principio de varias frases o versos para enfatizar una idea.",
-          "stimulus_en": "Which rhetorical device involves repetition for emphasis?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -94,10 +94,10 @@
         {
           "interaction_id": "C2_U2_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to rhetorical skills.",
+          "prompt_es": "In persuasive writing, which element is crucial for establishing credibility?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "El ethos se refiere a la credibilidad o carácter del hablante o escritor, esencial para persuadir efectivamente a la audiencia.",
-          "stimulus_en": "In persuasive writing, which element is crucial for establishing credibility?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -121,10 +121,10 @@
         {
           "interaction_id": "C2_U2_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to rhetorical skills.",
+          "prompt_es": "What is the effect of utilizing anecdotes in a persuasive speech?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "Los anécdotas crean una conexión personal entre el orador y la audiencia, haciendo los argumentos más accesibles y memorables.",
-          "stimulus_en": "What is the effect of utilizing anecdotes in a persuasive speech?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "C2_U2_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to rhetorical skills.",
+          "prompt_es": "Which term describes a logical fallacy where an argument attacks a person's character rather than addressing the argument itself?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "El ad hominem es una falacia lógica que se centra en atacar a la persona en lugar de discutir el argumento, desvirtuando la discusión.",
-          "stimulus_en": "Which term describes a logical fallacy where an argument attacks a person's character rather than addressing the argument itself?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -182,10 +182,10 @@
         {
           "interaction_id": "C2_U2_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to rhetorical skills and persuasion.",
+          "prompt_es": "Which rhetorical strategy involves appealing to the audience's emotions?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "Pathos se refiere a apelar a las emociones del público para persuadirlo.",
-          "stimulus_en": "Which rhetorical strategy involves appealing to the audience's emotions?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -209,10 +209,10 @@
         {
           "interaction_id": "C2_U2_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to rhetorical skills and persuasion.",
+          "prompt_es": "In a debate, which technique is used to highlight the weaknesses in an opponent's argument?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "La refutación se utiliza para contrarrestar o debilitar el argumento del oponente.",
-          "stimulus_en": "In a debate, which technique is used to highlight the weaknesses in an opponent's argument?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -236,10 +236,10 @@
         {
           "interaction_id": "C2_U2_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to rhetorical skills and persuasion.",
+          "prompt_es": "What is the purpose of using rhetorical questions in a speech?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "Las preguntas retóricas se utilizan para hacer que la audiencia reflexione sobre un tema.",
-          "stimulus_en": "What is the purpose of using rhetorical questions in a speech?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "C2_U2_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to rhetorical skills and persuasion.",
+          "prompt_es": "Which of the following is a key component of effective persuasion?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "La claridad es fundamental en la persuasión, ya que ayuda a que el mensaje sea comprendido.",
-          "stimulus_en": "Which of the following is a key component of effective persuasion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -290,10 +290,10 @@
         {
           "interaction_id": "C2_U2_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to rhetorical skills and persuasion.",
+          "prompt_es": "What is the term for the credibility of the speaker in a rhetorical context?",
           "mastery_tag": "speaking:c2-rhetorical-skills",
           "explanation": "Ethos se refiere a la credibilidad y autoridad del orador en el discurso.",
-          "stimulus_en": "What is the term for the credibility of the speaker in a rhetorical context?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U29_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to society and social issues.",
+          "prompt_es": "What is a common problem affecting urban areas today?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El desempleo es un problema común en áreas urbanas debido a la falta de trabajos disponibles.",
-          "stimulus_en": "What is a common problem affecting urban areas today?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U29_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to society and social issues.",
+          "prompt_es": "Which term refers to the way individuals interact within a community?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "La sociedad se refiere a cómo las personas se relacionan y se organizan en un grupo.",
-          "stimulus_en": "Which term refers to the way individuals interact within a community?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U29_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to society and social issues.",
+          "prompt_es": "What is a significant social issue regarding the environment?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El cambio climático es un problema social importante que afecta a la salud del planeta y las comunidades.",
-          "stimulus_en": "What is a significant social issue regarding the environment?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U29_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to society and social issues.",
+          "prompt_es": "What is the role of government in addressing social issues?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El gobierno tiene la responsabilidad de ofrecer soluciones a los problemas sociales que afectan a su población.",
-          "stimulus_en": "What is the role of government in addressing social issues?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U29_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to society and social issues.",
+          "prompt_es": "Which of the following best describes activism?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El activismo se refiere al apoyo activo hacia una causa o movimiento social.",
-          "stimulus_en": "Which of the following best describes activism?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -160,10 +160,10 @@
         {
           "interaction_id": "B2_U29_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about lectures and presentations.",
+          "prompt_es": "What is the primary purpose of a lecture?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "El propósito principal de una conferencia es informar a la audiencia sobre un tema específico a través de una exposición clara y detallada.",
-          "stimulus_en": "What is the primary purpose of a lecture?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "B2_U29_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about lectures and presentations.",
+          "prompt_es": "Which of the following is a common feature of academic presentations?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Las presentaciones académicas a menudo utilizan un lenguaje formal para comunicar ideas de manera clara y profesional.",
-          "stimulus_en": "Which of the following is a common feature of academic presentations?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B2_U29_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about lectures and presentations.",
+          "prompt_es": "What is a good way to engage an audience during a lecture?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Hacer preguntas durante una conferencia involucra al público y estimula su interés y participación en el tema.",
-          "stimulus_en": "What is a good way to engage an audience during a lecture?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B2_U29_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about lectures and presentations.",
+          "prompt_es": "Which of the following is NOT typically included in a lecture?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Una conferencia generalmente incluye una introducción, un cuerpo principal y una conclusión, pero no actividades sociales.",
-          "stimulus_en": "Which of the following is NOT typically included in a lecture?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B2_U29_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about lectures and presentations.",
+          "prompt_es": "What should a speaker do if they notice the audience is losing interest?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Invitar a preguntas puede revitalizar el interés del público y fomentar una mejor comprensión del tema.",
-          "stimulus_en": "What should a speaker do if they notice the audience is losing interest?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

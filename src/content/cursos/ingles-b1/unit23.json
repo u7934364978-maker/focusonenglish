@@ -75,10 +75,10 @@
         {
           "interaction_id": "B1_U23_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What is the main cause of air pollution?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Los coches emiten gases que contaminan el aire, lo que causa la contaminación del aire.",
-          "stimulus_en": "What is the main cause of air pollution?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -102,10 +102,10 @@
         {
           "interaction_id": "B1_U23_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "Which action helps reduce waste?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Reciclar ayuda a reducir la cantidad de residuos al convertir materiales usados en nuevos productos.",
-          "stimulus_en": "Which action helps reduce waste?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -129,10 +129,10 @@
         {
           "interaction_id": "B1_U23_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What does climate change affect?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El cambio climático afecta a los animales al alterar sus hábitats y patrones de migración.",
-          "stimulus_en": "What does climate change affect?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -156,10 +156,10 @@
         {
           "interaction_id": "B1_U23_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "Why is deforestation a problem?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La deforestación destruye los hogares de muchos animales, llevando a la disminución de especies.",
-          "stimulus_en": "Why is deforestation a problem?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -183,10 +183,10 @@
         {
           "interaction_id": "B1_U23_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What can you do to protect nature?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Plantar árboles ayuda a limpiar el aire y proporciona hábitats para muchas especies.",
-          "stimulus_en": "What can you do to protect nature?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U40_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about storytelling.",
+          "prompt_es": "What is the main purpose of a story's introduction?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La introducción de una historia establece el escenario y presenta a los personajes principales.",
-          "stimulus_en": "What is the main purpose of a story's introduction?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U40_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about storytelling.",
+          "prompt_es": "What should typically happen in the climax of a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El clímax es el momento de mayor tensión donde se resuelve el problema principal de la historia.",
-          "stimulus_en": "What should typically happen in the climax of a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U40_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about storytelling.",
+          "prompt_es": "What is the purpose of the conclusion in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La conclusión resume lo que ha sucedido y puede ofrecer una reflexión final.",
-          "stimulus_en": "What is the purpose of the conclusion in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U40_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about storytelling.",
+          "prompt_es": "Which of the following is important for developing characters?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Desarrollar personajes implica mostrar sus emociones y motivaciones para que sean creíbles.",
-          "stimulus_en": "Which of the following is important for developing characters?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U40_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about storytelling.",
+          "prompt_es": "Why is it important to use a sequence of events in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Una secuencia de eventos ayuda a construir una línea de tiempo que hace que la historia sea coherente.",
-          "stimulus_en": "Why is it important to use a sequence of events in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

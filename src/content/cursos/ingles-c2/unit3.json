@@ -18,10 +18,10 @@
         {
           "interaction_id": "C2_U3_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to advanced writing skills.",
+          "prompt_es": "Which word best replaces 'show' in a more sophisticated context?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "Todas las opciones presentan un nivel de sofisticación más alto que 'show'.",
-          "stimulus_en": "Which word best replaces 'show' in a more sophisticated context?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "C2_U3_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to advanced writing skills.",
+          "prompt_es": "What is the term for a brief summary at the end of an academic paper?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "La conclusión es un resumen efectivo de los puntos clave del trabajo académico.",
-          "stimulus_en": "What is the term for a brief summary at the end of an academic paper?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C2_U3_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to advanced writing skills.",
+          "prompt_es": "Which sentence structure adds sophistication to writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "Esta estructura es más formal y sofisticada que las demás opciones.",
-          "stimulus_en": "Which sentence structure adds sophistication to writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C2_U3_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to advanced writing skills.",
+          "prompt_es": "What does 'nuanced' mean in academic writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "La palabra 'nuanced' se refiere a las diferencias sutiles en el significado o en el argumento.",
-          "stimulus_en": "What does 'nuanced' mean in academic writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C2_U3_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to advanced writing skills.",
+          "prompt_es": "Which phrase indicates a formal tone in writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "Esta frase es más objetiva y formal que las otras opciones.",
-          "stimulus_en": "Which phrase indicates a formal tone in writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -182,10 +182,10 @@
         {
           "interaction_id": "C2_U3_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete each sentence.",
+          "prompt_es": "Which sentence is grammatically correct?",
           "mastery_tag": "grammar:c2-mastery",
           "explanation": "En este caso, el sujeto compuesto se considera en plural porque incluye a 'students'.",
-          "stimulus_en": "Which sentence is grammatically correct?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "C2_U3_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete each sentence.",
+          "prompt_es": "Which sentence demonstrates correct subjunctive mood?",
           "mastery_tag": "grammar:c2-mastery",
           "explanation": "En inglés, el subjuntivo se usa para expresar deseos, demandas o sugerencias, y 'be' es la forma correcta aquí.",
-          "stimulus_en": "Which sentence demonstrates correct subjunctive mood?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

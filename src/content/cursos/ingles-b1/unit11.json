@@ -67,10 +67,10 @@
         {
           "interaction_id": "B1_U11_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences about reported speech.",
+          "prompt_es": "He asked, 'Do you like coffee?' → He asked if I ___ coffee.",
           "mastery_tag": "grammar:b1-reported-speech",
           "explanation": "Al reportar preguntas en estilo indirecto, el verbo también cambia de tiempo. 'Do you like' se convierte en 'liked'.",
-          "stimulus_en": "He asked, 'Do you like coffee?' → He asked if I ___ coffee.",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "B1_U11_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences about reported speech.",
+          "prompt_es": "John asked, 'Where are you going?' → John asked where I ___ going.",
           "mastery_tag": "grammar:b1-reported-speech",
           "explanation": "En el discurso indirecto, el tiempo presente 'are' cambia a pasado 'was'.",
-          "stimulus_en": "John asked, 'Where are you going?' → John asked where I ___ going.",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

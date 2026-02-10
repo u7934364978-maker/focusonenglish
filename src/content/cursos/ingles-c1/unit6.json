@@ -289,10 +289,10 @@
         {
           "interaction_id": "C1_U6_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "What is the primary goal of a persuasive speech?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "El objetivo principal de un discurso persuasivo es convencer a la audiencia de un punto de vista o acción.",
-          "stimulus_en": "What is the primary goal of a persuasive speech?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -316,10 +316,10 @@
         {
           "interaction_id": "C1_U6_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "Which technique is NOT commonly used in effective public speaking?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "El uso de gestos exagerados puede distraer en lugar de ayudar a transmitir el mensaje.",
-          "stimulus_en": "Which technique is NOT commonly used in effective public speaking?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -343,10 +343,10 @@
         {
           "interaction_id": "C1_U6_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "How can a speaker effectively manage audience questions?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Prepararse para las preguntas ayuda a manejar la conversación y demuestra dominio del tema.",
-          "stimulus_en": "How can a speaker effectively manage audience questions?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -370,10 +370,10 @@
         {
           "interaction_id": "C1_U6_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "What is an essential part of a well-structured presentation?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Puntos principales claros son fundamentales para guiar a la audiencia a través de la presentación.",
-          "stimulus_en": "What is an essential part of a well-structured presentation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -397,10 +397,10 @@
         {
           "interaction_id": "C1_U6_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "Which of these is a vital characteristic of effective rhetoric?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "La repetición es una técnica retórica eficaz que ayuda a enfatizar ideas importantes y a mejorar la retención.",
-          "stimulus_en": "Which of these is a vital characteristic of effective rhetoric?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

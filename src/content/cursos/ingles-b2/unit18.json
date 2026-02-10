@@ -40,10 +40,10 @@
         {
           "interaction_id": "B2_U18_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to social issues and current affairs.",
+          "prompt_es": "What is a common social issue affecting many urban areas today?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "La contaminación es un problema social común en las áreas urbanas debido a la industrialización y el tráfico.",
-          "stimulus_en": "What is a common social issue affecting many urban areas today?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -67,10 +67,10 @@
         {
           "interaction_id": "B2_U18_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to social issues and current affairs.",
+          "prompt_es": "Which group often advocates for social change and justice?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "Los activistas son individuos o grupos que buscan promover cambios sociales y justicia en la sociedad.",
-          "stimulus_en": "Which group often advocates for social change and justice?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -94,10 +94,10 @@
         {
           "interaction_id": "B2_U18_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to social issues and current affairs.",
+          "prompt_es": "What is one of the main roles of a government in society?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El gobierno regula diversas áreas de la sociedad para mantener el orden y garantizar el bienestar.",
-          "stimulus_en": "What is one of the main roles of a government in society?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -121,10 +121,10 @@
         {
           "interaction_id": "B2_U18_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to social issues and current affairs.",
+          "prompt_es": "What issue is often discussed in terms of equality?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "La educación se discute a menudo en términos de igualdad, ya que el acceso equitativo es fundamental para el progreso social.",
-          "stimulus_en": "What issue is often discussed in terms of equality?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "B2_U18_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to social issues and current affairs.",
+          "prompt_es": "Which term refers to the way citizens participate in their government?",
           "mastery_tag": "vocabulary:b2-society",
           "explanation": "El compromiso cívico se refiere a las formas en que los ciudadanos participan en su gobierno y sociedad.",
-          "stimulus_en": "Which term refers to the way citizens participate in their government?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

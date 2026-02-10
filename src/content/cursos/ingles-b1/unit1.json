@@ -192,10 +192,10 @@
         {
           "interaction_id": "B1_U1_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete each sentence using the past continuous tense.",
+          "prompt_es": "What ___ (you/do) when I called you last night?",
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "La forma correcta es 'were you doing', ya que se pregunta por una acción en progreso en el pasado.",
-          "stimulus_en": "What ___ (you/do) when I called you last night?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -226,10 +226,10 @@
         {
           "interaction_id": "B1_U1_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What is one of the main causes of climate change?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La deforestación libera grandes cantidades de CO2 en la atmósfera, contribuyendo al cambio climático.",
-          "stimulus_en": "What is one of the main causes of climate change?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -253,10 +253,10 @@
         {
           "interaction_id": "B1_U1_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "Which of the following is a renewable source of energy?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La energía eólica proviene del viento, que es una fuente de energía renovable y no se agota.",
-          "stimulus_en": "Which of the following is a renewable source of energy?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -280,10 +280,10 @@
         {
           "interaction_id": "B1_U1_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What can individuals do to reduce pollution?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Reciclar reduce la cantidad de desechos y ayuda a mantener el medio ambiente limpio.",
-          "stimulus_en": "What can individuals do to reduce pollution?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -307,10 +307,10 @@
         {
           "interaction_id": "B1_U1_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "Which is an effect of global warming?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El calentamiento global causa cambios en el clima, resultando en patrones meteorológicos más severos.",
-          "stimulus_en": "Which is an effect of global warming?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -334,10 +334,10 @@
         {
           "interaction_id": "B1_U1_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about the environment.",
+          "prompt_es": "What does biodiversity mean?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La biodiversidad se refiere a la variedad de especies en un ecosistema, lo cual es crucial para su salud.",
-          "stimulus_en": "What does biodiversity mean?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

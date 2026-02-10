@@ -75,10 +75,10 @@
         {
           "interaction_id": "B1_U44_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the article below and answer the questions that follow.",
+          "prompt_es": "What is the main topic of the article?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "El tema principal es la tecnología del hogar inteligente, que se menciona al principio del texto.",
-          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.\n\nWhat is the main topic of the article?",
+          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.",
           "options": [
             {
               "id": "o1",
@@ -102,10 +102,10 @@
         {
           "interaction_id": "B1_U44_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the article below and answer the questions that follow.",
+          "prompt_es": "Which of the following is NOT mentioned as a smart home device?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "Los teléfonos inteligentes no se mencionan en el texto como dispositivos del hogar inteligente.",
-          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.\n\nWhich of the following is NOT mentioned as a smart home device?",
+          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.",
           "options": [
             {
               "id": "o1",
@@ -129,10 +129,10 @@
         {
           "interaction_id": "B1_U44_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the article below and answer the questions that follow.",
+          "prompt_es": "What is one benefit of smart home technology mentioned in the article?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "El texto menciona que los dispositivos del hogar inteligente pueden mejorar la eficiencia energética.",
-          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.\n\nWhat is one benefit of smart home technology mentioned in the article?",
+          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.",
           "options": [
             {
               "id": "o1",
@@ -156,10 +156,10 @@
         {
           "interaction_id": "B1_U44_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the article below and answer the questions that follow.",
+          "prompt_es": "What privacy concern do users have regarding smart home devices?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "El texto menciona que algunos usuarios están preocupados porque estos dispositivos recopilan datos sobre sus hábitos.",
-          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.\n\nWhat privacy concern do users have regarding smart home devices?",
+          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.",
           "options": [
             {
               "id": "o1",
@@ -183,10 +183,10 @@
         {
           "interaction_id": "B1_U44_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the article below and answer the questions that follow.",
+          "prompt_es": "What should users consider when using smart home technology?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "El artículo sugiere que los usuarios deben considerar tanto los beneficios como los riesgos de la tecnología del hogar inteligente.",
-          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.\n\nWhat should users consider when using smart home technology?",
+          "stimulus_en": "In recent years, technology has rapidly transformed our lives. One of the most exciting innovations is smart home technology. Smart home devices, such as smart speakers, thermostats, and security systems, allow users to control various aspects of their homes remotely. They can improve energy efficiency and provide added security. Many people enjoy the convenience of voice-activated systems, which can perform tasks like playing music or setting reminders. However, some users express concerns about privacy, as these devices often collect data on user habits. Overall, while smart home technology offers many benefits, it is important for users to consider the potential risks involved.",
           "options": [
             {
               "id": "o1",

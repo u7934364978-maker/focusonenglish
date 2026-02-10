@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U19_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about writing informal letters.",
+          "prompt_es": "What is a common way to start an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "En cartas informales, usamos saludos como 'Hi' o 'Hey' para dar un tono amigable.",
-          "stimulus_en": "What is a common way to start an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U19_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about writing informal letters.",
+          "prompt_es": "How should you end an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "Al finalizar una carta informal, 'Take care' es una opción cálida y personal.",
-          "stimulus_en": "How should you end an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U19_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about writing informal letters.",
+          "prompt_es": "What should you include in an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "Las cartas informales deben ser personales y contar historias o anécdotas.",
-          "stimulus_en": "What should you include in an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U19_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about writing informal letters.",
+          "prompt_es": "What is a good way to ask about someone's family in an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "Preguntar 'How is your family?' es una manera amable y cercana de interesarse por ellos.",
-          "stimulus_en": "What is a good way to ask about someone's family in an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U19_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about writing informal letters.",
+          "prompt_es": "When writing an informal email, what should you avoid?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "En un email informal, es mejor evitar la formalidad y ser más relajado en el lenguaje.",
-          "stimulus_en": "When writing an informal email, what should you avoid?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

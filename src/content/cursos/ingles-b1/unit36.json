@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U36_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about informal letters and emails.",
+          "prompt_es": "Which of the following is NOT typical in an informal letter? _____.",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "En las cartas informales, evitamos un tono formal y usamos un lenguaje más relajado y personal.",
-          "stimulus_en": "Which of the following is NOT typical in an informal letter? _____.",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -160,10 +160,10 @@
         {
           "interaction_id": "B1_U36_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question about expressing opinions.",
+          "prompt_es": "Which phrase shows agreement with an opinion?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La frase 'I think so' muestra que estás de acuerdo con la opinión de alguien más.",
-          "stimulus_en": "Which phrase shows agreement with an opinion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "B1_U36_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question about expressing opinions.",
+          "prompt_es": "What is a good way to express a contrasting opinion?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La palabra 'However' se usa para presentar un contraste o una opinión diferente.",
-          "stimulus_en": "What is a good way to express a contrasting opinion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B1_U36_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question about expressing opinions.",
+          "prompt_es": "Which sentence provides a reason for an opinion?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La oración 'Reading is relaxing.' da una razón para disfrutar de la lectura.",
-          "stimulus_en": "Which sentence provides a reason for an opinion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B1_U36_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question about expressing opinions.",
+          "prompt_es": "If you disagree, which phrase can you use?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La frase 'I don’t think that’s true' indica desacuerdo con la opinión expresada.",
-          "stimulus_en": "If you disagree, which phrase can you use?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B1_U36_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question about expressing opinions.",
+          "prompt_es": "What is a polite way to ask for someone's opinion?",
           "mastery_tag": "speaking:b1-expressing-opinions",
           "explanation": "La pregunta 'What do you think?' es una forma educada de pedir la opinión de alguien.",
-          "stimulus_en": "What is a polite way to ask for someone's opinion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

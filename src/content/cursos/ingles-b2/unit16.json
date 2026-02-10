@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U16_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about reviews and articles.",
+          "prompt_es": "What is the primary purpose of a review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "El propósito principal de una reseña es informar a los lectores sobre un producto, servicio o experiencia.",
-          "stimulus_en": "What is the primary purpose of a review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U16_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about reviews and articles.",
+          "prompt_es": "Which element is crucial in an article's introduction?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Una declaración de tesis es fundamental en la introducción porque establece el tema principal y la postura del autor.",
-          "stimulus_en": "Which element is crucial in an article's introduction?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U16_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about reviews and articles.",
+          "prompt_es": "What tone is often used in opinion pieces?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Los artículos de opinión suelen tener un tono subjetivo, ya que reflejan las opiniones y sentimientos del autor.",
-          "stimulus_en": "What tone is often used in opinion pieces?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U16_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about reviews and articles.",
+          "prompt_es": "What is a common structure for a review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Una reseña comúnmente sigue la estructura de introducción, cuerpo y conclusión para presentar información de manera organizada.",
-          "stimulus_en": "What is a common structure for a review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U16_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about reviews and articles.",
+          "prompt_es": "Which aspect should be considered when evaluating a film in a review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "La cinematografía es un aspecto clave a considerar al evaluar una película, ya que afecta la experiencia visual del espectador.",
-          "stimulus_en": "Which aspect should be considered when evaluating a film in a review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

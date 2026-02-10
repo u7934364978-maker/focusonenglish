@@ -212,10 +212,10 @@
         {
           "interaction_id": "B2_U17_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to lifestyle and well-being.",
+          "prompt_es": "What term describes a balanced approach to physical and mental health?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El término 'well-being' se refiere a un estado de salud positiva y equilibrio en la vida.",
-          "stimulus_en": "What term describes a balanced approach to physical and mental health?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -239,10 +239,10 @@
         {
           "interaction_id": "B2_U17_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to lifestyle and well-being.",
+          "prompt_es": "Which word refers to the process of improving oneself through activities or education?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El 'personal development' implica actividades que mejoran la vida personal o profesional.",
-          "stimulus_en": "Which word refers to the process of improving oneself through activities or education?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -266,10 +266,10 @@
         {
           "interaction_id": "B2_U17_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to lifestyle and well-being.",
+          "prompt_es": "What lifestyle choice focuses on consuming natural and organic products?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "'Sustainable living' se refiere a un estilo de vida que busca reducir el impacto ambiental mediante elecciones conscientes.",
-          "stimulus_en": "What lifestyle choice focuses on consuming natural and organic products?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -293,10 +293,10 @@
         {
           "interaction_id": "B2_U17_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to lifestyle and well-being.",
+          "prompt_es": "What term is used for the practice of mindfulness and meditation?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "'Mindfulness' es una práctica que implica estar presente y consciente en el momento actual.",
-          "stimulus_en": "What term is used for the practice of mindfulness and meditation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -320,10 +320,10 @@
         {
           "interaction_id": "B2_U17_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to lifestyle and well-being.",
+          "prompt_es": "Which term describes the choices we make to promote our health?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El término 'lifestyle' abarca las decisiones que afectan nuestra salud y bienestar general.",
-          "stimulus_en": "Which term describes the choices we make to promote our health?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

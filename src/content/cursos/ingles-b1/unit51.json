@@ -40,10 +40,10 @@
         {
           "interaction_id": "B1_U51_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is the process of turning waste into reusable material called?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La respuesta correcta es 'Recycling' porque es el proceso de convertir residuos en materiales reutilizables.",
-          "stimulus_en": "What is the process of turning waste into reusable material called?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -67,10 +67,10 @@
         {
           "interaction_id": "B1_U51_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is a major cause of climate change?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Los 'Greenhouse gases' son responsables del calentamiento global y del cambio climático.",
-          "stimulus_en": "What is a major cause of climate change?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -94,10 +94,10 @@
         {
           "interaction_id": "B1_U51_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "Which of the following is a common type of pollution?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La 'Air pollution' ocurre cuando contaminantes dañan la calidad del aire.",
-          "stimulus_en": "Which of the following is a common type of pollution?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -121,10 +121,10 @@
         {
           "interaction_id": "B1_U51_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What can individuals do to help the environment?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Reciclar ayuda a reducir residuos, salvar recursos y proteger el medio ambiente.",
-          "stimulus_en": "What can individuals do to help the environment?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "B1_U51_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is the term for forests that are cut down?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La 'Deforestation' se refiere a la eliminación de árboles en un área de bosque.",
-          "stimulus_en": "What is the term for forests that are cut down?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

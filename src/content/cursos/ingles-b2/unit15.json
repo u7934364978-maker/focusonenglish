@@ -62,47 +62,137 @@
         {
           "interaction_id": "B2_U15_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What is a vital skill for success in today's business environment?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "El pasaje enfatiza que para tener éxito en el ambiente empresarial competitivo actual, es esencial entender argumentos complejos.",
-          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.\n\nWhat is a vital skill for success in today's business environment?",
-          "correct_answer": "Understanding complex arguments"
+          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Understanding complex arguments"
+            },
+            {
+              "id": "o2",
+              "text": "To adapt to rapid changes."
+            },
+            {
+              "id": "o3",
+              "text": "By understanding their strengths and weaknesses."
+            },
+            {
+              "id": "o4",
+              "text": "Clear communication of analyses."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U15_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "Why do companies need to analyze market trends?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Las empresas deben analizar las tendencias del mercado para poder adaptarse rápidamente a los cambios en el comportamiento del consumidor y la tecnología.",
-          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.\n\nWhy do companies need to analyze market trends?",
-          "correct_answer": "To adapt to rapid changes."
+          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To adapt to rapid changes."
+            },
+            {
+              "id": "o2",
+              "text": "Understanding complex arguments"
+            },
+            {
+              "id": "o3",
+              "text": "By understanding their strengths and weaknesses."
+            },
+            {
+              "id": "o4",
+              "text": "Clear communication of analyses."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U15_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "How can companies position themselves advantageously?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Conocer sus propias fortalezas y debilidades, así como las de sus competidores, permite a las empresas posicionarse mejor en el mercado.",
-          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.\n\nHow can companies position themselves advantageously?",
-          "correct_answer": "By understanding their strengths and weaknesses."
+          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "By understanding their strengths and weaknesses."
+            },
+            {
+              "id": "o2",
+              "text": "Understanding complex arguments"
+            },
+            {
+              "id": "o3",
+              "text": "To adapt to rapid changes."
+            },
+            {
+              "id": "o4",
+              "text": "Clear communication of analyses."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U15_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What is crucial for aligning interests among stakeholders?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "La comunicación clara de los análisis a las partes interesadas es fundamental para alinear los intereses y avanzar en el negocio.",
-          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.\n\nWhat is crucial for aligning interests among stakeholders?",
-          "correct_answer": "Clear communication of analyses."
+          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clear communication of analyses."
+            },
+            {
+              "id": "o2",
+              "text": "Understanding complex arguments"
+            },
+            {
+              "id": "o3",
+              "text": "To adapt to rapid changes."
+            },
+            {
+              "id": "o4",
+              "text": "By understanding their strengths and weaknesses."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U15_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What outcome is achieved by effectively articulating complex arguments?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Articular argumentos complejos de manera efectiva ayuda a obtener el apoyo necesario para las iniciativas, lo que mejora los resultados comerciales.",
-          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.\n\nWhat outcome is achieved by effectively articulating complex arguments?",
-          "correct_answer": "Securing buy-in for initiatives."
+          "stimulus_en": "In today's competitive business environment, understanding complex arguments is vital for success. Many companies face challenges when trying to adapt to rapid changes in consumer behavior and technology. An effective approach to this problem involves analyzing market trends and employing strategic thinking. Companies must understand not only their own strengths and weaknesses but also those of their competitors. This knowledge allows businesses to position themselves advantageously in the market. Furthermore, clear communication of these analyses to stakeholders is crucial for aligning interests and driving the business forward. As a result, leaders who can articulate complex arguments effectively are often more successful in securing buy-in for their initiatives, ultimately leading to better business outcomes.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Securing buy-in for initiatives."
+            },
+            {
+              "id": "o2",
+              "text": "Understanding complex arguments"
+            },
+            {
+              "id": "o3",
+              "text": "To adapt to rapid changes."
+            },
+            {
+              "id": "o4",
+              "text": "By understanding their strengths and weaknesses."
+            }
+          ]
         }
       ]
     }

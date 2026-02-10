@@ -22,3 +22,11 @@
 - [x] Escribir y ejecutar prueba E2E para asegurar que los textos de reading se muestran.
 - [x] Ejecutar lint y validación de esquemas.
 - [x] Commitear y pushear cambios.
+
+## Fase 5: Arreglo de Visualización de Preguntas en Reading
+- [x] Analizar por qué no se muestra la pregunta cuando hay un estímulo (texto de lectura).
+- [x] Modificar `PremiumSession.tsx` para renderizar el `prompt_es` siempre visible y destacado cuando hay un estímulo.
+- [x] Verificar visualmente el cambio en la unidad 46.
+- [x] Auditar otros tipos de ejercicios (true_false, short_writing, fill_blanks) para asegurar consistencia en la visualización del prompt.
+- [x] Escribir prueba E2E para verificar que tanto el texto como la pregunta son visibles.
+- [x] Commitear y pushear cambios.

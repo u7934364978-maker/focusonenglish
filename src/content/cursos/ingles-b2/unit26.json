@@ -160,10 +160,10 @@
         {
           "interaction_id": "B2_U26_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture context.",
+          "prompt_es": "What is the main purpose of a lecture?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "El objetivo principal de una conferencia es compartir información con la audiencia sobre un tema específico.",
-          "stimulus_en": "What is the main purpose of a lecture?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "B2_U26_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture context.",
+          "prompt_es": "Which of the following is a key feature of effective presentations?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Las ayudas visuales son fundamentales en presentaciones efectivas, ya que ayudan a captar la atención y a entender mejor el contenido.",
-          "stimulus_en": "Which of the following is a key feature of effective presentations?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B2_U26_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture context.",
+          "prompt_es": "How should a speaker engage their audience during a lecture?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Hacer preguntas retóricas puede involucrar a la audiencia y fomentar la reflexión sobre el tema presentado.",
-          "stimulus_en": "How should a speaker engage their audience during a lecture?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B2_U26_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture context.",
+          "prompt_es": "What is often used to summarize a lecture at the end?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Una buena conclusión es esencial para resumir los puntos clave y dejar una impresión duradera en la audiencia.",
-          "stimulus_en": "What is often used to summarize a lecture at the end?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B2_U26_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture context.",
+          "prompt_es": "Why is it important to know the audience's background before a presentation?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Conocer el contexto de la audiencia ayuda a adaptar el contenido para que sea comprensible y relevante para ellos.",
-          "stimulus_en": "Why is it important to know the audience's background before a presentation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

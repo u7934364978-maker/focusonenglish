@@ -160,10 +160,10 @@
         {
           "interaction_id": "C2_U5_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that completes the sentence or answers the question regarding sophisticated writing.",
+          "prompt_es": "Which word best conveys a nuanced meaning in an academic context?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "La palabra 'meticuloso' indica atención al detalle y precisión, lo cual es vital en la escritura académica.",
-          "stimulus_en": "Which word best conveys a nuanced meaning in an academic context?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "C2_U5_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that completes the sentence or answers the question regarding sophisticated writing.",
+          "prompt_es": "What is the primary purpose of employing sophisticated vocabulary in academic writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "El uso de un vocabulario sofisticado debe mejorar la claridad y la precisión de la escritura, no solo impresionar.",
-          "stimulus_en": "What is the primary purpose of employing sophisticated vocabulary in academic writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "C2_U5_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that completes the sentence or answers the question regarding sophisticated writing.",
+          "prompt_es": "In sophisticated writing, which technique is most effective for presenting complex ideas?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "La paradoja puede hacer que conceptos complejos sean más accesibles al lector al reflejar la complejidad de la realidad.",
-          "stimulus_en": "In sophisticated writing, which technique is most effective for presenting complex ideas?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "C2_U5_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that completes the sentence or answers the question regarding sophisticated writing.",
+          "prompt_es": "What role does context play in sophisticated writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "El contexto es fundamental en la escritura sofisticada ya que ayuda a moldar y enriquecer el significado del texto.",
-          "stimulus_en": "What role does context play in sophisticated writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "C2_U5_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option that completes the sentence or answers the question regarding sophisticated writing.",
+          "prompt_es": "Why is varying sentence structure important in advanced writing?",
           "mastery_tag": "writing:c2-sophisticated-writing",
           "explanation": "Variar la estructura de las oraciones ayuda a mantener el interés del lector y hace que el texto sea más dinámico.",
-          "stimulus_en": "Why is varying sentence structure important in advanced writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -302,10 +302,10 @@
         {
           "interaction_id": "C2_U5_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer from the options provided.",
+          "prompt_es": "Which of the following sentences uses the correct subjunctive mood?",
           "mastery_tag": "grammar:c2-mastery",
           "explanation": "En inglés, la forma correcta del subjuntivo es 'were' en lugar de 'was' para situaciones hipotéticas.",
-          "stimulus_en": "Which of the following sentences uses the correct subjunctive mood?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -356,10 +356,10 @@
         {
           "interaction_id": "C2_U5_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer from the options provided.",
+          "prompt_es": "Which sentence correctly employs an inversion for emphasis?",
           "mastery_tag": "grammar:c2-mastery",
           "explanation": "La inversión se utiliza para dar énfasis en una oración negativa. 'Never' al principio requiere la inversión del sujeto y el verbo.",
-          "stimulus_en": "Which sentence correctly employs an inversion for emphasis?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -410,10 +410,10 @@
         {
           "interaction_id": "C2_U5_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer from the options provided.",
+          "prompt_es": "Which of the following sentences shows correct parallel structure?",
           "mastery_tag": "grammar:c2-mastery",
           "explanation": "La estructura paralela significa que los elementos de una lista deben estar en la misma forma gramatical. 'Reading', 'swimming', y 'jogging' son todos gerundios.",
-          "stimulus_en": "Which of the following sentences shows correct parallel structure?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U48_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is the main cause of climate change?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La contaminación es el principal impulsor del cambio climático debido a las emisiones de gases de efecto invernadero.",
-          "stimulus_en": "What is the main cause of climate change?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U48_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "Which process helps reduce waste by turning materials into reusable products?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El reciclaje ayuda a reducir residuos al convertir materiales usados en nuevos productos.",
-          "stimulus_en": "Which process helps reduce waste by turning materials into reusable products?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U48_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is one effect of deforestation on the environment?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La deforestación resulta en la pérdida de hábitats para muchas especies, afectando la biodiversidad.",
-          "stimulus_en": "What is one effect of deforestation on the environment?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U48_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is a natural way to clean water?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Filtrar el agua es un método natural para eliminar impurezas y hacerla potable.",
-          "stimulus_en": "What is a natural way to clean water?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U48_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What do we call the melting of ice in polar regions due to global warming?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El retroceso glacial se refiere al derretimiento de los glaciares debido al calentamiento global.",
-          "stimulus_en": "What do we call the melting of ice in polar regions due to global warming?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U13_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to entertainment and culture.",
+          "prompt_es": "Which genre includes films that make you laugh?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "La comedia es un género cinematográfico diseñado para hacer reír y entretener.",
-          "stimulus_en": "Which genre includes films that make you laugh?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U13_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to entertainment and culture.",
+          "prompt_es": "What is a popular music festival held annually in the UK?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Glastonbury es uno de los festivales de música más famosos del mundo, conocido por su diversidad musical.",
-          "stimulus_en": "What is a popular music festival held annually in the UK?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U13_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to entertainment and culture.",
+          "prompt_es": "Which type of arts involves acting on a stage?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Las artes escénicas incluyen actividades como el teatro, la danza y la actuación en vivo.",
-          "stimulus_en": "Which type of arts involves acting on a stage?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U13_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to entertainment and culture.",
+          "prompt_es": "Which of the following is NOT a type of film?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "La gastronomía no es un género de película, mientras que los otros son tipos de películas que se producen.",
-          "stimulus_en": "Which of the following is NOT a type of film?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U13_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to entertainment and culture.",
+          "prompt_es": "What is the term for a performance of music or drama in front of an audience?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Un 'show' se refiere a una representación de música, danza o teatro para el público.",
-          "stimulus_en": "What is the term for a performance of music or drama in front of an audience?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -182,10 +182,10 @@
         {
           "interaction_id": "B1_U13_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about informal letters.",
+          "prompt_es": "What is the main purpose of an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "El propósito principal de una carta informal es comunicarse de manera casual con amigos o familiares.",
-          "stimulus_en": "What is the main purpose of an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -209,10 +209,10 @@
         {
           "interaction_id": "B1_U13_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about informal letters.",
+          "prompt_es": "Which phrase is commonly used to start an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "La frase 'Hi [Name]' es típica para comenzar cartas informales, ya que es amigable y personal.",
-          "stimulus_en": "Which phrase is commonly used to start an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -236,10 +236,10 @@
         {
           "interaction_id": "B1_U13_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about informal letters.",
+          "prompt_es": "Which of these is NOT a common closure for an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "La palabra 'Sincerely' es un cierre formal, no se utiliza en cartas informales.",
-          "stimulus_en": "Which of these is NOT a common closure for an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "B1_U13_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about informal letters.",
+          "prompt_es": "What should you include in an informal letter?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "Las cartas informales suelen incluir historias personales para conectar mejor con el lector.",
-          "stimulus_en": "What should you include in an informal letter?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -290,10 +290,10 @@
         {
           "interaction_id": "B1_U13_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about informal letters.",
+          "prompt_es": "When writing to a friend, how can you express excitement?",
           "mastery_tag": "writing:b1-informal-letters",
           "explanation": "Usar expresiones emocionales como 'I am very excited!' es común en cartas informales para mostrar entusiasmo.",
-          "stimulus_en": "When writing to a friend, how can you express excitement?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

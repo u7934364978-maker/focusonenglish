@@ -97,10 +97,10 @@
         {
           "interaction_id": "B1_U7_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the text and answer the questions below.",
+          "prompt_es": "What is the main topic of the article?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "El tema principal del artículo es la tecnología del hogar inteligente.",
-          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat is the main topic of the article?",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.",
           "options": [
             {
               "id": "o1",
@@ -124,10 +124,10 @@
         {
           "interaction_id": "B1_U7_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the text and answer the questions below.",
+          "prompt_es": "What do many users enjoy about smart home devices?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "A muchos usuarios les gusta la facilidad para controlar sus dispositivos.",
-          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat do many users enjoy about smart home devices?",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.",
           "options": [
             {
               "id": "o1",
@@ -151,10 +151,10 @@
         {
           "interaction_id": "B1_U7_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the text and answer the questions below.",
+          "prompt_es": "What is one concern mentioned in the reviews?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "Una de las preocupaciones mencionadas son los problemas de privacidad.",
-          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat is one concern mentioned in the reviews?",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.",
           "options": [
             {
               "id": "o1",
@@ -178,10 +178,10 @@
         {
           "interaction_id": "B1_U7_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the text and answer the questions below.",
+          "prompt_es": "How do users control smart home devices?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "Los usuarios controlan los dispositivos inteligentes con comandos de voz o aplicaciones.",
-          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nHow do users control smart home devices?",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.",
           "options": [
             {
               "id": "o1",
@@ -205,10 +205,10 @@
         {
           "interaction_id": "B1_U7_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the text and answer the questions below.",
+          "prompt_es": "What should consumers consider before buying smart home devices?",
           "mastery_tag": "reading:b1-articles-reviews",
           "explanation": "Los consumidores deben considerar tanto las ventajas como los riesgos antes de comprar.",
-          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat should consumers consider before buying smart home devices?",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.",
           "options": [
             {
               "id": "o1",

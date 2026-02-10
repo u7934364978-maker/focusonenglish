@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U5_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to media and communication.",
+          "prompt_es": "What is the primary purpose of journalism?",
           "mastery_tag": "vocabulary:b2-media",
           "explanation": "El objetivo principal del periodismo es informar al público sobre eventos y temas de interés.",
-          "stimulus_en": "What is the primary purpose of journalism?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U5_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to media and communication.",
+          "prompt_es": "Which term refers to news presented through audio and visual formats?",
           "mastery_tag": "vocabulary:b2-media",
           "explanation": "El término 'broadcasting' se refiere a la transmisión de noticias a través de formatos audiovisuales como la televisión y la radio.",
-          "stimulus_en": "Which term refers to news presented through audio and visual formats?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U5_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to media and communication.",
+          "prompt_es": "What does 'digital media' include?",
           "mastery_tag": "vocabulary:b2-media",
           "explanation": "Los 'medios digitales' incluyen cualquier forma de comunicación que se presenta de manera digital, como periódicos en línea y redes sociales.",
-          "stimulus_en": "What does 'digital media' include?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U5_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to media and communication.",
+          "prompt_es": "What is a key challenge in digital journalism?",
           "mastery_tag": "vocabulary:b2-media",
           "explanation": "Un desafío clave en el periodismo digital es mantener la calidad de la información en medio de la rápida difusión de noticias.",
-          "stimulus_en": "What is a key challenge in digital journalism?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U5_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to media and communication.",
+          "prompt_es": "What role do journalists play in society?",
           "mastery_tag": "vocabulary:b2-media",
           "explanation": "Los periodistas tienen el papel crucial de proporcionar información objetiva y precisa a la sociedad.",
-          "stimulus_en": "What role do journalists play in society?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

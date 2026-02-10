@@ -75,10 +75,10 @@
         {
           "interaction_id": "B2_U4_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to modern lifestyle and well-being.",
+          "prompt_es": "Which word describes a balanced state of mind and body?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El término 'well-being' se refiere a un estado de salud y felicidad general.",
-          "stimulus_en": "Which word describes a balanced state of mind and body?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -102,10 +102,10 @@
         {
           "interaction_id": "B2_U4_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to modern lifestyle and well-being.",
+          "prompt_es": "What is a common practice for improving mental health?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "La meditación es una técnica efectiva para reducir el estrés y mejorar la salud mental.",
-          "stimulus_en": "What is a common practice for improving mental health?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -129,10 +129,10 @@
         {
           "interaction_id": "B2_U4_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to modern lifestyle and well-being.",
+          "prompt_es": "Which activity is considered part of a healthy lifestyle?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El ejercicio regular es clave para mantener un estilo de vida saludable.",
-          "stimulus_en": "Which activity is considered part of a healthy lifestyle?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -156,10 +156,10 @@
         {
           "interaction_id": "B2_U4_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to modern lifestyle and well-being.",
+          "prompt_es": "What does personal growth usually involve?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El crecimiento personal implica aprender y mejorar a través de nuevas experiencias.",
-          "stimulus_en": "What does personal growth usually involve?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -183,10 +183,10 @@
         {
           "interaction_id": "B2_U4_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to modern lifestyle and well-being.",
+          "prompt_es": "Which factor can negatively impact one's lifestyle?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El estrés crónico puede tener efectos perjudiciales en la salud y el bienestar general.",
-          "stimulus_en": "Which factor can negatively impact one's lifestyle?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -152,10 +152,10 @@
         {
           "interaction_id": "B1_U2_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete each sentence with a relative clause.",
+          "prompt_es": "Do you remember the day ___ we met for the first time?",
           "mastery_tag": "grammar:b1-relative-clauses",
           "explanation": "'When' se utiliza para referirse a momentos en el tiempo en las cláusulas relativas.",
-          "stimulus_en": "Do you remember the day ___ we met for the first time?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

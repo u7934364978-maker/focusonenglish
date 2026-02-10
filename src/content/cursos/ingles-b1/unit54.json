@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U54_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What is the main purpose of a web browser?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Un navegador web se utiliza principalmente para acceder y explorar información en internet.",
-          "stimulus_en": "What is the main purpose of a web browser?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U54_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What does 'social media' refer to?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Las redes sociales son plataformas en línea donde las personas se comunican e interactúan entre sí.",
-          "stimulus_en": "What does 'social media' refer to?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U54_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "Which of the following is NOT considered a form of media?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Una impresora no es una forma de medios, mientras que los otros son plataformas para distribuir contenido.",
-          "stimulus_en": "Which of the following is NOT considered a form of media?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U54_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What is a 'byte' in computer terminology?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Un byte es una unidad básica de datos en computación, utilizada para medir la información.",
-          "stimulus_en": "What is a 'byte' in computer terminology?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U54_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What does it mean to 'download' a file?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Descargar un archivo significa transferirlo desde Internet a un dispositivo local para su uso.",
-          "stimulus_en": "What does it mean to 'download' a file?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

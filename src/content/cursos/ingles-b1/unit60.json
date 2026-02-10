@@ -289,10 +289,10 @@
         {
           "interaction_id": "B1_U60_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question based on the interview context.",
+          "prompt_es": "What is the main purpose of a job interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El propósito principal de una entrevista de trabajo es conseguir un empleo.",
-          "stimulus_en": "What is the main purpose of a job interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -316,10 +316,10 @@
         {
           "interaction_id": "B1_U60_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question based on the interview context.",
+          "prompt_es": "What should you research before an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Investigar sobre la empresa te ayuda a entender su cultura y a responder preguntas.",
-          "stimulus_en": "What should you research before an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -343,10 +343,10 @@
         {
           "interaction_id": "B1_U60_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question based on the interview context.",
+          "prompt_es": "What is a common question an interviewer might ask?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Los entrevistadores suelen preguntar sobre tus motivaciones para ver si encajas.",
-          "stimulus_en": "What is a common question an interviewer might ask?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -370,10 +370,10 @@
         {
           "interaction_id": "B1_U60_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question based on the interview context.",
+          "prompt_es": "How should you dress for a job interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Vestirte de manera formal muestra profesionalismo y respeto.",
-          "stimulus_en": "How should you dress for a job interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -397,10 +397,10 @@
         {
           "interaction_id": "B1_U60_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question based on the interview context.",
+          "prompt_es": "What is a good way to prepare for an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Practicar tus respuestas te ayuda a sentirte más seguro durante la entrevista.",
-          "stimulus_en": "What is a good way to prepare for an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

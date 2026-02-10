@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U39_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences using the past continuous tense.",
+          "prompt_es": "What (3)___ you (4)___ at 9 PM yesterday?",
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "Se usa 'were' aquí porque 'you' en plural se combina con 'were' en pasado continuo.",
-          "stimulus_en": "What (3)___ you (4)___ at 9 PM yesterday?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

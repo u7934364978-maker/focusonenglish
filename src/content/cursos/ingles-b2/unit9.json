@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U9_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to modern living and personal development.",
+          "prompt_es": "What is a common benefit of practicing mindfulness?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "La práctica de la atención plena ayuda a mejorar la concentración y a reducir el estrés.",
-          "stimulus_en": "What is a common benefit of practicing mindfulness?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U9_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to modern living and personal development.",
+          "prompt_es": "Which of the following is essential for maintaining a healthy lifestyle?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "El ejercicio regular es fundamental para mantener un estilo de vida saludable, mejorando la salud física y mental.",
-          "stimulus_en": "Which of the following is essential for maintaining a healthy lifestyle?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U9_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to modern living and personal development.",
+          "prompt_es": "How can personal growth be achieved?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "Establecer metas permite a las personas crecer personalmente y alcanzar sus aspiraciones.",
-          "stimulus_en": "How can personal growth be achieved?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U9_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to modern living and personal development.",
+          "prompt_es": "What is an important aspect of modern living?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "Abrirse a las herramientas digitales puede mejorar la calidad de vida y facilitar la comunicación.",
-          "stimulus_en": "What is an important aspect of modern living?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U9_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to modern living and personal development.",
+          "prompt_es": "Which practice can enhance well-being?",
           "mastery_tag": "vocabulary:b2-lifestyle",
           "explanation": "Mantener conexiones sociales es vital para la salud emocional y el bienestar general.",
-          "stimulus_en": "Which practice can enhance well-being?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

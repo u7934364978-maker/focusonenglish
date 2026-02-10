@@ -97,10 +97,10 @@
         {
           "interaction_id": "C1_U10_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the precise nuance of the word or phrase in the context provided.",
+          "prompt_es": "Which word best describes a situation that is not straightforward and has many layers?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "La palabra 'nuanced' describe algo que tiene varias capas o sutilezas, a diferencia de 'obvious' o 'simple'.",
-          "stimulus_en": "Which word best describes a situation that is not straightforward and has many layers?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -124,10 +124,10 @@
         {
           "interaction_id": "C1_U10_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the precise nuance of the word or phrase in the context provided.",
+          "prompt_es": "What term refers to the emotional undertone of a word beyond its literal meaning?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "'Connotation' se refiere a los significados o emociones adicionales que una palabra puede evocar más allá de su definición literal.",
-          "stimulus_en": "What term refers to the emotional undertone of a word beyond its literal meaning?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -151,10 +151,10 @@
         {
           "interaction_id": "C1_U10_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the precise nuance of the word or phrase in the context provided.",
+          "prompt_es": "Which word indicates a careful and methodical approach that reflects sophistication?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "'Sophisticated' implica un alto nivel de complejidad y refinamiento, a diferencia de 'casual' o 'rushed'.",
-          "stimulus_en": "Which word indicates a careful and methodical approach that reflects sophistication?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -178,10 +178,10 @@
         {
           "interaction_id": "C1_U10_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the precise nuance of the word or phrase in the context provided.",
+          "prompt_es": "What phrase best expresses the idea of conveying an idea subtly and with precision?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "La frase 'articulate clearly' implica comunicar ideas de manera precisa y sutil, en contraste con ser indirecto.",
-          "stimulus_en": "What phrase best expresses the idea of conveying an idea subtly and with precision?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -205,10 +205,10 @@
         {
           "interaction_id": "C1_U10_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer that captures the precise nuance of the word or phrase in the context provided.",
+          "prompt_es": "Which term is synonymous with 'delicate' when referring to a subtle difference or distinction?",
           "mastery_tag": "vocabulary:c1-nuanced",
           "explanation": "'Faint' se refiere a algo débil o sutil, que es adecuado cuando se discuten diferencias delicadas.",
-          "stimulus_en": "Which term is synonymous with 'delicate' when referring to a subtle difference or distinction?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

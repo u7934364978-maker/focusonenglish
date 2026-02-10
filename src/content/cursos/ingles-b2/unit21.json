@@ -97,10 +97,10 @@
         {
           "interaction_id": "B2_U21_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the idiomatic expressions.",
+          "prompt_es": "What does it mean to 'kick the bucket'?",
           "mastery_tag": "vocabulary:b2-idiomatic",
           "explanation": "La expresión 'kick the bucket' es un eufemismo para morir.",
-          "stimulus_en": "What does it mean to 'kick the bucket'?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -124,10 +124,10 @@
         {
           "interaction_id": "B2_U21_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the idiomatic expressions.",
+          "prompt_es": "If someone is 'under the weather', how do they feel?",
           "mastery_tag": "vocabulary:b2-idiomatic",
           "explanation": "La expresión 'under the weather' se usa para describir a alguien que no se siente bien o está enfermo.",
-          "stimulus_en": "If someone is 'under the weather', how do they feel?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -151,10 +151,10 @@
         {
           "interaction_id": "B2_U21_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the idiomatic expressions.",
+          "prompt_es": "What does it mean if you 'hit the nail on the head'?",
           "mastery_tag": "vocabulary:b2-idiomatic",
           "explanation": "La expresión significa que alguien ha dado en el clavo, o ha hecho un comentario exacto.",
-          "stimulus_en": "What does it mean if you 'hit the nail on the head'?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -178,10 +178,10 @@
         {
           "interaction_id": "B2_U21_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the idiomatic expressions.",
+          "prompt_es": "If you 'spill the beans', what have you done?",
           "mastery_tag": "vocabulary:b2-idiomatic",
           "explanation": "La expresión 'spill the beans' significa revelar un secreto o información confidencial.",
-          "stimulus_en": "If you 'spill the beans', what have you done?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -205,10 +205,10 @@
         {
           "interaction_id": "B2_U21_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the idiomatic expressions.",
+          "prompt_es": "What does it mean to 'burn the midnight oil'?",
           "mastery_tag": "vocabulary:b2-idiomatic",
           "explanation": "La expresión se refiere a trabajar o estudiar hasta muy tarde.",
-          "stimulus_en": "What does it mean to 'burn the midnight oil'?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

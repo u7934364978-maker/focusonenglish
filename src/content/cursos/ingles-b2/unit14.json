@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U14_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to debate and discussion.",
+          "prompt_es": "What is the main purpose of a debate?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "El propósito principal de un debate es persuadir a la audiencia sobre un punto de vista, no solo argumentar.",
-          "stimulus_en": "What is the main purpose of a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U14_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to debate and discussion.",
+          "prompt_es": "Which of the following is a crucial skill in debating?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Escuchar es fundamental en un debate para entender los argumentos del oponente y responder adecuadamente.",
-          "stimulus_en": "Which of the following is a crucial skill in debating?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U14_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to debate and discussion.",
+          "prompt_es": "What should a strong argument include?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Un argumento sólido debe incluir evidencia y razonamiento para ser convincente.",
-          "stimulus_en": "What should a strong argument include?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U14_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to debate and discussion.",
+          "prompt_es": "How should one handle counterarguments?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Es importante reconocer y refutar los contraargumentos para demostrar que estás informado y has considerado otras opiniones.",
-          "stimulus_en": "How should one handle counterarguments?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U14_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question related to debate and discussion.",
+          "prompt_es": "What role does body language play in a debate?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "El lenguaje corporal comunica confianza y puede influir en cómo se perciben tus argumentos.",
-          "stimulus_en": "What role does body language play in a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

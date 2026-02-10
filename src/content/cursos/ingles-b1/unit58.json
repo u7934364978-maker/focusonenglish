@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U58_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about movies, music, arts, and culture.",
+          "prompt_es": "What is the main purpose of a film festival?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Un festival de cine se organiza principalmente para exhibir y celebrar películas, no para vender productos o enseñar.",
-          "stimulus_en": "What is the main purpose of a film festival?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U58_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about movies, music, arts, and culture.",
+          "prompt_es": "Which genre of music typically features heavy use of guitars and drums?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "El rock es conocido por su fuerte uso de guitarras eléctricas y batería, mientras que otros géneros como la música clásica y el jazz tienen diferentes instrumentos predominantes.",
-          "stimulus_en": "Which genre of music typically features heavy use of guitars and drums?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U58_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about movies, music, arts, and culture.",
+          "prompt_es": "What type of art involves creating images using colored materials on a surface?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "La pintura se refiere a la técnica de crear imágenes en una superficie, mientras que la escultura implica modelar materiales en tres dimensiones.",
-          "stimulus_en": "What type of art involves creating images using colored materials on a surface?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U58_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about movies, music, arts, and culture.",
+          "prompt_es": "Which of the following is a famous musical theater production?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Les Misérables es una producción de teatro musical muy conocida, mientras que las otras opciones son novelas.",
-          "stimulus_en": "Which of the following is a famous musical theater production?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U58_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about movies, music, arts, and culture.",
+          "prompt_es": "What do we call an event where performers act out a story in front of an audience?",
           "mastery_tag": "vocabulary:b1-entertainment",
           "explanation": "Una obra de teatro es una actuación en vivo donde los actores representan un guion, a diferencia de un concierto o una proyección de película.",
-          "stimulus_en": "What do we call an event where performers act out a story in front of an audience?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

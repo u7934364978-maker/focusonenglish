@@ -40,10 +40,10 @@
         {
           "interaction_id": "B2_U30_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question based on your understanding of reviews and articles.",
+          "prompt_es": "What is the primary purpose of a review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "El propósito principal de una reseña es evaluar un producto, servicio o experiencia. Las reseñas ayudan a los lectores a tomar decisiones informadas.",
-          "stimulus_en": "What is the primary purpose of a review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -67,10 +67,10 @@
         {
           "interaction_id": "B2_U30_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question based on your understanding of reviews and articles.",
+          "prompt_es": "Which of the following should NOT be included in a professional article?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Un artículo profesional debe basarse en la evidencia y se espera que se mantenga objetivo. Las opiniones personales pueden no ser apropiadas.",
-          "stimulus_en": "Which of the following should NOT be included in a professional article?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -94,10 +94,10 @@
         {
           "interaction_id": "B2_U30_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question based on your understanding of reviews and articles.",
+          "prompt_es": "What is a key feature of a well-written review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Una buena reseña debe ofrecer una perspectiva equilibrada, discutiendo tanto los aspectos positivos como negativos del sujeto.",
-          "stimulus_en": "What is a key feature of a well-written review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -148,10 +148,10 @@
         {
           "interaction_id": "B2_U30_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option for each question based on your understanding of reviews and articles.",
+          "prompt_es": "Which element is crucial for attracting readers to an article?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Los titulares atractivos capturan la atención del lector y son un componente esencial de un artículo efectivo.",
-          "stimulus_en": "Which element is crucial for attracting readers to an article?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -182,10 +182,10 @@
         {
           "interaction_id": "B2_U30_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture content.",
+          "prompt_es": "What was the main focus of the lecture in 1967?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "La respuesta correcta es 'Technological advancements' porque el enfoque era sobre cómo la tecnología estaba cambiando la sociedad en ese año.",
-          "stimulus_en": "What was the main focus of the lecture in 1967?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -209,10 +209,10 @@
         {
           "interaction_id": "B2_U30_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture content.",
+          "prompt_es": "Which device was highlighted as revolutionary during the discussion?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "Se consideró que la computadora era revolucionaria debido a su impacto en el trabajo y la comunicación.",
-          "stimulus_en": "Which device was highlighted as revolutionary during the discussion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -236,10 +236,10 @@
         {
           "interaction_id": "B2_U30_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture content.",
+          "prompt_es": "What did the speaker suggest about the future of technology?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "El orador expresó optimismo sobre las mejoras tecnológicas y su potencial para revolucionar la vida diaria.",
-          "stimulus_en": "What did the speaker suggest about the future of technology?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "B2_U30_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture content.",
+          "prompt_es": "How did the audience react to the examples given?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "La reacción entusiasta del público indica que estaban interesados y comprometidos con el tema presentado.",
-          "stimulus_en": "How did the audience react to the examples given?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -290,10 +290,10 @@
         {
           "interaction_id": "B2_U30_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the lecture content.",
+          "prompt_es": "What method did the speaker use to engage the audience?",
           "mastery_tag": "listening:b2-lectures",
           "explanation": "El orador utilizó estadísticas, ayudas visuales y historias personales para mantener la atención de la audiencia.",
-          "stimulus_en": "What method did the speaker use to engage the audience?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

@@ -2019,7 +2019,12 @@ export default function PremiumCourseSession({
       case 'role_play':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
-            <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+            {/* Si NO hay stimulus, mostramos el prompt arriba como título */}
+            {!interaction.stimulus_en && (
+              <h2 className="text-2xl font-black text-slate-800 text-center mb-6">
+                {interaction.prompt_es}
+              </h2>
+            )}
             
             {interaction.image_url && (
               <motion.div 
@@ -2043,6 +2048,17 @@ export default function PremiumCourseSession({
                   </p>
                </div>
             )}
+
+            {/* Si HAY stimulus, mostramos el prompt debajo del estímulo en una caja destacada */}
+            {interaction.stimulus_en && (
+              <div className="bg-indigo-50 p-8 rounded-[2rem] border-2 border-indigo-100 mb-6 relative group">
+                <PronunciationButton text={interaction.prompt_es} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <p className="text-2xl font-black text-indigo-900 leading-tight">
+                  {interaction.prompt_es}
+                </p>
+              </div>
+            )}
+
             <div className="grid gap-4">
               {interaction.options?.map((opt: any) => (
                 <div

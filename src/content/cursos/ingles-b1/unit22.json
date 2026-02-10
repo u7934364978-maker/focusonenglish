@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U22_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about stories and narratives.",
+          "prompt_es": "What is the main purpose of a narrative?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La narrativa tiene como objetivo contar una historia y compartir experiencias.",
-          "stimulus_en": "What is the main purpose of a narrative?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U22_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about stories and narratives.",
+          "prompt_es": "Which of the following is a key element of a good story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El 'setting' o escenario es fundamental en una historia, ya que establece el contexto donde ocurre la acción.",
-          "stimulus_en": "Which of the following is a key element of a good story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U22_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about stories and narratives.",
+          "prompt_es": "What does 'plot' refer to in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El 'plot' se refiere a la secuencia de eventos que ocurren en una historia.",
-          "stimulus_en": "What does 'plot' refer to in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U22_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about stories and narratives.",
+          "prompt_es": "Which phrase indicates a flashback in a narrative?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La frase 'In the past' indica que el narrador está recordando eventos anteriores a la historia principal.",
-          "stimulus_en": "Which phrase indicates a flashback in a narrative?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U22_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best option to complete each sentence about stories and narratives.",
+          "prompt_es": "How should a story usually end?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Una buena historia debe terminar con una conclusión que cierre los eventos narrados.",
-          "stimulus_en": "How should a story usually end?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

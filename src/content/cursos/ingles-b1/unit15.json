@@ -97,10 +97,10 @@
         {
           "interaction_id": "B1_U15_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is the main cause of air pollution?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Las fábricas emiten gases que contaminan el aire.",
-          "stimulus_en": "What is the main cause of air pollution?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -124,10 +124,10 @@
         {
           "interaction_id": "B1_U15_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What does recycling help to reduce?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El reciclaje ayuda a reducir la cantidad de desperdicios que producimos.",
-          "stimulus_en": "What does recycling help to reduce?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -151,10 +151,10 @@
         {
           "interaction_id": "B1_U15_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is climate change?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El cambio climático se refiere a los cambios a largo plazo en las temperaturas de la Tierra.",
-          "stimulus_en": "What is climate change?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -178,10 +178,10 @@
         {
           "interaction_id": "B1_U15_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "Which of the following is a renewable energy source?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La energía eólica es una fuente de energía renovable que se puede utilizar una y otra vez.",
-          "stimulus_en": "Which of the following is a renewable energy source?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -205,10 +205,10 @@
         {
           "interaction_id": "B1_U15_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What can we do to protect nature?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Plantar árboles ayuda a mejorar nuestro entorno y proteger la naturaleza.",
-          "stimulus_en": "What can we do to protect nature?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

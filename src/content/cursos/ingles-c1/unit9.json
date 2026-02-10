@@ -18,10 +18,10 @@
         {
           "interaction_id": "C1_U9_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question.",
+          "prompt_es": "What reason does Mark give for wanting to stay indoors this weekend?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Mark expresses disinterest in outdoor activities due to his dislike of the rain.",
-          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.\n\nWhat reason does Mark give for wanting to stay indoors this weekend?",
+          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "C1_U9_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question.",
+          "prompt_es": "Which movie do the friends agree is overrated?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "They discuss the popularity of 'Avatar' and mention how they found it lacking.",
-          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.\n\nWhich movie do the friends agree is overrated?",
+          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C1_U9_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question.",
+          "prompt_es": "How does Lisa feel about the weather forecast?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Lisa mentions that she hopes the rain will stop, indicating a positive outlook.",
-          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.\n\nHow does Lisa feel about the weather forecast?",
+          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C1_U9_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question.",
+          "prompt_es": "What activity do the friends plan to do instead of going out?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Their discussion centers on binge-watching movies as an alternative to outdoor plans.",
-          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.\n\nWhat activity do the friends plan to do instead of going out?",
+          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C1_U9_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Listen to the audio and choose the best answer for each question.",
+          "prompt_es": "What underlying message is conveyed about their friendship?",
           "mastery_tag": "listening:c1-complex-audio",
           "explanation": "Their agreement on movies and plans shows a strong bond and shared interests.",
-          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.\n\nWhat underlying message is conveyed about their friendship?",
+          "stimulus_en": "You will hear a conversation between two friends discussing their plans for the weekend. They talk about the weather, their favorite activities, and some recent movies they've seen.",
           "options": [
             {
               "id": "o1",

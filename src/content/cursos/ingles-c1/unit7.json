@@ -18,10 +18,10 @@
         {
           "interaction_id": "C1_U7_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What is the primary focus of contemporary literature as mentioned in the passage?",
           "mastery_tag": "reading:c1-complex-literature",
           "explanation": "El pasaje enfatiza que la literatura contemporánea fusiona las estructuras narrativas tradicionales con formatos fragmentados.",
-          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.\n\nWhat is the primary focus of contemporary literature as mentioned in the passage?",
+          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "C1_U7_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "Which authors are cited as examples of employing experimental styles?",
           "mastery_tag": "reading:c1-complex-literature",
           "explanation": "El pasaje menciona específicamente a Virginia Woolf y James Joyce como ejemplos de escritores que utilizan estilos experimentales.",
-          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.\n\nWhich authors are cited as examples of employing experimental styles?",
+          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C1_U7_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "According to the passage, what elements do modern narratives often intersect with?",
           "mastery_tag": "reading:c1-complex-literature",
           "explanation": "Se menciona que las narrativas modernas a menudo se entrelazan con temas de identidad, memoria y realidad.",
-          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.\n\nAccording to the passage, what elements do modern narratives often intersect with?",
+          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C1_U7_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What does the passage suggest about the demands placed on readers of complex literature?",
           "mastery_tag": "reading:c1-complex-literature",
           "explanation": "El pasaje indica que la complejidad de dichos textos requiere que los lectores se involucren de manera crítica.",
-          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.\n\nWhat does the passage suggest about the demands placed on readers of complex literature?",
+          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C1_U7_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What metaphor is used to describe the role of modern literature in relation to human experience?",
           "mastery_tag": "reading:c1-complex-literature",
           "explanation": "Se menciona que la literatura moderna funciona como un espejo y una lente, reflejando y enfocando la experiencia humana.",
-          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.\n\nWhat metaphor is used to describe the role of modern literature in relation to human experience?",
+          "stimulus_en": "In contemporary literature, the fusion of traditional narrative structures with fragmented formats can create a rich tapestry of meaning. Writers often employ experimental styles, challenging readers to engage more critically with texts. For instance, authors like Virginia Woolf and James Joyce exemplify this approach, weaving their characters’ inner thoughts with the external world in a seamless manner. Furthermore, this stylistic evolution reflects broader societal shifts, as narratives now often intersect with themes of identity, memory, and reality. The complexity of such texts demands not only comprehension but also a nuanced interpretation, as readers navigate through layers of symbolism and ambiguity. Thus, modern literature serves as both a mirror and a lens, reflecting the intricate dynamics of human experience while simultaneously urging deeper engagement with the literary form.",
           "options": [
             {
               "id": "o1",
@@ -302,10 +302,10 @@
         {
           "interaction_id": "C1_U7_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to proposals and evaluations.",
+          "prompt_es": "What is the primary purpose of a proposal in a professional context?",
           "mastery_tag": "writing:c1-proposals",
           "explanation": "En un contexto profesional, el propósito principal de una propuesta es delinear un plan o un enfoque para un proyecto o idea.",
-          "stimulus_en": "What is the primary purpose of a proposal in a professional context?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -329,10 +329,10 @@
         {
           "interaction_id": "C1_U7_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to proposals and evaluations.",
+          "prompt_es": "Which element is crucial for evaluating a proposal?",
           "mastery_tag": "writing:c1-proposals",
           "explanation": "Una evaluación efectiva de una propuesta debe incluir un análisis de costo-beneficio para determinar su viabilidad.",
-          "stimulus_en": "Which element is crucial for evaluating a proposal?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -356,10 +356,10 @@
         {
           "interaction_id": "C1_U7_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to proposals and evaluations.",
+          "prompt_es": "How should recommendations be presented in a proposal?",
           "mastery_tag": "writing:c1-proposals",
           "explanation": "Las recomendaciones en una propuesta deben presentarse de manera clara y segura para que el lector comprenda su importancia.",
-          "stimulus_en": "How should recommendations be presented in a proposal?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -383,10 +383,10 @@
         {
           "interaction_id": "C1_U7_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to proposals and evaluations.",
+          "prompt_es": "What is a common mistake when writing proposals?",
           "mastery_tag": "writing:c1-proposals",
           "explanation": "Un error común al redactar propuestas es no incluir un resumen ejecutivo, que proporciona una visión general clara del documento.",
-          "stimulus_en": "What is a common mistake when writing proposals?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -410,10 +410,10 @@
         {
           "interaction_id": "C1_U7_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to proposals and evaluations.",
+          "prompt_es": "When evaluating a proposal, which factor is least important?",
           "mastery_tag": "writing:c1-proposals",
           "explanation": "Las relaciones personales pueden influir, pero no son un factor determinante en la evaluación objetiva de una propuesta.",
-          "stimulus_en": "When evaluating a proposal, which factor is least important?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

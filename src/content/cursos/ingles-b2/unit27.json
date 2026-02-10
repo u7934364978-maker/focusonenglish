@@ -18,47 +18,137 @@
         {
           "interaction_id": "B2_U27_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What are the primary causes of climate change according to most scientists?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "La mayoría de los científicos creen que las actividades humanas son las principales causas del cambio climático.",
-          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat are the primary causes of climate change according to most scientists?",
-          "correct_answer": "Human activities like burning fossil fuels and deforestation."
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Human activities like burning fossil fuels and deforestation."
+            },
+            {
+              "id": "o2",
+              "text": "They question the extent of human impact and cite natural variability."
+            },
+            {
+              "id": "o3",
+              "text": "Rising sea levels."
+            },
+            {
+              "id": "o4",
+              "text": "They are unprecedented and largely driven by human actions."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U27_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What do skeptics believe about climate change?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Los escépticos creen que el impacto humano no es tan grande y que hay variabilidad climática natural.",
-          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat do skeptics believe about climate change?",
-          "correct_answer": "They question the extent of human impact and cite natural variability."
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "They question the extent of human impact and cite natural variability."
+            },
+            {
+              "id": "o2",
+              "text": "Human activities like burning fossil fuels and deforestation."
+            },
+            {
+              "id": "o3",
+              "text": "Rising sea levels."
+            },
+            {
+              "id": "o4",
+              "text": "They are unprecedented and largely driven by human actions."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U27_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "According to the passage, what is a significant consequence of not addressing climate change?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "El texto menciona que una consecuencia significativa de no abordar el cambio climático son los niveles del mar en aumento.",
-          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nAccording to the passage, what is a significant consequence of not addressing climate change?",
-          "correct_answer": "Rising sea levels."
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Rising sea levels."
+            },
+            {
+              "id": "o2",
+              "text": "Human activities like burning fossil fuels and deforestation."
+            },
+            {
+              "id": "o3",
+              "text": "They question the extent of human impact and cite natural variability."
+            },
+            {
+              "id": "o4",
+              "text": "They are unprecedented and largely driven by human actions."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U27_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What do the majority of climate scientists emphasize about current climate changes?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "La mayoría de los científicos climáticos enfatizan que los cambios actuales son sin precedentes y en gran parte impulsados por acciones humanas.",
-          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat do the majority of climate scientists emphasize about current climate changes?",
-          "correct_answer": "They are unprecedented and largely driven by human actions."
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "They are unprecedented and largely driven by human actions."
+            },
+            {
+              "id": "o2",
+              "text": "Human activities like burning fossil fuels and deforestation."
+            },
+            {
+              "id": "o3",
+              "text": "They question the extent of human impact and cite natural variability."
+            },
+            {
+              "id": "o4",
+              "text": "Rising sea levels."
+            }
+          ]
         },
         {
           "interaction_id": "B2_U27_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "prompt_es": "What solutions do experts suggest to combat climate change?",
           "mastery_tag": "reading:b2-complex-texts",
           "explanation": "Los expertos sugieren soluciones como la cooperación internacional y las inversiones en energías renovables para combatir el cambio climático.",
-          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat solutions do experts suggest to combat climate change?",
-          "correct_answer": "International cooperation and renewable energy investments."
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "International cooperation and renewable energy investments."
+            },
+            {
+              "id": "o2",
+              "text": "Human activities like burning fossil fuels and deforestation."
+            },
+            {
+              "id": "o3",
+              "text": "They question the extent of human impact and cite natural variability."
+            },
+            {
+              "id": "o4",
+              "text": "Rising sea levels."
+            }
+          ]
         }
       ]
     },
@@ -212,10 +302,10 @@
         {
           "interaction_id": "B2_U27_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "prompt_es": "What is a key feature of an article review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Una revisión de artículo a menudo incluye la opinión personal del autor sobre el contenido revisado.",
-          "stimulus_en": "What is a key feature of an article review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -239,10 +329,10 @@
         {
           "interaction_id": "B2_U27_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "prompt_es": "Which element is NOT typically found in a review?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Las revisiones deben ser claras y centradas, evitando distracciones que no aporten al contenido.",
-          "stimulus_en": "Which element is NOT typically found in a review?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -266,10 +356,10 @@
         {
           "interaction_id": "B2_U27_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "prompt_es": "What is a common purpose of writing articles?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Los artículos pueden tener múltiples propósitos, incluyendo entretener, persuadir e informar al lector.",
-          "stimulus_en": "What is a common purpose of writing articles?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -293,10 +383,10 @@
         {
           "interaction_id": "B2_U27_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "prompt_es": "In a product review, what should the author primarily evaluate?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "En una reseña de producto, el enfoque principal debe estar en las características y el rendimiento del producto.",
-          "stimulus_en": "In a product review, what should the author primarily evaluate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -320,10 +410,10 @@
         {
           "interaction_id": "B2_U27_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "prompt_es": "What writing style is typically used for formal articles?",
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "Los artículos formales suelen seguir un estilo académico que es más riguroso y objetivo.",
-          "stimulus_en": "What writing style is typically used for formal articles?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

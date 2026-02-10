@@ -49,10 +49,10 @@
         {
           "interaction_id": "B1_U3_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the short story provided.",
+          "prompt_es": "What year did Clara find the map?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La respuesta correcta está en el primer párrafo, donde se menciona el año 1839.",
-          "stimulus_en": "What year did Clara find the map?",
+          "stimulus_en": "",
           "main_text": "Once upon a time, in the year 1839, a young girl named Clara lived in a small village. She loved to explore the forest near her home. One day, she found an old map that led to a hidden treasure. Excited, Clara decided to follow the map. She faced many challenges, including a deep river and a tall mountain. Finally, after a long journey, Clara found the treasure chest full of gold coins. She returned to her village and shared her treasure with her friends, teaching them the value of sharing and friendship.",
           "options": [
             {
@@ -77,10 +77,10 @@
         {
           "interaction_id": "B1_U3_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the short story provided.",
+          "prompt_es": "What did Clara love to do?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Clara amaba explorar el bosque cerca de su hogar.",
-          "stimulus_en": "What did Clara love to do?",
+          "stimulus_en": "",
           "main_text": "Once upon a time, in the year 1839, a young girl named Clara lived in a small village. She loved to explore the forest near her home. One day, she found an old map that led to a hidden treasure. Excited, Clara decided to follow the map. She faced many challenges, including a deep river and a tall mountain. Finally, after a long journey, Clara found the treasure chest full of gold coins. She returned to her village and shared her treasure with her friends, teaching them the value of sharing and friendship.",
           "options": [
             {
@@ -105,10 +105,10 @@
         {
           "interaction_id": "B1_U3_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the short story provided.",
+          "prompt_es": "What did Clara find in the forest?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Clara encontró un mapa antiguo que la llevó a un tesoro escondido.",
-          "stimulus_en": "What did Clara find in the forest?",
+          "stimulus_en": "",
           "main_text": "Once upon a time, in the year 1839, a young girl named Clara lived in a small village. She loved to explore the forest near her home. One day, she found an old map that led to a hidden treasure. Excited, Clara decided to follow the map. She faced many challenges, including a deep river and a tall mountain. Finally, after a long journey, Clara found the treasure chest full of gold coins. She returned to her village and shared her treasure with her friends, teaching them the value of sharing and friendship.",
           "options": [
             {
@@ -133,10 +133,10 @@
         {
           "interaction_id": "B1_U3_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the short story provided.",
+          "prompt_es": "What was in the treasure chest?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El cofre del tesoro estaba lleno de monedas de oro.",
-          "stimulus_en": "What was in the treasure chest?",
+          "stimulus_en": "",
           "main_text": "Once upon a time, in the year 1839, a young girl named Clara lived in a small village. She loved to explore the forest near her home. One day, she found an old map that led to a hidden treasure. Excited, Clara decided to follow the map. She faced many challenges, including a deep river and a tall mountain. Finally, after a long journey, Clara found the treasure chest full of gold coins. She returned to her village and shared her treasure with her friends, teaching them the value of sharing and friendship.",
           "options": [
             {
@@ -161,10 +161,10 @@
         {
           "interaction_id": "B1_U3_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the short story provided.",
+          "prompt_es": "What lesson did Clara teach her friends?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Clara compartió su tesoro con sus amigos, enseñándoles el valor de compartir.",
-          "stimulus_en": "What lesson did Clara teach her friends?",
+          "stimulus_en": "",
           "main_text": "Once upon a time, in the year 1839, a young girl named Clara lived in a small village. She loved to explore the forest near her home. One day, she found an old map that led to a hidden treasure. Excited, Clara decided to follow the map. She faced many challenges, including a deep river and a tall mountain. Finally, after a long journey, Clara found the treasure chest full of gold coins. She returned to her village and shared her treasure with her friends, teaching them the value of sharing and friendship.",
           "options": [
             {

@@ -75,10 +75,10 @@
         {
           "interaction_id": "B1_U35_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option for each question related to technology and media.",
+          "prompt_es": "What do we call a program that allows us to access the internet?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Un 'navegador' es un programa que te permite acceder a internet.",
-          "stimulus_en": "What do we call a program that allows us to access the internet?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -102,10 +102,10 @@
         {
           "interaction_id": "B1_U35_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option for each question related to technology and media.",
+          "prompt_es": "Which term refers to online platforms where users share content?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Las 'redes sociales' son plataformas donde los usuarios pueden compartir contenido.",
-          "stimulus_en": "Which term refers to online platforms where users share content?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -129,10 +129,10 @@
         {
           "interaction_id": "B1_U35_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option for each question related to technology and media.",
+          "prompt_es": "What is the main function of a computer's CPU?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "La función principal de la CPU es procesar datos y ejecutar instrucciones.",
-          "stimulus_en": "What is the main function of a computer's CPU?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -156,10 +156,10 @@
         {
           "interaction_id": "B1_U35_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option for each question related to technology and media.",
+          "prompt_es": "Which device do we use to input text into a computer?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Usamos el 'teclado' para introducir texto en una computadora.",
-          "stimulus_en": "Which device do we use to input text into a computer?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -183,10 +183,10 @@
         {
           "interaction_id": "B1_U35_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option for each question related to technology and media.",
+          "prompt_es": "What do we call software that protects computers from viruses?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "El 'antivirus' es un software diseñado para detectar y eliminar virus.",
-          "stimulus_en": "What do we call software that protects computers from viruses?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

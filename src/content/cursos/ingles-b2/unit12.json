@@ -236,10 +236,10 @@
         {
           "interaction_id": "B2_U12_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to debate and discussion.",
+          "prompt_es": "What is the main purpose of arguing in a debate?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "El propósito principal de argumentar en un debate es persuadir a la audiencia.",
-          "stimulus_en": "What is the main purpose of arguing in a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

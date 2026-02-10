@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U21_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences in reported speech.",
+          "prompt_es": "He asked, 'Do you like pizza?'",
           "mastery_tag": "grammar:b1-reported-speech",
           "explanation": "Cuando se reporta una pregunta, cambiamos el tiempo y la estructura, de 'do you like' a 'if I liked'.",
-          "stimulus_en": "He asked, 'Do you like pizza?'",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

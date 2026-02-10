@@ -18,10 +18,10 @@
         {
           "interaction_id": "B2_U11_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to debate and discussion.",
+          "prompt_es": "What is the primary purpose of a debate?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "El propósito principal de un debate es presentar y argumentar diferentes puntos de vista sobre un tema.",
-          "stimulus_en": "What is the primary purpose of a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B2_U11_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to debate and discussion.",
+          "prompt_es": "Which phrase is most appropriate when you disagree with someone in a discussion?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Cuando no estás de acuerdo, es importante expresar tu desacuerdo claramente, y esta frase lo hace.",
-          "stimulus_en": "Which phrase is most appropriate when you disagree with someone in a discussion?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B2_U11_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to debate and discussion.",
+          "prompt_es": "In a debate, what is a counterargument?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Un contraargumento es un punto que desafía o refuta el argumento de otra persona, crucial en un debate.",
-          "stimulus_en": "In a debate, what is a counterargument?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B2_U11_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to debate and discussion.",
+          "prompt_es": "What is an effective strategy when defending your point of view?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Usar hechos y ejemplos fortalece tu posición y ayuda a convencer a la audiencia.",
-          "stimulus_en": "What is an effective strategy when defending your point of view?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B2_U11_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to debate and discussion.",
+          "prompt_es": "When is it appropriate to summarize in a debate?",
           "mastery_tag": "speaking:b2-debate",
           "explanation": "Resumir al final ayuda a reafirmar tus puntos y a clarificar tu posición a la audiencia.",
-          "stimulus_en": "When is it appropriate to summarize in a debate?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

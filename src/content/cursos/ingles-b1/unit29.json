@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U29_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete the sentences about reported speech.",
+          "prompt_es": "She asked, 'Where are you going?' She _____ where I was going.",
           "mastery_tag": "grammar:b1-reported-speech",
           "explanation": "Cuando reportamos preguntas, usamos 'asked' para la forma indirecta.",
-          "stimulus_en": "She asked, 'Where are you going?' She _____ where I was going.",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -160,10 +160,10 @@
         {
           "interaction_id": "B1_U29_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is a common method to reduce waste in our daily lives?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Reciclar es un método común para reducir los desechos y fomentar la sostenibilidad.",
-          "stimulus_en": "What is a common method to reduce waste in our daily lives?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "B1_U29_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "Which gas is mainly responsible for climate change?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El dióxido de carbono es un gas de efecto invernadero que contribuye al cambio climático.",
-          "stimulus_en": "Which gas is mainly responsible for climate change?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B1_U29_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What natural resource is essential for all living things?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "El agua es un recurso natural esencial para la vida en la Tierra.",
-          "stimulus_en": "What natural resource is essential for all living things?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B1_U29_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What is the term for the variety of plant and animal life in a particular habitat?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "La biodiversidad se refiere a la variedad de vida en un hábitat específico.",
-          "stimulus_en": "What is the term for the variety of plant and animal life in a particular habitat?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B1_U29_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to the environment and nature.",
+          "prompt_es": "What can we do to protect endangered species?",
           "mastery_tag": "vocabulary:b1-environment",
           "explanation": "Conservar sus hábitats es crucial para proteger las especies en peligro de extinción.",
-          "stimulus_en": "What can we do to protect endangered species?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

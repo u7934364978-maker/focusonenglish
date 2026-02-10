@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U17_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What is a place where students learn?",
           "mastery_tag": "vocabulary:b1-education",
           "explanation": "La escuela es donde los estudiantes reciben educación y aprenden.",
-          "stimulus_en": "What is a place where students learn?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U17_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What do you call the test you take at the end of a course?",
           "mastery_tag": "vocabulary:b1-education",
           "explanation": "Un examen es una evaluación formal que se realiza al final de un curso para medir el aprendizaje.",
-          "stimulus_en": "What do you call the test you take at the end of a course?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U17_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What do students do to prepare for exams?",
           "mastery_tag": "vocabulary:b1-education",
           "explanation": "Estudiar es el proceso de aprender y revisar información para prepararse para un examen.",
-          "stimulus_en": "What do students do to prepare for exams?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U17_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What is the term for a higher level of education after school?",
           "mastery_tag": "vocabulary:b1-education",
           "explanation": "La universidad es una institución de educación superior donde los estudiantes pueden obtener títulos avanzados.",
-          "stimulus_en": "What is the term for a higher level of education after school?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U17_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question.",
+          "prompt_es": "What do you call the action of learning a subject deeply?",
           "mastery_tag": "vocabulary:b1-education",
           "explanation": "Dominar un tema significa tener un conocimiento profundo y completo sobre él.",
-          "stimulus_en": "What do you call the action of learning a subject deeply?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -182,10 +182,10 @@
         {
           "interaction_id": "B1_U17_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about writing stories.",
+          "prompt_es": "What is the first step in writing a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El primer paso para escribir una historia es crear un entorno donde ocurren los eventos.",
-          "stimulus_en": "What is the first step in writing a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -209,10 +209,10 @@
         {
           "interaction_id": "B1_U17_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about writing stories.",
+          "prompt_es": "Which of these is an important element of a narrative?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Las descripciones detalladas ayudan a los lectores a imaginar la historia y conectar con los personajes.",
-          "stimulus_en": "Which of these is an important element of a narrative?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -236,10 +236,10 @@
         {
           "interaction_id": "B1_U17_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about writing stories.",
+          "prompt_es": "What tense is commonly used to tell a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El tiempo pasado simple se usa comúnmente para narrar eventos que ya ocurrieron.",
-          "stimulus_en": "What tense is commonly used to tell a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -263,10 +263,10 @@
         {
           "interaction_id": "B1_U17_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about writing stories.",
+          "prompt_es": "What should you include to make the plot interesting?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Incluir giros en la trama mantiene a los lectores interesados y sorprendidos.",
-          "stimulus_en": "What should you include to make the plot interesting?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -290,10 +290,10 @@
         {
           "interaction_id": "B1_U17_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question about writing stories.",
+          "prompt_es": "How can you connect the events in your story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Las palabras de transición ayudan a los lectores a seguir el flujo de la historia y cómo los eventos se conectan.",
-          "stimulus_en": "How can you connect the events in your story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

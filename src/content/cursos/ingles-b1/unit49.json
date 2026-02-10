@@ -121,10 +121,10 @@
         {
           "interaction_id": "B1_U49_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct option to complete each sentence in the past continuous tense.",
+          "prompt_es": "What ___ (you/do) while I was in the meeting?",
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "La estructura 'were you doing' es correcta para preguntar en pasado continuo.",
-          "stimulus_en": "What ___ (you/do) while I was in the meeting?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

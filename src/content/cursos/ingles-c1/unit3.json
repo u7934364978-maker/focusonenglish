@@ -18,10 +18,10 @@
         {
           "interaction_id": "C1_U3_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to academic writing.",
+          "prompt_es": "What is the primary purpose of a thesis statement in an academic essay?",
           "mastery_tag": "writing:c1-academic-writing",
           "explanation": "El propósito principal de una declaración de tesis es presentar la idea central que se argumentará en el ensayo.",
-          "stimulus_en": "What is the primary purpose of a thesis statement in an academic essay?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C1_U3_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to academic writing.",
+          "prompt_es": "Which of the following is NOT a typical component of an academic report?",
           "mastery_tag": "writing:c1-academic-writing",
           "explanation": "Las opiniones personales no son componentes típicos de un informe académico ya que se basa en la evidencia y la investigación objetiva.",
-          "stimulus_en": "Which of the following is NOT a typical component of an academic report?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C1_U3_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to academic writing.",
+          "prompt_es": "What is the use of citations in academic writing?",
           "mastery_tag": "writing:c1-academic-writing",
           "explanation": "Las citas se utilizan para respaldar afirmaciones con evidencia y para dar crédito a las fuentes originales.",
-          "stimulus_en": "What is the use of citations in academic writing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C1_U3_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to academic writing.",
+          "prompt_es": "Why is it important to have a clear structure in an academic essay?",
           "mastery_tag": "writing:c1-academic-writing",
           "explanation": "Una estructura clara facilita la comprensión del argumento y la lógica del ensayo, lo cual es crucial en la escritura académica.",
-          "stimulus_en": "Why is it important to have a clear structure in an academic essay?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

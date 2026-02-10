@@ -18,10 +18,10 @@
         {
           "interaction_id": "B1_U18_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the conversation you listen to.",
+          "prompt_es": "What is the main purpose of the interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El propósito principal de una entrevista es obtener información.",
-          "stimulus_en": "What is the main purpose of the interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "B1_U18_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the conversation you listen to.",
+          "prompt_es": "Which opinion does the interviewee express about teamwork?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El entrevistado expresa que trabajar en equipo es agradable.",
-          "stimulus_en": "Which opinion does the interviewee express about teamwork?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "B1_U18_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the conversation you listen to.",
+          "prompt_es": "How does the interviewer encourage the interviewee to speak?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El entrevistador utiliza preguntas abiertas para alentar al entrevistado a hablar más.",
-          "stimulus_en": "How does the interviewer encourage the interviewee to speak?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "B1_U18_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the conversation you listen to.",
+          "prompt_es": "What feedback does the interviewer give at the end of the interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El entrevistador agradece al entrevistado por compartir sus pensamientos.",
-          "stimulus_en": "What feedback does the interviewer give at the end of the interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "B1_U18_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on the conversation you listen to.",
+          "prompt_es": "Which quality does the interviewer say is important for the job?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El entrevistador menciona que ser creativo es importante para el trabajo.",
-          "stimulus_en": "Which quality does the interviewer say is important for the job?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -160,10 +160,10 @@
         {
           "interaction_id": "B1_U18_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to storytelling.",
+          "prompt_es": "What is the main purpose of a narrative?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El propósito principal de una narrativa es entretener al lector.",
-          "stimulus_en": "What is the main purpose of a narrative?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -187,10 +187,10 @@
         {
           "interaction_id": "B1_U18_B2_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to storytelling.",
+          "prompt_es": "Which of the following elements is NOT necessary in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "Las estadísticas no son un elemento necesario en una historia; los personajes, el escenario y el conflicto son importantes.",
-          "stimulus_en": "Which of the following elements is NOT necessary in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B1_U18_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to storytelling.",
+          "prompt_es": "What typically comes first in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La exposición generalmente viene primero en una historia, presentando a los personajes y el contexto.",
-          "stimulus_en": "What typically comes first in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B1_U18_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to storytelling.",
+          "prompt_es": "Which word describes the main problem in a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "El conflicto es el problema principal que enfrenta el protagonista en una historia.",
-          "stimulus_en": "Which word describes the main problem in a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B1_U18_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to storytelling.",
+          "prompt_es": "What is the resolution of a story?",
           "mastery_tag": "writing:b1-stories",
           "explanation": "La resolución es la parte final de la historia donde se resuelven los conflictos.",
-          "stimulus_en": "What is the resolution of a story?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -302,10 +302,10 @@
         {
           "interaction_id": "B1_U18_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What is the primary function of a web browser?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Un navegador web se utiliza principalmente para navegar por Internet y acceder a diferentes sitios web.",
-          "stimulus_en": "What is the primary function of a web browser?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -329,10 +329,10 @@
         {
           "interaction_id": "B1_U18_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "Which of the following is an example of social media?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Facebook es una plataforma de redes sociales que permite a los usuarios conectarse y compartir contenido.",
-          "stimulus_en": "Which of the following is an example of social media?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -356,10 +356,10 @@
         {
           "interaction_id": "B1_U18_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What does 'download' mean?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Descargar significa transferir datos desde Internet a tu dispositivo.",
-          "stimulus_en": "What does 'download' mean?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -383,10 +383,10 @@
         {
           "interaction_id": "B1_U18_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "What is the term for harmful software?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Malware es software diseñado para dañar o acceder a cualquier dispositivo sin el consentimiento del usuario.",
-          "stimulus_en": "What is the term for harmful software?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -410,10 +410,10 @@
         {
           "interaction_id": "B1_U18_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to technology and media.",
+          "prompt_es": "Which device is primarily used for video conferencing?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Los teléfonos inteligentes se utilizan comúnmente para videoconferencias gracias a sus capacidades de cámara y conexión a Internet.",
-          "stimulus_en": "Which device is primarily used for video conferencing?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

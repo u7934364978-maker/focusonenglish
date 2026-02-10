@@ -18,10 +18,10 @@
         {
           "interaction_id": "C1_U8_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "What is the main purpose of the introduction in a presentation?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "La introducción tiene como objetivo captar la atención del público y establecer el tono de la presentación.",
-          "stimulus_en": "What is the main purpose of the introduction in a presentation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -45,10 +45,10 @@
         {
           "interaction_id": "C1_U8_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "Which rhetorical device is used to appeal to the audience's emotions?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Pathos se refiere a apelar a las emociones del público para hacer una conexión más profunda.",
-          "stimulus_en": "Which rhetorical device is used to appeal to the audience's emotions?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -72,10 +72,10 @@
         {
           "interaction_id": "C1_U8_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "What is a key characteristic of effective body language during a presentation?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Los gestos abiertos transmiten confianza y ayudan a conectar con la audiencia.",
-          "stimulus_en": "What is a key characteristic of effective body language during a presentation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -99,10 +99,10 @@
         {
           "interaction_id": "C1_U8_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "How should a speaker handle questions from the audience?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Hacer una pausa y escuchar demuestra respeto por la opinión del público y mejora la interacción.",
-          "stimulus_en": "How should a speaker handle questions from the audience?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -126,10 +126,10 @@
         {
           "interaction_id": "C1_U8_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to public speaking.",
+          "prompt_es": "What is the purpose of using visual aids in a presentation?",
           "mastery_tag": "speaking:c1-public-speaking",
           "explanation": "Las ayudas visuales deben complementar el contenido y hacer que los puntos clave sean más claros.",
-          "stimulus_en": "What is the purpose of using visual aids in a presentation?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

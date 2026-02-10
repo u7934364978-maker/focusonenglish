@@ -27,47 +27,137 @@
         {
           "interaction_id": "C2_U1_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What is the primary focus of critical analysis in professional writing?",
           "mastery_tag": "reading:c2-critical-analysis",
           "explanation": "La respuesta se encuentra directamente en el pasaje que menciona la importancia de analizar argumentos y elecciones estilísticas en la escritura profesional.",
-          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat is the primary focus of critical analysis in professional writing?",
-          "correct_answer": "To analyze arguments and stylistic choices"
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To analyze arguments and stylistic choices"
+            },
+            {
+              "id": "o2",
+              "text": "It enhances the credibility of the author's argument."
+            },
+            {
+              "id": "o3",
+              "text": "It helps in understanding biases and influences."
+            },
+            {
+              "id": "o4",
+              "text": "It fosters informed discussions and decision-making."
+            }
+          ]
         },
         {
           "interaction_id": "C2_U1_B1_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "According to the text, why is addressing counterarguments important?",
           "mastery_tag": "reading:c2-critical-analysis",
           "explanation": "El texto sugiere que al abordar contraargumentos, el autor mejora la credibilidad de su argumento, lo que es esencial en la escritura profesional.",
-          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nAccording to the text, why is addressing counterarguments important?",
-          "correct_answer": "It enhances the credibility of the author's argument."
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It enhances the credibility of the author's argument."
+            },
+            {
+              "id": "o2",
+              "text": "To analyze arguments and stylistic choices"
+            },
+            {
+              "id": "o3",
+              "text": "It helps in understanding biases and influences."
+            },
+            {
+              "id": "o4",
+              "text": "It fosters informed discussions and decision-making."
+            }
+          ]
         },
         {
           "interaction_id": "C2_U1_B1_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What role does context play in the interpretation of a text?",
           "mastery_tag": "reading:c2-critical-analysis",
           "explanation": "El pasaje indica que el contexto, como factores culturales o económicos, es crucial para interpretar un texto y entender los sesgos.",
-          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat role does context play in the interpretation of a text?",
-          "correct_answer": "It helps in understanding biases and influences."
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It helps in understanding biases and influences."
+            },
+            {
+              "id": "o2",
+              "text": "To analyze arguments and stylistic choices"
+            },
+            {
+              "id": "o3",
+              "text": "It enhances the credibility of the author's argument."
+            },
+            {
+              "id": "o4",
+              "text": "It fosters informed discussions and decision-making."
+            }
+          ]
         },
         {
           "interaction_id": "C2_U1_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "How does critical analysis contribute to professional discussions?",
           "mastery_tag": "reading:c2-critical-analysis",
           "explanation": "Se menciona en el texto que el análisis crítico no solo mejora la comprensión, sino que también facilita discusiones informadas y toma de decisiones.",
-          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nHow does critical analysis contribute to professional discussions?",
-          "correct_answer": "It fosters informed discussions and decision-making."
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "It fosters informed discussions and decision-making."
+            },
+            {
+              "id": "o2",
+              "text": "To analyze arguments and stylistic choices"
+            },
+            {
+              "id": "o3",
+              "text": "It enhances the credibility of the author's argument."
+            },
+            {
+              "id": "o4",
+              "text": "It helps in understanding biases and influences."
+            }
+          ]
         },
         {
           "interaction_id": "C2_U1_B1_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "prompt_es": "What skills are emphasized as essential for professionals in the passage?",
           "mastery_tag": "reading:c2-critical-analysis",
           "explanation": "El texto resalta la importancia de desarrollar habilidades analíticas para manejar textos complejos y comunicarse de manera efectiva.",
-          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat skills are emphasized as essential for professionals in the passage?",
-          "correct_answer": "Analytical skills for navigating complex texts."
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.",
+          "correct_answer": "o1",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Analytical skills for navigating complex texts."
+            },
+            {
+              "id": "o2",
+              "text": "To analyze arguments and stylistic choices"
+            },
+            {
+              "id": "o3",
+              "text": "It enhances the credibility of the author's argument."
+            },
+            {
+              "id": "o4",
+              "text": "It helps in understanding biases and influences."
+            }
+          ]
         }
       ]
     },

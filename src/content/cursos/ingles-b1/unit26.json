@@ -277,10 +277,10 @@
         {
           "interaction_id": "B1_U26_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer to complete each sentence using the past continuous tense.",
+          "prompt_es": "What _____ (you / do) when I called you last night?",
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "La respuesta correcta es 'were you doing', que pregunta por una acción en progreso.",
-          "stimulus_en": "What _____ (you / do) when I called you last night?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",

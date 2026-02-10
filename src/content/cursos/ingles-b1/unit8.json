@@ -160,10 +160,10 @@
         {
           "interaction_id": "B1_U8_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to interviews and discussions.",
+          "prompt_es": "What is the main purpose of a job interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "El propósito principal de una entrevista de trabajo es evaluar a los candidatos para determinar si son adecuados para el puesto.",
-          "stimulus_en": "What is the main purpose of a job interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -214,10 +214,10 @@
         {
           "interaction_id": "B1_U8_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to interviews and discussions.",
+          "prompt_es": "Which question might you ask during an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Preguntar sobre las fortalezas del candidato es relevante y útil en una entrevista.",
-          "stimulus_en": "Which question might you ask during an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -241,10 +241,10 @@
         {
           "interaction_id": "B1_U8_B2_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to interviews and discussions.",
+          "prompt_es": "Why is it good to prepare for an interview?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Prepararse para una entrevista ayuda a sentirte seguro y a responder mejor las preguntas.",
-          "stimulus_en": "Why is it good to prepare for an interview?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -268,10 +268,10 @@
         {
           "interaction_id": "B1_U8_B2_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to interviews and discussions.",
+          "prompt_es": "What should you do if you don’t understand the interviewer?",
           "mastery_tag": "listening:b1-interviews",
           "explanation": "Si no entiendes al entrevistador, es mejor pedir aclaraciones para evitar malentendidos.",
-          "stimulus_en": "What should you do if you don’t understand the interviewer?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -302,10 +302,10 @@
         {
           "interaction_id": "B1_U8_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to technology and media.",
+          "prompt_es": "What is the main function of a CPU in a computer?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "El CPU (Unidad Central de Procesamiento) es el cerebro del ordenador, responsable de procesar la información y ejecutar instrucciones.",
-          "stimulus_en": "What is the main function of a CPU in a computer?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -329,10 +329,10 @@
         {
           "interaction_id": "B1_U8_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to technology and media.",
+          "prompt_es": "Which of the following is a popular social media platform?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Instagram es una plataforma de redes sociales donde los usuarios pueden compartir fotos y vídeos.",
-          "stimulus_en": "Which of the following is a popular social media platform?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -356,10 +356,10 @@
         {
           "interaction_id": "B1_U8_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to technology and media.",
+          "prompt_es": "What does 'Wi-Fi' allow you to do?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Wi-Fi es una tecnología que permite la conexión a internet sin cables.",
-          "stimulus_en": "What does 'Wi-Fi' allow you to do?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -383,10 +383,10 @@
         {
           "interaction_id": "B1_U8_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to technology and media.",
+          "prompt_es": "What is the purpose of an antivirus software?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "El software antivirus está diseñado para detectar y eliminar software malicioso de un ordenador.",
-          "stimulus_en": "What is the purpose of an antivirus software?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
@@ -410,10 +410,10 @@
         {
           "interaction_id": "B1_U8_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question related to technology and media.",
+          "prompt_es": "Which device is commonly used for video calls?",
           "mastery_tag": "vocabulary:b1-technology",
           "explanation": "Una cámara es el dispositivo utilizado para capturar vídeo y se utiliza frecuentemente en las videollamadas.",
-          "stimulus_en": "Which device is commonly used for video calls?",
+          "stimulus_en": "",
           "options": [
             {
               "id": "o1",
