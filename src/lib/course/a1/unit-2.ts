@@ -759,7 +759,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Té de limón',
+      title: 'Té con limón',
       instructions: '¿Qué es "lemon"?',
       questions: [
         {
