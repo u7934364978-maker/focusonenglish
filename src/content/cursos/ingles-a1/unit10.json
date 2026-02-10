@@ -405,7 +405,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Sarah is from London. Every morning, she drinks a cup of coffee. After she finishes her coffee, she checks her emails."
         },
         {
           "interaction_id": "A1_U10_B4_I4",
@@ -419,7 +420,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Sarah is from London. Every morning, she drinks a cup of coffee. After she finishes her coffee, she checks her emails."
         },
         {
           "interaction_id": "A1_U10_B4_I5",

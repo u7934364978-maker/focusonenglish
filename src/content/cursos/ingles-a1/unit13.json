@@ -237,7 +237,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "John wakes up at seven o'clock. After waking up, he takes a shower. Then, he has breakfast. He eats eggs and drinks orange juice. After breakfast, John goes to work. He works in an office."
         },
         {
           "interaction_id": "A1_U13_B4_I3",
@@ -264,7 +265,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "John wakes up at seven o'clock. After waking up, he takes a shower. Then, he has breakfast. He eats eggs and drinks orange juice. After breakfast, John goes to work. He works in an office."
         },
         {
           "interaction_id": "A1_U13_B4_I5",

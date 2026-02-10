@@ -454,7 +454,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "The library is on the corner. It is a small building with red bricks. Many people visit the library to read books. There is a park nearby, but the library is not inside it. Across the street, there is a big bank. The library is not next to the supermarket, either. People like this quiet place."
         },
         {
           "interaction_id": "A1_U25_B4_I4",

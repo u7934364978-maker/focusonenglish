@@ -325,7 +325,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Tom visits his mother every Wednesday. They have lunch together and talk about their week. Tom brings flowers for her garden. On Mondays, Tom goes to the gym after work. He likes to stay healthy. His mother is happy to see him on Wednesdays, and they enjoy their time together."
         },
         {
           "interaction_id": "A1_U12_B4_I3",
@@ -392,7 +393,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Tom visits his mother every Wednesday. They have lunch together and talk about their week. Tom brings flowers for her garden. On Mondays, Tom goes to the gym after work. He likes to stay healthy. His mother is happy to see him on Wednesdays, and they enjoy their time together."
         }
       ]
     }

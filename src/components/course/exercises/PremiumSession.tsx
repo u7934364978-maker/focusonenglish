@@ -155,6 +155,9 @@ export default function PremiumCourseSession({
       if (normalized.text && !normalized.stimulus_en) {
         normalized.stimulus_en = normalized.text;
       }
+      if (normalized.stimulus_en && !normalized.text) {
+        normalized.text = normalized.stimulus_en;
+      }
       if (normalized.scenario && !normalized.stimulus_en) {
         normalized.stimulus_en = normalized.scenario;
       }

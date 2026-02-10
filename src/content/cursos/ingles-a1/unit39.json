@@ -212,19 +212,22 @@
           "interaction_id": "A1_U39_B39_4_I1",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe:",
+          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
           "audioUrl": "/audio/courses/ingles-a1/shared/e1676698188151249767098e792e3a89.mp3",
           "text": "Where were you last night?",
           "mastery_tag": "listening",
           "complexity": 3,
           "concept_tags": [
             "grammar",
-            "listening"
+            "listening",
+            "reading"
           ]
         },
         {
           "interaction_id": "A1_U39_B39_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde estaba el hermano?",
+          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
           "options": [
             {
               "id": "o1",

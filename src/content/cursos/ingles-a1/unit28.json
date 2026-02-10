@@ -408,7 +408,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Sarah goes to work by train. Every morning, she walks to the station. She likes the train because it is fast and comfortable. Sarah sits by the window and reads a book. She arrives at her office on time."
         },
         {
           "interaction_id": "A1_U28_B4_I4",

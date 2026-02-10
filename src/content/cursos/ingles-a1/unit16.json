@@ -425,7 +425,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Anna goes to a café. She looks at the menu. Tea is $2, coffee is $3, and cake is $4. Anna likes tea, so she buys a cup of tea. She sits by the window and drinks her tea. The café is warm and nice. Anna is happy with her tea."
         },
         {
           "interaction_id": "A1_U16_B4_I3",

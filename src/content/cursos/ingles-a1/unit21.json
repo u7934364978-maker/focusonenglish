@@ -444,7 +444,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "The kitchen is modern. It is on the ground floor. The living room is also on the ground floor. Upstairs, there are two bedrooms and a bathroom. The house is new and nice. Maria likes to cook in her modern kitchen. She makes coffee every morning. Her family enjoys the meals she prepares."
         },
         {
           "interaction_id": "A1_U21_B4_I4",
@@ -487,7 +488,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "The kitchen is modern. It is on the ground floor. The living room is also on the ground floor. Upstairs, there are two bedrooms and a bathroom. The house is new and nice. Maria likes to cook in her modern kitchen. She makes coffee every morning. Her family enjoys the meals she prepares."
         }
       ]
     }

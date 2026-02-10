@@ -277,7 +277,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
         },
         {
           "interaction_id": "A1_U33_B33_4_I5",
@@ -289,7 +290,8 @@
           "concept_tags": [
             "grammar",
             "reading"
-          ]
+          ],
+          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
         }
       ]
     }
