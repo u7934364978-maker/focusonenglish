@@ -541,7 +541,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Café caliente',
+      title: 'Té caliente',
       instructions: 'Escribe la palabra que falta para traducir "té caliente".',
       questions: [
         {
