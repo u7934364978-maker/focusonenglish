@@ -28,7 +28,13 @@
             "COLORFUL",
             "NATIVES"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +56,13 @@
             "rehearse",
             "flexible"
           ],
-          "explanation": "(1) Es importante expresar tus argumentos de manera clara y efectiva durante un debate.\n(2) Un buen debatiente debe poder respaldar su punto de vista con pruebas sólidas.\n(3) Es esencial reconocer las opiniones opuestas de manera respetuosa para mantener una discusión constructiva.\n(4) En un debate formal, los participantes a menudo practican sus ideas antes de presentarlas al público.\n(5) Para tener éxito en una discusión, uno debe ser flexible y estar abierto a diferentes perspectivas."
+          "explanation": "(1) Es importante expresar tus argumentos de manera clara y efectiva durante un debate.\n(2) Un buen debatiente debe poder respaldar su punto de vista con pruebas sólidas.\n(3) Es esencial reconocer las opiniones opuestas de manera respetuosa para mantener una discusión constructiva.\n(4) En un debate formal, los participantes a menudo practican sus ideas antes de presentarlas al público.\n(5) Para tener éxito en una discusión, uno debe ser flexible y estar abierto a diferentes perspectivas.",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +84,13 @@
             "visual",
             "flow"
           ],
-          "explanation": "(1) La palabra 'outline' significa un resumen o esquema de los puntos principales que se van a tratar en la charla.\n(2) Los 'examples' ayudan a los oyentes a entender mejor conceptos difíciles al proporcionar ilustraciones claras.\n(3) Al 'allocate' tiempo, el presentador permite a la audiencia expresar sus dudas, lo que mejora la metodología de enseñanza.\n(4) Los 'visual aids' se refieren a herramientas como gráficos o diapositivas que ayudan a clarificar y enfatizar el contenido.\n(5) La 'flow' de la presentación se refiere a la fluidez y coherencia del discurso, crucial para mantener la atención del público."
+          "explanation": "(1) La palabra 'outline' significa un resumen o esquema de los puntos principales que se van a tratar en la charla.\n(2) Los 'examples' ayudan a los oyentes a entender mejor conceptos difíciles al proporcionar ilustraciones claras.\n(3) Al 'allocate' tiempo, el presentador permite a la audiencia expresar sus dudas, lo que mejora la metodología de enseñanza.\n(4) Los 'visual aids' se refieren a herramientas como gráficos o diapositivas que ayudan a clarificar y enfatizar el contenido.\n(5) La 'flow' de la presentación se refiere a la fluidez y coherencia del discurso, crucial para mantener la atención del público.",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit"
+          ]
         }
       ]
     }

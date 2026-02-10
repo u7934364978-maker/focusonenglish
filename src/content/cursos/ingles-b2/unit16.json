@@ -40,7 +40,15 @@
               "text": "To describe"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U16_B1_I2",
@@ -67,7 +75,15 @@
               "text": "Call to action"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U16_B1_I3",
@@ -94,7 +110,15 @@
               "text": "Technical"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U16_B1_I4",
@@ -121,7 +145,15 @@
               "text": "Abstract, body, conclusions"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U16_B1_I5",
@@ -148,7 +180,15 @@
               "text": "Audience demographics"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -164,7 +204,14 @@
           "mastery_tag": "grammar:b2-wish-regret",
           "explanation": "Aquí estamos expresando un deseo que no se puede cumplir, ya que el examen ya pasó.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nI really ___ I had studied harder for that exam.",
-          "correct_answer": "wish"
+          "correct_answer": "wish",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U16_B2_I2",
@@ -173,7 +220,14 @@
           "mastery_tag": "grammar:b2-wish-regret",
           "explanation": "Se utiliza 'had' para expresar un deseo sobre una situación pasada que no se puede cambiar.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nIf only I ___ more time to prepare for the presentation.",
-          "correct_answer": "had"
+          "correct_answer": "had",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U16_B2_I3",
@@ -182,7 +236,14 @@
           "mastery_tag": "grammar:b2-wish-regret",
           "explanation": "Aquí expresamos un sentimiento de arrepentimiento sobre una acción pasada.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nI ___ I hadn't said that during the meeting.",
-          "correct_answer": "regret"
+          "correct_answer": "regret",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U16_B2_I4",
@@ -191,7 +252,14 @@
           "mastery_tag": "grammar:b2-wish-regret",
           "explanation": "Utilizamos 'knew' para expresar un deseo sobre una situación que no se cumplió en el pasado.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nIf only she ___ the truth earlier.",
-          "correct_answer": "knew"
+          "correct_answer": "knew",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U16_B2_I5",
@@ -200,7 +268,14 @@
           "mastery_tag": "grammar:b2-wish-regret",
           "explanation": "Este es otro ejemplo de un deseo sobre una decisión pasada que se lamenta.",
           "stimulus_en": "Fill in the blanks with appropriate expressions of wish or regret.\n\nI ___ I had taken that job offer last year.",
-          "correct_answer": "wish"
+          "correct_answer": "wish",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     },
@@ -222,7 +297,13 @@
             "understand",
             "summarize"
           ],
-          "explanation": "(1) Es esencial expresar tu punto de vista claramente en un debate para que otros lo entiendan.\n(2) Estar preparado para contrarrestar los argumentos de tu oponente es clave en un debate.\n(3) El uso de evidencia fortalece los argumentos en un debate, ayudando a persuadir.\n(4) Escuchar atentamente te ayuda a entender mejor los contraargumentos y responder adecuadamente.\n(5) Resumir tus puntos principales ayuda a que tu audiencia recuerde tus argumentos más importantes."
+          "explanation": "(1) Es esencial expresar tu punto de vista claramente en un debate para que otros lo entiendan.\n(2) Estar preparado para contrarrestar los argumentos de tu oponente es clave en un debate.\n(3) El uso de evidencia fortalece los argumentos en un debate, ayudando a persuadir.\n(4) Escuchar atentamente te ayuda a entender mejor los contraargumentos y responder adecuadamente.\n(5) Resumir tus puntos principales ayuda a que tu audiencia recuerde tus argumentos más importantes.",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit"
+          ]
         }
       ]
     }

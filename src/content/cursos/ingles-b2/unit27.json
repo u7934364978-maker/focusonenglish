@@ -40,6 +40,14 @@
               "id": "o4",
               "text": "They are unprecedented and largely driven by human actions."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -67,6 +75,14 @@
               "id": "o4",
               "text": "They are unprecedented and largely driven by human actions."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -94,6 +110,14 @@
               "id": "o4",
               "text": "They are unprecedented and largely driven by human actions."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -121,6 +145,14 @@
               "id": "o4",
               "text": "Rising sea levels."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -148,6 +180,14 @@
               "id": "o4",
               "text": "Rising sea levels."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         }
       ]
@@ -182,7 +222,14 @@
               "text": "Since"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U27_B2_I2",
@@ -209,7 +256,14 @@
               "text": "encourage"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U27_B2_I3",
@@ -236,7 +290,14 @@
               "text": "be"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U27_B2_I4",
@@ -263,7 +324,14 @@
               "text": "Having finish"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U27_B2_I5",
@@ -290,7 +358,14 @@
               "text": "Is being"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -324,7 +399,15 @@
               "text": "Fiction"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U27_B3_I2",
@@ -351,7 +434,15 @@
               "text": "Recommendation"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U27_B3_I3",
@@ -378,7 +469,15 @@
               "text": "All of the above"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U27_B3_I4",
@@ -405,7 +504,15 @@
               "text": "Personal thoughts"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U27_B3_I5",
@@ -432,7 +539,15 @@
               "text": "Humorous"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

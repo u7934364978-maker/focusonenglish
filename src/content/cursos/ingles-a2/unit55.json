@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The car ________ she bought is very fast.",
           "correct_answer": "which",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The cat which is sleeping on the sofa is mine.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cosa",
           "correct_answer": "Thing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I like films ________ have a happy ending.",
           "correct_answer": "that",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bus the which goes to the airport is late\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Animal",
           "correct_answer": "Animal",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He is the teacher ________ helped me with my English.",
           "correct_answer": "who",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"This is the hotel where we stayed last summer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I20",
@@ -184,7 +267,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Frase",
           "correct_answer": "Sentence",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I21",
@@ -205,7 +294,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I23",
@@ -213,14 +309,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The people ________ work here are very friendly.",
           "correct_answer": "who",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Museum the which we visited was very interesting\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I26",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I27",
@@ -249,7 +364,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Objeto",
           "correct_answer": "Object",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I28",
@@ -270,7 +391,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I30",
@@ -278,14 +406,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "This is the phone ________ I want to buy.",
           "correct_answer": "that",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The movie that we saw last night was boring.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I33",
@@ -306,7 +446,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I34",
@@ -314,7 +461,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lugar",
           "correct_answer": "Place",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I35",
@@ -335,7 +488,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I37",
@@ -343,14 +503,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The man ________ lives next door is a doctor.",
           "correct_answer": "who",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"People the who live in this town are very kind\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I41",
@@ -358,7 +530,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Oración de relativo",
           "correct_answer": "Relative clause",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I42",
@@ -379,7 +557,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I44",
@@ -387,14 +572,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The book ________ I am reading is very interesting.",
           "correct_answer": "that",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The man who is wearing the red hat is my uncle.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I48",
@@ -402,7 +599,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cual/Que (cosas)",
           "correct_answer": "Which",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I49",
@@ -423,7 +626,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I51",
@@ -431,14 +641,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Is that the girl ________ won the prize?",
           "correct_answer": "who",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is this the computer that i use for work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I55",
@@ -446,7 +668,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Persona",
           "correct_answer": "Person",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I56",
@@ -467,7 +695,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I58",
@@ -475,14 +710,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The restaurant ________ we went to was very expensive.",
           "correct_answer": "which",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I know a girl who speaks five languages.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I61",
@@ -490,7 +737,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sujeto",
           "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I62",
@@ -511,7 +764,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I64",
@@ -519,14 +779,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The city ________ he visited is very old.",
           "correct_answer": "which",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Students the who study hard get good grades\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I68",
@@ -534,7 +806,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Describir",
           "correct_answer": "Describe",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I69",
@@ -555,14 +833,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is the doctor who treated my father.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I74",
@@ -570,7 +861,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Identificar",
           "correct_answer": "Identify",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I75",
@@ -591,14 +888,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lost i the watch that my mother gave me\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I80",
@@ -606,7 +916,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Información",
           "correct_answer": "Information",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I81",
@@ -627,14 +943,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The house which they bought is very old.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I85",
@@ -642,7 +971,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Quien/Que (personas)",
           "correct_answer": "Who",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I86",
@@ -663,14 +998,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Cake the that she made was delicious\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I91",
@@ -678,7 +1026,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Extra/Adicional",
           "correct_answer": "Extra",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I92",
@@ -699,14 +1053,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The woman who works in the shop is very helpful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I96",
@@ -714,7 +1081,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Que (personas/cosas)",
           "correct_answer": "That",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I97",
@@ -735,112 +1108,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "relative",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Cat the which is sleeping on the sofa is mine\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The bus which goes to the airport is late.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I105",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is this the hotel where we stayed last summer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The museum which we visited was very interesting.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Movie the that we saw last night was boring\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The people who live in this town are very kind.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Man the who is wearing the red hat is my uncle\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"This is the computer that I use for work.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Know i a girl who speaks five languages\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The students who study hard get good grades.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he the doctor who treated my father\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I137",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I lost the watch that my mother gave me.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I140",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"House the which they bought is very old\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The cake that she made was delicious.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U55_B55_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Woman the who works in the shop is very helpful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "relative",
+            "clauses"
+          ]
         }
       ]
     }

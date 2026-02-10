@@ -23,7 +23,14 @@
           "explanation": "Aquí debes empezar la oración con la cláusula del pasado, manteniendo la idea original de la condición y el resultado.",
           "stimulus_en": "If I had studied harder, I would be a doctor now.\n\nHad I studied... ...",
           "correct_answer": "harder, I would be a doctor now.",
-          "example": "STUDY"
+          "example": "STUDY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U4_B1_I2",
@@ -33,7 +40,14 @@
           "explanation": "La transformación requiere el uso del pasado en la cláusula condicional, para reflejar el significado original.",
           "stimulus_en": "If she had known the truth, she would act differently.\n\nHad she known... ...",
           "correct_answer": "the truth, she would act differently.",
-          "example": "KNOW"
+          "example": "KNOW",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U4_B1_I3",
@@ -43,7 +57,14 @@
           "explanation": "Debes iniciar la oración con la hipótesis del pasado y conectar adecuadamente con el resultado que se menciona.",
           "stimulus_en": "If we had arrived earlier, we would see the start of the show.\n\nHad we arrived... ...",
           "correct_answer": "earlier, we would see the start of the show.",
-          "example": "ARRIVE"
+          "example": "ARRIVE",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U4_B1_I4",
@@ -53,7 +74,14 @@
           "explanation": "Necesitas transformar la cláusula condicional manteniendo la relación de causa y efecto entre el pasado y el presente.",
           "stimulus_en": "If he had taken the job, he would be living in France now.\n\nHad he taken... ...",
           "correct_answer": "the job, he would be living in France now.",
-          "example": "TAKE"
+          "example": "TAKE",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U4_B1_I5",
@@ -63,7 +91,14 @@
           "explanation": "La transformación implica usar la forma correcta del pasado para mostrar lo que podría haber sido.",
           "stimulus_en": "If they had known about the meeting, they would join us.\n\nHad they known... ...",
           "correct_answer": "about the meeting, they would join us.",
-          "example": "KNOW"
+          "example": "KNOW",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -97,7 +132,14 @@
               "text": "Discomfort"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U4_B2_I2",
@@ -124,7 +166,14 @@
               "text": "Isolation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U4_B2_I3",
@@ -151,7 +200,14 @@
               "text": "Smoking"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U4_B2_I4",
@@ -178,7 +234,14 @@
               "text": "Believing in stereotypes"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U4_B2_I5",
@@ -205,7 +268,14 @@
               "text": "Physical activity"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -227,7 +297,13 @@
             "formal",
             "summarize"
           ],
-          "explanation": "(1) La estructura es esencial para organizar el contenido y facilitar la comprensión del texto.\n(2) Es importante que la introducción indique claramente el propósito del documento.\n(3) Usar 'well' implica que la organización sea de alta calidad, lo cual es fundamental en la escritura formal.\n(4) 'Formal' vocabulario es clave para mantener el tono apropiado en la escritura profesional.\n(5) La conclusión debe reunir los puntos clave y facilitar una visión clara de las acciones a seguir."
+          "explanation": "(1) La estructura es esencial para organizar el contenido y facilitar la comprensión del texto.\n(2) Es importante que la introducción indique claramente el propósito del documento.\n(3) Usar 'well' implica que la organización sea de alta calidad, lo cual es fundamental en la escritura formal.\n(4) 'Formal' vocabulario es clave para mantener el tono apropiado en la escritura profesional.\n(5) La conclusión debe reunir los puntos clave y facilitar una visión clara de las acciones a seguir.",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         }
       ]
     }

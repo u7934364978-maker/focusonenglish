@@ -40,7 +40,14 @@
               "text": "To tell a story"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U11_B1_I2",
@@ -67,7 +74,14 @@
               "text": "I’m not sure."
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U11_B1_I3",
@@ -94,7 +108,14 @@
               "text": "A summary of your position"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U11_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Being emotional"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U11_B1_I5",
@@ -148,7 +176,14 @@
               "text": "At the end of the debate"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +217,14 @@
               "text": "Inspiration"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B2_I2",
@@ -209,7 +251,14 @@
               "text": "Finishes"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B2_I3",
@@ -236,7 +285,14 @@
               "text": "Runner"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B2_I4",
@@ -263,7 +319,14 @@
               "text": "Starts"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B2_I5",
@@ -290,7 +353,14 @@
               "text": "Disturbs"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -324,7 +394,14 @@
               "text": "hope"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B3_I2",
@@ -351,7 +428,14 @@
               "text": "have accepted"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B3_I3",
@@ -378,7 +462,14 @@
               "text": "hope"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B3_I4",
@@ -405,7 +496,14 @@
               "text": "finishing"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U11_B3_I5",
@@ -432,7 +530,14 @@
               "text": "regret"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     }

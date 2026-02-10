@@ -28,7 +28,13 @@
             "had",
             "told"
           ],
-          "explanation": "(1) La oración habla de un evento que ocurrió en el pasado (verbo en pasado).\n(2) El verbo 'have' se usa en pasado para describir experiencias.\n(3) El verbo 'play' en pasado describe actividades que hicimos.\n(4) Usamos 'have' para hablar de eventos que disfrutamos.\n(5) El verbo 'tell' en pasado se usa para compartir relatos."
+          "explanation": "(1) La oración habla de un evento que ocurrió en el pasado (verbo en pasado).\n(2) El verbo 'have' se usa en pasado para describir experiencias.\n(3) El verbo 'play' en pasado describe actividades que hicimos.\n(4) Usamos 'have' para hablar de eventos que disfrutamos.\n(5) El verbo 'tell' en pasado se usa para compartir relatos.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +51,13 @@
           "explanation": "En la voz activa, el sujeto (George Orwell) realiza la acción (escribir) en lugar de recibirla.",
           "stimulus_en": "The book was written by George Orwell.\n\nGeorge Orwell... ...",
           "correct_answer": "wrote the book.",
-          "example": "GEORGE ORWELL"
+          "example": "GEORGE ORWELL",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U7_B2_I2",
@@ -55,7 +67,13 @@
           "explanation": "Cuando cambiamos de voz pasiva a activa, el sujeto (mi madre) está realizando la acción (hacer).",
           "stimulus_en": "The cake was made by my mother.\n\nMy mother... ...",
           "correct_answer": "made the cake.",
-          "example": "MY MOTHER"
+          "example": "MY MOTHER",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U7_B2_I3",
@@ -65,7 +83,13 @@
           "explanation": "En esta transformación, cambiamos la voz pasiva a activa con el sujeto realizando la acción.",
           "stimulus_en": "The song was sung by Adele.\n\nAdele... ...",
           "correct_answer": "sang the song.",
-          "example": "ADELE"
+          "example": "ADELE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U7_B2_I4",
@@ -75,7 +99,13 @@
           "explanation": "Aquí, el sujeto (los trabajadores) realiza la acción (construir) en lugar de que la reciba.",
           "stimulus_en": "The house was built by the workers.\n\nThe workers... ...",
           "correct_answer": "built the house.",
-          "example": "THE WORKERS"
+          "example": "THE WORKERS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U7_B2_I5",
@@ -85,7 +115,13 @@
           "explanation": "En esta oración, transformamos la voz pasiva a activa, mostrando quién realiza la acción.",
           "stimulus_en": "The picture was painted by Picasso.\n\nPicasso... ...",
           "correct_answer": "painted the picture.",
-          "example": "PICASSO"
+          "example": "PICASSO",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -119,7 +155,15 @@
               "text": "Home decoration"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U7_B3_I2",
@@ -146,7 +190,15 @@
               "text": "Heavy weight"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U7_B3_I3",
@@ -173,7 +225,15 @@
               "text": "Complex installation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U7_B3_I4",
@@ -200,7 +260,15 @@
               "text": "Remote controls"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U7_B3_I5",
@@ -227,7 +295,15 @@
               "text": "Aesthetic design"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

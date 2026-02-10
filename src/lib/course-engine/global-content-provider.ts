@@ -51,8 +51,14 @@ export class GlobalContentProvider {
         
         // Extract CEFR level from path (e.g., 'ingles-a1' -> 'A1', 'viajes/a1' -> 'A1')
         let cefrLevel = 'A1';
-        const levelMatch = levelPath.match(/[a-c][1-2]/i);
-        if (levelMatch) cefrLevel = levelMatch[0].toUpperCase();
+        const levelMatch = levelPath.match(/([a-c][1-2])/i);
+        if (levelMatch) {
+          cefrLevel = levelMatch[1].toUpperCase();
+        } else if (levelPath.includes('negociaciones-b2')) {
+          cefrLevel = 'B2';
+        } else if (levelPath.includes('emails-b1')) {
+          cefrLevel = 'B1';
+        }
         
         return levelInteractions.map(i => {
           let specialization: IndexedInteraction['specialization'] = 'generic';

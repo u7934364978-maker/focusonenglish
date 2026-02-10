@@ -37,7 +37,15 @@
             "have been looking",
             "has been playing"
           ],
-          "explanation": "(1) La frase se refiere a una acción que comenzó en el pasado y continúa hasta el presente, por eso usamos el presente perfecto continuo.\n(2) El uso de 'have been' indica que la acción comenzó en el pasado y sigue en el presente.\n(3) La acción de esperar comenzó en el pasado y continúa hasta ahora.\n(4) Esto indica que la búsqueda comenzó en el pasado y sigue hasta ahora.\n(5) La frase comunica que la acción de tocar guitarra comenzó en el pasado y continúa."
+          "explanation": "(1) La frase se refiere a una acción que comenzó en el pasado y continúa hasta el presente, por eso usamos el presente perfecto continuo.\n(2) El uso de 'have been' indica que la acción comenzó en el pasado y sigue en el presente.\n(3) La acción de esperar comenzó en el pasado y continúa hasta ahora.\n(4) Esto indica que la búsqueda comenzó en el pasado y sigue hasta ahora.\n(5) La frase comunica que la acción de tocar guitarra comenzó en el pasado y continúa.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "technology"
+          ]
         }
       ]
     },
@@ -72,7 +80,15 @@
               "text": "1845"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "technology",
+            "innovation",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U3_B2_I2",
@@ -100,7 +116,15 @@
               "text": "Read books"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "technology",
+            "innovation",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U3_B2_I3",
@@ -128,7 +152,15 @@
               "text": "A tall mountain"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "technology",
+            "innovation",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U3_B2_I4",
@@ -156,7 +188,15 @@
               "text": "Old books"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "technology",
+            "innovation",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U3_B2_I5",
@@ -184,7 +224,15 @@
               "text": "The importance of money"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "technology",
+            "innovation",
+            "grammar"
+          ]
         }
       ]
     },
@@ -207,7 +255,14 @@
             "PERFORMANCE"
           ],
           "example": "ENTERTAIN, CREATE, MUSIC, ART, PERFORM",
-          "explanation": "(1) El sustantivo 'entertainment' se refiere a las actividades que proporcionan diversión y disfrute.\n(2) La palabra 'creation' se refiere al acto de crear algo, como una obra de arte o una película.\n(3) 'Musical' es un adjetivo que describe algo relacionado con la música, como una obra de teatro musical.\n(4) 'Artistic' describe algo que tiene cualidades de arte o que es bello.\n(5) La palabra 'performance' se refiere al acto de actuar o mostrarse en un espectáculo."
+          "explanation": "(1) El sustantivo 'entertainment' se refiere a las actividades que proporcionan diversión y disfrute.\n(2) La palabra 'creation' se refiere al acto de crear algo, como una obra de arte o una película.\n(3) 'Musical' es un adjetivo que describe algo relacionado con la música, como una obra de teatro musical.\n(4) 'Artistic' describe algo que tiene cualidades de arte o que es bello.\n(5) La palabra 'performance' se refiere al acto de actuar o mostrarse en un espectáculo.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "technology",
+            "innovation"
+          ]
         }
       ]
     }

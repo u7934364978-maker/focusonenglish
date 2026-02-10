@@ -37,7 +37,14 @@
             "news",
             "applications"
           ],
-          "explanation": "(1) Las contraseñas son esenciales para proteger la información personal en línea.\n(2) Las actualizaciones son las publicaciones que las personas hacen en las redes sociales.\n(3) El internet es la red que permite acceder a información y servicios.\n(4) Las noticias son frecuentemente leídas en línea debido a la comodidad.\n(5) Las aplicaciones permiten modificar fotos y otros contenidos de manera sencilla."
+          "explanation": "(1) Las contraseñas son esenciales para proteger la información personal en línea.\n(2) Las actualizaciones son las publicaciones que las personas hacen en las redes sociales.\n(3) El internet es la red que permite acceder a información y servicios.\n(4) Las noticias son frecuentemente leídas en línea debido a la comodidad.\n(5) Las aplicaciones permiten modificar fotos y otros contenidos de manera sencilla.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "world",
+            "work"
+          ]
         }
       ]
     },
@@ -59,7 +66,15 @@
             "believe",
             "receive"
           ],
-          "explanation": "(1) La palabra 'some' es correcta porque indica un grupo de personas. 'Some people' se usa para expresar que no todos, pero algunos, pueden trabajar mejor desde casa.\n(2) La palabra 'share' es correcta porque se refiere a la acción de compartir; en un entorno de equipo, compartir ideas es muy importante.\n(3) La palabra 'argue' es apropiada aquí porque indica que se está presentando un argumento o una opinión sobre el tema.\n(4) La palabra 'believe' se utiliza aquí para expresar una opinión personal o convicción sobre la relación entre horarios flexibles y satisfacción laboral.\n(5) La palabra 'receive' es correcta porque se refiere a la acción de obtener retroalimentación, que es vital para mejorar el trabajo."
+          "explanation": "(1) La palabra 'some' es correcta porque indica un grupo de personas. 'Some people' se usa para expresar que no todos, pero algunos, pueden trabajar mejor desde casa.\n(2) La palabra 'share' es correcta porque se refiere a la acción de compartir; en un entorno de equipo, compartir ideas es muy importante.\n(3) La palabra 'argue' es apropiada aquí porque indica que se está presentando un argumento o una opinión sobre el tema.\n(4) La palabra 'believe' se utiliza aquí para expresar una opinión personal o convicción sobre la relación entre horarios flexibles y satisfacción laboral.\n(5) La palabra 'receive' es correcta porque se refiere a la acción de obtener retroalimentación, que es vital para mejorar el trabajo.",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "world",
+            "work"
+          ]
         }
       ]
     },
@@ -93,7 +108,15 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "world",
+            "work"
+          ]
         },
         {
           "interaction_id": "B1_U2_B3_I2",
@@ -120,7 +143,15 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "world",
+            "work"
+          ]
         },
         {
           "interaction_id": "B1_U2_B3_I3",
@@ -147,7 +178,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "world",
+            "work"
+          ]
         },
         {
           "interaction_id": "B1_U2_B3_I4",
@@ -174,7 +213,15 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "world",
+            "work"
+          ]
         },
         {
           "interaction_id": "B1_U2_B3_I5",
@@ -201,7 +248,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "world",
+            "work"
+          ]
         }
       ]
     }

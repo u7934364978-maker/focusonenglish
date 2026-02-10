@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (not / gustar) ________ extreme heat.",
           "correct_answer": "don't like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The drought lasted for three months.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I7",
@@ -67,7 +86,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I9",
@@ -75,14 +101,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "There (ser/estar) ________ a big storm last night.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather extreme is becoming more common\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I12",
@@ -103,7 +141,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I13",
@@ -111,7 +156,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mojado/a",
           "correct_answer": "Wet",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I14",
@@ -132,7 +183,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I16",
@@ -140,14 +198,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The sun (ser/estar) ________ shining very brightly.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The ground is very dry after the heatwave.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I19",
@@ -168,7 +238,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I20",
@@ -176,7 +253,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Peligroso/a",
           "correct_answer": "Dangerous",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I23",
@@ -184,14 +267,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (snow) ________ a lot in the mountains.",
           "correct_answer": "snows",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Careful, be the roads are very wet\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I26",
@@ -212,7 +307,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I28",
@@ -233,7 +335,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I30",
@@ -241,14 +350,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (ser/estar) ________ the worst flood in history.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The temperature dropped to minus ten degrees.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I33",
@@ -269,7 +390,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I34",
@@ -277,7 +405,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Niebla",
           "correct_answer": "Fog",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I35",
@@ -298,7 +432,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I37",
@@ -306,14 +447,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are you ________ (scared) of thunder?",
           "correct_answer": "scared",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hurricane the is moving towards the coast\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I41",
@@ -321,7 +474,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Seco/a",
           "correct_answer": "Dry",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I44",
@@ -329,14 +488,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ warning people about the hurricane.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stay inside during the thunderstorm.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I48",
@@ -344,7 +515,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Aviso/Advertencia",
           "correct_answer": "Warning",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I49",
@@ -365,7 +542,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I51",
@@ -373,14 +557,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It is the ________ (hot) day of the year.",
           "correct_answer": "hottest",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Heard i the thunder from miles away\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I55",
@@ -388,7 +584,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Inundación",
           "correct_answer": "Flood",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I56",
@@ -409,7 +611,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I58",
@@ -417,14 +626,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The temperature is ________ (low) than zero.",
           "correct_answer": "lower",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was so foggy I couldn't see the road.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I62",
@@ -432,7 +653,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Extremo/a",
           "correct_answer": "Extreme",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I63",
@@ -453,7 +680,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I65",
@@ -461,14 +695,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The wind is ________ (strong) than yesterday.",
           "correct_answer": "stronger",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ice the on the lake is very thick\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I68",
@@ -476,7 +722,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Relámpago",
           "correct_answer": "Lightning",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I69",
@@ -497,14 +749,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"A blizzard is a very dangerous snowstorm.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I74",
@@ -512,7 +777,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Huracán",
           "correct_answer": "Hurricane",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I75",
@@ -533,14 +804,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Storm the caused a lot of damage to the city\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I80",
@@ -548,7 +832,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hielo",
           "correct_answer": "Ice",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I81",
@@ -569,14 +859,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lightning struck a tree in the park.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I85",
@@ -584,7 +887,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sequía",
           "correct_answer": "Drought",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I86",
@@ -605,14 +914,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather the warning is for heavy snow\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I91",
@@ -620,7 +942,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Trueno",
           "correct_answer": "Thunder",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I92",
@@ -641,14 +969,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There was a massive flood after the heavy rain.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I97",
@@ -656,7 +997,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tormenta de nieve",
           "correct_answer": "Blizzard",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I98",
@@ -677,112 +1024,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "extreme",
+            "weather",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Drought the lasted for three months\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Extreme weather is becoming more common.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ground the is very dry after the heatwave\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Be careful, the roads are very wet.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Temperature the dropped to minus ten degrees\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The hurricane is moving towards the coast.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Inside stay during the thunderstorm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I heard the thunder from miles away.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it so foggy i couldn't see the road\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The ice on the lake is very thick.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Blizzard a is a very dangerous snowstorm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The storm caused a lot of damage to the city.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I140",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Struck lightning a tree in the park\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The weather warning is for heavy snow.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         },
         {
           "interaction_id": "A2_U28_B28_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was there a massive flood after the heavy rain\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "extreme",
+            "weather"
+          ]
         }
       ]
     }

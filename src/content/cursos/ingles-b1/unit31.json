@@ -28,7 +28,14 @@
             "who",
             "that"
           ],
-          "explanation": "(1) En esta oración, usamos 'that' para identificar herramientas y tecnologías específicas que ayudan a mejorar la productividad.\n(2) Aquí, 'who' se utiliza para referirse a los miembros del equipo que trabajan juntos.\n(3) Usamos 'where' para indicar el lugar en el que se discuten los proyectos.\n(4) En este caso, 'who' se usa en una cláusula no restrictiva para proporcionar información adicional sobre el gerente.\n(5) Aquí también usamos 'that' para especificar el software que utilizamos."
+          "explanation": "(1) En esta oración, usamos 'that' para identificar herramientas y tecnologías específicas que ayudan a mejorar la productividad.\n(2) Aquí, 'who' se utiliza para referirse a los miembros del equipo que trabajan juntos.\n(3) Usamos 'where' para indicar el lugar en el que se discuten los proyectos.\n(4) En este caso, 'who' se usa en una cláusula no restrictiva para proporcionar información adicional sobre el gerente.\n(5) Aquí también usamos 'that' para especificar el software que utilizamos.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +52,13 @@
           "explanation": "En esta oración condicional, la acción de estudiar es la condición para pasar el examen.",
           "stimulus_en": "If you study hard, you will pass the exam.\n\nYou will pass the exam if... ...",
           "correct_answer": "you study hard.",
-          "example": "PASS"
+          "example": "PASS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B2_I2",
@@ -55,7 +68,13 @@
           "explanation": "La condición aquí es la lluvia, que determina si se quedarán en casa.",
           "stimulus_en": "If it rains, we will stay at home.\n\nWe will stay at home if... ...",
           "correct_answer": "it rains.",
-          "example": "STAY"
+          "example": "STAY",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B2_I3",
@@ -65,7 +84,13 @@
           "explanation": "Aquí, 'invitar' es la condición que determinaría la acción de ir a la fiesta.",
           "stimulus_en": "I would go to the party if you invited me.\n\nI would go to the party if... ...",
           "correct_answer": "you invited me.",
-          "example": "INVITE"
+          "example": "INVITE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B2_I4",
@@ -75,7 +100,13 @@
           "explanation": "Esta oración indica una situación hipotética que depende de la riqueza.",
           "stimulus_en": "If I were rich, I would travel the world.\n\nI would travel the world if... ...",
           "correct_answer": "I were rich.",
-          "example": "TRAVEL"
+          "example": "TRAVEL",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B2_I5",
@@ -85,7 +116,13 @@
           "explanation": "La acción de ir al cine depende de si terminan temprano.",
           "stimulus_en": "If they finish early, they will go to the cinema.\n\nThey will go to the cinema if... ...",
           "correct_answer": "they finish early.",
-          "example": "GO"
+          "example": "GO",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -102,7 +139,13 @@
           "explanation": "En inglés, el 'if' se usa para establecer condiciones. Aquí, la consecuencia depende de la lluvia.",
           "stimulus_en": "If it rains tomorrow, I will stay home.\n\nI will stay home if... ...",
           "correct_answer": "it rains tomorrow.",
-          "example": "STAY"
+          "example": "STAY",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B3_I2",
@@ -112,7 +155,13 @@
           "explanation": "Aquí usamos la segunda condicional para hablar de una situación hipotética.",
           "stimulus_en": "I would travel more if I had more money.\n\nIf I had more money, I would travel... ...",
           "correct_answer": "more.",
-          "example": "TRAVEL"
+          "example": "TRAVEL",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B3_I3",
@@ -122,7 +171,13 @@
           "explanation": "La primera condicional muestra una relación directa entre el estudio y el éxito en el examen.",
           "stimulus_en": "If you study hard, you will pass the exam.\n\nYou will pass the exam if... ...",
           "correct_answer": "you study hard.",
-          "example": "PASS"
+          "example": "PASS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B3_I4",
@@ -132,7 +187,13 @@
           "explanation": "Estamos utilizando la segunda condicional para dar un consejo sobre una situación hipotética.",
           "stimulus_en": "If I were you, I would take that job.\n\nI would take that job if... ...",
           "correct_answer": "I were you.",
-          "example": "JOB"
+          "example": "JOB",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U31_B3_I5",
@@ -142,7 +203,13 @@
           "explanation": "La primera condicional se utiliza aquí para hablar sobre una posibilidad futura basada en una condición.",
           "stimulus_en": "If it snows tonight, we will go skiing.\n\nWe will go skiing if... ...",
           "correct_answer": "it snows tonight.",
-          "example": "SKI"
+          "example": "SKI",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     }

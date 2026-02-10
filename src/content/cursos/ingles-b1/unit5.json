@@ -40,7 +40,13 @@
               "text": "should"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U5_B1_I2",
@@ -67,7 +73,13 @@
               "text": "could"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U5_B1_I3",
@@ -94,7 +106,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U5_B1_I4",
@@ -121,7 +139,13 @@
               "text": "should"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U5_B1_I5",
@@ -148,7 +172,13 @@
               "text": "should"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -170,7 +200,14 @@
             "honesty",
             "shaping"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -299,7 +336,14 @@
             "4": "o1",
             "5": "o3"
           },
-          "explanation": "(1) In this context, 'action' refers to a genre of film that includes exciting sequences.\n(2) A 'café' is a place where you can have drinks and listen to live music.\n(3) The word 'jazz' is a genre of music known for its improvisation and rhythm.\n(4) A 'museum' is a place where people can see historical and artistic items.\n(5) 'Traditional' refers to customs and practices that are passed down through generations."
+          "explanation": "(1) In this context, 'action' refers to a genre of film that includes exciting sequences.\n(2) A 'café' is a place where you can have drinks and listen to live music.\n(3) The word 'jazz' is a genre of music known for its improvisation and rhythm.\n(4) A 'museum' is a place where people can see historical and artistic items.\n(5) 'Traditional' refers to customs and practices that are passed down through generations.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

@@ -23,7 +23,14 @@
           "explanation": "En esta oración, usamos 'was' para formar el pasado continuo junto con el verbo en -ing.",
           "stimulus_en": "I (read) a book when the phone rang.\n\nI was reading ...",
           "correct_answer": "a book when the phone rang.",
-          "example": "WAS"
+          "example": "WAS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B1_I2",
@@ -33,7 +40,14 @@
           "explanation": "Aquí utilizamos 'were' para formar el pasado continuo con un sujeto plural.",
           "stimulus_en": "They (play) soccer when it started to rain.\n\nThey were playing ...",
           "correct_answer": "soccer when it started to rain.",
-          "example": "WERE"
+          "example": "WERE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B1_I3",
@@ -43,7 +57,14 @@
           "explanation": "Usamos 'was' para indicar que ella estaba en medio de la acción de cocinar.",
           "stimulus_en": "She (cook) dinner when I arrived.\n\nShe was cooking ...",
           "correct_answer": "dinner when I arrived.",
-          "example": "WAS"
+          "example": "WAS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B1_I4",
@@ -53,7 +74,14 @@
           "explanation": "Aquí utilizamos 'were' con un sujeto plural para mostrar la acción en progreso.",
           "stimulus_en": "We (watch) a movie when the power went out.\n\nWe were watching ...",
           "correct_answer": "a movie when the power went out.",
-          "example": "WERE"
+          "example": "WERE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B1_I5",
@@ -63,7 +91,14 @@
           "explanation": "Usamos 'was' para mostrar la acción que estaba ocurriendo en el pasado.",
           "stimulus_en": "I (walk) to school when I met my friend.\n\nI was walking ...",
           "correct_answer": "to school when I met my friend.",
-          "example": "WAS"
+          "example": "WAS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -79,7 +114,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "Se usa el past continuous para mostrar una acción en progreso en el pasado.",
           "stimulus_en": "Fill in each blank with the correct form of the verb in the past continuous.\n\nWhile I ___ (read) the book, my friend called me.",
-          "correct_answer": "was reading"
+          "correct_answer": "was reading",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B2_I2",
@@ -88,7 +130,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "El past continuous se utiliza para indicar una acción que estaba en progreso en un momento específico.",
           "stimulus_en": "Fill in each blank with the correct form of the verb in the past continuous.\n\nThey ___ (watch) a movie when the power went out.",
-          "correct_answer": "were watching"
+          "correct_answer": "were watching",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B2_I3",
@@ -97,7 +146,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "El uso negativo del past continuous se forma con 'was not' o 'were not' seguido del verbo en -ing.",
           "stimulus_en": "Fill in each blank with the correct form of the verb in the past continuous.\n\nI ___ (not/sleep) when the alarm rang.",
-          "correct_answer": "was not sleeping"
+          "correct_answer": "was not sleeping",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B2_I4",
@@ -106,7 +162,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "El past continuous se usa para describir acciones que estaban en curso mientras ocurría otra acción.",
           "stimulus_en": "Fill in each blank with the correct form of the verb in the past continuous.\n\nWhile she ___ (cook), her friends arrived.",
-          "correct_answer": "was cooking"
+          "correct_answer": "was cooking",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U46_B2_I5",
@@ -115,7 +178,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "Usamos el past continuous para mostrar que una acción estaba en progreso cuando ocurrió otra.",
           "stimulus_en": "Fill in each blank with the correct form of the verb in the past continuous.\n\nWe ___ (play) football when it started to rain.",
-          "correct_answer": "were playing"
+          "correct_answer": "were playing",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -137,7 +207,13 @@
             "was completed",
             "were sent"
           ],
-          "explanation": "(1) En voz pasiva, utilizamos 'was' + participio pasado. Aquí, 'write' se convierte en 'written'.\n(2) Usamos 'was' porque la acción ocurrió en el pasado y 'sing' se convierte en 'sung' en participio pasado.\n(3) El participio pasado de 'sell' es 'sold'. Usamos 'was' para indicar que fue vendido en el pasado.\n(4) Para formar la voz pasiva, usamos 'was' + participio pasado. 'Complete' se convierte en 'completed'.\n(5) Aquí usamos 'were' porque hay varias cartas y el participio pasado de 'send' es 'sent'."
+          "explanation": "(1) En voz pasiva, utilizamos 'was' + participio pasado. Aquí, 'write' se convierte en 'written'.\n(2) Usamos 'was' porque la acción ocurrió en el pasado y 'sing' se convierte en 'sung' en participio pasado.\n(3) El participio pasado de 'sell' es 'sold'. Usamos 'was' para indicar que fue vendido en el pasado.\n(4) Para formar la voz pasiva, usamos 'was' + participio pasado. 'Complete' se convierte en 'completed'.\n(5) Aquí usamos 'were' porque hay varias cartas y el participio pasado de 'send' es 'sent'.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

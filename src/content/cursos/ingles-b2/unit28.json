@@ -28,7 +28,14 @@
             "Finished",
             "Caught"
           ],
-          "explanation": "(1) Aquí usamos 'startled' como una cláusula de participio para demostrar la causa de su reacción.\n(2) El uso de 'praised' aquí indica que el libro ha recibido elogios, mostrando la opinión de los lectores.\n(3) Aquí, 'arriving' indica simultaneidad y se utiliza para mostrar que sucedió al mismo tiempo que llegó.\n(4) Utilizamos 'finished' para mostrar que completaron el proyecto y luego tomaron un descanso.\n(5) En este caso, 'caught' indica que la lluvia fue la causa de su decisión."
+          "explanation": "(1) Aquí usamos 'startled' como una cláusula de participio para demostrar la causa de su reacción.\n(2) El uso de 'praised' aquí indica que el libro ha recibido elogios, mostrando la opinión de los lectores.\n(3) Aquí, 'arriving' indica simultaneidad y se utiliza para mostrar que sucedió al mismo tiempo que llegó.\n(4) Utilizamos 'finished' para mostrar que completaron el proyecto y luego tomaron un descanso.\n(5) En este caso, 'caught' indica que la lluvia fue la causa de su decisión.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,14 @@
             "were",
             "rains"
           ],
-          "explanation": "(1) Esta oración es un condicional mixto que expresa una acción en el pasado que no ocurrió y su resultado en el presente.\n(2) Aquí, el pasado influye en una situación presente. Se usa la tercera condicional para el pasado.\n(3) Este ejemplo muestra cómo un esfuerzo en el pasado afecta el presente.\n(4) En esta oración, se usa 'were' en un contexto hipotético que refleja una decisión no tomada en el pasado.\n(5) Este ejemplo combina el potencial futuro con un resultado pasado, mostrando una relación compleja entre el tiempo."
+          "explanation": "(1) Esta oración es un condicional mixto que expresa una acción en el pasado que no ocurrió y su resultado en el presente.\n(2) Aquí, el pasado influye en una situación presente. Se usa la tercera condicional para el pasado.\n(3) Este ejemplo muestra cómo un esfuerzo en el pasado afecta el presente.\n(4) En esta oración, se usa 'were' en un contexto hipotético que refleja una decisión no tomada en el pasado.\n(5) Este ejemplo combina el potencial futuro con un resultado pasado, mostrando una relación compleja entre el tiempo.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -179,7 +193,14 @@
             "4": "o2",
             "5": "o1"
           },
-          "explanation": "(1) La comunicación efectiva es clave para los periodistas en la era digital.\n(2) Las plataformas digitales se utilizan ampliamente para interactuar con la audiencia.\n(3) Los medios digitales han revolucionado la forma en que se distribuye la información.\n(4) Los algoritmos son fundamentales para comprender los patrones de la audiencia.\n(5) Los estándares éticos en el periodismo son esenciales para la credibilidad."
+          "explanation": "(1) La comunicación efectiva es clave para los periodistas en la era digital.\n(2) Las plataformas digitales se utilizan ampliamente para interactuar con la audiencia.\n(3) Los medios digitales han revolucionado la forma en que se distribuye la información.\n(4) Los algoritmos son fundamentales para comprender los patrones de la audiencia.\n(5) Los estándares éticos en el periodismo son esenciales para la credibilidad.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (parecer) ________ very friendly.",
           "correct_answer": "seem",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is cleverer than her cousin.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tranquilo/Callado",
           "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / ser/estar) ________ very patient.",
           "correct_answer": "is not",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he polite to everyone\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Servicial",
           "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are you ________ (lazy) than your sister?",
           "correct_answer": "lazier",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is the most hard-working student.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I21",
@@ -197,7 +280,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I23",
@@ -205,14 +295,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / gustar) ________ rude people.",
           "correct_answer": "doesn't like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he always honest\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I26",
@@ -233,7 +335,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I27",
@@ -241,7 +350,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Serio",
           "correct_answer": "Serious",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I28",
@@ -262,7 +377,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I30",
@@ -270,14 +392,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He is the ________ (funny) person I know.",
           "correct_answer": "funniest",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We are all very different.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I33",
@@ -298,7 +432,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I34",
@@ -306,7 +447,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Perezoso/Vago",
           "correct_answer": "Lazy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I37",
@@ -314,14 +461,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ very kind.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are they very helpful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I41",
@@ -329,7 +488,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Simpático/Amigable",
           "correct_answer": "Friendly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I42",
@@ -350,7 +515,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I44",
@@ -358,14 +530,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (pensar) ________ she is very clever.",
           "correct_answer": "think",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is your brother outgoing?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I47",
@@ -373,7 +557,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Listo/Inteligente",
           "correct_answer": "Clever",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I48",
@@ -394,7 +584,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I50",
@@ -402,14 +599,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Why ________ he so angry?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she shy with new people\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I54",
@@ -417,7 +626,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tímido",
           "correct_answer": "Shy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I55",
@@ -438,7 +653,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I57",
@@ -446,14 +668,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ser/estar) ________ both quite shy.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am a quiet person.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I61",
@@ -461,7 +695,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Educado",
           "correct_answer": "Polite",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I62",
@@ -482,7 +722,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I64",
@@ -490,14 +737,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ always helpful.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They are friendly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I69",
@@ -518,14 +777,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't be rude to your parents.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I74",
@@ -533,7 +805,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Trabajador",
           "correct_answer": "Hard-working",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I75",
@@ -554,14 +832,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he a very funny man\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I80",
@@ -569,14 +860,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Divertido/Gracioso",
           "correct_answer": "Funny",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You seem very serious today.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I86",
@@ -584,7 +887,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Honesto",
           "correct_answer": "Honest",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I87",
@@ -605,14 +914,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Teacher my is very patient\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I92",
@@ -620,7 +942,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Maleducado/Grosero",
           "correct_answer": "Rude",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I93",
@@ -641,14 +969,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She isn't lazy at all.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I98",
@@ -656,7 +997,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Extrovertido",
           "correct_answer": "Outgoing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I99",
@@ -677,112 +1024,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "personality",
+            "character",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she cleverer than her cousin\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is polite to everyone.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he the most hard-working student\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is always honest.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we all very different\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They are very helpful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I120",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Your is brother outgoing\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is shy with new people.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i a quiet person\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are they friendly?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Be don't rude to your parents\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I140",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is a very funny man.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Seem you very serious today\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My teacher is very patient.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         },
         {
           "interaction_id": "A2_U3_B3_I150",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Isn't she lazy at all\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "personality",
+            "character"
+          ]
         }
       ]
     }

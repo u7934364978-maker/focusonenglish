@@ -28,7 +28,13 @@
             "took",
             "told"
           ],
-          "explanation": "(1) El verbo 'went' es el pasado de 'go', que significa viajar a un lugar.\n(2) El verbo 'saw' es el pasado de 'see', que significa observar algo.\n(3) El verbo 'wore' es el pasado de 'wear', que significa llevar ropa.\n(4) El verbo 'took' es el pasado de 'take', que significa captar algo con una cámara.\n(5) El verbo 'told' es el pasado de 'tell', que significa informar o contar algo."
+          "explanation": "(1) El verbo 'went' es el pasado de 'go', que significa viajar a un lugar.\n(2) El verbo 'saw' es el pasado de 'see', que significa observar algo.\n(3) El verbo 'wore' es el pasado de 'wear', que significa llevar ropa.\n(4) El verbo 'took' es el pasado de 'take', que significa captar algo con una cámara.\n(5) El verbo 'told' es el pasado de 'tell', que significa informar o contar algo.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +56,13 @@
             "SIMPLIFICATION",
             "INNOVATION"
           ],
-          "explanation": "(1) La palabra 'development' es un sustantivo que se forma a partir del verbo 'develop'.\n(2) La palabra 'creativity' es un sustantivo que se deriva del verbo 'create'.\n(3) La palabra 'overload' se usa como sustantivo y ya está en su forma correcta.\n(4) La palabra 'simplification' es un sustantivo que se forma a partir del verbo 'simplify'.\n(5) La palabra 'innovation' es un sustantivo que se deriva del verbo 'innovate'."
+          "explanation": "(1) La palabra 'development' es un sustantivo que se forma a partir del verbo 'develop'.\n(2) La palabra 'creativity' es un sustantivo que se deriva del verbo 'create'.\n(3) La palabra 'overload' se usa como sustantivo y ya está en su forma correcta.\n(4) La palabra 'simplification' es un sustantivo que se forma a partir del verbo 'simplify'.\n(5) La palabra 'innovation' es un sustantivo que se deriva del verbo 'innovate'.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +84,13 @@
             "EDUCATIONAL",
             "IMPORTANCE"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit"
+          ]
         }
       ]
     }

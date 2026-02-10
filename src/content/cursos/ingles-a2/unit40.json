@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I think it (rain) ________ tomorrow.",
           "correct_answer": "will rain",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is having a party on Saturday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Predicción",
           "correct_answer": "Prediction",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (chat) ________ online every day.",
           "correct_answer": "chat",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Use i my computer every day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Plan",
           "correct_answer": "Plan",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (saber/conocer) how to use this app?",
           "correct_answer": "know",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It will probably be sunny tomorrow.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I20",
@@ -184,7 +267,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ambición",
           "correct_answer": "Ambition",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I21",
@@ -205,7 +294,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I23",
@@ -213,14 +309,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Modern life is ________ (fast) than traditional life.",
           "correct_answer": "faster",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we going to visit london\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I26",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I27",
@@ -249,7 +364,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Portátil",
           "correct_answer": "Laptop",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I30",
@@ -257,14 +378,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Who (invent) ________ the internet?",
           "correct_answer": "invented",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Life is very busy in the city.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I33",
@@ -285,7 +418,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I34",
@@ -293,7 +433,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tecnología",
           "correct_answer": "Technology",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I35",
@@ -314,7 +460,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I37",
@@ -322,14 +475,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (enjoy) ________ reading books.",
           "correct_answer": "enjoy",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sent i you an email yesterday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I41",
@@ -337,7 +502,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Moderno",
           "correct_answer": "Modern",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I44",
@@ -345,14 +516,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (be going to) ________ travel next week.",
           "correct_answer": "am going to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The telephone was a great invention.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I49",
@@ -373,7 +556,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I51",
@@ -381,14 +571,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ a new phone.",
           "correct_answer": "has got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Enjoy i going to the cinema\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I55",
@@ -396,7 +598,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mensaje",
           "correct_answer": "Message",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I56",
@@ -417,7 +625,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I58",
@@ -425,14 +640,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (might) ________ be cold tonight.",
           "correct_answer": "might",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I hope you will be happy.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I63",
@@ -453,7 +680,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I65",
@@ -461,14 +695,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (meet) ________ his friends at 8 PM.",
           "correct_answer": "is meeting",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Smartphone my is very useful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I69",
@@ -476,7 +722,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Invento",
           "correct_answer": "Invention",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U40_B40_I70",
@@ -497,7 +749,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         }
       ]
     }

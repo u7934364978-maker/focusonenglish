@@ -40,7 +40,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B1_I2",
@@ -67,7 +73,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B1_I3",
@@ -94,7 +106,13 @@
               "text": "could"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B1_I4",
@@ -121,7 +139,13 @@
               "text": "might have"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B1_I5",
@@ -148,7 +172,13 @@
               "text": "should"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -182,7 +212,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B2_I2",
@@ -209,7 +246,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B2_I3",
@@ -236,7 +280,14 @@
               "text": "who"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B2_I4",
@@ -263,7 +314,14 @@
               "text": "where"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B2_I5",
@@ -290,7 +348,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -307,7 +372,14 @@
           "explanation": "En esta oración, usamos 'which' para añadir información sobre el restaurante. Es una cláusula relativa que especifica cuál restaurante.",
           "stimulus_en": "The restaurant is very popular. It is in the city center.\n\nThe restaurant, which... ...",
           "correct_answer": "is very popular, is in the city center.",
-          "example": "which"
+          "example": "which",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B3_I2",
@@ -317,7 +389,14 @@
           "explanation": "Aquí usamos 'who' porque hablamos de una persona, y queremos añadir información sobre ella.",
           "stimulus_en": "She is a doctor. She helps people.\n\nShe is a doctor who... ...",
           "correct_answer": "helps people.",
-          "example": "who"
+          "example": "who",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B3_I3",
@@ -327,7 +406,14 @@
           "explanation": "Utilizamos 'that' para dar más información sobre el museo, que es una cosa.",
           "stimulus_en": "I visited the museum. It has ancient artifacts.\n\nI visited the museum that... ...",
           "correct_answer": "has ancient artifacts.",
-          "example": "that"
+          "example": "that",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B3_I4",
@@ -337,7 +423,14 @@
           "explanation": "Aquí, 'which' añade información sobre el libro, indicando quién lo escribió.",
           "stimulus_en": "The book is on the table. It is written by J.K. Rowling.\n\nThe book, which... ...",
           "correct_answer": "is written by J.K. Rowling, is on the table.",
-          "example": "which"
+          "example": "which",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U24_B3_I5",
@@ -347,7 +440,14 @@
           "explanation": "Utilizamos 'when' para referirnos a un momento específico en el tiempo, que es el día.",
           "stimulus_en": "I remember the day. We met on that day.\n\nI remember the day when... ...",
           "correct_answer": "we met.",
-          "example": "when"
+          "example": "when",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     }

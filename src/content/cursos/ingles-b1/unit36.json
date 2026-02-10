@@ -40,7 +40,15 @@
               "text": "Hello Mr."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B1_I2",
@@ -67,7 +75,15 @@
               "text": "legal issues"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B1_I3",
@@ -94,7 +110,15 @@
               "text": "Yours faithfully"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B1_I4",
@@ -121,7 +145,15 @@
               "text": "Asking for opinions"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B1_I5",
@@ -148,7 +180,15 @@
               "text": "strict rules"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +222,15 @@
               "text": "That's interesting"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B2_I2",
@@ -209,7 +257,15 @@
               "text": "Absolutely"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B2_I3",
@@ -236,7 +292,15 @@
               "text": "That's a good point."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B2_I4",
@@ -263,7 +327,15 @@
               "text": "You are right"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U36_B2_I5",
@@ -290,7 +362,15 @@
               "text": "Don't you agree?"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -324,7 +404,14 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U36_B3_I2",
@@ -351,7 +438,14 @@
               "text": "which"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U36_B3_I3",
@@ -378,7 +472,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U36_B3_I4",
@@ -405,7 +506,14 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U36_B3_I5",
@@ -432,7 +540,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     }

@@ -29,4 +29,4 @@
 ## Phase 4: Final Validation
 - [x] Final audit of all generated content.
 - [x] Visual verification in the UI for at least one unit per level.
-- [ ] Add E2E tests for B1-C2 practice flow.
+- [x] Add E2E tests for B1-C2 practice flow.

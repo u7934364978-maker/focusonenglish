@@ -23,7 +23,15 @@
           "explanation": "El presente perfecto continuo se utiliza para hablar de acciones que comenzaron en el pasado y continúan en el presente, usando 'for' para indicar la duración.",
           "stimulus_en": "She started studying English three years ago.\n\nShe has been studying English... ...",
           "correct_answer": "for three years.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B1_I2",
@@ -33,7 +41,15 @@
           "explanation": "Usamos 'since' para indicar el punto específico en el tiempo donde comenzó la acción que sigue en el presente.",
           "stimulus_en": "They began playing football last summer.\n\nThey have been playing football... ...",
           "correct_answer": "since last summer.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B1_I3",
@@ -43,7 +59,15 @@
           "explanation": "El 'for' se utiliza para expresar la duración de la acción que comenzó en el pasado y sigue en el presente.",
           "stimulus_en": "I started working here two months ago.\n\nI have been working here... ...",
           "correct_answer": "for two months.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B1_I4",
@@ -53,7 +77,15 @@
           "explanation": "Usamos 'since' para indicar cuando comenzó la acción que continúa hasta ahora.",
           "stimulus_en": "He has been running every day. This started in January.\n\nHe has been running every day... ...",
           "correct_answer": "since January.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B1_I5",
@@ -63,7 +95,15 @@
           "explanation": "El 'for' muestra la duración de la actividad que comenzó en el pasado y sigue en el presente.",
           "stimulus_en": "They started planning the event last month.\n\nThey have been planning the event... ...",
           "correct_answer": "for a month.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -97,7 +137,14 @@
               "text": "worked"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B2_I2",
@@ -124,7 +171,14 @@
               "text": "will be"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B2_I3",
@@ -151,7 +205,14 @@
               "text": "finished"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B2_I4",
@@ -178,7 +239,14 @@
               "text": "couldn't"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U57_B2_I5",
@@ -205,7 +273,14 @@
               "text": "sent"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -227,7 +302,14 @@
             "specific",
             "more"
           ],
-          "explanation": "(1) En este contexto, se refiere a leer 'varias' reseñas para obtener una mejor perspectiva.\n(2) Se refiere a tener 'su' propia opinión basada en diferentes reseñas.\n(3) Significa ser 'cauteloso' al leer reseñas para evitar información engañosa.\n(4) Aquí se sugiere incluir 'información específica' que ayude a otros consumidores.\n(5) Indica que las decisiones se vuelven 'más' informadas con buena información."
+          "explanation": "(1) En este contexto, se refiere a leer 'varias' reseñas para obtener una mejor perspectiva.\n(2) Se refiere a tener 'su' propia opinión basada en diferentes reseñas.\n(3) Significa ser 'cauteloso' al leer reseñas para evitar información engañosa.\n(4) Aquí se sugiere incluir 'información específica' que ayude a otros consumidores.\n(5) Indica que las decisiones se vuelven 'más' informadas con buena información.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     }

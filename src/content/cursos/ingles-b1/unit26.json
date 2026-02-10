@@ -49,7 +49,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B1_I2",
@@ -76,7 +84,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B1_I3",
@@ -103,7 +119,15 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B1_I4",
@@ -130,7 +154,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B1_I5",
@@ -157,7 +189,15 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         }
       ]
     },
@@ -191,7 +231,15 @@
               "text": "is watching"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B2_I2",
@@ -218,7 +266,15 @@
               "text": "are playing"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B2_I3",
@@ -245,7 +301,15 @@
               "text": "is studying"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B2_I4",
@@ -272,7 +336,15 @@
               "text": "not listening"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "animal",
+            "kingdom"
+          ]
         },
         {
           "interaction_id": "B1_U26_B2_I5",
@@ -299,7 +371,15 @@
               "text": "you did"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "animal",
+            "kingdom"
+          ]
         }
       ]
     },
@@ -321,7 +401,15 @@
             "who",
             "when"
           ],
-          "explanation": "(1) Utilizamos 'who' para referirnos a personas.\n(2) 'Where' se usa para referirnos a lugares.\n(3) 'That' es común para referirse a cosas o objetos.\n(4) 'Who' se usa para dar más información sobre una persona específica.\n(5) 'When' se usa para referirse a momentos o fechas."
+          "explanation": "(1) Utilizamos 'who' para referirnos a personas.\n(2) 'Where' se usa para referirnos a lugares.\n(3) 'That' es común para referirse a cosas o objetos.\n(4) 'Who' se usa para dar más información sobre una persona específica.\n(5) 'When' se usa para referirse a momentos o fechas.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "animal",
+            "kingdom"
+          ]
         }
       ]
     }

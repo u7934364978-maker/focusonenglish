@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ looking for a leather belt.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She bought a silk scarf yesterday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Seda",
           "correct_answer": "Silk",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "This sweater is ________ (soft) than that one.",
           "correct_answer": "softer",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Shoes these are made of leather\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Camisa",
           "correct_answer": "Shirt",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ you wearing for the party?",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He always wears a tie at work.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Vestido",
           "correct_answer": "Dress",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does she ________ (gustar) wearing dresses?",
           "correct_answer": "like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"That is sweater made of wool\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I27",
@@ -249,7 +382,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Botas",
           "correct_answer": "Boots",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I28",
@@ -270,7 +410,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I30",
@@ -278,14 +426,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ very expensive shoes.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"This cotton T-shirt is very comfortable.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I33",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I34",
@@ -314,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Zapatos",
           "correct_answer": "Shoes",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I35",
@@ -335,7 +512,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I37",
@@ -343,14 +528,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (need) ________ to buy some cotton socks.",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need i a new coat for the winter\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I42",
@@ -371,7 +570,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I44",
@@ -379,14 +586,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (llevar puesto) ________ a blue shirt today.",
           "correct_answer": "am wearing",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is wearing a beautiful red dress.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I48",
@@ -394,7 +615,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Falda",
           "correct_answer": "Skirt",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I49",
@@ -415,7 +643,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I51",
@@ -423,14 +659,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (buy) ________ a new pair of jeans.",
           "correct_answer": "bought",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Looking i'm for some blue socks\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I55",
@@ -438,7 +688,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lana",
           "correct_answer": "Wool",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I58",
@@ -446,14 +703,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / ser/estar) ________ very fashionable.",
           "correct_answer": "are not",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"This material is very soft.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I62",
@@ -461,7 +732,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Calcetines",
           "correct_answer": "Socks",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I63",
@@ -482,7 +760,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I65",
@@ -490,14 +776,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (ser/estar) ________ made of silk.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Prefer i casual clothes to formal ones\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I69",
@@ -505,7 +805,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cuero",
           "correct_answer": "Leather",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I70",
@@ -526,14 +833,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He wears a suit for important meetings.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I75",
@@ -541,7 +863,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Chaqueta",
           "correct_answer": "Jacket",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I76",
@@ -562,14 +891,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Dress the fits her perfectly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I81",
@@ -577,7 +921,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pantalones",
           "correct_answer": "Trousers/Jeans",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I82",
@@ -598,14 +949,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I84",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Fashionable clothes are often expensive.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I86",
@@ -613,7 +979,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Jersey",
           "correct_answer": "Sweater/Jumper",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I87",
@@ -634,14 +1007,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Love i your new boots\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I92",
@@ -649,7 +1037,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Abrigo",
           "correct_answer": "Coat",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I93",
@@ -670,14 +1065,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget your hat and gloves!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I98",
@@ -685,7 +1095,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "De moda",
           "correct_answer": "Fashionable",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I99",
@@ -706,112 +1123,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "styles",
+            "materials",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bought she a silk scarf yesterday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"These shoes are made of leather.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always he wears a tie at work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is that sweater made of wool?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Cotton this t-shirt is very comfortable\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I need a new coat for the winter.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she wearing a beautiful red dress\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm looking for some blue socks.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Material this is very soft\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I prefer casual clothes to formal ones.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wears he a suit for important meetings\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The dress fits her perfectly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Clothes fashionable are often expensive\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I146",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I love your new boots!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         },
         {
           "interaction_id": "A2_U19_B19_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forget don't your hat and gloves\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "clothes",
+            "styles",
+            "materials"
+          ]
         }
       ]
     }

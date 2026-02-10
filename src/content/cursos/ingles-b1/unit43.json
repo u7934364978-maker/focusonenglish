@@ -40,7 +40,13 @@
               "text": "would take"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B1_I2",
@@ -67,7 +73,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B1_I3",
@@ -94,7 +106,13 @@
               "text": "would tell"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B1_I4",
@@ -121,7 +139,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B1_I5",
@@ -148,7 +172,13 @@
               "text": "can"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -165,7 +195,14 @@
           "explanation": "En el discurso indirecto, 'tomorrow' se convierte en 'the next day'.",
           "stimulus_en": "She said, 'I will finish the project tomorrow.'\n\nShe said that she would finish the project... ...",
           "correct_answer": "the next day.",
-          "example": "tomorrow"
+          "example": "tomorrow",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B2_I2",
@@ -175,7 +212,14 @@
           "explanation": "En este caso, se mantiene la misma palabra, pero se cambia el tiempo verbal.",
           "stimulus_en": "He told me, 'You are doing a great job.'\n\nHe told me that I was doing a great... ...",
           "correct_answer": "job.",
-          "example": "job"
+          "example": "job",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B2_I3",
@@ -185,7 +229,14 @@
           "explanation": "Al preguntar, cambia la estructura a una pregunta indirecta.",
           "stimulus_en": "She asked, 'Are you coming to the meeting?'\n\nShe asked if I was coming to the... ...",
           "correct_answer": "meeting.",
-          "example": "meeting"
+          "example": "meeting",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B2_I4",
@@ -195,7 +246,14 @@
           "explanation": "El uso de 'can' cambia a 'could' al reportar en pasado.",
           "stimulus_en": "He said, 'I can't attend the conference.'\n\nHe said that he couldn't attend the... ...",
           "correct_answer": "conference.",
-          "example": "conference"
+          "example": "conference",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U43_B2_I5",
@@ -205,7 +263,14 @@
           "explanation": "En este caso, el uso de 'please' se omite en el discurso indirecto.",
           "stimulus_en": "She told him, 'Please send me the report.'\n\nShe told him to send her the... ...",
           "correct_answer": "report.",
-          "example": "report"
+          "example": "report",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -334,7 +399,14 @@
             "4": "o2",
             "5": "o1"
           },
-          "explanation": "(1) El término 'study' se utiliza para referirse al acto de aprender o repasar información, especialmente en un contexto académico.\n(2) En este contexto, 'meet' se refiere a reunirse con otros estudiantes para colaborar en el estudio.\n(3) El término 'attend' significa asistir a las clases o conferencias, lo cual es crucial para el aprendizaje.\n(4) 'Seek' se utiliza aquí para indicar que los estudiantes buscan o buscan recursos adicionales para mejorar su educación.\n(5) 'Discuss' implica hablar sobre los resultados del examen con otros, lo cual es una parte importante del proceso de aprendizaje."
+          "explanation": "(1) El término 'study' se utiliza para referirse al acto de aprender o repasar información, especialmente en un contexto académico.\n(2) En este contexto, 'meet' se refiere a reunirse con otros estudiantes para colaborar en el estudio.\n(3) El término 'attend' significa asistir a las clases o conferencias, lo cual es crucial para el aprendizaje.\n(4) 'Seek' se utiliza aquí para indicar que los estudiantes buscan o buscan recursos adicionales para mejorar su educación.\n(5) 'Discuss' implica hablar sobre los resultados del examen con otros, lo cual es una parte importante del proceso de aprendizaje.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

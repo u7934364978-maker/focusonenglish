@@ -40,7 +40,14 @@
               "text": "She said she goes to the party."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U21_B1_I2",
@@ -67,7 +74,14 @@
               "text": "He asked whether I like pizza."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U21_B1_I3",
@@ -94,7 +108,14 @@
               "text": "They told me they will finish the project tomorrow."
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U21_B1_I4",
@@ -121,7 +142,14 @@
               "text": "John said he was seeing that movie before."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U21_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Maria says she could help you."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -170,7 +205,13 @@
             "were",
             "will"
           ],
-          "explanation": "(1) Usamos el presente simple 'rains' porque es una condición real para el futuro.\n(2) Usamos 'had' en la segunda condicional para situaciones irreales en el pasado.\n(3) Aquí usamos 'will' porque es una condición real en el presente o futuro.\n(4) En la segunda condicional, usamos 'were' para situaciones hipotéticas o irreales.\n(5) Usamos 'will' porque es una respuesta a una posible acción futura."
+          "explanation": "(1) Usamos el presente simple 'rains' porque es una condición real para el futuro.\n(2) Usamos 'had' en la segunda condicional para situaciones irreales en el pasado.\n(3) Aquí usamos 'will' porque es una condición real en el presente o futuro.\n(4) En la segunda condicional, usamos 'were' para situaciones hipotéticas o irreales.\n(5) Usamos 'will' porque es una respuesta a una posible acción futura.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +245,15 @@
               "text": "forget"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U21_B3_I2",
@@ -231,7 +280,15 @@
               "text": "harmful"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U21_B3_I3",
@@ -258,7 +315,15 @@
               "text": "necessary"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U21_B3_I4",
@@ -285,7 +350,15 @@
               "text": "limited"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U21_B3_I5",
@@ -312,7 +385,15 @@
               "text": "dismiss"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

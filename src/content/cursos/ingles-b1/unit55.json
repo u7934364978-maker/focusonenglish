@@ -28,7 +28,13 @@
             "CREATION",
             "COLLABORATION"
           ],
-          "explanation": "(1) La palabra 'acción' se refiere a la actividad emocionante en el entretenimiento.\n(2) La 'performance' es la presentación de un espectáculo en las artes.\n(3) El término 'cultural' describe algo que pertenece a la cultura.\n(4) La 'creación' se refiere al proceso de hacer algo nuevo, como una película o canción.\n(5) La 'colaboración' implica trabajar juntos para alcanzar un objetivo común."
+          "explanation": "(1) La palabra 'acción' se refiere a la actividad emocionante en el entretenimiento.\n(2) La 'performance' es la presentación de un espectáculo en las artes.\n(3) El término 'cultural' describe algo que pertenece a la cultura.\n(4) La 'creación' se refiere al proceso de hacer algo nuevo, como una película o canción.\n(5) La 'colaboración' implica trabajar juntos para alcanzar un objetivo común.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +56,13 @@
             "community",
             "helping"
           ],
-          "explanation": "(1) La palabra 'cave' significa 'cueva', un lugar oculto que a menudo está en la naturaleza.\n(2) Una 'lamp' es un objeto que puede contener magia en historias, como la lámpara de Aladino.\n(3) La 'happiness' se refiere a la felicidad, un deseo común de las personas.\n(4) La 'community' es el grupo de personas que viven cerca y se ayudan mutuamente.\n(5) La palabra 'helping' significa ayudar, lo que es una forma de encontrar felicidad."
+          "explanation": "(1) La palabra 'cave' significa 'cueva', un lugar oculto que a menudo está en la naturaleza.\n(2) Una 'lamp' es un objeto que puede contener magia en historias, como la lámpara de Aladino.\n(3) La 'happiness' se refiere a la felicidad, un deseo común de las personas.\n(4) La 'community' es el grupo de personas que viven cerca y se ayudan mutuamente.\n(5) La palabra 'helping' significa ayudar, lo que es una forma de encontrar felicidad.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     },
@@ -84,7 +96,14 @@
               "text": "She forgot about it."
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U55_B3_I2",
@@ -111,7 +130,14 @@
               "text": "He stopped cooking."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U55_B3_I3",
@@ -138,7 +164,14 @@
               "text": "Speaking to locals."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U55_B3_I4",
@@ -165,7 +198,14 @@
               "text": "He left it there."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U55_B3_I5",
@@ -192,7 +232,14 @@
               "text": "Food is expensive."
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

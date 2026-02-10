@@ -23,7 +23,15 @@
           "explanation": "Esta respuesta usa el presente perfecto continuo para indicar que una acción comenzó en el pasado y continúa hasta el presente.",
           "stimulus_en": "I started studying English two years ago. (for)\n\nI have been studying English... ...",
           "correct_answer": "for two years.",
-          "example": "FOR"
+          "example": "FOR",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B1_I2",
@@ -33,7 +41,15 @@
           "explanation": "Usamos 'since' para decir cuándo comenzó la acción que sigue hasta ahora.",
           "stimulus_en": "She began working here in 2018. (since)\n\nShe has been working here... ...",
           "correct_answer": "since 2018.",
-          "example": "SINCE"
+          "example": "SINCE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B1_I3",
@@ -43,7 +59,15 @@
           "explanation": "Aquí se indica la duración de una acción que comenzó en el pasado y sigue en el presente.",
           "stimulus_en": "They started playing football last year. (for)\n\nThey have been playing football... ...",
           "correct_answer": "for a year.",
-          "example": "FOR"
+          "example": "FOR",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B1_I4",
@@ -53,7 +77,15 @@
           "explanation": "Usamos 'since' para indicar el tiempo específico en que comenzó la acción.",
           "stimulus_en": "He has a headache because he studied all day. (since)\n\nHe has been studying all day... ...",
           "correct_answer": "since this morning.",
-          "example": "SINCE"
+          "example": "SINCE",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B1_I5",
@@ -63,7 +95,15 @@
           "explanation": "Esto muestra que la acción de aprender a tocar guitarra comenzó en el pasado y continúa hasta ahora.",
           "stimulus_en": "I started learning to play guitar six months ago. (for)\n\nI have been learning to play guitar... ...",
           "correct_answer": "for six months.",
-          "example": "FOR"
+          "example": "FOR",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -97,7 +137,13 @@
               "text": "written"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B2_I2",
@@ -124,7 +170,13 @@
               "text": "sings"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B2_I3",
@@ -151,7 +203,13 @@
               "text": "sending"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B2_I4",
@@ -178,7 +236,13 @@
               "text": "announced"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U34_B2_I5",
@@ -205,7 +269,13 @@
               "text": "designs"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -227,7 +297,13 @@
             "was made",
             "were sent"
           ],
-          "explanation": "(1) En la voz pasiva, el foco está en la acción y no en quién la realizó. Aquí usamos 'was' + el participio pasado 'written'.\n(2) Recuerda que en la voz pasiva enfatizamos el resultado de la acción. 'Was' + 'completed' es la forma correcta.\n(3) En este caso, usamos 'were' porque nos referimos a varias fotos. 'Taken' es el participio pasado de 'take'.\n(4) Para una acción completada en el pasado usamos 'was' + el participio pasado 'made'.\n(5) Usamos 'were' para indicar que los correos se enviaron en el pasado. 'Sent' es el participio pasado de 'send'."
+          "explanation": "(1) En la voz pasiva, el foco está en la acción y no en quién la realizó. Aquí usamos 'was' + el participio pasado 'written'.\n(2) Recuerda que en la voz pasiva enfatizamos el resultado de la acción. 'Was' + 'completed' es la forma correcta.\n(3) En este caso, usamos 'were' porque nos referimos a varias fotos. 'Taken' es el participio pasado de 'take'.\n(4) Para una acción completada en el pasado usamos 'was' + el participio pasado 'made'.\n(5) Usamos 'were' para indicar que los correos se enviaron en el pasado. 'Sent' es el participio pasado de 'send'.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

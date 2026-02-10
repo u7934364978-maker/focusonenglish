@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ very hard-working.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He works as an engineer for a big company.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Gerente",
           "correct_answer": "Manager",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / tener) ________ a job right now.",
           "correct_answer": "don't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i looking for a new job\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Abogado/a",
           "correct_answer": "Lawyer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ser/estar) ________ a nurse.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The waiter was very polite and efficient.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Médico/a",
           "correct_answer": "Doctor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ser/estar) ________ doctors.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Salary the is not very high, but the work is interesting\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I27",
@@ -249,7 +382,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Enfermero/a",
           "correct_answer": "Nurse",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I28",
@@ -270,7 +410,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I30",
@@ -278,14 +426,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ your father do?",
           "correct_answer": "does",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The chef prepared a delicious meal.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I33",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I34",
@@ -314,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Oficina",
           "correct_answer": "Office",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I37",
@@ -322,14 +499,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (trabajar) ________ as a teacher.",
           "correct_answer": "work",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Kind what of work do you do\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I39",
@@ -394,7 +585,14 @@
             "w9",
             "w10"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I40",
@@ -402,7 +600,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Profesor/a",
           "correct_answer": "Teacher",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I41",
@@ -423,7 +628,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I43",
@@ -431,14 +644,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ looking for work.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It's important to find a profession you love.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I47",
@@ -446,7 +673,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Oficial de policía",
           "correct_answer": "Police officer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I48",
@@ -467,7 +701,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I50",
@@ -475,14 +717,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (gustar) your job?",
           "correct_answer": "like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sister my is a primary school teacher\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I55",
@@ -503,7 +759,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I57",
@@ -511,14 +775,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (trabajar) ________ in a large hospital.",
           "correct_answer": "works",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He has a successful career in law.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I61",
@@ -526,7 +804,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Empleo",
           "correct_answer": "Job",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I62",
@@ -547,7 +832,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I64",
@@ -555,14 +848,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (start) ________ my own business.",
           "correct_answer": "started",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Mother my is a very talented artist\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I68",
@@ -570,7 +877,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cocinero/a",
           "correct_answer": "Chef",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I69",
@@ -591,14 +905,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She wants to be a doctor when she grows up.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I74",
@@ -606,7 +935,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Secretario/a",
           "correct_answer": "Secretary",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I75",
@@ -627,14 +963,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i an interview at an office tomorrow\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I80",
@@ -642,7 +993,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Músico/a",
           "correct_answer": "Musician",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I81",
@@ -663,14 +1021,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He started his own business two years ago.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I86",
@@ -678,7 +1051,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Carrera",
           "correct_answer": "Career",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I87",
@@ -699,14 +1079,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Works she long hours at the hospital\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I92",
@@ -714,7 +1109,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Negocio",
           "correct_answer": "Business",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I93",
@@ -735,14 +1137,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Our manager is very helpful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I97",
@@ -750,7 +1167,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Empresa",
           "correct_answer": "Company",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I98",
@@ -771,14 +1195,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Works he as an engineer for a big company\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I103",
@@ -786,7 +1225,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ingeniero/a",
           "correct_answer": "Engineer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I104",
@@ -807,14 +1253,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am looking for a new job.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I109",
@@ -822,7 +1283,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Profesión",
           "correct_answer": "Profession",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I110",
@@ -843,14 +1311,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Waiter the was very polite and efficient\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I114",
@@ -858,7 +1341,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Camarero/a",
           "correct_answer": "Waiter",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I115",
@@ -879,14 +1369,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The salary is not very high, but the work is interesting.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I120",
@@ -894,7 +1399,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Salario",
           "correct_answer": "Salary",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I121",
@@ -915,14 +1427,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Chef the prepared a delicious meal\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I126",
@@ -930,7 +1457,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Artista",
           "correct_answer": "Artist",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I127",
@@ -951,77 +1485,155 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "have",
+            "must",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What kind of work do you do?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Important it's to find a profession you love\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My sister is a primary school teacher.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has he a successful career in law\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My mother is a very talented artist.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wants she to be a doctor when she grows up\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have an interview at an office tomorrow.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I152",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Started he his own business two years ago\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I155",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She works long hours at the hospital.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         },
         {
           "interaction_id": "A2_U51_B51_I158",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Manager our is very helpful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "have",
+            "must"
+          ]
         }
       ]
     }

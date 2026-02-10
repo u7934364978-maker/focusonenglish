@@ -28,7 +28,14 @@
             "perfection",
             "ending"
           ],
-          "explanation": "(1) La palabra 'cozy' se utiliza para describir un lugar que es cálido y acogedor.\n(2) La palabra 'attentive' se refiere a alguien que presta atención a las necesidades de los clientes.\n(3) Utilizamos 'delicious' para describir algo que tiene un sabor muy bueno.\n(4) La palabra 'perfection' denota que la pasta estaba cocinada de manera ideal.\n(5) La palabra 'ending' se utiliza para referirse a la conclusión de una comida o experiencia."
+          "explanation": "(1) La palabra 'cozy' se utiliza para describir un lugar que es cálido y acogedor.\n(2) La palabra 'attentive' se refiere a alguien que presta atención a las necesidades de los clientes.\n(3) Utilizamos 'delicious' para describir algo que tiene un sabor muy bueno.\n(4) La palabra 'perfection' denota que la pasta estaba cocinada de manera ideal.\n(5) La palabra 'ending' se utiliza para referirse a la conclusión de una comida o experiencia.",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +69,14 @@
               "text": "go"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U12_B2_I2",
@@ -89,7 +103,14 @@
               "text": "will have"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U12_B2_I3",
@@ -116,7 +137,14 @@
               "text": "visit"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U12_B2_I4",
@@ -143,7 +171,14 @@
               "text": "hadn't been"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U12_B2_I5",
@@ -170,7 +205,14 @@
               "text": "was realizing"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +246,14 @@
               "text": "repeat"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U12_B3_I2",
@@ -231,7 +280,14 @@
               "text": "exit"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U12_B3_I3",
@@ -258,7 +314,14 @@
               "text": "To end"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U12_B3_I4",
@@ -285,7 +348,14 @@
               "text": "create"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U12_B3_I5",
@@ -312,7 +382,14 @@
               "text": "repeat"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

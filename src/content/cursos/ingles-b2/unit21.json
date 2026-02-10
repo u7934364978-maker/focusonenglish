@@ -28,7 +28,13 @@
             "respond",
             "respectful"
           ],
-          "explanation": "(1) Es importante ser claro y seguro al expresar tu punto de vista en un debate.\n(2) Los participantes desafían los argumentos de los demás para resaltar las debilidades.\n(3) Para persuadir a la audiencia, debes proporcionar argumentos sólidos y evidencia.\n(4) Un buen debatiente sabe cómo escuchar y responder a los contraargumentos de manera efectiva.\n(5) Es esencial mantener el respeto durante un debate para conservar el profesionalismo."
+          "explanation": "(1) Es importante ser claro y seguro al expresar tu punto de vista en un debate.\n(2) Los participantes desafían los argumentos de los demás para resaltar las debilidades.\n(3) Para persuadir a la audiencia, debes proporcionar argumentos sólidos y evidencia.\n(4) Un buen debatiente sabe cómo escuchar y responder a los contraargumentos de manera efectiva.\n(5) Es esencial mantener el respeto durante un debate para conservar el profesionalismo.",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +51,13 @@
           "explanation": "En inglés, cuando usamos 'rarely' al inicio de una oración, se debe invertir el sujeto y el verbo auxiliar.",
           "stimulus_en": "I have rarely seen such a beautiful sunset.\n\nRarely have I seen ...",
           "correct_answer": "such a beautiful sunset.",
-          "example": "RARELY"
+          "example": "RARELY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U21_B2_I2",
@@ -55,7 +67,13 @@
           "explanation": "La inversión se usa después de 'seldom' para enfatizar la frecuencia baja de la acción.",
           "stimulus_en": "I seldom go to parties.\n\nSeldom do I go ...",
           "correct_answer": "to parties.",
-          "example": "SELDOM"
+          "example": "SELDOM",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U21_B2_I3",
@@ -65,7 +83,13 @@
           "explanation": "Se usa la inversión después de 'never' para destacar la negación de la acción.",
           "stimulus_en": "They have never visited Paris.\n\nNever have they visited ...",
           "correct_answer": "Paris.",
-          "example": "NEVER"
+          "example": "NEVER",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U21_B2_I4",
@@ -75,7 +99,13 @@
           "explanation": "Utilizamos 'seldom' para enfatizar la baja frecuencia y requerimos inversión del sujeto y el auxiliar.",
           "stimulus_en": "He has seldom been late.\n\nSeldom has he been ...",
           "correct_answer": "late.",
-          "example": "SELDOM"
+          "example": "SELDOM",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U21_B2_I5",
@@ -85,7 +115,13 @@
           "explanation": "Al iniciar una oración con 'never', se usa la inversión para hacer énfasis en la negación.",
           "stimulus_en": "I had never experienced such excitement.\n\nNever had I experienced ...",
           "correct_answer": "such excitement.",
-          "example": "NEVER"
+          "example": "NEVER",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     },
@@ -119,7 +155,14 @@
               "text": "To start something new"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U21_B3_I2",
@@ -146,7 +189,14 @@
               "text": "Energetic"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U21_B3_I3",
@@ -173,7 +223,14 @@
               "text": "To work hard"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U21_B3_I4",
@@ -200,7 +257,14 @@
               "text": "Made a mistake"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U21_B3_I5",
@@ -227,7 +291,14 @@
               "text": "To have a party"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

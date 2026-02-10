@@ -28,7 +28,13 @@
             "salutation",
             "statement"
           ],
-          "explanation": "(1) En la escritura formal, los informes son documentos importantes que se utilizan en diferentes contextos profesionales.\n(2) Las cartas formales son una parte crucial de la comunicación profesional.\n(3) Los ensayos formales son escritos académicos que presentan argumentos y análisis.\n(4) La salutación es la forma en que se dirige a la persona en una carta.\n(5) Una declaración clara ayuda a definir el propósito del documento."
+          "explanation": "(1) En la escritura formal, los informes son documentos importantes que se utilizan en diferentes contextos profesionales.\n(2) Las cartas formales son una parte crucial de la comunicación profesional.\n(3) Los ensayos formales son escritos académicos que presentan argumentos y análisis.\n(4) La salutación es la forma en que se dirige a la persona en una carta.\n(5) Una declaración clara ayuda a definir el propósito del documento.",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +68,14 @@
               "text": "Shopping"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U18_B2_I2",
@@ -89,7 +102,14 @@
               "text": "Consumers"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U18_B2_I3",
@@ -116,7 +136,14 @@
               "text": "To write"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U18_B2_I4",
@@ -143,7 +170,14 @@
               "text": "Technology"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U18_B2_I5",
@@ -170,7 +204,14 @@
               "text": "Isolation"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -299,7 +340,14 @@
             "4": "o3",
             "5": "o1"
           },
-          "explanation": "(1) La expresión 'keep up with' significa mantenerse al día o seguir el ritmo de algo.\n(2) La expresión 'manage your time' significa organizar tu tiempo de manera efectiva.\n(3) La expresión 'bite the bullet' significa enfrentar una situación difícil con determinación.\n(4) La expresión 'when the going gets tough, the tough get going' implica que los fuertes enfrentan adversidades.\n(5) La expresión 'revisit your journey' sugiere reflexionar sobre tus experiencias pasadas para aprender de ellas."
+          "explanation": "(1) La expresión 'keep up with' significa mantenerse al día o seguir el ritmo de algo.\n(2) La expresión 'manage your time' significa organizar tu tiempo de manera efectiva.\n(3) La expresión 'bite the bullet' significa enfrentar una situación difícil con determinación.\n(4) La expresión 'when the going gets tough, the tough get going' implica que los fuertes enfrentan adversidades.\n(5) La expresión 'revisit your journey' sugiere reflexionar sobre tus experiencias pasadas para aprender de ellas.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

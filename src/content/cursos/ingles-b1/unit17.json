@@ -40,7 +40,14 @@
               "text": "Office"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Presentation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Run"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B1_I4",
@@ -121,7 +142,14 @@
               "text": "High School"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Forget"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,13 @@
             "AWARENESS",
             "CONDITIONS"
           ],
-          "explanation": "(1) Pollution es el término que se utiliza para describir la contaminación del aire y el agua.\n(2) Reciclaje es el proceso de convertir desechos en nuevos materiales y objetos.\n(3) El cambio climático se refiere a las variaciones climáticas a largo plazo en la Tierra.\n(4) La conciencia es la comprensión y conocimiento de un tema, en este caso, el medio ambiente.\n(5) Las condiciones ambientales son las circunstancias que afectan la vida en la Tierra."
+          "explanation": "(1) Pollution es el término que se utiliza para describir la contaminación del aire y el agua.\n(2) Reciclaje es el proceso de convertir desechos en nuevos materiales y objetos.\n(3) El cambio climático se refiere a las variaciones climáticas a largo plazo en la Tierra.\n(4) La conciencia es la comprensión y conocimiento de un tema, en este caso, el medio ambiente.\n(5) Las condiciones ambientales son las circunstancias que afectan la vida en la Tierra.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +245,14 @@
               "text": "Write the dialogue"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B3_I2",
@@ -231,7 +279,14 @@
               "text": "Unrelated events"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B3_I3",
@@ -258,7 +313,14 @@
               "text": "Present continuous"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B3_I4",
@@ -285,7 +347,14 @@
               "text": "Simple sentences"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U17_B3_I5",
@@ -312,7 +381,14 @@
               "text": "Skipping events"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

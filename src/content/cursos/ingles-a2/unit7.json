@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (start) ________ my shift at 8 PM.",
           "correct_answer": "start",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They work in a factory.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I9",
@@ -54,14 +73,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ a manager.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Earns he a good salary\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I12",
@@ -82,14 +113,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What does your mother do?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I19",
@@ -110,7 +154,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I20",
@@ -118,7 +169,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Colega/Compañero",
           "correct_answer": "Colleague",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I23",
@@ -126,14 +183,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (querer) ________ to be a pilot.",
           "correct_answer": "wants",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Works he for a large company\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I26",
@@ -154,7 +223,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I30",
@@ -162,14 +238,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ very professional.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very busy at the office today.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I34",
@@ -177,7 +265,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Gerente/Director",
           "correct_answer": "Manager",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I35",
@@ -198,7 +292,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I37",
@@ -206,14 +307,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ looking for a new job.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i a job interview tomorrow\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I44",
@@ -221,14 +334,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / tener) ________ much free time.",
           "correct_answer": "don't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is looking for a part-time job.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I48",
@@ -236,7 +361,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Piloto",
           "correct_answer": "Pilot",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I49",
@@ -257,7 +388,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I51",
@@ -265,14 +403,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (trabajar) ________ in a big office.",
           "correct_answer": "works",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we a meeting every monday morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I58",
@@ -280,14 +430,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does he ________ (ganar (dinero)) a lot of money?",
           "correct_answer": "earn",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I want to have a successful career.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I62",
@@ -295,7 +457,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Negocio/Empresa",
           "correct_answer": "Business",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I63",
@@ -316,7 +484,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I65",
@@ -324,14 +499,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (tener) ________ a meeting at 10 AM.",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Start i work at nine o'clock\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I69",
@@ -339,14 +526,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Reunión",
           "correct_answer": "Meeting",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She wears a uniform at work.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I75",
@@ -367,14 +566,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Colleagues my are very friendly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I80",
@@ -382,7 +594,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Jefe/a",
           "correct_answer": "Boss",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I81",
@@ -403,14 +621,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is an amazing teacher.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I86",
@@ -418,14 +649,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Entrevista de trabajo",
           "correct_answer": "Job interview",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Boss the is very kind\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I93",
@@ -446,14 +689,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is a very experienced nurse.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I99",
@@ -474,112 +730,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "jobs",
+            "workplace",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Work they in a factory\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He earns a good salary.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Does what your mother do\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He works for a large company.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i very busy at the office today\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have a job interview tomorrow.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he looking for a part-time job\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have a meeting every Monday morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Want i to have a successful career\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I start work at nine o'clock.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wears she a uniform at work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My colleagues are very friendly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she an amazing teacher\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The boss is very kind.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         },
         {
           "interaction_id": "A2_U7_B7_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she a very experienced nurse\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "jobs",
+            "workplace"
+          ]
         }
       ]
     }

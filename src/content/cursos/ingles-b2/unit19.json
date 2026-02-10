@@ -28,7 +28,14 @@
             "had missed",
             "wish"
           ],
-          "explanation": "(1) La estructura 'I wish' se utiliza para expresar un deseo sobre el pasado que no se puede cambiar.\n(2) Se utiliza 'had' para expresar un deseo sobre algo que no ocurrió en el pasado.\n(3) Se usa 'regret' para expresar remordimiento sobre una decisión pasada.\n(4) La frase implica un arrepentimiento sobre una acción que no deberían haber hecho.\n(5) Se utiliza 'wish' para expresar un deseo sobre el presente que no puede ser realizado."
+          "explanation": "(1) La estructura 'I wish' se utiliza para expresar un deseo sobre el pasado que no se puede cambiar.\n(2) Se utiliza 'had' para expresar un deseo sobre algo que no ocurrió en el pasado.\n(3) Se usa 'regret' para expresar remordimiento sobre una decisión pasada.\n(4) La frase implica un arrepentimiento sobre una acción que no deberían haber hecho.\n(5) Se utiliza 'wish' para expresar un deseo sobre el presente que no puede ser realizado.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,13 @@
             "questions",
             "conclusion"
           ],
-          "explanation": "(1) La entrega se refiere a cómo se presenta la información, que es fundamental en una conferencia.\n(2) Los ejemplos ayudan a ilustrar los puntos principales y hacen la presentación más comprensible.\n(3) Los gráficos son herramientas visuales que pueden ayudar a presentar datos de manera efectiva.\n(4) Las preguntas permiten que los oyentes obtengan aclaraciones sobre el contenido presentado.\n(5) La conclusión ayuda a reforzar los puntos clave y a cerrar la presentación de manera efectiva."
+          "explanation": "(1) La entrega se refiere a cómo se presenta la información, que es fundamental en una conferencia.\n(2) Los ejemplos ayudan a ilustrar los puntos principales y hacen la presentación más comprensible.\n(3) Los gráficos son herramientas visuales que pueden ayudar a presentar datos de manera efectiva.\n(4) Las preguntas permiten que los oyentes obtengan aclaraciones sobre el contenido presentado.\n(5) La conclusión ayuda a reforzar los puntos clave y a cerrar la presentación de manera efectiva.",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +85,13 @@
             "emotional",
             "counterarguments"
           ],
-          "explanation": "(1) Es esencial expresar tu punto de vista en un debate para que los demás te entiendan.\n(2) Respetar las opiniones de los demás es crucial en una discusión efectiva.\n(3) La evidencia es necesaria para fortalecer tu argumento en un debate.\n(4) Mantener la calma y no volverse emocional ayuda a que el debate sea más productivo.\n(5) Anticipar contrargumentos te ayuda a prepararte mejor para defender tu posición."
+          "explanation": "(1) Es esencial expresar tu punto de vista en un debate para que los demás te entiendan.\n(2) Respetar las opiniones de los demás es crucial en una discusión efectiva.\n(3) La evidencia es necesaria para fortalecer tu argumento en un debate.\n(4) Mantener la calma y no volverse emocional ayuda a que el debate sea más productivo.\n(5) Anticipar contrargumentos te ayuda a prepararte mejor para defender tu posición.",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit"
+          ]
         }
       ]
     }

@@ -135,7 +135,14 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) En esta oración, se habla de la comunicación, y los teléfonos son herramientas comunes para esto.\n(2) La palabra 'connect' se refiere a la conexión entre personas, especialmente en línea.\n(3) Las plataformas de redes sociales son utilizadas a menudo para compartir fotos entre amigos y familiares.\n(4) Usar la tecnología 'smartly' implica ser consciente y responsable sobre su uso.\n(5) La palabra 'technology' abarca todos los dispositivos y herramientas que usamos, incluyendo computadoras e internet."
+          "explanation": "(1) En esta oración, se habla de la comunicación, y los teléfonos son herramientas comunes para esto.\n(2) La palabra 'connect' se refiere a la conexión entre personas, especialmente en línea.\n(3) Las plataformas de redes sociales son utilizadas a menudo para compartir fotos entre amigos y familiares.\n(4) Usar la tecnología 'smartly' implica ser consciente y responsable sobre su uso.\n(5) La palabra 'technology' abarca todos los dispositivos y herramientas que usamos, incluyendo computadoras e internet.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -157,7 +164,13 @@
             "questions",
             "opportunity"
           ],
-          "explanation": "(1) La confianza es esencial en una entrevista para que el entrevistador vea que tienes seguridad en tus habilidades.\n(2) Hacer investigación te ayuda a entender mejor la empresa y a preparar respuestas adecuadas.\n(3) La experiencia previa es importante para que el entrevistador evalúe si eres el candidato adecuado.\n(4) Preparar preguntas muestra que estás interesado en el trabajo y en la empresa.\n(5) Agradecer la oportunidad es una manera de dejar una buena impresión después de la entrevista."
+          "explanation": "(1) La confianza es esencial en una entrevista para que el entrevistador vea que tienes seguridad en tus habilidades.\n(2) Hacer investigación te ayuda a entender mejor la empresa y a preparar respuestas adecuadas.\n(3) La experiencia previa es importante para que el entrevistador evalúe si eres el candidato adecuado.\n(4) Preparar preguntas muestra que estás interesado en el trabajo y en la empresa.\n(5) Agradecer la oportunidad es una manera de dejar una buena impresión después de la entrevista.",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -179,7 +192,13 @@
             "use",
             "began"
           ],
-          "explanation": "(1) La palabra 'nature' se refiere al entorno natural que rodea a la chica.\n(2) La palabra 'cave' significa una cueva, un lugar donde se puede esconder algo.\n(3) La palabra 'object' se refiere a un objeto, que puede ser algo especial.\n(4) La palabra 'use' significa utilizar, en el sentido de hacer algo con el objeto mágico.\n(5) La palabra 'began' se refiere a empezar, que indica el inicio de la aventura."
+          "explanation": "(1) La palabra 'nature' se refiere al entorno natural que rodea a la chica.\n(2) La palabra 'cave' significa una cueva, un lugar donde se puede esconder algo.\n(3) La palabra 'object' se refiere a un objeto, que puede ser algo especial.\n(4) La palabra 'use' significa utilizar, en el sentido de hacer algo con el objeto mágico.\n(5) La palabra 'began' se refiere a empezar, que indica el inicio de la aventura.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     }

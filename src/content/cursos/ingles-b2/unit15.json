@@ -28,7 +28,14 @@
             "should have told",
             "must have finished"
           ],
-          "explanation": "(1) Usamos 'must not have' para indicar una conclusión lógica sobre algo que no ocurrió.\n(2) Utilizamos 'should have' para expresar una expectativa que no se cumplió.\n(3) Aquí, 'could have' indica una posibilidad que no se realizó.\n(4) 'Should have told' indica que era correcto o recomendable informar.\n(5) Usamos 'must have finished' para suponer que algo tuvo que ocurrir."
+          "explanation": "(1) Usamos 'must not have' para indicar una conclusión lógica sobre algo que no ocurrió.\n(2) Utilizamos 'should have' para expresar una expectativa que no se cumplió.\n(3) Aquí, 'could have' indica una posibilidad que no se realizó.\n(4) 'Should have told' indica que era correcto o recomendable informar.\n(5) Usamos 'must have finished' para suponer que algo tuvo que ocurrir.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,13 @@
             "digital",
             "conduct"
           ],
-          "explanation": "(1) La palabra que falta es 'technology', que se refiere a la influencia de la tecnología en la educación.\n(2) La palabra que falta es 'collaboration', que destaca cómo trabajar juntos es esencial en la educación moderna.\n(3) La palabra que falta es 'learning', que se refiere a cómo el aprendizaje está cambiando con la tecnología.\n(4) La palabra que falta es 'digital', que sugiere que se necesitan habilidades en el ámbito digital para navegar en el mundo moderno.\n(5) La palabra que falta es 'conduct', que sugiere que los estudiantes deben realizar su propia investigación."
+          "explanation": "(1) La palabra que falta es 'technology', que se refiere a la influencia de la tecnología en la educación.\n(2) La palabra que falta es 'collaboration', que destaca cómo trabajar juntos es esencial en la educación moderna.\n(3) La palabra que falta es 'learning', que se refiere a cómo el aprendizaje está cambiando con la tecnología.\n(4) La palabra que falta es 'digital', que sugiere que se necesitan habilidades en el ámbito digital para navegar en el mundo moderno.\n(5) La palabra que falta es 'conduct', que sugiere que los estudiantes deben realizar su propia investigación.",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit"
+          ]
         }
       ]
     },
@@ -84,6 +97,14 @@
               "id": "o4",
               "text": "Clear communication of analyses."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -111,6 +132,14 @@
               "id": "o4",
               "text": "Clear communication of analyses."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -138,6 +167,14 @@
               "id": "o4",
               "text": "Clear communication of analyses."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -165,6 +202,14 @@
               "id": "o4",
               "text": "By understanding their strengths and weaknesses."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -192,6 +237,14 @@
               "id": "o4",
               "text": "By understanding their strengths and weaknesses."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         }
       ]

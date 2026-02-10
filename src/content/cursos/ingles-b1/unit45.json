@@ -28,7 +28,14 @@
             "when",
             "that"
           ],
-          "explanation": "(1) Se usa 'that' para referirse a cosas en cláusulas definitorias.\n(2) Se usa 'who' para referirse a personas.\n(3) Se utiliza 'where' para hablar de lugares.\n(4) Se usa 'when' para referirse a tiempos o momentos.\n(5) Se utiliza 'that' en cláusulas que definen el sustantivo."
+          "explanation": "(1) Se usa 'that' para referirse a cosas en cláusulas definitorias.\n(2) Se usa 'who' para referirse a personas.\n(3) Se utiliza 'where' para hablar de lugares.\n(4) Se usa 'when' para referirse a tiempos o momentos.\n(5) Se utiliza 'that' en cláusulas que definen el sustantivo.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,13 @@
             "CHALLENGES",
             "CRITICAL"
           ],
-          "explanation": "(1) En este contexto, necesitamos un sustantivo que describe cuántos estudiantes hay.\n(2) Necesitamos esta palabra en forma de sustantivo que describe el proceso de educación.\n(3) Buscamos un sustantivo que describe la condición de estar disponible.\n(4) Queremos un sustantivo en plural que indica las dificultades que enfrentan los estudiantes.\n(5) En este caso, necesitamos un adjetivo que describe las habilidades que son muy importantes."
+          "explanation": "(1) En este contexto, necesitamos un sustantivo que describe cuántos estudiantes hay.\n(2) Necesitamos esta palabra en forma de sustantivo que describe el proceso de educación.\n(3) Buscamos un sustantivo que describe la condición de estar disponible.\n(4) Queremos un sustantivo en plural que indica las dificultades que enfrentan los estudiantes.\n(5) En este caso, necesitamos un adjetivo que describe las habilidades que son muy importantes.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +85,14 @@
             "agree",
             "claim"
           ],
-          "explanation": "(1) Aquí, estamos hablando de una opinión sobre una película, y 'interesting' es una palabra común para describir algo que capta nuestra atención.\n(2) En este caso, la palabra 'beneficial' destaca una opinión positiva sobre el aprendizaje de idiomas.\n(3) Aquí, 'argue' se utiliza para expresar que muchas personas tienen una opinión fuerte sobre un tema.\n(4) La palabra 'agree' es clave para mostrar conformidad con una opinión.\n(5) La palabra 'claim' se usa aquí para expresar que algunas personas sostienen una opinión, que es importante para el argumento."
+          "explanation": "(1) Aquí, estamos hablando de una opinión sobre una película, y 'interesting' es una palabra común para describir algo que capta nuestra atención.\n(2) En este caso, la palabra 'beneficial' destaca una opinión positiva sobre el aprendizaje de idiomas.\n(3) Aquí, 'argue' se utiliza para expresar que muchas personas tienen una opinión fuerte sobre un tema.\n(4) La palabra 'agree' es clave para mostrar conformidad con una opinión.\n(5) La palabra 'claim' se usa aquí para expresar que algunas personas sostienen una opinión, que es importante para el argumento.",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit"
+          ]
         }
       ]
     }

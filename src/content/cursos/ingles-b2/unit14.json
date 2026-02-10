@@ -40,7 +40,14 @@
               "text": "To persuade"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U14_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Singing"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U14_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Short phrases"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U14_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Change the topic"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U14_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Distracts the audience"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,14 @@
             "mindset",
             "nuanced"
           ],
-          "explanation": "(1) Interpretar significa entender o aclarar el significado de algo.\n(2) Análisis es el proceso de examinar algo en detalle.\n(3) Nublar significa dificultar la claridad o comprensión de un tema.\n(4) Mentalidad se refiere a la forma de pensar que uno tiene.\n(5) Matizado significa tener sutiles diferencias o variaciones."
+          "explanation": "(1) Interpretar significa entender o aclarar el significado de algo.\n(2) Análisis es el proceso de examinar algo en detalle.\n(3) Nublar significa dificultar la claridad o comprensión de un tema.\n(4) Mentalidad se refiere a la forma de pensar que uno tiene.\n(5) Matizado significa tener sutiles diferencias o variaciones.",
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit"
+          ]
         }
       ]
     },
@@ -186,7 +228,14 @@
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "La palabra 'captivating' significa que algo es muy interesante o atractivo.",
           "stimulus_en": "In this exercise, you will practice writing reviews. Fill in the blanks with the most suitable words.\n\nThe film was incredibly ___; I couldn't take my eyes off the screen.",
-          "correct_answer": "captivating"
+          "correct_answer": "captivating",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U14_B3_I2",
@@ -195,7 +244,14 @@
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "La 'evaluation' se refiere a la valoración o juicio que se hace sobre un tema.",
           "stimulus_en": "In this exercise, you will practice writing reviews. Fill in the blanks with the most suitable words.\n\nThe article provided a well-balanced ___ of the issue at hand.",
-          "correct_answer": "evaluation"
+          "correct_answer": "evaluation",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U14_B3_I3",
@@ -204,7 +260,14 @@
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "El 'talent' se refiere a la habilidad o capacidad especial que tienen los músicos.",
           "stimulus_en": "In this exercise, you will practice writing reviews. Fill in the blanks with the most suitable words.\n\nIn my opinion, the best part of the concert was the ___ of the musicians.",
-          "correct_answer": "talent"
+          "correct_answer": "talent",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U14_B3_I4",
@@ -213,7 +276,14 @@
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "'Dull' significa algo que es aburrido o poco interesante.",
           "stimulus_en": "In this exercise, you will practice writing reviews. Fill in the blanks with the most suitable words.\n\nI found the book to be quite ___; it didn't hold my attention.",
-          "correct_answer": "dull"
+          "correct_answer": "dull",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U14_B3_I5",
@@ -222,7 +292,14 @@
           "mastery_tag": "writing:b2-reviews-articles",
           "explanation": "'Variety' se refiere a una amplia gama de opciones o tipos de cosas.",
           "stimulus_en": "In this exercise, you will practice writing reviews. Fill in the blanks with the most suitable words.\n\nThis restaurant has a great ___ of dishes that cater to various tastes.",
-          "correct_answer": "variety"
+          "correct_answer": "variety",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit"
+          ]
         }
       ]
     }

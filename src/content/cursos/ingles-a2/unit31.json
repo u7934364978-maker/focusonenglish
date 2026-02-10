@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (enjoy) ________ watching films.",
           "correct_answer": "enjoy",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He spends a lot of time gaming.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ocio",
           "correct_answer": "Leisure",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (gustar) ________ listening to music.",
           "correct_answer": "likes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it a very entertaining evening\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Música",
           "correct_answer": "Music",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ir) ________ to the cinema once a week.",
           "correct_answer": "go",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I enjoy going to the cinema on Fridays.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Juegos/Videojuegos",
           "correct_answer": "Gaming",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / tener) ________ much free time.",
           "correct_answer": "doesn't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is music a big part of my life\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I27",
@@ -249,7 +382,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cine",
           "correct_answer": "Cinema",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I28",
@@ -270,7 +410,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I30",
@@ -278,14 +426,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (jugar) any instruments?",
           "correct_answer": "play",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They go dancing every Saturday night.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I33",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I34",
@@ -314,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Exposición",
           "correct_answer": "Exhibition",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I35",
@@ -335,7 +512,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I37",
@@ -343,14 +528,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (watch) ________ a comedy last night.",
           "correct_answer": "watched",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Saw we a very funny comedy at the theatre\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I41",
@@ -358,7 +557,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Teatro",
           "correct_answer": "Theatre",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I42",
@@ -379,7 +585,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I44",
@@ -387,14 +601,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (love) ________ going to concerts.",
           "correct_answer": "love",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you like watching documentaries?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I48",
@@ -402,7 +630,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Concierto",
           "correct_answer": "Concert",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I49",
@@ -423,7 +658,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I51",
@@ -431,14 +674,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ interested in photography.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i interested in learning photography\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I53",
@@ -493,7 +750,14 @@
             "w7",
             "w8"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I54",
@@ -501,7 +765,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Película",
           "correct_answer": "Film",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I55",
@@ -522,7 +793,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I57",
@@ -530,14 +809,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ your favorite hobby?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My favorite hobby is reading novels.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I61",
@@ -545,7 +838,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Instrumento",
           "correct_answer": "Instrument",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I62",
@@ -566,7 +866,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I64",
@@ -574,14 +882,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / gustar) ________ video games.",
           "correct_answer": "don't like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Loves she painting landscapes\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I68",
@@ -589,7 +911,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pintura",
           "correct_answer": "Painting",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I69",
@@ -610,14 +939,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What kind of films do you like?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I73",
@@ -625,7 +969,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lectura",
           "correct_answer": "Reading",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I74",
@@ -646,14 +997,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't i have much free time during the week\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I79",
@@ -661,7 +1027,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Afición",
           "correct_answer": "Hobby",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I80",
@@ -682,14 +1055,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She plays the piano very well.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I85",
@@ -697,7 +1085,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Baile",
           "correct_answer": "Dancing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I86",
@@ -718,14 +1113,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Went we to a rock concert last month\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I91",
@@ -733,7 +1143,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fotografía",
           "correct_answer": "Photography",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I92",
@@ -754,14 +1171,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There is a new exhibition at the museum.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I96",
@@ -769,7 +1201,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Museo",
           "correct_answer": "Museum",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I97",
@@ -790,112 +1229,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "going",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spends he a lot of time gaming\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was a very entertaining evening.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Enjoy i going to the cinema on fridays\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Music is a big part of my life.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I114",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Go they dancing every saturday night\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We saw a very funny comedy at the theatre.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You do like watching documentaries\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am interested in learning photography.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Favorite my hobby is reading novels\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She loves painting landscapes.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Kind what of films do you like\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I don't have much free time during the week.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Plays she the piano very well\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We went to a rock concert last month.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         },
         {
           "interaction_id": "A2_U31_B31_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is there a new exhibition at the museum\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "going"
+          ]
         }
       ]
     }

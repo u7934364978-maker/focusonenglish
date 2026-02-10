@@ -23,7 +23,13 @@
           "explanation": "En esta oración, estamos hablando de una situación real que puede suceder si se cumple la condición de estudiar mucho.",
           "stimulus_en": "If you study hard, you will pass the exam.\n\nYou will pass the exam if... ...",
           "correct_answer": "you study hard.",
-          "example": "PASS"
+          "example": "PASS",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B1_I2",
@@ -33,7 +39,13 @@
           "explanation": "Aquí se presenta una situación hipotética o irreal, ya que la invitación no ha ocurrido.",
           "stimulus_en": "If they invited me, I would go to the party.\n\nI would go to the party if... ...",
           "correct_answer": "they invited me.",
-          "example": "GO"
+          "example": "GO",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B1_I3",
@@ -43,7 +55,13 @@
           "explanation": "Esta oración indica que el éxito es condicional a un esfuerzo mayor.",
           "stimulus_en": "You won’t succeed if you don’t work harder.\n\nIf you don’t work harder, you won’t succeed. ...",
           "correct_answer": "",
-          "example": "SUCCEED"
+          "example": "SUCCEED",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B1_I4",
@@ -53,7 +71,13 @@
           "explanation": "Esta oración presenta una situación hipotética que depende de la condición mencionada.",
           "stimulus_en": "If she had more time, she would learn a new language.\n\nShe would learn a new language if... ...",
           "correct_answer": "she had more time.",
-          "example": "LEARN"
+          "example": "LEARN",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B1_I5",
@@ -63,7 +87,13 @@
           "explanation": "Aquí, la cancelación de la reunión depende de la condición de que llueva.",
           "stimulus_en": "If it rains tomorrow, we will cancel the meeting.\n\nWe will cancel the meeting if... ...",
           "correct_answer": "it rains tomorrow.",
-          "example": "CANCEL"
+          "example": "CANCEL",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -80,7 +110,14 @@
           "explanation": "En el estilo indirecto, cambiamos el tiempo verbal y agregamos 'that'.",
           "stimulus_en": "She said, 'I am happy.'\n\nShe told me... ...",
           "correct_answer": "that she was happy.",
-          "example": "tell"
+          "example": "tell",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B2_I2",
@@ -90,7 +127,14 @@
           "explanation": "Utilizamos 'if' para las preguntas de sí/no en el estilo indirecto.",
           "stimulus_en": "He asked, 'Are you coming to the party?'\n\nHe wanted to know... ...",
           "correct_answer": "if I was coming to the party.",
-          "example": "want"
+          "example": "want",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B2_I3",
@@ -100,7 +144,14 @@
           "explanation": "El verbo 'will' cambia a 'would' en el tipo indirecto.",
           "stimulus_en": "They said, 'We will leave early.'\n\nThey mentioned that... ...",
           "correct_answer": "they would leave early.",
-          "example": "mention"
+          "example": "mention",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B2_I4",
@@ -110,7 +161,14 @@
           "explanation": "Cambiamos el tiempo y usamos 'if' en el discurso indirecto.",
           "stimulus_en": "She told me, 'I need help.'\n\nShe asked me... ...",
           "correct_answer": "if she needed help.",
-          "example": "ask"
+          "example": "ask",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B2_I5",
@@ -120,7 +178,14 @@
           "explanation": "Usamos la forma negativa 'couldn't' en el discurso indirecto.",
           "stimulus_en": "He said, 'I can't find my keys.'\n\nHe reported that... ...",
           "correct_answer": "he couldn't find his keys.",
-          "example": "report"
+          "example": "report",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -154,7 +219,13 @@
               "text": "is write"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B3_I2",
@@ -181,7 +252,13 @@
               "text": "was clean"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B3_I3",
@@ -208,7 +285,13 @@
               "text": "has built"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B3_I4",
@@ -235,7 +318,13 @@
               "text": "finishes"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U53_B3_I5",
@@ -262,7 +351,13 @@
               "text": "sent"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

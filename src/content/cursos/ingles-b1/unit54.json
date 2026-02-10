@@ -40,7 +40,14 @@
               "text": "To send emails"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U54_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Video games"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U54_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Podcast"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U54_B1_I4",
@@ -121,7 +142,14 @@
               "text": "A brand of computer"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U54_B1_I5",
@@ -148,7 +176,14 @@
               "text": "To send it via email"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +217,14 @@
               "text": "where"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U54_B2_I2",
@@ -209,7 +251,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U54_B2_I3",
@@ -236,7 +285,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "which"
+          "correct_answer": "which",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U54_B2_I4",
@@ -263,7 +319,14 @@
               "text": "when"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U54_B2_I5",
@@ -290,7 +353,14 @@
               "text": "where"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -312,7 +382,14 @@
             "tell",
             "restaurant"
           ],
-          "explanation": "(1) La Sagrada Familia es una famosa basílica en Barcelona. Es un lugar muy conocido que atrae a muchos turistas.\n(2) Los souvenirs son recuerdos que compras durante un viaje para recordar el lugar.\n(3) Hacer amigos es importante al viajar, ya que te ayuda a conocer la cultura local.\n(4) Decir o contar es una forma común de compartir historias y experiencias con amigos.\n(5) La comida es una experiencia importante al viajar, y encontrar buenos restaurantes es clave."
+          "explanation": "(1) La Sagrada Familia es una famosa basílica en Barcelona. Es un lugar muy conocido que atrae a muchos turistas.\n(2) Los souvenirs son recuerdos que compras durante un viaje para recordar el lugar.\n(3) Hacer amigos es importante al viajar, ya que te ayuda a conocer la cultura local.\n(4) Decir o contar es una forma común de compartir historias y experiencias con amigos.\n(5) La comida es una experiencia importante al viajar, y encontrar buenos restaurantes es clave.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit"
+          ]
         }
       ]
     }

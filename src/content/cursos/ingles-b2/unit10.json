@@ -40,7 +40,14 @@
               "text": "To socialize"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U10_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Random stories"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U10_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Use jargon"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U10_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Silent attention"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U10_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Stay silent"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -165,7 +200,14 @@
           "explanation": "Aquí se utiliza 'must have' para expresar una obligación pasada que es muy probable que se haya cumplido.",
           "stimulus_en": "It was necessary for him to attend the meeting. (must)\n\nHe must have ...",
           "correct_answer": "attended the meeting.",
-          "example": "must have"
+          "example": "must have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B2_I2",
@@ -175,7 +217,14 @@
           "explanation": "Aquí 'should have' indica que era una buena idea hacer algo en el pasado.",
           "stimulus_en": "It would have been a good idea to ask for help. (should)\n\nYou should have ...",
           "correct_answer": "asked for help.",
-          "example": "should have"
+          "example": "should have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B2_I3",
@@ -185,7 +234,14 @@
           "explanation": "Se utiliza 'could have' para indicar una posibilidad en el pasado que no se cumplió.",
           "stimulus_en": "It was possible for her to finish the project early. (could)\n\nShe could have ...",
           "correct_answer": "finished the project early.",
-          "example": "could have"
+          "example": "could have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B2_I4",
@@ -195,7 +251,14 @@
           "explanation": "Aquí se expresa un arrepentimiento sobre algo que no se hizo en el pasado.",
           "stimulus_en": "I regret not studying more for the exam. (should)\n\nI should have ...",
           "correct_answer": "studied more for the exam.",
-          "example": "should have"
+          "example": "should have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B2_I5",
@@ -205,7 +268,14 @@
           "explanation": "Usamos 'must have' para expresar una fuerte suposición sobre una acción pasada.",
           "stimulus_en": "It's very likely that he arrived late. (must)\n\nHe must have ...",
           "correct_answer": "arrived late.",
-          "example": "must have"
+          "example": "must have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         }
       ]
     },
@@ -222,7 +292,14 @@
           "explanation": "En esta oración transformamos la parte condicional para reflejar un hecho en el pasado que tiene consecuencias en el presente.",
           "stimulus_en": "If he had studied harder, he would be successful now.\n\nIf he had studied harder, he would have... ...",
           "correct_answer": "been successful now.",
-          "example": "HARD"
+          "example": "HARD",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B3_I2",
@@ -232,7 +309,14 @@
           "explanation": "Se utiliza la estructura condicional mixta para expresar cómo una acción pasada podría haber cambiado su estado actual.",
           "stimulus_en": "She didn’t go to the party. Now she feels lonely.\n\nIf she had gone to the party, she wouldn't feel... ...",
           "correct_answer": "lonely now.",
-          "example": "LONELY"
+          "example": "LONELY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B3_I3",
@@ -242,7 +326,14 @@
           "explanation": "La transformación de esta oración muestra cómo una decisión pasada afecta el presente.",
           "stimulus_en": "They missed the bus. Now they are late.\n\nIf they hadn't missed the bus, they wouldn't be... ...",
           "correct_answer": "late now.",
-          "example": "LATE"
+          "example": "LATE",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B3_I4",
@@ -252,7 +343,14 @@
           "explanation": "Utilizamos esta versión para conectar acciones hipotéticas con resultados presentes.",
           "stimulus_en": "He doesn't exercise. He is not healthy.\n\nIf he exercised, he would be... ...",
           "correct_answer": "healthy now.",
-          "example": "HEALTHY"
+          "example": "HEALTHY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U10_B3_I5",
@@ -262,7 +360,14 @@
           "explanation": "Se usa el pasado perfecto para expresar cómo una acción pasada influyó en su presente.",
           "stimulus_en": "She studied abroad. She has great experiences.\n\nIf she hadn't studied abroad, she wouldn't have had... ...",
           "correct_answer": "such great experiences.",
-          "example": "EXPERIENCES"
+          "example": "EXPERIENCES",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     }

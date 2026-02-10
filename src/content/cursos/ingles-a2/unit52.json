@@ -18,14 +18,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (write) ________ a report this afternoon.",
           "correct_answer": "am writing",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is writing a very long report.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I5",
@@ -46,7 +62,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I7",
@@ -67,7 +91,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I9",
@@ -75,14 +107,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (need) any help with that?",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Desk my is always covered in papers\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I12",
@@ -103,7 +151,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I13",
@@ -111,7 +167,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Conferencia",
           "correct_answer": "Conference",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I14",
@@ -132,7 +196,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I16",
@@ -140,14 +212,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / use) ________ that software anymore.",
           "correct_answer": "don't use",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Our boss is very demanding but fair.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I19",
@@ -168,7 +256,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I20",
@@ -176,7 +272,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Informe",
           "correct_answer": "Report",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I21",
@@ -197,7 +301,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I23",
@@ -205,14 +317,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (answer) ________ many emails every day.",
           "correct_answer": "answer",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we working on an exciting new project for a client\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I26",
@@ -233,7 +361,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I27",
@@ -241,7 +377,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ordenador",
           "correct_answer": "Computer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I28",
@@ -262,7 +406,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I30",
@@ -270,14 +422,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (tener) ________ a conference last week.",
           "correct_answer": "had",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The office is located in the city center.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I33",
@@ -298,7 +466,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I34",
@@ -306,7 +482,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Proyecto",
           "correct_answer": "Project",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I35",
@@ -327,7 +511,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I37",
@@ -335,14 +527,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / tener) ________ any meetings today.",
           "correct_answer": "doesn't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spend i most of my day answering emails\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I40",
@@ -350,7 +558,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Compañero/a de trabajo",
           "correct_answer": "Colleague",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I41",
@@ -371,7 +587,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I43",
@@ -379,14 +603,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ser/estar) ________ working on a new project.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My colleagues are very friendly and supportive.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I46",
@@ -394,7 +634,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Personal",
           "correct_answer": "Staff",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I47",
@@ -415,7 +663,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I49",
@@ -423,14 +679,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you finish the presentation?",
           "correct_answer": "Did",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I50",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he the manager of the marketing department\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I53",
@@ -438,7 +710,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Departamento",
           "correct_answer": "Department",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I56",
@@ -446,14 +726,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The office (ser/estar) ________ on the fifth floor.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I57",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The conference will be held in the main hall.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I60",
@@ -461,7 +757,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Archivo",
           "correct_answer": "File",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I63",
@@ -469,14 +773,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ the CEO of the company.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I64",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she going on a business trip to new york\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I67",
@@ -484,7 +804,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Presentación",
           "correct_answer": "Presentation",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I68",
@@ -505,14 +833,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I70",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I need to print these documents before the meeting.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I74",
@@ -533,14 +877,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Gave she a brilliant presentation to the staff\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I80",
@@ -561,14 +921,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have a team meeting every Monday morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I85",
@@ -576,14 +952,30 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Viaje de negocios",
           "correct_answer": "Business trip",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Office the is very busy at this time of year\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I90",
@@ -591,14 +983,30 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Documento",
           "correct_answer": "Document",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We use a special software to manage our files.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I96",
@@ -606,7 +1014,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Escritorio",
           "correct_answer": "Desk",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I97",
@@ -627,28 +1043,60 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he writing a very long report\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My desk is always covered in papers.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Boss our is very demanding but fair\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I112",
@@ -656,14 +1104,30 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cliente",
           "correct_answer": "Client",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We are working on an exciting new project for a client.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I119",
@@ -684,14 +1148,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Office the is located in the city center\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I124",
@@ -712,77 +1192,165 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I spend most of my day answering emails.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Colleagues my are very friendly and supportive\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is the manager of the marketing department.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Conference the will be held in the main hall\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is going on a business trip to New York.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need i to print these documents before the meeting\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She gave a brilliant presentation to the staff.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we a team meeting every monday morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I152",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The office is very busy at this time of year.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         },
         {
           "interaction_id": "A2_U52_B52_I155",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Use we a special software to manage our files\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "mustnt",
+            "dont",
+            "have"
+          ]
         }
       ]
     }

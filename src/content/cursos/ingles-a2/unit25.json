@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Did you ________ (gustar) your primary school?",
           "correct_answer": "like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have many happy memories of my childhood.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dibujo",
           "correct_answer": "Drawing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / tener) ________ computers at school.",
           "correct_answer": "didn't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Didn't we have smartphones back then\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Amigo/a",
           "correct_answer": "Friend",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ a lot of toys.",
           "correct_answer": "had got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What did you want to be when you were little?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pequeño/a",
           "correct_answer": "Little",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (jugar) ________ outside every day.",
           "correct_answer": "played",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was i very shy when i was a child\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I28",
@@ -262,7 +395,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I30",
@@ -270,14 +411,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (vivir) ________ in a small house when I was young.",
           "correct_answer": "lived",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The playground was always full of children.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I33",
@@ -298,7 +453,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I35",
@@ -319,7 +482,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I37",
@@ -327,14 +498,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / ir) ________ to bed late.",
           "correct_answer": "didn't go",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had i a best friend named david\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I41",
@@ -342,7 +527,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Escuela primaria",
           "correct_answer": "Primary school",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I44",
@@ -350,14 +542,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you have a pet when you were a child?",
           "correct_answer": "Did",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We used to go to the park every afternoon.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I48",
@@ -365,7 +571,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Crecer",
           "correct_answer": "Grow up",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I51",
@@ -373,14 +586,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ very good at drawing.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Learned i to ride a bike when i was six\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I56",
@@ -401,7 +628,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I58",
@@ -409,14 +644,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "My favourite subject (ser/estar) ________ art.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We spent all summer at the beach.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I62",
@@ -424,7 +673,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Joven",
           "correct_answer": "Young",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I63",
@@ -445,7 +701,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I65",
@@ -453,14 +717,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (querer) ________ to be an astronaut.",
           "correct_answer": "wanted",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Loved i my primary school teacher\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I68",
@@ -468,14 +746,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Juguete",
           "correct_answer": "Toy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My favorite school subject was history.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I73",
@@ -483,7 +775,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mejor amigo/a",
           "correct_answer": "Best friend",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I74",
@@ -504,14 +803,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Favorite my toy was a big red car\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I80",
@@ -532,14 +846,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Did you have any pets when you were young?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I86",
@@ -560,14 +889,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Grew i up in a very quiet neighborhood\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I90",
@@ -575,14 +919,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Juego",
           "correct_answer": "Game",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We played hide and seek in the garden.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I95",
@@ -590,112 +948,224 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Patio de recreo",
           "correct_answer": "Playground",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I97",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i many happy memories of my childhood\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I101",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We didn't have smartphones back then.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Did what you want to be when you were little\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I was very shy when I was a child.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Playground the was always full of children\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I had a best friend named David.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I120",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Used we to go to the park every afternoon\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I learned to ride a bike when I was six.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spent we all summer at the beach\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I loved my primary school teacher.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Favorite my school subject was history\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My favorite toy was a big red car.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You did have any pets when you were young\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I grew up in a very quiet neighborhood.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         },
         {
           "interaction_id": "A2_U25_B25_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Played we hide and seek in the garden\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "childhood",
+            "school",
+            "days"
+          ]
         }
       ]
     }

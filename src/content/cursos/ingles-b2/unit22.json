@@ -23,7 +23,14 @@
           "explanation": "Esta oración usa una mezcla de tiempos: el pasado (tercera condicional) y el presente (segunda condicional).",
           "stimulus_en": "If he had studied harder, he would be better at math.\n\nIf he had studied harder, ...",
           "correct_answer": "he would have been better at math.",
-          "example": "BETTER"
+          "example": "BETTER",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U22_B1_I2",
@@ -33,7 +40,14 @@
           "explanation": "Aquí, la primera parte es un hecho irreal que cambia el resultado en el pasado.",
           "stimulus_en": "If it weren't raining, we would have gone to the park.\n\nIf it had not been raining, ...",
           "correct_answer": "we would have gone to the park.",
-          "example": "RAINING"
+          "example": "RAINING",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U22_B1_I3",
@@ -43,7 +57,14 @@
           "explanation": "Esta oración muestra cómo una decisión pasada afecta las posibilidades actuales.",
           "stimulus_en": "She didn't take the job, so she can't afford a new car.\n\nIf she had taken the job, ...",
           "correct_answer": "she could afford a new car.",
-          "example": "TAKEN"
+          "example": "TAKEN",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U22_B1_I4",
@@ -53,7 +74,14 @@
           "explanation": "El tiempo pasado perfecto se utiliza aquí para referirse a una falta de conocimiento en el pasado que causó no asistir.",
           "stimulus_en": "If I had known about the meeting, I would come.\n\nIf I had known about the meeting, ...",
           "correct_answer": "I would have come.",
-          "example": "KNOWN"
+          "example": "KNOWN",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U22_B1_I5",
@@ -63,7 +91,14 @@
           "explanation": "Aquí vemos cómo una preferencia en el pasado influye en el comportamiento en el presente.",
           "stimulus_en": "I don't like the food, so I won't eat much.\n\nIf I had liked the food, ...",
           "correct_answer": "I would have eaten more.",
-          "example": "LIKED"
+          "example": "LIKED",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -85,7 +120,14 @@
             "Affected",
             "Preparing"
           ],
-          "explanation": "(1) En esta oración, 'shocked' es un participio pasado que describe la reacción de la persona.\n(2) En esta oración, 'written' es un participio pasado que proporciona información adicional sobre el libro.\n(3) Aquí, 'climbing' es un participio presente que describe la acción que realizaron durante un tiempo.\n(4) En esta oración, 'affected' es un participio pasado que describe el impacto del temporal en el vuelo.\n(5) Aquí, 'preparing' es un participio presente que indica la acción continua de alistarse para un nuevo desafío."
+          "explanation": "(1) En esta oración, 'shocked' es un participio pasado que describe la reacción de la persona.\n(2) En esta oración, 'written' es un participio pasado que proporciona información adicional sobre el libro.\n(3) Aquí, 'climbing' es un participio presente que describe la acción que realizaron durante un tiempo.\n(4) En esta oración, 'affected' es un participio pasado que describe el impacto del temporal en el vuelo.\n(5) Aquí, 'preparing' es un participio presente que indica la acción continua de alistarse para un nuevo desafío.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -107,7 +149,14 @@
             "should not have forgotten",
             "might have been"
           ],
-          "explanation": "(1) La oración implica que estudiar más era la acción correcta, pero no se hizo.\n(2) Se infiere que es muy probable que hayan salido porque la fiesta ya comenzó.\n(3) Esto sugiere que había la posibilidad de que la llamara, pero no lo hizo.\n(4) Aquí se expresa que era importante recordar el cumpleaños y no lo hizo.\n(5) Suponemos que tenían la posibilidad de estar en la reunión, pero no lo hicieron."
+          "explanation": "(1) La oración implica que estudiar más era la acción correcta, pero no se hizo.\n(2) Se infiere que es muy probable que hayan salido porque la fiesta ya comenzó.\n(3) Esto sugiere que había la posibilidad de que la llamara, pero no lo hizo.\n(4) Aquí se expresa que era importante recordar el cumpleaños y no lo hizo.\n(5) Suponemos que tenían la posibilidad de estar en la reunión, pero no lo hicieron.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         }
       ]
     }

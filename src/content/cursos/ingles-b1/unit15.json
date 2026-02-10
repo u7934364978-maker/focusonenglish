@@ -28,7 +28,13 @@
             "jumped",
             "screamed"
           ],
-          "explanation": "(1) La palabra 'quiet' significa tranquilo. Se usa para describir un lugar donde hay poco ruido.\n(2) La palabra 'went' es el pasado de 'go'. Se usa para hablar de algo que ya ocurrió.\n(3) La palabra 'swam' es el pasado de 'swim'. Se utiliza para indicar que la acción de nadar ya pasó.\n(4) La palabra 'jumped' es el pasado de 'jump'. Se usa para describir la acción de saltar en el pasado.\n(5) La palabra 'screamed' es el pasado de 'scream'. Se usa para expresar una fuerte emoción, como la felicidad o el miedo."
+          "explanation": "(1) La palabra 'quiet' significa tranquilo. Se usa para describir un lugar donde hay poco ruido.\n(2) La palabra 'went' es el pasado de 'go'. Se usa para hablar de algo que ya ocurrió.\n(3) La palabra 'swam' es el pasado de 'swim'. Se utiliza para indicar que la acción de nadar ya pasó.\n(4) La palabra 'jumped' es el pasado de 'jump'. Se usa para describir la acción de saltar en el pasado.\n(5) La palabra 'screamed' es el pasado de 'scream'. Se usa para expresar una fuerte emoción, como la felicidad o el miedo.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +51,14 @@
           "explanation": "La frase usa 'was' para formar el pasado continuo con el verbo 'read'.",
           "stimulus_en": "I was reading a book when you called.\n\nI... ...",
           "correct_answer": "was reading a book when you called.",
-          "example": "READ"
+          "example": "READ",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U15_B2_I2",
@@ -55,7 +68,14 @@
           "explanation": "El pasado continuo se forma con 'were' y el verbo en -ing.",
           "stimulus_en": "The kids were playing outside when it started to rain.\n\nThe kids... ...",
           "correct_answer": "were playing outside when it started to rain.",
-          "example": "PLAY"
+          "example": "PLAY",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U15_B2_I3",
@@ -65,7 +85,14 @@
           "explanation": "Usamos 'was' para el sujeto singular y el verbo 'cook' en -ing.",
           "stimulus_en": "She was cooking dinner when I arrived.\n\nShe... ...",
           "correct_answer": "was cooking dinner when I arrived.",
-          "example": "COOK"
+          "example": "COOK",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U15_B2_I4",
@@ -75,7 +102,14 @@
           "explanation": "El pasado continuo se forma con 'were' y el verbo 'watch' en -ing.",
           "stimulus_en": "They were watching TV when the power went out.\n\nThey... ...",
           "correct_answer": "were watching TV when the power went out.",
-          "example": "WATCH"
+          "example": "WATCH",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U15_B2_I5",
@@ -85,7 +119,14 @@
           "explanation": "Aquí 'was' se combina con el verbo 'study' en -ing para el pasado continuo.",
           "stimulus_en": "I was studying when my friend texted me.\n\nI... ...",
           "correct_answer": "was studying when my friend texted me.",
-          "example": "STUDY"
+          "example": "STUDY",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -119,7 +160,14 @@
               "text": "Animals"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U15_B3_I2",
@@ -146,7 +194,14 @@
               "text": "Air"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U15_B3_I3",
@@ -173,7 +228,14 @@
               "text": "Pollution"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U15_B3_I4",
@@ -200,7 +262,14 @@
               "text": "Oil"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U15_B3_I5",
@@ -227,7 +296,14 @@
               "text": "Pollute water"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

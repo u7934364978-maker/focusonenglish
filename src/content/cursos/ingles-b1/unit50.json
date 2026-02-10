@@ -28,7 +28,14 @@
             "could",
             "had finished"
           ],
-          "explanation": "(1) En el discurso indirecto, hay un cambio de tiempo verbal. 'Am' se convierte en 'was'.\n(2) En el discurso indirecto, 'will' se convierte en 'would' y el tiempo cambia al futuro.\n(3) La pregunta se transforma en una afirmación, y 'are' cambia a 'was'.\n(4) El verbo modal 'can' se convierte en 'could' en el discurso indirecto.\n(5) En el discurso indirecto, 'have' cambia a 'had' para indicar el tiempo pasado."
+          "explanation": "(1) En el discurso indirecto, hay un cambio de tiempo verbal. 'Am' se convierte en 'was'.\n(2) En el discurso indirecto, 'will' se convierte en 'would' y el tiempo cambia al futuro.\n(3) La pregunta se transforma en una afirmación, y 'are' cambia a 'was'.\n(4) El verbo modal 'can' se convierte en 'could' en el discurso indirecto.\n(5) En el discurso indirecto, 'have' cambia a 'had' para indicar el tiempo pasado.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,13 @@
             "see",
             "were"
           ],
-          "explanation": "(1) Usamos el presente simple en la primera condicional para situaciones reales en el futuro.\n(2) En la primera condicional, usamos el presente simple para la condición.\n(3) En la segunda condicional, usamos el pasado simple para situaciones hipotéticas.\n(4) En la primera condicional, usamos el presente simple en la cláusula 'if'.\n(5) En la segunda condicional, usamos 'were' para todas las personas en situaciones hipotéticas."
+          "explanation": "(1) Usamos el presente simple en la primera condicional para situaciones reales en el futuro.\n(2) En la primera condicional, usamos el presente simple para la condición.\n(3) En la segunda condicional, usamos el pasado simple para situaciones hipotéticas.\n(4) En la primera condicional, usamos el presente simple en la cláusula 'if'.\n(5) En la segunda condicional, usamos 'were' para todas las personas en situaciones hipotéticas.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -179,7 +192,14 @@
             "4": "o2",
             "5": "o1"
           },
-          "explanation": "(1) La respuesta correcta es 'start', porque los estudiantes comienzan la escuela a una edad temprana.\n(2) La respuesta correcta es 'go', que indica que los estudiantes se dirigen a la escuela secundaria.\n(3) La respuesta correcta es 'study', porque los estudiantes van a la universidad para aprender.\n(4) La respuesta correcta es 'interesting', ya que los estudiantes eligen temas que son atractivos para ellos.\n(5) La respuesta correcta es 'exams', que son evaluaciones formales en el sistema educativo."
+          "explanation": "(1) La respuesta correcta es 'start', porque los estudiantes comienzan la escuela a una edad temprana.\n(2) La respuesta correcta es 'go', que indica que los estudiantes se dirigen a la escuela secundaria.\n(3) La respuesta correcta es 'study', porque los estudiantes van a la universidad para aprender.\n(4) La respuesta correcta es 'interesting', ya que los estudiantes eligen temas que son atractivos para ellos.\n(5) La respuesta correcta es 'exams', que son evaluaciones formales en el sistema educativo.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

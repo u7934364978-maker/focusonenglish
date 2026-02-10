@@ -40,7 +40,15 @@
               "text": "Hey"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U19_B1_I2",
@@ -67,7 +75,15 @@
               "text": "Take care"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U19_B1_I3",
@@ -94,7 +110,15 @@
               "text": "Professional tone"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U19_B1_I4",
@@ -121,7 +145,15 @@
               "text": "What is your family doing?"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U19_B1_I5",
@@ -148,7 +180,15 @@
               "text": "Friendly tone"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +210,13 @@
             "CHANGES",
             "SUSTAINABLE"
           ],
-          "explanation": "(1) La palabra 'pollution' es un sustantivo que se refiere al daño causado al medio ambiente.\n(2) La palabra 'solutions' es el plural del sustantivo 'solution', que significa 'respuesta' a un problema.\n(3) La palabra 'action' se refiere a un acto o acción que se toma, especialmente en un contexto de cambio ambiental.\n(4) La palabra 'changes' es el plural de 'change', y aquí se refiere a múltiples alteraciones en el clima.\n(5) La palabra 'sustainable' es un adjetivo que describe prácticas que no agotan los recursos del medio ambiente."
+          "explanation": "(1) La palabra 'pollution' es un sustantivo que se refiere al daño causado al medio ambiente.\n(2) La palabra 'solutions' es el plural del sustantivo 'solution', que significa 'respuesta' a un problema.\n(3) La palabra 'action' se refiere a un acto o acción que se toma, especialmente en un contexto de cambio ambiental.\n(4) La palabra 'changes' es el plural de 'change', y aquí se refiere a múltiples alteraciones en el clima.\n(5) La palabra 'sustainable' es un adjetivo que describe prácticas que no agotan los recursos del medio ambiente.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit"
+          ]
         }
       ]
     },
@@ -187,7 +233,14 @@
           "explanation": "En el discurso indirecto, el tiempo verbal cambia de presente a pasado. 'Am' se convierte en 'was'.",
           "stimulus_en": "She said, 'I am happy.'\n\nShe said that she was... ...",
           "correct_answer": "happy.",
-          "example": "happy"
+          "example": "happy",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U19_B3_I2",
@@ -197,7 +250,14 @@
           "explanation": "Cuando reportamos lo que alguien dijo, cambiamos 'must' a 'had to' en pasado.",
           "stimulus_en": "He told her, 'You must study hard.'\n\nHe told her that she had to... ...",
           "correct_answer": "study hard.",
-          "example": "study"
+          "example": "study",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U19_B3_I3",
@@ -207,7 +267,14 @@
           "explanation": "El verbo auxiliar 'can' se transforma en 'could' en el discurso indirecto.",
           "stimulus_en": "They asked, 'Can we go to the park?'\n\nThey asked if they could... ...",
           "correct_answer": "go to the park.",
-          "example": "go"
+          "example": "go",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U19_B3_I4",
@@ -217,7 +284,14 @@
           "explanation": "El tiempo futuro 'will' se convierte en 'would' y 'tomorrow' se convierte en 'the next day'.",
           "stimulus_en": "She said, 'I will call you tomorrow.'\n\nShe said that she would... ...",
           "correct_answer": "call me the next day.",
-          "example": "call"
+          "example": "call",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U19_B3_I5",
@@ -227,7 +301,14 @@
           "explanation": "Usamos 'not to' para transformar un mandato o consejo en indirecto.",
           "stimulus_en": "He told me, 'Don't be late.'\n\nHe told me not to be... ...",
           "correct_answer": "late.",
-          "example": "late"
+          "example": "late",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     }

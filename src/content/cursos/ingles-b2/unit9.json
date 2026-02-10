@@ -40,7 +40,14 @@
               "text": "More distractions"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U9_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Sedentary lifestyle"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U9_B1_I3",
@@ -94,7 +108,14 @@
               "text": "By ignoring feedback"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U9_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Living in isolation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U9_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Avoiding hobbies"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -277,7 +312,15 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) La forma correcta de usar el verbo en este contexto es el gerundio, que indica una acción continua.\n(2) Aquí se hace referencia a la influencia general de cambio climático, y 'impact' es el término más adecuado.\n(3) En este caso, un adjetivo describe las consecuencias, por lo que se necesita 'serious'.\n(4) El adjetivo 'misleading' describe la información que crea confusión y no es clara.\n(5) En este contexto, se requiere un sustantivo que indique el proceso de examinar la evidencia, por lo que 'analysis' es correcto."
+          "explanation": "(1) La forma correcta de usar el verbo en este contexto es el gerundio, que indica una acción continua.\n(2) Aquí se hace referencia a la influencia general de cambio climático, y 'impact' es el término más adecuado.\n(3) En este caso, un adjetivo describe las consecuencias, por lo que se necesita 'serious'.\n(4) El adjetivo 'misleading' describe la información que crea confusión y no es clara.\n(5) En este contexto, se requiere un sustantivo que indique el proceso de examinar la evidencia, por lo que 'analysis' es correcto.",
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -299,7 +342,14 @@
             "had known",
             "wish I had gone"
           ],
-          "explanation": "(1) Usamos 'wish + past perfect' para expresar arrepentimiento sobre algo que no hicimos en el pasado.\n(2) 'If only' se usa para expresar un deseo fuerte sobre una situación que no es real. En este caso, usamos 'were' para situaciones irreales.\n(3) Usamos 'wish + past perfect' para expresar un arrepentimiento sobre una acción negativa en el pasado.\n(4) En este caso, 'if only + past perfect' expresa un deseo de que algo diferente hubiera sucedido en el pasado.\n(5) Aquí, 'wish + past perfect' indica un deseo de haber hecho algo que no hicimos."
+          "explanation": "(1) Usamos 'wish + past perfect' para expresar arrepentimiento sobre algo que no hicimos en el pasado.\n(2) 'If only' se usa para expresar un deseo fuerte sobre una situación que no es real. En este caso, usamos 'were' para situaciones irreales.\n(3) Usamos 'wish + past perfect' para expresar un arrepentimiento sobre una acción negativa en el pasado.\n(4) En este caso, 'if only + past perfect' expresa un deseo de que algo diferente hubiera sucedido en el pasado.\n(5) Aquí, 'wish + past perfect' indica un deseo de haber hecho algo que no hicimos.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     }

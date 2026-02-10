@@ -40,7 +40,15 @@
               "text": "has been working"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U33_B1_I2",
@@ -67,7 +75,15 @@
               "text": "has trained"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U33_B1_I3",
@@ -94,7 +110,15 @@
               "text": "have discussed"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U33_B1_I4",
@@ -121,7 +145,15 @@
               "text": "has been waiting"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U33_B1_I5",
@@ -148,7 +180,15 @@
               "text": "is teaching"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -170,7 +210,13 @@
             "GRADUATION",
             "COMPETITIVE"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit"
+          ]
         }
       ]
     },
@@ -192,7 +238,13 @@
             "action",
             "responsibility"
           ],
-          "explanation": "(1) La palabra 'pollution' es el sustantivo que se refiere a la contaminación.\n(2) La palabra 'reduction' es el sustantivo que describe el acto de reducir.\n(3) La palabra 'recycling' es el sustantivo que describe el proceso de reciclaje.\n(4) La palabra 'action' es el sustantivo que se refiere a la acción realizada por las personas.\n(5) La palabra 'responsibility' es el sustantivo que implica la responsabilidad que tenemos."
+          "explanation": "(1) La palabra 'pollution' es el sustantivo que se refiere a la contaminación.\n(2) La palabra 'reduction' es el sustantivo que describe el acto de reducir.\n(3) La palabra 'recycling' es el sustantivo que describe el proceso de reciclaje.\n(4) La palabra 'action' es el sustantivo que se refiere a la acción realizada por las personas.\n(5) La palabra 'responsibility' es el sustantivo que implica la responsabilidad que tenemos.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit"
+          ]
         }
       ]
     }

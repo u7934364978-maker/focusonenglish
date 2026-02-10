@@ -32,7 +32,14 @@
           "explanation": "En esta oración se usa el condicional de primera clase, donde 'if' introduce la condición.",
           "stimulus_en": "If it rains, I will stay home.\n\nI will stay home if it... ...",
           "correct_answer": "rains.",
-          "example": "stay"
+          "example": "stay",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B1_I2",
@@ -42,7 +49,14 @@
           "explanation": "Esta es una oración condicional de segunda clase que habla de una situación hipotética.",
           "stimulus_en": "If I had a car, I would drive to work.\n\nI would drive to work if I... ...",
           "correct_answer": "had a car.",
-          "example": "drive"
+          "example": "drive",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B1_I3",
@@ -52,7 +66,14 @@
           "explanation": "Aquí se utiliza el primer condicional, que se refiere a una situación real.",
           "stimulus_en": "If you study hard, you will pass the exam.\n\nYou will pass the exam if you... ...",
           "correct_answer": "study hard.",
-          "example": "pass"
+          "example": "pass",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B1_I4",
@@ -62,7 +83,14 @@
           "explanation": "Esta es una estructura de segundo condicional que habla de una situación irreal presente.",
           "stimulus_en": "If I were you, I would choose that option.\n\nI would choose that option if I... ...",
           "correct_answer": "were you.",
-          "example": "choose"
+          "example": "choose",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B1_I5",
@@ -72,7 +100,14 @@
           "explanation": "Este es otro ejemplo del primer condicional, donde la condición es real y futura.",
           "stimulus_en": "If he calls, I will answer.\n\nI will answer if he... ...",
           "correct_answer": "calls.",
-          "example": "answer"
+          "example": "answer",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "lifestyles",
+            "routines"
+          ]
         }
       ]
     },
@@ -106,7 +141,15 @@
               "text": "is watching"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B2_I2",
@@ -133,7 +176,15 @@
               "text": "are playing"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B2_I3",
@@ -160,7 +211,15 @@
               "text": "is walking"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B2_I4",
@@ -187,7 +246,15 @@
               "text": "not listening"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "lifestyles",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B1_U1_B2_I5",
@@ -214,7 +281,15 @@
               "text": "are you doing"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "lifestyles",
+            "routines"
+          ]
         }
       ]
     },
@@ -248,7 +323,15 @@
               "text": "Saving water"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "lifestyles",
+            "routines",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U1_B3_I2",
@@ -275,7 +358,15 @@
               "text": "Oil"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "lifestyles",
+            "routines",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U1_B3_I3",
@@ -302,7 +393,15 @@
               "text": "Throw trash on the ground"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "lifestyles",
+            "routines",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U1_B3_I4",
@@ -329,7 +428,15 @@
               "text": "All of the above"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "lifestyles",
+            "routines",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U1_B3_I5",
@@ -356,7 +463,15 @@
               "text": "Extent of pollution"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "lifestyles",
+            "routines",
+            "grammar"
+          ]
         }
       ]
     }

@@ -22,7 +22,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "En esta oración, usamos inversión porque comenzamos con una palabra que indica frecuencia (rarely). En inglés formal, esto requiere la inversión del sujeto y el verbo auxiliar.",
           "stimulus_en": "In the following sentences, complete the gaps with appropriate words for inversion.\n\n____ (rarely) have I encountered such a dedicated team in my career.",
-          "correct_answer": "Rarely"
+          "correct_answer": "Rarely",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U7_B1_I2",
@@ -31,7 +37,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "Al iniciar con 'never', debemos invertir el sujeto y el verbo auxiliar. Esto es típico en inglés formal.",
           "stimulus_en": "In the following sentences, complete the gaps with appropriate words for inversion.\n\nNever ____ (I/see) such an impressive presentation before.",
-          "correct_answer": "have I seen"
+          "correct_answer": "have I seen",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U7_B1_I3",
@@ -40,7 +52,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La palabra 'seldom' requiere una inversión del sujeto y el verbo, que es un uso correcto en contextos formales.",
           "stimulus_en": "In the following sentences, complete the gaps with appropriate words for inversion.\n\nSeldom ____ (we/have) the opportunity to work on such prestigious projects.",
-          "correct_answer": "do we have"
+          "correct_answer": "do we have",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U7_B1_I4",
@@ -49,7 +67,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La palabra 'hardly' también requiere que utilicemos la inversión del sujeto y el verbo. Es fundamental para mantener la formalidad en la oración.",
           "stimulus_en": "In the following sentences, complete the gaps with appropriate words for inversion.\n\nHardly ____ (they/prepare) for the upcoming changes in the market.",
-          "correct_answer": "had they prepared"
+          "correct_answer": "had they prepared",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U7_B1_I5",
@@ -58,7 +82,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La frase comienza con 'no sooner' y requiere inversión del sujeto y el verbo auxiliar, lo que es típico en construcciones formales.",
           "stimulus_en": "In the following sentences, complete the gaps with appropriate words for inversion.\n\nNo sooner ____ (the team/submit) the report than feedback arrived.",
-          "correct_answer": "had the team submitted"
+          "correct_answer": "had the team submitted",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     },
@@ -80,7 +110,14 @@
             "had had",
             "had completed"
           ],
-          "explanation": "(1) En esta oración, el resultado 'would have succeeded' se refiere a una acción que no ocurrió en el pasado.\n(2) Aquí se usa el pasado perfecto para expresar una acción que no se realizó en el pasado y su impacto en el presente.\n(3) Esta oración muestra cómo una acción pasada afecta a un resultado pasado.\n(4) Usamos 'had had' para referirnos a una falta de tiempo en el pasado que afecta el presente.\n(5) Esta oración muestra que la falta de acción en el pasado afecta la situación actual."
+          "explanation": "(1) En esta oración, el resultado 'would have succeeded' se refiere a una acción que no ocurrió en el pasado.\n(2) Aquí se usa el pasado perfecto para expresar una acción que no se realizó en el pasado y su impacto en el presente.\n(3) Esta oración muestra cómo una acción pasada afecta a un resultado pasado.\n(4) Usamos 'had had' para referirnos a una falta de tiempo en el pasado que afecta el presente.\n(5) Esta oración muestra que la falta de acción en el pasado afecta la situación actual.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -114,6 +151,14 @@
               "id": "o4",
               "text": "A balanced approach emphasizing adaptation."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -141,6 +186,14 @@
               "id": "o4",
               "text": "A balanced approach emphasizing adaptation."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -168,6 +221,14 @@
               "id": "o4",
               "text": "A balanced approach emphasizing adaptation."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -195,6 +256,14 @@
               "id": "o4",
               "text": "More extreme weather patterns."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         },
         {
@@ -222,6 +291,14 @@
               "id": "o4",
               "text": "More extreme weather patterns."
             }
+          ],
+          "complexity": 3,
+          "concept_tags": [
+            "reading",
+            "complex",
+            "texts",
+            "unit",
+            "grammar"
           ]
         }
       ]

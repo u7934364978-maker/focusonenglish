@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (practice) ________ every day.",
           "correct_answer": "practice",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She loves going for a run in the morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Competición",
           "correct_answer": "Competition",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are you ________ (interested) in basketball?",
           "correct_answer": "interested",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Coach the was very happy with the results\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Entrenador/a",
           "correct_answer": "Coach",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I16",
@@ -127,14 +184,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (jugar) ________ football every Saturday.",
           "correct_answer": "play",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We won the match two-zero.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I19",
@@ -155,7 +224,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I20",
@@ -163,7 +239,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Practicar/Entrenar",
           "correct_answer": "Practice",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I21",
@@ -184,7 +266,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I23",
@@ -192,14 +281,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / hacer) ________ yoga.",
           "correct_answer": "don't do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Won who the gold medal\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I26",
@@ -220,7 +321,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I27",
@@ -228,7 +336,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Gimnasio",
           "correct_answer": "Gym",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I28",
@@ -249,7 +363,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I30",
@@ -257,14 +378,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (querer) ________ to run a marathon.",
           "correct_answer": "wants",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They lost the game last night.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I33",
@@ -285,7 +418,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I34",
@@ -293,7 +433,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fútbol",
           "correct_answer": "Football",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I35",
@@ -314,7 +460,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I37",
@@ -322,14 +475,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / poder) ________ swim very fast.",
           "correct_answer": "can't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You do play any team sports\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I41",
@@ -350,7 +515,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I43",
@@ -358,14 +530,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ir) ________ swimming on Tuesdays.",
           "correct_answer": "goes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I go to the gym three times a week.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I46",
@@ -373,7 +557,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Partido",
           "correct_answer": "Match",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I47",
@@ -394,7 +584,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I49",
@@ -402,14 +599,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ training for a competition.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I50",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he a professional tennis player\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I56",
@@ -417,14 +626,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (win) ________ the match yesterday.",
           "correct_answer": "won",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I57",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She wants to join a yoga class.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I60",
@@ -432,7 +653,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ejercicio",
           "correct_answer": "Exercise",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I61",
@@ -453,7 +680,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I63",
@@ -461,14 +695,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ very good at tennis.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I64",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Important it's to exercise regularly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I66",
@@ -476,14 +722,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Baloncesto",
           "correct_answer": "Basketball",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I69",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm training for a cycling competition.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I72",
@@ -491,7 +749,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Natación",
           "correct_answer": "Swimming",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I73",
@@ -512,14 +776,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I75",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Not i'm very good at basketball\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I78",
@@ -527,7 +804,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Jugador/a",
           "correct_answer": "Player",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I79",
@@ -548,14 +831,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I81",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Swimming is great for your health.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I84",
@@ -563,7 +859,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tenis",
           "correct_answer": "Tennis",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I85",
@@ -584,14 +886,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I87",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we football practice at 5 pm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I90",
@@ -599,7 +914,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Equipo",
           "correct_answer": "Team",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I91",
@@ -620,14 +941,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is the best player in the team.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I97",
@@ -648,112 +982,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "sports",
+            "fitness",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Loves she going for a run in the morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The coach was very happy with the results.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I105",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Won we the match two-zero\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Who won the gold medal?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Lost they the game last night\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you play any team sports?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Go i to the gym three times a week\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is a professional tennis player.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wants she to join a yoga class\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It's important to exercise regularly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I131",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Training i'm for a cycling competition\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm not very good at basketball.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is swimming great for your health\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have football practice at 5 PM.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         },
         {
           "interaction_id": "A2_U15_B15_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he the best player in the team\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "sports",
+            "fitness"
+          ]
         }
       ]
     }

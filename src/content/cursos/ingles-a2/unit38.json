@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Penicillin (ser/estar) ________ discovered by Alexander Fleming.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Who do you think was the greatest inventor?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Útil",
           "correct_answer": "Useful",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Computers (ser/estar) ________ getting smaller and faster.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is electricity essential for modern life\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Resolver",
           "correct_answer": "Solve",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I16",
@@ -127,14 +184,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / tener) ________ electricity in the past.",
           "correct_answer": "didn't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The internet is a very useful tool for learning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I19",
@@ -155,7 +224,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I20",
@@ -163,7 +239,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Desarrollar",
           "correct_answer": "Develop",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I21",
@@ -184,7 +266,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I23",
@@ -192,14 +281,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (hacer/fabricar) ________ an important discovery.",
           "correct_answer": "made",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she a very talented scientist\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I26",
@@ -220,7 +321,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I27",
@@ -228,7 +336,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Crear",
           "correct_answer": "Create",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I28",
@@ -249,7 +363,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I30",
@@ -257,14 +378,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The light bulb (ser/estar) ________ invented by Edison.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The discovery of fire changed human history.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I33",
@@ -285,7 +418,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I34",
@@ -293,7 +433,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Científico/a",
           "correct_answer": "Scientist",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I35",
@@ -314,7 +460,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I37",
@@ -322,14 +475,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Scientists (trabajar) ________ on a new cure.",
           "correct_answer": "are working",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Printing the press was a revolutionary invention\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I41",
@@ -337,7 +502,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mejora",
           "correct_answer": "Improvement",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I42",
@@ -358,7 +529,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I44",
@@ -366,14 +544,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The wheel (ser/estar) ________ a very old invention.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Vaccines have saved millions of lives.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I48",
@@ -381,7 +571,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Diseñar",
           "correct_answer": "Design",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I49",
@@ -402,7 +598,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I51",
@@ -410,14 +613,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The internet (change) ________ the world.",
           "correct_answer": "has changed",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Telephone the was invented in the nineteenth century\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I56",
@@ -438,7 +653,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I58",
@@ -446,14 +668,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What (ser/estar) ________ the most important invention?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The airplane was a major technological achievement.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I62",
@@ -461,7 +695,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dispositivo",
           "correct_answer": "Device",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I63",
@@ -482,7 +722,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I65",
@@ -490,14 +737,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Who (invent) ________ the telephone?",
           "correct_answer": "invented",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Developed he a new way to produce energy\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I69",
@@ -505,14 +764,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Inventor/a",
           "correct_answer": "Inventor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"This device helps people to communicate better.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I74",
@@ -520,7 +791,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Máquina",
           "correct_answer": "Machine",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I75",
@@ -541,14 +818,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Microscope the allows us to see tiny things\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I80",
@@ -556,7 +846,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Problema",
           "correct_answer": "Problem",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I81",
@@ -577,14 +873,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scientists are constantly making new discoveries.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I87",
@@ -605,14 +914,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Often inventions solve difficult problems\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I92",
@@ -620,7 +942,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Descubrimiento",
           "correct_answer": "Discovery",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I93",
@@ -641,119 +969,222 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "time",
+            "clauses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The wheel made transportation much easier.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do who you think was the greatest inventor\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Electricity is essential for modern life.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Internet the is a very useful tool for learning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is a very talented scientist.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I114",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Discovery the of fire changed human history\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The printing press was a revolutionary invention.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have vaccines saved millions of lives\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The telephone was invented in the nineteenth century.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Airplane the was a major technological achievement\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He developed a new way to produce energy.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Device this helps people to communicate better\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The microscope allows us to see tiny things.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are scientists constantly making new discoveries\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Inventions often solve difficult problems.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         },
         {
           "interaction_id": "A2_U38_B38_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wheel the made transportation much easier\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "time",
+            "clauses"
+          ]
         }
       ]
     }

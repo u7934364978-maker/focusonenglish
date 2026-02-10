@@ -40,7 +40,15 @@
               "text": "studied"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U37_B1_I2",
@@ -67,7 +75,15 @@
               "text": "am waiting"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U37_B1_I3",
@@ -94,7 +110,15 @@
               "text": "is working"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U37_B1_I4",
@@ -121,7 +145,15 @@
               "text": "played"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U37_B1_I5",
@@ -148,7 +180,15 @@
               "text": "is living"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -170,7 +210,13 @@
             "PORTABLE",
             "ACCESS"
           ],
-          "explanation": "(1) La palabra 'change' se convierte en 'change' en este contexto como sustantivo.\n(2) Aquí, 'access' se usa como sustantivo y representa la disponibilidad de la internet.\n(3) La forma correcta es 'communication', que es el sustantivo de 'communicate'.\n(4) La palabra 'portable' describe dispositivos que son fáciles de transportar.\n(5) Aquí, 'access' se usa como sustantivo que representa el acto de acceder a la información."
+          "explanation": "(1) La palabra 'change' se convierte en 'change' en este contexto como sustantivo.\n(2) Aquí, 'access' se usa como sustantivo y representa la disponibilidad de la internet.\n(3) La forma correcta es 'communication', que es el sustantivo de 'communicate'.\n(4) La palabra 'portable' describe dispositivos que son fáciles de transportar.\n(5) Aquí, 'access' se usa como sustantivo que representa el acto de acceder a la información.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +250,14 @@
               "text": "Connect devices"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U37_B3_I2",
@@ -231,7 +284,14 @@
               "text": "Amazon"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U37_B3_I3",
@@ -258,7 +318,14 @@
               "text": "Database"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U37_B3_I4",
@@ -285,7 +352,14 @@
               "text": "Using local servers"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U37_B3_I5",
@@ -312,7 +386,14 @@
               "text": "App"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

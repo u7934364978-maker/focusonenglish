@@ -31,7 +31,15 @@
           "explanation": "La frase expresa un deseo sobre el conocimiento actual que no se tiene.",
           "stimulus_en": "I wish I knew more about marketing.\n\nIf only I... ...",
           "correct_answer": "knew more about marketing.",
-          "example": "IF ONLY"
+          "example": "IF ONLY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B1_I2",
@@ -41,7 +49,15 @@
           "explanation": "La frase indica un arrepentimiento sobre una acción pasada que no se realizó.",
           "stimulus_en": "I regret not taking that job offer.\n\nI wish I... ...",
           "correct_answer": "had taken that job offer.",
-          "example": "WISH"
+          "example": "WISH",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B1_I3",
@@ -51,7 +67,15 @@
           "explanation": "Este deseo habla de una situación hipotética sobre la confianza en reuniones.",
           "stimulus_en": "He wishes he were more confident in meetings.\n\nIf only he... ...",
           "correct_answer": "were more confident in meetings.",
-          "example": "IF ONLY"
+          "example": "IF ONLY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B1_I4",
@@ -61,7 +85,15 @@
           "explanation": "El arrepentimiento se expresa sobre una situación pasada no realizada.",
           "stimulus_en": "She regrets missing the conference last year.\n\nShe wishes she... ...",
           "correct_answer": "had attended the conference last year.",
-          "example": "WISH"
+          "example": "WISH",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B1_I5",
@@ -71,7 +103,15 @@
           "explanation": "Esto expresa un deseo sobre la capacidad actual de gestionar el tiempo.",
           "stimulus_en": "I wish I could manage my time better.\n\nIf only I... ...",
           "correct_answer": "could manage my time better.",
-          "example": "IF ONLY"
+          "example": "IF ONLY",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "lifestyle",
+            "routines"
+          ]
         }
       ]
     },
@@ -200,7 +240,15 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) La expresión 'cold shoulder' significa ignorar a alguien o no mostrar interés en algo. En este contexto, se refiere a que alguien no está dispuesto a prestar su coche.\n(2) La expresión 'go with the flow' se refiere a aceptar las cosas como vienen y no resistirse a las circunstancias.\n(3) La palabra 'dedicated' implica una fuerte devoción o compromiso hacia algo, en este caso, el trabajo.\n(4) La expresión 'kick back and chill' significa relajarse y disfrutar del tiempo libre.\n(5) La expresión 'had a blast' significa disfrutar mucho de una experiencia, en este caso, de la fiesta."
+          "explanation": "(1) La expresión 'cold shoulder' significa ignorar a alguien o no mostrar interés en algo. En este contexto, se refiere a que alguien no está dispuesto a prestar su coche.\n(2) La expresión 'go with the flow' se refiere a aceptar las cosas como vienen y no resistirse a las circunstancias.\n(3) La palabra 'dedicated' implica una fuerte devoción o compromiso hacia algo, en este caso, el trabajo.\n(4) La expresión 'kick back and chill' significa relajarse y disfrutar del tiempo libre.\n(5) La expresión 'had a blast' significa disfrutar mucho de una experiencia, en este caso, de la fiesta.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "idiomatic",
+            "lifestyle",
+            "routines",
+            "grammar"
+          ]
         }
       ]
     },
@@ -234,7 +282,15 @@
               "text": "passes"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B3_I2",
@@ -261,7 +317,15 @@
               "text": "would have canceled"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B3_I3",
@@ -288,7 +352,15 @@
               "text": "have"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B3_I4",
@@ -315,7 +387,15 @@
               "text": "caught"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "lifestyle",
+            "routines"
+          ]
         },
         {
           "interaction_id": "B2_U1_B3_I5",
@@ -342,7 +422,15 @@
               "text": "would told"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "lifestyle",
+            "routines"
+          ]
         }
       ]
     }

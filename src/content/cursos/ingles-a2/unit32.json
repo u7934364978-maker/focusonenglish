@@ -18,14 +18,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The battery (ser/estar) ________ dead.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The battery only lasts for two hours.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I5",
@@ -46,7 +62,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I6",
@@ -54,7 +78,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pantalla",
           "correct_answer": "Screen",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I7",
@@ -75,7 +107,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I9",
@@ -83,14 +123,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (use) ________ my laptop for work.",
           "correct_answer": "use",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spends she too much time on her computer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I12",
@@ -111,7 +167,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I13",
@@ -119,7 +183,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ordenador/Computadora",
           "correct_answer": "Computer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I14",
@@ -140,7 +212,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I16",
@@ -148,14 +228,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (download) ________ the file now.",
           "correct_answer": "are downloading",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is very good at using technology.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I19",
@@ -176,7 +272,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I20",
@@ -184,7 +288,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Internet",
           "correct_answer": "Internet",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I21",
@@ -205,7 +317,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I23",
@@ -213,14 +333,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / need) ________ a printer.",
           "correct_answer": "don't need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Use i my laptop every day for university\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I26",
@@ -241,7 +377,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I27",
@@ -249,7 +393,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cargador",
           "correct_answer": "Charger",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I28",
@@ -270,7 +422,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I30",
@@ -278,14 +438,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (buy) ________ a new tablet yesterday.",
           "correct_answer": "bought",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The website is very easy to navigate.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I33",
@@ -306,7 +482,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I35",
@@ -327,7 +511,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I37",
@@ -335,14 +527,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / gustar) ________ social media.",
           "correct_answer": "doesn't like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forget don't to charge your tablet\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I41",
@@ -350,7 +558,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sitio web",
           "correct_answer": "Website",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I42",
@@ -371,7 +587,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I44",
@@ -379,14 +603,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ a new smartphone.",
           "correct_answer": "has got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is the password for the Wi-Fi?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I48",
@@ -394,7 +634,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tableta",
           "correct_answer": "Tablet",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I51",
@@ -402,14 +650,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ always online.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Downloaded i a new app for learning english\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I55",
@@ -417,7 +681,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Software",
           "correct_answer": "Software",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I56",
@@ -438,14 +710,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We need a faster internet connection.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I62",
@@ -453,7 +741,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Teclado",
           "correct_answer": "Keyboard",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I63",
@@ -474,7 +770,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I65",
@@ -482,14 +786,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you have a good internet connection?",
           "correct_answer": "Do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Screen the of my phone is broken\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I69",
@@ -497,7 +817,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Teléfono inteligente",
           "correct_answer": "Smartphone",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I70",
@@ -518,14 +846,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My smartphone has a very good camera.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I75",
@@ -533,7 +877,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Batería",
           "correct_answer": "Battery",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I76",
@@ -554,14 +906,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need i a new charger for my laptop\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I80",
@@ -569,7 +937,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Contraseña",
           "correct_answer": "Password",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I81",
@@ -590,14 +966,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you use a keyboard or a mouse?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I86",
@@ -605,7 +997,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hardware",
           "correct_answer": "Hardware",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I87",
@@ -626,14 +1026,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can't i find the file on my hard drive\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I91",
@@ -641,7 +1057,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Aplicación",
           "correct_answer": "Application (App)",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I92",
@@ -662,14 +1086,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The software needs to be updated.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I97",
@@ -677,7 +1117,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Conexión",
           "correct_answer": "Connection",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I98",
@@ -698,112 +1146,240 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Battery the only lasts for two hours\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She spends too much time on her computer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he very good at using technology\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I use my laptop every day for university.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Website the is very easy to navigate\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget to charge your tablet.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what the password for the wi-fi\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I downloaded a new app for learning English.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need we a faster internet connection\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The screen of my phone is broken.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I131",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Smartphone my has a very good camera\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I need a new charger for my laptop.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You do use a keyboard or a mouse\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I can't find the file on my hard drive.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         },
         {
           "interaction_id": "A2_U32_B32_I146",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Software the needs to be updated\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "future",
+            "with",
+            "present",
+            "continuous"
+          ]
         }
       ]
     }

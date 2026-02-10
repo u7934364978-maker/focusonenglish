@@ -22,7 +22,13 @@
           "mastery_tag": "writing:b2-formal-writing",
           "explanation": "Un saludo adecuado es importante en una carta formal para establecer un tono profesional.",
           "stimulus_en": "In today's business environment, effective communication is essential. Writing formal letters and reports is a key skill, as it helps convey information clearly and professionally. Below are some sentences where you need to fill in the missing words.\n\nA formal letter usually begins with a proper ___.",
-          "correct_answer": "greeting"
+          "correct_answer": "greeting",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U8_B1_I2",
@@ -31,7 +37,13 @@
           "mastery_tag": "writing:b2-formal-writing",
           "explanation": "Una estructura clara ayuda a que los lectores comprendan mejor la información presentada.",
           "stimulus_en": "In today's business environment, effective communication is essential. Writing formal letters and reports is a key skill, as it helps convey information clearly and professionally. Below are some sentences where you need to fill in the missing words.\n\nIn reports, it is crucial to use a ___ structure.",
-          "correct_answer": "clear"
+          "correct_answer": "clear",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U8_B1_I3",
@@ -40,7 +52,13 @@
           "mastery_tag": "writing:b2-formal-writing",
           "explanation": "Un argumento sólido es esencial para persuadir y mantener el interés del lector.",
           "stimulus_en": "In today's business environment, effective communication is essential. Writing formal letters and reports is a key skill, as it helps convey information clearly and professionally. Below are some sentences where you need to fill in the missing words.\n\nWhen writing essays, it is important to present a strong ___.",
-          "correct_answer": "argument"
+          "correct_answer": "argument",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U8_B1_I4",
@@ -49,7 +67,13 @@
           "mastery_tag": "writing:b2-formal-writing",
           "explanation": "Los errores gramaticales pueden afectar la credibilidad de un documento formal.",
           "stimulus_en": "In today's business environment, effective communication is essential. Writing formal letters and reports is a key skill, as it helps convey information clearly and professionally. Below are some sentences where you need to fill in the missing words.\n\nAlways proofread your work to avoid ___ errors.",
-          "correct_answer": "grammar"
+          "correct_answer": "grammar",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U8_B1_I5",
@@ -58,7 +82,13 @@
           "mastery_tag": "writing:b2-formal-writing",
           "explanation": "El profesionalismo es esencial en cualquier tipo de escritura formal.",
           "stimulus_en": "In today's business environment, effective communication is essential. Writing formal letters and reports is a key skill, as it helps convey information clearly and professionally. Below are some sentences where you need to fill in the missing words.\n\nUsing a formal tone is key to maintaining ___.",
-          "correct_answer": "professionalism"
+          "correct_answer": "professionalism",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit"
+          ]
         }
       ]
     },
@@ -187,7 +217,14 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) El periodismo juega un papel fundamental en la formación de la opinión pública.\n(2) El periodismo se ha transformado de lo impreso a lo digital de manera instantánea.\n(3) La tecnología es esencial para que los periodistas obtengan información rápidamente.\n(4) La entrega de noticias ha cambiado dramáticamente en los últimos años.\n(5) La precisión es crucial en el periodismo para mantener la credibilidad."
+          "explanation": "(1) El periodismo juega un papel fundamental en la formación de la opinión pública.\n(2) El periodismo se ha transformado de lo impreso a lo digital de manera instantánea.\n(3) La tecnología es esencial para que los periodistas obtengan información rápidamente.\n(4) La entrega de noticias ha cambiado dramáticamente en los últimos años.\n(5) La precisión es crucial en el periodismo para mantener la credibilidad.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -316,7 +353,14 @@
             "4": "o1",
             "5": "o3"
           },
-          "explanation": "(1) El sustantivo correcto es 'journalist', que se refiere a la persona que trabaja en el campo del periodismo.\n(2) El término 'media' se refiere a los canales a través de los cuales se comunica la información.\n(3) Aquí, 'media' se refiere a las organizaciones que producen contenido, como periódicos y canales de televisión.\n(4) El término 'communication' se refiere a la habilidad de transmitir información de manera efectiva.\n(5) El impacto de 'media' incluye cómo nuestras percepciones pueden ser moldeadas por la información que consumimos."
+          "explanation": "(1) El sustantivo correcto es 'journalist', que se refiere a la persona que trabaja en el campo del periodismo.\n(2) El término 'media' se refiere a los canales a través de los cuales se comunica la información.\n(3) Aquí, 'media' se refiere a las organizaciones que producen contenido, como periódicos y canales de televisión.\n(4) El término 'communication' se refiere a la habilidad de transmitir información de manera efectiva.\n(5) El impacto de 'media' incluye cómo nuestras percepciones pueden ser moldeadas por la información que consumimos.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

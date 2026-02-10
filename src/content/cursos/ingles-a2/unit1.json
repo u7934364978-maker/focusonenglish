@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ my friends.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can you spell your surname?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I7",
@@ -67,7 +89,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I9",
@@ -75,14 +105,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ a sister.",
           "correct_answer": "has got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are married or single\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I12",
@@ -103,7 +147,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I13",
@@ -111,7 +163,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Firma",
           "correct_answer": "Signature",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I14",
@@ -132,7 +191,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I16",
@@ -140,14 +207,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "My name (ser/estar) ________ Carlos.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your job?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I19",
@@ -168,7 +249,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I20",
@@ -176,7 +265,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nombre",
           "correct_answer": "Name",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I23",
@@ -184,14 +280,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / trabajar) ________ on Sundays.",
           "correct_answer": "don't work",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i a teacher\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I27",
@@ -199,7 +309,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Número de teléfono",
           "correct_answer": "Phone number",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I28",
@@ -220,7 +337,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I30",
@@ -228,14 +353,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ from London.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I was born in Seville.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I33",
@@ -256,7 +395,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I34",
@@ -264,7 +411,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Edad",
           "correct_answer": "Age",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I35",
@@ -285,7 +439,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I37",
@@ -293,14 +455,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Where ________ you from?",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sign please here\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I41",
@@ -308,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fecha de nacimiento",
           "correct_answer": "Date of birth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I42",
@@ -329,7 +512,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I44",
@@ -337,14 +528,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (tener) ________ a new phone.",
           "correct_answer": "have got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My phone number is 123456.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I48",
@@ -352,7 +557,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estado civil",
           "correct_answer": "Marital status",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I49",
@@ -373,7 +585,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I51",
@@ -381,14 +601,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (saber/conocer) him?",
           "correct_answer": "know",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i spanish\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I55",
@@ -396,7 +630,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nacionalidad",
           "correct_answer": "Nationality",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I56",
@@ -417,14 +658,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Where do you live?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I62",
@@ -432,7 +688,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Profesión/Ocupación",
           "correct_answer": "Occupation",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I63",
@@ -453,7 +716,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I65",
@@ -461,14 +732,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (hablar) ________ English.",
           "correct_answer": "speaks",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Old how are you\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I70",
@@ -489,7 +774,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I72",
@@ -497,7 +790,14 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / tener) ________ a car.",
           "correct_answer": "hasn't got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I75",
@@ -505,7 +805,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Casado/a",
           "correct_answer": "Married",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I76",
@@ -526,7 +833,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I78",
@@ -534,14 +849,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (ser/estar) ________ very kind.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I79",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your nationality\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I82",
@@ -549,7 +878,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Correo electrónico",
           "correct_answer": "Email address",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I85",
@@ -557,14 +893,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (vivir) ________ in Madrid.",
           "correct_answer": "live",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I86",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am twenty-five years old.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I89",
@@ -572,7 +922,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lugar de nacimiento",
           "correct_answer": "Place of birth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I90",
@@ -593,7 +950,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I92",
@@ -601,14 +966,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you got a pen?",
           "correct_answer": "Have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your email\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I96",
@@ -616,7 +995,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Soltero/a",
           "correct_answer": "Single",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I97",
@@ -637,14 +1023,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your first name?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I102",
@@ -652,7 +1053,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Código postal",
           "correct_answer": "Postcode",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I103",
@@ -673,112 +1081,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "greetings",
+            "personal",
+            "info",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You can spell your surname\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are you married or single?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your job\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am a teacher.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was i born in seville\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Please sign here.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Phone my number is 123456\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am Spanish.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do where you live\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"How old are you?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"To nice meet you\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your nationality?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i twenty-five years old\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I150",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What is your email?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         },
         {
           "interaction_id": "A2_U1_B1_I154",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your first name\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "greetings",
+            "personal",
+            "info"
+          ]
         }
       ]
     }

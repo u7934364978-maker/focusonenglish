@@ -28,7 +28,14 @@
             "meeting",
             "weekend"
           ],
-          "explanation": "(1) En una carta informal, preguntar por el bienestar de alguien es común.\n(2) Usamos 'gift' para referirnos a algo que le das a alguien como muestra de aprecio.\n(3) En este contexto, 'them' se refiere a la familia de la persona a la que escribes.\n(4) En un contexto informal, 'meeting' puede referirse a un encuentro o una conversación.\n(5) El 'weekend' es el tiempo ideal para planear actividades recreativas."
+          "explanation": "(1) En una carta informal, preguntar por el bienestar de alguien es común.\n(2) Usamos 'gift' para referirnos a algo que le das a alguien como muestra de aprecio.\n(3) En este contexto, 'them' se refiere a la familia de la persona a la que escribes.\n(4) En un contexto informal, 'meeting' puede referirse a un encuentro o una conversación.\n(5) El 'weekend' es el tiempo ideal para planear actividades recreativas.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +52,15 @@
           "explanation": "Usamos 'for' para indicar la duración desde el pasado hasta el presente.",
           "stimulus_en": "I started working here two years ago. (have been)\n\nI have been working here ...",
           "correct_answer": "for two years.",
-          "example": "have been"
+          "example": "have been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U30_B2_I2",
@@ -55,7 +70,15 @@
           "explanation": "Usamos 'since' para indicar el inicio de una acción en un punto específico del tiempo.",
           "stimulus_en": "She is studying English since last year. (has been)\n\nShe has been studying English ...",
           "correct_answer": "since last year.",
-          "example": "has been"
+          "example": "has been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U30_B2_I3",
@@ -65,7 +88,15 @@
           "explanation": "Se utiliza 'for' para indicar la duración de tiempo hasta ahora.",
           "stimulus_en": "They started playing football six months ago. (have been)\n\nThey have been playing football ...",
           "correct_answer": "for six months.",
-          "example": "have been"
+          "example": "have been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U30_B2_I4",
@@ -75,7 +106,15 @@
           "explanation": "Usamos 'since' para indicar un punto específico en el tiempo.",
           "stimulus_en": "I began learning French last summer. (have been)\n\nI have been learning French ...",
           "correct_answer": "since last summer.",
-          "example": "have been"
+          "example": "have been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U30_B2_I5",
@@ -85,7 +124,15 @@
           "explanation": "Usamos 'for' para la duración de la acción desde el pasado.",
           "stimulus_en": "He started working out three weeks ago. (has been)\n\nHe has been working out ...",
           "correct_answer": "for three weeks.",
-          "example": "has been"
+          "example": "has been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -107,7 +154,13 @@
             "IMPORTANCE",
             "PERFORMANCE"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit"
+          ]
         }
       ]
     }

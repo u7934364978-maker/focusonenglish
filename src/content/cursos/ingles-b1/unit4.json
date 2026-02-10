@@ -28,7 +28,13 @@
             "confidence",
             "professionally"
           ],
-          "explanation": "(1) Las 'valores' de una empresa son importantes para entender su cultura y cómo encajar.\n(2) En una entrevista, dar buenas 'respuestas' es clave para comunicar tus habilidades.\n(3) Las 'habilidades' que tienes son relevantes para cualquier puesto de trabajo.\n(4) La 'confianza' es esencial para sentirte cómodo y seguro durante una entrevista.\n(5) Vestirse 'profesionalmente' es crucial para causar una buena impresión en una entrevista."
+          "explanation": "(1) Las 'valores' de una empresa son importantes para entender su cultura y cómo encajar.\n(2) En una entrevista, dar buenas 'respuestas' es clave para comunicar tus habilidades.\n(3) Las 'habilidades' que tienes son relevantes para cualquier puesto de trabajo.\n(4) La 'confianza' es esencial para sentirte cómodo y seguro durante una entrevista.\n(5) Vestirse 'profesionalmente' es crucial para causar una buena impresión en una entrevista.",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +56,14 @@
             "opinions",
             "long"
           ],
-          "explanation": "(1) La respuesta correcta es 'fake' porque se refiere a los comentarios que no son genuinos.\n(2) La respuesta correcta es 'reputation' porque un buen revisor tendrá una buena reputación.\n(3) La respuesta correcta es 'product' porque se refiere a lo que se está evaluando.\n(4) La respuesta correcta es 'opinions' porque se está hablando de la forma en que se presenta la revisión.\n(5) La respuesta correcta es 'long' porque se refiere al tiempo en general."
+          "explanation": "(1) La respuesta correcta es 'fake' porque se refiere a los comentarios que no son genuinos.\n(2) La respuesta correcta es 'reputation' porque un buen revisor tendrá una buena reputación.\n(3) La respuesta correcta es 'product' porque se refiere a lo que se está evaluando.\n(4) La respuesta correcta es 'opinions' porque se está hablando de la forma en que se presenta la revisión.\n(5) La respuesta correcta es 'long' porque se refiere al tiempo en general.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -67,7 +80,13 @@
           "explanation": "En la voz pasiva, el sujeto que realiza la acción (el chef) se convierte en el agente que se menciona después de la acción.",
           "stimulus_en": "The chef cooks the meal.\n\nThe meal is cooked... ...",
           "correct_answer": "by the chef.",
-          "example": "by the chef"
+          "example": "by the chef",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U4_B3_I2",
@@ -77,7 +96,13 @@
           "explanation": "El uso de 'was' indica que la acción ya ocurrió, y el mural es el foco de la oración.",
           "stimulus_en": "The artist painted the mural.\n\nThe mural was painted... ...",
           "correct_answer": "by the artist.",
-          "example": "by the artist"
+          "example": "by the artist",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U4_B3_I3",
@@ -87,7 +112,13 @@
           "explanation": "La estructura 'will be' es fundamental en la voz pasiva para indicar acciones futuras.",
           "stimulus_en": "The students will complete the project.\n\nThe project will be completed... ...",
           "correct_answer": "by the students.",
-          "example": "by the students"
+          "example": "by the students",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U4_B3_I4",
@@ -97,7 +128,13 @@
           "explanation": "El uso de 'has been' muestra que la acción se completó en el pasado reciente, manteniendo el enfoque en el reporte.",
           "stimulus_en": "They have finished the report.\n\nThe report has been finished... ...",
           "correct_answer": "by them.",
-          "example": "by them"
+          "example": "by them",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U4_B3_I5",
@@ -107,7 +144,13 @@
           "explanation": "En este caso, la identidad del agente no es importante, pero se menciona al final de la oración.",
           "stimulus_en": "Someone took the book.\n\nThe book was taken... ...",
           "correct_answer": "by someone.",
-          "example": "by someone"
+          "example": "by someone",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

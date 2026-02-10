@@ -40,7 +40,14 @@
               "text": "To make money"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U58_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Opera"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U58_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Installation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U58_B1_I4",
@@ -121,7 +142,14 @@
               "text": "The Catcher in the Rye"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U58_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Screening"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,14 @@
             "happy",
             "so much"
           ],
-          "explanation": "(1) La palabra 'exciting' se usa para describir algo que causa emoción o interés.\n(2) La palabra 'share' significa dar a conocer algo a otra persona, en este caso, experiencias.\n(3) La palabra 'meeting' se refiere a un encuentro o cita entre personas.\n(4) La palabra 'happy' se usa para describir un estado emocional positivo.\n(5) La frase 'so much' enfatiza el sentimiento de extrañar a alguien de manera significativa."
+          "explanation": "(1) La palabra 'exciting' se usa para describir algo que causa emoción o interés.\n(2) La palabra 'share' significa dar a conocer algo a otra persona, en este caso, experiencias.\n(3) La palabra 'meeting' se refiere a un encuentro o cita entre personas.\n(4) La palabra 'happy' se usa para describir un estado emocional positivo.\n(5) La frase 'so much' enfatiza el sentimiento de extrañar a alguien de manera significativa.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit"
+          ]
         }
       ]
     },
@@ -192,7 +234,14 @@
             "perseverance",
             "ambiguity"
           ],
-          "explanation": "(1) La colaboración implica trabajar juntos para resolver problemas.\n(2) Asignar recursos es necesario para mejorar la educación.\n(3) Argumentar significa presentar razones para apoyar un punto de vista.\n(4) La perseverancia es clave para alcanzar objetivos.\n(5) La ambigüedad puede causar confusión en la comunicación."
+          "explanation": "(1) La colaboración implica trabajar juntos para resolver problemas.\n(2) Asignar recursos es necesario para mejorar la educación.\n(3) Argumentar significa presentar razones para apoyar un punto de vista.\n(4) La perseverancia es clave para alcanzar objetivos.\n(5) La ambigüedad puede causar confusión en la comunicación.",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit"
+          ]
         }
       ]
     }

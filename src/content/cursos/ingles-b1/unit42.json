@@ -40,7 +40,15 @@
               "text": "Greetings,"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B1_I2",
@@ -67,7 +75,15 @@
               "text": "Where are you going?"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B1_I3",
@@ -94,7 +110,15 @@
               "text": "To whom it may concern,"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B1_I4",
@@ -121,7 +145,15 @@
               "text": "How old are you?"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B1_I5",
@@ -148,7 +180,15 @@
               "text": "I like this."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +222,14 @@
               "text": "To ask about hobbies"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B2_I2",
@@ -209,7 +256,14 @@
               "text": "Colorfully"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B2_I3",
@@ -236,7 +290,14 @@
               "text": "Talk about friends"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B2_I4",
@@ -263,7 +324,14 @@
               "text": "A gift"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U42_B2_I5",
@@ -290,7 +358,14 @@
               "text": "Talk too fast"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -307,7 +382,13 @@
           "explanation": "Aquí se utiliza la voz pasiva para enfatizar la acción sobre el sujeto. Se utiliza 'was' seguido del participio 'approved'.",
           "stimulus_en": "The manager approved the proposal. (KEY: approve)\n\nThe proposal was approved... ...",
           "correct_answer": "by the manager.",
-          "example": "approve"
+          "example": "approve",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U42_B3_I2",
@@ -317,7 +398,13 @@
           "explanation": "Usamos la voz pasiva para resaltar el resultado de la acción. Se utiliza 'was' y el participio 'completed'.",
           "stimulus_en": "The team completed the project. (KEY: complete)\n\nThe project was completed... ...",
           "correct_answer": "by the team.",
-          "example": "complete"
+          "example": "complete",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U42_B3_I3",
@@ -327,7 +414,13 @@
           "explanation": "En la voz pasiva, la acción se centra en el producto y no en la empresa. El participio 'launched' es clave aquí.",
           "stimulus_en": "The company launched the new product. (KEY: launch)\n\nThe new product was launched... ...",
           "correct_answer": "by the company.",
-          "example": "launch"
+          "example": "launch",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U42_B3_I4",
@@ -337,7 +430,13 @@
           "explanation": "Recuerda que en la voz pasiva, el foco está en la acción y el resultado. Se usa 'was' y el participio 'created'.",
           "stimulus_en": "The designer created the website. (KEY: create)\n\nThe website was created... ...",
           "correct_answer": "by the designer.",
-          "example": "create"
+          "example": "create",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U42_B3_I5",
@@ -347,7 +446,13 @@
           "explanation": "La voz pasiva se utiliza para señalar la acción sobre el experimento. Se utiliza 'was' con el participio 'conducted'.",
           "stimulus_en": "The researchers conducted the experiment. (KEY: conduct)\n\nThe experiment was conducted... ...",
           "correct_answer": "by the researchers.",
-          "example": "conduct"
+          "example": "conduct",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

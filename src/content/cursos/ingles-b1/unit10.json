@@ -28,7 +28,13 @@
             "would study",
             "will"
           ],
-          "explanation": "(1) Aquí usamos el primer condicional, ya que estamos hablando de una situación real y futura.\n(2) Esta oración también usa el primer condicional, ya que es una acción futura dependiente de la lluvia.\n(3) Aquí usamos el segundo condicional, ya que hablamos de una situación hipotética en el presente.\n(4) Al igual que antes, esto es una situación hipotética, por lo que usamos 'would'.\n(5) Usamos el primer condicional aquí porque es una posibilidad real en el futuro."
+          "explanation": "(1) Aquí usamos el primer condicional, ya que estamos hablando de una situación real y futura.\n(2) Esta oración también usa el primer condicional, ya que es una acción futura dependiente de la lluvia.\n(3) Aquí usamos el segundo condicional, ya que hablamos de una situación hipotética en el presente.\n(4) Al igual que antes, esto es una situación hipotética, por lo que usamos 'would'.\n(5) Usamos el primer condicional aquí porque es una posibilidad real en el futuro.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +56,13 @@
             "challenge",
             "responsibility"
           ],
-          "explanation": "(1) La palabra 'pollution' es el sustantivo que se refiere al acto o efecto de contaminar.\n(2) La respuesta correcta es la misma que la anterior, ya que seguimos hablando del impacto ambiental.\n(3) La palabra 'recycling' es el gerundio que se usa para describir el proceso de reciclar.\n(4) La palabra 'challenge' es un sustantivo que se refiere a una dificultad o problema que hay que enfrentar.\n(5) La palabra 'responsibility' es el sustantivo que se refiere al deber de cuidar algo."
+          "explanation": "(1) La palabra 'pollution' es el sustantivo que se refiere al acto o efecto de contaminar.\n(2) La respuesta correcta es la misma que la anterior, ya que seguimos hablando del impacto ambiental.\n(3) La palabra 'recycling' es el gerundio que se usa para describir el proceso de reciclar.\n(4) La palabra 'challenge' es un sustantivo que se refiere a una dificultad o problema que hay que enfrentar.\n(5) La palabra 'responsibility' es el sustantivo que se refiere al deber de cuidar algo.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +84,14 @@
             "agree",
             "consider"
           ],
-          "explanation": "(1) Aquí se utiliza la comparación para expresar que leer es preferible a ver películas. Se busca la palabra 'mejor'.\n(2) La palabra que falta es 'expresar', que se refiere a comunicar o compartir opiniones propias.\n(3) Aquí se espera la palabra 'argumentan', que indica que hay personas que sostienen una posición sobre un tema.\n(4) Se usa 'estar de acuerdo' para indicar que no compartes la misma opinión que alguien más.\n(5) La palabra 'considerar' significa tener en cuenta las opiniones de los demás de manera educada."
+          "explanation": "(1) Aquí se utiliza la comparación para expresar que leer es preferible a ver películas. Se busca la palabra 'mejor'.\n(2) La palabra que falta es 'expresar', que se refiere a comunicar o compartir opiniones propias.\n(3) Aquí se espera la palabra 'argumentan', que indica que hay personas que sostienen una posición sobre un tema.\n(4) Se usa 'estar de acuerdo' para indicar que no compartes la misma opinión que alguien más.\n(5) La palabra 'considerar' significa tener en cuenta las opiniones de los demás de manera educada.",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit"
+          ]
         }
       ]
     }

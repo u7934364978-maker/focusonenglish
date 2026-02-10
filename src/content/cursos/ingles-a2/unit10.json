@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (usually / levantarse) ________ at 7.",
           "correct_answer": "usually gets up",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is very kind and helpful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I7",
@@ -67,7 +86,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I9",
@@ -75,14 +101,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (not / tener) ________ any sisters.",
           "correct_answer": "don't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Father my works in a bank\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I12",
@@ -103,7 +141,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I13",
@@ -111,7 +156,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Asignatura",
           "correct_answer": "Subject",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I14",
@@ -132,7 +183,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I16",
@@ -140,14 +198,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ from Spain.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you have any brothers?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I20",
@@ -155,7 +225,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Siempre",
           "correct_answer": "Always",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I21",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I23",
@@ -184,14 +267,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ser/estar) ________ happy today.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Usually i go to bed late\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I26",
@@ -212,7 +307,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I27",
@@ -220,7 +322,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Delgado/a",
           "correct_answer": "Slim",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I28",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I30",
@@ -249,14 +364,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does he ________ (gustar) sports?",
           "correct_answer": "like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He has got short curly hair.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I33",
@@ -277,7 +404,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I34",
@@ -285,7 +419,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Colada",
           "correct_answer": "Laundry",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I35",
@@ -306,7 +446,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I37",
@@ -314,14 +461,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ser/estar) ________ taller than me.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we excited about the weekend\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I40",
@@ -329,7 +488,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dirección",
           "correct_answer": "Address",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I41",
@@ -350,7 +515,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I43",
@@ -358,14 +530,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ studying now.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Nice to meet you.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I47",
@@ -373,7 +557,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Emocionado/a",
           "correct_answer": "Excited",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I48",
@@ -394,7 +584,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I50",
@@ -402,14 +599,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (tener) ________ blue eyes.",
           "correct_answer": "has got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she studying history\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I54",
@@ -417,7 +626,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Amable",
           "correct_answer": "Kind",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I57",
@@ -425,7 +640,13 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ your name?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I61",
@@ -433,7 +654,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Apellido",
           "correct_answer": "Surname",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I62",
@@ -454,7 +681,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I64",
@@ -462,14 +696,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (trabajar) ________ in an office.",
           "correct_answer": "work",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is what your address\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I68",
@@ -477,7 +723,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sobrino",
           "correct_answer": "Nephew",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U10_B10_I69",
@@ -498,7 +750,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         }
       ]
     }

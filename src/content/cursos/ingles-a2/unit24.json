@@ -18,14 +18,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Suddenly, it (start) ________ to rain.",
           "correct_answer": "started",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"That was the most important moment of my life.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I5",
@@ -46,7 +56,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I7",
@@ -67,7 +83,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I9",
@@ -75,14 +97,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Luckily, we (tener) ________ our umbrellas.",
           "correct_answer": "had",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wedding the was a very special event\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I12",
@@ -103,7 +135,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I13",
@@ -111,7 +149,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Memorable",
           "correct_answer": "Memorable",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I14",
@@ -132,7 +175,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I16",
@@ -140,14 +189,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (tener) ________ a wonderful time.",
           "correct_answer": "had",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'll never forget the look on her face.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I19",
@@ -168,7 +227,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I20",
@@ -176,7 +241,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "De repente",
           "correct_answer": "Suddenly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I23",
@@ -184,14 +254,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Everything (start) ________ very early.",
           "correct_answer": "started",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Saturday last was a day i'll always remember\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I26",
@@ -212,7 +292,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I27",
@@ -220,7 +306,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Momento",
           "correct_answer": "Moment",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I28",
@@ -241,7 +332,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I30",
@@ -249,14 +346,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (take) ________ lots of photos.",
           "correct_answer": "took",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have very fond memories of that day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I33",
@@ -277,7 +384,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I34",
@@ -285,7 +398,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Finalmente",
           "correct_answer": "Finally",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I35",
@@ -306,7 +424,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I37",
@@ -314,14 +438,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (ser/estar) ________ the best day of my life.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The luckily, weather was beautiful all day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I41",
@@ -329,7 +463,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ambiente",
           "correct_answer": "Atmosphere",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I42",
@@ -350,7 +489,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I44",
@@ -358,14 +503,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (never / forget) ________ that moment.",
           "correct_answer": "will never forget",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The atmosphere at the concert was electric.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I48",
@@ -373,7 +528,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Celebración",
           "correct_answer": "Celebration",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I49",
@@ -394,7 +554,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I51",
@@ -402,14 +568,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (ser/estar) ________ an amazing day.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We finally, arrived at our destination\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I56",
@@ -430,7 +606,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I58",
@@ -438,14 +620,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The atmosphere (ser/estar) ________ incredible.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was a truly unforgettable experience.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I62",
@@ -453,7 +645,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Inolvidable",
           "correct_answer": "Unforgettable",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I63",
@@ -474,7 +671,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I65",
@@ -482,14 +685,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ir) ________ to the stadium.",
           "correct_answer": "went",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Went everything perfectly from start to finish\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I69",
@@ -497,14 +710,24 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Por suerte/Afortunadamente",
           "correct_answer": "Luckily",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was a wonderful day for the whole family.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I75",
@@ -512,7 +735,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Especial",
           "correct_answer": "Special",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I76",
@@ -533,14 +761,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Surprise the party was a great success\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I80",
@@ -548,7 +787,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Evento",
           "correct_answer": "Event",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I81",
@@ -569,14 +813,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We had a big celebration for his birthday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I86",
@@ -584,7 +839,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Increíble/Asombroso",
           "correct_answer": "Amazing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I87",
@@ -605,14 +865,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Took we hundreds of photos during the trip\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I92",
@@ -620,7 +891,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sorpresa",
           "correct_answer": "Surprise",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I93",
@@ -641,14 +917,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Suddenly, the music stopped playing.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I97",
@@ -656,7 +943,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Maravilloso",
           "correct_answer": "Wonderful",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I98",
@@ -677,112 +969,193 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "remember",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was that the most important moment of my life\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The wedding was a very special event.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Never i'll forget the look on her face\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Last Saturday was a day I'll always remember.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i very fond memories of that day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Luckily, the weather was beautiful all day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Atmosphere the at the concert was electric\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Finally, we arrived at our destination.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it a truly unforgettable experience\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Everything went perfectly from start to finish.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I131",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it a wonderful day for the whole family\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The surprise party was a great success.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had we a big celebration for his birthday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We took hundreds of photos during the trip.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         },
         {
           "interaction_id": "A2_U24_B24_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The suddenly, music stopped playing\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "remember"
+          ]
         }
       ]
     }

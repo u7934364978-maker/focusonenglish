@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (be going to) ________ study medicine next year.",
           "correct_answer": "am going to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Maybe they will win the game tonight.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Quizás",
           "correct_answer": "Perhaps",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I hope it (not / rain) ________ tomorrow.",
           "correct_answer": "won't rain",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we going to visit japan next summer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Intención",
           "correct_answer": "Intention",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I16",
@@ -127,14 +193,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I think I (travel) ________ the world one day.",
           "correct_answer": "will travel",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I think she will be a very successful artist.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I19",
@@ -155,7 +235,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I20",
@@ -163,7 +251,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Esperanza/Esperar",
           "correct_answer": "Hope",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I21",
@@ -184,7 +279,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I23",
@@ -192,14 +295,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (help) ________ you with that bag.",
           "correct_answer": "will help",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i going to learn how to speak italian\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I26",
@@ -220,7 +337,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I27",
@@ -228,7 +353,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pronto",
           "correct_answer": "Soon",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I28",
@@ -249,7 +381,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I30",
@@ -257,14 +397,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (be going to) ________ move to a new city.",
           "correct_answer": "are going to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am going to save enough money to buy a house.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I33",
@@ -285,7 +439,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I35",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I37",
@@ -314,14 +484,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (be going to) ________ learn to play the violin.",
           "correct_answer": "is going to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sure i'm you will achieve all your dreams\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I41",
@@ -329,7 +513,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Algún día",
           "correct_answer": "One day",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I42",
@@ -350,7 +541,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I44",
@@ -358,14 +557,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Perhaps they (win) ________ the lottery.",
           "correct_answer": "will win",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I hope the weather will be nice for our trip.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I51",
@@ -373,14 +586,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (be going to) ________ start a business soon.",
           "correct_answer": "is going to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are what your goals for the future\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I55",
@@ -388,7 +615,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "El año que viene",
           "correct_answer": "Next year",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I56",
@@ -409,7 +643,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I58",
@@ -417,14 +659,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ you going to do about the problem?",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is going to study architecture at university.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I65",
@@ -432,14 +688,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I'm sure you (ser/estar) ________ a great doctor.",
           "correct_answer": "will be",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Ambition my is to travel all over the world\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I68",
@@ -447,7 +717,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sueño",
           "correct_answer": "Dream",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I69",
@@ -468,14 +745,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I think technology will change even more in the future.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I74",
@@ -483,14 +775,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "En el futuro",
           "correct_answer": "In the future",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i going to start my own company next year\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I79",
@@ -498,7 +804,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Seguro",
           "correct_answer": "Sure",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I80",
@@ -519,14 +832,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I hope I will find a good job after graduation.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I86",
@@ -547,14 +875,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We perhaps will move to the countryside one day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I91",
@@ -562,7 +905,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Objetivo/Meta",
           "correct_answer": "Goal",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I92",
@@ -583,119 +933,239 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "weekend",
+            "holiday",
+            "plans",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I will help you with your homework if you like.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They maybe will win the game tonight\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We are going to visit Japan next summer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Think i she will be a very successful artist\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am going to learn how to speak Italian.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i going to save enough money to buy a house\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm sure you will achieve all your dreams.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hope i the weather will be nice for our trip\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What are your goals for the future?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he going to study architecture at university\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My ambition is to travel all over the world.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Think i technology will change even more in the future\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I137",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am going to start my own company next year.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hope i i will find a good job after graduation\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Perhaps we will move to the countryside one day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         },
         {
           "interaction_id": "A2_U36_B36_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Will i help you with your homework if you like\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "weekend",
+            "holiday",
+            "plans"
+          ]
         }
       ]
     }

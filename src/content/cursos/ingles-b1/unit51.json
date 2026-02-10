@@ -28,7 +28,13 @@
             "interviewer",
             "fit"
           ],
-          "explanation": "(1) Es importante causar una buena impresión en una entrevista de trabajo para ser considerado para el puesto.\n(2) Preparar respuestas para preguntas comunes te ayudará a sentirte más seguro durante la entrevista.\n(3) Los empleadores suelen preguntar sobre tus fortalezas y debilidades para entender mejor tus habilidades.\n(4) Tener preguntas preparadas para el entrevistador muestra interés y motivación.\n(5) Una entrevista de trabajo es una oportunidad para evaluar si ambas partes son adecuadas para trabajar juntas."
+          "explanation": "(1) Es importante causar una buena impresión en una entrevista de trabajo para ser considerado para el puesto.\n(2) Preparar respuestas para preguntas comunes te ayudará a sentirte más seguro durante la entrevista.\n(3) Los empleadores suelen preguntar sobre tus fortalezas y debilidades para entender mejor tus habilidades.\n(4) Tener preguntas preparadas para el entrevistador muestra interés y motivación.\n(5) Una entrevista de trabajo es una oportunidad para evaluar si ambas partes son adecuadas para trabajar juntas.",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +68,14 @@
               "text": "Waste"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U51_B2_I2",
@@ -89,7 +102,14 @@
               "text": "Water"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U51_B2_I3",
@@ -116,7 +136,14 @@
               "text": "Water"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U51_B2_I4",
@@ -143,7 +170,14 @@
               "text": "Drive more"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U51_B2_I5",
@@ -170,7 +204,14 @@
               "text": "Forestation"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -187,7 +228,15 @@
           "explanation": "Usamos 'for' para indicar la duración desde un momento específico en el pasado.",
           "stimulus_en": "She started studying English in 2018.  (for)\n\nShe has been studying English for ...",
           "correct_answer": "five years.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U51_B3_I2",
@@ -197,7 +246,15 @@
           "explanation": "Utilizamos 'since' para referirnos al punto de inicio de una acción que todavía está en curso.",
           "stimulus_en": "They began to work on the project last month.  (since)\n\nThey have been working on the project since ...",
           "correct_answer": "last month.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U51_B3_I3",
@@ -207,7 +264,15 @@
           "explanation": "Cuando hablamos de una acción que ocurre regularmente, usamos 'for' para indicar la duración.",
           "stimulus_en": "He plays guitar every day.  (for)\n\nHe has been playing guitar for ...",
           "correct_answer": "two hours.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U51_B3_I4",
@@ -217,7 +282,15 @@
           "explanation": "Usamos 'since' para marcar el inicio de un hábito que sigue presente.",
           "stimulus_en": "We started to exercise regularly a year ago.  (since)\n\nWe have been exercising regularly since ...",
           "correct_answer": "last year.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U51_B3_I5",
@@ -227,7 +300,15 @@
           "explanation": "El uso de 'for' muestra la duración de una acción habitual desde el pasado hasta ahora.",
           "stimulus_en": "She runs every morning.  (for)\n\nShe has been running every morning for ...",
           "correct_answer": "six months.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     }

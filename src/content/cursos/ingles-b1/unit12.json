@@ -28,7 +28,14 @@
             "helpful",
             "unreliable"
           ],
-          "explanation": "(1) En este contexto, se espera una palabra que se relacione con 'comida' o 'opciones alimenticias'.\n(2) La palabra correcta es el plural de 'reseña', ya que se habla de múltiples opiniones.\n(3) La palabra que se necesita aquí es un adjetivo que describe 'lugares', indicando que son recientes o no visitados antes.\n(4) Buscamos un adjetivo que describa revisiones que son útiles para los lectores.\n(5) En este caso, se necesita un adjetivo que describa opiniones que no son confiables o que pueden no ser verdaderas."
+          "explanation": "(1) En este contexto, se espera una palabra que se relacione con 'comida' o 'opciones alimenticias'.\n(2) La palabra correcta es el plural de 'reseña', ya que se habla de múltiples opiniones.\n(3) La palabra que se necesita aquí es un adjetivo que describe 'lugares', indicando que son recientes o no visitados antes.\n(4) Buscamos un adjetivo que describa revisiones que son útiles para los lectores.\n(5) En este caso, se necesita un adjetivo que describa opiniones que no son confiables o que pueden no ser verdaderas.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,13 @@
             "would take",
             "would have come"
           ],
-          "explanation": "(1) En esta oración, estamos hablando de una situación real que puede suceder en el futuro. Usamos 'will' con el verbo en su forma base.\n(2) Aquí estamos hablando de una situación hipotética en el presente o futuro. Usamos 'would' para referirnos a acciones que no son reales.\n(3) Esta es una condición real donde el esfuerzo puede llevar a un resultado positivo. Usamos 'will' para indicar la consecuencia.\n(4) En esta oración, usamos 'were' en lugar de 'was' para situaciones hipotéticas que son irreales. Se usa 'would' para expresar un consejo o recomendación.\n(5) Esta oración se refiere a una situación en el pasado que no ocurrió. Usamos 'would have' más el participio pasado del verbo para expresar esto."
+          "explanation": "(1) En esta oración, estamos hablando de una situación real que puede suceder en el futuro. Usamos 'will' con el verbo en su forma base.\n(2) Aquí estamos hablando de una situación hipotética en el presente o futuro. Usamos 'would' para referirnos a acciones que no son reales.\n(3) Esta es una condición real donde el esfuerzo puede llevar a un resultado positivo. Usamos 'will' para indicar la consecuencia.\n(4) En esta oración, usamos 'were' en lugar de 'was' para situaciones hipotéticas que son irreales. Se usa 'would' para expresar un consejo o recomendación.\n(5) Esta oración se refiere a una situación en el pasado que no ocurrió. Usamos 'would have' más el participio pasado del verbo para expresar esto.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -67,7 +80,15 @@
           "explanation": "En esta oración se está hablando de una acción que comenzó en el pasado y continúa en el presente, por lo que se utiliza el presente perfecto continuo.",
           "stimulus_en": "She started studying for the exam two hours ago. (for)\n\nShe has been studying... ...",
           "correct_answer": "for two hours.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U12_B3_I2",
@@ -77,7 +98,15 @@
           "explanation": "Se usa 'since' para señalar el inicio de la acción en un momento específico en el pasado.",
           "stimulus_en": "They are playing football since 3 PM. (since)\n\nThey have been playing... ...",
           "correct_answer": "since 3 PM.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U12_B3_I3",
@@ -87,7 +116,15 @@
           "explanation": "La acción comenzó en el pasado y sigue en el presente, así que utilizamos el presente perfecto continuo.",
           "stimulus_en": "John works at the company for five years now. (for)\n\nJohn has been working... ...",
           "correct_answer": "for five years.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U12_B3_I4",
@@ -97,7 +134,15 @@
           "explanation": "El uso de 'since' nos indica el comienzo de la acción en un momento específico.",
           "stimulus_en": "I am learning English since last year. (since)\n\nI have been learning... ...",
           "correct_answer": "since last year.",
-          "example": "since"
+          "example": "since",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U12_B3_I5",
@@ -107,7 +152,15 @@
           "explanation": "Aquí también hablamos de una acción que comenzó en el pasado y continúa, por eso usamos el presente perfecto continuo.",
           "stimulus_en": "We started exercising regularly for three months now. (for)\n\nWe have been exercising... ...",
           "correct_answer": "for three months.",
-          "example": "for"
+          "example": "for",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     }

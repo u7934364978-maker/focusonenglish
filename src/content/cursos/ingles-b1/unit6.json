@@ -135,7 +135,14 @@
             "4": "o3",
             "5": "o1"
           },
-          "explanation": "(1) El verbo 'study' en presente se usa aquí para indicar que se necesita hacer el trabajo de manera habitual.\n(2) El contexto se refiere a una materia favorita y 'biology' es una opción válida dentro del ámbito educativo.\n(3) Las 'notes' son escritas para ayudar a entender mejor los temas aprendidos.\n(4) El verbo 'study' se usa aquí para indicar que se trabaja en el aprendizaje de manera conjunta.\n(5) El contexto sugiere que la educación es importante para lograr un objetivo futuro, que es 'success'."
+          "explanation": "(1) El verbo 'study' en presente se usa aquí para indicar que se necesita hacer el trabajo de manera habitual.\n(2) El contexto se refiere a una materia favorita y 'biology' es una opción válida dentro del ámbito educativo.\n(3) Las 'notes' son escritas para ayudar a entender mejor los temas aprendidos.\n(4) El verbo 'study' se usa aquí para indicar que se trabaja en el aprendizaje de manera conjunta.\n(5) El contexto sugiere que la educación es importante para lograr un objetivo futuro, que es 'success'.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -152,7 +159,13 @@
           "explanation": "En la voz activa, el sujeto (John) realiza la acción (escribir) directamente.",
           "stimulus_en": "The report was written by John.\n\nJohn wrote ...",
           "correct_answer": "the report.",
-          "example": "John"
+          "example": "John",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U6_B2_I2",
@@ -162,7 +175,13 @@
           "explanation": "Cuando cambiamos a la voz activa, el sujeto (el equipo) realiza la acción (terminar) directamente.",
           "stimulus_en": "The project will be finished by the team next week.\n\nThe team will ...",
           "correct_answer": "finish the project next week.",
-          "example": "finish"
+          "example": "finish",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U6_B2_I3",
@@ -172,7 +191,13 @@
           "explanation": "En la voz activa, Sarah realiza la acción de organizar la reunión.",
           "stimulus_en": "The meeting is being organized by Sarah.\n\nSarah is ...",
           "correct_answer": "organizing the meeting.",
-          "example": "organize"
+          "example": "organize",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U6_B2_I4",
@@ -182,7 +207,13 @@
           "explanation": "Aquí, la voz activa muestra que Tom realizó la acción de dar la presentación.",
           "stimulus_en": "The presentation was given by Tom.\n\nTom gave ...",
           "correct_answer": "the presentation.",
-          "example": "Tom"
+          "example": "Tom",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U6_B2_I5",
@@ -192,7 +223,13 @@
           "explanation": "Convertir a voz activa permite ver claramente quién realiza la acción (la secretaria).",
           "stimulus_en": "The documents will be sent by the secretary.\n\nThe secretary will ...",
           "correct_answer": "send the documents.",
-          "example": "send"
+          "example": "send",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -214,7 +251,13 @@
             "WORKING",
             "CONFIDENCE"
           ],
-          "explanation": "(1) La palabra 'develop' cambia a 'development' para indicar el proceso de desarrollo.\n(2) La forma correcta es 'learning', que se refiere al proceso de adquirir conocimiento.\n(3) La palabra 'perform' se convierte en 'performance' para referirse a los resultados y logros.\n(4) Al referirse a grupos de trabajo, usamos 'working' como adjetivo.\n(5) La palabra 'confident' se transforma en 'confidence', que describe la certeza en uno mismo."
+          "explanation": "(1) La palabra 'develop' cambia a 'development' para indicar el proceso de desarrollo.\n(2) La forma correcta es 'learning', que se refiere al proceso de adquirir conocimiento.\n(3) La palabra 'perform' se convierte en 'performance' para referirse a los resultados y logros.\n(4) Al referirse a grupos de trabajo, usamos 'working' como adjetivo.\n(5) La palabra 'confident' se transforma en 'confidence', que describe la certeza en uno mismo.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit"
+          ]
         }
       ]
     }

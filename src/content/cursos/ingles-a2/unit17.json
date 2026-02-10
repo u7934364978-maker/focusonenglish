@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ interested in wildlife.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We must save the tigers.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pájaro/Ave",
           "correct_answer": "Bird",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (see) ________ a beautiful bird yesterday.",
           "correct_answer": "saw",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are elephants very strong animals\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I16",
@@ -119,14 +178,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (deber (obligación) / protect) ________ the environment.",
           "correct_answer": "must protect",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We saw many wild animals on our trip.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I19",
@@ -147,7 +220,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I20",
@@ -155,7 +236,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Elefante",
           "correct_answer": "Elephant",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I21",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I23",
@@ -184,14 +280,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Dolphins (ser/estar) ________ very intelligent.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Amazon the is the largest jungle in the world\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I26",
@@ -212,7 +322,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I30",
@@ -220,14 +338,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The lion (ser/estar) ________ the king of the jungle.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The forest is full of beautiful birds.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I33",
@@ -248,7 +380,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I35",
@@ -269,7 +409,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I37",
@@ -277,14 +425,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (ser/estar) ________ the tallest mountain.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are dolphins my favourite animals\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I41",
@@ -292,7 +454,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "León",
           "correct_answer": "Lion",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I44",
@@ -300,14 +469,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (love) ________ walking in the forest.",
           "correct_answer": "loves",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I love the sound of the ocean.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I51",
@@ -315,14 +498,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are there ________ (any) tigers here?",
           "correct_answer": "any",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"That is island far from the coast\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I55",
@@ -330,7 +527,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Selva",
           "correct_answer": "Jungle",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I56",
@@ -351,7 +555,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I58",
@@ -359,14 +571,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ swimming in the ocean.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Protecting the environment is important.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I62",
@@ -374,7 +600,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Serpiente",
           "correct_answer": "Snake",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I65",
@@ -382,14 +615,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / vivir) ________ in the desert.",
           "correct_answer": "don't live",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he a wildlife photographer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I69",
@@ -397,7 +644,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Desierto",
           "correct_answer": "Desert",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I70",
@@ -418,14 +672,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are there any snakes in this area?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I75",
@@ -433,7 +702,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Delfín",
           "correct_answer": "Dolphin",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I76",
@@ -454,14 +730,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Water the in the lake is very clear\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I82",
@@ -482,14 +773,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I84",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The desert is very hot during the day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I86",
@@ -497,7 +803,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Vida silvestre",
           "correct_answer": "Wildlife",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I87",
@@ -518,14 +831,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are they cleaning the local river\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I92",
@@ -533,14 +861,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tigre",
           "correct_answer": "Tiger",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Mount Everest is very high.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I98",
@@ -561,112 +903,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "natural",
+            "world",
+            "animals",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Must we save the tigers\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Elephants are very strong animals.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I105",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Saw we many wild animals on our trip\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The Amazon is the largest jungle in the world.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forest the is full of beautiful birds\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Dolphins are my favourite animals.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I118",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Love i the sound of the ocean\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is that island far from the coast?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The protecting environment is important\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is a wildlife photographer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There are any snakes in this area\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The water in the lake is very clear.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Desert the is very hot during the day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They are cleaning the local river.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         },
         {
           "interaction_id": "A2_U17_B17_I146",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Everest mount is very high\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "natural",
+            "world",
+            "animals"
+          ]
         }
       ]
     }

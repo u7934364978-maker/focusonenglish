@@ -40,7 +40,14 @@
               "text": "informal"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U3_B1_I2",
@@ -67,7 +74,14 @@
               "text": "heading"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U3_B1_I3",
@@ -94,7 +108,14 @@
               "text": "paragraph"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U3_B1_I4",
@@ -121,7 +142,14 @@
               "text": "summary"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U3_B1_I5",
@@ -148,7 +176,14 @@
               "text": "simplicity"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +217,14 @@
               "text": "will"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B2_I2",
@@ -209,7 +251,14 @@
               "text": "have been"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B2_I3",
@@ -236,7 +285,14 @@
               "text": "miss"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B2_I4",
@@ -263,7 +319,14 @@
               "text": "have attended"
             }
           ],
-          "correct_answer": "had attended"
+          "correct_answer": "had attended",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B2_I5",
@@ -290,7 +353,14 @@
               "text": "have submitted"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     },
@@ -324,7 +394,13 @@
               "text": "I saw"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B3_I2",
@@ -351,7 +427,13 @@
               "text": "are"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B3_I3",
@@ -378,7 +460,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B3_I4",
@@ -405,7 +493,13 @@
               "text": "have"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U3_B3_I5",
@@ -432,7 +526,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     }

@@ -28,7 +28,14 @@
             "writing",
             "consumer"
           ],
-          "explanation": "(1) La palabra correcta es 'reviews', ya que se refiere a las revisiones o críticas que la gente lee.\n(2) La palabra 'articles' es correcta porque se refiere a los textos que brindan información y opiniones.\n(3) Aquí se requiere la palabra 'argument', que describe el punto principal que se defiende en el artículo.\n(4) La palabra 'writing' es necesaria para describir el estilo en que se presenta el contenido.\n(5) La palabra correcta es 'consumer', que describe a la persona que toma decisiones de compra."
+          "explanation": "(1) La palabra correcta es 'reviews', ya que se refiere a las revisiones o críticas que la gente lee.\n(2) La palabra 'articles' es correcta porque se refiere a los textos que brindan información y opiniones.\n(3) Aquí se requiere la palabra 'argument', que describe el punto principal que se defiende en el artículo.\n(4) La palabra 'writing' es necesaria para describir el estilo en que se presenta el contenido.\n(5) La palabra correcta es 'consumer', que describe a la persona que toma decisiones de compra.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     },
@@ -50,7 +57,14 @@
             "feel",
             "recognize"
           ],
-          "explanation": "(1) Se trata de dar una opinión sobre la importancia de ver películas en su idioma original, lo cual ayuda a entender mejor la cultura.\n(2) Aquí se necesita una palabra que exprese la creencia del hablante sobre el impacto negativo de las redes sociales.\n(3) El verbo 'argue' se usa para expresar que muchas personas sostienen un punto de vista sobre la educación gratuita.\n(4) El uso de 'feel' aquí muestra que, a pesar de entender el punto de vista de la otra persona, se mantiene una opinión diferente.\n(5) La palabra 'recognize' se utiliza para indicar que las personas son conscientes del impacto del cambio climático."
+          "explanation": "(1) Se trata de dar una opinión sobre la importancia de ver películas en su idioma original, lo cual ayuda a entender mejor la cultura.\n(2) Aquí se necesita una palabra que exprese la creencia del hablante sobre el impacto negativo de las redes sociales.\n(3) El verbo 'argue' se usa para expresar que muchas personas sostienen un punto de vista sobre la educación gratuita.\n(4) El uso de 'feel' aquí muestra que, a pesar de entender el punto de vista de la otra persona, se mantiene una opinión diferente.\n(5) La palabra 'recognize' se utiliza para indicar que las personas son conscientes del impacto del cambio climático.",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit"
+          ]
         }
       ]
     },
@@ -72,7 +86,13 @@
             "found",
             "set"
           ],
-          "explanation": "(1) Se usa el pasado simple 'went' porque es una acción completa en el pasado.\n(2) Usamos el pasado continuo 'was picking' porque describe una acción en progreso en el pasado.\n(3) El pasado simple 'moved' se usa para describir una acción completa que ocurrió en el pasado.\n(4) Usamos el pasado simple 'found' porque describe una acción que tuvo lugar en el pasado.\n(5) El pasado simple 'set' se usa aquí como la acción de liberar al conejo."
+          "explanation": "(1) Se usa el pasado simple 'went' porque es una acción completa en el pasado.\n(2) Usamos el pasado continuo 'was picking' porque describe una acción en progreso en el pasado.\n(3) El pasado simple 'moved' se usa para describir una acción completa que ocurrió en el pasado.\n(4) Usamos el pasado simple 'found' porque describe una acción que tuvo lugar en el pasado.\n(5) El pasado simple 'set' se usa aquí como la acción de liberar al conejo.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     }

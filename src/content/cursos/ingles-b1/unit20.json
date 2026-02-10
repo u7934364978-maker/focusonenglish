@@ -23,7 +23,13 @@
           "explanation": "En esta oración, estamos usando la forma condicional que indica una situación real. 'If' introduce la condición.",
           "stimulus_en": "If it rains, I will stay home.\n\nI will stay home if it... ...",
           "correct_answer": "rains.",
-          "example": "stay"
+          "example": "stay",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B1_I2",
@@ -33,7 +39,13 @@
           "explanation": "Aquí se está expresando una situación hipotética utilizando la segunda condicional.",
           "stimulus_en": "If you studied hard, you would pass the exam.\n\nYou would pass the exam if you... ...",
           "correct_answer": "studied hard.",
-          "example": "pass"
+          "example": "pass",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B1_I3",
@@ -43,7 +55,13 @@
           "explanation": "Esta oración usa 'had' para señalar una situación irreal en el presente que se utiliza con la segunda condicional.",
           "stimulus_en": "If I had a car, I would drive to work.\n\nI would drive to work if I... ...",
           "correct_answer": "had a car.",
-          "example": "drive"
+          "example": "drive",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B1_I4",
@@ -53,7 +71,13 @@
           "explanation": "En este caso, se presenta una relación real y directa entre las dos acciones.",
           "stimulus_en": "If you heat water, it will boil.\n\nWater will boil if you... ...",
           "correct_answer": "heat it.",
-          "example": "boil"
+          "example": "boil",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B1_I5",
@@ -63,7 +87,13 @@
           "explanation": "Esta es una situación irreal, usando el verbo 'were' para la segunda condicional.",
           "stimulus_en": "If he were taller, he would be a basketball player.\n\nHe would be a basketball player if he... ...",
           "correct_answer": "were taller.",
-          "example": "be"
+          "example": "be",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -85,7 +115,13 @@
             "ACTING",
             "MASTERPIECE"
           ],
-          "explanation": "(1) Aquí se usa 'performance' porque describe cómo se lleva a cabo la película.\n(2) Se necesita 'creativity' para describir la habilidad de crear algo original.\n(3) La palabra 'audience' se refiere a las personas que ven la película.\n(4) La forma 'acting' se refiere a la acción de actuar en un filme o teatro.\n(5) Un 'masterpiece' es una obra de arte excepcional, que refleja una gran habilidad."
+          "explanation": "(1) Aquí se usa 'performance' porque describe cómo se lleva a cabo la película.\n(2) Se necesita 'creativity' para describir la habilidad de crear algo original.\n(3) La palabra 'audience' se refiere a las personas que ven la película.\n(4) La forma 'acting' se refiere a la acción de actuar en un filme o teatro.\n(5) Un 'masterpiece' es una obra de arte excepcional, que refleja una gran habilidad.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit"
+          ]
         }
       ]
     },
@@ -119,7 +155,14 @@
               "text": "where"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B3_I2",
@@ -146,7 +189,14 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B3_I3",
@@ -173,7 +223,14 @@
               "text": "that"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B3_I4",
@@ -200,7 +257,14 @@
               "text": "who"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U20_B3_I5",
@@ -227,7 +291,14 @@
               "text": "where"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     }

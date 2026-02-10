@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (visitar) ________ the museum.",
           "correct_answer": "visited",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I was happy yesterday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fui/Fue",
           "correct_answer": "Went",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (vivir) ________ here since 2010.",
           "correct_answer": "have lived",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scenery the was beautiful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Recuerdo",
           "correct_answer": "Souvenir",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I14",
@@ -140,14 +197,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I read a good book.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I19",
@@ -168,7 +238,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I20",
@@ -176,7 +253,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Paisaje",
           "correct_answer": "Landscape",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I21",
@@ -197,7 +280,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I23",
@@ -205,14 +295,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ir) ________ to London last week.",
           "correct_answer": "went",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he born in madrid\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I26",
@@ -233,7 +335,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I27",
@@ -241,7 +350,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Recuerdo",
           "correct_answer": "Memory",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I28",
@@ -262,7 +377,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I30",
@@ -270,14 +392,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It is the ________ (hot) day.",
           "correct_answer": "hottest",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She didn't buy anything.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I33",
@@ -298,7 +432,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I34",
@@ -306,7 +447,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Increíble",
           "correct_answer": "Amazing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I35",
@@ -327,7 +474,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I37",
@@ -335,14 +489,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / see) ________ the movie.",
           "correct_answer": "didn't see",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Storm the was very strong\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I41",
@@ -350,7 +516,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ayer",
           "correct_answer": "Yesterday",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I42",
@@ -371,7 +543,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I44",
@@ -379,14 +558,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (ser/estar) ________ born in 1985.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was a memorable day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I48",
@@ -394,7 +585,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Compré/Compró",
           "correct_answer": "Bought",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I49",
@@ -415,7 +612,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I51",
@@ -423,14 +627,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ you do on Saturday?",
           "correct_answer": "did",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had we a lot of fun\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I55",
@@ -438,7 +654,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tormenta",
           "correct_answer": "Storm",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I56",
@@ -459,7 +681,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I58",
@@ -467,14 +696,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ at home yesterday.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We went to the beach.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I62",
@@ -482,7 +723,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Biografía",
           "correct_answer": "Biography",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I65",
@@ -490,14 +737,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Did you ________ (gustar) the trip?",
           "correct_answer": "like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Did what you see\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U30_B30_I69",
@@ -505,7 +764,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Infancia",
           "correct_answer": "Childhood",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         }
       ]
     }

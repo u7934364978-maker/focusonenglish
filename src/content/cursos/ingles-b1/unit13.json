@@ -40,7 +40,14 @@
               "text": "Thriller"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Tomorrowland"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Digital arts"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Action"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Presentation"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,13 @@
             "had",
             "don’t try"
           ],
-          "explanation": "(1) Aquí se usa la primera condicional porque se habla de una situación real en el presente o futuro.\n(2) Aquí se usa la segunda condicional porque se trata de una situación hipotética en el presente.\n(3) En este caso, se usa la primera condicional porque es una posibilidad real.\n(4) Usamos la segunda condicional aquí porque estamos hablando de una situación hipotética.\n(5) Esto es un ejemplo de la primera condicional. Es una advertencia sobre un hecho real."
+          "explanation": "(1) Aquí se usa la primera condicional porque se habla de una situación real en el presente o futuro.\n(2) Aquí se usa la segunda condicional porque se trata de una situación hipotética en el presente.\n(3) En este caso, se usa la primera condicional porque es una posibilidad real.\n(4) Usamos la segunda condicional aquí porque estamos hablando de una situación hipotética.\n(5) Esto es un ejemplo de la primera condicional. Es una advertencia sobre un hecho real.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +245,15 @@
               "text": "To provide details"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B3_I2",
@@ -231,7 +280,15 @@
               "text": "Greetings"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B3_I3",
@@ -258,7 +315,15 @@
               "text": "Love"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B3_I4",
@@ -285,7 +350,15 @@
               "text": "Legal terms"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U13_B3_I5",
@@ -312,7 +385,15 @@
               "text": "Please remember"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

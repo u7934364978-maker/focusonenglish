@@ -40,7 +40,14 @@
               "text": "told"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U29_B1_I2",
@@ -67,7 +74,14 @@
               "text": "said"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U29_B1_I3",
@@ -94,7 +108,14 @@
               "text": "commanded"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U29_B1_I4",
@@ -121,7 +142,14 @@
               "text": "mentioned"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U29_B1_I5",
@@ -148,7 +176,14 @@
               "text": "taught"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -182,7 +217,14 @@
               "text": "Ignoring"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U29_B2_I2",
@@ -209,7 +251,14 @@
               "text": "Helium"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U29_B2_I3",
@@ -236,7 +285,14 @@
               "text": "Paper"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U29_B2_I4",
@@ -263,7 +319,14 @@
               "text": "Ecosystem"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U29_B2_I5",
@@ -290,7 +353,14 @@
               "text": "Pollute their environment"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -312,7 +382,13 @@
             "COMMUNICATION",
             "GRADUATION"
           ],
-          "explanation": "(1) La palabra 'development' es el sustantivo de 'develop', que significa el proceso de crecer o cambiar.\n(2) La forma plural de 'interest' se usa para mostrar que cada persona puede tener más de un interés.\n(3) La forma plural 'courses' se usa para referirse a más de una materia o clases ofrecidas.\n(4) El sustantivo 'communication' se refiere al acto de comunicarse, relacionado con las habilidades de comunicación.\n(5) La palabra 'graduation' se refiere al evento de completar un curso de estudio, relacionada con 'graduate'."
+          "explanation": "(1) La palabra 'development' es el sustantivo de 'develop', que significa el proceso de crecer o cambiar.\n(2) La forma plural de 'interest' se usa para mostrar que cada persona puede tener más de un interés.\n(3) La forma plural 'courses' se usa para referirse a más de una materia o clases ofrecidas.\n(4) El sustantivo 'communication' se refiere al acto de comunicarse, relacionado con las habilidades de comunicación.\n(5) La palabra 'graduation' se refiere al evento de completar un curso de estudio, relacionada con 'graduate'.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit"
+          ]
         }
       ]
     }

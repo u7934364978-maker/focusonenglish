@@ -23,7 +23,13 @@
           "explanation": "En la voz pasiva, el objeto de la oración activa se convierte en el sujeto de la oración pasiva.",
           "stimulus_en": "The chef cooks the meal.\n\nThe meal is cooked... ...",
           "correct_answer": "by the chef.",
-          "example": "cook"
+          "example": "cook",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B1_I2",
@@ -33,7 +39,13 @@
           "explanation": "En la voz pasiva, usamos 'will be' + participio pasado para formar el futuro.",
           "stimulus_en": "They will announce the results tomorrow.\n\nThe results will be announced... ...",
           "correct_answer": "tomorrow.",
-          "example": "announce"
+          "example": "announce",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B1_I3",
@@ -43,7 +55,13 @@
           "explanation": "En este caso, usamos el presente continuo en voz pasiva.",
           "stimulus_en": "The teacher is grading the papers.\n\nThe papers are being graded... ...",
           "correct_answer": "by the teacher.",
-          "example": "grade"
+          "example": "grade",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B1_I4",
@@ -53,7 +71,13 @@
           "explanation": "Para la voz pasiva en pasado, usamos 'was/were' + participio pasado.",
           "stimulus_en": "They built the house last year.\n\nThe house was built... ...",
           "correct_answer": "last year.",
-          "example": "build"
+          "example": "build",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B1_I5",
@@ -63,7 +87,13 @@
           "explanation": "En la voz pasiva, el enfoque está en la acción realizada sobre el sujeto.",
           "stimulus_en": "Someone will clean the room.\n\nThe room will be cleaned... ...",
           "correct_answer": "by someone.",
-          "example": "clean"
+          "example": "clean",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -97,7 +127,14 @@
               "text": "Water"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U23_B2_I2",
@@ -124,7 +161,14 @@
               "text": "Ignoring"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U23_B2_I3",
@@ -151,7 +195,14 @@
               "text": "Sound"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U23_B2_I4",
@@ -178,7 +229,14 @@
               "text": "It makes rain."
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U23_B2_I5",
@@ -205,7 +263,14 @@
               "text": "Waste water"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -239,7 +304,13 @@
               "text": "completed"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B3_I2",
@@ -266,7 +337,13 @@
               "text": "giving"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B3_I3",
@@ -293,7 +370,13 @@
               "text": "set"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B3_I4",
@@ -320,7 +403,13 @@
               "text": "adopted"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U23_B3_I5",
@@ -347,7 +436,13 @@
               "text": "check"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "How ________ the weather there?",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We stayed in a hotel near the beach.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Vacaciones",
           "correct_answer": "Holiday",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The food (ser/estar) ________ delicious.",
           "correct_answer": "was",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Scenery the was absolutely beautiful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Aeropuerto",
           "correct_answer": "Airport",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Did you ________ (take) many photos?",
           "correct_answer": "take",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The flight was very long but comfortable.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I20",
@@ -184,7 +267,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Comida local",
           "correct_answer": "Local food",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I21",
@@ -205,7 +294,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I23",
@@ -213,14 +309,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (travel) ________ by train.",
           "correct_answer": "traveled",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bought i a small souvenir for my mother\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I26",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I27",
@@ -249,7 +364,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Recuerdo/Souvenir",
           "correct_answer": "Souvenir",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I28",
@@ -270,7 +391,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I30",
@@ -278,14 +406,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (stay) ________ in a beautiful hotel.",
           "correct_answer": "stayed",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It was the best trip I've ever had.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I34",
@@ -293,7 +433,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Viaje",
           "correct_answer": "Trip",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I35",
@@ -314,7 +460,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I37",
@@ -322,14 +475,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ir) ________ to Italy last summer.",
           "correct_answer": "went",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Journey the took ten hours by train\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I40",
@@ -337,7 +502,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Visita guiada",
           "correct_answer": "Guided tour",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I41",
@@ -358,7 +529,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I43",
@@ -366,14 +544,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (buy) ________ lots of souvenirs.",
           "correct_answer": "bought",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget to bring your passport.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I47",
@@ -381,7 +571,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hotel",
           "correct_answer": "Hotel",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I48",
@@ -402,7 +598,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I50",
@@ -410,14 +613,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / gustar) ________ the flight.",
           "correct_answer": "didn't like",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Traveled we around the island by car\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I54",
@@ -425,7 +640,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Billete",
           "correct_answer": "Ticket",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I55",
@@ -446,7 +667,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I57",
@@ -454,14 +682,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / querer) ________ to come home.",
           "correct_answer": "didn't want",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We had a wonderful holiday in Greece.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I61",
@@ -469,7 +709,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hermoso/a",
           "correct_answer": "Beautiful",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I62",
@@ -490,7 +736,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I64",
@@ -498,14 +751,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (see) ________ some amazing places.",
           "correct_answer": "saw",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You did try the local food while you were there\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I68",
@@ -513,7 +778,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Vuelo",
           "correct_answer": "Flight",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I69",
@@ -534,14 +805,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My trip to Japan was an incredible experience.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I74",
@@ -549,7 +833,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Experiencia",
           "correct_answer": "Experience",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I75",
@@ -570,14 +860,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Weather the was perfect for sightseeing\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I80",
@@ -585,7 +888,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pasaporte",
           "correct_answer": "Passport",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I81",
@@ -606,14 +915,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We went on a guided tour of the city.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I85",
@@ -621,7 +943,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hacer turismo",
           "correct_answer": "Sightseeing",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I86",
@@ -642,14 +970,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Took i over five hundred photos\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I91",
@@ -657,7 +998,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Viajar",
           "correct_answer": "Travel",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I92",
@@ -678,14 +1025,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I want to go back there next year.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I96",
@@ -693,7 +1053,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Trayecto/Viaje",
           "correct_answer": "Journey",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I97",
@@ -714,112 +1080,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "travel",
+            "experiences",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stayed we in a hotel near the beach\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The scenery was absolutely beautiful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Flight the was very long but comfortable\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I bought a small souvenir for my mother.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was it the best trip i've ever had\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The journey took ten hours by train.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forget don't to bring your passport\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We traveled around the island by car.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I125",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had we a wonderful holiday in greece\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Did you try the local food while you were there?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Trip my to japan was an incredible experience\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The weather was perfect for sightseeing.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Went we on a guided tour of the city\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I took over five hundred photos!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         },
         {
           "interaction_id": "A2_U26_B26_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Want i to go back there next year\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "travel",
+            "experiences"
+          ]
         }
       ]
     }

@@ -22,7 +22,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "El uso de 'rarely' requiere inversión, por lo que se invierte 'I have seen'.",
           "stimulus_en": "In the following sentences, fill in the gaps appropriately, employing the rules of inversion where needed.\n\n___ I have seen such beautiful art before.",
-          "correct_answer": "Rarely"
+          "correct_answer": "Rarely",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B1_I2",
@@ -31,7 +37,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La inversión se usa aquí por el uso de 'not only' al principio de la oración.",
           "stimulus_en": "In the following sentences, fill in the gaps appropriately, employing the rules of inversion where needed.\n\n___ did she finish her work on time, but she also helped others.",
-          "correct_answer": "Not only"
+          "correct_answer": "Not only",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B1_I3",
@@ -40,7 +52,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La inversión se forma con 'hardly' para expresar que algo ocurre con dificultad.",
           "stimulus_en": "In the following sentences, fill in the gaps appropriately, employing the rules of inversion where needed.\n\n___ did the movie start, but the audience was already captivated.",
-          "correct_answer": "Hardly"
+          "correct_answer": "Hardly",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B1_I4",
@@ -49,7 +67,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "'No sooner' indica que algo ocurrió casi inmediatamente después, requiriendo inversión.",
           "stimulus_en": "In the following sentences, fill in the gaps appropriately, employing the rules of inversion where needed.\n\n___ had I left the house when it started to rain.",
-          "correct_answer": "No sooner"
+          "correct_answer": "No sooner",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B1_I5",
@@ -58,7 +82,13 @@
           "mastery_tag": "grammar:b2-inversion",
           "explanation": "La palabra 'seldom' introduce una inversión, destacando la rareza de la situación.",
           "stimulus_en": "In the following sentences, fill in the gaps appropriately, employing the rules of inversion where needed.\n\n___ can you find someone as dedicated as her.",
-          "correct_answer": "Seldom"
+          "correct_answer": "Seldom",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     },
@@ -92,7 +122,14 @@
               "text": "has been"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B2_I2",
@@ -119,7 +156,14 @@
               "text": "would have"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B2_I3",
@@ -146,7 +190,14 @@
               "text": "had gotten"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B2_I4",
@@ -173,7 +224,14 @@
               "text": "make"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U17_B2_I5",
@@ -200,7 +258,14 @@
               "text": "finished"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     },
@@ -234,7 +299,14 @@
               "text": "Harm"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U17_B3_I2",
@@ -261,7 +333,14 @@
               "text": "Inactivity"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U17_B3_I3",
@@ -288,7 +367,14 @@
               "text": "Convenience"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U17_B3_I4",
@@ -315,7 +401,14 @@
               "text": "Worrying"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U17_B3_I5",
@@ -342,7 +435,14 @@
               "text": "Detriment"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

@@ -40,7 +40,14 @@
               "text": "To promote"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U5_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Print media"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U5_B1_I3",
@@ -94,7 +108,14 @@
               "text": "All of the above"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U5_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Cost of production"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U5_B1_I5",
@@ -148,7 +176,14 @@
               "text": "To promote brands"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,13 @@
             "structure",
             "aids"
           ],
-          "explanation": "(1) La comunicación es esencial para el éxito académico, ya que permite la expresión clara de ideas.\n(2) Las habilidades de presentación son fundamentales para transmitir información de manera clara y efectiva.\n(3) El contenido debe estar bien organizado para mantener la atención del público y facilitar la comprensión.\n(4) Tener una estructura clara en una presentación facilita seguir el hilo de las ideas presentadas.\n(5) Los elementos visuales, como gráficos y diapositivas, ayudan a que la información sea más accesible y memorable."
+          "explanation": "(1) La comunicación es esencial para el éxito académico, ya que permite la expresión clara de ideas.\n(2) Las habilidades de presentación son fundamentales para transmitir información de manera clara y efectiva.\n(3) El contenido debe estar bien organizado para mantener la atención del público y facilitar la comprensión.\n(4) Tener una estructura clara en una presentación facilita seguir el hilo de las ideas presentadas.\n(5) Los elementos visuales, como gráficos y diapositivas, ayudan a que la información sea más accesible y memorable.",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit"
+          ]
         }
       ]
     },
@@ -299,7 +340,14 @@
             "4": "o2",
             "5": "o1"
           },
-          "explanation": "(1) En este contexto, 'journalists' es el sustantivo plural que se refiere a las personas que trabajan en la industria del periodismo.\n(2) La palabra correcta es 'visual', que se refiere a habilidades relacionadas con la creación de contenido atractivo para la audiencia.\n(3) En este caso, 'broadcasters' se refiere a las empresas o personas que transmiten contenido.\n(4) 'Interactivity' se refiere a la participación activa de la audiencia en el contenido.\n(5) 'Data' es un término clave para referirse a los números y hechos que analizan la audiencia."
+          "explanation": "(1) En este contexto, 'journalists' es el sustantivo plural que se refiere a las personas que trabajan en la industria del periodismo.\n(2) La palabra correcta es 'visual', que se refiere a habilidades relacionadas con la creación de contenido atractivo para la audiencia.\n(3) En este caso, 'broadcasters' se refiere a las empresas o personas que transmiten contenido.\n(4) 'Interactivity' se refiere a la participación activa de la audiencia en el contenido.\n(5) 'Data' es un término clave para referirse a los números y hechos que analizan la audiencia.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

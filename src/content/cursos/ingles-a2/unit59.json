@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / tener) ________ much time left.",
           "correct_answer": "don't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't forget to focus on the grammar points.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Conocimiento",
           "correct_answer": "Knowledge",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (estudiar) ________ for the final exam.",
           "correct_answer": "am studying",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Feels she a bit nervous about the final test\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Seguro/a/Confiado/a",
           "correct_answer": "Confident",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (need) ________ to review all the units.",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The results will be available in two weeks.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I20",
@@ -184,7 +267,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Enfoque/Concentrarse",
           "correct_answer": "Focus",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I23",
@@ -192,14 +281,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you ready for the test?",
           "correct_answer": "Are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Failed she the first test, but she passed the second one\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I26",
@@ -220,7 +321,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I27",
@@ -228,7 +336,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Revisión/Repaso",
           "correct_answer": "Review",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I28",
@@ -249,7 +363,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I30",
@@ -257,14 +378,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (tener) ________ a lot of vocabulary to learn.",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What's the best strategy for the reading part?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I33",
@@ -285,7 +418,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I34",
@@ -293,7 +433,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nervioso/a",
           "correct_answer": "Nervous",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I35",
@@ -314,7 +460,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I37",
@@ -322,14 +475,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ going to pass the exam.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spending i'm all my free time on exam preparation\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I41",
@@ -337,7 +502,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Revisión/Repaso",
           "correct_answer": "Revision",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I42",
@@ -358,7 +529,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I44",
@@ -366,14 +544,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (finish) ________ all the exercises.",
           "correct_answer": "finished",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The final exam will cover all sixty units.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I48",
@@ -381,7 +571,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Habilidad",
           "correct_answer": "Skill",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I51",
@@ -389,14 +585,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ser/estar) ________ practicing her speaking skills.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"In success the exam is my main goal\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I55",
@@ -404,7 +612,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Examen",
           "correct_answer": "Exam",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I58",
@@ -412,14 +626,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ser/estar) ________ very nervous.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've made a lot of progress in my English skills.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I62",
@@ -427,7 +653,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estudio/Estudiar",
           "correct_answer": "Study",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I63",
@@ -448,7 +680,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I65",
@@ -456,14 +695,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (pensar) the test will be hard?",
           "correct_answer": "think",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he very confident that he will pass\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I70",
@@ -484,14 +735,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Practice makes perfect, so keep studying!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I75",
@@ -512,14 +776,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to study hard to get good grades\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I80",
@@ -527,7 +804,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Aprobar",
           "correct_answer": "Pass",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I81",
@@ -548,14 +831,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She achieved a very high score on the last test.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I86",
@@ -563,7 +859,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Suspender/Fallar",
           "correct_answer": "Fail",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I87",
@@ -584,14 +886,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Going i'm to take the exam next monday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I92",
@@ -599,14 +914,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Práctica/Practicar",
           "correct_answer": "Practice",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We need to review everything we've learned this year.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I97",
@@ -614,7 +941,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nota/Grado",
           "correct_answer": "Grade",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I98",
@@ -635,14 +968,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Forget don't to focus on the grammar points\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I102",
@@ -650,7 +996,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Prueba/Test",
           "correct_answer": "Test",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I103",
@@ -671,14 +1023,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I105",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She feels a bit nervous about the final test.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I108",
@@ -699,14 +1064,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Results the will be available in two weeks\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I113",
@@ -714,7 +1092,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Puntuación",
           "correct_answer": "Score",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I114",
@@ -735,14 +1119,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She failed the first test, but she passed the second one.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I118",
@@ -750,7 +1147,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estrategia",
           "correct_answer": "Strategy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I119",
@@ -771,14 +1174,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The what's best strategy for the reading part\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I124",
@@ -786,7 +1202,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Preparación",
           "correct_answer": "Preparation",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I125",
@@ -807,77 +1229,144 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "first",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm spending all my free time on exam preparation.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Final the exam will cover all sixty units\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Success in the exam is my main goal.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Made i've a lot of progress in my english skills\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is very confident that he will pass.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Makes practice perfect, so keep studying\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have to study hard to get good grades.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Achieved she a very high score on the last test\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I152",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm going to take the exam next Monday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U59_B59_I155",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need we to review everything we've learned this year\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "first",
+            "conditional"
+          ]
         }
       ]
     }

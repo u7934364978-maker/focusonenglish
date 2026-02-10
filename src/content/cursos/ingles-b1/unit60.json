@@ -135,7 +135,14 @@
             "4": "o3",
             "5": "o2"
           },
-          "explanation": "(1) Contaminación se refiere a la presencia de sustancias perjudiciales en el medio ambiente.\n(2) Reducir es disminuir la cantidad de residuos que producimos.\n(3) El clima afecta patrones de clima y recursos naturales.\n(4) Innovador se refiere a nuevas y creativas formas de hacer las cosas.\n(5) La naturaleza se refiere al mundo natural, incluyendo plantas, animales y ecosistemas."
+          "explanation": "(1) Contaminación se refiere a la presencia de sustancias perjudiciales en el medio ambiente.\n(2) Reducir es disminuir la cantidad de residuos que producimos.\n(3) El clima afecta patrones de clima y recursos naturales.\n(4) Innovador se refiere a nuevas y creativas formas de hacer las cosas.\n(5) La naturaleza se refiere al mundo natural, incluyendo plantas, animales y ecosistemas.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -169,7 +176,13 @@
               "text": "baked"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U60_B2_I2",
@@ -196,7 +209,13 @@
               "text": "wrote"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U60_B2_I3",
@@ -223,7 +242,13 @@
               "text": "watches"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U60_B2_I4",
@@ -250,7 +275,13 @@
               "text": "build"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U60_B2_I5",
@@ -277,7 +308,13 @@
               "text": "sang"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -311,7 +348,14 @@
               "text": "To learn English"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U60_B3_I2",
@@ -338,7 +382,14 @@
               "text": "Your favorite food"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U60_B3_I3",
@@ -365,7 +416,14 @@
               "text": "What do you eat?"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U60_B3_I4",
@@ -392,7 +450,14 @@
               "text": "Like a clown"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U60_B3_I5",
@@ -419,7 +484,14 @@
               "text": "Ignore it"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

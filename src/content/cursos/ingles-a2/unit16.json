@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (need) ________ to buy some medicine.",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was sick all night.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Peor",
           "correct_answer": "Worse",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (debería) ________ see a doctor.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Got i've a really bad cold\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dolor de cabeza",
           "correct_answer": "Headache",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I16",
@@ -127,14 +193,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (hurt) ________ when I move.",
           "correct_answer": "hurts",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My arm is very sore.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I20",
@@ -142,7 +222,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tos",
           "correct_answer": "Cough",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I21",
@@ -163,7 +250,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I23",
@@ -171,14 +266,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (not / poder) ________ go to work.",
           "correct_answer": "can't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has he a high fever\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I27",
@@ -186,7 +295,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hospital",
           "correct_answer": "Hospital",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I28",
@@ -207,7 +323,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I30",
@@ -215,14 +339,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ waiting for the dentist.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have a terrible sore throat.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I33",
@@ -243,7 +381,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I34",
@@ -251,7 +397,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dolor de estómago",
           "correct_answer": "Stomach ache",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I35",
@@ -272,14 +425,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Going i'm to the dentist tomorrow morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I41",
@@ -287,7 +455,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Resfriado",
           "correct_answer": "Cold",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I42",
@@ -308,7 +483,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I44",
@@ -316,14 +499,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / ser/estar) ________ at school today.",
           "correct_answer": "are not",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She has to see a doctor about her back.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I48",
@@ -331,7 +528,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Medicina/Medicamento",
           "correct_answer": "Medicine",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I49",
@@ -352,7 +556,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I51",
@@ -360,14 +572,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does she ________ (tener) a fever?",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Stomach my hurts after that meal\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I55",
@@ -375,7 +601,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dolor de muelas",
           "correct_answer": "Toothache",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I56",
@@ -396,7 +629,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I58",
@@ -404,14 +645,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (sentirse) ________ a bit sick.",
           "correct_answer": "feels",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The medicine makes me feel sleepy.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I62",
@@ -419,7 +674,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fiebre",
           "correct_answer": "Fever",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I63",
@@ -440,7 +702,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I65",
@@ -448,14 +718,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ staying in bed.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i an appointment at 3 pm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I69",
@@ -463,7 +747,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Enfermo/a",
           "correct_answer": "Ill/Sick",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I70",
@@ -484,14 +775,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She needs to take some aspirin.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I75",
@@ -499,7 +805,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Gripe",
           "correct_answer": "Flu",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I76",
@@ -520,14 +833,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he allergic to antibiotics\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I81",
@@ -535,7 +863,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mejor",
           "correct_answer": "Better",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I82",
@@ -556,14 +891,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I84",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You should stay in bed if you have the flu.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I86",
@@ -571,7 +921,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dolor de garganta",
           "correct_answer": "Sore throat",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I87",
@@ -592,14 +949,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hope i you get well soon\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I92",
@@ -607,7 +979,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Dentista",
           "correct_answer": "Dentist",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I93",
@@ -628,14 +1007,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are you feeling any better today?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I99",
@@ -656,112 +1050,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "health",
+            "common",
+            "illnesses",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he sick all night\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a really bad cold.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Arm my is very sore\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He has a high fever.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i a terrible sore throat\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm going to the dentist tomorrow morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I122",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has she to see a doctor about her back\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My stomach hurts after that meal.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Medicine the makes me feel sleepy\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have an appointment at 3 PM.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Needs she to take some aspirin\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is allergic to antibiotics.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you stay in bed if you have the flu\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I146",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I hope you get well soon!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         },
         {
           "interaction_id": "A2_U16_B16_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are feeling any better today\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "health",
+            "common",
+            "illnesses"
+          ]
         }
       ]
     }

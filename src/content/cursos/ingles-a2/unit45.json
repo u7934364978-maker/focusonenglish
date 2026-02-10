@@ -18,14 +18,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (debería) ________ study more for the exam.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should I call him now or later?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I5",
@@ -46,7 +62,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I9",
@@ -54,14 +78,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ I tell him the truth?",
           "correct_answer": "Should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should she take some medicine for her cough\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I12",
@@ -82,7 +122,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I14",
@@ -103,7 +151,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I16",
@@ -111,14 +167,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (debería / not) ________ eat so much sugar.",
           "correct_answer": "should not",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Where should we go on holiday this year?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I19",
@@ -139,7 +211,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I23",
@@ -147,14 +227,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Where (debería) ________ we meet tonight?",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Think i we should ask for directions\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I26",
@@ -175,7 +271,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I30",
@@ -183,14 +287,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (debería) ________ buy some more bread.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He shouldn't work so hard; he needs a rest.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I33",
@@ -211,7 +331,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I34",
@@ -219,7 +347,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Útil/De ayuda",
           "correct_answer": "Helpful",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I37",
@@ -227,14 +363,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (debería / not) ________ worry so much.",
           "correct_answer": "shouldn't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Shouldn't she drink so much coffee\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I41",
@@ -242,7 +394,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Error/Equivocación",
           "correct_answer": "Mistake",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I44",
@@ -250,14 +410,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (debería / not) ________ go to bed so late.",
           "correct_answer": "shouldn't",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You should talk to your teacher about it.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I48",
@@ -265,7 +441,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "No debería",
           "correct_answer": "Shouldn't",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I49",
@@ -286,7 +470,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I51",
@@ -294,14 +486,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (debería) ________ see a doctor.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't i think you should buy that car\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I54",
@@ -309,7 +517,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Idea",
           "correct_answer": "Idea",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I55",
@@ -330,7 +546,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I57",
@@ -338,14 +562,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (debería) ________ take a break.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You should try this cake, it's delicious!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I60",
@@ -353,7 +593,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Opinión",
           "correct_answer": "Opinion",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I61",
@@ -374,7 +622,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I63",
@@ -382,14 +638,30 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What (debería) ________ I do about this problem?",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I64",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should we leave now or we'll be late\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I67",
@@ -397,7 +669,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Solución",
           "correct_answer": "Solution",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I68",
@@ -418,14 +698,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I70",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I think you should tell her how you feel.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I72",
@@ -433,7 +729,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Verdad",
           "correct_answer": "Truth",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I73",
@@ -454,14 +758,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I75",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should what i wear to the wedding\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I79",
@@ -482,14 +802,30 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I81",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You should wear a coat, it's cold outside.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I84",
@@ -497,7 +833,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sugerencia",
           "correct_answer": "Suggestion",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I85",
@@ -518,21 +862,45 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I87",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Shouldn't they make so much noise\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You should be more careful with your money.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I95",
@@ -540,7 +908,15 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Debería",
           "correct_answer": "Should",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I96",
@@ -561,112 +937,240 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I97",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I should call him now or later\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She should take some medicine for her cough.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should where we go on holiday this year\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I think we should ask for directions.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Shouldn't he work so hard; he needs a rest\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She shouldn't drink so much coffee.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you talk to your teacher about it\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I don't think you should buy that car.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you try this cake, it's delicious\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We should leave now or we'll be late.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Think i you should tell her how you feel\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I137",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What should I wear to the wedding?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you wear a coat, it's cold outside\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They shouldn't make so much noise.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         },
         {
           "interaction_id": "A2_U45_B45_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you be more careful with your money\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "present",
+            "perfect",
+            "past",
+            "simple"
+          ]
         }
       ]
     }

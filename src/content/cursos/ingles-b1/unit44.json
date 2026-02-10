@@ -23,7 +23,14 @@
           "explanation": "En el discurso indirecto, cambiamos el tiempo verbal al pasado.",
           "stimulus_en": "He said, 'I am tired.'\n\nHe said that he was... ...",
           "correct_answer": "tired.",
-          "example": "tired"
+          "example": "tired",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U44_B1_I2",
@@ -33,7 +40,14 @@
           "explanation": "Se usa 'would' en lugar de 'will' en el pasado.",
           "stimulus_en": "She said, 'I will go to the party.'\n\nShe said that she would go to the... ...",
           "correct_answer": "party.",
-          "example": "party"
+          "example": "party",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U44_B1_I3",
@@ -43,7 +57,14 @@
           "explanation": "En preguntas, se usa el pasado también.",
           "stimulus_en": "He asked, 'Where do you live?'\n\nHe asked where I... ...",
           "correct_answer": "lived.",
-          "example": "live"
+          "example": "live",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U44_B1_I4",
@@ -53,7 +74,14 @@
           "explanation": "En el discurso indirecto, usamos el tiempo pasado.",
           "stimulus_en": "They told me, 'We are leaving now.'\n\nThey told me that they were... ...",
           "correct_answer": "leaving now.",
-          "example": "leaving"
+          "example": "leaving",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U44_B1_I5",
@@ -63,7 +91,14 @@
           "explanation": "Las preguntas indirectas cambian la estructura.",
           "stimulus_en": "She said, 'Can you help me?'\n\nShe asked if I could... ...",
           "correct_answer": "help her.",
-          "example": "help"
+          "example": "help",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "reported",
+            "speech",
+            "unit"
+          ]
         }
       ]
     },
@@ -97,7 +132,15 @@
               "text": "Education"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U44_B2_I2",
@@ -124,7 +167,15 @@
               "text": "Security systems"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U44_B2_I3",
@@ -151,7 +202,15 @@
               "text": "It requires a lot of space."
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U44_B2_I4",
@@ -178,7 +237,15 @@
               "text": "They are not very helpful."
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U44_B2_I5",
@@ -205,7 +272,15 @@
               "text": "The brands available"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -227,7 +302,15 @@
             "have been cleaning",
             "has been learning"
           ],
-          "explanation": "(1) La oración se refiere a una acción que comenzó en el pasado y continúa en el presente, usando 'has been' con la forma -ing del verbo.\n(2) Indica que la acción de esperar comenzó a las 7 AM y aún no ha terminado.\n(3) Se usa para mostrar la duración de una actividad que sigue ocurriendo hasta ahora.\n(4) Esta estructura muestra que la acción de limpiar empezó en el pasado y todavía está en progreso.\n(5) Utilizamos esta forma para expresar una acción que empezó en el pasado y continúa hasta el presente."
+          "explanation": "(1) La oración se refiere a una acción que comenzó en el pasado y continúa en el presente, usando 'has been' con la forma -ing del verbo.\n(2) Indica que la acción de esperar comenzó a las 7 AM y aún no ha terminado.\n(3) Se usa para mostrar la duración de una actividad que sigue ocurriendo hasta ahora.\n(4) Esta estructura muestra que la acción de limpiar empezó en el pasado y todavía está en progreso.\n(5) Utilizamos esta forma para expresar una acción que empezó en el pasado y continúa hasta el presente.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     }

@@ -40,7 +40,14 @@
               "text": "Pollution"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U48_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Incinerating"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U48_B1_I3",
@@ -94,7 +108,14 @@
               "text": "Less pollution"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U48_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Polluting"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U48_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Urbanization"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -277,7 +312,15 @@
             "4": "o2",
             "5": "o2"
           },
-          "explanation": "(1) El autor de la reseña influye en la percepción que se tiene del producto.\n(2) Una reseña completa ofrece una visión más equilibrada del producto.\n(3) Debes buscar las opiniones más relevantes para ti en las reseñas.\n(4) Algunas reseñas pueden ser demasiado negativas, lo que puede distorsionar la percepción.\n(5) La fecha de la reseña es importante para verificar la actualidad de la información."
+          "explanation": "(1) El autor de la reseña influye en la percepción que se tiene del producto.\n(2) Una reseña completa ofrece una visión más equilibrada del producto.\n(3) Debes buscar las opiniones más relevantes para ti en las reseñas.\n(4) Algunas reseñas pueden ser demasiado negativas, lo que puede distorsionar la percepción.\n(5) La fecha de la reseña es importante para verificar la actualidad de la información.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -299,7 +342,14 @@
             "the",
             "of"
           ],
-          "explanation": "(1) Es importante buscar una buena fuente de información para leer artículos.\n(2) Las personas escriben artículos sobre muchos temas diferentes.\n(3) Las reseñas te ayudan a decidir si un producto vale la pena.\n(4) Es interesante ver las opiniones de otras personas.\n(5) Siempre es importante comprobar la fecha de publicación del artículo."
+          "explanation": "(1) Es importante buscar una buena fuente de información para leer artículos.\n(2) Las personas escriben artículos sobre muchos temas diferentes.\n(3) Las reseñas te ayudan a decidir si un producto vale la pena.\n(4) Es interesante ver las opiniones de otras personas.\n(5) Siempre es importante comprobar la fecha de publicación del artículo.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit"
+          ]
         }
       ]
     }

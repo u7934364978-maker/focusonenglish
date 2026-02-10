@@ -28,7 +28,13 @@
             "CREATIVE",
             "DEVELOPMENT"
           ],
-          "explanation": "(1) El sustantivo 'entertainment' se forma a partir del verbo 'entertain', que se refiere a actividades que son divertidas o agradables.\n(2) El gerundio 'performing' se utiliza aquí para describir las artes que se llevan a cabo en un espectáculo.\n(3) El sustantivo 'director' se refiere a la persona que dirige una película o una obra de teatro.\n(4) El adjetivo 'creative' describe algo que implica la creación o uso de la imaginación.\n(5) El sustantivo 'development' se refiere al proceso de crecimiento o mejora en un campo específico."
+          "explanation": "(1) El sustantivo 'entertainment' se forma a partir del verbo 'entertain', que se refiere a actividades que son divertidas o agradables.\n(2) El gerundio 'performing' se utiliza aquí para describir las artes que se llevan a cabo en un espectáculo.\n(3) El sustantivo 'director' se refiere a la persona que dirige una película o una obra de teatro.\n(4) El adjetivo 'creative' describe algo que implica la creación o uso de la imaginación.\n(5) El sustantivo 'development' se refiere al proceso de crecimiento o mejora en un campo específico.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "entertainment",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +68,14 @@
               "text": "working"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B2_I2",
@@ -89,7 +102,14 @@
               "text": "discussed"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B2_I3",
@@ -116,7 +136,14 @@
               "text": "gave"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B2_I4",
@@ -143,7 +170,14 @@
               "text": "do you do"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B2_I5",
@@ -170,7 +204,14 @@
               "text": "read"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -186,7 +227,13 @@
           "mastery_tag": "grammar:b1-conditionals",
           "explanation": "Aquí usamos el primer condicional porque estamos hablando de una situación real en el futuro.",
           "stimulus_en": "Complete the sentences using the first or second conditional.\n\nIf it (1)___ (rain) tomorrow, we will stay indoors.",
-          "correct_answer": "rains"
+          "correct_answer": "rains",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B3_I2",
@@ -195,7 +242,13 @@
           "mastery_tag": "grammar:b1-conditionals",
           "explanation": "En este caso, usamos el segundo condicional porque estamos hablando de una situación hipotética.",
           "stimulus_en": "Complete the sentences using the first or second conditional.\n\nIf I (2)___ (have) a million dollars, I would travel the world.",
-          "correct_answer": "had"
+          "correct_answer": "had",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B3_I3",
@@ -204,7 +257,13 @@
           "mastery_tag": "grammar:b1-conditionals",
           "explanation": "El primer condicional se utiliza aquí porque es una consecuencia real de no estudiar.",
           "stimulus_en": "Complete the sentences using the first or second conditional.\n\nIf she (3)___ (not study), she will fail the exam.",
-          "correct_answer": "doesn't study"
+          "correct_answer": "doesn't study",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B3_I4",
@@ -213,7 +272,13 @@
           "mastery_tag": "grammar:b1-conditionals",
           "explanation": "En este caso, el segundo condicional indica una situación irreal o improbable en el presente.",
           "stimulus_en": "Complete the sentences using the first or second conditional.\n\nIf you (4)___ (be) more organized, you would finish your projects on time.",
-          "correct_answer": "were"
+          "correct_answer": "were",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U49_B3_I5",
@@ -222,7 +287,13 @@
           "mastery_tag": "grammar:b1-conditionals",
           "explanation": "Aquí se usa el primer condicional porque se refiere a una posible situación futura.",
           "stimulus_en": "Complete the sentences using the first or second conditional.\n\nIf they (5)___ (invite) me to the party, I will definitely go.",
-          "correct_answer": "invite"
+          "correct_answer": "invite",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     }

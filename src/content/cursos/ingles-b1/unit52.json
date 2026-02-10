@@ -135,7 +135,14 @@
             "4": "o2",
             "5": "o3"
           },
-          "explanation": "(1) La contaminación es un problema importante que afecta la calidad del aire.\n(2) Reciclar ayuda a reducir la cantidad de basura y es beneficioso para el medio ambiente.\n(3) Reducir el uso de energía es esencial para proteger el planeta y combatir el cambio climático.\n(4) Los gobiernos trabajan para reducir la contaminación y mejorar la calidad de vida.\n(5) Las fuentes de energía limpia son esenciales para un futuro sostenible y saludable."
+          "explanation": "(1) La contaminación es un problema importante que afecta la calidad del aire.\n(2) Reciclar ayuda a reducir la cantidad de basura y es beneficioso para el medio ambiente.\n(3) Reducir el uso de energía es esencial para proteger el planeta y combatir el cambio climático.\n(4) Los gobiernos trabajan para reducir la contaminación y mejorar la calidad de vida.\n(5) Las fuentes de energía limpia son esenciales para un futuro sostenible y saludable.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "environment",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -157,7 +164,14 @@
             "regards",
             "we meet"
           ],
-          "explanation": "(1) En este contexto, se espera una descripción del clima que sea agradable, como 'sunny'.\n(2) Normalmente, uno toma fotos en un viaje, así que la palabra correcta es 'photos'.\n(3) Se refiere a la comida típica de Francia, por lo que la respuesta sería 'food'.\n(4) Es común al final de una carta ofrecer saludos, por lo que 'regards' es apropiado.\n(5) La frase hace referencia a un futuro encuentro, así que 'we meet' es correcto."
+          "explanation": "(1) En este contexto, se espera una descripción del clima que sea agradable, como 'sunny'.\n(2) Normalmente, uno toma fotos en un viaje, así que la palabra correcta es 'photos'.\n(3) Se refiere a la comida típica de Francia, por lo que la respuesta sería 'food'.\n(4) Es común al final de una carta ofrecer saludos, por lo que 'regards' es apropiado.\n(5) La frase hace referencia a un futuro encuentro, así que 'we meet' es correcto.",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "informal",
+            "letters",
+            "unit"
+          ]
         }
       ]
     },
@@ -191,7 +205,14 @@
               "text": "To sell products"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U52_B3_I2",
@@ -218,7 +239,14 @@
               "text": "What is your name?"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U52_B3_I3",
@@ -245,7 +273,14 @@
               "text": "Nothing"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U52_B3_I4",
@@ -272,7 +307,14 @@
               "text": "Fun"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U52_B3_I5",
@@ -299,7 +341,14 @@
               "text": "Be silent"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

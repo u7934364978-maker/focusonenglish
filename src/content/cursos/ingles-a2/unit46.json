@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (not / tener que) ________ pay for the tickets.",
           "correct_answer": "doesn't have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You don't have to pay now; you can pay later.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Necesario",
           "correct_answer": "Necessary",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What time ________ she have to be there?",
           "correct_answer": "does",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She does have to take this medicine every day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fecha límite",
           "correct_answer": "Deadline",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (has to) ________ wear a uniform at school.",
           "correct_answer": "has to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We don't have to bring any food to the party.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I18",
@@ -215,7 +291,13 @@
             "w8",
             "w9"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I19",
@@ -236,7 +318,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I20",
@@ -244,7 +333,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "No tener que",
           "correct_answer": "Don't have to",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I21",
@@ -265,7 +360,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I23",
@@ -273,14 +375,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (tener que) ________ buy a present for her.",
           "correct_answer": "have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have you to show your passport at the border\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I26",
@@ -301,7 +415,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I27",
@@ -309,7 +430,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Pago",
           "correct_answer": "Payment",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I28",
@@ -330,7 +457,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I30",
@@ -338,14 +472,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you have to get up early?",
           "correct_answer": "Do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They have to finish their dinner before having dessert.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I33",
@@ -366,7 +512,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I34",
@@ -374,7 +527,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Reglas",
           "correct_answer": "Rules",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I35",
@@ -395,7 +554,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I37",
@@ -403,14 +569,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ they have to bring anything?",
           "correct_answer": "Do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't i have to get up early tomorrow morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I41",
@@ -418,7 +596,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ley",
           "correct_answer": "Law",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I42",
@@ -439,7 +623,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I44",
@@ -447,14 +638,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (not / tener que) ________ cook tonight.",
           "correct_answer": "don't have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She has to study for her exams next week.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I48",
@@ -462,7 +665,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Uniforme",
           "correct_answer": "Uniform",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I49",
@@ -483,7 +692,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I51",
@@ -491,14 +707,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / tener que) ________ work tomorrow.",
           "correct_answer": "don't have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You do have to wear a suit to work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I55",
@@ -506,7 +734,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Esencial",
           "correct_answer": "Essential",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I56",
@@ -527,7 +761,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I58",
@@ -535,14 +776,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (tener que) ________ finish the project today.",
           "correct_answer": "have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have to follow the rules of the game.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I62",
@@ -550,7 +803,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Escuela",
           "correct_answer": "School",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I63",
@@ -571,7 +830,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I65",
@@ -579,14 +845,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (tener que) ________ work on Saturdays.",
           "correct_answer": "have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do what we have to do for homework\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I69",
@@ -594,7 +872,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Permiso",
           "correct_answer": "Permission",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I70",
@@ -615,14 +899,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I have to go to the bank this morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I74",
@@ -630,7 +927,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tener que",
           "correct_answer": "Have to",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I75",
@@ -651,14 +954,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doesn't he have to work on sundays\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I80",
@@ -666,7 +982,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Trabajo",
           "correct_answer": "Work",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I81",
@@ -687,14 +1009,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have to be at the airport at six o'clock.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I86",
@@ -702,7 +1037,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cita",
           "correct_answer": "Appointment",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I87",
@@ -723,14 +1064,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has he to walk the dog every evening\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I91",
@@ -738,7 +1092,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Requisito",
           "correct_answer": "Requirement",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I92",
@@ -759,14 +1119,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do I have to sign this document?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I97",
@@ -774,7 +1147,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Obligación",
           "correct_answer": "Obligation",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I98",
@@ -795,112 +1174,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "comparing",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't you have to pay now; you can pay later\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Does she have to take this medicine every day?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't we have to bring any food to the party\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You have to show your passport at the border.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have they to finish their dinner before having dessert\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I don't have to get up early tomorrow morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I120",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has she to study for her exams next week\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you have to wear a suit to work?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules of the game\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What do we have to do for homework?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have i to go to the bank this morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I137",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He doesn't have to work on Sundays.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to be at the airport at six o'clock\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He has to walk the dog every evening.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U46_B46_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I do have to sign this document\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "comparing",
+            "places"
+          ]
         }
       ]
     }

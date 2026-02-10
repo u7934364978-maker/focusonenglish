@@ -40,7 +40,15 @@
               "text": "I prefer the office"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U32_B1_I2",
@@ -67,7 +75,15 @@
               "text": "I don't have a view"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U32_B1_I3",
@@ -94,7 +110,15 @@
               "text": "It depends"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U32_B1_I4",
@@ -121,7 +145,15 @@
               "text": "I disagree"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U32_B1_I5",
@@ -148,7 +180,15 @@
               "text": "I think it's crucial"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "speaking",
+            "expressing",
+            "opinions",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +222,15 @@
               "text": "do"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U32_B2_I2",
@@ -209,7 +257,15 @@
               "text": "was"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U32_B2_I3",
@@ -236,7 +292,15 @@
               "text": "were"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U32_B2_I4",
@@ -263,7 +327,15 @@
               "text": "was"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U32_B2_I5",
@@ -290,7 +362,15 @@
               "text": "did"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -312,7 +392,13 @@
             "is sung",
             "was repaired"
           ],
-          "explanation": "(1) En inglés, la voz pasiva se forma con 'be' + participio pasado. Aquí, 'was' es la forma del verbo 'be' en pasado para 'the book'.\n(2) El pasado del verbo 'do' es 'did', y en voz pasiva se usa 'was' + 'done', porque se refiere a un evento completado en el pasado.\n(3) Se utiliza 'will be' para indicar una acción futura en voz pasiva, 'announce' se convierte en 'announced'.\n(4) La forma presente de la voz pasiva se forma con 'is' + participio pasado. Aquí, 'sung' es el participio pasado de 'sing'.\n(5) La voz pasiva en pasado simple se construye con 'was' + participio pasado. 'Repair' se convierte en 'repaired'."
+          "explanation": "(1) En inglés, la voz pasiva se forma con 'be' + participio pasado. Aquí, 'was' es la forma del verbo 'be' en pasado para 'the book'.\n(2) El pasado del verbo 'do' es 'did', y en voz pasiva se usa 'was' + 'done', porque se refiere a un evento completado en el pasado.\n(3) Se utiliza 'will be' para indicar una acción futura en voz pasiva, 'announce' se convierte en 'announced'.\n(4) La forma presente de la voz pasiva se forma con 'is' + participio pasado. Aquí, 'sung' es el participio pasado de 'sing'.\n(5) La voz pasiva en pasado simple se construye con 'was' + participio pasado. 'Repair' se convierte en 'repaired'.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     }

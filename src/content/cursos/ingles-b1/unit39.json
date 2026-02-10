@@ -40,7 +40,14 @@
               "text": "doing"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B1_I2",
@@ -67,7 +74,14 @@
               "text": "watching"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B1_I3",
@@ -94,7 +108,14 @@
               "text": "doing"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B1_I4",
@@ -121,7 +142,14 @@
               "text": "walking"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B1_I5",
@@ -148,7 +176,14 @@
               "text": "was having"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -165,7 +200,14 @@
           "explanation": "Se debe utilizar 'who' para referirse a personas en oraciones relativas.",
           "stimulus_en": "The manager is a person. He makes important decisions.\n\nThe manager is a person who... ...",
           "correct_answer": "makes important decisions.",
-          "example": "who"
+          "example": "who",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B2_I2",
@@ -175,7 +217,14 @@
           "explanation": "Utiliza 'which' para referirse a cosas y proporcionar información adicional.",
           "stimulus_en": "I visited the museum. It has ancient artifacts.\n\nI visited the museum which... ...",
           "correct_answer": "has ancient artifacts.",
-          "example": "which"
+          "example": "which",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B2_I3",
@@ -185,7 +234,14 @@
           "explanation": "Utiliza 'when' para especificar un tiempo particular en oraciones relativas.",
           "stimulus_en": "The conference is on Friday. It starts at 10 AM.\n\nThe conference is on Friday when... ...",
           "correct_answer": "it starts at 10 AM.",
-          "example": "when"
+          "example": "when",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B2_I4",
@@ -195,7 +251,14 @@
           "explanation": "Puedes usar 'that' para unir dos oraciones y referirte a cosas muy específicas.",
           "stimulus_en": "The book is about history. I borrowed it from the library.\n\nThe book that... ...",
           "correct_answer": "I borrowed from the library.",
-          "example": "that"
+          "example": "that",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B2_I5",
@@ -205,7 +268,14 @@
           "explanation": "Usa 'where' para referirse a un lugar en oraciones relativas.",
           "stimulus_en": "The place is a restaurant. We had dinner there.\n\nThe place where... ...",
           "correct_answer": "we had dinner.",
-          "example": "where"
+          "example": "where",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -221,7 +291,13 @@
           "mastery_tag": "writing:b1-stories",
           "explanation": "El verbo 'went' es el pasado de 'go'. Aquí se refiere a un viaje que se hizo el verano pasado.",
           "stimulus_en": "Last summer, I went to the mountains with my friends. We had a great time exploring the trails and enjoying the fresh air. One day, we decided to go camping by a beautiful lake. We set up our tents, cooked dinner, and shared stories around the campfire. The stars were bright, and we felt very happy. The next morning, we woke up early to watch the sunrise. It was a perfect start to another adventure.\n\nLast summer, I ___ to the mountains with my friends.",
-          "correct_answer": "went"
+          "correct_answer": "went",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B3_I2",
@@ -230,7 +306,13 @@
           "mastery_tag": "writing:b1-stories",
           "explanation": "El verbo 'had' es el pasado de 'have'. Se usa para expresar que disfrutamos de algo.",
           "stimulus_en": "Last summer, I went to the mountains with my friends. We had a great time exploring the trails and enjoying the fresh air. One day, we decided to go camping by a beautiful lake. We set up our tents, cooked dinner, and shared stories around the campfire. The stars were bright, and we felt very happy. The next morning, we woke up early to watch the sunrise. It was a perfect start to another adventure.\n\nWe ___ a great time exploring the trails.",
-          "correct_answer": "had"
+          "correct_answer": "had",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B3_I3",
@@ -239,7 +321,13 @@
           "mastery_tag": "writing:b1-stories",
           "explanation": "La palabra 'beautiful' describe el lago. Se usa un adjetivo para dar más información sobre algo.",
           "stimulus_en": "Last summer, I went to the mountains with my friends. We had a great time exploring the trails and enjoying the fresh air. One day, we decided to go camping by a beautiful lake. We set up our tents, cooked dinner, and shared stories around the campfire. The stars were bright, and we felt very happy. The next morning, we woke up early to watch the sunrise. It was a perfect start to another adventure.\n\nWe decided to go camping by a ___ lake.",
-          "correct_answer": "beautiful"
+          "correct_answer": "beautiful",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B3_I4",
@@ -248,7 +336,13 @@
           "mastery_tag": "writing:b1-stories",
           "explanation": "El verbo 'cooked' es el pasado de 'cook'. Aquí se refiere a la acción de preparar la comida.",
           "stimulus_en": "Last summer, I went to the mountains with my friends. We had a great time exploring the trails and enjoying the fresh air. One day, we decided to go camping by a beautiful lake. We set up our tents, cooked dinner, and shared stories around the campfire. The stars were bright, and we felt very happy. The next morning, we woke up early to watch the sunrise. It was a perfect start to another adventure.\n\nWe set up our tents and ___ dinner.",
-          "correct_answer": "cooked"
+          "correct_answer": "cooked",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U39_B3_I5",
@@ -257,7 +351,13 @@
           "mastery_tag": "writing:b1-stories",
           "explanation": "El verbo 'woke' es el pasado de 'wake'. Indica que nos levantamos temprano.",
           "stimulus_en": "Last summer, I went to the mountains with my friends. We had a great time exploring the trails and enjoying the fresh air. One day, we decided to go camping by a beautiful lake. We set up our tents, cooked dinner, and shared stories around the campfire. The stars were bright, and we felt very happy. The next morning, we woke up early to watch the sunrise. It was a perfect start to another adventure.\n\nThe next morning, we ___ up early to watch the sunrise.",
-          "correct_answer": "woke"
+          "correct_answer": "woke",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit"
+          ]
         }
       ]
     }

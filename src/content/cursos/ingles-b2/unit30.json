@@ -28,7 +28,14 @@
             "might",
             "must"
           ],
-          "explanation": "(1) Aquí se usa 'must have' para indicar una fuerte suposición sobre algo que sucedió en el pasado.\n(2) El uso de 'should have' indica que se esperaba que completaran el proyecto en el pasado.\n(3) 'Could have' sugiere una posibilidad que no se realizó, indicando que tenía la opción de llamar.\n(4) 'Might have' expresa una posibilidad en el pasado de que la persona la haya visto en la fiesta.\n(5) 'Must have' se utiliza aquí para suponer que es muy probable que hayan escuchado las noticias."
+          "explanation": "(1) Aquí se usa 'must have' para indicar una fuerte suposición sobre algo que sucedió en el pasado.\n(2) El uso de 'should have' indica que se esperaba que completaran el proyecto en el pasado.\n(3) 'Could have' sugiere una posibilidad que no se realizó, indicando que tenía la opción de llamar.\n(4) 'Might have' expresa una posibilidad en el pasado de que la persona la haya visto en la fiesta.\n(5) 'Must have' se utiliza aquí para suponer que es muy probable que hayan escuchado las noticias.",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "perfect",
+            "modals",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +69,15 @@
               "text": "To evaluate"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B2_I2",
@@ -89,7 +104,15 @@
               "text": "Research data"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B2_I3",
@@ -116,7 +139,15 @@
               "text": "Use of jargon"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B2_I4",
@@ -143,7 +174,15 @@
               "text": "Literary style"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B2_I5",
@@ -170,7 +209,15 @@
               "text": "Complex vocabulary"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "reviews",
+            "articles",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -204,7 +251,14 @@
               "text": "Political movements"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B3_I2",
@@ -231,7 +285,14 @@
               "text": "Telephone"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B3_I3",
@@ -258,7 +319,14 @@
               "text": "It will confuse people"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B3_I4",
@@ -285,7 +353,14 @@
               "text": "Critically"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U30_B3_I5",
@@ -312,7 +387,14 @@
               "text": "All of the above"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

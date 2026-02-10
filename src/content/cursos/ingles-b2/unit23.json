@@ -40,7 +40,14 @@
               "text": "rich"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U23_B1_I2",
@@ -67,7 +74,14 @@
               "text": "worries"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U23_B1_I3",
@@ -94,7 +108,14 @@
               "text": "political"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U23_B1_I4",
@@ -121,7 +142,14 @@
               "text": "resistance"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U23_B1_I5",
@@ -148,7 +176,14 @@
               "text": "economic"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -170,7 +205,13 @@
             "communication",
             "ask"
           ],
-          "explanation": "(1) Es importante tomar notas durante una conferencia para recordar los puntos clave.\n(2) Los recursos visuales son útiles para ilustrar conceptos durante las presentaciones.\n(3) Una visión general ayuda a los estudiantes a entender qué esperar de la conferencia.\n(4) La comunicación efectiva es crucial para transmitir ideas claramente.\n(5) Es importante que los estudiantes hagan preguntas para aclarar dudas."
+          "explanation": "(1) Es importante tomar notas durante una conferencia para recordar los puntos clave.\n(2) Los recursos visuales son útiles para ilustrar conceptos durante las presentaciones.\n(3) Una visión general ayuda a los estudiantes a entender qué esperar de la conferencia.\n(4) La comunicación efectiva es crucial para transmitir ideas claramente.\n(5) Es importante que los estudiantes hagan preguntas para aclarar dudas.",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit"
+          ]
         }
       ]
     },
@@ -204,7 +245,14 @@
               "text": "passed"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U23_B3_I2",
@@ -231,7 +279,14 @@
               "text": "found"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U23_B3_I3",
@@ -258,7 +313,14 @@
               "text": "met"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U23_B3_I4",
@@ -285,7 +347,14 @@
               "text": "were"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U23_B3_I5",
@@ -312,7 +381,14 @@
               "text": "have sent"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "mixed",
+            "conditionals",
+            "unit"
+          ]
         }
       ]
     }

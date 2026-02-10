@@ -40,7 +40,14 @@
               "text": "humorous"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U13_B1_I2",
@@ -67,7 +74,14 @@
               "text": "hi"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U13_B1_I3",
@@ -94,7 +108,14 @@
               "text": "appendix"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U13_B1_I4",
@@ -121,7 +142,14 @@
               "text": "ignored"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U13_B1_I5",
@@ -148,7 +176,14 @@
               "text": "outline"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "writing",
+            "formal",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -277,7 +312,14 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) El estilo de vida se refiere a la forma en que vive una persona, incluyendo sus hábitos y rutinas diarias.\n(2) El bienestar se refiere al estado de sentirse saludable y feliz, tanto física como mentalmente.\n(3) El crecimiento personal implica el desarrollo y la mejora de habilidades y cualidades a lo largo del tiempo.\n(4) La salud es un factor clave en el bienestar general y afecta cómo nos sentimos y cómo funcionamos en la vida diaria.\n(5) La mentalidad se refiere a las creencias y actitudes que influyen en cómo las personas ven el mundo y abordan la vida."
+          "explanation": "(1) El estilo de vida se refiere a la forma en que vive una persona, incluyendo sus hábitos y rutinas diarias.\n(2) El bienestar se refiere al estado de sentirse saludable y feliz, tanto física como mentalmente.\n(3) El crecimiento personal implica el desarrollo y la mejora de habilidades y cualidades a lo largo del tiempo.\n(4) La salud es un factor clave en el bienestar general y afecta cómo nos sentimos y cómo funcionamos en la vida diaria.\n(5) La mentalidad se refiere a las creencias y actitudes que influyen en cómo las personas ven el mundo y abordan la vida.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "lifestyle",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -294,7 +336,14 @@
           "explanation": "En esta oración, estamos utilizando el participio 'surprised' para expresar cómo se sintió él en relación a los resultados.",
           "stimulus_en": "He was surprised by the results. (SURPRISE)\n\nSurprised by the results, ...",
           "correct_answer": "he couldn't hide his feelings.",
-          "example": "SURPRISED"
+          "example": "SURPRISED",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U13_B3_I2",
@@ -304,7 +353,14 @@
           "explanation": "Se utiliza 'due to' para conectar la razón del acto de salir temprano con el participio de la acción.",
           "stimulus_en": "The manager left early. This was because of a meeting. (DUE)\n\nDue to a meeting, ...",
           "correct_answer": "the manager left early.",
-          "example": "DUE"
+          "example": "DUE",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U13_B3_I3",
@@ -314,7 +370,14 @@
           "explanation": "Aquí 'finished' actúa como un participio que indica que la acción fue completada por el equipo.",
           "stimulus_en": "The project was completed by the team. (FINISH)\n\nFinished by the team, ...",
           "correct_answer": "the project was delivered on time.",
-          "example": "FINISHED"
+          "example": "FINISHED",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U13_B3_I4",
@@ -324,7 +387,14 @@
           "explanation": "Usamos 'developed' para indicar que la acción de desarrollar fue realizada por los ingenieros.",
           "stimulus_en": "The new software was developed by the engineers. (DEVELOP)\n\nDeveloped by the engineers, ...",
           "correct_answer": "the new software improved efficiency.",
-          "example": "DEVELOPED"
+          "example": "DEVELOPED",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U13_B3_I5",
@@ -334,7 +404,14 @@
           "explanation": "El participio 'explained' describe cómo se comunicó el problema al equipo.",
           "stimulus_en": "She explained the problem to the team. (EXPLAIN)\n\nExplained to the team, ...",
           "correct_answer": "she made the issue clear.",
-          "example": "EXPLAINED"
+          "example": "EXPLAINED",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "participle",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     }

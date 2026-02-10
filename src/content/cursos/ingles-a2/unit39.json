@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Technology (hacer/fabricar) ________ our lives easier.",
           "correct_answer": "makes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Technology has changed the way we live and work.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I7",
@@ -67,7 +86,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I9",
@@ -75,14 +101,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Everything (change) ________ so quickly.",
           "correct_answer": "changes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Pace the of life in the countryside is much slower\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I12",
@@ -103,7 +141,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I13",
@@ -111,7 +156,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tranquilo/a",
           "correct_answer": "Quiet",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I14",
@@ -132,7 +183,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I16",
@@ -140,14 +198,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Cities (ser/estar) ________ more crowded now.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Some people prefer a simpler, traditional lifestyle.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I19",
@@ -168,7 +238,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I20",
@@ -176,7 +253,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Rápido/a",
           "correct_answer": "Fast",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I23",
@@ -184,14 +267,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (tener) ________ more choices today.",
           "correct_answer": "have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Modern is life really better than traditional life\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I26",
@@ -212,7 +307,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I27",
@@ -220,7 +322,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cultura",
           "correct_answer": "Culture",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I28",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I30",
@@ -249,14 +364,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Life (not / ser/estar) ________ as slow as it used to be.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Many people still follow traditional customs.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I33",
@@ -277,7 +404,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I34",
@@ -285,7 +419,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estilo de vida",
           "correct_answer": "Lifestyle",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I35",
@@ -306,7 +446,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I37",
@@ -314,14 +461,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "In the past, people (vivir) ________ in small villages.",
           "correct_answer": "lived",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The in past, families were usually larger\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I41",
@@ -329,7 +488,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ocupado/a",
           "correct_answer": "Busy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I42",
@@ -350,7 +515,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I44",
@@ -358,14 +530,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "People (trabajar) ________ longer hours now.",
           "correct_answer": "work",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We have more opportunities today than ever before.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I48",
@@ -373,7 +557,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tradicional",
           "correct_answer": "Traditional",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I49",
@@ -394,7 +584,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I51",
@@ -402,14 +599,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Traditions (ser/estar) ________ still important to some people.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Food traditional is often healthier than fast food\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I54",
@@ -417,7 +626,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sociedad",
           "correct_answer": "Society",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I55",
@@ -438,7 +653,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I57",
@@ -446,14 +668,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Which (ser/estar) ________ better, the past or the present?",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Modern technology makes communication very easy.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I62",
@@ -474,7 +708,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I64",
@@ -482,14 +723,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Modern life is ________ (busy) than traditional life.",
           "correct_answer": "busier",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Spend we a lot of time using digital devices\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I68",
@@ -497,7 +750,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Presente",
           "correct_answer": "Present",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I69",
@@ -518,14 +777,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Cities are becoming more and more crowded.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I73",
@@ -533,14 +805,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lento/a",
           "correct_answer": "Slow",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Life modern is much faster than it was in the past\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I79",
@@ -548,7 +832,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Abarrotado/a",
           "correct_answer": "Crowded",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I80",
@@ -569,14 +859,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It's important to keep our cultural traditions alive.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I84",
@@ -584,7 +887,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Moderno/a",
           "correct_answer": "Modern",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I85",
@@ -605,14 +914,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I87",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"In life a big city can be very stressful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I90",
@@ -620,7 +942,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cambio/Cambiar",
           "correct_answer": "Change",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I91",
@@ -641,14 +969,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The world is changing very quickly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I96",
@@ -656,7 +997,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Conveniente/Práctico",
           "correct_answer": "Convenient",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I97",
@@ -677,112 +1024,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "zero",
+            "conditional",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has technology changed the way we live and work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I102",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The pace of life in the countryside is much slower.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I105",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"People some prefer a simpler, traditional lifestyle\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I109",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is modern life really better than traditional life?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"People many still follow traditional customs\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"In the past, families were usually larger.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I120",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we more opportunities today than ever before\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Traditional food is often healthier than fast food.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Technology modern makes communication very easy\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We spend a lot of time using digital devices.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I134",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are cities becoming more and more crowded\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Modern life is much faster than it was in the past.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Important it's to keep our cultural traditions alive\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Life in a big city can be very stressful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         },
         {
           "interaction_id": "A2_U39_B39_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"World the is changing very quickly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "zero",
+            "conditional"
+          ]
         }
       ]
     }

@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (never / ser/estar) ________ late.",
           "correct_answer": "am never",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I always wake up early.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Levantarse",
           "correct_answer": "Get up",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What time ________ he start work?",
           "correct_answer": "does",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Go i to bed at 11 o'clock\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Irse a la cama",
           "correct_answer": "Go to bed",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (hardly ever / cook) ________.",
           "correct_answer": "hardly ever cook",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What time do you finish work?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Volver a casa",
           "correct_answer": "Come home",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (usually / tener) ________ breakfast at home.",
           "correct_answer": "usually has",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Starts she work at 9 am\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I27",
@@ -249,7 +382,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "A menudo",
           "correct_answer": "Often",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I28",
@@ -270,7 +410,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I30",
@@ -278,14 +426,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does she ________ (estudiar) in the evenings?",
           "correct_answer": "study",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She usually has a shower in the morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I33",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I34",
@@ -314,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Desayunar",
           "correct_answer": "Have breakfast",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I37",
@@ -322,14 +499,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (watch) ________ TV every night.",
           "correct_answer": "watches",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Never i drink coffee\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I41",
@@ -337,7 +528,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Despertarse",
           "correct_answer": "Wake up",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I42",
@@ -358,7 +556,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I44",
@@ -366,14 +572,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (often / ir) ________ to the gym.",
           "correct_answer": "often go",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He never eats breakfast.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I48",
@@ -381,7 +601,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Casi nunca",
           "correct_answer": "Hardly ever",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I49",
@@ -402,7 +629,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I51",
@@ -410,14 +645,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / trabajar) ________ on Saturdays.",
           "correct_answer": "don't work",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hardly she ever goes out during the week\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I55",
@@ -425,7 +674,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cocinar la cena",
           "correct_answer": "Cook dinner",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I56",
@@ -446,7 +702,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I58",
@@ -454,14 +718,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (levantarse) ________ at 7 o'clock.",
           "correct_answer": "get up",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He cooks dinner for his family.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I61",
@@ -469,7 +747,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "A veces",
           "correct_answer": "Sometimes",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I64",
@@ -477,14 +762,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ir) ________ to bed at midnight.",
           "correct_answer": "go",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He does work on weekends\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I69",
@@ -505,14 +804,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We usually have lunch at 1 PM.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I73",
@@ -520,7 +834,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Normalmente",
           "correct_answer": "Usually",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I74",
@@ -541,14 +862,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Often they go for a walk in the evening\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I79",
@@ -556,7 +892,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Terminar",
           "correct_answer": "Finish",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I80",
@@ -577,14 +920,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They always study in the library.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I85",
@@ -592,7 +950,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Almorzar",
           "correct_answer": "Have lunch",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I86",
@@ -613,14 +978,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I88",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sometimes i listen to the radio\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I92",
@@ -641,14 +1021,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He watches the news every day.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I97",
@@ -656,7 +1051,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ir a trabajar",
           "correct_answer": "Go to work",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I98",
@@ -677,14 +1079,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always i wake up early\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I103",
@@ -692,7 +1109,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Nunca",
           "correct_answer": "Never",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I104",
@@ -713,14 +1137,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I go to bed at 11 o'clock.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I109",
@@ -728,7 +1167,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ver la tele",
           "correct_answer": "Watch TV",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I110",
@@ -749,98 +1195,197 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "daily",
+            "routines",
+            "habits",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Time what do you finish work\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I114",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She starts work at 9 AM.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Usually she has a shower in the morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I never drink coffee.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Never he eats breakfast\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She hardly ever goes out during the week.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I130",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Cooks he dinner for his family\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Does he work on weekends?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I137",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Usually we have lunch at 1 pm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I141",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They often go for a walk in the evening.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always they study in the library\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I sometimes listen to the radio.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         },
         {
           "interaction_id": "A2_U5_B5_I151",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Watches he the news every day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "daily",
+            "routines",
+            "habits"
+          ]
         }
       ]
     }

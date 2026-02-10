@@ -28,7 +28,13 @@
             "COMMUNICATION",
             "COMMUNICATIVE"
           ],
-          "explanation": "(1) Aquí necesitas un sustantivo que describe el proceso de desarrollo.\n(2) Se necesita una frase que describe plataformas interactivas en línea.\n(3) Se requiere un gerundio que describe el tipo de reportes.\n(4) Buscas un sustantivo que se refiere al acto de transmitir información.\n(5) Aquí necesitas un adjetivo que describe habilidades relacionadas con la comunicación."
+          "explanation": "(1) Aquí necesitas un sustantivo que describe el proceso de desarrollo.\n(2) Se necesita una frase que describe plataformas interactivas en línea.\n(3) Se requiere un gerundio que describe el tipo de reportes.\n(4) Buscas un sustantivo que se refiere al acto de transmitir información.\n(5) Aquí necesitas un adjetivo que describe habilidades relacionadas con la comunicación.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit"
+          ]
         }
       ]
     },
@@ -62,7 +68,13 @@
               "text": "do"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U6_B2_I2",
@@ -89,7 +101,13 @@
               "text": "am"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U6_B2_I3",
@@ -116,7 +134,13 @@
               "text": "are"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U6_B2_I4",
@@ -143,7 +167,13 @@
               "text": "have"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U6_B2_I5",
@@ -170,7 +200,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     },
@@ -192,7 +228,13 @@
             "calm",
             "defend"
           ],
-          "explanation": "(1) En los debates, es crucial que los participantes presenten sus argumentos de manera persuasiva para convencer a la audiencia.\n(2) Es importante que los debatientes respondan y aborden los argumentos opuestos de manera respetuosa.\n(3) El uso de evidencia creíble es fundamental para respaldar las afirmaciones en un debate.\n(4) Mantener la calma durante un debate es crucial para poder responder adecuadamente a las preguntas difíciles.\n(5) Un buen debatiente no solo defiende su punto de vista, sino que también trata de convencer a la audiencia."
+          "explanation": "(1) En los debates, es crucial que los participantes presenten sus argumentos de manera persuasiva para convencer a la audiencia.\n(2) Es importante que los debatientes respondan y aborden los argumentos opuestos de manera respetuosa.\n(3) El uso de evidencia creíble es fundamental para respaldar las afirmaciones en un debate.\n(4) Mantener la calma durante un debate es crucial para poder responder adecuadamente a las preguntas difíciles.\n(5) Un buen debatiente no solo defiende su punto de vista, sino que también trata de convencer a la audiencia.",
+          "complexity": 3,
+          "concept_tags": [
+            "speaking",
+            "debate",
+            "unit"
+          ]
         }
       ]
     }

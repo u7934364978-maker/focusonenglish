@@ -28,7 +28,15 @@
             "has been playing",
             "have been living"
           ],
-          "explanation": "(1) In esta frase, usamos el presente perfecto continuo porque la acción comenzó en el pasado y continúa en el presente.\n(2) Aquí, la acción de trabajar comenzó en el pasado y todavía está en progreso.\n(3) La acción de esperar comenzó en el pasado y continúa hasta ahora.\n(4) Usamos el presente perfecto continuo aquí porque indica una acción que comenzó en el pasado y sigue.\n(5) Esta frase usa el presente perfecto continuo para indicar que vivimos aquí desde un punto específico en el pasado."
+          "explanation": "(1) In esta frase, usamos el presente perfecto continuo porque la acción comenzó en el pasado y continúa en el presente.\n(2) Aquí, la acción de trabajar comenzó en el pasado y todavía está en progreso.\n(3) La acción de esperar comenzó en el pasado y continúa hasta ahora.\n(4) Usamos el presente perfecto continuo aquí porque indica una acción que comenzó en el pasado y sigue.\n(5) Esta frase usa el presente perfecto continuo para indicar que vivimos aquí desde un punto específico en el pasado.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "present",
+            "perfect",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     },
@@ -157,7 +165,14 @@
             "4": "o2",
             "5": "o1"
           },
-          "explanation": "(1) La palabra correcta es 'smartphones' porque se refiere a dispositivos que la gente usa para comunicarse hoy en día.\n(2) La opción correcta es 'around', ya que se usa para indicar conexión con personas en todo el mundo.\n(3) La opción correcta es 'safe' porque se refiere a la importancia de compartir información segura en línea.\n(4) La opción correcta es 'distracting', ya que se refiere a cómo la tecnología puede distraernos si pasamos demasiado tiempo en ella.\n(5) La opción correcta es 'change' porque se refiere a cómo la tecnología transforma nuestras vidas."
+          "explanation": "(1) La palabra correcta es 'smartphones' porque se refiere a dispositivos que la gente usa para comunicarse hoy en día.\n(2) La opción correcta es 'around', ya que se usa para indicar conexión con personas en todo el mundo.\n(3) La opción correcta es 'safe' porque se refiere a la importancia de compartir información segura en línea.\n(4) La opción correcta es 'distracting', ya que se refiere a cómo la tecnología puede distraernos si pasamos demasiado tiempo en ella.\n(5) La opción correcta es 'change' porque se refiere a cómo la tecnología transforma nuestras vidas.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -173,7 +188,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "Usamos el pasado continuo para describir una acción que estaba en progreso en un momento específico del pasado.",
           "stimulus_en": "Fill in the blanks using the past continuous tense.\n\nWhen I called her, she ___ (read) a book.",
-          "correct_answer": "was reading"
+          "correct_answer": "was reading",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U28_B3_I2",
@@ -182,7 +204,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "Se usa 'were' porque 'they' es plural, y la acción de jugar estaba en progreso.",
           "stimulus_en": "Fill in the blanks using the past continuous tense.\n\nThey ___ (play) football when it started to rain.",
-          "correct_answer": "were playing"
+          "correct_answer": "were playing",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U28_B3_I3",
@@ -191,7 +220,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "El pasado continuo indica que la acción de cocinar estaba ocurriendo cuando ocurrió otra acción.",
           "stimulus_en": "Fill in the blanks using the past continuous tense.\n\nWhile she ___ (cook), the phone rang.",
-          "correct_answer": "was cooking"
+          "correct_answer": "was cooking",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U28_B3_I4",
@@ -200,7 +236,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "La acción de caminar estaba en progreso cuando la vi. Usamos el pasado continuo aquí.",
           "stimulus_en": "Fill in the blanks using the past continuous tense.\n\nI saw him while he ___ (walk) in the park.",
-          "correct_answer": "was walking"
+          "correct_answer": "was walking",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U28_B3_I5",
@@ -209,7 +252,14 @@
           "mastery_tag": "grammar:b1-past-continuous",
           "explanation": "El uso del pasado continuo refleja que la acción de ver la película estaba en curso durante un evento inesperado.",
           "stimulus_en": "Fill in the blanks using the past continuous tense.\n\nWe ___ (watch) a movie when the lights went out.",
-          "correct_answer": "were watching"
+          "correct_answer": "were watching",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "past",
+            "continuous",
+            "unit"
+          ]
         }
       ]
     }

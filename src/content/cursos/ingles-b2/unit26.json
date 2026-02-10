@@ -40,7 +40,13 @@
               "text": "is"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U26_B1_I2",
@@ -67,7 +73,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U26_B1_I3",
@@ -94,7 +106,13 @@
               "text": "does"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U26_B1_I4",
@@ -121,7 +139,13 @@
               "text": "are"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U26_B1_I5",
@@ -148,7 +172,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     },
@@ -182,7 +212,14 @@
               "text": "To conduct interviews"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U26_B2_I2",
@@ -209,7 +246,14 @@
               "text": "No interaction"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U26_B2_I3",
@@ -236,7 +280,14 @@
               "text": "By speaking monotonously"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U26_B2_I4",
@@ -263,7 +314,14 @@
               "text": "Visual distractions"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B2_U26_B2_I5",
@@ -290,7 +348,14 @@
               "text": "To use complicated vocabulary"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 3,
+          "concept_tags": [
+            "listening",
+            "lectures",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -312,7 +377,13 @@
             "skills",
             "communication"
           ],
-          "explanation": "(1) La palabra 'change' se convierte en 'changes' para referirse a múltiples cambios.\n(2) La palabra 'compete' se transforma en 'competition', que es el sustantivo que describe el acto de competir.\n(3) La palabra 'import' cambia a 'importance' para denotar el significado de ser importante.\n(4) La palabra 'skill' en plural 'skills' se refiere a las capacidades necesarias para desempeñar un trabajo.\n(5) La palabra 'communicate' se convierte en 'communication', que se refiere al proceso de intercambio de información."
+          "explanation": "(1) La palabra 'change' se convierte en 'changes' para referirse a múltiples cambios.\n(2) La palabra 'compete' se transforma en 'competition', que es el sustantivo que describe el acto de competir.\n(3) La palabra 'import' cambia a 'importance' para denotar el significado de ser importante.\n(4) La palabra 'skill' en plural 'skills' se refiere a las capacidades necesarias para desempeñar un trabajo.\n(5) La palabra 'communicate' se convierte en 'communication', que se refiere al proceso de intercambio de información.",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "media",
+            "unit"
+          ]
         }
       ]
     }

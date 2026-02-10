@@ -40,7 +40,14 @@
               "text": "To list facts"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U22_B1_I2",
@@ -67,7 +74,14 @@
               "text": "Food"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U22_B1_I3",
@@ -94,7 +108,14 @@
               "text": "The setting"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U22_B1_I4",
@@ -121,7 +142,14 @@
               "text": "Finally"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U22_B1_I5",
@@ -148,7 +176,14 @@
               "text": "With a conclusion"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -165,7 +200,13 @@
           "explanation": "En esta oración, estamos usando la voz pasiva. El sujeto (la casa) recibe la acción de ser construida.",
           "stimulus_en": "They built the house last year.\n\nThe house was ...",
           "correct_answer": "built last year.",
-          "example": "was"
+          "example": "was",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U22_B2_I2",
@@ -175,7 +216,13 @@
           "explanation": "Aquí estamos usando el futuro en voz pasiva. La acción se realiza sobre los exámenes.",
           "stimulus_en": "The teacher will grade the exams tomorrow.\n\nThe exams will be ...",
           "correct_answer": "graded tomorrow.",
-          "example": "will be"
+          "example": "will be",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U22_B2_I3",
@@ -185,7 +232,13 @@
           "explanation": "En esta oración en voz pasiva, el enfoque está en el proyecto y no en quienes lo completaron.",
           "stimulus_en": "They have completed the project.\n\nThe project has been ...",
           "correct_answer": "completed.",
-          "example": "has been"
+          "example": "has been",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U22_B2_I4",
@@ -195,7 +248,13 @@
           "explanation": "En esta oración pasiva, se enfatiza el anuncio de los resultados en lugar de la compañía que lo hace.",
           "stimulus_en": "The company will announce the results.\n\nThe results will be ...",
           "correct_answer": "announced.",
-          "example": "will be"
+          "example": "will be",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B1_U22_B2_I5",
@@ -205,7 +264,13 @@
           "explanation": "Aquí, cambiamos el enfoque a la acción que se recibe (el inglés) en lugar de quién lo habla.",
           "stimulus_en": "People speak English all over the world.\n\nEnglish is spoken ...",
           "correct_answer": "all over the world.",
-          "example": "is spoken"
+          "example": "is spoken",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "passive",
+            "unit"
+          ]
         }
       ]
     },
@@ -334,7 +399,15 @@
             "4": "o1",
             "5": "o2"
           },
-          "explanation": "(1) En este contexto, 'articles' es la palabra correcta porque se refiere a textos que brindan información sobre varios temas.\n(2) Aquí, 'reviews' es la opción correcta, ya que se refiere a opiniones escritas sobre productos o servicios.\n(3) La palabra 'pros' es correcta porque se refiere a los aspectos positivos de un producto.\n(4) En este caso, 'experiences' es la mejor elección, ya que se refiere a experiencias personales al usar un producto.\n(5) La opción 'choices' es correcta, ya que se refiere a las diferentes opciones que el consumidor puede elegir."
+          "explanation": "(1) En este contexto, 'articles' es la palabra correcta porque se refiere a textos que brindan información sobre varios temas.\n(2) Aquí, 'reviews' es la opción correcta, ya que se refiere a opiniones escritas sobre productos o servicios.\n(3) La palabra 'pros' es correcta porque se refiere a los aspectos positivos de un producto.\n(4) En este caso, 'experiences' es la mejor elección, ya que se refiere a experiencias personales al usar un producto.\n(5) La opción 'choices' es correcta, ya que se refiere a las diferentes opciones que el consumidor puede elegir.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

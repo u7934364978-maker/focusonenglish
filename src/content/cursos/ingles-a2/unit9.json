@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (ser/estar) ________ excited about the trip.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Don't be worried about the exam.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Solo/Solitario",
           "correct_answer": "Lonely",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "It (hacer/fabricar) ________ me feel bored.",
           "correct_answer": "makes",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You are hungry let's eat\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I16",
@@ -119,14 +170,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (parecer/mirar) ________ tired after work.",
           "correct_answer": "looks",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very proud of my children.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I19",
@@ -147,7 +210,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I20",
@@ -155,7 +225,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Asustado/a",
           "correct_answer": "Scared",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I21",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I23",
@@ -184,14 +267,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (not / entender) ________ why he is upset.",
           "correct_answer": "don't understand",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Always she feels nervous before a test\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I26",
@@ -212,7 +307,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I27",
@@ -220,7 +322,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Triste",
           "correct_answer": "Sad",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I30",
@@ -228,14 +336,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / ser/estar) ________ angry with you.",
           "correct_answer": "are not",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He feels lonely in the big city.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I33",
@@ -256,7 +376,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I35",
@@ -277,7 +404,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I37",
@@ -285,14 +419,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ very happy today.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i so tired i could sleep for days\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I41",
@@ -313,7 +459,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I43",
@@ -321,14 +474,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Why ________ you so worried?",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I44",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She is scared of spiders.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I47",
@@ -336,7 +501,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Aburrido/a",
           "correct_answer": "Bored",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I50",
@@ -344,14 +515,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ surprised by the news.",
           "correct_answer": "were",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are we excited about our holiday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I54",
@@ -359,7 +542,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Preocupado/a",
           "correct_answer": "Worried",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I57",
@@ -367,14 +556,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (sentirse) ________ a bit sad.",
           "correct_answer": "feels",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She feels sad because her cat is ill.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I61",
@@ -382,7 +583,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cansado/a",
           "correct_answer": "Tired",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I62",
@@ -403,7 +610,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I64",
@@ -411,14 +625,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Does she ________ (sentirse) nervous?",
           "correct_answer": "feel",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he very angry with his boss\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I68",
@@ -426,7 +652,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Disgustado/a",
           "correct_answer": "Upset",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I69",
@@ -447,14 +679,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She was upset by his comments.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I74",
@@ -462,7 +707,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sediento/a",
           "correct_answer": "Thirsty",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I75",
@@ -483,14 +734,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i bored with this movie\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I81",
@@ -511,14 +775,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was surprised by the birthday party.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I86",
@@ -526,7 +803,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Sorprendido/a",
           "correct_answer": "Surprised",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I87",
@@ -547,14 +830,27 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Thirsty, i'm i need some water\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I91",
@@ -562,14 +858,26 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hambriento/a",
           "correct_answer": "Hungry",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am very happy to see you.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I98",
@@ -590,112 +898,209 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "feelings",
+            "emotions",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Be don't worried about the exam\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are you hungry? Let's eat.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I106",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i very proud of my children\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She always feels nervous before a test.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Feels he lonely in the big city\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am so tired I could sleep for days.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is she scared of spiders\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"We are excited about our holiday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I127",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Feels she sad because her cat is ill\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I131",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He was very angry with his boss.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was she upset by his comments\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I am bored with this movie.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I143",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Was he surprised by the birthday party\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I147",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm thirsty, I need some water.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         },
         {
           "interaction_id": "A2_U9_B9_I151",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Am i very happy to see you\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "feelings",
+            "emotions"
+          ]
         }
       ]
     }

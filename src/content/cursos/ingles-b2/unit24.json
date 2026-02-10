@@ -28,7 +28,13 @@
             "COHESION",
             "ISSUES"
           ],
-          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined"
+          "explanation": "(1) undefined\n(2) undefined\n(3) undefined\n(4) undefined\n(5) undefined",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "society",
+            "unit"
+          ]
         }
       ]
     },
@@ -45,7 +51,14 @@
           "explanation": "En esta frase, expresamos un arrepentimiento por no haber estudiado más, usando 'wish' para referirnos a algo en el pasado que deseamos que fuera diferente.",
           "stimulus_en": "I regret not studying harder for the exam.\n\nI wish I had studied harder for the exam. ...",
           "correct_answer": "I wish I had studied harder for the exam.",
-          "example": "wish"
+          "example": "wish",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B2_I2",
@@ -55,7 +68,14 @@
           "explanation": "Aquí expresamos el arrepentimiento por no haber aceptado una oferta de trabajo, utilizando 'regret' para enfatizar el sentimiento.",
           "stimulus_en": "If only I had taken that job offer last year.\n\nI regret not taking that job offer last year. ...",
           "correct_answer": "I regret not taking that job offer last year.",
-          "example": "regret"
+          "example": "regret",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B2_I3",
@@ -65,7 +85,14 @@
           "explanation": "En este caso, estamos utilizando 'wish' para expresar un deseo sobre habilidades actuales, específicamente, un deseo sobre la fluidez en el idioma.",
           "stimulus_en": "I wish I could speak French fluently.\n\nI wish I were able to speak French fluently. ...",
           "correct_answer": "I wish I were able to speak French fluently.",
-          "example": "wish"
+          "example": "wish",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B2_I4",
@@ -75,7 +102,14 @@
           "explanation": "Usamos 'regret' nuevamente para expresar el arrepentimiento por una decisión de inversión que no se tomó en el pasado.",
           "stimulus_en": "If only I had invested in that project earlier.\n\nI regret not investing in that project earlier. ...",
           "correct_answer": "I regret not investing in that project earlier.",
-          "example": "regret"
+          "example": "regret",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B2_I5",
@@ -85,7 +119,14 @@
           "explanation": "En esta oración, usamos 'wish' para indicar que deseamos que la planificación de la presentación hubiera sido mejor.",
           "stimulus_en": "I wish we had planned the presentation better.\n\nI wish we had made better plans for the presentation. ...",
           "correct_answer": "I wish we had made better plans for the presentation.",
-          "example": "wish"
+          "example": "wish",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "wish",
+            "regret",
+            "unit"
+          ]
         }
       ]
     },
@@ -119,7 +160,13 @@
               "text": "is"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B3_I2",
@@ -146,7 +193,13 @@
               "text": "is"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B3_I3",
@@ -173,7 +226,13 @@
               "text": "does"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B3_I4",
@@ -200,7 +259,13 @@
               "text": "has"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         },
         {
           "interaction_id": "B2_U24_B3_I5",
@@ -227,7 +292,13 @@
               "text": "might"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "inversion",
+            "unit"
+          ]
         }
       ]
     }

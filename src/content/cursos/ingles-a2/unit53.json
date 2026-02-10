@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "________ you have any references?",
           "correct_answer": "Do",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He had a job interview with a large law firm.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Contrato",
           "correct_answer": "Contract",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (not / call) ________ me back yet.",
           "correct_answer": "haven't called",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is he looking for a temporary job for the summer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Solicitar/Postularse",
           "correct_answer": "Apply",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (apply) ________ for three jobs last week.",
           "correct_answer": "applied",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Do you have any references from your previous job?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Habilidades",
           "correct_answer": "Skills",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (ser/estar) ________ writing a cover letter.",
           "correct_answer": "am",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Has she all the necessary qualifications for the post\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I27",
@@ -249,7 +382,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Puesto/Cargo",
           "correct_answer": "Position",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I28",
@@ -270,7 +410,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I30",
@@ -278,14 +426,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (need) ________ to find a new employee.",
           "correct_answer": "need",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"How should I prepare for the interview?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I33",
@@ -306,7 +468,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I34",
@@ -314,7 +484,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Empleador/a",
           "correct_answer": "Employer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I35",
@@ -335,7 +512,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I37",
@@ -343,14 +528,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (tener) ________ an interview yesterday.",
           "correct_answer": "had",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Need i to gain more work experience\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I41",
@@ -358,7 +557,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Carta de presentación",
           "correct_answer": "Cover letter",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I42",
@@ -379,7 +585,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I44",
@@ -387,14 +601,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "What ________ I wear to the interview?",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I signed the contract yesterday.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I48",
@@ -402,7 +630,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Currículum",
           "correct_answer": "CV (Curriculum Vitae)",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I49",
@@ -423,7 +658,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I51",
@@ -431,14 +674,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (offer) ________ me the position.",
           "correct_answer": "offered",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Offered they her a full-time position as a manager\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I54",
@@ -446,7 +703,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Referencia",
           "correct_answer": "Reference",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I57",
@@ -454,14 +718,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (ser/estar) ________ preparing her CV.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I applied for a part-time job at the supermarket.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I61",
@@ -469,7 +747,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Oferta/Ofrecer",
           "correct_answer": "Offer",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I62",
@@ -490,7 +775,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I64",
@@ -498,14 +791,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (not / tener) ________ much experience.",
           "correct_answer": "doesn't have",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are they looking to hire a new receptionist\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I68",
@@ -513,7 +820,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Entrevista",
           "correct_answer": "Interview",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I69",
@@ -534,14 +848,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I'm updating my CV for a new job application.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I74",
@@ -562,14 +891,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I76",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are what your main skills and qualifications\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I79",
@@ -577,14 +921,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Solicitud de empleo",
           "correct_answer": "Job application",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I82",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The employer was very impressed with his CV.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I84",
@@ -592,7 +950,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "A tiempo parcial",
           "correct_answer": "Part-time",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I85",
@@ -613,14 +978,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I87",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wrote she a very professional cover letter\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I90",
@@ -628,7 +1008,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Contratar",
           "correct_answer": "Hire",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I91",
@@ -649,14 +1036,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I93",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I hope I get the job!\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I95",
@@ -664,7 +1066,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Currículum",
           "correct_answer": "Resume",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I96",
@@ -685,14 +1094,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I98",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Had he a job interview with a large law firm\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I101",
@@ -700,7 +1124,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "A tiempo completo",
           "correct_answer": "Full-time",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I102",
@@ -721,14 +1152,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He is looking for a temporary job for the summer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I107",
@@ -736,7 +1182,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Temporal",
           "correct_answer": "Temporary",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I108",
@@ -757,14 +1210,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You do have any references from your previous job\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I112",
@@ -772,7 +1240,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cualificaciones",
           "correct_answer": "Qualifications",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I113",
@@ -793,14 +1268,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I115",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She has all the necessary qualifications for the post.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I118",
@@ -808,7 +1298,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Firmar",
           "correct_answer": "Sign",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I119",
@@ -829,14 +1326,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should how i prepare for the interview\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I124",
@@ -844,7 +1356,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Empleado/a",
           "correct_answer": "Employee",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I125",
@@ -865,77 +1384,155 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "modals",
+            "should",
+            "shouldnt",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I need to gain more work experience.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Signed i the contract yesterday\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I132",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They offered her a full-time position as a manager.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Applied i for a part-time job at the supermarket\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I139",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They are looking to hire a new receptionist.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Updating i'm my cv for a new job application\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"What are your main skills and qualifications?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Employer the was very impressed with his cv\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I152",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She wrote a very professional cover letter.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         },
         {
           "interaction_id": "A2_U53_B53_I155",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Hope i i get the job\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "modals",
+            "should",
+            "shouldnt"
+          ]
         }
       ]
     }

@@ -18,14 +18,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They worked ________ (hard) to finish the project.",
           "correct_answer": "hard",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The children played happily in the garden.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I5",
@@ -46,7 +56,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I6",
@@ -54,7 +70,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Felizmente",
           "correct_answer": "Happily",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I7",
@@ -75,7 +96,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I9",
@@ -83,14 +110,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Please walk ________ (quiet) in the library.",
           "correct_answer": "quietly",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Teacher the explained the lesson very clearly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I12",
@@ -111,7 +148,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I13",
@@ -119,7 +162,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mal",
           "correct_answer": "Badly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I14",
@@ -140,7 +188,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I16",
@@ -148,14 +202,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He writes ________ (beautiful).",
           "correct_answer": "beautifully",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He drives very carefully in the city.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I19",
@@ -176,7 +240,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I20",
@@ -184,7 +254,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Adverbio",
           "correct_answer": "Adverb",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I21",
@@ -205,7 +280,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I23",
@@ -213,14 +294,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Please listen ________ (attentive).",
           "correct_answer": "attentively",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wrote he the letter very carefully\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I26",
@@ -241,7 +332,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I27",
@@ -249,7 +346,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Descuidadamente",
           "correct_answer": "Carelessly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I28",
@@ -270,7 +372,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I30",
@@ -278,14 +386,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They laughed ________ (loud) at the joke.",
           "correct_answer": "loudly",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She finished her homework very quickly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I33",
@@ -306,7 +424,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I34",
@@ -314,7 +438,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cuidadosamente",
           "correct_answer": "Carefully",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I35",
@@ -335,7 +464,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I37",
@@ -343,14 +478,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She runs very ________ (quick).",
           "correct_answer": "quickly",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Are they working hard to win the game\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I41",
@@ -358,7 +503,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Manera/Modo",
           "correct_answer": "Manner",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I42",
@@ -379,7 +529,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I44",
@@ -387,14 +543,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He speaks English very ________ (good).",
           "correct_answer": "well",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I can easily finish this work today.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I48",
@@ -402,7 +568,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Bien",
           "correct_answer": "Well",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I49",
@@ -423,7 +594,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I51",
@@ -431,14 +608,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She smiled ________ (happy) at him.",
           "correct_answer": "happily",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Walked he quietly so as not to wake the baby\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I55",
@@ -446,7 +633,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Duro/Fuerte",
           "correct_answer": "Hard",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I56",
@@ -467,7 +659,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I58",
@@ -475,14 +673,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You should speak ________ (clear) when you give a talk.",
           "correct_answer": "clearly",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I59",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The rain fell heavily all night.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I62",
@@ -490,7 +698,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ruidosamente",
           "correct_answer": "Loudly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I63",
@@ -511,7 +724,13 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I65",
@@ -519,14 +738,24 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He drove ________ (careful) through the rain.",
           "correct_answer": "carefully",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I66",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Handled she the situation very professionally\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I69",
@@ -534,7 +763,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Fácilmente",
           "correct_answer": "Easily",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I70",
@@ -555,14 +789,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I72",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They danced beautifully together.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I75",
@@ -570,7 +815,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Lentamente",
           "correct_answer": "Slowly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I76",
@@ -591,14 +841,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I78",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Were they talking very loudly in the restaurant\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I81",
@@ -606,7 +867,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Claramente",
           "correct_answer": "Clearly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I82",
@@ -627,14 +893,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I84",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She sings beautifully.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I87",
@@ -642,7 +919,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Silenciosamente",
           "correct_answer": "Quietly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I88",
@@ -663,14 +945,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I90",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Speak please slowly so i can understand you\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I92",
@@ -678,7 +971,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Tristemente",
           "correct_answer": "Sadly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I93",
@@ -699,14 +997,25 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I95",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He speaks Spanish very well.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I96",
@@ -731,7 +1040,12 @@
             "w1",
             "w2"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 2,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I98",
@@ -739,7 +1053,12 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Rápidamente",
           "correct_answer": "Quickly",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I99",
@@ -760,112 +1079,193 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "connectors",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I100",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Children the played happily in the garden\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I104",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The teacher explained the lesson very clearly.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I108",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Drives he very carefully in the city\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I112",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He wrote the letter very carefully.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I116",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Finished she her homework very quickly\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I119",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They are working hard to win the game.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I123",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can i easily finish this work today\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I126",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"He walked quietly so as not to wake the baby.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I129",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Rain the fell heavily all night\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I133",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"She handled the situation very professionally.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I136",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Danced they beautifully together\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I140",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"They were talking very loudly in the restaurant.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I144",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Sings she beautifully\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I148",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Please speak slowly so I can understand you.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         },
         {
           "interaction_id": "A2_U56_B56_I151",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Speaks he spanish very well\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "connectors"
+          ]
         }
       ]
     }

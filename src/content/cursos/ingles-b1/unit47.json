@@ -135,7 +135,15 @@
             "4": "o1",
             "5": "o1"
           },
-          "explanation": "(1) La calidad de un producto es un factor importante para los consumidores al tomar decisiones de compra.\n(2) Las reseñas son testimonios de otros compradores que ayudan a evaluar un producto.\n(3) Las elecciones que hace un consumidor son influenciadas por la información que recibe.\n(4) El diseño del producto es un aspecto que se analiza en muchas reseñas y artículos.\n(5) La opinión se forma después de recopilar información de diversas fuentes sobre un producto."
+          "explanation": "(1) La calidad de un producto es un factor importante para los consumidores al tomar decisiones de compra.\n(2) Las reseñas son testimonios de otros compradores que ayudan a evaluar un producto.\n(3) Las elecciones que hace un consumidor son influenciadas por la información que recibe.\n(4) El diseño del producto es un aspecto que se analiza en muchas reseñas y artículos.\n(5) La opinión se forma después de recopilar información de diversas fuentes sobre un producto.",
+          "complexity": 2,
+          "concept_tags": [
+            "reading",
+            "articles",
+            "reviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -157,7 +165,14 @@
             "where",
             "who"
           ],
-          "explanation": "(1) Se utiliza 'that' para introducir una cláusula que define el libro mencionado.\n(2) 'When' se utiliza para referirse a un momento específico en el pasado.\n(3) 'That' se usa aquí para describir al perro, indicando que es un perro específico.\n(4) 'Where' se usa para hablar de un lugar específico, en este caso el restaurante.\n(5) 'Who' se utiliza para referirse a personas, en este caso, el artista."
+          "explanation": "(1) Se utiliza 'that' para introducir una cláusula que define el libro mencionado.\n(2) 'When' se utiliza para referirse a un momento específico en el pasado.\n(3) 'That' se usa aquí para describir al perro, indicando que es un perro específico.\n(4) 'Where' se usa para hablar de un lugar específico, en este caso el restaurante.\n(5) 'Who' se utiliza para referirse a personas, en este caso, el artista.",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "relative",
+            "clauses",
+            "unit"
+          ]
         }
       ]
     },
@@ -286,7 +301,14 @@
             "4": "o3",
             "5": "o2"
           },
-          "explanation": "(1) En este contexto, el verbo 'study' se utiliza para describir una acción general que los estudiantes hacen en la escuela.\n(2) El verbo 'learn' es la forma correcta que se utiliza para indicar que los estudiantes adquieren nuevos conocimientos.\n(3) La 'university' es el lugar donde los estudiantes continúan su educación después de terminar la escuela secundaria.\n(4) Las 'courses' son las clases que los estudiantes toman en la universidad para especializarse en un área.\n(5) Los 'exams' son evaluaciones que los estudiantes deben pasar al final del periodo académico."
+          "explanation": "(1) En este contexto, el verbo 'study' se utiliza para describir una acción general que los estudiantes hacen en la escuela.\n(2) El verbo 'learn' es la forma correcta que se utiliza para indicar que los estudiantes adquieren nuevos conocimientos.\n(3) La 'university' es el lugar donde los estudiantes continúan su educación después de terminar la escuela secundaria.\n(4) Las 'courses' son las clases que los estudiantes toman en la universidad para especializarse en un área.\n(5) Los 'exams' son evaluaciones que los estudiantes deben pasar al final del periodo académico.",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "education",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

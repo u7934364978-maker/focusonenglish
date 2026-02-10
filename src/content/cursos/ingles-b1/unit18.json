@@ -40,7 +40,14 @@
               "text": "To complain about work"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B1_I2",
@@ -67,7 +74,14 @@
               "text": "It is stressful"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B1_I3",
@@ -94,7 +108,14 @@
               "text": "By using open-ended questions"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B1_I4",
@@ -121,7 +142,14 @@
               "text": "I disagree with you"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B1_I5",
@@ -148,7 +176,14 @@
               "text": "Being patient"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "interviews",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -182,7 +217,14 @@
               "text": "To instruct"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B2_I2",
@@ -209,7 +251,14 @@
               "text": "Statistics"
             }
           ],
-          "correct_answer": "o4"
+          "correct_answer": "o4",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B2_I3",
@@ -236,7 +285,14 @@
               "text": "Denouement"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B2_I4",
@@ -263,7 +319,14 @@
               "text": "Character"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B2_I5",
@@ -290,7 +353,14 @@
               "text": "The characters"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "writing",
+            "stories",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     },
@@ -324,7 +394,14 @@
               "text": "To watch videos"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B3_I2",
@@ -351,7 +428,14 @@
               "text": "Google Chrome"
             }
           ],
-          "correct_answer": "o3"
+          "correct_answer": "o3",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B3_I3",
@@ -378,7 +462,14 @@
               "text": "To install software"
             }
           ],
-          "correct_answer": "o2"
+          "correct_answer": "o2",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B3_I4",
@@ -405,7 +496,14 @@
               "text": "Update"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "B1_U18_B3_I5",
@@ -432,7 +530,14 @@
               "text": "Router"
             }
           ],
-          "correct_answer": "o1"
+          "correct_answer": "o1",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "technology",
+            "unit",
+            "grammar"
+          ]
         }
       ]
     }

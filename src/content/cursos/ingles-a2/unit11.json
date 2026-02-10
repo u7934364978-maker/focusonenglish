@@ -18,14 +18,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Go ________ (straight) on for two blocks.",
           "correct_answer": "straight",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The station is opposite the town hall.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I5",
@@ -46,7 +60,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I6",
@@ -54,7 +76,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Biblioteca",
           "correct_answer": "Library",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I7",
@@ -75,7 +104,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I9",
@@ -83,14 +120,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "There (ser/estar) ________ many interesting places to visit.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There is a pharmacy near here\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I12",
@@ -111,7 +162,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I13",
@@ -119,7 +178,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Ayuntamiento",
           "correct_answer": "Town hall",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I14",
@@ -140,7 +206,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I16",
@@ -148,14 +222,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The museum is ________ (opposite) the station.",
           "correct_answer": "opposite",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The market is open every Saturday morning.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I19",
@@ -176,7 +264,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I20",
@@ -184,7 +280,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Mercado",
           "correct_answer": "Market",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I21",
@@ -205,7 +308,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I23",
@@ -213,14 +324,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Are ________ any museums open today?",
           "correct_answer": "there",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Castle the is on a high hill\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I26",
@@ -241,7 +366,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I28",
@@ -262,7 +395,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I30",
@@ -270,14 +411,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (poder) ________ see the castle from the bridge.",
           "correct_answer": "can",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The post office is next to the church.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I33",
@@ -298,7 +453,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I34",
@@ -306,7 +469,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Iglesia",
           "correct_answer": "Church",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I35",
@@ -327,7 +497,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I37",
@@ -335,14 +513,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "The bank is ________ (between) the pharmacy and the cafe.",
           "correct_answer": "between",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Can you cross the river by the old bridge\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I41",
@@ -350,7 +542,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Estación",
           "correct_answer": "Station",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I44",
@@ -358,14 +557,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Is ________ a cinema near the park?",
           "correct_answer": "there",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Wait for the green light at the traffic lights.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I47",
@@ -373,7 +586,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Semáforo",
           "correct_answer": "Traffic lights",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I48",
@@ -394,7 +614,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I50",
@@ -402,14 +630,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "There (ser/estar) ________ a big library in my city.",
           "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I51",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"City my has a beautiful central square\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I54",
@@ -417,7 +659,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Castillo",
           "correct_answer": "Castle",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I55",
@@ -438,7 +687,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I57",
@@ -446,14 +703,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Turn ________ (left) at the post office.",
           "correct_answer": "left",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The town is very old and beautiful.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I61",
@@ -461,7 +732,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Oficina de correos",
           "correct_answer": "Post office",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I62",
@@ -482,7 +760,15 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I64",
@@ -490,14 +776,28 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "How ________ (far) is the airport from here?",
           "correct_answer": "far",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Library the is a quiet place to study\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I69",
@@ -518,14 +818,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I71",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The park is very crowded in summer.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I74",
@@ -533,7 +848,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Parque",
           "correct_answer": "Park",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I75",
@@ -554,14 +876,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I77",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Straight go on and turn right at the corner\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I80",
@@ -569,14 +906,28 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Plaza",
           "correct_answer": "Square",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I83",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"There is a famous museum in the city center.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I86",
@@ -584,7 +935,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Farmacia",
           "correct_answer": "Pharmacy",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I87",
@@ -605,14 +963,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I89",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Takes it twenty minutes to walk to the station\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I91",
@@ -620,7 +993,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Puente",
           "correct_answer": "Bridge",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I92",
@@ -641,14 +1021,29 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I94",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The bank is closed on Sundays.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I97",
@@ -656,7 +1051,14 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Banco",
           "correct_answer": "Bank",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I98",
@@ -677,112 +1079,225 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "city",
+            "life",
+            "places",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I99",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Station the is opposite the town hall\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I103",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is there a pharmacy near here?\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I107",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Market the is open every saturday morning\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I110",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The castle is on a high hill.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I113",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Post the office is next to the church\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I117",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You can cross the river by the old bridge.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I121",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"For wait the green light at the traffic lights\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I124",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"My city has a beautiful central square.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I128",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Town the is very old and beautiful\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I131",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"The library is a quiet place to study.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I135",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Park the is very crowded in summer\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I138",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Go straight on and turn right at the corner.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I142",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Is there a famous museum in the city center\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I145",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"It takes twenty minutes to walk to the station.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         },
         {
           "interaction_id": "A2_U11_B11_I149",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Bank the is closed on sundays\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "city",
+            "life",
+            "places"
+          ]
         }
       ]
     }

@@ -18,14 +18,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "If it (rain) ________, we'll stay home.",
           "correct_answer": "rains",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I3",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"If I see him, I'll tell him.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I5",
@@ -46,7 +58,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I6",
@@ -54,7 +73,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Medicina",
           "correct_answer": "Medicine",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I7",
@@ -75,7 +100,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I9",
@@ -83,14 +115,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (tener) ________ a headache.",
           "correct_answer": "have got",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I10",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Goes she running every day\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I12",
@@ -111,7 +155,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I13",
@@ -119,7 +170,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Cuerpo",
           "correct_answer": "Body",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I14",
@@ -140,7 +197,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I16",
@@ -148,14 +212,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "We (not / tener que) ________ pay today.",
           "correct_answer": "don't have to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I17",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"You must see that movie.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I19",
@@ -176,7 +252,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I20",
@@ -184,7 +267,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Hábito",
           "correct_answer": "Habit",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I21",
@@ -205,7 +294,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I23",
@@ -213,14 +309,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "They (ser/estar) ________ coughing a lot.",
           "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I24",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Have we to follow the rules\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I26",
@@ -241,7 +349,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I27",
@@ -249,7 +364,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Posibilidad",
           "correct_answer": "Possibility",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I28",
@@ -270,7 +391,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I30",
@@ -278,14 +406,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (debería) ________ see a doctor.",
           "correct_answer": "should",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I31",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I feel much better now.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I33",
@@ -306,7 +446,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "communication",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I34",
@@ -314,7 +461,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Deporte",
           "correct_answer": "Sport",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I35",
@@ -335,7 +488,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I37",
@@ -343,14 +503,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "She (catch) ________ a cold last night.",
           "correct_answer": "caught",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I38",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Doctor the gave me a prescription\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I41",
@@ -358,7 +530,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Consejo",
           "correct_answer": "Advice",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I44",
@@ -366,14 +544,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "I (jugar) ________ tennis every week.",
           "correct_answer": "play",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I45",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Exercise is good for you.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I48",
@@ -381,7 +571,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Salud",
           "correct_answer": "Health",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I49",
@@ -402,7 +598,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I51",
@@ -410,14 +613,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "Do you ________ (sentirse) well?",
           "correct_answer": "feel",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I52",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Back my is aching\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I54",
@@ -425,7 +640,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Médico",
           "correct_answer": "Doctor",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I55",
@@ -446,7 +667,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I57",
@@ -454,14 +682,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "He (has to) ________ work tomorrow.",
           "correct_answer": "has to",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I58",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"I've got a sore throat.\"",
           "correct_answer": true,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I62",
@@ -482,7 +722,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I64",
@@ -490,14 +737,26 @@
           "prompt_es": "Completa con la forma correcta:",
           "stimulus_en": "You (deber (obligación)) ________ try this cake.",
           "correct_answer": "must",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I65",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta esta frase?: \"Should you get some rest\"",
           "correct_answer": false,
-          "mastery_tag": "syntax"
+          "mastery_tag": "syntax",
+          "complexity": 1,
+          "concept_tags": [
+            "syntax",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I68",
@@ -505,7 +764,13 @@
           "prompt_es": "Traduce al inglés:",
           "stimulus_es": "Enfermedad",
           "correct_answer": "Illness",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review"
+          ]
         },
         {
           "interaction_id": "A2_U50_B50_I69",
@@ -526,7 +791,14 @@
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "module",
+            "review",
+            "grammar"
+          ]
         }
       ]
     }
