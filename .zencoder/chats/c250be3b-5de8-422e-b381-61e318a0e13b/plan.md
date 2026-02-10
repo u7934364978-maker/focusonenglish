@@ -48,10 +48,10 @@
 6. [x] Remove AI-powered evaluation and replace with strict local validation.
 7. [x] Commit & Push for user review. (Commit: `990494be`)
 
-### [ ] Step: Implementation (Unit 2: Coffee Break)
+### [x] Step: Implementation (Unit 2: Coffee Break)
 
-1. [ ] Create `src/lib/course/a1/unit-2.ts` with 50 exercises.
-2. [ ] Run audit script and fix issues.
-3. [ ] Commit & Push for user review.
+1. [x] Create `src/lib/course/a1/unit-2.ts` with 50 exercises.
+2. [x] Run audit script and fix issues.
+3. [x] Commit & Push for user review. (Commit: `11c62753`)
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c250be3b-5de8-422e-b381-61e318a0e13b/plan.md`.

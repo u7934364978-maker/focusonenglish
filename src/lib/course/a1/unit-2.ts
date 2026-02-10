@@ -49,7 +49,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Yo quiero...',
-      instructions: 'Ordena las palabras para decir "I want coffee".',
+      instructions: 'Ordena las palabras para traducir "Yo quiero café".',
       sentences: [
         {
           id: 's1',
@@ -128,7 +128,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Completar la frase',
-      instructions: 'Escribe la palabra que falta para decir "Yo quiero".',
+      instructions: 'Escribe la palabra que falta para traducir "Yo quiero leche".',
       questions: [
         {
           id: 'q1',
@@ -187,7 +187,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Té, por favor',
-      instructions: 'Ordena para decir "Tea, please".',
+      instructions: 'Ordena para traducir "Té, por favor".',
       sentences: [
         {
           id: 's1',
@@ -266,7 +266,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Con azúcar',
-      instructions: 'Escribe "sugar" (azúcar).',
+      instructions: 'Escribe la palabra que falta para traducir "café con azúcar".',
       questions: [
         {
           id: 'q1',
@@ -325,7 +325,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Café con leche',
-      instructions: 'Ordena para decir "Coffee with milk".',
+      instructions: 'Ordena para traducir "Café con leche".',
       sentences: [
         {
           id: 's1',
@@ -404,7 +404,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Té con leche',
-      instructions: 'Completa con "with".',
+      instructions: 'Escribe la palabra que falta para traducir "té con leche".',
       questions: [
         {
           id: 'q1',
@@ -463,7 +463,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Quiero zumo',
-      instructions: 'Ordena las palabras.',
+      instructions: 'Ordena las palabras para traducir "Yo quiero zumo".',
       sentences: [
         {
           id: 's1',
@@ -542,7 +542,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Café caliente',
-      instructions: 'Escribe "hot".',
+      instructions: 'Escribe la palabra que falta para traducir "té caliente".',
       questions: [
         {
           id: 'q1',
@@ -601,7 +601,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Zumo frío',
-      instructions: 'Ordena las palabras.',
+      instructions: 'Ordena las palabras para traducir "Quiero zumo frío".',
       sentences: [
         {
           id: 's1',
@@ -680,7 +680,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Un vaso de agua',
-      instructions: 'Escribe "glass" (vaso).',
+      instructions: 'Escribe la palabra que falta para traducir "un vaso de agua".',
       questions: [
         {
           id: 'q1',
@@ -739,7 +739,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: '¿Quieres café?',
-      instructions: 'Ordena la pregunta.',
+      instructions: 'Ordena las palabras para traducir la pregunta "¿Quieres café?".',
       sentences: [
         {
           id: 's1',
@@ -818,7 +818,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Con hielo',
-      instructions: 'Escribe "ice" (hielo).',
+      instructions: 'Escribe la palabra que falta para traducir "agua con hielo".',
       questions: [
         {
           id: 'q1',
@@ -877,7 +877,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Un café grande',
-      instructions: 'Ordena las palabras.',
+      instructions: 'Ordena las palabras para traducir "Quiero un café grande".',
       sentences: [
         {
           id: 's1',
@@ -956,7 +956,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'No, gracias',
-      instructions: 'Escribe "thanks".',
+      instructions: 'Escribe la palabra que falta para traducir "No, gracias".',
       questions: [
         {
           id: 'q1',

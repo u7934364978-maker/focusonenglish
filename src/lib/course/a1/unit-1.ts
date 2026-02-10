@@ -49,7 +49,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Yo soy...',
-      instructions: 'Ordena las palabras para decir "I am Juan".',
+      instructions: 'Ordena las palabras para traducir "Yo soy Juan".',
       sentences: [
         {
           id: 's1',
@@ -188,7 +188,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Buenas tardes',
-      instructions: 'Ordena las palabras para decir "Good afternoon".',
+      instructions: 'Ordena las palabras para traducir "Buenas tardes".',
       sentences: [
         {
           id: 's1',
@@ -327,7 +327,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Mi nombre es...',
-      instructions: 'Ordena las palabras para decir "My name is Maria".',
+      instructions: 'Ordena las palabras para traducir "Mi nombre es Maria".',
       sentences: [
         {
           id: 's1',
