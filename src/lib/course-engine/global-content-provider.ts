@@ -85,7 +85,6 @@ export class GlobalContentProvider {
     const results = await Promise.all(loadingPromises);
     this.interactions = results.flat();
 
-    // 4. Inject Visual Exercises for A1 (Keeping these as they are hardcoded assets)
     const visualInteractions = A1_KIDS_EXERCISES.flatMap(unit => 
       unit.questions.map(q => ({
         ...(q as any),
@@ -93,9 +92,12 @@ export class GlobalContentProvider {
         level: 'A1',
         specialization: 'generic' as const,
         unit_id: unit.id,
+        is_premium_v2: true // Tag for prioritization
       }))
     );
-    this.interactions = [...this.interactions, ...visualInteractions];
+
+    // 5. Merge with prioritization: Visual (Premium V2) first, then DB
+    this.interactions = [...visualInteractions, ...this.interactions];
 
     this.isLoaded = true;
 

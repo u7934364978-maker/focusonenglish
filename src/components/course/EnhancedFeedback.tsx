@@ -21,7 +21,7 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
       <div className="mt-4 p-4 sm:p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
         <div className="flex items-center gap-3">
           <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-coral-600"></div>
-          <p className="text-coral-800 font-semibold">Evaluating your answer with AI...</p>
+          <p className="text-coral-800 font-semibold">Evaluando tu respuesta...</p>
         </div>
       </div>
     );
@@ -47,13 +47,13 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
             </span>
             <div>
               <p className="font-bold text-lg">
-                {textEval.overallAssessment === 'excellent' && 'Excellent!'}
-                {textEval.overallAssessment === 'good' && 'Good Work!'}
-                {textEval.overallAssessment === 'fair' && 'Fair Attempt'}
-                {textEval.overallAssessment === 'needs-improvement' && 'Needs Improvement'}
-                {textEval.overallAssessment === 'incorrect' && 'Incorrect'}
+                {textEval.overallAssessment === 'excellent' && '¡Excelente!'}
+                {textEval.overallAssessment === 'good' && '¡Buen trabajo!'}
+                {textEval.overallAssessment === 'fair' && 'Bien'}
+                {textEval.overallAssessment === 'needs-improvement' && 'Puede mejorar'}
+                {textEval.overallAssessment === 'incorrect' && 'Incorrecto'}
               </p>
-              <p className="text-sm text-slate-600">AI-Powered Evaluation</p>
+              <p className="text-sm text-slate-600">Evaluación</p>
             </div>
           </div>
           <div className="text-right">
@@ -185,8 +185,8 @@ export default function EnhancedFeedback({ type, evaluation, userAnswer, correct
         {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <div>
-            <p className="font-bold text-xl">Writing Evaluation</p>
-            <p className="text-sm text-slate-600">Comprehensive AI Assessment</p>
+            <p className="font-bold text-xl">Evaluación de escritura</p>
+            <p className="text-sm text-slate-600">Evaluación completa</p>
           </div>
           <div className="text-right">
             <div className="text-4xl font-black text-coral-600">{writingEval.overallScore}</div>

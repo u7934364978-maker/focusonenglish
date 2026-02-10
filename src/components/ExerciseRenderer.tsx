@@ -9,6 +9,7 @@ import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
 import FlashcardExercise from './exercises/FlashcardExercise';
 import DragDropExercise from './exercises/DragDropExercise';
+import MatchingExercise from './exercises/MatchingExercise';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { updateSRSItem } from '@/lib/srs';
@@ -28,7 +29,12 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [showFinishButton, setShowFinishButton] = useState(false);
   const [finishScore, setFinishScore] = useState(0);
-  const [aiEvaluation, setAiEvaluation] = useState<MultipleChoiceEvaluationResponse | TextAnswerEvaluationResponse | null>(null);
+  const [evaluation, setEvaluation] = useState<{
+    isCorrect: boolean;
+    score: number;
+    feedback: string;
+    details?: string;
+  } | null>(null);
 
   // Animación de entrada y reset de estado cuando cambia el ejercicio
   useEffect(() => {
@@ -40,7 +46,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     setIsEvaluating(false);
     setShowFinishButton(false);
     setFinishScore(0);
-    setAiEvaluation(null);
+    setEvaluation(null);
     setIsAnimating(true);
     
     const timer = setTimeout(() => setIsAnimating(false), 300);
@@ -54,120 +60,68 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
     content: exercise.content
   });
 
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
     setSubmitted(true);
-    setIsEvaluating(true);
     
-    try {
-      // For exercises with multiple questions array
-      if (exercise.content.questions && Array.isArray(exercise.content.questions) && userAnswer?.questionIndex !== undefined) {
-        const currentQuestion = exercise.content.questions[userAnswer.questionIndex];
-        
-        if (currentQuestion.options && Array.isArray(currentQuestion.options)) {
-          // Multiple choice evaluation
-          const userAnswerText = currentQuestion.options[userAnswer.answer] || '';
-          const correctAnswerText = currentQuestion.options[currentQuestion.correctAnswer] || currentQuestion.correctAnswer;
-          
-          const response = await fetch('/api/evaluate-multiple-choice', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              question: currentQuestion.question || currentQuestion.text,
-              options: currentQuestion.options,
-              userAnswer: userAnswerText,
-              correctAnswer: correctAnswerText,
-              level: exercise.level || 'B2'
-            })
-          });
-          
-          if (response.ok) {
-            const evaluation: MultipleChoiceEvaluationResponse = await response.json();
-            setAiEvaluation(evaluation);
-            setIsCorrect(evaluation.isCorrect);
-            
-            if (evaluation.isCorrect) {
-              setShowConfetti(true);
-              completeExercise(exercise.id, 1, 1);
-              setTimeout(() => setShowConfetti(false), 3000);
-            }
-          } else {
-            const correct = userAnswer.answer === currentQuestion.correctAnswer;
-            setIsCorrect(correct);
-            if (correct) {
-              setShowConfetti(true);
-              completeExercise(exercise.id, 1, 1);
-              setTimeout(() => setShowConfetti(false), 3000);
-            }
-          }
-        } else {
-          // Text answer for fill-in-the-blank
-          const response = await fetch('/api/evaluate-text-answer', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              question: currentQuestion.question || currentQuestion.text,
-              userAnswer: userAnswer.answer || '',
-              correctAnswer: currentQuestion.correctAnswer,
-              level: exercise.level || 'B2'
-            })
-          });
-          
-          if (response.ok) {
-            const evaluation: TextAnswerEvaluationResponse = await response.json();
-            setAiEvaluation(evaluation);
-            setIsCorrect(evaluation.isCorrect || evaluation.score >= 70);
-            
-            if (evaluation.isCorrect || evaluation.score >= 70) {
-              setShowConfetti(true);
-              completeExercise(exercise.id, evaluation.score || 100, 100);
-              setTimeout(() => setShowConfetti(false), 3000);
-            }
-          } else {
-            const userAnswerLower = (userAnswer.answer || '').toString().toLowerCase().trim();
-            const q = currentQuestion as any;
-            const correctAnswers = [
-              ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
-              ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
-              ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
-            ].filter(Boolean).map(a => a.toLowerCase().trim());
-            
-            const correct = correctAnswers.includes(userAnswerLower);
-            setIsCorrect(correct);
-            if (correct) {
-              setShowConfetti(true);
-              completeExercise(exercise.id, 1, 1);
-              setTimeout(() => setShowConfetti(false), 3000);
-            }
-          }
-        }
-      } else {
-        // Legacy single question format - simple validation
-        const correct = userAnswer !== null && userAnswer !== '';
+    // For exercises with multiple questions array
+    if (exercise.content.questions && Array.isArray(exercise.content.questions) && userAnswer?.questionIndex !== undefined) {
+      const currentQuestion = exercise.content.questions[userAnswer.questionIndex];
+      
+      if (currentQuestion.options && Array.isArray(currentQuestion.options)) {
+        // Multiple choice evaluation
+        const correct = userAnswer.answer === currentQuestion.correctAnswer;
         setIsCorrect(correct);
+        
+        const evalResult = {
+          isCorrect: correct,
+          score: correct ? 100 : 0,
+          feedback: correct ? '¡Excelente! Respuesta correcta.' : 'Respuesta incorrecta.',
+        };
+        setEvaluation(evalResult);
+
         if (correct) {
           setShowConfetti(true);
           completeExercise(exercise.id, 1, 1);
-          setTimeout(() => setShowConfetti(false), 3000);
+        }
+      } else {
+        // Text answer for fill-in-the-blank
+        const userAnswerLower = (userAnswer.answer || '').toString().toLowerCase().trim();
+        const q = currentQuestion as any;
+        
+        const correctAnswers = [
+          ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+          ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
+          ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
+        ].filter(Boolean).map(a => a.toLowerCase().trim());
+        
+        const correct = correctAnswers.includes(userAnswerLower);
+        setIsCorrect(correct);
+        
+        const evalResult = {
+          isCorrect: correct,
+          score: correct ? 100 : 0,
+          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${q.correctAnswer}`,
+        };
+        setEvaluation(evalResult);
+
+        if (correct) {
+          setShowConfetti(true);
+          completeExercise(exercise.id, 1, 1);
         }
       }
-    } catch (error) {
-      console.error('Error evaluating answer:', error);
-      // Fallback to simple validation
+    } else {
+      // Legacy single question format or other types
       const correct = userAnswer !== null && userAnswer !== '';
       setIsCorrect(correct);
       if (correct) {
         setShowConfetti(true);
-        setTimeout(() => setShowConfetti(false), 3000);
+        completeExercise(exercise.id, 1, 1);
       }
-    } finally {
-      setIsEvaluating(false);
     }
   };
 
   const handleNext = () => {
-    // ✅ NO resetear el estado aquí - mantener la respuesta visible
-    // El reset se hará automáticamente cuando cambie el exercise.id en useEffect
-    onComplete(isCorrect ? 100 : 0);
+    onComplete();
   };
 
   const renderExerciseContent = () => {
@@ -181,15 +135,14 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
             level={exercise.level}
             onComplete={(evaluation) => {
               console.log('Speaking evaluation:', evaluation);
-              // Mark as complete but don't transition yet
               setShowFinishButton(true);
-              setFinishScore(evaluation.score || 100);
+              setFinishScore(evaluation.overallScore || 100);
             }}
           />
           {showFinishButton && (
             <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
               <button
-                onClick={() => onComplete(finishScore)}
+                onClick={() => onComplete()}
                 className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
               >
                 Siguiente Ejercicio
@@ -322,10 +275,28 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
               if (isCorrect) {
                 setShowConfetti(true);
                 completeExercise(exercise.id, 1, 1);
-                onComplete(100);
-              } else {
-                onComplete(0);
               }
+              onComplete();
+            }} 
+          />
+        </div>
+      );
+    }
+
+    // Matching exercise
+    if (exercise.type === 'matching') {
+      return (
+        <div className={`transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <MatchingExercise 
+            content={exercise.content as any} 
+            onComplete={(isCorrect) => {
+              if (isCorrect) {
+                setShowConfetti(true);
+                completeExercise(exercise.id, 1, 1);
+              }
+              onComplete();
             }} 
           />
         </div>
@@ -363,14 +334,14 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                 <div key={qIndex} className="bg-gray-50 rounded-lg p-4 sm:p-6 border border-gray-200 transition-all hover:shadow-md">
                   <div className="mb-4">
                     <span className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
-                      Question {qIndex + 1}
+                      Pregunta {qIndex + 1}
                     </span>
-                    <p className="text-lg text-gray-800 font-medium">{q.question || q.text}</p>
+                    <p className="text-xl text-gray-900 font-bold">{q.question || q.text || q.prompt}</p>
                   </div>
 
                   {/* Multiple choice options */}
                   {q.options && Array.isArray(q.options) && (
-                    <div className="space-y-2">
+                    <div className="space-y-3">
                       {q.options.map((option: any, optIndex: number) => {
                         const isUserAnswer = userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex;
                         const isCorrectAnswer = optIndex === q.correctAnswer;
@@ -382,35 +353,29 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                             key={optIndex}
                             onClick={() => !submitted && setUserAnswer({ questionIndex: qIndex, answer: optIndex })}
                             disabled={submitted}
-                            className={`w-full text-left p-4 rounded-lg border-2 transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] ${
+                            className={`w-full text-left p-5 rounded-2xl border-2 transition-all duration-200 transform hover:scale-[1.01] active:scale-[0.99] ${
                               isUserAnswer && !submitted
-                                ? 'border-orange-500 bg-orange-50 shadow-md'
+                                ? 'border-orange-500 bg-orange-50 shadow-md ring-2 ring-orange-200'
                                 : 'border-gray-200 hover:border-gray-300 bg-white hover:shadow-sm'
                             } ${
                               showAsCorrect
-                                ? 'border-green-500 bg-green-50 shadow-md'
+                                ? 'border-green-500 bg-green-50 shadow-md ring-2 ring-green-100'
                                 : ''
                             } ${
                               showAsIncorrect
-                                ? 'border-red-500 bg-red-50 shadow-md'
+                                ? 'border-red-500 bg-red-50 shadow-md ring-2 ring-red-100'
                                 : ''
                             } disabled:cursor-not-allowed disabled:transform-none`}
                           >
-                            <div className="flex items-center gap-3">
-                              <span className={`font-bold ${
-                                showAsCorrect ? 'text-green-600' : showAsIncorrect ? 'text-red-600' : 'text-gray-500'
+                            <div className="flex items-center gap-4">
+                              <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-lg ${
+                                showAsCorrect ? 'bg-green-500 text-white' : showAsIncorrect ? 'bg-red-500 text-white' : isUserAnswer && !submitted ? 'bg-orange-500 text-white' : 'bg-slate-100 text-slate-500'
                               }`}>
-                                {showAsCorrect && '✓'}
-                                {showAsIncorrect && '✗'}
-                                {!submitted && `${String.fromCharCode(65 + optIndex)}.`}
-                                {submitted && !showAsCorrect && !showAsIncorrect && `${String.fromCharCode(65 + optIndex)}.`}
-                              </span>
-                              <span className="text-gray-800 flex-1">{typeof option === 'string' ? option : option.text}</span>
-                              {submitted && isUserAnswer && (
-                                <span className="text-sm font-bold">
-                                  {isCorrectAnswer ? '(Tu respuesta ✓)' : '(Tu respuesta ✗)'}
-                                </span>
-                              )}
+                                {String.fromCharCode(65 + optIndex)}
+                              </div>
+                              <span className="text-lg font-bold text-gray-800 flex-1">{typeof option === 'string' ? option : option.text}</span>
+                              {showAsCorrect && <CheckCircle className="ml-auto w-6 h-6 text-green-500" />}
+                              {showAsIncorrect && <XCircle className="ml-auto w-6 h-6 text-red-500" />}
                             </div>
                           </button>
                         );
@@ -420,30 +385,47 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
 
                   {/* Fill-in-the-blank input */}
                   {exercise.type === 'fill-blank' && !q.options && (
-                    <input
-                      type="text"
-                      value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
-                      onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
-                      disabled={submitted}
-                      placeholder="Type your answer here..."
-                      className="w-full p-4 border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed transition-all"
-                    />
-                  )}
-
-                  {/* AI Evaluation for this specific question */}
-                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && aiEvaluation && (
-                    <div className="mt-4">
-                      <EnhancedFeedback
-                        type={q.options ? 'multiple-choice' : 'text'}
-                        evaluation={aiEvaluation}
-                        userAnswer={q.options ? q.options[userAnswer.answer] : userAnswer.answer}
-                        correctAnswer={q.options ? q.options[q.correctAnswer] : q.correctAnswer}
+                    <div className="relative">
+                      <input
+                        type="text"
+                        value={userAnswer?.questionIndex === qIndex ? userAnswer?.answer || '' : ''}
+                        onChange={(e) => setUserAnswer({ questionIndex: qIndex, answer: e.target.value })}
+                        onKeyDown={(e) => e.key === 'Enter' && !submitted && userAnswer?.answer && handleSubmit()}
+                        disabled={submitted}
+                        placeholder="Escribe tu respuesta aquí..."
+                        className="w-full p-5 border-2 border-gray-200 rounded-2xl focus:border-orange-500 focus:ring-4 focus:ring-orange-100 focus:outline-none disabled:bg-gray-50 disabled:cursor-not-allowed transition-all text-xl font-bold text-slate-800"
                       />
                     </div>
                   )}
+
+                  {/* Evaluation for this specific question */}
+                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && evaluation && (
+                    <div className={`mt-6 p-6 rounded-2xl animate-slide-in border-2 ${
+                      evaluation.isCorrect ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-800'
+                    }`}>
+                      <div className="flex items-center gap-3 mb-2">
+                        {evaluation.isCorrect ? (
+                          <CheckCircle className="w-6 h-6 text-green-600" />
+                        ) : (
+                          <XCircle className="w-6 h-6 text-red-600" />
+                        )}
+                        <span className="text-xl font-black">
+                          {evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}
+                        </span>
+                      </div>
+                      <p className="font-medium text-lg">{evaluation.feedback}</p>
+                      
+                      {!evaluation.isCorrect && q.explanation && (
+                        <div className="mt-4 p-4 bg-white/50 rounded-xl text-sm border border-red-100">
+                          <p className="font-bold mb-1">💡 Explicación:</p>
+                          <p>{q.explanation}</p>
+                        </div>
+                      )}
+                    </div>
+                  )}
                   
-                  {/* Show basic explanation if AI didn't evaluate */}
-                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && !aiEvaluation && q.explanation && (
+                  {/* Show basic explanation if no evaluation data */}
+                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && !evaluation && q.explanation && (
                     <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg animate-slide-in">
                       <p className="text-sm font-semibold text-blue-900 mb-1">💡 Explanation:</p>
                       <p className="text-sm text-blue-800">{q.explanation}</p>
@@ -519,18 +501,18 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           )}
         </div>
 
-        {/* AI Evaluation Loading */}
+        {/* Evaluation Loading */}
         {isEvaluating && (
           <div className="mt-6 p-6 bg-orange-50 border-2 border-orange-200 rounded-lg animate-pulse">
             <div className="flex items-center gap-3">
               <Loader2 className="w-6 h-6 text-orange-600 animate-spin" />
-              <p className="text-orange-800 font-semibold">Evaluando tu respuesta con IA...</p>
+              <p className="text-orange-800 font-semibold">Evaluando tu respuesta...</p>
             </div>
           </div>
         )}
 
-        {/* Fallback Feedback (if AI not used for overall exercise) */}
-        {submitted && !isEvaluating && !aiEvaluation && (
+        {/* Fallback Feedback (if detailed evaluation not used) */}
+        {submitted && !isEvaluating && !evaluation && (
           <div className={`mt-6 p-4 rounded-lg animate-slide-in ${
             isCorrect ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'
           } ${showConfetti ? 'animate-bounce' : ''}`}>

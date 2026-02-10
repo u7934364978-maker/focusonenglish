@@ -76,8 +76,8 @@ async function auditUnit() {
         errors.push(`[Ex ${index}] (matching) Missing pairs array.`);
       }
     } else if (ex.type === 'flashcard') {
-      if (!ex.content.front || !ex.content.back) {
-        errors.push(`[Ex ${index}] (flashcard) Missing front or back content.`);
+      if (!ex.content.front && !ex.content.back && (!ex.content.items || !Array.isArray(ex.content.items))) {
+        errors.push(`[Ex ${index}] (flashcard) Missing front/back or items array.`);
       }
     }
   });

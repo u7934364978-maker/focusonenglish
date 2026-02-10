@@ -86,318 +86,20 @@ export const A1_IMAGE_BANK = {
     socks: 'https://images.pexels.com/photos/251454/pexels-photo-251454.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     skirt: 'https://images.pexels.com/photos/1007018/pexels-photo-1007018.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
   },
-
-  // TRABAJOS (WORK)
-  jobs: {
-    teacher: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    doctor: 'https://images.pexels.com/photos/3714743/pexels-photo-3714743.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    chef: 'https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    pilot: 'https://images.pexels.com/photos/3228723/pexels-photo-3228723.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    farmer: 'https://images.pexels.com/photos/191761/pexels-photo-191761.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    waiter: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    firefighter: 'https://images.pexels.com/photos/1243110/pexels-photo-1243110.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-  },
-
-  // VIAJES (TRAVEL)
-  travel: {
-    suitcase: 'https://images.pexels.com/photos/3370153/pexels-photo-3370153.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    passport: 'https://images.pexels.com/photos/385998/pexels-photo-385998.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    map: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    hotel: 'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    airport: 'https://images.pexels.com/photos/2022731/pexels-photo-2022731.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    ticket: 'https://images.pexels.com/photos/157520/pexels-photo-157520.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-  },
-
-  // ACCIONES (DAILY ACTIONS)
-  actions: {
-    eat: 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    sleep: 'https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    run: 'https://images.pexels.com/photos/607492/pexels-photo-607492.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    read: 'https://images.pexels.com/photos/3747468/pexels-photo-3747468.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    drink: 'https://images.pexels.com/photos/3400589/pexels-photo-3400589.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    write: 'https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    walk: 'https://images.pexels.com/photos/1460341/pexels-photo-1460341.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-  },
-
-  // EMOCIONES (EMOTIONS)
-  emotions: {
-    happy: 'https://images.pexels.com/photos/7533347/pexels-photo-7533347.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    sad: 'https://images.pexels.com/photos/4064115/pexels-photo-4064115.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    angry: 'https://images.pexels.com/photos/3807738/pexels-photo-3807738.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-    tired: 'https://images.pexels.com/photos/1553961/pexels-photo-1553961.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-  },
 };
 
-// Generador de ejercicios visuales A1
+// Generador de ejercicios visuales A1 REFACTORED PER PEDAGOGICAL GUIDE
 export const A1_KIDS_EXERCISES = [
-  // COLORES
+  // 1) Ejercicios “rápidos” (para enganchar y calentar)
   {
-    id: 'a1-vis-colors',
-    title: '🎨 Aprende los Colores',
-    instructions: '¿De qué color es?',
-    category: 'vocabulary',
-    questions: [
-      {
-        interaction_id: 'v1-color-red',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What color is this?',
-        image_url: A1_IMAGE_BANK.colors.red,
-        options: [
-          { id: '1', text: 'Red' },
-          { id: '2', text: 'Blue' },
-          { id: '3', text: 'Green' },
-          { id: '4', text: 'Yellow' }
-        ],
-        correct_answer: '1',
-        explanation: 'Esta imagen es de color ROJO (Red).',
-        mastery_tag: 'vocabulary/colors',
-      },
-      {
-        interaction_id: 'v1-color-blue',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What color is this?',
-        image_url: A1_IMAGE_BANK.colors.blue,
-        options: [
-          { id: '1', text: 'Red' },
-          { id: '2', text: 'Blue' },
-          { id: '3', text: 'Green' },
-          { id: '4', text: 'Yellow' }
-        ],
-        correct_answer: '2',
-        explanation: 'Esta imagen es de color AZUL (Blue).',
-        mastery_tag: 'vocabulary/colors',
-      },
-      {
-        interaction_id: 'v1-color-yellow',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What color is this?',
-        image_url: A1_IMAGE_BANK.colors.yellow,
-        options: [
-          { id: '1', text: 'Red' },
-          { id: '2', text: 'Blue' },
-          { id: '3', text: 'Green' },
-          { id: '4', text: 'Yellow' }
-        ],
-        correct_answer: '4',
-        explanation: 'Esta imagen es de color AMARILLO (Yellow).',
-        mastery_tag: 'vocabulary/colors',
-      },
-      {
-        interaction_id: 'v1-color-green',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What color is this?',
-        image_url: A1_IMAGE_BANK.colors.green,
-        options: [
-          { id: '1', text: 'Red' },
-          { id: '2', text: 'Blue' },
-          { id: '3', text: 'Green' },
-          { id: '4', text: 'Yellow' }
-        ],
-        correct_answer: '3',
-        explanation: 'Esta imagen es de color VERDE (Green).',
-        mastery_tag: 'vocabulary/colors',
-      },
-    ],
-  },
-  // ANIMALES
-  {
-    id: 'a1-vis-animals',
-    title: '🐾 Aprende los Animales',
-    instructions: '¿Qué animal es?',
-    category: 'vocabulary',
-    questions: [
-      {
-        interaction_id: 'v1-animal-cat',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What animal is this?',
-        image_url: A1_IMAGE_BANK.animals.cat,
-        options: [
-          { id: '1', text: 'Cat' },
-          { id: '2', text: 'Dog' },
-          { id: '3', text: 'Lion' },
-          { id: '4', text: 'Monkey' }
-        ],
-        correct_answer: '1',
-        explanation: 'Este es un GATO (Cat).',
-        mastery_tag: 'vocabulary/animals',
-      },
-      {
-        interaction_id: 'v1-animal-lion',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What animal is this?',
-        image_url: A1_IMAGE_BANK.animals.lion,
-        options: [
-          { id: '1', text: 'Cat' },
-          { id: '2', text: 'Dog' },
-          { id: '3', text: 'Lion' },
-          { id: '4', text: 'Monkey' }
-        ],
-        correct_answer: '3',
-        explanation: 'Este es un LEÓN (Lion).',
-        mastery_tag: 'vocabulary/animals',
-      },
-      {
-        interaction_id: 'v1-animal-elephant',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What animal is this?',
-        image_url: A1_IMAGE_BANK.animals.elephant,
-        options: [
-          { id: '1', text: 'Elephant' },
-          { id: '2', text: 'Monkey' },
-          { id: '3', text: 'Rabbit' },
-          { id: '4', text: 'Fish' }
-        ],
-        correct_answer: '1',
-        explanation: 'Este es un ELEFANTE (Elephant).',
-        mastery_tag: 'vocabulary/animals',
-      },
-      {
-        interaction_id: 'v1-animal-monkey',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What animal is this?',
-        image_url: A1_IMAGE_BANK.animals.monkey,
-        options: [
-          { id: '1', text: 'Elephant' },
-          { id: '2', text: 'Monkey' },
-          { id: '3', text: 'Rabbit' },
-          { id: '4', text: 'Fish' }
-        ],
-        correct_answer: '2',
-        explanation: 'Este es un MONO (Monkey).',
-        mastery_tag: 'vocabulary/animals',
-      },
-    ],
-  },
-  // FRUTAS
-  {
-    id: 'a1-vis-fruits',
-    title: '🍎 Aprende las Frutas',
-    instructions: '¿Qué fruta es?',
-    category: 'vocabulary',
-    questions: [
-      {
-        interaction_id: 'v1-fruit-apple',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What fruit is this?',
-        image_url: A1_IMAGE_BANK.fruits.apple,
-        options: [
-          { id: '1', text: 'Apple' },
-          { id: '2', text: 'Banana' },
-          { id: '3', text: 'Orange' },
-          { id: '4', text: 'Pear' }
-        ],
-        correct_answer: '1',
-        explanation: 'Esta es una MANZANA (Apple).',
-        mastery_tag: 'vocabulary/food',
-      },
-      {
-        interaction_id: 'v1-fruit-banana',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What fruit is this?',
-        image_url: A1_IMAGE_BANK.fruits.banana,
-        options: [
-          { id: '1', text: 'Apple' },
-          { id: '2', text: 'Banana' },
-          { id: '3', text: 'Orange' },
-          { id: '4', text: 'Pear' }
-        ],
-        correct_answer: '2',
-        explanation: 'Este es un PLÁTANO (Banana).',
-        mastery_tag: 'vocabulary/food',
-      },
-      {
-        interaction_id: 'v1-fruit-strawberry',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What fruit is this?',
-        image_url: A1_IMAGE_BANK.fruits.strawberry,
-        options: [
-          { id: '1', text: 'Strawberry' },
-          { id: '2', text: 'Pineapple' },
-          { id: '3', text: 'Watermelon' },
-          { id: '4', text: 'Grapes' }
-        ],
-        correct_answer: '1',
-        explanation: 'Esta es una FRESA (Strawberry).',
-        mastery_tag: 'vocabulary/food',
-      },
-      {
-        interaction_id: 'v1-fruit-watermelon',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What fruit is this?',
-        image_url: A1_IMAGE_BANK.fruits.watermelon,
-        options: [
-          { id: '1', text: 'Strawberry' },
-          { id: '2', text: 'Pineapple' },
-          { id: '3', text: 'Watermelon' },
-          { id: '4', text: 'Grapes' }
-        ],
-        correct_answer: '3',
-        explanation: 'Esta es una SANDÍA (Watermelon).',
-        mastery_tag: 'vocabulary/food',
-      },
-    ],
-  },
-  // TRANSPORTES
-  {
-    id: 'a1-vis-transport',
-    title: '🚗 Transportes',
-    instructions: '¿Cómo se llama este transporte?',
-    category: 'vocabulary',
-    questions: [
-      {
-        interaction_id: 'v1-transp-car',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What is this?',
-        image_url: A1_IMAGE_BANK.transport.car,
-        options: [
-          { id: '1', text: 'Car' },
-          { id: '2', text: 'Bus' },
-          { id: '3', text: 'Bicycle' },
-          { id: '4', text: 'Train' }
-        ],
-        correct_answer: '1',
-        explanation: 'Este es un COCHE (Car).',
-        mastery_tag: 'vocabulary/transport',
-      },
-      {
-        interaction_id: 'v1-transp-airplane',
-        type: 'multiple_choice' as const,
-        prompt_es: 'What is this?',
-        image_url: A1_IMAGE_BANK.transport.airplane,
-        options: [
-          { id: '1', text: 'Airplane' },
-          { id: '2', text: 'Boat' },
-          { id: '3', text: 'Motorcycle' },
-          { id: '4', text: 'Truck' }
-        ],
-        correct_answer: '1',
-        explanation: 'Este es un AVION (Airplane).',
-        mastery_tag: 'vocabulary/transport',
-      },
-    ],
-  },
-  // QUICK ENGAGEMENT (Phase 1 Refactor)
-  {
-    id: 'a1-quick-start',
+    id: 'a1-warmup',
     title: '⚡ Calentamiento Rápido',
-    instructions: 'Ejercicios rápidos para activar tu inglés.',
-    category: 'quick_engagement',
+    instructions: 'Actividades rápidas para despertar tu inglés.',
+    category: 'warmup',
     questions: [
+      // 1.1. Flashcards inteligentes / Escucha y elige
       {
-        interaction_id: 'q1-spot-diff',
-        type: 'spot_the_difference' as const,
-        prompt_es: '¿Cuál es la frase natural?',
-        options: [
-          { id: '1', text: 'I Ana.' },
-          { id: '2', text: 'I am Ana.' },
-          { id: '3', text: 'I is Ana.' }
-        ],
-        correct_answer: '2',
-        explanation: 'La frase correcta es "I am Ana".',
-        mastery_tag: 'grammar/be',
-      },
-      {
-        interaction_id: 'q1-touch-blue',
+        interaction_id: 'q1-listen-color',
         type: 'touch_word_audio' as const,
         prompt_es: 'Toca la palabra que oyes:',
         correct_answer: 'Blue',
@@ -412,6 +114,7 @@ export const A1_KIDS_EXERCISES = [
         explanation: 'Has seleccionado Blue (Azul).',
         mastery_tag: 'vocabulary/colors',
       },
+      // 1.2. Mini-dictados con teclado predictivo
       {
         interaction_id: 'q1-dict-phone',
         type: 'mini_dictation' as const,
@@ -420,16 +123,29 @@ export const A1_KIDS_EXERCISES = [
         predictive_suggestions: ['This', 'is', 'my', 'phone', 'book'],
         explanation: 'La frase es "This is my phone".',
         mastery_tag: 'grammar/demonstratives',
+      },
+      // 1.3. Pronunciación tipo “eco” (shadowing guiado)
+      {
+        interaction_id: 'q1-echo-hello',
+        type: 'audio_player' as const,
+        prompt_es: 'Escucha y repite (Shadowing):',
+        stimulus_en: 'Hello, I am Ana.',
+        tts_en: 'Hello, I am Ana.',
+        phonetic: '/həˈloʊ aɪ æm ˈænə/',
+        pronunciationTips: 'Intenta copiar el ritmo y la entonación.',
+        mastery_tag: 'speaking/introduction',
       }
-    ]
+    ],
   },
-  // COMPREHENSION (Phase 2 Refactor)
+
+  // 2) Ejercicios de comprensión (input) con formato “Netflix/TikTok”
   {
-    id: 'a1-comp-videos',
-    title: '📱 Misiones de Vídeo',
-    instructions: 'Mira los clips y cumple la misión.',
+    id: 'a1-input-netflix',
+    title: '📱 Comprensión Digital',
+    instructions: 'Mira y escucha como en tus redes sociales favoritas.',
     category: 'comprehension',
     questions: [
+      // 2.1. Vídeos verticales de 15–30s con “misión”
       {
         interaction_id: 'v2-greet-mission',
         type: 'video' as const,
@@ -466,15 +182,8 @@ export const A1_KIDS_EXERCISES = [
             }
           ]
         }
-      }
-    ]
-  },
-  {
-    id: 'a1-branching-stories',
-    title: '🛤️ Elige tu Camino',
-    instructions: 'Responde al diálogo para continuar la historia.',
-    category: 'interaction',
-    questions: [
+      },
+      // 2.2. Historias ramificadas
       {
         interaction_id: 'b2-name-choice',
         type: 'branching_dialogue' as const,
@@ -485,26 +194,64 @@ export const A1_KIDS_EXERCISES = [
           { id: 'c', text: 'Name Ana.' }
         ],
         correct_answer: 'b',
-        explanation: '"I am Ana" es la forma más completa y natural, aunque "My name Ana" se entiende.',
+        explanation: '"I am Ana" es la forma más completa y natural.',
         mastery_tag: 'grammar/be',
       }
-    ]
+    ],
   },
-  // ADVANCED SKILLS (Phase 3 Refactor)
+
+  // 3) Ejercicios de speaking (sin presión)
   {
-    id: 'a1-speaking-writing',
-    title: '💬 Comunicación Real',
-    instructions: 'Practica el habla y la escritura en situaciones reales.',
-    category: 'communication',
+    id: 'a1-speaking-wp',
+    title: '💬 Speaking Sin Presión',
+    instructions: 'Practica tu voz en situaciones cotidianas.',
+    category: 'speaking',
     questions: [
+      // 3.1. “Voice notes” estilo WhatsApp
       {
         interaction_id: 's3-voice-intro',
         type: 'voice_note' as const,
-        prompt_es: 'Preséntate: "Hello. I am [tu nombre]."',
-        stimulus_en: 'Hello. I am...',
-        explanation: '¡Excelente presentación!',
+        prompt_es: 'Graba una nota de voz presentándote:',
+        stimulus_en: 'Hello. I am [your name]. I am from [your country].',
+        explanation: '¡Excelente! Has practicado tu primera nota de voz en inglés.',
         mastery_tag: 'speaking/introduction',
       },
+      // 3.2. Role-play con tarjetas (Flashcards interactivas)
+      {
+        interaction_id: 's3-roleplay-cafe',
+        type: 'flashcard' as const,
+        prompt_es: 'Role-play: Estás en un café. Pide una bebida.',
+        flashcards: [
+          { front: 'Order 1 drink', back: 'I would like a coffee, please.', pronunciation: 'Aɪ wʊd laɪk ə ˈkɔːfi pliːz' }
+        ],
+        mastery_tag: 'speaking/ordering',
+      }
+    ],
+  },
+
+  // 4) Ejercicios de escritura A1 (micro-escritura)
+  {
+    id: 'a1-writing-micro',
+    title: '✍️ Micro-Escritura',
+    instructions: 'Escribe mensajes cortos y construye frases.',
+    category: 'writing',
+    questions: [
+      // 4.1. “Construye la frase” (drag & drop)
+      {
+        interaction_id: 'w4-build-spain',
+        type: 'reorder_words' as const,
+        prompt_es: 'Ordena la frase:',
+        correct_answer: ['I', 'am', 'from', 'Spain'],
+        options: [
+          { id: '1', text: 'from' },
+          { id: '2', text: 'Spain' },
+          { id: '3', text: 'I' },
+          { id: '4', text: 'am' }
+        ],
+        translation: 'Yo soy de España.',
+        mastery_tag: 'grammar/be',
+      },
+      // 4.2. Mensajes reales (Chat simulado)
       {
         interaction_id: 'c3-chat-greet',
         type: 'chat_simulation' as const,
@@ -514,26 +261,27 @@ export const A1_KIDS_EXERCISES = [
           { id: '2', text: "I am fine." },
           { id: '3', text: "OK." }
         ],
-        correct_answer: '1',
         chat_history: [
           { role: 'bot', text: "Hi! How are you?" }
         ],
         explanation: '"I\'m fine, thank you" es la respuesta más educada y común.',
         mastery_tag: 'communication/greetings',
       }
-    ]
+    ],
   },
-  // VOCABULARY & GAMIFICATION (Phase 4 Refactor)
+
+  // 5) Vocabulario A1: “objetos y mundo real”
   {
-    id: 'a1-vocab-ar',
-    title: '🔍 Búsqueda del Tesoro',
-    instructions: 'Encuentra los objetos en la habitación.',
+    id: 'a1-vocab-real',
+    title: '🔍 Mundo Real',
+    instructions: 'Identifica objetos en tu entorno.',
     category: 'vocabulary',
     questions: [
+      // 5.1. Scavenger hunt / AR-lite
       {
         interaction_id: 'ar4-room-window',
         type: 'ar_lite' as const,
-        prompt_es: 'Toca la VENTANA:',
+        prompt_es: 'Encuentra la VENTANA (Window) en la habitación:',
         correct_answer: 'window',
         image_url: 'https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&w=1200',
         hotspots: [
@@ -543,7 +291,18 @@ export const A1_KIDS_EXERCISES = [
         ],
         explanation: '¡Muy bien! Has encontrado la ventana (window).',
         mastery_tag: 'vocabulary/household',
-      },
+      }
+    ],
+  },
+
+  // 6) Gramática A1 “invisible”
+  {
+    id: 'a1-grammar-invisible',
+    title: '🧠 Gramática Invisible',
+    instructions: 'Aprende patrones naturales sin estudiar reglas aburridas.',
+    category: 'grammar',
+    questions: [
+      // 6.1. Patrones de supervivencia (Spot the difference)
       {
         interaction_id: 'sd4-spot-be',
         type: 'spot_the_difference' as const,
@@ -554,9 +313,23 @@ export const A1_KIDS_EXERCISES = [
           { id: '3', text: 'I is Ana.' }
         ],
         correct_answer: '2',
-        explanation: 'Usamos "I\'m" (abreviatura de I am) para presentarnos de forma natural.',
+        explanation: 'Usamos "I\'m" para presentarnos de forma natural.',
         mastery_tag: 'grammar/be',
+      },
+      // 6.2. Patrones: This is...
+      {
+        interaction_id: 'sd4-spot-this',
+        type: 'spot_the_difference' as const,
+        prompt_es: '¿Cómo presentarías tu teléfono?',
+        options: [
+          { id: '1', text: 'This my phone.' },
+          { id: '2', text: 'This is my phone.' },
+          { id: '3', text: 'It my phone.' }
+        ],
+        correct_answer: '2',
+        explanation: '"This is my phone" es el patrón correcto.',
+        mastery_tag: 'grammar/demonstratives',
       }
-    ]
-  }
+    ],
+  },
 ] as const;

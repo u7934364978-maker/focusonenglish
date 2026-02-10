@@ -81,6 +81,15 @@ export class UltraAdaptiveEngine {
     });
 
     if (eligible.length > 0) {
+      // Prioritize Premium V2 for A1 if available
+      if (currentLevel === 'A1') {
+        const premiumV2 = eligible.filter(i => (i as any).is_premium_v2);
+        if (premiumV2.length > 0) {
+          // 80% chance to pick from premium V2 to ensure variety but strong bias
+          if (Math.random() < 0.8) return this.pickRandom(premiumV2);
+        }
+      }
+
       // Avoid repeating exercises if possible (could implement a session history check here)
       // Filter for exact level match if forced
       const exactMatch = forcedLevel ? eligible.filter(i => i.level === forcedLevel) : eligible;

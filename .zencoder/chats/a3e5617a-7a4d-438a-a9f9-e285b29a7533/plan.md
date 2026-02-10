@@ -28,3 +28,5 @@
 - [x] Write E2E tests for new A1 interactions. (Skipped per user request to push)
 - [x] Final visual check of the A1 flow in `/practica-inteligente`.
 - [x] Run `npm run lint` and `npm run typecheck`. (Typecheck errors unrelated to this task remain)
+- [x] Reorganize A1 content to follow pedagogical guide strictly.
+- [x] Prioritize new A1 exercises in `UltraAdaptiveEngine`.
