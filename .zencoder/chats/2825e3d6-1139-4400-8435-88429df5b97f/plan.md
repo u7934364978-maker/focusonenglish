@@ -21,3 +21,4 @@
 - [x] Obtener aprobación para plan de pruebas E2E.
 - [x] Escribir y ejecutar prueba E2E para asegurar que los textos de reading se muestran.
 - [x] Ejecutar lint y validación de esquemas.
+- [x] Commitear y pushear cambios.
