@@ -19,45 +19,6 @@
       "title": "Vocabulary: Important Buildings",
       "content": [
         {
-          "interaction_id": "A1_U24_B1_I1",
-          "type": "matching",
-          "prompt_es": "Une los lugares con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Supermarket",
-              "right": "Supermercado"
-            },
-            {
-              "id": "p2",
-              "left": "Hospital",
-              "right": "Hospital"
-            },
-            {
-              "id": "p3",
-              "left": "Bank",
-              "right": "Banco"
-            },
-            {
-              "id": "p4",
-              "left": "Pharmacy",
-              "right": "Farmacia"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
           "interaction_id": "A1_U24_B1_I2",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde compras comida?",
