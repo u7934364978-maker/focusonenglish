@@ -54,7 +54,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['Juan', 'I', 'am', '.'],
-          correctOrder: [1, 2, 0, 3],
+          correctSentence: 'I am Juan .',
           translation: 'Yo soy Juan.',
           hint: 'Start with the pronoun "I".',
           points: 10
@@ -193,7 +193,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['afternoon', 'Good', '!'],
-          correctOrder: [1, 0, 2],
+          correctSentence: 'Good afternoon !',
           translation: 'Buenas tardes.',
           hint: 'The adjective "Good" comes first.',
           points: 10
@@ -332,7 +332,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['Maria', 'name', 'My', 'is', '.'],
-          correctOrder: [2, 1, 3, 0, 4],
+          correctSentence: 'My name is Maria .',
           translation: 'Mi nombre es Maria.',
           hint: 'Start with "My name".',
           points: 10
@@ -471,7 +471,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['are', 'How', 'you', '?'],
-          correctOrder: [1, 0, 2, 3],
+          correctSentence: 'How are you ?',
           translation: '¿Cómo estás?',
           hint: 'Question words like "How" come first.',
           points: 10
@@ -610,7 +610,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['tomorrow', 'you', 'See', '.'],
-          correctOrder: [2, 1, 0, 3],
+          correctSentence: 'See you tomorrow .',
           translation: 'Nos vemos mañana.',
           hint: '"See you" is a standard phrase.',
           points: 10
@@ -749,7 +749,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['nice', 'a', 'Have', 'day', '.'],
-          correctOrder: [2, 1, 0, 3, 4],
+          correctSentence: 'Have a nice day .',
           translation: 'Que tengas un buen día.',
           hint: 'Start with the verb "Have".',
           points: 10
@@ -888,7 +888,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 's1',
           words: ['Thanks', 'for', 'everything', '!'],
-          correctOrder: [0, 1, 2, 3],
+          correctSentence: 'Thanks for everything !',
           translation: 'Gracias por todo.',
           hint: 'The order is very similar to Spanish.',
           points: 10

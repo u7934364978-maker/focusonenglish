@@ -49,7 +49,9 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
 
   const targetSentence = currentSentenceData.correctSentence || 
                          currentSentenceData.sentence || 
-                         (currentSentenceData.correctOrder ? currentSentenceData.correctOrder.join(' ') : '');
+                         (currentSentenceData.correctOrder && currentSentenceData.words 
+                           ? currentSentenceData.correctOrder.map(idx => currentSentenceData.words![Number(idx)]).join(' ') 
+                           : '');
 
   const initializeSentence = () => {
     const data = currentSentenceData;
