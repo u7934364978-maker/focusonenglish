@@ -12,6 +12,7 @@ interface Props {
 }
 
 const LEARNING_PATHS = [
+  { id: 'A1', name: 'Nivel A1', icon: Sparkles, description: 'Ejercicios visuales y sencillos para principiantes.' },
   { id: 'generic', name: 'Inglés General', icon: Sparkles, description: 'Ruta adaptativa desde tu nivel actual.' },
   { id: 'B1', name: 'Nivel B1', icon: BookOpen, description: 'Contenido específico de nivel Intermediate.' },
   { id: 'B2', name: 'Nivel B2', icon: GraduationCap, description: 'Contenido específico de nivel Upper-Intermediate.' },
@@ -59,7 +60,7 @@ export default function PracticaInteligenteClient({ initialQueue }: Props) {
 
   const startSession = async (pathId: string) => {
     setIsStarting(true);
-    const isFixedLevel = ['B1', 'B2', 'C1', 'C2'].includes(pathId);
+    const isFixedLevel = ['A1', 'B1', 'B2', 'C1', 'C2'].includes(pathId);
     const levelToForce = isFixedLevel ? pathId : null;
     
     try {

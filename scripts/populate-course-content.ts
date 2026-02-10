@@ -102,20 +102,20 @@ function mapGeneratedToPremium(generated: any, level: string, unitId: string, bl
   const typeMap: Record<string, string> = {
     'multiple-choice': 'multiple_choice',
     'fill-blank': 'fill_blanks',
-    'word-formation': 'word_formation',
+    'word-formation': 'fill_blanks',
     'key-word-transformation': 'key_word_transformation',
-    'multiple-choice-cloze': 'cloze',
-    'open-cloze': 'cloze',
-    'reading-comprehension': 'reading_comprehension',
-    'gapped-text': 'cloze',
-    'multiple-matching': 'matching'
+    'multiple-choice-cloze': 'multiple_choice_cloze',
+    'open-cloze': 'fill_blanks',
+    'reading-comprehension': 'multiple_choice',
+    'gapped-text': 'gapped_text',
+    'multiple-matching': 'multiple_matching'
   };
 
   const type = typeMap[generated.type] || 'multiple_choice';
 
   if (content.questions && Array.isArray(content.questions)) {
     // If it's a type that uses a shared text with multiple gaps, group them
-    const isGroupedType = ['fill_blanks', 'cloze', 'word_formation', 'reading_comprehension'].includes(type);
+    const isGroupedType = ['fill_blanks', 'multiple_choice_cloze', 'gapped_text', 'word_formation'].includes(type);
 
     if (isGroupedType && content.questions.length > 1 && (content.text || (content.questions[0].question && content.questions[0].question.length > 20))) {
       const interactionId = `${level}_${unitId}_B${blockIndex}_I1`;
@@ -128,47 +128,64 @@ function mapGeneratedToPremium(generated: any, level: string, unitId: string, bl
 
       if (content.text) {
         interaction.main_text = content.text;
+      } else if (content.questions[0].question && content.questions[0].question.length > 50) {
+        // If the first question is very long, it might be the text
+        interaction.main_text = content.questions[0].question;
       } else if (content.questions[0].question) {
         // Build main_text from individual questions
         interaction.main_text = content.questions.map((q: any, idx: number) => {
           let qText = q.question;
-          if (qText.includes('___') && !qText.includes(`(${idx + 1})___`)) {
-            qText = qText.replace('___', `(${idx + 1})___`);
-          } else if (!qText.includes('___')) {
-            qText += ` (${idx + 1})___`;
+          const gapFormat = type === 'multiple_choice_cloze' ? `[GAP ${idx + 1}]` : `___`;
+          if (qText.includes('___') && !qText.includes(gapFormat)) {
+            qText = qText.replace('___', gapFormat);
+          } else if (!qText.includes(gapFormat) && !qText.includes('___')) {
+            qText += ` ${gapFormat}`;
           }
           return qText;
         }).join('\n\n');
       }
 
-      // Ensure the text has placeholders like (1)___ if it only has ___
-      if (interaction.main_text && (interaction.main_text.includes('___') || interaction.main_text.includes('__')) && !interaction.main_text.includes('(1)___')) {
-        let count = 1;
-        // Replace sequences of underscores (2 or more) with numbered gaps
-        interaction.main_text = interaction.main_text.replace(/_{2,}/g, () => `(${count++})___`);
-      } else if (interaction.main_text && !interaction.main_text.includes('___') && !interaction.main_text.includes('__') && content.questions && content.questions.every((q: any) => q.correctAnswer)) {
-        // If no gaps at all, but we have answers, try to find the answers in the text and replace them
-        let modifiedText = interaction.main_text;
-        content.questions.forEach((q: any, idx: number) => {
-          const ans = q.correctAnswer;
-          if (!ans) return;
-          const escapedAns = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          const regex = new RegExp(`\\b${escapedAns}\\b`, 'i');
-          if (regex.test(modifiedText)) {
-            modifiedText = modifiedText.replace(regex, `(${idx + 1})___`);
+      // Ensure the text has placeholders like [GAP 1] or ___
+      if (interaction.main_text) {
+        if (type === 'multiple_choice_cloze' || type === 'gapped_text') {
+          if (!interaction.main_text.includes('[GAP 1]')) {
+            let count = 1;
+            interaction.main_text = interaction.main_text.replace(/_{2,}/g, () => `[GAP ${count++}]`);
           }
-        });
-        interaction.main_text = modifiedText;
+        } else if (type === 'fill_blanks') {
+          // Keep ___ for fill_blanks as expected by PremiumSession.tsx
+          interaction.main_text = interaction.main_text.replace(/_{2,}/g, '___');
+          // For word-formation, we need to show the base words. We'll append them to main_text or prompt
+          if (generated.type === 'word-formation') {
+            const baseWords = content.questions.map((q: any, idx: number) => `(${idx + 1}) ${q.baseWord || q.rootWord || q.word}`).join(', ');
+            interaction.prompt_es += `\n\nBase words: ${baseWords}`;
+          }
+        }
       }
 
       // Final validation for grouped types: must have gaps
-      if (interaction.main_text && !interaction.main_text.includes('(1)___')) {
+      const hasCorrectGapFormat = type === 'multiple_choice_cloze' || type === 'gapped_text' 
+        ? interaction.main_text?.includes('[GAP 1]')
+        : interaction.main_text?.includes('___');
+
+      if (interaction.main_text && !hasCorrectGapFormat) {
         console.warn(`      Warning: Grouped interaction ${interactionId} missing gaps. Falling back to individual questions.`);
       } else {
-        interaction.correct_answer = content.questions.map((q: any) => q.correctAnswer);
-        if (type === 'word_formation') {
-          // Word formation needs the base words in order
-          interaction.example = content.questions.map((q: any) => q.baseWord || q.rootWord || q.word).filter(Boolean).join(', ');
+        if (type === 'multiple_choice_cloze') {
+          interaction.gaps = content.questions.map((q: any, idx: number) => ({
+            id: (idx + 1).toString(),
+            options: q.options.map((opt: string, i: number) => ({
+              id: `o${i + 1}`,
+              text: opt
+            }))
+          }));
+          interaction.correct_answer = content.questions.reduce((acc: any, q: any, idx: number) => {
+            const correctIdx = q.options.indexOf(q.correctAnswer);
+            acc[(idx + 1).toString()] = `o${correctIdx + 1}`;
+            return acc;
+          }, {});
+        } else {
+          interaction.correct_answer = content.questions.map((q: any) => q.correctAnswer);
         }
         
         // Combine explanations
@@ -192,8 +209,16 @@ function mapGeneratedToPremium(generated: any, level: string, unitId: string, bl
       };
 
       if (q.question) interaction.stimulus_en = q.question;
-      if (content.text && !interaction.stimulus_en) interaction.main_text = content.text;
-      if (content.text && interaction.stimulus_en) interaction.main_text = content.text;
+      
+      // MANDATORY TEXT for reading/cloze
+      const needsText = ['reading-comprehension', 'multiple-choice-cloze', 'open-cloze'].includes(generated.type);
+      if (content.text) {
+        interaction.stimulus_en = content.text + (q.question ? `\n\n${q.question}` : '');
+      } else if (needsText && !interaction.stimulus_en.includes('?') && interaction.stimulus_en.length > 100) {
+        // AI might have put the text in stimulus_en
+      } else if (needsText) {
+        console.warn(`      Warning: Exercise type ${generated.type} needs a text but none was provided.`);
+      }
 
       if (q.options) {
         interaction.options = q.options.map((opt: string, i: number) => ({
@@ -211,7 +236,10 @@ function mapGeneratedToPremium(generated: any, level: string, unitId: string, bl
         interaction.correct_answer = q.correctAnswer;
       }
 
-      if (q.baseWord) interaction.example = q.baseWord;
+      if (q.baseWord) {
+        interaction.example = q.baseWord;
+        interaction.prompt_es = `Form the correct word from '${q.baseWord}':`;
+      }
       if (q.keyWord) {
         interaction.stimulus_en = q.question;
         interaction.prompt_es = `Reescribe la frase usando la palabra clave '${q.keyWord}':`;

@@ -1,1 +1,350 @@
-{"course": {"language_ui": "es-ES", "target_language": "en", "level": "B2", "unit_id": "U27", "unit_title": "Unit 27", "total_duration_minutes": 600}, "learning_outcomes": [], "mastery_tags": [], "blocks": []}
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B2",
+    "unit_id": "U27",
+    "unit_title": "Unit 27",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [],
+  "mastery_tags": [],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Complex Texts and Arguments",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U27_B1_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:b2-complex-texts",
+          "explanation": "La mayoría de los científicos creen que las actividades humanas son las principales causas del cambio climático.",
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat are the primary causes of climate change according to most scientists?",
+          "correct_answer": "Human activities like burning fossil fuels and deforestation."
+        },
+        {
+          "interaction_id": "B2_U27_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:b2-complex-texts",
+          "explanation": "Los escépticos creen que el impacto humano no es tan grande y que hay variabilidad climática natural.",
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat do skeptics believe about climate change?",
+          "correct_answer": "They question the extent of human impact and cite natural variability."
+        },
+        {
+          "interaction_id": "B2_U27_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:b2-complex-texts",
+          "explanation": "El texto menciona que una consecuencia significativa de no abordar el cambio climático son los niveles del mar en aumento.",
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nAccording to the passage, what is a significant consequence of not addressing climate change?",
+          "correct_answer": "Rising sea levels."
+        },
+        {
+          "interaction_id": "B2_U27_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:b2-complex-texts",
+          "explanation": "La mayoría de los científicos climáticos enfatizan que los cambios actuales son sin precedentes y en gran parte impulsados por acciones humanas.",
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat do the majority of climate scientists emphasize about current climate changes?",
+          "correct_answer": "They are unprecedented and largely driven by human actions."
+        },
+        {
+          "interaction_id": "B2_U27_B1_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Read the passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:b2-complex-texts",
+          "explanation": "Los expertos sugieren soluciones como la cooperación internacional y las inversiones en energías renovables para combatir el cambio climático.",
+          "stimulus_en": "Climate change is one of the most pressing issues of our time, affecting ecosystems and human societies worldwide. Many scientists argue that human activities, particularly the burning of fossil fuels and deforestation, are the primary causes of the recent changes in our climate. These activities increase the concentration of greenhouse gases in the atmosphere, leading to global warming and extreme weather events. On the other hand, some skeptics question the extent of human impact, citing natural climate variability as a significant factor. They argue that the Earth has gone through cycles of warming and cooling long before industrialization. However, the majority of climate scientists emphasize that while natural cycles do occur, the current rapid changes are unprecedented and largely driven by human actions. To address climate change effectively, comprehensive international cooperation and innovative solutions, such as renewable energy investments, are essential. Without these efforts, the consequences could be dire, including rising sea levels, food insecurity, and widespread biodiversity loss.\n\nWhat solutions do experts suggest to combat climate change?",
+          "correct_answer": "International cooperation and renewable energy investments."
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Participle Clauses",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U27_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
+          "mastery_tag": "grammar:b2-participle-clauses",
+          "explanation": "La opción correcta es 'Although' porque indica una contrariedad entre el clima y la decisión de ir de excursión.",
+          "stimulus_en": "___ the weather was terrible, we decided to go for a hike.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Despite"
+            },
+            {
+              "id": "o2",
+              "text": "Because"
+            },
+            {
+              "id": "o3",
+              "text": "Although"
+            },
+            {
+              "id": "o4",
+              "text": "Since"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B2_U27_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
+          "mastery_tag": "grammar:b2-participle-clauses",
+          "explanation": "Aquí, 'encouraged' es un participio pasado que describe a los estudiantes en relación con la acción de ser motivados por el profesor.",
+          "stimulus_en": "The students, ___ by the teacher, completed their assignments.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "encouraged"
+            },
+            {
+              "id": "o2",
+              "text": "encouraging"
+            },
+            {
+              "id": "o3",
+              "text": "to encourage"
+            },
+            {
+              "id": "o4",
+              "text": "encourage"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U27_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
+          "mastery_tag": "grammar:b2-participle-clauses",
+          "explanation": "'Being' se usa en esta situación para señalar que la naturaleza del libro es fascinante.",
+          "stimulus_en": "The book, ___ fascinating, kept me awake all night.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "to be"
+            },
+            {
+              "id": "o2",
+              "text": "being"
+            },
+            {
+              "id": "o3",
+              "text": "been"
+            },
+            {
+              "id": "o4",
+              "text": "be"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U27_B2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
+          "mastery_tag": "grammar:b2-participle-clauses",
+          "explanation": "'Finished' aquí indica una acción completada antes de que él saliera a jugar.",
+          "stimulus_en": "Having finished his homework, he went out to play.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finishing"
+            },
+            {
+              "id": "o2",
+              "text": "Finished"
+            },
+            {
+              "id": "o3",
+              "text": "To finish"
+            },
+            {
+              "id": "o4",
+              "text": "Having finish"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U27_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete the sentences using participle clauses.",
+          "mastery_tag": "grammar:b2-participle-clauses",
+          "explanation": "'Having been' indica que ella había experimentado la acción de estar molestada antes de dejar la reunión.",
+          "stimulus_en": "___ upset by the news, she left the meeting early.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Being"
+            },
+            {
+              "id": "o2",
+              "text": "Having been"
+            },
+            {
+              "id": "o3",
+              "text": "To be"
+            },
+            {
+              "id": "o4",
+              "text": "Is being"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Reviews and Articles",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U27_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "Una revisión de artículo a menudo incluye la opinión personal del autor sobre el contenido revisado.",
+          "stimulus_en": "What is a key feature of an article review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Personal opinion"
+            },
+            {
+              "id": "o2",
+              "text": "Storytelling"
+            },
+            {
+              "id": "o3",
+              "text": "Data analysis"
+            },
+            {
+              "id": "o4",
+              "text": "Fiction"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U27_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "Las revisiones deben ser claras y centradas, evitando distracciones que no aporten al contenido.",
+          "stimulus_en": "Which element is NOT typically found in a review?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summary"
+            },
+            {
+              "id": "o2",
+              "text": "Personal experience"
+            },
+            {
+              "id": "o3",
+              "text": "Distraction"
+            },
+            {
+              "id": "o4",
+              "text": "Recommendation"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B2_U27_B3_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "Los artículos pueden tener múltiples propósitos, incluyendo entretener, persuadir e informar al lector.",
+          "stimulus_en": "What is a common purpose of writing articles?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To entertain"
+            },
+            {
+              "id": "o2",
+              "text": "To persuade"
+            },
+            {
+              "id": "o3",
+              "text": "To inform"
+            },
+            {
+              "id": "o4",
+              "text": "All of the above"
+            }
+          ],
+          "correct_answer": "o4"
+        },
+        {
+          "interaction_id": "B2_U27_B3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "En una reseña de producto, el enfoque principal debe estar en las características y el rendimiento del producto.",
+          "stimulus_en": "In a product review, what should the author primarily evaluate?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Author’s background"
+            },
+            {
+              "id": "o2",
+              "text": "Market trends"
+            },
+            {
+              "id": "o3",
+              "text": "Product features"
+            },
+            {
+              "id": "o4",
+              "text": "Personal thoughts"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B2_U27_B3_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to reviews and articles.",
+          "mastery_tag": "writing:b2-reviews-articles",
+          "explanation": "Los artículos formales suelen seguir un estilo académico que es más riguroso y objetivo.",
+          "stimulus_en": "What writing style is typically used for formal articles?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Casual"
+            },
+            {
+              "id": "o2",
+              "text": "Conversational"
+            },
+            {
+              "id": "o3",
+              "text": "Academic"
+            },
+            {
+              "id": "o4",
+              "text": "Humorous"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    }
+  ]
+}

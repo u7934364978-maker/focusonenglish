@@ -1,1 +1,320 @@
-{"course": {"language_ui": "es-ES", "target_language": "en", "level": "B2", "unit_id": "U23", "unit_title": "Unit 23", "total_duration_minutes": 600}, "learning_outcomes": [], "mastery_tags": [], "blocks": []}
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B2",
+    "unit_id": "U23",
+    "unit_title": "Unit 23",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [],
+  "mastery_tags": [],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Society and Social Issues",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U23_B1_I1",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Complete the sentences by choosing the correct option from the choices provided.",
+          "mastery_tag": "vocabulary:b2-society",
+          "explanation": "La palabra correcta es 'difficult' porque describe condiciones de vida que son complicadas o duras.",
+          "stimulus_en": "In today's world, many challenges challenge our society. Issues like poverty, education, and healthcare are critical for the community's well-being. The government plays a significant role in addressing these problems. However, the participation of citizens is also crucial in finding solutions. Communities must work together to create a more equitable environment where everyone has opportunities.\n\nMany people still live in ___ conditions despite advancements.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "luxury"
+            },
+            {
+              "id": "o2",
+              "text": "comfortable"
+            },
+            {
+              "id": "o3",
+              "text": "difficult"
+            },
+            {
+              "id": "o4",
+              "text": "rich"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B2_U23_B1_I2",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Complete the sentences by choosing the correct option from the choices provided.",
+          "mastery_tag": "vocabulary:b2-society",
+          "explanation": "La respuesta 'issues' es correcta porque la educación puede ayudar a resolver problemas sociales.",
+          "stimulus_en": "In today's world, many challenges challenge our society. Issues like poverty, education, and healthcare are critical for the community's well-being. The government plays a significant role in addressing these problems. However, the participation of citizens is also crucial in finding solutions. Communities must work together to create a more equitable environment where everyone has opportunities.\n\nEducation is a key factor in reducing social ___.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "issues"
+            },
+            {
+              "id": "o2",
+              "text": "benefits"
+            },
+            {
+              "id": "o3",
+              "text": "goods"
+            },
+            {
+              "id": "o4",
+              "text": "worries"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U23_B1_I3",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Complete the sentences by choosing the correct option from the choices provided.",
+          "mastery_tag": "vocabulary:b2-society",
+          "explanation": "La opción correcta es 'social' porque se refiere a la igualdad entre las personas en la comunidad.",
+          "stimulus_en": "In today's world, many challenges challenge our society. Issues like poverty, education, and healthcare are critical for the community's well-being. The government plays a significant role in addressing these problems. However, the participation of citizens is also crucial in finding solutions. Communities must work together to create a more equitable environment where everyone has opportunities.\n\nThe local government should support policies that promote ___ equality.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "social"
+            },
+            {
+              "id": "o2",
+              "text": "economic"
+            },
+            {
+              "id": "o3",
+              "text": "environmental"
+            },
+            {
+              "id": "o4",
+              "text": "political"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U23_B1_I4",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Complete the sentences by choosing the correct option from the choices provided.",
+          "mastery_tag": "vocabulary:b2-society",
+          "explanation": "La respuesta 'participation' es correcta porque la colaboración es esencial para encontrar soluciones.",
+          "stimulus_en": "In today's world, many challenges challenge our society. Issues like poverty, education, and healthcare are critical for the community's well-being. The government plays a significant role in addressing these problems. However, the participation of citizens is also crucial in finding solutions. Communities must work together to create a more equitable environment where everyone has opportunities.\n\nEffective solutions to social problems require ___ from the entire community.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "participation"
+            },
+            {
+              "id": "o2",
+              "text": "avoidance"
+            },
+            {
+              "id": "o3",
+              "text": "detachment"
+            },
+            {
+              "id": "o4",
+              "text": "resistance"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U23_B1_I5",
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Complete the sentences by choosing the correct option from the choices provided.",
+          "mastery_tag": "vocabulary:b2-society",
+          "explanation": "La opción correcta es 'social' porque se refiere a cambios que afectan la comunidad y su bienestar.",
+          "stimulus_en": "In today's world, many challenges challenge our society. Issues like poverty, education, and healthcare are critical for the community's well-being. The government plays a significant role in addressing these problems. However, the participation of citizens is also crucial in finding solutions. Communities must work together to create a more equitable environment where everyone has opportunities.\n\nMany citizens are now advocating for ___ change to improve their neighborhoods.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "political"
+            },
+            {
+              "id": "o2",
+              "text": "climate"
+            },
+            {
+              "id": "o3",
+              "text": "social"
+            },
+            {
+              "id": "o4",
+              "text": "economic"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Lectures and Presentations",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U23_B2_I1",
+          "type": "fill_blanks",
+          "prompt_es": "Complete the sentences with the correct words related to lectures and presentations.",
+          "mastery_tag": "listening:b2-lectures",
+          "main_text": "When attending a lecture, it is important to take (1)___ to help remember key points. (2)___ are often used to illustrate concepts and engage the audience. The lecturer usually provides a (3)___ at the beginning to outline the main ideas. Effective (4)___ can greatly enhance the delivery of a presentation. Lastly, during the Q&A session, students should feel free to (5)___ any unclear points.",
+          "correct_answer": [
+            "notes",
+            "visuals",
+            "overview",
+            "communication",
+            "ask"
+          ],
+          "explanation": "(1) Es importante tomar notas durante una conferencia para recordar los puntos clave.\n(2) Los recursos visuales son útiles para ilustrar conceptos durante las presentaciones.\n(3) Una visión general ayuda a los estudiantes a entender qué esperar de la conferencia.\n(4) La comunicación efectiva es crucial para transmitir ideas claramente.\n(5) Es importante que los estudiantes hagan preguntas para aclarar dudas."
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Mixed Conditionals",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B2_U23_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Esta oración muestra una condición en el pasado que no se cumplió y su resultado en el pasado.",
+          "stimulus_en": "If she had studied harder, she ___ the exam.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would pass"
+            },
+            {
+              "id": "o2",
+              "text": "would have passed"
+            },
+            {
+              "id": "o3",
+              "text": "would be passing"
+            },
+            {
+              "id": "o4",
+              "text": "passed"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U23_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Este es un ejemplo de un futuro condicional basado en una condición presente.",
+          "stimulus_en": "If we arrive early, we ___ a good spot for the concert.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would find"
+            },
+            {
+              "id": "o2",
+              "text": "will find"
+            },
+            {
+              "id": "o3",
+              "text": "would have found"
+            },
+            {
+              "id": "o4",
+              "text": "found"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U23_B3_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Se refiere a una situación real en el presente que tiene un impacto en el futuro.",
+          "stimulus_en": "If he were more organized, he ___ his deadlines.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would meet"
+            },
+            {
+              "id": "o2",
+              "text": "would have met"
+            },
+            {
+              "id": "o3",
+              "text": "will meet"
+            },
+            {
+              "id": "o4",
+              "text": "met"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B2_U23_B3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Esto indica que una acción pasada afecta a una situación pasada.",
+          "stimulus_en": "If they had taken the earlier flight, they ___ in time for dinner.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would be"
+            },
+            {
+              "id": "o2",
+              "text": "would have been"
+            },
+            {
+              "id": "o3",
+              "text": "will be"
+            },
+            {
+              "id": "o4",
+              "text": "were"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B2_U23_B3_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each mixed conditional sentence.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Esta oración describe una situación hipotética en el presente que implica una acción futura.",
+          "stimulus_en": "If I knew his address, I ___ him a letter.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "will send"
+            },
+            {
+              "id": "o2",
+              "text": "would send"
+            },
+            {
+              "id": "o3",
+              "text": "would have sent"
+            },
+            {
+              "id": "o4",
+              "text": "have sent"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    }
+  ]
+}

@@ -2017,6 +2017,21 @@ export default function PremiumCourseSession({
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+            
+            {interaction.image_url && (
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="flex justify-center mb-8"
+              >
+                <img 
+                  src={interaction.image_url} 
+                  alt="Context" 
+                  className="max-w-full h-auto rounded-[2rem] shadow-xl border-4 border-white max-h-[300px] object-cover"
+                />
+              </motion.div>
+            )}
+
             {interaction.stimulus_en && (
                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[60vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />

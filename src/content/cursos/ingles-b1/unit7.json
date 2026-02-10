@@ -1,1 +1,230 @@
-{"course": {"language_ui": "es-ES", "target_language": "en", "level": "B1", "unit_id": "U7", "unit_title": "Unit 7", "total_duration_minutes": 600}, "learning_outcomes": [], "mastery_tags": [], "blocks": []}
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U7",
+    "unit_title": "Unit 7",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [],
+  "mastery_tags": [],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Environment and Nature",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B1_U7_B1_I1",
+          "type": "fill_blanks",
+          "prompt_es": "Fill in the blanks with the correct form of the word in parentheses.\n\nBase words: (1) POLLUTE, (2) SOLVE, (3) RECYCLE, (4) CONSERVE, (5) FUTURE",
+          "mastery_tag": "vocabulary:b1-environment",
+          "main_text": "The problem of (1)___ (pollute) is very serious. Many people are working on (2)___ (solve) this issue. One solution is to promote (3)___ (recycle) in our communities. It's important for children to learn about (4)___ (conserve) nature and the environment. We must act now to ensure a better (5)___ (future) for the planet.",
+          "correct_answer": [
+            "POLLUTION",
+            "SOLUTION",
+            "RECYCLING",
+            "CONSERVATION",
+            "FUTURITY"
+          ],
+          "explanation": "(1) La palabra 'pollution' es el sustantivo que se forma a partir del verbo 'pollute'.\n(2) La palabra 'solution' es el sustantivo que se deriva del verbo 'solve'.\n(3) La palabra 'recycling' es el gerundio que se forma a partir del verbo 'recycle'.\n(4) La palabra 'conservation' es el sustantivo relacionado con el verbo 'conserve'.\n(5) La palabra 'futurity' se refiere a la condición o tiempo del futuro, aunque es menos común."
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Education and Learning",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B1_U7_B2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to education and learning.",
+          "mastery_tag": "vocabulary:b1-education",
+          "explanation": "Un 'profesor' es la persona que enseña en una universidad, mientras que un 'estudiante' es quien aprende.",
+          "stimulus_en": "What do you call a person who teaches at a university?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Professor"
+            },
+            {
+              "id": "o2",
+              "text": "Student"
+            },
+            {
+              "id": "o3",
+              "text": "Principal"
+            },
+            {
+              "id": "o4",
+              "text": "Teacher"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B1_U7_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to education and learning.",
+          "mastery_tag": "vocabulary:b1-education",
+          "explanation": "El currículo es un documento que presenta y organiza los cursos y contenidos educativos.",
+          "stimulus_en": "What is the main purpose of a curriculum?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "To assess students"
+            },
+            {
+              "id": "o2",
+              "text": "To outline courses"
+            },
+            {
+              "id": "o3",
+              "text": "To recruit teachers"
+            },
+            {
+              "id": "o4",
+              "text": "To manage finances"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "B1_U7_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to education and learning.",
+          "mastery_tag": "vocabulary:b1-education",
+          "explanation": "Un 'examen' es una evaluación común al final de un curso para medir lo que se ha aprendido.",
+          "stimulus_en": "What is a common assessment given at the end of a course?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Project"
+            },
+            {
+              "id": "o2",
+              "text": "Presentation"
+            },
+            {
+              "id": "o3",
+              "text": "Exam"
+            },
+            {
+              "id": "o4",
+              "text": "Assignment"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "B1_U7_B2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to education and learning.",
+          "mastery_tag": "vocabulary:b1-education",
+          "explanation": "Los estudiantes 'estudian' para prepararse para un examen y así obtener buenos resultados.",
+          "stimulus_en": "What do students do to prepare for an exam?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Study"
+            },
+            {
+              "id": "o2",
+              "text": "Sleep"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
+            },
+            {
+              "id": "o4",
+              "text": "Watch TV"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "B1_U7_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question related to education and learning.",
+          "mastery_tag": "vocabulary:b1-education",
+          "explanation": "Una ventaja del aprendizaje en línea es la 'flexibilidad' en horarios y lugares de estudio.",
+          "stimulus_en": "What is an advantage of online learning?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "More distractions"
+            },
+            {
+              "id": "o2",
+              "text": "Flexibility"
+            },
+            {
+              "id": "o3",
+              "text": "Less interaction"
+            },
+            {
+              "id": "o4",
+              "text": "Higher costs"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Articles and Reviews",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "B1_U7_B3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following article and answer the questions below.",
+          "mastery_tag": "reading:b1-articles-reviews",
+          "explanation": "La respuesta está en la descripción del café, donde se menciona que ofrecen diferentes tipos de bebidas y pasteles.",
+          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat type of food does Café Delight offer?",
+          "correct_answer": "Drinks and pastries"
+        },
+        {
+          "interaction_id": "B1_U7_B3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following article and answer the questions below.",
+          "mastery_tag": "reading:b1-articles-reviews",
+          "explanation": "Los clientes gustan del ambiente acogedor y el personal amable, según el artículo.",
+          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhy do customers like the café?",
+          "correct_answer": "Cozy atmosphere and friendly staff"
+        },
+        {
+          "interaction_id": "B1_U7_B3_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following article and answer the questions below.",
+          "mastery_tag": "reading:b1-articles-reviews",
+          "explanation": "El Wi-Fi gratis es una ventaja que atrae a estudiantes y trabajadores al café.",
+          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat is one advantage of going to Café Delight?",
+          "correct_answer": "Free Wi-Fi"
+        },
+        {
+          "interaction_id": "B1_U7_B3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following article and answer the questions below.",
+          "mastery_tag": "reading:b1-articles-reviews",
+          "explanation": "Algunos clientes notaron que hay pocos asientos, especialmente en horas ocupadas.",
+          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat issue did some customers mention?",
+          "correct_answer": "Limited seating"
+        },
+        {
+          "interaction_id": "B1_U7_B3_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following article and answer the questions below.",
+          "mastery_tag": "reading:b1-articles-reviews",
+          "explanation": "La comunidad ha respondido positivamente y el café se ha vuelto muy popular entre los locales y visitantes.",
+          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nHow has the community responded to the new café?",
+          "correct_answer": "It has become very popular."
+        }
+      ]
+    }
+  ]
+}

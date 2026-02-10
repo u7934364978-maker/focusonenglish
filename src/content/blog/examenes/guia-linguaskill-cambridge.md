@@ -102,7 +102,7 @@ En **Focus English**, hemos diseñado un curso intensivo de 2 semanas que te pre
 
 Al ser un examen por ordenador, la mejor forma de prepararlo es mediante herramientas digitales. En **Focus English**, hemos desarrollado módulos específicos que imitan la interfaz y el tipo de tareas de Linguaskill.
 
-*   **Practica el Speaking**: Pierde el miedo a hablarle al ordenador con nuestro tutor de IA.
+*   **Practica el Speaking**: Pierde el miedo a hablarle al ordenador con nuestro plataforma de ejercicios.
 *   **Mejora tu Writing**: Recibe correcciones instantáneas sobre la estructura y el vocabulario de tus ensayos.
 *   **Simulacros adaptativos**: Entrena con ejercicios que suben de nivel conforme mejoras.
 

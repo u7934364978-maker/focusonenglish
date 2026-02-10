@@ -3,7 +3,7 @@ category: "metodos"
 date: "2026-02-07"
 author: "Focus English"
 title: "Curso de Inglés A1 para Principiantes: Aprende desde Cero"
-description: "Empieza a aprender inglés desde cero hoy mismo. Curso de nivel A1 para principiantes absolutos con lecciones interactivas, tutor de IA y certificación oficial."
+description: "Empieza a aprender inglés desde cero hoy mismo. Curso de nivel A1 para principiantes absolutos con lecciones interactivas, plataforma de ejercicios y certificación oficial."
 keywords: ["curso inglés a1", "aprender inglés desde cero", "inglés para principiantes", "nivel a1 inglés", "gramática básica inglés", "inglés básico online", "ingles a1 vs a2", "nivel ingles a1", "nivel ingles a2", "diferencia a1 y a2 ingles", "como pasar de nivel ingles", "cuanto se tarda en aprender ingles", "tiempo para aprender ingles", "niveles ingles mcer", "aprender ingles rapido", "horas para aprender ingles", "mejorar ingles"]
 canonical: "https://www.focus-on-english.com/blog/metodos/ingles-a1"
 related_routes: ["ingles-a2", "aprender-ingles", "gramatica-ingles-b1-guia"]

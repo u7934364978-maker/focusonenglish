@@ -21,227 +21,252 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Rhetorical Skills",
+      "title": "Critical Textual Analysis",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C2_U1_B1_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Fill in the blanks with the appropriate words related to rhetorical skills.",
-          "mastery_tag": "speaking:c2-rhetorical-skills",
-          "main_text": "Effective (1)_____ often involves an appeal to the audience's emotions.\n\nOne key strategy in persuasion is to use (2)_____ to strengthen your argument.\n\nAn effective speaker must also know how to use (3)_____ to engage the audience.\n\nUtilizing (4)_____ effectively can make your speech more memorable.\n\nIn a debate, it's essential to anticipate and address (5)_____ from the opposing side.",
-          "correct_answer": [
-            "rhetoric",
-            "evidence",
-            "rhetorical questions",
-            "repetition",
-            "counterarguments"
-          ],
-          "explanation": "(1) La retórica efectiva apela a las emociones del público.\n(2) La evidencia es crucial para validar y robustecer un argumento persuasivo.\n(3) Las preguntas retóricas son herramientas poderosas para captar la atención del público.\n(4) La repetición ayuda a que las ideas clave se queden en la mente del oyente.\n(5) Abordar los contraargumentos muestra que estás bien preparado y puedes defender tu postura."
+          "type": "multiple_choice",
+          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:c2-critical-analysis",
+          "explanation": "La respuesta se encuentra directamente en el pasaje que menciona la importancia de analizar argumentos y elecciones estilísticas en la escritura profesional.",
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat is the primary focus of critical analysis in professional writing?",
+          "correct_answer": "To analyze arguments and stylistic choices"
+        },
+        {
+          "interaction_id": "C2_U1_B1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:c2-critical-analysis",
+          "explanation": "El texto sugiere que al abordar contraargumentos, el autor mejora la credibilidad de su argumento, lo que es esencial en la escritura profesional.",
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nAccording to the text, why is addressing counterarguments important?",
+          "correct_answer": "It enhances the credibility of the author's argument."
+        },
+        {
+          "interaction_id": "C2_U1_B1_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:c2-critical-analysis",
+          "explanation": "El pasaje indica que el contexto, como factores culturales o económicos, es crucial para interpretar un texto y entender los sesgos.",
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat role does context play in the interpretation of a text?",
+          "correct_answer": "It helps in understanding biases and influences."
+        },
+        {
+          "interaction_id": "C2_U1_B1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:c2-critical-analysis",
+          "explanation": "Se menciona en el texto que el análisis crítico no solo mejora la comprensión, sino que también facilita discusiones informadas y toma de decisiones.",
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nHow does critical analysis contribute to professional discussions?",
+          "correct_answer": "It fosters informed discussions and decision-making."
+        },
+        {
+          "interaction_id": "C2_U1_B1_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Read the following passage carefully and answer the questions that follow.",
+          "mastery_tag": "reading:c2-critical-analysis",
+          "explanation": "El texto resalta la importancia de desarrollar habilidades analíticas para manejar textos complejos y comunicarse de manera efectiva.",
+          "stimulus_en": "In contemporary professional writing, the ability to critically analyze arguments is paramount. This involves a deconstruction of the author's intent, the underlying assumptions, and the stylistic choices that contribute to the overall message. For instance, an article advocating for remote work must not only present statistics and testimonials but also address potential counterarguments regarding productivity and collaboration. By examining language use, tone, and structure, one can uncover biases that may influence the reader's perception. Furthermore, understanding the context—such as cultural or economic factors—plays a vital role in interpretation. Effective critical analysis not only enhances comprehension but also fosters informed discussions and decision-making in professional environments. Therefore, developing these analytical skills is essential for any professional aiming to navigate complex texts and communicate effectively.\n\nWhat skills are emphasized as essential for professionals in the passage?",
+          "correct_answer": "Analytical skills for navigating complex texts."
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Stylistic Variation",
+      "title": "Archaisms and Formalities",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C2_U1_B2_I1",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'EMPHASIS':",
-          "mastery_tag": "grammar:c2-stylistic-variation",
-          "explanation": "Usar 'not only... but also' proporciona énfasis en la celebración.",
-          "stimulus_en": "The proposal was not just accepted; it was celebrated.\n\nNot only was the proposal accepted, but it was... ...",
-          "correct_answer": "also celebrated.",
-          "example": "EMPHASIS"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer that best fits the context of the sentences related to archaisms and formalities.",
+          "mastery_tag": "grammar:c2-archaisms",
+          "explanation": "La respuesta correcta es 'formal' porque el contexto se refiere a un documento legal que sigue tradiciones antiguas, lo que indica un tono serio y estructurado.",
+          "stimulus_en": "The legal document was written in a(n) ___ manner, consistent with ancient traditions.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "casual"
+            },
+            {
+              "id": "o2",
+              "text": "informal"
+            },
+            {
+              "id": "o3",
+              "text": "formal"
+            },
+            {
+              "id": "o4",
+              "text": "slang"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "C2_U1_B2_I2",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'STYLE':",
-          "mastery_tag": "grammar:c2-stylistic-variation",
-          "explanation": "El uso de 'impeccable style' sugiere un nivel de elegancia en su ejecución.",
-          "stimulus_en": "He completed the project perfectly.\n\nThe project was executed... ...",
-          "correct_answer": "with impeccable style.",
-          "example": "STYLE"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer that best fits the context of the sentences related to archaisms and formalities.",
+          "mastery_tag": "grammar:c2-archaisms",
+          "explanation": "Se espera que la respuesta sea 'archaic' porque se refiere a frases que pertenecen a un uso de lenguaje antiguo, característico de la literatura clásica.",
+          "stimulus_en": "His speech included several ___ phrases that were reminiscent of classical literature.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "contemporary"
+            },
+            {
+              "id": "o2",
+              "text": "archaic"
+            },
+            {
+              "id": "o3",
+              "text": "modern"
+            },
+            {
+              "id": "o4",
+              "text": "colloquial"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "C2_U1_B2_I3",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'RHETORIC':",
-          "mastery_tag": "grammar:c2-stylistic-variation",
-          "explanation": "La palabra 'compelling' sugiere fuerza persuasiva en el argumento.",
-          "stimulus_en": "Her argument was strong.\n\nHer rhetoric was notably... ...",
-          "correct_answer": "compelling.",
-          "example": "RHETORIC"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer that best fits the context of the sentences related to archaisms and formalities.",
+          "mastery_tag": "grammar:c2-archaisms",
+          "explanation": "La opción adecuada es 'obsolete' ya que 'thou' es una forma de segunda persona del singular que ya no se usa en el inglés contemporáneo.",
+          "stimulus_en": "The term 'thou' is often considered ___ in modern English usage.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "obsolete"
+            },
+            {
+              "id": "o2",
+              "text": "common"
+            },
+            {
+              "id": "o3",
+              "text": "frequent"
+            },
+            {
+              "id": "o4",
+              "text": "relevant"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "C2_U1_B2_I4",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'TONE':",
-          "mastery_tag": "grammar:c2-stylistic-variation",
-          "explanation": "El uso de 'exceedingly impressive' enfatiza la magnitud de los resultados.",
-          "stimulus_en": "The team achieved outstanding results.\n\nThe tone of the team's results was exceedingly... ...",
-          "correct_answer": "impressive.",
-          "example": "TONE"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer that best fits the context of the sentences related to archaisms and formalities.",
+          "mastery_tag": "grammar:c2-archaisms",
+          "explanation": "La respuesta correcta es 'pretentious' porque un tono pretencioso es a menudo utilizado en contextos formales para proyectar un sentido de superioridad o importancia.",
+          "stimulus_en": "In the courtroom, the lawyer spoke with a(n) ___ tone to assert his authority.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "insistent"
+            },
+            {
+              "id": "o2",
+              "text": "casual"
+            },
+            {
+              "id": "o3",
+              "text": "pretentious"
+            },
+            {
+              "id": "o4",
+              "text": "emphatic"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "C2_U1_B2_I5",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'APPRECIATION':",
-          "mastery_tag": "grammar:c2-stylistic-variation",
-          "explanation": "El término 'profound appreciation' sugiere una respuesta emocional más profunda.",
-          "stimulus_en": "The artist's work was appreciated.\n\nThere was a profound appreciation for the artist's... ...",
-          "correct_answer": "work.",
-          "example": "APPRECIATION"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer that best fits the context of the sentences related to archaisms and formalities.",
+          "mastery_tag": "grammar:c2-archaisms",
+          "explanation": "La opción 'archaic' es la mejor respuesta porque los poetas a menudo utilizan estructuras arcaicas para añadir profundidad emocional y un aire de nostalgia a su trabajo.",
+          "stimulus_en": "Many poets prefer to use ___ structures to evoke a sense of nostalgia.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "modern"
+            },
+            {
+              "id": "o2",
+              "text": "archaic"
+            },
+            {
+              "id": "o3",
+              "text": "simple"
+            },
+            {
+              "id": "o4",
+              "text": "direct"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "All Audio Types",
+      "title": "Stylistic Variation",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C2_U1_B3_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on your understanding of the audio content.",
-          "mastery_tag": "listening:c2-any-audio",
-          "explanation": "Speaker B's clear articulation makes it easier to understand the content being discussed.",
-          "stimulus_en": "Which speaker presents information with the clearest articulation?",
-          "main_text": "You will listen to a series of audio clips featuring different speakers with various accents discussing complex topics. Pay close attention to the nuances in language, tone, and context.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Speaker A"
-            },
-            {
-              "id": "o2",
-              "text": "Speaker B"
-            },
-            {
-              "id": "o3",
-              "text": "Speaker C"
-            },
-            {
-              "id": "o4",
-              "text": "Speaker D"
-            }
-          ],
-          "correct_answer": "o2"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'POWERFUL':",
+          "mastery_tag": "grammar:c2-stylistic-variation",
+          "explanation": "Aquí se busca una palabra que enfatiza la fuerza del impacto del informe.",
+          "stimulus_en": "The report was incredibly insightful, leaving a strong impact on the audience. (POWERFUL)\n\nThe report had a powerful... ...",
+          "correct_answer": "impact on the audience.",
+          "example": "POWERFUL"
         },
         {
           "interaction_id": "C2_U1_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on your understanding of the audio content.",
-          "mastery_tag": "listening:c2-any-audio",
-          "explanation": "The Scottish accent contains unique phonetic features that can be challenging for non-native speakers to grasp.",
-          "stimulus_en": "Which accent is most difficult to comprehend for non-native speakers?",
-          "main_text": "You will listen to a series of audio clips featuring different speakers with various accents discussing complex topics. Pay close attention to the nuances in language, tone, and context.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Australian"
-            },
-            {
-              "id": "o2",
-              "text": "British"
-            },
-            {
-              "id": "o3",
-              "text": "American"
-            },
-            {
-              "id": "o4",
-              "text": "Scottish"
-            }
-          ],
-          "correct_answer": "o4"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'DEGREE':",
+          "mastery_tag": "grammar:c2-stylistic-variation",
+          "explanation": "El enunciado requiere resaltar el grado de civilidad a pesar del debate.",
+          "stimulus_en": "Despite the contentious debate, they managed to remain civil. (DEGREE)\n\nThey managed to remain civil to a great... ...",
+          "correct_answer": "degree despite the contentious debate.",
+          "example": "DEGREE"
         },
         {
           "interaction_id": "C2_U1_B3_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on your understanding of the audio content.",
-          "mastery_tag": "listening:c2-any-audio",
-          "explanation": "The clips focus on various cultural aspects and how they affect communication styles.",
-          "stimulus_en": "What is the main topic discussed in the audio clips?",
-          "main_text": "You will listen to a series of audio clips featuring different speakers with various accents discussing complex topics. Pay close attention to the nuances in language, tone, and context.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cultural differences"
-            },
-            {
-              "id": "o2",
-              "text": "Climate change"
-            },
-            {
-              "id": "o3",
-              "text": "Technological advances"
-            },
-            {
-              "id": "o4",
-              "text": "Health issues"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'CONVINCING':",
+          "mastery_tag": "grammar:c2-stylistic-variation",
+          "explanation": "La transformación destaca el carácter convincente del argumento.",
+          "stimulus_en": "Her argument was so compelling that no one could disagree. (CONVINCING)\n\nHer argument was so convincing that... ...",
+          "correct_answer": "no one could disagree.",
+          "example": "CONVINCING"
         },
         {
           "interaction_id": "C2_U1_B3_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on your understanding of the audio content.",
-          "mastery_tag": "listening:c2-any-audio",
-          "explanation": "Speaker A employs advanced vocabulary to articulate nuanced points effectively.",
-          "stimulus_en": "Which speaker uses the most complex vocabulary?",
-          "main_text": "You will listen to a series of audio clips featuring different speakers with various accents discussing complex topics. Pay close attention to the nuances in language, tone, and context.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Speaker A"
-            },
-            {
-              "id": "o2",
-              "text": "Speaker B"
-            },
-            {
-              "id": "o3",
-              "text": "Speaker C"
-            },
-            {
-              "id": "o4",
-              "text": "Speaker D"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'CAPTIVATING':",
+          "mastery_tag": "grammar:c2-stylistic-variation",
+          "explanation": "Aquí se combina la elocuencia con el efecto cautivador.",
+          "stimulus_en": "The speaker's eloquence captivated everyone in the room. (CAPTIVATING)\n\nThe speaker's captivating eloquence... ...",
+          "correct_answer": "captivated everyone in the room.",
+          "example": "CAPTIVATING"
         },
         {
           "interaction_id": "C2_U1_B3_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question based on your understanding of the audio content.",
-          "mastery_tag": "listening:c2-any-audio",
-          "explanation": "Tonal variation can convey emotions and subtleties that enrich the spoken message.",
-          "stimulus_en": "How does tonal variation affect the understanding of the speakers?",
-          "main_text": "You will listen to a series of audio clips featuring different speakers with various accents discussing complex topics. Pay close attention to the nuances in language, tone, and context.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It improves clarity"
-            },
-            {
-              "id": "o2",
-              "text": "It adds emotional depth"
-            },
-            {
-              "id": "o3",
-              "text": "It complicates the message"
-            },
-            {
-              "id": "o4",
-              "text": "It has no effect"
-            }
-          ],
-          "correct_answer": "o2"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'CLEAR':",
+          "mastery_tag": "grammar:c2-stylistic-variation",
+          "explanation": "Este enunciado busca utilizar el adjetivo claro para describir la forma de transmitir el mensaje.",
+          "stimulus_en": "She conveyed her message with remarkable clarity and precision. (CLEAR)\n\nShe conveyed her message in a clear... ...",
+          "correct_answer": "and precise manner.",
+          "example": "CLEAR"
         }
       ]
     }

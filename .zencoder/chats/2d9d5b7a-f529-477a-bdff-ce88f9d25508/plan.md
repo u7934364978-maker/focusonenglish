@@ -14,18 +14,18 @@
 - [x] Verify script with a single unit (e.g., B1 Unit 1).
 
 ## Phase 2 & 3: Generation (B1-C2)
-- [/] Populate B1 levels (Units 1-60) - In progress (Current: Unit 4)
-- [/] Populate B2 levels (Units 1-30) - In progress (Current: Unit 2)
-- [/] Populate C1 levels (Units 1-10) - In progress (Current: Unit 3)
-- [/] Populate C2 levels (Units 1-5) - In progress (Current: Unit 2)
+- [/] Populate B1 levels (Units 1-60) - In progress (Current: Unit 5)
+- [x] Populate B2 levels (Units 1-30) - Completed
+- [x] Populate C1 levels (Units 1-10) - Completed
+- [x] Populate C2 levels (Units 1-5) - Completed
 - [ ] Run `npm run validate-exercises` for all levels.
 
-## Status Update (Feb 9, 2026 - 21:36)
-- **Hardening AI Generation**:
-    - Updated `src/lib/ai/generator-v2.ts` to MANDATE sentences/text for `word-formation`, `fill-blank`, and `cloze`.
-    - Improved `populate-course-content.ts` mapping logic to correctly handle multi-underscore gaps (`/_{2,}/g`).
-    - Added verification for grouped interactions to ensure they actually contain gaps.
-- **Current Action**: Restarted all parallel processes from the first modified unit of each level to ensure high-quality content.
+## Status Update (Feb 10, 2026 - 10:20)
+- **Progress**: 
+    - C1, C2, and B2 levels are fully populated.
+    - B1 is currently being processed (Units 5-60 remaining).
+- **Current Action**: Resuming generation for B1 (Unit 5 onwards).
+- **Hardening**: Ensuring pedagogical quality and correct formatting for all levels.
 
 ## Phase 4: Final Validation
 - [ ] Final audit of all generated content.

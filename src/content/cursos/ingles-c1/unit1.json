@@ -21,56 +21,329 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Abstract and Conceptual Texts",
+      "title": "Ellipsis and Substitution",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C1_U1_B1_I1",
-          "type": "cloze",
-          "prompt_es": "Choose the correct answer to complete each conditional sentence.",
-          "mastery_tag": "vocabulary:c1-abstract-texts",
-          "main_text": "If I (1)_____ harder last year, I would have better job opportunities now.\n\nShe would be fluent in English now if she (2)_____ speaking it at home.",
-          "correct_answer": [
-            "B",
-            "B"
-          ],
-          "explanation": "(1) Condicional mixto (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente.\n(2) Acción pasada (had practiced) con efecto en el presente (would be)."
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'SISTER':",
+          "mastery_tag": "grammar:c1-ellipsis",
+          "explanation": "El uso de 'too' muestra la elipsis de la parte repetida de la oración.",
+          "stimulus_en": "She enjoys gardening, and so does her sister.\n\nHer sister enjoys gardening too. ...",
+          "correct_answer": "Her sister enjoys gardening too.",
+          "example": "SISTER"
+        },
+        {
+          "interaction_id": "C1_U1_B1_I2",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'I':",
+          "mastery_tag": "grammar:c1-ellipsis",
+          "explanation": "Se omite la repetición del sujeto y el verbo en la nueva oración.",
+          "stimulus_en": "John can play the piano, and I can play the piano as well.\n\nI can play the piano too. ...",
+          "correct_answer": "I can play the piano too.",
+          "example": "I"
+        },
+        {
+          "interaction_id": "C1_U1_B1_I3",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'SARAH':",
+          "mastery_tag": "grammar:c1-ellipsis",
+          "explanation": "Se omite la répétition de 'to the conference' usando 'as well'.",
+          "stimulus_en": "Michael is going to the conference; Sarah is going to the conference too.\n\nSarah is going as well. ...",
+          "correct_answer": "Sarah is going as well.",
+          "example": "SARAH"
+        },
+        {
+          "interaction_id": "C1_U1_B1_I4",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'SISTER':",
+          "mastery_tag": "grammar:c1-ellipsis",
+          "explanation": "Se omite la repetición de 'coffee' usando 'it'.",
+          "stimulus_en": "I don't like coffee. My sister does not like coffee either.\n\nMy sister doesn't like it either. ...",
+          "correct_answer": "My sister doesn't like it either.",
+          "example": "SISTER"
+        },
+        {
+          "interaction_id": "C1_U1_B1_I5",
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'TEAM':",
+          "mastery_tag": "grammar:c1-ellipsis",
+          "explanation": "Se utiliza 'did so' para sustituir la frase previa, mostrando elipsis.",
+          "stimulus_en": "The manager approved the proposal, and the team approved the proposal.\n\nThe team did so. ...",
+          "correct_answer": "The team did so.",
+          "example": "TEAM"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Nuanced Expressions",
+      "title": "Fluent Interaction",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C1_U1_B2_I1",
-          "type": "word_formation",
-          "prompt_es": "Choose the correct answer to complete each conditional sentence.",
-          "mastery_tag": "vocabulary:c1-nuanced",
-          "main_text": "If I (1)_____ harder last year, I would have better job opportunities now.\n\nShe would be fluent in English now if she (2)_____ speaking it at home.",
-          "correct_answer": [
-            "B",
-            "B"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete each sentence about fluent interaction in a professional setting.",
+          "mastery_tag": "speaking:c1-fluent-interaction",
+          "explanation": "Es importante ser flexible para poder adaptarse y entender la perspectiva de la otra parte en una negociación.",
+          "stimulus_en": "In a negotiation, it's important to remain ___ to understand the other party's perspective.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "rigid"
+            },
+            {
+              "id": "o2",
+              "text": "flexible"
+            },
+            {
+              "id": "o3",
+              "text": "indifferent"
+            },
+            {
+              "id": "o4",
+              "text": "aggressive"
+            }
           ],
-          "example": ", ",
-          "explanation": "(1) Condicional mixto (tipo 3 + tipo 2). La condición pasada (had studied) afecta el resultado presente.\n(2) Acción pasada (had practiced) con efecto en el presente (would be)."
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "C1_U1_B2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete each sentence about fluent interaction in a professional setting.",
+          "mastery_tag": "speaking:c1-fluent-interaction",
+          "explanation": "La escucha activa es fundamental para entender las sutilezas y el contexto de una conversación.",
+          "stimulus_en": "Effective communication often requires ___ listening to grasp the nuances of a conversation.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "active"
+            },
+            {
+              "id": "o2",
+              "text": "passive"
+            },
+            {
+              "id": "o3",
+              "text": "disinterested"
+            },
+            {
+              "id": "o4",
+              "text": "selective"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "C1_U1_B2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete each sentence about fluent interaction in a professional setting.",
+          "mastery_tag": "speaking:c1-fluent-interaction",
+          "explanation": "Un lenguaje corporal adecuado puede mejorar la claridad y hacer que la presentación sea más efectiva.",
+          "stimulus_en": "Using appropriate body language can enhance ___ during presentations.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "tension"
+            },
+            {
+              "id": "o2",
+              "text": "clarity"
+            },
+            {
+              "id": "o3",
+              "text": "confusion"
+            },
+            {
+              "id": "o4",
+              "text": "separation"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "C1_U1_B2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete each sentence about fluent interaction in a professional setting.",
+          "mastery_tag": "speaking:c1-fluent-interaction",
+          "explanation": "Fomentar la participación y el aporte de todos los miembros del equipo ayuda a lograr una interacción más espontánea.",
+          "stimulus_en": "To foster spontaneous interaction, professionals should encourage ___ from all team members.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "silence"
+            },
+            {
+              "id": "o2",
+              "text": "inhibition"
+            },
+            {
+              "id": "o3",
+              "text": "input"
+            },
+            {
+              "id": "o4",
+              "text": "monologue"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "C1_U1_B2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct option to complete each sentence about fluent interaction in a professional setting.",
+          "mastery_tag": "speaking:c1-fluent-interaction",
+          "explanation": "La inclusión es crucial en las reuniones para que todos los participantes se sientan parte de la conversación.",
+          "stimulus_en": "In meetings, ___ is key to ensure that everyone feels involved in the discussion.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "monopoly"
+            },
+            {
+              "id": "o2",
+              "text": "exclusion"
+            },
+            {
+              "id": "o3",
+              "text": "inclusion"
+            },
+            {
+              "id": "o4",
+              "text": "dictation"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Extended Lectures",
+      "title": "Academic Vocabulary",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "C1_U1_B3_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Complete the sentences using the passive form.",
-          "mastery_tag": "grammar:c1-lectures-extended",
-          "explanation": "Pasado simple pasivo (was/were + participio).",
-          "stimulus_en": "The bridge _____ (build) in 1924.",
-          "correct_answer": "was built"
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Fill in the blanks with the correct words from the options provided.",
+          "mastery_tag": "vocabulary:c1-academic",
+          "main_text": "In order to conduct effective (1)[GAP 1] in a university setting, it is crucial to understand the underlying (2)[GAP 2] that guide academic inquiry. The process involves a thorough (3)[GAP 3] of existing literature, enabling researchers to identify gaps in knowledge. Furthermore, the presentation of findings must adhere to (4)[GAP 4] standards, ensuring the work is credible and trustworthy. Ultimately, the goal is to contribute valuable (5)[GAP 5] to the field of study.",
+          "gaps": [
+            {
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "study"
+                },
+                {
+                  "id": "o2",
+                  "text": "studies"
+                },
+                {
+                  "id": "o3",
+                  "text": "studying"
+                },
+                {
+                  "id": "o4",
+                  "text": "student"
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "theories"
+                },
+                {
+                  "id": "o2",
+                  "text": "theory"
+                },
+                {
+                  "id": "o3",
+                  "text": "theoretical"
+                },
+                {
+                  "id": "o4",
+                  "text": "theorist"
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "analysis"
+                },
+                {
+                  "id": "o2",
+                  "text": "analyses"
+                },
+                {
+                  "id": "o3",
+                  "text": "analytical"
+                },
+                {
+                  "id": "o4",
+                  "text": "analyze"
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "academic"
+                },
+                {
+                  "id": "o2",
+                  "text": "academically"
+                },
+                {
+                  "id": "o3",
+                  "text": "academics"
+                },
+                {
+                  "id": "o4",
+                  "text": "academicist"
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "knowledge"
+                },
+                {
+                  "id": "o2",
+                  "text": "knowledgeable"
+                },
+                {
+                  "id": "o3",
+                  "text": "knowing"
+                },
+                {
+                  "id": "o4",
+                  "text": "knows"
+                }
+              ]
+            }
+          ],
+          "correct_answer": {
+            "1": "o1",
+            "2": "o2",
+            "3": "o1",
+            "4": "o1",
+            "5": "o1"
+          },
+          "explanation": "(1) En este contexto, 'study' se refiere al acto de investigar en un entorno académico.\n(2) Aquí, 'theory' es un sustantivo singular que se refiere a un marco conceptual que guía la investigación.\n(3) 'Analysis' es un sustantivo que indica el proceso de examinar datos o textos en profundidad.\n(4) 'Academic' se refiere a estándares que son aceptados y utilizados en un entorno educativo.\n(5) 'Knowledge' es un sustantivo que representa la comprensión y la información obtenida a través de la investigación."
         }
       ]
     }

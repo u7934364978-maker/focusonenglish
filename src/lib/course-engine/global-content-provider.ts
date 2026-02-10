@@ -1,5 +1,6 @@
 import { premiumCourseServerService, CourseLevel } from '../services/premium-course-service.server';
 import { Interaction } from './schema';
+import { A1_KIDS_EXERCISES } from '../a1-visual-exercises';
 
 export type IndexedInteraction = Interaction & {
   level: string;
@@ -78,6 +79,18 @@ export class GlobalContentProvider {
 
     const results = await Promise.all(loadingPromises);
     this.interactions = results.flat();
+
+    // 4. Inject Visual Exercises for A1
+    const visualInteractions = A1_KIDS_EXERCISES.flatMap(unit => 
+      unit.questions.map(q => ({
+        ...q,
+        level: 'A1',
+        specialization: 'generic' as const,
+        unit_id: unit.id,
+      }))
+    );
+    this.interactions = [...this.interactions, ...visualInteractions];
+
     this.isLoaded = true;
 
     console.log(`✅ Loaded ${this.interactions.length} interactions across all levels.`);

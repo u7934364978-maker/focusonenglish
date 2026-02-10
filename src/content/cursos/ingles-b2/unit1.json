@@ -20,342 +20,329 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Perfect Modals",
+      "title": "Wish and Regret",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "B2_U1_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
-          "mastery_tag": "grammar:b2-perfect-modals",
-          "explanation": "En esta oración, 'must have' indica una conclusión lógica: es probable que ella haya perdido el autobús.",
-          "stimulus_en": "She didn't arrive on time. She ___ missed the bus.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "must have"
-            },
-            {
-              "id": "o2",
-              "text": "could have"
-            },
-            {
-              "id": "o3",
-              "text": "should have"
-            },
-            {
-              "id": "o4",
-              "text": "might have"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'IF ONLY':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "La frase expresa un deseo sobre el conocimiento actual que no se tiene.",
+          "stimulus_en": "I wish I knew more about marketing.\n\nIf only I... ...",
+          "correct_answer": "knew more about marketing.",
+          "example": "IF ONLY"
         },
         {
           "interaction_id": "B2_U1_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
-          "mastery_tag": "grammar:b2-perfect-modals",
-          "explanation": "Aquí, 'should have' expresa que pedir ayuda era lo que se esperaba que hiciera.",
-          "stimulus_en": "He ___ asked for help but he thought he could manage alone.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "should have"
-            },
-            {
-              "id": "o2",
-              "text": "must have"
-            },
-            {
-              "id": "o3",
-              "text": "might have"
-            },
-            {
-              "id": "o4",
-              "text": "could have"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'WISH':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "La frase indica un arrepentimiento sobre una acción pasada que no se realizó.",
+          "stimulus_en": "I regret not taking that job offer.\n\nI wish I... ...",
+          "correct_answer": "had taken that job offer.",
+          "example": "WISH"
         },
         {
           "interaction_id": "B2_U1_B1_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
-          "mastery_tag": "grammar:b2-perfect-modals",
-          "explanation": "'Could have' se utiliza aquí para expresar una posibilidad pasada que no se realizó debido a una falta de acción.",
-          "stimulus_en": "They ___ completed the project on time if they had started earlier.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "might have"
-            },
-            {
-              "id": "o2",
-              "text": "should have"
-            },
-            {
-              "id": "o3",
-              "text": "must have"
-            },
-            {
-              "id": "o4",
-              "text": "could have"
-            }
-          ],
-          "correct_answer": "o4"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'IF ONLY':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Este deseo habla de una situación hipotética sobre la confianza en reuniones.",
+          "stimulus_en": "He wishes he were more confident in meetings.\n\nIf only he... ...",
+          "correct_answer": "were more confident in meetings.",
+          "example": "IF ONLY"
         },
         {
           "interaction_id": "B2_U1_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
-          "mastery_tag": "grammar:b2-perfect-modals",
-          "explanation": "'Must have' aquí indica que es casi seguro que trabajó duro, dado el resultado.",
-          "stimulus_en": "If she is promoted, she ___ worked very hard for it.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "must have"
-            },
-            {
-              "id": "o2",
-              "text": "should have"
-            },
-            {
-              "id": "o3",
-              "text": "could have"
-            },
-            {
-              "id": "o4",
-              "text": "might have"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'WISH':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "El arrepentimiento se expresa sobre una situación pasada no realizada.",
+          "stimulus_en": "She regrets missing the conference last year.\n\nShe wishes she... ...",
+          "correct_answer": "had attended the conference last year.",
+          "example": "WISH"
         },
         {
           "interaction_id": "B2_U1_B1_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct perfect modal to complete each sentence.",
-          "mastery_tag": "grammar:b2-perfect-modals",
-          "explanation": "'Must have' sugiere que es muy probable que haya malinterpretado las instrucciones, dado el contexto.",
-          "stimulus_en": "He ___ misunderstood the instructions; he kept making the same mistake.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "must have"
-            },
-            {
-              "id": "o2",
-              "text": "might have"
-            },
-            {
-              "id": "o3",
-              "text": "could have"
-            },
-            {
-              "id": "o4",
-              "text": "should have"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'IF ONLY':",
+          "mastery_tag": "grammar:b2-wish-regret",
+          "explanation": "Esto expresa un deseo sobre la capacidad actual de gestionar el tiempo.",
+          "stimulus_en": "I wish I could manage my time better.\n\nIf only I... ...",
+          "correct_answer": "could manage my time better.",
+          "example": "IF ONLY"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Reviews and Articles",
+      "title": "Idiomatic Expressions",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "B2_U1_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
-          "mastery_tag": "writing:b2-reviews-articles",
-          "explanation": "El propósito principal de una reseña es evaluar un producto, servicio o experiencia.",
-          "stimulus_en": "What is the main purpose of a review?",
-          "options": [
+          "type": "multiple_choice_cloze",
+          "prompt_es": "Fill in the blanks with the correct idiomatic expression from the options provided.",
+          "mastery_tag": "vocabulary:b2-idiomatic",
+          "main_text": "Understanding idiomatic expressions can greatly enhance your language skills. Here are some sentences with gaps to complete:\n\n1. He really gave me the [GAP 1] when I asked to borrow his car. (1)[GAP 2]\n\n2. Don't worry about the presentation; just go with the [GAP 3]. (2)[GAP 4]\n\n3. She’s really [GAP 5] to her work and often stays late. (3)[GAP 6]\n\n4. After a long day, I like to kick back and [GAP 7]. (4)[GAP 8]\n\n5. They had a [GAP 9] of a time at the party last night! (5)[GAP 10]",
+          "gaps": [
             {
-              "id": "o1",
-              "text": "To entertain"
+              "id": "1",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "green light"
+                },
+                {
+                  "id": "o2",
+                  "text": "cold shoulder"
+                },
+                {
+                  "id": "o3",
+                  "text": "red flag"
+                },
+                {
+                  "id": "o4",
+                  "text": "blue sky"
+                }
+              ]
             },
             {
-              "id": "o2",
-              "text": "To inform"
+              "id": "2",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "flow"
+                },
+                {
+                  "id": "o2",
+                  "text": "line"
+                },
+                {
+                  "id": "o3",
+                  "text": "road"
+                },
+                {
+                  "id": "o4",
+                  "text": "way"
+                }
+              ]
             },
             {
-              "id": "o3",
-              "text": "To persuade"
+              "id": "3",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "devoted"
+                },
+                {
+                  "id": "o2",
+                  "text": "dedicated"
+                },
+                {
+                  "id": "o3",
+                  "text": "committed"
+                },
+                {
+                  "id": "o4",
+                  "text": "attached"
+                }
+              ]
             },
             {
-              "id": "o4",
-              "text": "To evaluate"
+              "id": "4",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "chill"
+                },
+                {
+                  "id": "o2",
+                  "text": "sit"
+                },
+                {
+                  "id": "o3",
+                  "text": "sleep"
+                },
+                {
+                  "id": "o4",
+                  "text": "work"
+                }
+              ]
+            },
+            {
+              "id": "5",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "blast"
+                },
+                {
+                  "id": "o2",
+                  "text": "breeze"
+                },
+                {
+                  "id": "o3",
+                  "text": "storm"
+                },
+                {
+                  "id": "o4",
+                  "text": "quake"
+                }
+              ]
             }
           ],
-          "correct_answer": "o4"
-        },
-        {
-          "interaction_id": "B2_U1_B2_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
-          "mastery_tag": "writing:b2-reviews-articles",
-          "explanation": "La estructura común de una reseña incluye una introducción, un desarrollo y una conclusión.",
-          "stimulus_en": "Which of the following is a common structure for a review?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Introduction, body, conclusion"
-            },
-            {
-              "id": "o2",
-              "text": "Title, author, date"
-            },
-            {
-              "id": "o3",
-              "text": "Abstract, results, discussion"
-            },
-            {
-              "id": "o4",
-              "text": "Problem, solution, evaluation"
-            }
-          ],
-          "correct_answer": "o1"
-        },
-        {
-          "interaction_id": "B2_U1_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
-          "mastery_tag": "writing:b2-reviews-articles",
-          "explanation": "En la sección de evaluación, debes incluir tu opinión personal sobre el tema revisado.",
-          "stimulus_en": "What should you include in the evaluation section of a review?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Personal opinion"
-            },
-            {
-              "id": "o2",
-              "text": "Author's background"
-            },
-            {
-              "id": "o3",
-              "text": "Historical context"
-            },
-            {
-              "id": "o4",
-              "text": "Similar works"
-            }
-          ],
-          "correct_answer": "o1"
-        },
-        {
-          "interaction_id": "B2_U1_B2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
-          "mastery_tag": "writing:b2-reviews-articles",
-          "explanation": "Es importante proporcionar ejemplos específicos para aclarar tus puntos y hacer la reseña más comprensible.",
-          "stimulus_en": "Why is it important to provide specific examples in a review?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To make it longer"
-            },
-            {
-              "id": "o2",
-              "text": "To clarify your points"
-            },
-            {
-              "id": "o3",
-              "text": "To confuse the reader"
-            },
-            {
-              "id": "o4",
-              "text": "To follow a template"
-            }
-          ],
-          "correct_answer": "o2"
-        },
-        {
-          "interaction_id": "B2_U1_B2_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the best answer for each question regarding writing reviews and articles.",
-          "mastery_tag": "writing:b2-reviews-articles",
-          "explanation": "El tono típico en las reseñas es subjetivo y personal, reflejando el punto de vista del autor.",
-          "stimulus_en": "What tone is typically used in reviews?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Formal and detached"
-            },
-            {
-              "id": "o2",
-              "text": "Casual and humorous"
-            },
-            {
-              "id": "o3",
-              "text": "Subjective and personal"
-            },
-            {
-              "id": "o4",
-              "text": "Technical and detailed"
-            }
-          ],
-          "correct_answer": "o3"
+          "correct_answer": {
+            "1": "o2",
+            "2": "o1",
+            "3": "o2",
+            "4": "o1",
+            "5": "o1"
+          },
+          "explanation": "(1) La expresión 'cold shoulder' significa ignorar a alguien o no mostrar interés en algo. En este contexto, se refiere a que alguien no está dispuesto a prestar su coche.\n(2) La expresión 'go with the flow' se refiere a aceptar las cosas como vienen y no resistirse a las circunstancias.\n(3) La palabra 'dedicated' implica una fuerte devoción o compromiso hacia algo, en este caso, el trabajo.\n(4) La expresión 'kick back and chill' significa relajarse y disfrutar del tiempo libre.\n(5) La expresión 'had a blast' significa disfrutar mucho de una experiencia, en este caso, de la fiesta."
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Wish and Regret",
+      "title": "Mixed Conditionals",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "B2_U1_B3_I1",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'wish':",
-          "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "En esta oración, usamos 'wish' para expresar un deseo sobre algo que no hicimos en el pasado.",
-          "stimulus_en": "I regret not studying harder for the exam.\n\nI wish I had studied ...",
-          "correct_answer": "harder for the exam.",
-          "example": "wish"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question about mixed conditionals.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "La estructura correcta es 'would have + pasado participio' para referirse a una condición pasada hipotética.",
+          "stimulus_en": "If she had studied harder, she ___ the exam successfully.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would pass"
+            },
+            {
+              "id": "o2",
+              "text": "would have passed"
+            },
+            {
+              "id": "o3",
+              "text": "will pass"
+            },
+            {
+              "id": "o4",
+              "text": "passes"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "B2_U1_B3_I2",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
-          "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Aquí, 'regret' se utiliza para expresar el pesar por no haber aceptado una oferta laboral en el pasado.",
-          "stimulus_en": "If only I had taken the job offer.\n\nI regret not taking ...",
-          "correct_answer": "the job offer.",
-          "example": "regret"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question about mixed conditionals.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "Usamos 'would' para hablar sobre situaciones futuras hipotéticas basadas en una condición presente.",
+          "stimulus_en": "If it rains tomorrow, we ___ the picnic in the park.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would cancel"
+            },
+            {
+              "id": "o2",
+              "text": "cancel"
+            },
+            {
+              "id": "o3",
+              "text": "canceled"
+            },
+            {
+              "id": "o4",
+              "text": "would have canceled"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "B2_U1_B3_I3",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
-          "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Esta frase muestra un deseo de haber aprendido a programar en el pasado.",
-          "stimulus_en": "I wish I knew how to code.\n\nI regret not learning ...",
-          "correct_answer": "to code.",
-          "example": "regret"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question about mixed conditionals.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "La forma correcta es 'would have' para referirse a una situación pasada que no ocurrió.",
+          "stimulus_en": "If I were more confident, I ___ have asked for help last week.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "would"
+            },
+            {
+              "id": "o2",
+              "text": "will"
+            },
+            {
+              "id": "o3",
+              "text": "would have"
+            },
+            {
+              "id": "o4",
+              "text": "have"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "B2_U1_B3_I4",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
-          "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Estas frases se enfocan en el arrepentimiento por no haber podido realizar un viaje en el año pasado.",
-          "stimulus_en": "I wish I could travel more last year.\n\nI regret not being able to ...",
-          "correct_answer": "travel more last year.",
-          "example": "regret"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question about mixed conditionals.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "'Would have caught' se usa para expresar un resultado hipotético en el pasado que no ocurrió.",
+          "stimulus_en": "If they had left earlier, they ___ the train.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "will catch"
+            },
+            {
+              "id": "o2",
+              "text": "would have caught"
+            },
+            {
+              "id": "o3",
+              "text": "would catch"
+            },
+            {
+              "id": "o4",
+              "text": "caught"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "B2_U1_B3_I5",
-          "type": "key_word_transformation",
-          "prompt_es": "Reescribe la frase usando la palabra clave 'regret':",
-          "mastery_tag": "grammar:b2-wish-regret",
-          "explanation": "Aquí se expresa un lamento por no haber pedido ayuda cuando era necesario.",
-          "stimulus_en": "I wish I had asked for help.\n\nI regret not asking for ...",
-          "correct_answer": "help.",
-          "example": "regret"
+          "type": "multiple_choice",
+          "prompt_es": "Choose the correct answer for each question about mixed conditionals.",
+          "mastery_tag": "grammar:b2-mixed-conditionals",
+          "explanation": "La respuesta correcta es 'would tell' para una situación presente basada en un conocimiento actual.",
+          "stimulus_en": "If I knew the answer, I ___ it to you right now.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "will tell"
+            },
+            {
+              "id": "o2",
+              "text": "would have told"
+            },
+            {
+              "id": "o3",
+              "text": "would tell"
+            },
+            {
+              "id": "o4",
+              "text": "would told"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     }
