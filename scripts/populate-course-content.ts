@@ -232,6 +232,8 @@ function mapGeneratedToPremium(generated: any, level: string, unitId: string, bl
         } else {
           interaction.correct_answer = q.correctAnswer;
         }
+      } else if (type === 'multiple_choice') {
+        throw new Error(`AI failed to provide options for multiple_choice exercise in ${interactionId}`);
       } else {
         interaction.correct_answer = q.correctAnswer;
       }
@@ -286,7 +288,11 @@ async function main() {
   const limitArg = process.argv.find(arg => !isNaN(parseInt(arg)) && !arg.startsWith('--'));
   const limit = limitArg ? parseInt(limitArg) : files.length;
   
+  const unitArg = process.argv.find(arg => arg.startsWith('--unit='));
+  const specificUnit = unitArg ? unitArg.split('=')[1] : null;
+
   for (let i = 0; i < Math.min(files.length, limit); i++) {
+    if (specificUnit && files[i] !== `unit${specificUnit}.json`) continue;
     await populateUnit(levelArg, files[i], force);
   }
 }

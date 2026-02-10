@@ -12,165 +12,80 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Environment and Nature",
+      "title": "Simple Stories and Narratives",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "B1_U7_B1_I1",
           "type": "fill_blanks",
-          "prompt_es": "Fill in the blanks with the correct form of the word in parentheses.\n\nBase words: (1) POLLUTE, (2) SOLVE, (3) RECYCLE, (4) CONSERVE, (5) FUTURE",
-          "mastery_tag": "vocabulary:b1-environment",
-          "main_text": "The problem of (1)___ (pollute) is very serious. Many people are working on (2)___ (solve) this issue. One solution is to promote (3)___ (recycle) in our communities. It's important for children to learn about (4)___ (conserve) nature and the environment. We must act now to ensure a better (5)___ (future) for the planet.",
+          "prompt_es": "Complete the sentences with the correct words.",
+          "mastery_tag": "writing:b1-stories",
+          "main_text": "Last summer, I (1)___ to the beach with my friends. We (2)___ a lot of fun and (3)___ games all day. In the evening, we (4)___ a barbecue and (5)___ stories around the fire.",
           "correct_answer": [
-            "POLLUTION",
-            "SOLUTION",
-            "RECYCLING",
-            "CONSERVATION",
-            "FUTURITY"
+            "went",
+            "had",
+            "played",
+            "had",
+            "told"
           ],
-          "explanation": "(1) La palabra 'pollution' es el sustantivo que se forma a partir del verbo 'pollute'.\n(2) La palabra 'solution' es el sustantivo que se deriva del verbo 'solve'.\n(3) La palabra 'recycling' es el gerundio que se forma a partir del verbo 'recycle'.\n(4) La palabra 'conservation' es el sustantivo relacionado con el verbo 'conserve'.\n(5) La palabra 'futurity' se refiere a la condición o tiempo del futuro, aunque es menos común."
+          "explanation": "(1) La oración habla de un evento que ocurrió en el pasado (verbo en pasado).\n(2) El verbo 'have' se usa en pasado para describir experiencias.\n(3) El verbo 'play' en pasado describe actividades que hicimos.\n(4) Usamos 'have' para hablar de eventos que disfrutamos.\n(5) El verbo 'tell' en pasado se usa para compartir relatos."
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Education and Learning",
+      "title": "Passive Voice",
       "duration_minutes": 20,
       "content": [
         {
           "interaction_id": "B1_U7_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to education and learning.",
-          "mastery_tag": "vocabulary:b1-education",
-          "explanation": "Un 'profesor' es la persona que enseña en una universidad, mientras que un 'estudiante' es quien aprende.",
-          "stimulus_en": "What do you call a person who teaches at a university?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Professor"
-            },
-            {
-              "id": "o2",
-              "text": "Student"
-            },
-            {
-              "id": "o3",
-              "text": "Principal"
-            },
-            {
-              "id": "o4",
-              "text": "Teacher"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'GEORGE ORWELL':",
+          "mastery_tag": "grammar:b1-passive",
+          "explanation": "En la voz activa, el sujeto (George Orwell) realiza la acción (escribir) en lugar de recibirla.",
+          "stimulus_en": "The book was written by George Orwell.\n\nGeorge Orwell... ...",
+          "correct_answer": "wrote the book.",
+          "example": "GEORGE ORWELL"
         },
         {
           "interaction_id": "B1_U7_B2_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to education and learning.",
-          "mastery_tag": "vocabulary:b1-education",
-          "explanation": "El currículo es un documento que presenta y organiza los cursos y contenidos educativos.",
-          "stimulus_en": "What is the main purpose of a curriculum?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To assess students"
-            },
-            {
-              "id": "o2",
-              "text": "To outline courses"
-            },
-            {
-              "id": "o3",
-              "text": "To recruit teachers"
-            },
-            {
-              "id": "o4",
-              "text": "To manage finances"
-            }
-          ],
-          "correct_answer": "o2"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'MY MOTHER':",
+          "mastery_tag": "grammar:b1-passive",
+          "explanation": "Cuando cambiamos de voz pasiva a activa, el sujeto (mi madre) está realizando la acción (hacer).",
+          "stimulus_en": "The cake was made by my mother.\n\nMy mother... ...",
+          "correct_answer": "made the cake.",
+          "example": "MY MOTHER"
         },
         {
           "interaction_id": "B1_U7_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to education and learning.",
-          "mastery_tag": "vocabulary:b1-education",
-          "explanation": "Un 'examen' es una evaluación común al final de un curso para medir lo que se ha aprendido.",
-          "stimulus_en": "What is a common assessment given at the end of a course?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Project"
-            },
-            {
-              "id": "o2",
-              "text": "Presentation"
-            },
-            {
-              "id": "o3",
-              "text": "Exam"
-            },
-            {
-              "id": "o4",
-              "text": "Assignment"
-            }
-          ],
-          "correct_answer": "o3"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'ADELE':",
+          "mastery_tag": "grammar:b1-passive",
+          "explanation": "En esta transformación, cambiamos la voz pasiva a activa con el sujeto realizando la acción.",
+          "stimulus_en": "The song was sung by Adele.\n\nAdele... ...",
+          "correct_answer": "sang the song.",
+          "example": "ADELE"
         },
         {
           "interaction_id": "B1_U7_B2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to education and learning.",
-          "mastery_tag": "vocabulary:b1-education",
-          "explanation": "Los estudiantes 'estudian' para prepararse para un examen y así obtener buenos resultados.",
-          "stimulus_en": "What do students do to prepare for an exam?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Study"
-            },
-            {
-              "id": "o2",
-              "text": "Sleep"
-            },
-            {
-              "id": "o3",
-              "text": "Relax"
-            },
-            {
-              "id": "o4",
-              "text": "Watch TV"
-            }
-          ],
-          "correct_answer": "o1"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'THE WORKERS':",
+          "mastery_tag": "grammar:b1-passive",
+          "explanation": "Aquí, el sujeto (los trabajadores) realiza la acción (construir) en lugar de que la reciba.",
+          "stimulus_en": "The house was built by the workers.\n\nThe workers... ...",
+          "correct_answer": "built the house.",
+          "example": "THE WORKERS"
         },
         {
           "interaction_id": "B1_U7_B2_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Choose the correct answer for each question related to education and learning.",
-          "mastery_tag": "vocabulary:b1-education",
-          "explanation": "Una ventaja del aprendizaje en línea es la 'flexibilidad' en horarios y lugares de estudio.",
-          "stimulus_en": "What is an advantage of online learning?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "More distractions"
-            },
-            {
-              "id": "o2",
-              "text": "Flexibility"
-            },
-            {
-              "id": "o3",
-              "text": "Less interaction"
-            },
-            {
-              "id": "o4",
-              "text": "Higher costs"
-            }
-          ],
-          "correct_answer": "o2"
+          "type": "key_word_transformation",
+          "prompt_es": "Reescribe la frase usando la palabra clave 'PICASSO':",
+          "mastery_tag": "grammar:b1-passive",
+          "explanation": "En esta oración, transformamos la voz pasiva a activa, mostrando quién realiza la acción.",
+          "stimulus_en": "The picture was painted by Picasso.\n\nPicasso... ...",
+          "correct_answer": "painted the picture.",
+          "example": "PICASSO"
         }
       ]
     },
@@ -182,47 +97,137 @@
         {
           "interaction_id": "B1_U7_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "Read the following article and answer the questions below.",
+          "prompt_es": "Read the text and answer the questions below.",
           "mastery_tag": "reading:b1-articles-reviews",
-          "explanation": "La respuesta está en la descripción del café, donde se menciona que ofrecen diferentes tipos de bebidas y pasteles.",
-          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat type of food does Café Delight offer?",
-          "correct_answer": "Drinks and pastries"
+          "explanation": "El tema principal del artículo es la tecnología del hogar inteligente.",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat is the main topic of the article?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Smart home devices"
+            },
+            {
+              "id": "o2",
+              "text": "Privacy issues"
+            },
+            {
+              "id": "o3",
+              "text": "Internet connection"
+            },
+            {
+              "id": "o4",
+              "text": "Home decoration"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "B1_U7_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Read the following article and answer the questions below.",
+          "prompt_es": "Read the text and answer the questions below.",
           "mastery_tag": "reading:b1-articles-reviews",
-          "explanation": "Los clientes gustan del ambiente acogedor y el personal amable, según el artículo.",
-          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhy do customers like the café?",
-          "correct_answer": "Cozy atmosphere and friendly staff"
+          "explanation": "A muchos usuarios les gusta la facilidad para controlar sus dispositivos.",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat do many users enjoy about smart home devices?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "High cost"
+            },
+            {
+              "id": "o2",
+              "text": "Easy control"
+            },
+            {
+              "id": "o3",
+              "text": "Loud sounds"
+            },
+            {
+              "id": "o4",
+              "text": "Heavy weight"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "B1_U7_B3_I3",
           "type": "multiple_choice",
-          "prompt_es": "Read the following article and answer the questions below.",
+          "prompt_es": "Read the text and answer the questions below.",
           "mastery_tag": "reading:b1-articles-reviews",
-          "explanation": "El Wi-Fi gratis es una ventaja que atrae a estudiantes y trabajadores al café.",
-          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat is one advantage of going to Café Delight?",
-          "correct_answer": "Free Wi-Fi"
+          "explanation": "Una de las preocupaciones mencionadas son los problemas de privacidad.",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat is one concern mentioned in the reviews?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Energy consumption"
+            },
+            {
+              "id": "o2",
+              "text": "Privacy issues"
+            },
+            {
+              "id": "o3",
+              "text": "High prices"
+            },
+            {
+              "id": "o4",
+              "text": "Complex installation"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "B1_U7_B3_I4",
           "type": "multiple_choice",
-          "prompt_es": "Read the following article and answer the questions below.",
+          "prompt_es": "Read the text and answer the questions below.",
           "mastery_tag": "reading:b1-articles-reviews",
-          "explanation": "Algunos clientes notaron que hay pocos asientos, especialmente en horas ocupadas.",
-          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nWhat issue did some customers mention?",
-          "correct_answer": "Limited seating"
+          "explanation": "Los usuarios controlan los dispositivos inteligentes con comandos de voz o aplicaciones.",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nHow do users control smart home devices?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Using keys"
+            },
+            {
+              "id": "o2",
+              "text": "Manual switches"
+            },
+            {
+              "id": "o3",
+              "text": "Voice commands"
+            },
+            {
+              "id": "o4",
+              "text": "Remote controls"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "B1_U7_B3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Read the following article and answer the questions below.",
+          "prompt_es": "Read the text and answer the questions below.",
           "mastery_tag": "reading:b1-articles-reviews",
-          "explanation": "La comunidad ha respondido positivamente y el café se ha vuelto muy popular entre los locales y visitantes.",
-          "stimulus_en": "The new café in town, Café Delight, has become very popular since its opening last month. Many people enjoy its cozy atmosphere and friendly staff. The café offers a variety of drinks, including coffee, tea, and smoothies, as well as delicious pastries. Customers have praised the quality of the food and the reasonable prices. Some reviews mention the free Wi-Fi, making it a great spot for studying or working. However, a few customers have noted that the seating is limited, especially during peak hours. Overall, Café Delight seems to be a wonderful addition to the community, attracting both locals and visitors alike.\n\nHow has the community responded to the new café?",
-          "correct_answer": "It has become very popular."
+          "explanation": "Los consumidores deben considerar tanto las ventajas como los riesgos antes de comprar.",
+          "stimulus_en": "In the world of technology, many new devices come to market every year. One of the latest trends is the smart home technology. Smart homes use devices that connect to the internet and allow users to control home functions like lighting, heating, and security remotely. Reviews of these products highlight their convenience, but also raise concerns about privacy and security. For example, smart speakers can listen to conversations, which makes some users feel uncomfortable. On the other hand, many users love the ease of controlling their home with just their voice or smartphone apps. Overall, while smart home devices offer many benefits, it's important for consumers to consider both the advantages and the potential risks before making a purchase.\n\nWhat should consumers consider before buying smart home devices?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Only the price"
+            },
+            {
+              "id": "o2",
+              "text": "Advantages and risks"
+            },
+            {
+              "id": "o3",
+              "text": "Brand popularity"
+            },
+            {
+              "id": "o4",
+              "text": "Aesthetic design"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     }

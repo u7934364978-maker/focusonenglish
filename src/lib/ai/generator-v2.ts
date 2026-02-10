@@ -35,7 +35,7 @@ GUIDELINES:
          "baseWord": "BASE", (ONLY for word-formation)
          "keyWord": "KEY", (ONLY for key-word-transformation)
          "startOfAnswer": "Start...", (ONLY for key-word-transformation)
-         "options": ["Option A", "Option B", "Option C", "Option D"], (Include only for multiple-choice and multiple-choice-cloze)
+         "options": ["Option A", "Option B", "Option C", "Option D"], (MANDATORY for multiple-choice, multiple-choice-cloze, and reading-comprehension)
          "correctAnswer": "The exact correct answer",
          "explanation": "Brief explanation in Spanish",
          "correctiveFeedback": "Specific feedback in Spanish for why common mistakes might happen in this question (ONLY if useful)",
