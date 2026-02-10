@@ -24,10 +24,12 @@
 - [x] Commitear y pushear cambios.
 
 ## Fase 6: Optimización de UI y Contexto
-- [x] Agregar imagen al ejercicio del castillo en la unidad 48 (luego eliminado por petición).
 - [x] Habilitar soporte de `image_url` para tipos de ejercicio `fill_blanks`, `short_writing` y `true_false`.
 - [x] Reducir espaciado (padding, margins) y tamaños de fuente en `PremiumSession.tsx` para mejorar la visibilidad en pantallas pequeñas.
+- [x] Estandarizar layout: Prompt/Pregunta siempre arriba en caja índigo.
 - [x] Eliminar sonidos de "correcto" e "incorrecto" en la sesión.
 - [x] Eliminar ejercicio específico de la unidad 48 (`A1_U48_B48_1_I3`).
+- [x] Arreglar error lógico en Unidad 33 (Anna vs Mark).
+- [x] Eliminar "spoiler" de respuesta en etiqueta de Unidad 30.
 - [x] Verificar que los cambios se visualizan correctamente en el navegador.
 - [x] Commitear y pushear cambios.

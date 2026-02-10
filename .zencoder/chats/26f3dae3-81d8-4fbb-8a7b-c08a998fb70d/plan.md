@@ -85,3 +85,20 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/26
 - [x] **Task 10: Update GlobalContentProvider to fetch from DB**
   - Action: Modify `GlobalContentProvider` to prioritize (or exclusively use) Supabase as the data source.
   - Verification: The app works correctly after removing/renaming the local JSON files.
+
+#### Phase 6: Pedagogical & Content Quality Improvement
+- [ ] **Task 13: Audit and Fix Placeholder Content**
+  - Action: Identify and replace "Wrong1", "Wrong2", "Correct" placeholder values in all levels with contextually relevant content.
+  - Verification: Grep search returns no instances of "Wrong1" or "Wrong2" in exercise options.
+- [ ] **Task 14: A1 Visual & Pedagogical Overhaul**
+  - Action: Update A1 exercises to include `image_url` and focus on basic recognition (visual-to-word matching).
+  - Verification: Spot check A1 units 1-5 for visual support.
+- [ ] **Task 15: Structural Refactoring of Learning Curves**
+  - Action: Reorganize exercise sequences in each level to follow: 1. Input/Recognition, 2. Guided Production, 3. Free Production.
+  - Verification: Sequence audit of Module 1 in levels A1, A2, B1.
+- [ ] **Task 16: Fix Matching Exercise UI Logic**
+  - Action: Ensure the frontend correctly shuffles matching pairs and that the backend doesn't serve them pre-aligned.
+  - Verification: Visual verification in browser that matching pairs are randomized.
+- [ ] **Task 17: Content Push & DB Sync**
+  - Action: Generate final SQL migration with improved content and apply to Supabase.
+  - Verification: Exercise count per level matches expected totals.

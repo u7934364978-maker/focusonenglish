@@ -1549,22 +1549,32 @@ export default function PremiumCourseSession({
 
       case 'listening_image_mc':
         return (
-          <div className="space-y-6">
-            <div className="flex flex-col items-center gap-4">
+          <div className="space-y-4">
+            {/* Prompt/Question - Always at the top */}
+            {interaction.prompt_es && (
+              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                  {interaction.prompt_es}
+                </h2>
+              </div>
+            )}
+
+            <div className="flex flex-col items-center gap-2">
               {interaction.image_url && (
                 <img 
                   src={interaction.image_url} 
                   alt="Context for listening" 
-                  className="max-w-full h-auto rounded-lg shadow-md max-h-[300px]"
+                  className="max-w-full h-auto rounded-xl shadow-md max-h-[150px] object-cover"
                 />
               )}
               {interaction.audioUrl && (
-                <audio controls className="w-full max-w-md">
+                <audio controls className="w-full max-w-md h-10">
                   <source src={interaction.audioUrl} type="audio/mpeg" />
                 </audio>
               )}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-4">
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -1577,7 +1587,7 @@ export default function PremiumCourseSession({
                       if (!isInteractionDisabled) setSelectedOption(opt.id);
                     }
                   }}
-                  className={`p-4 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt cursor-pointer ${
+                  className={`p-3 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt cursor-pointer ${
                     selectedOption === opt.id
                       ? isCorrect === true
                         ? 'border-green-500 bg-green-50 text-green-700'
@@ -1587,9 +1597,9 @@ export default function PremiumCourseSession({
                       : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
                   } ${isInteractionDisabled ? 'pointer-events-none opacity-80' : ''}`}
                 >
-                  {opt.text}
+                  <span className="text-base">{opt.text}</span>
                   {isLikelyEnglish(opt.text) && (
-                    <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                    <PronunciationButton text={opt.text} size="sm" className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
                   )}
                 </div>
               ))}
@@ -1673,25 +1683,32 @@ export default function PremiumCourseSession({
       case 'reorder_words':
         const solutionText = getSolutionText(interaction);
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-12">
-            <div className="flex items-center justify-center gap-4">
-              <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
-              <PronunciationButton text={solutionText} size="md" />
-            </div>
-            <div className="min-h-[140px] border-b-4 border-slate-100 py-6 flex flex-wrap gap-3 items-center justify-center bg-slate-50/50 rounded-3xl px-6">
+          <div className="w-full max-w-2xl mx-auto space-y-4">
+            {/* Prompt/Question - Always at the top */}
+            {interaction.prompt_es && (
+              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                  {interaction.prompt_es}
+                </h2>
+              </div>
+            )}
+
+            <div className="min-h-[100px] border-b-2 border-slate-100 py-4 flex flex-wrap gap-2 items-center justify-center bg-slate-50/50 rounded-2xl px-4">
               {selectedWords.map((word) => (
                 <motion.button
                   layoutId={word.id}
                   key={`selected-${word.id}`}
                   onClick={() => setSelectedWords(prev => prev.filter(w => w.id !== word.id))}
                   disabled={!!feedback}
-                  className="p-4 px-6 bg-white border-2 border-slate-200 border-b-4 rounded-2xl font-bold text-xl text-slate-700 shadow-sm active:translate-y-0.5"
+                  className="p-2 px-4 bg-white border-2 border-slate-200 border-b-4 rounded-xl font-bold text-lg text-slate-700 shadow-sm active:translate-y-0.5"
                 >
                   {word.text}
                 </motion.button>
               ))}
             </div>
-            <div className="flex flex-wrap gap-3 justify-center pt-8">
+
+            <div className="flex flex-wrap gap-2 justify-center pt-4">
               {shuffledOptions.map((opt: any) => {
                 const isSelected = selectedWords.find(sw => sw.id === opt.id);
                 return (
@@ -1708,7 +1725,7 @@ export default function PremiumCourseSession({
                           if (!feedback && !isSelected) setSelectedWords(prev => [...prev, opt]);
                         }
                       }}
-                      className={`p-4 px-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
+                      className={`p-2 px-4 border-2 border-b-4 rounded-xl font-bold text-lg transition-all cursor-pointer ${
                         isSelected ? 'bg-slate-100 border-transparent text-transparent opacity-30 cursor-default pointer-events-none' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 active:translate-y-0.5 shadow-sm'
                       } ${feedback ? 'pointer-events-none' : ''}`}
                     >
@@ -1723,8 +1740,8 @@ export default function PremiumCourseSession({
             </div>
 
             {interaction.translation && (
-              <div className="mt-8 p-6 bg-amber-50 rounded-[2rem] border-2 border-amber-100 text-center">
-                <p className="text-amber-800 font-bold text-xl italic flex items-center justify-center gap-3">
+              <div className="mt-4 p-4 bg-amber-50 rounded-2xl border-2 border-amber-100 text-center">
+                <p className="text-amber-800 font-bold text-lg italic flex items-center justify-center gap-2">
                   <span className="text-amber-400 font-black">ES:</span>
                   &quot;{interaction.translation}&quot;
                 </p>
@@ -2019,47 +2036,40 @@ export default function PremiumCourseSession({
       case 'role_play':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-6">
-            {/* Si NO hay stimulus, mostramos el prompt arriba como título */}
-            {!interaction.stimulus_en && (
-              <h2 className="text-xl font-black text-slate-800 text-center mb-4">
-                {interaction.prompt_es}
-              </h2>
+            {/* Prompt/Question - Always at the top for clarity and space saving */}
+            {interaction.prompt_es && (
+              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-4 relative group">
+                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                  {interaction.prompt_es}
+                </h2>
+              </div>
             )}
             
             {interaction.image_url && (
               <motion.div 
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="flex justify-center mb-6"
+                className="flex justify-center mb-4"
               >
                 <img 
                   src={interaction.image_url} 
                   alt="Context" 
-                  className="max-w-full h-auto rounded-[2rem] shadow-xl border-4 border-white max-h-[250px] object-cover"
+                  className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[200px] object-cover"
                 />
               </motion.div>
             )}
 
             {interaction.stimulus_en && (
-               <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-100 text-center mb-6 max-h-[50vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-lg md:text-xl font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
+               <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-100 text-center mb-4 max-h-[40vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
                     {interaction.stimulus_en}
                   </p>
                </div>
             )}
 
-            {/* Si HAY stimulus, mostramos el prompt debajo del estímulo en una caja destacada */}
-            {interaction.stimulus_en && (
-              <div className="bg-indigo-50 p-6 rounded-[2rem] border-2 border-indigo-100 mb-4 relative group">
-                <PronunciationButton text={interaction.prompt_es} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <p className="text-xl font-black text-indigo-900 leading-tight">
-                  {interaction.prompt_es}
-                </p>
-              </div>
-            )}
-
-            <div className="grid gap-3">
+            <div className="grid gap-2">
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -2127,18 +2137,26 @@ export default function PremiumCourseSession({
           const gaps = (stim.match(/_{2,}/g) || []).length || 1;
 
           return (
-            <div className="w-full max-w-2xl mx-auto space-y-6">
-              <h2 className="text-xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+            <div className="w-full max-w-2xl mx-auto space-y-4">
+              {/* Prompt/Question - Always at the top */}
+              {interaction.prompt_es && (
+                <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                  <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                    {interaction.prompt_es}
+                  </h2>
+                </div>
+              )}
               
               {interaction.image_url && (
-                <div className="flex justify-center mb-4">
-                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                <div className="flex justify-center mb-2">
+                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[180px] object-cover" />
                 </div>
               )}
 
-              <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-200 shadow-inner text-center relative group">
-                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-3 gap-y-4">
+              <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner text-center relative group">
+                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="text-lg md:text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-2 gap-y-3">
                   {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                     <React.Fragment key={i}>
                       <span>{part}</span>
@@ -2147,7 +2165,7 @@ export default function PremiumCourseSession({
                           role="button"
                           tabIndex={0}
                           onClick={() => !feedback && setActiveGapIndex(i)}
-                          className={`relative inline-block min-w-[100px] px-3 py-1 border-b-4 transition-all cursor-pointer ${
+                          className={`relative inline-block min-w-[80px] px-2 py-1 border-b-4 transition-all cursor-pointer ${
                             activeGapIndex === i ? 'border-indigo-500 bg-indigo-50/50' : 'border-slate-300'
                           } ${inputValues[i] ? 'text-indigo-600' : 'text-slate-200'}`}
                         >
@@ -2163,7 +2181,7 @@ export default function PremiumCourseSession({
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {(interaction.options || []).map((opt: any) => (
                   <div
                     key={opt.id}
@@ -2224,21 +2242,27 @@ export default function PremiumCourseSession({
         }
 
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-6">
-            <h2 className="text-xl font-black text-slate-800 text-center">
-              {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
-            </h2>
-
-            {interaction.image_url && (
-              <div className="flex justify-center mb-4">
-                <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+          <div className="w-full max-w-2xl mx-auto space-y-4">
+            {/* Prompt/Question - Always at the top */}
+            {interaction.prompt_es && (
+              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                  {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
+                </h2>
               </div>
             )}
 
-            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-200 shadow-inner text-center relative group">
-               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+            {interaction.image_url && (
+              <div className="flex justify-center mb-2">
+                <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[180px] object-cover" />
+              </div>
+            )}
+
+            <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner text-center relative group">
+               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
-                 <div className="text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-3 gap-y-4">
+                 <div className="text-lg md:text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-2 gap-y-3">
                    {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
@@ -2248,7 +2272,7 @@ export default function PremiumCourseSession({
                            autoFocus={i === 0}
                            value={inputValues[i] || ""}
                            disabled={!!feedback}
-                           className="w-40 p-1 border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                           className="w-32 p-1 border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200 font-bold"
                            placeholder="..."
                            onChange={(e) => setInputValues(prev => ({ ...prev, [i]: e.target.value }))}
                            onKeyDown={(e) => { 
@@ -2269,14 +2293,14 @@ export default function PremiumCourseSession({
                    ))}
                  </div>
                ) : (
-                 <div className="space-y-4">
-                    <p className="text-2xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
+                 <div className="space-y-3">
+                    <p className="text-xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
                     <input 
                       type="text" 
                       autoFocus
                       value={inputValues[0] || ""}
                       disabled={!!feedback}
-                      className="w-full p-4 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                      className="w-full p-2 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                       placeholder="Escribe aquí..."
                       onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                       onKeyDown={(e) => { if (e.key === 'Enter' && (inputValues[0]?.trim().length || 0) > 0) handleCheckAnswer(inputValues[0] || ""); }}
@@ -2379,34 +2403,29 @@ export default function PremiumCourseSession({
 
       case 'true_false':
         return (
-          <div className="w-full max-w-xl mx-auto space-y-8">
+          <div className="w-full max-w-xl mx-auto space-y-4">
             <div className="space-y-4 text-center">
-              {/* Si NO hay stimulus, el prompt es el título principal */}
-              {!interaction.stimulus_en && (
-                <h2 className="text-xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
+              {/* Prompt/Question - Always at the top */}
+              {interaction.prompt_es && (
+                <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                  <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight">
+                    {interaction.prompt_es}
+                  </h2>
+                </div>
               )}
               
               {interaction.image_url && (
-                <div className="flex justify-center mb-4">
-                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                <div className="flex justify-center mb-2">
+                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[150px] object-cover" />
                 </div>
               )}
 
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-100 max-h-[40vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-xl font-bold text-slate-700 leading-relaxed text-left">
+                <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-100 max-h-[30vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed text-left">
                     {interaction.stimulus_en}
-                  </p>
-                </div>
-              )}
-
-              {/* Si HAY stimulus, mostramos el prompt debajo del stimulus de forma destacada */}
-              {interaction.stimulus_en && (
-                <div className="bg-indigo-50 p-6 rounded-[2rem] border-2 border-indigo-100 mb-4 relative group">
-                  <PronunciationButton text={interaction.prompt_es} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-xl font-black text-indigo-900 leading-tight">
-                    {interaction.prompt_es}
                   </p>
                 </div>
               )}
@@ -2415,37 +2434,37 @@ export default function PremiumCourseSession({
             {/* Show correction if wrong order */}
             {feedback && interaction.correct_answer === false && interaction.correct_order && (
               <div className="bg-indigo-50 p-4 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
-                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
-                <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
+                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-1">Orden Correcto:</p>
+                <p className="text-indigo-900 font-black text-lg italic leading-tight">
                   &quot;{interaction.correct_order}&quot;
                 </p>
               </div>
             )}
 
-            <div className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-1 gap-2">
               <button 
                 onClick={() => setSelectedOption(true)}
                 disabled={!!feedback}
-                className={`p-6 border-2 border-b-[6px] rounded-[1.5rem] font-black text-2xl transition-all flex items-center justify-between px-10 ${
+                className={`p-4 border-2 border-b-[4px] rounded-[1.2rem] font-black text-xl transition-all flex items-center justify-between px-8 ${
                   feedback ? (interaction.correct_answer === true ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
                   : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
                   : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
                 }`}
               >
                 VERDADERO
-                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-8 h-8" />}
+                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-6 h-6" />}
               </button>
               <button 
                 onClick={() => setSelectedOption(false)}
                 disabled={!!feedback}
-                className={`p-6 border-2 border-b-[6px] rounded-[1.5rem] font-black text-2xl transition-all flex items-center justify-between px-10 ${
+                className={`p-4 border-2 border-b-[4px] rounded-[1.2rem] font-black text-xl transition-all flex items-center justify-between px-8 ${
                   feedback ? (interaction.correct_answer === false ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
                   : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
                   : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
                 }`}
               >
                 FALSO
-                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-8 h-8" />}
+                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-6 h-6" />}
               </button>
             </div>
           </div>
@@ -2454,29 +2473,37 @@ export default function PremiumCourseSession({
       case 'short_writing':
       case 'dictation_guided':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-8">
+          <div className="w-full max-w-2xl mx-auto space-y-4">
              <div className="space-y-4">
-                <h2 className="text-xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+                {/* Prompt/Question - Always at the top */}
+                {interaction.prompt_es && (
+                  <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
+                    <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
+                      {interaction.prompt_es}
+                    </h2>
+                  </div>
+                )}
                 
                 {interaction.image_url && (
-                  <div className="flex justify-center mb-4">
-                    <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                  <div className="flex justify-center mb-2">
+                    <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[150px] object-cover" />
                   </div>
                 )}
 
                 {interaction.stimulus_es && (
-                   <p className="text-center text-indigo-600 font-black text-2xl mb-4">
+                   <p className="text-center text-indigo-600 font-black text-xl mb-2">
                      &quot;{interaction.stimulus_es}&quot;
                    </p>
                 )}
                 {interaction.example && (
-                   <p className="text-center text-slate-400 font-bold text-lg italic">
+                   <p className="text-center text-slate-400 font-bold text-base italic">
                      Ejemplo: &quot;{interaction.example}&quot;
                    </p>
                 )}
              </div>
-             <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-200 shadow-inner">
-                <div className="space-y-6 text-center">
+             <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner">
+                <div className="space-y-4 text-center">
                   {interaction.type === 'dictation_guided' && (
                     <div className="flex justify-center">
                       <Button

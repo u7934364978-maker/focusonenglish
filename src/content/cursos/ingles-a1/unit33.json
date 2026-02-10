@@ -283,7 +283,7 @@
         {
           "interaction_id": "A1_U33_B33_4_I5",
           "type": "true_false",
-          "prompt_es": "¿Mark siempre come sano en el desayuno?",
+          "prompt_es": "¿Anna va al gimnasio todos los días?",
           "correct_answer": false,
           "mastery_tag": "reading",
           "complexity": 1,
