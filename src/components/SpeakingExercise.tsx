@@ -233,7 +233,15 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
 
         {/* Prompt */}
         <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-2 border-orange-200 rounded-xl p-6 mb-6">
-          <p className="text-xl font-bold text-gray-900 mb-3">{question.prompt || (question as any).text || (question as any).question}</p>
+          <p className="text-xl font-bold text-gray-900 mb-3 text-center">
+            {question.prompt || (question as any).text || (question as any).question || "Por favor, repite la frase:"}
+          </p>
+          
+          {question.expectedResponse && (
+            <p className="text-3xl font-black text-orange-600 text-center my-4">
+              {question.expectedResponse}
+            </p>
+          )}
           
           {question.hints && question.hints.length > 0 && (
             <div className="mt-4 space-y-2">

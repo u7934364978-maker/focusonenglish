@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2 } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
-import EnhancedFeedback from './course/EnhancedFeedback';
 import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
@@ -399,7 +398,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                   )}
 
                   {/* Evaluation for this specific question */}
-                  {submitted && userAnswer?.questionIndex === qIndex && !isEvaluating && evaluation && (
+                  {submitted && userAnswer?.questionIndex === qIndex && evaluation && (
                     <div className={`mt-6 p-6 rounded-2xl animate-slide-in border-2 ${
                       evaluation.isCorrect ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-800'
                     }`}>

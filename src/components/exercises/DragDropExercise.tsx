@@ -49,12 +49,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
 
   const targetSentence = currentSentenceData.correctSentence || 
                          currentSentenceData.sentence || 
-                         (currentSentenceData.correctOrder && currentSentenceData.words 
-                           ? currentSentenceData.correctOrder.map(idx => {
-                               const index = typeof idx === 'string' ? parseInt(idx) : idx;
-                               return currentSentenceData.words![index];
-                             }).join(' ') 
-                           : '');
+                         "";
 
   const initializeSentence = () => {
     const data = currentSentenceData;

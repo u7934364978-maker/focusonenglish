@@ -40,18 +40,18 @@
 
 ### [x] Step: Implementation (Unit 1: Hello World!)
 
-1. Create `scripts/audit-a1-unit.mjs` to validate units.
-2. Create `src/lib/course/a1/unit-1.ts` with 50 exercises.
-3. Run audit script and fix issues.
-4. Refine UI components based on user feedback (Speaking, Matching, DragDrop, FillBlank).
-5. Translate all content to Spanish for A1 support.
-6. Remove AI-powered evaluation and replace with strict local validation.
-7. Commit & Push for user review.
+1. [x] Create `scripts/audit-a1-unit.mjs` to validate units.
+2. [x] Create `src/lib/course/a1/unit-1.ts` with 50 exercises.
+3. [x] Run audit script and fix issues.
+4. [x] Refine UI components based on user feedback (Speaking, Matching, DragDrop, FillBlank).
+5. [x] Translate all content to Spanish for A1 support.
+6. [x] Remove AI-powered evaluation and replace with strict local validation.
+7. [x] Commit & Push for user review. (Commit: `990494be`)
 
 ### [ ] Step: Implementation (Unit 2: Coffee Break)
 
-1. Create `src/lib/course/a1/unit-2.ts` with 50 exercises.
-2. Run audit script and fix issues.
-3. Commit & Push for user review.
+1. [ ] Create `src/lib/course/a1/unit-2.ts` with 50 exercises.
+2. [ ] Run audit script and fix issues.
+3. [ ] Commit & Push for user review.
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c250be3b-5de8-422e-b381-61e318a0e13b/plan.md`.
