@@ -2018,10 +2018,10 @@ export default function PremiumCourseSession({
       case 'odd_one_out':
       case 'role_play':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-8">
+          <div className="w-full max-w-2xl mx-auto space-y-6">
             {/* Si NO hay stimulus, mostramos el prompt arriba como título */}
             {!interaction.stimulus_en && (
-              <h2 className="text-2xl font-black text-slate-800 text-center mb-6">
+              <h2 className="text-xl font-black text-slate-800 text-center mb-4">
                 {interaction.prompt_es}
               </h2>
             )}
@@ -2030,20 +2030,20 @@ export default function PremiumCourseSession({
               <motion.div 
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="flex justify-center mb-8"
+                className="flex justify-center mb-6"
               >
                 <img 
                   src={interaction.image_url} 
                   alt="Context" 
-                  className="max-w-full h-auto rounded-[2rem] shadow-xl border-4 border-white max-h-[300px] object-cover"
+                  className="max-w-full h-auto rounded-[2rem] shadow-xl border-4 border-white max-h-[250px] object-cover"
                 />
               </motion.div>
             )}
 
             {interaction.stimulus_en && (
-               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[60vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
+               <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-100 text-center mb-6 max-h-[50vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-xl md:text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
+                  <p className="text-lg md:text-xl font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
                     {interaction.stimulus_en}
                   </p>
                </div>
@@ -2051,15 +2051,15 @@ export default function PremiumCourseSession({
 
             {/* Si HAY stimulus, mostramos el prompt debajo del estímulo en una caja destacada */}
             {interaction.stimulus_en && (
-              <div className="bg-indigo-50 p-8 rounded-[2rem] border-2 border-indigo-100 mb-6 relative group">
+              <div className="bg-indigo-50 p-6 rounded-[2rem] border-2 border-indigo-100 mb-4 relative group">
                 <PronunciationButton text={interaction.prompt_es} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <p className="text-2xl font-black text-indigo-900 leading-tight">
+                <p className="text-xl font-black text-indigo-900 leading-tight">
                   {interaction.prompt_es}
                 </p>
               </div>
             )}
 
-            <div className="grid gap-4">
+            <div className="grid gap-3">
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -2072,7 +2072,7 @@ export default function PremiumCourseSession({
                       if (!feedback) setSelectedOption(opt.id);
                     }
                   }}
-                  className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                  className={`w-full p-4 text-left border-2 border-b-4 rounded-3xl font-bold text-lg transition-all flex items-center justify-between group/opt cursor-pointer ${
                     feedback 
                       ? (() => {
                           const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
@@ -2127,11 +2127,18 @@ export default function PremiumCourseSession({
           const gaps = (stim.match(/_{2,}/g) || []).length || 1;
 
           return (
-            <div className="w-full max-w-2xl mx-auto space-y-8">
-              <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
-              <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner text-center relative group">
-                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
+            <div className="w-full max-w-2xl mx-auto space-y-6">
+              <h2 className="text-xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+              
+              {interaction.image_url && (
+                <div className="flex justify-center mb-4">
+                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                </div>
+              )}
+
+              <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-200 shadow-inner text-center relative group">
+                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-3 gap-y-4">
                   {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                     <React.Fragment key={i}>
                       <span>{part}</span>
@@ -2140,7 +2147,7 @@ export default function PremiumCourseSession({
                           role="button"
                           tabIndex={0}
                           onClick={() => !feedback && setActiveGapIndex(i)}
-                          className={`relative inline-block min-w-[120px] px-4 py-2 border-b-8 transition-all cursor-pointer ${
+                          className={`relative inline-block min-w-[100px] px-3 py-1 border-b-4 transition-all cursor-pointer ${
                             activeGapIndex === i ? 'border-indigo-500 bg-indigo-50/50' : 'border-slate-300'
                           } ${inputValues[i] ? 'text-indigo-600' : 'text-slate-200'}`}
                         >
@@ -2156,7 +2163,7 @@ export default function PremiumCourseSession({
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {(interaction.options || []).map((opt: any) => (
                   <div
                     key={opt.id}
@@ -2184,7 +2191,7 @@ export default function PremiumCourseSession({
                         }
                       }
                     }}
-                    className={`w-full p-4 text-center border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
+                    className={`w-full p-3 text-center border-2 border-b-4 rounded-2xl font-bold text-lg transition-all cursor-pointer ${
                       feedback 
                         ? (() => {
                             const isSelectedInAnyGap = Object.values(inputValues).includes(opt.id);
@@ -2217,14 +2224,21 @@ export default function PremiumCourseSession({
         }
 
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-8">
-            <h2 className="text-2xl font-black text-slate-800 text-center">
+          <div className="w-full max-w-2xl mx-auto space-y-6">
+            <h2 className="text-xl font-black text-slate-800 text-center">
               {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
             </h2>
-            <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner text-center relative group">
-               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
+
+            {interaction.image_url && (
+              <div className="flex justify-center mb-4">
+                <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+              </div>
+            )}
+
+            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-200 shadow-inner text-center relative group">
+               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
-                 <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
+                 <div className="text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-3 gap-y-4">
                    {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
@@ -2234,7 +2248,7 @@ export default function PremiumCourseSession({
                            autoFocus={i === 0}
                            value={inputValues[i] || ""}
                            disabled={!!feedback}
-                           className="w-48 p-2 border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                           className="w-40 p-1 border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                            placeholder="..."
                            onChange={(e) => setInputValues(prev => ({ ...prev, [i]: e.target.value }))}
                            onKeyDown={(e) => { 
@@ -2255,14 +2269,14 @@ export default function PremiumCourseSession({
                    ))}
                  </div>
                ) : (
-                 <div className="space-y-8">
-                    <p className="text-3xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
+                 <div className="space-y-4">
+                    <p className="text-2xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
                     <input 
                       type="text" 
                       autoFocus
                       value={inputValues[0] || ""}
                       disabled={!!feedback}
-                      className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                      className="w-full p-4 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                       placeholder="Escribe aquí..."
                       onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                       onKeyDown={(e) => { if (e.key === 'Enter' && (inputValues[0]?.trim().length || 0) > 0) handleCheckAnswer(inputValues[0] || ""); }}
@@ -2365,14 +2379,34 @@ export default function PremiumCourseSession({
 
       case 'true_false':
         return (
-          <div className="w-full max-w-xl mx-auto space-y-12">
-            <div className="space-y-6 text-center">
-              <h2 className="text-2xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
+          <div className="w-full max-w-xl mx-auto space-y-8">
+            <div className="space-y-4 text-center">
+              {/* Si NO hay stimulus, el prompt es el título principal */}
+              {!interaction.stimulus_en && (
+                <h2 className="text-xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
+              )}
+              
+              {interaction.image_url && (
+                <div className="flex justify-center mb-4">
+                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                </div>
+              )}
+
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
+                <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-100 max-h-[40vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
                   <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed">
+                  <p className="text-xl font-bold text-slate-700 leading-relaxed text-left">
                     {interaction.stimulus_en}
+                  </p>
+                </div>
+              )}
+
+              {/* Si HAY stimulus, mostramos el prompt debajo del stimulus de forma destacada */}
+              {interaction.stimulus_en && (
+                <div className="bg-indigo-50 p-6 rounded-[2rem] border-2 border-indigo-100 mb-4 relative group">
+                  <PronunciationButton text={interaction.prompt_es} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-xl font-black text-indigo-900 leading-tight">
+                    {interaction.prompt_es}
                   </p>
                 </div>
               )}
@@ -2380,7 +2414,7 @@ export default function PremiumCourseSession({
 
             {/* Show correction if wrong order */}
             {feedback && interaction.correct_answer === false && interaction.correct_order && (
-              <div className="bg-indigo-50 p-6 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
+              <div className="bg-indigo-50 p-4 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
                 <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
                 <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
                   &quot;{interaction.correct_order}&quot;
@@ -2388,30 +2422,30 @@ export default function PremiumCourseSession({
               </div>
             )}
 
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-1 gap-4">
               <button 
                 onClick={() => setSelectedOption(true)}
                 disabled={!!feedback}
-                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
+                className={`p-6 border-2 border-b-[6px] rounded-[1.5rem] font-black text-2xl transition-all flex items-center justify-between px-10 ${
                   feedback ? (interaction.correct_answer === true ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
+                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
                 }`}
               >
                 VERDADERO
-                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-10 h-10" />}
+                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-8 h-8" />}
               </button>
               <button 
                 onClick={() => setSelectedOption(false)}
                 disabled={!!feedback}
-                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
+                className={`p-6 border-2 border-b-[6px] rounded-[1.5rem] font-black text-2xl transition-all flex items-center justify-between px-10 ${
                   feedback ? (interaction.correct_answer === false ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
+                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
                 }`}
               >
                 FALSO
-                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-10 h-10" />}
+                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-8 h-8" />}
               </button>
             </div>
           </div>
@@ -2420,11 +2454,18 @@ export default function PremiumCourseSession({
       case 'short_writing':
       case 'dictation_guided':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-12">
+          <div className="w-full max-w-2xl mx-auto space-y-8">
              <div className="space-y-4">
-                <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+                <h2 className="text-xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+                
+                {interaction.image_url && (
+                  <div className="flex justify-center mb-4">
+                    <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-3xl shadow-lg border-2 border-white max-h-[200px] object-cover" />
+                  </div>
+                )}
+
                 {interaction.stimulus_es && (
-                   <p className="text-center text-indigo-600 font-black text-3xl mb-8">
+                   <p className="text-center text-indigo-600 font-black text-2xl mb-4">
                      &quot;{interaction.stimulus_es}&quot;
                    </p>
                 )}
@@ -2434,17 +2475,17 @@ export default function PremiumCourseSession({
                    </p>
                 )}
              </div>
-             <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner">
-                <div className="space-y-8 text-center">
+             <div className="bg-slate-50 p-6 rounded-3xl border-2 border-slate-200 shadow-inner">
+                <div className="space-y-6 text-center">
                   {interaction.type === 'dictation_guided' && (
                     <div className="flex justify-center">
                       <Button
                         variant="outline"
                         size="lg"
-                        className="h-20 w-20 rounded-full border-4 border-indigo-200"
+                        className="h-16 w-16 rounded-full border-4 border-indigo-200"
                         onClick={() => playAudio(interaction.audioUrl, interaction.tts_en || interaction.stimulus_en)}
                       >
-                        <Volume2 className="w-10 h-10 text-indigo-600" />
+                        <Volume2 className="w-8 h-8 text-indigo-600" />
                       </Button>
                     </div>
                   )}
@@ -2453,7 +2494,7 @@ export default function PremiumCourseSession({
                     value={inputValues[0] || ""}
                     autoFocus
                     disabled={!!feedback}
-                    className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                    className="w-full p-4 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                     placeholder="Escribe aquí..."
                     onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                     onKeyDown={(e) => { 
@@ -2630,7 +2671,7 @@ export default function PremiumCourseSession({
 
   return (
     <div className="fixed inset-0 bg-white z-50 flex flex-col overflow-y-auto">
-      <header className="max-w-5xl mx-auto w-full px-6 py-8 md:py-12 flex items-center gap-6">
+      <header className="max-w-5xl mx-auto w-full px-6 py-3 md:py-4 flex items-center gap-6">
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
@@ -2654,14 +2695,14 @@ export default function PremiumCourseSession({
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col items-center py-4 md:py-8 overflow-y-auto bg-slate-50/30">
+      <main className="flex-1 flex flex-col items-center py-2 md:py-3 overflow-y-auto bg-slate-50/30">
         <AnimatePresence mode="wait">
           <motion.div
             key={`${currentIndex}-${interactionIndex}-${isRepairing}-${showInteraction}-${currentSceneIndex}`}
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
+            className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[50vh]"
           >
             {currentItem?.main_instructions && 
              !["Lesson Exercises", "Exercise", "Unit Exercise", "Práctica", "Actividad"].includes(currentItem.main_instructions) && 
@@ -2704,7 +2745,7 @@ export default function PremiumCourseSession({
                 feedback.correct ? 'bg-[#d7ffb8] border-[#a5db5e]' : 'bg-[#ffdfe0] border-[#ee9b9e]'
               }`}
             >
-              <div className="max-w-4xl mx-auto px-6 py-4 md:py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="max-w-4xl mx-auto px-6 py-2 md:py-3 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="flex items-center gap-4">
                   <div className={`w-12 h-12 rounded-full flex items-center justify-center shadow-lg ${
                     feedback.correct ? 'bg-white text-green-500' : 'bg-white text-red-500'
@@ -2809,7 +2850,7 @@ export default function PremiumCourseSession({
         })()}
       </AnimatePresence>
 
-      <footer className={`p-4 md:p-6 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
+      <footer className={`p-2 md:p-3 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-4">
           <Button 
             variant="outline" 

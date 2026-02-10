@@ -23,10 +23,9 @@
 - [x] Ejecutar lint y validación de esquemas.
 - [x] Commitear y pushear cambios.
 
-## Fase 5: Arreglo de Visualización de Preguntas en Reading
-- [x] Analizar por qué no se muestra la pregunta cuando hay un estímulo (texto de lectura).
-- [x] Modificar `PremiumSession.tsx` para renderizar el `prompt_es` siempre visible y destacado cuando hay un estímulo.
-- [x] Verificar visualmente el cambio en la unidad 46.
-- [x] Auditar otros tipos de ejercicios (true_false, short_writing, fill_blanks) para asegurar consistencia en la visualización del prompt.
-- [x] Escribir prueba E2E para verificar que tanto el texto como la pregunta son visibles.
-- [x] Commitear y pushear cambios.
+## Fase 6: Optimización de UI y Contexto
+- [x] Agregar imagen al ejercicio del castillo en la unidad 48.
+- [x] Habilitar soporte de `image_url` para tipos de ejercicio `fill_blanks`, `short_writing` y `true_false`.
+- [x] Reducir espaciado (padding, margins) y tamaños de fuente en `PremiumSession.tsx` para mejorar la visibilidad en pantallas pequeñas.
+- [ ] Verificar que los cambios se visualizan correctamente en el navegador.
+- [ ] Commitear y pushear cambios.

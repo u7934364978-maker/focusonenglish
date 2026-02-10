@@ -86,6 +86,7 @@
           "interaction_id": "A1_U48_B48_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa el lugar:",
+          "image_url": "https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
           "stimulus_en": "We are visiting the old ________. (castillo)",
           "correct_answer": "castle",
           "mastery_tag": "vocabulary",
