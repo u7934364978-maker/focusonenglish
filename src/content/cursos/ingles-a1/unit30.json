@@ -248,7 +248,7 @@
           "interaction_id": "A1_U30_B2_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa: 'They ________ listening to music.' (Les gusta)",
-          "stimulus_en": "like",
+          "stimulus_en": "________",
           "correct_answer": "like",
           "mastery_tag": "grammar",
           "complexity": 3,
