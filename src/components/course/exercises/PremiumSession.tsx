@@ -980,7 +980,7 @@ export default function PremiumCourseSession({
       }
       
       setFeedback({ correct: true, message });
-      playAudio('/audio/correct.mp3');
+      // playAudio('/audio/correct.mp3');
 
       // Track progress if callback is provided
       if (onInteractionCorrect && interaction.interaction_id) {
@@ -1023,7 +1023,7 @@ export default function PremiumCourseSession({
       }
 
       setFeedback({ correct: false, message: message });
-      playAudio('/audio/wrong.mp3');
+      // playAudio('/audio/wrong.mp3');
     }
 
     // Auto-request AI explanation if static one is missing
