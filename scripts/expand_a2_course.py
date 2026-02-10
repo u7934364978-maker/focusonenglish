@@ -2406,11 +2406,17 @@ def generate_exercises(unit_id, count):
                 })
             else: # Fallback to MC Vocab if no comm_pool
                 word, translation = random.choice(vocab_pool)
+                # Pick 2 other random words as distractors
+                distractors = random.sample([v[0] for v in vocab_pool if v[0] != word], 2)
                 exercises.append({
                     "interaction_id": interaction_id,
                     "type": "multiple_choice",
                     "prompt_es": f"Selecciona la traducción correcta para '{translation}':",
-                    "options": [{"id": "o1", "text": word}, {"id": "o2", "text": "Wrong1"}, {"id": "o3", "text": "Wrong2"}],
+                    "options": [
+                        {"id": "o1", "text": word}, 
+                        {"id": "o2", "text": distractors[0]}, 
+                        {"id": "o3", "text": distractors[1]}
+                    ],
                     "correct_answer": "o1",
                     "mastery_tag": "vocabulary"
                 })

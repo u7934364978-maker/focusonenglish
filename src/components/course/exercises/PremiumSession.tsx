@@ -757,7 +757,8 @@ export default function PremiumCourseSession({
       ? currentItem.video.interactions[interactionIndex]
       : currentItem;
       
-    if ((interaction?.type === 'matching' || interaction?.type === 'vocabulary-match') && shuffledRight.length === 0) {
+    // Always clear and reshuffle when interaction changes
+    if (interaction?.type === 'matching' || interaction?.type === 'vocabulary-match' || interaction?.type === 'multiple_matching') {
       const pairs = (interaction.type === 'vocabulary-match') 
         ? (interaction.content?.pairs || interaction.pairs || [])
         : (interaction.pairs || []);
@@ -766,6 +767,7 @@ export default function PremiumCourseSession({
         id: p.id, 
         text: (interaction.type === 'vocabulary-match') ? p.correctMatch : p.right 
       }));
+
       // Fisher-Yates shuffle
       const shuffled = [...rightItems];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -773,9 +775,11 @@ export default function PremiumCourseSession({
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
       setShuffledRight(shuffled);
+    } else {
+      setShuffledRight([]);
     }
 
-    if (interaction?.type === 'reorder_words' && shuffledOptions.length === 0) {
+    if (interaction?.type === 'reorder_words') {
       // Fisher-Yates shuffle
       const shuffled = [...(interaction.options || [])];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -783,8 +787,10 @@ export default function PremiumCourseSession({
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
       setShuffledOptions(shuffled);
+    } else {
+      setShuffledOptions([]);
     }
-  }, [currentItem, interactionIndex, shuffledRight.length, shuffledOptions.length]);
+  }, [currentItem, interactionIndex]);
 
   // Robust normalization for comparison
   const handleNext = () => {
@@ -1375,14 +1381,21 @@ export default function PremiumCourseSession({
                         setMatchingSelections({});
                       } else setMatchingSelections(newSelections);
                     }}
-                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
-                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
+                    className={`w-full p-4 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none opacity-50' :
                       matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <span>{p.left || p.word}</span>
-                    <PronunciationButton text={p.left || p.word} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
+                    <div className="flex flex-col items-center gap-2 w-full">
+                      {(p.left_image || p.image_url) && (
+                        <img src={p.left_image || p.image_url} alt="Match" className="w-full h-24 object-cover rounded-xl mb-1" />
+                      )}
+                      <div className="flex items-center justify-between w-full">
+                        <span className="truncate">{p.left || p.word}</span>
+                        {p.left || p.word ? <PronunciationButton text={p.left || p.word} size="sm" className="opacity-0 group-hover/left:opacity-100 transition-opacity" /> : null}
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -1979,14 +1992,21 @@ export default function PremiumCourseSession({
                         } else setMatchingSelections(newSelections);
                       }
                     }}
-                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
-                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
+                    className={`w-full p-4 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none opacity-50' :
                       matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <span>{p.left}</span>
-                    <PronunciationButton text={p.left} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
+                    <div className="flex flex-col items-center gap-2 w-full">
+                      {(p.left_image || p.image_url) && (
+                        <img src={p.left_image || p.image_url} alt="Match" className="w-full h-24 object-cover rounded-xl mb-1" />
+                      )}
+                      <div className="flex items-center justify-between w-full">
+                        <span className="truncate">{p.left}</span>
+                        {p.left ? <PronunciationButton text={p.left} size="sm" className="opacity-0 group-hover/left:opacity-100 transition-opacity" /> : null}
+                      </div>
+                    </div>
                   </div>
                 ))}
               </div>

@@ -1,7 +1,12 @@
 -- Migration for ingles-a2
--- Generated on: 2026-02-10T17:03:47.818Z
+-- Generated on: 2026-02-10T17:32:31.053Z
 
 BEGIN;
+
+-- Cleanup existing content for ingles-a2
+DELETE FROM public.course_exercises WHERE lesson_id IN (SELECT id FROM public.course_lessons WHERE module_id = 'ingles-a2');
+DELETE FROM public.course_lessons WHERE module_id = 'ingles-a2';
+DELETE FROM public.course_modules WHERE id = 'ingles-a2';
 
 INSERT INTO public.course_modules (id, course_level, course_goal, order_index, title)
 VALUES ('ingles-a2', 'A2', 'generic', 2, 'English A2 - Elementary')

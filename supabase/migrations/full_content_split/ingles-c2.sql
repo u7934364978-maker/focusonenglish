@@ -1,7 +1,9 @@
--- Migration for ingles-c2
--- Generated on: 2026-02-10T17:03:47.985Z
-
 BEGIN;
+
+-- Cleanup existing content for ingles-c2
+DELETE FROM public.course_exercises WHERE lesson_id IN (SELECT id FROM public.course_lessons WHERE module_id = 'ingles-c2');
+DELETE FROM public.course_lessons WHERE module_id = 'ingles-c2';
+DELETE FROM public.course_modules WHERE id = 'ingles-c2';
 
 INSERT INTO public.course_modules (id, course_level, course_goal, order_index, title)
 VALUES ('ingles-c2', 'C2', 'generic', 6, 'English C2 - Proficiency')

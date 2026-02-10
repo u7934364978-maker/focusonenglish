@@ -1,7 +1,12 @@
 -- Migration for ingles-b2
--- Generated on: 2026-02-10T17:03:47.958Z
+-- Generated on: 2026-02-10T17:32:31.123Z
 
 BEGIN;
+
+-- Cleanup existing content for ingles-b2
+DELETE FROM public.course_exercises WHERE lesson_id IN (SELECT id FROM public.course_lessons WHERE module_id = 'ingles-b2');
+DELETE FROM public.course_lessons WHERE module_id = 'ingles-b2';
+DELETE FROM public.course_modules WHERE id = 'ingles-b2';
 
 INSERT INTO public.course_modules (id, course_level, course_goal, order_index, title)
 VALUES ('ingles-b2', 'B2', 'generic', 4, 'English B2 - Upper Intermediate')

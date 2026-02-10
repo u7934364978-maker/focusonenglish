@@ -1,14 +1,29 @@
 -- Migration for ingles-a1
--- Generated on: 2026-02-10T17:03:47.765Z
+-- Generated on: 2026-02-10T17:32:31.014Z
 
 BEGIN;
+
+-- Cleanup existing content for ingles-a1
+DELETE FROM public.course_exercises WHERE lesson_id IN (SELECT id FROM public.course_lessons WHERE module_id = 'ingles-a1');
+DELETE FROM public.course_lessons WHERE module_id = 'ingles-a1';
+DELETE FROM public.course_modules WHERE id = 'ingles-a1';
 
 INSERT INTO public.course_modules (id, course_level, course_goal, order_index, title)
 VALUES ('ingles-a1', 'A1', 'generic', 1, 'English A1 - Beginner')
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, course_level = EXCLUDED.course_level;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit1', 'ingles-a1', 1, 'Greetings and Personal Information', 120)
+VALUES ('ingles-a1-unit0', 'ingles-a1', 1, 'Visual English: First Words', 30)
+ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES ('A1_U0_B1_I1', 'ingles-a1-unit0', 1, 'matching', 'Une la imagen con su nombre en inglés:', '{"prompt_es":"Une la imagen con su nombre en inglés:","pairs":[{"id":"p1","left":"Gato","right":"Cat","left_image":"https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"},{"id":"p2","left":"Perro","right":"Dog","left_image":"https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"},{"id":"p3","left":"Pájaro","right":"Bird","left_image":"https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"},{"id":"p4","left":"Pez","right":"Fish","left_image":"https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary:animals","concept_tags":["vocabulary","animals"],"complexity":1}')
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
+INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
+VALUES ('A1_U0_B2_I1', 'ingles-a1-unit0', 2, 'matching', 'Une el color con su nombre:', '{"prompt_es":"Une el color con su nombre:","pairs":[{"id":"c1","left":"Rojo","right":"Red","left_image":"https://placehold.co/600x400/ff0000/ff0000.png"},{"id":"c2","left":"Azul","right":"Blue","left_image":"https://placehold.co/600x400/0000ff/0000ff.png"},{"id":"c3","left":"Amarillo","right":"Yellow","left_image":"https://placehold.co/600x400/ffff00/ffff00.png"},{"id":"c4","left":"Verde","right":"Green","left_image":"https://placehold.co/600x400/00ff00/00ff00.png"}],"correct_answer":{"c1":"c1","c2":"c2","c3":"c3","c4":"c4"},"mastery_tag":"vocabulary:colors","concept_tags":["vocabulary","colors"],"complexity":1}')
+ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
+
+INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
+VALUES ('ingles-a1-unit1', 'ingles-a1', 2, 'Greetings and Personal Information', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U1_B1_I1', 'ingles-a1-unit1', 1, 'matching', 'Asocia cada saludo con su momento del día o contexto:', '{"prompt_es":"Asocia cada saludo con su momento del día o contexto:","pairs":[{"id":"p1","left":"Good morning","right":"06:00 - 12:00"},{"id":"p2","left":"Good afternoon","right":"12:00 - 18:00"},{"id":"p3","left":"Good evening","right":"18:00 - Despedida"},{"id":"p4","left":"Hello / Hi","right":"Cualquier momento"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary:greetings","concept_tags":["vocabulary","greetings"],"complexity":1}')
@@ -33,7 +48,7 @@ VALUES ('A1_U1_B3_I2', 'ingles-a1-unit1', 7, 'short_writing', 'Traduce al inglé
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit2', 'ingles-a1', 2, 'Verb ''to be'' and Subject Pronouns', 120)
+VALUES ('ingles-a1-unit2', 'ingles-a1', 3, 'Verb ''to be'' and Subject Pronouns', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U2_B1_I1', 'ingles-a1-unit2', 1, 'matching', 'Une el pronombre con su significado:', '{"prompt_es":"Une el pronombre con su significado:","pairs":[{"id":"p1","left":"I","right":"Yo"},{"id":"p2","left":"He","right":"Él"},{"id":"p3","left":"She","right":"Ella"},{"id":"p4","left":"It","right":"Eso/Ello (cosas/animales)"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"grammar:pronouns","concept_tags":["grammar","pronouns"],"complexity":1}')
@@ -58,7 +73,7 @@ VALUES ('A1_U2_B3_I2', 'ingles-a1-unit2', 7, 'fill_blanks', 'Usa la contracción
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit3', 'ingles-a1', 3, 'Verb ''to be'': Negatives and Questions', 120)
+VALUES ('ingles-a1-unit3', 'ingles-a1', 4, 'Verb ''to be'': Negatives and Questions', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U3_B1_I1', 'ingles-a1-unit3', 1, 'multiple_choice', '¿Cuál es la forma correcta para decir ''Yo no soy''?', '{"prompt_es":"¿Cuál es la forma correcta para decir ''Yo no soy''?","options":[{"id":"o1","text":"I not am"},{"id":"o2","text":"I am not"},{"id":"o3","text":"I no am"}],"correct_answer":"o2","explanation":"En inglés, el ''not'' siempre va después del verbo ''to be''.","mastery_tag":"grammar:to-be:negative","concept_tags":["grammar","to-be"],"complexity":1}')
@@ -77,7 +92,7 @@ VALUES ('A1_U3_B3_I1', 'ingles-a1-unit3', 5, 'matching', 'Une la pregunta con su
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit4', 'ingles-a1', 4, 'Essential Vocabulary: Numbers and Objects', 120)
+VALUES ('ingles-a1-unit4', 'ingles-a1', 5, 'Essential Vocabulary: Numbers and Objects', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U4_B1_I1', 'ingles-a1-unit4', 1, 'matching', 'Une el número con su palabra en inglés:', '{"prompt_es":"Une el número con su palabra en inglés:","pairs":[{"id":"p1","left":"1","right":"One"},{"id":"p2","left":"3","right":"Three"},{"id":"p3","left":"5","right":"Five"},{"id":"p4","left":"8","right":"Eight"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary:numbers","concept_tags":["vocabulary","numbers"],"complexity":1}')
@@ -96,7 +111,7 @@ VALUES ('A1_U4_B3_I2', 'ingles-a1-unit4', 5, 'reorder_words', 'Ordena: ''Tengo u
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit5', 'ingles-a1', 5, 'Simple Present: Everyday Actions', 120)
+VALUES ('ingles-a1-unit5', 'ingles-a1', 6, 'Simple Present: Everyday Actions', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U5_B1_I1', 'ingles-a1-unit5', 1, 'matching', 'Une el verbo con su traducción:', '{"prompt_es":"Une el verbo con su traducción:","pairs":[{"id":"p1","left":"I work","right":"Yo trabajo"},{"id":"p2","left":"I study","right":"Yo estudio"},{"id":"p3","left":"I live","right":"Yo vivo"},{"id":"p4","left":"I like","right":"Me gusta"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary:verbs","concept_tags":["vocabulary","verbs"],"complexity":1}')
@@ -115,7 +130,7 @@ VALUES ('A1_U5_B3_I2', 'ingles-a1-unit5', 5, 'matching', 'Une el sujeto con el v
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit6', 'ingles-a1', 6, 'Family Members', 60)
+VALUES ('ingles-a1-unit6', 'ingles-a1', 7, 'Family Members', 60)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U6_B1_I1', 'ingles-a1-unit6', 1, 'matching', 'Relaciona los miembros de la familia:', '{"prompt_es":"Relaciona los miembros de la familia:","pairs":[{"id":"p1","left":"Father","right":"Padre"},{"id":"p2","left":"Mother","right":"Madre"},{"id":"p3","left":"Brother","right":"Hermano"},{"id":"p4","left":"Sister","right":"Hermana"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocab:family","concept_tags":["vocabulary","family"],"complexity":1}')
@@ -137,7 +152,7 @@ VALUES ('A1_U6_B3_I2', 'ingles-a1-unit6', 6, 'multiple_choice', 'Si Peter es el 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit7', 'ingles-a1', 7, 'Colors & Describing Things', 60)
+VALUES ('ingles-a1-unit7', 'ingles-a1', 8, 'Colors & Describing Things', 60)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U7_B1_I1', 'ingles-a1-unit7', 1, 'matching', 'Relaciona los colores:', '{"prompt_es":"Relaciona los colores:","pairs":[{"id":"p1","left":"Red","right":"Rojo"},{"id":"p2","left":"Blue","right":"Azul"},{"id":"p3","left":"Green","right":"Verde"},{"id":"p4","left":"Yellow","right":"Amarillo"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocab:colors","concept_tags":["vocabulary","colors"],"complexity":1}')
@@ -159,7 +174,7 @@ VALUES ('A1_U7_B3_I2', 'ingles-a1-unit7', 6, 'fill_blanks', 'Completa: ''Tengo u
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit8', 'ingles-a1', 8, 'Numbers 20-100', 60)
+VALUES ('ingles-a1-unit8', 'ingles-a1', 9, 'Numbers 20-100', 60)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U8_B1_I1', 'ingles-a1-unit8', 1, 'matching', 'Relaciona las decenas:', '{"prompt_es":"Relaciona las decenas:","pairs":[{"id":"p1","left":"Twenty","right":"Veinte"},{"id":"p2","left":"Thirty","right":"Treinta"},{"id":"p3","left":"Forty","right":"Cuarenta"},{"id":"p4","left":"Fifty","right":"Cincuenta"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"explanation":"Las decenas en inglés suelen terminar en ''-ty''. Por ejemplo: Twenty (20), Thirty (30), Forty (40), Fifty (50).","mastery_tag":"vocab:numbers","concept_tags":["vocabulary","numbers"],"complexity":1}')
@@ -181,7 +196,7 @@ VALUES ('A1_U8_B3_I2', 'ingles-a1-unit8', 6, 'multiple_choice', 'Si un libro cue
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit9', 'ingles-a1', 9, 'Jobs & Occupations', 60)
+VALUES ('ingles-a1-unit9', 'ingles-a1', 10, 'Jobs & Occupations', 60)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U9_B1_I1', 'ingles-a1-unit9', 1, 'matching', 'Relaciona los trabajos:', '{"prompt_es":"Relaciona los trabajos:","pairs":[{"id":"p1","left":"Teacher","right":"Profesor"},{"id":"p2","left":"Doctor","right":"Médico"},{"id":"p3","left":"Nurse","right":"Enfermero/a"},{"id":"p4","left":"Engineer","right":"Ingeniero"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocab:jobs","concept_tags":["vocabulary","jobs"],"complexity":1}')
@@ -200,7 +215,7 @@ VALUES ('A1_U9_B3_I2', 'ingles-a1-unit9', 5, 'multiple_choice', 'Si alguien te p
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit10', 'ingles-a1', 10, 'Module 1 Review: Consolidation', 60)
+VALUES ('ingles-a1-unit10', 'ingles-a1', 11, 'Module 1 Review: Consolidation', 60)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U10_B1_I1', 'ingles-a1-unit10', 1, 'reorder_words', 'Ordena la frase correctamente (Adjetivos):', '{"prompt_es":"Ordena la frase correctamente (Adjetivos):","options":[{"id":"w1","text":"He"},{"id":"w2","text":"has"},{"id":"w3","text":"a"},{"id":"w4","text":"big"},{"id":"w5","text":"blue"},{"id":"w6","text":"car"}],"correct_answer":["w1","w2","w3","w4","w5","w6"],"mastery_tag":"syntax","complexity":2,"concept_tags":["grammar","syntax"]}')
@@ -255,7 +270,7 @@ VALUES ('A1_U10_B4_I5', 'ingles-a1-unit10', 17, 'reorder_words', 'Ordena el resu
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit11', 'ingles-a1', 11, 'Telling the Time', 45)
+VALUES ('ingles-a1-unit11', 'ingles-a1', 12, 'Telling the Time', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U11_B1_I1', 'ingles-a1-unit11', 1, 'multiple_choice', '¿Cómo se dice ''Son las ocho en punto''?', '{"prompt_es":"¿Cómo se dice ''Son las ocho en punto''?","options":[{"id":"o1","text":"It is eight o''clock"},{"id":"o2","text":"It is eight hours"},{"id":"o3","text":"It is eight in point"}],"correct_answer":"o1","explanation":"Para las horas en punto usamos ''o''clock''. Ejemplo: It is eight o''clock.","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
@@ -316,7 +331,7 @@ VALUES ('A1_U11_B4_I5', 'ingles-a1-unit11', 19, 'fill_blanks', 'Completa: ''Yo d
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit12', 'ingles-a1', 12, 'Days of the Week', 45)
+VALUES ('ingles-a1-unit12', 'ingles-a1', 13, 'Days of the Week', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U12_B1_I1', 'ingles-a1-unit12', 1, 'matching', 'Une el día en inglés con su traducción:', '{"prompt_es":"Une el día en inglés con su traducción:","pairs":[{"id":"p1","left":"Monday","right":"Lunes"},{"id":"p2","left":"Tuesday","right":"Martes"},{"id":"p3","left":"Wednesday","right":"Miércoles"},{"id":"p4","left":"Thursday","right":"Jueves"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -371,7 +386,7 @@ VALUES ('A1_U12_B4_I5', 'ingles-a1-unit12', 17, 'true_false', 'Según el texto, 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit13', 'ingles-a1', 13, 'Daily Routine', 45)
+VALUES ('ingles-a1-unit13', 'ingles-a1', 14, 'Daily Routine', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U13_B1_I4', 'ingles-a1-unit13', 1, 'fill_blanks', 'Completa la acción:', '{"prompt_es":"Completa la acción:","stimulus_en":"I ______ my teeth every morning.","correct_answer":"brush","mastery_tag":"vocabulary","complexity":3,"concept_tags":["grammar","vocabulary"]}')
@@ -417,7 +432,7 @@ VALUES ('A1_U13_B4_I5', 'ingles-a1-unit13', 14, 'fill_blanks', 'Completa con el 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit14', 'ingles-a1', 14, 'Present Simple: Affirmative and Negative', 45)
+VALUES ('ingles-a1-unit14', 'ingles-a1', 15, 'Present Simple: Affirmative and Negative', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U14_B1_I1', 'ingles-a1-unit14', 1, 'multiple_choice', '¿Cómo se dice ''Nosotros vivimos en Londres''?', '{"prompt_es":"¿Cómo se dice ''Nosotros vivimos en Londres''?","options":[{"id":"o1","text":"We live in London"},{"id":"o2","text":"We living in London"},{"id":"o3","text":"We lives in London"}],"correct_answer":"o1","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
@@ -472,7 +487,7 @@ VALUES ('A1_U14_B4_I5', 'ingles-a1-unit14', 17, 'fill_blanks', 'Completa con el 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit15', 'ingles-a1', 15, 'Present Simple: He, She, It', 45)
+VALUES ('ingles-a1-unit15', 'ingles-a1', 16, 'Present Simple: He, She, It', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U15_B1_I1', 'ingles-a1-unit15', 1, 'multiple_choice', '¿Cómo se dice ''Él trabaja en un banco''?', '{"prompt_es":"¿Cómo se dice ''Él trabaja en un banco''?","options":[{"id":"o1","text":"He work in a bank"},{"id":"o2","text":"He works in a bank"},{"id":"o3","text":"He working in a bank"}],"correct_answer":"o2","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
@@ -530,7 +545,7 @@ VALUES ('A1_U15_B4_I5', 'ingles-a1-unit15', 18, 'fill_blanks', 'Completa con el 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit16', 'ingles-a1', 16, 'At the Cafe', 45)
+VALUES ('ingles-a1-unit16', 'ingles-a1', 17, 'At the Cafe', 45)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U16_B1_I1', 'ingles-a1-unit16', 1, 'matching', 'Une las bebidas con su traducción:', '{"prompt_es":"Une las bebidas con su traducción:","pairs":[{"id":"p1","left":"Coffee","right":"Café"},{"id":"p2","left":"Tea","right":"Té"},{"id":"p3","left":"Water","right":"Agua"},{"id":"p4","left":"Juice","right":"Zumo"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -591,7 +606,7 @@ VALUES ('A1_U16_B4_I5', 'ingles-a1-unit16', 19, 'flashcard', '¿Cómo se dice ''
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit17', 'ingles-a1', 17, 'Breakfast, Lunch & Dinner', 120)
+VALUES ('ingles-a1-unit17', 'ingles-a1', 18, 'Breakfast, Lunch & Dinner', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U17_B1_I1', 'ingles-a1-unit17', 1, 'matching', 'Une las comidas con su traducción:', '{"prompt_es":"Une las comidas con su traducción:","pairs":[{"id":"p1","left":"Breakfast","right":"Desayuno"},{"id":"p2","left":"Lunch","right":"Almuerzo/Comida"},{"id":"p3","left":"Dinner","right":"Cena"},{"id":"p4","left":"Snack","right":"Merienda/Tentempié"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -649,7 +664,7 @@ VALUES ('A1_U17_B4_I5', 'ingles-a1-unit17', 18, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit18', 'ingles-a1', 18, 'Likes & Dislikes', 120)
+VALUES ('ingles-a1-unit18', 'ingles-a1', 19, 'Likes & Dislikes', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U18_B1_I1', 'ingles-a1-unit18', 1, 'matching', 'Une cada verbo con su intensidad (de menos a más):', '{"prompt_es":"Une cada verbo con su intensidad (de menos a más):","pairs":[{"id":"p1","left":"Hate","right":"Odiar (--) "},{"id":"p2","left":"Don''t like","right":"No gustar (-)"},{"id":"p3","left":"Like","right":"Gustar (+)"},{"id":"p4","left":"Love","right":"Encantar/Amar (++)"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -707,7 +722,7 @@ VALUES ('A1_U18_B4_I5', 'ingles-a1-unit18', 18, 'categorization', 'Clasifica seg
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit19', 'ingles-a1', 19, 'Months & Dates', 120)
+VALUES ('ingles-a1-unit19', 'ingles-a1', 20, 'Months & Dates', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U19_B1_I1', 'ingles-a1-unit19', 1, 'matching', 'Une los meses con su traducción:', '{"prompt_es":"Une los meses con su traducción:","pairs":[{"id":"p1","left":"January","right":"Enero"},{"id":"p2","left":"June","right":"Junio"},{"id":"p3","left":"August","right":"Agosto"},{"id":"p4","left":"December","right":"Diciembre"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -765,7 +780,7 @@ VALUES ('A1_U19_B4_I5', 'ingles-a1-unit19', 18, 'categorization', 'Clasifica por
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit20', 'ingles-a1', 20, 'Module 2 Review', 120)
+VALUES ('ingles-a1-unit20', 'ingles-a1', 21, 'Module 2 Review', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U20_B1_I1', 'ingles-a1-unit20', 1, 'matching', 'Asocia cada palabra con su categoría:', '{"prompt_es":"Asocia cada palabra con su categoría:","pairs":[{"id":"p1","left":"Dinner","right":"Meal"},{"id":"p2","left":"October","right":"Month"},{"id":"p3","left":"Tuesday","right":"Day"},{"id":"p4","left":"Brother","right":"Family"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -826,7 +841,7 @@ VALUES ('A1_U20_B4_I5', 'ingles-a1-unit20', 19, 'categorization', 'Clasifica seg
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit21', 'ingles-a1', 21, 'Rooms in a House', 120)
+VALUES ('ingles-a1-unit21', 'ingles-a1', 22, 'Rooms in a House', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U21_B1_I1', 'ingles-a1-unit21', 1, 'matching', 'Une las habitaciones con su traducción:', '{"prompt_es":"Une las habitaciones con su traducción:","pairs":[{"id":"p1","left":"Living room","right":"Salón"},{"id":"p2","left":"Bedroom","right":"Dormitorio"},{"id":"p3","left":"Kitchen","right":"Cocina"},{"id":"p4","left":"Bathroom","right":"Baño"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -884,7 +899,7 @@ VALUES ('A1_U21_B4_I5', 'ingles-a1-unit21', 18, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit22', 'ingles-a1', 22, 'Furniture & Household Items', 120)
+VALUES ('ingles-a1-unit22', 'ingles-a1', 23, 'Furniture & Household Items', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U22_B1_I1', 'ingles-a1-unit22', 1, 'matching', 'Une los muebles con su traducción:', '{"prompt_es":"Une los muebles con su traducción:","pairs":[{"id":"p1","left":"Table","right":"Mesa"},{"id":"p2","left":"Chair","right":"Silla"},{"id":"p3","left":"Bed","right":"Cama"},{"id":"p4","left":"Sofa","right":"Sofá"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -942,7 +957,7 @@ VALUES ('A1_U22_B4_I5', 'ingles-a1-unit22', 18, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit23', 'ingles-a1', 23, 'Adjectives for the Home', 120)
+VALUES ('ingles-a1-unit23', 'ingles-a1', 24, 'Adjectives for the Home', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U23_B1_I1', 'ingles-a1-unit23', 1, 'matching', 'Une los adjetivos opuestos:', '{"prompt_es":"Une los adjetivos opuestos:","pairs":[{"id":"p1","left":"Big","right":"Small"},{"id":"p2","left":"New","right":"Old"},{"id":"p3","left":"Modern","right":"Traditional"},{"id":"p4","left":"Clean","right":"Dirty"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1000,7 +1015,7 @@ VALUES ('A1_U23_B4_I5', 'ingles-a1-unit23', 18, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit24', 'ingles-a1', 24, 'Places in the City', 120)
+VALUES ('ingles-a1-unit24', 'ingles-a1', 25, 'Places in the City', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U24_B1_I2', 'ingles-a1-unit24', 1, 'multiple_choice', '¿Dónde compras comida?', '{"prompt_es":"¿Dónde compras comida?","options":[{"id":"o1","text":"At the hospital"},{"id":"o2","text":"At the supermarket"},{"id":"o3","text":"At the bank"}],"correct_answer":"o2","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1055,7 +1070,7 @@ VALUES ('A1_U24_B4_I5', 'ingles-a1-unit24', 17, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit25', 'ingles-a1', 25, 'Giving Directions', 120)
+VALUES ('ingles-a1-unit25', 'ingles-a1', 26, 'Giving Directions', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U25_B1_I1', 'ingles-a1-unit25', 1, 'matching', 'Une las direcciones con su traducción:', '{"prompt_es":"Une las direcciones con su traducción:","pairs":[{"id":"p1","left":"Turn left","right":"Gira a la izquierda"},{"id":"p2","left":"Turn right","right":"Gira a la derecha"},{"id":"p3","left":"Go straight ahead","right":"Sigue todo recto"},{"id":"p4","left":"On the corner","right":"En la esquina"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1113,7 +1128,7 @@ VALUES ('A1_U25_B4_I5', 'ingles-a1-unit25', 18, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit26', 'ingles-a1', 26, 'Public Transport', 120)
+VALUES ('ingles-a1-unit26', 'ingles-a1', 27, 'Public Transport', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U26_B1_I2', 'ingles-a1-unit26', 1, 'multiple_choice', '¿Dónde esperas el tren?', '{"prompt_es":"¿Dónde esperas el tren?","options":[{"id":"o1","text":"At the bus stop"},{"id":"o2","text":"At the train station"},{"id":"o3","text":"At the airport"}],"correct_answer":"o2","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1168,7 +1183,7 @@ VALUES ('A1_U26_B4_I5', 'ingles-a1-unit26', 17, 'categorization', 'Clasifica en 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit27', 'ingles-a1', 27, 'Personal Information', 120)
+VALUES ('ingles-a1-unit27', 'ingles-a1', 28, 'Personal Information', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U27_B1_I1', 'ingles-a1-unit27', 1, 'matching', 'Une los términos con su significado:', '{"prompt_es":"Une los términos con su significado:","pairs":[{"id":"p1","left":"First name","right":"Nombre"},{"id":"p2","left":"Surname","right":"Apellido"},{"id":"p3","left":"Occupation","right":"Ocupación/Trabajo"},{"id":"p4","left":"Nationality","right":"Nacionalidad"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1232,7 +1247,7 @@ VALUES ('A1_U27_B4_I5', 'ingles-a1-unit27', 20, 'categorization', 'Clasifica los
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit28', 'ingles-a1', 28, 'Jobs & Workplace', 120)
+VALUES ('ingles-a1-unit28', 'ingles-a1', 29, 'Jobs & Workplace', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U28_B1_I1', 'ingles-a1-unit28', 1, 'matching', 'Une el trabajo con el lugar:', '{"prompt_es":"Une el trabajo con el lugar:","pairs":[{"id":"p1","left":"Doctor","right":"Hospital"},{"id":"p2","left":"Teacher","right":"School"},{"id":"p3","left":"Office worker","right":"Office"},{"id":"p4","left":"Shop assistant","right":"Shop / Store"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1287,7 +1302,7 @@ VALUES ('A1_U28_B4_I5', 'ingles-a1-unit28', 17, 'categorization', 'Trabajo vs Lu
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit29', 'ingles-a1', 29, 'Daily Routine', 120)
+VALUES ('ingles-a1-unit29', 'ingles-a1', 30, 'Daily Routine', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U29_B1_I1', 'ingles-a1-unit29', 1, 'matching', 'Une las acciones de la rutina:', '{"prompt_es":"Une las acciones de la rutina:","pairs":[{"id":"p1","left":"Wake up","right":"Despertarse"},{"id":"p2","left":"Have breakfast","right":"Desayunar"},{"id":"p3","left":"Go to work","right":"Ir al trabajo"},{"id":"p4","left":"Sleep","right":"Dormir"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1345,7 +1360,7 @@ VALUES ('A1_U29_B4_I5', 'ingles-a1-unit29', 18, 'categorization', 'Mañana vs No
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit30', 'ingles-a1', 30, 'Free Time & Hobbies', 120)
+VALUES ('ingles-a1-unit30', 'ingles-a1', 31, 'Free Time & Hobbies', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U30_B1_I1', 'ingles-a1-unit30', 1, 'matching', 'Une los hobbies con su traducción:', '{"prompt_es":"Une los hobbies con su traducción:","pairs":[{"id":"p1","left":"Read books","right":"Leer libros"},{"id":"p2","left":"Play football","right":"Jugar fútbol"},{"id":"p3","left":"Watch movies","right":"Ver películas"},{"id":"p4","left":"Listen to music","right":"Escuchar música"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1375,7 +1390,7 @@ INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, co
 VALUES ('A1_U30_B2_I4', 'ingles-a1-unit30', 9, 'multiple_choice', 'Forma negativa: ''No me gusta correr''', '{"prompt_es":"Forma negativa: ''No me gusta correr''","options":[{"id":"o1","text":"I not like running"},{"id":"o2","text":"I don''t like running"},{"id":"o3","text":"I doesn''t like running"}],"correct_answer":"o2","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES ('A1_U30_B2_I5', 'ingles-a1-unit30', 10, 'fill_blanks', 'Completa: ''They ________ listening to music.'' (Les gusta)', '{"prompt_es":"Completa: ''They ________ listening to music.'' (Les gusta)","stimulus_en":"________","correct_answer":"like","mastery_tag":"grammar","complexity":3,"concept_tags":["grammar","grammar"]}')
+VALUES ('A1_U30_B2_I5', 'ingles-a1-unit30', 10, 'fill_blanks', 'Completa con ''like'' (Les gusta):', '{"prompt_es":"Completa con ''like'' (Les gusta):","stimulus_en":"They ________ listening to music.","correct_answer":"like","mastery_tag":"grammar","complexity":3,"concept_tags":["grammar","grammar"]}')
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U30_B3_I1', 'ingles-a1-unit30', 11, 'reorder_words', 'Ordena: ''¿Te gusta leer?''', '{"prompt_es":"Ordena: ''¿Te gusta leer?''","options":[{"id":"w1","text":"Do"},{"id":"w2","text":"you"},{"id":"w3","text":"like"},{"id":"w4","text":"reading?"}],"correct_answer":["w1","w2","w3","w4"],"mastery_tag":"syntax","complexity":2,"concept_tags":["grammar","syntax"]}')
@@ -1403,7 +1418,7 @@ VALUES ('A1_U30_B4_I5', 'ingles-a1-unit30', 18, 'categorization', 'Deportes vs R
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit31', 'ingles-a1', 31, 'Can for Ability', 120)
+VALUES ('ingles-a1-unit31', 'ingles-a1', 32, 'Can for Ability', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U31_B31_1_I1', 'ingles-a1-unit31', 1, 'matching', 'Relaciona los verbos de habilidad con su traducción:', '{"prompt_es":"Relaciona los verbos de habilidad con su traducción:","pairs":[{"id":"p1","left":"Swim","right":"Nadar"},{"id":"p2","left":"Dance","right":"Bailar"},{"id":"p3","left":"Draw","right":"Dibujar"},{"id":"p4","left":"Cook","right":"Cocinar"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1458,7 +1473,7 @@ VALUES ('A1_U31_B31_4_I5', 'ingles-a1-unit31', 17, 'multiple_choice', '¿Qué fr
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit32', 'ingles-a1', 32, 'Sports & Hobbies', 120)
+VALUES ('ingles-a1-unit32', 'ingles-a1', 33, 'Sports & Hobbies', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U32_B32_1_I1', 'ingles-a1-unit32', 1, 'matching', 'Une cada deporte con su imagen (palabra):', '{"prompt_es":"Une cada deporte con su imagen (palabra):","pairs":[{"id":"p1","left":"Football","right":"Fútbol"},{"id":"p2","left":"Swimming","right":"Natación"},{"id":"p3","left":"Basketball","right":"Baloncesto"},{"id":"p4","left":"Cycling","right":"Ciclismo"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1498,7 +1513,7 @@ VALUES ('A1_U32_B32_4_I5', 'ingles-a1-unit32', 12, 'multiple_choice', '¿Cuál d
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit33', 'ingles-a1', 33, 'Adverbs of Frequency', 120)
+VALUES ('ingles-a1-unit33', 'ingles-a1', 34, 'Adverbs of Frequency', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U33_B33_1_I1', 'ingles-a1-unit33', 1, 'matching', 'Empareja el adverbio con su frecuencia aproximada:', '{"prompt_es":"Empareja el adverbio con su frecuencia aproximada:","pairs":[{"id":"p1","left":"Always","right":"100% de las veces"},{"id":"p2","left":"Often","right":"Frecuentemente (60-70%)"},{"id":"p3","left":"Sometimes","right":"A veces (40-50%)"},{"id":"p4","left":"Never","right":"0% de las veces"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1537,11 +1552,11 @@ INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, co
 VALUES ('A1_U33_B33_4_I4', 'ingles-a1-unit33', 12, 'short_writing', 'Basado en el texto, ¿con qué frecuencia va al gimnasio?', '{"prompt_es":"Basado en el texto, ¿con qué frecuencia va al gimnasio?","stimulus_es":"Tres veces por semana","correct_answer":"Three times a week","mastery_tag":"reading","complexity":4,"concept_tags":["grammar","reading"],"stimulus_en":"Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."}')
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
-VALUES ('A1_U33_B33_4_I5', 'ingles-a1-unit33', 13, 'true_false', '¿Mark siempre come sano en el desayuno?', '{"prompt_es":"¿Mark siempre come sano en el desayuno?","correct_answer":false,"mastery_tag":"reading","complexity":1,"concept_tags":["grammar","reading"],"stimulus_en":"Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."}')
+VALUES ('A1_U33_B33_4_I5', 'ingles-a1-unit33', 13, 'true_false', '¿Anna va al gimnasio todos los días?', '{"prompt_es":"¿Anna va al gimnasio todos los días?","correct_answer":false,"mastery_tag":"reading","complexity":1,"concept_tags":["grammar","reading"],"stimulus_en":"Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."}')
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit34', 'ingles-a1', 34, 'Using ''And'', ''But'', ''Because''', 120)
+VALUES ('ingles-a1-unit34', 'ingles-a1', 35, 'Using ''And'', ''But'', ''Because''', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U34_B34_1_I1', 'ingles-a1-unit34', 1, 'matching', 'Empareja cada conector con su función:', '{"prompt_es":"Empareja cada conector con su función:","pairs":[{"id":"p1","left":"And","right":"Añadir información (+)"},{"id":"p2","left":"But","right":"Contrastar ideas (+/-)"},{"id":"p3","left":"Because","right":"Dar una razón (¿Por qué?)"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1584,7 +1599,7 @@ VALUES ('A1_U34_B34_4_I5', 'ingles-a1-unit34', 13, 'multiple_choice', '¿Cuál e
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit35', 'ingles-a1', 35, 'Free Time Activities', 120)
+VALUES ('ingles-a1-unit35', 'ingles-a1', 36, 'Free Time Activities', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U35_B35_1_I1', 'ingles-a1-unit35', 1, 'matching', 'Relaciona la actividad con su traducción:', '{"prompt_es":"Relaciona la actividad con su traducción:","pairs":[{"id":"p1","left":"Watch TV","right":"Ver la televisión"},{"id":"p2","left":"Meet friends","right":"Quedar con amigos"},{"id":"p3","left":"Surf the internet","right":"Navegar por internet"},{"id":"p4","left":"Go out","right":"Salir"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1627,7 +1642,7 @@ VALUES ('A1_U35_B35_4_I5', 'ingles-a1-unit35', 13, 'multiple_choice', '¿Qué ha
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit36', 'ingles-a1', 36, 'Musical Instruments', 120)
+VALUES ('ingles-a1-unit36', 'ingles-a1', 37, 'Musical Instruments', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U36_B36_1_I2', 'ingles-a1-unit36', 1, 'multiple_choice', '¿Cómo se dice ''Trompeta''?', '{"prompt_es":"¿Cómo se dice ''Trompeta''?","options":[{"id":"o1","text":"Trumpet"},{"id":"o2","text":"Trump"},{"id":"o3","text":"Trombon"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1667,7 +1682,7 @@ VALUES ('A1_U36_B36_4_I5', 'ingles-a1-unit36', 12, 'multiple_choice', '¿Cómo e
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit37', 'ingles-a1', 37, 'Talent & Skills', 120)
+VALUES ('ingles-a1-unit37', 'ingles-a1', 38, 'Talent & Skills', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U37_B37_1_I1', 'ingles-a1-unit37', 1, 'matching', 'Relaciona la habilidad con su nombre en inglés:', '{"prompt_es":"Relaciona la habilidad con su nombre en inglés:","pairs":[{"id":"p1","left":"Paint","right":"Pintar"},{"id":"p2","left":"Type","right":"Escribir a máquina"},{"id":"p3","left":"Code","right":"Programar"},{"id":"p4","left":"Cook","right":"Cocinar"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1710,7 +1725,7 @@ VALUES ('A1_U37_B37_4_I5', 'ingles-a1-unit37', 13, 'multiple_choice', '¿Quién 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit38', 'ingles-a1', 38, 'Daily Household Chores', 120)
+VALUES ('ingles-a1-unit38', 'ingles-a1', 39, 'Daily Household Chores', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U38_B38_1_I1', 'ingles-a1-unit38', 1, 'matching', 'Relaciona la tarea doméstica:', '{"prompt_es":"Relaciona la tarea doméstica:","pairs":[{"id":"p1","left":"Wash the dishes","right":"Lavar los platos"},{"id":"p2","left":"Sweep the floor","right":"Barrer el suelo"},{"id":"p3","left":"Do the laundry","right":"Hacer la colada"},{"id":"p4","left":"Make the bed","right":"Hacer la cama"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1753,7 +1768,7 @@ VALUES ('A1_U38_B38_4_I5', 'ingles-a1-unit38', 13, 'multiple_choice', '¿Quién 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit39', 'ingles-a1', 39, 'Past Simple: Was / Were', 120)
+VALUES ('ingles-a1-unit39', 'ingles-a1', 40, 'Past Simple: Was / Were', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U39_B39_1_I2', 'ingles-a1-unit39', 1, 'multiple_choice', 'I ________ at school yesterday.', '{"prompt_es":"I ________ at school yesterday.","options":[{"id":"o1","text":"was"},{"id":"o2","text":"were"},{"id":"o3","text":"am"}],"correct_answer":"o1","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
@@ -1793,7 +1808,7 @@ VALUES ('A1_U39_B39_4_I5', 'ingles-a1-unit39', 12, 'multiple_choice', '¿Dónde 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit40', 'ingles-a1', 40, 'Review & Self-Check 2', 120)
+VALUES ('ingles-a1-unit40', 'ingles-a1', 41, 'Review & Self-Check 2', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U40_B40_1_I1', 'ingles-a1-unit40', 1, 'matching', 'Mezcla de vocabulario:', '{"prompt_es":"Mezcla de vocabulario:","pairs":[{"id":"p1","left":"Headache","right":"Dolor de cabeza"},{"id":"p2","left":"Chores","right":"Tareas domésticas"},{"id":"p3","left":"Always","right":"Siempre"},{"id":"p4","left":"Talented","right":"Talentoso/a"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1842,7 +1857,7 @@ VALUES ('A1_U40_B40_4_I5', 'ingles-a1-unit40', 15, 'multiple_choice', '¿Cómo e
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit41', 'ingles-a1', 41, 'At the Airport', 120)
+VALUES ('ingles-a1-unit41', 'ingles-a1', 42, 'At the Airport', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U41_B41_1_I1', 'ingles-a1-unit41', 1, 'matching', 'Empareja el vocabulario del aeropuerto:', '{"prompt_es":"Empareja el vocabulario del aeropuerto:","pairs":[{"id":"p1","left":"Passport","right":"Pasaporte"},{"id":"p2","left":"Boarding pass","right":"Tarjeta de embarque"},{"id":"p3","left":"Gate","right":"Puerta de embarque"},{"id":"p4","left":"Luggage","right":"Equipaje"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1891,7 +1906,7 @@ VALUES ('A1_U41_B41_4_I5', 'ingles-a1-unit41', 15, 'multiple_choice', 'Según el
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit42', 'ingles-a1', 42, 'Transport', 120)
+VALUES ('ingles-a1-unit42', 'ingles-a1', 43, 'Transport', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U42_B42_1_I1', 'ingles-a1-unit42', 1, 'matching', 'Empareja los medios de transporte:', '{"prompt_es":"Empareja los medios de transporte:","pairs":[{"id":"p1","left":"Train","right":"Tren"},{"id":"p2","left":"Bus","right":"Autobús"},{"id":"p3","left":"Plane","right":"Avión"},{"id":"p4","left":"Boat","right":"Barco"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1943,7 +1958,7 @@ VALUES ('A1_U42_B42_4_I5', 'ingles-a1-unit42', 16, 'multiple_choice', '¿Qué ha
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit43', 'ingles-a1', 43, 'Travel Verbs', 120)
+VALUES ('ingles-a1-unit43', 'ingles-a1', 44, 'Travel Verbs', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U43_B43_1_I1', 'ingles-a1-unit43', 1, 'matching', 'Empareja los verbos de viaje:', '{"prompt_es":"Empareja los verbos de viaje:","pairs":[{"id":"p1","left":"Visit","right":"Visitar"},{"id":"p2","left":"Stay","right":"Quedarse / Alojarse"},{"id":"p3","left":"Arrive","right":"Llegar"},{"id":"p4","left":"Travel","right":"Viajar"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -1992,7 +2007,7 @@ VALUES ('A1_U43_B43_4_I5', 'ingles-a1-unit43', 15, 'multiple_choice', '¿Dónde 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit44', 'ingles-a1', 44, 'The Weather', 120)
+VALUES ('ingles-a1-unit44', 'ingles-a1', 45, 'The Weather', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U44_B44_1_I1', 'ingles-a1-unit44', 1, 'matching', 'Empareja el clima:', '{"prompt_es":"Empareja el clima:","pairs":[{"id":"p1","left":"Sunny","right":"Soleado"},{"id":"p2","left":"Rainy","right":"Lluvioso"},{"id":"p3","left":"Cloudy","right":"Nublado"},{"id":"p4","left":"Windy","right":"Ventoso"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2044,7 +2059,7 @@ VALUES ('A1_U44_B44_4_I5', 'ingles-a1-unit44', 16, 'multiple_choice', 'En Madrid
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit45', 'ingles-a1', 45, 'Seasons', 120)
+VALUES ('ingles-a1-unit45', 'ingles-a1', 46, 'Seasons', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U45_B45_1_I1', 'ingles-a1-unit45', 1, 'matching', 'Empareja las estaciones:', '{"prompt_es":"Empareja las estaciones:","pairs":[{"id":"p1","left":"Spring","right":"Primavera"},{"id":"p2","left":"Summer","right":"Verano"},{"id":"p3","left":"Autumn","right":"Otoño"},{"id":"p4","left":"Winter","right":"Invierno"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2093,7 +2108,7 @@ VALUES ('A1_U45_B45_4_I5', 'ingles-a1-unit45', 15, 'multiple_choice', '¿Por qu�
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit46', 'ingles-a1', 46, 'At the Hotel', 120)
+VALUES ('ingles-a1-unit46', 'ingles-a1', 47, 'At the Hotel', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U46_B46_1_I2', 'ingles-a1-unit46', 1, 'multiple_choice', '¿Dónde pides información al llegar?', '{"prompt_es":"¿Dónde pides información al llegar?","options":[{"id":"o1","text":"Reception"},{"id":"o2","text":"The bed"},{"id":"o3","text":"The shower"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2145,7 +2160,7 @@ VALUES ('A1_U46_B46_4_I5', 'ingles-a1-unit46', 16, 'multiple_choice', '¿A qué 
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit47', 'ingles-a1', 47, 'Holidays & Vacation', 120)
+VALUES ('ingles-a1-unit47', 'ingles-a1', 48, 'Holidays & Vacation', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U47_B47_1_I1', 'ingles-a1-unit47', 1, 'matching', 'Empareja las actividades de vacaciones:', '{"prompt_es":"Empareja las actividades de vacaciones:","pairs":[{"id":"p1","left":"Sunbathing","right":"Tomar el sol"},{"id":"p2","left":"Swimming","right":"Nadar"},{"id":"p3","left":"Sightseeing","right":"Hacer turismo"},{"id":"p4","left":"Relaxing","right":"Relajarse"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2194,7 +2209,7 @@ VALUES ('A1_U47_B47_4_I5', 'ingles-a1-unit47', 15, 'multiple_choice', '¿Qué le
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit48', 'ingles-a1', 48, 'Sightseeing', 120)
+VALUES ('ingles-a1-unit48', 'ingles-a1', 49, 'Sightseeing', 120)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U48_B48_1_I1', 'ingles-a1-unit48', 1, 'matching', 'Empareja el vocabulario de turismo:', '{"prompt_es":"Empareja el vocabulario de turismo:","pairs":[{"id":"p1","left":"Museum","right":"Museo"},{"id":"p2","left":"Monument","right":"Monumento"},{"id":"p3","left":"Tour guide","right":"Guía turístico/a"},{"id":"p4","left":"Map","right":"Mapa"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2246,7 +2261,7 @@ VALUES ('A1_U48_B48_4_I5', 'ingles-a1-unit48', 16, 'multiple_choice', '¿Qué de
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit49', 'ingles-a1', 49, 'Packing a Suitcase', 25)
+VALUES ('ingles-a1-unit49', 'ingles-a1', 50, 'Packing a Suitcase', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U49_B1_I1', 'ingles-a1-unit49', 1, 'multiple_choice', '¿Cómo se dice ''maleta'' en inglés?', '{"prompt_es":"¿Cómo se dice ''maleta'' en inglés?","options":[{"id":"o1","text":"Suitcase"},{"id":"o2","text":"Backpack"},{"id":"o3","text":"Handbag"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2298,7 +2313,7 @@ VALUES ('A1_U49_B4_I4', 'ingles-a1-unit49', 16, 'multiple_choice', 'Si tu maleta
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit50', 'ingles-a1', 50, 'Module 5 Review: Places & Travel', 30)
+VALUES ('ingles-a1-unit50', 'ingles-a1', 51, 'Module 5 Review: Places & Travel', 30)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U50_B1_I1', 'ingles-a1-unit50', 1, 'multiple_choice', '¿Dónde muestras tu pasaporte?', '{"prompt_es":"¿Dónde muestras tu pasaporte?","options":[{"id":"o1","text":"At the airport"},{"id":"o2","text":"In the park"},{"id":"o3","text":"At the supermarket"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2359,7 +2374,7 @@ VALUES ('A1_U50_B4_I5', 'ingles-a1-unit50', 19, 'audio_player', 'Escucha el mens
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit51', 'ingles-a1', 51, 'At the Supermarket', 25)
+VALUES ('ingles-a1-unit51', 'ingles-a1', 52, 'At the Supermarket', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U51_B1_I1', 'ingles-a1-unit51', 1, 'multiple_choice', '¿Cómo se dice ''pasillo'' en un supermercado?', '{"prompt_es":"¿Cómo se dice ''pasillo'' en un supermercado?","options":[{"id":"o1","text":"Aisle"},{"id":"o2","text":"Hall"},{"id":"o3","text":"Corridor"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2420,7 +2435,7 @@ VALUES ('A1_U51_B4_I5', 'ingles-a1-unit51', 19, 'audio_player', 'Escucha el resu
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit52', 'ingles-a1', 52, 'Countable & Uncountable', 25)
+VALUES ('ingles-a1-unit52', 'ingles-a1', 53, 'Countable & Uncountable', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U52_B1_I1', 'ingles-a1-unit52', 1, 'multiple_choice', '¿Cuál de estos es un sustantivo contable?', '{"prompt_es":"¿Cuál de estos es un sustantivo contable?","options":[{"id":"o1","text":"Apple"},{"id":"o2","text":"Water"},{"id":"o3","text":"Rice"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2469,7 +2484,7 @@ VALUES ('A1_U52_B4_I4', 'ingles-a1-unit52', 15, 'short_writing', 'Escribe una fr
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit53', 'ingles-a1', 53, 'Some & Any', 25)
+VALUES ('ingles-a1-unit53', 'ingles-a1', 54, 'Some & Any', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U53_B1_I2', 'ingles-a1-unit53', 1, 'fill_blanks', 'Completa con ''some'':', '{"prompt_es":"Completa con ''some'':","stimulus_en":"There is ________ butter in the fridge.","correct_answer":"some","mastery_tag":"grammar","complexity":3,"concept_tags":["grammar","grammar"]}')
@@ -2512,7 +2527,7 @@ VALUES ('A1_U53_B4_I4', 'ingles-a1-unit53', 13, 'short_writing', 'Escribe ''¿Ti
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit54', 'ingles-a1', 54, 'Much & Many', 25)
+VALUES ('ingles-a1-unit54', 'ingles-a1', 55, 'Much & Many', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U54_B1_I1', 'ingles-a1-unit54', 1, 'multiple_choice', '¿Cuál usas para preguntar por la cantidad de dinero?', '{"prompt_es":"¿Cuál usas para preguntar por la cantidad de dinero?","options":[{"id":"o1","text":"How much money?"},{"id":"o2","text":"How many money?"},{"id":"o3","text":"How lot of money?"}],"correct_answer":"o1","mastery_tag":"grammar","complexity":1,"concept_tags":["grammar","grammar"]}')
@@ -2561,7 +2576,7 @@ VALUES ('A1_U54_B4_I3', 'ingles-a1-unit54', 15, 'short_writing', 'Escribe ''Teng
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit55', 'ingles-a1', 55, 'Clothing Store', 25)
+VALUES ('ingles-a1-unit55', 'ingles-a1', 56, 'Clothing Store', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U55_B1_I1', 'ingles-a1-unit55', 1, 'multiple_choice', '¿Dónde te pruebas la ropa?', '{"prompt_es":"¿Dónde te pruebas la ropa?","options":[{"id":"o1","text":"In the fitting room"},{"id":"o2","text":"In the kitchen"},{"id":"o3","text":"At the checkout"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2613,7 +2628,7 @@ VALUES ('A1_U55_B4_I4', 'ingles-a1-unit55', 16, 'multiple_choice', 'Si quieres p
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit56', 'ingles-a1', 56, 'In the Kitchen', 25)
+VALUES ('ingles-a1-unit56', 'ingles-a1', 57, 'In the Kitchen', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U56_B1_I1', 'ingles-a1-unit56', 1, 'multiple_choice', '¿Dónde guardas la leche?', '{"prompt_es":"¿Dónde guardas la leche?","options":[{"id":"o1","text":"In the fridge"},{"id":"o2","text":"In the oven"},{"id":"o3","text":"In the sink"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2662,7 +2677,7 @@ VALUES ('A1_U56_B4_I4', 'ingles-a1-unit56', 15, 'multiple_choice', '¿Dónde coc
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit57', 'ingles-a1', 57, 'Household Objects', 25)
+VALUES ('ingles-a1-unit57', 'ingles-a1', 58, 'Household Objects', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U57_B1_I1', 'ingles-a1-unit57', 1, 'multiple_choice', '¿En qué te sientas para estar cómodo?', '{"prompt_es":"¿En qué te sientas para estar cómodo?","options":[{"id":"o1","text":"On a cushion"},{"id":"o2","text":"On a lamp"},{"id":"o3","text":"On a mirror"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2717,7 +2732,7 @@ VALUES ('A1_U57_B4_I4', 'ingles-a1-unit57', 17, 'multiple_choice', '¿Cuál es e
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit58', 'ingles-a1', 58, 'My Daily Routine', 25)
+VALUES ('ingles-a1-unit58', 'ingles-a1', 59, 'My Daily Routine', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U58_B1_I1', 'ingles-a1-unit58', 1, 'multiple_choice', '¿Qué haces primero al despertar?', '{"prompt_es":"¿Qué haces primero al despertar?","options":[{"id":"o1","text":"I wake up"},{"id":"o2","text":"I go to work"},{"id":"o3","text":"I have dinner"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2766,7 +2781,7 @@ VALUES ('A1_U58_B4_I4', 'ingles-a1-unit58', 15, 'multiple_choice', '¿Cuál es u
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit59', 'ingles-a1', 59, 'Free Time & Hobbies', 25)
+VALUES ('ingles-a1-unit59', 'ingles-a1', 60, 'Free Time & Hobbies', 25)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U59_B1_I1', 'ingles-a1-unit59', 1, 'multiple_choice', '¿Qué actividad haces con un libro?', '{"prompt_es":"¿Qué actividad haces con un libro?","options":[{"id":"o1","text":"I read a book"},{"id":"o2","text":"I listen to music"},{"id":"o3","text":"I swim"}],"correct_answer":"o1","mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
@@ -2818,7 +2833,7 @@ VALUES ('A1_U59_B4_I4', 'ingles-a1-unit59', 16, 'multiple_choice', '¿Cuál de e
 ON CONFLICT (id) DO UPDATE SET content = EXCLUDED.content, type = EXCLUDED.type;
 
 INSERT INTO public.course_lessons (id, module_id, order_index, title, duration)
-VALUES ('ingles-a1-unit60', 'ingles-a1', 60, 'Module 6 Review', 30)
+VALUES ('ingles-a1-unit60', 'ingles-a1', 61, 'Module 6 Review', 30)
 ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, order_index = EXCLUDED.order_index;
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES ('A1_U60_B1_I1', 'ingles-a1-unit60', 1, 'matching', 'Asocia el objeto con el lugar/acción:', '{"prompt_es":"Asocia el objeto con el lugar/acción:","pairs":[{"id":"p1","left":"Trolley","right":"Supermarket"},{"id":"p2","left":"Fitting room","right":"Clothing store"},{"id":"p3","left":"Fridge","right":"Kitchen"},{"id":"p4","left":"Painting","right":"Hobby"}],"correct_answer":{"p1":"p1","p2":"p2","p3":"p3","p4":"p4"},"mastery_tag":"vocabulary","complexity":1,"concept_tags":["grammar","vocabulary"]}')
