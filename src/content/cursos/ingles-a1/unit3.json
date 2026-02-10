@@ -1,172 +1,58 @@
 {
   "course": {
     "unit_id": "unit3",
-    "unit_title": "Verb 'to be': Negatives and Questions",
+    "unit_title": "Numbers and Counting",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Form negative sentences with the verb 'to be'",
-    "Learn to ask basic Yes/No questions",
-    "Understand short answers in English",
-    "Master the use of 'not' after 'am/is/are'"
+    "Identify numbers 1-10 visually",
+    "Count objects and associate with English number words",
+    "Recognize numerical symbols and their English equivalents"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Negative Forms",
+      "title": "Numbers 1-5",
       "content": [
         {
           "interaction_id": "A1_U3_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta para decir 'Yo no soy'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I not am"
-            },
-            {
-              "id": "o2",
-              "text": "I am not"
-            },
-            {
-              "id": "o3",
-              "text": "I no am"
-            }
+          "type": "matching",
+          "prompt_es": "Une el número con su palabra:",
+          "pairs": [
+            { "id": "p1", "left": "1", "right": "One" },
+            { "id": "p2", "left": "2", "right": "Two" },
+            { "id": "p3", "left": "3", "right": "Three" },
+            { "id": "p4", "left": "4", "right": "Four" },
+            { "id": "p5", "left": "5", "right": "Five" }
           ],
-          "correct_answer": "o2",
-          "explanation": "En inglés, el 'not' siempre va después del verbo 'to be'.",
-          "mastery_tag": "grammar:to-be:negative",
-          "concept_tags": [
-            "grammar",
-            "to-be"
-          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4", "p5": "p5" },
+          "mastery_tag": "vocabulary:numbers",
+          "concept_tags": ["vocabulary", "numbers"],
           "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U3_B1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase negativa: 'Ella no está cansada.'",
-          "stimulus_en": "She ________ ________ tired.",
-          "correct_answer": "is not",
-          "mastery_tag": "grammar:to-be:negative",
-          "concept_tags": [
-            "grammar",
-            "to-be"
-          ],
-          "complexity": 2
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Questions (Yes/No)",
+      "title": "Counting Objects",
       "content": [
         {
           "interaction_id": "A1_U3_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo conviertes 'You are happy' en una pregunta?",
+          "prompt_es": "¿Cuántos ves?",
+          "image_url": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
           "options": [
-            {
-              "id": "o1",
-              "text": "You are happy?"
-            },
-            {
-              "id": "o2",
-              "text": "Are you happy?"
-            },
-            {
-              "id": "o3",
-              "text": "Do you are happy?"
-            }
+            { "id": "o1", "text": "One" },
+            { "id": "o2", "text": "Three" },
+            { "id": "o3", "text": "Five" }
           ],
-          "correct_answer": "o2",
-          "explanation": "Para hacer preguntas con 'to be', invertimos el orden del sujeto y el verbo.",
-          "mastery_tag": "grammar:to-be:questions",
-          "concept_tags": [
-            "grammar",
-            "to-be",
-            "syntax"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U3_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Es él tu hermano?'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Is"
-            },
-            {
-              "id": "w2",
-              "text": "he"
-            },
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "brother?"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax:questions",
-          "concept_tags": [
-            "grammar",
-            "syntax",
-            "to-be"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Short Answers",
-      "content": [
-        {
-          "interaction_id": "A1_U3_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une la pregunta con su respuesta corta adecuada:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Are you a student?",
-              "right": "Yes, I am."
-            },
-            {
-              "id": "p2",
-              "left": "Is she from Italy?",
-              "right": "No, she isn't."
-            },
-            {
-              "id": "p3",
-              "left": "Are they at home?",
-              "right": "Yes, they are."
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "communication:short-answers",
-          "concept_tags": [
-            "communication",
-            "grammar",
-            "to-be"
-          ],
-          "complexity": 2
+          "correct_answer": "o1",
+          "explanation": "Hay UNA (One) manzana.",
+          "mastery_tag": "vocabulary:numbers",
+          "concept_tags": ["vocabulary", "numbers"]
         }
       ]
     }

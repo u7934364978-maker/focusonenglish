@@ -1,179 +1,56 @@
 {
   "course": {
     "unit_id": "unit4",
-    "unit_title": "Essential Vocabulary: Numbers and Objects",
+    "unit_title": "Jobs and Work",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Count from 1 to 20 in English",
-    "Identify common classroom and everyday objects",
-    "Use 'a' and 'an' correctly with nouns",
-    "Learn basic plural forms of nouns (adding -s)"
+    "Recognize common job titles through visual association",
+    "Identify workplace settings",
+    "Associate professions with their English names without translation"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Numbers 1-10",
+      "title": "Discovery: Jobs",
       "content": [
         {
           "interaction_id": "A1_U4_B1_I1",
           "type": "matching",
-          "prompt_es": "Une el número con su palabra en inglés:",
+          "prompt_es": "Une la imagen con el trabajo:",
           "pairs": [
             {
               "id": "p1",
-              "left": "1",
-              "right": "One"
+              "left": "",
+              "right": "Teacher",
+              "left_image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p2",
-              "left": "3",
-              "right": "Three"
+              "left": "",
+              "right": "Doctor",
+              "left_image": "https://images.pexels.com/photos/3714743/pexels-photo-3714743.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p3",
-              "left": "5",
-              "right": "Five"
+              "left": "",
+              "right": "Chef",
+              "left_image": "https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p4",
-              "left": "8",
-              "right": "Eight"
+              "left": "",
+              "right": "Pilot",
+              "left_image": "https://images.pexels.com/photos/3228723/pexels-photo-3228723.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:numbers",
-          "concept_tags": [
-            "vocabulary",
-            "numbers"
-          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary:jobs",
+          "concept_tags": ["vocabulary", "jobs"],
           "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U4_B1_I2",
-          "type": "fill_blanks",
-          "prompt_es": "¿Qué número falta? One, two, ________, four.",
-          "stimulus_en": "One, two, ________, four.",
-          "correct_answer": "three",
-          "mastery_tag": "vocabulary:numbers",
-          "concept_tags": [
-            "vocabulary",
-            "numbers"
-          ],
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Articles: 'a' vs 'an'",
-      "content": [
-        {
-          "interaction_id": "A1_U4_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '________ orange' (una naranja).",
-          "stimulus_en": "________ orange",
-          "correct_answer": "An",
-          "mastery_tag": "grammar:articles",
-          "concept_tags": [
-            "grammar",
-            "articles"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Everyday Objects",
-      "content": [
-        {
-          "interaction_id": "A1_U4_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une el objeto con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "A pen",
-              "right": "Un bolígrafo"
-            },
-            {
-              "id": "p2",
-              "left": "A chair",
-              "right": "Una silla"
-            },
-            {
-              "id": "p3",
-              "left": "A table",
-              "right": "Una mesa"
-            },
-            {
-              "id": "p4",
-              "left": "A window",
-              "right": "Una ventana"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:objects",
-          "concept_tags": [
-            "vocabulary",
-            "objects"
-          ],
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U4_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Tengo un libro azul.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "blue"
-            },
-            {
-              "id": "w5",
-              "text": "book."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax:adjectives",
-          "concept_tags": [
-            "grammar",
-            "syntax",
-            "adjectives"
-          ],
-          "complexity": 2
         }
       ]
     }

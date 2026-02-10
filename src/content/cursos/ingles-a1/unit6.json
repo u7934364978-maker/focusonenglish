@@ -1,198 +1,55 @@
 {
   "course": {
     "unit_id": "unit6",
-    "unit_title": "Family Members",
+    "unit_title": "Food and Drinks",
     "level": "A1",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify core family members (mother, father, brother, sister)",
-    "Use possessive 's to show relationships",
-    "Ask and answer simple questions about family"
+    "Identify common fruits and foods visually",
+    "Recognize basic drinks",
+    "Associate food concepts with English words without translation"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Immediate Family Vocabulary",
+      "title": "Fruits Discovery",
       "content": [
         {
           "interaction_id": "A1_U6_B1_I1",
           "type": "matching",
-          "prompt_es": "Relaciona los miembros de la familia:",
+          "prompt_es": "Une la fruta con su nombre:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Father",
-              "right": "Padre"
+              "left": "",
+              "right": "Apple",
+              "left_image": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p2",
-              "left": "Mother",
-              "right": "Madre"
+              "left": "",
+              "right": "Banana",
+              "left_image": "https://images.pexels.com/photos/2870899/pexels-photo-2870899.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p3",
-              "left": "Brother",
-              "right": "Hermano"
+              "left": "",
+              "right": "Orange",
+              "left_image": "https://images.pexels.com/photos/2090900/pexels-photo-2090900.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p4",
-              "left": "Sister",
-              "right": "Hermana"
+              "left": "",
+              "right": "Strawberry",
+              "left_image": "https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocab:family",
-          "concept_tags": [
-            "vocabulary",
-            "family"
-          ],
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U6_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hijo' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sun"
-            },
-            {
-              "id": "o2",
-              "text": "Son"
-            },
-            {
-              "id": "o3",
-              "text": "Soon"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocab:family",
-          "concept_tags": [
-            "vocabulary",
-            "family"
-          ],
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Possessive 's",
-      "content": [
-        {
-          "interaction_id": "A1_U6_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías 'El hermano de John'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The John brother"
-            },
-            {
-              "id": "o2",
-              "text": "John's brother"
-            },
-            {
-              "id": "o3",
-              "text": "Brother of John"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar:possessive-s",
-          "concept_tags": [
-            "grammar",
-            "possessives"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U6_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'La madre de Sarah.'",
-          "stimulus_en": "Sarah________ mother.",
-          "correct_answer": "'s",
-          "mastery_tag": "grammar:possessive-s",
-          "concept_tags": [
-            "grammar",
-            "possessives"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Family Relationships",
-      "content": [
-        {
-          "interaction_id": "A1_U6_B3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella es mi hermana.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "She"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "my"
-            },
-            {
-              "id": "w4",
-              "text": "sister."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax:family",
-          "concept_tags": [
-            "syntax",
-            "family"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U6_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Si Peter es el padre de Mary, ¿quién es Mary?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mary is Peter's son."
-            },
-            {
-              "id": "o2",
-              "text": "Mary is Peter's daughter."
-            },
-            {
-              "id": "o3",
-              "text": "Mary is Peter's mother."
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "logic:family",
-          "concept_tags": [
-            "vocabulary",
-            "family",
-            "logic"
-          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary:food",
+          "concept_tags": ["vocabulary", "food"],
           "complexity": 1
         }
       ]

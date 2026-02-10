@@ -1,47 +1,50 @@
 {
   "course": {
     "unit_id": "unit2",
-    "unit_title": "Verb 'to be' and Subject Pronouns",
+    "unit_title": "Family and People",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Master the subject pronouns (I, You, He, She, It, We, They)",
-    "Learn the affirmative forms of the verb 'to be' (am, is, are)",
-    "Create simple sentences to describe people and things",
-    "Understand basic contractions (I'm, You're, He's)"
+    "Identify family members through visual association",
+    "Learn basic descriptors for people",
+    "Associate people roles with English words without translation"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Subject Pronouns",
+      "title": "The Family Tree",
       "content": [
         {
           "interaction_id": "A1_U2_B1_I1",
           "type": "matching",
-          "prompt_es": "Une el pronombre con su significado:",
+          "prompt_es": "Une la imagen con el miembro de la familia:",
           "pairs": [
             {
               "id": "p1",
-              "left": "I",
-              "right": "Yo"
+              "left": "",
+              "right": "Mother",
+              "left_image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p2",
-              "left": "He",
-              "right": "Él"
+              "left": "",
+              "right": "Father",
+              "left_image": "https://images.pexels.com/photos/1460341/pexels-photo-1460341.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p3",
-              "left": "She",
-              "right": "Ella"
+              "left": "",
+              "right": "Baby",
+              "left_image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p4",
-              "left": "It",
-              "right": "Eso/Ello (cosas/animales)"
+              "left": "",
+              "right": "Family",
+              "left_image": "https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             }
           ],
           "correct_answer": {
@@ -50,181 +53,9 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "grammar:pronouns",
-          "concept_tags": [
-            "grammar",
-            "pronouns"
-          ],
+          "mastery_tag": "vocabulary:family",
+          "concept_tags": ["vocabulary", "family"],
           "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U2_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué pronombre usas para un grupo de personas donde tú estás incluido?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "They"
-            },
-            {
-              "id": "o2",
-              "text": "We"
-            },
-            {
-              "id": "o3",
-              "text": "You"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar:pronouns",
-          "concept_tags": [
-            "grammar",
-            "pronouns"
-          ],
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Verb 'to be' (Affirmative)",
-      "content": [
-        {
-          "interaction_id": "A1_U2_B2_I1",
-          "type": "matching",
-          "prompt_es": "Une el sujeto con su forma del verbo 'to be':",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "I",
-              "right": "am"
-            },
-            {
-              "id": "p2",
-              "left": "He / She / It",
-              "right": "is"
-            },
-            {
-              "id": "p3",
-              "left": "You / We / They",
-              "right": "are"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "grammar:to-be",
-          "concept_tags": [
-            "grammar",
-            "to-be"
-          ],
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U2_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Él es un doctor.'",
-          "stimulus_en": "He ________ a doctor.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to-be",
-          "concept_tags": [
-            "grammar",
-            "to-be"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U2_B2_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Nosotros estamos felices.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "We"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "happy."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax:to-be",
-          "concept_tags": [
-            "grammar",
-            "syntax",
-            "to-be"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Basic Contractions",
-      "content": [
-        {
-          "interaction_id": "A1_U2_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une la forma larga con la contraída:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "I am",
-              "right": "I'm"
-            },
-            {
-              "id": "p2",
-              "left": "You are",
-              "right": "You're"
-            },
-            {
-              "id": "p3",
-              "left": "She is",
-              "right": "She's"
-            },
-            {
-              "id": "p4",
-              "left": "They are",
-              "right": "They're"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar:contractions",
-          "concept_tags": [
-            "grammar",
-            "to-be",
-            "contractions"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U2_B3_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Usa la contracción: 'Yo soy de España.'",
-          "stimulus_en": "________ from Spain.",
-          "correct_answer": "I'm",
-          "mastery_tag": "grammar:contractions",
-          "concept_tags": [
-            "grammar",
-            "to-be",
-            "contractions"
-          ],
-          "complexity": 2
         }
       ]
     }

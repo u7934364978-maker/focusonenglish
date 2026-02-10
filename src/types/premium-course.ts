@@ -49,6 +49,11 @@ export interface PremiumInteraction {
   word_count_max?: number;
   input_placeholder_es?: string;
   speaking_type?: 'interview' | 'monologue' | 'discussion';
+  // A1 Refactor Extensions
+  predictive_suggestions?: string[];
+  hotspots?: Array<{ id: string; x: number; y: number; label?: string }>;
+  audio_target?: string;
+  is_vertical?: boolean;
 }
 
 export interface PremiumVideoScene {

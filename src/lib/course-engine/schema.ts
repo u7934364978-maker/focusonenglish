@@ -144,6 +144,14 @@ const GenericInteractionSchema = BaseInteractionSchema.extend({
     'odd_one_out',
     'speaking_task',
     'writing_task',
+    'touch_word_audio',
+    'mini_dictation',
+    'branching_dialogue',
+    'voice_note',
+    'chat_simulation',
+    'ar_lite',
+    'spot_the_difference',
+    'video',
   ]),
   stimulus_en: z.string().optional(),
   stimulus_es: z.string().optional(),
@@ -152,6 +160,11 @@ const GenericInteractionSchema = BaseInteractionSchema.extend({
   instruction_en: z.string().optional(),
   options: z.array(z.any()).optional(),
   correct_answer: z.any().optional(),
+  video: z.any().optional(),
+  hotspots: z.array(z.any()).optional(),
+  predictive_suggestions: z.array(z.string()).optional(),
+  audio_target: z.string().optional(),
+  chat_history: z.array(z.any()).optional(),
 });
 
 // Union for all interaction types

@@ -7,14 +7,22 @@ The goal is to create a comprehensive and exhaustive database of English exercis
 - Students of all levels (A1-C2) looking for personalized practice.
 - Users of the Focus English platform who want to improve specific skills (grammar, vocabulary, reading, etc.).
 
-## 3. Curriculum Definition (CEFR-Aligned)
+## 3. Pedagogical Framework & Curriculum
+All levels must follow a structured **Learning Curve** based on:
+1. **Immersion/Induction**: Presenting concepts through context, visuals, or examples.
+2. **Recognition**: Identifying the correct form (Multiple choice, Matching).
+3. **Guided Production**: Creating parts of the language (Fill blanks, Reorder).
+4. **Free Production**: Using the language independently (Short writing, Speaking).
 
-### A1 (Beginner)
+### A1 (Inductive & Visual - Beginner)
+- **Zero Translation Policy**: Avoid direct translation exercises. Use images, icons, and clear visual context to explain meaning.
+- **Deductive Learning**: Users should figure out meaning through visual associations (e.g., Image of a dog -> Word "Dog").
 - **Topics**: Greetings, Personal Information, Numbers, Family, Colors, Daily Routines, Food & Drink.
 - **Grammar**: Verb "to be", Have got, Present Simple (affirmative/negative/question), Basic Prepositions (in, on, at), Possessive adjectives.
 - **Complexity**: Level 1 (Recognition) and Level 2 (Guided).
 
 ### A2 (Elementary)
+- **Controlled Transition**: Start introducing simple instructions in Spanish but keep exercises English-focused.
 - **Topics**: Hobbies, Shopping, Travel, Health, Work, House & Furniture.
 - **Grammar**: Past Simple (regular/irregular), Present Continuous, Comparatives & Superlatives, Modal Verbs (can, must, should), Future with "going to".
 - **Complexity**: Level 2 (Guided) and Level 3 (Controlled).

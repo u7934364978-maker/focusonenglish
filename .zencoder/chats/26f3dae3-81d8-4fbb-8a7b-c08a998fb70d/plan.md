@@ -105,3 +105,17 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/26
 - [x] **Task 18: Split large SQL migrations into chunks**
   - Action: Modify `scripts/generate-supabase-migration.mjs` to split any level exceeding 5 lessons into multiple smaller SQL files to avoid Supabase timeout errors.
   - Verification: A2 SQL files are split in `supabase/migrations/full_content_split/a2_chunks/`.
+
+#### Phase 7: Pedagogical Restructuring & Inductive A1
+- [ ] **Task 19: Comprehensive A1 Content Replacement**
+  - Action: Replace current A1 exercises with a strictly visual and inductive set (Unit 0 - Unit 10). No translation allowed.
+  - Verification: A1 interactions use `image_url` or `left_image` and avoid Spanish-to-English translation tasks.
+- [ ] **Task 20: Curriculum Alignment Script**
+  - Action: Create a script `scripts/enforce-pedagogical-sequence.mjs` that re-orders lessons and exercises within JSON files to follow the Induction -> Recognition -> Production flow.
+  - Verification: All JSON files show increasing complexity within blocks.
+- [x] **Task 21: Visual Bank Expansion**
+  - Action: Expand `A1_IMAGE_BANK` in `src/lib/a1-visual-exercises.ts` to cover more topics (Work, Travel, Daily Life).
+  - Verification: 20+ new high-quality image URLs added.
+- [ ] **Task 22: Final DB Cleanup and Seed**
+  - Action: Apply the refined pedagogical content to all levels and regenerate chunked migrations.
+  - Verification: Smart Practice shows clear, logical progression from level to level.

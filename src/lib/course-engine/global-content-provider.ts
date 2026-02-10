@@ -88,7 +88,8 @@ export class GlobalContentProvider {
     // 4. Inject Visual Exercises for A1 (Keeping these as they are hardcoded assets)
     const visualInteractions = A1_KIDS_EXERCISES.flatMap(unit => 
       unit.questions.map(q => ({
-        ...q,
+        ...(q as any),
+        options: (q as any).options ? [...(q as any).options] : undefined,
         level: 'A1',
         specialization: 'generic' as const,
         unit_id: unit.id,

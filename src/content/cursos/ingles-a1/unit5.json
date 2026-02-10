@@ -1,170 +1,56 @@
 {
   "course": {
     "unit_id": "unit5",
-    "unit_title": "Simple Present: Everyday Actions",
+    "unit_title": "Travel and Places",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Form affirmative sentences in the Simple Present",
-    "Understand the 's' rule for the third person singular (He, She, It)",
-    "Learn basic verbs for daily routines (work, study, live, like)",
-    "Correctly order Subject + Verb + Complement"
+    "Identify travel items visually",
+    "Recognize common travel locations",
+    "Associate travel concepts with English words without translation"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Basic Verbs (I, You, We, They)",
+      "title": "Travel Essentials",
       "content": [
         {
           "interaction_id": "A1_U5_B1_I1",
           "type": "matching",
-          "prompt_es": "Une el verbo con su traducción:",
+          "prompt_es": "Une la imagen con el objeto de viaje:",
           "pairs": [
             {
               "id": "p1",
-              "left": "I work",
-              "right": "Yo trabajo"
+              "left": "",
+              "right": "Suitcase",
+              "left_image": "https://images.pexels.com/photos/3370153/pexels-photo-3370153.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p2",
-              "left": "I study",
-              "right": "Yo estudio"
+              "left": "",
+              "right": "Passport",
+              "left_image": "https://images.pexels.com/photos/385998/pexels-photo-385998.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p3",
-              "left": "I live",
-              "right": "Yo vivo"
+              "left": "",
+              "right": "Map",
+              "left_image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p4",
-              "left": "I like",
-              "right": "Me gusta"
+              "left": "",
+              "right": "Ticket",
+              "left_image": "https://images.pexels.com/photos/157520/pexels-photo-157520.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:verbs",
-          "concept_tags": [
-            "vocabulary",
-            "verbs"
-          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary:travel",
+          "concept_tags": ["vocabulary", "travel"],
           "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U5_B1_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Yo vivo en Madrid.'",
-          "stimulus_en": "I ________ in Madrid.",
-          "correct_answer": "live",
-          "mastery_tag": "grammar:simple-present",
-          "concept_tags": [
-            "grammar",
-            "verbs"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "The Third Person Singular (He, She, It)",
-      "content": [
-        {
-          "interaction_id": "A1_U5_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ella estudia inglés.'",
-          "stimulus_en": "She ________ English.",
-          "correct_answer": "studies",
-          "explanation": "Recuerda: para verbos que terminan en consonante + y, cambiamos la 'y' por 'ies'.",
-          "mastery_tag": "grammar:simple-present:s-rule",
-          "concept_tags": [
-            "grammar",
-            "verbs"
-          ],
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Simple Sentences",
-      "content": [
-        {
-          "interaction_id": "A1_U5_B3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ellos hablan inglés.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "They"
-            },
-            {
-              "id": "w2",
-              "text": "speak"
-            },
-            {
-              "id": "w3",
-              "text": "English."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax:simple-present",
-          "concept_tags": [
-            "grammar",
-            "syntax",
-            "verbs"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U5_B3_I2",
-          "type": "matching",
-          "prompt_es": "Une el sujeto con el verbo correcto:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "I",
-              "right": "play"
-            },
-            {
-              "id": "p2",
-              "left": "He",
-              "right": "plays"
-            },
-            {
-              "id": "p3",
-              "left": "We",
-              "right": "play"
-            },
-            {
-              "id": "p4",
-              "left": "She",
-              "right": "plays"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar:simple-present:agreement",
-          "concept_tags": [
-            "grammar",
-            "verbs"
-          ],
-          "complexity": 2
         }
       ]
     }

@@ -870,7 +870,7 @@ export default function PremiumCourseSession({
       ).join('');
 
       isAnswerCorrect = normalizeSentence(selectedText) === normalizeSentence(correctText);
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis', 'touch_word_audio', 'mini_dictation', 'branching_dialogue', 'chat_simulation', 'ar_lite', 'spot_the_difference'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = normalizeForComparison(String(optionId));
       
@@ -1231,6 +1231,318 @@ export default function PremiumCourseSession({
                 </Button>
               )}
             </div>
+          </div>
+        );
+
+      case 'touch_word_audio':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "¿Qué palabra oyes?"}</h2>
+              <button
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.audio_target || interaction.correct_answer)}
+                className="bg-coral-500 text-white p-8 rounded-full shadow-xl shadow-coral-100 hover:bg-coral-600 transition-all hover:scale-110 active:scale-95 border-b-8 border-coral-700"
+              >
+                <Volume2 className="w-16 h-16" />
+              </button>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
+              {interaction.options?.map((opt: any) => {
+                const isSelected = selectedOption === opt.id;
+                const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
+                
+                return (
+                  <button
+                    key={opt.id}
+                    onClick={() => !feedback && setSelectedOption(opt.id)}
+                    className={`p-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
+                      feedback 
+                        ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
+                        : isSelected ? 'bg-coral-50 border-coral-500 text-coral-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                    } ${feedback ? 'pointer-events-none' : ''}`}
+                  >
+                    {opt.text}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        );
+
+      case 'mini_dictation':
+        const currentInput = inputValues[0] || '';
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="text-center space-y-6 w-full">
+              <h2 className="text-2xl font-black text-slate-800">{interaction.prompt_es || "Escucha y escribe"}</h2>
+              <button
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.correct_answer)}
+                className="bg-indigo-600 text-white p-6 rounded-full shadow-lg hover:bg-indigo-700 transition-all active:scale-95 border-b-4 border-indigo-800"
+              >
+                <Volume2 className="w-10 h-10" />
+              </button>
+
+              <div className="relative w-full">
+                <input
+                  type="text"
+                  value={currentInput}
+                  onChange={(e) => setInputValues({ 0: e.target.value })}
+                  placeholder="Escribe lo que oyes..."
+                  className={`w-full p-6 bg-white border-2 border-b-4 rounded-3xl text-2xl font-bold text-center outline-none transition-all ${
+                    feedback 
+                      ? isCorrect ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50'
+                      : 'border-slate-200 focus:border-indigo-500'
+                  }`}
+                  disabled={!!feedback}
+                />
+              </div>
+
+              {interaction.predictive_suggestions && !feedback && (
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {interaction.predictive_suggestions.map((word: string, i: number) => (
+                    <button
+                      key={i}
+                      onClick={() => {
+                        const words = currentInput.trim().split(' ');
+                        words[words.length - 1] = word;
+                        setInputValues({ 0: words.join(' ') + ' ' });
+                      }}
+                      className="px-4 py-2 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-slate-600 transition-colors"
+                    >
+                      {word}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {feedback && !isCorrect && (
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="p-4 bg-amber-50 border-2 border-amber-100 rounded-2xl text-amber-800 font-bold"
+              >
+                Respuesta correcta: <span className="text-indigo-600">{interaction.correct_answer}</span>
+              </motion.div>
+            )}
+          </div>
+        );
+
+      case 'branching_dialogue':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="w-full space-y-6">
+              {/* Character Bubble */}
+              <div className="flex items-end gap-4">
+                <div className="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center text-3xl shadow-sm border-2 border-indigo-50 shrink-0">
+                  👤
+                </div>
+                <div className="bg-white p-6 rounded-3xl rounded-bl-none border-2 border-slate-100 shadow-sm relative max-w-[80%]">
+                   <p className="text-xl font-bold text-slate-800 leading-tight">
+                     {interaction.stimulus_en || "Hi! What's your name?"}
+                   </p>
+                   <PronunciationButton text={interaction.stimulus_en || "Hi! What's your name?"} size="sm" className="absolute -top-3 -right-3 shadow-md" />
+                </div>
+              </div>
+
+              {/* Options Bubble */}
+              <div className="flex flex-col items-end gap-3 w-full">
+                {interaction.options?.map((opt: any) => {
+                  const isSelected = selectedOption === opt.id;
+                  const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
+                  
+                  return (
+                    <button
+                      key={opt.id}
+                      onClick={() => !feedback && setSelectedOption(opt.id)}
+                      className={`p-5 px-8 rounded-3xl rounded-br-none border-2 border-b-4 font-bold text-lg transition-all max-w-[80%] text-right ${
+                        feedback 
+                          ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
+                          : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                      } ${feedback ? 'pointer-events-none' : ''}`}
+                    >
+                      {opt.text}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        );
+
+      case 'voice_note':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="bg-white p-8 rounded-[3rem] border-2 border-slate-100 shadow-xl w-full text-center space-y-6">
+              <div className="w-20 h-20 bg-emerald-100 rounded-3xl flex items-center justify-center mx-auto text-4xl shadow-sm">
+                🎙️
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-2xl font-black text-slate-800">Voice Note</h3>
+                <p className="text-slate-500 font-medium">{interaction.prompt_es || "Graba una nota de voz corta"}</p>
+              </div>
+              
+              <div className="p-6 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200">
+                <p className="text-xl font-bold text-slate-700 italic">
+                  &quot;{interaction.stimulus_en || interaction.text}&quot;
+                </p>
+              </div>
+
+              <div className="flex flex-col items-center gap-4">
+                <button
+                  onClick={() => {
+                    // Simulation of recording for A1
+                    if (isCorrect === null) {
+                      setIsCorrect(true);
+                      setFeedback({ correct: true, message: "¡Excelente! Tu nota de voz suena muy clara." });
+                    }
+                  }}
+                  className={`w-24 h-24 rounded-full flex items-center justify-center transition-all shadow-lg ${
+                    feedback ? 'bg-emerald-500 text-white' : 'bg-red-500 hover:bg-red-600 text-white active:scale-95'
+                  }`}
+                >
+                  <Mic size={40} className={feedback ? '' : 'animate-pulse'} />
+                </button>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+                  {feedback ? 'GRABACIÓN COMPLETADA' : 'TOCA PARA GRABAR (10-20s)'}
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+
+      case 'chat_simulation':
+        const chatMessages = interaction.chat_history || [
+          { role: 'bot', text: interaction.stimulus_en || "Hello! How can I help you?" }
+        ];
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-6 flex flex-col h-[60vh]">
+            <div className="flex-1 overflow-y-auto space-y-4 p-4 bg-white rounded-[2rem] border-2 border-slate-100 shadow-inner">
+              {chatMessages.map((msg: any, i: number) => (
+                <div key={i} className={`flex ${msg.role === 'bot' ? 'justify-start' : 'justify-end'}`}>
+                  <div className={`p-4 px-6 rounded-2xl max-w-[80%] font-bold ${
+                    msg.role === 'bot' 
+                      ? 'bg-slate-100 text-slate-800 rounded-bl-none' 
+                      : 'bg-indigo-600 text-white rounded-br-none'
+                  }`}>
+                    {msg.text}
+                  </div>
+                </div>
+              ))}
+              {selectedOption && (
+                <div className="flex justify-end">
+                   <div className="p-4 px-6 rounded-2xl max-w-[80%] font-bold bg-indigo-600 text-white rounded-br-none">
+                     {interaction.options?.find((o: any) => o.id === selectedOption)?.text}
+                   </div>
+                </div>
+              )}
+            </div>
+
+            <div className="grid grid-cols-1 gap-2 pt-4">
+              {!feedback && interaction.options?.map((opt: any) => (
+                <button
+                  key={opt.id}
+                  onClick={() => setSelectedOption(opt.id)}
+                  className={`p-4 px-6 rounded-2xl border-2 border-b-4 font-bold text-left transition-all ${
+                    selectedOption === opt.id
+                      ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
+                      : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                  }`}
+                >
+                  {opt.text}
+                </button>
+              ))}
+            </div>
+          </div>
+        );
+
+      case 'ar_lite':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "Toca el objeto:"}</h2>
+              <div className="bg-indigo-600 text-white px-6 py-2 rounded-full font-black text-xl shadow-lg">
+                {interaction.audio_target || interaction.correct_answer}
+              </div>
+            </div>
+
+            <div className="relative w-full aspect-video bg-slate-200 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-2xl group">
+              {interaction.image_url && (
+                <img src={interaction.image_url} alt="AR Lite Room" className="w-full h-full object-cover" />
+              )}
+              
+              {interaction.hotspots?.map((hs: any) => {
+                const isSelected = selectedOption === hs.id;
+                const isCorrectHs = hs.id === interaction.correct_answer;
+                
+                return (
+                  <button
+                    key={hs.id}
+                    onClick={() => !feedback && setSelectedOption(hs.id)}
+                    style={{ left: `${hs.x}%`, top: `${hs.y}%` }}
+                    className={`absolute w-12 h-12 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 transition-all flex items-center justify-center ${
+                      feedback 
+                        ? isCorrectHs ? 'bg-green-500 border-white text-white scale-125 z-10' : isSelected ? 'bg-red-500 border-white text-white' : 'bg-white/20 border-white/50 opacity-20'
+                        : isSelected ? 'bg-coral-500 border-white scale-125 shadow-xl z-10' : 'bg-white/40 border-white/60 hover:bg-white/60 hover:scale-110'
+                    }`}
+                  >
+                    {feedback && isCorrectHs && <CheckCircle2 className="w-6 h-6" />}
+                    {(!feedback || !isCorrectHs) && <div className="w-2 h-2 bg-white rounded-full" />}
+                  </button>
+                );
+              })}
+            </div>
+            <p className="text-slate-400 font-bold text-sm uppercase tracking-widest italic">
+              Busca en la habitación y toca el objeto correcto
+            </p>
+          </div>
+        );
+
+      case 'spot_the_difference':
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
+            <div className="text-center space-y-4">
+               <div className="w-20 h-20 bg-amber-100 rounded-3xl flex items-center justify-center mx-auto text-4xl shadow-sm">
+                 🔎
+               </div>
+               <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "¿Cuál es la frase correcta?"}</h2>
+            </div>
+
+            <div className="grid gap-4 w-full">
+               {interaction.options?.map((opt: any) => {
+                 const isSelected = selectedOption === opt.id;
+                 const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
+                 
+                 return (
+                   <button
+                     key={opt.id}
+                     onClick={() => !feedback && setSelectedOption(opt.id)}
+                     className={`p-6 border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group ${
+                       feedback 
+                         ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
+                         : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-[1.02] shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
+                     } ${feedback ? 'pointer-events-none' : ''}`}
+                   >
+                     <span>{opt.text}</span>
+                     {feedback && isCorrectAns && <CheckCircle2 className="w-6 h-6 text-green-500" />}
+                     {!feedback && isSelected && <div className="w-4 h-4 rounded-full bg-indigo-500" />}
+                   </button>
+                 );
+               })}
+            </div>
+
+            {feedback && (
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="p-6 bg-indigo-50 border-2 border-indigo-100 rounded-[2rem] w-full text-center"
+              >
+                <p className="text-indigo-900 font-bold text-lg leading-relaxed">
+                  {interaction.explanation || (isCorrect ? "¡Exacto! Esa es la forma natural de decirlo." : "Recuerda el patrón correcto.")}
+                </p>
+              </motion.div>
+            )}
           </div>
         );
 
@@ -2633,6 +2945,50 @@ export default function PremiumCourseSession({
         </div>
       );
     }
+
+    if (video.is_vertical) {
+      return (
+        <div className="w-full max-w-sm mx-auto h-[70vh] relative bg-black rounded-[3rem] overflow-hidden shadow-2xl border-8 border-slate-900 flex flex-col">
+          {/* Background Visual Description (Fallback for real video) */}
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-800 to-black flex items-center justify-center p-8 text-center">
+            <p className="text-slate-500 font-bold italic text-sm">
+              [Visual: {scene.visual_description || scene.narration_es}]
+            </p>
+          </div>
+
+          {/* Subtitles (Large as per guide) */}
+          <div className="absolute bottom-32 left-0 right-0 p-8 text-center z-20">
+            <motion.h3 
+              key={scene.scene_id}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-white text-3xl font-black tracking-tight leading-tight drop-shadow-lg"
+            >
+              {scene.dialogue_en}
+            </motion.h3>
+          </div>
+
+          {/* Interaction Cues / Controls */}
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+             <motion.button 
+               whileHover={{ scale: 1.1 }}
+               whileTap={{ scale: 0.9 }}
+               onClick={() => playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en)}
+               className="w-24 h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center shadow-2xl border border-white/30 group"
+             >
+               <Play className="w-12 h-12 text-white fill-white ml-1" />
+             </motion.button>
+          </div>
+
+          <div className="absolute top-8 left-0 right-0 flex justify-center z-20">
+             <div className="bg-black/50 backdrop-blur-md px-4 py-1 rounded-full border border-white/20">
+                <span className="text-white/70 font-black text-[10px] uppercase tracking-widest">Escena {currentSceneIndex + 1} / {video.length || video.scenes.length}</span>
+             </div>
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="w-full max-w-4xl mx-auto space-y-12 px-4">
         <div className="bg-white border-4 border-slate-100 rounded-[3rem] p-8 md:p-12 flex flex-col items-center gap-10 shadow-2xl shadow-slate-200/50">
@@ -2968,10 +3324,10 @@ export default function PremiumCourseSession({
                   
                   handleCheckAnswer(answers.join(' ').trim());
                 }
-                else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
+                else if (['short_writing', 'dictation_guided', 'writing_task', 'mini_dictation'].includes(interaction.type)) {
                    handleCheckAnswer(inputValues[0] || "");
                 }
-                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
+                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'touch_word_audio', 'branching_dialogue', 'chat_simulation', 'ar_lite', 'spot_the_difference'].includes(interaction.type)) {
                   if (selectedOption !== null) handleCheckAnswer(selectedOption);
                 }
                 else if (interaction.type === 'ai-mission') {
@@ -2984,7 +3340,7 @@ export default function PremiumCourseSession({
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
                 if (interaction.type === 'ai-mission') return 'COMPLETAR MISIÓN';
-                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
+                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match', 'mini_dictation', 'touch_word_audio', 'branching_dialogue', 'chat_simulation', 'voice_note', 'ar_lite', 'spot_the_difference'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>
           )}

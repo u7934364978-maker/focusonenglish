@@ -1,47 +1,50 @@
 {
   "course": {
     "unit_id": "unit1",
-    "unit_title": "Greetings and Personal Information",
+    "unit_title": "Greetings in Context",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify and use basic greetings and farewells correctly",
-    "Introduce yourself and ask for someone's name in social contexts",
-    "Use the verb 'to be' (am/is/are) for basic introductions",
-    "Understand the difference between formal and informal greetings"
+    "Identify greetings based on the time of day",
+    "Recognize basic social interactions through visual cues",
+    "Practice first introductions without translation"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Natural Greetings",
+      "title": "Time of Day Greetings",
       "content": [
         {
           "interaction_id": "A1_U1_B1_I1",
           "type": "matching",
-          "prompt_es": "Asocia cada saludo con su momento del día o contexto:",
+          "prompt_es": "Asocia el momento con el saludo:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Good morning",
-              "right": "06:00 - 12:00"
+              "left": "",
+              "right": "Good morning",
+              "left_image": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p2",
-              "left": "Good afternoon",
-              "right": "12:00 - 18:00"
+              "left": "",
+              "right": "Good afternoon",
+              "left_image": "https://images.pexels.com/photos/2092058/pexels-photo-2092058.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p3",
-              "left": "Good evening",
-              "right": "18:00 - Despedida"
+              "left": "",
+              "right": "Good night",
+              "left_image": "https://images.pexels.com/photos/47367/full-moon-moon-bright-sky-47367.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             },
             {
               "id": "p4",
-              "left": "Hello / Hi",
-              "right": "Cualquier momento"
+              "left": "",
+              "right": "Hello",
+              "left_image": "https://images.pexels.com/photos/7533347/pexels-photo-7533347.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
             }
           ],
           "correct_answer": {
@@ -56,179 +59,27 @@
             "greetings"
           ],
           "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U1_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Llegas a una cena a las 8:00 PM. ¿Qué dices al entrar?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Good evening"
-            },
-            {
-              "id": "o2",
-              "text": "Good night"
-            },
-            {
-              "id": "o3",
-              "text": "Good morning"
-            }
-          ],
-          "correct_answer": "o1",
-          "explanation": "Usamos 'Good evening' para saludar al llegar por la noche. 'Good night' es solo para despedirse.",
-          "mastery_tag": "vocabulary:greetings",
-          "concept_tags": [
-            "vocabulary",
-            "greetings",
-            "communication"
-          ],
-          "complexity": 2
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "First Introductions",
+      "title": "Social Discovery",
       "content": [
         {
           "interaction_id": "A1_U1_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la presentación básica:",
-          "stimulus_en": "Hello! My ________ is Maria. I ________ from Spain.",
-          "correct_answer": [
-            "name",
-            "am"
-          ],
-          "mastery_tag": "grammar:introductions",
-          "concept_tags": [
-            "grammar",
-            "introductions",
-            "to-be"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta para saber el nombre de alguien:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "name?"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax:questions",
-          "concept_tags": [
-            "grammar",
-            "syntax",
-            "questions"
-          ],
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Alguien te dice: 'Nice to meet you'. ¿Qué respondes?",
+          "prompt_es": "¿Qué están haciendo?",
+          "image_url": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
           "options": [
-            {
-              "id": "o1",
-              "text": "I am fine, thanks."
-            },
-            {
-              "id": "o2",
-              "text": "Nice to meet you too."
-            },
-            {
-              "id": "o3",
-              "text": "Hello, my name is David."
-            }
+            { "id": "o1", "text": "Hello! My name is..." },
+            { "id": "o2", "text": "Good night" },
+            { "id": "o3", "text": "Goodbye" }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "communication:social",
-          "concept_tags": [
-            "communication",
-            "introductions"
-          ],
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Farewells and Politeness",
-      "content": [
-        {
-          "interaction_id": "A1_U1_B3_I1",
-          "type": "matching",
-          "prompt_es": "Relaciona las expresiones de cortesía:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Thank you",
-              "right": "You're welcome"
-            },
-            {
-              "id": "p2",
-              "left": "Excuse me",
-              "right": "Para pedir paso o atención"
-            },
-            {
-              "id": "p3",
-              "left": "Sorry",
-              "right": "Para pedir perdón"
-            },
-            {
-              "id": "p4",
-              "left": "Please",
-              "right": "Por favor"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:politeness",
-          "concept_tags": [
-            "vocabulary",
-            "communication"
-          ],
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U1_B3_I2",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Adiós, que tengas un buen día.'",
-          "stimulus_es": "Adiós, que tengas un buen día.",
-          "correct_answer": "Goodbye, have a nice day",
-          "validation_regex": "^goodbye,?\\s+have\\s+a\\s+nice\\s+day\\.?$",
-          "mastery_tag": "vocabulary:farewells",
-          "concept_tags": [
-            "vocabulary",
-            "farewells",
-            "communication"
-          ],
-          "complexity": 2
+          "correct_answer": "o1",
+          "explanation": "Están presentándose (Introducing themselves).",
+          "mastery_tag": "communication:introductions",
+          "concept_tags": ["communication", "introductions"]
         }
       ]
     }
