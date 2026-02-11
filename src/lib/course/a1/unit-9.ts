@@ -113,7 +113,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Pan y mantequilla',
-      instructions: 'Completa la frase con "bread" (pan).',
+      instructions: 'Completa la frase con la palabra para "pan".',
       questions: [
         {
           id: 'q1',
@@ -216,7 +216,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Me encanta el huevo',
-      instructions: 'Escribe "egg" (huevo).',
+      instructions: 'Escribe la palabra para "huevo".',
       questions: [
         {
           id: 'q1',
@@ -339,7 +339,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Té caliente',
-      instructions: 'Escribe "tea" (té).',
+      instructions: 'Escribe la palabra para "té".',
       questions: [
         {
           id: 'q1',
@@ -462,7 +462,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Pescado fresco',
-      instructions: 'Escribe "fish" (pescado).',
+      instructions: 'Escribe la palabra para "pescado".',
       questions: [
         {
           id: 'q1',
@@ -606,7 +606,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'Me gusta el helado',
-      instructions: 'Escribe "ice cream" (helado).',
+      instructions: 'Escribe la palabra para "helado".',
       questions: [
         {
           id: 'q1',
@@ -750,7 +750,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Pastel de cumpleaños',
-      instructions: 'Escribe "cake" (pastel).',
+      instructions: 'Escribe la palabra para "pastel".',
       questions: [
         {
           id: 'q1',
@@ -873,7 +873,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'Comiendo fuera',
-      instructions: 'Escribe "restaurant" (restaurante).',
+      instructions: 'Escribe la palabra para "restaurante".',
       questions: [
         {
           id: 'q1',
@@ -913,16 +913,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     topicName: 'Foodie Life',
     difficulty: 'medium',
     content: {
-      title: 'Frutas y Vegetales',
-      instructions: 'Relaciona cada vegetal con su nombre.',
+      title: 'En el restaurante',
+      instructions: 'Relaciona cada término con su traducción.',
       pairs: [
-        { id: 'p1', left: 'Cebolla', right: 'Onion' },
-        { id: 'p2', left: 'Ajo', right: 'Garlic' },
-        { id: 'p3', left: 'Lechuga', right: 'Lettuce' },
-        { id: 'p4', left: 'Pepino', right: 'Cucumber' },
-        { id: 'p5', left: 'Pimiento', right: 'Pepper' }
+        { id: 'p1', left: 'The bill', right: 'La cuenta' },
+        { id: 'p2', left: 'The menu', right: 'El menú' },
+        { id: 'p3', left: 'The waiter', right: 'El camarero' },
+        { id: 'p4', left: 'The tip', right: 'La propina' },
+        { id: 'p5', left: 'The table', right: 'La mesa' }
       ],
-      explanation: 'Este vocabulario es esencial para leer recetas o comprar en el mercado.'
+      explanation: 'Estos términos son esenciales para desenvolverse en un restaurante.'
     } as any
   },
   {
@@ -1017,7 +1017,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'La cuenta, por favor',
-      instructions: 'Escribe "bill" (la cuenta).',
+      instructions: 'Completa con la palabra para "la cuenta".',
       questions: [
         {
           id: 'q1',
