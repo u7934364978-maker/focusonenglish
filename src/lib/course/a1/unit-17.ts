@@ -56,7 +56,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My ________ is in my pocket.',
-          answer: 'phone',
+          correctAnswer: 'phone',
           explanation: '"Phone" es la forma corta de "telephone".'
         }
       ]
@@ -105,6 +105,26 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     id: 'a1-u17-e6',
+    type: 'matching',
+    level: 'A1',
+    topic: 'Technology',
+    topicName: 'Tech Savvy',
+    difficulty: 'easy',
+    content: {
+      title: 'Equipos Informáticos',
+      instructions: 'Une cada equipo con su traducción.',
+      pairs: [
+        { id: 'p1', left: 'Laptop', right: 'Ordenador portátil' },
+        { id: 'p2', left: 'Desktop', right: 'Ordenador de sobremesa' },
+        { id: 'p3', left: 'Monitor', right: 'Monitor' },
+        { id: 'p4', left: 'Printer', right: 'Impresora' },
+        { id: 'p5', left: 'Scanner', right: 'Escáner' }
+      ],
+      explanation: 'Diferentes tipos de ordenadores y periféricos de salida.'
+    } as any
+  },
+  {
+    id: 'a1-u17-e7',
     type: 'speaking-analysis',
     level: 'A1',
     topic: 'Technology',
@@ -125,7 +145,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e7',
+    id: 'a1-u17-e8',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -145,7 +165,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e8',
+    id: 'a1-u17-e9',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -166,7 +186,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e9',
+    id: 'a1-u17-e10',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -174,19 +194,19 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Portátil',
-      instructions: 'Escribe la palabra para "ordenador portátil".',
+      instructions: 'Completa con la palabra para "ordenador portátil".',
       questions: [
         {
           id: 'q1',
           question: 'I work on my ________.',
-          answer: 'laptop',
+          correctAnswer: 'laptop',
           explanation: '"Laptop" es el término específico para ordenadores que puedes llevar contigo.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e10',
+    id: 'a1-u17-e11',
     type: 'flashcard',
     level: 'A1',
     topic: 'Technology',
@@ -205,7 +225,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e11',
+    id: 'a1-u17-e12',
     type: 'sentence-building',
     level: 'A1',
     topic: 'Technology',
@@ -227,7 +247,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e12',
+    id: 'a1-u17-e13',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -247,7 +267,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e13',
+    id: 'a1-u17-e14',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -268,7 +288,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e14',
+    id: 'a1-u17-e15',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -281,14 +301,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Enter your ________ here.',
-          answer: 'password',
+          correctAnswer: 'password',
           explanation: 'Casi todos los servicios online requieren un "password".'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e15',
+    id: 'a1-u17-e16',
     type: 'speaking-analysis',
     level: 'A1',
     topic: 'Technology',
@@ -309,7 +329,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e16',
+    id: 'a1-u17-e17',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -329,7 +349,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e17',
+    id: 'a1-u17-e18',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -350,7 +370,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e18',
+    id: 'a1-u17-e19',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -363,14 +383,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'This is a great ________.',
-          answer: 'website',
+          correctAnswer: 'website',
           explanation: '"Website" se refiere a un sitio completo en internet.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e19',
+    id: 'a1-u17-e20',
     type: 'flashcard',
     level: 'A1',
     topic: 'Technology',
@@ -389,7 +409,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e20',
+    id: 'a1-u17-e21',
     type: 'sentence-building',
     level: 'A1',
     topic: 'Technology',
@@ -411,7 +431,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e21',
+    id: 'a1-u17-e22',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -431,7 +451,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e22',
+    id: 'a1-u17-e23',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -452,7 +472,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e23',
+    id: 'a1-u17-e24',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -465,14 +485,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is the ________ password?',
-          answer: 'Wi-Fi',
+          correctAnswer: 'Wi-Fi',
           explanation: 'Wi-Fi es un término universal para redes inalámbricas.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e24',
+    id: 'a1-u17-e25',
     type: 'speaking-analysis',
     level: 'A1',
     topic: 'Technology',
@@ -493,7 +513,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e25',
+    id: 'a1-u17-e26',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -513,7 +533,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e26',
+    id: 'a1-u17-e27',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -534,7 +554,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e27',
+    id: 'a1-u17-e28',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -547,14 +567,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I received a ________.',
-          answer: 'message',
+          correctAnswer: 'message',
           explanation: '"Message" puede ser de texto, voz o email.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e28',
+    id: 'a1-u17-e29',
     type: 'flashcard',
     level: 'A1',
     topic: 'Technology',
@@ -573,7 +593,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e29',
+    id: 'a1-u17-e30',
     type: 'sentence-building',
     level: 'A1',
     topic: 'Technology',
@@ -595,7 +615,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e30',
+    id: 'a1-u17-e31',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -615,7 +635,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e31',
+    id: 'a1-u17-e32',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -636,7 +656,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e32',
+    id: 'a1-u17-e33',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -649,14 +669,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Where is my ________?',
-          answer: 'charger',
+          correctAnswer: 'charger',
           explanation: '"Charger" es el objeto que usamos para "charge".'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e33',
+    id: 'a1-u17-e34',
     type: 'speaking-analysis',
     level: 'A1',
     topic: 'Technology',
@@ -677,7 +697,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e34',
+    id: 'a1-u17-e35',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -697,7 +717,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e35',
+    id: 'a1-u17-e36',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -718,7 +738,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e36',
+    id: 'a1-u17-e37',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -731,14 +751,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I will ________ a new photo today.',
-          answer: 'post',
+          correctAnswer: 'post',
           explanation: '"Post" se usa tanto como verbo como sustantivo.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e37',
+    id: 'a1-u17-e38',
     type: 'flashcard',
     level: 'A1',
     topic: 'Technology',
@@ -757,7 +777,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e38',
+    id: 'a1-u17-e39',
     type: 'sentence-building',
     level: 'A1',
     topic: 'Technology',
@@ -779,7 +799,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e39',
+    id: 'a1-u17-e40',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -799,7 +819,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e40',
+    id: 'a1-u17-e41',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -820,7 +840,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e41',
+    id: 'a1-u17-e42',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -833,14 +853,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I want to ________ a video.',
-          answer: 'watch',
+          correctAnswer: 'watch',
           explanation: 'Usamos "watch" para vídeos, películas o TV.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e42',
+    id: 'a1-u17-e43',
     type: 'speaking-analysis',
     level: 'A1',
     topic: 'Technology',
@@ -861,7 +881,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e43',
+    id: 'a1-u17-e44',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -881,7 +901,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e44',
+    id: 'a1-u17-e45',
     type: 'multiple-choice',
     level: 'A1',
     topic: 'Technology',
@@ -902,7 +922,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     }
   },
   {
-    id: 'a1-u17-e45',
+    id: 'a1-u17-e46',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -915,14 +935,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My screen is ________.',
-          answer: 'broken',
+          correctAnswer: 'broken',
           explanation: '"Broken" se usa para objetos físicos dañados.'
         }
       ]
     } as any
   },
   {
-    id: 'a1-u17-e46',
+    id: 'a1-u17-e47',
     type: 'flashcard',
     level: 'A1',
     topic: 'Technology',
@@ -941,7 +961,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e47',
+    id: 'a1-u17-e48',
     type: 'sentence-building',
     level: 'A1',
     topic: 'Technology',
@@ -963,7 +983,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e48',
+    id: 'a1-u17-e49',
     type: 'matching',
     level: 'A1',
     topic: 'Technology',
@@ -983,7 +1003,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'a1-u17-e49',
+    id: 'a1-u17-e50',
     type: 'fill-blank',
     level: 'A1',
     topic: 'Technology',
@@ -996,31 +1016,9 @@ export const UNIT_17_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I need ________ with my computer.',
-          answer: 'help',
+          correctAnswer: 'help',
           explanation: '"Help" es ayuda.'
         }
       ]
     } as any
-  },
-  {
-    id: 'a1-u17-e50',
-    type: 'multiple-choice',
-    level: 'A1',
-    topic: 'Technology',
-    topicName: 'Tech Savvy',
-    difficulty: 'hard',
-    content: {
-      title: 'Resumen Final',
-      instructions: '¿Cuál es un dispositivo táctil?',
-      questions: [
-        {
-          id: 'q1',
-          question: 'A ________ has a touch screen.',
-          options: ['tablet', 'printer', 'mouse'],
-          correctAnswer: 0,
-          explanation: '"Tablet" es un dispositivo que se usa con los dedos.'
-        }
-      ]
-    }
-  }
-];
+  }];
