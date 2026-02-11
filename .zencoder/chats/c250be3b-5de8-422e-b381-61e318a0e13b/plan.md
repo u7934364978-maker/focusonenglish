@@ -79,9 +79,16 @@
 3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `ea42bf5d`)
 
-### [/] Step: Implementation (Unit 7: Time Check)
+### [x] Step: Implementation (Unit 7: Time Check)
 
-1. [ ] Create `src/lib/course/a1/unit-7.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-7.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `7919c9f0`)
+
+### [ ] Step: Implementation (Unit 8: Daily Grind)
+
+1. [ ] Create `src/lib/course/a1/unit-8.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.

@@ -50,7 +50,7 @@ En Focus English, hemos integrado la tecnología en el corazón de nuestra metod
 
 *   **Simuladores de Escenarios**: Recreamos visual y auditivamente entornos como aeropuertos, salas de juntas o conferencias internacionales mediante ejercicios prácticos. Tu cerebro asocia el aprendizaje con un contexto visual y emocional, lo que mejora la retención a largo plazo.
 *   **Dificultad Adaptativa**: Nuestra tecnología es capaz de detectar tu nivel de acierto y ajustar la complejidad de los ejercicios para mantenerte en el "estado de flow", evitando tanto el aburrimiento como la frustración.
-*   **Enfoque en Resultados Reales**: Cada sesión de ejercicios tiene un objetivo práctico, ya sea prepararte para tus **[viajes](/blog/temas/inglés para viajar)** o ayudarte a conseguir ese ascenso que requiere dominar el inglés profesional.
+*   **Enfoque en Resultados Reales**: Cada sesión de ejercicios tiene un objetivo práctico, ya sea prepararte para tus **[viajes](/blog/temas/ingles-para-viajar)** o ayudarte a conseguir ese ascenso que requiere dominar el inglés profesional.
 
 ---
 

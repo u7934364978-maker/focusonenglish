@@ -53,3 +53,18 @@ Add logic to validate internal links against discovered routes and external link
 ### [x] Task 4: Finalize report and execution
 Format the output to be clear and professional, providing a full list of 404 errors.
 - **Verification**: Final execution of the script.
+
+## Phase: Blog Reorganization and URL Fixes
+Improve blog architecture by moving grammar articles to a dedicated category and fixing detected 404s.
+
+### [x] Task 5: Fix detected internal broken links
+Update links with spaces and accents in `aprender-ingles-ia-guia.md`, `ingles-emergencias-viaje.md`, and `ingles-nomadas-digitales-mochileros.md`.
+- **Verification**: Run `node scripts/check-404s.mjs` and ensure these 404s are gone.
+
+### [ ] Task 6: Create 'gramatica' category and move articles
+Move grammar-focused articles from `metodos` to `gramatica` folder and update their frontmatter.
+- **Verification**: Verify files exist in `src/content/blog/gramatica/`.
+
+### [ ] Task 7: Update internal links to reorganized articles
+Search and replace all internal links pointing to the old `/blog/metodos/...` paths with the new `/blog/gramatica/...` paths.
+- **Verification**: Run `node scripts/check-404s.mjs` to ensure no new 404s are introduced.

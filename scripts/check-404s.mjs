@@ -79,6 +79,7 @@ function slugify(text) {
 async function getValidRoutes() {
   // Start with automatically discovered static routes
   const routes = getStaticRoutes(APP_DIR);
+  console.log('DEBUG: Discovered static routes:', Array.from(routes).sort());
   
   // Add some known routes that might be nested or tricky
   routes.add('/cuenta/login');
@@ -237,6 +238,10 @@ async function main() {
           
           const normalizedInternalPath = normalizeUrl(internalPath) || '/';
           
+          if (normalizedInternalPath === '/test-nivel') {
+            console.log(`DEBUG: Checking /test-nivel. In set? ${validRoutes.has(normalizedInternalPath)}`);
+          }
+
           if (!validRoutes.has(normalizedInternalPath)) {
             isBroken = true;
             status = '404';

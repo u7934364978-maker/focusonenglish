@@ -15,7 +15,7 @@ Vivir viajando ha dejado de ser una utopía para convertirse en un estilo de vid
 
 En esta guía definitiva, exploramos las herramientas lingüísticas necesarias para navegar por el mundo como un ciudadano global, combinando la eficiencia del trabajo remoto con la aventura del viaje.
 
-Visita nuestro **[hub de inglés para viajar](/blog/temas/inglés para viajar)** para situaciones de ocio o el **[hub de inglés para el trabajo](/blog/trabajo)** para potenciar tu carrera.
+Visita nuestro **[hub de inglés para viajar](/blog/temas/ingles-para-viajar)** para situaciones de ocio o el **[hub de inglés para el trabajo](/blog/trabajo)** para potenciar tu carrera.
 
 ## 1. Inglés para Nómadas Digitales: El Entorno Laboral Remoto
 

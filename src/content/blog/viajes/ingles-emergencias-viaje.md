@@ -15,7 +15,7 @@ Nadie quiere pensar en imprevistos negativos durante un viaje soñado, pero esta
 
 En esta guía exhaustiva, cubriremos no solo el vocabulario básico, sino también los protocolos y frases específicas que te permitirán comunicarte con claridad con la policía, servicios médicos y autoridades consulares en cualquier país de habla inglesa.
 
-Para más recursos de seguridad, visita nuestro **[hub de inglés para viajar](/blog/temas/inglés para viajar)**.
+Para más recursos de seguridad, visita nuestro **[hub de inglés para viajar](/blog/temas/ingles-para-viajar)**.
 
 ## 1. Frases de Auxilio en Inglés: Lo más Urgente
 
