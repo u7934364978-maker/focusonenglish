@@ -14,7 +14,7 @@ export default function EngineDebugPage() {
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState<StudentProfile | null>(null);
   const [debugMode, setDebugMode] = useState(true);
-  const [targetUnit, setTargetUnit] = useState(1);
+  const [targetUnit, setTargetUnit] = useState(30);
 
   const userId = 'debug-user';
 
@@ -25,8 +25,8 @@ export default function EngineDebugPage() {
     const currentProfile = MasteryManager.getProfile(userId);
     setProfile(currentProfile);
     
-    // Use adaptive generation
-    const adaptiveExercises = generator.generateAdaptiveSession(currentProfile, unitNum, 10);
+    // Adaptive generation with broad unit range
+    const adaptiveExercises = generator.generateAdaptiveSession(currentProfile, unitNum, 15);
 
     setExercises(adaptiveExercises);
     setLoading(false);

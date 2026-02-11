@@ -7,7 +7,8 @@ export interface Blueprint {
   title?: string;
   instruction?: string;
   template: string;
-  correctSlot?: string; // New: specify which slot is the answer
+  correctSlot?: string;
+  explanationTemplate?: string; // Added for rich pedagogical notes
   slots: Record<string, {
     pos?: string;
     tags?: string[];
@@ -72,6 +73,19 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: '{greeting_es}, María.'
   },
+  {
+    id: 'BP-BE-03',
+    skillId: 'A1-BE-POS-01',
+    type: 'multiple-choice',
+    title: 'Presentación Formal',
+    instruction: 'Completa la presentación:',
+    template: 'Hello, I {be} Laura.',
+    correctSlot: 'be',
+    slots: {
+      be: { fixedValues: ['am'] }
+    },
+    translationTemplate: 'Hola, yo {be_es} Laura.'
+  },
   // --- Unit 2: Coffee Break ---
   {
     id: 'BP-WANT-01',
@@ -126,6 +140,19 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: 'Un {drink_es}, por favor.'
   },
+  {
+    id: 'BP-WANT-05',
+    skillId: 'A1-WANT-01',
+    type: 'multiple-choice',
+    title: 'Petición',
+    instruction: '¿Cómo pedirías agua?',
+    template: 'I want some {drink}.',
+    correctSlot: 'drink',
+    slots: {
+      drink: { fixedValues: ['water'] }
+    },
+    translationTemplate: 'Quiero algo de {drink_es}.'
+  },
 
   // --- Skill: A1-PREP-LOC-01 (Prepositions) ---
   {
@@ -158,47 +185,71 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: 'El/La {item_es} está {prep_es} el/la {surface_es}.'
   },
-  // --- Unit 3: Family ---
   {
-    id: 'BP-FAM-01',
+    id: 'BP-FAM-02',
+    skillId: 'A1-FAM-01',
+    type: 'fill-blank',
+    title: '¿Quién es?',
+    instruction: 'Completa con el miembro de la familia:',
+    template: 'He is my {member}.',
+    correctSlot: 'member',
+    slots: {
+      member: { pos: 'noun', tags: ['family'] }
+    },
+    translationTemplate: 'Él es mi {member_es}.'
+  },
+  {
+    id: 'BP-FAM-03',
     skillId: 'A1-FAM-01',
     type: 'multiple-choice',
-    title: 'Mi Familia',
-    instruction: 'Identifica al miembro de la familia:',
+    title: 'Género en la Familia',
+    instruction: 'Elige el término correcto:',
     template: 'She is my {member}.',
+    correctSlot: 'member',
     slots: {
       member: { pos: 'noun', tags: ['family'] }
     },
     translationTemplate: 'Ella es mi {member_es}.'
   },
   {
-    id: 'BP-POSS-01',
+    id: 'BP-POSS-02',
     skillId: 'A1-POSS-01',
-    type: 'fill-blank',
+    type: 'multiple-choice',
     title: 'Posesivos',
-    instruction: 'Completa con el posesivo correcto (mi, tu):',
-    template: '{poss} {member} is here.',
+    instruction: 'Elige el posesivo correcto:',
+    template: 'Is this {poss} book?',
     correctSlot: 'poss',
     slots: {
-      poss: { pos: 'adjective', tags: ['possessive'] },
-      member: { pos: 'noun', tags: ['family'] }
+      poss: { pos: 'adjective', tags: ['possessive'] }
     },
-    translationTemplate: '{poss_es} {member_es} está aquí.'
+    translationTemplate: '¿Es este {poss_es} libro?'
   },
   // --- Unit 4: Routine ---
   {
-    id: 'BP-ROUT-01',
+    id: 'BP-ROUT-03',
     skillId: 'A1-ROUT-01',
-    type: 'multiple-choice',
-    title: 'Rutina Diaria',
-    instruction: '¿Qué haces durante el día?',
-    template: 'I {action} in the {time}.',
+    type: 'fill-blank',
+    title: 'Verbos de Rutina',
+    instruction: 'Completa con tu actividad:',
+    template: 'I {action} at night.',
     correctSlot: 'action',
     slots: {
-      action: { pos: 'verb', tags: ['routine'] },
+      action: { pos: 'verb', tags: ['routine'] }
+    },
+    translationTemplate: 'Yo {action_es} por la noche.'
+  },
+  {
+    id: 'BP-ROUT-04',
+    skillId: 'A1-ROUT-01',
+    type: 'multiple-choice',
+    title: 'Momentos del Día',
+    instruction: '¿Cuándo lo haces?',
+    template: 'I work in the {time}.',
+    correctSlot: 'time',
+    slots: {
       time: { pos: 'noun', tags: ['time'] }
     },
-    translationTemplate: 'Yo {action_es} por la {time_es}.'
+    translationTemplate: 'Trabajo por la {time_es}.'
   },
   // --- Unit 5: Numbers ---
   {

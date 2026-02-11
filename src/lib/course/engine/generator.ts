@@ -22,6 +22,8 @@ export class ExerciseGenerator {
     // 1. Calculate weight for each blueprint
     const weightedBlueprints = blueprints.map(bp => {
       const skill = A1_SKILLS[bp.skillId];
+      if (!skill) return { bp, weight: 0 };
+
       const mastery = profile.skills[bp.skillId] || {
         masteryLevel: 0,
         attempts: 0,
@@ -34,22 +36,17 @@ export class ExerciseGenerator {
       // Priority 1: Recent failures (Crucial reinforcement)
       if (mastery.failuresInRow > 0) weight += 100 * mastery.failuresInRow;
 
-      // Priority 2: New content in target unit
+      // Priority 2: Progression - New content in target unit
       if (skill.unit === targetUnit && mastery.attempts === 0) weight += 50;
 
-      // Priority 3: Low mastery content in target unit
+      // Priority 3: Persistence - Low mastery content in target unit
       if (skill.unit === targetUnit && mastery.masteryLevel < 0.5) weight += 30;
 
-      // Priority 4: Spaced repetition (Mastered but not seen recently)
-      if (mastery.masteryLevel > 0.8) {
-        const lastSeen = new Date(mastery.lastAttemptAt).getTime();
-        const now = Date.now();
-        const daysSince = (now - lastSeen) / (1000 * 60 * 60 * 24);
-        if (daysSince > 2) weight += 10; // Bring back after 2 days
-      }
+      // Priority 4: Discovery - Everything else from current and past units
+      if (skill.unit <= targetUnit) weight += 10;
 
-      // Penalty: Content from future units
-      if (skill.unit > targetUnit) weight = 0;
+      // Priority 5: Sneak Peek - Small chance for future units (Discovery)
+      if (skill.unit > targetUnit) weight += 2;
 
       return { bp, weight };
     }).filter(wb => wb.weight > 0);
@@ -57,15 +54,19 @@ export class ExerciseGenerator {
     // Sort by weight and pick
     const sortedBlueprints = weightedBlueprints.sort((a, b) => b.weight - a.weight);
 
+    // Shuffle top pool to avoid repetition if weights are equal
+    const topPool = sortedBlueprints.slice(0, count * 3);
+    const randomizedPool = this.shuffle(topPool);
+
     // Generate exercises
     let i = 0;
-    while (sessionExercises.length < count && sortedBlueprints.length > 0) {
-      const selection = sortedBlueprints[i % sortedBlueprints.length];
+    while (sessionExercises.length < count && randomizedPool.length > 0) {
+      const selection = randomizedPool[i % randomizedPool.length];
       sessionExercises.push(this.assemble(selection.bp));
       i++;
       
-      // Safety break to avoid infinite loops if pool is too small
-      if (i > count * 2) break;
+      // Safety break to avoid infinite loops
+      if (i > count * 5) break;
     }
 
     return sessionExercises;
@@ -104,11 +105,15 @@ export class ExerciseGenerator {
     // 1. Fill slots with lexical items (with novelty rotation)
     for (const [slotName, config] of Object.entries(blueprint.slots)) {
       if (config.fixedValues) {
+        const selectedLemma = this.getRandom(config.fixedValues);
+        // Look for translation in lexicon even for fixed values
+        const lexiconMatch = this.lexicon.find(l => l.lemma === selectedLemma);
+        
         filledSlots[slotName] = {
-          lemma: this.getRandom(config.fixedValues),
+          lemma: selectedLemma,
           pos: config.pos as any || 'verb',
-          translation: '',
-          tags: []
+          translation: lexiconMatch?.translation || '',
+          tags: lexiconMatch?.tags || []
         };
       } else {
         const matches = this.lexicon.filter(item => {
@@ -192,7 +197,7 @@ export class ExerciseGenerator {
     const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
     const correctItem = filledSlots[slotName];
     
-    // Resolve dynamic instructions based on tags of the correct item
+    // Resolve dynamic instructions
     let instructions = blueprint.instruction || defaultInstructions[blueprint.type] || 'Resuelve el ejercicio:';
     if (correctItem && correctItem.tags) {
       for (const tag of correctItem.tags) {
@@ -201,8 +206,18 @@ export class ExerciseGenerator {
         }
       }
     }
-    // Fallback if placeholder remains
     instructions = instructions.replace(new RegExp(`{${slotName}_type}`, 'g'), '');
+
+    // Resolve rich explanation based on blueprint template or fallback
+    let explanation = `💡 **Análisis**: En inglés, "${correctItem.lemma}" significa "${correctItem.translation}".`;
+    
+    if (blueprint.skillId.includes('BE-POS')) {
+      explanation = `💡 **Gramática**: Usamos "${correctItem.lemma}" con el pronombre personal "I" para presentarnos o decir cómo estamos.`;
+    } else if (blueprint.skillId.includes('WANT')) {
+      explanation = `💡 **Uso**: Utilizamos el verbo "want" para expresar deseos. Recuerda: "I want" = "Yo quiero".`;
+    } else if (blueprint.skillId.includes('PREP')) {
+      explanation = `💡 **Preposición**: "${correctItem.lemma}" indica la posición exacta. En este caso: "${correctItem.translation}".`;
+    }
 
     const base: any = {
       id: `${blueprint.id}-${Math.random().toString(36).substr(2, 9)}`,
@@ -219,9 +234,7 @@ export class ExerciseGenerator {
     };
 
     if (blueprint.type === 'fill-blank') {
-      const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
-      const answer = filledSlots[slotName].lemma;
-      
+      const answer = correctItem.lemma;
       let questionText = blueprint.template;
       for (const [name, item] of Object.entries(filledSlots)) {
         if (name === slotName) {
@@ -233,19 +246,14 @@ export class ExerciseGenerator {
           questionText = questionText.replace(`{${name}}`, item.lemma);
         }
       }
-
-      // Add translation context to avoid guessing
-      const contextText = `En español: "${spanish}"`;
 
       base.content.questions = [{
-        text: `${contextText}\n\n${questionText}`,
+        text: `En español: "${spanish}"\n\n${questionText}`,
         correctAnswer: answer,
-        explanation: `💡 **Tip pedagógico**: ${spanish}.`
+        explanation: explanation
       }];
     } else if (blueprint.type === 'multiple-choice') {
-      const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
-      const correctAnswer = filledSlots[slotName].lemma;
-      
+      const correctAnswer = correctItem.lemma;
       let questionText = blueprint.template;
       for (const [name, item] of Object.entries(filledSlots)) {
         if (name === slotName) {
@@ -258,9 +266,6 @@ export class ExerciseGenerator {
         }
       }
       
-      // Add translation context to avoid guessing
-      const contextText = `En español: "${spanish}"`;
-
       const config = blueprint.slots[slotName];
       const distractors = this.lexicon
         .filter(item => 
@@ -272,10 +277,10 @@ export class ExerciseGenerator {
         .map(i => i.lemma);
 
       base.content.questions = [{
-        question: `${contextText}\n\n${questionText}`,
+        question: `En español: "${spanish}"\n\n${questionText}`,
         options: this.shuffle([correctAnswer, ...distractors]),
         correctAnswer: correctAnswer,
-        explanation: `💡 **Tip pedagógico**: ${spanish}.`
+        explanation: explanation
       }];
     } else {
       base.content.questions = [{

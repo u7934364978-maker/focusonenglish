@@ -84,3 +84,8 @@ Create a detailed implementation plan based on `spec.md`.
   - Implemented mandatory "Translation Anchor" in `generator.ts` for all multiple-choice and fill-blank exercises.
   - Replaced ambiguous "guess the word" exercises with grammar-focused or translation-focused tasks.
   - Ensured that "To Be" exercises focus on the verb form (am/is/are) rather than random nouns.
+- [x] **Task 17: Massive Variety & High-Quality Explanations**
+  - Updated selection algorithm to allow mixing content from all 30 units (Global Pool).
+  - Implemented "Coach-style" pedagogical explanations with grammatical analysis.
+  - Expanded Blueprints pool to ensure thousands of unique exercise variations.
+  - Improved translation reliability for fixed values in templates.
