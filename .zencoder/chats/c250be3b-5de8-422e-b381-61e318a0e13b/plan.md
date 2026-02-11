@@ -101,9 +101,16 @@
 3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `50a4dfae`)
 
-### [ ] Step: Implementation (Unit 10: Outfit of the Day)
+### [x] Step: Implementation (Unit 10: Outfit of the Day)
 
-1. [ ] Create `src/lib/course/a1/unit-10.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-10.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `08006da2`)
+
+### [ ] Step: Implementation (Unit 11: My Job)
+
+1. [ ] Create `src/lib/course/a1/unit-11.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
