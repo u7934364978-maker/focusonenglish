@@ -31,12 +31,22 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
   
   // Normalizar el item actual
   const normalizedFront = typeof currentItem.front === 'string' 
-    ? { text: currentItem.front } 
-    : currentItem.front;
+    ? { text: currentItem.front, image: undefined, audio: undefined, phonetic: undefined } 
+    : {
+        text: currentItem.front.text,
+        image: currentItem.front.image,
+        audio: currentItem.front.audio,
+        phonetic: currentItem.front.phonetic
+      };
     
   const normalizedBack = typeof currentItem.back === 'string'
-    ? { translation: currentItem.back }
-    : currentItem.back;
+    ? { translation: currentItem.back, text: '', explanation: undefined, example: undefined }
+    : { 
+        translation: currentItem.back.translation, 
+        text: currentItem.back.text || '', 
+        explanation: currentItem.back.explanation, 
+        example: currentItem.back.example 
+      };
 
   const playAudio = (text: string) => {
     // Si hay un audio específico lo usamos, si no usamos speech synthesis

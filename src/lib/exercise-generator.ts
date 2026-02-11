@@ -3,8 +3,7 @@
 // ============================================
 // Conecta el curriculum de Cambridge con el sistema de generación de ejercicios
 
-import { type CEFRLevel } from './cambridge-curriculum';
-import { type ExerciseType } from './exercise-types';
+import { type CEFRLevel, type ExerciseType } from './exercise-types';
 
 export interface Exercise {
   id: string;
@@ -12,9 +11,10 @@ export interface Exercise {
   level: CEFRLevel;
   topic: string;
   topicName: string;
+  difficulty?: 'easy' | 'medium' | 'hard';
   content: any;
-  createdAt: Date;
-  estimatedTime: number;
+  createdAt?: Date;
+  estimatedTime?: number;
 }
 
 export interface ExerciseConfig {

@@ -230,4 +230,26 @@
 1. [x] Create `src/lib/course/a1/unit-27.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `0d082600`)
+
+### [x] Step: Implementation (Unit 28: Comparing Things)
+
+1. [x] Create `src/lib/course/a1/unit-28.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Fix TypeScript errors in unit data and renderers.
+5. [ ] Commit & Push for user review.
+
+### [ ] Step: Implementation (Unit 29: Final Graduation)
+
+1. [ ] Create `src/lib/course/a1/unit-29.ts` with 50 review exercises from Units 1-28.
+2. [ ] Add pedagogical explanations and 5-pair matching.
+3. [ ] Run audit script and fix issues.
+4. [ ] Commit & Push for user review.
+
+### [ ] Step: Implementation (Unit 30: Bonus Challenge)
+
+1. [ ] Create `src/lib/course/a1/unit-30.ts` with 50 advanced mix exercises.
+2. [ ] Add pedagogical explanations and 5-pair matching.
+3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.

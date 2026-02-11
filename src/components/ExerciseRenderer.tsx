@@ -15,7 +15,7 @@ import { updateSRSItem } from '@/lib/srs';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
-  onComplete: () => void;
+  onComplete: (score?: number) => void;
 }
 
 export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRendererProps) {

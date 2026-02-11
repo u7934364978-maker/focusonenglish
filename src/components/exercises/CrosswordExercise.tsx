@@ -27,22 +27,6 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
   const containerRef = useRef<HTMLDivElement>(null);
   const [cellSize, setCellSize] = useState(40); // px
 
-  useEffect(() => {
-    if (!containerRef.current) return;
-    
-    const updateSize = () => {
-      if (!containerRef.current) return;
-      const width = containerRef.current.offsetWidth - 32; // padding
-      const calculated = Math.floor(width / cols);
-      setCellSize(Math.min(48, Math.max(32, calculated)));
-    };
-
-    updateSize();
-    const observer = new ResizeObserver(updateSize);
-    observer.observe(containerRef.current);
-    return () => observer.disconnect();
-  }, [cols]);
-
   // Calculate normalized grid dimensions and offsets
   const { rows, cols, minRow, minCol, cellNumbers } = useMemo(() => {
     const minR = Math.min(...items.map(i => i.row));
@@ -72,6 +56,22 @@ export default function CrosswordExercise({ items, onComplete }: CrosswordProps)
       cellNumbers: numbers
     };
   }, [items]);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    
+    const updateSize = () => {
+      if (!containerRef.current) return;
+      const width = containerRef.current.offsetWidth - 32; // padding
+      const calculated = Math.floor(width / cols);
+      setCellSize(Math.min(48, Math.max(32, calculated)));
+    };
+
+    updateSize();
+    const observer = new ResizeObserver(updateSize);
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, [cols]);
 
   useEffect(() => {
     if (rows <= 0 || cols <= 0) return;
