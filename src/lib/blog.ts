@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { Author, getAuthor } from "./authors";
 
 const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
 
@@ -12,6 +13,7 @@ export interface BlogPost {
   title: string;
   date: string;
   author: string;
+  authorData?: Author;
   excerpt: string;
   description?: string;
   category: string;
@@ -75,6 +77,7 @@ export function getBlogArticles(): BlogPost[] {
       title: data.title || "Untitled",
       date: data.date || new Date().toISOString(),
       author: data.author || "Focus English",
+      authorData: getAuthor(data.author || "focus-english-team"),
       excerpt: data.excerpt || data.description || "",
       description: data.description || data.excerpt,
       category: normalizeCategory(data.category || "General"),
@@ -147,6 +150,14 @@ export function getArticlesByKeyword(keyword: string): BlogPost[] {
   return allArticles.filter(article => 
     article.keywords?.some(k => slugify(k) === slugify(keyword))
   );
+}
+
+export function getArticlesByAuthor(authorSlug: string): BlogPost[] {
+  const allArticles = getBlogArticles();
+  return allArticles.filter(article => {
+    const slug = slugify(article.author || "");
+    return slug === authorSlug || (article.authorData && article.authorData.slug === authorSlug);
+  });
 }
 
 export interface HubContent {

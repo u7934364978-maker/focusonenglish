@@ -24,6 +24,12 @@ export interface ArticleSchemaProps {
   category?: string;
   keywords?: string[];
   wordCount?: number;
+  author?: {
+    name: string;
+    slug: string;
+    role?: string;
+    image?: string;
+  };
 }
 
 export interface FAQItem {
@@ -96,17 +102,25 @@ export function generateCourseSchema(props: CourseSchemaProps) {
  * Generates Article Schema for blog posts
  */
 export function generateArticleSchema(props: ArticleSchemaProps) {
+  const authorSchema = props.author ? {
+    "@type": "Person",
+    "name": props.author.name,
+    "url": `https://www.focus-on-english.com/blog/autor/${props.author.slug}`,
+    "jobTitle": props.author.role,
+    "image": props.author.image
+  } : {
+    "@type": "Organization",
+    "name": "Focus English",
+    "url": "https://www.focus-on-english.com"
+  };
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": props.title,
     "description": props.description,
-    "image": `https://www.focus-on-english.com${props.image}`,
-    "author": {
-      "@type": "Organization",
-      "name": "Focus English",
-      "url": "https://www.focus-on-english.com"
-    },
+    "image": props.image.startsWith('http') ? props.image : `https://www.focus-on-english.com${props.image}`,
+    "author": authorSchema,
     "publisher": {
       "@type": "Organization",
       "name": "Focus English",

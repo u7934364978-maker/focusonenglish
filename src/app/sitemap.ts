@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getBlogArticles, getAllKeywords, slugify, normalizeCategory } from "@/lib/blog";
-
+import { authors } from "@/lib/authors";
 import { phraseService } from "@/lib/phrases";
 
 const baseUrl = "https://www.focus-on-english.com";
@@ -134,7 +134,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
   );
 
-  // 3. Añadir categorías de frases dinámicamente
+  // 3. Añadir autores dinámicamente
+  urls.push(
+    ...Object.keys(authors).map((slug) => ({
+      url: `${baseUrl}/blog/autor/${slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    }))
+  );
+
+  // 4. Añadir categorías de frases dinámicamente
   const phraseCategories = await phraseService.getAllCategories();
   urls.push(
     ...phraseCategories.map((cat) => ({

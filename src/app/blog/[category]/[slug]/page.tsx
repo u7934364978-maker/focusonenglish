@@ -8,11 +8,13 @@ import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { SEOInterlinking } from "@/components/blog/SEOInterlinking";
 import { TopicClusterLinks } from "@/components/blog/TopicClusterLinks";
+import { CourseConversionCard } from "@/components/blog/CourseConversionCard";
 import { getBlogArticles, getArticleBySlug, getRelatedArticles, getRelatedByKeywords, normalizeCategory, slugify } from "@/lib/blog";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { optimizeSEOTitle } from "@/utils/seo-utils";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { Linkedin, Twitter, Instagram, Award } from "lucide-react";
 
 export async function generateStaticParams() {
   const articles = getBlogArticles();
@@ -111,6 +113,12 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     category: normalizedCategory,
     keywords: article.keywords,
     wordCount,
+    author: article.authorData ? {
+      name: article.authorData.name,
+      slug: article.authorData.slug,
+      role: article.authorData.role,
+      image: article.authorData.image,
+    } : undefined,
   });
 
   // Generate Breadcrumb Schema
@@ -294,10 +302,20 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                         <span className="w-1 h-1 rounded-full bg-slate-300" />
                         {article.readTime} de lectura
                       </span>
-                      <span className="flex items-center gap-1.5">
-                        <span className="w-1 h-1 rounded-full bg-slate-300" />
-                        Por {article.author}
-                      </span>
+                      {article.authorData ? (
+                        <Link 
+                          href={`/blog/autor/${article.authorData.slug}`}
+                          className="flex items-center gap-1.5 hover:text-coral-600 transition-colors group"
+                        >
+                          <span className="w-1 h-1 rounded-full bg-slate-300 group-hover:bg-coral-400" />
+                          Por <span className="font-bold">{article.authorData.name}</span>
+                        </Link>
+                      ) : (
+                        <span className="flex items-center gap-1.5">
+                          <span className="w-1 h-1 rounded-full bg-slate-300" />
+                          Por {article.author}
+                        </span>
+                      )}
                     </div>
 
                     <h1 className="font-display text-4xl lg:text-5xl font-black text-slate-900 mb-8 leading-[1.1]">
@@ -306,13 +324,32 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
 
                     <div className="flex items-center justify-between py-6 border-y border-slate-50">
                       <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-full bg-coral-100 flex items-center justify-center text-coral-600">
-                          <span className="font-bold">FT</span>
-                        </div>
-                        <div>
-                          <p className="text-sm font-bold text-slate-900">{article.author}</p>
-                          <p className="text-xs text-slate-500">Focus English Team</p>
-                        </div>
+                        {article.authorData ? (
+                          <Link href={`/blog/autor/${article.authorData.slug}`} className="flex items-center gap-3 group">
+                            <div className="relative w-12 h-12 rounded-2xl overflow-hidden border-2 border-slate-100 group-hover:border-coral-200 transition-all">
+                              <Image 
+                                src={article.authorData.image} 
+                                alt={article.authorData.name} 
+                                fill 
+                                className="object-cover"
+                              />
+                            </div>
+                            <div>
+                              <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">{article.authorData.name}</p>
+                              <p className="text-xs text-slate-500">{article.authorData.role}</p>
+                            </div>
+                          </Link>
+                        ) : (
+                          <>
+                            <div className="w-10 h-10 rounded-full bg-coral-100 flex items-center justify-center text-coral-600">
+                              <span className="font-bold">FT</span>
+                            </div>
+                            <div>
+                              <p className="text-sm font-bold text-slate-900">{article.author}</p>
+                              <p className="text-xs text-slate-500">Focus English Team</p>
+                            </div>
+                          </>
+                        )}
                       </div>
                       <ShareButton title={article.title} description={article.excerpt} />
                     </div>
@@ -335,8 +372,71 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                     {/* SEO Interlinking Block */}
                     <SEOInterlinking category={normalizedCategory} />
                     
+                    {/* Course Conversion Widget (CTA) */}
+                    <CourseConversionCard category={normalizedCategory} />
+                    
                     {/* Dynamic Topic Cluster */}
                     <TopicClusterLinks articles={clusterArticles} mainKeyword={mainKeyword} />
+
+                    {/* Author Bio Section (EEAT) */}
+                    {article.authorData && (
+                      <div className="mt-16 p-8 lg:p-10 bg-slate-50 rounded-[2.5rem] border border-slate-100 relative overflow-hidden group">
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-coral-100 rounded-full -mr-16 -mt-16 opacity-20 blur-2xl group-hover:opacity-40 transition-opacity"></div>
+                        
+                        <div className="flex flex-col md:flex-row gap-8 items-center md:items-start relative z-10">
+                          <Link href={`/blog/autor/${article.authorData.slug}`} className="shrink-0 group/img">
+                            <div className="relative w-24 h-24 lg:w-32 lg:h-32 rounded-3xl overflow-hidden border-4 border-white shadow-lg rotate-3 group-hover/img:rotate-0 transition-transform duration-500">
+                              <Image 
+                                src={article.authorData.image} 
+                                alt={article.authorData.name} 
+                                fill 
+                                className="object-cover"
+                              />
+                            </div>
+                          </Link>
+                          
+                          <div className="text-center md:text-left">
+                            <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-4">
+                              <Link href={`/blog/autor/${article.authorData.slug}`} className="hover:text-coral-600 transition-colors">
+                                <h3 className="font-display text-2xl font-black text-slate-900 leading-tight">
+                                  Escrito por {article.authorData.name}
+                                </h3>
+                              </Link>
+                              <div className="inline-flex items-center justify-center gap-1.5 px-3 py-1 rounded-full bg-white text-coral-600 text-xs font-bold border border-coral-100 shadow-sm self-center md:self-auto">
+                                <Award className="w-3.5 h-3.5" />
+                                Experto Verificado
+                              </div>
+                            </div>
+                            
+                            <p className="text-slate-600 text-lg leading-relaxed mb-6">
+                              {article.authorData.bio}
+                            </p>
+                            
+                            <div className="flex flex-wrap justify-center md:justify-start items-center gap-6">
+                              <Link 
+                                href={`/blog/autor/${article.authorData.slug}`}
+                                className="text-coral-600 font-bold text-sm hover:underline flex items-center gap-1.5"
+                              >
+                                Ver perfil completo y artículos →
+                              </Link>
+                              
+                              <div className="flex items-center gap-3">
+                                {article.authorData.social?.linkedin && (
+                                  <a href={article.authorData.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
+                                    <Linkedin className="w-5 h-5" />
+                                  </a>
+                                )}
+                                {article.authorData.social?.twitter && (
+                                  <a href={article.authorData.social.twitter} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-500 transition-colors">
+                                    <Twitter className="w-5 h-5" />
+                                  </a>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   {/* Post Footer */}

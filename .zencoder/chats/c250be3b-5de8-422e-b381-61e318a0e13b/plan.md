@@ -115,9 +115,16 @@
 3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `bfe459ff`)
 
-### [ ] Step: Implementation (Unit 12: In the City)
+### [x] Step: Implementation (Unit 12: In the City)
 
-1. [ ] Create `src/lib/course/a1/unit-12.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-12.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `ea25f920`)
+
+### [ ] Step: Implementation (Unit 13: Move It!)
+
+1. [ ] Create `src/lib/course/a1/unit-13.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.

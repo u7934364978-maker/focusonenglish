@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BlogPost, slugify } from "@/lib/blog";
+import { Layers, ArrowRight, Bookmark, LayoutGrid } from "lucide-react";
 
 interface TopicClusterLinksProps {
   articles: BlogPost[];
@@ -11,41 +12,67 @@ export function TopicClusterLinks({ articles, mainKeyword }: TopicClusterLinksPr
   if (!articles || articles.length === 0) return null;
 
   return (
-    <div className="my-16 border-t border-slate-100 pt-16">
-      <div className="flex items-center gap-3 mb-8">
-        <div className="p-2 rounded-lg bg-indigo-50 text-indigo-600">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m21 21-6-6m6 6v-4.8m0 4.8h-4.8"/><path d="M3 16.2V21m0 0h4.8M3 21l6-6"/><path d="M21 7.8V3m0 0h-4.8M21 3l-6 6"/><path d="M3 7.8V3m0 0h4.8M3 3l6 6"/></svg>
+    <div className="my-16 border-y border-slate-100 py-16">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+        <div className="flex items-center gap-4">
+          <div className="p-3 rounded-2xl bg-indigo-600 text-white shadow-lg shadow-indigo-100">
+            <Layers className="w-6 h-6" />
+          </div>
+          <div>
+            <h2 className="font-display text-3xl font-black text-slate-900 leading-tight">
+              Topic Cluster: {mainKeyword || 'Temas Relacionados'}
+            </h2>
+            <p className="text-slate-500 font-medium">
+              Profundiza en {mainKeyword || 'esta categoría'} con nuestras guías expertas
+            </p>
+          </div>
         </div>
-        <div>
-          <h2 className="font-display text-2xl font-bold text-slate-900">Lecturas recomendadas sobre este tema</h2>
-          <p className="text-slate-500 text-sm">Explora más recursos para dominar {mainKeyword || 'esta área'}</p>
-        </div>
+        
+        <Link 
+          href="/aprender-ingles"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-xl font-bold text-sm hover:bg-slate-800 transition-all shadow-md group"
+        >
+          <LayoutGrid className="w-4 h-4 text-coral-400" />
+          <span>Hub Maestro: Aprender Inglés</span>
+          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+        </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {articles.map((article) => (
           <Link 
             key={article.slug}
             href={`/blog/${article.category}/${article.slug}`}
-            className="group flex flex-col bg-white rounded-2xl border border-slate-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+            className="group flex flex-col bg-white rounded-3xl border border-slate-100 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
           >
             {article.image && (
-              <div className="relative h-32 w-full overflow-hidden">
+              <div className="relative h-40 w-full overflow-hidden">
                 <Image
                   src={article.image}
                   alt={article.alt || article.title}
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute top-4 left-4">
+                  <span className="px-3 py-1 bg-white/90 backdrop-blur-sm rounded-lg text-[10px] font-black uppercase tracking-widest text-slate-900">
+                    {article.category}
+                  </span>
+                </div>
               </div>
             )}
-            <div className="p-4 flex-1">
-              <h3 className="font-bold text-slate-900 text-sm group-hover:text-coral-600 transition-colors line-clamp-2 mb-2">
+            <div className="p-6 flex-1 flex flex-col">
+              <h3 className="font-display font-bold text-slate-900 text-lg group-hover:text-coral-600 transition-colors line-clamp-2 mb-4 leading-snug">
                 {article.title}
               </h3>
-              <div className="flex items-center justify-between mt-auto">
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{article.category}</span>
-                <span className="text-coral-500 font-bold text-xs group-hover:translate-x-1 transition-transform">→</span>
+              <div className="mt-auto flex items-center justify-between">
+                <div className="flex items-center gap-1.5 text-slate-400">
+                  <Bookmark className="w-3.5 h-3.5" />
+                  <span className="text-[10px] font-bold uppercase tracking-widest">{article.readTime || '5 min'}</span>
+                </div>
+                <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 group-hover:bg-coral-50 group-hover:text-coral-600 transition-all">
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                </div>
               </div>
             </div>
           </Link>
@@ -53,13 +80,17 @@ export function TopicClusterLinks({ articles, mainKeyword }: TopicClusterLinksPr
       </div>
       
       {mainKeyword && (
-        <div className="mt-8 text-center">
+        <div className="mt-12 p-8 bg-indigo-50/50 rounded-3xl border border-indigo-100 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="text-center md:text-left">
+            <p className="text-indigo-900 font-bold text-lg mb-1">¿Quieres dominar {mainKeyword} por completo?</p>
+            <p className="text-indigo-600/80 text-sm">Explora nuestra biblioteca completa de recursos especializados.</p>
+          </div>
           <Link 
             href={`/blog/temas/${slugify(mainKeyword)}`}
-            className="inline-flex items-center gap-2 text-indigo-600 font-bold text-sm hover:underline"
+            className="inline-flex items-center gap-2 bg-white text-indigo-600 px-8 py-3 rounded-xl font-bold text-sm border-2 border-indigo-100 hover:border-indigo-600 transition-all shadow-sm"
           >
             <span>Ver todo sobre {mainKeyword}</span>
-            <span>→</span>
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
       )}

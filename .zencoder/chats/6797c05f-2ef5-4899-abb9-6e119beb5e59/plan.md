@@ -68,3 +68,10 @@ Move grammar-focused articles from `metodos` to `gramatica` folder and update th
 ### [x] Task 7: Update internal links to reorganized articles
 Search and replace all internal links pointing to the old `/blog/metodos/...` paths with the new `/blog/gramatica/...` paths.
 - **Verification**: Run `node scripts/check-404s.mjs` to ensure no new 404s are introduced.
+
+### [x] Task 8: Fix URL decoding in blog article page
+Modify `src/app/blog/[category]/[slug]/page.tsx` to decode the `category` parameter.
+- **Verification**: Manually verify the logic or run a test if possible.
+
+### [x] Task 9: Verify all internal links again
+Run the 404 checker to ensure no regressions.
