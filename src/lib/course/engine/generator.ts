@@ -36,9 +36,10 @@ export class ExerciseGenerator {
       };
       
       const isProduction = bp.type === 'fill-blank' || bp.type === 'sentence-building';
-      const hasEnoughExposure = mastery.masteryLevel > 0.15 || mastery.attempts >= 1;
-
-      // Force discovery first for new skills in the current unit
+      const isDiscovery = bp.type === 'flashcard' || bp.type === 'matching';
+      
+      // Word-Level Sequencing:
+      // If the skill is new, we MUST do Discovery first.
       if (skill.unit === targetUnit && mastery.attempts === 0 && isProduction) {
         return { bp, weight: 0 };
       }
@@ -48,9 +49,10 @@ export class ExerciseGenerator {
       if (mastery.failuresInRow > 0) weight += 200 * mastery.failuresInRow;
 
       // Priority 2: Brand new content (Discovery phase)
-      if (skill.unit === targetUnit && mastery.attempts === 0) {
-        weight += 100;
-        if (bp.type === 'flashcard' || bp.type === 'matching') weight += 300;
+      if (skill.unit === targetUnit && mastery.attempts < 2) {
+        weight += 150;
+        if (isDiscovery) weight += 600; // Strongest push for discovery
+        if (bp.type === 'multiple-choice') weight += 200;
       }
 
       // Priority 3: Current unit practice
@@ -79,22 +81,21 @@ export class ExerciseGenerator {
 
     // Generate exercises with forced variety
     let i = 0;
-    const typesSeen = new Set<string>();
+    const typesSeen: Record<string, number> = {};
 
     while (sessionExercises.length < count && randomizedPool.length > 0) {
       const selection = randomizedPool[i % randomizedPool.length];
       const bp = selection.bp;
       
-      // Forced variety logic: don't pick the same type 3 times in a row
-      // and prioritize types we haven't seen in this session yet
-      const typeRepetition = sessionExercises.filter(e => e.type === bp.type).length;
-      const isOverRepresented = typeRepetition > count / 2;
+      // Forced variety logic: ensure no type dominates too much
+      const typeCount = typesSeen[bp.type] || 0;
+      const isOverRepresented = typeCount >= Math.ceil(count / 3);
 
       if (isOverRepresented && randomizedPool.length > count) {
-        // Skip this one to find more variety if possible
+        // Skip this one to find more variety
       } else {
         sessionExercises.push(this.assemble(bp));
-        typesSeen.add(bp.type);
+        typesSeen[bp.type] = (typesSeen[bp.type] || 0) + 1;
       }
 
       i++;
@@ -159,17 +160,20 @@ export class ExerciseGenerator {
         const matches = this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
-          const unitMatch = item.unit <= skill.unit; // Pedagogical Control: only use words from current or past units
+          const unitMatch = item.unit <= skill.unit; 
           const noveltyMatch = !this.recentWords.has(item.lemma);
-          return posMatch && tagMatch && unitMatch && noveltyMatch;
+          // Semantic Shielding: don't use proper nouns for common slots unless specified
+          const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
+          return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield;
         });
 
-        // If no matches with novelty, relax novelty constraint but KEEP unit constraint
+        // If no matches with novelty, relax novelty constraint but KEEP unit and proper noun constraint
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
           const unitMatch = item.unit <= skill.unit; 
-          return posMatch && tagMatch && unitMatch;
+          const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
+          return posMatch && tagMatch && unitMatch && properNounShield;
         });
 
         const selected = this.getRandom(pool);
@@ -205,7 +209,15 @@ export class ExerciseGenerator {
       const isPlural = isNumber && numberValue !== 'one' && numberValue !== '1';
       
       const englishLemma = (isPlural && item.plural) ? item.plural : item.lemma;
-      const spanishLemma = item.translation; // Spanish pluralization is more complex, keeping simple for now
+      
+      // Smart Spanish Translation (Conjugation + Pluralization)
+      let spanishLemma = item.translation;
+      if (item.pos === 'verb' && item.i_es && (blueprint.template.startsWith('I ') || blueprint.template.includes(' I '))) {
+        spanishLemma = item.i_es;
+      }
+      if (isPlural && item.plural_es) {
+        spanishLemma = item.plural_es;
+      }
 
       // Handle "a/an" logic
       const needsAn = /^[aeiou]/i.test(englishLemma);
@@ -223,7 +235,7 @@ export class ExerciseGenerator {
     return this.mapToExercise(blueprint, englishText, spanishText, skill, filledSlots);
   }
 
-  private mapToExercise(blueprint: Blueprint, english: string, spanish: string, skill: any, filledSlots: any): Exercise {
+  private mapToExercise(blueprint: Blueprint, english: string, spanish: string, skill: any, filledSlots: Record<string, LexicalItem>): Exercise {
     const defaultInstructions: Record<string, string> = {
       'fill-blank': 'Completa el espacio en blanco:',
       'multiple-choice': 'Elige la opción correcta:',
@@ -247,6 +259,13 @@ export class ExerciseGenerator {
 
     const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
     const correctItem = filledSlots[slotName];
+
+    // Determine if we need plural form for the answer
+    const isNumber = filledSlots['num']?.tags.includes('number') || filledSlots['number']?.tags.includes('number');
+    const numberValue = filledSlots['num']?.lemma || filledSlots['number']?.lemma;
+    const isPlural = isNumber && numberValue !== 'one' && numberValue !== '1';
+    
+    const answer = (isPlural && correctItem.plural) ? correctItem.plural : correctItem.lemma;
     
     // Resolve dynamic instructions
     let instructions = blueprint.instruction || defaultInstructions[blueprint.type] || 'Resuelve el ejercicio:';
@@ -285,18 +304,7 @@ export class ExerciseGenerator {
     };
 
     if (blueprint.type === 'fill-blank') {
-      const answer = correctItem.lemma;
-      let questionText = blueprint.template;
-      for (const [name, item] of Object.entries(filledSlots)) {
-        if (name === slotName) {
-          questionText = questionText.replace(`{${name}}`, '_______');
-        } else {
-          const needsAn = /^[aeiou]/i.test(item.lemma);
-          const correctArticle = needsAn ? 'an' : 'a';
-          questionText = questionText.replace(new RegExp(`a {${name}}|an {${name}}`, 'g'), `${correctArticle} ${item.lemma}`);
-          questionText = questionText.replace(`{${name}}`, item.lemma);
-        }
-      }
+      const questionText = english.replace(new RegExp(`\\b${answer}\\b`, 'g'), '_______');
 
       base.content.questions = [{
         text: `En español: "${spanish}"\n\n${questionText}`,
@@ -304,18 +312,7 @@ export class ExerciseGenerator {
         explanation: explanation
       }];
     } else if (blueprint.type === 'multiple-choice') {
-      const correctAnswer = correctItem.lemma;
-      let questionText = blueprint.template;
-      for (const [name, item] of Object.entries(filledSlots)) {
-        if (name === slotName) {
-          questionText = questionText.replace(`{${name}}`, '_______');
-        } else {
-          const needsAn = /^[aeiou]/i.test(item.lemma);
-          const correctArticle = needsAn ? 'an' : 'a';
-          questionText = questionText.replace(new RegExp(`a {${name}}|an {${name}}`, 'g'), `${correctArticle} ${item.lemma}`);
-          questionText = questionText.replace(`{${name}}`, item.lemma);
-        }
-      }
+      const questionText = english.replace(new RegExp(`\\b${answer}\\b`, 'g'), '_______');
       
       const config = blueprint.slots[slotName];
       
@@ -324,7 +321,7 @@ export class ExerciseGenerator {
       
       // A. If fixedValues exist, they are the best distractors
       if (config.fixedValues) {
-        potentialDistractors = config.fixedValues.filter(v => v !== correctAnswer);
+        potentialDistractors = config.fixedValues.filter(v => v !== answer);
       } 
       
       // B. If not enough fixed values, search lexicon by semantic tags + POS
@@ -332,12 +329,12 @@ export class ExerciseGenerator {
         const semanticTags = config.tags || correctItem.tags || [];
         const extraDistractors = this.lexicon
           .filter(item => 
-            item.lemma !== correctAnswer && 
+            item.lemma !== correctItem.lemma && 
             !potentialDistractors.includes(item.lemma) &&
             (!config.pos || item.pos === config.pos) &&
             (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true)
           )
-          .map(i => i.lemma);
+          .map(i => (isPlural && i.plural) ? i.plural : i.lemma);
         
         potentialDistractors.push(...extraDistractors);
       }
@@ -345,17 +342,17 @@ export class ExerciseGenerator {
       // Final fallback if we still don't have enough: any word with same POS
       if (potentialDistractors.length < 3) {
         const fallbacks = this.lexicon
-          .filter(item => item.lemma !== correctAnswer && item.pos === (config.pos || correctItem.pos))
-          .map(i => i.lemma);
+          .filter(item => item.lemma !== correctItem.lemma && item.pos === (config.pos || correctItem.pos))
+          .map(i => (isPlural && i.plural) ? i.plural : i.lemma);
         potentialDistractors.push(...fallbacks);
       }
 
-      const finalDistractors = this.shuffle(potentialDistractors).slice(0, 3);
+      const finalDistractors = this.shuffle(Array.from(new Set(potentialDistractors))).slice(0, 3);
 
       base.content.questions = [{
         question: `En español: "${spanish}"\n\n${questionText}`,
-        options: this.shuffle([correctAnswer, ...finalDistractors]),
-        correctAnswer: correctAnswer,
+        options: this.shuffle([answer, ...finalDistractors]),
+        correctAnswer: answer,
         explanation: explanation
       }];
     } else if (blueprint.type === 'matching') {

@@ -89,7 +89,7 @@ Create a detailed implementation plan based on `spec.md`.
   - Implemented "Coach-style" pedagogical explanations with grammatical analysis.
   - Expanded Blueprints pool to ensure thousands of unique exercise variations.
   - Improved translation reliability for fixed values in templates.
-- [ ] **Task 18: Pedagogical Sequencing (Discovery -> Practice)**
+- [x] **Task 18: Pedagogical Sequencing (Discovery -> Practice)**
   - [x] Implement `vocabularyExposure` tracking in `mastery.ts`.
   - [x] Classify Blueprints into pedagogical stages (Discovery, Recognition, Production).
   - [x] Modify `generator.ts` to block Production exercises (fill-blank) until Discovery/Recognition stages are met for a word.
@@ -103,3 +103,16 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Implement `proper_noun` vs `common_noun` logic to prevent semantic errors.
   - [x] Add automated pluralization logic for number-based exercises.
   - [x] Classify verbs (physical vs stative) to ensure logical skill sentences.
+- [x] **Task 21: Advanced Spanish Grammar & Semantic Engine**
+  - [x] Update `LexicalItem` with `plural_es` and `i_es`.
+  - [x] Implement Spanish pluralization and conjugation logic in `generator.ts`.
+- [x] **Task 22: Forced Variety & Sequencing Fix**
+  - [x] Re-balance weights to ensure Matching/Flashcards appear first.
+  - [x] Implement "First attempts are always Discovery" rule.
+- [x] **Task 23: Instruction & Template Cleanup**
+  - [x] Update instructions for formal/informal context.
+  - [x] Fix translation anchor answer leakage.
+- [ ] **Task 24: Final Validation & 30-Unit Polish**
+  - [ ] Perform full walkthrough of Units 1-5.
+  - [ ] Verify grammar for "I have two keys" and "Yo estudio".
+  - [ ] Obtain user confirmation on pedagogical flow.

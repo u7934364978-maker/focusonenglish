@@ -4,8 +4,11 @@ export interface LexicalItem {
   countable?: boolean;
   article?: 'a' | 'an' | 'some';
   plural?: string;
+  plural_es?: string; // Spanish plural form
   tags: string[];
   translation: string;
+  i_es?: string;      // Spanish conjugation for "I"
+  he_she_es?: string; // Spanish conjugation for "He/She"
   unit: number; // Mandatory for pedagogical control
 }
 
@@ -17,9 +20,9 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'good afternoon', pos: 'noun', translation: 'buenas tardes', tags: ['greeting', 'afternoon', 'A1'], unit: 1 },
   { lemma: 'good evening', pos: 'noun', translation: 'buenas noches', tags: ['greeting', 'evening', 'A1'], unit: 1 },
   { lemma: 'good night', pos: 'noun', translation: 'buenas noches', tags: ['greeting', 'night', 'A1'], unit: 1 },
-  { lemma: 'am', pos: 'verb', translation: 'soy', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'are', pos: 'verb', translation: 'eres/estás', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'is', pos: 'verb', translation: 'es/está', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'am', pos: 'verb', translation: 'soy', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'are', pos: 'verb', translation: 'eres/estás', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'is', pos: 'verb', translation: 'es/está', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
   { lemma: 'Maria', pos: 'noun', translation: 'María', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
   { lemma: 'David', pos: 'noun', translation: 'David', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
@@ -40,23 +43,23 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'milk', pos: 'noun', countable: false, article: 'some', translation: 'leche', tags: ['drink', 'A1'], unit: 2 },
   
   // Objects (Unit 5/20)
-  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', tags: ['object', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', tags: ['object', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', tags: ['food', 'fruit', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', plural_es: 'libros', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', plural_es: 'llaves', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', plural_es: 'manzanas', tags: ['food', 'fruit', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', plural_es: 'bolígrafos', tags: ['object', 'common_noun', 'A1'], unit: 5 },
   
   // Surfaces/Places
-  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', tags: ['furniture', 'A1'], unit: 20 },
-  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', tags: ['furniture', 'A1'], unit: 20 },
-  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', tags: ['container', 'A1'], unit: 20 },
-  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', tags: ['appliance', 'A1'], unit: 20 },
+  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', plural_es: 'mesas', tags: ['furniture', 'A1'], unit: 20 },
+  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', plural_es: 'sillas', tags: ['furniture', 'A1'], unit: 20 },
+  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', plural_es: 'cajas', tags: ['container', 'A1'], unit: 20 },
+  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', plural_es: 'neveras', tags: ['appliance', 'A1'], unit: 20 },
 
   // Verbs
-  { lemma: 'want', pos: 'verb', translation: 'querer', tags: ['stative_verb', 'A1'], unit: 2 },
-  { lemma: 'drink', pos: 'verb', translation: 'beber', tags: ['physical_action', 'A1'], unit: 2 },
-  { lemma: 'eat', pos: 'verb', translation: 'comer', tags: ['physical_action', 'A1'], unit: 9 },
-  { lemma: 'is', pos: 'verb', translation: 'es/está', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'want', pos: 'verb', translation: 'querer', i_es: 'quiero', tags: ['stative_verb', 'A1'], unit: 2 },
+  { lemma: 'drink', pos: 'verb', translation: 'beber', i_es: 'bebo', tags: ['physical_action', 'A1'], unit: 2 },
+  { lemma: 'eat', pos: 'verb', translation: 'comer', i_es: 'como', tags: ['physical_action', 'A1'], unit: 9 },
+  { lemma: 'is', pos: 'verb', translation: 'es/está', i_es: 'es', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', i_es: 'somos', tags: ['be', 'A1'], unit: 1 },
 
   // Family (Unit 3)
   { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', tags: ['family', 'A1'], unit: 3 },

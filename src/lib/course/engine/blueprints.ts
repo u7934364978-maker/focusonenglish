@@ -670,4 +670,31 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: ''
   },
+  // --- Universal Discovery Blueprints ---
+  {
+    id: 'BP-DISC-FLASH-UNIV',
+    skillId: 'A1-UNIVERSAL',
+    type: 'flashcard',
+    title: 'Nueva Palabra',
+    instruction: 'Descubre este concepto:',
+    template: '{word}',
+    correctSlot: 'word',
+    slots: {
+      word: { pos: 'noun' }
+    },
+    translationTemplate: '{word_es}'
+  },
+  {
+    id: 'BP-DISC-MATCH-UNIV',
+    skillId: 'A1-UNIVERSAL',
+    type: 'matching',
+    title: 'Vocabulario',
+    instruction: 'Relaciona las palabras con su traducción:',
+    template: '{word}',
+    correctSlot: 'word',
+    slots: {
+      word: { pos: 'noun' }
+    },
+    translationTemplate: '{word_es}'
+  }
 ];
