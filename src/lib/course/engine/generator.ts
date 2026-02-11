@@ -1,4 +1,4 @@
-import { Exercise } from '@/lib/exercise-generator';
+import { Exercise } from '../../exercise-generator';
 import { A1_LEXICON, LexicalItem } from './lexicon';
 import { A1_BLUEPRINTS, Blueprint } from './blueprints';
 import { A1_SKILLS } from './skills';
@@ -97,10 +97,10 @@ export class ExerciseGenerator {
     const base = {
       id: `${blueprint.id}-${Math.random().toString(36).substr(2, 9)}`,
       type: blueprint.type,
-      level: 'A1',
+      level: 'A1' as any,
       topic: skill.name,
       topicName: skill.name,
-      difficulty: 'medium',
+      difficulty: 'medium' as any,
     };
 
     if (blueprint.type === 'fill-blank') {

@@ -1,4 +1,4 @@
-import { ExerciseType } from '@/lib/exercise-generator';
+import { ExerciseType } from '../../exercise-types';
 
 export interface Blueprint {
   id: string;
