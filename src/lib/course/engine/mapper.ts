@@ -2,19 +2,21 @@ import { Exercise } from '../../exercise-generator';
 import { PremiumInteraction } from '../../../types/premium-course';
 
 export function mapExerciseToPremium(exercise: Exercise): PremiumInteraction {
+  const content = exercise.content as any;
   const base: Partial<PremiumInteraction> = {
     interaction_id: exercise.id,
     type: exercise.type,
     mastery_tag: exercise.topic || 'general',
-    explanation: (exercise.content as any).questions?.[0]?.explanation || (exercise.content as any).explanation,
+    explanation: content.questions?.[0]?.explanation || content.explanation,
+    prompt_es: content.instructions || 'Resuelve el ejercicio:',
   };
 
   if (exercise.type === 'multiple-choice') {
-    const q = (exercise.content as any).questions[0];
+    const q = content.questions[0];
     return {
       ...base,
       type: 'multiple_choice',
-      prompt_es: 'Elige la opción correcta:',
+      prompt_es: content.instructions || 'Elige la opción correcta:',
       stimulus_en: q.question,
       options: q.options.map((opt: string, i: number) => ({ id: `opt-${i}`, text: opt })),
       correct_answer: q.correctAnswer,
@@ -22,11 +24,11 @@ export function mapExerciseToPremium(exercise: Exercise): PremiumInteraction {
   }
 
   if (exercise.type === 'fill-blank') {
-    const q = (exercise.content as any).questions[0];
+    const q = content.questions[0];
     return {
       ...base,
       type: 'fill_blank',
-      prompt_es: 'Completa el espacio en blanco:',
+      prompt_es: content.instructions || 'Completa el espacio en blanco:',
       stimulus_en: q.text,
       correct_answer: q.correctAnswers[0],
     } as PremiumInteraction;

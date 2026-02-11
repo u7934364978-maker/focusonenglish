@@ -94,36 +94,41 @@ export class ExerciseGenerator {
   }
 
   private mapToExercise(blueprint: Blueprint, english: string, spanish: string, skill: any, filledSlots: any): Exercise {
-    const base = {
+    const defaultInstructions: Record<string, string> = {
+      'fill-blank': 'Completa el espacio en blanco:',
+      'multiple-choice': 'Elige la opción correcta:',
+      'matching': 'Une las parejas:',
+      'sentence-building': 'Ordena las palabras:',
+      'flashcard': 'Aprende este concepto:'
+    };
+
+    const base: any = {
       id: `${blueprint.id}-${Math.random().toString(36).substr(2, 9)}`,
       type: blueprint.type,
       level: 'A1' as any,
       topic: skill.name,
       topicName: skill.name,
       difficulty: 'medium' as any,
+      content: {
+        title: blueprint.title || skill.name,
+        instructions: blueprint.instruction || defaultInstructions[blueprint.type] || 'Resuelve el ejercicio:',
+        questions: []
+      }
     };
 
     if (blueprint.type === 'fill-blank') {
       const firstSlotName = Object.keys(blueprint.slots)[0];
       const answer = filledSlots[firstSlotName].lemma;
       
-      return {
-        ...base,
-        content: {
-          questions: [{
-            text: english.replace(new RegExp(`\\b${answer}\\b`, 'g'), '_______'),
-            correctAnswers: [answer],
-            explanation: `Completamos con "${answer}": ${spanish}`
-          }]
-        }
-      } as any;
-    }
-
-    if (blueprint.type === 'multiple-choice') {
+      base.content.questions = [{
+        text: english.replace(new RegExp(`\\b${answer}\\b`, 'g'), '_______'),
+        correctAnswers: [answer],
+        explanation: `💡 **Tip pedagógico**: ${spanish}.`
+      }];
+    } else if (blueprint.type === 'multiple-choice') {
       const firstSlotName = Object.keys(blueprint.slots)[0];
       const correctAnswer = filledSlots[firstSlotName].lemma;
       
-      // Generate distractors from the same POS and tags
       const config = blueprint.slots[firstSlotName];
       const distractors = this.lexicon
         .filter(item => 
@@ -134,30 +139,22 @@ export class ExerciseGenerator {
         .slice(0, 3)
         .map(i => i.lemma);
 
-      return {
-        ...base,
-        content: {
-          questions: [{
-            question: english.replace(new RegExp(`\\b${correctAnswer}\\b`, 'g'), '_______'),
-            options: this.shuffle([correctAnswer, ...distractors]),
-            correctAnswer: correctAnswer,
-            explanation: spanish
-          }]
-        }
-      } as any;
+      base.content.questions = [{
+        question: english.replace(new RegExp(`\\b${correctAnswer}\\b`, 'g'), '_______'),
+        options: this.shuffle([correctAnswer, ...distractors]),
+        correctAnswer: correctAnswer,
+        explanation: `💡 **Tip pedagógico**: ${spanish}.`
+      }];
+    } else {
+      base.content.questions = [{
+        question: english,
+        options: [english],
+        correctAnswer: english,
+        explanation: spanish
+      }];
     }
 
-    return {
-      ...base,
-      content: {
-        questions: [{
-          question: english,
-          options: [english],
-          correctAnswer: english,
-          explanation: spanish
-        }]
-      }
-    } as any;
+    return base;
   }
 
   private getRandom<T>(arr: T[]): T {
