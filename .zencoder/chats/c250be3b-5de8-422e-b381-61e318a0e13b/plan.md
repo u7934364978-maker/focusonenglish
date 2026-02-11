@@ -211,11 +211,11 @@
 1. [x] Create `src/lib/course/a1/unit-25.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
-4. [x] Commit & Push for user review. (Commit: `pending`)
+4. [x] Commit & Push for user review. (Commit: `2824820c`)
 
-### [ ] Step: Implementation (Unit 26: Did you?)
+### [x] Step: Implementation (Unit 26: Did you?)
 
-1. [ ] Create `src/lib/course/a1/unit-26.ts` with 50 exercises.
-2. [ ] Add pedagogical explanations and 5-pair matching.
-3. [ ] Run audit script and fix issues.
+1. [x] Create `src/lib/course/a1/unit-26.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
