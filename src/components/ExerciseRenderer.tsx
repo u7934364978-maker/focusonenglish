@@ -15,7 +15,7 @@ import { updateSRSItem } from '@/lib/srs';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
-  onComplete: (score?: number) => void;
+  onComplete: (result?: { success: boolean; score: number }) => void;
 }
 
 export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRendererProps) {
@@ -120,7 +120,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   };
 
   const handleNext = () => {
-    onComplete();
+    onComplete({ success: isCorrect, score: evaluation?.score || (isCorrect ? 100 : 0) });
   };
 
   const renderExerciseContent = () => {
@@ -141,7 +141,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           {showFinishButton && (
             <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
               <button
-                onClick={() => onComplete()}
+                onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })}
                 className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
               >
                 Siguiente Ejercicio
@@ -177,7 +177,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           {showFinishButton && (
             <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
               <button
-                onClick={() => onComplete(finishScore)}
+                onClick={() => onComplete({ success: true, score: finishScore })}
                 className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
               >
                 Siguiente Ejercicio
@@ -211,7 +211,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           {showFinishButton && (
             <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
               <button
-                onClick={() => onComplete(finishScore)}
+                onClick={() => onComplete({ success: true, score: finishScore })}
                 className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
               >
                 Siguiente Ejercicio
@@ -250,7 +250,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           {showFinishButton && (
             <div className="mt-8 flex justify-center animate-in fade-in zoom-in duration-300">
               <button
-                onClick={() => onComplete(finishScore)}
+                onClick={() => onComplete({ success: finishScore >= 80, score: finishScore })}
                 className="bg-green-600 text-white px-12 py-4 rounded-2xl font-black hover:bg-green-700 transition-all shadow-lg flex items-center justify-center gap-2 shadow-green-100"
               >
                 Siguiente Ejercicio
@@ -275,7 +275,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                 setShowConfetti(true);
                 completeExercise(exercise.id, 1, 1);
               }
-              onComplete();
+              onComplete({ success: isCorrect, score: isCorrect ? 100 : 0 });
             }} 
           />
         </div>
@@ -295,7 +295,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                 setShowConfetti(true);
                 completeExercise(exercise.id, 1, 1);
               }
-              onComplete();
+              onComplete({ success: isCorrect, score: isCorrect ? 100 : 0 });
             }} 
           />
         </div>

@@ -2,10 +2,74 @@ import { Exercise } from '../../exercise-generator';
 import { A1_LEXICON, LexicalItem } from './lexicon';
 import { A1_BLUEPRINTS, Blueprint } from './blueprints';
 import { A1_SKILLS } from './skills';
+import { StudentProfile } from './mastery';
 
 export class ExerciseGenerator {
   private lexicon: LexicalItem[] = A1_LEXICON;
   private recentWords: Set<string> = new Set();
+
+  /**
+   * Generates an adaptive session based on student profile.
+   * Logic:
+   * 1. REINFORCEMENT: Skills with recent failures or low mastery.
+   * 2. PROGRESSION: New skills from the current unit.
+   * 3. RETENTION: Old mastered skills (Spaced Repetition).
+   */
+  generateAdaptiveSession(profile: StudentProfile, targetUnit: number = 1, count: number = 10): Exercise[] {
+    const sessionExercises: Exercise[] = [];
+    const blueprints = [...A1_BLUEPRINTS];
+
+    // 1. Calculate weight for each blueprint
+    const weightedBlueprints = blueprints.map(bp => {
+      const skill = A1_SKILLS[bp.skillId];
+      const mastery = profile.skills[bp.skillId] || {
+        masteryLevel: 0,
+        attempts: 0,
+        failuresInRow: 0,
+        lastAttemptAt: new Date(0).toISOString()
+      };
+
+      let weight = 0;
+
+      // Priority 1: Recent failures (Crucial reinforcement)
+      if (mastery.failuresInRow > 0) weight += 100 * mastery.failuresInRow;
+
+      // Priority 2: New content in target unit
+      if (skill.unit === targetUnit && mastery.attempts === 0) weight += 50;
+
+      // Priority 3: Low mastery content in target unit
+      if (skill.unit === targetUnit && mastery.masteryLevel < 0.5) weight += 30;
+
+      // Priority 4: Spaced repetition (Mastered but not seen recently)
+      if (mastery.masteryLevel > 0.8) {
+        const lastSeen = new Date(mastery.lastAttemptAt).getTime();
+        const now = Date.now();
+        const daysSince = (now - lastSeen) / (1000 * 60 * 60 * 24);
+        if (daysSince > 2) weight += 10; // Bring back after 2 days
+      }
+
+      // Penalty: Content from future units
+      if (skill.unit > targetUnit) weight = 0;
+
+      return { bp, weight };
+    }).filter(wb => wb.weight > 0);
+
+    // Sort by weight and pick
+    const sortedBlueprints = weightedBlueprints.sort((a, b) => b.weight - a.weight);
+
+    // Generate exercises
+    let i = 0;
+    while (sessionExercises.length < count && sortedBlueprints.length > 0) {
+      const selection = sortedBlueprints[i % sortedBlueprints.length];
+      sessionExercises.push(this.assemble(selection.bp));
+      i++;
+      
+      // Safety break to avoid infinite loops if pool is too small
+      if (i > count * 2) break;
+    }
+
+    return sessionExercises;
+  }
 
   /**
    * Generates multiple variants for a specific blueprint
@@ -106,7 +170,7 @@ export class ExerciseGenerator {
       id: `${blueprint.id}-${Math.random().toString(36).substr(2, 9)}`,
       type: blueprint.type,
       level: 'A1' as any,
-      topic: skill.name,
+      topic: skill.id,
       topicName: skill.name,
       difficulty: 'medium' as any,
       content: {

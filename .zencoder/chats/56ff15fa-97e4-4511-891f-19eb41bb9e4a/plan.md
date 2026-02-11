@@ -30,7 +30,7 @@ Create a detailed implementation plan based on `spec.md`.
 1. [x] Break down the work into concrete tasks
 2. [x] Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 - [x] **Task 1: Interface Updates**
   - Update `Blueprint` in `src/lib/course/engine/blueprints.ts` to include `title` and `instruction`.
@@ -44,3 +44,23 @@ Create a detailed implementation plan based on `spec.md`.
 - [x] **Task 4: Verification**
   - Run `npm run validate-exercises`.
   - Verify via browser at `/debug/engine`.
+  - [x] Write and run E2E tests for pedagogical metadata.
+
+### [x] Step: UI Refactor (Engine Debug)
+- [x] **Task 5: Refactor Engine Debug Page**
+  - Replace `PremiumCourseSession` with `ExerciseRenderer`.
+  - Implement navigation (arrows, counter, progress bar).
+  - Add "REVIEW: ENGINE" header and badges.
+- [x] **Task 6: Visual Verification**
+  - Confirm UI matches the requested "Review" style.
+
+- [x] Step: Ultra Adaptive Engine Implementation
+- [x] **Task 10: Student Mastery Schema**
+  - Implement a tracking system for success/failure per skill (using Supabase or LocalStorage for debug).
+- [x] **Task 11: Adaptive Selection Algorithm**
+  - Implement logic: `pickNextExercise(studentProfile, curriculum)`.
+  - Prioritize: 1. Failures (reinforcement), 2. New content (progression), 3. Old content (retention).
+- [x] **Task 12: Curriculum Mapping (Units 1-30)**
+  - [x] Units 1-10 mapped (Blueprints, Lexicon, Skills).
+  - [x] Units 11-20 mapped (Blueprints, Lexicon, Skills).
+  - [x] Units 21-30 mapped (Blueprints, Lexicon, Skills).
