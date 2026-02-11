@@ -75,46 +75,54 @@ export class ExerciseGenerator {
     // Sort by weight and pick
     const sortedBlueprints = weightedBlueprints.sort((a, b) => b.weight - a.weight);
 
-    // Shuffle top pool to avoid repetition if weights are equal
-    const topPool = sortedBlueprints.slice(0, count * 3);
-    const randomizedPool = this.shuffle(topPool);
+    // Shuffle top pool but keep thematic continuity
+    // We group by skillId to maintain "Thematic Continuity"
+    const groupedBySkill = sortedBlueprints.reduce((acc, wb) => {
+      if (!acc[wb.bp.skillId]) acc[wb.bp.skillId] = [];
+      acc[wb.bp.skillId].push(wb);
+      return acc;
+    }, {} as Record<string, typeof sortedBlueprints>);
 
-    // Generate exercises with forced variety
-    let i = 0;
+    const randomizedPool: typeof sortedBlueprints = [];
+    const skillIds = this.shuffle(Object.keys(groupedBySkill));
+    
+    for (const sid of skillIds) {
+      randomizedPool.push(...this.shuffle(groupedBySkill[sid]));
+    }
+
+    // Generate exercises with forced variety and anti-clustering
     const typesSeen: Record<string, number> = {};
+    let lastType = '';
+    let consecutiveTypeCount = 0;
 
-    // First, try to pick one of each available type in the pool to ensure initial variety
-    const uniqueTypes = Array.from(new Set(randomizedPool.map(wb => wb.bp.type)));
-    for (const type of uniqueTypes) {
-      if (sessionExercises.length >= count) break;
-      const match = randomizedPool.find(wb => wb.bp.type === type);
-      if (match) {
-        sessionExercises.push(this.assemble(match.bp, targetUnit));
-        typesSeen[type] = (typesSeen[type] || 0) + 1;
-      }
-    }
-
-    // Then fill the rest
-    while (sessionExercises.length < count && randomizedPool.length > 0) {
-      const selection = randomizedPool[i % randomizedPool.length];
-      const bp = selection.bp;
+    const filteredPool = randomizedPool.filter(wb => {
+      if (sessionExercises.length >= count) return false;
       
+      const bp = wb.bp;
       const typeCount = typesSeen[bp.type] || 0;
-      // Allow more variety, but cap at 40% per type unless we have no choice
-      const isOverRepresented = typeCount >= Math.ceil(count * 0.4);
+      
+      // Anti-Clustering: Max 2 of the same type in a row
+      if (bp.type === lastType && consecutiveTypeCount >= 2) return false;
 
-      if (isOverRepresented && randomizedPool.length > count) {
-        // Skip
+      // Capping per type at 40% for variety
+      if (typeCount >= Math.ceil(count * 0.4) && randomizedPool.length > count) return false;
+
+      const exercise = this.assemble(bp, targetUnit);
+      sessionExercises.push(exercise);
+      
+      typesSeen[bp.type] = typeCount + 1;
+      if (bp.type === lastType) {
+        consecutiveTypeCount++;
       } else {
-        sessionExercises.push(this.assemble(bp, targetUnit));
-        typesSeen[bp.type] = (typesSeen[bp.type] || 0) + 1;
+        lastType = bp.type;
+        consecutiveTypeCount = 1;
       }
-
-      i++;
-      if (i > count * 20) break; 
-    }
+      
+      return true;
+    });
 
     // PEDAGOGICAL SORTING: Discovery -> Recognition -> Production
+    // But we keep some thematic grouping within stages
     return sessionExercises.sort((a, b) => {
       const typeOrder: Record<string, number> = {
         'flashcard': 1,
@@ -237,11 +245,13 @@ export class ExerciseGenerator {
         spanishLemma = item.plural_es;
       }
       
-      // Special case: "un" (one) changes gender/form in Spanish depending on noun, but for A1 "un" is a safe neutral/masculine default
-      if (item.lemma === 'one' && filledSlots['item']?.translation === 'llave') {
-        // Very specific fix for "una llave" if we want to be perfect, but "un" is better than "uno"
-        // For now, let's just use the translation from lexicon which I changed to 'un'
-      }
+      // Dynamic Spanish Articles based on gender
+      const el_la = item.gender_es === 'f' ? 'la' : 'el';
+      const un_una = item.gender_es === 'f' ? 'una' : 'un';
+      const plur_art = item.gender_es === 'f' ? 'las' : 'los';
+      
+      const resolvedArt = isPlural ? plur_art : el_la;
+      const resolvedIndef = isPlural ? (item.gender_es === 'f' ? 'unas' : 'unos') : un_una;
 
       // Handle "a/an" logic
       const needsAn = /^[aeiou]/i.test(englishLemma);
@@ -250,6 +260,10 @@ export class ExerciseGenerator {
       // Replace generic article markers
       englishText = englishText.replace(new RegExp(`a {${slotName}}`, 'g'), `${correctArticle} ${englishLemma}`);
       englishText = englishText.replace(new RegExp(`an {${slotName}}`, 'g'), `${correctArticle} ${englishLemma}`);
+      
+      // Replace Spanish dynamic articles in templates
+      spanishText = spanishText.replace(`{el_la_${slotName}}`, resolvedArt);
+      spanishText = spanishText.replace(`{un_una_${slotName}}`, resolvedIndef);
       
       // Direct slot replacement
       englishText = englishText.replace(`{${slotName}}`, englishLemma);

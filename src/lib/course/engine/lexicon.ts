@@ -5,6 +5,7 @@ export interface LexicalItem {
   article?: 'a' | 'an' | 'some';
   plural?: string;
   plural_es?: string; // Spanish plural form
+  gender_es?: 'm' | 'f'; // Spanish gender
   tags: string[];
   translation: string;
   i_es?: string;      // Spanish conjugation for "I"
@@ -43,16 +44,16 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'milk', pos: 'noun', countable: false, article: 'some', translation: 'leche', tags: ['drink', 'A1'], unit: 2 },
   
   // Objects (Unit 5/20)
-  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', plural_es: 'libros', tags: ['object', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', plural_es: 'llaves', tags: ['object', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', plural_es: 'manzanas', tags: ['food', 'fruit', 'common_noun', 'A1'], unit: 5 },
-  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', plural_es: 'bolígrafos', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', plural_es: 'libros', gender_es: 'm', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', plural_es: 'llaves', gender_es: 'f', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', plural_es: 'manzanas', gender_es: 'f', tags: ['food', 'fruit', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', plural_es: 'bolígrafos', gender_es: 'm', tags: ['object', 'common_noun', 'A1'], unit: 5 },
   
   // Surfaces/Places
-  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', plural_es: 'mesas', tags: ['furniture', 'common_noun', 'A1'], unit: 20 },
-  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', plural_es: 'sillas', tags: ['furniture', 'common_noun', 'A1'], unit: 20 },
-  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', plural_es: 'cajas', tags: ['container', 'common_noun', 'A1'], unit: 20 },
-  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', plural_es: 'neveras', tags: ['appliance', 'common_noun', 'A1'], unit: 20 },
+  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', plural_es: 'mesas', gender_es: 'f', tags: ['furniture', 'common_noun', 'surface', 'A1'], unit: 20 },
+  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', plural_es: 'sillas', gender_es: 'f', tags: ['furniture', 'common_noun', 'surface', 'A1'], unit: 20 },
+  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', plural_es: 'cajas', gender_es: 'f', tags: ['container', 'common_noun', 'A1'], unit: 20 },
+  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', plural_es: 'neveras', gender_es: 'f', tags: ['appliance', 'container', 'common_noun', 'A1'], unit: 20 },
 
   // Verbs
   { lemma: 'want', pos: 'verb', translation: 'querer', i_es: 'quiero', tags: ['stative_verb', 'A1'], unit: 2 },
@@ -62,12 +63,12 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
 
   // Family (Unit 3)
-  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', plural_es: 'padres', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', plural_es: 'madres', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', plural_es: 'hermanas', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', plural_es: 'hermanos', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', plural_es: 'hijos', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', plural_es: 'hijas', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', plural_es: 'padres', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', plural_es: 'madres', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', plural_es: 'hermanas', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', plural_es: 'hermanos', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', plural_es: 'hijos', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', plural_es: 'hijas', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
 
   // Possessives (Unit 3)
   { lemma: 'my', pos: 'adjective', translation: 'mi', tags: ['possessive', 'A1'], unit: 3 },
@@ -115,26 +116,26 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'go to sleep', pos: 'verb', translation: 'ir a dormir', tags: ['routine', 'night', 'A1'], unit: 8 },
 
   // Food (Unit 9)
-  { lemma: 'pizza', pos: 'noun', translation: 'pizza', tags: ['food', 'A1'], unit: 9 },
-  { lemma: 'bread', pos: 'noun', translation: 'pan', tags: ['food', 'A1'], unit: 9 },
-  { lemma: 'cheese', pos: 'noun', translation: 'queso', tags: ['food', 'A1'], unit: 9 },
+  { lemma: 'pizza', pos: 'noun', translation: 'pizza', gender_es: 'f', tags: ['food', 'A1'], unit: 9 },
+  { lemma: 'bread', pos: 'noun', translation: 'pan', gender_es: 'm', tags: ['food', 'A1'], unit: 9 },
+  { lemma: 'cheese', pos: 'noun', translation: 'queso', gender_es: 'm', tags: ['food', 'A1'], unit: 9 },
   { lemma: 'like', pos: 'verb', translation: 'gustar', tags: ['action', 'A1'], unit: 9 },
 
   // Clothes (Unit 10)
-  { lemma: 'T-shirt', pos: 'noun', translation: 'camiseta', tags: ['clothing', 'A1'], unit: 10 },
-  { lemma: 'pants', pos: 'noun', translation: 'pantalones', tags: ['clothing', 'A1'], unit: 10 },
-  { lemma: 'shoes', pos: 'noun', translation: 'zapatos', tags: ['clothing', 'A1'], unit: 10 },
+  { lemma: 'T-shirt', pos: 'noun', translation: 'camiseta', gender_es: 'f', tags: ['clothing', 'A1'], unit: 10 },
+  { lemma: 'pants', pos: 'noun', translation: 'pantalones', gender_es: 'm', tags: ['clothing', 'A1'], unit: 10 },
+  { lemma: 'shoes', pos: 'noun', translation: 'zapatos', gender_es: 'm', tags: ['clothing', 'A1'], unit: 10 },
   { lemma: 'wear', pos: 'verb', translation: 'llevar puesto', tags: ['action', 'A1'], unit: 10 },
 
   // Jobs (Unit 11)
-  { lemma: 'teacher', pos: 'noun', translation: 'profesor', tags: ['job', 'A1'], unit: 11 },
-  { lemma: 'doctor', pos: 'noun', translation: 'médico', tags: ['job', 'A1'], unit: 11 },
-  { lemma: 'student', pos: 'noun', translation: 'estudiante', tags: ['job', 'A1'], unit: 11 },
+  { lemma: 'teacher', pos: 'noun', translation: 'profesor', gender_es: 'm', tags: ['job', 'A1'], unit: 11 },
+  { lemma: 'doctor', pos: 'noun', translation: 'médico', gender_es: 'm', tags: ['job', 'A1'], unit: 11 },
+  { lemma: 'student', pos: 'noun', translation: 'estudiante', gender_es: 'm', tags: ['job', 'A1'], unit: 11 },
 
   // City (Unit 12)
-  { lemma: 'bank', pos: 'noun', translation: 'banco', tags: ['city', 'A1'], unit: 12 },
-  { lemma: 'park', pos: 'noun', translation: 'parque', tags: ['city', 'A1'], unit: 12 },
-  { lemma: 'school', pos: 'noun', translation: 'escuela', tags: ['city', 'A1'], unit: 12 },
+  { lemma: 'bank', pos: 'noun', translation: 'banco', gender_es: 'm', tags: ['city', 'A1'], unit: 12 },
+  { lemma: 'park', pos: 'noun', translation: 'parque', gender_es: 'm', tags: ['city', 'A1'], unit: 12 },
+  { lemma: 'school', pos: 'noun', translation: 'escuela', gender_es: 'f', tags: ['city', 'A1'], unit: 12 },
 
   // Movement (Unit 13)
   { lemma: 'walk', pos: 'verb', translation: 'caminar', tags: ['movement', 'A1'], unit: 13 },
@@ -147,27 +148,27 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'angry', pos: 'adjective', translation: 'enfadado', tags: ['emotion', 'A1'], unit: 14 },
 
   // Animals (Unit 15)
-  { lemma: 'dog', pos: 'noun', translation: 'perro', tags: ['animal', 'A1'], unit: 15 },
-  { lemma: 'cat', pos: 'noun', translation: 'gato', tags: ['animal', 'A1'], unit: 15 },
-  { lemma: 'bird', pos: 'noun', translation: 'pájaro', tags: ['animal', 'A1'], unit: 15 },
+  { lemma: 'dog', pos: 'noun', translation: 'perro', gender_es: 'm', tags: ['animal', 'A1'], unit: 15 },
+  { lemma: 'cat', pos: 'noun', translation: 'gato', gender_es: 'm', tags: ['animal', 'A1'], unit: 15 },
+  { lemma: 'bird', pos: 'noun', translation: 'pájaro', gender_es: 'm', tags: ['animal', 'A1'], unit: 15 },
 
   // Weather (Unit 16)
   { lemma: 'sunny', pos: 'adjective', translation: 'soleado', tags: ['weather', 'A1'], unit: 16 },
   { lemma: 'rainy', pos: 'adjective', translation: 'lluvioso', tags: ['weather', 'A1'], unit: 16 },
   { lemma: 'snowy', pos: 'adjective', translation: 'nevado', tags: ['weather', 'A1'], unit: 16 },
-  { lemma: 'rain', pos: 'noun', translation: 'lluvia', tags: ['weather', 'A1'], unit: 16 },
+  { lemma: 'rain', pos: 'noun', translation: 'lluvia', gender_es: 'f', tags: ['weather', 'A1'], unit: 16 },
 
   // Technology (Unit 17)
-  { lemma: 'laptop', pos: 'noun', translation: 'ordenador portátil', tags: ['tech', 'A1'], unit: 17 },
-  { lemma: 'phone', pos: 'noun', translation: 'teléfono', tags: ['tech', 'A1'], unit: 17 },
-  { lemma: 'computer', pos: 'noun', translation: 'ordenador', tags: ['tech', 'A1'], unit: 17 },
-  { lemma: 'mouse', pos: 'noun', translation: 'ratón', tags: ['tech', 'A1'], unit: 17 },
+  { lemma: 'laptop', pos: 'noun', translation: 'ordenador portátil', gender_es: 'm', tags: ['tech', 'A1'], unit: 17 },
+  { lemma: 'phone', pos: 'noun', translation: 'teléfono', gender_es: 'm', tags: ['tech', 'A1'], unit: 17 },
+  { lemma: 'computer', pos: 'noun', translation: 'ordenador', gender_es: 'm', tags: ['tech', 'A1'], unit: 17 },
+  { lemma: 'mouse', pos: 'noun', translation: 'ratón', gender_es: 'm', tags: ['tech', 'A1'], unit: 17 },
 
   // Anatomy (Unit 18)
-  { lemma: 'eye', pos: 'noun', translation: 'ojo', plural: 'eyes', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'nose', pos: 'noun', translation: 'nariz', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'mouth', pos: 'noun', translation: 'boca', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'ear', pos: 'noun', translation: 'oreja', plural: 'ears', tags: ['body', 'A1'], unit: 18 },
+  { lemma: 'eye', pos: 'noun', translation: 'ojo', plural: 'eyes', gender_es: 'm', tags: ['body', 'A1'], unit: 18 },
+  { lemma: 'nose', pos: 'noun', translation: 'nariz', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
+  { lemma: 'mouth', pos: 'noun', translation: 'boca', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
+  { lemma: 'ear', pos: 'noun', translation: 'oreja', plural: 'ears', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
 
   // More Actions (Unit 19)
   { lemma: 'swim', pos: 'verb', translation: 'nadar', tags: ['action', 'A1'], unit: 19 },
@@ -182,15 +183,15 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'behind', pos: 'preposition', translation: 'detrás de', tags: ['prep', 'A1'], unit: 20 },
 
   // Travel (Unit 21)
-  { lemma: 'car', pos: 'noun', translation: 'coche', tags: ['travel', 'A1'], unit: 21 },
-  { lemma: 'bus', pos: 'noun', translation: 'autobús', tags: ['travel', 'A1'], unit: 21 },
-  { lemma: 'train', pos: 'noun', translation: 'tren', tags: ['travel', 'A1'], unit: 21 },
-  { lemma: 'plane', pos: 'noun', translation: 'avión', tags: ['travel', 'A1'], unit: 21 },
-  { lemma: 'by car', pos: 'noun', translation: 'en coche', tags: ['travel', 'transport', 'A1'], unit: 21 },
-  { lemma: 'by bus', pos: 'noun', translation: 'en autobús', tags: ['travel', 'transport', 'A1'], unit: 21 },
-  { lemma: 'by train', pos: 'noun', translation: 'en tren', tags: ['travel', 'transport', 'A1'], unit: 21 },
-  { lemma: 'by bike', pos: 'noun', translation: 'en bicicleta', tags: ['travel', 'transport', 'A1'], unit: 21 },
-  { lemma: 'by plane', pos: 'noun', translation: 'en avión', tags: ['travel', 'transport', 'A1'], unit: 21 },
+  { lemma: 'car', pos: 'noun', translation: 'coche', gender_es: 'm', tags: ['travel', 'A1'], unit: 21 },
+  { lemma: 'bus', pos: 'noun', translation: 'autobús', gender_es: 'm', tags: ['travel', 'A1'], unit: 21 },
+  { lemma: 'train', pos: 'noun', translation: 'tren', gender_es: 'm', tags: ['travel', 'A1'], unit: 21 },
+  { lemma: 'plane', pos: 'noun', translation: 'avión', gender_es: 'm', tags: ['travel', 'A1'], unit: 21 },
+  { lemma: 'by car', pos: 'noun', translation: 'en coche', gender_es: 'm', tags: ['travel', 'transport', 'A1'], unit: 21 },
+  { lemma: 'by bus', pos: 'noun', translation: 'en autobús', gender_es: 'm', tags: ['travel', 'transport', 'A1'], unit: 21 },
+  { lemma: 'by train', pos: 'noun', translation: 'en tren', gender_es: 'm', tags: ['travel', 'transport', 'A1'], unit: 21 },
+  { lemma: 'by bike', pos: 'noun', translation: 'en bicicleta', gender_es: 'f', tags: ['travel', 'transport', 'A1'], unit: 21 },
+  { lemma: 'by plane', pos: 'noun', translation: 'en avión', gender_es: 'm', tags: ['travel', 'transport', 'A1'], unit: 21 },
   { lemma: 'by', pos: 'preposition', translation: 'en (transporte)', tags: ['travel', 'A1'], unit: 21 },
 
   // Past Tense (Unit 25)
@@ -203,14 +204,14 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'than', pos: 'preposition', translation: 'que (comparación)', tags: ['comparative', 'A1'], unit: 30 },
 
   // Health (Unit 22)
-  { lemma: 'headache', pos: 'noun', translation: 'dolor de cabeza', tags: ['health', 'A1'], unit: 22 },
-  { lemma: 'stomachache', pos: 'noun', translation: 'dolor de estómago', tags: ['health', 'A1'], unit: 22 },
-  { lemma: 'cold', pos: 'noun', translation: 'resfriado', tags: ['health', 'A1'], unit: 22 },
+  { lemma: 'headache', pos: 'noun', translation: 'dolor de cabeza', gender_es: 'm', tags: ['health', 'A1'], unit: 22 },
+  { lemma: 'stomachache', pos: 'noun', translation: 'dolor de estómago', gender_es: 'm', tags: ['health', 'A1'], unit: 22 },
+  { lemma: 'cold', pos: 'noun', translation: 'resfriado', gender_es: 'm', tags: ['health', 'A1'], unit: 22 },
 
   // Shopping (Unit 23)
-  { lemma: 'shirt', pos: 'noun', countable: true, article: 'a', plural: 'shirts', translation: 'camisa', tags: ['clothing', 'A1'], unit: 23 },
-  { lemma: 'dress', pos: 'noun', countable: true, article: 'a', plural: 'dresses', translation: 'vestido', tags: ['clothing', 'A1'], unit: 23 },
-  { lemma: 'hat', pos: 'noun', countable: true, article: 'a', plural: 'hats', translation: 'sombrero', tags: ['clothing', 'A1'], unit: 23 },
+  { lemma: 'shirt', pos: 'noun', countable: true, article: 'a', plural: 'shirts', translation: 'camisa', gender_es: 'f', tags: ['clothing', 'A1'], unit: 23 },
+  { lemma: 'dress', pos: 'noun', countable: true, article: 'a', plural: 'dresses', translation: 'vestido', gender_es: 'm', tags: ['clothing', 'A1'], unit: 23 },
+  { lemma: 'hat', pos: 'noun', countable: true, article: 'a', plural: 'hats', translation: 'sombrero', gender_es: 'm', tags: ['clothing', 'A1'], unit: 23 },
 
   // Routine (Unit 24)
   { lemma: 'get up', pos: 'verb', translation: 'levantarse', tags: ['routine', 'A1'], unit: 24 },
@@ -221,16 +222,17 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'study', pos: 'verb', translation: 'estudiar', tags: ['future', 'A1'], unit: 26 },
 
   // Nature (Unit 27)
-  { lemma: 'mountain', pos: 'noun', countable: true, article: 'a', translation: 'montaña', tags: ['nature', 'A1'], unit: 27 },
-  { lemma: 'river', pos: 'noun', countable: true, article: 'a', translation: 'río', tags: ['nature', 'A1'], unit: 27 },
-  { lemma: 'forest', pos: 'noun', countable: true, article: 'a', translation: 'bosque', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'mountain', pos: 'noun', countable: true, article: 'a', translation: 'montaña', gender_es: 'f', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'river', pos: 'noun', countable: true, article: 'a', translation: 'río', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'forest', pos: 'noun', countable: true, article: 'a', translation: 'bosque', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
 
   // Office (Unit 28)
-  { lemma: 'laptop', pos: 'noun', countable: true, article: 'a', translation: 'portátil', tags: ['office', 'A1'], unit: 28 },
-  { lemma: 'notebook', pos: 'noun', countable: true, article: 'a', translation: 'cuaderno', tags: ['office', 'A1'], unit: 28 },
+  { lemma: 'laptop', pos: 'noun', countable: true, article: 'a', translation: 'portátil', gender_es: 'm', tags: ['office', 'tech', 'A1'], unit: 28 },
+  { lemma: 'notebook', pos: 'noun', countable: true, article: 'a', translation: 'cuaderno', gender_es: 'm', tags: ['office', 'A1'], unit: 28 },
+  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', translation: 'bolígrafo', gender_es: 'm', tags: ['office', 'A1'], unit: 28 },
 
   // Hobbies (Unit 29)
-  { lemma: 'reading', pos: 'noun', translation: 'leer', tags: ['hobby', 'A1'], unit: 29 },
-  { lemma: 'painting', pos: 'noun', translation: 'pintar', tags: ['hobby', 'A1'], unit: 29 },
-  { lemma: 'dancing', pos: 'noun', translation: 'bailar', tags: ['hobby', 'A1'], unit: 29 }
+  { lemma: 'reading', pos: 'noun', translation: 'la lectura', gender_es: 'f', tags: ['hobby', 'A1'], unit: 29 },
+  { lemma: 'painting', pos: 'noun', translation: 'la pintura', gender_es: 'f', tags: ['hobby', 'A1'], unit: 29 },
+  { lemma: 'dancing', pos: 'noun', translation: 'el baile', gender_es: 'm', tags: ['hobby', 'A1'], unit: 29 }
 ];

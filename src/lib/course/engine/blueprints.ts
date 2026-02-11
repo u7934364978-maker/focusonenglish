@@ -156,7 +156,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
 
   // --- Skill: A1-PREP-LOC-01 (Prepositions) ---
   {
-    id: 'BP-PREP-01',
+    id: 'BP-PREP-SURF-01',
     skillId: 'A1-PREP-LOC-01',
     type: 'fill-blank',
     title: '¿Dónde está el objeto?',
@@ -165,25 +165,25 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     correctSlot: 'prep',
     slots: {
       item: { pos: 'noun', tags: ['object'] },
-      prep: { fixedValues: ['on', 'in', 'under', 'next to'] },
-      surface: { pos: 'noun', tags: ['furniture'] }
+      prep: { fixedValues: ['on', 'under', 'next to'] },
+      surface: { pos: 'noun', tags: ['surface'] }
     },
-    translationTemplate: 'El/La {item_es} está {prep_es} el/la {surface_es}.'
+    translationTemplate: '{el_la_item} {item_es} está {prep_es} {el_la_surface} {surface_es}.'
   },
   {
-    id: 'BP-PREP-02',
+    id: 'BP-PREP-CONT-01',
     skillId: 'A1-PREP-LOC-01',
     type: 'multiple-choice',
-    title: 'Preposiciones de Lugar',
+    title: 'Objetos en contenedores',
     instruction: 'Elige la preposición correcta:',
-    template: 'The {item} is {prep} the {surface}.',
+    template: 'The {item} is {prep} the {container}.',
     correctSlot: 'prep',
     slots: {
       item: { pos: 'noun', tags: ['object'] },
-      prep: { fixedValues: ['on', 'in', 'under', 'next to'] },
-      surface: { pos: 'noun', tags: ['furniture'] }
+      prep: { fixedValues: ['in'] },
+      container: { pos: 'noun', tags: ['container'] }
     },
-    translationTemplate: 'El/La {item_es} está {prep_es} el/la {surface_es}.'
+    translationTemplate: '{el_la_item} {item_es} está {prep_es} {el_la_container} {container_es}.'
   },
   {
     id: 'BP-FAM-02',
@@ -322,7 +322,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       verb: { fixedValues: ['like'] },
       food: { pos: 'noun', tags: ['food', 'common_noun'] }
     },
-    translationTemplate: 'Me {verb_es} la {food_es}.'
+    translationTemplate: 'Me {verb_es} {el_la_food} {food_es}.'
   },
   // --- Unit 10: Clothes ---
   {
@@ -337,7 +337,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       verb: { fixedValues: ['wearing'] },
       cloth: { pos: 'noun', tags: ['clothing', 'common_noun'] }
     },
-    translationTemplate: 'Estoy {verb_es} {cloth_es}.'
+    translationTemplate: 'Estoy {verb_es} {el_la_cloth} {cloth_es}.'
   },
   // --- Unit 11: Jobs ---
   {
@@ -352,7 +352,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       art: { fixedValues: ['a', 'an'] },
       job: { pos: 'noun', tags: ['job', 'common_noun'] }
     },
-    translationTemplate: 'Soy {art_es} {job_es}.'
+    translationTemplate: 'Soy {un_una_job} {job_es}.'
   },
   // --- Unit 12: City ---
   {
@@ -512,9 +512,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Qué quieres comprar?',
     template: 'I want to buy a {item}.',
     slots: {
-      item: { fixedValues: ['shirt', 'dress', 'hat'] }
+      item: { pos: 'noun', tags: ['clothing'] }
     },
-    translationTemplate: 'Quiero comprar {item_es}.'
+    translationTemplate: 'Quiero comprar {un_una_item} {item_es}.'
   },
   // --- Unit 24: Routine ---
   {
@@ -525,7 +525,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: 'Completa la frase:',
     template: 'I {action} at 7 AM.',
     slots: {
-      action: { fixedValues: ['get up', 'wake up'] }
+      action: { pos: 'verb', tags: ['routine'] }
     },
     translationTemplate: 'Me {action_es} a las 7 AM.'
   },
@@ -551,7 +551,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Qué vas a hacer?',
     template: 'I am going to {verb} tomorrow.',
     slots: {
-      verb: { fixedValues: ['travel', 'study', 'work'] }
+      verb: { pos: 'verb', tags: ['future'] }
     },
     translationTemplate: 'Voy a {verb_es} mañana.'
   },
@@ -564,9 +564,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Qué ves?',
     template: 'I see a {element}.',
     slots: {
-      element: { fixedValues: ['mountain', 'river', 'forest'] }
+      element: { pos: 'noun', tags: ['nature'] }
     },
-    translationTemplate: 'Veo {element_es}.'
+    translationTemplate: 'Veo {un_una_element} {element_es}.'
   },
   // --- Unit 28: Office ---
   {
@@ -577,9 +577,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Qué hay en tu mesa?',
     template: 'There is a {item} on my desk.',
     slots: {
-      item: { fixedValues: ['pen', 'laptop', 'notebook'] }
+      item: { pos: 'noun', tags: ['office'] }
     },
-    translationTemplate: 'Hay {item_es} en mi mesa.'
+    translationTemplate: 'Hay {un_una_item} {item_es} en mi mesa.'
   },
   // --- Unit 29: Hobbies ---
   {
@@ -590,9 +590,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Qué te gusta hacer?',
     template: 'I like {hobby}.',
     slots: {
-      hobby: { fixedValues: ['reading', 'painting', 'dancing'] }
+      hobby: { pos: 'noun', tags: ['hobby'] }
     },
-    translationTemplate: 'Me gusta {hobby_es}.'
+    translationTemplate: 'Me gusta {el_la_hobby} {hobby_es}.'
   },
   // --- Unit 30: Comparison ---
   {
@@ -601,11 +601,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'fill-blank',
     title: 'Comparaciones',
     instruction: 'Completa la comparación:',
-    template: 'Tea is {comp} coffee.',
+    template: '{item1} is {comp} {item2}.',
     slots: {
-      comp: { fixedValues: ['better than'] }
+      item1: { pos: 'noun', tags: ['drink'] },
+      comp: { fixedValues: ['better than'] },
+      item2: { pos: 'noun', tags: ['drink'] }
     },
-    translationTemplate: 'El té es {comp_es} el café.'
+    translationTemplate: '{el_la_item1} {item1_es} es {comp_es} {el_la_item2} {item2_es}.'
   },
   // --- Unit 1: Greetings Discovery ---
   {

@@ -112,11 +112,16 @@ Create a detailed implementation plan based on `spec.md`.
 - [x] **Task 23: Instruction & Template Cleanup**
   - [x] Update instructions for formal/informal context.
   - [x] Fix translation anchor answer leakage.
-- [x] **Task 24: Fix Generation Crashes**
+- [x] **Task 24: Fix Generation Crashes & Data Alignment**
   - [x] Fix `A1-UNIVERSAL` skill missing error.
   - [x] Fix `typesSeen.has` TypeError in selection algorithm.
-  - [x] Ensure all matching blueprints have valid templates.
+  - [x] Align `generator.ts` output with `FlashcardExercise` (`items`) and `MatchingExercise` (`pairs`) data structures.
+  - [x] Fix Spanish grammar (pluralization/conjugation) for "I study" and "two keys".
+  - [x] Implement strict "Discovery-first" sequencing for new words.
 - [ ] **Task 25: Final Validation & 30-Unit Polish**
-  - [ ] Perform full walkthrough of Units 1-5.
-  - [ ] Verify grammar for "I have two keys" and "Yo estudio".
-  - [ ] Obtain user confirmation on pedagogical flow.
+  - [ ] Perform full walkthrough of Units 1-30.
+  - [ ] Verify dynamic gender and semantic logic in all units.
+  - [ ] Obtain final user confirmation.
+- [x] **Task 26: Harmony & Anti-Clustering Engine**
+- [x] **Task 27: Spanish Gender Engine (El/La/Un/Una)**
+- [x] **Task 28: Semantic Compatibility Matrix**
