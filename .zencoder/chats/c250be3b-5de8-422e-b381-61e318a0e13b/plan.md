@@ -141,11 +141,32 @@
 1. [x] Create `src/lib/course/a1/unit-15.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
-4. [x] Commit & Push for user review. (Commit: `a02b7504`)
+4. [x] Commit & Push for user review. (Commit: `4e8aa926`)
 
 ### [x] Step: Implementation (Unit 16: Sunny or Rainy?)
 
 1. [x] Create `src/lib/course/a1/unit-16.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
-4. [x] Commit & Push for user review. (Commit: `a079949b`)
+4. [x] Commit & Push for user review. (Commit: `4e8aa926`)
+
+### [x] Step: Implementation (Unit 17: Tech Savvy)
+
+1. [x] Create `src/lib/course/a1/unit-17.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `00745e4d`)
+
+### [x] Step: Implementation (Unit 18: Body Parts)
+
+1. [x] Create `src/lib/course/a1/unit-18.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `4cbd676b`)
+
+### [ ] Step: Implementation (Unit 19: Action!)
+
+1. [ ] Create `src/lib/course/a1/unit-19.ts` with 50 exercises.
+2. [ ] Add pedagogical explanations and 5-pair matching.
+3. [ ] Run audit script and fix issues.
+4. [ ] Commit & Push for user review.

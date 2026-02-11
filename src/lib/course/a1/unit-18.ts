@@ -56,7 +56,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I smell with my ________.',
-          answer: 'nose',
+          correctAnswer: 'nose',
           explanation: '"Nose" es nariz. La usamos para respirar y oler.'
         }
       ]
@@ -179,7 +179,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I wash my ________ before eating.',
-          answer: 'hands',
+          correctAnswer: 'hands',
           explanation: '"Hands" es el plural de "hand" (mano).'
         }
       ]
@@ -281,7 +281,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'My left ________ hurts.',
-          answer: 'foot',
+          correctAnswer: 'foot',
           explanation: '"Foot" es pie. El plural es irregular: "feet".'
         }
       ]
@@ -363,7 +363,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The giraffe has a long ________.',
-          answer: 'neck',
+          correctAnswer: 'neck',
           explanation: '"Neck" es cuello. Conecta la cabeza con el torso.'
         }
       ]
@@ -915,7 +915,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Wash your ________ with water.',
-          answer: 'face',
+          correctAnswer: 'face',
           explanation: '"Face" es cara. Es nuestra carta de presentación.'
         }
       ]
@@ -996,7 +996,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The ________ beats fast.',
-          answer: 'heart',
+          correctAnswer: 'heart',
           explanation: '"Heart" es corazón. "Beats" se refiere a los latidos.'
         }
       ]

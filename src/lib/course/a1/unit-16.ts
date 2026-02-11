@@ -118,7 +118,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I see a white ________ in the sky.',
-          answer: 'cloud',
+          correctAnswer: 'cloud',
           explanation: '"Cloud" significa nube. Muchas nubes hacen un día "cloudy".'
         }
       ]
@@ -221,7 +221,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I am ________. I need a jacket.',
-          answer: 'cold',
+          correctAnswer: 'cold',
           explanation: 'Usamos "I am cold" para decir "tengo frío".'
         }
       ]
@@ -344,7 +344,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The ________ is very strong.',
-          answer: 'wind',
+          correctAnswer: 'wind',
           explanation: '"Wind" es el sustantivo viento.'
         }
       ]
@@ -837,7 +837,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What ________ the weather like today?',
-          answer: 'is',
+          correctAnswer: 'is',
           explanation: '"What is the weather like?" es otra forma común de preguntar por el tiempo.'
         }
       ]
@@ -919,7 +919,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The ________ says it will snow.',
-          answer: 'forecast',
+          correctAnswer: 'forecast',
           explanation: '"Forecast" se usa para predicciones oficiales.'
         }
       ]
@@ -999,7 +999,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'It ________ very cold this morning.',
-          answer: 'is',
+          correctAnswer: 'is',
           explanation: 'Usamos el verbo "to be" (is) para describir el clima actual.'
         }
       ]

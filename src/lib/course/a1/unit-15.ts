@@ -118,7 +118,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The ________ is barking.',
-          answer: 'dog',
+          correctAnswer: 'dog',
           explanation: '"Barking" es ladrando, la acción típica de un perro.'
         }
       ]
@@ -221,7 +221,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'I saw a ________ in the zoo.',
-          answer: 'lion',
+          correctAnswer: 'lion',
           explanation: '"Lion" se escribe casi igual que en español.'
         }
       ]
@@ -344,7 +344,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'The blue ________ is very big.',
-          answer: 'whale',
+          correctAnswer: 'whale',
           explanation: '"Whale" se pronuncia con una "h" muda después de la "w".'
         }
       ]
@@ -878,7 +878,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'Cats ________ when they are hungry.',
-          answer: 'meow',
+          correctAnswer: 'meow',
           explanation: '"Meow" es el sonido que hacen los gatos.'
         }
       ]
@@ -1022,7 +1022,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           question: 'What is your favorite ________?',
-          answer: 'animal',
+          correctAnswer: 'animal',
           explanation: '"Animal" se escribe igual en inglés y español.'
         }
       ]
