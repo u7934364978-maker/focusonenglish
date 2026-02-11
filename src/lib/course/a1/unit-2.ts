@@ -9,15 +9,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Bebidas básicas',
+      title: 'Quiero un café',
       instructions: '¿Cómo se dice "café" en inglés?',
       questions: [
         {
           id: 'q1',
-          question: '¿Cuál es la traducción de "Café"?',
-          options: ['Tea', 'Coffee', 'Milk'],
-          correctAnswer: 1,
-          explanation: '"Coffee" es café. "Tea" es té.'
+          question: 'I want a ________.',
+          options: ['coffee', 'tea', 'water'],
+          correctAnswer: 0,
+          explanation: '"Coffee" es la traducción de café.'
         }
       ]
     }
@@ -34,8 +34,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           front: 'Té',
           back: 'Tea',
-          example: 'I want a cup of tea, please.',
-          pronunciation: '/tiː/'
+          example: 'I want tea, please.',
+          pronunciation: '/tiː/',
+          explanation: '"Tea" se pronuncia como la letra "T" en inglés.'
         }
       ]
     } as any
@@ -44,19 +45,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e3',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Yo quiero...',
+      title: 'Yo quiero',
       instructions: 'Ordena las palabras para traducir "Yo quiero café".',
       sentences: [
         {
           id: 's1',
-          words: ['coffee', 'I', 'want'],
+          words: ['coffee', 'want', 'I'],
           correctSentence: 'I want coffee',
           translation: 'Yo quiero café.',
-          hint: 'Empieza con el sujeto "I".'
+          hint: 'Sujeto + Verbo + Objeto.',
+          explanation: 'En inglés, el verbo "want" (querer) no cambia para la primera persona "I".'
         }
       ]
     } as any
@@ -70,14 +72,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Agua, por favor',
-      instructions: 'Elige la palabra correcta para el agua.',
+      instructions: '¿Cuál es la palabra para "agua"?',
       questions: [
         {
           id: 'q1',
-          question: 'I want ________, please.',
-          options: ['water', 'juice', 'soda'],
-          correctAnswer: 0,
-          explanation: '"Water" significa agua.'
+          question: 'Please, I want ________.',
+          options: ['milk', 'water', 'juice'],
+          correctAnswer: 1,
+          explanation: '"Water" es agua. La pronunciación varía entre el inglés británico y americano.'
         }
       ]
     }
@@ -90,14 +92,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Coffee',
-      instructions: 'Di "Coffee" claramente.',
+      title: 'Pronunciación: Please',
+      instructions: 'Di la palabra para "por favor".',
       questions: [
         {
           id: 'q1',
-          text: 'Coffee',
-          correctAnswer: 'Coffee',
-          explanation: 'La "ee" final suena como una "i" larga.'
+          text: 'Please',
+          correctAnswer: 'Please',
+          explanation: 'La "ea" suena como una "i" larga y la "s" final suena como una "z" suave.'
         }
       ]
     }
@@ -110,31 +112,34 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Vocabulario de bebidas',
+      title: 'Bebidas básicas',
       instructions: 'Une el español con el inglés.',
       pairs: [
-        { id: '1', left: 'Leche', right: 'Milk' },
-        { id: '2', left: 'Zumo / Jugo', right: 'Juice' },
-        { id: '3', left: 'Azúcar', right: 'Sugar' }
-      ]
+        { id: '1', left: 'Café', right: 'Coffee' },
+        { id: '2', left: 'Té', right: 'Tea' },
+        { id: '3', left: 'Agua', right: 'Water' },
+        { id: '4', left: 'Leche', right: 'Milk' },
+        { id: '5', left: 'Jugo / Zumo', right: 'Juice' }
+      ],
+      explanation: 'Estas son las bebidas más comunes que pedirás en una cafetería.'
     } as any
   },
   {
     id: 'a1-u2-e7',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Drinks',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Completar la frase',
-      instructions: 'Escribe la palabra que falta para traducir "Yo quiero leche".',
+      title: 'Leche',
+      instructions: 'Escribe la palabra para "leche".',
       questions: [
         {
           id: 'q1',
-          text: 'I ___ milk.',
-          correctAnswer: 'want',
-          explanation: '"Want" es el verbo querer.'
+          text: 'Coffee with ___.',
+          correctAnswer: 'milk',
+          explanation: '"Milk" significa leche.'
         }
       ]
     }
@@ -143,19 +148,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e8',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Té o café?',
-      instructions: '¿Qué palabra significa "té"?',
+      title: 'Tú quieres',
+      instructions: '¿Cómo se dice "Tú quieres" en inglés?',
       questions: [
         {
           id: 'q1',
-          question: 'Do you want ________?',
-          options: ['beer', 'tea', 'wine'],
-          correctAnswer: 1,
-          explanation: '"Tea" es la traducción de té.'
+          question: '________ want tea.',
+          options: ['You', 'I', 'He'],
+          correctAnswer: 0,
+          explanation: '"You" es el pronombre para tú o usted.'
         }
       ]
     }
@@ -170,10 +175,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Por favor',
-          back: 'Please',
-          example: 'Coffee, please.',
-          pronunciation: '/pliːz/'
+          front: 'Azúcar',
+          back: 'Sugar',
+          example: 'I want coffee with sugar.',
+          pronunciation: '/ˈʃʊɡ.ər/',
+          explanation: 'La "s" inicial suena como "sh".'
         }
       ]
     } as any
@@ -182,19 +188,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e10',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Drinks',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Té, por favor',
-      instructions: 'Ordena para traducir "Té, por favor".',
+      title: 'Con leche',
+      instructions: 'Ordena para decir "Té con leche".',
       sentences: [
         {
           id: 's1',
-          words: ['please', 'Tea', ','],
-          correctSentence: 'Tea, please',
-          translation: 'Té, por favor.',
-          hint: 'La cortesía va al final.'
+          words: ['milk', 'with', 'Tea'],
+          correctSentence: 'Tea with milk',
+          translation: 'Té con leche.',
+          hint: 'Usa "with" para decir "con".',
+          explanation: '"With" es la preposición que significa "con".'
         }
       ]
     } as any
@@ -207,15 +214,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Leche fría',
-      instructions: '¿Cómo se dice leche?',
+      title: 'Azúcar o no',
+      instructions: '¿Cuál es la palabra para "sin"?',
       questions: [
         {
           id: 'q1',
-          question: 'I want ________.',
-          options: ['milk', 'bread', 'apple'],
-          correctAnswer: 0,
-          explanation: '"Milk" es leche.'
+          question: 'Coffee ________ sugar, please.',
+          options: ['with', 'without', 'and'],
+          correctAnswer: 1,
+          explanation: '"Without" significa sin.'
         }
       ]
     }
@@ -224,18 +231,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e12',
     type: 'speaking-analysis',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Drinks',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: I want',
-      instructions: 'Di "I want water".',
+      title: 'Pronunciación: Coffee',
+      instructions: 'Di la palabra para "café".',
       questions: [
         {
           id: 'q1',
-          text: 'I want water',
-          correctAnswer: 'I want water',
-          explanation: 'Pronuncia la "w" de water como una "u".'
+          text: 'Coffee',
+          correctAnswer: 'Coffee',
+          explanation: 'Asegúrate de acentuar la primera sílaba: CO-ffee.'
         }
       ]
     }
@@ -244,17 +251,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e13',
     type: 'matching',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Modifiers',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Más bebidas',
-      instructions: 'Une las parejas.',
+      title: 'Complementos',
+      instructions: 'Une las parejas de palabras.',
       pairs: [
-        { id: '1', left: 'Agua', right: 'Water' },
-        { id: '2', left: 'Café', right: 'Coffee' },
-        { id: '3', left: 'Té', right: 'Tea' }
-      ]
+        { id: '1', left: 'Con', right: 'With' },
+        { id: '2', left: 'Sin', right: 'Without' },
+        { id: '3', left: 'Azúcar', right: 'Sugar' },
+        { id: '4', left: 'Caliente', right: 'Hot' },
+        { id: '5', left: 'Frío', right: 'Cold' }
+      ],
+      explanation: 'Estos adjetivos y preposiciones te permiten personalizar tu pedido.'
     } as any
   },
   {
@@ -266,13 +276,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Con azúcar',
-      instructions: 'Escribe la palabra que falta para traducir "café con azúcar".',
+      instructions: 'Escribe la palabra para "azúcar".',
       questions: [
         {
           id: 'q1',
-          text: 'Coffee with ___',
+          text: 'Coffee with ___.',
           correctAnswer: 'sugar',
-          explanation: '"Sugar" es azúcar.'
+          explanation: '"Sugar" significa azúcar.'
         }
       ]
     }
@@ -285,15 +295,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Zumo de naranja',
-      instructions: '¿Qué es "juice"?',
+      title: 'Caliente',
+      instructions: '¿Cómo se dice "caliente"?',
       questions: [
         {
           id: 'q1',
-          question: 'Orange ________.',
-          options: ['juice', 'water', 'tea'],
+          question: 'I want a ________ tea.',
+          options: ['hot', 'cold', 'big'],
           correctAnswer: 0,
-          explanation: '"Juice" es zumo o jugo.'
+          explanation: '"Hot" significa caliente.'
         }
       ]
     }
@@ -308,10 +318,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Con',
-          back: 'With',
-          example: 'Coffee with milk.',
-          pronunciation: '/wɪð/'
+          front: 'Frío',
+          back: 'Cold',
+          example: 'I want cold water.',
+          pronunciation: '/koʊld/',
+          explanation: '"Cold" es el opuesto de "hot".'
         }
       ]
     } as any
@@ -324,15 +335,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Café con leche',
-      instructions: 'Ordena para traducir "Café con leche".',
+      title: 'Agua fría',
+      instructions: 'Ordena para decir "Yo quiero agua fría".',
       sentences: [
         {
           id: 's1',
-          words: ['milk', 'with', 'Coffee'],
-          correctSentence: 'Coffee with milk',
-          translation: 'Café con leche.',
-          hint: '"With" significa "con".'
+          words: ['water', 'cold', 'want', 'I'],
+          correctSentence: 'I want cold water',
+          translation: 'Yo quiero agua fría.',
+          hint: 'En inglés el adjetivo (cold) va antes del nombre (water).',
+          explanation: 'En inglés, los adjetivos suelen preceder al sustantivo que describen.'
         }
       ]
     } as any
@@ -341,19 +353,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e18',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Drinks',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Yo quiero agua',
-      instructions: 'Traduce "Yo quiero agua".',
+      title: 'Una taza',
+      instructions: '¿Cuál es la palabra para "taza"?',
       questions: [
         {
           id: 'q1',
-          question: '¿Cómo se dice "Yo quiero agua"?',
-          options: ['I want tea', 'I want water', 'I am water'],
+          question: 'A ________ of coffee.',
+          options: ['glass', 'cup', 'plate'],
           correctAnswer: 1,
-          explanation: '"I want water" es la traducción correcta.'
+          explanation: '"Cup" es una taza, usualmente para bebidas calientes.'
         }
       ]
     }
@@ -366,14 +378,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Please',
-      instructions: 'Di "Please" (por favor).',
+      title: 'Pronunciación: Water',
+      instructions: 'Di la palabra para "agua".',
       questions: [
         {
           id: 'q1',
-          text: 'Please',
-          correctAnswer: 'Please',
-          explanation: 'La "s" suena suave.'
+          text: 'Water',
+          correctAnswer: 'Water',
+          explanation: 'En inglés americano, la "t" suena casi como una "r" suave.'
         }
       ]
     }
@@ -382,17 +394,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e20',
     type: 'matching',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Containers',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Acciones y objetos',
+      title: 'Recipientes',
       instructions: 'Une las palabras.',
       pairs: [
-        { id: '1', left: 'Quiero', right: 'Want' },
-        { id: '2', left: 'Gracias', right: 'Thanks' },
-        { id: '3', left: 'Hola', right: 'Hello' }
-      ]
+        { id: '1', left: 'Taza', right: 'Cup' },
+        { id: '2', left: 'Vaso', right: 'Glass' },
+        { id: '3', left: 'Botella', right: 'Bottle' },
+        { id: '4', left: 'Plato', right: 'Plate' },
+        { id: '5', left: 'Bolsa', right: 'Bag' }
+      ],
+      explanation: 'Diferentes bebidas requieren diferentes recipientes.'
     } as any
   },
   {
@@ -403,14 +418,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Té con leche',
-      instructions: 'Escribe la palabra que falta para traducir "té con leche".',
+      title: 'Un vaso de...',
+      instructions: 'Escribe la palabra para "vaso".',
       questions: [
         {
           id: 'q1',
-          text: 'Tea ___ milk.',
-          correctAnswer: 'with',
-          explanation: '"With" une los ingredientes.'
+          text: 'A ___ of water.',
+          correctAnswer: 'glass',
+          explanation: '"Glass" es un vaso, típicamente de vidrio.'
         }
       ]
     }
@@ -419,19 +434,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e22',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Sin azúcar',
-      instructions: '¿Qué palabra falta?',
+      title: 'Gracias',
+      instructions: '¿Cómo se dice "gracias"?',
       questions: [
         {
           id: 'q1',
-          question: 'I want coffee ________ sugar.',
-          options: ['no', 'without', 'with'],
-          correctAnswer: 1,
-          explanation: '"Without" significa sin.'
+          question: 'Coffee, ________.',
+          options: ['thanks', 'please', 'hello'],
+          correctAnswer: 0,
+          explanation: '"Thanks" o "Thank you" se usa para agradecer.'
         }
       ]
     }
@@ -440,16 +455,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e23',
     type: 'flashcard',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
       items: [
         {
-          front: 'Sin',
-          back: 'Without',
-          example: 'Tea without sugar.',
-          pronunciation: '/wɪˈðaʊt/'
+          front: 'De nada',
+          back: "You're welcome",
+          example: 'Thank you! - You\'re welcome.',
+          pronunciation: '/jʊər ˈwel.kəm/',
+          explanation: 'Es la respuesta estándar a "Thank you".'
         }
       ]
     } as any
@@ -458,19 +474,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e24',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Quiero zumo',
-      instructions: 'Ordena las palabras para traducir "Yo quiero zumo".',
+      title: 'Por favor',
+      instructions: 'Ordena para decir "Té, por favor".',
       sentences: [
         {
           id: 's1',
-          words: ['juice', 'want', 'I'],
-          correctSentence: 'I want juice',
-          translation: 'Yo quiero zumo.',
-          hint: 'Sujeto + Verbo + Objeto.'
+          words: ['please', 'Tea', ','],
+          correctSentence: 'Tea, please',
+          translation: 'Té, por favor.',
+          hint: 'La cortesía va al final.',
+          explanation: 'Añadir "please" al final hace que tu pedido sea mucho más educado.'
         }
       ]
     } as any
@@ -483,15 +500,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Frío o caliente?',
-      instructions: '¿Cómo se dice "caliente"?',
+      title: 'Jugo de naranja',
+      instructions: '¿Cómo se dice "naranja"?',
       questions: [
         {
           id: 'q1',
-          question: 'I want ________ coffee.',
-          options: ['cold', 'hot', 'big'],
+          question: '________ juice, please.',
+          options: ['Apple', 'Orange', 'Lemon'],
           correctAnswer: 1,
-          explanation: '"Hot" es caliente.'
+          explanation: '"Orange" significa naranja.'
         }
       ]
     }
@@ -504,14 +521,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Water',
-      instructions: 'Di "Water".',
+      title: 'Pronunciación: Milk',
+      instructions: 'Di la palabra para "leche".',
       questions: [
         {
           id: 'q1',
-          text: 'Water',
-          correctAnswer: 'Water',
-          explanation: 'Suena como "uó-ter".'
+          text: 'Milk',
+          correctAnswer: 'Milk',
+          explanation: 'Pronuncia la "l" y la "k" final con claridad.'
         }
       ]
     }
@@ -524,13 +541,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Temperaturas',
-      instructions: 'Une los opuestos.',
+      title: 'Frutas para jugo',
+      instructions: 'Une la fruta con su nombre en inglés.',
       pairs: [
-        { id: '1', left: 'Caliente', right: 'Hot' },
-        { id: '2', left: 'Frío', right: 'Cold' },
-        { id: '3', left: 'Agua', right: 'Water' }
-      ]
+        { id: '1', left: 'Naranja', right: 'Orange' },
+        { id: '2', left: 'Manzana', right: 'Apple' },
+        { id: '3', left: 'Limón', right: 'Lemon' },
+        { id: '4', left: 'Fresa', right: 'Strawberry' },
+        { id: '5', left: 'Plátano', right: 'Banana' }
+      ],
+      explanation: 'Saber los nombres de las frutas te ayuda a pedir diferentes tipos de jugos.'
     } as any
   },
   {
@@ -548,7 +568,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'I want ___ tea.',
           correctAnswer: 'hot',
-          explanation: '"Hot" va antes del objeto.'
+          explanation: '"Hot" significa caliente.'
         }
       ]
     }
@@ -557,19 +577,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e29',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Agua fría',
-      instructions: '¿Cómo se dice "frío"?',
+      title: 'Lo siento',
+      instructions: '¿Cómo se dice "lo siento"?',
       questions: [
         {
           id: 'q1',
-          question: 'I want ________ water.',
-          options: ['hot', 'cold', 'small'],
-          correctAnswer: 1,
-          explanation: '"Cold" es frío.'
+          question: '________, no sugar.',
+          options: ['Sorry', 'Thanks', 'Welcome'],
+          correctAnswer: 0,
+          explanation: '"Sorry" se usa para disculparse.'
         }
       ]
     }
@@ -584,10 +604,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Caliente',
-          back: 'Hot',
-          example: 'Hot coffee.',
-          pronunciation: '/hɒt/'
+          front: 'Hielo',
+          back: 'Ice',
+          example: 'Water with ice, please.',
+          pronunciation: '/aɪs/',
+          explanation: 'La "c" suena como una "s".'
         }
       ]
     } as any
@@ -600,15 +621,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Zumo frío',
-      instructions: 'Ordena las palabras para traducir "Quiero zumo frío".',
+      title: 'Café solo',
+      instructions: 'Ordena para decir "Café negro".',
       sentences: [
         {
           id: 's1',
-          words: ['juice', 'cold', 'I', 'want'],
-          correctSentence: 'I want cold juice',
-          translation: 'Quiero zumo frío.',
-          hint: 'El adjetivo va antes del nombre.'
+          words: ['coffee', 'Black'],
+          correctSentence: 'Black coffee',
+          translation: 'Café negro.',
+          hint: 'El color va primero.',
+          explanation: 'En muchos países se pide "black coffee" para referirse al café sin leche.'
         }
       ]
     } as any
@@ -621,15 +643,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Una taza de...',
-      instructions: '¿Qué es "cup"?',
+      title: '¿Dulce?',
+      instructions: '¿Qué palabra significa "dulce"?',
       questions: [
         {
           id: 'q1',
-          question: 'A ________ of coffee.',
-          options: ['glass', 'cup', 'bottle'],
-          correctAnswer: 1,
-          explanation: '"Cup" es taza.'
+          question: 'The juice is ________.',
+          options: ['sweet', 'sour', 'bitter'],
+          correctAnswer: 0,
+          explanation: '"Sweet" significa dulce.'
         }
       ]
     }
@@ -642,14 +664,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Milk',
-      instructions: 'Di "Milk".',
+      title: 'Pronunciación: Sugar',
+      instructions: 'Di la palabra para "azúcar".',
       questions: [
         {
           id: 'q1',
-          text: 'Milk',
-          correctAnswer: 'Milk',
-          explanation: 'La "l" es clara.'
+          text: 'Sugar',
+          correctAnswer: 'Sugar',
+          explanation: 'Recuerda que la "s" suena como "sh".'
         }
       ]
     }
@@ -658,17 +680,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e34',
     type: 'matching',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Recipientes',
-      instructions: 'Une las parejas.',
+      title: 'Cortesía social',
+      instructions: 'Une la expresión con su significado.',
       pairs: [
-        { id: '1', left: 'Taza', right: 'Cup' },
-        { id: '2', left: 'Vaso', right: 'Glass' },
-        { id: '3', left: 'Botella', right: 'Bottle' }
-      ]
+        { id: '1', left: 'Please', right: 'Por favor' },
+        { id: '2', left: 'Thank you', right: 'Gracias' },
+        { id: '3', left: 'You are welcome', right: 'De nada' },
+        { id: '4', left: 'Sorry', right: 'Lo siento' },
+        { id: '5', left: 'Excuse me', right: 'Disculpe' }
+      ],
+      explanation: 'Ser cortés es vital en la cultura de habla inglesa.'
     } as any
   },
   {
@@ -679,14 +704,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Un vaso de agua',
-      instructions: 'Escribe la palabra que falta para traducir "un vaso de agua".',
+      title: 'Con hielo',
+      instructions: 'Escribe la palabra para "hielo".',
       questions: [
         {
           id: 'q1',
-          text: 'A ___ of water.',
-          correctAnswer: 'glass',
-          explanation: '"Glass" es para bebidas frías.'
+          text: 'Water with ___.',
+          correctAnswer: 'ice',
+          explanation: '"Ice" significa hielo.'
         }
       ]
     }
@@ -695,19 +720,19 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e36',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Quieres té?',
-      instructions: 'Completa la pregunta.',
+      title: 'Él quiere',
+      instructions: '¿Cómo cambia "want" para "Él"?',
       questions: [
         {
           id: 'q1',
-          question: 'Do you ________ tea?',
-          options: ['want', 'am', 'is'],
-          correctAnswer: 0,
-          explanation: 'Usamos "want" para preguntar qué desea alguien.'
+          question: 'He ________ coffee.',
+          options: ['want', 'wants', 'wanting'],
+          correctAnswer: 1,
+          explanation: 'Para la tercera persona del singular (He/She/It), añadimos una "s" al verbo en presente.'
         }
       ]
     }
@@ -716,16 +741,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e37',
     type: 'flashcard',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
       items: [
         {
-          front: 'Vaso',
-          back: 'Glass',
-          example: 'A glass of water.',
-          pronunciation: '/ɡlɑːs/'
+          front: 'Ella quiere',
+          back: 'She wants',
+          example: 'She wants tea.',
+          pronunciation: '/ʃi wɒnts/',
+          explanation: 'No olvides la "s" final en "wants".'
         }
       ]
     } as any
@@ -734,19 +760,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e38',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Wants',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Quieres café?',
-      instructions: 'Ordena las palabras para traducir la pregunta "¿Quieres café?".',
+      title: 'Ella quiere agua',
+      instructions: 'Ordena para decir "Ella quiere agua".',
       sentences: [
         {
           id: 's1',
-          words: ['want', 'coffee', 'you', 'Do', '?'],
-          correctSentence: 'Do you want coffee?',
-          translation: '¿Quieres café?',
-          hint: '"Do" empieza la pregunta.'
+          words: ['water', 'wants', 'She'],
+          correctSentence: 'She wants water',
+          translation: 'Ella quiere agua.',
+          hint: 'Añade la "s" al verbo.',
+          explanation: 'Usamos "wants" porque el sujeto es "She".'
         }
       ]
     } as any
@@ -767,7 +794,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           question: 'Tea with ________.',
           options: ['sugar', 'lemon', 'milk'],
           correctAnswer: 1,
-          explanation: '"Lemon" es limón.'
+          explanation: '"Lemon" significa limón.'
         }
       ]
     }
@@ -776,18 +803,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e40',
     type: 'speaking-analysis',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Politeness',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Sugar',
-      instructions: 'Di "Sugar".',
+      title: 'Pronunciación: Thank you',
+      instructions: 'Di "gracias" en inglés.',
       questions: [
         {
           id: 'q1',
-          text: 'Sugar',
-          correctAnswer: 'Sugar',
-          explanation: 'La "s" suena como "sh".'
+          text: 'Thank you',
+          correctAnswer: 'Thank you',
+          explanation: 'La "th" se pronuncia colocando la lengua entre los dientes.'
         }
       ]
     }
@@ -800,31 +827,34 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Complementos',
-      instructions: 'Une las palabras.',
+      title: 'Combinaciones',
+      instructions: 'Une el pedido en inglés con su traducción.',
       pairs: [
-        { id: '1', left: 'Limón', right: 'Lemon' },
-        { id: '2', left: 'Hielo', right: 'Ice' },
-        { id: '3', left: 'Cuchara', right: 'Spoon' }
-      ]
+        { id: '1', left: 'Black coffee', right: 'Café solo' },
+        { id: '2', left: 'Tea with milk', right: 'Té con leche' },
+        { id: '3', left: 'Orange juice', right: 'Jugo de naranja' },
+        { id: '4', left: 'Cold water', right: 'Agua fría' },
+        { id: '5', left: 'Coffee with sugar', right: 'Café con azúcar' }
+      ],
+      explanation: 'Aprender frases completas te dará más confianza al pedir.'
     } as any
   },
   {
     id: 'a1-u2-e42',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Verbs',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Con hielo',
-      instructions: 'Escribe la palabra que falta para traducir "agua con hielo".',
+      title: 'Él quiere té',
+      instructions: 'Escribe la forma correcta del verbo "want" para "Él".',
       questions: [
         {
           id: 'q1',
-          text: 'Water with ___',
-          correctAnswer: 'ice',
-          explanation: '"Ice" es hielo.'
+          text: 'He ___ tea.',
+          correctAnswer: 'wants',
+          explanation: 'La tercera persona requiere la "s" final en el verbo.'
         }
       ]
     }
@@ -837,15 +867,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Mucho o poco?',
-      instructions: '¿Qué significa "small"?',
+      title: 'Bebida gaseosa',
+      instructions: '¿Cómo se dice "refresco" o "soda"?',
       questions: [
         {
           id: 'q1',
-          question: 'A ________ coffee.',
-          options: ['big', 'small', 'hot'],
-          correctAnswer: 1,
-          explanation: '"Small" es pequeño.'
+          question: 'I want a ________.',
+          options: ['soda', 'coffee', 'milk'],
+          correctAnswer: 0,
+          explanation: '"Soda" se usa para refrescos en general.'
         }
       ]
     }
@@ -860,10 +890,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Grande',
-          back: 'Big',
-          example: 'A big glass of water.',
-          pronunciation: '/bɪɡ/'
+          front: 'Mucho',
+          back: 'A lot',
+          example: 'I want a lot of sugar.',
+          pronunciation: '/ə lɒt/',
+          explanation: 'Se usa para expresar cantidad.'
         }
       ]
     } as any
@@ -876,15 +907,16 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Un café grande',
-      instructions: 'Ordena las palabras para traducir "Quiero un café grande".',
+      title: 'Un poco de...',
+      instructions: 'Ordena para decir "Un poco de leche".',
       sentences: [
         {
           id: 's1',
-          words: ['coffee', 'a', 'want', 'I', 'big'],
-          correctSentence: 'I want a big coffee',
-          translation: 'Quiero un café grande.',
-          hint: '"A" significa un/una.'
+          words: ['milk', 'little', 'A'],
+          correctSentence: 'A little milk',
+          translation: 'Un poco de leche.',
+          hint: 'Usa "A little" para cantidad.',
+          explanation: '"A little" se usa con cosas incontables como la leche.'
         }
       ]
     } as any
@@ -897,15 +929,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: '¿Algo más?',
-      instructions: '¿Cómo se dice "gracias"?',
+      title: 'Cerveza (Adultos)',
+      instructions: '¿Cómo se dice "cerveza"?',
       questions: [
         {
           id: 'q1',
-          question: 'Persona A: Coffee? \nPersona B: Yes, ________.',
-          options: ['please', 'thanks', 'hello'],
-          correctAnswer: 1,
-          explanation: '"Thanks" es gracias.'
+          question: 'A ________, please.',
+          options: ['beer', 'wine', 'water'],
+          correctAnswer: 0,
+          explanation: '"Beer" es cerveza.'
         }
       ]
     }
@@ -918,14 +950,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Ice',
-      instructions: 'Di "Ice".',
+      title: 'Pronunciación: Soda',
+      instructions: 'Di la palabra para "refresco".',
       questions: [
         {
           id: 'q1',
-          text: 'Ice',
-          correctAnswer: 'Ice',
-          explanation: 'Suena como "áis".'
+          text: 'Soda',
+          correctAnswer: 'Soda',
+          explanation: 'Se pronuncia muy similar al español, pero con la "o" más cerrada.'
         }
       ]
     }
@@ -934,17 +966,20 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     id: 'a1-u2-e48',
     type: 'matching',
     level: 'A1',
-    topic: 'Drinks',
+    topic: 'Adjectives',
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Tamaños',
-      instructions: 'Une los opuestos.',
+      title: 'Sabores y Estados',
+      instructions: 'Une cada adjetivo con su significado.',
       pairs: [
-        { id: '1', left: 'Grande', right: 'Big' },
-        { id: '2', left: 'Pequeño', right: 'Small' },
-        { id: '3', left: 'Taza', right: 'Cup' }
-      ]
+        { id: '1', left: 'Sweet', right: 'Dulce' },
+        { id: '2', left: 'Bitter', right: 'Amargo' },
+        { id: '3', left: 'Hot', right: 'Caliente' },
+        { id: '4', left: 'Cold', right: 'Frío' },
+        { id: '5', left: 'Delicious', right: 'Delicioso' }
+      ],
+      explanation: 'Estos términos te ayudan a describir la calidad de lo que estás bebiendo.'
     } as any
   },
   {
@@ -955,14 +990,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'No, gracias',
-      instructions: 'Escribe la palabra que falta para traducir "No, gracias".',
+      title: 'Vino (Adultos)',
+      instructions: 'Escribe la palabra para "vino".',
       questions: [
         {
           id: 'q1',
-          text: 'No, ___',
-          correctAnswer: 'thanks',
-          explanation: '"Thanks" es la forma corta de "thank you".'
+          text: 'Red ___.',
+          correctAnswer: 'wine',
+          explanation: '"Wine" significa vino. "Red wine" es vino tinto.'
         }
       ]
     }
@@ -975,15 +1010,15 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Coffee Break',
     difficulty: 'easy',
     content: {
-      title: 'Resumen de bebidas',
-      instructions: '¿Cuál de estos NO es una bebida?',
+      title: 'Resumen',
+      instructions: '¿Cuál es el pedido más educado?',
       questions: [
         {
           id: 'q1',
-          question: '¿Cuál NO es una bebida?',
-          options: ['Milk', 'Water', 'Table'],
-          correctAnswer: 2,
-          explanation: '"Table" es mesa, no es una bebida.'
+          question: 'Cómo pedir un café:',
+          options: ['I want coffee, please.', 'Coffee now.', 'I want coffee without sugar.'],
+          correctAnswer: 0,
+          explanation: 'Usar "please" es fundamental para la cortesía.'
         }
       ]
     }

@@ -414,8 +414,10 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                       </div>
                       <p className="font-medium text-lg">{evaluation.feedback}</p>
                       
-                      {!evaluation.isCorrect && q.explanation && (
-                        <div className="mt-4 p-4 bg-white/50 rounded-xl text-sm border border-red-100">
+                      {q.explanation && (
+                        <div className={`mt-4 p-4 bg-white/50 rounded-xl text-sm border ${
+                          evaluation.isCorrect ? 'border-green-100' : 'border-red-100'
+                        }`}>
                           <p className="font-bold mb-1">💡 Explicación:</p>
                           <p>{q.explanation}</p>
                         </div>

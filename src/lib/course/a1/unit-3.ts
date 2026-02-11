@@ -35,7 +35,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Madre',
           back: 'Mother',
           example: 'My mother is here.',
-          pronunciation: '/ˈmʌðər/'
+          pronunciation: '/ˈmʌðər/',
+          explanation: '"Mother" es el término formal para madre. Coloquialmente se usa "mom".'
         }
       ]
     } as any
@@ -56,7 +57,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['mother', 'My'],
           correctSentence: 'My mother',
           translation: 'Mi madre.',
-          hint: 'Usa el posesivo "My".'
+          hint: 'Usa el posesivo "My".',
+          explanation: '"My" es el adjetivo posesivo para la primera persona (mío/mi).'
         }
       ]
     } as any
@@ -97,7 +99,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Father',
           correctAnswer: 'Father',
-          explanation: 'La "th" suena como una "d" suave.'
+          explanation: 'La "th" suena como una "d" muy suave con aire entre los dientes.'
         }
       ]
     }
@@ -115,8 +117,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       pairs: [
         { id: '1', left: 'Padre', right: 'Father' },
         { id: '2', left: 'Madre', right: 'Mother' },
-        { id: '3', left: 'Familia', right: 'Family' }
-      ]
+        { id: '3', left: 'Hermano', right: 'Brother' },
+        { id: '4', left: 'Hermana', right: 'Sister' },
+        { id: '5', left: 'Familia', right: 'Family' }
+      ],
+      explanation: 'Estos son los miembros básicos de la familia nuclear.'
     } as any
   },
   {
@@ -128,13 +133,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Tu padre',
-      instructions: 'Escribe la palabra que falta para traducir "Tu padre".',
+      instructions: 'Escribe la palabra para "Tu" (de posesión).',
       questions: [
         {
           id: 'q1',
           text: '___ father.',
           correctAnswer: 'Your',
-          explanation: '"Your" significa tu o tus.'
+          explanation: '"Your" es el adjetivo posesivo para tú/usted.'
         }
       ]
     }
@@ -173,7 +178,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Hijo',
           back: 'Son',
           example: 'He is my son.',
-          pronunciation: '/sʌn/'
+          pronunciation: '/sʌn/',
+          explanation: '"Son" se pronuncia exactamente igual que "sun" (sol).'
         }
       ]
     } as any
@@ -194,7 +200,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['brother', 'My'],
           correctSentence: 'My brother',
           translation: 'Mi hermano.',
-          hint: 'Usa "My".'
+          hint: 'Usa "My".',
+          explanation: 'La estructura Posesivo + Sustantivo es igual que en español.'
         }
       ]
     } as any
@@ -235,7 +242,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Mother',
           correctAnswer: 'Mother',
-          explanation: 'La "o" suena parecida a una "a".'
+          explanation: 'La "o" suena como una "a" corta y relajada.'
         }
       ]
     }
@@ -249,12 +256,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Hermanos e hijos',
-      instructions: 'Une las parejas.',
+      instructions: 'Une las parejas de palabras.',
       pairs: [
-        { id: '1', left: 'Hermano', right: 'Brother' },
-        { id: '2', left: 'Hermana', right: 'Sister' },
-        { id: '3', left: 'Hijo', right: 'Son' }
-      ]
+        { id: '1', left: 'Hijo', right: 'Son' },
+        { id: '2', left: 'Hija', right: 'Daughter' },
+        { id: '3', left: 'Hermano', right: 'Brother' },
+        { id: '4', left: 'Hermana', right: 'Sister' },
+        { id: '5', left: 'Niños', right: 'Children' }
+      ],
+      explanation: 'Saber distinguir el género en los miembros de la familia es fundamental.'
     } as any
   },
   {
@@ -266,7 +276,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Mi hermana',
-      instructions: 'Escribe la palabra que falta para traducir "Mi hermana".',
+      instructions: 'Escribe la palabra para "hermana".',
       questions: [
         {
           id: 'q1',
@@ -293,7 +303,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           question: 'He is my ________.',
           options: ['grandfather', 'grandmother', 'father'],
           correctAnswer: 0,
-          explanation: '"Grandfather" es abuelo.'
+          explanation: '"Grandfather" es abuelo. Usamos el prefijo "grand-" para los abuelos.'
         }
       ]
     }
@@ -311,7 +321,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Abuela',
           back: 'Grandmother',
           example: 'My grandmother is nice.',
-          pronunciation: '/ˈɡrænmʌðər/'
+          pronunciation: '/ˈɡrænmʌðər/',
+          explanation: 'Coloquialmente se suele llamar "Grandma".'
         }
       ]
     } as any
@@ -332,7 +343,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['family', 'Your'],
           correctSentence: 'Your family',
           translation: 'Tu familia.',
-          hint: 'Usa "Your".'
+          hint: 'Usa "Your".',
+          explanation: '"Your" se usa tanto para singular como para plural (tu familia / vuestra familia).'
         }
       ]
     } as any
@@ -373,7 +385,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Sister',
           correctAnswer: 'Sister',
-          explanation: 'La primera "s" es fuerte.'
+          explanation: 'Recuerda que la "r" final en inglés británico apenas se oye, mientras que en americano es más marcada.'
         }
       ]
     }
@@ -386,13 +398,16 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Mis y Tus',
-      instructions: 'Une las palabras.',
+      title: 'Posesivos básicos',
+      instructions: 'Une el pronombre o posesivo con su significado.',
       pairs: [
-        { id: '1', left: 'Mi', right: 'My' },
-        { id: '2', left: 'Tu', right: 'Your' },
-        { id: '3', left: 'Yo', right: 'I' }
-      ]
+        { id: '1', left: 'I', right: 'Yo' },
+        { id: '2', left: 'You', right: 'Tú' },
+        { id: '3', left: 'My', right: 'Mi' },
+        { id: '4', left: 'Your', right: 'Tu' },
+        { id: '5', left: 'We', right: 'Nosotros' }
+      ],
+      explanation: 'Diferenciar entre el sujeto (I/You) y el poseedor (My/Your) es clave.'
     } as any
   },
   {
@@ -404,7 +419,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Mi abuelo',
-      instructions: 'Escribe la palabra que falta para traducir "Mi abuelo".',
+      instructions: 'Escribe la palabra para "abuelo".',
       questions: [
         {
           id: 'q1',
@@ -449,7 +464,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Tía',
           back: 'Aunt',
           example: 'My aunt is from Spain.',
-          pronunciation: '/ɑːnt/'
+          pronunciation: '/ɑːnt/',
+          explanation: 'En algunos dialectos se pronuncia como "ant" (hormiga).'
         }
       ]
     } as any
@@ -470,7 +486,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['aunt', 'My'],
           correctSentence: 'My aunt',
           translation: 'Mi tía.',
-          hint: 'Usa "My".'
+          hint: 'Usa "My".',
+          explanation: 'Mantenemos la misma estructura que para otros familiares.'
         }
       ]
     } as any
@@ -511,7 +528,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Brother',
           correctAnswer: 'Brother',
-          explanation: 'La "th" suena suave.'
+          explanation: 'La "o" suena como una "a" corta y la "th" es suave.'
         }
       ]
     }
@@ -525,12 +542,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Tíos y abuelos',
-      instructions: 'Une las parejas.',
+      instructions: 'Une las parejas de familiares.',
       pairs: [
         { id: '1', left: 'Tío', right: 'Uncle' },
         { id: '2', left: 'Tía', right: 'Aunt' },
-        { id: '3', left: 'Abuela', right: 'Grandmother' }
-      ]
+        { id: '3', left: 'Abuelo', right: 'Grandfather' },
+        { id: '4', left: 'Abuela', right: 'Grandmother' },
+        { id: '5', left: 'Primo', right: 'Cousin' }
+      ],
+      explanation: 'Saber nombrar a la familia extendida es muy útil.'
     } as any
   },
   {
@@ -542,7 +562,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Tu tía',
-      instructions: 'Escribe la palabra que falta para traducir "Tu tía".',
+      instructions: 'Escribe la palabra para "tía".',
       questions: [
         {
           id: 'q1',
@@ -569,7 +589,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           question: 'They are my ________.',
           options: ['cousins', 'brothers', 'uncles'],
           correctAnswer: 0,
-          explanation: '"Cousin" sirve para ambos géneros.'
+          explanation: '"Cousin" es una palabra neutra, sirve para ambos géneros.'
         }
       ]
     }
@@ -587,7 +607,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Esposo',
           back: 'Husband',
           example: 'My husband is here.',
-          pronunciation: '/ˈhʌzbənd/'
+          pronunciation: '/ˈhʌzbənd/',
+          explanation: 'La "h" es aspirada, no muda.'
         }
       ]
     } as any
@@ -608,7 +629,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['husband', 'My'],
           correctSentence: 'My husband',
           translation: 'Mi esposo.',
-          hint: 'Usa "My".'
+          hint: 'Usa "My".',
+          explanation: 'Misma estructura: Posesivo + Sustantivo.'
         }
       ]
     } as any
@@ -649,7 +671,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Husband',
           correctAnswer: 'Husband',
-          explanation: 'La "h" se pronuncia como un suspiro.'
+          explanation: 'Cuidado con la "u", suena como una "a" corta y seca.'
         }
       ]
     }
@@ -663,12 +685,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Parejas familiares',
-      instructions: 'Une las parejas.',
+      instructions: 'Une las parejas de palabras.',
       pairs: [
         { id: '1', left: 'Esposa', right: 'Wife' },
         { id: '2', left: 'Esposo', right: 'Husband' },
-        { id: '3', left: 'Primo', right: 'Cousin' }
-      ]
+        { id: '3', left: 'Primo', right: 'Cousin' },
+        { id: '4', left: 'Padres', right: 'Parents' },
+        { id: '5', left: 'Hijos', right: 'Children' }
+      ],
+      explanation: '"Parents" y "Children" son términos plurales muy comunes.'
     } as any
   },
   {
@@ -680,7 +705,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Tu esposa',
-      instructions: 'Escribe la palabra que falta para traducir "Tu esposa".',
+      instructions: 'Escribe la palabra para "esposa".',
       questions: [
         {
           id: 'q1',
@@ -707,7 +732,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           question: 'They are my ________.',
           options: ['parents', 'fathers', 'mothers'],
           correctAnswer: 0,
-          explanation: '"Parents" incluye a padre y madre.'
+          explanation: '"Parents" es el término genérico para padre y madre. "Fathers" significaría varios padres.'
         }
       ]
     }
@@ -725,7 +750,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           front: 'Su (de él)',
           back: 'His',
           example: 'His father is tall.',
-          pronunciation: '/hɪz/'
+          pronunciation: '/hɪz/',
+          explanation: '"His" se usa exclusivamente cuando el poseedor es un hombre.'
         }
       ]
     } as any
@@ -746,7 +772,8 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           words: ['mother', 'Her'],
           correctSentence: 'Her mother',
           translation: 'Su madre.',
-          hint: 'Usa "Her" para ella.'
+          hint: 'Usa "Her" para ella.',
+          explanation: '"Her" se usa exclusivamente cuando la poseedora es una mujer.'
         }
       ]
     } as any
@@ -767,7 +794,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           question: '________ brother.',
           options: ['His', 'Her', 'Your'],
           correctAnswer: 0,
-          explanation: '"His" se usa para posesión masculina.'
+          explanation: 'Usamos "His" porque nos referimos a algo que le pertenece a él.'
         }
       ]
     }
@@ -787,7 +814,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Parents',
           correctAnswer: 'Parents',
-          explanation: 'Se pronuncia "pé-rents".'
+          explanation: 'Se pronuncia /ˈpeərənts/. La primera sílaba suena como "pair" (par).'
         }
       ]
     }
@@ -800,13 +827,16 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Posesivos',
-      instructions: 'Une los posesivos con su significado.',
+      title: 'Posesivos de tercera persona',
+      instructions: 'Une el posesivo con su significado.',
       pairs: [
-        { id: '1', left: 'Su (de él)', right: 'His' },
-        { id: '2', left: 'Su (de ella)', right: 'Her' },
-        { id: '3', left: 'Mi', right: 'My' }
-      ]
+        { id: '1', left: 'His', right: 'Su (de él)' },
+        { id: '2', left: 'Her', right: 'Su (de ella)' },
+        { id: '3', left: 'Its', right: 'Su (de una cosa/animal)' },
+        { id: '4', left: 'Their', right: 'Su/Sus (de ellos/ellas)' },
+        { id: '5', left: 'Our', right: 'Nuestro/a' }
+      ],
+      explanation: 'En inglés, el posesivo cambia según QUIÉN posee, no según QUÉ se posee.'
     } as any
   },
   {
@@ -817,14 +847,14 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Su hermana (de ella)',
-      instructions: 'Escribe la palabra que falta para traducir "Su hermana" (de ella).',
+      title: 'Su hija (de ella)',
+      instructions: 'Escribe el posesivo para "ella".',
       questions: [
         {
           id: 'q1',
-          text: '___ sister.',
+          text: '___ daughter.',
           correctAnswer: 'Her',
-          explanation: '"Her" se usa para posesión femenina.'
+          explanation: 'Usamos "Her" porque la madre es mujer.'
         }
       ]
     }
@@ -837,15 +867,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Bebé',
-      instructions: '¿Cómo se dice "bebé"?',
+      title: 'Hijos (genérico)',
+      instructions: '¿Cómo se dice "hijos" en general?',
       questions: [
         {
           id: 'q1',
-          question: 'The ________ is small.',
-          options: ['baby', 'parent', 'uncle'],
+          question: 'I have three ________.',
+          options: ['children', 'sons', 'daughters'],
           correctAnswer: 0,
-          explanation: '"Baby" es bebé.'
+          explanation: '"Children" es el plural genérico para hijos e hijas.'
         }
       ]
     }
@@ -860,10 +890,11 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Niño / Hijos',
-          back: 'Child / Children',
-          example: 'My children are happy.',
-          pronunciation: '/ˈtʃɪldrən/'
+          front: 'Bebé',
+          back: 'Baby',
+          example: 'The baby is sleeping.',
+          pronunciation: '/ˈbeɪbi/',
+          explanation: 'Plural: babies.'
         }
       ]
     } as any
@@ -876,15 +907,16 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Mis hijos',
-      instructions: 'Ordena para traducir "Mis hijos".',
+      title: 'Nuestro hijo',
+      instructions: 'Ordena para traducir "Nuestro hijo".',
       sentences: [
         {
           id: 's1',
-          words: ['children', 'My'],
-          correctSentence: 'My children',
-          translation: 'Mis hijos.',
-          hint: 'Usa el plural "Children".'
+          words: ['son', 'Our'],
+          correctSentence: 'Our son',
+          translation: 'Nuestro hijo.',
+          hint: 'Usa "Our".',
+          explanation: '"Our" significa nuestro o nuestra.'
         }
       ]
     } as any
@@ -893,19 +925,19 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     id: 'a1-u3-e46',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Possessives',
+    topic: 'Family',
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Pregunta de posesión',
-      instructions: '¿Cómo preguntas "es tu hermano"?',
+      title: 'Nieto',
+      instructions: '¿Cómo se dice "nieto"?',
       questions: [
         {
           id: 'q1',
-          question: 'Is he ________ brother?',
-          options: ['you', 'your', 'my'],
-          correctAnswer: 1,
-          explanation: '"Your" es el adjetivo posesivo.'
+          question: 'He is my ________.',
+          options: ['grandson', 'granddaughter', 'son'],
+          correctAnswer: 0,
+          explanation: 'Usamos el prefijo "grand-" sobre "son".'
         }
       ]
     }
@@ -914,18 +946,18 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     id: 'a1-u3-e47',
     type: 'speaking-analysis',
     level: 'A1',
-    topic: 'Family',
+    topic: 'Possessives',
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Children',
-      instructions: 'Di la palabra para "hijos/niños".',
+      title: 'Pronunciación: Their',
+      instructions: 'Di la palabra para "su" (de ellos).',
       questions: [
         {
           id: 'q1',
-          text: 'Children',
-          correctAnswer: 'Children',
-          explanation: 'La "ch" suena fuerte.'
+          text: 'Their',
+          correctAnswer: 'Their',
+          explanation: 'Se pronuncia igual que "there" o "they\'re".'
         }
       ]
     }
@@ -938,13 +970,16 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Plurales familiares',
-      instructions: 'Une el singular con su plural.',
+      title: 'Nietos y parientes',
+      instructions: 'Une las palabras con su significado.',
       pairs: [
-        { id: '1', left: 'Child', right: 'Children' },
-        { id: '2', left: 'Parent', right: 'Parents' },
-        { id: '3', left: 'Cousin', right: 'Cousins' }
-      ]
+        { id: '1', left: 'Grandson', right: 'Nieto' },
+        { id: '2', left: 'Granddaughter', right: 'Nieta' },
+        { id: '3', left: 'Relative', right: 'Pariente' },
+        { id: '4', left: 'Baby', right: 'Bebé' },
+        { id: '5', left: 'Stepfather', right: 'Padrastro' }
+      ],
+      explanation: 'Ampliar el vocabulario familiar te permite describir mejor tu entorno.'
     } as any
   },
   {
@@ -955,14 +990,14 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Tu hijo',
-      instructions: 'Escribe la palabra que falta para traducir "Tu hijo".',
+      title: 'Su nieta (de ellos)',
+      instructions: 'Escribe el posesivo para "ellos".',
       questions: [
         {
           id: 'q1',
-          text: 'Your ___.',
-          correctAnswer: 'son',
-          explanation: '"Son" es hijo.'
+          text: '___ granddaughter.',
+          correctAnswer: 'Their',
+          explanation: 'Usamos "Their" para indicar posesión de un grupo.'
         }
       ]
     }
@@ -975,15 +1010,15 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     topicName: 'My Tribe',
     difficulty: 'easy',
     content: {
-      title: 'Repaso familiar',
-      instructions: '¿Cuál de estos NO es un familiar?',
+      title: 'Resumen familiar',
+      instructions: '¿Cuál es el término correcto para "familia"?',
       questions: [
         {
           id: 'q1',
-          question: 'Which one is NOT a relative?',
-          options: ['Brother', 'Car', 'Aunt'],
-          correctAnswer: 1,
-          explanation: '"Car" es coche, no es un familiar.'
+          question: 'I love my ________.',
+          options: ['family', 'tribe', 'group'],
+          correctAnswer: 0,
+          explanation: '"Family" es la palabra estándar para familia.'
         }
       ]
     }

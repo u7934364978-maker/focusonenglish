@@ -17,7 +17,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'I have ________ apple.',
           options: ['one', 'two', 'three'],
           correctAnswer: 0,
-          explanation: '"One" es uno.'
+          explanation: '"One" es el número uno. Usamos "one" para indicar una sola unidad.'
         }
       ]
     }
@@ -35,7 +35,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: 'Dos',
           back: 'Two',
           example: 'I have two eyes.',
-          pronunciation: '/tuː/'
+          pronunciation: '/tuː/',
+          explanation: '"Two" se pronuncia igual que "to" o "too".'
         }
       ]
     } as any
@@ -56,7 +57,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['cats', 'Three'],
           correctSentence: 'Three cats',
           translation: 'Tres gatos.',
-          hint: 'Empieza por el número.'
+          hint: 'Empieza por el número.',
+          explanation: 'En inglés, el número va antes que el sustantivo, igual que en español.'
         }
       ]
     } as any
@@ -77,7 +79,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'Count to ________.',
           options: ['three', 'four', 'five'],
           correctAnswer: 1,
-          explanation: '"Four" es cuatro.'
+          explanation: '"Four" es cuatro. No lo confundas con "for" (para).'
         }
       ]
     }
@@ -97,7 +99,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Three',
           correctAnswer: 'Three',
-          explanation: 'La "th" se pronuncia colocando la lengua entre los dientes.'
+          explanation: 'La "th" requiere que pongas la lengua entre los dientes y dejes pasar el aire.'
         }
       ]
     }
@@ -115,8 +117,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       pairs: [
         { id: '1', left: 'Uno', right: 'One' },
         { id: '2', left: 'Dos', right: 'Two' },
-        { id: '3', left: 'Tres', right: 'Three' }
-      ]
+        { id: '3', left: 'Tres', right: 'Three' },
+        { id: '4', left: 'Cuatro', right: 'Four' },
+        { id: '5', left: 'Cinco', right: 'Five' }
+      ],
+      explanation: 'Dominar los primeros cinco números es el primer paso para contar en inglés.'
     } as any
   },
   {
@@ -134,7 +139,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'One, two, three, four, ___.',
           correctAnswer: 'five',
-          explanation: '"Five" es cinco.'
+          explanation: '"Five" es cinco. Recuerda la "v" final que suena vibrando en el labio.'
         }
       ]
     }
@@ -155,7 +160,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'I see ________ stars.',
           options: ['five', 'six', 'seven'],
           correctAnswer: 1,
-          explanation: '"Six" es seis.'
+          explanation: '"Six" es seis. La "x" suena como "ks".'
         }
       ]
     }
@@ -173,7 +178,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: 'Siete',
           back: 'Seven',
           example: 'Seven days in a week.',
-          pronunciation: '/ˈsev.ən/'
+          pronunciation: '/ˈsev.ən/',
+          explanation: 'Se pronuncia /ˈsev.ən/. Dos sílabas claras.'
         }
       ]
     } as any
@@ -194,7 +200,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['dogs', 'Eight'],
           correctSentence: 'Eight dogs',
           translation: 'Ocho perros.',
-          hint: 'Empieza con el número.'
+          hint: 'Empieza con el número.',
+          explanation: '"Eight" termina en sonido "t". El plural de "dog" es "dogs".'
         }
       ]
     } as any
@@ -215,7 +222,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: '________ comes after eight.',
           options: ['Nine', 'Ten', 'Seven'],
           correctAnswer: 0,
-          explanation: '"Nine" es nueve.'
+          explanation: '"Nine" es nueve. La "e" final es muda.'
         }
       ]
     }
@@ -235,7 +242,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Five',
           correctAnswer: 'Five',
-          explanation: 'Asegúrate de pronunciar la "v" apoyando los dientes en el labio inferior.'
+          explanation: 'La "i" suena larga (/faɪ/) y la "v" debe vibrar suavemente.'
         }
       ]
     }
@@ -249,12 +256,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Números 6-10',
-      instructions: 'Une las parejas.',
+      instructions: 'Une cada número con su traducción.',
       pairs: [
         { id: '1', left: 'Seis', right: 'Six' },
         { id: '2', left: 'Siete', right: 'Seven' },
-        { id: '3', left: 'Diez', right: 'Ten' }
-      ]
+        { id: '3', left: 'Ocho', right: 'Eight' },
+        { id: '4', left: 'Nueve', right: 'Nine' },
+        { id: '5', left: 'Diez', right: 'Ten' }
+      ],
+      explanation: 'Con estos completas la primera decena de números en inglés.'
     } as any
   },
   {
@@ -272,7 +282,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'I have ___ fingers.',
           correctAnswer: 'ten',
-          explanation: '"Ten" es diez.'
+          explanation: '"Ten" es diez. Corta y con sonido de "e" claro.'
         }
       ]
     }
@@ -286,14 +296,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Plural básico',
-      instructions: '¿Cómo se hace el plural de "book"?',
+      instructions: '¿Cómo se forma el plural de "book"?',
       questions: [
         {
           id: 'q1',
           question: 'One book, two ________.',
           options: ['bookes', 'books', 'bookies'],
           correctAnswer: 1,
-          explanation: 'La mayoría de los plurales se forman añadiendo "s".'
+          explanation: 'En inglés, la regla general para formar el plural es añadir una "s" al final del sustantivo.'
         }
       ]
     }
@@ -311,7 +321,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: 'Coche (singular) -> Coches (plural)',
           back: 'Car -> Cars',
           example: 'I have three cars.',
-          pronunciation: '/kɑːrz/'
+          pronunciation: '/kɑːrz/',
+          explanation: 'La "s" final en "cars" suena un poco vibrada como una "z" suave.'
         }
       ]
     } as any
@@ -332,7 +343,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['apples', 'Five'],
           correctSentence: 'Five apples',
           translation: 'Cinco manzanas.',
-          hint: 'Usa el plural añadiendo "s".'
+          hint: 'Usa el plural añadiendo "s".',
+          explanation: 'Usamos el número seguido del sustantivo en plural.'
         }
       ]
     } as any
@@ -353,7 +365,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'Ten, ________, twelve.',
           options: ['eleven', 'twelve', 'thirteen'],
           correctAnswer: 0,
-          explanation: '"Eleven" es once.'
+          explanation: '"Eleven" es once. Es un número irregular en su formación.'
         }
       ]
     }
@@ -373,7 +385,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Eight',
           correctAnswer: 'Eight',
-          explanation: 'La "gh" es muda.'
+          explanation: 'La combinación "gh" no se pronuncia. Se dice /eɪt/.'
         }
       ]
     }
@@ -387,12 +399,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Singular y Plural',
-      instructions: 'Une las palabras.',
+      instructions: 'Une el singular con su forma plural o significado.',
       pairs: [
         { id: '1', left: 'Gato', right: 'Cat' },
         { id: '2', left: 'Gatos', right: 'Cats' },
-        { id: '3', left: 'Manzanas', right: 'Apples' }
-      ]
+        { id: '3', left: 'Perro', right: 'Dog' },
+        { id: '4', left: 'Perros', right: 'Dogs' },
+        { id: '5', left: 'Manzanas', right: 'Apples' }
+      ],
+      explanation: 'Practica la transición de una unidad a varias añadiendo la "s".'
     } as any
   },
   {
@@ -410,7 +425,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Ten, eleven, ___.',
           correctAnswer: 'twelve',
-          explanation: '"Twelve" es doce.'
+          explanation: '"Twelve" es doce. Cuidado con la ortografía: t-w-e-l-v-e.'
         }
       ]
     }
@@ -431,7 +446,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'I am ________ years old.',
           options: ['thirteen', 'thirty', 'three'],
           correctAnswer: 0,
-          explanation: '"Thirteen" es trece. Los números del 13 al 19 terminan en "-teen".'
+          explanation: '"Thirteen" es trece. Los números del 13 al 19 suelen terminar en "-teen".'
         }
       ]
     }
@@ -449,7 +464,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: 'Catorce',
           back: 'Fourteen',
           example: 'Fourteen students.',
-          pronunciation: '/ˌfɔːrˈtiːn/'
+          pronunciation: '/ˌfɔːrˈtiːn/',
+          explanation: 'Literalmente "four" + "teen".'
         }
       ]
     } as any
@@ -470,7 +486,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['books', 'Fifteen'],
           correctSentence: 'Fifteen books',
           translation: 'Quince libros.',
-          hint: 'Recuerda el plural "books".'
+          hint: 'Recuerda el plural "books".',
+          explanation: '"Fifteen" cambia la raíz de "five" a "fif".'
         }
       ]
     } as any
@@ -491,7 +508,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'Ten plus five is ________.',
           options: ['fifteen', 'fifty', 'five'],
           correctAnswer: 0,
-          explanation: '"Fifteen" es quince.'
+          explanation: '"Fifteen" es quince. ¡No lo confundas con fifty (cincuenta)!'
         }
       ]
     }
@@ -511,7 +528,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Twelve',
           correctAnswer: 'Twelve',
-          explanation: 'Asegúrate de pronunciar la "v" al final.'
+          explanation: 'La "w" suena como una "u" y la "v" final es muy importante.'
         }
       ]
     }
@@ -525,12 +542,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Números 11-15',
-      instructions: 'Une las palabras.',
+      instructions: 'Une cada número con su nombre en inglés.',
       pairs: [
         { id: '1', left: 'Once', right: 'Eleven' },
-        { id: '2', left: 'Trece', right: 'Thirteen' },
-        { id: '3', left: 'Quince', right: 'Fifteen' }
-      ]
+        { id: '2', left: 'Doce', right: 'Twelve' },
+        { id: '3', left: 'Trece', right: 'Thirteen' },
+        { id: '4', left: 'Catorce', right: 'Fourteen' },
+        { id: '5', left: 'Quince', right: 'Fifteen' }
+      ],
+      explanation: 'Estos números son clave y suelen ser los más difíciles de recordar al principio.'
     } as any
   },
   {
@@ -548,7 +568,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'I have ___ friends.',
           correctAnswer: 'sixteen',
-          explanation: '"Sixteen" es dieciséis.'
+          explanation: '"Sixteen" es dieciséis. Se forma con "six" + "teen".'
         }
       ]
     }
@@ -587,7 +607,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: 'Dieciocho',
           back: 'Eighteen',
           example: 'I am eighteen years old.',
-          pronunciation: '/ˌeɪˈtiːn/'
+          pronunciation: '/ˌeɪˈtiːn/',
+          explanation: 'Solo se pone una "t" entre "eight" y "een".'
         }
       ]
     } as any
@@ -608,7 +629,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['houses', 'Seven'],
           correctSentence: 'Seven houses',
           translation: 'Siete casas.',
-          hint: 'Usa el plural de house.'
+          hint: 'Usa el plural de house.',
+          explanation: 'Para palabras que terminan en sonido similar a "s", a veces añadimos "es" (como houses).'
         }
       ]
     } as any
@@ -649,7 +671,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Twenty',
           correctAnswer: 'Twenty',
-          explanation: 'En algunos acentos, la segunda "t" apenas se oye.'
+          explanation: 'La "y" final suena como una "i" corta y feliz.'
         }
       ]
     }
@@ -663,12 +685,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Números 16-20',
-      instructions: 'Une las palabras.',
+      instructions: 'Une cada número con su traducción.',
       pairs: [
         { id: '1', left: 'Dieciséis', right: 'Sixteen' },
-        { id: '2', left: 'Dieciocho', right: 'Eighteen' },
-        { id: '3', left: 'Veinte', right: 'Twenty' }
-      ]
+        { id: '2', left: 'Diecisiete', right: 'Seventeen' },
+        { id: '3', left: 'Dieciocho', right: 'Eighteen' },
+        { id: '4', left: 'Diecinueve', right: 'Nineteen' },
+        { id: '5', left: 'Veinte', right: 'Twenty' }
+      ],
+      explanation: 'Has completado los números hasta el 20. ¡Buen trabajo!'
     } as any
   },
   {
@@ -686,7 +711,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Ten plus ten is ___.',
           correctAnswer: 'twenty',
-          explanation: '"Twenty" es veinte.'
+          explanation: '"Twenty" es veinte. En inglés americano la segunda "t" suele ser muda.'
         }
       ]
     }
@@ -700,14 +725,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: '¿Cuántos?',
-      instructions: '¿Cómo se pregunta "¿Cuántos?"?',
+      instructions: '¿Cómo se pregunta "¿Cuántos?" para objetos?',
       questions: [
         {
           id: 'q1',
           question: '________ apples do you have?',
           options: ['How many', 'How much', 'How old'],
           correctAnswer: 0,
-          explanation: '"How many" se usa para preguntar cantidad de cosas contables.'
+          explanation: '"How many" se usa exclusivamente para sustantivos contables.'
         }
       ]
     }
@@ -725,7 +750,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           front: '¿Cuántos? / ¿Cuántas?',
           back: 'How many?',
           example: 'How many sisters?',
-          pronunciation: '/haʊ ˈmen.i/'
+          pronunciation: '/haʊ ˈmen.i/',
+          explanation: 'Se usa cuando puedes contar las cosas una a una (1, 2, 3...).'
         }
       ]
     } as any
@@ -746,7 +772,8 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           words: ['dogs?', 'many', 'How'],
           correctSentence: 'How many dogs?',
           translation: '¿Cuántos perros?',
-          hint: 'Usa "How many".'
+          hint: 'Usa "How many".',
+          explanation: 'Recuerda poner el signo de interrogación solo al final en inglés.'
         }
       ]
     } as any
@@ -767,7 +794,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           question: 'Four plus seven is ________.',
           options: ['eleven', 'ten', 'twelve'],
           correctAnswer: 0,
-          explanation: '4 + 7 = 11 (eleven).'
+          explanation: 'Four (4) + Seven (7) = Eleven (11).'
         }
       ]
     }
@@ -787,7 +814,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Fourteen',
           correctAnswer: 'Fourteen',
-          explanation: 'Pon el énfasis en "-teen".'
+          explanation: 'Asegúrate de acentuar la última sílaba: four-TEEN.'
         }
       ]
     }
@@ -800,31 +827,34 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Más números',
-      instructions: 'Une las palabras.',
+      title: 'Números desordenados',
+      instructions: 'Une el número con su palabra.',
       pairs: [
-        { id: '1', left: 'Catorce', right: 'Fourteen' },
-        { id: '2', left: 'Diecisiete', right: 'Seventeen' },
-        { id: '3', left: 'Diecinueve', right: 'Nineteen' }
-      ]
+        { id: '1', left: '13', right: 'Thirteen' },
+        { id: '2', left: '14', right: 'Fourteen' },
+        { id: '3', left: '15', right: 'Fifteen' },
+        { id: '4', left: '3', right: 'Three' },
+        { id: '5', left: '5', right: 'Five' }
+      ],
+      explanation: 'Diferenciar entre el número base y su versión "-teen" es fundamental.'
     } as any
   },
   {
     id: 'a1-u5-e42',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Questions',
+    topic: 'Plurals',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: '¿Cuántas tazas?',
-      instructions: 'Escribe la palabra que falta para preguntar cantidad.',
+      title: 'Muchas sillas',
+      instructions: 'Escribe el plural de "chair".',
       questions: [
         {
           id: 'q1',
-          text: 'How ___ cups?',
-          correctAnswer: 'many',
-          explanation: '"How many" para cantidad.'
+          text: 'Two ___.',
+          correctAnswer: 'chairs',
+          explanation: 'Añadimos "s" para formar el plural de "chair".'
         }
       ]
     }
@@ -833,19 +863,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: 'a1-u5-e43',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Plurals',
+    topic: 'Numbers',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Plural de "man"',
-      instructions: '¿Cuál es el plural de "man" (hombre)?',
+      title: 'Cero',
+      instructions: '¿Cómo se dice "cero"?',
       questions: [
         {
           id: 'q1',
-          question: 'One man, two ________.',
-          options: ['men', 'mans', 'mens'],
+          question: 'The number is ________.',
+          options: ['zero', 'none', 'nothing'],
           correctAnswer: 0,
-          explanation: '"Men" es un plural irregular.'
+          explanation: '"Zero" es el número cero. En contextos informales a veces se dice "oh".'
         }
       ]
     }
@@ -854,16 +884,17 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: 'a1-u5-e44',
     type: 'flashcard',
     level: 'A1',
-    topic: 'Plurals',
+    topic: 'Numbers',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
       items: [
         {
-          front: 'Mujer (singular) -> Mujeres (plural)',
-          back: 'Woman -> Women',
-          example: 'Two women in the car.',
-          pronunciation: '/ˈwɪm.ɪn/'
+          front: 'Número',
+          back: 'Number',
+          example: 'What is your number?',
+          pronunciation: '/ˈnʌmbər/',
+          explanation: 'Plural: numbers.'
         }
       ]
     } as any
@@ -872,19 +903,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: 'a1-u5-e45',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Plurals',
+    topic: 'Numbers',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Dos hombres',
-      instructions: 'Ordena para decir "Dos hombres".',
+      title: 'Tengo diez gatos',
+      instructions: 'Ordena para decir "Tengo diez gatos".',
       sentences: [
         {
           id: 's1',
-          words: ['men', 'Two'],
-          correctSentence: 'Two men',
-          translation: 'Dos hombres.',
-          hint: 'Usa el plural irregular.'
+          words: ['cats', 'ten', 'have', 'I'],
+          correctSentence: 'I have ten cats',
+          translation: 'Tengo diez gatos.',
+          hint: 'Usa "I have".',
+          explanation: 'Estructura: Sujeto + Verbo + Cantidad + Objeto.'
         }
       ]
     } as any
@@ -897,15 +929,15 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Resta simple',
-      instructions: '¿Cuánto es 20 - 5?',
+      title: 'Veintiuno',
+      instructions: '¿Cómo crees que se dice "veintiuno"?',
       questions: [
         {
           id: 'q1',
-          question: 'Twenty minus five is ________.',
-          options: ['fifteen', 'fifty', 'five'],
+          question: 'Twenty + one = ________.',
+          options: ['twenty-one', 'twentyone', 'one-twenty'],
           correctAnswer: 0,
-          explanation: '20 - 5 = 15 (fifteen).'
+          explanation: 'A partir del 21, usamos un guion para unir las decenas y las unidades.'
         }
       ]
     }
@@ -918,14 +950,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Fifteen',
-      instructions: 'Di la palabra para "quince".',
+      title: 'Pronunciación: Zero',
+      instructions: 'Di la palabra para "cero".',
       questions: [
         {
           id: 'q1',
-          text: 'Fifteen',
-          correctAnswer: 'Fifteen',
-          explanation: 'No digas "fiveteen", es "fifteen".'
+          text: 'Zero',
+          correctAnswer: 'Zero',
+          explanation: 'La "z" debe sonar como el zumbido de una abeja.'
         }
       ]
     }
@@ -934,17 +966,20 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: 'a1-u5-e48',
     type: 'matching',
     level: 'A1',
-    topic: 'Plurals',
+    topic: 'Numbers',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Plurales irregulares',
-      instructions: 'Une las parejas.',
+      title: 'Repaso final de números',
+      instructions: 'Une el número con su escritura.',
       pairs: [
-        { id: '1', left: 'Hombre', right: 'Man' },
-        { id: '2', left: 'Hombres', right: 'Men' },
-        { id: '3', left: 'Mujeres', right: 'Women' }
-      ]
+        { id: '1', left: '0', right: 'Zero' },
+        { id: '2', left: '11', right: 'Eleven' },
+        { id: '3', left: '12', right: 'Twelve' },
+        { id: '4', left: '20', right: 'Twenty' },
+        { id: '5', left: '21', right: 'Twenty-one' }
+      ],
+      explanation: 'Estos números completan tu base para contar casi cualquier cosa cotidiana.'
     } as any
   },
   {
@@ -955,14 +990,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Número cuatro',
-      instructions: 'Escribe el número "cuatro".',
+      title: 'Uno solo',
+      instructions: 'Escribe la palabra para "uno".',
       questions: [
         {
           id: 'q1',
-          text: 'Two plus two is ___.',
-          correctAnswer: 'four',
-          explanation: '"Four" es cuatro.'
+          text: 'Only ___ house.',
+          correctAnswer: 'one',
+          explanation: '"One" se usa para enfatizar que hay solo una unidad.'
         }
       ]
     }
@@ -971,19 +1006,19 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     id: 'a1-u5-e50',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Plurals',
+    topic: 'Numbers',
     topicName: 'Counting Sheep',
     difficulty: 'easy',
     content: {
-      title: 'Repaso plurals',
-      instructions: '¿Cuál es el plural de "boy"?',
+      title: 'Resumen de números',
+      instructions: '¿Qué número va después del nineteen?',
       questions: [
         {
           id: 'q1',
-          question: 'One boy, two ________.',
-          options: ['boys', 'boies', 'boyes'],
+          question: 'Eighteen, nineteen, ________.',
+          options: ['twenty', 'ten', 'twenty-one'],
           correctAnswer: 0,
-          explanation: 'El plural de boy es boys.'
+          explanation: '"Twenty" sigue al diecinueve (nineteen).'
         }
       ]
     }

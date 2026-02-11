@@ -17,7 +17,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'This is my ________.',
           options: ['house', 'room', 'garden'],
           correctAnswer: 0,
-          explanation: '"House" significa casa.'
+          explanation: '"House" es la palabra estándar para referirse a la construcción física de una casa.'
         }
       ]
     }
@@ -35,7 +35,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Habitación / Cuarto',
           back: 'Room',
           example: 'This is my room.',
-          pronunciation: '/ruːm/'
+          pronunciation: '/ruːm/',
+          explanation: '"Room" se utiliza para cualquier habitación de la casa.'
         }
       ]
     } as any
@@ -56,7 +57,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['house', 'is', 'my', 'This'],
           correctSentence: 'This is my house',
           translation: 'Esta es mi casa.',
-          hint: 'Empieza con "This".'
+          hint: 'Empieza con "This".',
+          explanation: '"This is" se utiliza para presentar algo que está cerca de nosotros.'
         }
       ]
     } as any
@@ -77,7 +79,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'The ________ is big.',
           options: ['bathroom', 'kitchen', 'bedroom'],
           correctAnswer: 1,
-          explanation: '"Kitchen" es cocina.'
+          explanation: '"Kitchen" significa cocina. ¡No la confundas con "chicken" (pollo)!'
         }
       ]
     }
@@ -97,7 +99,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'House',
           correctAnswer: 'House',
-          explanation: 'La "h" suena como una aspiración suave.'
+          explanation: 'La "h" inicial se pronuncia aspirando aire, como si empañaras un cristal.'
         }
       ]
     }
@@ -115,8 +117,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       pairs: [
         { id: '1', left: 'Casa', right: 'House' },
         { id: '2', left: 'Cocina', right: 'Kitchen' },
-        { id: '3', left: 'Cuarto', right: 'Room' }
-      ]
+        { id: '3', left: 'Cuarto', right: 'Room' },
+        { id: '4', left: 'Jardín', right: 'Garden' },
+        { id: '5', left: 'Baño', right: 'Bathroom' }
+      ],
+      explanation: 'Conocer las partes básicas de la casa te ayudará a orientarte y describir dónde estás.'
     } as any
   },
   {
@@ -128,13 +133,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'El baño',
-      instructions: 'Escribe la palabra que falta para "baño".',
+      instructions: 'Escribe la palabra para "baño".',
       questions: [
         {
           id: 'q1',
           text: 'The ___ is clean.',
           correctAnswer: 'bathroom',
-          explanation: '"Bathroom" significa baño.'
+          explanation: '"Bathroom" se compone de "bath" (baño/bañera) y "room" (habitación).'
         }
       ]
     }
@@ -155,7 +160,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'I am in my ________.',
           options: ['kitchen', 'bedroom', 'garden'],
           correctAnswer: 1,
-          explanation: '"Bedroom" es dormitorio.'
+          explanation: '"Bedroom" viene de "bed" (cama) y "room" (habitación).'
         }
       ]
     }
@@ -173,7 +178,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Salón / Sala de estar',
           back: 'Living room',
           example: 'My living room is small.',
-          pronunciation: '/ˈlɪvɪŋ ruːm/'
+          pronunciation: '/ˈlɪvɪŋ ruːm/',
+          explanation: 'Es el lugar donde se hace la vida (living) común en la casa.'
         }
       ]
     } as any
@@ -194,7 +200,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['bedroom', 'My'],
           correctSentence: 'My bedroom',
           translation: 'Mi dormitorio.',
-          hint: 'Usa "My".'
+          hint: 'Usa "My".',
+          explanation: 'La estructura Posesivo + Sustantivo es directa en este caso.'
         }
       ]
     } as any
@@ -215,7 +222,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'The ________ is green.',
           options: ['garden', 'kitchen', 'house'],
           correctAnswer: 0,
-          explanation: '"Garden" es jardín.'
+          explanation: '"Garden" es jardín. Si es muy grande, a veces se le llama "yard" en EE.UU.'
         }
       ]
     }
@@ -235,7 +242,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Kitchen',
           correctAnswer: 'Kitchen',
-          explanation: 'La "ch" suena como "ch" en español.'
+          explanation: 'Asegúrate de marcar bien la "t" silenciosa y la "ch" final.'
         }
       ]
     }
@@ -248,13 +255,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Habitaciones',
-      instructions: 'Une las parejas.',
+      title: 'Habitaciones principales',
+      instructions: 'Une cada habitación con su nombre en inglés.',
       pairs: [
         { id: '1', left: 'Dormitorio', right: 'Bedroom' },
         { id: '2', left: 'Baño', right: 'Bathroom' },
-        { id: '3', left: 'Jardín', right: 'Garden' }
-      ]
+        { id: '3', left: 'Jardín', right: 'Garden' },
+        { id: '4', left: 'Salón', right: 'Living room' },
+        { id: '5', left: 'Garaje', right: 'Garage' }
+      ],
+      explanation: 'Dominar estos nombres te permitirá describir cualquier vivienda.'
     } as any
   },
   {
@@ -266,13 +276,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Mi salón',
-      instructions: 'Escribe la palabra que falta para "salón".',
+      instructions: 'Escribe la palabra para "habitación" que completa "salón".',
       questions: [
         {
           id: 'q1',
           text: 'My living ___.',
           correctAnswer: 'room',
-          explanation: '"Living room" es salón.'
+          explanation: '"Living room" es la expresión completa para salón.'
         }
       ]
     }
@@ -286,14 +296,14 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Esto es...',
-      instructions: '¿Cómo se dice "Esto es"?',
+      instructions: '¿Cómo se dice "Esto es" para algo cercano?',
       questions: [
         {
           id: 'q1',
           question: '________ is a table.',
           options: ['This', 'These', 'That'],
           correctAnswer: 0,
-          explanation: '"This" se usa para algo cercano en singular.'
+          explanation: '"This" se usa para un solo objeto que puedes tocar o que está muy cerca.'
         }
       ]
     }
@@ -311,7 +321,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Mesa',
           back: 'Table',
           example: 'This is a table.',
-          pronunciation: '/ˈteɪbl/'
+          pronunciation: '/ˈteɪbl/',
+          explanation: 'Se pronuncia /ˈteɪ.bəl/, la "e" final es muda.'
         }
       ]
     } as any
@@ -332,7 +343,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['kitchen', 'Your'],
           correctSentence: 'Your kitchen',
           translation: 'Tu cocina.',
-          hint: 'Usa "Your".'
+          hint: 'Usa "Your".',
+          explanation: 'Recuerda que "Your" es el posesivo para "tú".'
         }
       ]
     } as any
@@ -353,7 +365,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'A ________ in the room.',
           options: ['chair', 'table', 'door'],
           correctAnswer: 0,
-          explanation: '"Chair" es silla.'
+          explanation: '"Chair" es silla. La "ch" suena fuerte.'
         }
       ]
     }
@@ -373,7 +385,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Bathroom',
           correctAnswer: 'Bathroom',
-          explanation: 'La "th" suena como una "z" suave.'
+          explanation: 'La "th" se pronuncia colocando la punta de la lengua entre los dientes delanteros.'
         }
       ]
     }
@@ -387,12 +399,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Muebles básicos',
-      instructions: 'Une las palabras.',
+      instructions: 'Une cada mueble con su nombre en inglés.',
       pairs: [
         { id: '1', left: 'Mesa', right: 'Table' },
         { id: '2', left: 'Silla', right: 'Chair' },
-        { id: '3', left: 'Puerta', right: 'Door' }
-      ]
+        { id: '3', left: 'Puerta', right: 'Door' },
+        { id: '4', left: 'Sofá', right: 'Sofa' },
+        { id: '5', left: 'Cama', right: 'Bed' }
+      ],
+      explanation: 'Estos son los objetos más comunes que encontrarás en cualquier habitación.'
     } as any
   },
   {
@@ -410,7 +425,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'This is a ___.',
           correctAnswer: 'door',
-          explanation: '"Door" es puerta.'
+          explanation: '"Door" se pronuncia casi como "dor" en español, pero más abierta.'
         }
       ]
     }
@@ -431,7 +446,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'A big ________.',
           options: ['bed', 'bath', 'box'],
           correctAnswer: 0,
-          explanation: '"Bed" es cama.'
+          explanation: '"Bed" es cama. Corta y simple.'
         }
       ]
     }
@@ -449,7 +464,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Ventana',
           back: 'Window',
           example: 'Open the window.',
-          pronunciation: '/ˈwɪndoʊ/'
+          pronunciation: '/ˈwɪndoʊ/',
+          explanation: '"Window" literalmente significa "ojo del viento" en su origen etimológico.'
         }
       ]
     } as any
@@ -470,7 +486,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['table', 'a', 'is', 'This'],
           correctSentence: 'This is a table',
           translation: 'Esto es una mesa.',
-          hint: 'Empieza con "This".'
+          hint: 'Empieza con "This".',
+          explanation: 'Mantenemos la estructura: Sujeto + Verbo + Complemento.'
         }
       ]
     } as any
@@ -491,7 +508,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'The ________ is open.',
           options: ['window', 'door', 'wall'],
           correctAnswer: 0,
-          explanation: '"Window" es ventana.'
+          explanation: '"Window" es la traducción correcta.'
         }
       ]
     }
@@ -511,7 +528,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Chair',
           correctAnswer: 'Chair',
-          explanation: 'La "ch" es como en español.'
+          explanation: 'La "ch" suena como "ch" en chocolate, y la "air" como el aire que respiras.'
         }
       ]
     }
@@ -524,13 +541,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Elementos de casa',
-      instructions: 'Une las palabras.',
+      title: 'Elementos estructurales',
+      instructions: 'Une cada elemento con su nombre en inglés.',
       pairs: [
         { id: '1', left: 'Cama', right: 'Bed' },
         { id: '2', left: 'Ventana', right: 'Window' },
-        { id: '3', left: 'Pared', right: 'Wall' }
-      ]
+        { id: '3', left: 'Pared', right: 'Wall' },
+        { id: '4', left: 'Suelo', right: 'Floor' },
+        { id: '5', left: 'Techo', right: 'Ceiling' }
+      ],
+      explanation: 'Estos términos describen la estructura misma de cualquier habitación.'
     } as any
   },
   {
@@ -548,7 +568,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'The ___ is white.',
           correctAnswer: 'wall',
-          explanation: '"Wall" es pared.'
+          explanation: '"Wall" es pared. Se pronuncia casi como "uol".'
         }
       ]
     }
@@ -569,7 +589,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'The ________ is comfortable.',
           options: ['sofa', 'chair', 'table'],
           correctAnswer: 0,
-          explanation: '"Sofa" es igual en inglés y español.'
+          explanation: '"Sofa" es una palabra universal que entenderán en cualquier sitio.'
         }
       ]
     }
@@ -587,7 +607,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Comedor',
           back: 'Dining room',
           example: 'The dining room is here.',
-          pronunciation: '/ˈdaɪnɪŋ ruːm/'
+          pronunciation: '/ˈdaɪnɪŋ ruːm/',
+          explanation: '"Dining" viene del verbo "dine" (cenar/comer formalmente).'
         }
       ]
     } as any
@@ -608,7 +629,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['chair', 'a', 'is', 'This'],
           correctSentence: 'This is a chair',
           translation: 'Esto es una silla.',
-          hint: 'Usa "This is".'
+          hint: 'Usa "This is".',
+          explanation: '"A" se usa antes de palabras que empiezan con sonido de consonante (como chair).'
         }
       ]
     } as any
@@ -629,7 +651,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'Eat in the ________.',
           options: ['dining room', 'bedroom', 'bathroom'],
           correctAnswer: 0,
-          explanation: '"Dining room" es el comedor.'
+          explanation: '"Dining room" es el lugar específico para comer.'
         }
       ]
     }
@@ -649,7 +671,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Window',
           correctAnswer: 'Window',
-          explanation: 'La "w" suena como una "u".'
+          explanation: 'La primera sílaba "win" se marca más que la segunda "dow".'
         }
       ]
     }
@@ -662,13 +684,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Zonas comunes',
-      instructions: 'Une las palabras.',
+      title: 'Zonas comunes y extras',
+      instructions: 'Une cada zona con su traducción.',
       pairs: [
         { id: '1', left: 'Salón', right: 'Living room' },
         { id: '2', left: 'Comedor', right: 'Dining room' },
-        { id: '3', left: 'Pasillo', right: 'Hallway' }
-      ]
+        { id: '3', left: 'Pasillo', right: 'Hallway' },
+        { id: '4', left: 'Entrada', right: 'Entrance' },
+        { id: '5', left: 'Escaleras', right: 'Stairs' }
+      ],
+      explanation: 'Estas palabras te ayudarán a dar direcciones dentro de una casa.'
     } as any
   },
   {
@@ -686,7 +711,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'The ___ is long.',
           correctAnswer: 'hallway',
-          explanation: '"Hallway" significa pasillo.'
+          explanation: '"Hallway" es el corredor o pasillo de la casa.'
         }
       ]
     }
@@ -707,7 +732,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           question: 'Where is my ________?',
           options: ['key', 'door', 'lock'],
           correctAnswer: 0,
-          explanation: '"Key" es llave.'
+          explanation: '"Key" es llave. Se pronuncia como la letra "K".'
         }
       ]
     }
@@ -725,7 +750,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           front: 'Suelo',
           back: 'Floor',
           example: 'The floor is clean.',
-          pronunciation: '/flɔːr/'
+          pronunciation: '/flɔːr/',
+          explanation: 'También se usa "floor" para referirse a la planta o piso de un edificio (1st floor, 2nd floor).'
         }
       ]
     } as any
@@ -746,7 +772,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           words: ['room', 'my', 'is', 'This'],
           correctSentence: 'This is my room',
           translation: 'Este es mi cuarto.',
-          hint: 'Empieza con "This".'
+          hint: 'Empieza con "This".',
+          explanation: 'Usamos "This is" para señalar nuestra propia habitación.'
         }
       ]
     } as any
@@ -760,14 +787,14 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Techo',
-      instructions: '¿Cuál es la palabra para "techo"?',
+      instructions: '¿Cuál es la palabra para "techo" (interior)?',
       questions: [
         {
           id: 'q1',
           question: 'The ________ is high.',
           options: ['ceiling', 'floor', 'wall'],
           correctAnswer: 0,
-          explanation: '"Ceiling" es el techo interior.'
+          explanation: '"Ceiling" es el techo que ves desde dentro. El exterior se llama "roof".'
         }
       ]
     }
@@ -787,7 +814,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           text: 'Floor',
           correctAnswer: 'Floor',
-          explanation: 'La "oo" suena como una "o" larga.'
+          explanation: 'La "fl" es suave y la "o" es alargada.'
         }
       ]
     }
@@ -800,13 +827,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Estructura',
-      instructions: 'Une las palabras.',
+      title: 'Objetos y partes finales',
+      instructions: 'Une cada objeto con su nombre en inglés.',
       pairs: [
-        { id: '1', left: 'Suelo', right: 'Floor' },
-        { id: '2', left: 'Techo', right: 'Ceiling' },
-        { id: '3', left: 'Llave', right: 'Key' }
-      ]
+        { id: '1', left: 'Llave', right: 'Key' },
+        { id: '2', left: 'Suelo', right: 'Floor' },
+        { id: '3', left: 'Techo', right: 'Ceiling' },
+        { id: '4', left: 'Lámpara', right: 'Lamp' },
+        { id: '5', left: 'Espejo', right: 'Mirror' }
+      ],
+      explanation: 'Detalles finales para completar tu descripción de una casa.'
     } as any
   },
   {
@@ -817,12 +847,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Una llave',
+      title: 'La llave',
       instructions: 'Escribe la palabra para "llave".',
       questions: [
         {
           id: 'q1',
-          text: 'This is a ___.',
+          text: 'I have the ___.',
           correctAnswer: 'key',
           explanation: '"Key" es llave.'
         }
@@ -837,15 +867,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Garaje',
-      instructions: '¿Cómo se dice "garaje"?',
+      title: 'Lámpara',
+      instructions: '¿Cómo se dice "lámpara"?',
       questions: [
         {
           id: 'q1',
-          question: 'The car is in the ________.',
-          options: ['garage', 'garden', 'kitchen'],
+          question: 'A small ________.',
+          options: ['lamp', 'light', 'bulb'],
           correctAnswer: 0,
-          explanation: '"Garage" es garaje.'
+          explanation: '"Lamp" es lámpara. Muy parecida al español.'
         }
       ]
     }
@@ -860,10 +890,11 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Escaleras',
-          back: 'Stairs',
-          example: 'Walk up the stairs.',
-          pronunciation: '/steərz/'
+          front: 'Espejo',
+          back: 'Mirror',
+          example: 'I see a mirror.',
+          pronunciation: '/ˈmɪrər/',
+          explanation: 'Se pronuncia /ˈmɪr.ər/.'
         }
       ]
     } as any
@@ -872,19 +903,20 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     id: 'a1-u4-e45',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Demonstratives',
+    topic: 'House',
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Este es mi jardín',
-      instructions: 'Ordena las palabras correctamente.',
+      title: 'Mi cocina es grande',
+      instructions: 'Ordena para traducir "Mi cocina es grande".',
       sentences: [
         {
           id: 's1',
-          words: ['garden', 'my', 'is', 'This'],
-          correctSentence: 'This is my garden',
-          translation: 'Este es mi jardín.',
-          hint: 'Empieza con "This".'
+          words: ['big', 'is', 'kitchen', 'My'],
+          correctSentence: 'My kitchen is big',
+          translation: 'Mi cocina es grande.',
+          hint: 'Usa "is big".',
+          explanation: 'Estructura: Sujeto + Verbo "to be" + Adjetivo.'
         }
       ]
     } as any
@@ -893,19 +925,19 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     id: 'a1-u4-e46',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'House',
+    topic: 'Adjectives',
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Escaleras',
-      instructions: '¿Cuál es la palabra para "escaleras"?',
+      title: 'Grande o pequeño',
+      instructions: '¿Qué significa "small"?',
       questions: [
         {
           id: 'q1',
-          question: 'The ________ are long.',
-          options: ['stairs', 'floor', 'wall'],
+          question: 'The room is ________.',
+          options: ['small', 'big', 'new'],
           correctAnswer: 0,
-          explanation: '"Stairs" significa escaleras.'
+          explanation: '"Small" significa pequeño.'
         }
       ]
     }
@@ -918,14 +950,14 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Garage',
-      instructions: 'Di la palabra para "garaje".',
+      title: 'Pronunciación: Mirror',
+      instructions: 'Di la palabra para "espejo".',
       questions: [
         {
           id: 'q1',
-          text: 'Garage',
-          correctAnswer: 'Garage',
-          explanation: 'La "g" final suena suave.'
+          text: 'Mirror',
+          correctAnswer: 'Mirror',
+          explanation: 'Las "r" en inglés son más suaves y no vibran como en español.'
         }
       ]
     }
@@ -934,35 +966,38 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     id: 'a1-u4-e48',
     type: 'matching',
     level: 'A1',
-    topic: 'House',
+    topic: 'Adjectives',
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Exteriores',
-      instructions: 'Une las palabras.',
+      title: 'Describiendo la casa',
+      instructions: 'Une cada adjetivo con su significado.',
       pairs: [
-        { id: '1', left: 'Garaje', right: 'Garage' },
-        { id: '2', left: 'Escaleras', right: 'Stairs' },
-        { id: '3', left: 'Muebles', right: 'Furniture' }
-      ]
+        { id: '1', left: 'Big', right: 'Grande' },
+        { id: '2', left: 'Small', right: 'Pequeño' },
+        { id: '3', left: 'Clean', right: 'Limpio' },
+        { id: '4', left: 'New', right: 'Nuevo' },
+        { id: '5', left: 'Old', right: 'Viejo' }
+      ],
+      explanation: 'Estos adjetivos te permiten dar más detalles sobre cómo es una casa.'
     } as any
   },
   {
     id: 'a1-u4-e49',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Furniture',
+    topic: 'Adjectives',
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Un sofá',
-      instructions: 'Escribe la palabra para "sofá".',
+      title: 'Limpio',
+      instructions: 'Escribe la palabra para "limpio".',
       questions: [
         {
           id: 'q1',
-          text: 'This is a ___.',
-          correctAnswer: 'sofa',
-          explanation: '"Sofa" es sofá.'
+          text: 'The house is ___ish.',
+          correctAnswer: 'clean',
+          explanation: '"Clean" significa limpio. (Nota: ignoramos el sufijo -ish por ahora).'
         }
       ]
     }
@@ -975,15 +1010,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     topicName: 'Home Sweet Home',
     difficulty: 'easy',
     content: {
-      title: 'Resumen',
-      instructions: '¿Qué significa "This is my house"?',
+      title: 'Resumen de casa',
+      instructions: '¿Dónde duermes?',
       questions: [
         {
           id: 'q1',
-          question: 'This is my house.',
-          options: ['Esta es mi casa', 'Tu casa es grande', 'Mi casa es azul'],
+          question: 'I sleep in the ________.',
+          options: ['bedroom', 'kitchen', 'bathroom'],
           correctAnswer: 0,
-          explanation: '"This is my house" significa esta es mi casa.'
+          explanation: '"Bedroom" es el lugar destinado al descanso.'
         }
       ]
     }

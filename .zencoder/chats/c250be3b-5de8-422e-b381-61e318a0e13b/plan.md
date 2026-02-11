@@ -58,4 +58,30 @@
 
 1. [x] Create `src/lib/course/a1/unit-3.ts` with 50 exercises.
 2. [x] Run audit script and fix issues.
-3. [x] Commit & Push for user review. (Commit: `39f727c`)
+3. [x] Commit & Push for user review. (Commit: `a6f67fce`)
+
+### [x] Step: Implementation (Unit 4: Home Sweet Home)
+
+1. [x] Create `src/lib/course/a1/unit-4.ts` with 50 exercises.
+2. [x] Run audit script and fix issues.
+3. [x] Commit & Push for user review. (Commit: `604c68da`)
+
+### [x] Step: Implementation (Unit 5: Counting Sheep)
+
+1. [x] Create `src/lib/course/a1/unit-5.ts` with 50 exercises.
+2. [x] Run audit script and fix issues.
+3. [x] Commit & Push for user review. (Commit: `2a888af4`)
+
+### [x] Step: Implementation (Unit 6: Rainbow Colors)
+
+1. [x] Create `src/lib/course/a1/unit-6.ts` with 50 exercises.
+2. [x] Added mandatory explanations and 5-pair matching logic.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `5693e887`)
+
+### [ ] Step: Implementation (Unit 7: Time Check)
+
+1. [ ] Create `src/lib/course/a1/unit-7.ts` with 50 exercises.
+2. [ ] Add pedagogical explanations and 5-pair matching.
+3. [ ] Run audit script and fix issues.
+4. [ ] Commit & Push for user review.

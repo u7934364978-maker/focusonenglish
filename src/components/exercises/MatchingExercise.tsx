@@ -14,6 +14,7 @@ interface MatchingContent {
   title?: string;
   instructions?: string;
   pairs: MatchingPair[];
+  explanation?: string;
 }
 
 interface MatchingExerciseProps {
@@ -197,6 +198,23 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
           </div>
         )}
       </div>
+
+      <AnimatePresence>
+        {submitted && content.explanation && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            className={`mt-6 p-4 rounded-2xl border ${
+              isCorrect ? 'bg-green-50 border-green-100 text-green-800' : 'bg-blue-50 border-blue-100 text-blue-800'
+            }`}
+          >
+            <p className="font-bold mb-1 text-sm flex items-center gap-2">
+              💡 Explicación:
+            </p>
+            <p className="text-sm">{content.explanation}</p>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
