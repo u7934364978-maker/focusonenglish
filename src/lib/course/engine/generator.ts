@@ -24,9 +24,11 @@ export class ExerciseGenerator {
       const skill = A1_SKILLS[bp.skillId];
       if (!skill) return { bp, weight: 0 };
 
-      // GATING LOGIC:
-      // If the exercise is "production" (fill-blank),
-      // check if the student has seen enough "discovery/recognition" for this skill.
+      // STRICTOR PEDAGOGICAL CONTROL:
+      // A. Never show content from FUTURE units
+      if (skill.unit > targetUnit) return { bp, weight: 0 };
+
+      // B. Mastery-based Gating
       const mastery = profile.skills[bp.skillId] || {
         masteryLevel: 0,
         attempts: 0,
@@ -34,28 +36,36 @@ export class ExerciseGenerator {
       };
       
       const isProduction = bp.type === 'fill-blank' || bp.type === 'sentence-building';
-      const hasEnoughExposure = mastery.masteryLevel > 0.2 || mastery.attempts >= 2;
+      const hasEnoughExposure = mastery.masteryLevel > 0.15 || mastery.attempts >= 1;
 
-      if (isProduction && !hasEnoughExposure) {
-        return { bp, weight: 0 }; // Gate production until exposure
+      // Force discovery first for new skills in the current unit
+      if (skill.unit === targetUnit && mastery.attempts === 0 && isProduction) {
+        return { bp, weight: 0 };
       }
 
       let weight = 0;
+      // Priority 1: Recent failures
+      if (mastery.failuresInRow > 0) weight += 200 * mastery.failuresInRow;
 
-      // Priority 1: Recent failures (Crucial reinforcement)
-      if (mastery.failuresInRow > 0) weight += 100 * mastery.failuresInRow;
+      // Priority 2: Brand new content (Discovery phase)
+      if (skill.unit === targetUnit && mastery.attempts === 0) {
+        weight += 100;
+        if (bp.type === 'flashcard' || bp.type === 'matching') weight += 300;
+      }
 
-      // Priority 2: Progression - New content in target unit
-      if (skill.unit === targetUnit && mastery.attempts === 0) weight += 50;
+      // Priority 3: Current unit practice
+      if (skill.unit === targetUnit) {
+        weight += 50;
+        if (mastery.masteryLevel < 0.7) weight += 30;
+      }
 
-      // Priority 3: Persistence - Low mastery content in target unit
-      if (skill.unit === targetUnit && mastery.masteryLevel < 0.5) weight += 30;
-
-      // Priority 4: Discovery - Everything else from current and past units
-      if (skill.unit <= targetUnit) weight += 10;
-
-      // Priority 5: Sneak Peek - Small chance for future units (Discovery only)
-      if (skill.unit > targetUnit && !isProduction) weight += 2;
+      // Priority 4: Review of past units (Retention)
+      if (skill.unit < targetUnit) {
+        weight += 10;
+        // Spaced repetition boost
+        const lastAttemptDays = (new Date().getTime() - new Date(mastery.lastAttemptAt || 0).getTime()) / (1000 * 3600 * 24);
+        if (lastAttemptDays > 3) weight += 20;
+      }
 
       return { bp, weight };
     }).filter(wb => wb.weight > 0);
@@ -149,15 +159,17 @@ export class ExerciseGenerator {
         const matches = this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
+          const unitMatch = item.unit <= skill.unit; // Pedagogical Control: only use words from current or past units
           const noveltyMatch = !this.recentWords.has(item.lemma);
-          return posMatch && tagMatch && noveltyMatch;
+          return posMatch && tagMatch && unitMatch && noveltyMatch;
         });
 
-        // If no matches with novelty, relax novelty constraint
+        // If no matches with novelty, relax novelty constraint but KEEP unit constraint
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
-          return posMatch && tagMatch;
+          const unitMatch = item.unit <= skill.unit; 
+          return posMatch && tagMatch && unitMatch;
         });
 
         const selected = this.getRandom(pool);
@@ -340,11 +352,14 @@ export class ExerciseGenerator {
     } else if (blueprint.type === 'matching') {
       // Logic for 8 pairs of matching words
       const semanticTags = blueprint.slots[slotName]?.tags || correctItem.tags || [];
+      const unitConstraint = skill.unit; // Strictly use current unit for matching variety
+
       const pairsPool = this.shuffle(this.lexicon
         .filter(item => 
           (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
-          item.translation !== ''
-        )).slice(0, 8); // Select 8 pairs randomly from the tag-matched pool
+          item.translation !== '' &&
+          item.unit === unitConstraint // Pedagogical control: matching only within the same unit/context
+        )).slice(0, 8); 
 
       const pairs = pairsPool.map(item => ({
         id: item.lemma,

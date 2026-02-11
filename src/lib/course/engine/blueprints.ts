@@ -594,42 +594,67 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: 'El té es {comp_es} el café.'
   },
-  // --- Discovery / Flashcards for key units ---
+  // --- Unit 1: Greetings Discovery ---
   {
-    id: 'BP-DISC-FOOD-01',
-    skillId: 'A1-FOOD-01',
-    type: 'multiple-choice', // Using MC as discovery if limited types
-    title: 'Vocabulario: Comida',
-    instruction: 'Aprende la palabra: {food_es}',
-    template: 'This is {food}.',
+    id: 'BP-GREET-DISC-01',
+    skillId: 'A1-GREET-01',
+    type: 'flashcard',
+    title: 'Nuevas Palabras: Saludos',
+    instruction: 'Aprende estos saludos:',
+    template: '{word}',
     slots: {
-      food: { pos: 'noun', tags: ['food'] }
+      word: { pos: 'noun', tags: ['greeting'] }
     },
-    translationTemplate: 'Esto es {food_es}.'
+    translationTemplate: '{word_es}'
   },
   {
-    id: 'BP-DISC-TRAV-01',
-    skillId: 'A1-TRAV-01',
-    type: 'multiple-choice',
-    title: 'Vocabulario: Transporte',
-    instruction: '¿Cómo se dice "{transport_es}" en inglés?',
-    template: 'In English: {transport}.',
-    slots: {
-      transport: { fixedValues: ['by car', 'by bus', 'by train', 'by bike'] }
-    },
-    translationTemplate: 'En español: {transport_es}.'
-  },
-  // --- Universal Dynamic Blueprints ---
-  {
-    id: 'BP-UNI-MATCHING',
-    skillId: 'A1-VOCAB-01', // Generic vocab skill
+    id: 'BP-GREET-MATCH-01',
+    skillId: 'A1-GREET-01',
     type: 'matching',
-    title: 'Relacionar Palabras',
-    instruction: 'Relaciona las 8 parejas correctamente:',
-    template: '', // Dynamic pairs don't need a template
+    title: 'Relacionar: Saludos',
+    instruction: 'Relaciona los saludos correctamente:',
+    template: '',
     slots: {
-      word: { pos: 'noun' } // Generic slot
+      word: { pos: 'noun', tags: ['greeting'] }
     },
     translationTemplate: ''
-  }
+  },
+  // --- Unit 2: Drinks Discovery ---
+  {
+    id: 'BP-DRINK-DISC-01',
+    skillId: 'A1-WANT-01',
+    type: 'flashcard',
+    title: 'Nuevas Palabras: Bebidas',
+    instruction: 'Aprende estas bebidas:',
+    template: '{word}',
+    slots: {
+      word: { pos: 'noun', tags: ['drink'] }
+    },
+    translationTemplate: '{word_es}'
+  },
+  {
+    id: 'BP-DRINK-MATCH-01',
+    skillId: 'A1-WANT-01',
+    type: 'matching',
+    title: 'Relacionar: Bebidas',
+    instruction: 'Relaciona las bebidas correctamente:',
+    template: '',
+    slots: {
+      word: { pos: 'noun', tags: ['drink'] }
+    },
+    translationTemplate: ''
+  },
+  // --- Unit 3: Family Discovery ---
+  {
+    id: 'BP-FAM-MATCH-01',
+    skillId: 'A1-FAM-01',
+    type: 'matching',
+    title: 'Relacionar: La Familia',
+    instruction: 'Relaciona los miembros de la familia:',
+    template: '',
+    slots: {
+      word: { pos: 'noun', tags: ['family'] }
+    },
+    translationTemplate: ''
+  },
 ];

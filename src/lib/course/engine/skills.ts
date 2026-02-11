@@ -234,5 +234,11 @@ export const A1_SKILLS: Record<string, Skill> = {
     name: 'Basic Comparisons',
     unit: 30,
     description: 'better than'
+  },
+  'A1-VOCAB-01': {
+    id: 'A1-VOCAB-01',
+    name: 'Unit Vocabulary',
+    unit: 1,
+    description: 'Discovery and matching of new words'
   }
 };
