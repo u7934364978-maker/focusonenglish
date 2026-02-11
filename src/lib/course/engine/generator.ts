@@ -19,17 +19,26 @@ export class ExerciseGenerator {
     const sessionExercises: Exercise[] = [];
     const blueprints = [...A1_BLUEPRINTS];
 
-    // 1. Calculate weight for each blueprint
+    // 1. Calculate weight and filter by pedagogical stage
     const weightedBlueprints = blueprints.map(bp => {
       const skill = A1_SKILLS[bp.skillId];
       if (!skill) return { bp, weight: 0 };
 
+      // GATING LOGIC:
+      // If the exercise is "production" (fill-blank),
+      // check if the student has seen enough "discovery/recognition" for this skill.
       const mastery = profile.skills[bp.skillId] || {
         masteryLevel: 0,
         attempts: 0,
-        failuresInRow: 0,
-        lastAttemptAt: new Date(0).toISOString()
+        failuresInRow: 0
       };
+      
+      const isProduction = bp.type === 'fill-blank' || bp.type === 'sentence-building';
+      const hasEnoughExposure = mastery.masteryLevel > 0.2 || mastery.attempts >= 2;
+
+      if (isProduction && !hasEnoughExposure) {
+        return { bp, weight: 0 }; // Gate production until exposure
+      }
 
       let weight = 0;
 
@@ -45,8 +54,8 @@ export class ExerciseGenerator {
       // Priority 4: Discovery - Everything else from current and past units
       if (skill.unit <= targetUnit) weight += 10;
 
-      // Priority 5: Sneak Peek - Small chance for future units (Discovery)
-      if (skill.unit > targetUnit) weight += 2;
+      // Priority 5: Sneak Peek - Small chance for future units (Discovery only)
+      if (skill.unit > targetUnit && !isProduction) weight += 2;
 
       return { bp, weight };
     }).filter(wb => wb.weight > 0);
@@ -267,18 +276,43 @@ export class ExerciseGenerator {
       }
       
       const config = blueprint.slots[slotName];
-      const distractors = this.lexicon
-        .filter(item => 
-          item.lemma !== correctAnswer && 
-          (!config.pos || item.pos === config.pos) &&
-          (!config.tags || config.tags.every(t => item.tags.includes(t)))
-        )
-        .slice(0, 3)
-        .map(i => i.lemma);
+      
+      // Smart Distractors Logic:
+      let potentialDistractors: string[] = [];
+      
+      // A. If fixedValues exist, they are the best distractors
+      if (config.fixedValues) {
+        potentialDistractors = config.fixedValues.filter(v => v !== correctAnswer);
+      } 
+      
+      // B. If not enough fixed values, search lexicon by semantic tags + POS
+      if (potentialDistractors.length < 3) {
+        const semanticTags = config.tags || correctItem.tags || [];
+        const extraDistractors = this.lexicon
+          .filter(item => 
+            item.lemma !== correctAnswer && 
+            !potentialDistractors.includes(item.lemma) &&
+            (!config.pos || item.pos === config.pos) &&
+            (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true)
+          )
+          .map(i => i.lemma);
+        
+        potentialDistractors.push(...extraDistractors);
+      }
+
+      // Final fallback if we still don't have enough: any word with same POS
+      if (potentialDistractors.length < 3) {
+        const fallbacks = this.lexicon
+          .filter(item => item.lemma !== correctAnswer && item.pos === (config.pos || correctItem.pos))
+          .map(i => i.lemma);
+        potentialDistractors.push(...fallbacks);
+      }
+
+      const finalDistractors = this.shuffle(potentialDistractors).slice(0, 3);
 
       base.content.questions = [{
         question: `En español: "${spanish}"\n\n${questionText}`,
-        options: this.shuffle([correctAnswer, ...distractors]),
+        options: this.shuffle([correctAnswer, ...finalDistractors]),
         correctAnswer: correctAnswer,
         explanation: explanation
       }];

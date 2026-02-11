@@ -593,5 +593,30 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       comp: { fixedValues: ['better than'] }
     },
     translationTemplate: 'El té es {comp_es} el café.'
-  }
+  },
+  // --- Discovery / Flashcards for key units ---
+  {
+    id: 'BP-DISC-FOOD-01',
+    skillId: 'A1-FOOD-01',
+    type: 'multiple-choice', // Using MC as discovery if limited types
+    title: 'Vocabulario: Comida',
+    instruction: 'Aprende la palabra: {food_es}',
+    template: 'This is {food}.',
+    slots: {
+      food: { pos: 'noun', tags: ['food'] }
+    },
+    translationTemplate: 'Esto es {food_es}.'
+  },
+  {
+    id: 'BP-DISC-TRAV-01',
+    skillId: 'A1-TRAV-01',
+    type: 'multiple-choice',
+    title: 'Vocabulario: Transporte',
+    instruction: '¿Cómo se dice "{transport_es}" en inglés?',
+    template: 'In English: {transport}.',
+    slots: {
+      transport: { fixedValues: ['by car', 'by bus', 'by train', 'by bike'] }
+    },
+    translationTemplate: 'En español: {transport_es}.'
+  },
 ];

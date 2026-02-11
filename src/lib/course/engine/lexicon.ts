@@ -182,6 +182,11 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'bus', pos: 'noun', translation: 'autobús', tags: ['travel', 'A1'] },
   { lemma: 'train', pos: 'noun', translation: 'tren', tags: ['travel', 'A1'] },
   { lemma: 'plane', pos: 'noun', translation: 'avión', tags: ['travel', 'A1'] },
+  { lemma: 'by car', pos: 'noun', translation: 'en coche', tags: ['travel', 'transport', 'A1'] },
+  { lemma: 'by bus', pos: 'noun', translation: 'en autobús', tags: ['travel', 'transport', 'A1'] },
+  { lemma: 'by train', pos: 'noun', translation: 'en tren', tags: ['travel', 'transport', 'A1'] },
+  { lemma: 'by bike', pos: 'noun', translation: 'en bicicleta', tags: ['travel', 'transport', 'A1'] },
+  { lemma: 'by plane', pos: 'noun', translation: 'en avión', tags: ['travel', 'transport', 'A1'] },
   { lemma: 'by', pos: 'preposition', translation: 'en (transporte)', tags: ['travel', 'A1'] },
 
   // Past Tense (Unit 25)

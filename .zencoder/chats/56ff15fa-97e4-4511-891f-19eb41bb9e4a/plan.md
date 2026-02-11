@@ -89,3 +89,8 @@ Create a detailed implementation plan based on `spec.md`.
   - Implemented "Coach-style" pedagogical explanations with grammatical analysis.
   - Expanded Blueprints pool to ensure thousands of unique exercise variations.
   - Improved translation reliability for fixed values in templates.
+- [ ] **Task 18: Pedagogical Sequencing (Discovery -> Practice)**
+  - Implement `vocabularyExposure` tracking in `mastery.ts`.
+  - Classify Blueprints into pedagogical stages (Discovery, Recognition, Production).
+  - Modify `generator.ts` to block Production exercises (fill-blank) until Discovery/Recognition stages are met for a word.
+  - Add more "Discovery" blueprints (Matching/Flashcards) for all units.
