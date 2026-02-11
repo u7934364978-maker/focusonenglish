@@ -222,14 +222,11 @@ export class ExerciseGenerator {
       const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
       const answer = filledSlots[slotName].lemma;
       
-      // We replace the placeholder in the original template to avoid leaking answers 
-      // already filled in previous steps
       let questionText = blueprint.template;
       for (const [name, item] of Object.entries(filledSlots)) {
         if (name === slotName) {
           questionText = questionText.replace(`{${name}}`, '_______');
         } else {
-          // Check for articles before placeholders
           const needsAn = /^[aeiou]/i.test(item.lemma);
           const correctArticle = needsAn ? 'an' : 'a';
           questionText = questionText.replace(new RegExp(`a {${name}}|an {${name}}`, 'g'), `${correctArticle} ${item.lemma}`);
@@ -237,9 +234,12 @@ export class ExerciseGenerator {
         }
       }
 
+      // Add translation context to avoid guessing
+      const contextText = `En español: "${spanish}"`;
+
       base.content.questions = [{
-        text: questionText,
-        correctAnswer: answer, // ExerciseRenderer expects singular
+        text: `${contextText}\n\n${questionText}`,
+        correctAnswer: answer,
         explanation: `💡 **Tip pedagógico**: ${spanish}.`
       }];
     } else if (blueprint.type === 'multiple-choice') {
@@ -258,6 +258,9 @@ export class ExerciseGenerator {
         }
       }
       
+      // Add translation context to avoid guessing
+      const contextText = `En español: "${spanish}"`;
+
       const config = blueprint.slots[slotName];
       const distractors = this.lexicon
         .filter(item => 
@@ -269,7 +272,7 @@ export class ExerciseGenerator {
         .map(i => i.lemma);
 
       base.content.questions = [{
-        question: questionText,
+        question: `${contextText}\n\n${questionText}`,
         options: this.shuffle([correctAnswer, ...distractors]),
         correctAnswer: correctAnswer,
         explanation: `💡 **Tip pedagógico**: ${spanish}.`

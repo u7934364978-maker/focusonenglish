@@ -49,14 +49,15 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-BE-02',
     skillId: 'A1-BE-POS-01',
     type: 'multiple-choice',
-    title: 'Nombres',
-    instruction: 'Elige el nombre correcto:',
-    template: 'I am {name}.',
-    correctSlot: 'name',
+    title: 'Verbo To Be',
+    instruction: 'Elige la forma correcta del verbo "to be":',
+    template: 'I {be} {name}.',
+    correctSlot: 'be',
     slots: {
+      be: { fixedValues: ['am'] },
       name: { pos: 'noun', tags: ['name'] }
     },
-    translationTemplate: 'Yo soy {name_es}.'
+    translationTemplate: 'Yo {be_es} {name_es}.'
   },
   {
     id: 'BP-GREET-02',

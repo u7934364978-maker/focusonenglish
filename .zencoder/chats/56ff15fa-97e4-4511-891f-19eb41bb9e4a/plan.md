@@ -80,3 +80,7 @@ Create a detailed implementation plan based on `spec.md`.
   - Added metadata to greetings and routine verbs (formal, informal, morning, night).
   - Updated generator to translate tags into Spanish context for instructions.
   - Refactored blueprints to use `{slot_type}` placeholders for clearer guidance.
+- [x] **Task 16: Translation-Anchored Learning (End of Guessing)**
+  - Implemented mandatory "Translation Anchor" in `generator.ts` for all multiple-choice and fill-blank exercises.
+  - Replaced ambiguous "guess the word" exercises with grammar-focused or translation-focused tasks.
+  - Ensured that "To Be" exercises focus on the verb form (am/is/are) rather than random nouns.
