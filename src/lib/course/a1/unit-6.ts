@@ -9,15 +9,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color rojo',
-      instructions: '¿Cómo se dice "rojo" en inglés?',
+      title: 'El color de las manzanas',
+      instructions: '¿Cuál es el color típico de una manzana madura?',
       questions: [
         {
           id: 'q1',
           question: 'The apple is ________.',
           options: ['red', 'blue', 'green'],
           correctAnswer: 0,
-          explanation: '"Red" es rojo.'
+          explanation: '"Red" significa rojo. Es el color más común asociado con las manzanas en los ejercicios básicos.'
         }
       ]
     }
@@ -35,7 +35,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: 'Azul',
           back: 'Blue',
           example: 'The sky is blue.',
-          pronunciation: '/bluː/'
+          pronunciation: '/bluː/',
+          explanation: '"Blue" se pronuncia como "blu". Es el color del cielo y del mar.'
         }
       ]
     } as any
@@ -56,7 +57,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           words: ['blue', 'sky', 'is', 'The'],
           correctSentence: 'The sky is blue',
           translation: 'El cielo es azul.',
-          hint: 'Empieza con "The".'
+          hint: 'Empieza con la mayúscula "The".',
+          explanation: 'En inglés, la estructura es Sujeto (The sky) + Verbo (is) + Adjetivo/Color (blue).'
         }
       ]
     } as any
@@ -69,15 +71,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color verde',
-      instructions: '¿Cuál es la palabra para "verde"?',
+      title: 'El color del césped',
+      instructions: '¿Qué color tiene el césped?',
       questions: [
         {
           id: 'q1',
           question: 'The grass is ________.',
           options: ['yellow', 'green', 'black'],
           correctAnswer: 1,
-          explanation: '"Green" es verde.'
+          explanation: '"Green" significa verde. Se pronuncia con una "i" larga: /ɡriːn/.'
         }
       ]
     }
@@ -91,13 +93,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Pronunciación: Yellow',
-      instructions: 'Di la palabra para "amarillo".',
+      instructions: 'Pronuncia la palabra para "amarillo".',
       questions: [
         {
           id: 'q1',
           text: 'Yellow',
           correctAnswer: 'Yellow',
-          explanation: 'La "y" suena como una "i" suave.'
+          explanation: 'En "Yellow", la "Y" suena como una "i" muy suave, no como la "y" fuerte del español.'
         }
       ]
     }
@@ -110,13 +112,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Colores básicos',
-      instructions: 'Une el español con el inglés.',
+      title: 'Mezcla de colores',
+      instructions: 'Une cada color en español con su traducción al inglés.',
       pairs: [
         { id: '1', left: 'Rojo', right: 'Red' },
-        { id: '2', left: 'Azul', right: 'Blue' },
-        { id: '3', left: 'Amarillo', right: 'Yellow' }
-      ]
+        { id: '2', left: 'Verde', right: 'Green' },
+        { id: '3', left: 'Blanco', right: 'White' },
+        { id: '4', left: 'Negro', right: 'Black' },
+        { id: '5', left: 'Amarillo', right: 'Yellow' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
@@ -127,14 +131,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color blanco',
-      instructions: 'Escribe la palabra para "blanco".',
+      title: 'La leche',
+      instructions: 'Escribe el color de la leche en inglés.',
       questions: [
         {
           id: 'q1',
-          text: 'Milk is ___.',
+          text: 'Milk is [white].',
           correctAnswer: 'white',
-          explanation: '"White" es blanco.'
+          explanation: '"White" significa blanco. La "h" es muda y la "i" suena como "ai".'
         }
       ]
     }
@@ -147,15 +151,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color negro',
-      instructions: '¿Cómo se dice "negro"?',
+      title: 'Café solo',
+      instructions: '¿Cómo describirías el café sin leche?',
       questions: [
         {
           id: 'q1',
           question: 'Coffee is ________.',
           options: ['white', 'black', 'brown'],
           correctAnswer: 1,
-          explanation: '"Black" es negro.'
+          explanation: '"Black" es negro. "White coffee" es café con leche, pero el café solo es "black coffee".'
         }
       ]
     }
@@ -173,7 +177,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: 'Grande',
           back: 'Big',
           example: 'The house is big.',
-          pronunciation: '/bɪɡ/'
+          pronunciation: '/bɪɡ/',
+          explanation: '"Big" se usa para tamaño general. Se pronuncia con una "i" corta y seca.'
         }
       ]
     } as any
@@ -187,14 +192,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Casa grande',
-      instructions: 'Ordena para decir "La casa es grande".',
+      instructions: 'Ordena las palabras para decir "La casa es grande".',
       sentences: [
         {
           id: 's1',
           words: ['big', 'is', 'house', 'The'],
           correctSentence: 'The house is big',
           translation: 'La casa es grande.',
-          hint: 'En inglés el adjetivo suele ir después de "is" en estas frases.'
+          hint: 'Sujeto + is + adjetivo.',
+          explanation: 'Cuando usamos el verbo "to be" (is), el adjetivo va al final de la frase.'
         }
       ]
     } as any
@@ -207,15 +213,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Pequeño',
-      instructions: '¿Cuál es la palabra para "pequeño"?',
+      title: 'El ratón',
+      instructions: '¿Cuál es el tamaño típico de un ratón?',
       questions: [
         {
           id: 'q1',
           question: 'The mouse is ________.',
           options: ['small', 'big', 'fast'],
           correctAnswer: 0,
-          explanation: '"Small" es pequeño.'
+          explanation: '"Small" significa pequeño. La "a" suena como una "o" abierta: /smɔːl/.'
         }
       ]
     }
@@ -229,13 +235,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Pronunciación: Orange',
-      instructions: 'Di la palabra para "naranja".',
+      instructions: 'Pronuncia la palabra para "naranja".',
       questions: [
         {
           id: 'q1',
           text: 'Orange',
           correctAnswer: 'Orange',
-          explanation: 'La "g" suena como una "y" africada.'
+          explanation: 'La terminación "-ge" suena suave, parecida a una "y" castellana en "yo".'
         }
       ]
     }
@@ -248,13 +254,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Opuestos',
-      instructions: 'Une los opuestos.',
+      title: 'Opuestos básicos',
+      instructions: 'Une cada palabra con su opuesto.',
       pairs: [
         { id: '1', left: 'Big', right: 'Small' },
         { id: '2', left: 'Black', right: 'White' },
-        { id: '3', left: 'Hot', right: 'Cold' }
-      ]
+        { id: '3', left: 'Hot', right: 'Cold' },
+        { id: '4', left: 'Yes', right: 'No' },
+        { id: '5', left: 'Hello', right: 'Goodbye' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
@@ -265,14 +273,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color naranja',
-      instructions: 'Escribe la palabra para "naranja".',
+      title: 'La fruta naranja',
+      instructions: 'Escribe el nombre del color naranja en inglés.',
       questions: [
         {
           id: 'q1',
-          text: 'The fruit is ___.',
+          text: 'The fruit is [orange].',
           correctAnswer: 'orange',
-          explanation: '"Orange" sirve para el color y la fruta.'
+          explanation: '"Orange" es tanto el nombre de la fruta como el color naranja.'
         }
       ]
     }
@@ -286,14 +294,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Color rosa',
-      instructions: '¿Cómo se dice "rosa"?',
+      instructions: '¿Cómo se dice "rosa" en inglés?',
       questions: [
         {
           id: 'q1',
           question: 'The flower is ________.',
           options: ['pink', 'purple', 'grey'],
           correctAnswer: 0,
-          explanation: '"Pink" es rosa.'
+          explanation: '"Pink" es rosa. No lo confundas con "rose", que es la flor rosa.'
         }
       ]
     }
@@ -311,7 +319,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: 'Morado',
           back: 'Purple',
           example: 'I like purple.',
-          pronunciation: '/ˈpɜːrpl/'
+          pronunciation: '/ˈpɜːrpl/',
+          explanation: '"Purple" se pronuncia algo así como "pérpol". Es el color morado o púrpura.'
         }
       ]
     } as any
@@ -324,7 +333,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Coche rojo',
+      title: 'Descripción de objeto',
       instructions: 'Ordena para decir "Un coche rojo".',
       sentences: [
         {
@@ -332,7 +341,8 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           words: ['car', 'red', 'A'],
           correctSentence: 'A red car',
           translation: 'Un coche rojo.',
-          hint: 'En inglés el color va antes del objeto.'
+          hint: 'El color siempre va antes que el objeto.',
+          explanation: 'Regla de oro: en inglés, los adjetivos (como los colores) van DELANTE del sustantivo.'
         }
       ]
     } as any
@@ -346,14 +356,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Color gris',
-      instructions: '¿Cómo se dice "gris"?',
+      instructions: '¿Cuál es el color del elefante?',
       questions: [
         {
           id: 'q1',
           question: 'The elephant is ________.',
           options: ['grey', 'brown', 'pink'],
           correctAnswer: 0,
-          explanation: '"Grey" es gris.'
+          explanation: '"Grey" (o "gray") significa gris. Ambas escrituras son correctas, "grey" es más común en Reino Unido.'
         }
       ]
     }
@@ -367,13 +377,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'Pronunciación: Green',
-      instructions: 'Di la palabra para "verde".',
+      instructions: 'Di el color verde en inglés.',
       questions: [
         {
           id: 'q1',
           text: 'Green',
           correctAnswer: 'Green',
-          explanation: 'La "ee" suena como una "i" larga.'
+          explanation: 'Asegúrate de alargar la "ee" para que suene como una "i" española clara y larga.'
         }
       ]
     }
@@ -386,13 +396,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Más colores',
-      instructions: 'Une las palabras.',
+      title: 'Más colores variados',
+      instructions: 'Empareja los colores.',
       pairs: [
         { id: '1', left: 'Marrón', right: 'Brown' },
         { id: '2', left: 'Gris', right: 'Grey' },
-        { id: '3', left: 'Morado', right: 'Purple' }
-      ]
+        { id: '3', left: 'Morado', right: 'Purple' },
+        { id: '4', left: 'Rosa', right: 'Pink' },
+        { id: '5', left: 'Naranja', right: 'Orange' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
@@ -403,14 +415,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Color marrón',
-      instructions: 'Escribe la palabra para "marrón".',
+      title: 'El cielo nocturno',
+      instructions: '¿De qué color es el cielo por la noche?',
       questions: [
         {
           id: 'q1',
-          text: 'Chocolate is ___.',
-          correctAnswer: 'brown',
-          explanation: '"Brown" es marrón.'
+          text: 'The night sky is [black].',
+          correctAnswer: 'black',
+          explanation: '"Black" es negro. Recuerda que la "ck" suena como una "k" fuerte.'
         }
       ]
     }
@@ -419,19 +431,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e22',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Nuevo',
-      instructions: '¿Cómo se dice "nuevo"?',
+      title: 'Chocolate',
+      instructions: '¿De qué color suele ser el chocolate?',
       questions: [
         {
           id: 'q1',
-          question: 'A ________ car.',
-          options: ['new', 'old', 'clean'],
-          correctAnswer: 0,
-          explanation: '"New" es nuevo.'
+          question: 'Chocolate is usually ________.',
+          options: ['blue', 'brown', 'green'],
+          correctAnswer: 1,
+          explanation: '"Brown" significa marrón. Se pronuncia como "braun".'
         }
       ]
     }
@@ -446,10 +458,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Viejo',
-          back: 'Old',
-          example: 'An old book.',
-          pronunciation: '/oʊld/'
+          front: 'Bonito',
+          back: 'Beautiful',
+          example: 'The flower is beautiful.',
+          pronunciation: '/ˈbjuːtɪfl/',
+          explanation: '"Beautiful" es un adjetivo largo que significa hermoso o muy bonito.'
         }
       ]
     } as any
@@ -458,19 +471,20 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e24',
     type: 'sentence-building',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Libro viejo',
-      instructions: 'Ordena para decir "Un libro viejo".',
+      title: 'Libro azul',
+      instructions: 'Ordena para decir "Un libro azul".',
       sentences: [
         {
           id: 's1',
-          words: ['book', 'old', 'An'],
-          correctSentence: 'An old book',
-          translation: 'Un libro viejo.',
-          hint: 'Usa "An" porque "old" empieza por vocal.'
+          words: ['book', 'blue', 'A'],
+          correctSentence: 'A blue book',
+          translation: 'Un libro azul.',
+          hint: 'Pon el color antes que el libro.',
+          explanation: 'Primero el color (blue) y luego el objeto (book). ¡Al revés que en español!'
         }
       ]
     } as any
@@ -483,15 +497,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Rápido',
-      instructions: '¿Qué palabra significa "rápido"?',
+      title: 'Felicidad',
+      instructions: '¿Cómo se dice "feliz"?',
       questions: [
         {
           id: 'q1',
-          question: 'The car is ________.',
-          options: ['fast', 'slow', 'big'],
+          question: 'I am ________.',
+          options: ['happy', 'sad', 'angry'],
           correctAnswer: 0,
-          explanation: '"Fast" es rápido.'
+          explanation: '"Happy" es feliz. La "h" inicial se aspira, como echando aire.'
         }
       ]
     }
@@ -504,14 +518,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Small',
-      instructions: 'Di la palabra para "pequeño".',
+      title: 'Pronunciación: Beautiful',
+      instructions: 'Pronuncia la palabra para "hermoso".',
       questions: [
         {
           id: 'q1',
-          text: 'Small',
-          correctAnswer: 'Small',
-          explanation: 'La "a" suena parecida a una "o".'
+          text: 'Beautiful',
+          correctAnswer: 'Beautiful',
+          explanation: 'Divide la palabra: beau-ti-ful. El énfasis está al principio.'
         }
       ]
     }
@@ -524,13 +538,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Adjetivos comunes',
-      instructions: 'Une las palabras.',
+      title: 'Emociones básicas',
+      instructions: 'Une cada emoción con su traducción.',
       pairs: [
-        { id: '1', left: 'New', right: 'Nuevo' },
-        { id: '2', left: 'Old', right: 'Viejo' },
-        { id: '3', left: 'Fast', right: 'Rápido' }
-      ]
+        { id: '1', left: 'Feliz', right: 'Happy' },
+        { id: '2', left: 'Triste', right: 'Sad' },
+        { id: '3', left: 'Enojado', right: 'Angry' },
+        { id: '4', left: 'Cansado', right: 'Tired' },
+        { id: '5', left: 'Hambriento', right: 'Hungry' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
@@ -541,14 +557,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Lento',
-      instructions: 'Escribe la palabra para "lento".',
+      title: 'Tristeza',
+      instructions: 'Traduce la palabra "triste" al inglés.',
       questions: [
         {
           id: 'q1',
-          text: 'The turtle is ___.',
-          correctAnswer: 'slow',
-          explanation: '"Slow" es lento.'
+          text: 'The boy is [sad].',
+          correctAnswer: 'sad',
+          explanation: '"Sad" significa triste. Es una palabra corta con "a" abierta.'
         }
       ]
     }
@@ -557,19 +573,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e29',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Bonito',
-      instructions: '¿Cómo se dice "bonito" o "hermoso"?',
+      title: 'Nieve',
+      instructions: '¿De qué color es la nieve?',
       questions: [
         {
           id: 'q1',
-          question: 'A ________ flower.',
-          options: ['beautiful', 'ugly', 'bad'],
+          question: 'Snow is ________.',
+          options: ['white', 'black', 'grey'],
           correctAnswer: 0,
-          explanation: '"Beautiful" es hermoso o bonito.'
+          explanation: '"White" es blanco. La nieve siempre es white.'
         }
       ]
     }
@@ -578,16 +594,17 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e30',
     type: 'flashcard',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
       items: [
         {
-          front: 'Feo',
-          back: 'Ugly',
-          example: 'An ugly monster.',
-          pronunciation: '/ˈʌɡli/'
+          front: 'Oro / Dorado',
+          back: 'Gold',
+          example: 'Gold is expensive.',
+          pronunciation: '/ɡəʊld/',
+          explanation: '"Gold" se usa tanto para el metal oro como para el color dorado.'
         }
       ]
     } as any
@@ -600,15 +617,16 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Niño alto',
-      instructions: 'Ordena para decir "Un niño alto".',
+      title: 'Manzana roja',
+      instructions: 'Ordena para decir "Una manzana roja".',
       sentences: [
         {
           id: 's1',
-          words: ['boy', 'tall', 'A'],
-          correctSentence: 'A tall boy',
-          translation: 'Un niño alto.',
-          hint: 'El adjetivo va antes del nombre.'
+          words: ['apple', 'red', 'A'],
+          correctSentence: 'A red apple',
+          translation: 'Una manzana roja.',
+          hint: 'Recuerda el orden: Color + Objeto.',
+          explanation: 'Incluso en frases cortas, el color (red) precede al objeto (apple).'
         }
       ]
     } as any
@@ -617,19 +635,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e32',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Bajo (estatura)',
-      instructions: '¿Cuál es la palabra para "bajo"?',
+      title: 'El Sol',
+      instructions: '¿De qué color dibujamos el Sol?',
       questions: [
         {
           id: 'q1',
-          question: 'He is ________.',
-          options: ['short', 'tall', 'long'],
-          correctAnswer: 0,
-          explanation: '"Short" es bajo (o corto).'
+          question: 'The sun is ________.',
+          options: ['purple', 'yellow', 'pink'],
+          correctAnswer: 1,
+          explanation: '"Yellow" es amarillo. Se asocia siempre con el Sol en dibujos.'
         }
       ]
     }
@@ -638,18 +656,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e33',
     type: 'speaking-analysis',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Beautiful',
-      instructions: 'Di la palabra para "hermoso".',
+      title: 'Pronunciación: White',
+      instructions: 'Pronuncia el color blanco en inglés.',
       questions: [
         {
           id: 'q1',
-          text: 'Beautiful',
-          correctAnswer: 'Beautiful',
-          explanation: 'La "t" suena casi como una "r" suave en inglés americano.'
+          text: 'White',
+          correctAnswer: 'White',
+          explanation: 'La "w" inicial suena como una "u". No pronuncies la "h".'
         }
       ]
     }
@@ -658,35 +676,37 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e34',
     type: 'matching',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Objects',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Más opuestos',
-      instructions: 'Une las parejas de opuestos.',
+      title: 'Colores y Objetos',
+      instructions: 'Une el objeto con su color típico.',
       pairs: [
-        { id: '1', left: 'Tall', right: 'Short' },
-        { id: '2', left: 'Beautiful', right: 'Ugly' },
-        { id: '3', left: 'Slow', right: 'Fast' }
-      ]
+        { id: '1', left: 'Sun', right: 'Yellow' },
+        { id: '2', left: 'Grass', right: 'Green' },
+        { id: '3', left: 'Milk', right: 'White' },
+        { id: '4', left: 'Coal', right: 'Black' },
+        { id: '5', left: 'Sky', right: 'Blue' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
     id: 'a1-u6-e35',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Limpio',
-      instructions: 'Escribe la palabra para "limpio".',
+      title: 'Plátano',
+      instructions: 'Escribe el color del plátano.',
       questions: [
         {
           id: 'q1',
-          text: 'The room is ___.',
-          correctAnswer: 'clean',
-          explanation: '"Clean" es limpio.'
+          text: 'The banana is [yellow].',
+          correctAnswer: 'yellow',
+          explanation: 'Los plátanos maduros son "yellow" (amarillos).'
         }
       ]
     }
@@ -699,15 +719,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Sucio',
-      instructions: '¿Cómo se dice "sucio"?',
+      title: 'Velocidad',
+      instructions: '¿Cómo se dice "rápido" en inglés?',
       questions: [
         {
           id: 'q1',
-          question: 'The shoes are ________.',
-          options: ['dirty', 'clean', 'new'],
-          correctAnswer: 0,
-          explanation: '"Dirty" es sucio.'
+          question: 'The car is ________.',
+          options: ['slow', 'fast', 'old'],
+          correctAnswer: 1,
+          explanation: '"Fast" significa rápido. Su opuesto es "slow" (lento).'
         }
       ]
     }
@@ -722,10 +742,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Feliz',
-          back: 'Happy',
-          example: 'I am happy.',
-          pronunciation: '/ˈhæpi/'
+          front: 'Lento',
+          back: 'Slow',
+          example: 'The turtle is slow.',
+          pronunciation: '/sləʊ/',
+          explanation: '"Slow" significa lento. La "ow" suena como una "o" que se cierra en "u".'
         }
       ]
     } as any
@@ -738,15 +759,16 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Estoy feliz',
-      instructions: 'Ordena para decir "Estoy feliz".',
+      title: 'Gato negro',
+      instructions: 'Ordena para decir "Un gato negro".',
       sentences: [
         {
           id: 's1',
-          words: ['happy', 'am', 'I'],
-          correctSentence: 'I am happy',
-          translation: 'Estoy feliz.',
-          hint: 'Empieza con "I".'
+          words: ['cat', 'black', 'A'],
+          correctSentence: 'A black cat',
+          translation: 'Un gato negro.',
+          hint: 'Color + Animal.',
+          explanation: 'La estructura es siempre: Artículo + Color + Objeto.'
         }
       ]
     } as any
@@ -755,19 +777,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e39',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Triste',
-      instructions: '¿Cuál es la palabra para "triste"?',
+      title: 'Plata / Plateado',
+      instructions: '¿Cómo se dice "plateado"?',
       questions: [
         {
           id: 'q1',
-          question: 'Do not be ________.',
-          options: ['sad', 'happy', 'good'],
+          question: 'The ring is ________.',
+          options: ['silver', 'gold', 'bronze'],
           correctAnswer: 0,
-          explanation: '"Sad" es triste.'
+          explanation: '"Silver" es plata o plateado. Se pronuncia "sílver".'
         }
       ]
     }
@@ -780,14 +802,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Dirty',
-      instructions: 'Di la palabra para "sucio".',
+      title: 'Pronunciación: Happy',
+      instructions: 'Pronuncia la palabra "feliz".',
       questions: [
         {
           id: 'q1',
-          text: 'Dirty',
-          correctAnswer: 'Dirty',
-          explanation: 'La "ir" suena como una "e" cerrada.'
+          text: 'Happy',
+          correctAnswer: 'Happy',
+          explanation: 'Recuerda que la "H" debe sonar como un suspiro fuerte.'
         }
       ]
     }
@@ -800,13 +822,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Estados',
-      instructions: 'Une las palabras.',
+      title: 'Cualidades',
+      instructions: 'Une cada adjetivo con su traducción.',
       pairs: [
-        { id: '1', left: 'Happy', right: 'Feliz' },
-        { id: '2', left: 'Sad', right: 'Triste' },
-        { id: '3', left: 'Angry', right: 'Enfadado' }
-      ]
+        { id: '1', left: 'Beautiful', right: 'Hermoso' },
+        { id: '2', left: 'Ugly', right: 'Feo' },
+        { id: '3', left: 'New', right: 'Nuevo' },
+        { id: '4', left: 'Old', right: 'Viejo' },
+        { id: '5', left: 'Fast', right: 'Rápido' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
@@ -817,14 +841,14 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Enfadado',
-      instructions: 'Escribe la palabra para "enfadado".',
+      title: 'Nuevo',
+      instructions: 'Escribe la palabra para "nuevo".',
       questions: [
         {
           id: 'q1',
-          text: 'The boss is ___.',
-          correctAnswer: 'angry',
-          explanation: '"Angry" es enfadado.'
+          text: 'The phone is [new].',
+          correctAnswer: 'new',
+          explanation: '"New" significa nuevo. Se pronuncia "niú".'
         }
       ]
     }
@@ -837,15 +861,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Bueno',
-      instructions: '¿Cómo se dice "bueno"?',
+      title: 'Vejez',
+      instructions: '¿Cuál es el opuesto de "new"?',
       questions: [
         {
           id: 'q1',
-          question: 'Have a ________ day.',
-          options: ['good', 'bad', 'new'],
-          correctAnswer: 0,
-          explanation: '"Good" es bueno.'
+          question: 'The car is ________.',
+          options: ['new', 'old', 'young'],
+          correctAnswer: 1,
+          explanation: '"Old" significa viejo. Se usa tanto para objetos como para personas.'
         }
       ]
     }
@@ -860,10 +884,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Malo',
-          back: 'Bad',
-          example: 'A bad movie.',
-          pronunciation: '/bæd/'
+          front: 'Feo',
+          back: 'Ugly',
+          example: 'The monster is ugly.',
+          pronunciation: '/ˈʌɡli/',
+          explanation: '"Ugly" es el opuesto de "beautiful". La "u" suena parecida a una "a".'
         }
       ]
     } as any
@@ -876,15 +901,16 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Gato negro',
-      instructions: 'Ordena para decir "Un gato negro".',
+      title: 'Mar azul',
+      instructions: 'Ordena para decir "El mar es azul".',
       sentences: [
         {
           id: 's1',
-          words: ['cat', 'black', 'A'],
-          correctSentence: 'A black cat',
-          translation: 'Un gato negro.',
-          hint: 'Adjetivo + Nombre.'
+          words: ['blue', 'is', 'sea', 'The'],
+          correctSentence: 'The sea is blue',
+          translation: 'El mar es azul.',
+          hint: 'The sea + is + color.',
+          explanation: 'Estructura simple: El mar (Sujeto) + es (Verbo) + azul (Color).'
         }
       ]
     } as any
@@ -893,19 +919,19 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e46',
     type: 'multiple-choice',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Malo',
-      instructions: '¿Cuál es la palabra para "malo"?',
+      title: 'Zanahorias',
+      instructions: '¿De qué color son las zanahorias?',
       questions: [
         {
           id: 'q1',
-          question: 'That is a ________ idea.',
-          options: ['bad', 'good', 'tall'],
+          question: 'Carrots are ________.',
+          options: ['orange', 'purple', 'black'],
           correctAnswer: 0,
-          explanation: '"Bad" es malo.'
+          explanation: '"Orange" es naranja. Las zanahorias son el ejemplo perfecto de este color.'
         }
       ]
     }
@@ -914,18 +940,18 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e47',
     type: 'speaking-analysis',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Pronunciación: Angry',
-      instructions: 'Di la palabra para "enfadado".',
+      title: 'Pronunciación: Purple',
+      instructions: 'Pronuncia la palabra para "morado".',
       questions: [
         {
           id: 'q1',
-          text: 'Angry',
-          correctAnswer: 'Angry',
-          explanation: 'La "a" es abierta.'
+          text: 'Purple',
+          correctAnswer: 'Purple',
+          explanation: 'La primera sílaba tiene una "u" que suena como una "e" cerrada.'
         }
       ]
     }
@@ -934,35 +960,37 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     id: 'a1-u6-e48',
     type: 'matching',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Calidad',
-      instructions: 'Une las parejas.',
+      title: 'Repaso Final de Colores',
+      instructions: 'Une cada color en español con el inglés.',
       pairs: [
-        { id: '1', left: 'Good', right: 'Bueno' },
-        { id: '2', left: 'Bad', right: 'Malo' },
-        { id: '3', left: 'Clean', right: 'Limpio' }
-      ]
+        { id: '1', left: 'Gris', right: 'Grey' },
+        { id: '2', left: 'Marrón', right: 'Brown' },
+        { id: '3', left: 'Rosa', right: 'Pink' },
+        { id: '4', left: 'Blanco', right: 'White' },
+        { id: '5', left: 'Negro', right: 'Black' }
+      ].sort(() => Math.random() - 0.5)
     } as any
   },
   {
     id: 'a1-u6-e49',
     type: 'fill-blank',
     level: 'A1',
-    topic: 'Adjectives',
+    topic: 'Colors',
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Muy bueno',
-      instructions: 'Escribe la palabra para "bueno".',
+      title: 'Arcoíris',
+      instructions: 'Escribe el nombre del color rojo.',
       questions: [
         {
           id: 'q1',
-          text: 'Very ___.',
-          correctAnswer: 'good',
-          explanation: '"Good" es bueno.'
+          text: 'The first color of the rainbow is [red].',
+          correctAnswer: 'red',
+          explanation: '"Red" es el primer color del arcoíris. ¡Fácil de recordar!'
         }
       ]
     }
@@ -975,15 +1003,15 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     topicName: 'Rainbow Colors',
     difficulty: 'easy',
     content: {
-      title: 'Repaso colores',
-      instructions: '¿Qué color se forma con "blue" y "red"?',
+      title: 'Color Favorito',
+      instructions: '¿Cómo se dice "Mi color favorito"?',
       questions: [
         {
           id: 'q1',
-          question: 'Blue + Red = ________.',
-          options: ['purple', 'orange', 'green'],
+          question: 'My ________ color is blue.',
+          options: ['favourite', 'best', 'good'],
           correctAnswer: 0,
-          explanation: 'Azul + Rojo = Morado (Purple).'
+          explanation: '"Favourite" (o "favorite") significa favorito. Se coloca antes del sustantivo "color".'
         }
       ]
     }
