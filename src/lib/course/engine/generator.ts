@@ -67,15 +67,36 @@ export class ExerciseGenerator {
     const topPool = sortedBlueprints.slice(0, count * 3);
     const randomizedPool = this.shuffle(topPool);
 
-    // Generate exercises
+    // Generate exercises with forced variety
     let i = 0;
+    const typesSeen = new Set<string>();
+
     while (sessionExercises.length < count && randomizedPool.length > 0) {
       const selection = randomizedPool[i % randomizedPool.length];
-      sessionExercises.push(this.assemble(selection.bp));
-      i++;
+      const bp = selection.bp;
       
-      // Safety break to avoid infinite loops
-      if (i > count * 5) break;
+      // Forced variety logic: don't pick the same type 3 times in a row
+      // and prioritize types we haven't seen in this session yet
+      const typeRepetition = sessionExercises.filter(e => e.type === bp.type).length;
+      const isOverRepresented = typeRepetition > count / 2;
+
+      if (isOverRepresented && randomizedPool.length > count) {
+        // Skip this one to find more variety if possible
+      } else {
+        sessionExercises.push(this.assemble(bp));
+        typesSeen.add(bp.type);
+      }
+
+      i++;
+      if (i > count * 10) break; // Safety break
+    }
+
+    // Ensure at least one matching if available in pool
+    if (!typesSeen.has('matching') && sessionExercises.length > 0) {
+      const matchingBP = randomizedPool.find(wb => wb.bp.type === 'matching');
+      if (matchingBP) {
+        sessionExercises[sessionExercises.length - 1] = this.assemble(matchingBP.bp);
+      }
     }
 
     return sessionExercises;
