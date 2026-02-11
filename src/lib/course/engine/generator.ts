@@ -176,6 +176,34 @@ export class ExerciseGenerator {
       'flashcard': 'Aprende este concepto:'
     };
 
+    const tagTranslations: Record<string, string> = {
+      'formal': 'formal',
+      'informal': 'informal',
+      'morning': 'mañana',
+      'afternoon': 'tarde',
+      'evening': 'tarde/noche',
+      'night': 'noche',
+      'happy': 'positivo/feliz',
+      'sad': 'negativo/triste',
+      'sunny': 'soleado',
+      'rainy': 'lluvioso'
+    };
+
+    const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
+    const correctItem = filledSlots[slotName];
+    
+    // Resolve dynamic instructions based on tags of the correct item
+    let instructions = blueprint.instruction || defaultInstructions[blueprint.type] || 'Resuelve el ejercicio:';
+    if (correctItem && correctItem.tags) {
+      for (const tag of correctItem.tags) {
+        if (tagTranslations[tag]) {
+          instructions = instructions.replace(`{${slotName}_type}`, tagTranslations[tag]);
+        }
+      }
+    }
+    // Fallback if placeholder remains
+    instructions = instructions.replace(new RegExp(`{${slotName}_type}`, 'g'), '');
+
     const base: any = {
       id: `${blueprint.id}-${Math.random().toString(36).substr(2, 9)}`,
       type: blueprint.type,
@@ -185,7 +213,7 @@ export class ExerciseGenerator {
       difficulty: 'medium' as any,
       content: {
         title: blueprint.title || skill.name,
-        instructions: blueprint.instruction || defaultInstructions[blueprint.type] || 'Resuelve el ejercicio:',
+        instructions: instructions,
         questions: []
       }
     };

@@ -10,11 +10,12 @@ export interface LexicalItem {
 
 export const A1_LEXICON: LexicalItem[] = [
   // Greetings (Unit 1)
-  { lemma: 'hello', pos: 'noun', translation: 'hola', tags: ['greeting', 'A1'] },
-  { lemma: 'hi', pos: 'noun', translation: 'hola', tags: ['greeting', 'A1'] },
-  { lemma: 'good morning', pos: 'noun', translation: 'buenos días', tags: ['greeting', 'A1'] },
-  { lemma: 'good afternoon', pos: 'noun', translation: 'buenas tardes', tags: ['greeting', 'A1'] },
-  { lemma: 'good evening', pos: 'noun', translation: 'buenas noches', tags: ['greeting', 'A1'] },
+  { lemma: 'hello', pos: 'noun', translation: 'hola', tags: ['greeting', 'formal', 'A1'] },
+  { lemma: 'hi', pos: 'noun', translation: 'hola', tags: ['greeting', 'informal', 'A1'] },
+  { lemma: 'good morning', pos: 'noun', translation: 'buenos días', tags: ['greeting', 'morning', 'A1'] },
+  { lemma: 'good afternoon', pos: 'noun', translation: 'buenas tardes', tags: ['greeting', 'afternoon', 'A1'] },
+  { lemma: 'good evening', pos: 'noun', translation: 'buenas noches', tags: ['greeting', 'evening', 'A1'] },
+  { lemma: 'good night', pos: 'noun', translation: 'buenas noches', tags: ['greeting', 'night', 'A1'] },
   { lemma: 'am', pos: 'verb', translation: 'soy/estoy', tags: ['be', 'A1'] },
   { lemma: 'are', pos: 'verb', translation: 'eres/estás', tags: ['be', 'A1'] },
   { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'A1'] },
@@ -103,9 +104,10 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'Sunday', pos: 'noun', translation: 'domingo', tags: ['day', 'A1'] },
 
   // Expanded Routine (Unit 8)
-  { lemma: 'wake up', pos: 'verb', translation: 'despertarse', tags: ['routine', 'A1'] },
-  { lemma: 'eat breakfast', pos: 'verb', translation: 'desayunar', tags: ['routine', 'A1'] },
-  { lemma: 'go to work', pos: 'verb', translation: 'ir a trabajar', tags: ['routine', 'A1'] },
+  { lemma: 'wake up', pos: 'verb', translation: 'despertarse', tags: ['routine', 'morning', 'A1'] },
+  { lemma: 'eat breakfast', pos: 'verb', translation: 'desayunar', tags: ['routine', 'morning', 'A1'] },
+  { lemma: 'go to work', pos: 'verb', translation: 'ir a trabajar', tags: ['routine', 'morning', 'A1'] },
+  { lemma: 'go to sleep', pos: 'verb', translation: 'ir a dormir', tags: ['routine', 'night', 'A1'] },
 
   // Food (Unit 9)
   { lemma: 'pizza', pos: 'noun', translation: 'pizza', tags: ['food', 'A1'] },

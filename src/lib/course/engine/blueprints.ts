@@ -23,7 +23,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     skillId: 'A1-GREET-01',
     type: 'multiple-choice',
     title: 'Saludos',
-    instruction: 'Elige el saludo correcto:',
+    instruction: 'Elige el saludo correcto para la {greeting_type}:',
     template: '{greeting}!',
     correctSlot: 'greeting',
     slots: {
@@ -248,8 +248,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     skillId: 'A1-ROUT-02',
     type: 'fill-blank',
     title: 'Mi Mañana',
-    instruction: 'Completa tu rutina:',
+    instruction: 'Completa tu rutina de {action_type}:',
     template: 'I {action} at 7 AM.',
+    correctSlot: 'action',
     slots: {
       action: { pos: 'verb', tags: ['routine'] }
     },

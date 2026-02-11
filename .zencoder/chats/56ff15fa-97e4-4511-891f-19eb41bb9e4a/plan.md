@@ -75,3 +75,8 @@ Create a detailed implementation plan based on `spec.md`.
   - Fixed evaluation bug where `correctAnswers` (plural) was being ignored.
   - Expanded Unit 1 & 2 Lexicon and Blueprints to support thousands of dynamic variants.
   - Verified that all 30 units follow the pedagogical guidelines by targeting specific slots.
+- [x] **Task 15: Pedagogical Clarity (Contextual Instructions)**
+  - Implemented dynamic instruction resolution using Lexical tags.
+  - Added metadata to greetings and routine verbs (formal, informal, morning, night).
+  - Updated generator to translate tags into Spanish context for instructions.
+  - Refactored blueprints to use `{slot_type}` placeholders for clearer guidance.
