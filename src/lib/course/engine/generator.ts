@@ -107,7 +107,7 @@ export class ExerciseGenerator {
       // Capping per type at 40% for variety
       if (typeCount >= Math.ceil(count * 0.4) && randomizedPool.length > count) return false;
 
-      const exercise = this.assemble(bp, targetUnit);
+      const exercise = this.assemble(bp, profile, targetUnit);
       sessionExercises.push(exercise);
       
       typesSeen[bp.type] = typeCount + 1;
@@ -138,7 +138,7 @@ export class ExerciseGenerator {
   /**
    * Generates multiple variants for a specific blueprint
    */
-  generateVariants(blueprintId: string, count: number = 5): Exercise[] {
+  generateVariants(blueprintId: string, profile: StudentProfile, count: number = 5): Exercise[] {
     const blueprint = A1_BLUEPRINTS.find(bp => bp.id === blueprintId);
     if (!blueprint) throw new Error(`Blueprint ${blueprintId} not found`);
 
@@ -147,7 +147,7 @@ export class ExerciseGenerator {
     this.recentWords.clear();
 
     while (variants.length < count) {
-      const exercise = this.assemble(blueprint);
+      const exercise = this.assemble(blueprint, profile);
       const uniqueKey = JSON.stringify(exercise.content);
       
       if (!usedCombinations.has(uniqueKey)) {
@@ -161,12 +161,14 @@ export class ExerciseGenerator {
     return variants;
   }
 
-  private assemble(blueprint: Blueprint, forcedUnit?: number): Exercise {
+  private assemble(blueprint: Blueprint, profile: StudentProfile, forcedUnit?: number): Exercise {
     const filledSlots: Record<string, LexicalItem> = {};
     const skill = A1_SKILLS[blueprint.skillId] || { unit: forcedUnit || 1, name: 'General' };
     const effectiveUnit = blueprint.skillId === 'A1-UNIVERSAL' ? (forcedUnit || 1) : skill.unit;
+    
+    const isProduction = blueprint.type === 'fill-blank' || blueprint.type === 'sentence-building';
 
-    // 1. Fill slots with lexical items (with novelty rotation)
+    // 1. Fill slots with lexical items (with novelty rotation and pedagogical gating)
     for (const [slotName, config] of Object.entries(blueprint.slots)) {
       if (config.fixedValues) {
         const selectedLemma = this.getRandom(config.fixedValues);
@@ -186,18 +188,31 @@ export class ExerciseGenerator {
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
           const unitMatch = item.unit <= effectiveUnit; 
           const noveltyMatch = !this.recentWords.has(item.lemma);
-          // Semantic Shielding: don't use proper nouns for common slots unless specified
+          
+          // SEMANTIC & PEDAGOGICAL GATING:
+          // A. Semantic Shielding (don't use proper nouns for common slots)
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
-          return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield;
+          
+          // B. Discovery Gating: If production exercise, word MUST have been seen before
+          const exposure = profile.vocabulary[item.lemma];
+          const isDiscovered = exposure && (exposure.discoveryCount > 0 || exposure.recognitionCount > 0);
+          const pedagogicalMatch = isProduction ? isDiscovered : true;
+
+          return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield && pedagogicalMatch;
         });
 
-        // If no matches with novelty, relax novelty constraint but KEEP unit and proper noun constraint
+        // If no matches with novelty/discovery gating, relax constraints but ONLY if it's not production
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
           const unitMatch = item.unit <= effectiveUnit; 
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
-          return posMatch && tagMatch && unitMatch && properNounShield;
+          
+          const exposure = profile.vocabulary[item.lemma];
+          const isDiscovered = exposure && (exposure.discoveryCount > 0 || exposure.recognitionCount > 0);
+          const pedagogicalMatch = isProduction ? isDiscovered : true;
+
+          return posMatch && tagMatch && unitMatch && properNounShield && pedagogicalMatch;
         });
 
         const selected = this.getRandom(pool);

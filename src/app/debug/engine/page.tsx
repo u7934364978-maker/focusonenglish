@@ -33,10 +33,33 @@ export default function EngineDebugPage() {
   };
 
   const handleExerciseComplete = (result?: { success: boolean; score: number }) => {
-    if (result && exercises[currentIndex]) {
-      const skillId = exercises[currentIndex].topic; // We mapped this to skill.id
-      const updatedProfile = MasteryManager.recordResult(userId, skillId, result.success);
-      setProfile(updatedProfile);
+    if (exercises[currentIndex]) {
+      const exercise = exercises[currentIndex];
+      const skillId = exercise.topic;
+      
+      // 1. Record individual word exposure for pedagogical gating
+      let usedLemmas: string[] = [];
+      if (exercise.type === 'flashcard' && (exercise.content as any).items) {
+        usedLemmas = (exercise.content as any).items.map((i: any) => i.front);
+      } else if (exercise.type === 'matching' && (exercise.content as any).pairs) {
+        usedLemmas = (exercise.content as any).pairs.map((p: any) => p.left);
+      } else if ((exercise.content as any).questions?.[0]?.correctAnswer) {
+        usedLemmas = [(exercise.content as any).questions[0].correctAnswer];
+      }
+
+      // 2. Determine stage
+      const stage = (exercise.type === 'flashcard' || exercise.type === 'matching') ? 'discovery' : 
+                    (exercise.type === 'multiple-choice') ? 'recognition' : 'production';
+
+      // 3. Record result and vocabulary
+      const updatedProfile = MasteryManager.recordResult(userId, skillId, result?.success ?? true, usedLemmas);
+      
+      // Force individual exposure recording for each word
+      usedLemmas.forEach(lemma => {
+        MasteryManager.recordWordExposure(userId, lemma, stage);
+      });
+
+      setProfile(MasteryManager.getProfile(userId));
     }
 
     if (currentIndex < exercises.length - 1) {
