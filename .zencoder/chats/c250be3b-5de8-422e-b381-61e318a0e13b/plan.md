@@ -77,9 +77,9 @@
 1. [x] Create `src/lib/course/a1/unit-6.ts` with 50 exercises.
 2. [x] Added mandatory explanations and 5-pair matching logic.
 3. [x] Run audit script and fix issues.
-4. [x] Commit & Push for user review. (Commit: `5693e887`)
+4. [x] Commit & Push for user review. (Commit: `ea42bf5d`)
 
-### [ ] Step: Implementation (Unit 7: Time Check)
+### [/] Step: Implementation (Unit 7: Time Check)
 
 1. [ ] Create `src/lib/course/a1/unit-7.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
