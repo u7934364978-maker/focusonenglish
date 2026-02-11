@@ -316,6 +316,31 @@ export class ExerciseGenerator {
         correctAnswer: correctAnswer,
         explanation: explanation
       }];
+    } else if (blueprint.type === 'matching') {
+      // Logic for 8 pairs of matching words
+      const semanticTags = blueprint.slots[slotName]?.tags || correctItem.tags || [];
+      const pairsPool = this.shuffle(this.lexicon
+        .filter(item => 
+          (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
+          item.translation !== ''
+        )).slice(0, 8); // Select 8 pairs randomly from the tag-matched pool
+
+      const pairs = pairsPool.map(item => ({
+        id: item.lemma,
+        text: item.lemma,
+        translation: item.translation
+      }));
+
+      base.content.questions = [{
+        pairs: pairs, // The ExerciseRenderer handles independent shuffling of columns
+        explanation: "Relaciona cada palabra en inglés con su traducción al español."
+      }];
+    } else if (blueprint.type === 'flashcard') {
+      base.content.questions = [{
+        text: correctItem.lemma,
+        translation: correctItem.translation,
+        explanation: explanation
+      }];
     } else {
       base.content.questions = [{
         question: english,

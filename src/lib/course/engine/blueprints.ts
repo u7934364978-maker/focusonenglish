@@ -619,4 +619,17 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: 'En español: {transport_es}.'
   },
+  // --- Universal Dynamic Blueprints ---
+  {
+    id: 'BP-UNI-MATCHING',
+    skillId: 'A1-VOCAB-01', // Generic vocab skill
+    type: 'matching',
+    title: 'Relacionar Palabras',
+    instruction: 'Relaciona las 8 parejas correctamente:',
+    template: '', // Dynamic pairs don't need a template
+    slots: {
+      word: { pos: 'noun' } // Generic slot
+    },
+    translationTemplate: ''
+  }
 ];

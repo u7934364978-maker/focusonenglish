@@ -90,7 +90,11 @@ Create a detailed implementation plan based on `spec.md`.
   - Expanded Blueprints pool to ensure thousands of unique exercise variations.
   - Improved translation reliability for fixed values in templates.
 - [ ] **Task 18: Pedagogical Sequencing (Discovery -> Practice)**
-  - Implement `vocabularyExposure` tracking in `mastery.ts`.
-  - Classify Blueprints into pedagogical stages (Discovery, Recognition, Production).
-  - Modify `generator.ts` to block Production exercises (fill-blank) until Discovery/Recognition stages are met for a word.
-  - Add more "Discovery" blueprints (Matching/Flashcards) for all units.
+  - [x] Implement `vocabularyExposure` tracking in `mastery.ts`.
+  - [x] Classify Blueprints into pedagogical stages (Discovery, Recognition, Production).
+  - [x] Modify `generator.ts` to block Production exercises (fill-blank) until Discovery/Recognition stages are met for a word.
+  - [x] Add more "Discovery" blueprints (Matching/Flashcards) for all units.
+- [x] **Task 19: Dynamic Exercise Types (Flashcards & Matching)**
+  - [x] Implement full `matching` logic in `generator.ts` (pair 8 items).
+  - [x] Implement `flashcard` presentation logic.
+  - [x] Ensure the selection algorithm intersperses these types to avoid monotony.
