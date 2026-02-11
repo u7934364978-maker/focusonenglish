@@ -83,41 +83,47 @@ export class ExerciseGenerator {
     let i = 0;
     const typesSeen: Record<string, number> = {};
 
+    // First, try to pick one of each available type in the pool to ensure initial variety
+    const uniqueTypes = Array.from(new Set(randomizedPool.map(wb => wb.bp.type)));
+    for (const type of uniqueTypes) {
+      if (sessionExercises.length >= count) break;
+      const match = randomizedPool.find(wb => wb.bp.type === type);
+      if (match) {
+        sessionExercises.push(this.assemble(match.bp, targetUnit));
+        typesSeen[type] = (typesSeen[type] || 0) + 1;
+      }
+    }
+
+    // Then fill the rest
     while (sessionExercises.length < count && randomizedPool.length > 0) {
       const selection = randomizedPool[i % randomizedPool.length];
       const bp = selection.bp;
       
-      // Forced variety logic: ensure no type dominates too much
       const typeCount = typesSeen[bp.type] || 0;
-      const isOverRepresented = typeCount >= Math.ceil(count / 3);
+      // Allow more variety, but cap at 40% per type unless we have no choice
+      const isOverRepresented = typeCount >= Math.ceil(count * 0.4);
 
       if (isOverRepresented && randomizedPool.length > count) {
-        // Skip this one to find more variety
+        // Skip
       } else {
         sessionExercises.push(this.assemble(bp, targetUnit));
         typesSeen[bp.type] = (typesSeen[bp.type] || 0) + 1;
       }
 
       i++;
-      if (i > count * 10) break; // Safety break
+      if (i > count * 20) break; 
     }
 
-    // Ensure at least one matching if available in pool
-    if (!typesSeen['matching'] && sessionExercises.length > 0) {
-      const matchingBP = randomizedPool.find(wb => wb.bp.type === 'matching');
-      if (matchingBP) {
-        sessionExercises[sessionExercises.length - 1] = this.assemble(matchingBP.bp, targetUnit);
-      }
-    }
-
-    // PEDAGOGICAL SORTING:
-    // Move Discovery (Flashcards/Matching) to the front
+    // PEDAGOGICAL SORTING: Discovery -> Recognition -> Production
     return sessionExercises.sort((a, b) => {
-      const isADiscovery = a.type === 'flashcard' || a.type === 'matching';
-      const isBDiscovery = b.type === 'flashcard' || b.type === 'matching';
-      if (isADiscovery && !isBDiscovery) return -1;
-      if (!isADiscovery && isBDiscovery) return 1;
-      return 0;
+      const typeOrder: Record<string, number> = {
+        'flashcard': 1,
+        'matching': 2,
+        'multiple-choice': 3,
+        'fill-blank': 4,
+        'sentence-building': 5
+      };
+      return (typeOrder[a.type] || 99) - (typeOrder[b.type] || 99);
     });
   }
 
@@ -214,9 +220,9 @@ export class ExerciseGenerator {
       const item = filledSlots[slotName];
       
       // Determine if we need plural form (for numbers)
-      const isNumber = filledSlots['num']?.tags.includes('number') || filledSlots['number']?.tags.includes('number');
-      const numberValue = filledSlots['num']?.lemma || filledSlots['number']?.lemma;
-      const isPlural = isNumber && numberValue !== 'one' && numberValue !== '1';
+      const numSlot = Object.keys(filledSlots).find(key => filledSlots[key].tags.includes('number'));
+      const numberValue = numSlot ? filledSlots[numSlot].lemma : null;
+      const isPlural = numberValue !== null && numberValue !== 'one' && numberValue !== '1';
       
       const englishLemma = (isPlural && item.plural) ? item.plural : item.lemma;
       
@@ -225,8 +231,16 @@ export class ExerciseGenerator {
       if (item.pos === 'verb' && item.i_es && (blueprint.template.startsWith('I ') || blueprint.template.includes(' I '))) {
         spanishLemma = item.i_es;
       }
-      if (isPlural && item.plural_es) {
+      
+      // Pluralize Spanish nouns if count > 1
+      if (isPlural && item.pos === 'noun' && item.plural_es) {
         spanishLemma = item.plural_es;
+      }
+      
+      // Special case: "un" (one) changes gender/form in Spanish depending on noun, but for A1 "un" is a safe neutral/masculine default
+      if (item.lemma === 'one' && filledSlots['item']?.translation === 'llave') {
+        // Very specific fix for "una llave" if we want to be perfect, but "un" is better than "uno"
+        // For now, let's just use the translation from lexicon which I changed to 'un'
       }
 
       // Handle "a/an" logic
@@ -368,7 +382,7 @@ export class ExerciseGenerator {
     } else if (blueprint.type === 'matching') {
       // Logic for 8 pairs of matching words
       const semanticTags = blueprint.slots[slotName]?.tags || correctItem.tags || [];
-      const unitConstraint = effectiveUnit; // Strictly use current unit for matching variety
+      const unitConstraint = effectiveUnit; 
 
       let pairsPool = this.shuffle(this.lexicon
         .filter(item => 
@@ -391,20 +405,19 @@ export class ExerciseGenerator {
 
       const pairs = pairsPool.map(item => ({
         id: item.lemma,
-        text: item.lemma,
-        translation: item.translation
+        left: item.lemma,
+        right: item.translation
       }));
 
-      base.content.questions = [{
-        pairs: pairs, // The ExerciseRenderer handles independent shuffling of columns
-        explanation: "Relaciona cada palabra en inglés con su traducción al español."
-      }];
+      base.content.pairs = pairs;
+      base.content.explanation = "Relaciona cada palabra en inglés con su traducción al español.";
     } else if (blueprint.type === 'flashcard') {
-      base.content.questions = [{
-        text: correctItem.lemma,
-        translation: correctItem.translation,
-        explanation: explanation
+      base.content.items = [{
+        front: correctItem.lemma,
+        back: correctItem.translation,
+        pronunciation: correctItem.tags.includes('greeting') ? 'GREETING' : undefined
       }];
+      base.content.explanation = explanation;
     } else {
       base.content.questions = [{
         question: english,

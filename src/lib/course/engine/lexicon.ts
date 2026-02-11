@@ -49,25 +49,25 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', plural_es: 'bolígrafos', tags: ['object', 'common_noun', 'A1'], unit: 5 },
   
   // Surfaces/Places
-  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', plural_es: 'mesas', tags: ['furniture', 'A1'], unit: 20 },
-  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', plural_es: 'sillas', tags: ['furniture', 'A1'], unit: 20 },
-  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', plural_es: 'cajas', tags: ['container', 'A1'], unit: 20 },
-  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', plural_es: 'neveras', tags: ['appliance', 'A1'], unit: 20 },
+  { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', plural_es: 'mesas', tags: ['furniture', 'common_noun', 'A1'], unit: 20 },
+  { lemma: 'chair', pos: 'noun', countable: true, article: 'a', plural: 'chairs', translation: 'silla', plural_es: 'sillas', tags: ['furniture', 'common_noun', 'A1'], unit: 20 },
+  { lemma: 'box', pos: 'noun', countable: true, article: 'a', plural: 'boxes', translation: 'caja', plural_es: 'cajas', tags: ['container', 'common_noun', 'A1'], unit: 20 },
+  { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', plural_es: 'neveras', tags: ['appliance', 'common_noun', 'A1'], unit: 20 },
 
   // Verbs
   { lemma: 'want', pos: 'verb', translation: 'querer', i_es: 'quiero', tags: ['stative_verb', 'A1'], unit: 2 },
   { lemma: 'drink', pos: 'verb', translation: 'beber', i_es: 'bebo', tags: ['physical_action', 'A1'], unit: 2 },
   { lemma: 'eat', pos: 'verb', translation: 'comer', i_es: 'como', tags: ['physical_action', 'A1'], unit: 9 },
-  { lemma: 'is', pos: 'verb', translation: 'es/está', i_es: 'es', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', i_es: 'somos', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'is', pos: 'verb', translation: 'es/está', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
+  { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
 
   // Family (Unit 3)
-  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', tags: ['family', 'A1'], unit: 3 },
-  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', tags: ['family', 'A1'], unit: 3 },
-  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', tags: ['family', 'A1'], unit: 3 },
-  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', tags: ['family', 'A1'], unit: 3 },
-  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', tags: ['family', 'A1'], unit: 3 },
-  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', tags: ['family', 'A1'], unit: 3 },
+  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', plural_es: 'padres', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', plural_es: 'madres', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', plural_es: 'hermanas', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', plural_es: 'hermanos', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', plural_es: 'hijos', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', plural_es: 'hijas', tags: ['family', 'common_noun', 'A1'], unit: 3 },
 
   // Possessives (Unit 3)
   { lemma: 'my', pos: 'adjective', translation: 'mi', tags: ['possessive', 'A1'], unit: 3 },
@@ -76,15 +76,15 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'her', pos: 'adjective', translation: 'su (de ella)', tags: ['possessive', 'A1'], unit: 3 },
 
   // Daily Routine (Unit 4)
-  { lemma: 'work', pos: 'verb', translation: 'trabajar', tags: ['routine', 'A1'], unit: 4 },
-  { lemma: 'sleep', pos: 'verb', translation: 'dormir', tags: ['routine', 'A1'], unit: 4 },
-  { lemma: 'study', pos: 'verb', translation: 'estudiar', tags: ['routine', 'A1'], unit: 4 },
+  { lemma: 'work', pos: 'verb', translation: 'trabajar', i_es: 'trabajo', tags: ['routine', 'A1'], unit: 4 },
+  { lemma: 'sleep', pos: 'verb', translation: 'dormir', i_es: 'duermo', tags: ['routine', 'A1'], unit: 4 },
+  { lemma: 'study', pos: 'verb', translation: 'estudiar', i_es: 'estudio', tags: ['routine', 'A1'], unit: 4 },
   { lemma: 'morning', pos: 'noun', translation: 'mañana', tags: ['time', 'A1'], unit: 4 },
   { lemma: 'afternoon', pos: 'noun', translation: 'tarde', tags: ['time', 'A1'], unit: 4 },
   { lemma: 'night', pos: 'noun', translation: 'noche', tags: ['time', 'A1'], unit: 4 },
 
   // Numbers (Unit 5)
-  { lemma: 'one', pos: 'adjective', translation: 'uno', tags: ['number', 'A1'], unit: 5 },
+  { lemma: 'one', pos: 'adjective', translation: 'un', tags: ['number', 'A1'], unit: 5 },
   { lemma: 'two', pos: 'adjective', translation: 'dos', tags: ['number', 'A1'], unit: 5 },
   { lemma: 'three', pos: 'adjective', translation: 'tres', tags: ['number', 'A1'], unit: 5 },
   { lemma: 'four', pos: 'adjective', translation: 'cuatro', tags: ['number', 'A1'], unit: 5 },
