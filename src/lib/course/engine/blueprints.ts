@@ -110,7 +110,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     template: 'I {verb} {drink}.',
     correctSlot: 'verb',
     slots: {
-      verb: { fixedValues: ['want'] },
+      verb: { fixedValues: ['drink'] },
       drink: { pos: 'noun', tags: ['drink'] }
     },
     translationTemplate: 'Yo {verb_es} {drink_es}.'

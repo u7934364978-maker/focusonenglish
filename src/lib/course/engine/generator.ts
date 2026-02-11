@@ -52,14 +52,16 @@ export class ExerciseGenerator {
       // Priority 2: Brand new content (Discovery phase)
       if (skill.unit === targetUnit && mastery.attempts < 2) {
         weight += 150;
-        if (isDiscovery) weight += 600; // Strongest push for discovery
-        if (bp.type === 'multiple-choice') weight += 200;
+        if (isDiscovery) weight += 1000; // Even stronger push for discovery
+        if (bp.type === 'multiple-choice') weight += 400;
       }
 
       // Priority 3: Current unit practice
       if (skill.unit === targetUnit) {
         weight += 50;
         if (mastery.masteryLevel < 0.7) weight += 30;
+        // Avoid over-relying on production if already mastered
+        if (isProduction && mastery.masteryLevel > 0.8) weight -= 100;
       }
 
       // Priority 4: Review of past units (Retention)
@@ -536,20 +538,27 @@ export class ExerciseGenerator {
       const surface = alreadyFilled['surface'];
       const container = alreadyFilled['container'];
       
-      if (surface && item.lemma === 'in') return false; // Can't be 'in' a surface (table/chair)
-      if (container && (item.lemma === 'on' || item.lemma === 'under')) return false; // Unlikely 'on' a box for A1
+      if (surface && item.lemma === 'in') return false; 
+      if (container && (item.lemma === 'on' || item.lemma === 'under')) return false; 
     }
 
     // 2. Anatomy plurals
     if (item.tags.includes('body') && config.forcePlural && !item.plural) {
-      // If we force plural but item has no plural form, it's likely a non-paired body part (nose, mouth)
-      // We prefer paired parts (eyes, ears) for "I see with my..."
       if (item.lemma === 'nose' || item.lemma === 'mouth') return false;
     }
 
-    // 3. Movement verbs
-    if (item.tags.includes('movement') && !item.tags.includes('physical_action')) {
-      // Movement verbs should be physical actions
+    // 4. Verb-Object Harmony (Anti-Delirium)
+    const verb = alreadyFilled['verb'] || alreadyFilled['action'];
+    if (verb && item.pos === 'noun') {
+      if (verb.lemma === 'drink' && !item.tags.includes('drink')) return false;
+      if (verb.lemma === 'eat' && !item.tags.includes('food')) return false;
+      if (verb.tags.includes('movement') && item.tags.includes('food')) return false; // Don't "walk" a "pizza"
+    }
+
+    // 5. Subject-Action Harmony
+    const subject = alreadyFilled['name'] || alreadyFilled['person'];
+    if (subject && item.pos === 'verb') {
+      if (subject.tags.includes('human') && item.lemma === 'bark') return false; // Logic shield
     }
 
     return true;
