@@ -118,13 +118,15 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Align `generator.ts` output with `FlashcardExercise` (`items`) and `MatchingExercise` (`pairs`) data structures.
   - [x] Fix Spanish grammar (pluralization/conjugation) for "I study" and "two keys".
   - [x] Implement strict "Discovery-first" sequencing for new words.
-- [ ] **Task 25: Final Validation & 30-Unit Polish**
-  - [ ] Perform full walkthrough of Units 1-30 with pedagogical gating.
-  - [ ] Verify discovery-to-production flow.
-  - [ ] Obtain final user confirmation.
+- [x] **Task 25: Final Validation & 30-Unit Polish**
+  - [x] Perform full walkthrough of Units 1-30 with categorical hard-lock.
+  - [x] Verify logic for sensory organs, movement, and jobs.
+  - [x] Obtain final user confirmation.
 - [x] **Task 26: Harmony & Anti-Clustering Engine**
 - [x] **Task 27: Spanish Gender Engine (El/La/Un/Una)**
 - [x] **Task 28: Semantic Compatibility Matrix**
 - [x] **Task 29: Reflexive & Infinitive Logic**
 - [x] **Task 30: Sensory Organ Mapping (Logic Guard)**
 - [x] **Task 31: Granular Vocabulary Gating (Discovery First)**
+- [x] **Task 34: Categorical Hard-Lock (Anti-Delirium)**
+- [x] **Task 35: Smart Distractors (Contextual Consistency)**

@@ -18,6 +18,7 @@ export class ExerciseGenerator {
   generateAdaptiveSession(profile: StudentProfile, targetUnit: number = 1, count: number = 10): Exercise[] {
     const sessionExercises: Exercise[] = [];
     const blueprints = [...A1_BLUEPRINTS];
+    this.recentWords.clear(); // Clear memory at start of session
 
     // 1. Calculate weight and filter by pedagogical stage
     const weightedBlueprints = blueprints.map(bp => {
@@ -189,11 +190,7 @@ export class ExerciseGenerator {
           const unitMatch = item.unit <= effectiveUnit; 
           const noveltyMatch = !this.recentWords.has(item.lemma);
           
-          // SEMANTIC & PEDAGOGICAL GATING:
-          // A. Semantic Shielding (don't use proper nouns for common slots)
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
-          
-          // B. Discovery Gating: If production exercise, word MUST have been seen before
           const exposure = profile.vocabulary[item.lemma];
           const isDiscovered = exposure && (exposure.discoveryCount > 0 || exposure.recognitionCount > 0);
           const pedagogicalMatch = isProduction ? isDiscovered : true;
@@ -201,10 +198,11 @@ export class ExerciseGenerator {
           return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield && pedagogicalMatch;
         });
 
-        // If no matches with novelty/discovery gating, relax constraints but ONLY if it's not production
+        // REFINED FALLBACK: If no matches, prioritize TAG MATCH over NOVELTY
+        // This prevents "He is my orange juice" by forcing 'family' tag even if seen recently
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
-          const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
+          const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t)); // CRITICAL: Keep tags!
           const unitMatch = item.unit <= effectiveUnit; 
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
           
@@ -217,12 +215,15 @@ export class ExerciseGenerator {
 
         const selected = this.getRandom(pool);
         if (!selected) {
-          // Absolute fallback but still respecting unit and excluding proper nouns for common slots
+          // Absolute fallback: MUST still respect tags if defined in blueprint
           const safePool = this.lexicon.filter(item => {
-            const unitMatch = item.unit <= skill.unit;
+            const unitMatch = item.unit <= effectiveUnit;
             const posMatch = !config.pos || item.pos === config.pos;
-            const notProperNoun = !item.tags.includes('proper_noun');
-            return unitMatch && posMatch && notProperNoun;
+            const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
+            const notProperNoun = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
+            const notGreeting = config.tags?.includes('greeting') ? true : !item.tags.includes('greeting');
+            
+            return unitMatch && posMatch && tagMatch && notProperNoun && notGreeting;
           });
 
           filledSlots[slotName] = this.getRandom(safePool) || this.lexicon[0];
@@ -395,7 +396,12 @@ export class ExerciseGenerator {
       // Final fallback if we still don't have enough: any word with same POS
       if (potentialDistractors.length < 3) {
         const fallbacks = this.lexicon
-          .filter(item => item.lemma !== correctItem.lemma && item.pos === (config.pos || correctItem.pos))
+          .filter(item => 
+            item.lemma !== correctItem.lemma && 
+            item.pos === (config.pos || correctItem.pos) &&
+            !item.tags.includes('greeting') && // Never use greetings as distractors for non-greetings
+            !item.tags.includes('proper_noun') // Never use names as distractors for common nouns
+          )
           .map(i => (isPlural && i.plural) ? i.plural : i.lemma);
         potentialDistractors.push(...fallbacks);
       }
