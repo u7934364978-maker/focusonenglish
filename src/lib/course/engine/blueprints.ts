@@ -626,11 +626,11 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'matching',
     title: 'Relacionar: Saludos',
     instruction: 'Relaciona los saludos correctamente:',
-    template: '',
+    template: '{word}',
     slots: {
       word: { pos: 'noun', tags: ['greeting'] }
     },
-    translationTemplate: ''
+    translationTemplate: '{word_es}'
   },
   // --- Unit 2: Drinks Discovery ---
   {
@@ -651,11 +651,11 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'matching',
     title: 'Relacionar: Bebidas',
     instruction: 'Relaciona las bebidas correctamente:',
-    template: '',
+    template: '{word}',
     slots: {
       word: { pos: 'noun', tags: ['drink'] }
     },
-    translationTemplate: ''
+    translationTemplate: '{word_es}'
   },
   // --- Unit 3: Family Discovery ---
   {
@@ -664,11 +664,11 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'matching',
     title: 'Relacionar: La Familia',
     instruction: 'Relaciona los miembros de la familia:',
-    template: '',
+    template: '{word}',
     slots: {
       word: { pos: 'noun', tags: ['family'] }
     },
-    translationTemplate: ''
+    translationTemplate: '{word_es}'
   },
   // --- Universal Discovery Blueprints ---
   {

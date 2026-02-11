@@ -240,5 +240,11 @@ export const A1_SKILLS: Record<string, Skill> = {
     name: 'Unit Vocabulary',
     unit: 1,
     description: 'Discovery and matching of new words'
+  },
+  'A1-UNIVERSAL': {
+    id: 'A1-UNIVERSAL',
+    name: 'Vocabulary Discovery',
+    unit: 1,
+    description: 'Introduction to new words through discovery formats'
   }
 };

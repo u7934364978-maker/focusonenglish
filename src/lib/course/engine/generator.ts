@@ -141,7 +141,7 @@ export class ExerciseGenerator {
 
   private assemble(blueprint: Blueprint): Exercise {
     const filledSlots: Record<string, LexicalItem> = {};
-    const skill = A1_SKILLS[blueprint.skillId];
+    const skill = A1_SKILLS[blueprint.skillId] || { unit: 1, name: 'General' };
 
     // 1. Fill slots with lexical items (with novelty rotation)
     for (const [slotName, config] of Object.entries(blueprint.slots)) {
