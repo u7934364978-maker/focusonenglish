@@ -16,27 +16,28 @@
 6. **Unit 6: Rainbow Colors** (Colors, Adjectives)
 7. **Unit 7: Time Check** (Days, Basic time)
 8. **Unit 8: Daily Grind** (Routine verbs)
-9. **Unit 10: Foodie Life** (Food, "Like/Don't like")
-11. **Unit 11: Outfit of the Day** (Clothes)
-12. **Unit 12: My Job** (Professions)
-13. **Unit 13: In the City** (Places)
-14. **Unit 14: Move It!** (Movement verbs)
-15. **Unit 15: How I Feel** (Emotions)
-16. **Unit 16: Pets & Wildlife** (Animals)
-17. **Unit 17: Sunny or Rainy?** (Weather)
-18. **Unit 18: Tech Savvy** (Gadgets, Digital life)
-19. **Unit 19: Body Parts** (Anatomy)
-20. **Unit 20: Action!** (Can/Can't)
-21. **Unit 21: Where is it?** (Prepositions)
-22. **Unit 22: Let's Travel** (Transport)
-23. **Unit 23: Shopping Time** (Prices, Money)
-24. **Unit 24: Healthy Life** (Doctor, Health)
-25. **Unit 25: My Hobbies** (Sports, Leisure)
-26. **Unit 26: Past Memories** (Was/Were)
-27. **Unit 27: Did you?** (Past Simple intro)
-28. **Unit 28: Going to...** (Future plans)
-29. **Unit 29: Comparing Things** (Comparatives)
-30. **Unit 30: Final Graduation** (Full Review)
+9. **Unit 9: Foodie Life** (Food, "Like/Don't like")
+10. **Unit 10: Outfit of the Day** (Clothes)
+11. **Unit 11: My Job** (Professions)
+12. **Unit 12: In the City** (Places)
+13. **Unit 13: Move It!** (Movement verbs)
+14. **Unit 14: How I Feel** (Emotions)
+15. **Unit 15: Pets & Wildlife** (Animals)
+16. **Unit 16: Sunny or Rainy?** (Weather)
+17. **Unit 17: Tech Savvy** (Gadgets, Digital life)
+18. **Unit 18: Body Parts** (Anatomy)
+19. **Unit 19: Action!** (Can/Can't)
+20. **Unit 20: Where is it?** (Prepositions)
+21. **Unit 21: Let's Travel** (Transport)
+22. **Unit 22: Shopping Time** (Prices, Money)
+23. **Unit 23: Healthy Life** (Doctor, Health)
+24. **Unit 24: My Hobbies** (Sports, Leisure)
+25. **Unit 25: Past Memories** (Was/Were)
+26. **Unit 26: Did you?** (Past Simple intro)
+27. **Unit 27: Going to...** (Future plans)
+28. **Unit 28: Comparing Things** (Comparatives)
+29. **Unit 29: Final Graduation** (Full Review)
+30. **Unit 30: Bonus Challenge** (Advanced Mix)
 
 ### [x] Step: Implementation (Unit 1: Hello World!)
 
@@ -86,9 +87,16 @@
 3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `7919c9f0`)
 
-### [ ] Step: Implementation (Unit 8: Daily Grind)
+### [x] Step: Implementation (Unit 8: Daily Grind)
 
-1. [ ] Create `src/lib/course/a1/unit-8.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-8.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `e80e2846`)
+
+### [ ] Step: Implementation (Unit 9: Foodie Life)
+
+1. [ ] Create `src/lib/course/a1/unit-9.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
