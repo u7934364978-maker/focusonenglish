@@ -191,19 +191,46 @@ export class ExerciseGenerator {
     };
 
     if (blueprint.type === 'fill-blank') {
-      const firstSlotName = Object.keys(blueprint.slots)[0];
-      const answer = filledSlots[firstSlotName].lemma;
+      const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
+      const answer = filledSlots[slotName].lemma;
       
+      // We replace the placeholder in the original template to avoid leaking answers 
+      // already filled in previous steps
+      let questionText = blueprint.template;
+      for (const [name, item] of Object.entries(filledSlots)) {
+        if (name === slotName) {
+          questionText = questionText.replace(`{${name}}`, '_______');
+        } else {
+          // Check for articles before placeholders
+          const needsAn = /^[aeiou]/i.test(item.lemma);
+          const correctArticle = needsAn ? 'an' : 'a';
+          questionText = questionText.replace(new RegExp(`a {${name}}|an {${name}}`, 'g'), `${correctArticle} ${item.lemma}`);
+          questionText = questionText.replace(`{${name}}`, item.lemma);
+        }
+      }
+
       base.content.questions = [{
-        text: english.replace(new RegExp(`\\b${answer}\\b`, 'g'), '_______'),
-        correctAnswers: [answer],
+        text: questionText,
+        correctAnswer: answer, // ExerciseRenderer expects singular
         explanation: `💡 **Tip pedagógico**: ${spanish}.`
       }];
     } else if (blueprint.type === 'multiple-choice') {
-      const firstSlotName = Object.keys(blueprint.slots)[0];
-      const correctAnswer = filledSlots[firstSlotName].lemma;
+      const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
+      const correctAnswer = filledSlots[slotName].lemma;
       
-      const config = blueprint.slots[firstSlotName];
+      let questionText = blueprint.template;
+      for (const [name, item] of Object.entries(filledSlots)) {
+        if (name === slotName) {
+          questionText = questionText.replace(`{${name}}`, '_______');
+        } else {
+          const needsAn = /^[aeiou]/i.test(item.lemma);
+          const correctArticle = needsAn ? 'an' : 'a';
+          questionText = questionText.replace(new RegExp(`a {${name}}|an {${name}}`, 'g'), `${correctArticle} ${item.lemma}`);
+          questionText = questionText.replace(`{${name}}`, item.lemma);
+        }
+      }
+      
+      const config = blueprint.slots[slotName];
       const distractors = this.lexicon
         .filter(item => 
           item.lemma !== correctAnswer && 
@@ -214,7 +241,7 @@ export class ExerciseGenerator {
         .map(i => i.lemma);
 
       base.content.questions = [{
-        question: english.replace(new RegExp(`\\b${correctAnswer}\\b`, 'g'), '_______'),
+        question: questionText,
         options: this.shuffle([correctAnswer, ...distractors]),
         correctAnswer: correctAnswer,
         explanation: `💡 **Tip pedagógico**: ${spanish}.`

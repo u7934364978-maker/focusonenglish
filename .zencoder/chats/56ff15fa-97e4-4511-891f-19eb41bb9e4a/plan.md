@@ -69,3 +69,9 @@ Create a detailed implementation plan based on `spec.md`.
   - Fixed `ExerciseRenderer` multiple-choice string evaluation.
   - Added fallback logic in `ExerciseGenerator` to prevent crashes when lexical matches fail.
   - Added error state in debug page if generation fails.
+- [x] **Task 14: Pedagogical Logic & Content Variety**
+  - Introduced `correctSlot` in `Blueprint` to specify which slot is the answer.
+  - Refactored `assemble` in `generator.ts` to ensure answers are never leaked in the prompt.
+  - Fixed evaluation bug where `correctAnswers` (plural) was being ignored.
+  - Expanded Unit 1 & 2 Lexicon and Blueprints to support thousands of dynamic variants.
+  - Verified that all 30 units follow the pedagogical guidelines by targeting specific slots.

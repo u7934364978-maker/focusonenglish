@@ -7,6 +7,7 @@ export interface Blueprint {
   title?: string;
   instruction?: string;
   template: string;
+  correctSlot?: string; // New: specify which slot is the answer
   slots: Record<string, {
     pos?: string;
     tags?: string[];
@@ -24,6 +25,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Saludos',
     instruction: 'Elige el saludo correcto:',
     template: '{greeting}!',
+    correctSlot: 'greeting',
     slots: {
       greeting: { pos: 'noun', tags: ['greeting'] }
     },
@@ -34,14 +36,42 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     skillId: 'A1-BE-POS-01',
     type: 'fill-blank',
     title: 'Presentaciones',
-    instruction: 'Completa con "am":',
-    template: 'I {be} John.',
+    instruction: 'Completa con la forma correcta de "to be":',
+    template: 'I {be} {name}.',
+    correctSlot: 'be',
     slots: {
-      be: { fixedValues: ['am'] }
+      be: { fixedValues: ['am'] },
+      name: { pos: 'noun', tags: ['name'] }
     },
-    translationTemplate: 'Yo {be_es} John.'
+    translationTemplate: 'Yo {be_es} {name_es}.'
   },
-  // --- Skill: A1-WANT-01 (I want + drink) ---
+  {
+    id: 'BP-BE-02',
+    skillId: 'A1-BE-POS-01',
+    type: 'multiple-choice',
+    title: 'Nombres',
+    instruction: 'Elige el nombre correcto:',
+    template: 'I am {name}.',
+    correctSlot: 'name',
+    slots: {
+      name: { pos: 'noun', tags: ['name'] }
+    },
+    translationTemplate: 'Yo soy {name_es}.'
+  },
+  {
+    id: 'BP-GREET-02',
+    skillId: 'A1-GREET-01',
+    type: 'fill-blank',
+    title: 'Saludos Formales',
+    instruction: 'Completa el saludo:',
+    template: '{greeting}, Maria.',
+    correctSlot: 'greeting',
+    slots: {
+      greeting: { pos: 'noun', tags: ['greeting'] }
+    },
+    translationTemplate: '{greeting_es}, María.'
+  },
+  // --- Unit 2: Coffee Break ---
   {
     id: 'BP-WANT-01',
     skillId: 'A1-WANT-01',
@@ -49,6 +79,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: '¿Qué te apetece?',
     instruction: 'Completa la frase con la bebida correcta:',
     template: 'I want a {drink}.',
+    correctSlot: 'drink',
     slots: {
       drink: { pos: 'noun', tags: ['drink'] }
     },
@@ -60,12 +91,39 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: 'Estructura: I want',
     instruction: 'Elige el verbo correcto para expresar deseo:',
-    template: 'I {verb} a {drink}.',
+    template: 'I {verb} {drink}.',
+    correctSlot: 'verb',
     slots: {
       verb: { fixedValues: ['want'] },
       drink: { pos: 'noun', tags: ['drink'] }
     },
-    translationTemplate: 'Yo {verb_es} un {drink_es}.'
+    translationTemplate: 'Yo {verb_es} {drink_es}.'
+  },
+  {
+    id: 'BP-WANT-03',
+    skillId: 'A1-WANT-01',
+    type: 'multiple-choice',
+    title: 'Bebidas',
+    instruction: 'Elige la bebida mencionada:',
+    template: 'I want {drink}.',
+    correctSlot: 'drink',
+    slots: {
+      drink: { pos: 'noun', tags: ['drink'] }
+    },
+    translationTemplate: 'Quiero {drink_es}.'
+  },
+  {
+    id: 'BP-WANT-04',
+    skillId: 'A1-WANT-01',
+    type: 'fill-blank',
+    title: 'Ordenando',
+    instruction: 'Completa la orden:',
+    template: 'One {drink}, please.',
+    correctSlot: 'drink',
+    slots: {
+      drink: { pos: 'noun', tags: ['drink'] }
+    },
+    translationTemplate: 'Un {drink_es}, por favor.'
   },
 
   // --- Skill: A1-PREP-LOC-01 (Prepositions) ---
@@ -76,6 +134,22 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: '¿Dónde está el objeto?',
     instruction: 'Escribe la preposición de lugar correcta:',
     template: 'The {item} is {prep} the {surface}.',
+    correctSlot: 'prep',
+    slots: {
+      item: { pos: 'noun', tags: ['object'] },
+      prep: { fixedValues: ['on', 'in', 'under', 'next to'] },
+      surface: { pos: 'noun', tags: ['furniture'] }
+    },
+    translationTemplate: 'El/La {item_es} está {prep_es} el/la {surface_es}.'
+  },
+  {
+    id: 'BP-PREP-02',
+    skillId: 'A1-PREP-LOC-01',
+    type: 'multiple-choice',
+    title: 'Preposiciones de Lugar',
+    instruction: 'Elige la preposición correcta:',
+    template: 'The {item} is {prep} the {surface}.',
+    correctSlot: 'prep',
     slots: {
       item: { pos: 'noun', tags: ['object'] },
       prep: { fixedValues: ['on', 'in', 'under', 'next to'] },
@@ -103,6 +177,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Posesivos',
     instruction: 'Completa con el posesivo correcto (mi, tu):',
     template: '{poss} {member} is here.',
+    correctSlot: 'poss',
     slots: {
       poss: { pos: 'adjective', tags: ['possessive'] },
       member: { pos: 'noun', tags: ['family'] }
@@ -117,6 +192,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Rutina Diaria',
     instruction: '¿Qué haces durante el día?',
     template: 'I {action} in the {time}.',
+    correctSlot: 'action',
     slots: {
       action: { pos: 'verb', tags: ['routine'] },
       time: { pos: 'noun', tags: ['time'] }
@@ -131,6 +207,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Contando',
     instruction: 'Completa con el número correcto:',
     template: 'I have {num} {item}.',
+    correctSlot: 'num',
     slots: {
       num: { pos: 'adjective', tags: ['number'] },
       item: { pos: 'noun', tags: ['object'] }
@@ -145,6 +222,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Colores',
     instruction: '¿De qué color es este objeto?',
     template: 'The {item} is {color}.',
+    correctSlot: 'color',
     slots: {
       item: { pos: 'noun', tags: ['object'] },
       color: { pos: 'adjective', tags: ['color'] }
