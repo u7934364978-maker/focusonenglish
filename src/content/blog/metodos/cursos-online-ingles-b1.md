@@ -27,7 +27,7 @@ Si buscas **[cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)
 El **[nivel intermedio de inglés](/blog/metodos/cursos-online-ingles-b1)** requiere el dominio de estructuras que permiten expresar matices, hipótesis y cortesía de forma natural. No se trata solo de saber gramática, sino de saber cuándo aplicarla.
 *   **Tiempos Verbales Avanzados**: Dominarás el contraste entre el *Present Perfect Simple* y el *Past Simple*. Entenderás por qué decimos *"I have lost my keys"* (importancia presente) frente a *"I lost my keys yesterday"* (evento pasado cerrado).
 *   **Present Perfect Continuous**: Aprenderás a hablar de acciones que empezaron en el pasado y continúan ahora, enfatizando la duración: *"I've been studying for three hours"*.
-*   **Condicionales (0, 1 y 2)**: Estudiaremos a fondo las situaciones reales e imaginarias. Aprende cuándo usar el famoso *"If I were you..."* para dar consejos que suenen naturales. Consulta nuestra guía de **[condicionales en inglés](/blog/metodos/condicionales-ingles-guia-completa)**.
+*   **Condicionales (0, 1 y 2)**: Estudiaremos a fondo las situaciones reales e imaginarias. Aprende cuándo usar el famoso *"If I were you..."* para dar consejos que suenen naturales. Consulta nuestra guía de **[condicionales en inglés](/blog/gramatica/condicionales-ingles-guia-completa)**.
 *   **Voz Pasiva**: Esencial para contextos formales y profesionales donde el objeto es más importante que quien realiza la acción (*"The report was finished on time"*).
 
 ## 2. Preparación Específica para Exámenes Oficiales (B1)

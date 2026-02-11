@@ -6,7 +6,7 @@ keywords: ["voz pasiva avanzada ingles", "impersonal passive examples", "have so
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
-category: "metodos"
+category: "gramatica"
 ---
 
 Si ya dominas la pasiva básica (*The cake was eaten*), es hora de dar el salto al nivel **Advanced (C1)**. En este nivel, la voz pasiva no solo sirve para cambiar el sujeto, sino para sonar diplomático, objetivo y académicamente sofisticado.

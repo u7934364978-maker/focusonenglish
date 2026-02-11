@@ -1,16 +1,16 @@
 ---
-category: "metodos"
+category: "gramatica"
 date: "2026-02-08"
 author: "Focus English"
 title: "Reported Speech Ejercicios PDF: Practica y Descarga"
 description: "Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo para niveles B1, B2, C1 y C2 con soluciones incluidas para practicar el estilo indirecto."
 keywords: ["reporting verbs exercises pdf","reported speech c1 exercises pdf","ejercicios reported speech pdf","reporting verbs exercises with answers pdf","reported speech questions pdf"]
-canonical: "https://www.focus-on-english.com/blog/metodos/reported-speech-ejercicios-pdf"
+canonical: "https://www.focus-on-english.com/blog/gramatica/reported-speech-ejercicios-pdf"
 ---
 
 # Reported Speech Ejercicios PDF: Practica y Descarga
 
-Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **[estilo indirecto en inglés](/blog/metodos/reported-speech-ejercicios-pdf)**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
+Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **[estilo indirecto en inglés](/blog/gramatica/reported-speech-ejercicios-pdf)**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
 
 En esta guía, no solo te ofrecemos una serie de recursos y ejercicios descargables en PDF, sino que te enseñamos cómo utilizarlos de manera efectiva para que dejes de cometer los errores típicos que restan puntos en los exámenes oficiales de Cambridge, IELTS o TOEFL.
 
@@ -20,7 +20,7 @@ Hoy en día tenemos multitud de aplicaciones y herramientas interactivas, pero e
 *   **Concentración**: Al imprimir un ejercicio, eliminas las distracciones del móvil o el ordenador, permitiendo un enfoque profundo en las estructuras gramaticales.
 *   **Escritura manual**: Escribir las oraciones a mano ayuda a fijar las estructuras del Reported Speech en la memoria a largo plazo de forma mucho más efectiva que teclear.
 *   **Simulación de examen**: La mayoría de los exámenes internacionales de certificación aún se realizan en papel o requieren una producción escrita manual similar.
-*   **Portabilidad**: Puedes estudiar y practicar tus **[reporting verbs exercises PDF](/blog/metodos/reported-speech-ejercicios-pdf)** en cualquier lugar, sin depender de la conexión a internet.
+*   **Portabilidad**: Puedes estudiar y practicar tus **[reporting verbs exercises PDF](/blog/gramatica/reported-speech-ejercicios-pdf)** en cualquier lugar, sin depender de la conexión a internet.
 
 ## 2. Ejercicios por Niveles: Encuentra tu Reto
 
@@ -55,7 +55,7 @@ En los niveles superiores, el estilo indirecto se utiliza para reportar investig
 ## 4. Consejos para aprovechar al máximo tu práctica
 
 Para que estos ejercicios de Reported Speech realmente surtan efecto, te recomendamos seguir este método de estudio:
-1.  **Revisa la teoría primero**: No intentes hacer los ejercicios sin tener claros los patrones verbales. Puedes consultar nuestra **[Guía Maestra de Reporting Verbs](/blog/metodos/reporting-verbs-patterns-list)**.
+1.  **Revisa la teoría primero**: No intentes hacer los ejercicios sin tener claros los patrones verbales. Puedes consultar nuestra **[Guía Maestra de Reporting Verbs](/blog/gramatica/reporting-verbs-patterns-list)**.
 2.  **No mires las soluciones hasta el final**: Es tentador comprobar cada frase, pero es mejor completar una sección entera para detectar patrones de error.
 3.  **Analiza tus errores**: Si fallas en una estructura de "suggest", vuelve a la teoría y escribe cinco ejemplos propios usando ese verbo para fijar el conocimiento.
 4.  **Practica en voz alta**: Una vez escrita la oración reportada, léela en voz alta. Esto mejorará tu fluidez y te ayudará a "oír" la gramática correcta de forma natural.

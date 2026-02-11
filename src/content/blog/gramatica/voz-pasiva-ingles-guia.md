@@ -4,7 +4,7 @@ description: "Domina la voz pasiva en inglés de forma definitiva. Incluye fórm
 excerpt: "¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía exhaustiva te enseñamos desde las transformaciones básicas hasta las estructuras avanzadas como las pasivas impersonales y causativas, con ejemplos diseñados para exámenes oficiales."
 keywords: ["passive voice examples", "the passive voice", "examples of passive voice", "voz pasiva en ingles", "gramatica b1 b2", "ejercicios de gramatica en ingles", "practicar gramatica ingles", "causative have get", "impersonal passive english"]
 date: "2026-02-06"
-category: "metodos"
+category: "gramatica"
 author: "Focus English"
 image: "https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg"
 ---

@@ -1,11 +1,11 @@
 ---
-category: "metodos"
+category: "gramatica"
 date: "2026-02-07"
 author: "Focus English"
 title: "Gramática Inglés B1: Guía Completa de Temas, Reglas y Ejercicios"
 description: "Domina la gramática del nivel B1 de inglés. Tiempos verbales, condicionales, voz pasiva y más. La guía definitiva para preparar tu certificado oficial de Cambridge, Oxford o IELTS."
 keywords: ["gramatica ingles b1", "tiempos verbales b1", "condicionales ingles b1", "ejercicios gramatica b1", "gramatica inglesa b1", "condicionales en ingles", "zero conditional", "first conditional", "second conditional", "third conditional", "gramatica inglesa", "ejercicios condicionales ingles", "preposiciones de movimiento en ingles", "preposiciones en ingles", "to vs into", "across vs through", "ejercicios de gramatica en ingles", "present perfect and past simple", "present perfect tense examples", "difference between present perfect and past simple", "ejemplos present perfect vs past simple", "ejercicios gramatica ingles", "clases de gramatica en ingles gratis", "pronunciacion ingles", "reglas de pronunciacion en ingles", "como pronunciar ingles", "letras mudas ingles", "fonetica inglesa", "ejercicios de deletreo en ingles online", "reglas pronunciacion ingles", "relative clauses examples", "defining and non defining relative clauses", "relative pronouns english", "uso de who whom whose", "reported speech rules", "estilo indirecto ingles", "reported speech examples", "cambios verbales reported speech", "verbos modales ingles", "verbos modales ingles pdf", "verbos modales ingles esquema", "verbos modales en ingles pdf", "practicar verbos en ingles online gratis", "prendas de ropa en ingles", "clothes in english", "vocabulario ropa ingles", "nombres de ropa en ingles", "verbos para ropa ingles", "vocabulario ropa ingles pdf", "passive voice examples", "the passive voice", "examples of passive voice", "practicar gramatica ingles", "vocabulario ingles b1", "palabras ingles b1", "expresiones ingles b1", "vocabulario trabajo ingles b1", "aprender vocabulario ingles", "clases de inglés", "curso de inglés", "que significa tbt", "tbt significado", "slang in english", "acronimos redes sociales ingles", "ingles moderno internet"]
-canonical: "https://www.focus-on-english.com/blog/metodos/gramatica-ingles-b1-guia"
+canonical: "https://www.focus-on-english.com/blog/gramatica/gramatica-ingles-b1-guia"
 related_routes: ["cursos-online-ingles-b1", "ingles-b1"]
 ---
 
@@ -114,7 +114,7 @@ Además, se espera que empieces a dominar los **Phrasal Verbs** más comunes de 
 
 ## Conclusión y Práctica Práctica
 
-La **[gramática inglesa](/blog/metodos/gramatica-ingles-b1-guia)** es el esqueleto de tu comunicación. Sin embargo, saber la regla no es lo mismo que saber usarla bajo presión en una conversación real o en un examen oficial.
+La **[gramática inglesa](/blog/gramatica/gramatica-ingles-b1-guia)** es el esqueleto de tu comunicación. Sin embargo, saber la regla no es lo mismo que saber usarla bajo presión en una conversación real o en un examen oficial.
 
 En **Focus English**, hemos desarrollado una metodología única para que domines estos temas:
 1.  **IA Tutor de Gramática**: Practica escribiendo y recibe feedback instantáneo sobre tus tiempos verbales.

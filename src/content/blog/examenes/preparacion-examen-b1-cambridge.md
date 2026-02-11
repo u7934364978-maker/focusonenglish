@@ -73,7 +73,7 @@ Si quieres preparar el examen por tu cuenta, sigue este esquema:
 
 No necesitas comprar libros caros para aprobar. Aquí tienes los mejores **recursos gratis B1 ingles**:
 *   **Cambridge English**: Ofrece actividades online gratuitas en su sección de "Learning English".
-*   **Focus English Blog**: Nuestras guías de **[gramática B1](/blog/metodos/gramatica-ingles-b1-guia)** y **[vocabulario de trabajo](/blog/trabajo/vocabulario-b1-ingles-trabajo)** están diseñadas para este nivel.
+*   **Focus English Blog**: Nuestras guías de **[gramática B1](/blog/gramatica/gramatica-ingles-b1-guia)** y **[vocabulario de trabajo](/blog/trabajo/vocabulario-b1-ingles-trabajo)** están diseñadas para este nivel.
 *   **YouTube**: Canales como *English with Lucy* o *Learn English with TV Series* son excelentes para el Listening y la pronunciación.
 
 ---

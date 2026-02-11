@@ -6,7 +6,7 @@ keywords: ["condicionales en ingles", "zero conditional", "first conditional", "
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg"
-category: "metodos"
+category: "gramatica"
 ---
 
 Los **condicionales en inglés** son estructuras que utilizamos para hablar de situaciones reales o imaginarias y sus consecuencias. En el nivel académico (B1 a C1), dominar estas formas es crucial para expresar hipótesis, arrepentimientos o verdades universales.

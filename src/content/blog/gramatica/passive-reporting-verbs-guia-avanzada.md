@@ -1,11 +1,11 @@
 ---
-category: "metodos"
+category: "gramatica"
 date: "2026-02-08"
 author: "Focus English"
 title: "Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)"
 description: "Guía detallada sobre la voz pasiva con verbos de reporte. Aprende estructuras como 'It is said that' y 'He is said to be'. Ideal para niveles Advanced y Proficiency."
 keywords: ["passive reporting verbs","passive of reporting verbs","reporting verbs passive voice","passive reporting structures","reporting passive voice"]
-canonical: "https://www.focus-on-english.com/blog/metodos/passive-reporting-verbs-guia-avanzada"
+canonical: "https://www.focus-on-english.com/blog/gramatica/passive-reporting-verbs-guia-avanzada"
 ---
 
 # Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)
@@ -103,7 +103,7 @@ Intenta transformar estas oraciones a la estructura personal (la más difícil):
 
 Dominar los **passive reporting verbs** te permitirá expresarte con una sofisticación técnica que impresionará a examinadores y colegas profesionales. Ya sea mediante la estructura impersonal con "It" o la estructura personal con el infinitivo perfecto, estas herramientas son pilares de la gramática inglesa de nivel superior.
 
-[**Volver a la Guía Maestra de Reported Speech**](/blog/metodos/guia-maestra-reported-speech)
+[**Volver a la Guía Maestra de Reported Speech**](/blog/gramatica/guia-maestra-reported-speech)
 
 ---
 ¿Quieres practicar estas estructuras con ejercicios personalizados? En [**Focus English**](/cuenta/registro) utilizamos inteligencia artificial para ayudarte a perfeccionar tu gramática de nivel C1 y C2 con feedback instantáneo. ¡Regístrate hoy!

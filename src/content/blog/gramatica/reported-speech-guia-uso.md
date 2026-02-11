@@ -6,7 +6,8 @@ keywords: ["reported speech rules", "estilo indirecto ingles", "reported speech 
 author: "Equipo Focus English"
 date: "2026-02-06"
 image: "https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg"
-category: "metodos"
+category: "gramatica"
+canonical: "https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso"
 ---
 
 El **Reported Speech** (o estilo indirecto) es una de las herramientas más potentes y, a la vez, desafiantes de la gramática inglesa. Se utiliza fundamentalmente cuando queremos transmitir lo que otra persona ha dicho, pero sin repetir sus palabras exactas (lo que se conoce como *Direct Speech*). 
