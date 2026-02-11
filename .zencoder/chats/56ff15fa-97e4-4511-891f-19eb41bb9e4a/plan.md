@@ -112,7 +112,11 @@ Create a detailed implementation plan based on `spec.md`.
 - [x] **Task 23: Instruction & Template Cleanup**
   - [x] Update instructions for formal/informal context.
   - [x] Fix translation anchor answer leakage.
-- [ ] **Task 24: Final Validation & 30-Unit Polish**
+- [x] **Task 24: Fix Generation Crashes**
+  - [x] Fix `A1-UNIVERSAL` skill missing error.
+  - [x] Fix `typesSeen.has` TypeError in selection algorithm.
+  - [x] Ensure all matching blueprints have valid templates.
+- [ ] **Task 25: Final Validation & 30-Unit Polish**
   - [ ] Perform full walkthrough of Units 1-5.
   - [ ] Verify grammar for "I have two keys" and "Yo estudio".
   - [ ] Obtain user confirmation on pedagogical flow.

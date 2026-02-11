@@ -103,7 +103,7 @@ export class ExerciseGenerator {
     }
 
     // Ensure at least one matching if available in pool
-    if (!typesSeen.has('matching') && sessionExercises.length > 0) {
+    if (!typesSeen['matching'] && sessionExercises.length > 0) {
       const matchingBP = randomizedPool.find(wb => wb.bp.type === 'matching');
       if (matchingBP) {
         sessionExercises[sessionExercises.length - 1] = this.assemble(matchingBP.bp);
