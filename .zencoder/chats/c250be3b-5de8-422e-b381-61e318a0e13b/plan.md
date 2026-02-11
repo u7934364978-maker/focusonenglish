@@ -238,18 +238,27 @@
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
 4. [x] Fix TypeScript errors in unit data and renderers.
-5. [ ] Commit & Push for user review.
+5. [x] Commit & Push for user review. (Commit: `96f4f58a`)
 
-### [ ] Step: Implementation (Unit 29: Final Graduation)
+### [x] Step: Implementation (Unit 29: Final Graduation)
 
-1. [ ] Create `src/lib/course/a1/unit-29.ts` with 50 review exercises from Units 1-28.
-2. [ ] Add pedagogical explanations and 5-pair matching.
-3. [ ] Run audit script and fix issues.
-4. [ ] Commit & Push for user review.
+1. [x] Create `src/lib/course/a1/unit-29.ts` with 50 review exercises from Units 1-28.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `5883f0d9`)
 
-### [ ] Step: Implementation (Unit 30: Bonus Challenge)
+### [x] Step: Implementation (Unit 30: Bonus Challenge)
 
-1. [ ] Create `src/lib/course/a1/unit-30.ts` with 50 advanced mix exercises.
-2. [ ] Add pedagogical explanations and 5-pair matching.
-3. [ ] Run audit script and fix issues.
-4. [ ] Commit & Push for user review.
+1. [x] Create `src/lib/course/a1/unit-30.ts` with 50 advanced mix exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `7d4bdeac`)
+
+### [x] Step: Dynamic Exercise Assembly Engine (Scalability Phase)
+
+1. [x] Define **Atomic Skills (Skills)** manifest for A1 (e.g., `A1-WANT-01`). (File: `src/lib/course/engine/skills.ts`)
+2. [x] Build the **Lexical Bank (Lexicon)** with grammatical tags (countable, article, etc.). (File: `src/lib/course/engine/lexicon.ts`)
+3. [x] Create **Exercise Blueprints** (Parameterized templates) for 10-14 exercise types.
+4. [x] Implement **Variation Logic** (Slot filling with constraints & distractor rules).
+5. [x] Integrate **Quality Control Rules** (Grammar, level, novelty rotation).
+6. [x] Demonstration: Generate 10 variants for a Unit 2 exercise. (Commit: `9e9a4d67`)
