@@ -68,7 +68,8 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
       
       if (currentQuestion.options && Array.isArray(currentQuestion.options)) {
         // Multiple choice evaluation
-        const correct = userAnswer.answer === currentQuestion.correctAnswer;
+        const selectedOption = currentQuestion.options[userAnswer.answer];
+        const correct = currentQuestion.correctAnswer === (typeof currentQuestion.correctAnswer === 'number' ? userAnswer.answer : selectedOption);
         setIsCorrect(correct);
         
         const evalResult = {
@@ -343,7 +344,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                     <div className="space-y-3">
                       {q.options.map((option: any, optIndex: number) => {
                         const isUserAnswer = userAnswer?.questionIndex === qIndex && userAnswer?.answer === optIndex;
-                        const isCorrectAnswer = optIndex === q.correctAnswer;
+                        const isCorrectAnswer = q.correctAnswer === (typeof q.correctAnswer === 'number' ? optIndex : option);
                         const showAsCorrect = submitted && isCorrectAnswer;
                         const showAsIncorrect = submitted && isUserAnswer && !isCorrectAnswer;
                         

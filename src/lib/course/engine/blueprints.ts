@@ -16,6 +16,31 @@ export interface Blueprint {
 }
 
 export const A1_BLUEPRINTS: Blueprint[] = [
+  // --- Unit 1: Greetings ---
+  {
+    id: 'BP-GREET-01',
+    skillId: 'A1-GREET-01',
+    type: 'multiple-choice',
+    title: 'Saludos',
+    instruction: 'Elige el saludo correcto:',
+    template: '{greeting}!',
+    slots: {
+      greeting: { pos: 'noun', tags: ['greeting'] }
+    },
+    translationTemplate: '¡{greeting_es}!'
+  },
+  {
+    id: 'BP-BE-01',
+    skillId: 'A1-BE-POS-01',
+    type: 'fill-blank',
+    title: 'Presentaciones',
+    instruction: 'Completa con "am":',
+    template: 'I {be} John.',
+    slots: {
+      be: { fixedValues: ['am'] }
+    },
+    translationTemplate: 'Yo {be_es} John.'
+  },
   // --- Skill: A1-WANT-01 (I want + drink) ---
   {
     id: 'BP-WANT-01',

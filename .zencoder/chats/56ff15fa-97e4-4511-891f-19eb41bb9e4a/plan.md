@@ -64,3 +64,8 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Units 1-10 mapped (Blueprints, Lexicon, Skills).
   - [x] Units 11-20 mapped (Blueprints, Lexicon, Skills).
   - [x] Units 21-30 mapped (Blueprints, Lexicon, Skills).
+- [x] **Task 13: Fix Blank Screen & Improve Robustness**
+  - Added Unit 1 Blueprints and Lexicon (missing previously).
+  - Fixed `ExerciseRenderer` multiple-choice string evaluation.
+  - Added fallback logic in `ExerciseGenerator` to prevent crashes when lexical matches fail.
+  - Added error state in debug page if generation fails.

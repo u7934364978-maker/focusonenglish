@@ -9,6 +9,12 @@ export interface LexicalItem {
 }
 
 export const A1_LEXICON: LexicalItem[] = [
+  // Greetings (Unit 1)
+  { lemma: 'hello', pos: 'noun', translation: 'hola', tags: ['greeting', 'A1'] },
+  { lemma: 'hi', pos: 'noun', translation: 'hola', tags: ['greeting', 'A1'] },
+  { lemma: 'good morning', pos: 'noun', translation: 'buenos días', tags: ['greeting', 'A1'] },
+  { lemma: 'am', pos: 'verb', translation: 'soy/estoy', tags: ['be', 'A1'] },
+  
   // Drinks (Unit 2)
   { lemma: 'coffee', pos: 'noun', countable: false, article: 'some', translation: 'café', tags: ['drink', 'A1'] },
   { lemma: 'tea', pos: 'noun', countable: false, article: 'some', translation: 'té', tags: ['drink', 'A1'] },

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ExerciseGenerator } from '../../../lib/course/engine/generator';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
-import { ArrowLeft, ArrowRight, Home, RefreshCw, User } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Home, RefreshCw, User, XCircle } from 'lucide-react';
 import Link from 'next/link';
 import { Exercise } from '@/lib/exercise-generator';
 import { MasteryManager, StudentProfile } from '../../../lib/course/engine/mastery';
@@ -57,7 +57,21 @@ export default function EngineDebugPage() {
     </div>
   );
 
-  if (exercises.length === 0) return null;
+  if (exercises.length === 0) return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
+      <div className="text-center max-w-md">
+        <XCircle className="w-16 h-16 text-red-500 mx-auto mb-4" />
+        <h2 className="text-2xl font-black text-slate-800 mb-2">Error de Generación</h2>
+        <p className="text-slate-600 mb-6">No se pudieron generar ejercicios para la Unidad {targetUnit}. Verifica que existan Blueprints y Lexicon para esta unidad.</p>
+        <button 
+          onClick={() => generateNewSession()}
+          className="bg-slate-800 text-white px-6 py-3 rounded-xl font-bold hover:bg-slate-900 transition-all"
+        >
+          Reintentar
+        </button>
+      </div>
+    </div>
+  );
 
   const currentExercise = exercises[currentIndex];
 

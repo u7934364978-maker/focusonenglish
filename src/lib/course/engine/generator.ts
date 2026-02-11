@@ -126,8 +126,18 @@ export class ExerciseGenerator {
         });
 
         const selected = this.getRandom(pool);
-        filledSlots[slotName] = selected;
-        this.recentWords.add(selected.lemma);
+        if (!selected) {
+          // Absolute fallback: pick any word if no match
+          filledSlots[slotName] = this.getRandom(this.lexicon) || { 
+            lemma: '...', 
+            pos: 'noun', 
+            translation: '...', 
+            tags: [] 
+          };
+        } else {
+          filledSlots[slotName] = selected;
+          this.recentWords.add(selected.lemma);
+        }
       }
     }
 
