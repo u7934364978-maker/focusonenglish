@@ -24,14 +24,14 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'am', pos: 'verb', translation: 'soy', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'are', pos: 'verb', translation: 'eres/estás', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'is', pos: 'verb', translation: 'es/está', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Maria', pos: 'noun', translation: 'María', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'David', pos: 'noun', translation: 'David', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Anna', pos: 'noun', translation: 'Ana', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Peter', pos: 'noun', translation: 'Pedro', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Laura', pos: 'noun', translation: 'Laura', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Carlos', pos: 'noun', translation: 'Carlos', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
-  { lemma: 'Elena', pos: 'noun', translation: 'Elena', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Maria', pos: 'noun', translation: 'María', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'David', pos: 'noun', translation: 'David', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Anna', pos: 'noun', translation: 'Ana', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Peter', pos: 'noun', translation: 'Pedro', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Laura', pos: 'noun', translation: 'Laura', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Carlos', pos: 'noun', translation: 'Carlos', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
+  { lemma: 'Elena', pos: 'noun', translation: 'Elena', tags: ['name', 'proper_noun', 'human', 'A1'], unit: 1 },
   { lemma: 'Good evening', pos: 'noun', translation: 'Buenas noches', tags: ['greeting', 'A1'], unit: 1 },
   { lemma: 'Good night', pos: 'noun', translation: 'Buenas noches', tags: ['greeting', 'A1'], unit: 1 },
   { lemma: 'Welcome', pos: 'noun', translation: 'Bienvenido', tags: ['greeting', 'A1'], unit: 1 },
@@ -63,12 +63,12 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', i_es: 'soy', tags: ['be', 'A1'], unit: 1 },
 
   // Family (Unit 3)
-  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', plural_es: 'padres', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', plural_es: 'madres', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', plural_es: 'hermanas', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', plural_es: 'hermanos', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', plural_es: 'hijos', gender_es: 'm', tags: ['family', 'common_noun', 'A1'], unit: 3 },
-  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', plural_es: 'hijas', gender_es: 'f', tags: ['family', 'common_noun', 'A1'], unit: 3 },
+  { lemma: 'father', pos: 'noun', countable: true, article: 'a', plural: 'fathers', translation: 'padre', plural_es: 'padres', gender_es: 'm', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
+  { lemma: 'mother', pos: 'noun', countable: true, article: 'a', plural: 'mothers', translation: 'madre', plural_es: 'madres', gender_es: 'f', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
+  { lemma: 'sister', pos: 'noun', countable: true, article: 'a', plural: 'sisters', translation: 'hermana', plural_es: 'hermanas', gender_es: 'f', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
+  { lemma: 'brother', pos: 'noun', countable: true, article: 'a', plural: 'brothers', translation: 'hermano', plural_es: 'hermanos', gender_es: 'm', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
+  { lemma: 'son', pos: 'noun', countable: true, article: 'a', plural: 'sons', translation: 'hijo', plural_es: 'hijos', gender_es: 'm', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
+  { lemma: 'daughter', pos: 'noun', countable: true, article: 'a', plural: 'daughters', translation: 'hija', plural_es: 'hijas', gender_es: 'f', tags: ['family', 'common_noun', 'human', 'A1'], unit: 3 },
 
   // Possessives (Unit 3)
   { lemma: 'my', pos: 'adjective', translation: 'mi', tags: ['possessive', 'A1'], unit: 3 },
@@ -138,9 +138,9 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'school', pos: 'noun', translation: 'escuela', gender_es: 'f', tags: ['city', 'A1'], unit: 12 },
 
   // Movement (Unit 13)
-  { lemma: 'walk', pos: 'verb', translation: 'caminar', tags: ['movement', 'A1'], unit: 13 },
-  { lemma: 'run', pos: 'verb', translation: 'correr', tags: ['movement', 'A1'], unit: 13 },
-  { lemma: 'jump', pos: 'verb', translation: 'saltar', tags: ['movement', 'A1'], unit: 13 },
+  { lemma: 'walk', pos: 'verb', translation: 'caminar', tags: ['movement', 'physical_action', 'A1'], unit: 13 },
+  { lemma: 'run', pos: 'verb', translation: 'correr', tags: ['movement', 'physical_action', 'A1'], unit: 13 },
+  { lemma: 'jump', pos: 'verb', translation: 'saltar', tags: ['movement', 'physical_action', 'A1'], unit: 13 },
 
   // Emotions (Unit 14)
   { lemma: 'happy', pos: 'adjective', translation: 'feliz', tags: ['emotion', 'A1'], unit: 14 },

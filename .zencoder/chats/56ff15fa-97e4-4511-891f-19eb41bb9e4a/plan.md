@@ -129,4 +129,15 @@ Create a detailed implementation plan based on `spec.md`.
 - [x] **Task 30: Sensory Organ Mapping (Logic Guard)**
 - [x] **Task 31: Granular Vocabulary Gating (Discovery First)**
 - [x] **Task 34: Categorical Hard-Lock (Anti-Delirium)**
-- [x] **Task 35: Smart Distractors (Contextual Consistency)**
+- [x] **Task 36: Hardened Adaptive Engine**
+  - [x] Set matching exercises to exactly 6 unique pairs.
+  - [x] Implement unique translation mapping in matching to prevent ambiguous pairs.
+  - [x] Implement `forcePlural` in blueprints and anatomy pluralization logic.
+  - [x] Add `human` and `physical_action` tags to lexicon for semantic shielding.
+  - [x] Refactor fallback logic to be strictly categorical and avoid "delirium" words.
+  - [x] Implement strict word-level gating (Discovery -> Recognition -> Production).
+  - [x] Fix reflexive Spanish conjugation in routine templates.
+  - [x] Implement Semantic Compatibility Matrix (Preposition vs Surface/Container).
+- [ ] **Task 37: Final Browser Verification & Push**
+  - [ ] Verify all 30 units in `/debug/engine`.
+  - [ ] Perform git push and report commit number.

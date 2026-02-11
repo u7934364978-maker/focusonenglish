@@ -192,41 +192,70 @@ export class ExerciseGenerator {
           
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
           const exposure = profile.vocabulary[item.lemma];
-          const isDiscovered = exposure && (exposure.discoveryCount > 0 || exposure.recognitionCount > 0);
-          const pedagogicalMatch = isProduction ? isDiscovered : true;
+          const isDiscovered = exposure && exposure.discoveryCount > 0;
+          const isRecognized = exposure && exposure.recognitionCount > 0;
+          
+          let pedagogicalMatch = true;
+          if (isProduction) {
+            pedagogicalMatch = isDiscovered && isRecognized; // Need both to produce
+          } else if (blueprint.type === 'multiple-choice') {
+            pedagogicalMatch = isDiscovered; // Need to have seen it once to recognize
+          }
+          // Discovery types (flashcard, matching) always allow undiscovered words (that's how they discover them!)
 
-          return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield && pedagogicalMatch;
+          const semanticMatch = this.checkSemanticCompatibility(item, config, filledSlots);
+
+          return posMatch && tagMatch && unitMatch && noveltyMatch && properNounShield && pedagogicalMatch && semanticMatch;
         });
 
         // REFINED FALLBACK: If no matches, prioritize TAG MATCH over NOVELTY
         // This prevents "He is my orange juice" by forcing 'family' tag even if seen recently
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
-          const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t)); // CRITICAL: Keep tags!
+          const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t)); 
           const unitMatch = item.unit <= effectiveUnit; 
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
           
           const exposure = profile.vocabulary[item.lemma];
-          const isDiscovered = exposure && (exposure.discoveryCount > 0 || exposure.recognitionCount > 0);
-          const pedagogicalMatch = isProduction ? isDiscovered : true;
+          const isDiscovered = exposure && exposure.discoveryCount > 0;
+          const isRecognized = exposure && exposure.recognitionCount > 0;
+          
+          let pedagogicalMatch = true;
+          if (isProduction) {
+            pedagogicalMatch = isDiscovered && isRecognized; // Need both to produce
+          } else if (blueprint.type === 'multiple-choice') {
+            pedagogicalMatch = isDiscovered; // Need to have seen it once to recognize
+          }
+          // Discovery types (flashcard, matching) always allow undiscovered words (that's how they discover them!)
 
-          return posMatch && tagMatch && unitMatch && properNounShield && pedagogicalMatch;
+          const semanticMatch = this.checkSemanticCompatibility(item, config, filledSlots);
+
+          return posMatch && tagMatch && unitMatch && properNounShield && pedagogicalMatch && semanticMatch;
         });
 
         const selected = this.getRandom(pool);
         if (!selected) {
-          // Absolute fallback: MUST still respect tags if defined in blueprint
-          const safePool = this.lexicon.filter(item => {
-            const unitMatch = item.unit <= effectiveUnit;
+          // absolute fallback: search for ANY item that matches tags, ignoring novelty/pedagogy
+          const tagMatches = this.lexicon.filter(item => {
             const posMatch = !config.pos || item.pos === config.pos;
-            const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
-            const notProperNoun = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
-            const notGreeting = config.tags?.includes('greeting') ? true : !item.tags.includes('greeting');
-            
-            return unitMatch && posMatch && tagMatch && notProperNoun && notGreeting;
+            const tagMatch = config.tags ? config.tags.every(t => item.tags.includes(t)) : true;
+            return posMatch && tagMatch;
           });
 
-          filledSlots[slotName] = this.getRandom(safePool) || this.lexicon[0];
+          if (tagMatches.length > 0) {
+            filledSlots[slotName] = this.getRandom(tagMatches);
+          } else {
+            // Last resort: matches POS and avoids "delirium" words (greetings/names in wrong places)
+            const safePool = this.lexicon.filter(item => {
+              const posMatch = !config.pos || item.pos === config.pos;
+              const notProperNoun = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
+              const notGreeting = config.tags?.includes('greeting') ? true : !item.tags.includes('greeting');
+              // Avoid words from much later units if possible
+              return posMatch && notProperNoun && notGreeting && item.unit <= effectiveUnit + 5;
+            });
+
+            filledSlots[slotName] = this.getRandom(safePool) || this.lexicon.find(l => l.pos === config.pos) || this.lexicon[0];
+          }
         } else {
           filledSlots[slotName] = selected;
           this.recentWords.add(selected.lemma);
@@ -242,23 +271,30 @@ export class ExerciseGenerator {
 
     for (const slotName of sortedSlotNames) {
       const item = filledSlots[slotName];
+      const slotConfig = blueprint.slots[slotName];
       
-      // Determine if we need plural form (for numbers)
+      // Determine if we need plural form (for numbers or forced)
       const numSlot = Object.keys(filledSlots).find(key => filledSlots[key].tags.includes('number'));
       const numberValue = numSlot ? filledSlots[numSlot].lemma : null;
-      const isPlural = numberValue !== null && numberValue !== 'one' && numberValue !== '1';
+      const isNumberPlural = numberValue !== null && numberValue !== 'one' && numberValue !== '1';
+      const isPlural = isNumberPlural || slotConfig?.forcePlural === true;
       
       const englishLemma = (isPlural && item.plural) ? item.plural : item.lemma;
       
       // Smart Spanish Translation (Conjugation + Pluralization)
       let spanishLemma = item.translation;
-      if (item.pos === 'verb' && item.i_es && (blueprint.template.startsWith('I ') || blueprint.template.includes(' I '))) {
+      if (item.pos === 'verb' && item.i_es && (blueprint.template.includes('I ') || blueprint.template.startsWith('I '))) {
         spanishLemma = item.i_es;
       }
       
-      // Pluralize Spanish nouns if count > 1
+      // Pluralize Spanish nouns if needed
       if (isPlural && item.pos === 'noun' && item.plural_es) {
         spanishLemma = item.plural_es;
+      } else if (isPlural && item.pos === 'noun' && !item.plural_es) {
+        // Fallback pluralization for Spanish
+        spanishLemma = item.translation.endsWith('a') || item.translation.endsWith('e') || item.translation.endsWith('o') 
+          ? item.translation + 's' 
+          : item.translation + 'es';
       }
       
       // Dynamic Spanish Articles based on gender
@@ -313,11 +349,12 @@ export class ExerciseGenerator {
 
     const slotName = blueprint.correctSlot || Object.keys(blueprint.slots)[0];
     const correctItem = filledSlots[slotName];
+    const correctSlotConfig = blueprint.slots[slotName];
 
     // Determine if we need plural form for the answer
     const isNumber = filledSlots['num']?.tags.includes('number') || filledSlots['number']?.tags.includes('number');
     const numberValue = filledSlots['num']?.lemma || filledSlots['number']?.lemma;
-    const isPlural = isNumber && numberValue !== 'one' && numberValue !== '1';
+    const isPlural = (isNumber && numberValue !== 'one' && numberValue !== '1') || correctSlotConfig?.forcePlural === true;
     
     const answer = (isPlural && correctItem.plural) ? correctItem.plural : correctItem.lemma;
     
@@ -415,27 +452,47 @@ export class ExerciseGenerator {
         explanation: explanation
       }];
     } else if (blueprint.type === 'matching') {
-      // Logic for 8 pairs of matching words
+      // Logic for 6 pairs of matching words with unique translations
       const semanticTags = blueprint.slots[slotName]?.tags || correctItem.tags || [];
       const unitConstraint = effectiveUnit; 
 
-      let pairsPool = this.shuffle(this.lexicon
+      // Helper to filter unique translations
+      const getUniquePairs = (pool: LexicalItem[], limit: number, existing: LexicalItem[] = []) => {
+        const result: LexicalItem[] = [...existing];
+        const seenTranslations = new Set(existing.map(item => item.translation.toLowerCase()));
+        const seenLemmas = new Set(existing.map(item => item.lemma.toLowerCase()));
+
+        for (const item of pool) {
+          const trans = item.translation.toLowerCase();
+          const lem = item.lemma.toLowerCase();
+          if (!seenTranslations.has(trans) && !seenLemmas.has(lem)) {
+            result.push(item);
+            seenTranslations.add(trans);
+            seenLemmas.add(lem);
+          }
+          if (result.length >= limit) break;
+        }
+        return result;
+      };
+
+      const candidates = this.shuffle(this.lexicon
         .filter(item => 
           (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
           item.translation !== '' &&
           item.unit === unitConstraint 
-        )).slice(0, 8);
+        ));
+
+      let pairsPool = getUniquePairs(candidates, 6);
 
       // Fallback: If not enough in current unit, take from previous units
-      if (pairsPool.length < 4) {
-        const extraPool = this.shuffle(this.lexicon
+      if (pairsPool.length < 6) {
+        const extraCandidates = this.shuffle(this.lexicon
           .filter(item => 
             (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
             item.translation !== '' &&
-            item.unit < unitConstraint &&
-            !pairsPool.some(p => p.lemma === item.lemma)
-          )).slice(0, 8 - pairsPool.length);
-        pairsPool = [...pairsPool, ...extraPool];
+            item.unit < unitConstraint
+          ));
+        pairsPool = getUniquePairs(extraCandidates, 6, pairsPool);
       }
 
       const pairs = pairsPool.map(item => ({
@@ -471,5 +528,30 @@ export class ExerciseGenerator {
 
   private shuffle<T>(arr: T[]): T[] {
     return [...arr].sort(() => Math.random() - 0.5);
+  }
+
+  private checkSemanticCompatibility(item: LexicalItem, config: any, alreadyFilled: Record<string, LexicalItem>): boolean {
+    // 1. Preposition vs Target
+    if (item.pos === 'preposition') {
+      const surface = alreadyFilled['surface'];
+      const container = alreadyFilled['container'];
+      
+      if (surface && item.lemma === 'in') return false; // Can't be 'in' a surface (table/chair)
+      if (container && (item.lemma === 'on' || item.lemma === 'under')) return false; // Unlikely 'on' a box for A1
+    }
+
+    // 2. Anatomy plurals
+    if (item.tags.includes('body') && config.forcePlural && !item.plural) {
+      // If we force plural but item has no plural form, it's likely a non-paired body part (nose, mouth)
+      // We prefer paired parts (eyes, ears) for "I see with my..."
+      if (item.lemma === 'nose' || item.lemma === 'mouth') return false;
+    }
+
+    // 3. Movement verbs
+    if (item.tags.includes('movement') && !item.tags.includes('physical_action')) {
+      // Movement verbs should be physical actions
+    }
+
+    return true;
   }
 }

@@ -13,6 +13,7 @@ export interface Blueprint {
     pos?: string;
     tags?: string[];
     fixedValues?: string[];
+    forcePlural?: boolean;
   }>;
   translationTemplate: string;
 }
@@ -42,7 +43,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     correctSlot: 'be',
     slots: {
       be: { fixedValues: ['am'] },
-      name: { pos: 'noun', tags: ['name'] }
+      name: { pos: 'noun', tags: ['name', 'human'] }
     },
     translationTemplate: 'Yo {be_es} {name_es}.'
   },
@@ -56,7 +57,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     correctSlot: 'be',
     slots: {
       be: { fixedValues: ['am'] },
-      name: { pos: 'noun', tags: ['name'] }
+      name: { pos: 'noun', tags: ['name', 'human'] }
     },
     translationTemplate: 'Yo {be_es} {name_es}.'
   },
@@ -194,7 +195,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     template: 'He is my {member}.',
     correctSlot: 'member',
     slots: {
-      member: { pos: 'noun', tags: ['family'] }
+      member: { pos: 'noun', tags: ['family', 'human'] }
     },
     translationTemplate: 'Él es mi {member_es}.'
   },
@@ -207,7 +208,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     template: 'She is my {member}.',
     correctSlot: 'member',
     slots: {
-      member: { pos: 'noun', tags: ['family'] }
+      member: { pos: 'noun', tags: ['family', 'human'] }
     },
     translationTemplate: 'Ella es mi {member_es}.'
   },
@@ -379,7 +380,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     template: 'I {verb} to school.',
     correctSlot: 'verb',
     slots: {
-      verb: { pos: 'verb', tags: ['movement', 'physical_action'] }
+      verb: { pos: 'verb', tags: ['movement'] }
     },
     translationTemplate: 'Yo {verb_es} a la escuela.'
   },
@@ -444,7 +445,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: '¿Con qué parte ves?',
     template: 'I see with my {part}.',
     slots: {
-      part: { pos: 'noun', tags: ['body'] }
+      part: { pos: 'noun', tags: ['body'], forcePlural: true }
     },
     translationTemplate: 'Veo con mis {part_es}.'
   },
