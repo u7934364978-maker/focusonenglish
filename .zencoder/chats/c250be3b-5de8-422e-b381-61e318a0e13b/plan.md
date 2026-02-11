@@ -162,11 +162,18 @@
 1. [x] Create `src/lib/course/a1/unit-18.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
-4. [x] Commit & Push for user review. (Commit: `4cbd676b`)
+4. [x] Commit & Push for user review. (Commit: `b2e82572`)
 
-### [ ] Step: Implementation (Unit 19: Action!)
+### [x] Step: Implementation (Unit 19: Action!)
 
-1. [ ] Create `src/lib/course/a1/unit-19.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-19.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `pending`)
+
+### [ ] Step: Implementation (Unit 20: Where is it?)
+
+1. [ ] Create `src/lib/course/a1/unit-20.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
