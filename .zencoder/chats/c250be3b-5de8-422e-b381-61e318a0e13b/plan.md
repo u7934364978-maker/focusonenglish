@@ -176,11 +176,18 @@
 1. [x] Create `src/lib/course/a1/unit-20.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `c5c0bbcc`)
+
+### [x] Step: Implementation (Unit 21: Let's Travel)
+
+1. [x] Create `src/lib/course/a1/unit-21.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `pending`)
 
-### [ ] Step: Implementation (Unit 21: Let's Travel)
+### [ ] Step: Implementation (Unit 22: Shopping Time)
 
-1. [ ] Create `src/lib/course/a1/unit-21.ts` with 50 exercises.
+1. [ ] Create `src/lib/course/a1/unit-22.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
