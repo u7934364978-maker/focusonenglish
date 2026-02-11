@@ -218,6 +218,11 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
               <span className="font-black">Explanation</span>
             </div>
             {ex.explanation}
+            {!isCorrect && (ex as any).answers && (
+              <div className="mt-2 pt-2 border-t border-blue-200">
+                <span className="font-bold">Correct answer:</span> {(ex as any).answers.join(', ')}
+              </div>
+            )}
           </div>
         )}
       </div>

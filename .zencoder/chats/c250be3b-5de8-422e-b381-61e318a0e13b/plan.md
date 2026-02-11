@@ -218,4 +218,16 @@
 1. [x] Create `src/lib/course/a1/unit-26.ts` with 50 exercises.
 2. [x] Add pedagogical explanations and 5-pair matching.
 3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `b23e1840`)
+
+### [x] Step: Bug Fixes & Refinements
+
+1. [x] Fix `correctAnswer: undefined` bug in `ExerciseRenderer.tsx`.
+2. [x] Refine Unit 17 vocabulary introduction for "laptop".
+
+### [x] Step: Implementation (Unit 27: Going to...)
+
+1. [x] Create `src/lib/course/a1/unit-27.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.

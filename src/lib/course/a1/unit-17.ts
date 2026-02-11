@@ -12,10 +12,10 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       title: 'Dispositivos Básicos',
       instructions: 'Une cada dispositivo con su traducción al español.',
       pairs: [
-        { id: 'p1', left: 'Computer', right: 'Ordenador/Computadora' },
+        { id: 'p1', left: 'Laptop', right: 'Ordenador portátil' },
         { id: 'p2', left: 'Phone', right: 'Teléfono' },
         { id: 'p3', left: 'Tablet', right: 'Tableta' },
-        { id: 'p4', left: 'Screen', right: 'Pantalla' },
+        { id: 'p4', left: 'Computer', right: 'Ordenador' },
         { id: 'p5', left: 'Keyboard', right: 'Teclado' }
       ],
       explanation: 'Estos son los dispositivos tecnológicos más comunes que usamos a diario.'

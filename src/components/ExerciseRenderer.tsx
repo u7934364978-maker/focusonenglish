@@ -99,7 +99,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         const evalResult = {
           isCorrect: correct,
           score: correct ? 100 : 0,
-          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${q.correctAnswer}`,
+          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${q.correctAnswer || (Array.isArray(q.correctAnswers) ? q.correctAnswers[0] : (q.correctAnswers || 'N/A'))}`,
         };
         setEvaluation(evalResult);
 
