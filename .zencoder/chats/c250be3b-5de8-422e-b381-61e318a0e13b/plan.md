@@ -94,9 +94,16 @@
 3. [x] Run audit script and fix issues.
 4. [x] Commit & Push for user review. (Commit: `e80e2846`)
 
-### [ ] Step: Implementation (Unit 9: Foodie Life)
+### [x] Step: Implementation (Unit 9: Foodie Life)
 
-1. [ ] Create `src/lib/course/a1/unit-9.ts` with 50 exercises.
+1. [x] Create `src/lib/course/a1/unit-9.ts` with 50 exercises.
+2. [x] Add pedagogical explanations and 5-pair matching.
+3. [x] Run audit script and fix issues.
+4. [x] Commit & Push for user review. (Commit: `50a4dfae`)
+
+### [ ] Step: Implementation (Unit 10: Outfit of the Day)
+
+1. [ ] Create `src/lib/course/a1/unit-10.ts` with 50 exercises.
 2. [ ] Add pedagogical explanations and 5-pair matching.
 3. [ ] Run audit script and fix issues.
 4. [ ] Commit & Push for user review.
