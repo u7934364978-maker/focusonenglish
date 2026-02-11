@@ -174,13 +174,15 @@ export class ExerciseGenerator {
 
         const selected = this.getRandom(pool);
         if (!selected) {
-          // Absolute fallback: pick any word if no match
-          filledSlots[slotName] = this.getRandom(this.lexicon) || { 
-            lemma: '...', 
-            pos: 'noun', 
-            translation: '...', 
-            tags: [] 
-          };
+          // Absolute fallback but still respecting unit and excluding proper nouns for common slots
+          const safePool = this.lexicon.filter(item => {
+            const unitMatch = item.unit <= skill.unit;
+            const posMatch = !config.pos || item.pos === config.pos;
+            const notProperNoun = !item.tags.includes('proper_noun');
+            return unitMatch && posMatch && notProperNoun;
+          });
+
+          filledSlots[slotName] = this.getRandom(safePool) || this.lexicon[0];
         } else {
           filledSlots[slotName] = selected;
           this.recentWords.add(selected.lemma);
@@ -188,27 +190,34 @@ export class ExerciseGenerator {
       }
     }
 
-    // 2. Build strings and apply Smart Grammar (a/an)
+    // 2. Build strings and apply Smart Grammar (a/an + Plurals)
     let englishText = blueprint.template;
     let spanishText = blueprint.translationTemplate;
 
-    // Sort slots to handle articles that might precede them
     const sortedSlotNames = Object.keys(filledSlots);
 
     for (const slotName of sortedSlotNames) {
       const item = filledSlots[slotName];
       
-      // Handle "a/an" logic: Replace "a {slot}" or "an {slot}" with correct one
-      const needsAn = /^[aeiou]/i.test(item.lemma);
+      // Determine if we need plural form (for numbers)
+      const isNumber = filledSlots['num']?.tags.includes('number') || filledSlots['number']?.tags.includes('number');
+      const numberValue = filledSlots['num']?.lemma || filledSlots['number']?.lemma;
+      const isPlural = isNumber && numberValue !== 'one' && numberValue !== '1';
+      
+      const englishLemma = (isPlural && item.plural) ? item.plural : item.lemma;
+      const spanishLemma = item.translation; // Spanish pluralization is more complex, keeping simple for now
+
+      // Handle "a/an" logic
+      const needsAn = /^[aeiou]/i.test(englishLemma);
       const correctArticle = needsAn ? 'an' : 'a';
 
-      // Replace generic article markers if present in template
-      englishText = englishText.replace(new RegExp(`a {${slotName}}`, 'g'), `${correctArticle} ${item.lemma}`);
-      englishText = englishText.replace(new RegExp(`an {${slotName}}`, 'g'), `${correctArticle} ${item.lemma}`);
+      // Replace generic article markers
+      englishText = englishText.replace(new RegExp(`a {${slotName}}`, 'g'), `${correctArticle} ${englishLemma}`);
+      englishText = englishText.replace(new RegExp(`an {${slotName}}`, 'g'), `${correctArticle} ${englishLemma}`);
       
-      // Fallback for direct slot replacement
-      englishText = englishText.replace(`{${slotName}}`, item.lemma);
-      spanishText = spanishText.replace(`{${slotName}_es}`, item.translation);
+      // Direct slot replacement
+      englishText = englishText.replace(`{${slotName}}`, englishLemma);
+      spanishText = spanishText.replace(`{${slotName}_es}`, spanishLemma);
     }
 
     return this.mapToExercise(blueprint, englishText, spanishText, skill, filledSlots);

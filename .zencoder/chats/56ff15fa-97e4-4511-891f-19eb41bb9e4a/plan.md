@@ -98,3 +98,8 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Implement full `matching` logic in `generator.ts` (pair 8 items).
   - [x] Implement `flashcard` presentation logic.
   - [x] Ensure the selection algorithm intersperses these types to avoid monotony.
+- [x] **Task 20: Pedagogical Refinement & Semantic Shielding**
+  - [x] Refactor Blueprints to focus `correctSlot` on verbs, prepositions, and articles.
+  - [x] Implement `proper_noun` vs `common_noun` logic to prevent semantic errors.
+  - [x] Add automated pluralization logic for number-based exercises.
+  - [x] Classify verbs (physical vs stative) to ensure logical skill sentences.

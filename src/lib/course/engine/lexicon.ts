@@ -20,14 +20,14 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'am', pos: 'verb', translation: 'soy', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'are', pos: 'verb', translation: 'eres/estás', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'is', pos: 'verb', translation: 'es/está', tags: ['be', 'A1'], unit: 1 },
-  { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Maria', pos: 'noun', translation: 'María', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'David', pos: 'noun', translation: 'David', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Anna', pos: 'noun', translation: 'Ana', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Peter', pos: 'noun', translation: 'Pedro', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Laura', pos: 'noun', translation: 'Laura', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Carlos', pos: 'noun', translation: 'Carlos', tags: ['name', 'A1'], unit: 1 },
-  { lemma: 'Elena', pos: 'noun', translation: 'Elena', tags: ['name', 'A1'], unit: 1 },
+  { lemma: 'John', pos: 'noun', translation: 'Juan', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Maria', pos: 'noun', translation: 'María', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'David', pos: 'noun', translation: 'David', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Anna', pos: 'noun', translation: 'Ana', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Peter', pos: 'noun', translation: 'Pedro', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Laura', pos: 'noun', translation: 'Laura', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Carlos', pos: 'noun', translation: 'Carlos', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
+  { lemma: 'Elena', pos: 'noun', translation: 'Elena', tags: ['name', 'proper_noun', 'A1'], unit: 1 },
   { lemma: 'Good evening', pos: 'noun', translation: 'Buenas noches', tags: ['greeting', 'A1'], unit: 1 },
   { lemma: 'Good night', pos: 'noun', translation: 'Buenas noches', tags: ['greeting', 'A1'], unit: 1 },
   { lemma: 'Welcome', pos: 'noun', translation: 'Bienvenido', tags: ['greeting', 'A1'], unit: 1 },
@@ -39,11 +39,11 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'orange juice', pos: 'noun', countable: false, article: 'some', translation: 'zumo de naranja', tags: ['drink', 'A1'], unit: 2 },
   { lemma: 'milk', pos: 'noun', countable: false, article: 'some', translation: 'leche', tags: ['drink', 'A1'], unit: 2 },
   
-  // Objects (Unit 20)
-  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', tags: ['object', 'A1'], unit: 20 },
-  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', tags: ['object', 'A1'], unit: 20 },
-  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', tags: ['food', 'fruit', 'A1'], unit: 20 },
-  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', tags: ['object', 'A1'], unit: 20 },
+  // Objects (Unit 5/20)
+  { lemma: 'book', pos: 'noun', countable: true, article: 'a', plural: 'books', translation: 'libro', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'key', pos: 'noun', countable: true, article: 'a', plural: 'keys', translation: 'llave', tags: ['object', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'apple', pos: 'noun', countable: true, article: 'an', plural: 'apples', translation: 'manzana', tags: ['food', 'fruit', 'common_noun', 'A1'], unit: 5 },
+  { lemma: 'pen', pos: 'noun', countable: true, article: 'a', plural: 'pens', translation: 'bolígrafo', tags: ['object', 'common_noun', 'A1'], unit: 5 },
   
   // Surfaces/Places
   { lemma: 'table', pos: 'noun', countable: true, article: 'a', plural: 'tables', translation: 'mesa', tags: ['furniture', 'A1'], unit: 20 },
@@ -52,9 +52,9 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'fridge', pos: 'noun', countable: true, article: 'a', plural: 'fridges', translation: 'nevera', tags: ['appliance', 'A1'], unit: 20 },
 
   // Verbs
-  { lemma: 'want', pos: 'verb', translation: 'querer', tags: ['desire', 'A1'], unit: 2 },
-  { lemma: 'drink', pos: 'verb', translation: 'beber', tags: ['action', 'A1'], unit: 2 },
-  { lemma: 'eat', pos: 'verb', translation: 'comer', tags: ['action', 'A1'], unit: 9 },
+  { lemma: 'want', pos: 'verb', translation: 'querer', tags: ['stative_verb', 'A1'], unit: 2 },
+  { lemma: 'drink', pos: 'verb', translation: 'beber', tags: ['physical_action', 'A1'], unit: 2 },
+  { lemma: 'eat', pos: 'verb', translation: 'comer', tags: ['physical_action', 'A1'], unit: 9 },
   { lemma: 'is', pos: 'verb', translation: 'es/está', tags: ['be', 'A1'], unit: 1 },
   { lemma: 'are', pos: 'verb', translation: 'somos/estamos/son/están', tags: ['be', 'A1'], unit: 1 },
 

@@ -262,7 +262,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     correctSlot: 'num',
     slots: {
       num: { pos: 'adjective', tags: ['number'] },
-      item: { pos: 'noun', tags: ['object'] }
+      item: { pos: 'noun', tags: ['common_noun', 'object'] }
     },
     translationTemplate: 'Tengo {num_es} {item_es}.'
   },
@@ -289,6 +289,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Días de la Semana',
     instruction: 'Identifica el día:',
     template: 'Today is {day}.',
+    correctSlot: 'day',
     slots: {
       day: { pos: 'noun', tags: ['day'] }
     },
@@ -315,11 +316,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: 'Gustos',
     instruction: '¿Qué te gusta comer?',
-    template: 'I like {food}.',
+    template: 'I {verb} {food}.',
+    correctSlot: 'verb',
     slots: {
-      food: { pos: 'noun', tags: ['food'] }
+      verb: { fixedValues: ['like'] },
+      food: { pos: 'noun', tags: ['food', 'common_noun'] }
     },
-    translationTemplate: 'Me gusta la {food_es}.'
+    translationTemplate: 'Me {verb_es} la {food_es}.'
   },
   // --- Unit 10: Clothes ---
   {
@@ -328,11 +331,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'fill-blank',
     title: '¿Qué llevas puesto?',
     instruction: 'Completa con la prenda:',
-    template: 'I am wearing {cloth}.',
+    template: 'I am {verb} {cloth}.',
+    correctSlot: 'verb',
     slots: {
-      cloth: { pos: 'noun', tags: ['clothing'] }
+      verb: { fixedValues: ['wearing'] },
+      cloth: { pos: 'noun', tags: ['clothing', 'common_noun'] }
     },
-    translationTemplate: 'Llevo puesto {cloth_es}.'
+    translationTemplate: 'Estoy {verb_es} {cloth_es}.'
   },
   // --- Unit 11: Jobs ---
   {
@@ -341,11 +346,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: 'Profesiones',
     instruction: '¿Cuál es su trabajo?',
-    template: 'I am a {job}.',
+    template: 'I am {art} {job}.',
+    correctSlot: 'art',
     slots: {
-      job: { pos: 'noun', tags: ['job'] }
+      art: { fixedValues: ['a', 'an'] },
+      job: { pos: 'noun', tags: ['job', 'common_noun'] }
     },
-    translationTemplate: 'Soy {job_es}.'
+    translationTemplate: 'Soy {art_es} {job_es}.'
   },
   // --- Unit 12: City ---
   {
@@ -354,11 +361,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: 'En la Ciudad',
     instruction: '¿A dónde vas?',
-    template: 'I go to the {place}.',
+    template: 'I {verb} to the {place}.',
+    correctSlot: 'verb',
     slots: {
-      place: { pos: 'noun', tags: ['city'] }
+      verb: { fixedValues: ['go'] },
+      place: { pos: 'noun', tags: ['city', 'common_noun'] }
     },
-    translationTemplate: 'Voy al {place_es}.'
+    translationTemplate: '{verb_es} al {place_es}.'
   },
   // --- Unit 13: Movement ---
   {
@@ -368,8 +377,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Movimiento',
     instruction: 'Completa con el verbo de movimiento:',
     template: 'I {verb} to school.',
+    correctSlot: 'verb',
     slots: {
-      verb: { pos: 'verb', tags: ['movement'] }
+      verb: { pos: 'verb', tags: ['movement', 'physical_action'] }
     },
     translationTemplate: 'Yo {verb_es} a la escuela.'
   },
@@ -446,8 +456,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Habilidades',
     instruction: '¿Qué puedes hacer?',
     template: 'I can {action} very well.',
+    correctSlot: 'action',
     slots: {
-      action: { pos: 'verb', tags: ['action'] }
+      action: { pos: 'verb', tags: ['physical_action'] }
     },
     translationTemplate: 'Puedo {action_es} muy bien.'
   },
@@ -458,11 +469,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: '¿Dónde está?',
     instruction: 'Usa la preposición correcta:',
-    template: 'The ball is {prep} the box.',
+    template: 'The {item} is {prep} the box.',
+    correctSlot: 'prep',
     slots: {
+      item: { pos: 'noun', tags: ['common_noun', 'object'] },
       prep: { pos: 'preposition', tags: ['prep'] }
     },
-    translationTemplate: 'La pelota está {prep_es} la caja.'
+    translationTemplate: 'El/La {item_es} está {prep_es} la caja.'
   },
   // --- Unit 21: Travel ---
   {
