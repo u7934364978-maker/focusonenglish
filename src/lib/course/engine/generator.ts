@@ -94,7 +94,7 @@ export class ExerciseGenerator {
       if (isOverRepresented && randomizedPool.length > count) {
         // Skip this one to find more variety
       } else {
-        sessionExercises.push(this.assemble(bp));
+        sessionExercises.push(this.assemble(bp, targetUnit));
         typesSeen[bp.type] = (typesSeen[bp.type] || 0) + 1;
       }
 
@@ -106,11 +106,19 @@ export class ExerciseGenerator {
     if (!typesSeen['matching'] && sessionExercises.length > 0) {
       const matchingBP = randomizedPool.find(wb => wb.bp.type === 'matching');
       if (matchingBP) {
-        sessionExercises[sessionExercises.length - 1] = this.assemble(matchingBP.bp);
+        sessionExercises[sessionExercises.length - 1] = this.assemble(matchingBP.bp, targetUnit);
       }
     }
 
-    return sessionExercises;
+    // PEDAGOGICAL SORTING:
+    // Move Discovery (Flashcards/Matching) to the front
+    return sessionExercises.sort((a, b) => {
+      const isADiscovery = a.type === 'flashcard' || a.type === 'matching';
+      const isBDiscovery = b.type === 'flashcard' || b.type === 'matching';
+      if (isADiscovery && !isBDiscovery) return -1;
+      if (!isADiscovery && isBDiscovery) return 1;
+      return 0;
+    });
   }
 
   /**
@@ -139,9 +147,10 @@ export class ExerciseGenerator {
     return variants;
   }
 
-  private assemble(blueprint: Blueprint): Exercise {
+  private assemble(blueprint: Blueprint, forcedUnit?: number): Exercise {
     const filledSlots: Record<string, LexicalItem> = {};
-    const skill = A1_SKILLS[blueprint.skillId] || { unit: 1, name: 'General' };
+    const skill = A1_SKILLS[blueprint.skillId] || { unit: forcedUnit || 1, name: 'General' };
+    const effectiveUnit = blueprint.skillId === 'A1-UNIVERSAL' ? (forcedUnit || 1) : skill.unit;
 
     // 1. Fill slots with lexical items (with novelty rotation)
     for (const [slotName, config] of Object.entries(blueprint.slots)) {
@@ -154,13 +163,14 @@ export class ExerciseGenerator {
           lemma: selectedLemma,
           pos: config.pos as any || 'verb',
           translation: lexiconMatch?.translation || '',
-          tags: lexiconMatch?.tags || []
+          tags: lexiconMatch?.tags || [],
+          unit: effectiveUnit
         };
       } else {
         const matches = this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
-          const unitMatch = item.unit <= skill.unit; 
+          const unitMatch = item.unit <= effectiveUnit; 
           const noveltyMatch = !this.recentWords.has(item.lemma);
           // Semantic Shielding: don't use proper nouns for common slots unless specified
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
@@ -171,7 +181,7 @@ export class ExerciseGenerator {
         const pool = matches.length > 0 ? matches : this.lexicon.filter(item => {
           const posMatch = !config.pos || item.pos === config.pos;
           const tagMatch = !config.tags || config.tags.every(t => item.tags.includes(t));
-          const unitMatch = item.unit <= skill.unit; 
+          const unitMatch = item.unit <= effectiveUnit; 
           const properNounShield = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
           return posMatch && tagMatch && unitMatch && properNounShield;
         });
@@ -232,10 +242,10 @@ export class ExerciseGenerator {
       spanishText = spanishText.replace(`{${slotName}_es}`, spanishLemma);
     }
 
-    return this.mapToExercise(blueprint, englishText, spanishText, skill, filledSlots);
+    return this.mapToExercise(blueprint, englishText, spanishText, skill, filledSlots, effectiveUnit);
   }
 
-  private mapToExercise(blueprint: Blueprint, english: string, spanish: string, skill: any, filledSlots: Record<string, LexicalItem>): Exercise {
+  private mapToExercise(blueprint: Blueprint, english: string, spanish: string, skill: any, filledSlots: Record<string, LexicalItem>, effectiveUnit?: number): Exercise {
     const defaultInstructions: Record<string, string> = {
       'fill-blank': 'Completa el espacio en blanco:',
       'multiple-choice': 'Elige la opción correcta:',
@@ -358,14 +368,26 @@ export class ExerciseGenerator {
     } else if (blueprint.type === 'matching') {
       // Logic for 8 pairs of matching words
       const semanticTags = blueprint.slots[slotName]?.tags || correctItem.tags || [];
-      const unitConstraint = skill.unit; // Strictly use current unit for matching variety
+      const unitConstraint = effectiveUnit; // Strictly use current unit for matching variety
 
-      const pairsPool = this.shuffle(this.lexicon
+      let pairsPool = this.shuffle(this.lexicon
         .filter(item => 
           (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
           item.translation !== '' &&
-          item.unit === unitConstraint // Pedagogical control: matching only within the same unit/context
-        )).slice(0, 8); 
+          item.unit === unitConstraint 
+        )).slice(0, 8);
+
+      // Fallback: If not enough in current unit, take from previous units
+      if (pairsPool.length < 4) {
+        const extraPool = this.shuffle(this.lexicon
+          .filter(item => 
+            (semanticTags.length > 0 ? item.tags.some(t => semanticTags.includes(t)) : true) &&
+            item.translation !== '' &&
+            item.unit < unitConstraint &&
+            !pairsPool.some(p => p.lemma === item.lemma)
+          )).slice(0, 8 - pairsPool.length);
+        pairsPool = [...pairsPool, ...extraPool];
+      }
 
       const pairs = pairsPool.map(item => ({
         id: item.lemma,
