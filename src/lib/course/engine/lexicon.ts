@@ -165,10 +165,14 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'mouse', pos: 'noun', translation: 'ratón', gender_es: 'm', tags: ['tech', 'A1'], unit: 17 },
 
   // Anatomy (Unit 18)
-  { lemma: 'eye', pos: 'noun', translation: 'ojo', plural: 'eyes', gender_es: 'm', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'nose', pos: 'noun', translation: 'nariz', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'mouth', pos: 'noun', translation: 'boca', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
-  { lemma: 'ear', pos: 'noun', translation: 'oreja', plural: 'ears', gender_es: 'f', tags: ['body', 'A1'], unit: 18 },
+  { lemma: 'eye', pos: 'noun', translation: 'ojo', plural: 'eyes', gender_es: 'm', tags: ['body', 'sight', 'A1'], unit: 18 },
+  { lemma: 'nose', pos: 'noun', translation: 'nariz', gender_es: 'f', tags: ['body', 'smell', 'A1'], unit: 18 },
+  { lemma: 'mouth', pos: 'noun', translation: 'boca', gender_es: 'f', tags: ['body', 'taste', 'A1'], unit: 18 },
+  { lemma: 'ear', pos: 'noun', translation: 'oreja', plural: 'ears', gender_es: 'f', tags: ['body', 'hearing', 'A1'], unit: 18 },
+  { lemma: 'see', pos: 'verb', translation: 'ver', i_es: 'veo', tags: ['action', 'sight', 'A1'], unit: 18 },
+  { lemma: 'hear', pos: 'verb', translation: 'oír', i_es: 'oigo', tags: ['action', 'hearing', 'A1'], unit: 18 },
+  { lemma: 'smell', pos: 'verb', translation: 'oler', i_es: 'huelo', tags: ['action', 'smell', 'A1'], unit: 18 },
+  { lemma: 'taste', pos: 'verb', translation: 'probar', i_es: 'pruebo', tags: ['action', 'taste', 'A1'], unit: 18 },
 
   // More Actions (Unit 19)
   { lemma: 'swim', pos: 'verb', translation: 'nadar', tags: ['action', 'A1'], unit: 19 },

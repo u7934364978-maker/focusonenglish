@@ -187,8 +187,8 @@ export const A1_SKILLS: Record<string, Skill> = {
     description: 'shirt, shoes, dress'
   },
   // Unit 24: My Routine
-  'A1-ROUT-01': {
-    id: 'A1-ROUT-01',
+  'A1-ROUT-03': {
+    id: 'A1-ROUT-03',
     name: 'Daily Activities',
     unit: 24,
     description: 'get up, breakfast, go to bed'

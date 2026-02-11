@@ -33,7 +33,8 @@ export class ExerciseGenerator {
       const mastery = profile.skills[bp.skillId] || {
         masteryLevel: 0,
         attempts: 0,
-        failuresInRow: 0
+        failuresInRow: 0,
+        lastAttemptAt: 0
       };
       
       const isProduction = bp.type === 'fill-blank' || bp.type === 'sentence-building';
@@ -559,6 +560,21 @@ export class ExerciseGenerator {
     const subject = alreadyFilled['name'] || alreadyFilled['person'];
     if (subject && item.pos === 'verb') {
       if (subject.tags.includes('human') && item.lemma === 'bark') return false; // Logic shield
+    }
+
+    // 6. Sensory Organ Mapping (Sight, Hearing, etc.)
+    const sensoryTags = ['sight', 'hearing', 'smell', 'taste'];
+    const activeVerb = alreadyFilled['verb'] || alreadyFilled['action'];
+    const activePart = alreadyFilled['part'] || alreadyFilled['body_part'];
+
+    if (activeVerb && item.tags.includes('body')) {
+      const match = sensoryTags.find(tag => activeVerb.tags.includes(tag));
+      if (match && !item.tags.includes(match)) return false; // e.g., 'see' requires 'sight' tag on part
+    }
+
+    if (activePart && item.pos === 'verb') {
+      const match = sensoryTags.find(tag => activePart.tags.includes(tag));
+      if (match && !item.tags.includes(match)) return false; // e.g., 'eye' requires 'sight' tag on verb
     }
 
     return true;
