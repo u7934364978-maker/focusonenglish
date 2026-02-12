@@ -110,10 +110,10 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'Sunday', pos: 'noun', translation: 'domingo', tags: ['day', 'A1'], unit: 7 },
 
   // Expanded Routine (Unit 8)
-  { lemma: 'wake up', pos: 'verb', translation: 'despertarse', i_es: 'despierto', tags: ['routine', 'morning', 'reflexive', 'A1'], unit: 8 },
-  { lemma: 'eat breakfast', pos: 'verb', translation: 'desayunar', i_es: 'desayuno', tags: ['routine', 'morning', 'A1'], unit: 8 },
-  { lemma: 'go to work', pos: 'verb', translation: 'ir a trabajar', i_es: 'voy a trabajar', tags: ['routine', 'morning', 'A1'], unit: 8 },
-  { lemma: 'go to sleep', pos: 'verb', translation: 'ir a dormir', i_es: 'voy a dormir', tags: ['routine', 'night', 'A1'], unit: 8 },
+  { lemma: 'wake up', pos: 'verb', translation: 'despertarse', i_es: 'me despierto', tags: ['routine', 'morning_activity', 'reflexive', 'A1'], unit: 8 },
+  { lemma: 'eat breakfast', pos: 'verb', translation: 'desayunar', i_es: 'desayuno', tags: ['routine', 'morning_activity', 'A1'], unit: 8 },
+  { lemma: 'go to work', pos: 'verb', translation: 'ir a trabajar', i_es: 'voy a trabajar', tags: ['routine', 'morning_activity', 'A1'], unit: 8 },
+  { lemma: 'go to sleep', pos: 'verb', translation: 'ir a dormir', i_es: 'me voy a dormir', tags: ['routine', 'night_activity', 'A1'], unit: 8 },
 
   // Food (Unit 9)
   { lemma: 'pizza', pos: 'noun', translation: 'pizza', gender_es: 'f', tags: ['food', 'A1'], unit: 9 },

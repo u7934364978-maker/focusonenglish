@@ -230,14 +230,14 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-ROUT-03',
     skillId: 'A1-ROUT-01',
     type: 'fill-blank',
-    title: 'Verbos de Rutina',
-    instruction: 'Completa con tu actividad:',
-    template: 'I {action} at night.',
+    title: 'Mi Noche',
+    instruction: 'Completa tu rutina de noche:',
+    template: 'I {action} at 10 PM.',
     correctSlot: 'action',
     slots: {
-      action: { pos: 'verb', tags: ['routine'] }
+      action: { pos: 'verb', tags: ['routine', 'night_activity'] }
     },
-    translationTemplate: 'Yo {action_es} por la noche.'
+    translationTemplate: 'Yo {action_es} a las 10 PM.'
   },
   {
     id: 'BP-ROUT-04',
@@ -302,13 +302,13 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     skillId: 'A1-ROUT-02',
     type: 'fill-blank',
     title: 'Mi Mañana',
-    instruction: 'Completa tu rutina de {action_type}:',
+    instruction: 'Completa tu rutina de mañana:',
     template: 'I {action} at 7 AM.',
     correctSlot: 'action',
     slots: {
-      action: { pos: 'verb', tags: ['routine'] }
+      action: { pos: 'verb', tags: ['routine', 'morning_activity'] }
     },
-    translationTemplate: 'Yo me {action_es} a las 7 AM.'
+    translationTemplate: 'Yo {action_es} a las 7 AM.'
   },
   // --- Unit 9: Food ---
   {
@@ -330,15 +330,14 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-CLOTH-01',
     skillId: 'A1-CLOTH-01',
     type: 'fill-blank',
-    title: '¿Qué llevas puesto?',
+    title: 'Ropa',
     instruction: 'Completa con la prenda:',
-    template: 'I am {verb} {cloth}.',
-    correctSlot: 'verb',
+    template: 'I am wearing a {cloth}.',
+    correctSlot: 'cloth',
     slots: {
-      verb: { fixedValues: ['wearing'] },
-      cloth: { pos: 'noun', tags: ['clothing', 'common_noun'] }
+      cloth: { pos: 'noun', tags: ['clothing'] }
     },
-    translationTemplate: 'Estoy {verb_es} {el_la_cloth} {cloth_es}.'
+    translationTemplate: 'Llevo puesto {un_una_cloth} {cloth_es}.'
   },
   // --- Unit 11: Jobs ---
   {
@@ -347,13 +346,12 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     type: 'multiple-choice',
     title: 'Profesiones',
     instruction: '¿Cuál es su trabajo?',
-    template: 'I am {art} {job}.',
-    correctSlot: 'art',
+    template: 'I am a {job}.',
+    correctSlot: 'job',
     slots: {
-      art: { fixedValues: ['a', 'an'] },
-      job: { pos: 'noun', tags: ['job', 'common_noun'] }
+      job: { pos: 'noun', tags: ['job'] }
     },
-    translationTemplate: 'Soy {un_una_job} {job_es}.'
+    translationTemplate: 'Soy {job_es}.'
   },
   // --- Unit 12: City ---
   {
