@@ -100,8 +100,27 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 26: Implement Exercises 51-100 for Unit 12: Art & Literature**
 
 ### Phase 13: Verification & Deployment (Unit 12)
-- [ ] **Task 27: Verify Unit 12 in Browser**
-- [ ] **Task 28: Commit and push changes for Unit 12**
+- [x] **Task 27: Verify Unit 12 in Browser**
+- [x] **Task 28: Commit and push changes for Unit 12**
+
+### Phase 14: Implementation of Unit 13
+- [x] **Task 29: Define Unit 13 Structure**
+    - Sub-topic 1: Social Issues & Problems (1-10)
+    - Sub-topic 2: Customs & Traditions (11-20)
+    - Sub-topic 3: Grammar: Reported Speech (Statements) (21-30)
+    - Sub-topic 4: Grammar: Reported Speech (Questions & Commands) (31-40)
+    - Sub-topic 5: Politics & Government (41-50)
+    - Sub-topic 6: Law & Justice (51-60)
+    - Sub-topic 7: Multiculturalism & Diversity (61-70)
+    - Sub-topic 8: Religion & Beliefs (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Society & People (81-90)
+    - Sub-topic 10: Review & Discussing Current Affairs (91-100)
+- [x] **Task 30: Implement Exercises 1-50 for Unit 13: Society & Culture**
+- [x] **Task 31: Implement Exercises 51-100 for Unit 13: Society & Culture**
+
+### Phase 15: Verification & Deployment (Unit 13)
+- [x] **Task 32: Verify Unit 13 in Browser**
+- [ ] **Task 33: Commit and push changes for Unit 13**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
