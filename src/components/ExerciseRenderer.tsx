@@ -85,22 +85,30 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         }
       } else {
         // Text answer for fill-in-the-blank
-        const userAnswerLower = (userAnswer.answer || '').toString().toLowerCase().trim();
         const q = currentQuestion as any;
+        
+        // Normalize helper: collapse spaces and handle multi-gap separators (/)
+        const normalize = (s: string) => s
+          .toLowerCase()
+          .trim()
+          .replace(/\s*[\/\\]\s*/g, ' / ') // Normalize / separator with standard spacing
+          .replace(/\s+/g, ' ');           // Collapse other whitespace
+        
+        const userAnswerNormalized = normalize(userAnswer.answer || '');
         
         const correctAnswers = [
           ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
           ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
           ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
-        ].filter(Boolean).map(a => a.toLowerCase().trim());
+        ].filter(Boolean).map(a => normalize(a));
         
-        const correct = correctAnswers.includes(userAnswerLower);
+        const correct = correctAnswers.includes(userAnswerNormalized);
         setIsCorrect(correct);
         
         const evalResult = {
           isCorrect: correct,
           score: correct ? 100 : 0,
-          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${q.correctAnswer || (Array.isArray(q.correctAnswers) ? q.correctAnswers[0] : (q.correctAnswers || 'N/A'))}`,
+          feedback: correct ? '¡Excelente! Respuesta correcta.' : `Respuesta incorrecta. La respuesta correcta era: ${Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer}`,
         };
         setEvaluation(evalResult);
 

@@ -220,3 +220,42 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'cough', pos: 'noun', translation: 'tos', gender_es: 'f', tags: ['health', 'A1'], unit: 28 },
   { lemma: 'flu', pos: 'noun', translation: 'gripe', gender_es: 'f', tags: ['health', 'A1'], unit: 28 },
 ];
+
+export const B1_LEXICON: LexicalItem[] = [
+  // Unit 1: Life Stories
+  { lemma: 'highlight', pos: 'noun', translation: 'punto culminante / momento destacado', gender_es: 'm', tags: ['life', 'B1'], unit: 1 },
+  { lemma: 'achievement', pos: 'noun', translation: 'logro', gender_es: 'm', tags: ['success', 'B1'], unit: 1 },
+  { lemma: 'background', pos: 'noun', translation: 'trasfondo / antecedentes', gender_es: 'm', tags: ['personal', 'B1'], unit: 1 },
+  { lemma: 'turning point', pos: 'noun', translation: 'punto de inflexión', gender_es: 'm', tags: ['life', 'B1'], unit: 1 },
+  { lemma: 'milestone', pos: 'noun', translation: 'hito / etapa importante', gender_es: 'm', tags: ['progress', 'B1'], unit: 1 },
+  { lemma: 'overcome', pos: 'verb', translation: 'superar', i_es: 'supero', tags: ['resilience', 'B1'], unit: 1 },
+  { lemma: 'grow up', pos: 'verb', translation: 'crecer / criarse', i_es: 'crezco', tags: ['life', 'B1'], unit: 1 },
+  
+  // Unit 2: Experiences & Memories
+  { lemma: 'memorable', pos: 'adjective', translation: 'memorable / inolvidable', tags: ['memory', 'B1'], unit: 2 },
+  { lemma: 'unforgettable', pos: 'adjective', translation: 'inolvidable', tags: ['memory', 'B1'], unit: 2 },
+  { lemma: 'nostalgic', pos: 'adjective', translation: 'nostálgico', tags: ['emotion', 'B1'], unit: 2 },
+  { lemma: 'reminisce', pos: 'verb', translation: 'rememorar / recordar', i_es: 'rememoro', tags: ['action', 'B1'], unit: 2 },
+  { lemma: 'vivid', pos: 'adjective', translation: 'vívido / muy claro', tags: ['memory', 'B1'], unit: 2 },
+  { lemma: 'cherish', pos: 'verb', translation: 'apreciar / guardar con cariño', i_es: 'aprecio', tags: ['emotion', 'B1'], unit: 2 },
+
+  // Unit 3: Work & Professional Life
+  { lemma: 'deadline', pos: 'noun', translation: 'fecha límite', gender_es: 'f', tags: ['work', 'B1'], unit: 3 },
+  { lemma: 'promote', pos: 'verb', translation: 'ascender', i_es: 'ascienden', tags: ['work', 'B1'], unit: 3 },
+  { lemma: 'networking', pos: 'noun', translation: 'red de contactos', gender_es: 'f', tags: ['work', 'B1'], unit: 3 },
+  { lemma: 'overtime', pos: 'noun', translation: 'horas extras', gender_es: 'f', tags: ['work', 'B1'], unit: 3 },
+  { lemma: 'salary', pos: 'noun', translation: 'salario', gender_es: 'm', tags: ['work', 'B1'], unit: 3 },
+  { lemma: 'feedback', pos: 'noun', translation: 'comentarios / retroalimentación', gender_es: 'm', tags: ['work', 'B1'], unit: 3 },
+
+  // Unit 4: Health, Mind & Body
+  { lemma: 'wellness', pos: 'noun', translation: 'bienestar', gender_es: 'm', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'balanced', pos: 'adjective', translation: 'equilibrado', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'sore', pos: 'adjective', translation: 'dolorido', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'workout', pos: 'noun', translation: 'entrenamiento', gender_es: 'm', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'immune system', pos: 'noun', translation: 'sistema inmunológico', gender_es: 'm', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'meditation', pos: 'noun', translation: 'meditación', gender_es: 'f', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'recovery', pos: 'noun', translation: 'recuperación', gender_es: 'f', tags: ['health', 'B1'], unit: 4 },
+  { lemma: 'lifestyle', pos: 'noun', translation: 'estilo de vida', gender_es: 'm', tags: ['health', 'B1'], unit: 4 },
+];
+
+export const GLOBAL_LEXICON: LexicalItem[] = [...A1_LEXICON, ...B1_LEXICON];

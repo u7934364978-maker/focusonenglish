@@ -18,6 +18,7 @@ import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
 import FlashcardExercise from "../../exercises/FlashcardExercise";
 import DragDropExercise from "../../exercises/DragDropExercise";
+import { TranslatedText } from "./TranslatedText";
 
 export interface ExerciseRendererRef {
   check: () => boolean;
@@ -185,7 +186,9 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
   if (ex.type === "multipleChoice" || ex.type === "grammar") {
     return (
       <div className="space-y-4">
-        <p className="text-lg font-medium text-slate-800">{ex.prompt}</p>
+        <p className="text-lg font-medium text-slate-800">
+          <TranslatedText text={ex.prompt} />
+        </p>
         <div className="grid gap-2">
           {ex.options.map((opt, i) => {
             let statusClass = "border-slate-200 hover:border-slate-300 bg-white text-slate-700";
@@ -204,7 +207,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
                 disabled={submitted}
                 className={`rounded-xl border p-4 text-left text-sm font-bold transition flex items-center justify-between ${statusClass}`}
               >
-                <span>{opt}</span>
+                <span><TranslatedText text={opt} /></span>
                 {submitted && i === ex.answerIndex && <Check className="w-4 h-4" />}
                 {submitted && i === selectedOption && i !== ex.answerIndex && <X className="w-4 h-4" />}
               </button>
@@ -217,7 +220,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
               <Info className="w-4 h-4" />
               <span className="font-black">Explanation</span>
             </div>
-            {ex.explanation}
+            <TranslatedText text={ex.explanation} />
             {!isCorrect && (ex as any).answers && (
               <div className="mt-2 pt-2 border-t border-blue-200">
                 <span className="font-bold">Correct answer:</span> {(ex as any).answers.join(', ')}
@@ -238,9 +241,14 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
             <BookOpen className="w-4 h-4" />
             <span>Reading Passage</span>
           </div>
-          <h3 className="text-xl font-black text-slate-900 mb-4">{rex.title}</h3>
+          <h3 className="text-xl font-black text-slate-900 mb-4">
+            <TranslatedText text={rex.title} />
+          </h3>
           <div className="text-slate-700 leading-relaxed whitespace-pre-line prose prose-slate max-w-none">
-            {renderVocabularyTooltips(rex.text, rex.vocabularyHelp)}
+            {rex.vocabularyHelp && rex.vocabularyHelp.length > 0 
+              ? renderVocabularyTooltips(rex.text, rex.vocabularyHelp)
+              : <TranslatedText text={rex.text} />
+            }
           </div>
           <p className="mt-4 text-[10px] text-slate-400 italic">Hover over dotted words for definitions.</p>
         </div>
@@ -252,7 +260,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
           </h4>
           {rex.questions.map((q, qIdx) => (
             <div key={q.id || qIdx} className="space-y-3 p-4 rounded-xl border border-slate-100 bg-white shadow-sm">
-              <p className="font-bold text-slate-800 text-sm">{qIdx + 1}. {q.question}</p>
+              <p className="font-bold text-slate-800 text-sm">{qIdx + 1}. <TranslatedText text={q.question} /></p>
               <div className="grid gap-2">
                 {q.options.map((opt, i) => {
                   const isSelected = multiAnswers[q.id || qIdx] === i;
@@ -272,14 +280,14 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
                       onClick={() => setMultiAnswers({ ...multiAnswers, [q.id || qIdx]: i })}
                       className={`p-3 text-left text-xs font-bold rounded-lg border transition ${btnClass}`}
                     >
-                      {opt}
+                      <TranslatedText text={opt} />
                     </button>
                   );
                 })}
               </div>
               {submitted && q.explanation && (
                 <p className="text-[11px] text-slate-500 bg-slate-50 p-2 rounded-lg italic">
-                  <span className="font-bold not-italic">Note:</span> {q.explanation}
+                  <span className="font-bold not-italic">Note:</span> <TranslatedText text={q.explanation} />
                 </p>
               )}
             </div>
@@ -331,7 +339,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         <div className="space-y-6">
           {lex.questions.map((q, qIdx) => (
             <div key={q.id || qIdx} className="space-y-3 p-4 rounded-xl border border-slate-100 bg-white shadow-sm">
-              <p className="font-bold text-slate-800 text-sm">{qIdx + 1}. {q.question}</p>
+              <p className="font-bold text-slate-800 text-sm">{qIdx + 1}. <TranslatedText text={q.question} /></p>
               <div className="grid gap-2">
                 {q.options.map((opt, i) => {
                   const isSelected = multiAnswers[q.id || qIdx] === i;
@@ -350,7 +358,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
                       onClick={() => setMultiAnswers({ ...multiAnswers, [q.id || qIdx]: i })}
                       className={`p-3 text-left text-xs font-bold rounded-lg border transition ${btnClass}`}
                     >
-                      {opt}
+                      <TranslatedText text={opt} />
                     </button>
                   );
                 })}
@@ -379,7 +387,9 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
           {mex.pairs.map((pair, pIdx) => (
             <div key={pair.id || pIdx} className="p-4 rounded-xl border border-slate-100 bg-white shadow-sm flex flex-col gap-3">
               <div className="flex items-center gap-2">
-                <span className="text-sm font-black px-2 py-1 bg-slate-900 text-white rounded-lg">{pair.word}</span>
+                <span className="text-sm font-black px-2 py-1 bg-slate-900 text-white rounded-lg">
+                  <TranslatedText text={pair.word} />
+                </span>
                 <span className="text-slate-400">matches with...</span>
               </div>
               <div className="grid gap-2">
@@ -400,7 +410,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
                       onClick={() => setMultiAnswers({ ...multiAnswers, [pair.id || pIdx]: i })}
                       className={`p-3 text-left text-xs font-bold rounded-lg border transition ${btnClass}`}
                     >
-                      {opt}
+                      <TranslatedText text={opt} />
                     </button>
                   );
                 })}
@@ -508,7 +518,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         <div className="leading-loose text-slate-800 font-medium">
           {parts.map((part, i) => (
             <span key={i}>
-              {part}
+              <TranslatedText text={part} />
               {i < parts.length - 1 && (
                 <input
                   type="text"
@@ -541,7 +551,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         )}
         {layout === "default" && submitted && ex.explanation && (
           <div className="rounded-xl bg-slate-100 p-4 text-sm text-slate-700">
-            <span className="font-black">Explanation:</span> {ex.explanation}
+            <span className="font-black">Explanation:</span> <TranslatedText text={ex.explanation} />
           </div>
         )}
       </div>
