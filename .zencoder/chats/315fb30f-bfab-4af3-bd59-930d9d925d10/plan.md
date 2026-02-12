@@ -252,11 +252,30 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 66: Implement Exercises 51-100 for Unit 20: Media & Technology**
 
 ### Phase 29: Verification & Deployment (Unit 20)
-- [ ] **Task 67: Verify Unit 20 in Browser**
-- [ ] **Task 68: Commit and push changes for Unit 20**
+- [x] **Task 67: Verify Unit 20 in Browser**
+- [x] **Task 68: Commit and push changes for Unit 20**
 
 ### Phase 30: Implementation of Unit 21
-- [ ] **Task 69: Define Unit 21 Structure**
+- [x] **Task 69: Define Unit 21 Structure**
+    - Sub-topic 1: Grammar: Present Simple & Past Simple Passive (1-10)
+    - Sub-topic 2: Grammar: Present Continuous & Past Continuous Passive (11-20)
+    - Sub-topic 3: Grammar: Present Perfect & Past Perfect Passive (21-30)
+    - Sub-topic 4: Grammar: Future & Modal Passive (31-40)
+    - Sub-topic 5: Vocabulary: Processes & Manufacturing (41-50)
+    - Sub-topic 6: Vocabulary: Crime & Justice (Passive focus) (51-60)
+    - Sub-topic 7: Vocabulary: News & Journalism (Passive focus) (61-70)
+    - Sub-topic 8: Grammar: Passive with two objects (71-80)
+    - Sub-topic 9: Grammar: Have/Get something done (Causative) (81-90)
+    - Sub-topic 10: Review & Passive in Formal Writing (91-100)
+- [x] **Task 70: Implement Exercises 1-50 for Unit 21: Passive Voice**
+- [x] **Task 71: Implement Exercises 51-100 for Unit 21: Passive Voice**
+
+### Phase 31: Verification & Deployment (Unit 21)
+- [ ] **Task 72: Verify Unit 21 in Browser**
+- [ ] **Task 73: Commit and push changes for Unit 21**
+
+### Phase 32: Implementation of Unit 22
+- [ ] **Task 74: Define Unit 22 Structure**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
