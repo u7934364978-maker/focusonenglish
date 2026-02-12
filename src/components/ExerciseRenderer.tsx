@@ -9,6 +9,7 @@ import CrosswordExercise from './exercises/CrosswordExercise';
 import FlashcardExercise from './exercises/FlashcardExercise';
 import DragDropExercise from './exercises/DragDropExercise';
 import MatchingExercise from './exercises/MatchingExercise';
+import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { updateSRSItem } from '@/lib/srs';
@@ -305,6 +306,26 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                 completeExercise(exercise.id, 1, 1);
               }
               onComplete({ success: isCorrect, score: isCorrect ? 100 : 0 });
+            }} 
+          />
+        </div>
+      );
+    }
+
+    // Interactive Dialogue exercise
+    if (exercise.type === 'interactive-dialogue') {
+      return (
+        <div className={`transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <InteractiveDialogueExercise 
+            content={exercise.content as any} 
+            onComplete={(success) => {
+              if (success) {
+                setShowConfetti(true);
+                completeExercise(exercise.id, 1, 1);
+              }
+              onComplete({ success, score: success ? 100 : 0 });
             }} 
           />
         </div>

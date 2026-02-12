@@ -16,17 +16,17 @@
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1613ms
- ✓ Compiled /middleware in 194ms (164 modules)
- ○ Compiling /debug/engine ...
- ✓ Compiled /debug/engine in 4.4s (1681 modules)
+ ✓ Ready in 2s
+ ✓ Compiled /middleware in 160ms (164 modules)
+ ○ Compiling /blog/[category]/[slug] ...
+ ✓ Compiled /blog/[category]/[slug] in 4.2s (1176 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/engine 200 in 5163ms
- ✓ Compiled /icon.svg in 428ms (933 modules)
- ✓ Compiled in 849ms (865 modules)
- ○ Compiling /debug/engine ...
- ✓ Compiled /debug/engine in 505ms (916 modules)
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+ ○ Compiling /_not-found ...
+ GET /blog/examenes/precios-examenes-cambridge 200 in 8579ms
+ GET /blog/examenes/precios-examenes-cambridge 200 in 8607ms
+ ✓ Compiled /_not-found in 2.3s (1180 modules)
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET /debug/engine 200 in 858ms
- ✓ Compiled /icon.svg in 107ms (933 modules)
- GET /icon.svg 200 in 222ms
+ GET /logo.png 404 in 2579ms
+ ⨯ The requested resource isn't a valid image for /logo.png received null
+[?25h

@@ -2000,5 +2000,131 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     } as any
+  },
+  {
+    id: 'b1-u1-e101',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Life Stories',
+    topicName: 'Listening & Interaction',
+    difficulty: 'medium',
+    content: {
+      title: 'Old Friends Catching Up',
+      instructions: 'Listen to Sarah and Mark catching up after five years. Pay attention to their life changes.',
+      audioUrl: '/audio/b1/unit1/dialogue1.mp3',
+      transcript: [
+        { speaker: 'Sarah', text: 'Mark! Is that really you? I haven\'t seen you since our graduation!', start: 0, end: 5 },
+        { speaker: 'Mark', text: 'Sarah! Wow, it\'s been ages! Five years, right? You look exactly the same.', start: 6, end: 12 },
+        { speaker: 'Sarah', text: 'I wish! A lot has changed though. I heard you moved to London?', start: 13, end: 18 },
+        { speaker: 'Mark', text: 'Yeah, I\'ve been living there for three years now. I\'m working as a graphic designer for an ad agency.', start: 19, end: 26 },
+        { speaker: 'Sarah', text: 'That sounds amazing. Do you like the big city life?', start: 27, end: 31 },
+        { speaker: 'Mark', text: 'It took some time to get used to it, but I love the energy. What about you? Are you still in our hometown?', start: 32, end: 39 },
+        { speaker: 'Sarah', text: 'Actually, no. I moved to Bristol last year. I\'m running my own small bakery now.', start: 40, end: 46 },
+        { speaker: 'Mark', text: 'A bakery? That\'s quite a shift from your biology degree!', start: 47, end: 52 },
+        { speaker: 'Sarah', text: 'I know, right? But I realized that baking was my true passion. I\'m much happier now.', start: 53, end: 60 },
+        { speaker: 'Mark', text: 'I can see that. You seem really fulfilled. So, are you still seeing... what was his name? David?', start: 61, end: 68 },
+        { speaker: 'Sarah', text: 'David? Oh, no. We drifted apart shortly after college. We just wanted different things in life.', start: 69, end: 76 },
+        { speaker: 'Mark', text: 'I understand. That happens sometimes. Anyway, I\'m actually getting married next month!', start: 77, end: 84 },
+        { speaker: 'Sarah', text: 'What? Congratulations! That\'s a huge milestone!', start: 85, end: 90 },
+        { speaker: 'Mark', text: 'Thanks. Her name is Elena. She\'s also a designer. We met at work.', start: 91, end: 97 },
+        { speaker: 'Sarah', text: 'I\'m so happy for you, Mark. We definitely need to grab coffee and talk more.', start: 98, end: 104 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 26,
+          question: 'What is Mark\'s current job in London?',
+          options: ['Biologist', 'Graphic Designer', 'Ad Agency Manager', 'Teacher'],
+          correctAnswer: 1,
+          explanation: 'Mark mentions he is working as a graphic designer for an ad agency.'
+        },
+        {
+          id: 'q2',
+          time: 46,
+          question: 'Where is Sarah living now?',
+          options: ['In their hometown', 'In London', 'In Bristol', 'In London'],
+          correctAnswer: 2,
+          explanation: 'Sarah says she moved to Bristol last year.'
+        },
+        {
+          id: 'q3',
+          time: 60,
+          question: 'Why did Sarah change her career from biology to baking?',
+          options: ['She couldn\'t find a job', 'She realized baking was her true passion', 'She moved to a place with no labs', 'Her family forced her'],
+          correctAnswer: 1,
+          explanation: 'She says: "I realized that baking was my true passion. I\'m much happier now."'
+        },
+        {
+          id: 'q4',
+          time: 90,
+          question: 'What major milestone is Mark about to experience?',
+          options: ['Buying a house', 'Starting a new job', 'Getting married', 'Moving to another country'],
+          correctAnswer: 2,
+          explanation: 'Mark says he is getting married next month.'
+        }
+      ]
+    } as any
+  },
+  {
+    id: 'b1-u1-e102',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Life Stories',
+    topicName: 'Listening & Interaction',
+    difficulty: 'hard',
+    content: {
+      title: 'The Documentary Interview',
+      instructions: 'A famous entrepreneur is being interviewed about his humble beginnings. Listen carefully.',
+      audioUrl: '/audio/b1/unit1/dialogue2.mp3',
+      transcript: [
+        { speaker: 'Interviewer', text: 'Welcome back. We are here with Julian Vane, the founder of GreenTech. Julian, let\'s talk about your upbringing.', start: 0, end: 8 },
+        { speaker: 'Julian', text: 'Thank you. Well, I grew up in a very small village. My parents didn\'t have much money, but they taught me the value of hard work.', start: 9, end: 18 },
+        { speaker: 'Interviewer', text: 'Was there a specific person you looked up to during those years?', start: 19, end: 23 },
+        { speaker: 'Julian', text: 'Definitely my grandfather. He was a carpenter. He always said that if you want to build something that lasts, you need a strong foundation.', start: 24, end: 34 },
+        { speaker: 'Interviewer', text: 'That\'s wise. When did you first realize you wanted to be an entrepreneur?', start: 35, end: 40 },
+        { speaker: 'Julian', text: 'It was during my first year at university. I saw how much plastic was being wasted in the cafeteria, and I thought, "There must be a better way."', start: 41, end: 51 },
+        { speaker: 'Interviewer', text: 'But it wasn\'t an easy start, was it?', start: 52, end: 55 },
+        { speaker: 'Julian', text: 'Not at all. I worked three part-time jobs just to pay for my first prototype. I slept in my office for months.', start: 56, end: 65 },
+        { speaker: 'Interviewer', text: 'What would you say was your greatest achievement during those difficult times?', start: 66, end: 71 },
+        { speaker: 'Julian', text: 'Honestly, it wasn\'t the money. It was the moment we signed our first big contract with a local school. Seeing our technology actually helping people was incredible.', start: 72, end: 84 },
+        { speaker: 'Interviewer', text: 'And how has your life changed since then? Do you ever miss the simplicity of your old life?', start: 85, end: 92 },
+        { speaker: 'Julian', text: 'Sometimes. But I\'m used to this pace now. I travel a lot, but I always make time to visit my old village. It keeps me grounded.', start: 93, end: 104 },
+        { speaker: 'Interviewer', text: 'Julian, thank you for sharing your story with us. It\'s truly inspiring.', start: 105, end: 110 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 18,
+          question: 'What did Julian\'s parents teach him?',
+          options: ['How to save money', 'The value of hard work', 'How to start a business', 'How to farm'],
+          correctAnswer: 1,
+          explanation: 'Julian says his parents "taught me the value of hard work."'
+        },
+        {
+          id: 'q2',
+          time: 34,
+          question: 'Who was Julian\'s role model growing up?',
+          options: ['His father', 'His teacher', 'His grandfather', 'A famous businessman'],
+          correctAnswer: 2,
+          explanation: 'He says he looked up to his grandfather, who was a carpenter.'
+        },
+        {
+          id: 'q3',
+          time: 51,
+          question: 'What inspired Julian to start GreenTech?',
+          options: ['A biology class', 'Seeing plastic waste in the university cafeteria', 'A dream he had', 'A competition'],
+          correctAnswer: 1,
+          explanation: 'He saw the waste in the cafeteria and thought there must be a better way.'
+        },
+        {
+          id: 'q4',
+          time: 84,
+          question: 'What does Julian consider his greatest achievement?',
+          options: ['Becoming a billionaire', 'His first big contract with a local school', 'Moving to a big city', 'Winning an award'],
+          correctAnswer: 1,
+          explanation: 'He says the moment they signed the contract with a school was his greatest achievement.'
+        }
+      ]
+    } as any
   }
 ];

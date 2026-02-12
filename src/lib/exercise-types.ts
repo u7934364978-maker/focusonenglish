@@ -67,7 +67,8 @@ export type ExerciseType =
   | 'multiple-matching'
   | 'situational-discovery'
   | 'flashcard'
-  | 'drag-drop';
+  | 'drag-drop'
+  | 'interactive-dialogue';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';

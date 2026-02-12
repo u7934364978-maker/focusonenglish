@@ -82,7 +82,7 @@ export function TopicClusterLinks({ articles, mainKeyword }: TopicClusterLinksPr
       {mainKeyword && (
         <div className="mt-12 p-8 bg-indigo-50/50 rounded-3xl border border-indigo-100 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="text-indigo-900 font-bold text-lg mb-1">¿Quieres dominar {mainKeyword} por completo?</p>
+            <p className="text-indigo-900 font-bold text-lg mb-1">¿Quieres saber todo sobre {mainKeyword}?</p>
             <p className="text-indigo-600/80 text-sm">Explora nuestra biblioteca completa de recursos especializados.</p>
           </div>
           <Link 

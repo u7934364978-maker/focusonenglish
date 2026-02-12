@@ -1,962 +1,2188 @@
-import { ExerciseItem } from "../engine/types";
+import { Exercise } from '@/lib/exercise-generator';
 
-export const UNIT4_B1_PART1: ExerciseItem[] = [
-  // Vocabulary: Body & Health (e1-e10)
+export const UNIT_4_EXERCISES: Exercise[] = [
+  // --- SUB-TOPIC 1: Body & Health (1-10) ---
   {
     id: "b1-u4-e1",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
     content: {
-      front: "Wellness",
-      back: "Bienestar",
-      pronunciation: "/ˈwelnəs/",
-      example: "Our company prioritizes employee wellness.",
-      exampleTranslation: "Nuestra empresa prioriza el bienestar de los empleados."
-    }
+      items: [
+        {
+          front: "Wellness",
+          back: "Bienestar",
+          pronunciation: "/ˈwelnəs/",
+          example: "Our company prioritizes employee wellness.",
+          explanation: "El estado de estar en buena salud, especialmente como una meta buscada activamente."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e2",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
     content: {
-      front: "Balanced diet",
-      back: "Dieta equilibrada",
-      pronunciation: "/ˈbælənst ˈdaɪət/",
-      example: "A balanced diet is essential for good health.",
-      exampleTranslation: "Una dieta equilibrada es esencial para una buena salud."
-    }
+      items: [
+        {
+          front: "Balanced diet",
+          back: "Dieta equilibrada",
+          pronunciation: "/ˈbælənst ˈdaɪət/",
+          example: "A balanced diet is essential for good health.",
+          explanation: "Una dieta que contiene las proporciones adecuadas de carbohidratos, grasas, proteínas, vitaminas y minerales."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e3",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
     content: {
-      front: "Workout",
-      back: "Entrenamiento / Sesión de ejercicio",
-      pronunciation: "/ˈwɜːkaʊt/",
-      example: "I usually do a 30-minute workout in the morning.",
-      exampleTranslation: "Normalmente hago un entrenamiento de 30 minutos por la mañana."
-    }
+      items: [
+        {
+          front: "Workout",
+          back: "Entrenamiento",
+          pronunciation: "/ˈwɜːkaʊt/",
+          example: "I usually do a 30-minute workout in the morning.",
+          explanation: "Una sesión de ejercicio físico."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e4",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
     content: {
-      front: "Sore",
-      back: "Dolorido (especialmente por ejercicio)",
-      pronunciation: "/sɔːr/",
-      example: "My muscles are sore after yesterday's gym session.",
-      exampleTranslation: "Mis músculos están doloridos después de la sesión de gimnasio de ayer."
-    }
+      items: [
+        {
+          front: "Sore",
+          back: "Dolorido / Inflamado",
+          pronunciation: "/sɔːr/",
+          example: "My muscles are sore after yesterday's gym session.",
+          explanation: "Dolor físico o incomodidad, a menudo después del ejercicio o debido a una lesión."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e5",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
     content: {
-      front: "Recovery",
-      back: "Recuperación",
-      pronunciation: "/rɪˈkʌvəri/",
-      example: "Proper rest is crucial for muscle recovery.",
-      exampleTranslation: "El descanso adecuado es crucial para la recuperación muscular."
-    }
+      items: [
+        {
+          front: "Recovery",
+          back: "Recuperación",
+          pronunciation: "/rɪˈkʌvəri/",
+          example: "Proper rest is crucial for muscle recovery.",
+          explanation: "El proceso de volver a un estado normal de salud, mente o fuerza."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e6",
-    type: "multipleChoice",
-    prompt: "Choose the correct term: A __________ diet includes fruits, vegetables, and proteins.",
-    options: ["balanced", "heavy", "sore", "tired"],
-    answerIndex: 0,
-    explanation: "A balanced diet contains the right proportions of different food groups."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
+    content: {
+      title: 'Healthy Eating',
+      instructions: 'Choose the correct term.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'A __________ diet includes fruits, vegetables, and proteins.',
+          options: ["balanced", "heavy", "sore", "tired"],
+          correctAnswer: 0,
+          explanation: "A balanced diet contains the right proportions of different food groups."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e7",
-    type: "multipleChoice",
-    prompt: "After running 10 kilometers, my legs feel __________.",
-    options: ["vivid", "sore", "balanced", "wellness"],
-    answerIndex: 1,
-    explanation: "'Sore' describes physical pain or discomfort, often after exercise."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
+    content: {
+      title: 'Post-Exercise Feeling',
+      instructions: 'Choose the best option.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'After running 10 kilometers, my legs feel __________.',
+          options: ["vivid", "sore", "balanced", "wellness"],
+          correctAnswer: 1,
+          explanation: "'Sore' describes physical pain or discomfort, often after exercise."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e8",
-    type: "multipleChoice",
-    prompt: "I need a few days for __________ after the marathon.",
-    options: ["recovery", "workout", "nostalgia", "milestone"],
-    answerIndex: 0,
-    explanation: "'Recovery' is the process of returning to a normal state of health or strength."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
+    content: {
+      title: 'Resting Time',
+      instructions: 'Choose the correct word.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'I need a few days for __________ after the marathon.',
+          options: ["recovery", "workout", "nostalgia", "milestone"],
+          correctAnswer: 0,
+          explanation: "'Recovery' is the process of returning to a normal state of health or strength."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e9",
-    type: "multipleChoice",
-    prompt: "A quick __________ can boost your energy during the day.",
-    options: ["workout", "deadline", "salary", "background"],
-    answerIndex: 0,
-    explanation: "A workout is a session of physical exercise."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
+    content: {
+      title: 'Quick Exercise',
+      instructions: 'Choose the best term.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'A quick __________ can boost your energy during the day.',
+          options: ["workout", "deadline", "salary", "background"],
+          correctAnswer: 0,
+          explanation: "A workout is a session of physical exercise."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e10",
-    type: "multipleChoice",
-    prompt: "What is the opposite of 'illness' in a broad sense?",
-    options: ["Wellness", "Achievement", "Overtime", "Milestone"],
-    answerIndex: 0,
-    explanation: "'Wellness' refers to the state of being in good health."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "easy",
+    content: {
+      title: 'Health Concept',
+      instructions: 'Choose the opposite.',
+      questions: [
+        {
+          id: 'q1',
+          question: "What is the opposite of 'illness' in a broad sense?",
+          options: ["Wellness", "Achievement", "Overtime", "Milestone"],
+          correctAnswer: 0,
+          explanation: "'Wellness' refers to the state of being in good health."
+        }
+      ]
+    } as any
   },
 
-  // Grammar: Modal Verbs for Advice & Necessity (e11-e25)
+  // --- SUB-TOPIC 2: Modal Verbs for Advice & Necessity (11-25) ---
   {
     id: "b1-u4-e11",
-    type: "grammar",
-    prompt: "You __________ eat more vegetables if you want to feel better.",
-    options: ["should", "must not", "would", "might"],
-    answerIndex: 0,
-    explanation: "We use 'should' to give advice."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Giving Advice',
+      instructions: 'Choose the correct modal verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'You __________ eat more vegetables if you want to feel better.',
+          options: ["should", "must not", "would", "might"],
+          correctAnswer: 0,
+          explanation: "We use 'should' to give advice."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e12",
-    type: "grammar",
-    prompt: "You __________ smoke in the hospital. It's strictly forbidden.",
-    options: ["must not", "don't have to", "should", "might"],
-    answerIndex: 0,
-    explanation: "'Must not' expresses prohibition."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Prohibition',
+      instructions: 'Choose the correct modal verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: "You __________ smoke in the hospital. It's strictly forbidden.",
+          options: ["must not", "don't have to", "should", "might"],
+          correctAnswer: 0,
+          explanation: "'Must not' expresses prohibition."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e13",
-    type: "grammar",
-    prompt: "I __________ exercise more often, but I'm so busy.",
-    options: ["ought to", "must not", "won't", "don't have to"],
-    answerIndex: 0,
-    explanation: "'Ought to' is similar to 'should' and expresses obligation or advice."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Recommendation',
+      instructions: 'Choose the correct modal verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'I __________ exercise more often, but I\'m so busy.',
+          options: ["ought to", "must not", "won't", "don't have to"],
+          correctAnswer: 0,
+          explanation: "'Ought to' is similar to 'should' and expresses obligation or advice."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e14",
-    type: "grammar",
-    prompt: "You __________ go to the gym today if you're feeling tired. Rest is important.",
-    options: ["don't have to", "must not", "should", "ought to"],
-    answerIndex: 0,
-    explanation: "'Don't have to' expresses lack of necessity."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Lack of Necessity',
+      instructions: 'Choose the correct modal verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: "You __________ go to the gym today if you're feeling tired. Rest is important.",
+          options: ["don't have to", "must not", "should", "ought to"],
+          correctAnswer: 0,
+          explanation: "'Don't have to' expresses lack of necessity."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e15",
-    type: "grammar",
-    prompt: "He __________ see a doctor if that pain continues.",
-    options: ["must", "doesn't have to", "might not", "won't"],
-    answerIndex: 0,
-    explanation: "'Must' expresses strong necessity or obligation."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Obligation',
+      instructions: 'Choose the correct modal verb.',
+      questions: [
+        {
+          id: 'q1',
+          question: 'He __________ see a doctor if that pain continues.',
+          options: ["must", "doesn't have to", "might not", "won't"],
+          correctAnswer: 0,
+          explanation: "'Must' expresses strong necessity or obligation."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e16",
-    type: "fillBlanks",
-    text: "You ___ (should) drink at least two liters of water a day.",
-    answers: ["should"],
-    instructions: "Give advice using 'should'.",
-    explanation: "'Should' is the standard modal for giving advice."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Advice Practice',
+      instructions: "Give advice using 'should'.",
+      questions: [
+        {
+          id: 'q1',
+          text: "You ___ (should) drink at least two liters of water a day.",
+          correctAnswer: "should",
+          explanation: "'Should' is the standard modal for giving advice."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e17",
-    type: "fillBlanks",
-    text: "We ___ (must not) eat too much sugar if we want to avoid cavities.",
-    answers: ["must not"],
-    instructions: "Express prohibition.",
-    explanation: "'Must not' (or mustn't) is used for prohibition."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Prohibition Practice',
+      instructions: "Express prohibition.",
+      questions: [
+        {
+          id: 'q1',
+          text: "We ___ (must not) eat too much sugar if we want to avoid cavities.",
+          correctAnswer: "must not",
+          explanation: "'Must not' (or mustn't) is used for prohibition."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e18",
-    type: "fillBlanks",
-    text: "You ___ (don't have to) go to the gym every single day; three times a week is enough.",
-    answers: ["don't have to"],
-    instructions: "Express lack of necessity.",
-    explanation: "'Don't have to' means it's not necessary, but you can if you want."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Necessity Practice',
+      instructions: "Express lack of necessity.",
+      questions: [
+        {
+          id: 'q1',
+          text: "You ___ (don't have to) go to the gym every single day; three times a week is enough.",
+          correctAnswer: "don't have to",
+          explanation: "'Don't have to' means it's not necessary, but you can if you want."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e19",
-    type: "fillBlanks",
-    text: "If you feel dizzy, you ___ (ought to) sit down immediately.",
-    answers: ["ought to"],
-    instructions: "Give advice using 'ought to'.",
-    explanation: "'Ought to' is a slightly more formal version of 'should'."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Ought to Practice',
+      instructions: "Give advice using 'ought to'.",
+      questions: [
+        {
+          id: 'q1',
+          text: "If you feel dizzy, you ___ (ought to) sit down immediately.",
+          correctAnswer: "ought to",
+          explanation: "'Ought to' is a slightly more formal version of 'should'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e20",
-    type: "fillBlanks",
-    text: "Students ___ (must) follow the safety rules in the laboratory.",
-    answers: ["must"],
-    instructions: "Express strong obligation.",
-    explanation: "'Must' is used for strong obligations, often rules or laws."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Strong Obligation Practice',
+      instructions: "Express strong obligation.",
+      questions: [
+        {
+          id: 'q1',
+          text: "Students ___ (must) follow the safety rules in the laboratory.",
+          correctAnswer: "must",
+          explanation: "'Must' is used for strong obligations, often rules or laws."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e21",
     type: "matching",
-    instructions: "Match the modal verb with its function.",
-    pairs: [
-      { id: "m1", word: "Should", correctMatch: "Advice", distractors: ["Prohibition", "Lack of necessity", "Strong obligation"] },
-      { id: "m2", word: "Must not", correctMatch: "Prohibition", distractors: ["Advice", "Possibility", "Ability"] },
-      { id: "m3", word: "Don't have to", correctMatch: "Lack of necessity", distractors: ["Obligation", "Permission", "Advice"] },
-      { id: "m4", word: "Must", correctMatch: "Strong obligation", distractors: ["Advice", "Future intention", "Ability"] }
-    ]
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Modal Functions',
+      instructions: "Match the modal verb with its function.",
+      pairs: [
+        { id: "m1", left: "Should", right: "Advice" },
+        { id: "m2", left: "Must not", right: "Prohibition" },
+        { id: "m3", left: "Don't have to", right: "Lack of necessity" },
+        { id: "m4", left: "Must", right: "Strong obligation" }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e22",
-    type: "grammar",
-    prompt: "Which sentence is correct?",
-    options: [
-      "You should to exercise more.",
-      "You should exercise more.",
-      "You should exercising more.",
-      "You shoulds exercise more."
-    ],
-    answerIndex: 1,
-    explanation: "Modal verbs are followed by the base form of the verb without 'to'."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Modal Structures',
+      instructions: "Identify the correct structure.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Which sentence is correct?",
+          options: [
+            "You should to exercise more.",
+            "You should exercise more.",
+            "You should exercising more.",
+            "You shoulds exercise more."
+          ],
+          correctAnswer: 1,
+          explanation: "Modal verbs are followed by the base form of the verb without 'to'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e23",
-    type: "grammar",
-    prompt: "I __________ go to sleep earlier. I'm always exhausted.",
-    options: ["really must", "don't must", "ought", "must to"],
-    answerIndex: 0,
-    explanation: "'Really must' emphasizes the internal obligation."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Emphasis',
+      instructions: "Choose the correct modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "I __________ go to sleep earlier. I'm always exhausted.",
+          options: ["really must", "don't must", "ought", "must to"],
+          correctAnswer: 0,
+          explanation: "'Really must' emphasizes the internal obligation."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e24",
-    type: "grammar",
-    prompt: "You __________ pay for the workout; it's free today!",
-    options: ["don't have to", "must not", "should", "might not"],
-    answerIndex: 0,
-    explanation: "No payment is necessary."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Free Workout',
+      instructions: "Choose the correct modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "You __________ pay for the workout; it's free today!",
+          options: ["don't have to", "must not", "should", "might not"],
+          correctAnswer: 0,
+          explanation: "No payment is necessary."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e25",
-    type: "grammar",
-    prompt: "We __________ take our own yoga mats to the class; the studio doesn't provide them.",
-    options: ["have to", "must not", "don't have to", "should to"],
-    answerIndex: 0,
-    explanation: "'Have to' expresses external obligation (it's a requirement of the studio)."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Studio Rules',
+      instructions: "Choose the correct modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "We __________ take our own yoga mats to the class; the studio doesn't provide them.",
+          options: ["have to", "must not", "don't have to", "should to"],
+          correctAnswer: 0,
+          explanation: "'Have to' expresses external obligation (it's a requirement of the studio)."
+        }
+      ]
+    } as any
   },
 
-  // Reading: The Importance of Mental Health (e26-e35)
+  // --- SUB-TOPIC 3: Reading & Comprehension (26-35) ---
   {
     id: "b1-u4-e26",
-    type: "reading",
-    title: "Mind and Body Connection",
-    text: `Many people think that health is only about the body, but mental health is just as important. Wellness includes a balanced lifestyle where you take care of your thoughts and emotions.
+    type: "reading-comprehension",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: "Mind and Body Connection",
+      text: `Many people think that health is only about the body, but mental health is just as important. Wellness includes a balanced lifestyle where you take care of your thoughts and emotions.
 
 Meditation and mindfulness are great tools for recovery when you feel stressed. Scientists say that a positive mind can actually strengthen your immune system. If you feel overwhelmed by your lifestyle, you should try to simplify your routine.
 
-Remember, you don't have to be perfect. You just need to find what works for you. Small achievemets in your mental wellbeing can lead to a much happier life.`,
-    questions: [
-      {
-        id: "q1",
-        question: "What does wellness include according to the text?",
-        options: ["Only physical exercise", "A balanced lifestyle including thoughts and emotions", "A strict diet only", "Becoming an athlete"],
-        answerIndex: 1,
-        explanation: "The text says wellness includes a balanced lifestyle where you take care of thoughts and emotions."
-      },
-      {
-        id: "q2",
-        question: "What can meditation help with?",
-        options: ["Building muscle", "Stress recovery", "Losing weight", "Learning a language"],
-        answerIndex: 1,
-        explanation: "Meditation and mindfulness are described as tools for recovery when stressed."
-      },
-      {
-        id: "q3",
-        question: "What is the benefit of a positive mind?",
-        options: ["It makes you sleep less", "It can strengthen your immune system", "It helps you work faster", "It replaces exercise"],
-        answerIndex: 1,
-        explanation: "Scientists say it can strengthen the immune system."
-      }
-    ]
+Remember, you don't have to be perfect. You just need to find what works for you. Small achievements in your mental wellbeing can lead to a much happier life.`,
+      questions: [
+        {
+          id: "q1",
+          question: "What does wellness include according to the text?",
+          options: ["Only physical exercise", "A balanced lifestyle including thoughts and emotions", "A strict diet only", "Becoming an athlete"],
+          correctAnswer: 1,
+          explanation: "The text says wellness includes a balanced lifestyle where you take care of thoughts and emotions."
+        },
+        {
+          id: "q2",
+          question: "What can meditation help with?",
+          options: ["Building muscle", "Stress recovery", "Losing weight", "Learning a language"],
+          correctAnswer: 1,
+          explanation: "Meditation and mindfulness are described as tools for recovery when stressed."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e27",
-    type: "multipleChoice",
-    prompt: "According to the text, what should you do if you feel overwhelmed?",
-    options: ["Work harder", "Simplify your routine", "Eat more", "Buy a laptop"],
-    answerIndex: 1,
-    explanation: "The text suggests simplifying your routine."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Dealing with Stress',
+      instructions: "According to the text, what should you do if you feel overwhelmed?",
+      questions: [
+        {
+          id: 'q1',
+          question: 'Option:',
+          options: ["Work harder", "Simplify your routine", "Eat more", "Buy a laptop"],
+          correctAnswer: 1,
+          explanation: "The text suggests simplifying your routine."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e28",
-    type: "multipleChoice",
-    prompt: "The text mentions that scientists believe mental health affects the __________.",
-    options: ["salary", "immune system", "deadline", "background"],
-    answerIndex: 1,
-    explanation: "It mentions the connection to the immune system."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Mind-Body Link',
+      instructions: "Select the correct term from the text.",
+      questions: [
+        {
+          id: 'q1',
+          question: "The text mentions that scientists believe mental health affects the __________.",
+          options: ["salary", "immune system", "deadline", "background"],
+          correctAnswer: 1,
+          explanation: "It mentions the connection to the immune system."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e29",
-    type: "fillBlanks",
-    text: "Small ___ in mental wellbeing lead to a happier life.",
-    answers: ["achievements"],
-    instructions: "Complete with the word from the text (plural).",
-    explanation: "'Achievements' is the word used in the last paragraph."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Happier Life',
+      instructions: "Complete with the word from the text (plural).",
+      questions: [
+        {
+          id: 'q1',
+          text: "Small ___ in mental wellbeing lead to a happier life.",
+          correctAnswer: "achievements",
+          explanation: "'Achievements' is the word used in the last paragraph."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e30",
-    type: "fillBlanks",
-    text: "Meditation is a great tool for ___ when stressed.",
-    answers: ["recovery"],
-    instructions: "Complete with the correct term from the text.",
-    explanation: "The text mentions 'recovery' in the second paragraph."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Stress Recovery',
+      instructions: "Complete with the correct term from the text.",
+      questions: [
+        {
+          id: 'q1',
+          text: "Meditation is a great tool for ___ when stressed.",
+          correctAnswer: "recovery",
+          explanation: "The text mentions 'recovery' in the second paragraph."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e31",
     type: "matching",
-    instructions: "Match the concepts from the text.",
-    pairs: [
-      { id: "p1", word: "Mindfulness", correctMatch: "Tool for stress", distractors: ["Physical food", "Type of laptop", "A color"] },
-      { id: "p2", word: "Balanced lifestyle", correctMatch: "Thoughts and emotions", distractors: ["Only proteins", "Working 24/7", "Sleeping all day"] },
-      { id: "p3", word: "Small achievements", correctMatch: "Happier life", distractors: ["Bigger immune system", "More stress", "No recovery"] }
-    ]
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Text Concepts',
+      instructions: "Match the concepts from the text.",
+      pairs: [
+        { id: "p1", left: "Mindfulness", right: "Tool for stress" },
+        { id: "p2", left: "Balanced lifestyle", right: "Thoughts and emotions" },
+        { id: "p3", left: "Small achievements", right: "Happier life" }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e32",
-    type: "multipleChoice",
-    prompt: "Does the author think we need to be perfect?",
-    options: ["Yes, absolutely", "No, we just need to find what works", "Only in the gym", "Only at work"],
-    answerIndex: 1,
-    explanation: "The text explicitly says 'you don't have to be perfect'."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Perfectionism',
+      instructions: "Choose the best option.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Does the author think we need to be perfect?",
+          options: ["Yes, absolutely", "No, we just need to find what works", "Only in the gym", "Only at work"],
+          correctAnswer: 1,
+          explanation: "The text explicitly says 'you don't have to be perfect'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e33",
-    type: "multipleChoice",
-    prompt: "What is the main idea of the passage?",
-    options: ["Physical health is better than mental health", "The connection between mind and body", "How to use a laptop", "The history of marathons"],
-    answerIndex: 1,
-    explanation: "The text focuses on the importance of mental health and its connection to overall wellness."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Main Idea',
+      instructions: "Choose the main idea.",
+      questions: [
+        {
+          id: 'q1',
+          question: "What is the main idea of the passage?",
+          options: ["Physical health is better than mental health", "The connection between mind and body", "How to use a laptop", "The history of marathons"],
+          correctAnswer: 1,
+          explanation: "The text focuses on the importance of mental health and its connection to overall wellness."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e34",
-    type: "fillBlanks",
-    text: "Wellness includes a ___ lifestyle.",
-    answers: ["balanced"],
-    instructions: "Complete with the adjective used in the text.",
-    explanation: "The text starts by mentioning a balanced lifestyle."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Wellness Definition',
+      instructions: "Complete with the adjective used in the text.",
+      questions: [
+        {
+          id: 'q1',
+          text: "Wellness includes a ___ lifestyle.",
+          correctAnswer: "balanced",
+          explanation: "The text starts by mentioning a balanced lifestyle."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e35",
-    type: "fillBlanks",
-    text: "You ___ take care of your thoughts and emotions.",
-    answers: ["should"],
-    instructions: "Complete with the modal of advice.",
-    explanation: "The text uses 'should' (implied/direct advice structure)."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Reading",
+    difficulty: "medium",
+    content: {
+      title: 'Advice Check',
+      instructions: "Complete with the modal of advice.",
+      questions: [
+        {
+          id: 'q1',
+          text: "You ___ take care of your thoughts and emotions.",
+          correctAnswer: "should",
+          explanation: "The text uses 'should' (implied/direct advice structure)."
+        }
+      ]
+    } as any
   },
 
-  // Vocabulary: Healthy Habits (e36-e45)
+  // --- SUB-TOPIC 4: Healthy Habits (36-45) ---
   {
     id: "b1-u4-e36",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Hydration",
-      back: "Hidratación",
-      pronunciation: "/haɪˈdreɪʃn/",
-      example: "Proper hydration is key during summer.",
-      exampleTranslation: "La hidratación adecuada es clave durante el verano."
-    }
+      items: [
+        {
+          front: "Hydration",
+          back: "Hidratación",
+          pronunciation: "/haɪˈdreɪʃn/",
+          example: "Proper hydration is key during summer.",
+          explanation: "El proceso de proporcionar agua a las células del cuerpo."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e37",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Nutrients",
-      back: "Nutrientes",
-      pronunciation: "/ˈnjuːtriənts/",
-      example: "Vegetables are packed with essential nutrients.",
-      exampleTranslation: "Las verduras están llenas de nutrientes esenciales."
-    }
+      items: [
+        {
+          front: "Nutrients",
+          back: "Nutrientes",
+          pronunciation: "/ˈnjuːtriənts/",
+          example: "Vegetables are packed with essential nutrients.",
+          explanation: "Sustancias que proporcionan nutrición esencial para el crecimiento y mantenimiento de la vida."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e38",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Sedentary",
-      back: "Sedentario",
-      pronunciation: "/ˈsedntri/",
-      example: "A sedentary lifestyle can lead to health problems.",
-      exampleTranslation: "Un estilo de vida sedentario puede provocar problemas de salud."
-    }
+      items: [
+        {
+          front: "Sedentary",
+          back: "Sedentario",
+          pronunciation: "/ˈsedntri/",
+          example: "A sedentary lifestyle can lead to health problems.",
+          explanation: "Que implica mucha inactividad física o permanecer mucho tiempo sentado."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e39",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Strength",
-      back: "Fuerza",
-      pronunciation: "/streŋθ/",
-      example: "He goes to the gym to build his physical strength.",
-      exampleTranslation: "Va al gimnasio para aumentar su fuerza física."
-    }
+      items: [
+        {
+          front: "Strength",
+          back: "Fuerza",
+          pronunciation: "/streŋθ/",
+          example: "He goes to the gym to build his physical strength.",
+          explanation: "La cualidad o estado de ser físicamente fuerte."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e40",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Well-being",
-      back: "Bienestar",
-      pronunciation: "/ˌwel ˈbiːɪŋ/",
-      example: "Yoga improves both physical and mental well-being.",
-      exampleTranslation: "El yoga mejora el bienestar tanto físico como mental."
-    }
+      items: [
+        {
+          front: "Well-being",
+          back: "Bienestar",
+          pronunciation: "/ˌwel ˈbiːɪŋ/",
+          example: "Yoga improves both physical and mental well-being.",
+          explanation: "El estado de estar cómodo, saludable o feliz."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e41",
-    type: "multipleChoice",
-    prompt: "Working at a desk all day can make your lifestyle too __________.",
-    options: ["sedentary", "vivid", "sore", "balanced"],
-    answerIndex: 0,
-    explanation: "'Sedentary' means involving little physical activity."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Desk Jobs',
+      instructions: "Choose the correct adjective.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Working at a desk all day can make your lifestyle too __________.",
+          options: ["sedentary", "vivid", "sore", "balanced"],
+          correctAnswer: 0,
+          explanation: "'Sedentary' means involving little physical activity."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e42",
-    type: "multipleChoice",
-    prompt: "Vitamins and minerals are important __________ for the body.",
-    options: ["nutrients", "deadlines", "salaries", "milestones"],
-    answerIndex: 0,
-    explanation: "Nutrients are substances that provide nourishment."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Nourishment',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Vitamins and minerals are important __________ for the body.",
+          options: ["nutrients", "deadlines", "salaries", "milestones"],
+          correctAnswer: 0,
+          explanation: "Nutrients are substances that provide nourishment."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e43",
-    type: "multipleChoice",
-    prompt: "Don't forget to drink water! __________ is very important.",
-    options: ["Hydration", "Recovery", "Nostalgia", "Achievement"],
-    answerIndex: 0,
-    explanation: "Hydration is the process of absorbing water."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Summer Care',
+      instructions: "Choose the best option.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Don't forget to drink water! __________ is very important.",
+          options: ["Hydration", "Recovery", "Nostalgia", "Achievement"],
+          correctAnswer: 0,
+          explanation: "Hydration is the process of absorbing water."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e44",
-    type: "multipleChoice",
-    prompt: "Lifting weights helps to increase your __________.",
-    options: ["strength", "wellness", "background", "feedback"],
-    answerIndex: 0,
-    explanation: "Strength is the quality or state of being physically strong."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Building Muscle',
+      instructions: "Choose the best term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Lifting weights helps to increase your __________.",
+          options: ["strength", "wellness", "background", "feedback"],
+          correctAnswer: 0,
+          explanation: "Strength is the quality or state of being physically strong."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e45",
-    type: "multipleChoice",
-    prompt: "We are focused on the __________ of our patients.",
-    options: ["well-being", "overtime", "deadline", "salary"],
-    answerIndex: 0,
-    explanation: "'Well-being' is synonymous with 'wellness' or health and happiness."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Patient Focus',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "We are focused on the __________ of our patients.",
+          options: ["well-being", "overtime", "deadline", "salary"],
+          correctAnswer: 0,
+          explanation: "'Well-being' is synonymous with 'wellness' or health and happiness."
+        }
+      ]
+    } as any
   },
 
-  // Sentence Building (e46-e50)
+  // --- SUB-TOPIC 5: Sentence Building (46-50) ---
   {
     id: "b1-u4-e46",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "easy",
     content: {
-      sentence: "You should drink more water.",
-      scrambled: ["should", "You", "water.", "drink", "more"],
-      translation: "Deberías beber más agua."
-    }
+      title: 'Advice Sentence',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["should", "You", "water.", "drink", "more"],
+          correctSentence: "You should drink more water.",
+          translation: "Deberías beber más agua.",
+          points: 5
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e47",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "easy",
     content: {
-      sentence: "A balanced diet is essential.",
-      scrambled: ["essential.", "balanced", "is", "diet", "A"],
-      translation: "Una dieta equilibrada es esencial."
-    }
+      title: 'Diet Sentence',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["essential.", "balanced", "is", "diet", "A"],
+          correctSentence: "A balanced diet is essential.",
+          translation: "Una dieta equilibrada es esencial.",
+          points: 5
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e48",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "easy",
     content: {
-      sentence: "I workout three times a week.",
-      scrambled: ["week.", "times", "workout", "I", "three", "a"],
-      translation: "Entreno tres veces a la semana."
-    }
+      title: 'Routine Sentence',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["week.", "times", "workout", "I", "three", "a"],
+          correctSentence: "I workout three times a week.",
+          translation: "Entreno tres veces a la semana.",
+          points: 5
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e49",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "easy",
     content: {
-      sentence: "You must not smoke here.",
-      scrambled: ["here.", "not", "must", "smoke", "You"],
-      translation: "No debes fumar aquí."
-    }
+      title: 'Prohibition Sentence',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["here.", "not", "must", "smoke", "You"],
+          correctSentence: "You must not smoke here.",
+          translation: "No debes fumar aquí.",
+          points: 5
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e50",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "easy",
     content: {
-      sentence: "Rest is important for recovery.",
-      scrambled: ["for", "Rest", "recovery.", "important", "is"],
-      translation: "El descanso es importante para la recuperación."
-    }
-  }
-];
+      title: 'Recovery Sentence',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["for", "Rest", "recovery.", "important", "is"],
+          correctSentence: "Rest is important for recovery.",
+          translation: "El descanso es importante para la recuperación.",
+          points: 5
+        }
+      ]
+    } as any
+  },
 
-export const UNIT4_B1_PART2: ExerciseItem[] = [
-  // Vocabulary: Stress & Mental Health (e51-e60)
+  // --- SUB-TOPIC 6: Stress & Mental Health (51-60) ---
   {
     id: "b1-u4-e51",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
     content: {
-      front: "Burnout",
-      back: "Agotamiento (por estrés prolongado)",
-      pronunciation: "/ˈbɜːnaʊt/",
-      example: "Many workers suffer from burnout due to long hours.",
-      exampleTranslation: "Muchos trabajadores sufren agotamiento debido a las largas jornadas."
-    }
+      items: [
+        {
+          front: "Burnout",
+          back: "Agotamiento crónico",
+          pronunciation: "/ˈbɜːnaʊt/",
+          example: "Many workers suffer from burnout due to long hours.",
+          explanation: "Estado de agotamiento físico, emocional y mental causado por el estrés excesivo y prolongado."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e52",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
     content: {
-      front: "Coping mechanism",
-      back: "Mecanismo de defensa / estrategia de afrontamiento",
-      pronunciation: "/ˈkəʊpɪŋ ˈmekənɪzəm/",
-      example: "Exercise is a healthy coping mechanism for stress.",
-      exampleTranslation: "El ejercicio es un mecanismo de afrontamiento saludable para el estrés."
-    }
+      items: [
+        {
+          front: "Coping mechanism",
+          back: "Mecanismo de afrontamiento",
+          pronunciation: "/ˈkəʊpɪŋ ˈmekənɪzəm/",
+          example: "Exercise is a healthy coping mechanism for stress.",
+          explanation: "Estrategias que las personas utilizan para lidiar con el estrés y las emociones difíciles."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e53",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
     content: {
-      front: "Resilience",
-      back: "Resiliencia (capacidad de recuperarse)",
-      pronunciation: "/rɪˈzɪliəns/",
-      example: "Mental resilience helps us overcome life's challenges.",
-      exampleTranslation: "La resiliencia mental nos ayuda a superar los desafíos de la vida."
-    }
+      items: [
+        {
+          front: "Resilience",
+          back: "Resiliencia",
+          pronunciation: "/rɪˈzɪliəns/",
+          example: "Mental resilience helps us overcome life's challenges.",
+          explanation: "La capacidad de recuperarse rápidamente de las dificultades."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e54",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
     content: {
-      front: "Burn calories",
-      back: "Quemar calorías",
-      pronunciation: "/bɜːn ˈkæləriz/",
-      example: "Swimming is a great way to burn calories.",
-      exampleTranslation: "Nadar es una forma excelente de quemar calorías."
-    }
+      items: [
+        {
+          front: "Burn calories",
+          back: "Quemar calorías",
+          pronunciation: "/bɜːn ˈkæləriz/",
+          example: "Swimming is a great way to burn calories.",
+          explanation: "Gastar energía a través de la actividad física."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e55",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
     content: {
-      front: "Blood pressure",
-      back: "Presión arterial",
-      pronunciation: "/blʌd ˈpreʃə/",
-      example: "High blood pressure is often called a silent killer.",
-      exampleTranslation: "La presión arterial alta a menudo se llama un asesino silencioso."
-    }
+      items: [
+        {
+          front: "Blood pressure",
+          back: "Presión arterial",
+          pronunciation: "/blʌd ˈpreʃə/",
+          example: "High blood pressure is often called a silent killer.",
+          explanation: "La presión de la sangre en las paredes de las arterias."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e56",
-    type: "multipleChoice",
-    prompt: "A positive attitude and strong social links build mental __________.",
-    options: ["resilience", "burnout", "overtime", "sedentary"],
-    answerIndex: 0,
-    explanation: "'Resilience' is the capacity to recover quickly from difficulties."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Mental Strength',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "A positive attitude and strong social links build mental __________.",
+          options: ["resilience", "burnout", "overtime", "sedentary"],
+          correctAnswer: 0,
+          explanation: "'Resilience' is the capacity to recover quickly from difficulties."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e57",
-    type: "multipleChoice",
-    prompt: "If you work too hard without resting, you might experience __________.",
-    options: ["burnout", "wellness", "recovery", "strength"],
-    answerIndex: 0,
-    explanation: "'Burnout' is state of emotional, physical, and mental exhaustion."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Exhaustion',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "If you work too hard without resting, you might experience __________.",
+          options: ["burnout", "wellness", "recovery", "strength"],
+          correctAnswer: 0,
+          explanation: "'Burnout' is state of emotional, physical, and mental exhaustion."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e58",
-    type: "multipleChoice",
-    prompt: "Yoga is my favorite __________ when I feel anxious.",
-    options: ["coping mechanism", "deadline", "salary", "milestone"],
-    answerIndex: 0,
-    explanation: "A coping mechanism is a strategy to manage stressful situations."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Dealing with Anxiety',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Yoga is my favorite __________ when I feel anxious.",
+          options: ["coping mechanism", "deadline", "salary", "milestone"],
+          correctAnswer: 0,
+          explanation: "A coping mechanism is a strategy to manage stressful situations."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e59",
-    type: "multipleChoice",
-    prompt: "You should check your __________ regularly if you have heart problems.",
-    options: ["blood pressure", "workout", "background", "feedback"],
-    answerIndex: 0,
-    explanation: "Blood pressure is the pressure of circulating blood on the walls of blood vessels."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Heart Health',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "You should check your __________ regularly if you have heart problems.",
+          options: ["blood pressure", "workout", "background", "feedback"],
+          correctAnswer: 0,
+          explanation: "Blood pressure is the pressure of circulating blood on the walls of blood vessels."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e60",
-    type: "multipleChoice",
-    prompt: "Cardio exercises are the most effective to __________.",
-    options: ["burn calories", "promote", "overcome", "reminisce"],
-    answerIndex: 0,
-    explanation: "Physical activity is required to burn calories (energy)."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Effective Exercise',
+      instructions: "Choose the correct verb phrase.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Cardio exercises are the most effective to __________.",
+          options: ["burn calories", "promote", "overcome", "reminisce"],
+          correctAnswer: 0,
+          explanation: "Physical activity is required to burn calories (energy)."
+        }
+      ]
+    } as any
   },
 
-  // Grammar: Modal Verbs of Probability (might, could, must, can't) (e61-e75)
+  // --- SUB-TOPIC 7: Modal Verbs of Probability (might, could, must, can't) (61-75) ---
   {
     id: "b1-u4-e61",
-    type: "grammar",
-    prompt: "Look at his face! He __________ be very sick.",
-    options: ["must", "can't", "might not", "don't have to"],
-    answerIndex: 0,
-    explanation: "We use 'must' for strong probability or logical deduction (near certainty)."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Logical Deduction',
+      instructions: "Choose the best modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Look at his face! He __________ be very sick.",
+          options: ["must", "can't", "might not", "don't have to"],
+          correctAnswer: 0,
+          explanation: "We use 'must' for strong probability or logical deduction (near certainty)."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e62",
-    type: "grammar",
-    prompt: "She __________ be at the gym, but I'm not sure.",
-    options: ["might", "must", "can't", "ought to"],
-    answerIndex: 0,
-    explanation: "We use 'might' or 'could' for possibility when we are not sure."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Uncertainty',
+      instructions: "Choose the best modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "She __________ be at the gym, but I'm not sure.",
+          options: ["might", "must", "can't", "ought to"],
+          correctAnswer: 0,
+          explanation: "We use 'might' or 'could' for possibility when we are not sure."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e63",
-    type: "grammar",
-    prompt: "He just finished a marathon. He __________ be tired.",
-    options: ["must", "can't", "might not", "won't"],
-    answerIndex: 0,
-    explanation: "It's logical to assume he is tired after a marathon."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Assumption',
+      instructions: "Choose the best modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "He just finished a marathon. He __________ be tired.",
+          options: ["must", "can't", "might not", "won't"],
+          correctAnswer: 0,
+          explanation: "It's logical to assume he is tired after a marathon."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e64",
-    type: "grammar",
-    prompt: "You just had lunch! You __________ be hungry already.",
-    options: ["can't", "must", "might", "could"],
-    answerIndex: 0,
-    explanation: "We use 'can't' when we are sure something is impossible (negative deduction)."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Negative Deduction',
+      instructions: "Choose the best modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "You just had lunch! You __________ be hungry already.",
+          options: ["can't", "must", "might", "could"],
+          correctAnswer: 0,
+          explanation: "We use 'can't' when we are sure something is impossible (negative deduction)."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e65",
-    type: "grammar",
-    prompt: "It __________ rain later, so take an umbrella for your walk.",
-    options: ["might", "must", "can't", "should to"],
-    answerIndex: 0,
-    explanation: "'Might' expresses possibility."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Possibility',
+      instructions: "Choose the best modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "It __________ rain later, so take an umbrella for your walk.",
+          options: ["might", "must", "can't", "should to"],
+          correctAnswer: 0,
+          explanation: "'Might' expresses possibility."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e66",
-    type: "fillBlanks",
-    text: "He ___ (must) be happy with his weight loss results.",
-    answers: ["must"],
-    instructions: "Express near certainty (logical deduction).",
-    explanation: "When results are visible, 'must' is used for the logical conclusion."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Certainty Practice',
+      instructions: "Express near certainty.",
+      questions: [
+        {
+          id: 'q1',
+          text: "He ___ (must) be happy with his weight loss results.",
+          correctAnswer: "must",
+          explanation: "When results are visible, 'must' is used for the logical conclusion."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e67",
-    type: "fillBlanks",
-    text: "They ___ (might) join the yoga class if they finish work early.",
-    answers: ["might"],
-    instructions: "Express possibility.",
-    explanation: "'Might' or 'could' are used for possibilities."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Possibility Practice',
+      instructions: "Express possibility.",
+      questions: [
+        {
+          id: 'q1',
+          text: "They ___ (might) join the yoga class if they finish work early.",
+          correctAnswer: "might",
+          explanation: "'Might' or 'could' are used for possibilities."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e68",
-    type: "fillBlanks",
-    text: "You ___ (can't) be serious! Eating five burgers is not healthy.",
-    answers: ["can't"],
-    instructions: "Express strong disbelief / impossibility.",
-    explanation: "'Can't' is the negative equivalent of 'must' for deduction."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Disbelief Practice',
+      instructions: "Express strong disbelief.",
+      questions: [
+        {
+          id: 'q1',
+          text: "You ___ (can't) be serious! Eating five burgers is not healthy.",
+          correctAnswer: "can't",
+          explanation: "'Can't' is the negative equivalent of 'must' for deduction."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e69",
-    type: "fillBlanks",
-    text: "The doctor ___ (could) be busy; his office is full.",
-    answers: ["could"],
-    instructions: "Express possibility.",
-    explanation: "'Could' is used for possibility."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Clues Practice',
+      instructions: "Express possibility based on clues.",
+      questions: [
+        {
+          id: 'q1',
+          text: "The doctor ___ (could) be busy; his office is full.",
+          correctAnswer: "could",
+          explanation: "'Could' is used for possibility."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e70",
-    type: "fillBlanks",
-    text: "She ___ (must) have a fever; her forehead is very hot.",
-    answers: ["must"],
-    instructions: "Express strong probability based on evidence.",
-    explanation: "The evidence (hot forehead) leads to the logical deduction 'must'."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Evidence Practice',
+      instructions: "Express probability based on evidence.",
+      questions: [
+        {
+          id: 'q1',
+          text: "She ___ (must) have a fever; her forehead is very hot.",
+          correctAnswer: "must",
+          explanation: "The evidence (hot forehead) leads to the logical deduction 'must'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e71",
     type: "matching",
-    instructions: "Match the sentence with the level of certainty.",
-    pairs: [
-      { id: "c1", word: "He must be tired", correctMatch: "Near certain (Yes)", distractors: ["Not sure", "Near certain (No)", "Advice"] },
-      { id: "c2", word: "He might be tired", correctMatch: "Possible", distractors: ["Near certain (Yes)", "Near certain (No)", "Prohibition"] },
-      { id: "c3", word: "He can't be tired", correctMatch: "Near certain (No)", distractors: ["Near certain (Yes)", "Possible", "Future"] }
-    ]
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Certainty Levels',
+      instructions: "Match the sentence with the level of certainty.",
+      pairs: [
+        { id: "c1", left: "He must be tired", right: "Near certain (Yes)" },
+        { id: "c2", left: "He might be tired", right: "Possible" },
+        { id: "c3", left: "He can't be tired", right: "Near certain (No)" }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e72",
-    type: "grammar",
-    prompt: "Select the most appropriate modal: 'I don't know where my vitamins are. They __________ be in the kitchen.'",
-    options: ["could", "must", "can't", "must not"],
-    answerIndex: 0,
-    explanation: "'Could' expresses a possibility when we don't know for sure."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Unknown Location',
+      instructions: "Select the most appropriate modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "I don't know where my vitamins are. They __________ be in the kitchen.",
+          options: ["could", "must", "can't", "must not"],
+          correctAnswer: 0,
+          explanation: "'Could' expresses a possibility when we don't know for sure."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e73",
-    type: "grammar",
-    prompt: "That __________ be John. He's on vacation in Japan.",
-    options: ["can't", "must", "might", "could"],
-    answerIndex: 0,
-    explanation: "It's impossible for it to be him if he is in Japan."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Impossible Situation',
+      instructions: "Select the most appropriate modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "That __________ be John. He's on vacation in Japan.",
+          options: ["can't", "must", "might", "could"],
+          correctAnswer: 0,
+          explanation: "It's impossible for it to be him if he is in Japan."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e74",
-    type: "grammar",
-    prompt: "You look great! You __________ have been exercising a lot.",
-    options: ["must", "can't", "might not", "should"],
-    answerIndex: 0,
-    explanation: "A logical deduction based on the person's appearance."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Appearance Deduction',
+      instructions: "Select the most appropriate modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "You look great! You __________ have been exercising a lot.",
+          options: ["must", "can't", "might not", "should"],
+          correctAnswer: 0,
+          explanation: "A logical deduction based on the person's appearance."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e75",
-    type: "grammar",
-    prompt: "We __________ go hiking this weekend, depending on the weather.",
-    options: ["might", "must", "can't", "don't have to"],
-    answerIndex: 0,
-    explanation: "'Might' is used for uncertain future possibilities."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Weather Dependence',
+      instructions: "Select the most appropriate modal.",
+      questions: [
+        {
+          id: 'q1',
+          question: "We __________ go hiking this weekend, depending on the weather.",
+          options: ["might", "must", "can't", "don't have to"],
+          correctAnswer: 0,
+          explanation: "'Might' is used for uncertain future possibilities."
+        }
+      ]
+    } as any
   },
 
-  // Vocabulary: Healthy Habits (e76-e85)
+  // --- SUB-TOPIC 8: Healthy Habits (76-85) ---
   {
     id: "b1-u4-e76",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Mindfulness",
-      back: "Atención plena / consciencia",
-      pronunciation: "/ˈmaɪndflnəs/",
-      example: "Mindfulness can reduce anxiety levels.",
-      exampleTranslation: "La atención plena puede reducir los niveles de ansiedad."
-    }
+      items: [
+        {
+          front: "Mindfulness",
+          back: "Consciencia plena",
+          pronunciation: "/ˈmaɪndflnəs/",
+          example: "Mindfulness can reduce anxiety levels.",
+          explanation: "La cualidad o estado de ser consciente o estar atento a algo."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e77",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Fiber",
-      back: "Fibra",
-      pronunciation: "/ˈfaɪbə/",
-      example: "Whole grains are a good source of fiber.",
-      exampleTranslation: "Los cereales integrales son una buena fuente de fibra."
-    }
+      items: [
+        {
+          front: "Fiber",
+          back: "Fibra",
+          pronunciation: "/ˈfaɪbə/",
+          example: "Whole grains are a good source of fiber.",
+          explanation: "Material vegetal que el cuerpo no puede digerir, esencial para la salud digestiva."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e78",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Metabolism",
-      back: "Metabolismo",
-      pronunciation: "/məˈtæbəlɪzəm/",
-      example: "Exercise helps to speed up your metabolism.",
-      exampleTranslation: "El ejercicio ayuda a acelerar el metabolismo."
-    }
+      items: [
+        {
+          front: "Metabolism",
+          back: "Metabolismo",
+          pronunciation: "/məˈtæbəlɪzəm/",
+          example: "Exercise helps to speed up your metabolism.",
+          explanation: "Los procesos químicos que ocurren dentro de un organismo vivo para mantener la vida."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e79",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Portion control",
-      back: "Control de las porciones",
-      pronunciation: "/ˈpɔːʃn kənˈtrəʊl/",
-      example: "Portion control is helpful for weight management.",
-      exampleTranslation: "El control de las porciones es útil para controlar el peso."
-    }
+      items: [
+        {
+          front: "Portion control",
+          back: "Control de porciones",
+          pronunciation: "/ˈpɔːʃn kənˈtrəʊl/",
+          example: "Portion control is helpful for weight management.",
+          explanation: "Ser consciente de cuánto comes para mantener un peso saludable."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e80",
     type: "flashcard",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
     content: {
-      front: "Stress-free",
-      back: "Libre de estrés",
-      pronunciation: "/stres friː/",
-      example: "I'm trying to have a stress-free weekend.",
-      exampleTranslation: "Estoy intentando tener un fin de semana libre de estrés."
-    }
+      items: [
+        {
+          front: "Stress-free",
+          back: "Libre de estrés",
+          pronunciation: "/stres friː/",
+          example: "I'm trying to have a stress-free weekend.",
+          explanation: "Sin estrés ni preocupaciones."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e81",
-    type: "multipleChoice",
-    prompt: "Eating smaller plates is a common technique for __________.",
-    options: ["portion control", "burnout", "deadline", "salary"],
-    answerIndex: 0,
-    explanation: "Portion control means being aware of how much you eat."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Weight Management',
+      instructions: "Choose the correct technique.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Eating smaller plates is a common technique for __________.",
+          options: ["portion control", "burnout", "deadline", "salary"],
+          correctAnswer: 0,
+          explanation: "Portion control means being aware of how much you eat."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e82",
-    type: "multipleChoice",
-    prompt: "Apples and oats are rich in __________, which is good for digestion.",
-    options: ["fiber", "blood pressure", "workout", "nostalgia"],
-    answerIndex: 0,
-    explanation: "Fiber is a type of carbohydrate that the body can't digest, helpful for the gut."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Digestion',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Apples and oats are rich in __________, which is good for digestion.",
+          options: ["fiber", "blood pressure", "workout", "nostalgia"],
+          correctAnswer: 0,
+          explanation: "Fiber is a type of carbohydrate that the body can't digest, helpful for the gut."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e83",
-    type: "multipleChoice",
-    prompt: "High-intensity interval training (HIIT) can boost your __________.",
-    options: ["metabolism", "burnout", "deadline", "background"],
-    answerIndex: 0,
-    explanation: "Metabolism refers to the chemical processes that occur within a living organism in order to maintain life."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Energy Boost',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "High-intensity interval training (HIIT) can boost your __________.",
+          options: ["metabolism", "burnout", "deadline", "background"],
+          correctAnswer: 0,
+          explanation: "Metabolism refers to the chemical processes that occur within a living organism in order to maintain life."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e84",
-    type: "multipleChoice",
-    prompt: "Practicing __________ daily can improve your focus.",
-    options: ["mindfulness", "overtime", "sedentary", "sore"],
-    answerIndex: 0,
-    explanation: "Mindfulness involves focusing on the present moment."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Daily Focus',
+      instructions: "Choose the correct practice.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Practicing __________ daily can improve your focus.",
+          options: ["mindfulness", "overtime", "sedentary", "sore"],
+          correctAnswer: 0,
+          explanation: "Mindfulness involves focusing on the present moment."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e85",
-    type: "multipleChoice",
-    prompt: "The goal of the vacation is to be completely __________.",
-    options: ["stress-free", "balanced diet", "immune system", "recovery"],
-    answerIndex: 0,
-    explanation: "Stress-free means without any stress or worry."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Vacation Goal',
+      instructions: "Choose the correct adjective.",
+      questions: [
+        {
+          id: 'q1',
+          question: "The goal of the vacation is to be completely __________.",
+          options: ["stress-free", "balanced diet", "immune system", "recovery"],
+          correctAnswer: 0,
+          explanation: "Stress-free means without any stress or worry."
+        }
+      ]
+    } as any
   },
 
-  // Listening/Video Simulation (Text-based for now) (e86-e95)
+  // --- SUB-TOPIC 9: At the Doctor (86-95) ---
   {
     id: "b1-u4-e86",
-    type: "reading",
-    title: "At the Doctor's Office",
-    text: `Doctor: Good morning. How can I help you today?
+    type: "reading-comprehension",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: "At the Doctor's Office",
+      text: `Doctor: Good morning. How can I help you today?
 Patient: I've been feeling very tired lately and I have frequent headaches.
 Doctor: I see. How is your lifestyle? Are you eating a balanced diet?
 Patient: Well, I'm very busy at work, so I often skip breakfast and have a sedentary routine.
 Doctor: That might be the problem. You should try to include more nutrients in your meals and do some light workouts.
 Patient: I'll try. Is it something serious?
 Doctor: Your blood pressure is a bit high, but with a stress-free environment and better habits, you should be fine.`,
-    questions: [
-      {
-        id: "q1",
-        question: "What are the patient's symptoms?",
-        options: ["Sore legs", "Tiredness and headaches", "A broken arm", "A cold"],
-        answerIndex: 1,
-        explanation: "The patient mentions feeling tired and having headaches."
-      },
-      {
-        id: "q2",
-        question: "What does the patient reveal about their habits?",
-        options: ["They exercise daily", "They skip breakfast and are sedentary", "They drink 5 liters of water", "They sleep 10 hours"],
-        answerIndex: 1,
-        explanation: "The patient says they skip breakfast and have a sedentary routine."
-      },
-      {
-        id: "q3",
-        question: "What is the doctor's finding?",
-        options: ["The patient is perfectly healthy", "The blood pressure is high", "The patient needs surgery", "The patient needs a new laptop"],
-        answerIndex: 1,
-        explanation: "The doctor says the blood pressure is a bit high."
-      }
-    ]
+      questions: [
+        {
+          id: "q1",
+          question: "What are the patient's symptoms?",
+          options: ["Sore legs", "Tiredness and headaches", "A broken arm", "A cold"],
+          correctAnswer: 1,
+          explanation: "The patient mentions feeling tired and having headaches."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e87",
-    type: "multipleChoice",
-    prompt: "The doctor suggests the patient should include more __________ in their meals.",
-    options: ["nutrients", "deadlines", "salaries", "milestones"],
-    answerIndex: 0,
-    explanation: "The doctor explicitly mentions nutrients."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: 'Doctor Advice',
+      instructions: "Select the correct recommendation.",
+      questions: [
+        {
+          id: 'q1',
+          question: "The doctor suggests the patient should include more __________ in their meals.",
+          options: ["nutrients", "deadlines", "salaries", "milestones"],
+          correctAnswer: 0,
+          explanation: "The doctor explicitly mentions nutrients."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e88",
-    type: "multipleChoice",
-    prompt: "What kind of environment does the doctor recommend?",
-    options: ["Stress-free", "Competitive", "Dark", "Sedentary"],
-    answerIndex: 0,
-    explanation: "The doctor recommends a 'stress-free environment'."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: 'Recommended Environment',
+      instructions: "Choose the correct term.",
+      questions: [
+        {
+          id: 'q1',
+          question: "What kind of environment does the doctor recommend?",
+          options: ["Stress-free", "Competitive", "Dark", "Sedentary"],
+          correctAnswer: 0,
+          explanation: "The doctor recommends a 'stress-free environment'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e89",
-    type: "fillBlanks",
-    text: "The patient has a ___ routine at work.",
-    answers: ["sedentary"],
-    instructions: "Complete with the adjective from the dialogue.",
-    explanation: "The patient mentions having a sedentary routine."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: 'Work Routine',
+      instructions: "Complete with the adjective from the dialogue.",
+      questions: [
+        {
+          id: 'q1',
+          text: "The patient has a ___ routine at work.",
+          correctAnswer: "sedentary",
+          explanation: "The patient mentions having a sedentary routine."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e90",
-    type: "fillBlanks",
-    text: "You ___ (should) try to include more nutrients.",
-    answers: ["should"],
-    instructions: "Complete with the modal used by the doctor.",
-    explanation: "The doctor gives advice using 'should'."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: 'Nutrition Advice',
+      instructions: "Complete with the modal used by the doctor.",
+      questions: [
+        {
+          id: 'q1',
+          text: "You ___ (should) try to include more nutrients.",
+          correctAnswer: "should",
+          explanation: "The doctor gives advice using 'should'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e91",
     type: "matching",
-    instructions: "Match the speaker with the statement.",
-    pairs: [
-      { id: "s1", word: "Doctor", correctMatch: "Check habits", distractors: ["Feel tired", "Headache", "Skip breakfast"] },
-      { id: "s2", word: "Patient", correctMatch: "Frequent headaches", distractors: ["Provide advice", "Check blood pressure", "Stress-free environment"] }
-    ]
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "hard",
+    content: {
+      title: 'Speaker Statements',
+      instructions: "Match the speaker with the statement.",
+      pairs: [
+        { id: "s1", left: "Doctor", right: "Check habits" },
+        { id: "s2", left: "Patient", right: "Frequent headaches" }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e92",
-    type: "multipleChoice",
-    prompt: "What does 'skip breakfast' mean?",
-    options: ["To eat quickly", "To not eat breakfast", "To eat a lot", "To cook breakfast"],
-    answerIndex: 1,
-    explanation: "'Skip' in this context means to omit or not do."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Skipping Meals',
+      instructions: "Define 'skip breakfast'.",
+      questions: [
+        {
+          id: 'q1',
+          question: "What does 'skip breakfast' mean?",
+          options: ["To eat quickly", "To not eat breakfast", "To eat a lot", "To cook breakfast"],
+          correctAnswer: 1,
+          explanation: "'Skip' in this context means to omit or not do."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e93",
-    type: "multipleChoice",
-    prompt: "Is the patient's condition dangerous according to the doctor?",
-    options: ["Yes, very", "No, with better habits it should be fine", "Only if it rains", "Only on Mondays"],
-    answerIndex: 1,
-    explanation: "The doctor says 'you should be fine' with better habits."
+    type: "multiple-choice",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Interaction",
+    difficulty: "medium",
+    content: {
+      title: 'Condition Severity',
+      instructions: "Choose the correct summary.",
+      questions: [
+        {
+          id: 'q1',
+          question: "Is the patient's condition dangerous according to the doctor?",
+          options: ["Yes, very", "No, with better habits it should be fine", "Only if it rains", "Only on Mondays"],
+          correctAnswer: 1,
+          explanation: "The doctor says 'you should be fine' with better habits."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e94",
-    type: "fillBlanks",
-    text: "The doctor says the patient ___ (might) be tired because of the diet.",
-    answers: ["might"],
-    instructions: "Complete with the modal of probability.",
-    explanation: "The doctor says 'That might be the problem'."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: 'Probability Practice',
+      instructions: "Complete with the modal of probability.",
+      questions: [
+        {
+          id: 'q1',
+          text: "The doctor says the patient ___ (might) be tired because of the diet.",
+          correctAnswer: "might",
+          explanation: "The doctor says 'That might be the problem'."
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e95",
-    type: "fillBlanks",
-    text: "Habits can lead to ___ (burnout) if not careful.",
-    answers: ["burnout"],
-    instructions: "Complete with the vocabulary word for extreme stress.",
-    explanation: "Burnout is the result of prolonged stress and poor habits."
+    type: "fill-blank",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Vocabulary",
+    difficulty: "hard",
+    content: {
+      title: 'Stress Result',
+      instructions: "Complete with the word for extreme stress.",
+      questions: [
+        {
+          id: 'q1',
+          text: "Habits can lead to ___ (burnout) if not careful.",
+          correctAnswer: "burnout",
+          explanation: "Burnout is the result of prolonged stress and poor habits."
+        }
+      ]
+    } as any
   },
 
-  // Final Review (e96-e100)
+  // --- SUB-TOPIC 10: Final Review (96-100) ---
   {
     id: "b1-u4-e96",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Review",
+    difficulty: "medium",
     content: {
-      sentence: "Meditation helps to reduce stress levels.",
-      scrambled: ["reduce", "helps", "levels.", "to", "Meditation", "stress"],
-      translation: "La meditación ayuda a reducir los niveles de estrés."
-    }
+      title: 'Meditation Benefits',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["Meditation", "helps", "to", "reduce", "stress", "levels", "."],
+          correctSentence: "Meditation helps to reduce stress levels.",
+          translation: "La meditación ayuda a reducir los niveles de estrés.",
+          points: 10
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e97",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Review",
+    difficulty: "medium",
     content: {
-      sentence: "You must follow the doctor's advice.",
-      scrambled: ["advice.", "follow", "must", "doctor's", "the", "You"],
-      translation: "Debes seguir el consejo del médico."
-    }
+      title: 'Doctor Advice',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["You", "must", "follow", "the", "doctor's", "advice", "."],
+          correctSentence: "You must follow the doctor's advice.",
+          translation: "Debes seguir el consejo del médico.",
+          points: 10
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e98",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Review",
+    difficulty: "medium",
     content: {
-      sentence: "High blood pressure can be dangerous.",
-      scrambled: ["dangerous.", "pressure", "blood", "be", "can", "High"],
-      translation: "La presión arterial alta puede ser peligrosa."
-    }
+      title: 'High Pressure',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["High", "blood", "pressure", "can", "be", "dangerous", "."],
+          correctSentence: "High blood pressure can be dangerous.",
+          translation: "La presión arterial alta puede ser peligrosa.",
+          points: 10
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e99",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Review",
+    difficulty: "medium",
     content: {
-      sentence: "She might be at the hospital.",
-      scrambled: ["at", "hospital.", "the", "be", "might", "She"],
-      translation: "Ella podría estar en el hospital."
-    }
+      title: 'Hospital Visit',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["She", "might", "be", "at", "the", "hospital", "."],
+          correctSentence: "She might be at the hospital.",
+          translation: "Ella podría estar en el hospital.",
+          points: 10
+        }
+      ]
+    } as any
   },
   {
     id: "b1-u4-e100",
-    type: "drag-drop",
+    type: "sentence-building",
+    level: "B1",
+    topic: "Health, Mind & Body",
+    topicName: "Review",
+    difficulty: "medium",
     content: {
-      sentence: "Proper rest is essential for well-being.",
-      scrambled: ["is", "essential", "rest", "Proper", "well-being.", "for"],
-      translation: "El descanso adecuado es esencial para el bienestar."
-    }
+      title: 'Rest Importance',
+      instructions: "Order the words.",
+      sentences: [
+        {
+          id: 's1',
+          words: ["Proper", "rest", "is", "essential", "for", "well-being", "."],
+          correctSentence: "Proper rest is essential for well-being.",
+          translation: "El descanso adecuado es esencial para el bienestar.",
+          points: 10
+        }
+      ]
+    } as any
+  },
+
+  {
+    id: 'b1-u4-e101',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Health, Mind & Body',
+    topicName: 'Listening & Interaction',
+    difficulty: 'medium',
+    content: {
+      title: 'At the Doctor\'s Office',
+      instructions: 'Listen to a consultation between a doctor and a patient about stress-related issues.',
+      audioUrl: '/audio/b1/unit4/dialogue1.mp3',
+      transcript: [
+        { speaker: 'Doctor', text: 'Good morning, Mr. Jones. What seems to be the problem today?', start: 0, end: 5 },
+        { speaker: 'Mr. Jones', text: 'Well, doctor, I\'ve been feeling very tired lately and I have frequent headaches.', start: 6, end: 12 },
+        { speaker: 'Doctor', text: 'I see. How is your lifestyle? Are you eating a balanced diet?', start: 13, end: 18 },
+        { speaker: 'Mr. Jones', text: 'Well, I\'m very busy at work, so I often skip breakfast and have a sedentary routine.', start: 19, end: 26 },
+        { speaker: 'Doctor', text: 'That might be the problem. You should try to include more nutrients in your meals and do some light workouts.', start: 27, end: 35 },
+        { speaker: 'Mr. Jones', text: 'I\'ll try. Is it something serious?', start: 36, end: 39 },
+        { speaker: 'Doctor', text: 'Your blood pressure is a bit high, but with a stress-free environment and better habits, you should be fine.', start: 40, end: 48 },
+        { speaker: 'Mr. Jones', text: 'Thank you, doctor. I\'ll start making some changes right away.', start: 49, end: 54 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 12,
+          question: 'What are Mr. Jones\'s main symptoms?',
+          options: ['Stomach ache', 'Tiredness and headaches', 'Fever', 'Sore muscles'],
+          correctAnswer: 1,
+          explanation: 'Mr. Jones mentions: "I\'ve been feeling very tired lately and I have frequent headaches."'
+        },
+        {
+          id: 'q2',
+          time: 26,
+          question: 'What does Mr. Jones reveal about his daily habits?',
+          options: ['He exercises daily', 'He eats a large breakfast', 'He often skips breakfast and has a sedentary routine', 'He sleeps 10 hours a night'],
+          correctAnswer: 2,
+          explanation: 'He says: "I often skip breakfast and have a sedentary routine."'
+        },
+        {
+          id: 'q3',
+          time: 35,
+          question: 'What advice does the doctor give him?',
+          options: ['Quit his job', 'Take more medicine', 'Include more nutrients and do light workouts', 'Go on a strict diet'],
+          correctAnswer: 2,
+          explanation: 'The doctor says: "You should try to include more nutrients in your meals and do some light workouts."'
+        },
+        {
+          id: 'q4',
+          time: 48,
+          question: 'What is the doctor\'s diagnosis?',
+          options: ['He is perfectly healthy', 'He has a cold', 'His blood pressure is a bit high', 'He needs surgery'],
+          correctAnswer: 2,
+          explanation: 'The doctor notes: "Your blood pressure is a bit high."'
+        }
+      ]
+    } as any
+  },
+  {
+    id: 'b1-u4-e102',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Health, Mind & Body',
+    topicName: 'Listening & Interaction',
+    difficulty: 'hard',
+    content: {
+      title: 'Wellness and Mindfulness',
+      instructions: 'Listen to a discussion about the benefits of mindfulness and yoga for mental health.',
+      audioUrl: '/audio/b1/unit4/dialogue2.mp3',
+      transcript: [
+        { speaker: 'Host', text: 'Welcome back. Today we\'re talking about mental well-being with yoga instructor, Maya.', start: 0, end: 6 },
+        { speaker: 'Maya', text: 'Thanks for having me. I believe that taking care of your mind is just as important as your body.', start: 7, end: 13 },
+        { speaker: 'Host', text: 'Can you explain what mindfulness actually is?', start: 14, end: 17 },
+        { speaker: 'Maya', text: 'Sure. It\'s the practice of being fully present and aware of where we are and what we\'re doing.', start: 18, end: 25 },
+        { speaker: 'Host', text: 'And how does that help with stress?', start: 26, end: 29 },
+        { speaker: 'Maya', text: 'It works as a coping mechanism. It helps us avoid burnout by allowing us to disconnect from our worries.', start: 30, end: 38 },
+        { speaker: 'Host', text: 'Is it difficult to start?', start: 39, end: 41 },
+        { speaker: 'Maya', text: 'Not at all. You can start with just five minutes a day. You don\'t have to be an expert to see the benefits.', start: 42, end: 50 },
+        { speaker: 'Host', text: 'That\'s encouraging. What about physical activity like yoga?', start: 51, end: 55 },
+        { speaker: 'Maya', text: 'Yoga builds resilience and physical strength. It\'s a complete package for wellness.', start: 56, end: 63 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 25,
+          question: 'What is Maya\'s definition of mindfulness?',
+          options: ['Sleeping better', 'Being fully present and aware', 'Ignoring your problems', 'Doing intense exercise'],
+          correctAnswer: 1,
+          explanation: 'Maya says: "It\'s the practice of being fully present and aware of where we are and what we\'re doing."'
+        },
+        {
+          id: 'q2',
+          time: 38,
+          question: 'How does mindfulness help with stress?',
+          options: ['It makes you work faster', 'It works as a coping mechanism to avoid burnout', 'It helps you lose weight', 'It improves your memory'],
+          correctAnswer: 1,
+          explanation: 'She explains: "It works as a coping mechanism. It helps us avoid burnout by allowing us to disconnect from our worries."'
+        },
+        {
+          id: 'q3',
+          time: 50,
+          question: 'Do you need to be an expert to start practicing mindfulness?',
+          options: ['Yes, it takes years of training', 'No, you can start with just five minutes a day', 'Only if you want to be healthy', 'Yes, you need a teacher'],
+          correctAnswer: 1,
+          explanation: 'Maya mentions: "You don\'t have to be an expert to see the benefits. You can start with just five minutes a day."'
+        },
+        {
+          id: 'q4',
+          time: 63,
+          question: 'What are the benefits of yoga according to Maya?',
+          options: ['Better sleep', 'Higher salary', 'Resilience and physical strength', 'Faster metabolism'],
+          correctAnswer: 2,
+          explanation: 'She says: "Yoga builds resilience and physical strength."'
+        }
+      ]
+    } as any
   }
 ];
-
-export const UNIT4_B1: ExerciseItem[] = [...UNIT4_B1_PART1, ...UNIT4_B1_PART2];

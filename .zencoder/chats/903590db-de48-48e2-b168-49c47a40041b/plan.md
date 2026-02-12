@@ -24,7 +24,11 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 - [x] **Task 6: Implement Exercises 1-50 for Unit 3: Work & Professional Life (Refined flashcards for positive tone)**
 - [x] **Task 7: Implement Exercises 51-100 for Unit 3: Work & Professional Life**
 - [x] **Task 7.1: Technical - Implement Hover Translation System (WordTooltip)**
-- [x] **Task 8: Implement Unit 4: Health, Mind & Body (Exercises 1-50)**
-- [x] **Task 9: Implement Unit 4: Health, Mind & Body (Exercises 51-100)**
-- [ ] **Task 10: Unit 5: Social Media & Digital Communication (Exercises 1-50)**
-- [ ] **Task 11: Unit 5: Social Media & Digital Communication (Exercises 51-100)**
+- [x] **Task 8: Implement Unit 4: Health, Mind & Body (Exercises 1-100 Standardized)**
+- [x] **Task 9: Implement Interactive Audio Dialogues for Units 1-4**
+- [x] **Task 10: Unit 5: Social Issues & The Environment (Exercises 1-50)**
+- [x] **Task 11: Unit 5: Social Issues & The Environment (Exercises 51-100)**
+- [x] **Task 11.1: Unit 5: Implement Interactive Audio Dialogues (2 per unit)**
+- [ ] **Task 12: Unit 6: Travel & Global Culture (Exercises 1-50)**
+- [ ] **Task 13: Unit 6: Travel & Global Culture (Exercises 51-100)**
+- [ ] **Task 13.1: Unit 6: Implement Interactive Audio Dialogues (2 per unit)**

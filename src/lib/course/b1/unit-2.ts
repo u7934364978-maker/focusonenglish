@@ -2031,5 +2031,123 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         }
       ]
     } as any
+  },
+  {
+    id: 'b1-u2-e101',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Experiences & Memories',
+    topicName: 'Listening & Interaction',
+    difficulty: 'medium',
+    content: {
+      title: 'A Disastrous Holiday',
+      instructions: 'Listen to Tom and Chloe discussing their recent trip to Italy. It didn\'t go as planned.',
+      audioUrl: '/audio/b1/unit2/dialogue1.mp3',
+      transcript: [
+        { speaker: 'Tom', text: 'Chloe, I\'m so glad to be back home. That was the most stressful holiday I\'ve ever had.', start: 0, end: 6 },
+        { speaker: 'Chloe', text: 'I know, Tom. I still can\'t believe we missed our flight because of that traffic jam.', start: 7, end: 12 },
+        { speaker: 'Tom', text: 'And then, when we finally arrived in Rome, the airline had lost our luggage!', start: 13, end: 18 },
+        { speaker: 'Chloe', text: 'At least they found it two days later. But the hotel... oh, the hotel was a nightmare.', start: 19, end: 26 },
+        { speaker: 'Tom', text: 'Right? It looked nothing like the photos. The room was tiny and there was no air conditioning.', start: 27, end: 33 },
+        { speaker: 'Chloe', text: 'And it was 35 degrees outside! I remember trying to sleep with the window open and the noise was unbearable.', start: 34, end: 42 },
+        { speaker: 'Tom', text: 'The only good thing was the food. Remember that small pasta place near the Pantheon?', start: 43, end: 49 },
+        { speaker: 'Chloe', text: 'Yes! That was the highlight. The owner was so friendly. He even gave us free dessert when we told him about our luggage.', start: 50, end: 58 },
+        { speaker: 'Tom', text: 'I think that meal saved the trip for me. But I\'m definitely checking the reviews more carefully next time.', start: 59, end: 66 },
+        { speaker: 'Chloe', text: 'Me too. And we are leaving for the airport four hours early!', start: 67, end: 72 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 12,
+          question: 'Why did Tom and Chloe miss their flight?',
+          options: ['They woke up late', 'There was a traffic jam', 'They went to the wrong terminal', 'The train was delayed'],
+          correctAnswer: 1,
+          explanation: 'Chloe says: "I still can\'t believe we missed our flight because of that traffic jam."'
+        },
+        {
+          id: 'q2',
+          time: 33,
+          question: 'What was the problem with the hotel room?',
+          options: ['It was too expensive', 'It was dirty', 'It was tiny and had no air conditioning', 'It was far from the center'],
+          correctAnswer: 2,
+          explanation: 'Tom mentions: "The room was tiny and there was no air conditioning."'
+        },
+        {
+          id: 'q3',
+          time: 49,
+          question: 'What was the "only good thing" according to Tom?',
+          options: ['The weather', 'The museum', 'The food', 'The shopping'],
+          correctAnswer: 2,
+          explanation: 'Tom says: "The only good thing was the food."'
+        },
+        {
+          id: 'q4',
+          time: 72,
+          question: 'What lesson did Chloe learn for their next trip?',
+          options: ['Never go to Italy again', 'Leave for the airport much earlier', 'Pack more clothes', 'Stay in more expensive hotels'],
+          correctAnswer: 1,
+          explanation: 'Chloe says: "we are leaving for the airport four hours early!"'
+        }
+      ]
+    } as any
+  },
+  {
+    id: 'b1-u2-e102',
+    type: 'interactive-dialogue',
+    level: 'B1',
+    topic: 'Experiences & Memories',
+    topicName: 'Listening & Interaction',
+    difficulty: 'hard',
+    content: {
+      title: 'Childhood Summers',
+      instructions: 'Listen to two cousins, Leo and Mia, reminiscing about their summers at their grandmother\'s house.',
+      audioUrl: '/audio/b1/unit2/dialogue2.mp3',
+      transcript: [
+        { speaker: 'Leo', text: 'Mia, do you remember those summers at Grandma\'s house in the countryside?', start: 0, end: 6 },
+        { speaker: 'Mia', text: 'How could I forget? We used to spend all day outside, climbing trees and exploring the woods.', start: 7, end: 13 },
+        { speaker: 'Leo', text: 'I remember the smell of her kitchen. She was always baking something delicious, like that apple pie.', start: 14, end: 21 },
+        { speaker: 'Mia', text: 'And the sound of the old radio in the morning. She always listened to the news while making breakfast.', start: 22, end: 29 },
+        { speaker: 'Leo', text: 'Do you remember that time we found the old map in the attic and thought it was a treasure map?', start: 30, end: 37 },
+        { speaker: 'Mia', text: 'Yes! We spent three days digging in the garden. Grandma was so patient, even though we ruined her flower beds.', start: 38, end: 47 },
+        { speaker: 'Leo', text: 'I feel like kids today don\'t get to experience that kind of freedom. They are always on their phones.', start: 48, end: 55 },
+        { speaker: 'Mia', text: 'I agree. We didn\'t have internet or video games, but we were never bored. Our imagination was enough.', start: 56, end: 64 },
+        { speaker: 'Leo', text: 'I really cherish those memories. I want my kids to have a similar experience, even if it\'s just for a few weeks a year.', start: 65, end: 73 },
+        { speaker: 'Mia', text: 'We should definitely organize a family reunion there this summer. Grandma would love it.', start: 74, end: 80 }
+      ],
+      questions: [
+        {
+          id: 'q1',
+          time: 13,
+          question: 'What did Leo and Mia use to do all day during their summers?',
+          options: ['Watch TV', 'Play video games', 'Climb trees and explore the woods', 'Help in the kitchen'],
+          correctAnswer: 2,
+          explanation: 'Mia mentions: "We used to spend all day outside, climbing trees and exploring the woods."'
+        },
+        {
+          id: 'q2',
+          time: 29,
+          question: 'What did their grandmother do every morning?',
+          options: ['Read the newspaper', 'Listen to the news on the radio', 'Go for a walk', 'Clean the house'],
+          correctAnswer: 1,
+          explanation: 'Mia says: "She always listened to the news while making breakfast."'
+        },
+        {
+          id: 'q3',
+          time: 47,
+          question: 'What happened when they found an old map in the attic?',
+          options: ['They found real treasure', 'They got lost in the woods', 'They ruined the flower beds while digging', 'Grandma got angry'],
+          correctAnswer: 2,
+          explanation: 'Mia mentions they dug in the garden and "ruined her flower beds."'
+        },
+        {
+          id: 'q4',
+          time: 64,
+          question: 'How does Mia feel about childhood today compared to theirs?',
+          options: ['Kids today are luckier', 'Kids today have too much freedom', 'They had more fun without technology', 'Technology makes childhood better'],
+          correctAnswer: 2,
+          explanation: 'Mia says they didn\'t have internet but were never bored, implying they had more fun with their imagination.'
+        }
+      ]
+    } as any
   }
 ];
