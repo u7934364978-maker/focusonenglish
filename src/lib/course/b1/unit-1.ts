@@ -552,7 +552,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'At the moment, I [am living] in London while I finish my studies.',
+          text: 'At the moment, I ___ in London while I finish my studies. (live)',
           correctAnswer: 'am living',
           explanation: 'Situación temporal: Continuous.'
         }
@@ -568,11 +568,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'State Verbs Check',
-      instructions: 'Complete with "understand" or "am understanding".',
+      instructions: 'Complete with the correct form of the verb in brackets.',
       questions: [
         {
           id: 'q1',
-          text: 'Do you [understand] why identity is so important?',
+          text: 'Do you ___ why identity is so important? (understand)',
           correctAnswer: 'understand',
           explanation: '"Understand" es un state verb.'
         }
@@ -588,12 +588,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Work Routine',
-      instructions: 'Fill in the blank.',
+      instructions: 'Fill in the blank with the negative form.',
       questions: [
         {
           id: 'q1',
-          text: 'My manager [doesn\'t] usually attend the morning meetings.',
-          correctAnswer: 'doesn\'t',
+          text: 'My manager ___ usually attend the morning meetings. (not)',
+          correctAnswer: "doesn't",
           explanation: 'Present Simple negativo para hábitos (3ª persona).'
         }
       ]
@@ -608,11 +608,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Changing Habits',
-      instructions: 'Complete the sentence.',
+      instructions: 'Complete the sentence with the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'I [am trying] to learn a new language this year.',
+          text: 'I ___ to learn a new language this year. (try)',
           correctAnswer: 'am trying',
           explanation: 'Proceso en curso durante un periodo de tiempo.'
         }
@@ -628,11 +628,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Belonging',
-      instructions: 'Complete with "belong" or "is belonging".',
+      instructions: 'Complete with the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'This old photograph [belongs] to my grandmother.',
+          text: 'This old photograph ___ to my grandmother. (belong)',
           correctAnswer: 'belongs',
           explanation: '"Belong" indica posesión/estado: Present Simple.'
         }
@@ -652,7 +652,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'I [want] to travel more in the future.',
+          text: 'I ___ to travel more in the future. (want)',
           correctAnswer: 'want',
           explanation: '"Want" es un state verb (deseo).'
         }
@@ -672,7 +672,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'You [seem] a bit tired today. Is everything okay?',
+          text: 'You ___ a bit tired today. Is everything okay? (seem)',
           correctAnswer: 'seem',
           explanation: '"Seem" es un state verb (apariencia).'
         }
@@ -692,7 +692,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'The weather [is getting] colder and colder.',
+          text: 'The weather ___ colder and colder. (get)',
           correctAnswer: 'is getting',
           explanation: 'Situación en cambio progresivo: Continuous.'
         }
@@ -708,11 +708,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Preferences',
-      instructions: 'Complete with "prefer" or "am preferring".',
+      instructions: 'Complete with the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'I [prefer] coffee to tea in the morning.',
+          text: 'I ___ coffee to tea in the morning. (prefer)',
           correctAnswer: 'prefer',
           explanation: '"Prefer" es un state verb (gusto).'
         }
@@ -728,11 +728,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Sense Verbs',
-      instructions: 'Complete with "taste" or "is tasting".',
+      instructions: 'Complete with the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'This soup [tastes] delicious! What is the secret?',
+          text: 'This soup ___ delicious! What is the secret? (taste)',
           correctAnswer: 'tastes',
           explanation: 'Cuando describe una cualidad, "taste" es un state verb.'
         }
@@ -1578,11 +1578,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'The Freelancer\'s Life',
-      instructions: 'Complete with the correct form: work / am working.',
+      instructions: 'Complete with the correct form of the verbs in brackets.',
       questions: [
         {
           id: 'q1',
-          text: 'I usually [work] as a designer, but lately I [am working] on a book.',
+          text: 'I usually ___ as a designer, but lately I ___ on a book. (work / work)',
           correctAnswer: 'work',
           explanation: 'Hábito permanente vs proyecto temporal reciente.'
         }
@@ -1602,7 +1602,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'She [believes] (believe) that she is ready for the promotion.',
+          text: 'She ___ that she is ready for the promotion. (believe)',
           correctAnswer: 'believes',
           explanation: 'Mental state verb: no continuous.'
         }
@@ -1618,11 +1618,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'Developing a brand',
-      instructions: 'Complete with Present Continuous.',
+      instructions: 'Complete with the correct form of the verb in brackets.',
       questions: [
         {
           id: 'q1',
-          text: 'My business [is growing] (grow) very fast this month.',
+          text: 'My business ___ very fast this month. (grow)',
           correctAnswer: 'is growing',
           explanation: 'Proceso de cambio o desarrollo en curso.'
         }
@@ -1642,7 +1642,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'We [are meeting] (meet) the new client tomorrow morning.',
+          text: 'We ___ the new client tomorrow morning. (meet)',
           correctAnswer: 'are meeting',
           explanation: 'Cita programada en el futuro.'
         }
@@ -1658,11 +1658,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'Stative vs Dynamic',
-      instructions: 'Complete with "think" or "am thinking".',
+      instructions: 'Complete with the correct form of "think".',
       questions: [
         {
           id: 'q1',
-          text: 'I [am thinking] of quitting my job. What do you [think] about it?',
+          text: 'I ___ of quitting my job. What do you ___ about it? (think / think)',
           correctAnswer: 'am thinking',
           explanation: 'Proceso de considerar vs Tener una opinión.'
         }
@@ -1682,7 +1682,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'He [is always taking] (always / take) my phone without asking!',
+          text: 'He ___ my phone without asking! (always / take)',
           correctAnswer: 'is always taking',
           explanation: 'Hábito molesto con Present Continuous.'
         }
@@ -1698,11 +1698,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Possession',
-      instructions: 'Fill in with the verb "own".',
+      instructions: 'Fill in with the correct form of the verb "own".',
       questions: [
         {
           id: 'q1',
-          text: 'They [own] (own) a large company in Germany.',
+          text: 'They ___ a large company in Germany. (own)',
           correctAnswer: 'own',
           explanation: 'Posesión es un estado: Present Simple.'
         }
@@ -1718,11 +1718,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'Temporary Travel',
-      instructions: 'Fill in the correct form.',
+      instructions: 'Fill in the correct form of the verb in brackets.',
       questions: [
         {
           id: 'q1',
-          text: 'She [is staying] (stay) at a hotel until she finds an apartment.',
+          text: 'She ___ at a hotel until she finds an apartment. (stay)',
           correctAnswer: 'is staying',
           explanation: 'Situación temporal.'
         }
@@ -1738,11 +1738,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: 'State: Appear',
-      instructions: 'Fill in the blank.',
+      instructions: 'Fill in the blank with the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'The situation [appears] (appear) to be under control.',
+          text: 'The situation ___ to be under control. (appear)',
           correctAnswer: 'appears',
           explanation: '"Appear" como "parecer" es un state verb.'
         }
@@ -1758,11 +1758,11 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'hard',
     content: {
       title: 'The Chef\'s Action',
-      instructions: 'Complete the sentence.',
+      instructions: 'Complete the sentence with "smell" in the correct form.',
       questions: [
         {
           id: 'q1',
-          text: 'Why [is] the waiter [smelling] the wine?',
+          text: 'Why ___ the waiter ___ the wine? (be / smell)',
           correctAnswer: 'is',
           explanation: 'Acción voluntaria de oler: Present Continuous.'
         }
