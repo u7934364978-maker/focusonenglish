@@ -1391,8 +1391,6 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       ]
     } as any
   },
-    } as any
-  },
   {
     id: 'b1-u3-e70',
     type: 'sentence-building',
