@@ -158,7 +158,26 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 
 ### Phase 19: Verification & Deployment (Unit 15)
 - [x] **Task 42: Verify Unit 15 in Browser**
-- [ ] **Task 43: Commit and push changes for Unit 15**
+- [x] **Task 43: Commit and push changes for Unit 15**
+
+### Phase 20: Implementation of Unit 16
+- [x] **Task 44: Define Unit 16 Structure**
+    - Sub-topic 1: Abstract Concepts (Truth, Freedom, Justice) (1-10)
+    - Sub-topic 2: Right and Wrong / Morality (11-20)
+    - Sub-topic 3: Grammar: Modal Verbs of Ability, Permission & Obligation (Review/Advanced) (21-30)
+    - Sub-topic 4: Grammar: Expressing Certainty & Doubt (31-40)
+    - Sub-topic 5: Famous Philosophers & Ideas (41-50)
+    - Sub-topic 6: Everyday Dilemmas (51-60)
+    - Sub-topic 7: Human Rights & Global Ethics (61-70)
+    - Sub-topic 8: Animals & Nature Ethics (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Thinking/Discussing (81-90)
+    - Sub-topic 10: Review & Debating (91-100)
+- [x] **Task 45: Implement Exercises 1-50 for Unit 16: Philosophy & Ethics**
+- [x] **Task 46: Implement Exercises 51-100 for Unit 16: Philosophy & Ethics**
+
+### Phase 21: Verification & Deployment (Unit 16)
+- [x] **Task 47: Verify Unit 16 in Browser**
+- [ ] **Task 48: Commit and push changes for Unit 16**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
