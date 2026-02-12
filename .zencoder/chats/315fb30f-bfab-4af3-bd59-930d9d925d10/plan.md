@@ -218,17 +218,36 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 58: Commit and push changes for Unit 18**
 
 ### Phase 26: Implementation of Unit 19
-- [ ] **Task 59: Define Unit 19 Structure**
+- [x] **Task 59: Define Unit 19 Structure**
     - Sub-topic 1: Modern Workplaces & Environments (1-10)
     - Sub-topic 2: Career Paths & Ambitions (11-20)
     - Sub-topic 3: Grammar: Reported Speech Review (Statements & Questions) (21-30)
     - Sub-topic 4: Grammar: Reporting Verbs (advise, warn, suggest, offer) (31-40)
     - Sub-topic 5: Business Etiquette & Professionalism (41-50)
     - Sub-topic 6: Work-Life Balance & Wellbeing (51-60)
-    - Sub-topic 7: Job Interviews & Applications (71-80)
-    - Sub-topic 8: Networking & Professional Relationships (81-90)
-    - Sub-topic 9: Phrasal Verbs related to Work (91-100)
-    - Sub-topic 10: Review & Mock Interviews (101-110)
+    - Sub-topic 7: Job Interviews & Applications (61-70)
+    - Sub-topic 8: Networking & Professional Relationships (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Work (81-90)
+    - Sub-topic 10: Review & Mock Interviews (91-100)
+- [x] **Task 60: Implement Exercises 1-50 for Unit 19: Work & Careers**
+- [x] **Task 61: Implement Exercises 51-100 for Unit 19: Work & Careers**
+
+### Phase 27: Verification & Deployment (Unit 19)
+- [x] **Task 62: Verify Unit 19 in Browser**
+- [x] **Task 63: Commit and push changes for Unit 19**
+
+### Phase 28: Implementation of Unit 20
+- [ ] **Task 64: Define Unit 20 Structure**
+    - Sub-topic 1: Social Media & Digital Communication (1-10)
+    - Sub-topic 2: Advertising & Consumer Behavior (11-20)
+    - Sub-topic 3: Grammar: Conditionals Review (Zero, First, Second, Third) (21-30)
+    - Sub-topic 4: Grammar: Mixed Conditionals (Intro) (31-40)
+    - Sub-topic 5: Media Literacy & Fake News (41-50)
+    - Sub-topic 6: The Impact of Technology on Society (51-60)
+    - Sub-topic 7: Entertainment & Streaming Services (61-70)
+    - Sub-topic 8: Cyber Security & Privacy (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Media/Tech (81-90)
+    - Sub-topic 10: Review & Debating Tech Issues (91-100)
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
