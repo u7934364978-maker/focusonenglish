@@ -145,6 +145,22 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Expand lexicon for Units 1-15 and 30 to increase variety.
   - [x] Expand global review pool to prevent repetitiveness when current unit is mastered.
   - [x] Ensure anatomy verbs (see, smell) strictly match organs (eyes, nose).
+
+### Phase 4: Infinite Logic & Pedagogical Depth
+- [ ] **Task 39: Sentence Logic Guard (Relational Constraints)**
+  - Implement relational slot constraints (e.g., if Slot A is "drink", Slot B must be "liquid").
+  - Refine `checkSemanticCompatibility` to handle complex "logical delirium" scenarios.
+- [ ] **Task 40: Strict Categorical Distractors**
+  - Hard-lock distractor selection to the primary category of the answer (Days -> only Days, Jobs -> only Jobs).
+  - Prevent "Today is good afternoon" by segregating Greetings from Time/Day categories.
+- [ ] **Task 41: Gender & Number Anchor Refinement**
+  - Ensure "He/She" strictly anchors the gender of family members and professions in all templates.
+- [ ] **Task 42: Lexicon "Pedagogical" Expansion**
+  - Add 50+ new items across A1 units to reach "infinite" feel.
+  - Add logic tags: `edible`, `human_only_action`, `office_item`, `home_item`.
+- [ ] **Task 43: Final Engine Hardening**
+  - Fix "I work in the Friday" by separating Day-of-week prepositions (on) from Time-of-day prepositions (in the).
+  - Verify all 30 units one last time for "naturalness".
 - [x] **Task 37: Final Browser Verification & Push**
   - [x] Verify all 30 units in `/debug/engine`.
   - [x] Perform git push and report commit number.
