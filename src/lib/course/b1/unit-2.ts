@@ -102,6 +102,25 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     } as any
   },
   {
+    id: 'b1-u2-e6',
+    type: 'flashcard',
+    level: 'B1',
+    topic: 'Experiences & Memories',
+    topicName: 'Vocabulary',
+    difficulty: 'easy',
+    content: {
+      items: [
+        {
+          front: 'Highlight',
+          back: 'Lo más destacado',
+          example: 'The highlight of the trip was visiting the Grand Canyon.',
+          pronunciation: '/ˈhaɪ.laɪt/',
+          explanation: 'The most exciting or memorable part of an event.'
+        }
+      ]
+    } as any
+  },
+  {
     id: 'b1-u2-e7',
     type: 'multiple-choice',
     level: 'B1',
@@ -791,7 +810,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     } as any
   },
 
-  // --- SUB-TOPIC 5: Regrets & Feelings (41-50) ---
+  // --- SUB-TOPIC 5: Growth & Feelings (41-50) ---
   {
     id: 'b1-u2-e41',
     type: 'flashcard',
@@ -802,11 +821,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Regret',
-          back: 'Arrepentimiento / Arrepentirse',
-          example: 'I have no regrets about my decision.',
-          pronunciation: '/rɪˈɡret/',
-          explanation: 'A feeling of sadness about something sad or wrong or about a mistake.'
+          front: 'Growth',
+          back: 'Crecimiento / Desarrollo',
+          example: 'Traveling alone led to significant personal growth.',
+          pronunciation: '/ɡrəʊθ/',
+          explanation: 'The process of developing or maturing physically, mentally, or spiritually.'
         }
       ]
     } as any
@@ -994,7 +1013,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     } as any
   },
 
-  // --- SUB-TOPIC 6: Travel Disasters & Anecdotes (51-60) ---
+  // --- SUB-TOPIC 6: Travel Highlights & Anecdotes (51-60) ---
   {
     id: 'b1-u2-e51',
     type: 'flashcard',
@@ -1043,7 +1062,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     topicName: 'Vocabulary',
     difficulty: 'medium',
     content: {
-      title: 'Travel Disasters',
+      title: 'Travel Challenges',
       instructions: 'Match the verb with the problem.',
       pairs: [
         { id: '1', left: 'Get', right: 'stuck in traffic' },
@@ -1104,11 +1123,11 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     content: {
       items: [
         {
-          front: 'Nightmare',
-          back: 'Pesadilla',
-          example: 'The journey home was a total nightmare.',
-          pronunciation: '/ˈnaɪt.meər/',
-          explanation: 'A very upsetting or frightening experience.'
+          front: 'Highlight',
+          back: 'Lo más destacado / Punto culminante',
+          example: 'The visit to the ancient temple was the highlight of our trip.',
+          pronunciation: '/ˈhaɪ.laɪt/',
+          explanation: 'The most exciting or important part of something.'
         }
       ]
     } as any

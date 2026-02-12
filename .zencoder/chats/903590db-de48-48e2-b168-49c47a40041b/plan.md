@@ -20,6 +20,10 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/90
 - [x] **Task 3: Implement Exercises 51-100 for Unit 1: Life Stories**
 - [x] **Task 3.1: Fix and Refine Unit 1 (Sentence building & Fill-blank bugs, remove Background flashcard)**
 - [x] **Task 4: Implement Exercises 1-50 for Unit 2: Experiences & Memories (Refined and removed Bucket list flashcard)**
-- [x] **Task 5: Implement Exercises 51-100 for Unit 2: Experiences & Memories**
-- [ ] **Task 6: Implement Exercises 1-50 for Unit 3: Work & Professional Life**
-- [ ] ...
+- [x] **Task 5: Implement Exercises 51-100 for Unit 2: Experiences & Memories (Refined and added missing e6)**
+- [x] **Task 6: Implement Exercises 1-50 for Unit 3: Work & Professional Life (Refined flashcards for positive tone)**
+- [x] **Task 7: Implement Exercises 51-100 for Unit 3: Work & Professional Life**
+- [ ] **Task 8: Unit 4: Health, Mind & Body (Exercises 1-50)**
+- [ ] **Task 9: Unit 4: Health, Mind & Body (Exercises 51-100)**
+- [ ] **Task 10: Unit 5: Social Media & Digital Communication (Exercises 1-50)**
+- [ ] **Task 11: Unit 5: Social Media & Digital Communication (Exercises 51-100)**
