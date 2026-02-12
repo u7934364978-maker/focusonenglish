@@ -102,25 +102,6 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     } as any
   },
   {
-    id: 'b1-u2-e6',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Experiences & Memories',
-    topicName: 'Vocabulary',
-    difficulty: 'easy',
-    content: {
-      items: [
-        {
-          front: 'Bucket list',
-          back: 'Lista de cosas por hacer antes de morir',
-          example: 'Skydiving is at the top of my bucket list.',
-          pronunciation: '/ˈbʌk.ɪt lɪst/',
-          explanation: 'A list of things you want to do before you die.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'b1-u2-e7',
     type: 'multiple-choice',
     level: 'B1',
@@ -314,9 +295,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       title: 'Transport Memories',
       instructions: 'Match the phrases.',
       pairs: [
-        { id: '1', left: 'Missed', right: 'the train' },
-        { id: '2', left: 'Caught', right: 'the bus' },
-        { id: '3', left: 'Boarded', right: 'the plane' },
+        { id: '1', left: 'Missed', right: 'my flight' },
+        { id: '2', left: 'Caught', right: 'the last bus' },
+        { id: '3', left: 'Boarded', right: 'the ship' },
         { id: '4', left: 'Lost', right: 'my luggage' }
       ]
     } as any

@@ -3,25 +3,6 @@ import { Exercise } from '@/lib/exercise-generator';
 export const UNIT_1_EXERCISES: Exercise[] = [
   // --- FLASHCARDS: Identity & Life Stages (1-10) ---
   {
-    id: 'b1-u1-e1',
-    type: 'flashcard',
-    level: 'B1',
-    topic: 'Life Stories',
-    topicName: 'Vocabulary',
-    difficulty: 'medium',
-    content: {
-      items: [
-        {
-          front: 'Background',
-          back: 'Antecedentes / Origen',
-          example: 'She has a very interesting professional background.',
-          pronunciation: '/ˈbæk.ɡraʊnd/',
-          explanation: 'Se refiere a la experiencia, educación o historia familiar de una persona.'
-        }
-      ]
-    } as any
-  },
-  {
     id: 'b1-u1-e2',
     type: 'flashcard',
     level: 'B1',
