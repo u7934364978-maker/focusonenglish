@@ -271,11 +271,42 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 71: Implement Exercises 51-100 for Unit 21: Passive Voice**
 
 ### Phase 31: Verification & Deployment (Unit 21)
-- [ ] **Task 72: Verify Unit 21 in Browser**
-- [ ] **Task 73: Commit and push changes for Unit 21**
+- [x] **Task 72: Verify Unit 21 in Browser**
+- [x] **Task 73: Commit and push changes for Unit 21**
 
 ### Phase 32: Implementation of Unit 22
-- [ ] **Task 74: Define Unit 22 Structure**
+- [x] **Task 74: Define Unit 22 Structure**
+    - Sub-topic 1: Zero Conditional: Facts & Scientific Truths (1-10)
+    - Sub-topic 2: Zero Conditional: Rules & Instructions (11-20)
+    - Sub-topic 3: First Conditional: Real Possibilities (Future) (21-30)
+    - Sub-topic 4: First Conditional: Promises & Threats (31-40)
+    - Sub-topic 5: First Conditional: Negotiating & Plans (41-50)
+    - Sub-topic 6: If vs. Unless (51-60)
+    - Sub-topic 7: Provided that / As long as (61-70)
+    - Sub-topic 8: Vocabulary: Science & Nature (Zero cond focus) (71-80)
+    - Sub-topic 9: Vocabulary: Plans & Ambitions (First cond focus) (81-90)
+    - Sub-topic 10: Review & Real-life Scenarios (91-100)
+- [x] **Task 75: Implement Exercises 1-50 for Unit 22: Conditionals: Zero & First**
+- [x] **Task 76: Implement Exercises 51-100 for Unit 22: Conditionals: Zero & First**
+
+### Phase 33: Verification & Deployment (Unit 22)
+- [x] **Task 77: Verify Unit 22 in Browser**
+- [x] **Task 78: Commit and push changes for Unit 22**
+
+### Phase 34: Implementation of Unit 23
+- [ ] **Task 79: Define Unit 23 Structure**
+    - Sub-topic 1: Grammar: Second Conditional - Unreal Situations (1-10)
+    - Sub-topic 2: Grammar: Second Conditional - Giving Advice (If I were you) (11-20)
+    - Sub-topic 3: Vocabulary: Wishes & Desires (21-30)
+    - Sub-topic 4: Vocabulary: Hypothetical Scenarios (31-40)
+    - Sub-topic 5: Social Issues (Hypothetical solutions) (41-50)
+    - Sub-topic 6: Environmental Issues (Hypothetical actions) (51-60)
+    - Sub-topic 7: Personal Choices & Life Changes (61-70)
+    - Sub-topic 8: Career Ambitions (Hypothetical) (71-80)
+    - Sub-topic 9: Idioms with 'If' (81-90)
+    - Sub-topic 10: Review & Roleplay (91-100)
+- [ ] **Task 80: Implement Exercises 1-50 for Unit 23: Conditionals: Second**
+- [ ] **Task 81: Implement Exercises 51-100 for Unit 23: Conditionals: Second**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
