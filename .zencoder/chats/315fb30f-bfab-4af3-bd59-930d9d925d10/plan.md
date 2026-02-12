@@ -237,7 +237,7 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 63: Commit and push changes for Unit 19**
 
 ### Phase 28: Implementation of Unit 20
-- [ ] **Task 64: Define Unit 20 Structure**
+- [x] **Task 64: Define Unit 20 Structure**
     - Sub-topic 1: Social Media & Digital Communication (1-10)
     - Sub-topic 2: Advertising & Consumer Behavior (11-20)
     - Sub-topic 3: Grammar: Conditionals Review (Zero, First, Second, Third) (21-30)
@@ -248,6 +248,15 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - Sub-topic 8: Cyber Security & Privacy (71-80)
     - Sub-topic 9: Phrasal Verbs related to Media/Tech (81-90)
     - Sub-topic 10: Review & Debating Tech Issues (91-100)
+- [x] **Task 65: Implement Exercises 1-50 for Unit 20: Media & Technology**
+- [x] **Task 66: Implement Exercises 51-100 for Unit 20: Media & Technology**
+
+### Phase 29: Verification & Deployment (Unit 20)
+- [ ] **Task 67: Verify Unit 20 in Browser**
+- [ ] **Task 68: Commit and push changes for Unit 20**
+
+### Phase 30: Implementation of Unit 21
+- [ ] **Task 69: Define Unit 21 Structure**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
