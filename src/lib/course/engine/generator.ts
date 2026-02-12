@@ -179,11 +179,11 @@ export class ExerciseGenerator {
         // Look for translation in lexicon even for fixed values
         const lexiconMatch = this.lexicon.find(l => l.lemma === selectedLemma);
         
-        filledSlots[slotName] = {
+        filledSlots[slotName] = lexiconMatch || {
           lemma: selectedLemma,
-          pos: config.pos as any || 'verb',
-          translation: lexiconMatch?.translation || '',
-          tags: lexiconMatch?.tags || [],
+          pos: config.pos as any || 'noun',
+          translation: selectedLemma,
+          tags: [],
           unit: effectiveUnit
         };
       } else {
@@ -243,7 +243,7 @@ export class ExerciseGenerator {
             const posMatch = item.pos === (config.pos || 'noun');
             const unitMatch = item.unit <= effectiveUnit;
             // If the slot specifically asked for 'job', 'human', 'family', etc, we MUST respect it in fallback
-            const criticalTags = ['job', 'human', 'family', 'food', 'drink', 'color', 'tech', 'body', 'sight', 'smell', 'hearing', 'taste', 'clothing', 'tool'];
+            const criticalTags = ['job', 'human', 'family', 'food', 'drink', 'color', 'tech', 'body', 'sight', 'smell', 'hearing', 'taste', 'clothing', 'tool', 'nature', 'health', 'day', 'time', 'routine', 'movement', 'emotion'];
             const requestedCritical = config.tags?.filter(t => criticalTags.includes(t)) || [];
             const tagMatch = requestedCritical.every(t => item.tags.includes(t));
             
@@ -406,6 +406,10 @@ export class ExerciseGenerator {
       // Smart Distractors Logic:
       let potentialDistractors: string[] = [];
       
+      // Critical tags that MUST match between answer and distractors
+      const criticalTags = ['day', 'family', 'job', 'color', 'number', 'body', 'greeting', 'nature', 'health', 'clothing', 'tech', 'drink', 'food'];
+      const itemCriticalTags = correctItem.tags.filter(t => criticalTags.includes(t));
+
       // A. If fixedValues exist, they are the best distractors
       if (config.fixedValues) {
         potentialDistractors = config.fixedValues.filter(v => v !== answer);
@@ -413,7 +417,7 @@ export class ExerciseGenerator {
       
       // B. If not enough fixed values, search lexicon by semantic tags + POS
       if (potentialDistractors.length < 3) {
-        const semanticTags = config.tags || correctItem.tags || [];
+        const semanticTags = config.tags || itemCriticalTags;
         const extraDistractors = this.lexicon
           .filter(item => 
             item.lemma !== correctItem.lemma && 
@@ -427,13 +431,16 @@ export class ExerciseGenerator {
       }
 
       // Final fallback if we still don't have enough: any word with same POS
+      // BUT avoid mixing critical categories (e.g., don't put a name in a day exercise)
       if (potentialDistractors.length < 3) {
         const fallbacks = this.lexicon
           .filter(item => 
             item.lemma !== correctItem.lemma && 
             item.pos === (config.pos || correctItem.pos) &&
             !item.tags.includes('greeting') && // Never use greetings as distractors for non-greetings
-            !item.tags.includes('proper_noun') // Never use names as distractors for common nouns
+            !item.tags.includes('proper_noun') && // Never use names as distractors for common nouns
+            // If the answer is in a critical category, fallback distractors SHOULD be too
+            (itemCriticalTags.length > 0 ? item.tags.some(t => criticalTags.includes(t)) : true)
           )
           .map(i => (isPlural && i.plural) ? i.plural : i.lemma);
         potentialDistractors.push(...fallbacks);

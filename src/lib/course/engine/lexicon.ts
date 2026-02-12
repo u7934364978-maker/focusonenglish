@@ -180,4 +180,43 @@ export const A1_LEXICON: LexicalItem[] = [
   // Comparisons (Unit 30)
   { lemma: 'better', pos: 'adjective', translation: 'mejor', tags: ['comparative', 'A1'], unit: 30 },
   { lemma: 'than', pos: 'preposition', translation: 'que', tags: ['comparative', 'A1'], unit: 30 },
+
+  // Nature (Unit 27)
+  { lemma: 'mountain', pos: 'noun', translation: 'montaña', gender_es: 'f', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'beach', pos: 'noun', translation: 'playa', gender_es: 'f', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'forest', pos: 'noun', translation: 'bosque', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'river', pos: 'noun', translation: 'río', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'tree', pos: 'noun', translation: 'árbol', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'flower', pos: 'noun', translation: 'flor', gender_es: 'f', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'sky', pos: 'noun', translation: 'cielo', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'sun', pos: 'noun', translation: 'sol', gender_es: 'm', tags: ['nature', 'A1'], unit: 27 },
+  { lemma: 'moon', pos: 'noun', translation: 'luna', gender_es: 'f', tags: ['nature', 'A1'], unit: 27 },
+
+  // Unit 3: Family (More variety)
+  { lemma: 'cousin', pos: 'noun', translation: 'primo/a', gender_es: 'm', tags: ['family', 'human', 'A1'], unit: 3 },
+  { lemma: 'nephew', pos: 'noun', translation: 'sobrino', gender_es: 'm', tags: ['family', 'human', 'm', 'A1'], unit: 3 },
+  { lemma: 'niece', pos: 'noun', translation: 'sobrina', gender_es: 'f', tags: ['family', 'human', 'f', 'A1'], unit: 3 },
+
+  // Unit 10: Clothes (More variety)
+  { lemma: 'socks', pos: 'noun', translation: 'calcetines', plural: 'socks', gender_es: 'm', tags: ['clothing', 'A1'], unit: 10 },
+  { lemma: 'coat', pos: 'noun', translation: 'abrigo', gender_es: 'm', tags: ['clothing', 'A1'], unit: 10 },
+  { lemma: 'gloves', pos: 'noun', translation: 'guantes', plural: 'gloves', gender_es: 'm', tags: ['clothing', 'A1'], unit: 10 },
+
+  // Unit 11: Jobs (More variety)
+  { lemma: 'lawyer', pos: 'noun', translation: 'abogado/a', gender_es: 'm', tags: ['job', 'human', 'A1'], unit: 11 },
+  { lemma: 'dentist', pos: 'noun', translation: 'dentista', gender_es: 'm', tags: ['job', 'human', 'A1'], unit: 11 },
+  { lemma: 'architect', pos: 'noun', translation: 'arquitecto/a', gender_es: 'm', tags: ['job', 'human', 'A1'], unit: 11 },
+
+  // Unit 8: Routine (More variety)
+  { lemma: 'brush teeth', pos: 'verb', translation: 'lavarse los dientes', i_es: 'me lavo los dientes', tags: ['routine', 'morning_activity', 'A1'], unit: 8 },
+  { lemma: 'listen to music', pos: 'verb', translation: 'escuchar música', i_es: 'escucho música', tags: ['routine', 'night_activity', 'A1'], unit: 8 },
+  { lemma: 'watch TV', pos: 'verb', translation: 'ver la tele', i_es: 'veo la tele', tags: ['routine', 'night_activity', 'A1'], unit: 8 },
+
+  // Health (Unit 28)
+  { lemma: 'stomachache', pos: 'noun', translation: 'dolor de estómago', gender_es: 'm', tags: ['health', 'A1'], unit: 28 },
+  { lemma: 'headache', pos: 'noun', translation: 'dolor de cabeza', gender_es: 'm', tags: ['health', 'A1'], unit: 28 },
+  { lemma: 'cold', pos: 'noun', translation: 'resfriado', gender_es: 'm', tags: ['health', 'A1'], unit: 28 },
+  { lemma: 'fever', pos: 'noun', translation: 'fiebre', gender_es: 'f', tags: ['health', 'A1'], unit: 28 },
+  { lemma: 'cough', pos: 'noun', translation: 'tos', gender_es: 'f', tags: ['health', 'A1'], unit: 28 },
+  { lemma: 'flu', pos: 'noun', translation: 'gripe', gender_es: 'f', tags: ['health', 'A1'], unit: 28 },
 ];

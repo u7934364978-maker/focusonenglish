@@ -577,7 +577,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       item: { pos: 'noun', tags: ['common_noun', 'object'] },
       prep: { pos: 'preposition', tags: ['prep'] }
     },
-    translationTemplate: 'El/La {item_es} está {prep_es} la caja.'
+    translationTemplate: '{el_la_item} {item_es} está {prep_es} la caja.'
   },
   // --- Unit 21: Travel ---
   {
