@@ -751,10 +751,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Identity Question',
       instructions: 'Order the words to form a question.',
-      words: ['do', 'How', 'yourself', 'define', 'you', '?'],
-      correctOrder: ['How', 'do', 'you', 'define', 'yourself', '?'],
-      translation: '¿Cómo te defines a ti mismo?',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['do', 'How', 'yourself', 'define', 'you', '?'],
+          correctSentence: 'How do you define yourself?',
+          translation: '¿Cómo te defines a ti mismo?',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -767,10 +772,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Current Project',
       instructions: 'Order the words to describe a current action.',
-      words: ['working', 'I', 'am', 'on', 'a', 'big', 'project', '.'],
-      correctOrder: ['I', 'am', 'working', 'on', 'a', 'big', 'project', '.'],
-      translation: 'Estoy trabajando en un proyecto grande.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['working', 'I', 'am', 'on', 'a', 'big', 'project', '.'],
+          correctSentence: 'I am working on a big project.',
+          translation: 'Estoy trabajando en un proyecto grande.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -783,10 +793,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Habitual Action',
       instructions: 'Order the words.',
-      words: ['They', 'often', 'go', 'to', 'the', 'gym', 'together', '.'],
-      correctOrder: ['They', 'often', 'go', 'to', 'the', 'gym', 'together', '.'],
-      translation: 'Ellos a menudo van al gimnasio juntos.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['They', 'often', 'go', 'to', 'the', 'gym', 'together', '.'],
+          correctSentence: 'They often go to the gym together.',
+          translation: 'Ellos a menudo van al gimnasio juntos.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -799,10 +814,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'State Verb Sentence',
       instructions: 'Order the words.',
-      words: ['believe', 'I', 'that', 'honesty', 'is', 'essential', '.'],
-      correctOrder: ['I', 'believe', 'that', 'honesty', 'is', 'essential', '.'],
-      translation: 'Creo que la honestidad es esencial.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['believe', 'I', 'that', 'honesty', 'is', 'essential', '.'],
+          correctSentence: 'I believe that honesty is essential.',
+          translation: 'Creo que la honestidad es esencial.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -815,10 +835,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Frequency and To Be',
       instructions: 'Order the words.',
-      words: ['She', 'is', 'always', 'available', 'to', 'help', '.'],
-      correctOrder: ['She', 'is', 'always', 'available', 'to', 'help', '.'],
-      translation: 'Ella siempre está disponible para ayudar.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['She', 'is', 'always', 'available', 'to', 'help', '.'],
+          correctSentence: 'She is always available to help.',
+          translation: 'Ella siempre está disponible para ayudar.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -831,10 +856,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Temporary Situation',
       instructions: 'Order the words.',
-      words: ['We', 'staying', 'are', 'with', 'friends', 'this', 'week', '.'],
-      correctOrder: ['We', 'are', 'staying', 'with', 'friends', 'this', 'week', '.'],
-      translation: 'Nos estamos quedando con amigos esta semana.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['We', 'staying', 'are', 'with', 'friends', 'this', 'week', '.'],
+          correctSentence: 'We are staying with friends this week.',
+          translation: 'Nos estamos quedando con amigos esta semana.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -847,10 +877,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Changing Situation',
       instructions: 'Order the words.',
-      words: ['English', 'skills', 'My', 'getting', 'are', 'better', '.'],
-      correctOrder: ['My', 'English', 'skills', 'are', 'getting', 'better', '.'],
-      translation: 'Mis habilidades de inglés están mejorando.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['English', 'skills', 'My', 'getting', 'are', 'better', '.'],
+          correctSentence: 'My English skills are getting better.',
+          translation: 'Mis habilidades de inglés están mejorando.',
+          points: 5
+        }
+      ]
     } as any
   },
   {
@@ -863,10 +898,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Future Arrangement',
       instructions: 'Order the words.',
-      words: ['am', 'I', 'dinner', 'having', 'with', 'Mark', 'tonight', '.'],
-      correctOrder: ['I', 'am', 'having', 'with', 'Mark', 'tonight', '.'],
-      translation: 'Voy a cenar con Mark esta noche.',
-      points: 5
+      sentences: [
+        {
+          id: 's1',
+          words: ['am', 'I', 'dinner', 'having', 'with', 'Mark', 'tonight', '.'],
+          correctSentence: 'I am having dinner with Mark tonight.',
+          translation: 'Voy a cenar con Mark esta noche.',
+          points: 5
+        }
+      ]
     } as any
   },
 
@@ -1582,7 +1622,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'I usually ___ as a designer, but lately I ___ on a book. (work / work)',
+          text: 'I usually ___ (work) as a designer, but lately I ___ (work) on a book.',
           correctAnswer: 'work / am working',
           explanation: 'Hábito permanente vs proyecto temporal reciente.'
         }
@@ -1602,7 +1642,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'She ___ that she is ready for the promotion. (believe)',
+          text: 'She ___ (believe) that she is ready for the promotion.',
           correctAnswer: 'believes',
           explanation: 'Mental state verb: no continuous.'
         }
@@ -1622,7 +1662,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'My business ___ very fast this month. (grow)',
+          text: 'My business ___ (grow) very fast this month.',
           correctAnswer: 'is growing',
           explanation: 'Proceso de cambio o desarrollo en curso.'
         }
@@ -1642,7 +1682,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'We ___ the new client tomorrow morning. (meet)',
+          text: 'We ___ (meet) the new client tomorrow morning.',
           correctAnswer: 'are meeting',
           explanation: 'Cita programada en el futuro.'
         }
@@ -1662,7 +1702,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'I ___ of quitting my job. What do you ___ about it? (think / think)',
+          text: 'I ___ (think) of quitting my job. What do you ___ (think) about it?',
           correctAnswer: 'am thinking / think',
           explanation: 'Proceso de considerar vs Tener una opinión.'
         }
@@ -1682,7 +1722,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'He ___ my phone without asking! (always / take)',
+          text: 'He ___ (always / take) my phone without asking!',
           correctAnswer: 'is always taking',
           explanation: 'Hábito molesto con Present Continuous.'
         }
@@ -1702,7 +1742,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'They ___ a large company in Germany. (own)',
+          text: 'They ___ (own) a large company in Germany.',
           correctAnswer: 'own',
           explanation: 'Posesión es un estado: Present Simple.'
         }
@@ -1722,7 +1762,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'She ___ at a hotel until she finds an apartment. (stay)',
+          text: 'She ___ (stay) at a hotel until she finds an apartment.',
           correctAnswer: 'is staying',
           explanation: 'Situación temporal.'
         }
@@ -1742,7 +1782,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'The situation ___ to be under control. (appear)',
+          text: 'The situation ___ (appear) to be under control.',
           correctAnswer: 'appears',
           explanation: '"Appear" como "parecer" es un state verb.'
         }
@@ -1762,7 +1802,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           id: 'q1',
-          text: 'Why ___ the waiter ___ the wine? (be / smell)',
+          text: 'Why ___ (be) the waiter ___ (smell) the wine?',
           correctAnswer: 'is / smelling',
           explanation: 'Acción voluntaria de oler: Present Continuous.'
         }
@@ -1781,10 +1821,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Contrastive Sentence',
       instructions: 'Order the words.',
-      words: ['Although', 'I', 'love', 'traveling', 'staying', 'I', 'prefer', 'home', '.'],
-      correctOrder: ['Although', 'I', 'love', 'traveling', ',', 'I', 'prefer', 'staying', 'home', '.'],
-      translation: 'Aunque amo viajar, prefiero quedarme en casa.',
-      points: 10
+      sentences: [
+        {
+          id: 's1',
+          words: ['Although', 'I', 'love', 'traveling', 'staying', 'I', 'prefer', 'home', '.'],
+          correctSentence: 'Although I love traveling, I prefer staying home.',
+          translation: 'Aunque amo viajar, prefiero quedarme en casa.',
+          points: 10
+        }
+      ]
     } as any
   },
   {
@@ -1797,10 +1842,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Developing Skills',
       instructions: 'Order the words.',
-      words: ['becoming', 'Her', 'are', 'English', 'more', 'skills', 'fluent', '.'],
-      correctOrder: ['Her', 'English', 'skills', 'are', 'becoming', 'more', 'fluent', '.'],
-      translation: 'Sus habilidades de inglés se están volviendo más fluidas.',
-      points: 10
+      sentences: [
+        {
+          id: 's1',
+          words: ['becoming', 'Her', 'are', 'English', 'more', 'skills', 'fluent', '.'],
+          correctSentence: 'Her English skills are becoming more fluent.',
+          translation: 'Sus habilidades de inglés se están volviendo más fluidas.',
+          points: 10
+        }
+      ]
     } as any
   },
   {
@@ -1813,10 +1863,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Future Arrangement Question',
       instructions: 'Order the words.',
-      words: ['Are', 'you', 'next', 'joining', 'us', 'for', 'the', 'lunch', 'week', '?'],
-      correctOrder: ['Are', 'you', 'joining', 'us', 'for', 'lunch', 'next', 'week', '?'],
-      translation: '¿Te unirás a nosotros para almorzar la próxima semana?',
-      points: 8
+      sentences: [
+        {
+          id: 's1',
+          words: ['Are', 'you', 'next', 'joining', 'us', 'for', 'lunch', 'week', '?'],
+          correctSentence: 'Are you joining us for lunch next week?',
+          translation: '¿Te unirás a nosotros para almorzar la próxima semana?',
+          points: 8
+        }
+      ]
     } as any
   },
   {
@@ -1829,10 +1884,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Opinion and Reason',
       instructions: 'Order the words.',
-      words: ['I', 'think', 'because', 'he', 'is', 'a', 'it', 'works', 'hard', 'genius', '.'],
-      correctOrder: ['I', 'think', 'it', 'works', 'because', 'he', 'is', 'a', 'genius', '.'],
-      translation: 'Creo que funciona porque él es un genio.',
-      points: 10
+      sentences: [
+        {
+          id: 's1',
+          words: ['I', 'think', 'because', 'he', 'is', 'a', 'it', 'works', 'hard', 'genius', '.'],
+          correctSentence: 'I think it works because he is a hard genius.',
+          translation: 'Creo que funciona porque él es un genio trabajador.',
+          points: 10
+        }
+      ]
     } as any
   },
   {
@@ -1845,10 +1905,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Annoying Habit Order',
       instructions: 'Order the words.',
-      words: ['is', 'He', 'forgetting', 'always', 'to', 'the', 'door', 'lock', '.'],
-      correctOrder: ['He', 'is', 'always', 'forgetting', 'to', 'lock', 'the', 'door', '.'],
-      translation: 'Él siempre se está olvidando de cerrar la puerta.',
-      points: 8
+      sentences: [
+        {
+          id: 's1',
+          words: ['is', 'He', 'forgetting', 'always', 'to', 'the', 'door', 'lock', '.'],
+          correctSentence: 'He is always forgetting to lock the door.',
+          translation: 'Él siempre se está olvidando de cerrar la puerta.',
+          points: 8
+        }
+      ]
     } as any
   },
   {
@@ -1861,10 +1926,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'Stative Question',
       instructions: 'Order the words.',
-      words: ['Do', 'you', 'belonging', 'feel', 'like', 'you', 'here', '?'],
-      correctOrder: ['Do', 'you', 'feel', 'like', 'you', 'belong', 'here', '?'],
-      translation: '¿Sientes que perteneces aquí?',
-      points: 8
+      sentences: [
+        {
+          id: 's1',
+          words: ['Do', 'you', 'feel', 'like', 'you', 'belong', 'here', '?'],
+          correctSentence: 'Do you feel like you belong here?',
+          translation: '¿Sientes que perteneces aquí?',
+          points: 8
+        }
+      ]
     } as any
   },
   {
@@ -1877,10 +1947,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     content: {
       title: 'State vs Dynamic Question',
       instructions: 'Order the words.',
-      words: ['Why', 'is', 'tasting', 'the', 'she', 'right', 'soup', 'now', '?'],
-      correctOrder: ['Why', 'is', 'she', 'tasting', 'the', 'soup', 'right', 'now', '?'],
-      translation: '¿Por qué está ella probando la sopa justo ahora?',
-      points: 10
+      sentences: [
+        {
+          id: 's1',
+          words: ['Why', 'is', 'tasting', 'the', 'she', 'right', 'soup', 'now', '?'],
+          correctSentence: 'Why is she tasting the soup right now?',
+          translation: '¿Por qué está ella probando la sopa justo ahora?',
+          points: 10
+        }
+      ]
     } as any
   },
 
