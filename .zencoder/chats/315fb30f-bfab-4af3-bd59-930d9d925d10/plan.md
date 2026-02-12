@@ -81,8 +81,27 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 21: Implement Exercises 51-100 for Unit 11: Science & Innovation**
 
 ### Phase 11: Verification & Deployment (Unit 11)
-- [ ] **Task 22: Verify Unit 11 in Browser**
-- [ ] **Task 23: Commit and push changes for Unit 11**
+- [x] **Task 22: Verify Unit 11 in Browser**
+- [x] **Task 23: Commit and push changes for Unit 11**
+
+### Phase 12: Implementation of Unit 12
+- [x] **Task 24: Define Unit 12 Structure**
+    - Sub-topic 1: Art Movements & Styles (1-10)
+    - Sub-topic 2: Literature & Books (11-20)
+    - Sub-topic 3: Grammar: Relative Clauses (Defining) (21-30)
+    - Sub-topic 4: Grammar: Relative Clauses (Non-defining) (31-40)
+    - Sub-topic 5: Cinema & Theatre (41-50)
+    - Sub-topic 6: Music & Performance (51-60)
+    - Sub-topic 7: Creative Writing & Storytelling (61-70)
+    - Sub-topic 8: Cultural Heritage & Museums (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Art & Creativity (81-90)
+    - Sub-topic 10: Review & Expressing Opinions (91-100)
+- [x] **Task 25: Implement Exercises 1-50 for Unit 12: Art & Literature**
+- [x] **Task 26: Implement Exercises 51-100 for Unit 12: Art & Literature**
+
+### Phase 13: Verification & Deployment (Unit 12)
+- [ ] **Task 27: Verify Unit 12 in Browser**
+- [ ] **Task 28: Commit and push changes for Unit 12**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
