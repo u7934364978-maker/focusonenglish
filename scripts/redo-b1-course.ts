@@ -87,14 +87,24 @@ async function generateExercisesForUnit(unitId: number) {
       - transcript: "Clean English text for audio"
       - audioUrl: "audio/b1/unit-${unitId}/e..."
       - content: { 
-          // for multiple-choice/fill-blank:
-          prompt: "...", 
-          options: ["...", "..."], 
-          answerIndex: 0,
-          explanation: "In Spanish...",
-          // for flashcard:
+          // MANDATORY for all types:
+          title: "Unit ${unitId}: ${unit.theme}",
+          instructions: "...", 
+          
+          // ONLY for multiple-choice, fill-blank:
+          questions: [
+            {
+              prompt: "[[Question|Pregunta]]?", 
+              options: ["[[Option1|...]]", "[[Option2|...]]"], 
+              correctAnswer: 0, // index for multiple choice, text for fill-blank
+              explanation: "In Spanish..."
+            }
+          ],
+          
+          // ONLY for flashcard:
           items: [{ front: "[[word|translation]]", back: "Spanish", example: "[[Example|Ejemplo]]...", pronunciation: "...", explanation: "..." }],
-          // for sentence-building:
+          
+          // ONLY for sentence-building:
           words: ["[[Word1|...]]", "[[Word2|...]]"],
           correctOrder: ["Word1", "Word2"] 
         }
