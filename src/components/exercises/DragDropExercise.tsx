@@ -25,6 +25,7 @@ interface DragDropContent extends DragDropSentence {
 
 interface DragDropExerciseProps {
   content: DragDropContent;
+  vocabulary?: any[];
   onComplete: (isCorrect: boolean) => void;
 }
 
@@ -33,7 +34,7 @@ interface WordTile {
   text: string;
 }
 
-export default function DragDropExercise({ content, onComplete }: DragDropExerciseProps) {
+export default function DragDropExercise({ content, vocabulary, onComplete }: DragDropExerciseProps) {
   const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
   const [availableItems, setAvailableItems] = useState<WordTile[]>([]);
   const [orderedItems, setOrderedItems] = useState<WordTile[]>([]);
@@ -139,7 +140,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
           )}
         </div>
         <p className="text-slate-600">
-          <Markdown content={content.instructions || 'Selecciona las palabras en el orden correcto.'} />
+          <Markdown content={content.instructions || 'Selecciona las palabras en el orden correcto.'} vocabulary={vocabulary} />
         </p>
       </div>
 
@@ -171,7 +172,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                   }`}
                 >
                   <span className="pointer-events-none">
-                    <Markdown content={item.text} />
+                    <Markdown content={item.text} vocabulary={vocabulary} />
                   </span>
                   {!submitted && <Minus className="w-3 h-3 opacity-30" />}
                 </Reorder.Item>
@@ -197,7 +198,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                   className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-slate-700 rounded-xl border border-slate-200 font-bold text-lg transition-all flex items-center gap-2"
                 >
                   <span className="pointer-events-none">
-                    <Markdown content={item.text} />
+                    <Markdown content={item.text} vocabulary={vocabulary} />
                   </span>
                   <Plus className="w-3 h-3 opacity-30" />
                 </motion.button>
@@ -211,7 +212,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
         <div className="mb-8 p-4 bg-orange-50 rounded-xl border border-orange-100 flex items-center gap-3">
           <span className="text-orange-400 font-bold">ES:</span>
           <div className="text-slate-700 font-medium italic">
-            <Markdown content={currentSentenceData.translation} />
+            <Markdown content={currentSentenceData.translation} vocabulary={vocabulary} />
           </div>
         </div>
       )}
@@ -277,7 +278,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
                   exit={{ height: 0, opacity: 0 }}
                   className="mt-2 text-slate-600 text-sm italic overflow-hidden"
                 >
-                  <Markdown content={currentSentenceData.hint} />
+                  <Markdown content={currentSentenceData.hint} vocabulary={vocabulary} />
                 </motion.div>
               )}
             </AnimatePresence>
@@ -323,7 +324,7 @@ export default function DragDropExercise({ content, onComplete }: DragDropExerci
               💡 Explicación:
             </p>
             <div className="text-sm">
-              <Markdown content={currentSentenceData.explanation} />
+              <Markdown content={currentSentenceData.explanation} vocabulary={vocabulary} />
             </div>
           </motion.div>
         )}

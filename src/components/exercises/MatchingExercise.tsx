@@ -20,10 +20,11 @@ interface MatchingContent {
 
 interface MatchingExerciseProps {
   content: MatchingContent;
+  vocabulary?: any[];
   onComplete: (isCorrect: boolean) => void;
 }
 
-export default function MatchingExercise({ content, onComplete }: MatchingExerciseProps) {
+export default function MatchingExercise({ content, vocabulary, onComplete }: MatchingExerciseProps) {
   const [leftItems, setLeftItems] = useState<string[]>([]);
   const [rightItems, setRightItems] = useState<string[]>([]);
   const [selectedLeft, setSelectedLeft] = useState<string | null>(null);
@@ -114,7 +115,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
       <div className="mb-8">
         <h2 className="text-2xl font-black text-slate-900">{content.title || 'Une las parejas'}</h2>
         <p className="text-slate-600">
-          <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} />
+          <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
         </p>
       </div>
 
@@ -137,7 +138,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
                 } ${submitted && isMatched && (matches[item] === content.pairs.find(p => p.left === item)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
               >
-                <Markdown content={item} />
+                <Markdown content={item} vocabulary={vocabulary} />
               </button>
             );
           })}
@@ -162,7 +163,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
                       : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
                 } ${submitted && isMatched && (item === content.pairs.find(p => p.left === matchedLeft)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
               >
-                <Markdown content={item} />
+                <Markdown content={item} vocabulary={vocabulary} />
               </button>
             );
           })}
@@ -215,7 +216,7 @@ export default function MatchingExercise({ content, onComplete }: MatchingExerci
               💡 Explicación:
             </p>
             <div className="text-sm">
-              <Markdown content={content.explanation} />
+              <Markdown content={content.explanation} vocabulary={vocabulary} />
             </div>
           </motion.div>
         )}

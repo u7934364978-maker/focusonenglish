@@ -17,10 +17,11 @@ import { updateSRSItem } from '@/lib/srs';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
+  vocabulary?: any[];
   onComplete: (result?: { success: boolean; score: number }) => void;
 }
 
-export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRendererProps) {
+export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: ExerciseRendererProps) {
   const { completeExercise } = useGamification();
   const [userAnswer, setUserAnswer] = useState<any>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -142,6 +143,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         <div className="space-y-6">
           <SpeakingExercise
             question={question}
+            vocabulary={vocabulary}
             level={exercise.level}
             onComplete={(evaluation) => {
               console.log('Speaking evaluation:', evaluation);
@@ -242,6 +244,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         }`}>
           <FlashcardExercise 
             content={exercise.content as any} 
+            vocabulary={vocabulary}
             onComplete={async (quality) => {
               if (quality >= 4) setShowConfetti(true);
               
@@ -281,6 +284,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         }`}>
           <DragDropExercise 
             content={exercise.content as any} 
+            vocabulary={vocabulary}
             onComplete={(isCorrect) => {
               if (isCorrect) {
                 setShowConfetti(true);
@@ -301,6 +305,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         }`}>
           <MatchingExercise 
             content={exercise.content as any} 
+            vocabulary={vocabulary}
             onComplete={(isCorrect) => {
               if (isCorrect) {
                 setShowConfetti(true);
@@ -321,6 +326,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
         }`}>
           <InteractiveDialogueExercise 
             content={exercise.content as any} 
+            vocabulary={vocabulary}
             onComplete={(success) => {
               if (success) {
                 setShowConfetti(true);
@@ -353,7 +359,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
           <h2 className="text-2xl font-black text-gray-900">{exercise.content.title || 'Exercise'}</h2>
           {exercise.content.instructions && (
             <div className="text-gray-600 mt-2">
-              <Markdown content={exercise.content.instructions} />
+              <Markdown content={exercise.content.instructions} vocabulary={vocabulary} />
             </div>
           )}
         </div>
@@ -369,7 +375,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                       Pregunta {qIndex + 1}
                     </span>
                     <div className="text-xl text-gray-900 font-bold">
-                      <Markdown content={q.question || q.text || q.prompt} />
+                      <Markdown content={q.question || q.text || q.prompt} vocabulary={vocabulary} />
                     </div>
                   </div>
 
@@ -408,7 +414,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                                 {String.fromCharCode(65 + optIndex)}
                               </div>
                               <div className="text-lg font-bold text-gray-800 flex-1">
-                                <Markdown content={typeof option === 'string' ? option : option.text} />
+                                <Markdown content={typeof option === 'string' ? option : option.text} vocabulary={vocabulary} />
                               </div>
                               {showAsCorrect && <CheckCircle className="ml-auto w-6 h-6 text-green-500" />}
                               {showAsIncorrect && <XCircle className="ml-auto w-6 h-6 text-red-500" />}

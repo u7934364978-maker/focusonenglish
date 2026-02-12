@@ -1960,105 +1960,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   },
   {
     id: "b1-u7-e98",
-    type: "interactive-dialogue",
-    level: "B1",
-    topic: "Travel & Holidays",
-    topicName: "Listening & Interaction",
-    difficulty: "medium",
-    content: {
-      title: 'Checking into the Hotel',
-      instructions: 'Listen to David checking into a hotel in Edinburgh. He has a small issue with his booking.',
-      audioUrl: '/audio/b1/unit7/dialogue1.mp3',
-      transcript: [
-        { speaker: 'Receptionist', text: 'Good evening, sir. How can I help you?', start: 0, end: 4 },
-        { speaker: 'David', text: 'Hello. I have a reservation under the name David Miller.', start: 5, end: 10 },
-        { speaker: 'Receptionist', text: 'Let me see... Yes, Mr. Miller. A double room for three nights, including breakfast?', start: 11, end: 18 },
-        { speaker: 'David', text: 'Actually, I thought I booked half board. My confirmation email says dinner is included.', start: 19, end: 26 },
-        { speaker: 'Receptionist', text: 'Oh, I apologize. You are right. Our system had it as bed and breakfast only. I\'ll update that now.', start: 27, end: 35 },
-        { speaker: 'David', text: 'Thank you. Is there free Wi-Fi in the room?', start: 36, end: 40 },
-        { speaker: 'Receptionist', text: 'Yes, here is the password. Also, please note that check-out is before 11 AM.', start: 41, end: 48 },
-        { speaker: 'David', text: 'Great. What time is dinner served?', start: 49, end: 52 },
-        { speaker: 'Receptionist', text: 'The restaurant is open from 7 PM to 10 PM. Enjoy your stay!', start: 53, end: 58 }
-      ],
-      questions: [
-        {
-          id: 'q1',
-          time: 18,
-          question: 'What kind of room did David reserve?',
-          options: ['Single room', 'Double room', 'Suite', 'Family room'],
-          correctAnswer: 1,
-          explanation: 'The receptionist confirms it is a double room.'
-        },
-        {
-          id: 'q2',
-          time: 26,
-          question: 'What was the problem with the booking?',
-          options: ['The name was wrong', 'The dates were wrong', 'The meal plan was wrong', 'The room was not ready'],
-          correctAnswer: 2,
-          explanation: 'David expected half board (including dinner) but the system showed only breakfast.'
-        },
-        {
-          id: 'q3',
-          time: 48,
-          question: 'What is the check-out time?',
-          options: ['Before 10 AM', 'Before 11 AM', 'After 12 PM', 'At midnight'],
-          correctAnswer: 1,
-          explanation: 'The receptionist says check-out is before 11 AM.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: "b1-u7-e99",
-    type: "interactive-dialogue",
-    level: "B1",
-    topic: "Travel & Holidays",
-    topicName: "Listening & Interaction",
-    difficulty: "hard",
-    content: {
-      title: 'Planning the Itinerary',
-      instructions: 'Emma and Tom are planning their trip to Rome. Listen to their discussion about activities.',
-      audioUrl: '/audio/b1/unit7/dialogue2.mp3',
-      transcript: [
-        { speaker: 'Emma', text: 'So, Tom, have you looked at the itinerary for Rome?', start: 0, end: 4 },
-        { speaker: 'Tom', text: 'A bit. I know you want to do a lot of sightseeing, but I also want some time to relax.', start: 5, end: 12 },
-        { speaker: 'Emma', text: 'Of course. On Tuesday morning, we are going to visit the Colosseum. We should book the tickets in advance.', start: 13, end: 21 },
-        { speaker: 'Tom', text: 'Good idea. What will we be doing on Wednesday?', start: 22, end: 26 },
-        { speaker: 'Emma', text: 'Wednesday is our "off the beaten track" day. We\'ll be exploring the smaller neighborhoods and trying local cuisine.', start: 27, end: 36 },
-        { speaker: 'Tom', text: 'That sounds perfect. I hope it doesn\'t rain.', start: 37, end: 41 },
-        { speaker: 'Emma', text: 'The forecast says it will be sunny. By the way, I already bought travel insurance for both of us.', start: 42, end: 49 },
-        { speaker: 'Tom', text: 'You\'re so organized, Emma. I\'ll handle the currency exchange tomorrow.', start: 50, end: 56 }
-      ],
-      questions: [
-        {
-          id: 'q1',
-          time: 21,
-          question: 'What advice does Emma give about the Colosseum?',
-          options: ['Go early', 'Book tickets in advance', 'Take a taxi', 'Wear comfortable shoes'],
-          correctAnswer: 1,
-          explanation: 'Emma says they should book tickets in advance.'
-        },
-        {
-          id: 'q2',
-          time: 36,
-          question: 'What are they doing on Wednesday?',
-          options: ['Visiting the Vatican', 'Exploring less touristy areas', 'Going to the beach', 'Staying at the hotel'],
-          correctAnswer: 1,
-          explanation: 'Emma says they will be going "off the beaten track" and exploring smaller neighborhoods.'
-        },
-        {
-          id: 'q3',
-          time: 49,
-          question: 'What has Emma already done?',
-          options: ['Packed her bags', 'Exchanged money', 'Bought travel insurance', 'Booked the flight'],
-          correctAnswer: 2,
-          explanation: 'Emma mentions she already bought travel insurance.'
-        }
-      ]
-    } as any
-  },
-  {
-    id: "b1-u7-e100",
     type: "multiple-choice",
     level: "B1",
     topic: "Travel & Holidays",
@@ -2074,6 +1975,46 @@ export const UNIT_7_EXERCISES: Exercise[] = [
           options: ["itinerary", "insurance", "accommodation", "itinerant"],
           correctAnswer: 0,
           explanation: "An itinerary is the correct term for a travel plan."
+        }
+      ]
+    } as any
+  },
+  {
+    id: "b1-u7-e99",
+    type: "fill-blank",
+    level: "B1",
+    topic: "Travel & Holidays",
+    topicName: "Vocabulary",
+    difficulty: "medium",
+    content: {
+      title: 'Travel Review',
+      instructions: "Complete with the correct word.",
+      questions: [
+        {
+          id: 'q1',
+          text: "I always buy travel ___ before going abroad.",
+          correctAnswer: "insurance",
+          explanation: "Insurance protects you during your trip."
+        }
+      ]
+    } as any
+  },
+  {
+    id: "b1-u7-e100",
+    type: "speaking-analysis",
+    level: "B1",
+    topic: "Travel & Holidays",
+    topicName: "Production",
+    difficulty: "hard",
+    content: {
+      title: 'Final Travel Thought',
+      instructions: 'Read this sentence out loud.',
+      questions: [
+        {
+          id: 'q1',
+          text: "Exploring the world is the best way to open your mind to new perspectives.",
+          correctAnswer: "Exploring the world is the best way to open your mind to new perspectives",
+          explanation: "Practice the pronunciation of 'perspectives' /pəˈspek.tɪvz/."
         }
       ]
     } as any

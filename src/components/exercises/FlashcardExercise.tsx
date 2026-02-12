@@ -19,10 +19,11 @@ interface FlashcardContent {
 
 interface FlashcardExerciseProps {
   content: FlashcardContent;
+  vocabulary?: any[];
   onComplete: (quality: number) => void;
 }
 
-export default function FlashcardExercise({ content, onComplete }: FlashcardExerciseProps) {
+export default function FlashcardExercise({ content, vocabulary, onComplete }: FlashcardExerciseProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -109,7 +110,7 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
               />
             )}
             <div className="text-4xl font-black text-slate-900 mb-2">
-              <Markdown content={normalizedFront.text} />
+              <Markdown content={normalizedFront.text} vocabulary={vocabulary} />
             </div>
             {(normalizedFront.phonetic || currentItem.pronunciation) && (
               <p className="text-orange-500 font-mono text-lg">{normalizedFront.phonetic || currentItem.pronunciation}</p>
@@ -136,12 +137,12 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
           >
             <h2 className="text-2xl text-slate-600 mb-2">Traducción:</h2>
             <div className="text-4xl font-black text-orange-600 mb-4">
-              <Markdown content={normalizedBack.translation} />
+              <Markdown content={normalizedBack.translation} vocabulary={vocabulary} />
             </div>
             
             {normalizedBack.example && (
               <div className="mt-4 bg-white/50 p-4 rounded-xl border border-orange-100 italic text-slate-700">
-                <Markdown content={`"${normalizedBack.example}"`} />
+                <Markdown content={`"${normalizedBack.example}"`} vocabulary={vocabulary} />
               </div>
             )}
 
@@ -175,7 +176,7 @@ export default function FlashcardExercise({ content, onComplete }: FlashcardExer
                 animate={{ height: 'auto', opacity: 1 }}
                 className="bg-blue-50 border border-blue-100 p-4 rounded-xl text-blue-800 text-sm w-full"
               >
-                <Markdown content={normalizedBack.explanation} />
+                <Markdown content={normalizedBack.explanation} vocabulary={vocabulary} />
               </motion.div>
             )}
 

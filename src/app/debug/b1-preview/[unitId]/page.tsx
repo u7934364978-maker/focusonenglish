@@ -10,6 +10,7 @@ export default function B1UnitPreviewPage() {
   const params = useParams();
   const unitId = params.unitId as string; // e.g., "1"
   const [exercises, setExercises] = useState<any[]>([]);
+  const [vocabulary, setVocabulary] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
 
@@ -20,6 +21,17 @@ export default function B1UnitPreviewPage() {
         const module = await import(`@/lib/course/b1/unit-${unitNumber}`);
         const unitExercises = module[`UNIT_${unitNumber}_EXERCISES`];
         setExercises(unitExercises);
+
+        // Extract vocabulary from flashcards
+        const extractedVocab = unitExercises
+          .filter((ex: any) => ex.type === 'flashcard')
+          .flatMap((ex: any) => 
+            ex.content.items?.map((item: any) => ({
+              word: item.front,
+              definition: item.back
+            })) || []
+          );
+        setVocabulary(extractedVocab);
       } catch (error) {
         console.error('Error loading unit:', error);
       } finally {
@@ -78,6 +90,7 @@ export default function B1UnitPreviewPage() {
         <ExerciseRenderer 
           key={currentExercise.id}
           exercise={currentExercise}
+          vocabulary={vocabulary}
           onComplete={() => {
             if (currentIndex < exercises.length - 1) {
               setCurrentIndex(prev => prev + 1);

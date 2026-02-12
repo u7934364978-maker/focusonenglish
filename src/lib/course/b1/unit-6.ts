@@ -864,7 +864,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: "Notification",
           back: "Notificación",
           pronunciation: "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/",
-          example: "I turned off notifications to avoid distractions.",
+          example: "I use notifications to stay updated on important events.",
           explanation: "Un mensaje o sonido que te avisa de algo en tu dispositivo."
         }
       ]
@@ -1481,7 +1481,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: "Spoiler",
           back: "Spoiler / Destripe",
           pronunciation: "/ˈspɔɪ.lər/",
-          example: "Please don't give me any spoilers; I haven't seen the final episode yet.",
+          example: "I am excited to see the final episode tonight!",
           explanation: "Información que revela partes importantes de una trama."
         }
       ]
@@ -1856,7 +1856,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           front: "Addictive",
           back: "Adictivo",
           pronunciation: "/əˈdɪk.tɪv/",
-          example: "Social media can be very addictive if you are not careful.",
+          example: "Social media helps me stay connected with my family.",
           explanation: "Algo que causa dependencia y es difícil de dejar de usar."
         }
       ]
@@ -1996,86 +1996,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
           text: "Finding a healthy balance in our digital life is essential for our well-being.",
           correctAnswer: "Finding a healthy balance in our digital life is essential for our well-being",
           explanation: "Practica la pronunciación de 'essential' /ɪˈsen.ʃəl/."
-        }
-      ]
-    } as any
-  },
-
-  // --- SUB-TOPIC 11: Interactive Dialogues (101-102) ---
-  {
-    id: "b1-u6-e101",
-    type: "interactive-dialogue",
-    level: "B1",
-    topic: "Technology & Modern Life",
-    topicName: "Listening",
-    difficulty: "medium",
-    content: {
-      title: "Troubleshooting the Wi-Fi",
-      audioUrl: "https://pivpivpiv.com/dialogue-b1-u6-1.mp3",
-      transcript: [
-        { speaker: "James", text: "Hey Clara, is the internet working for you? It's really slow on my laptop.", time: 0 },
-        { speaker: "Clara", text: "It's a bit slow for me too. Maybe the router needs to be restarted.", time: 5 },
-        { speaker: "James", text: "I already tried that. I'm trying to download a large file for work and it's taking forever.", time: 10 },
-        { speaker: "Clara", text: "Are you using the wireless connection? Sometimes a cable is more stable.", time: 15 },
-        { speaker: "James", text: "Good idea. I'll look for an ethernet cable in the drawer.", time: 20 },
-        { speaker: "Clara", text: "Also, check if your privacy settings or any background updates are consuming the bandwidth.", time: 25 },
-        { speaker: "James", text: "Right, a software update is being downloaded automatically! I'll pause it.", time: 30 }
-      ],
-      questions: [
-        {
-          id: "d1",
-          time: 10,
-          question: "What is James trying to do?",
-          options: ["Watch a movie", "Download a large file", "Fix the printer", "Send an email"],
-          correctAnswer: 1,
-          explanation: "James says he is trying to download a large file."
-        },
-        {
-          id: "d2",
-          time: 30,
-          question: "What was causing the slow internet?",
-          options: ["A broken router", "A software update", "Bad weather", "A virus"],
-          correctAnswer: 1,
-          explanation: "James realizes a software update is being downloaded automatically."
-        }
-      ]
-    } as any
-  },
-  {
-    id: "b1-u6-e102",
-    type: "interactive-dialogue",
-    level: "B1",
-    topic: "Technology & Modern Life",
-    topicName: "Listening",
-    difficulty: "medium",
-    content: {
-      title: "Social Media Detox",
-      audioUrl: "https://pivpivpiv.com/dialogue-b1-u6-2.mp3",
-      transcript: [
-        { speaker: "Sophie", text: "I've decided to go on a digital detox this weekend. No social media at all.", time: 0 },
-        { speaker: "Leo", text: "Wow, that's brave! Why the sudden change?", time: 5 },
-        { speaker: "Sophie", text: "My screen time is out of control, and I feel like the algorithm is just wasting my time.", time: 10 },
-        { speaker: "Leo", text: "I know what you mean. I spend too much time scrolling through my feed too.", time: 15 },
-        { speaker: "Sophie", text: "Exactly. I want to interact with people in the real world for a change.", time: 20 },
-        { speaker: "Leo", text: "I might join you. We could go for a hike without our phones.", time: 25 },
-        { speaker: "Sophie", text: "That would be perfect. A real-world balance is what we need!", time: 30 }
-      ],
-      questions: [
-        {
-          id: "d1",
-          time: 10,
-          question: "Why does Sophie want a digital detox?",
-          options: ["Her phone is broken", "Her screen time is too high", "She lost her password", "She wants to buy a new gadget"],
-          correctAnswer: 1,
-          explanation: "Sophie says her screen time is out of control."
-        },
-        {
-          id: "d2",
-          time: 25,
-          question: "What does Leo suggest doing?",
-          options: ["Playing video games", "Going for a hike", "Watching a movie", "Coding an app"],
-          correctAnswer: 1,
-          explanation: "Leo suggests going for a hike without their phones."
         }
       ]
     } as any

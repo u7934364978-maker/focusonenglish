@@ -25,10 +25,11 @@ interface InteractiveDialogueContent {
 
 interface InteractiveDialogueExerciseProps {
   content: InteractiveDialogueContent;
+  vocabulary?: any[];
   onComplete: (isCorrect: boolean) => void;
 }
 
-export default function InteractiveDialogueExercise({ content, onComplete }: InteractiveDialogueExerciseProps) {
+export default function InteractiveDialogueExercise({ content, vocabulary, onComplete }: InteractiveDialogueExerciseProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -192,7 +193,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
         </div>
 
         <div className="text-slate-600 mb-8 italic">
-          <Markdown content={content.instructions} />
+          <Markdown content={content.instructions} vocabulary={vocabulary} />
         </div>
 
         {/* Audio Player UI */}
@@ -266,7 +267,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                 </div>
 
                 <div className="text-lg font-bold text-slate-900 leading-snug">
-                  <Markdown content={activeQuestion.question} />
+                  <Markdown content={activeQuestion.question} vocabulary={vocabulary} />
                 </div>
 
                 <div className="space-y-3">
@@ -291,7 +292,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                     >
                       <div className="flex items-center justify-between">
                         <span className="flex-1">
-                          <Markdown content={option} />
+                          <Markdown content={option} vocabulary={vocabulary} />
                         </span>
                         {submitted && idx === activeQuestion.correctAnswer && (
                           <CheckCircle2 className="w-5 h-5 text-green-500" />
@@ -314,7 +315,7 @@ export default function InteractiveDialogueExercise({ content, onComplete }: Int
                   </button>
                 ) : (
                   <div className="p-4 bg-white/50 rounded-xl text-sm italic text-slate-600 border border-orange-100">
-                    <Markdown content={activeQuestion.explanation} />
+                    <Markdown content={activeQuestion.explanation} vocabulary={vocabulary} />
                   </div>
                 )}
               </div>

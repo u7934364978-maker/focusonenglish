@@ -34,11 +34,12 @@ interface SpeakingEvaluation {
 
 interface SpeakingExerciseProps {
   question: SpeakingQuestion;
+  vocabulary?: any[];
   onComplete: (evaluation: SpeakingEvaluation) => void;
   level: string;
 }
 
-export default function SpeakingExercise({ question, onComplete, level }: SpeakingExerciseProps) {
+export default function SpeakingExercise({ question, vocabulary, onComplete, level }: SpeakingExerciseProps) {
   const [isRecording, setIsRecording] = useState(false);
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
@@ -233,21 +234,27 @@ export default function SpeakingExercise({ question, onComplete, level }: Speaki
 
         {/* Prompt */}
         <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-2 border-orange-200 rounded-xl p-6 mb-6">
-          <p className="text-xl font-bold text-gray-900 mb-3 text-center">
-            {question.prompt || (question as any).text || (question as any).question || "Por favor, repite la frase:"}
-          </p>
+          <div className="text-xl font-bold text-gray-900 mb-3 text-center">
+            <Markdown 
+              content={question.prompt || (question as any).text || (question as any).question || "Por favor, repite la frase:"} 
+              vocabulary={vocabulary}
+            />
+          </div>
           
           {question.expectedResponse && (
-            <p className="text-3xl font-black text-orange-600 text-center my-4">
-              {question.expectedResponse}
-            </p>
+            <div className="text-3xl font-black text-orange-600 text-center my-4">
+              <Markdown content={question.expectedResponse} vocabulary={vocabulary} />
+            </div>
           )}
           
           {question.hints && question.hints.length > 0 && (
             <div className="mt-4 space-y-2">
               <p className="text-sm font-semibold text-orange-800">💡 Pistas:</p>
               {question.hints.map((hint, i) => (
-                <p key={i} className="text-sm text-orange-700">• {hint}</p>
+                <div key={i} className="text-sm text-orange-700 flex items-start gap-2">
+                  <span>•</span>
+                  <Markdown content={hint} vocabulary={vocabulary} />
+                </div>
               ))}
             </div>
           )}
