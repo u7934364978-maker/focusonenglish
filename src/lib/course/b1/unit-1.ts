@@ -1583,7 +1583,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I usually ___ as a designer, but lately I ___ on a book. (work / work)',
-          correctAnswer: 'work',
+          correctAnswer: 'work / am working',
           explanation: 'Hábito permanente vs proyecto temporal reciente.'
         }
       ]
@@ -1663,7 +1663,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'I ___ of quitting my job. What do you ___ about it? (think / think)',
-          correctAnswer: 'am thinking',
+          correctAnswer: 'am thinking / think',
           explanation: 'Proceso de considerar vs Tener una opinión.'
         }
       ]
@@ -1763,7 +1763,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Why ___ the waiter ___ the wine? (be / smell)',
-          correctAnswer: 'is',
+          correctAnswer: 'is / smelling',
           explanation: 'Acción voluntaria de oler: Present Continuous.'
         }
       ]
