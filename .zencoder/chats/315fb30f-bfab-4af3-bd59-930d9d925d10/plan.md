@@ -294,19 +294,79 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
 - [x] **Task 78: Commit and push changes for Unit 22**
 
 ### Phase 34: Implementation of Unit 23
-- [ ] **Task 79: Define Unit 23 Structure**
+- [x] **Task 79: Define Unit 23 Structure**
     - Sub-topic 1: Grammar: Second Conditional - Unreal Situations (1-10)
     - Sub-topic 2: Grammar: Second Conditional - Giving Advice (If I were you) (11-20)
     - Sub-topic 3: Vocabulary: Wishes & Desires (21-30)
     - Sub-topic 4: Vocabulary: Hypothetical Scenarios (31-40)
     - Sub-topic 5: Social Issues (Hypothetical solutions) (41-50)
-    - Sub-topic 6: Environmental Issues (Hypothetical actions) (51-60)
-    - Sub-topic 7: Personal Choices & Life Changes (61-70)
-    - Sub-topic 8: Career Ambitions (Hypothetical) (71-80)
-    - Sub-topic 9: Idioms with 'If' (81-90)
-    - Sub-topic 10: Review & Roleplay (91-100)
-- [ ] **Task 80: Implement Exercises 1-50 for Unit 23: Conditionals: Second**
-- [ ] **Task 81: Implement Exercises 51-100 for Unit 23: Conditionals: Second**
+    - Sub-topic 6: Grammar: If + could/might (51-60)
+    - Sub-topic 7: Vocabulary: Social Problems & Solutions (61-70)
+    - Sub-topic 8: Grammar: Unless in Second Conditional (71-80)
+    - Sub-topic 9: Vocabulary: Personal Values & Ethics (81-90)
+    - Sub-topic 10: Grammar: Mixed Review of Second Conditional (91-100)
+- [x] **Task 80: Implement Exercises 1-50 for Unit 23: Conditionals: Second**
+- [x] **Task 81: Implement Exercises 51-100 for Unit 23: Conditionals: Second**
+
+### Phase 35: Implementation of Unit 24
+- [x] **Task 82: Define Unit 24 Structure**
+    - Sub-topic 1: Grammar: Third Conditional - Regrets (1-10)
+    - Sub-topic 2: Grammar: Third Conditional - Past Possibilities (11-20)
+    - Sub-topic 3: Grammar: Third Conditional - Criticism (21-30)
+    - Sub-topic 4: Grammar: Wish + Past Perfect (31-40)
+    - Sub-topic 5: Grammar: If only + Past Perfect (41-50)
+    - Sub-topic 6: Vocabulary: Personal Achievements & Failures (51-60)
+    - Sub-topic 7: Vocabulary: Historical Turning Points (61-70)
+    - Sub-topic 8: Grammar: Mixed Conditionals (Type 2 & 3) (71-80)
+    - Sub-topic 9: Idioms & Expressions with Third Conditional (81-90)
+    - Sub-topic 10: Review & Reflection (91-100)
+- [x] **Task 83: Implement Exercises 1-50 for Unit 24: Conditionals: Third**
+- [x] **Task 84: Implement Exercises 51-100 for Unit 24: Conditionals: Third**
+
+### Phase 36: Implementation of Unit 25
+- [x] **Task 85: Define Unit 25 Structure**
+    - Sub-topic 1: Grammar: Mixed Conditionals (Type 2/3) - Past result of present condition (1-10)
+    - Sub-topic 2: Grammar: Mixed Conditionals (Type 3/2) - Present result of past condition (11-20)
+    - Sub-topic 3: Grammar: Mixed Conditionals - Future result of past condition (21-30)
+    - Sub-topic 4: Grammar: Mixed Conditionals - Review (31-40)
+    - Sub-topic 5: Vocabulary: Decision Making (41-50)
+    - Sub-topic 6: Vocabulary: Hypothetical Outcomes (51-60)
+    - Sub-topic 7: Grammar: Alternatives to 'If' (Suppose, Imagine, Otherwise) (61-70)
+    - Sub-topic 8: Grammar: Inversions in Conditionals (Had I known, Were I you) (71-80)
+    - Sub-topic 9: Phrasal Verbs with 'If' contexts (81-90)
+    - Sub-topic 10: General Review & Scenarios (91-100)
+- [x] **Task 86: Implement Exercises 1-50 for Unit 25: Conditionals: Mixed**
+- [x] **Task 87: Implement Exercises 51-100 for Unit 25: Conditionals: Mixed**
+
+### Phase 37: Implementation of Unit 26
+- [x] **Task 88: Define Unit 26 Structure**
+    - Sub-topic 1: Grammar: Reported Speech - Tense changes (Backshift) (1-10)
+    - Sub-topic 2: Grammar: Reporting verbs (say, tell, explain) (11-20)
+    - Sub-topic 3: Grammar: Pronoun and possessive changes (21-30)
+    - Sub-topic 4: Grammar: Time and place expression changes (31-40)
+    - Sub-topic 5: Vocabulary: Journalism & News reporting (41-50)
+    - Sub-topic 6: Vocabulary: Gossip & Anecdotes (51-60)
+    - Sub-topic 7: Grammar: Reporting verbs with specific structures (offer, promise, suggest) (61-70)
+    - Sub-topic 8: Grammar: Reporting speech in different contexts (formal vs informal) (71-80)
+    - Sub-topic 9: Idioms related to Communication (81-90)
+    - Sub-topic 10: General Review & News Reports (91-100)
+- [x] **Task 89: Implement Exercises 1-50 for Unit 26: Reported Speech: Statements**
+- [x] **Task 90: Implement Exercises 51-100 for Unit 26: Reported Speech: Statements**
+
+### Phase 38: Implementation of Unit 27
+- [ ] **Task 91: Define Unit 27 Structure**
+    - Sub-topic 1: Reported Yes/No Questions (if/whether) (1-10)
+    - Sub-topic 2: Reported Wh- Questions (word order) (11-20)
+    - Sub-topic 3: Reported Requests (ask someone to...) (21-30)
+    - Sub-topic 4: Reported Orders/Commands (tell someone to...) (31-40)
+    - Sub-topic 5: Vocabulary: Travel & Tourism (Reported focus) (41-50)
+    - Sub-topic 6: Grammar: Asking for and giving directions (Reported) (51-60)
+    - Sub-topic 7: Vocabulary: Hotels & Services (Requests focus) (61-70)
+    - Sub-topic 8: Grammar: Polite Requests (Reported) (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Travel/Service (81-90)
+    - Sub-topic 10: Review & Roleplay Scenarios (91-100)
+- [ ] **Task 92: Implement Exercises 1-50 for Unit 27: Reported Speech: Questions & Orders**
+- [ ] **Task 93: Implement Exercises 51-100 for Unit 27: Reported Speech: Questions & Orders**
 
 ## Test Plan
 - **Framework**: Playwright (E2E)
