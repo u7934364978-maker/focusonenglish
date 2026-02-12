@@ -16,6 +16,7 @@ interface SpeakingQuestion {
   expectedResponse?: string;
   hints?: string[];
   targetWords?: string[];
+  modelAudio?: string;
 }
 
 interface SpeakingEvaluation {
@@ -178,6 +179,13 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
     }
   };
 
+  const playModelAudio = () => {
+    if (question.modelAudio) {
+      const audio = new Audio(question.modelAudio);
+      audio.play().catch(err => console.error('Error playing model audio:', err));
+    }
+  };
+
   const evaluateRecording = async () => {
     if (!audioBlob) return;
 
@@ -233,7 +241,7 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
         </div>
 
         {/* Prompt */}
-        <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-2 border-orange-200 rounded-xl p-6 mb-6">
+        <div className="bg-gradient-to-r from-orange-50 to-amber-50 border-2 border-orange-200 rounded-xl p-6 mb-6 relative">
           <div className="text-xl font-bold text-gray-900 mb-3 text-center">
             <Markdown 
               content={question.prompt || (question as any).text || (question as any).question || "Por favor, repite la frase:"} 
@@ -244,6 +252,18 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
           {question.expectedResponse && (
             <div className="text-3xl font-black text-orange-600 text-center my-4">
               <Markdown content={question.expectedResponse} vocabulary={vocabulary} />
+            </div>
+          )}
+
+          {question.modelAudio && (
+            <div className="flex justify-center mb-4">
+              <button
+                onClick={playModelAudio}
+                className="flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-bold hover:bg-orange-200 transition-all transform hover:scale-105 active:scale-95 shadow-sm border border-orange-200"
+              >
+                <Volume2 className="w-5 h-5" />
+                Escuchar modelo
+              </button>
             </div>
           )}
           

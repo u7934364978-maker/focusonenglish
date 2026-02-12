@@ -46,6 +46,25 @@ Implement Unit 8 "Food & Cooking" and Unit 9 "Education & Learning" for the B1 c
     - [x] Verify changes in browser.
     - [x] Commit and push changes.
 
+### Phase 8: Implementation of Unit 10
+- [x] **Task 14: Define Unit 10 Structure**
+    - Sub-topic 1: Money Management & Banking (1-10)
+    - Sub-topic 2: Personal Finance & Budgeting (11-20)
+    - Sub-topic 3: Grammar: Second Conditional (21-30)
+    - Sub-topic 4: Grammar: Wish & If only (31-40)
+    - Sub-topic 5: Spending & Consumerism (41-50)
+    - Sub-topic 6: Investment & Savings (51-60)
+    - Sub-topic 7: Shopping & Bargains (61-70)
+    - Sub-topic 8: Economics in Daily Life (71-80)
+    - Sub-topic 9: Phrasal Verbs related to Money (81-90)
+    - Sub-topic 10: Review & Real-life Scenarios (91-100)
+- [x] **Task 15: Implement Exercises 1-50 for Unit 10: Money & Finance**
+- [x] **Task 16: Implement Exercises 51-100 for Unit 10: Money & Finance**
+
+### Phase 9: Verification & Deployment (Unit 10)
+- [x] **Task 17: Verify Unit 10 in Browser**
+- [ ] **Task 18: Commit and push changes for Unit 10 and previous unit fixes**
+
 ## Test Plan
 - **Framework**: Playwright (E2E)
 - **Scope**: Verify that Unit 9 exercises are correctly rendered and interactive.

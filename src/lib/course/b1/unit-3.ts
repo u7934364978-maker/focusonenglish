@@ -779,7 +779,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'It\'s already 6 PM, let\'s call it a day and continue tomorrow.',
-          correctAnswer: 'rolling's already 6 PM, let\'s call it a day and continue tomorrow',
+          correctAnswer: "It's already 6 PM, let's call it a day and continue tomorrow",
           explanation: 'Enfatiza "call it a day".'
         }
       ]
@@ -1730,7 +1730,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           id: 'q1',
           question: 'You ___ wear a suit, but you should look professional.',
           options: ["don't have to", "mustn't", "shouldn't", "can't"],
-          correctAnswer: 'were't have to',
+          correctAnswer: 0,
           explanation: '"Don\'t have to" indicates a lack of obligation.'
         }
       ]

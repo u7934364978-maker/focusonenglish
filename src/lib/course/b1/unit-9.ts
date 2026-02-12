@@ -545,7 +545,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You ___ (should/mustn't) eat in the library; it's strictly forbidden.",
-          correctAnswer: "must"t",
+          correctAnswer: "mustn't",
           explanation: "Prohibition uses 'mustn't'."
         }
       ]
@@ -605,7 +605,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Tomorrow is a holiday, so we ___ (not have to) wake up early.",
-          correctAnswer: "must"t have to",
+          correctAnswer: "don't have to",
           explanation: "Lack of obligation."
         }
       ]
@@ -772,7 +772,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "He ___ (not use to) study very much, but he does now.",
-          correctAnswer: "used to"t use to",
+          correctAnswer: "didn't use to",
           explanation: "Negative past habit."
         }
       ]
@@ -1982,7 +1982,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I didn't use to like online webinars, but now I find them very user-friendly and useful.",
-          correctAnswer: 2t use to like online webinars, but now I find them very user-friendly and useful",
+          correctAnswer: "I didn't use to like online webinars, but now I find them very user-friendly and useful",
           explanation: "Presta atención a 'didn't use to' y 'user-friendly'."
         }
       ]

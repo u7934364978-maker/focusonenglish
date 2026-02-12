@@ -2,13 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, X, RotateCcw, ArrowRight } from 'lucide-react';
+import { Check, X, RotateCcw, ArrowRight, Volume2 } from 'lucide-react';
 import Markdown from '../course/Markdown';
 
 interface MatchingPair {
   id: string;
   left: string;
   right: string;
+  audio?: string;
 }
 
 interface MatchingContent {
@@ -155,7 +156,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 key={item}
                 onClick={() => handleRightClick(item)}
                 disabled={submitted}
-                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left ${
+                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left flex items-center justify-between ${
                   isSelected 
                     ? 'border-orange-500 bg-orange-50 text-orange-700' 
                     : isMatched
@@ -164,6 +165,24 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 } ${submitted && isMatched && (item === content.pairs.find(p => p.left === matchedLeft)?.right ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50')}`}
               >
                 <Markdown content={item} vocabulary={vocabulary} />
+                {(() => {
+                  const pair = content.pairs.find(p => p.right === item);
+                  if (pair?.audio) {
+                    return (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const audio = new Audio(pair.audio);
+                          audio.play().catch(err => console.error('Error playing audio:', err));
+                        }}
+                        className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 ml-2"
+                      >
+                        <Volume2 className="w-4 h-4" />
+                      </button>
+                    );
+                  }
+                  return null;
+                })()}
               </button>
             );
           })}

@@ -343,7 +343,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We ___ eat too much sugar if we want to avoid cavities.",
-          correctAnswer: "should",
+          correctAnswer: "must not",
           explanation: "'Must not' (or mustn't) is used for prohibition."
         }
       ]
@@ -363,7 +363,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "You ___ go to the gym every single day; three times a week is enough.",
-          correctAnswer: "should"t have to",
+          correctAnswer: "don't have to",
           explanation: "'Don't have to' means it's not necessary, but you can if you want."
         }
       ]
@@ -383,7 +383,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If you feel dizzy, you ___ sit down immediately.",
-          correctAnswer: "should",
+          correctAnswer: "ought to",
           explanation: "'Ought to' is a slightly more formal version of 'should'."
         }
       ]
@@ -403,7 +403,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Students ___ follow the safety rules in the laboratory.",
-          correctAnswer: "should",
+          correctAnswer: "must",
           explanation: "'Must' is used for strong obligations, often rules or laws."
         }
       ]
@@ -442,7 +442,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           id: 'q1',
           question: "Which sentence is correct?",
           options: ['You should exercise more.', 'You should to exercise more.', 'You shoulds exercise more.', 'You should exercising more.'],
-          correctAnswer: "should",
+          correctAnswer: 0,
           explanation: "Modal verbs are followed by the base form of the verb without 'to'."
         }
       ]
@@ -539,7 +539,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: "q2",
           question: "What can meditation help with?",
           options: ["Building muscle", "Stress recovery", "Losing weight", "Learning a language"],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "Meditation and mindfulness are described as tools for recovery when stressed."
         }
       ]
@@ -560,7 +560,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: 'q1',
           question: 'Option:',
           options: ["Work harder", "Simplify your routine", "Eat more", "Buy a laptop"],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "The text suggests simplifying your routine."
         }
       ]
@@ -621,7 +621,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "Meditation is a great tool for ___ when stressed.",
-          correctAnswer: "achievements",
+          correctAnswer: "recovery",
           explanation: "The text mentions 'recovery' in the second paragraph."
         }
       ]
@@ -659,7 +659,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: 'q1',
           question: "Does the author think we need to be perfect?",
           options: ['Only in the gym', 'Yes, absolutely', 'Only at work', 'No, we just need to find what works'],
-          correctAnswer: "achievements",
+          correctAnswer: 3,
           explanation: "The text explicitly says 'you don't have to be perfect'."
         }
       ]
@@ -700,7 +700,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "Wellness includes a ___ lifestyle.",
-          correctAnswer: 3,
+          correctAnswer: "balanced",
           explanation: "The text starts by mentioning a balanced lifestyle."
         }
       ]
@@ -720,7 +720,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "You ___ take care of your thoughts and emotions.",
-          correctAnswer: 3,
+          correctAnswer: "should",
           explanation: "The text uses 'should' (implied/direct advice structure)."
         }
       ]
@@ -838,7 +838,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: 'q1',
           question: "Going for a walk every morning helps you stay __________.",
           options: ['active', 'vivid', 'tired', 'sore'],
-          correctAnswer: 3,
+          correctAnswer: 0,
           explanation: "'Active' means involving physical movement and exercise."
         }
       ]
@@ -1378,7 +1378,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "They ___ join the yoga class if they finish work early.",
-          correctAnswer: "must",
+          correctAnswer: "might",
           explanation: "'Might' or 'could' are used for possibilities."
         }
       ]
@@ -1398,7 +1398,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "You ___ be serious! Eating five burgers is not healthy.",
-          correctAnswer: "must"t",
+          correctAnswer: "can't",
           explanation: "'Can't' is the negative equivalent of 'must' for deduction."
         }
       ]
@@ -1418,7 +1418,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
         {
           id: 'q1',
           text: "The doctor ___ be busy; his office is full.",
-          correctAnswer: "must",
+          correctAnswer: "could",
           explanation: "'Could' is used for possibility."
         }
       ]
@@ -1476,7 +1476,7 @@ Remember, you don't have to be perfect. You just need to find what works for you
           id: 'q1',
           question: "I don't know where my vitamins are. They __________ be in the kitchen.",
           options: ['must not', 'could', "can't", 'must'],
-          correctAnswer: "must",
+          correctAnswer: 1,
           explanation: "'Could' expresses a possibility when we don't know for sure."
         }
       ]
@@ -1832,7 +1832,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           text: "The patient has a ___ routine at work.",
-          correctAnswer: 3,
+          correctAnswer: "sedentary",
           explanation: "The patient mentions having a sedentary routine."
         }
       ]
@@ -1852,7 +1852,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
         {
           id: 'q1',
           text: "You ___ try to include more nutrients.",
-          correctAnswer: 3,
+          correctAnswer: "should",
           explanation: "The doctor gives advice using 'should'."
         }
       ]
@@ -1889,7 +1889,7 @@ Doctor: Your blood pressure is a bit high, but with a stress-free environment an
           id: 'q1',
           question: "What does 'skip breakfast' mean?",
           options: ['To eat quickly', 'To not eat breakfast', 'To cook breakfast', 'To eat a lot'],
-          correctAnswer: 3,
+          correctAnswer: 1,
           explanation: "'Skip' in this context means to omit or not do."
         }
       ]

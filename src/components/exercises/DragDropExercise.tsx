@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, Reorder, AnimatePresence } from 'framer-motion';
-import { Check, X, RotateCcw, Lightbulb, ArrowRight, Plus, Minus } from 'lucide-react';
+import { Check, X, RotateCcw, Lightbulb, ArrowRight, Plus, Minus, Volume2 } from 'lucide-react';
 import Markdown from '../course/Markdown';
 
 interface DragDropSentence {
@@ -15,6 +15,7 @@ interface DragDropSentence {
   translation?: string;
   hint?: string;
   explanation?: string;
+  audio?: string;
 }
 
 interface DragDropContent extends DragDropSentence {
@@ -298,13 +299,25 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
             {isCorrect ? (
               <>
                 <Check className="w-6 h-6" />
-                <span>¡Excelente trabajo! La oración es correcta.</span>
+                <span className="flex-1">¡Excelente trabajo! La oración es correcta.</span>
               </>
             ) : (
               <>
                 <X className="w-6 h-6" />
-                <span>Casi... la respuesta correcta es: <span className="font-black underline italic ml-1">{targetSentence}</span></span>
+                <span className="flex-1">Casi... la respuesta correcta es: <span className="font-black underline italic ml-1">{targetSentence}</span></span>
               </>
+            )}
+            {currentSentenceData.audio && (
+              <button
+                onClick={() => {
+                  const audio = new Audio(currentSentenceData.audio);
+                  audio.play().catch(err => console.error('Error playing audio:', err));
+                }}
+                className="p-2 bg-white/50 text-current rounded-full hover:bg-white/80 transition-all shadow-sm"
+                title="Escuchar oración"
+              >
+                <Volume2 className="w-5 h-5" />
+              </button>
             )}
           </motion.div>
         )}

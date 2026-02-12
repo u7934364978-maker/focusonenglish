@@ -9,6 +9,7 @@ interface FlashcardItem {
   front: string | { text: string; image?: string; audio?: string; phonetic?: string };
   back: string | { text: string; translation: string; explanation?: string; example?: string };
   pronunciation?: string;
+  exampleAudio?: string;
 }
 
 interface FlashcardContent {
@@ -42,20 +43,21 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
       };
     
   const normalizedBack = typeof currentItem.back === 'string'
-    ? { translation: currentItem.back, text: '', explanation: undefined, example: undefined }
+    ? { translation: currentItem.back, text: '', explanation: undefined, example: undefined, exampleAudio: currentItem.exampleAudio }
     : { 
         translation: currentItem.back.translation, 
         text: currentItem.back.text || '', 
         explanation: currentItem.back.explanation, 
-        example: currentItem.back.example 
+        example: currentItem.back.example,
+        exampleAudio: currentItem.exampleAudio
       };
 
-  const playAudio = (text: string) => {
+  const playAudio = (audioUrl?: string, text?: string) => {
     // Si hay un audio específico lo usamos, si no usamos speech synthesis
-    if (normalizedFront.audio) {
-      const audio = new Audio(normalizedFront.audio);
+    if (audioUrl) {
+      const audio = new Audio(audioUrl);
       audio.play().catch(err => console.error('Error playing audio:', err));
-    } else {
+    } else if (text) {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
       window.speechSynthesis.speak(utterance);
@@ -118,7 +120,7 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
             <button 
               onClick={(e) => {
                 e.stopPropagation();
-                playAudio(normalizedFront.text);
+                playAudio(normalizedFront.audio, normalizedFront.text);
               }}
               className="mt-4 p-3 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-colors"
             >
@@ -141,8 +143,19 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
             </div>
             
             {normalizedBack.example && (
-              <div className="mt-4 bg-white/50 p-4 rounded-xl border border-orange-100 italic text-slate-700">
+              <div className="mt-4 bg-white/50 p-4 rounded-xl border border-orange-100 italic text-slate-700 relative group">
                 <Markdown content={`"${normalizedBack.example}"`} vocabulary={vocabulary} />
+                {(normalizedBack.exampleAudio) && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      playAudio(normalizedBack.exampleAudio, normalizedBack.example);
+                    }}
+                    className="absolute -right-2 -top-2 p-1.5 bg-orange-500 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-sm"
+                  >
+                    <Volume2 className="w-3 h-3" />
+                  </button>
+                )}
               </div>
             )}
 

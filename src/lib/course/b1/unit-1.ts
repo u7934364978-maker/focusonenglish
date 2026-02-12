@@ -588,7 +588,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'My manager ___ usually attend the morning meetings. (not)',
-          correctAnswer: 2t",
+          correctAnswer: "doesn't",
           explanation: 'Present Simple negativo para hábitos (3ª persona).'
         }
       ]

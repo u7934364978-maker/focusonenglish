@@ -323,7 +323,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we invite the neighbors, they ___ (come) to our party.",
-          correctAnswer: 2,
+          correctAnswer: "will come",
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -343,7 +343,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I will visit the community center if I ___ (have) time this afternoon.",
-          correctAnswer: 2,
+          correctAnswer: "have",
           explanation: "If clause: present simple."
         }
       ]
@@ -363,7 +363,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If you ___ (not/hurry), you will miss the bus.",
-          correctAnswer: 2t hurry",
+          correctAnswer: "don't hurry",
           explanation: "If clause: present simple (negative)."
         }
       ]
@@ -383,7 +383,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the weather is good, we ___ (eat) dinner in the garden.",
-          correctAnswer: 2,
+          correctAnswer: "will eat",
           explanation: "Main clause: will + infinitive."
         }
       ]
@@ -403,7 +403,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "We will stay home if it ___ (rain) tomorrow morning.",
-          correctAnswer: 2,
+          correctAnswer: "rains",
           explanation: "If clause: present simple (third person)."
         }
       ]
@@ -621,7 +621,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The community center wants to buy new ___.",
-          correctAnswer: "flowers",
+          correctAnswer: "equipment",
           explanation: "The market will help buy 'new equipment'."
         }
       ]
@@ -659,7 +659,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
           id: 'q1',
           question: "According to the author:",
           options: ['No, they will provide them', 'Yes, bring everything', 'Only bring a shovel', 'Tools are not allowed'],
-          correctAnswer: "flowers",
+          correctAnswer: 0,
           explanation: "The text says 'We will provide all the tools you need'."
         }
       ]
@@ -720,7 +720,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we work together every ___, we will have a harvest.",
-          correctAnswer: "last month",
+          correctAnswer: "weekend",
           explanation: "The text says 'every weekend'."
         }
       ]
@@ -944,7 +944,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the microwave breaks, we will need a new ___.",
-          correctAnswer: 1,
+          correctAnswer: "appliance",
           explanation: "A microwave is a household appliance."
         }
       ]
@@ -964,7 +964,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "The local ___ is organizing a street party.",
-          correctAnswer: 1,
+          correctAnswer: "community",
           explanation: "Community refers to the people in the area."
         }
       ]
@@ -984,7 +984,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "Rent is the largest part of our monthly ___.",
-          correctAnswer: 1,
+          correctAnswer: "budget",
           explanation: "Budget is the financial plan for expenses."
         }
       ]
@@ -1004,7 +1004,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I take the train for my daily ___.",
-          correctAnswer: 1,
+          correctAnswer: "commute",
           explanation: "Commute is the travel to and from work."
         }
       ]
@@ -1024,7 +1024,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "I feel safe walking in my ___ at night.",
-          correctAnswer: 1,
+          correctAnswer: "neighborhood",
           explanation: "Neighborhood is the area where one lives."
         }
       ]
@@ -1151,7 +1151,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (win) the lottery, I would buy a mansion.",
-          correctAnswer: 2,
+          correctAnswer: "won",
           explanation: "If clause: past simple."
         }
       ]
@@ -1171,7 +1171,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we had a garden, we ___ (grow) our own tomatoes.",
-          correctAnswer: 2,
+          correctAnswer: "would grow",
           explanation: "Main clause: would + infinitive."
         }
       ]
@@ -1191,7 +1191,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If I ___ (be) you, I would paint the living room blue.",
-          correctAnswer: 2,
+          correctAnswer: "were",
           explanation: "In second conditional, 'were' is often used for all persons of 'be'."
         }
       ]
@@ -1211,7 +1211,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "What ___ you ___ (do) if you found a secret room in your house?",
-          correctAnswer: 2,
+          correctAnswer: "would you do",
           explanation: "Question form: would + subject + infinitive."
         }
       ]
@@ -1231,7 +1231,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If we ___ (not/have) any neighbors, it would be very lonely.",
-          correctAnswer: 2t have",
+          correctAnswer: "didn't have",
           explanation: "If clause: past simple (negative)."
         }
       ]
@@ -1651,7 +1651,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: "If the weather ___ nice, we will finish it.",
-          correctAnswer: "floor",
+          correctAnswer: "is",
           explanation: "First conditional: 'is' for present condition."
         }
       ]

@@ -375,7 +375,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           id: 'q1',
           text: 'Have you ever missed a flight or a train?',
-          correctAnswer: 'gone't',
+          correctAnswer: 'gone',
           explanation: 'Practica la entonación en las respuestas cortas.'
         }
       ]

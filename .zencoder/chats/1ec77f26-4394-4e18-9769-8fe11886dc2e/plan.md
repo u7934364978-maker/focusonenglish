@@ -18,20 +18,20 @@ Create a detailed implementation plan based on the specification.
 ### [ ] Step: Implementation
 
 #### Phase 1: Audio Generation Script
-- [ ] Create `scripts/generate-a1-unit1-audio.ts` to extract strings and generate audios.
-- [ ] Run the script to generate all required audios for Unit 1.
-- [ ] Verify audios exist in `public/audio/course/a1/unit-1/`.
+- [x] Create `scripts/generate-a1-unit1-audio.ts` to extract strings and generate audios.
+- [x] Run the script to generate all required audios for Unit 1.
+- [x] Verify audios exist in `public/audio/course/a1/unit-1/`.
 
 #### Phase 2: Update Course Data
-- [ ] Update `src/lib/course/a1/unit-1.ts` with references to the new audio files.
-- [ ] Ensure all exercise types are covered (Flashcards, Multiple Choice, Speaking, etc.).
+- [x] Update `src/lib/course/a1/unit-1.ts` with references to the new audio files.
+- [x] Ensure all exercise types are covered (Flashcards, Multiple Choice, Speaking, etc.).
 
 #### Phase 3: UI Enhancements
-- [ ] Verify `FlashcardExercise.tsx` uses the new audios.
-- [ ] Add audio playback support to other exercise types in `ExerciseRenderer.tsx` if missing.
-- [ ] Add a "Listen to model" button in `SpeakingExercise.tsx`.
+- [x] Verify `FlashcardExercise.tsx` uses the new audios.
+- [x] Add audio playback support to other exercise types in `ExerciseRenderer.tsx` if missing.
+- [x] Add a "Listen to model" button in `SpeakingExercise.tsx`.
 
 #### Phase 4: Verification
-- [ ] Manually verify behavior at `/debug/a1-preview/unit-1`.
-- [ ] Run existing tests.
-- [ ] Create and run E2E tests for Unit 1 audio (pending approval).
+- [x] Manually verify behavior at `/debug/a1-preview/unit-1`.
+- [x] Run existing tests.
+- [x] Create and run E2E tests for Unit 1 audio (pending approval).

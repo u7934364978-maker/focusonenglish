@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2 } from 'lucide-react';
+import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2, Volume2 } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
@@ -416,8 +416,20 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                               <div className="text-lg font-bold text-gray-800 flex-1">
                                 <Markdown content={typeof option === 'string' ? option : option.text} vocabulary={vocabulary} />
                               </div>
-                              {showAsCorrect && <CheckCircle className="ml-auto w-6 h-6 text-green-500" />}
-                              {showAsIncorrect && <XCircle className="ml-auto w-6 h-6 text-red-500" />}
+                              {typeof option === 'object' && option.audio && (
+                                <button
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    const audio = new Audio(option.audio);
+                                    audio.play().catch(err => console.error('Error playing audio:', err));
+                                  }}
+                                  className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95"
+                                >
+                                  <Volume2 className="w-4 h-4" />
+                                </button>
+                              )}
+                              {showAsCorrect && <CheckCircle className="ml-2 w-6 h-6 text-green-500 flex-shrink-0" />}
+                              {showAsIncorrect && <XCircle className="ml-2 w-6 h-6 text-red-500 flex-shrink-0" />}
                             </div>
                           </button>
                         );
@@ -454,6 +466,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         <span className="text-xl font-black">
                           {evaluation.isCorrect ? '¡Excelente!' : 'Casi...'}
                         </span>
+                        {q.audio && (
+                          <button
+                            onClick={() => {
+                              const audio = new Audio(q.audio);
+                              audio.play().catch(err => console.error('Error playing audio:', err));
+                            }}
+                            className="ml-auto p-2 bg-white/50 text-current rounded-full hover:bg-white/80 transition-all shadow-sm"
+                            title="Escuchar respuesta"
+                          >
+                            <Volume2 className="w-5 h-5" />
+                          </button>
+                        )}
                       </div>
                       <div className="font-medium text-lg">
                         <Markdown content={evaluation.feedback} />
