@@ -67,10 +67,10 @@ export class ExerciseGenerator {
 
       // Priority 4: Review of past units (Retention)
       if (skill.unit < targetUnit) {
-        weight += 10;
+        weight += 40; // Increased base weight for review
         // Spaced repetition boost
         const lastAttemptDays = (new Date().getTime() - new Date(mastery.lastAttemptAt || 0).getTime()) / (1000 * 3600 * 24);
-        if (lastAttemptDays > 3) weight += 20;
+        if (lastAttemptDays > 1) weight += 50; // Stronger push for review if it's been a while
       }
 
       return { bp, weight };
@@ -238,27 +238,20 @@ export class ExerciseGenerator {
 
         const selected = this.getRandom(pool);
         if (!selected) {
-          // absolute fallback: search for ANY item that matches tags, ignoring novelty/pedagogy
-          const tagMatches = this.lexicon.filter(item => {
-            const posMatch = !config.pos || item.pos === config.pos;
-            const tagMatch = config.tags ? config.tags.every(t => item.tags.includes(t)) : true;
-            return posMatch && tagMatch;
+          // CATEGORICAL FALLBACK: Only allow items from the SAME unit/tags if possible
+          const fallbackPool = this.lexicon.filter(item => {
+            const posMatch = item.pos === (config.pos || 'noun');
+            const unitMatch = item.unit <= effectiveUnit;
+            // If the slot specifically asked for 'job', 'human', 'family', etc, we MUST respect it in fallback
+            const criticalTags = ['job', 'human', 'family', 'food', 'drink', 'color', 'tech', 'body', 'sight', 'smell', 'hearing', 'taste', 'clothing', 'tool'];
+            const requestedCritical = config.tags?.filter(t => criticalTags.includes(t)) || [];
+            const tagMatch = requestedCritical.every(t => item.tags.includes(t));
+            
+            return posMatch && unitMatch && tagMatch;
           });
 
-          if (tagMatches.length > 0) {
-            filledSlots[slotName] = this.getRandom(tagMatches);
-          } else {
-            // Last resort: matches POS and avoids "delirium" words (greetings/names in wrong places)
-            const safePool = this.lexicon.filter(item => {
-              const posMatch = !config.pos || item.pos === config.pos;
-              const notProperNoun = config.tags?.includes('proper_noun') ? true : !item.tags.includes('proper_noun');
-              const notGreeting = config.tags?.includes('greeting') ? true : !item.tags.includes('greeting');
-              // Avoid words from much later units if possible
-              return posMatch && notProperNoun && notGreeting && item.unit <= effectiveUnit + 5;
-            });
-
-            filledSlots[slotName] = this.getRandom(safePool) || this.lexicon.find(l => l.pos === config.pos) || this.lexicon[0];
-          }
+          const finalChoice = this.getRandom(fallbackPool) || this.lexicon.find(l => l.pos === config.pos) || this.lexicon[0];
+          filledSlots[slotName] = finalChoice;
         } else {
           filledSlots[slotName] = selected;
           this.recentWords.add(selected.lemma);
@@ -556,7 +549,23 @@ export class ExerciseGenerator {
       if (verb.tags.includes('movement') && item.tags.includes('food')) return false; // Don't "walk" a "pizza"
     }
 
-    // 5. Subject-Action Harmony
+    // 5. Container-Item logic
+    const itemInContainer = alreadyFilled['item'];
+    const container = alreadyFilled['container'];
+
+    if (itemInContainer && item.tags.includes('container')) {
+      // Fridge is only for food/drinks
+      if (item.tags.includes('food_container') && !itemInContainer.tags.includes('food_item') && !itemInContainer.tags.includes('drink')) return false;
+      // Storage items (pens, etc) don't go in food containers
+      if (itemInContainer.tags.includes('storage_item') && item.tags.includes('food_container')) return false;
+    }
+
+    if (container && item.tags.includes('object')) {
+      if (container.tags.includes('food_container') && !item.tags.includes('food_item') && !item.tags.includes('drink')) return false;
+      if (item.tags.includes('storage_item') && container.tags.includes('food_container')) return false;
+    }
+
+    // 6. Subject-Action Harmony
     const subject = alreadyFilled['name'] || alreadyFilled['person'];
     if (subject && item.pos === 'verb') {
       if (subject.tags.includes('human') && item.lemma === 'bark') return false; // Logic shield

@@ -34,6 +34,32 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     translationTemplate: '¡{greeting_es}!'
   },
   {
+    id: 'BP-GREET-03',
+    skillId: 'A1-GREET-01',
+    type: 'fill-blank',
+    title: 'Despedidas',
+    instruction: 'Elige el saludo nocturno:',
+    template: '{greeting}.',
+    correctSlot: 'greeting',
+    slots: {
+      greeting: { pos: 'noun', tags: ['greeting', 'night'] }
+    },
+    translationTemplate: '{greeting_es}.'
+  },
+  {
+    id: 'BP-GREET-04',
+    skillId: 'A1-GREET-01',
+    type: 'multiple-choice',
+    title: 'Buenos Días',
+    instruction: '¿Cómo saludarías por la mañana?',
+    template: '{greeting}, David.',
+    correctSlot: 'greeting',
+    slots: {
+      greeting: { pos: 'noun', tags: ['greeting', 'morning'] }
+    },
+    translationTemplate: '{greeting_es}, David.'
+  },
+  {
     id: 'BP-BE-01',
     skillId: 'A1-BE-POS-01',
     type: 'fill-blank',
@@ -190,12 +216,12 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-FAM-02',
     skillId: 'A1-FAM-01',
     type: 'fill-blank',
-    title: '¿Quién es?',
-    instruction: 'Completa con el miembro de la familia:',
+    title: '¿Quién es él?',
+    instruction: 'Completa con el miembro de la familia (masculino):',
     template: 'He is my {member}.',
     correctSlot: 'member',
     slots: {
-      member: { pos: 'noun', tags: ['family', 'human'] }
+      member: { pos: 'noun', tags: ['family', 'human', 'm'] }
     },
     translationTemplate: 'Él es mi {member_es}.'
   },
@@ -203,12 +229,12 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-FAM-03',
     skillId: 'A1-FAM-01',
     type: 'multiple-choice',
-    title: 'Género en la Familia',
-    instruction: 'Elige el término correcto:',
+    title: '¿Quién es ella?',
+    instruction: 'Elige el término correcto (femenino):',
     template: 'She is my {member}.',
     correctSlot: 'member',
     slots: {
-      member: { pos: 'noun', tags: ['family', 'human'] }
+      member: { pos: 'noun', tags: ['family', 'human', 'f'] }
     },
     translationTemplate: 'Ella es mi {member_es}.'
   },
@@ -280,7 +306,7 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       item: { pos: 'noun', tags: ['object'] },
       color: { pos: 'adjective', tags: ['color'] }
     },
-    translationTemplate: 'El/La {item_es} es {color_es}.'
+    translationTemplate: '{el_la_item} {item_es} es {color_es}.'
   },
   // --- Unit 7: Time ---
   {
@@ -330,14 +356,26 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     id: 'BP-CLOTH-01',
     skillId: 'A1-CLOTH-01',
     type: 'fill-blank',
-    title: 'Ropa',
-    instruction: 'Completa con la prenda:',
+    title: 'Mi Ropa',
+    instruction: '¿Qué prenda llevas hoy?',
     template: 'I am wearing a {cloth}.',
     correctSlot: 'cloth',
     slots: {
       cloth: { pos: 'noun', tags: ['clothing'] }
     },
     translationTemplate: 'Llevo puesto {un_una_cloth} {cloth_es}.'
+  },
+  {
+    id: 'BP-CLOTH-02',
+    skillId: 'A1-CLOTH-01',
+    type: 'multiple-choice',
+    title: 'Vestimenta',
+    instruction: 'Identifica la prenda:',
+    template: 'This is my {cloth}.',
+    slots: {
+      cloth: { pos: 'noun', tags: ['clothing'] }
+    },
+    translationTemplate: 'Esta es mi {cloth_es}.'
   },
   // --- Unit 11: Jobs ---
   {
@@ -352,6 +390,19 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       job: { pos: 'noun', tags: ['job'] }
     },
     translationTemplate: 'Soy {job_es}.'
+  },
+  {
+    id: 'BP-JOB-02',
+    skillId: 'A1-JOB-01',
+    type: 'fill-blank',
+    title: 'Lugar de Trabajo',
+    instruction: '¿Quién trabaja aquí?',
+    template: 'The {job} works here.',
+    correctSlot: 'job',
+    slots: {
+      job: { pos: 'noun', tags: ['job'] }
+    },
+    translationTemplate: '{el_la_job} {job_es} trabaja aquí.'
   },
   // --- Unit 12: City ---
   {
@@ -368,6 +419,19 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     },
     translationTemplate: '{verb_es} al {place_es}.'
   },
+  {
+    id: 'BP-CITY-02',
+    skillId: 'A1-CITY-01',
+    type: 'fill-blank',
+    title: 'Mi Ciudad',
+    instruction: '¿Qué lugar es este?',
+    template: 'This is my {place}.',
+    correctSlot: 'place',
+    slots: {
+      place: { pos: 'noun', tags: ['city'] }
+    },
+    translationTemplate: 'Esta es mi {place_es}.'
+  },
   // --- Unit 13: Movement ---
   {
     id: 'BP-MOVE-01',
@@ -381,6 +445,18 @@ export const A1_BLUEPRINTS: Blueprint[] = [
       verb: { pos: 'verb', tags: ['movement'] }
     },
     translationTemplate: 'Yo {verb_es} a la escuela.'
+  },
+  {
+    id: 'BP-MOVE-02',
+    skillId: 'A1-MOVE-01',
+    type: 'multiple-choice',
+    title: 'Actividades',
+    instruction: '¿Qué haces en el parque?',
+    template: 'I {verb} in the park.',
+    slots: {
+      verb: { pos: 'verb', tags: ['movement'] }
+    },
+    translationTemplate: 'Yo {verb_es} en el parque.'
   },
   // --- Unit 14: Emotions ---
   {
@@ -430,9 +506,9 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: 'Completa con el dispositivo:',
     template: 'I use a {device} to work.',
     slots: {
-      device: { pos: 'noun', tags: ['tech'] }
+      device: { pos: 'noun', tags: ['tech', 'office'] }
     },
-    translationTemplate: 'Uso un/a {device_es} para trabajar.'
+    translationTemplate: 'Uso {un_una_device} {device_es} para trabajar.'
   },
   // --- Unit 18: Body ---
   {
@@ -442,10 +518,37 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     title: 'Partes del Cuerpo',
     instruction: '¿Con qué parte ves?',
     template: 'I see with my {part}.',
+    correctSlot: 'part',
     slots: {
-      part: { pos: 'noun', tags: ['body'], forcePlural: true }
+      part: { pos: 'noun', tags: ['body', 'sight'], forcePlural: true }
     },
     translationTemplate: 'Veo con mis {part_es}.'
+  },
+  {
+    id: 'BP-BODY-02',
+    skillId: 'A1-BODY-01',
+    type: 'multiple-choice',
+    title: 'Partes del Cuerpo',
+    instruction: '¿Con qué parte hueles?',
+    template: 'I smell with my {part}.',
+    correctSlot: 'part',
+    slots: {
+      part: { pos: 'noun', tags: ['body', 'smell'] }
+    },
+    translationTemplate: 'Huelo con mi {part_es}.'
+  },
+  {
+    id: 'BP-BODY-03',
+    skillId: 'A1-BODY-01',
+    type: 'multiple-choice',
+    title: 'Partes del Cuerpo',
+    instruction: '¿Con qué parte oyes?',
+    template: 'I hear with my {part}.',
+    correctSlot: 'part',
+    slots: {
+      part: { pos: 'noun', tags: ['body', 'hearing'], forcePlural: true }
+    },
+    translationTemplate: 'Oigo con mis {part_es}.'
   },
   // --- Unit 19: Can ---
   {
@@ -524,9 +627,33 @@ export const A1_BLUEPRINTS: Blueprint[] = [
     instruction: 'Completa la frase:',
     template: 'I {action} at 7 AM.',
     slots: {
-      action: { pos: 'verb', tags: ['routine'] }
+      action: { pos: 'verb', tags: ['routine', 'morning_activity'] }
     },
-    translationTemplate: 'Me {action_es} a las 7 AM.'
+    translationTemplate: 'Yo {action_es} a las 7 AM.'
+  },
+  {
+    id: 'BP-ROUT-05',
+    skillId: 'A1-ROUT-01',
+    type: 'multiple-choice',
+    title: 'Rutina Nocturna',
+    instruction: 'Completa con tu actividad:',
+    template: 'I {action} at 11 PM.',
+    slots: {
+      action: { pos: 'verb', tags: ['routine', 'night_activity'] }
+    },
+    translationTemplate: 'Yo {action_es} a las 11 PM.'
+  },
+  {
+    id: 'BP-ROUT-06',
+    skillId: 'A1-ROUT-01',
+    type: 'fill-blank',
+    title: 'Estudios',
+    instruction: 'Completa con el verbo correcto:',
+    template: 'I {action} at the library.',
+    slots: {
+      action: { fixedValues: ['study'] }
+    },
+    translationTemplate: 'Yo {action_es} en la biblioteca.'
   },
   // --- Unit 25: Past ---
   {

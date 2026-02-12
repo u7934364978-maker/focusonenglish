@@ -138,6 +138,13 @@ Create a detailed implementation plan based on `spec.md`.
   - [x] Implement strict word-level gating (Discovery -> Recognition -> Production).
   - [x] Fix reflexive Spanish conjugation in routine templates.
   - [x] Implement Semantic Compatibility Matrix (Preposition vs Surface/Container).
-- [ ] **Task 37: Final Browser Verification & Push**
-  - [ ] Verify all 30 units in `/debug/engine`.
-  - [ ] Perform git push and report commit number.
+- [x] **Task 38: Logic Refinement & Anti-Repetitivity**
+  - [x] Implement gender-matching for family members (He/She vs member_gender).
+  - [x] Refine semantic logic for containers (Food vs Storage).
+  - [x] Remove "El/La" hardcoding in color blueprints.
+  - [x] Expand lexicon for Units 1-15 and 30 to increase variety.
+  - [x] Expand global review pool to prevent repetitiveness when current unit is mastered.
+  - [x] Ensure anatomy verbs (see, smell) strictly match organs (eyes, nose).
+- [x] **Task 37: Final Browser Verification & Push**
+  - [x] Verify all 30 units in `/debug/engine`.
+  - [x] Perform git push and report commit number.
